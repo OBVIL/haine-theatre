@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="http://svn.code.sf.net/p/algone/code/teibook/teibook.css"?>
 <!--odt2tei: 2014-06-14T11:16:37+02:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="voisin_defense_1671">
   <teiHeader>
@@ -230,7 +231,7 @@
       </div>
       <div type="titre1">
         <head>Table des observations, et des réfutations.</head>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre I.</head>
           <div type="titre3">
             <head>I<hi rend="sup">re</hi> Observation.</head>
@@ -252,7 +253,7 @@
             </p>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre II.</head>
           <div type="titre3">
             <head>I<hi rend="sup">re</hi> Observation.</head>
@@ -275,7 +276,7 @@
             <p rend="i">Faux raisonnement de l’Auteur de la Dissertation pour avoir confondu les Allégories, et les Mythologies avec les Mystères ; et pour n’avoir pas connu la différence qu’il y avait entre les choses qui appartenaient à la Théologie fabuleuse, et celles qui appartenaient à la Théologie Naturelle, et à la Civile. Les raisons pour lesquelles les Philosophes Païens improuvaient les Comédies, et les Tragédies, font la conclusion de cette Observation. </p>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre III.</head>
           <div type="titre3">
             <head>I<hi rend="sup">re</hi> Observation.</head>
@@ -294,7 +295,7 @@
             <p rend="i">Où l’on montre que l’Auteur de la Dissertation a falsifié dans sa traduction le texte de Tertullien. </p>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre IV.</head>
           <div type="titre3">
             <head>I<hi rend="sup">re</hi> Réfutation.</head>
@@ -338,7 +339,7 @@
             <p>Les Chapitres V. VI. VII. VIII. ne traitant que de la différence des Acteurs du Théâtre, et de leurs Noms, font tout à fait inutiles, et hors de propos ; car cette distinction des différents Acteurs du Théâtre ne regarde point la Morale, qui ne les distingue que selon la différence de leurs vices, et qui les condamne tous selon qu’ils sont plus, ou moins vicieux.</p>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre IX.</head>
           <div type="titre3">
             <head>I<hi rend="sup">re</hi> Réfutation.</head>
@@ -413,7 +414,7 @@
             <p rend="i">Nos Rois, et les Rois d’Espagne : les Lois Romaines, et le Parlement de Paris ont condamné les Comédies, et leurs Acteurs. </p>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre X.</head>
           <div type="titre3">
             <head>I<hi rend="sup">re</hi> Réfutation.</head>
@@ -475,7 +476,7 @@
             <p rend="i">Salvien condamne les Comédies, et les Tragédies. </p>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre XI.</head>
           <div type="titre3">
             <head>I<hi rend="sup">re</hi> Réfutation.</head>
@@ -503,7 +504,7 @@
             <p rend="i">Les Canons qui défendant de lire les Comédies, défendent aussi par conséquent de les voir représenter. Et cette défense est un précepte, et non pas un simple conseil. </p>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre XII.</head>
           <div type="titre3">
             <head>I<hi rend="sup">re</hi> Réfutation.</head>
@@ -580,7 +581,7 @@
       </div>
       <div type="titre1">
         <head>Refutation d’un livre intitulé Dissertation sur la condamnation des théâtres.</head>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre premier. 
 <lb/><hi rend="i">Que les spectacles des anciens ont fait partie de la Religion Païenne.</hi></head>
           <p>Tout le monde demeure d’accord que les Spectacles des Païens faisaient partie de leur Religion ; de sorte qu’il n’était pas nécessaire que l’Auteur de la Dissertation se mit en peine de le prouver : Et je ne me serais pas aussi arrêté à ce qu’il dit sur ce point, s’il l’eût traité avec exactitude. Mais comme il n’en parle que superficiellement, et sans beaucoup de discernement ; J’ai été obligé de faire quelques observations sur le premier et sur le second chapitre de sa Dissertation.</p>
@@ -692,7 +693,7 @@
             <p><quote>Un serviteur de Dieu</quote>, dit-il encore, <quote>peut aller non seulement en ces lieux où se font les Spectacles, mais aussi aux Temples des faux Dieux sans danger de blesser la discipline Chrétienne, lorsque quelque affaire pressante l’oblige d’y aller ; pourvu que ce ne soit pas pour le sujet des choses qui s’y font. Car il y a des Idoles partout, dans les rues, dans les places publiques, dans les bains, dans les hôtelleries ; et nos maisons mêmes n’en sont pas tout à fait exemptes : Satan et ses Anges ont rempli tout le monde ; Néanmoins nous ne nous écartons pas de Dieu, à cause que</quote><pb n="25" xml:id="p25"/><quote>nous sommes dans le monde, mais nous l’abandonnons lorsque nous nous rendons participants des crimes du monde. Ainsi je quitte Dieu, dedans le Capitole, ou dans le temple de Serapis pour y offrir des sacrifices, ou pour y rendre des adorations ; comme aussi si je vais au Cirque, ou au Théâtre pour être spectateur de ce qui s’y fait. Ce ne sont point les lieux par eux-mêmes qui nous souillent ; mais ce qui nous souille, ce sont les choses qui s’y font, lesquelles rendent ces lieux mêmes impurs, comme nous l’avons montré dans ce discours.</quote></p>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre II, de la <hi rend="i">Dissertation</hi>.
 <lb/><hi rend="i">Que la representation des Comédies et Tragédies était un acte de religion parmi les Grecs, et les Romains.</hi></head>
           <p>Cette proposition est véritable à l’égard de la représentation des Comédies, et des Tragédies dans leur origine et dans leur institution, parce qu’elles ne contenaient que les louanges des Dieux, à l’honneur desquels elles étaient représentées. Mais si l’on prétend que toutes les Comédies, et toutes les Tragédies généralement et sans nulle exception étaient des actes de religion ; Il est aisé défaire voir le contraire parle témoignage même des Païens, qui en condamnent la plupart comme impies, et déshonnêtes, et qui ne servaient qu’à remplir les esprits d’erreurs, et à corrompre les mœurs, ainsi que nous le prouverons dans les observations suivantes.</p>
@@ -922,7 +923,7 @@
             </div>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre III<hi rend="sup">e</hi> de la <hi rend="i">Dissertation</hi>.
 <lb/>Que les anciens Pères de l’Église défendirent aux Chrétiens d’assister aux Jeux du Théâtre, parce que  c’était participer à l’Idolâtrie.</head>
           <p>Il faut voir sur ce sujet la Tradition de l’Église dans le traité que feu Monseigneur le Prince de Conti a composé de la Comédie et des Spectacles.</p>
@@ -985,7 +986,7 @@
             </div>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chap. IV de la <hi rend="i">Dissertation</hi>.
 <lb/>Que la representation des Poèmes Dramatiques ne peut être défendue par la raison des anciens Pères de l’Église.</head>
           <p>L’Auteur de la <hi rend="i">Dissertation</hi> veut dite que les anciens Pères de l’Église ayant défendu la représentation des Poèmes Dramatiques, à cause de l’Idolâtrie dont ils étaient souillés, on ne peut maintenant se servir de cette raison des anciens Pères pour défendre la Comédie de ce temps qui est exempte d’Idolâtrie. C’est ce que nous allons examiner dans la <pb n="63" xml:id="p63"/> réfutation suivante ; avertissant cependant le lecteur que les saints Pères n’ont pas défendu la Comédie seulement a cause de d’Idolâtrie, mais aussi parce qu’elle corrompt les bonnes mœurs, comme nous le serons voir en son lieu.</p>
@@ -1234,19 +1235,19 @@
             </p>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head><hi rend="i">Dissertation</hi> Chapitre V.
 <lb/><hi rend="i">De l’impudence des Jeux Scéniques.</hi></head>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre VI.
 <lb/><hi rend="i">Des Poèmes dramatiques représentés aux Jeux Scéniques.</hi></head>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre VII.
 <lb/><hi rend="i">Que les Acteurs des Poèmes Dramatiques étaient distingués des Histrions et Bateleurs des Jeux Scéniques.</hi></head>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre VIII.
 <lb/><hi rend="i">Erreurs des Modernes sur ce sujet</hi></head>
           <div>
@@ -1261,7 +1262,7 @@
             </div>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre IX.
 <lb/>Que les acteurs des Poèmes Dramatiques n’étaient point infâmes parmi les Romains, mais seulement les Histrions, ou Bateleurs.</head>
           <div type="titre3">
@@ -1555,7 +1556,7 @@
             </div>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>Chapitre X.
 <lb/><hi rend="i">Que l’extrême impudence des Jeux Scéniques et des Histrions fut condamnée.</hi></head>
           <div type="titre3">
@@ -1707,7 +1708,7 @@
             <p><pb n="229" xml:id="p229"/> Certainement il faut avoir l’esprit bien préoccupé pour ne pas voir les impuretés des Comédies dépeintes dans ces paroles de Salvien.</p>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>CHAPITRE XI.
 <lb/><quote>Que les Poèmes Dramatiques n’ont point été condamnés.</quote></head>
           <div type="titre3">
@@ -1864,7 +1865,7 @@
             <p>Or n’est-ce pas un précepte et non un simple conseil, de ne pas faire un crime ? Que si c’est un crime de lire les Comédies pour le plaisir qu’on y prend, c’en est encore un plus grand de les voir représenter. Il faut donc que l’Auteur de la Dissertation ait été bien prévenu de l’erreur de son imagination, et qu’il n’ait point examiné les sentiments des anciens, pour dite : <quote>Je ne sais comment il s’est pu faire que certains Canonistes prévenus de l’erreur public, et sans avoir examiné les sentiments des anciens, ont allégué ces Canons tirés des paroles de Saint Jérôme comme une absolue de la représentation des Poèmes dramatiques. </quote></p>
           </div>
         </div>
-        <div type="titre2">
+        <div type="chapter">
           <head>CHAPITRE XII.
 <lb/><hi rend="i">Que la representation des Comédies et des Tragédies ne doit point être condamnée tant qu’elle sera modeste et honnête.</hi></head>
           <div type="titre3">
