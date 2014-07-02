@@ -97,7 +97,7 @@ else {
   // présentation chronologique des résultats
   echo $pot->chrono();
   // présentation bibliographique des résultats
-  echo $pot->biblio(array('date', 'title', 'occs'));
+  echo $pot->biblio(array('date', 'byline', 'title', 'occs'));
   // concordance s’il y a recherche plein texte
   echo $pot->concByBook();
 }
