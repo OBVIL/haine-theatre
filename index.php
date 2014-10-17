@@ -2,7 +2,12 @@
 ini_set('display_errors', '1');
 error_reporting(-1);
 include (dirname(__FILE__).'/../teipot/Teipot.php');
-$pot=new Teipot(dirname(__FILE__).'/haine-theatre.sqlite', 'fr');
+
+// requêter dans la bonne base
+$path = Web::pathinfo();
+if(strpos($path, 'bibliographie') === 0 || strpos($path, 'seminaire') === 0) $pot = new Teipot(dirname(__FILE__).'/haine-theatre_docs.sqlite', 'fr', $path);
+else $pot=new Teipot(dirname(__FILE__).'/haine-theatre.sqlite', 'fr');
+
 $pot->file($pot->path);
 $teipot=$pot->basehref.'../teipot/';
 $theme=$pot->basehref.'../theme/';
@@ -30,7 +35,7 @@ else echo '
     <div id="center">
       <header id="header">
         <h1>
-          <a href="<?php echo $pot->basehref.'?'.$pot->qsa(); ?>">Obvil, haine du théâtre</a>
+          <a href="<?php echo $pot->basehref; ?>">Obvil, haine du théâtre</a>
         </h1>
       </header>
       <div id="contenu">
