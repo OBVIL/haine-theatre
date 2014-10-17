@@ -7,13 +7,17 @@
     <fileDesc>
       <titleStmt>
         <title>Dissertation sur la condemnation des théâtres</title>
-        <author key="Aubignac, abbé François Hedelin d' (1604-1676)">d’Aubignac</author>
+        <author key="Aubignac, François Hédelin (1604-1676 ; abbé d')">d’Aubignac</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
           <name>Chiara Mainardi</name>
           <resp>Transcription, stylage, XML-TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -23,7 +27,7 @@
         <availability status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p><p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence></availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>d’Aubignac, Dissertation sur la condemnation des théâtres. Paris : 1666, N. Pépingué. <ref target="http://catalogue.bnf.fr/ark:/12148/cb30035477w/PUBLIC"/></bibl>
+        <bibl ref="http://catalogue.bnf.fr/ark:/12148/cb30035477w/PUBLIC"><author>D’Aubignac</author>, <title>Dissertation sur la condemnation des théâtres</title>, <pubPlace>Paris</pubPlace>, <publisher>N. Pépingué</publisher>, <date>1666</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -36,6 +40,7 @@
     </profileDesc>
   </teiHeader>
   <text>
+    <!-- 
     <front>
       <titlePage>
         <titlePart rend="uc">Dissertation sur la
@@ -48,6 +53,7 @@
           <lb/>Avec Privilège du Roi.</docImprint>
       </titlePage>
     </front>
+     -->
     <body>
       <head>Aubignac, 1666, Dissertation…</head>
       <div>
