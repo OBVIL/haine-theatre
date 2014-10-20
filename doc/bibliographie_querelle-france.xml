@@ -7,15 +7,22 @@
       <titleStmt>
         <title>Haine du théâtre<lb/>Bibliographie France</title>
         <title type="sub">(traités, pamphlets, documents, etc.)</title>
-        <author>François Lecercle</author>
+        <author key="Lecercle, François (1950-....)">François Lecercle</author>
       </titleStmt>
       <editionStmt>
         <edition>CRLC-GRAL, Labex OBVIL</edition>
       </editionStmt>
       <publicationStmt>
-        <availability status="restricted"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2014"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/bibliographie_querelle-france/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
+        </availability>
       </publicationStmt>
-      <sourceDesc/>
+      <sourceDesc>
+        <bibl><author>François Lecercle</author>, <title>Haine du théâtre, Bibliographie France (traités, pamphlets, documents, etc.)</title>, <date>2014</date>.</bibl>
+      </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
@@ -25,6 +32,11 @@
         <language ident="fr"/>
       </langUsage>
     </profileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <rendition xml:id="h3.margin" scheme="css">h3 {margin-left:0 !important;}</rendition>
+      </tagsDecl>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body>
@@ -35,8 +47,7 @@
         <p><hi rend="sc">Thirouin</hi> 1998 = <hi rend="sc">Nicole</hi>, Pierre (1625-1695), <hi rend="i">Traité de la comédie et autres pièces d’un procès du théâtre</hi> ; éd. critique de Laurent Thirouin, Paris : Honoré Champion, coll. « Sources classique », 1998, 318 p.</p>
         <p><hi rend="sc">Urbain et Levesque</hi> 1930 = <hi rend="sc">Urbain</hi>, Charles (1852-1930) et <hi rend="sc">Levesque</hi>, Eugène, <hi rend="i">L’Église et le théâtre : Bossuet. Maximes et réflexions sur la comédie</hi> ; précédées d’une introduction historique et accompagnées de documents contemporains et de notes critiques, Paris : B. Grasset, 1930, 311 p.</p>
       </div>
-      <div>
-        <pb/>
+      <div type="bibliography">
         <head>Traités, pamphlets, textes littéraires</head>
         <div>
           <head><hi rend="sc">Anonyme</hi>, <hi rend="i">Récit touchant la Comedie</hi>, 1607</head>
@@ -1899,8 +1910,7 @@
           </list>
         </div>
       </div>
-      <div>
-        <pb/>
+      <div type="bibliography">
         <head>Documents ecclésiastiques</head>
         <div>
           <head><hi rend="sc">Mandements</hi> de l’évêque d’Arras, Guy de Sève de Rochechouart</head>
@@ -1923,7 +1933,7 @@
           <p>Voir <seg rend="fn">Ordonnances synodalles du dioceze de Toulon par Mgr Armand Louis Bonnin de Chalucet… evesque de Toulon, publiées dans son synode le 29ème d’Octobre 1704, Veuve de Pierre-Louis Mallart, 1704, 146 p.</seg></p>
         </div>
         <div>
-          <head><hi rend="sc">Mandements</hi> de l’évêque de Nîmes, Esprit Fléchier :</head>
+          <head><hi rend="sc">Mandements</hi> de l’évêque de Nîmes, Esprit Fléchier</head>
           <p><hi rend="sc">Fléchier</hi>, Valentin Esprit (1632-1710 ; Congrégation de la doctrine chrétienne 1648, Académie française 1672, évêque de Lavaur 1685, puis de Nîmes 1687) : <hi rend="i">Mandement de Monseigneur l’Evesque de Nismes contre les spectacles. Aux Fideles de son Diocese</hi>, Paris : J. Estienne, 1709, in-8º, 8 p. [pages répétées 11 à 23] (Google : <ref target="http://books.google.fr/books ? id=UfhUo0Zy6gkC&amp;hl=fr&amp;source=gbs_navlinks_s"><seg rend="lienhypertexte">http://books.google.fr/books ? id=UfhUo0Zy6gkC&amp;hl=fr&amp;source=gbs_navlinks_s</seg></ref>).</p>
           <p><hi rend="u">Réédition(s)</hi> :</p>
           <list>
@@ -1961,8 +1971,7 @@
           <p>Livre condamné par Clément IX.</p>
         </div>
       </div>
-      <div>
-        <pb/>
+      <div type="bibliography">
         <head>Documents profanes</head>
         <p>N.B. : voir <hi rend="sc">Runnalls</hi> 2004 = <hi rend="sc">Runnalls</hi>, Graham A. : « La Confrérie de la Passion et les Mystères. Recueil de documents relatifs à l’histoire jusqu’au milieu du <num>xvi<hi rend="sup">e</hi></num> siècle », <hi rend="i">Romania</hi>, 122, 2004, p. 135-202. [Publie beaucoup de documents — arrêts du Parlement, ordonnances royales, etc. — sur les représentations de mystères, de 1398 à 1557.]</p>
         <div>
@@ -2014,8 +2023,7 @@
           </list>
         </div>
       </div>
-      <div>
-        <pb/>
+      <div type="bibliography">
         <head>Ouvrages ultérieurs</head>
         <div>
           <head><hi rend="sc">Anonyme</hi>, <seg rend="fn">Protestation contre les spectacles ultra-réalistes, 1908</seg></head>
@@ -2033,6 +2041,3 @@
     </body>
   </text>
 </TEI>
-<!--Error recovered in loaded XML document 
-DOMDocument::loadXML(): xml:id : attribute value _Rivet, _La_Verge is not an NCName in Entity, line: 6
--->
