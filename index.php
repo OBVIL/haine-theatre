@@ -30,6 +30,7 @@ else echo '
     <link rel="stylesheet" type="text/css" href="<?php echo $teipot; ?>html.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $teipot; ?>teipot.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $theme; ?>obvil.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $pot->basehref; ?>semantic/theme/semantic.css" />
     <style>.bibliography h2.head {text-align:left; margin-left: 0;}</style><!-- mise en forme dédiée à la biliographie de F. Lecercle -->
   </head>
   <body>
