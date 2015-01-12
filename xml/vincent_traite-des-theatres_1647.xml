@@ -5,28 +5,46 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="">
   <teiHeader>
     <fileDesc>
-      <titleStmt/>
-      <editionStmt/>
+      <titleStmt>
+        <title>Traité des théâtres</title>
+        <author key="Vincent, Philippe (1600-1651) ">Philippe Vincent</author>
+        <editor key="Lecercle, François (1950-....)">François Lecercle</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Chiara Mainardi</name>
+          <resp>Édition XML-TEI</resp>
+        </respStmt>
+       </editionStmt>
       <publicationStmt>
-        <availability status="restricted"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2015"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/vincent_traite-des-theatres_1647/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p><p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
       </publicationStmt>
-      <sourceDesc/>
+      <sourceDesc>
+        <bibl><title><hi rend="i">Traité des théâtres</hi> par Philippe Vincent</title>, (<date>1647</date>).</bibl>
+      </sourceDesc>
     </fileDesc>
     <profileDesc>
-      <creation/>
+      <creation>
+        <date when="1647"/>
+      </creation>
       <langUsage>
-        <language ident=""/>
+        <language ident="fr"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <p>TRAITTÉ DES THÉÂTRES / PAR /</p>
-      <p rend="i">PH. VINCENT, Ministre du Saint Evangile en l’Eglise Reformée de la Rochelle, / </p>
-      <p>Et se vendent, / A LA ROCHELLE, /</p>
-      <p>Par Jean Chuppin Marchand Libraire, sur la Grand’ Rüe. /</p>
-      <p>M. DC. XLVII.</p>
-      <p><pb n="n.p."/> </p>
+      <head>TRAITTÉ DES THÉÂTRES / PAR / 
+      <lb/> rend "i">PH. VINCENT, Ministre du Saint Evangile en l’Eglise Reformée de la Rochelle, / 
+      <lb/>Et se vendent, / A LA ROCHELLE, /
+      <lb/>Par Jean Chuppin Marchand Libraire, sur la Grand’ Rüe. /
+      <lb/>M. DC. XLVII.</head><pb n="n.p."/> 
       <div>
         <head>A Monsieur et Madame de Vieille Vigne</head>
         <p><hi rend="i">MONSIEUR ET MADAME</hi>,</p>
@@ -34,13 +52,11 @@
         <p><hi rend="i">MONSIEUR et MADAME</hi>,</p>
         <p>A la Rochelle, ce 13. Mars 1647.</p>
         <p>Votre très humble et très obéissant serviteur,</p>
-        <p>PH. VINCENT.</p>
-        <p><pb n="n.p."/> </p>
+        <p>PH. VINCENT.</p><pb n="n.p."/>
       </div>
       <div>
         <head>Avertissement au Lecteur.</head>
-        <p>Lorsqu’on était sur le point de tirer la dernière feuille de ce Traité, Monsieur de Champvernon, très excellent serviteur de Dieu en l’Eglise Réformée de Taillebourg, à qui j’avais communiqué mon dessein de 1e publier, m’en a envoyé un sur ce même sujet, composé dès il y a huit ans, par ce grand Théologien, Monsieur Rivet, son très digne frère<note n="1" place="bottom"> [NdE] Il s’agit de l’<hi rend="i">Instruction chrestienne touchant les spectacles publics des comédies et tragédies, où est décidée la question s’ilz doibvent estre permis par le magistrat (...)</hi>, La Haye, T. Maire, 1639.</note>. J’avoue que si je l’eusse vu auparavant, je ne me fusse pas donné la peine de dresser cetui-ci, et m’eût suffi de faire réimprimer l’autre, dont les exemplaires ne nous étaient pas ici parvenus. Même je l’eusse fait d’autant plus, que, comme le reste des ouvrages de ce rare personnage, cetui-ci est très docte, et très exact. Mais ayant donné connaissance à plusieurs que mon labeur était sous la presse, et l’impression d’icelui étant déjà à sa fin, il n’y avait plus lieu de le retenir. Ainsi je le laisse aller, et avertis seulement le Lecteur, que cet autre Traité a été imprimé à La Haye, chez Théodore Le Maire, l’an 1639, <seg rend="grame">afin</seg> que ceux qui le désireront voir s’en puissent munir. Il sera bon aussi qu’ils y joignent, ce que le même Auteur avait déduit par le menu touchant le même argument, sur le 3 Commandement de la 2<hi rend="sup">e</hi> Table, en son docte <hi rend="i">Commentaire dessus l’Exode</hi><note n="2" place="bottom"> [NdE] Rivet a publié un commentaire de l’Exode, <hi rend="i">Commentarii in librum secundum Mosis qui Exodus apud Graecos inscribitur (</hi>...), La Haye, apud F. Hegerum, 1634, mais il n’y commente pas le chapitre 20 parce qu’il l’a abondamment commenté dans un volume à part (voir pars 1, p. 504). Il s’agit de l’opuscule <hi rend="i">Praelectiones in capit. XX Exodi</hi>, Leyde, s.n., 1632.</note>, lequel, combien que j’eusse par devers moi, je n’avais pas remarqué qu’il y maniât ce sujet, jusques à ce que ce dernier Traité m’en a averti. Ceux qui liront ce qu’il y a couché, et le <pb n="n.p. "/>conféreront avec mon écrit, y trouveront un merveilleux rencontre en divers endroits, soit ès raisons, soit en diverses des autorités : mais ce n’est pas la première fois, que ceux qui traitent même sujet, et lisent mêmes Auteurs, coïncident en leurs observations. Au reste la conformité grande quant à ce qui est des choses, entre le labeur de ce grand homme, et le mien, m’a apporté beaucoup de satisfaction, vu que par là demeure réfutée l’imposture de certains Apologiseurs des Théâtres de par deçà, qui avaient osé coucher de lui, comme s’il les eût mis, de même comme eux, entre les choses indifférentes<note n="3" place="bottom"> [NdE] Nous n’avons pas identifié cet apologiste du théâtre qui a osé se réclamer de Rivet pour affirmer que le théâtre est un <hi rend="i">adiaphoron</hi>, une de ces choses indifférentes en matière de foi sur lesquelles les fidèles sont libres de suivre l’opinion qu’ils veulent.</note> : par ce double écrit tout au rebours, il paraît à clair qu’il en fait tout le même jugement que nous, et qu’il en a publié l’un en une occasion du tout même que celle qui m’a fait mettre la main à la plume. Que s’ils lui avaient imposé pour ce regard, la supposition n’est pas moindre, lors qu’ils ont aussi publié, que Nos très honorés frères, Messieurs les Pasteurs de l’Eglise Réformée de Paris, étaient en leur même sentiment. M’étant donné l’honneur de leur en écrire, sur les bruits que ces gens en faisaient courir, ils repoussent fortement cette calomnie, et me disent expressément « qu’ils ont été surpris, ayant vu en la mienne qu’on employait leurs noms pour autoriser une vanité mondaine, laquelle tous les jours, selon que les textes se rencontrent, ils condamnent en leurs chaires, avec les autres dissolutions, et œuvres infructueuses de ténèbres, entre lesquelles ils la mettent ». Ce sont les propres mots de ces excellents Serviteurs de Dieu ; dont j’ai cru devoir donner l’avis, pour détromper plusieurs, auxquels on couchait d’eux, et faire apparoir de la bonne foi de ceux qui en voulaient faire les partisans de leurs Théâtres, et les autoriser de ces noms célèbres.</p>
-        <p><pb n="1"/> </p>
+        <p>Lorsqu’on était sur le point de tirer la dernière feuille de ce Traité, Monsieur de Champvernon, très excellent serviteur de Dieu en l’Eglise Réformée de Taillebourg, à qui j’avais communiqué mon dessein de 1e publier, m’en a envoyé un sur ce même sujet, composé dès il y a huit ans, par ce grand Théologien, Monsieur Rivet, son très digne frère<note n="1" place="bottom"> [NdE] Il s’agit de l’<hi rend="i">Instruction chrestienne touchant les spectacles publics des comédies et tragédies, où est décidée la question s’ilz doibvent estre permis par le magistrat (...)</hi>, La Haye, T. Maire, 1639.</note>. J’avoue que si je l’eusse vu auparavant, je ne me fusse pas donné la peine de dresser cetui-ci, et m’eût suffi de faire réimprimer l’autre, dont les exemplaires ne nous étaient pas ici parvenus. Même je l’eusse fait d’autant plus, que, comme le reste des ouvrages de ce rare personnage, cetui-ci est très docte, et très exact. Mais ayant donné connaissance à plusieurs que mon labeur était sous la presse, et l’impression d’icelui étant déjà à sa fin, il n’y avait plus lieu de le retenir. Ainsi je le laisse aller, et avertis seulement le Lecteur, que cet autre Traité a été imprimé à La Haye, chez Théodore Le Maire, l’an 1639, <seg rend="grame">afin</seg> que ceux qui le désireront voir s’en puissent munir. Il sera bon aussi qu’ils y joignent, ce que le même Auteur avait déduit par le menu touchant le même argument, sur le 3 Commandement de la 2<hi rend="sup">e</hi> Table, en son docte <hi rend="i">Commentaire dessus l’Exode</hi><note n="2" place="bottom"> [NdE] Rivet a publié un commentaire de l’Exode, <hi rend="i">Commentarii in librum secundum Mosis qui Exodus apud Graecos inscribitur (</hi>...), La Haye, apud F. Hegerum, 1634, mais il n’y commente pas le chapitre 20 parce qu’il l’a abondamment commenté dans un volume à part (voir pars 1, p. 504). Il s’agit de l’opuscule <hi rend="i">Praelectiones in capit. XX Exodi</hi>, Leyde, s.n., 1632.</note>, lequel, combien que j’eusse par devers moi, je n’avais pas remarqué qu’il y maniât ce sujet, jusques à ce que ce dernier Traité m’en a averti. Ceux qui liront ce qu’il y a couché, et le <pb n="n.p. "/>conféreront avec mon écrit, y trouveront un merveilleux rencontre en divers endroits, soit ès raisons, soit en diverses des autorités : mais ce n’est pas la première fois, que ceux qui traitent même sujet, et lisent mêmes Auteurs, coïncident en leurs observations. Au reste la conformité grande quant à ce qui est des choses, entre le labeur de ce grand homme, et le mien, m’a apporté beaucoup de satisfaction, vu que par là demeure réfutée l’imposture de certains Apologiseurs des Théâtres de par deçà, qui avaient osé coucher de lui, comme s’il les eût mis, de même comme eux, entre les choses indifférentes<note n="3" place="bottom"> [NdE] Nous n’avons pas identifié cet apologiste du théâtre qui a osé se réclamer de Rivet pour affirmer que le théâtre est un <hi rend="i">adiaphoron</hi>, une de ces choses indifférentes en matière de foi sur lesquelles les fidèles sont libres de suivre l’opinion qu’ils veulent.</note> : par ce double écrit tout au rebours, il paraît à clair qu’il en fait tout le même jugement que nous, et qu’il en a publié l’un en une occasion du tout même que celle qui m’a fait mettre la main à la plume. Que s’ils lui avaient imposé pour ce regard, la supposition n’est pas moindre, lors qu’ils ont aussi publié, que Nos très honorés frères, Messieurs les Pasteurs de l’Eglise Réformée de Paris, étaient en leur même sentiment. M’étant donné l’honneur de leur en écrire, sur les bruits que ces gens en faisaient courir, ils repoussent fortement cette calomnie, et me disent expressément « qu’ils ont été surpris, ayant vu en la mienne qu’on employait leurs noms pour autoriser une vanité mondaine, laquelle tous les jours, selon que les textes se rencontrent, ils condamnent en leurs chaires, avec les autres dissolutions, et œuvres infructueuses de ténèbres, entre lesquelles ils la mettent ». Ce sont les propres mots de ces excellents Serviteurs de Dieu ; dont j’ai cru devoir donner l’avis, pour détromper plusieurs, auxquels on couchait d’eux, et faire apparoir de la bonne foi de ceux qui en voulaient faire les partisans de leurs Théâtres, et les autoriser de ces noms célèbres.<pb n="1"/> </p>
       </div>
       <div>
         <head>Bref Traité des Théâtres.</head>
