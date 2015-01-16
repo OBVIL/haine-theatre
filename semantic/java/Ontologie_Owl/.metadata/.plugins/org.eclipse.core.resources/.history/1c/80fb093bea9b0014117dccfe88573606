@@ -1,0 +1,90 @@
+package ir;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import tei.TEIManager;
+import util.Parameters;
+
+public class TextAnnotator {
+	
+	private static String START_BODY = "<body>";
+	private static String END_BODY = "</body>";
+	
+	
+	public static String getTEIBody(String text){
+		int start = text.indexOf(START_BODY);
+		int end = text.indexOf(END_BODY);
+		String body = text.substring(start+START_BODY.length(), end);
+		return body;
+	}
+	
+	public static String annotateXMLText(String text){
+		StringBuffer newXMLText = new StringBuffer();
+		text = text.replaceAll("\n", " ");
+		text = text.replaceAll("(</*[a-zA-Z_0-9:=\" ]+/*>)", "\n$1\n");
+		text = text.replaceAll("(\n){2,}", "\n");
+		FileIO.writeFile(text, "body.txt", Parameters.UTF8);
+		
+		String [] elements = text.split("\n");
+		
+		for(String element : elements){
+			if(!element.matches("</*[a-zA-Z_0-9:=\" ]+/*>")){
+				System.out.println(element);
+				String newElement = annotateText(element);
+				newXMLText = newXMLText.append(newElement+"\n");
+				
+			}else{
+				newXMLText = newXMLText.append(element+"\n");
+			}
+		}
+		
+		return newXMLText.toString();
+	}
+	
+	
+	private static String annotateText(String text) {
+		ArrayList<String> textChars = new ArrayList<String>();
+		
+		for(char c : text.toCharArray()){
+			textChars.add(c+"");
+		}
+		HashMap<String, HashMap<String, List<Position>>> annotations = IR._matchWithOntology(text);
+		HashMap<String, List<Position>> conceptMetaData = annotations.get(Parameters.CONCEPT);
+		HashMap<String, List<Position>> individualMetaData = annotations.get(Parameters.INDIVIDUAL);
+		
+		for(String key : conceptMetaData.keySet()){
+			for(Position position : conceptMetaData.get(key)){
+				int start = position.getStart();
+				int end = position.getEnd();
+				String tagStart = "<TERM type=\""+key+"\">"+textChars.get(start);
+				String tagEnd = textChars.get(end)+"</TERM>";
+				textChars.set(start, tagStart);
+				textChars.set(end, tagEnd);
+			}
+		}
+		
+		for(String key : individualMetaData.keySet()){
+			for(Position position : individualMetaData.get(key)){
+				int start = position.getStart();
+				int end = position.getEnd();
+				String tagStart = "<TERM type=\""+key+"\">"+textChars.get(start);
+				String tagEnd = textChars.get(end)+"</TERM>";
+				textChars.set(start, tagStart);
+				textChars.set(end, tagEnd);
+			}
+		}
+		
+		return textChars.toString();
+	}
+
+	public static void main(String [] args){
+		//String text = FileIO.readFile(new File("voisin_defense_1671.xml"), Parameters.UTF8);
+		//String body = getTEIBody(text);
+		String test = "bonjour tout le monde. Je suis Aubignac";
+		System.out.println(annotateText(test));
+	}
+
+}
