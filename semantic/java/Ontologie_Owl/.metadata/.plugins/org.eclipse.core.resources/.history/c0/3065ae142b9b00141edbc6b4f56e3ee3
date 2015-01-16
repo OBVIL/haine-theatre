@@ -1,0 +1,119 @@
+package tei;
+
+import ir.IR;
+
+import java.io.File;
+import java.util.HashMap;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+
+public class TEIReader {
+	
+	 
+	 
+	public static HashMap<String, String> parseTEIFile(String filePath){
+		try{
+			 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+			 DocumentBuilder builder = factory.newDocumentBuilder();
+			 Document document = builder.parse(new File(filePath));
+			 NodeList nodeList = document.getDocumentElement().getChildNodes();
+			 
+			 for(int i = 0 ; i< nodeList.getLength();i++){
+				 Node element = nodeList.item(i);
+				 if(element.getNodeName().equals("text")){
+					 NodeList elements = element.getChildNodes();
+					 for(int j = 0 ; j < elements.getLength(); j++){
+						 Node child = elements.item(j);
+						 if(child.getNodeName().equals("body")){
+							 
+							 NodeList childs = child.getChildNodes();
+							 for(int k = 0 ; k < childs.getLength(); k++){
+								 Node article = childs.item(k);
+								 if(article.getNodeName().equalsIgnoreCase("div")){
+									 if(article.getAttributes().getNamedItem("type") !=null 
+											 && article.getAttributes().getNamedItem("type").getNodeValue().equals("article")){
+										 	System.out.println(article.getTextContent());
+										 	//IR._matchWithOntology(article.getTextContent());
+										 	 NodeList heads = article.getChildNodes();
+											 for(int l = 0 ; l < heads.getLength(); l++){
+												 Node head = heads.item(l);
+												 if(head.getNodeName().equals("head")){
+													 System.out.println(head.getTextContent());
+												 }
+											 }
+										 
+									 }
+										 		
+								 }
+							 }
+							 
+						 }
+					 }
+					 
+				 }
+					 
+			 }
+			
+		}catch(Exception e){
+			
+		}
+		
+		return null;
+		
+	}
+	public static void main(String [] args) throws Exception{
+		 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+		 DocumentBuilder builder = factory.newDocumentBuilder();
+		 Document document = builder.parse(new File("aubignac_dissertation_1666.xml"));
+		 
+		 NodeList nodeList = document.getDocumentElement().getChildNodes();
+		 
+		 for(int i = 0 ; i< nodeList.getLength();i++){
+			 Node element = nodeList.item(i);
+			 if(element.getNodeName().equals("text")){
+				 System.out.println(element+" "+element.getChildNodes().getLength());
+				 NodeList elements = element.getChildNodes();
+				 
+				 for(int j = 0 ; j < elements.getLength(); j++){
+					 Node child = elements.item(j);
+					 
+					 if(child.getNodeName().equals("body")){
+						 System.out.println(child.getNodeName()+" "+child.getChildNodes().getLength());
+						 NodeList childs = child.getChildNodes();
+						 for(int k = 0 ; k < childs.getLength(); k++){
+							 Node div = childs.item(k);
+							 if(div.getNodeName().equalsIgnoreCase("div")){
+								 if(div.getAttributes().getNamedItem("type") !=null 
+										 && div.getAttributes().getNamedItem("type").getNodeValue().equals("article")){
+									 	//System.out.println(div.getTextContent());
+									 NodeList heads = div.getChildNodes();
+									 for(int l = 0 ; l < heads.getLength(); l++){
+										 Node head = heads.item(l);
+										 if(head.getNodeName().equals("head")){
+											 System.out.println(head.getTextContent());
+										 }
+									 }
+									
+									 
+								 }
+									 		
+							 }
+						 }
+						 
+					 }
+				 }
+				 
+			 }
+				 
+		 }
+		
+
+	}
+
+}
