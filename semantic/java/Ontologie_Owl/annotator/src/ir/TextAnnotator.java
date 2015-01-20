@@ -5,8 +5,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import owl.OntologyManager;
 import util.FileIO;
 import util.Parameters;
+import util.TextUtil;
 
 public class TextAnnotator {
 	
@@ -59,25 +61,35 @@ public class TextAnnotator {
 		HashMap<String, List<Position>> individualMetaData = annotations.get(Parameters.INDIVIDUAL);
 		
 		for(String key : conceptMetaData.keySet()){
-			for(Position position : conceptMetaData.get(key)){
-				int start = position.getStart();
-				int end = position.getEnd();
-				String tagStart = "<term type=\""+key+"\">"+textChars.get(start);
-				String tagEnd = textChars.get(end-1)+"</term>";
-				textChars.set(start, tagStart);
-				textChars.set(end-1, tagEnd);
+			String semantic_field = OntologyManager.getOntologyConcept().get(key).getSemanticField();
+			if(semantic_field != null){
+				for(Position position : conceptMetaData.get(key)){
+					int start = position.getStart();
+					int end = position.getEnd();
+					String rend = IR.FORMS_KEYS.get(position.getText().toLowerCase());
+					rend = TextUtil.capitalize(rend).replace(" ", "_");
+					String tagStart = "<term type=\""+semantic_field+"\" rend=\""+rend+"\">"+textChars.get(start);
+					String tagEnd = textChars.get(end-1)+"</term>";
+					textChars.set(start, tagStart);
+					textChars.set(end-1, tagEnd);
+				}
 			}
+			
 		}
 		
 		for(String key : individualMetaData.keySet()){
-			for(Position position : individualMetaData.get(key)){
-				int start = position.getStart();
-				int end = position.getEnd();
-				String tagStart = "<term type=\""+key+"\">"+textChars.get(start);
-				String tagEnd = textChars.get(end-1)+"</term>";
-				textChars.set(start, tagStart);
-				textChars.set(end-1, tagEnd);
+			String semantic_field = OntologyManager.getIndividualHashMap().get(key).getFormatting();
+			if(semantic_field != null){
+				for(Position position : individualMetaData.get(key)){
+					int start = position.getStart();
+					int end = position.getEnd();
+					String tagStart = "<term type=\""+semantic_field+"\" rend=\""+key.replace(" ", "_")+"\">"+textChars.get(start);
+					String tagEnd = textChars.get(end-1)+"</term>";
+					textChars.set(start, tagStart);
+					textChars.set(end-1, tagEnd);
+				}
 			}
+			
 		}
 		text = "";
 		

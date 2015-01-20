@@ -18,7 +18,9 @@ public class OWL_Writer {
 			String ind = "  <Autorité rdf:ID=\""+label+"\">\n"+
 	    "<rdfs:label rdf:datatype=\"http://www.w3.org/2001/XMLSchema#string\"\n"+
 	    ">"+label+"</rdfs:label>\n"+
-	  "</Autorité>\n";
+	    "<Champ_Sémantique rdf:datatype=\"http://www.w3.org/2001/XMLSchema#string\"\n"+
+	    ">Autorité</Champ_Sémantique>\n"+
+	    "</Autorité>\n";
 		individual = individual+ind;
 			
 			

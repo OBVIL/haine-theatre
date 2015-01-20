@@ -9,6 +9,7 @@ public class Concept {
 	private String uri = "";
 	private String localName = "";
 	private String definition = "";
+	private String semantic_field = "";
 	private Set<String> labels = new HashSet<String>();
 	private Set<String> linguistic_signs = new HashSet<String>();
 	private Set<String> exact_linguistic_signs = new HashSet<String>();
@@ -16,8 +17,16 @@ public class Concept {
 	private Set<String> childrens = new HashSet<String>();
 	private ArrayList<Individual> individuals = new ArrayList<Individual>();
 	
-
 	
+	
+	public String getSemanticField() {
+		return semantic_field;
+	}
+
+	public void setSemanticField(String semantic_field) {
+		this.semantic_field = semantic_field;
+	}
+
 	public Concept(){
 		
 	}

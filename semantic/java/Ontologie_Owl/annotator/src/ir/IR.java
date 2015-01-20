@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -34,8 +35,9 @@ class StringComparator implements Comparator<String> {
 }
 
 public class IR {
+	// building term unique value for the TEI file
+	public static HashMap<String, String> FORMS_KEYS = new HashMap<String, String>();
 	
-			
 	public static List<Position> matchTerm(String term, String text){
 		List<Position> positions = new ArrayList<Position>();
 		try{
@@ -272,7 +274,13 @@ public class IR {
 			if(!terms.isEmpty()){
 				Set<String> forms = new HashSet<String>();
 				for(String term : terms){
-					forms.addAll(Morphalou.getTermForms(term));
+					Set<String> _forms = Morphalou.getTermForms(term);
+					Iterator<String> iter = _forms.iterator();
+					while(iter.hasNext()){
+						String element = iter.next();
+						FORMS_KEYS.put(element.toLowerCase(), term);
+					}
+					forms.addAll(_forms);
 				}
 				terms.clear();
 				terms.addAll(forms);
@@ -286,7 +294,13 @@ public class IR {
 			if(!exact_terms.isEmpty()){
 				Set<String> forms = new HashSet<String>();
 				for(String exact_term : exact_terms){
-					forms.addAll(Morphalou.getTermForms(exact_term));
+					Set<String> _forms = Morphalou.getTermForms(exact_term);
+					Iterator<String> iter = _forms.iterator();
+					while(iter.hasNext()){
+						String element = iter.next();
+						FORMS_KEYS.put(element.toLowerCase(), exact_term);
+					}
+					forms.addAll(_forms);
 				}
 				exact_terms.clear();
 				exact_terms.addAll(forms);

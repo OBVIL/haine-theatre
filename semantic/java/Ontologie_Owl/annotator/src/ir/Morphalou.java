@@ -8,6 +8,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import util.Parameters;
+import util.TextUtil;
 
 public class Morphalou {
 	
@@ -53,27 +54,7 @@ public class Morphalou {
 		
 	}
 	
-	private static String capitalize(String term){
-		String [] tokens = term.split(" ");
-		String newTerm = "";
-		for(String token : tokens){
-			newTerm = newTerm + " " + token.substring(0, 1).toUpperCase() + token.substring(1);
-		}
 		
-		return newTerm.trim();
-		
-	}
-	
-	private static boolean isCapitalize(String term){
-		String [] tokens = term.split(" ");
-		
-		for(String token : tokens){
-			if(!Character.isUpperCase(token.charAt(0)))
-				return false;
-		}
-		return true;
-	}
-	
 	public static Set<String> getTermForms(String term){
 		loadMorphalou();
 		Set<String> forms = new HashSet<String>();
@@ -83,10 +64,10 @@ public class Morphalou {
 		if(lemma != null){
 			Set<String> results =  morphalouForms.get(lemma);
 			if(results != null){
-				boolean isCapitalize = isCapitalize(term);
+				boolean isCapitalize = TextUtil.isCapitalize(term);
 				for(String form : results){
 					if(isCapitalize){
-						form = capitalize(form);
+						form = TextUtil.capitalize(form);
 					}
 					forms.add(form);
 				}
