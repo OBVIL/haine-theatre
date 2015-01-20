@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="beaulieu_premiere-atteinte_1603">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>La première atteinte contre ceux qui accusent les comédies / par une demoiselle françoise</title>
+<author key="Beaulieu, Mlle de.">Mademoiselle de Beaulieu</author>
+</titleStmt>
+<editionStmt>
+<edition>OBVIL</edition>
+<respStmt>
+<name>Clotilde Thouret</name>
+<resp>Édition</resp>
+</respStmt>
+<respStmt>
+<name>Chiara Mainardi</name>
+<resp>Stylage, XML-TEI</resp>
+</respStmt>
+<respStmt>
+<name>François Lecercle</name>
+<resp>EÉdition</resp>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+<date when="2014"/>
+<idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/beaulieu_premiere-atteinte_1603/</idno>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p><p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl><author>Mademoiselle de Beaulieu</author>, <title>La première atteinte contre ceux qui accusent les comédies. Par une demoiselle françoise</title>, <pubPlace>Paris</pubPlace>, <publisher>Jean Richer</publisher>, <date>1603</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<creation>
+<date when="1603"/>
+</creation>
+<langUsage>
+<language ident="fr"/>
+</langUsage>
+</profileDesc>
+</teiHeader>
+<text>
+<!--
+<front>
+<titlePage>
+<docTitle>
+<titlePart>LA PREMIÈRE ATTEINTE CONTRE CEUX QUI accusent les Comédies.</titlePart>
+</docTitle>
+<docAuthor>Par une Demoiselle Française.</docAuthor>
+<docImprint>
+A P A R I S.
+<lb/>Par Jean Richer, tenant sa boutique au Palais, sur le perron vis-à-vis de la galerie par où on va à la Chancellerie,
+<lb/>1603.<pb n="np"/>
+</docImprint>
+</titlePage>
+</front>
+-->
+<body>
+<head>Beaulieu, 1603, Première atteinte…</head>
+<div type="dedication">
+<head>
+A Madame de Nemours
+</head>
+<p rend="corpotesto i">MADAME,</p>
+<p>Comme il vous a plu être la première cause de l’<term type="Sentiment_Positif" rend="Honneur">honneur</term> que j’ai reçu d’un <term type="Classe_Sociale" rend="Prince">Prince</term> accompli de tant de grâces qu’il ne s’y peut rien ajouter que le <term type="Amour" rend="Désir">désir</term> qu’elles soient perpétuelles : j’ai pensé que vous aurez <term type="Sentiment_Positif" rend="Agréable">agréable</term>, Madame, que je vous en remercie très humblement, et offre pour lui donner ce discours, et ces petits vers ; si vous les rejetez, pour être éclos de mon ignorance, recevez-les étant conçus de sa perfection : et que la vôtre me pardonne, Madame, si à l’imitation de ces pauvres qui ne voulaient porter les fleurs aux <term type="Religion" rend="Dieu">Dieux</term>, que le Soleil ne les eût rayonnées, je conjure et supplie votre <term type="Morale_Positive" rend="Vertu">vertu</term> de les éclairer de<pb n="np"/>sa lumière, leur donner l’odeur et la couleur pour les rendre offrande pure et <term type="Morale_Positive" rend="Digne">digne</term> de l’<term type="Religion" rend="Autel">Autel</term> ; le <term type="Morale_Positive" rend="Respect">respect</term> et la crainte m’en eussent retenue<note resp="editor">[NDE] Le texte original est : « le <term type="Morale_Positive" rend="Respect">respect</term> et la crainte m’en ont retenue » ; la main d’un lecteur a corrigé en : « m’en eu retenue ».</note>, sans l’assurance que j’ai prise que vous imiterez ces corps célestes dont l’influence passe sur tous les Eléments, et s’arrête en la terre pour sa nécessité. Faites ainsi en la mienne, Madame, qui m’empêche de mettre ici mon nom, jugeant que vous me remarquerez comme ces Cités désertes qui sont connues des passants par leur pauvreté : si je le suis de toutes choses, que ce ne soit pas de votre faveur. Et comme vos effets ont appuyé votre nom d’une louange éternelle, qu’elle me fasse l’<term type="Sentiment_Positif" rend="Honneur">honneur</term> de me permettre, après avoir prié <term type="Religion" rend="Dieu">Dieu</term> qu’il ajoute à la couronne de vos <term type="Sentiment_Positif" rend="Gloire">gloires</term> et de votre postérité celle de toutes bénédictions, le titre, Madame, de</p>
+<signed rend="i">Votre très humble, très fidèle obéissante et obligée servante, M. D. B. </signed>
+<pb n="n.p."/> 
+</div>
+<div type="dedication">
+<head>A Monseigneur le duc de Nemours</head>
+<p>Monsieur,</p>
+<p>Encore que ce petit discours ne soit <term type="Morale_Positive" rend="Digne">digne</term> de la grandeur de votre esprit, j’ai cru que vous me feriez l’<term type="Sentiment_Positif" rend="Honneur">honneur</term> de l’accepter, non tant pour vous satisfaire, que pour honorer ma nécessité, qui espère que vous <term type="Sentiment_Positif" rend="Estime">estimerez</term> l’effet pour le mérite de la cause, et un pauvre don d’un riche <term type="Amour" rend="Désir">désir</term> : le mien n’a rien de plus cher que le <term type="Morale_Positive" rend="Respect">respect</term> qu’il rend en <term type="Amour" rend="Affection">affection</term> à vos perfections, Monsieur, qui enrichissent le monde, remplissent les âmes d’<term type="Morale_Positive" rend="Admiration">admiration</term>, l’univers de <term type="Sentiment_Positif" rend="Gloire">gloire</term>, et cette grande Princesse (vive image de la <term type="Morale_Positive" rend="Vertu">vertu</term> de nos antiques <term type="Classe_Sociale" rend="Roi">Rois</term>) de contentement, voyant plus louer la personne que le <term type="Classe_Sociale" rend="Prince">Prince</term>, parce qu’il est aussi grand de mérite que de nom, en l’un la<pb n="n.p."/>pensée manque, en l’autre la voix se perd : Et pour ne perdre cette petite œuvre, j’ai pris la <term type="Sentiment_Positif" rend="Hardiesse">hardiesse</term> de l’appuyer du vôtre, Monsieur, jugeant qu’il n’aura faveur ni lumière que celle qu’il tirera de vous, qui portez en terre les grâces du Ciel où il éclairera ses ténèbres : Et parce qu’en l’entreprise <term type="Sentiment_Positif" rend="Glorieux">glorieuse</term> la faute est <term type="Morale_Positive" rend="Digne">digne</term> de pardon, j’ai cru que vous y serez aussi prompt, Monsieur, comme je vous ai vu libéral aux louanges de l’esprit de la Signore  Isabelle, dont les <term type="Théâtre" rend="Comédie">Comédies</term> se peuvent maintenir, puisque vous les avez jugées, Monsieur, un <term type="Amour" rend="Plaisir">plaisir</term> semblable aux repos des Avettes, où il n’y a souillure, pollution, ni amertume : la crainte que mes paroles en apportent aux douceurs de vos Muses, me fera finir, et en toute l’humilité que je puis, vous baiser les mains, et supplier me permettre la <term type="Sentiment_Positif" rend="Gloire">gloire</term> de me qualifier, Monsieur,</p>
+<signed rend="i">Votre très humble, très obéissante, et très fidèle servante. </signed>
+<pb n="n.p."/> 
+</div>
+<div type="dedication">
+<head>A Monseigneur de Nemours</head>
+<head>Stances</head>
+<l rend="i">Esprits animés de l’envie</l>
+<l rend="i">De revivre après votre vie,</l>
+<l rend="i">Si par un soin ambitieux,</l>
+<l rend="i">Craignant que votre nom ne tombe</l>
+<l rend="i">En silence dessous la tombe</l>
+<l rend="i">Vous cherchez la cause des Cieux.</l>
+<l/>
+<l rend="i">Les effets, la course admirable</l>
+<l rend="i">De ce <term type="Sentiment_Positif" rend="Beau">bel</term> Astre infatigable,</l>
+<l rend="i">Désireux de revoir un jour</l>
+<l rend="i">Athènes et la Philosophie,</l>
+<l rend="i">Je vous laisse Amants de Sophie</l>
+<l rend="i">L’<term type="Sentiment_Positif" rend="Honneur">honneur</term> de cet heureux séjour.</l>
+<l/>
+<l rend="i">Et en ce labeur invincibles,</l>
+<l rend="i">De ces petits corps divisibles</l>
+<l rend="i">Dire que le monde fut fait,</l>
+<l rend="i">Qu’il est engendré de mélanges,</l>
+<l rend="i">Guidé de son sort ou des Anges</l>
+<l rend="i">Que d’un en autre il se refait.</l>
+<l/>
+<l rend="i">Pour moi qui ai l’âme craintive</l>
+<l rend="i">Je ne veux sonder cette rive,</l>
+<l rend="i">La nature du vrai j’ai pris,</l>
+<l rend="i">A dépeindre et tracer l’histoire,</l>
+<l rend="i">Dont la vérité sert de <term type="Sentiment_Positif" rend="Gloire">gloire</term>,</l>
+<l rend="i">Et l’art de honte à mes écrits.</l>
+<l/>
+<l><pb n="n.p."/>Un jour que dans l’humide plein </l>
+<l rend="i">Phœbus allait reprendre haleine,</l>
+<l rend="i">Et chasser de son œil riant</l>
+<l rend="i">La nuit de ceux qui n’ont lumière</l>
+<l rend="i">Que lors qu’il finit la carrière</l>
+<l rend="i">Qui leur commence l’Orient ;</l>
+<l/>
+<l rend="i">Je vis au séjour qui bannit les <term type="Morale_Négative" rend="Vice">vices</term>,</l>
+<l rend="i">Et au Paradis des esprits,</l>
+<l rend="i">Une lumière de merveille,</l>
+<l rend="i">Une Musique nonpareille,</l>
+<l rend="i">Qui environnait ce pourpris.</l>
+<l/>
+<l rend="i">L’un dit que c’est Junon saisie</l>
+<l rend="i">Ou d’amour, ou de jalousie,</l>
+<l rend="i">Qui fait voleter les Zéphyrs,</l>
+<l rend="i">Joncher un lit de violettes,</l>
+<l rend="i">De roses, de lys, de fleurettes,</l>
+<l rend="i">Qu’ils parfument de leurs soupirs.</l>
+<l/>
+<l rend="i">L’autre que Jupiter en l’âme</l>
+<l rend="i">Couve quelque nouvelle flamme,</l>
+<l rend="i">Que nouveau signe on le verrait,</l>
+<l rend="i">Ainsi comme il vint ravir Lede,</l>
+<l rend="i">En Vénus trouver le remède</l>
+<l rend="i">Au doux feu qui le martyrait.</l>
+<l/>
+<l rend="i">Ou bien quelque angélique essence</l>
+<l rend="i">Qui ne veut souffrir la puissance</l>
+<l rend="i">Du lance-foudre Jupiter :</l>
+<l rend="i">Ou l’Amour d’une cause feinte</l>
+<l rend="i">Qui de son trait donne une atteinte</l>
+<l rend="i">Aux immortels pour l’irriter.</l>
+<l/>
+<l rend="i">Je dis que c’est la <term type="Sentiment_Positif" rend="Beau">belle</term> Astrée</l>
+<l rend="i">Qui visite notre contrée,</l>
+<l rend="i">Laissant le ciel veuf de ses yeux :</l>
+<l rend="carpredefinitoparagrafo">Mais j’entends la voix d’un Oracle </l>
+<l><pb n="n.p."/>Qui dit, c’est un autre miracle </l>
+<l rend="i">Pour trouver en terre les Cieux.</l>
+<l/>
+<l rend="i">Ha ! ce sont les doctes pucelles,</l>
+<l rend="i"><term type="Religion" rend="Saint">Saintes</term>, divines, immortelles,</l>
+<l rend="i">Les <term type="Morale_Positive" rend="Chaste">chastes</term> <term type="Classe_Sociale" rend="Vierge">vierges</term>, les neuf sœurs,</l>
+<l rend="i">Qui viennent en notre Province,</l>
+<l rend="i"><term type="Sentiment_Positif" rend="Admirer">Admirer</term> et chérir un <term type="Classe_Sociale" rend="Prince">Prince</term></l>
+<l rend="i">Qui se nourrit de leurs douceurs.</l>
+<l/>
+<l rend="i">Alors de la céleste trope</l>
+<l rend="i">Commence à parler Calliope,</l>
+<l rend="i">Disant, notre los abattu</l>
+<l rend="i">S’écoulait ainsi comme l’onde ;</l>
+<l rend="i">Quand ce <term type="Classe_Sociale" rend="Prince">Prince</term>, l’<term type="Sentiment_Positif" rend="Honneur">honneur</term> du monde,</l>
+<l rend="i">L’a relevé par sa <term type="Morale_Positive" rend="Vertu">vertu</term>.</l>
+<l/>
+<l rend="i"><term type="Classe_Sociale" rend="Prince">Prince</term> des Muses la lumière,</l>
+<l rend="i">Quelle ira de nous la première</l>
+<l rend="i">En cet Océan pour ramer ?</l>
+<l rend="i">La petite barque qui nage</l>
+<l rend="i">Sur un ruisseau tient le naufrage</l>
+<l rend="i">Assuré dans une grand’Mer.</l>
+<l/>
+<l rend="i">Qui dira qu’aux fleurs de jeunesse</l>
+<l rend="i">Tu produis les fruits de vieillesse</l>
+<l rend="i">Mûris au Soleil du Printemps,</l>
+<l rend="i">D’un mérite qui te réserve</l>
+<l rend="i">Jeune, <term type="Classe_Sociale" rend="Fils">fils</term> aîné de Minerve,</l>
+<l rend="i">Un triomphe dessus le temps.</l>
+<l/>
+<l rend="i">Henri parfait qui nous embrasse</l>
+<l rend="i">Ta <term type="Classe_Sociale" rend="Mère">mère</term> cultivant Parnasse</l>
+<l rend="i">Nourrit un <term type="Autorité" rend="Apollon">Apollon</term> vainqueur</l>
+<l rend="i">De l’Hydre rampant d’ignorance,</l>
+<l rend="i">T’allaitant au lait de science,</l>
+<l rend="i">Qui source toujours en son cœur.</l>
+<l/>
+<l rend="i">Princesse que l’<term type="Sentiment_Positif" rend="Honneur">honneur</term> honore,</l>
+<l rend="carpredefinitoparagrafo">Tu vois au lever de l’aurore </l>
+<l><pb n="n.p."/>De ton <term type="Classe_Sociale" rend="Fils">fils</term>, renaître un Soleil,</l>
+<l rend="i">Luisant d’autant de gentillesses</l>
+<l rend="i">Qu’on a vu briller de sagesses</l>
+<l rend="i">Aux feux divins de ton <term type="Sentiment_Positif" rend="Beau">bel</term> œil.</l>
+<l/>
+<l rend="i">Grand <term type="Classe_Sociale" rend="Prince">Prince</term> qui sais toute chose,</l>
+<l rend="i">Si quelques <term type="Religion" rend="Foi">fois</term> tu te propose</l>
+<l rend="i">La course en un mont ou un val,</l>
+<l rend="i">Ou qu’un genêt tu veuilles prendre,</l>
+<l rend="i">Tu nous fais revoir Alexandre</l>
+<l rend="i">Qui redompte encor son cheval.</l>
+<l/>
+<l rend="i">Mais s’il faut le plan d’une ville</l>
+<l rend="i">Tu peins et en ligne subtille</l>
+<l rend="i">Tu sais comprendre l’univers,</l>
+<l rend="i">Et comme un second Archimède,</l>
+<l rend="i">Bien qu’à toi-même tu ne cède</l>
+<l rend="i">Pour écrire en prose et en vers.</l>
+<l/>
+<l rend="i">Puis laissant la Mathématique,</l>
+<l rend="i">Pour repos tu prends la Musique,</l>
+<l rend="i">Et redonnant la vie aux Airs,</l>
+<l rend="i">Aussitôt que tu t’y récrée,</l>
+<l rend="i">Le ton de ta voix ensucrée</l>
+<l rend="i">Met les Sirènes dans les Airs.</l>
+<l/>
+<l rend="i"><term type="Sentiment_Positif" rend="Beau">Belle</term> et rare fleur de science,</l>
+<l rend="i">Qui jeune est chenu de prudence,</l>
+<l rend="i">Nos cœur seront à l’avenir</l>
+<l rend="i">Un trône à l’<term type="Religion" rend="Autel">autel</term> de ta <term type="Sentiment_Positif" rend="Gloire">gloire</term>,</l>
+<l rend="i">Pour éterniser ta mémoire</l>
+<l rend="i">Par un immortel souvenir.</l>
+<l/>
+<l rend="i">Heureux <term type="Classe_Sociale" rend="Fils">fils</term> d’une sage <term type="Classe_Sociale" rend="Mère">mère</term>,</l>
+<l rend="i">Portrait des prouesses d’un <term type="Classe_Sociale" rend="Père">père</term>,</l>
+<l rend="i">Dont tu secondes la valeur,</l>
+<l rend="i">Pour louer tant d’Astres ensemble ;</l>
+<l rend="i">Au peintre sans art je ressemble,</l>
+<l rend="i">Qui met l’ombre au lieu de couleur.</l>
+<l/>
+<l><pb n="n.p."/>Je sais ainsi que ceux d’Egypte,</l>
+<l rend="i">Connaissant la force petite</l>
+<l rend="i">De mon œil contre les efforts</l>
+<l rend="i">Des rais de cette grand’ lumière,</l>
+<l rend="i">Il vont dessus une rivière,</l>
+<l rend="i">Adorer l’ombre pour le corps.</l>
+<l/>
+<l rend="i">Non je suis une Aigle assurée</l>
+<l rend="i">Qui vole en la voûte Ethérée,</l>
+<l rend="i">Pour m’éclairer en la splendeur</l>
+<l rend="i">D’un Ciel qui ne voit rien de sombre,</l>
+<l rend="i">La distance dissipe l’ombre,</l>
+<l rend="i">Et je m’éclaire en ta grandeur.</l>
+<l><pb n="n.p."/> </l>
+</div>
+<div type="titolo1">
+<head>A Mlle de Guise</head>
+<p rend="h1sub">STANCES.</p>
+<l rend="i">Amour ce petit folâtre</l>
+<l rend="i">Se venait un jour ébattre</l>
+<l rend="i">Sur ce teint délicieux,</l>
+<l rend="i">D’œillets, de lys, et de roses</l>
+<l rend="i">Où mille grâces écloses</l>
+<l rend="i">Luy firent trouver les Cieux.</l>
+<l/>
+<l rend="i">Superbe ses traits il lance,</l>
+<l rend="i">Vous d’invincible puissance</l>
+<l rend="i">L’emprisonnez en vos yeux :</l>
+<l rend="i">Il dit, là je me demande,</l>
+<l rend="i">D’en haut la force est plus grande,</l>
+<l rend="i">Je ne pouvais être mieux.</l>
+<l/>
+<l rend="i">Là il aiguise ses flèches,</l>
+<l rend="i">Scintille mille flammèches,</l>
+<l rend="i">Rend mille cœurs abattus :</l>
+<l rend="i">Là il montre que ses <term type="Guerre" rend="Arme">armes</term></l>
+<l rend="i">Prennent forces dans les charmes</l>
+<l rend="i">De vos célestes <term type="Morale_Positive" rend="Vertu">vertus</term>.</l>
+<l/>
+<l rend="i">Lors les Muses désireuses,</l>
+<l rend="i">De vos grâces amoureuses,</l>
+<l rend="i">Se logèrent dans le cœur :</l>
+<l rend="i">Python où l’œillet respire</l>
+<l rend="i">L’<term type="Sentiment_Positif" rend="Honneur">honneur</term>, du front tient l’Empire</l>
+<l rend="i">Comme un <term type="Sentiment_Positif" rend="Glorieux">glorieux</term> vainqueur.</l>
+<l/>
+<l rend="i">Or dites-moi ma Princesse,</l>
+<l rend="i">Non, mais humaine Déesse,</l>
+<l><pb n="n.p."/>Qui se pourra désormais </l>
+<l rend="i">Garantir, bien qu’il s’efforce</l>
+<l rend="i">Contre la puissante force</l>
+<l rend="i">Qui ne vous laisse jamais.</l>
+<l/>
+<l rend="i">Minerve tient la pensée</l>
+<l rend="i">La <term type="Morale_Positive" rend="Vertu">vertu</term> l’âme enlassée<note resp="editor">[NDE] Comprendre : Minerve tient la pensée enlacée, la <term type="Morale_Positive" rend="Vertu">vertu</term> tient l’âme enlacée.</note>,</l>
+<l rend="i">Les amours rient en l’œil,</l>
+<l rend="i">La troupe divine ensemble</l>
+<l rend="i">En ce <term type="Sentiment_Positif" rend="Beau">bel</term> esprit assemble</l>
+<l rend="i">Les clartés de ce Soleil.</l>
+<l/>
+<l rend="i">Puisque tout vous favorise</l>
+<l rend="i">Nous ferons une entreprise,</l>
+<l rend="i">De vous vaincre sans danger :</l>
+<l rend="i">C’est que dedans une année</l>
+<l rend="i">Un bienheureux Hyménée</l>
+<l rend="i">Vous prendra pour nous venger.</l>
+<l><pb n="n.p."/> </l>
+<p rend="h1sub">STANCES SUR LA MAIN DE M<hi rend="sup">lle</hi> de Guise.</p>
+<l rend="i">Divine main, perle d’élite,</l>
+<l rend="i"><term type="Sentiment_Positif" rend="Beau">Belle</term> dont le rare mérite</l>
+<l rend="i">Sert aux cœurs de douce prison ;</l>
+<l rend="i">Si l’œil qui te voit ne s’engage,</l>
+<l rend="i">C’est l’âme qui faut de courage,</l>
+<l rend="i">Ou l’Esprit manque de raison.</l>
+<l/>
+<l rend="i">Main qui triomphe de la <term type="Sentiment_Positif" rend="Gloire">gloire</term>,</l>
+<l rend="i">Geolière qui tiens la <term type="Guerre" rend="Victoire">victoire</term></l>
+<l rend="i">Dessus toutes les libertés :</l>
+<l rend="i">Si dans cette prison enclose</l>
+<l rend="i">Il faut désirer quelque chose,</l>
+<l rend="i">C’est des yeux pour voir tes beautés.</l>
+<l/>
+<l rend="i"><term type="Sentiment_Positif" rend="Beau">Belle</term> sans art, ton artifice</l>
+<l rend="i">Est aussi grand que la malice</l>
+<l rend="i">De ce <term type="Religion" rend="Dieu">Dieu</term>, qui par les attraits</l>
+<l rend="i">De tes yeux met tout en <term type="Morale_Négative" rend="Désordre"><term type="Sentiment_Négatif" rend="Désordre">désordre</term></term> :</l>
+<l rend="i">Car rangeant tes cheveux en ordre,</l>
+<l rend="i">Tu fournis de corde et de traits.</l>
+<l/>
+<l rend="i">Unique bien que tout respire</l>
+<l rend="i">L’esprit captif sous ton Empire,</l>
+<l rend="i">Chérit l’<term type="Sentiment_Positif" rend="Honneur">honneur</term> de son tourment,</l>
+<l rend="i">Retenu en tes douces gênes<note resp="editor">[NDE] Ses douces tortures.</note>,</l>
+<l rend="i">Mourir enlacé de tes chaines</l>
+<l rend="i">C’est vivre au vrai contentement.</l>
+<l/>
+<l><pb n="n.p."/>Je n’aurai donc jamais envie </l>
+<l rend="i">De cette liberté ravie,</l>
+<l rend="i">Serait envier son <term type="Amour" rend="Plaisir">plaisir</term> :</l>
+<l rend="i">S’il est permis que je regrette,</l>
+<l rend="i">C’est la perte n’en fût faite,</l>
+<l rend="i">Si tôt que j’en eus le <term type="Amour" rend="Désir">désir</term>.</l>
+<l/>
+<l rend="i">Mignarde main, mon ciel, ma flamme</l>
+<l rend="i">Soleil de glace qui enflamme</l>
+<l rend="i">Les Héros, les <term type="Classe_Sociale" rend="Prince">Princes</term>, les Cieux :</l>
+<l rend="i">Si le <term type="Morale_Positive" rend="Chaste">chaste</term> feu de Cyprine</l>
+<l rend="i">N’a jamais atteint ta poitrine,</l>
+<l rend="i">Pourquoi donc s’embrasent les <term type="Religion" rend="Dieu">Dieux</term> ?</l>
+<l/>
+<l rend="i">Ce feu <term type="Religion" rend="Saint">saint</term>, l’<term type="Sentiment_Positif" rend="Honneur">honneur</term> des <term type="Religion" rend="Vestale">Vestales</term>,</l>
+<l rend="i">Echauffe les âmes Royales,</l>
+<l rend="i">Des <term type="Morale_Positive" rend="Vertu">vertus</term> qui la font aimer :</l>
+<l rend="i">Et comme la lampe divine,</l>
+<l rend="i">Qui brillant, éclaire, illumine</l>
+<l rend="i">Elle reluit sans consommer.</l>
+<l><pb n="1"/> </l>
+</div>
+<div type="titolo1">
+<head>LA PREMIÈRE ATTEINTE CONTRE CEUX QUI ACCUSENT LES COMÉDIES</head>
+<byline>Par une Demoiselle <term type="Origine" rend="Français">Française</term>.</byline>
+<p>Nous sommes en un temps où il se trouve des esprits semblables aux corps malades, qui s’offensent  de toutes choses, et méprisent ce qu’ils ne peuvent imiter.</p>
+<p>Ils veulent tout réformer, et sont si difformes, que les objets plus <term type="Sentiment_Positif" rend="Agréable">agréables</term> sont <pb n="1v"/> des chimères à leurs yeux blessés.</p>
+<p>Tout gouvernement leur déplaît, la police les offense, se persuadant qu’il y a des temps où <term type="Religion" rend="Dieu">Dieu</term> tient de sa main le gouvernail de ce grand vaisseau du monde, que parfois il le laisse, comme à présent ; et qu’il s’en va périr s’ils n’en sont les pilotes, ayant la charge de commander aux intelligences motrices des sphères célestes, de suivre le mouvement, la cadence, et le pas de leurs fantaisies, qui renverserait l’univers s’ils pouvaient trouver le point ferme, et les machines <pb n="2"/> d’Archimède : ainsi leurs desseins menacent le ciel, leurs <term type="Amour" rend="Désir">désirs</term> volent sur les nues, et leurs raisons se cachent en la poudre. Ils font comme les araignées, qui sans matière ni sujet font des toiles d’elles-mêmes, plus faciles à rompre qu’à démêler.</p>
+<p>Tantôt ils accusent les Magistrats, <term type="Morale_Négative" rend="Blâme">blâment</term> les Pasteurs, les méconnaissent pour ne les reconnaître pas : et ainsi que les fourmis qui se travaillent de monter et descendre le long des arbres, sans savoir qui les pousse, recourent en tout, et <pb n="2v"/> surtout imitant les vautours qui ne s’attachent qu’à la charogne, ils ne font comme les abeilles qui se paissent des plus <term type="Sentiment_Positif" rend="Beau">belles</term> fleurs : leurs sens <term type="Morale_Négative" rend="Impure">impurs</term> ne voient qu’<term type="Sentiment_Négatif" rend="Impureté">impureté</term>, et leurs âmes ensevelies dans les ténèbres de leur présomption ne jouit que d’une fausse lumière, où ils se perdent, et leurs heures, et leur peines : et comme les compagnons d’Ulysse mangent les bœufs du Soleil.</p>
+<p>Voilà ce que j’ai appris d’un livre qui est tombé en mes mains<note resp="editor">[NDE] Il s’agit du Traité des <term type="Théâtre" rend="Jeu">Jeux</term> Comiques et Tragiques, publié à Sedan par Jacob Salesse, en 1600, sous les initiales D.T. Merci à Marie-Thérèse Mourey d’avoir identifié ce texte, grâce à un exemplaire de la Herzog August Bibliothek de Wolfenbüttel. Sur cet exemplaire, une main a identifié D.T. comme « Daniel Tilenus », pasteur d’origine silésienne établi à Sedan à l’époque. </note>, où l’Auteur ressemble l’archer qui tire sans adversaire, mais il ne décoche <pb n="3"/> sans but, car le sien est d’offenser ceux qui ne <term type="Guerre" rend="Combat">combattent</term> jamais que pour trouver la vérité, et non pour l’<term type="Sentiment_Positif" rend="Honneur">honneur</term> d’une <term type="Guerre" rend="Victoire">victoire</term> où l’ennemi n’a entendu la trompette pour se préparer au <term type="Guerre" rend="Combat">combat</term>.</p>
+<p>En tout ce qu’il a dit pour reprendre les actes <term type="Morale_Négative" rend="Indigne"><term type="Sentiment_Négatif" rend="Indigne">indignes</term></term> et les abus qui se sont commis lors que le monde était en la plus obscure nuit de ses ténèbres, et l’<term type="Religion" rend="Idolâtrie">idolâtrie</term> au dernier degré de l’erreur, aucun Catholique n’y veut contredire, ayant la vérité pour guide, et la <term type="Morale_Positive" rend="Vertu">vertu</term> pour fin, ils y ajouteront encore ; <pb n="3v"/> mais il apprendra s’il lui plaît que leur intention ne fut jamais de <term type="Théâtre" rend="Représenter">représenter</term> aux <term type="Fête" rend="Fête">fêtes</term> des <term type="Religion" rend="Saint">Saints</term> les <term type="Théâtre" rend="Jeu">jeux</term> des <term type="Religion" rend="Païen">Païens</term> pour faire revivre leurs abominations.</p>
+<p>Le seul <term type="Morale_Positive" rend="Respect">respect</term> qu’ils portent à l’Antiquité, qui les a condamnés, les retiendrait en ce devoir ; s’ils n’avaient la raison, l’exemple, les commandements de la primitive <term type="Religion" rend="Eglise">Eglise</term>, les autorités des SS. <term type="Autorité" rend="Pères"><term type="Religion" rend="Père">Pères</term></term> et Docteurs, aux écrits desquels ils portent une telle révérence, qu’au lieu de les impugner, ils les maintiennent contre l’insolence et la témérité de tous les hérétiques <pb n="4"/> qui les veulent détruire. Si en toutes les controverses ils se rapportaient aussi bien à leur jugement qu’en ce sujet, on ne disputerait pas à présent les choses qui ont été si religieusement observées par le passé.</p>
+<p>Mais pourquoi ce livre imprimé en Allemagne accuse-t-il les Catholiques, comme s’ils commandaient les choses qu’ils défendent.</p>
+<p>Les histoires ne nous apprennent point qu’aucun Ministre ait condamné ni aboli les <term type="Théâtre" rend="Danse">danses</term> <term type="Morale_Négative" rend="Honteux">honteuses</term> et <term type="Morale_Négative" rend="Déshonnête"><term type="Sentiment_Négatif" rend="Déshonnête">déshonnêtes</term></term> qui se commettaient, tant aux jours des <pb n="4v"/> Calendes, qu’autres <term type="Fête" rend="Fête">Fêtes</term>, où aux Théâtres, et en divers lieux par plusieurs nations, on commettait des <term type="Morale_Négative" rend="Vice">vices</term> que notre pensée rejette pour leur horreur, tant de se baigner dans le vin sans regard à l’âge, au sexe, ni au lieu, que faire festins tables par les rues, <term type="Fête" rend="Chanson">chansons</term> dissolues : Bref la raison qui est donnée aux hommes leur ôtait l’usage d’elle-même, pour les rendre pires que bêtes farouches : Et nos <term type="Autorité" rend="Pères"><term type="Religion" rend="Père">Pères</term></term> Ecclésiastiques ne les ont pas seulement censurés, mais prêché, crié, invectivé contre eux, essayé de les réduire.<pb n="5"/></p>
+<p><term type="Autorité" rend="Tertullien">Tertullien</term>, livre De l’<term type="Religion" rend="Idolâtrie">idolâtrie</term>, réprouve la <term type="Fête" rend="Fête">Fête</term> des Calendes de Janvier, l’appelle <term type="Religion" rend="Superstition">superstition</term> <term type="Religion" rend="Païen">Païenne</term>.</p>
+<p>Prudence en son livre Contre Symmachus les déteste.</p>
+<p>Entre les Sermons de S. <term type="Autorité" rend="Ambroise">Ambroise</term> et de Maximus, il y en a un, où il reprend aigrement les <term type="Religion" rend="Chrétien">Chrétiens</term> qui se mêlaient en la <term type="Fête" rend="Célébration">célébration</term> de leurs <term type="Fête" rend="Fête">Fêtes</term>.</p>
+<p><term type="Religion" rend="Saint">Saint</term> <term type="Autorité" rend="Augustin">Augustin</term> les <term type="Morale_Négative" rend="Blâme">blâme</term> encore plus en son livre de la Conversation Catholique, et les interdit.</p>
+<p>Au second Concile tenu à Rome au temps du <term type="Religion" rend="Pape">Pape</term> <pb n="5v"/> Pélage, au <term type="Religion" rend="Canon">canon</term> 16<hi rend="sup">e</hi> « De l’observation », ils sont défendus.</p>
+<p>Au Concile d’Auxerre tenu sous le <term type="Religion" rend="Pape">Pape</term> Dieudonné, <term type="Religion" rend="Canon">canon</term> premier, commande qu’on ne fasse ni <term type="Théâtre" rend="Jeu">jeux</term>, ni charmes, ni actes <term type="Morale_Négative" rend="Diabolique">diaboliques</term>.</p>
+<p><term type="Religion" rend="Canon">Canon</term> 742<hi rend="sup">e</hi> au Concile tenu à Rome, où présidait le <term type="Religion" rend="Pape">Pape</term> Zacharie, il fut commandé aux <term type="Religion" rend="Chrétien">Chrétiens</term> de ne plus courir ni folâtrer en <term type="Théâtre" rend="Public">public</term> auec les <term type="Religion" rend="Païen">Païens</term>, sur peine d’encourir l’<term type="Morale_Négative" rend="Indignation">indignation</term> et punition de <term type="Religion" rend="Dieu">Dieu</term>.</p>
+<p>Le <term type="Religion" rend="Pape">Pape</term> Martin les abolit, comme il se voit au Décret <pb n="6"/> de Gratian en la 26<hi rend="sup">e</hi> question. Et parce que les Gentils étaient comme ensevelis certains jours en toutes sortes de lascivetés et gourmandises, les <term type="Religion" rend="Chrétien">Chrétiens</term> pour se montrer tout différents de leur forme de vie, faisaient jeûnes et prières solennelles aux mêmes heures et temps. Isidore nous l’apprend livre premier Du service de l’<term type="Religion" rend="Eglise">Eglise</term>, chapitre 40. Puis les <term type="Autorité" rend="Pères"><term type="Religion" rend="Père">Pères</term></term> ordonnèrent un jeûne universel.</p>
+<p>En toutes ces observations je ne remarque qu’aucun de nos adversaires y ait rien mis du sien. <pb n="6v"/></p>
+<p>C’est donc mal à propos qu’il recueille les sentences des anciens Docteurs pour nous condamner, comme si nous prenions un parti <term type="Morale_Négative" rend="Contraire">contraire</term> vu que nous les maintenons, les prenant pour boucliers et défenses contre la batterie que l’hérésie a tirée de l’arsenal de Satan pour attaquer la maison de <term type="Religion" rend="Dieu">Dieu</term>, qui augmente sa <term type="Sentiment_Positif" rend="Gloire">gloire</term> en ce <term type="Morale_Positive" rend="Digne">digne</term> labeur.</p>
+<p>Il nous reprend d’assister aux <term type="Théâtre" rend="Comédie">Comédies</term>. Nous serions <term type="Morale_Positive" rend="Digne">dignes</term> d’un <term type="Morale_Négative" rend="Reproche">reproche</term> éternel, si elles étaient telles qu’il les <term type="Théâtre" rend="Représenter">représente</term>, et nos Pasteurs nous banniraient <pb n="7"/> des Sacrements, comme <term type="Morale_Négative" rend="Indigne"><term type="Sentiment_Négatif" rend="Indigne">indignes</term></term> de porter le <term type="Sentiment_Positif" rend="Glorieux">glorieux</term> titre de <term type="Religion" rend="Chrétien">Chrétiens</term>, s’il y avait quelque reste de celles qui sont condamnées tant par les <term type="Religion" rend="Pape">Papes</term> que les <term type="Classe_Sociale" rend="Empereur">Empereurs</term> ; s’ils ont retenu le nom de <term type="Théâtre" rend="Scène">Scène</term> et de Théâtre, et autres mots, ils en ont rejetté le <term type="Morale_Négative" rend="Vice">vice</term>.</p>
+<p>Socrate et <term type="Autorité" rend="Platon">Platon</term> chassent les Poètes <term type="Morale_Négative" rend="Lascif">lascifs</term>, et appellent les autres Genre divin, et les retiennent.</p>
+<p>Les <term type="Théâtre" rend="Mime">Mimes</term> et <term type="Théâtre" rend="Histrion">Histrions</term> et autres joueurs étaient effacés du rôle de la tribu du commun peuple, et n’étaient point tenus pour <pb n="7v"/> citoyens <term type="Origine" rend="Romain">Romains</term>. Et au même temps Décime Laberie fut fait <term type="Classe_Sociale" rend="Chevalier">Chevalier</term> <term type="Origine" rend="Romain">Romain</term> sous <term type="Autorité" rend="César">César</term>, après avoir montré que sous un même feu l’or reluit et le bois se noircit ; et qu’un <term type="Sentiment_Positif" rend="Galant">galant</term> homme peut être grand en un petit art, si l’art qui n’a sujet que l’esprit peut être petit.</p>
+<p>Epaminondas rendit une charge vile, <term type="Sentiment_Positif" rend="Glorieux">glorieuse</term> ; et changea l’envie de ses citoyens en <term type="Morale_Positive" rend="Admiration">admiration</term> pour être toujours splendide et égal à soi-même.</p>
+<p>Mais s’il faut <term type="Sentiment_Positif" rend="Estime">estimer</term> les effets par la cause, juger <pb n="8"/> l’action selon le dessein, combien celui d’Isabelle est-il recommandable, qui n’a eu autre <term type="Amour" rend="Désir">désir</term> de venir en France, que pour voir ce grand arbitre du monde, ce bien universel <term type="Sentiment_Positif" rend="Admirer">admiré</term> de toute l’Italie, ce <term type="Classe_Sociale" rend="Roi">Roi</term> reconnu de toutes les nations pour le plus grand de la terre, appelé et conduit de <term type="Religion" rend="Dieu">Dieu</term> par la voix de ses merveilles, qui lui a donné cette couronne par son sang, de qui la valeur acquise par son bras, qui la conserve par sa bonté, la régit par ses <term type="Juridique" rend="Loi">lois</term>, et par sa renommée possède le monde : les Antipodes ne voient <pb n="8v"/> point nos étoiles du Nord, mais ils ont vu la clarté de ce Soleil, qui nous a donné la lumière et la vie, qui d’une main a déployé le sceptre, de l’autre le pardon, étouffant la cause et la vengeance ensemble ; qui emportant une <term type="Guerre" rend="Victoire">victoire</term>, a toujours triomphé de deux, donnant le salut aux vaincus après avoir dompté les rebelles ; et ainsi que l’âme, qui n’est qu’une au corps, a plusieurs puissances en ce <term type="Classe_Sociale" rend="Roi">Roi</term>, qui n’est qu’un, elle a vu les perfections de tous les <term type="Classe_Sociale" rend="Roi">Rois</term> ensemble ; elle a vu l’aimant qui attire toutes les <term type="Sentiment_Positif" rend="Beau">belles</term> <pb n="9"/> âmes, qui de ses sujects est autant revéré, comme Sauveur du pays, qu’honoré en <term type="Classe_Sociale" rend="Roi">Roi</term> nécessaire ; et plus salüé en <term type="Classe_Sociale" rend="Père">père</term> qu’en Seigneur ; qui règne sur nous comme les intelligences au Ciel, et le Soleil sur la terre, d’où il me faudroit élever pour chercher dans les cieux des paroles célestes à une <term type="Morale_Positive" rend="Vertu">vertu</term> divine. Je réserve à un autre lieu la dignité de ses louanges, et reviens à la plainte que nous devons faire pour les Comiques qu’on accuse de faire revivre les anciennes dissolutions, qui sont bannies des <term type="Théâtre" rend="Comédie">Comédies</term> de ce siècle, qui <pb n="9v"/> n’ont rien que le nom, commun à celles du passé : Celle-ci traitée par gens doctes, et savants, se doit plutôt appeller école de modestie et gentillesse, que lieu de honte : C’est pourquoi nos Juges nous les permettent ; nos Pasteurs ne nous le commandent pas, désirant s’il était possible qu’à l’imitation d’un nombre d’âmes, qui dès la terre vivent au Ciel, nous voulussions dénoncer la <term type="Guerre" rend="Guerre">guerre</term> aux <term type="Amour" rend="Plaisir">plaisirs</term> du monde, et nous donnant du tout à la contemplation, tirer de l’amertume de nos fautes, ces larmes de douceur qui <pb n="10"/> attachent nos paupières, et nous font unir les jours et les nuits ensemble, souhaitant après <term type="Religion" rend="Saint">saint</term> <term type="Autorité" rend="Paul">Paul</term>, notre séparation pour Jésus Christ, et comme dit Eudoxe, mourir et voir le Soleil. Voilà les trophées qu’ils veulent ériger au pied de la Croix, leurs vies et leurs <term type="Amour" rend="Désir">désirs</term> aussi <term type="Religion" rend="Saint">saints</term> que charitables méritaient une autre interprétation que celle que l’auteur a donnée au passage de <term type="Religion" rend="Saint">saint</term> <term type="Autorité" rend="Augustin">Augustin</term>, 8<hi rend="sup">e</hi> chapitre du 2<hi rend="sup">e</hi> livre de la Cité de <term type="Religion" rend="Dieu">Dieu</term> : et à Vivès qui parle des Matacins<note resp="editor">[NDE] Cette référence confirme que Mlle de Beaulieu se réfère bien au traité de Tilenus. Celui-ci invoque en effet, p. 6, le <hi rend="i">De Civitate Dei</hi> de S. <term type="Autorité" rend="Augustin">Augustin</term> (II, 8) et le commentaire qu’en fait Juan-Luis Vivès (voir le texte dans le corpus). </note>. Et il dit que c’est des <term type="Fête" rend="Fête">Fêtes</term> des Catholiques ; d’un <term type="Morale_Négative" rend="Mauvais">mauvais</term> esprit, <term type="Morale_Négative" rend="Mauvais">mauvaise</term> <pb n="10v"/> intelligence : il convertit tout en sa malice.</p>
+<p>Cela ne nous empêchera de vaincre par raison ceux qui nous surmontent d’injures ; nous n’en voulons <term type="Guerre" rend="Combat">combattre</term> : l’<term type="Religion" rend="Eglise">Eglise</term> nous apprend à prier et bénir, non pas à exécrer et maudire. Je laisse ces épines pour vous ramenez aux fleurs des <term type="Théâtre" rend="Comédie">Comédies</term> de ce temps, qui sont autres que vous ne les figurez, nous en usons selon le conseil de <term type="Religion" rend="Saint">saint</term> <term type="Autorité" rend="Basile">Basile</term> en l’épître à ses neveux comme il faut lire les Poètes, et se garder de la tête du Polybe.</p>
+<p>Après que notre <term type="Religion" rend="Dieu">Dieu</term> <pb n="11"/> eut bâti cet auguste Temple de sa <term type="Religion" rend="Divinité">divinité</term>, réglé par les <term type="Juridique" rend="Loi">lois</term> de sa sagesse, et orné d’Anges la région qui surpasse le Ciel, assisté les Globes Ethériens d’éternelles intelligences, rempli les plus basses et moindres parties de ce monde inférieur de toutes espèces d’animaux, il désira d’y loger une créature capable par raison d’<term type="Sentiment_Positif" rend="Admirer">admirer</term> l’ouvrage et la grandeur de 1’ouvrier : il créa l’homme, et ne lui donnant comme aux autres aucune propriété particulière, le mit au milieu du monde, sans lui assigner retraite, et lui donna la <pb n="11v"/> puissance d’être tout ce qu’il voudrait : il n’est ni céleste, ni terrien, ni mortel, ni immortel, mais arbitre de lui-même, il se peut rendre comme les pierres, les métaux, les brutes, ou les Anges ; et enfin compagnon et <term type="Classe_Sociale" rend="Fils">fils</term> de <term type="Religion" rend="Dieu">Dieu</term>, s’il se retire au centre de son unité, il tient en lui le germe de toutes sortes de vies, celles qu’il voudra cultiver croîtront, et il en aura les fruits. Il est donc par l’esprit, la plus excellente créature ; pour le corps, la plus infirme ; en l’un impassible, en l’autre sujet à toutes sortes d’accidents : étant composé <pb n="12"/> d’âme et de corps, il doit avoir la contemplation et l’action, tant pour s’acquitter de ce qu’il doit à <term type="Religion" rend="Dieu">Dieu</term>, qu’à son prochain et à soi-même, qui ne se peut dépouiller des <term type="Religion" rend="Passion"><term type="Sentiment_Négatif" rend="Passion"><term type="Amour" rend="Passion">passions</term></term></term> étant homme, mais il les doit régler pour être sage.</p>
+<p>Et parce qu’une grande tristesse abat les sens, comme l’<term type="Sentiment_Négatif" rend="Excès">excès</term> de joie les élève trop, il se doit recueillir en soi-même, et donner à son âme une nourriture qui la recrée, repose, et puisse avoir convenance avec sa simplicité.</p>
+<p>Mais si elle est selon <pb n="12v"/> <term type="Autorité" rend="Aristote">Aristote</term> un acte continuel, son être est en son action, et ne peut avoir autre repos que la joie qu’elle reçoit par les deux plus <term type="Classe_Sociale" rend="Noble">nobles</term> et excellents messagers, qui sont les yeux et les oreilles; par l’œil elle juge les couleurs, par l’oreille les paroles.</p>
+<p>La parole la soutient, console, anime aux actions <term type="Sentiment_Positif" rend="Glorieux">glorieuses</term>, la nourrit comme son ambroisie, et ainsi qu’une lumière en allume plusieurs, elle augmente sa <term type="Morale_Positive" rend="Vertu">vertu</term> ; et à l’imitation des Chimiques, rend cet or céleste si actif, qu’il fait projection à l’infini en un esprit <term type="Morale_Positive" rend="Digne">digne</term> <pb n="13"/> de recevoir cette manne divine.</p>
+<p>Mais où trouverons-nous des paroles capables de ces effets qu’aux lieux <term type="Théâtre" rend="Public">publics</term> où l’on voit l’<term type="Morale_Positive" rend="Honnête">honnête</term> et l’<term type="Sentiment_Positif" rend="Agréable">agréable</term> ensemble, et l’art et la science qui répondent également, sur les théâtres des Comiques, figurant les actions de celui du monde, où chacun essaie de désarmer Pallas, louer la <term type="Morale_Positive" rend="Vertu">vertu</term>, reprendre le <term type="Morale_Négative" rend="Vice">vice</term><note resp="editor">[NDE] Comprendre : « Mais où trouverons-nous des paroles capables de ces effets, sinon dans les lieux <term type="Théâtre" rend="Public">publics</term> où l’on voit l’<term type="Morale_Positive" rend="Honnête">honnête</term> et l’<term type="Sentiment_Positif" rend="Agréable">agréable</term> ensemble, et l’art et la science qui se répondent, c’est-à-dire sur les théâtre des <term type="Théâtre" rend="Comédien">comédiens</term>, qui figurent les actions du théâtre du monde, et où chacun essaie de désarmer la <term type="Guerre" rend="Guerre">guerre</term>, louer la <term type="Morale_Positive" rend="Vertu">vertu</term>, reprendre le <term type="Morale_Négative" rend="Vice">vice</term>.</note>.</p>
+<p>Ces passe-temps ont toujours été si <term type="Sentiment_Positif" rend="Agréable">agréables</term> aux peuples, que Juvenal les recommande, disant « Ils désirent deux choses avec <pb n="13v"/> <term type="Religion" rend="Passion"><term type="Sentiment_Négatif" rend="Passion"><term type="Amour" rend="Passion">passion</term></term></term>, le pain et les <term type="Théâtre" rend="Jeu">jeux</term> ».</p>
+<p>On remarque aux traités des <term type="Théâtre" rend="Spectacle">spectacles</term>, l’<term type="Sentiment_Positif" rend="Honneur">honneur</term> que fit Roscius étant Tribun aux Sénateurs, leur baillant un rang plus éminent aux théâtres : Depuis <term type="Autorité" rend="Auguste">Auguste</term> le fit revivre. <term type="Autorité" rend="Philippe">Philippe</term> de Commines écrit que les <term type="Classe_Sociale" rend="Roi">Rois</term> de France y ont pris très grand <term type="Amour" rend="Plaisir">plaisir</term>.</p>
+<p>Hotoman en sa <hi rend="i">Francogalie</hi><note resp="editor">[NDE] Comprendre : « Hotman dans son <hi rend="i">Franco-Gallia</hi> ».</note> dit du <term type="Classe_Sociale" rend="Roi">Roi</term> <term type="Autorité" rend="Louis">Louis</term> onzième, qu’il allait souvent aux <term type="Théâtre" rend="Jeu">jeux</term> et disait qu’il y apprenait les mœurs et façon de son peuple qui lui étaient celées par les flatteurs.</p>
+<p>Dion, nous apprend que <pb n="14"/> <term type="Autorité" rend="Auguste">Auguste</term> <term type="Autorité" rend="César">César</term> voyant du <term type="Morale_Négative" rend="Désordre"><term type="Sentiment_Négatif" rend="Désordre">désordre</term></term> aux <term type="Théâtre" rend="Jeu">Jeux</term> d’un Pilade, s’en courrouça, il lui fit response, « Il t’est nécessaire, ô <term type="Autorité" rend="César">César</term>, que j’amuse le peuple. La <term type="Théâtre" rend="Comédie">Comédie</term> <term type="Théâtre" rend="Représenter">représente</term> la diversité des mœurs vicieuses ou <term type="Morale_Positive" rend="Vertueux">vertueuses</term>, aussi a-t-elle été toujours recommandée ».</p>
+<p><term type="Autorité" rend="Scipion">Scipion</term> et Lélius ont aidé <term type="Autorité" rend="Térence">Térence</term> à faire ses <term type="Théâtre" rend="Comédie">Comédies</term> : Au prologue de celle de <hi rend="i">Clinia et Antiphile</hi><note resp="editor">[NDE] C’est-à-dire, <hi rend="i">l’Héautontimoroumenos</hi>.</note>, <term type="Autorité" rend="Térence">Térence</term> s’en défend, et le prend à <term type="Sentiment_Positif" rend="Honneur">honneur</term>. <term type="Autorité" rend="Cicéron">Cicéron</term> l’appelle notre familier, souvent il l’allègue, et a transcrit de ses vers, et a tourné des <term type="Théâtre" rend="Tragédie">Tragédies</term> <pb n="14v"/> <term type="Origine" rend="Grec">grecques</term> au 2. des Tuscul.<note resp="editor">[NDE] = Tusculanes, livre 2.</note>.</p>
+<p><term type="Autorité" rend="Euripide">Euripide</term> était grand ami d’Archelaos. <term type="Autorité" rend="Aristote">Aristote</term> a fait un livre de la Scénique. Et de notre temps le docte Scaliger a parlé de la Dramatique.</p>
+<p>Mais combien y avait-il d’aise à voir le Catadrome : machine subtile, descendre ses grands ravisseurs, comme l’Aurore son Memnon, Jupiter son Ganymède, Diane son Endymion, c’est ce qui donna occasion à Crésus esclave et captif de Cyrus de lui donner avis de permettre les <term type="Théâtre" rend="Jeu">jeux</term> <term type="Théâtre" rend="Public">publics</term>, et <term type="Théâtre" rend="Comédie">Comédies</term> aux Lydiens, qui par plusieurs <term type="Religion" rend="Foi">fois</term> s’étaient révoltés de son <pb n="15"/> obéissance, et que leur esprit y serait retenu ; ressemblant aux <term type="Classe_Sociale" rend="Enfant">enfants</term> qui font état de toutes sortes de <term type="Amour" rend="Plaisir">plaisirs</term>, et sont bien aises d’être attirés celui-ci par leur <term type="Classe_Sociale" rend="Prince">Prince</term>.</p>
+<p>Les nations plus farouches se sont accoutumées en la douceur de cette joie, aux biens de la paix, encore que leur inclination fût à ne respirer que le sang et la <term type="Guerre" rend="Guerre">guerre</term> : ils nommaient les <term type="Théâtre" rend="Jeu">jeux</term> humanité.</p>
+<p>Les <term type="Origine" rend="Romain">Romains</term> ont plus assujetti d’hommes par ces inventions, que par leurs <term type="Guerre" rend="Arme">armes</term>. <pb n="15v"/></p>
+<p><term type="Autorité" rend="Aristote">Aristote</term> livre quatrième des Ethiques, chap. huitième, Qu’il lui semble qu’en notre vie le repos et les <term type="Théâtre" rend="Jeu">jeux</term> soient nécessaires.</p>
+<p>Si nous en croyons les anciens <term type="Autorité" rend="Pères"><term type="Religion" rend="Père">Pères</term></term>, nous verrons qu’ils nous concèdent ceux où le <term type="Amour" rend="Plaisir">plaisir</term> est limité dans les termes de la modestie.</p>
+<p>S. <term type="Autorité" rend="Thomas">Thomas</term> d’Aquin en fait un grand discours, et les permet. Et S. <term type="Autorité" rend="Augustin">Augustin</term> dit que ce n’est que <term type="Religion" rend="Péché">péché</term> véniel. <term type="Autorité" rend="Grégoire">Grégoire</term> de Nazianze<note resp="editor">[NDE] Le texte porte la forme : « Nazienzene ».</note> moine et <term type="Religion" rend="Evêque">Evêque</term>, une des lumières de l’<term type="Religion" rend="Eglise">Eglise</term>, appelé Théologien pour son savoir, a composé la <term type="Religion" rend="Passion"><term type="Sentiment_Négatif" rend="Passion"><term type="Amour" rend="Passion">Passion</term></term></term> de <pb n="16"/> notre Seigneur en vers <term type="Origine" rend="Grec">grecs</term> Iambiques très élégants.</p>
+<p>Mais s’il est ainsi, comme il est vraisemblable, que l’homme d’entendement ne se laisse jamais vaincre d’un <term type="Amour" rend="Plaisir">plaisir</term> ridicule, et borne celui qu’il prend et donne aux autres, comme s’il s’était imposé lui-même la <term type="Juridique" rend="Loi">loi</term> pour entretenir ceux qu’il veut réjouir, de propos, aussi décent que délectables ; c’est en quoi le docte est reconnu de l’ignorant ; l’un pour toute fin n’a que le ris, et ne se soucie de quel prix il l’achète : et l’autre n’en veut séparer 1’<term type="Sentiment_Positif" rend="Honnêteté">honnêteté</term>. Pour <pb n="16v"/> opiner de l’un avec le vulgaire et juger de l’autre avec les sages, en dois-je chercher l’exemple en l’antiquité, puisqu’il y en a ici qui se montrent aussi ennemis du <term type="Morale_Négative" rend="Vice">vice</term>, que vrais admirateurs de la <term type="Morale_Positive" rend="Vertu">vertu</term>.</p>
+<p>Non, je ne dois point rechercher loin de nous les ombres et les sépulcres, puisque nous en avons aujourd’hui dans notre France, en l’œil des cités, en la plus auguste ville de l’Europe, le corps, la lumière, et la vie de tous les plus rares et <term type="Morale_Positive" rend="Digne">dignes</term> Comiques du monde, en ceste troupe de Parnasse, <pb n="17"/> nourrissons des Muses, Aigles de Jupiter, vrais <term type="Classe_Sociale" rend="Enfant">enfants</term> d’<term type="Autorité" rend="Apollon">Apollon</term>, race divine, interprètes des <term type="Religion" rend="Dieu">Dieux</term>, qui ont gratifié Paris de leur présence : quelles louanges vous peut-on donner ? vu que vous tenez la source de ce fleuve coulant, par qui toutes choses louables sont louées : Je vous quitte les <term type="Guerre" rend="Arme">armes</term>, et non le cœur : c’est vous qui pouvez faire taire ces Corbeaux croassants contre Minerve : ces oiseaux de ténèbres, qui ne peuvent porter votre Soleil. C’est vous, dis-je, Assemblée <term type="Sentiment_Positif" rend="Glorieux">glorieuse</term>, qui pouvez polir la rouille que l’ignorance <pb n="17v"/> ou la malice a fait naître en leur cerveau ; tout ainsi qu’en la ville de Tarse en Cilicie, il n’y a que l’eau de la rivière de Cidne qui puisse éclaircir, dérouiller, repolir le couteau <term type="Sentiment_Positif" rend="Sacré">sacré</term> à <term type="Autorité" rend="Apollon">Apollon</term>, toutes les autres le lavent sans effet ; Faites de même de celle que vous puisez en Hélicon, comme vous en arrosez les esprits qui en sont <term type="Morale_Positive" rend="Digne">dignes</term> : Vous pouvez adoucir ceux qui nous piquent par la pointe d’une langue aussi tranchante qu’un rafoir affilé : L’office de la raison vous invite à leur montrer sa vérité : mais peut-être en <pb n="18"/> sont-ils dégoutés : Les ânes n’aiment pas les violettes, leur pastures sont de chardons : nous leur laisserons porter la Déesse Isis sans leur donner aucun lieu en votre Théâtre, puisque vous avez enlevé sur tous une <term type="Sentiment_Positif" rend="Gloire">gloire</term> qui ne laisse à aucun espérance de vous égaler : leur envie ne saurait apporter de tache à la splendeur de votre mérite. S’il en pouvait advenir autrement, ils seraient dissipés en la terre par les Zéphyrs de l’haleine de cette fleur céleste d’Isabelle, comme les nuées sont épandues par les vents en l’espace <pb n="18v"/> de l’air.</p>
+<p>Mais ainsi que le diamant ne se peut polir que par son sablon même, pour <term type="Guerre" rend="Combat">combattre</term> l’aimant, diminuer sa puissance, et lui faire démordre le fer : N’est-ce pas à cette perle des esprits qui ne peut perdre son lustre, de raffiner comme le rubis ce discours au fleuve de son éloquence.</p>
+<p>Pardonnez à l’insuffisance de mon esprit, <term type="Sentiment_Positif" rend="Beau">belle</term> âme, qui en la comparaison de chose incomparable, n’avez semblable que vous : La similitude des pierres précieuses vous offense, elles ont leur être en la terre, et <pb n="19"/> votre origine est au ciel, si ce n’est de celles d’Egypte qui naissent au plus haut de l’Ether : Vous en avez le feu et l’éclair étincelant, et moi pour vous honorer j’en tiens la constance, qui m’a fait entreprendre cette matière qui est une pierre de prix : Voyez que dans ma main elle sera brute en la terre, sans être en œuvre ; donnez-lui sa vraie feuille, la chaleur et le teint selon l’aspect de votre Soleil : affinez son lustre pour la faire étinceler sans nuage, cendre, noirceur, paille, filandre, poudre qui puisse permettre à la lime de <pb n="19v"/> mordre ou d’altérer qu’elle ne perde sa couleur qu’en votre flamme, pour se changer, comme le <term type="Morale_Négative" rend="Mauvais">mauvais</term> Saphir en un <term type="Sentiment_Positif" rend="Bon">bon</term> diamant : Et au lieu que j’en fais une Charite sans grâce, relevez-le de celles que vous tenez qui vous font esclaver, dominer et triompher des âmes plus parfaites, pour ne parer vos trophées de dépouilles éteintes en ce <term type="Guerre" rend="Combat">combat</term> qui est plus <term type="Sentiment_Positif" rend="Glorieux">glorieux</term> que ceux de Jupiter, d’<term type="Autorité" rend="Apollon">Apollon</term>, de Palémon, et d’Archémore : aussi en avez-vous un prix plus excellent que l’olivier, le pommier, l’ache, et le pin : <pb n="20"/> car vous en rapportez les couronnes immortelles qui n’étaient dues qu’aux immortels : et décochant par paroles les sagettes des Muses, comme un second Anthée vous reprenez nouvelles forces, non pas en touchant la terre, mais en vous élevant au ciel, où vos propos nous ravissent, non sur les ailes d’or d’<term type="Autorité" rend="Euripide">Euripide</term>, mais sur les célestes de <term type="Autorité" rend="Platon">Platon</term>, qui portent nos <term type="Amour" rend="Désir">désirs</term> jusques au lieu où la <term type="Morale_Positive" rend="Vertu">vertu</term> fait sa demeure, nous rassasie du délicieux miel de Python, du nectar de Calliope, purifie nos oreilles, éclaire <pb n="20v"/> les yeux de notre esprit humecte nos âmes d’une rosée dont la douceur éteint toute amertume, et ne nous laisse que le regret de voir beaucoup d’hommes mal nés<note resp="editor">[NDE] « malnais » dans l’original.</note>, qui pour entendre la mélodie Phrygienne ne sont pas atteints d’une divine <term type="Morale_Négative" rend="Fureur">fureur</term> : mais comme le Temple des Euménides en Athènes rendait frénétique celui qui n’y apportait le <term type="Morale_Positive" rend="Respect">respect</term> qui était dû, le vôtre a eu la même propriété : et ainsi que Lycaon fut changé en loup, vous les avez fait transformer en bêtes hurlantes.</p>
+<p><pb n="21"/>La prudence guide vos discours, et la sagesse qui reluit en vos actions, a satisfait nos <term type="Amour" rend="Désir">désirs</term>, et surmonté les espérances que la <term type="Sentiment_Positif" rend="Gloire">gloire</term> du passé nous faisait attendre à l’avenir, de cette rare Isabelle, <term type="Sentiment_Positif" rend="Honneur">honneur</term> de son sexe, regret des siècles passés, <term type="Sentiment_Positif" rend="Gloire">gloire</term> du présent, envie des futurs, ornement de la terre, Merveille du ciel, miracle de nature, Temple <term type="Sentiment_Positif" rend="Sacré">sacré</term> : qui ouvrant ses lèvres de roses nous fait voir les images de l’âme, la douce prison des nôtres, les liens de nos esprits, où elle inspire les <term type="Religion" rend="Passion"><term type="Sentiment_Négatif" rend="Passion"><term type="Amour" rend="Passion">passions</term></term></term> qu’elle désire : <pb n="21v"/> Mais quels sont ses <term type="Amour" rend="Désir">désirs</term> ? de faire couler en nos âmes par nos oreilles les préceptes de science et de <term type="Morale_Positive" rend="Vertu">vertu</term> : Et parce que la <term type="Juridique" rend="Loi">loi</term> est <term type="Classe_Sociale" rend="Reine">Reine</term> et non tyranne, elle les veut imprimer avec une persuasion aussi <term type="Sentiment_Positif" rend="Agréable">agréable</term> que docte et diserte : Elle sait que le sens de l’ouïe est le plus excellent, et qu’il sert plus à l’âme qu’au corps, parce qu’il est plus près de la partie où elle fait ses fonctions plus parfaites, et fort éloigné de celles des <term type="Amour" rend="Affection">affections</term> qui nous sont communes, avec les bêtes qui n’ont que le sentiment, que <pb n="22"/> le <term type="Morale_Négative" rend="Vice">vice</term> nous peut attaquer de toutes les parts du corps, et la sapience n’a que la voie de l’oreille ; aussi les Athlètes les couvraient toujours allant au <term type="Guerre" rend="Combat">combat</term>, bien que le reste du corps fût nu.</p>
+<p>Et parce que l’enuie d’ouïr, de savoir et d’apprendre est naturelle en nous, et que notre âme est comme un livre blanc où nous pouvons graver ce qui la doit remplir, ou une terre capable de recevoir l’ivraie et le <term type="Sentiment_Positif" rend="Bon">bon</term> blé ; elle nous choisit des propos pour faire germer des fruits et des fleurs qui puissent apporter une <pb n="22v"/> moisson <term type="Morale_Positive" rend="Digne">digne</term> de sa culture et de notre devoir ; pour ne faire de notre esprit un tableau d’horreur et de honte, et un champ de broussailles et d’épines, au lieu d’amaranthe, d’œillets, et de lys.</p>
+<p>Continuez donc, <term type="Sentiment_Positif" rend="Beau">belle</term>, docte et divine Muse, à imiter les mouches d’Hymette, qui des fleurs dont nous ne tirons que la senteur et la couleur font le miel doucereux : Jugez qu’il n’y a rien qui puisse contenter ceux à qui la <term type="Morale_Positive" rend="Vertu">vertu</term> et la félicité ne peut suffire : car l’une comprend tout ce qui est à faire ; et l’autre, ce qui se peut souhaiter ; <pb n="23"/> mais nos souhaits ne doivent-ils pas être accomplis au transport de l’aise que nous sentons quand nous voyons cet Oracle du monde, dont le nom est porté par toute la terre : qui avec un port de <term type="Religion" rend="Vestale">Vestale</term>, et les façons de Mars, fait voir Mercure sur ses lèvres, Minerve en sa poitrine, <term type="Autorité" rend="Apollon">Apollon</term> en l’esprit, qui comme un autre Soleil, attire par ses rayons notre vue et nos louanges, et nous fait avouer que la matière surmonte l’œuvre, et qu’elle est <term type="Morale_Positive" rend="Digne">digne</term> des <term type="Sentiment_Positif" rend="Honneur">honneurs</term> qui élevèrent <term type="Autorité" rend="Hercule">Hercule</term> dans les cieux : Elle en sait imiter <pb n="23v"/> les astres, qui font un chemin tout <term type="Morale_Négative" rend="Contraire">contraire</term> à celui du monde, et vont encore mieux que lui.</p>
+<p><pb n="24"/> </p>
+</div>
+<div type="titolo1">
+<head>A la signore Isabelle</head>
+<p>MON CŒUR, MA CHERE DAME, Je ne vous dois point écrire vu la diversité de nos écrits : les miens sont comme l’ouvrage de ces petits <term type="Classe_Sociale" rend="Enfant">enfants</term> d’<term type="Autorité" rend="Homère">Homère</term>, qui laissent couvrir de poussière ce qu’ils ont formé du limon de la terre ; et les vôtres tous divins reluisent d’une grâce céleste, qui ne termine leur fin qu’en celle de l’éternité. S’il leur faut des louanges <term type="Morale_Positive" rend="Digne">dignes</term> de leurs mérites, imitez ce <term type="Religion" rend="Dieu">Dieu</term> dont vous avez la langue et l’esprit : faites-les vous-même, ainsi que d’une seule bague il ôte et envoie le sommeil, si des Grâces qui égalent celles qu’ils portent vous les devez figurer ; car c’est vous qui êtes peinte en ces <pb n="25"/> <term type="Sentiment_Positif" rend="Beau">beaux</term> et rares vers, qui ont dépouillé le Parnasse de ses fleurs, et fait une Iris en terre pour recevoir l’image de votre Soleil, qui se tire lui-même ; parce qu’aucun peintre ne le peut <term type="Théâtre" rend="Représenter">représenter</term>. Ainsi en ces vives couleurs vous faites briller l’éclat, le pourpre étincelant, et l’émail des vôtres, et entre mille <term type="Sentiment_Positif" rend="Beau">belles</term> fictions sentez un aise véritable de dire la vérité, qui citoyenne du ciel ne permet qu’aux Déesses la jouissance de sa conversation : Le souvenir du bonheur de la vôtre me tire ces paroles du cœur, Que je suis ravie en l’<term type="Morale_Positive" rend="Admiration">admiration</term> des perfections, qui vous ont aussi dignement acquis mon esprit, que l’<term type="Amour" rend="Affection">affection</term> dont je vous veux honorer et servir, et ne me laisser non plus égaler en ce <term type="Amour" rend="Désir">désir</term>, que vous aux <term type="Morale_Positive" rend="Vertu">vertus</term> qui vous élèvent au trône de la <term type="Sentiment_Positif" rend="Gloire">gloire</term>, que je loue par mon silence, puisqu’il faut que le pauvre Aristée se taise lorsque le grand <term type="Autorité" rend="Apollon">Apollon</term> commence à chanter.</p>
+<signed>Je suis votre Servante. <pb n="n.p."/></signed>
+</div>
+<div type="titolo1">
+<head>Stances à Madame Isabelle, sur l’<term type="Morale_Positive" rend="Admiration">admiration</term> où elle a tiré la France</head>
+<l rend="i">Esprits ravis des fleurs d’Hymette,</l>
+<l rend="i">Qui allez <term type="Sentiment_Positif" rend="Admirer">admirant</term> l’avette,</l>
+<l rend="i">Qui nous distille un si doux miel :</l>
+<l rend="i">Ne réveillez plus le lycée</l>
+<l rend="i">Sans travailler votre pensée,</l>
+<l rend="i">Adorez les trésors du Ciel.</l>
+<l/>
+<l rend="i">Ne vous enquérez d’Isabelle,</l>
+<l rend="i">Si son âme divine et <term type="Sentiment_Positif" rend="Beau">belle</term></l>
+<l rend="i">Etait de toute éternité :</l>
+<l rend="i">Si elle fut aussi savante,</l>
+<l rend="i">Toute sage et toute éloquente,</l>
+<l rend="i">Portraite en la <term type="Religion" rend="Divinité">divinité</term>.</l>
+<l/>
+<l rend="i">Ou si dans le monde suprême</l>
+<l rend="i">Elle eut cette <term type="Morale_Positive" rend="Vertu">vertu</term> extrême,</l>
+<l rend="i">Qui nous l’a fait tant <term type="Sentiment_Positif" rend="Admirer">admirer</term> :</l>
+<l rend="i">Ou si le <term type="Religion" rend="Démon">démon</term> de science,</l>
+<l rend="i">Et la plus haute intelligence</l>
+<l rend="i">Lui viennent encor inspirer.</l>
+<l/>
+<l rend="i">Serait une mer sans rivage,</l>
+<l rend="i">Dans le port on ferait naufrage,</l>
+<l rend="i">N’y abîmez plus vos esprits :</l>
+<l rend="i">Car le <term type="Sentiment_Positif" rend="Bon">bon</term> Ange qui la guide,</l>
+<l rend="i">Et qui sur le mien seul préside :</l>
+<l rend="i">M’en a tous les secrets appris.</l>
+<l/>
+<l><pb n="n.p."/>Il dit qu’après que la matière </l>
+<l rend="i">Eut reçu sa forme première,</l>
+<l rend="i">Et rendu l’image en effet,</l>
+<l rend="i"><term type="Religion" rend="Dieu">Dieu</term> fit descendre ses idées</l>
+<l rend="i">Dans le sein des Anges guidées</l>
+<l rend="i">Pour former cet esprit parfait.</l>
+<l/>
+<l rend="i">Où pour remirer sa puissance,</l>
+<l rend="i">Il lui donna la connaissance</l>
+<l rend="i">Des secrets de sa déité,</l>
+<l rend="i">Et des quatre mondes ensemble,</l>
+<l rend="i">Et du fort lien qui assemble</l>
+<l rend="i">Nos vœux en la fatalité.</l>
+<l/>
+<l rend="i">Puis ayant cet esprit agile</l>
+<l rend="i">Recouru le premier mobile,</l>
+<l rend="i">Et vu l’heureux trône des <term type="Religion" rend="Dieu">Dieux</term></l>
+<l rend="i">Il passe les deux Hémisphères,</l>
+<l rend="i">Et revolant sur les neuf Sphères,</l>
+<l rend="i">Apprit le <term type="Sentiment_Positif" rend="Beau">bel</term> ordre des Cieux.</l>
+<l/>
+<l rend="i">Les Cercles, les Corps qui agissent,</l>
+<l rend="i">Les Inférieurs qui patissent</l>
+<l rend="i">Dessous ces mouvements divers :</l>
+<l rend="i">L’auteur, la fin, la prescience</l>
+<l rend="i">De tout ce qui est en essence,</l>
+<l rend="i">Et comprit en soi l’univers.</l>
+<l/>
+<l rend="i">A l’instant pour orner la terre,</l>
+<l rend="i">Des vives beautés qu’il enserre,</l>
+<l rend="i">Il lui voulut donner un Corps,</l>
+<l rend="i">Vraie Image de sa figure,</l>
+<l rend="i">[mot illisible] ce que l’œuvre de nature </l>
+<l rend="i">Se perd en discordants accords.</l>
+<l/>
+<l rend="i">Dont au lieu de quatre <term type="Morale_Négative" rend="Contraire">contraires</term>,</l>
+<l rend="i">Il voulut par divins <term type="Théâtre" rend="Mystère">mystères</term>,</l>
+<l rend="i">Qu’elle eut le Ciel pour Elément :</l>
+<l rend="i">Les grâces en fussent nourrices,</l>
+<l><pb n="n.p."/>Que les Muses soient ses délices,</l>
+<l rend="i">Les <term type="Morale_Positive" rend="Vertu">vertus</term> ses contentements.</l>
+<l/>
+<l rend="i">Alors descendit cet Aurore,</l>
+<l rend="i">Et ce grand Soleil que j’adore</l>
+<l rend="i">Fit combler les <term type="Religion" rend="Dieu">Dieux</term> en douleurs :</l>
+<l rend="i">Phœbus se vêtit de ténèbres</l>
+<l rend="i">Et les Astres en chants funèbres</l>
+<l rend="i">S’en allaient distiller en pleurs.</l>
+<l/>
+<l rend="i">Les Jumeaux s’attachent aux Pôles,</l>
+<l rend="i">Ravis par les doctes paroles,</l>
+<l rend="i">Qui font un Zephyr si doux :</l>
+<l rend="i">Orphée y vient quitter sa lyre,</l>
+<l rend="i"><term type="Sentiment_Positif" rend="Glorieux">Glorieux</term> encor de lui dire,</l>
+<l rend="i">J’ai l’heur d’être vaincu de vous.</l>
+<l/>
+<l rend="i">Les signes épandus au monde,</l>
+<l rend="i">Ne veulent plus faire leur ronde,</l>
+<l rend="i">Diviser l’an, ni les saisons :</l>
+<l rend="i">Le deuil leur ôte le courage :</l>
+<l rend="i"><term type="Autorité" rend="Apollon">Apollon</term> couvert d’un nuage,</l>
+<l rend="i">Pleure de toutes ses maisons.</l>
+<l/>
+<l rend="i">Soudain Jupiter qui désire</l>
+<l rend="i">Qu’heureux fleurisse son Empire,</l>
+<l rend="i">Tira d’un vaisseau des destins</l>
+<l rend="i">L’arrêt, que pour bannir la <term type="Guerre" rend="Guerre">guerre</term>,</l>
+<l rend="i">Ce chef d’œuvre des Cieux en terre</l>
+<l rend="i">Rendrait les Oracles certains.</l>
+<l/>
+<l rend="i">Qu’elle aurait toujours la puissance</l>
+<l rend="i">Par une céleste influence,</l>
+<l rend="i">D’émailler de fleurs un Printemps,</l>
+<l rend="i">D’échauffer les signes de glaces,</l>
+<l rend="i">Par ses deux bessons, dont les grâces</l>
+<l rend="i">Dominent mon âme en tout temps.</l>
+<l/>
+<l rend="i">Ainsi de la voûte éthérée,</l>
+<l rend="i">Jusque dans le sein de Nérée,</l>
+<l><pb n="n.p."/>Pour ce grand miracle on sentait </l>
+<l rend="i">Un doux extase, une lumière,</l>
+<l>Qui tenait l’âme prisonnière,</l>
+<l rend="i">Des liens d’or qu’elle portait.</l>
+<l/>
+<l rend="i">Ainsi cette fleur sans pareille,</l>
+<l rend="i">Ce Parnasse, et Ciel de merveille,</l>
+<l rend="i">Vint illuminer nos […]<note resp="editor">[NDE] Un mot est barré (espritz ?), une main anonyme a remplacé par « cités ». </note> </l>
+<l rend="i">D’une flamme si pure et <term type="Sentiment_Positif" rend="Beau">belle</term></l>
+<l rend="i">Que les <term type="Religion" rend="Dieu">Dieux</term> font par Isabelle,</l>
+<l rend="i">Reluire leurs <term type="Religion" rend="Divinité">divinités</term>.</l>
+<l><pb n="n.p."/> </l>
+</div>
+<div type="titolo1">
+<head>A Madamoiselle de Beaulieu</head>
+<p rend="h1sub">ISABELLA ANDREINI</p>
+<l rend="i">Quel che Gordio formò di funi attorte</l>
+<l rend="i">Nodo tenace : Sol dell’Oriente</l>
+<l rend="i">Il vincitor, il domator possente</l>
+<l rend="i">Sciolse col ferro, in un prudente, e forte :</l>
+<l/>
+<l rend="i">E questo come è vario a varia sorte</l>
+<l rend="i">E dato : egli di gemme, e d’or lucente</l>
+<l rend="i">M’adorna il dito, e’l core soavemente</l>
+<l>Lega, cui non sciorrà<note resp="editor">[NDE] « Sciorrà » = « scioglierà ».</note>Tempo, né Morte. </l>
+<l/>
+<l rend="i">Ma dimmi o bella mia del Ciel Sirena,</l>
+<l>Ond’è<note resp="editor">[NDE] « Ond » (« Onde » élidé) correspond à « dove ».</note>, che’l caro nodo ancor m’accende,</l>
+<l>Non pur l’anima pua<note resp="editor">[NDE] « L’anima pua disciolta » : comprendre « l’anima più disciolta »</note>disciolta affrena<note resp="editor">[NDE] Comprendre « tenere a freno, moderare ».</note> ?<seg rend="carpredefinitoparagrafo"/></l>
+<l/>
+<l rend="i">Di lacci avvinta io son, d’incendio piena :</l>
+<l>Ma non m’infiamma il dol<note resp="editor">[NDE] Comprendre « cuore ».</note>, nè’n rete prende</l>
+<l rend="carpredefinitoparagrafo">Tua beltà, tua virtù m’arde, e’ncatena. </l>
+<l><pb n="n.p."/> </l>
+</div>
+<div type="titolo1">
+<head>A Madama di Beaulieu</head>
+<l>Lascia o Plato divin que’campi homaì<note resp="editor">[NDE] Comprendre « ormai ».</note> </l>
+<l rend="i">Ove godi immortal l’aure seconde ;</l>
+<l rend="i">E vieni qui, dove d’argento l’onde</l>
+<l>Volge la Senna : aure più dolci hauraì<note resp="editor">[NDE] « haurai » = « avrai ».</note>.</l>
+<l/>
+<l>Splendor, che oscura al gran Pianeta i raì<note resp="editor">[NDE] « rai » = « raggi ».</note> </l>
+<l rend="i">Qualor più chiaro il lume suo diffonde</l>
+<l rend="i">Qui fiammeggia, qui sol tra verdi sponde</l>
+<l rend="i">Bella, e spirante virtù vedrai.</l>
+<l/>
+<l rend="i">Bella sì, che’l pennel della tua lingua</l>
+<l>Tal non la pinse<note resp="editor">[NDE] « pinse » = « dipinse ».</note>, o quattro volte, e sei</l>
+<l rend="i">Beato suol, che reggi il nobil velo.</l>
+<l/>
+<l rend="i">Ecco non pur ardor d’amor per lei</l>
+<l>L’alme<note resp="editor">[NDE] « L’alme » = « Le anime ».</note>leggiadre : ma n’avvampa il Cielo,</l>
+<l>Né sia, che Lethe un sì<note resp="editor">[NDE] « si » = « così ».</note><term type="Sentiment_Positif" rend="Beau">bel</term> fuoco estingua. </l>
+<l/>
+<signed>
+Di V. S. Humilissima e ass
+<hi rend="sup">ma</hi>
+</signed>
+<signed>
+Isabella Andreini
+</signed>
+<p><pb n="n.p."/> </p>
+</div>
+<div type="titolo1">
+<head>A Madamoiselle di Beaulieu</head>
+<p rend="h1sub">ISABELLA ANDREINI</p>
+<p rend="h1sub">In occasione di farsi ritrarre.</p>
+<l>Pittor ferma il pennel’ ch’altri<note resp="editor">[NDE] « pennel’ ch’altri » = « pennello che (gli) altri ».</note>presume<note resp="editor">[NDE] « presume » = « presumono ».</note> </l>
+<l rend="i">Invan ritrar del mio <term type="Sentiment_Positif" rend="Beau">bel</term> Sole i lampi,</l>
+<l>Del mio <term type="Sentiment_Positif" rend="Beau">bel</term> Sol, per cui fia mi consume<note resp="editor">[NDE] « fia mi consume » comprendre « mi faccia consumare (bruciare) ».</note>,</l>
+<l rend="i">Anzi pur sempre lagrimando avvampi.</l>
+<l/>
+<l rend="i">Degna del Sol celeste oggi il costume</l>
+<l rend="i">Il mio terren’ quel negli Eterei campi</l>
+<l rend="i">In nube opposta di se stesso il lume,</l>
+<l rend="i">(Se d’onda è grave) avvien, che formi, e stampi.</l>
+<l/>
+<l rend="i">A me, che fata son nube di pianto</l>
+<l rend="i">Si volga ormai la mia leggiadra vaga,</l>
+<l rend="i">E’l suo volto vedrà vino, e lucente.</l>
+<l/>
+<l rend="i">Nube di pianto io son : ma caldo tanto,</l>
+<l>Ch’ei<note resp="editor">[NDE] « ei » = « egli ».</note>sembra fuoco liquido corrente,</l>
+<l>Che’ncende<note resp="editor">[NDE] « ‘ncende » = « incende », synonyme de « accende ».</note>il cor mentre, che’l sen m’allaga. </l>
+<l><pb n="n.p."/> </l>
+</div>
+<div type="titolo1">
+<head>Sonnet à la Seignore Isabelle, sur son voyage à Monceaux<note resp="editor">[NDE] L’originale porte « Mouceaux ».</note></head>
+<l rend="i">Sans l’air de vos Zéphyrs, je languis et me pâme,</l>
+<l rend="i">De ce qu’un sort cruel me prive de vos yeux :</l>
+<l rend="i">Isabelle, mon cœur, que ses rais gracieux</l>
+<l rend="i">Avivent le <term type="Religion" rend="Saint">saint</term> feu qui sans cesse m’enflamme.</l>
+<l/>
+<l rend="i">Je n’eusse sans mourir quitté leur douce flamme,</l>
+<l rend="i">Si le Ciel n’eût permis que je vive en deux lieux,</l>
+<l rend="i">Et que gardant le corps, tout ce que j’ai de mieux</l>
+<l rend="i">Demeure, en vous laissant le gage de mon âme.</l>
+<l/>
+<l rend="i">Que s’il me reste encor quelque esprit animé</l>
+<l rend="i">Du feu de vos propos qui ne soit consommé,</l>
+<l rend="i">Il sert à soupirer l’objet que je lamente.</l>
+<l/>
+<l rend="noindent i">Donc pour vous mes soupirs sont des vents irrités,</l>
+<l rend="noindent i">Et mes larmes des flots pour croître ma tourmente</l>
+<l rend="noindent i">Qui se calme au Soleil de vos <term type="Religion" rend="Divinité">divinités</term>.</l>
+<label>FIN.</label>
+</div>
+</body>
+</text>
+</TEI>
