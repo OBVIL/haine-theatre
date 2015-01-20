@@ -14,6 +14,8 @@ public class OntologyManager {
 	private static OWLModel ontology = null;
 	private static OWLManager owlManager = new OWLManager();
 	
+	private static HashMap<String, Individual> individuals = new HashMap<String, Individual>();
+	
 	private static void loadOntology(){
 		if(ontology == null){
 			ontology = owlManager.loadOWLModel(new File(Parameters.GET_ONTOLOGY_PATH()));
@@ -41,14 +43,26 @@ public class OntologyManager {
 		return results;
 	}
 	
+	public static HashMap<String, Individual> getIndividualHashMap(){
+		if(individuals.isEmpty()){
+			for(Individual individual : getIndividualList()){
+				individuals.put(individual.getLocalName(), individual);
+			}
+		}
+		return individuals;
+	}
 	public static void main(String [] args){
 		int size = 0;
-		for(String key : getOntologyIndividual().keySet()){
-			size = size + getOntologyIndividual().get(key).size();
+		for(Individual key : getIndividualList()){
+			System.out.println(key.getFormatting());
 		}
 		
-		System.out.println(size);
-		System.out.println(getIndividualList().size());
+//		for(String key : getOntologyConcept().keySet()){
+//			System.out.println(getOntologyConcept().get(key).getFormatting());
+//		}
+		
+//		System.out.println(size);
+//		System.out.println(getIndividualList().size());
 	}
 	
 	

@@ -6,9 +6,20 @@ import java.util.Set;
 public class Individual {
 	private String uri = "";
 	private String localName = "";
+	private String formatting = "";
 	private Set<String> labels = new HashSet<String>();
 	private Set<String> concepts = new HashSet<String>();
 	
+	
+	
+	public String getFormatting() {
+		return formatting;
+	}
+
+	public void setFormatting(String formatting) {
+		this.formatting = formatting;
+	}
+
 	public Individual(){
 		
 	}

@@ -20,6 +20,7 @@ public class OWLManager {
 	
 	public HashMap<String, ArrayList<Individual>> getOntologyIndividual(OWLModel owlModel){
 		HashMap<String, ArrayList<Individual>> results = new HashMap<String, ArrayList<Individual>>();
+		RDFProperty formatting_propertie = owlModel.getRDFProperty("Champ_Sémantique");
 		for(Object ind : owlModel.getOWLIndividuals()){
 			if(ind instanceof DefaultOWLIndividual){
 				DefaultOWLIndividual i = (DefaultOWLIndividual)ind;
@@ -27,6 +28,8 @@ public class OWLManager {
 				for(Object label : i.getLabels()){
 					individual.addLabel((String)label);
 				}
+				String formatting =(String)i.getPropertyValue(formatting_propertie);
+				individual.setFormatting(formatting);
 				
 				for(Object type : i.getDirectTypes()){
 					if(type instanceof DefaultOWLNamedClass){
@@ -51,6 +54,7 @@ public class OWLManager {
 		RDFProperty definition_propertie = owlModel.getRDFProperty("Définition");
 		RDFProperty linguistic_sign_propertie = owlModel.getRDFProperty("Signe_Linguistique");
 		RDFProperty exact_linguistic_sign_propertie = owlModel.getRDFProperty("Signe_Linguistique_Exacte");
+		RDFProperty formatting_propertie = owlModel.getRDFProperty("Champ_Sémantique");
 		
 		HashMap<String, ArrayList<Individual>> individuals = getOntologyIndividual(owlModel);
 		for(Object cls : owlModel.getRDFSClasses()){
@@ -76,6 +80,12 @@ public class OWLManager {
 							c.addExact_Linguistic_signs((String)exact_sign);
 						}
 					}
+					//System.out.println(formatting_propertie);
+					String formatting = (String)concept.getPropertyValue(formatting_propertie);
+					c.setSemanticField(formatting);
+					
+					
+					
 					
 					c.setFathers(getFatherConcepts(concept));
 					c.setChildrens(getChildrenConcepts(concept));
