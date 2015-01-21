@@ -39,8 +39,9 @@ function colorText(currentSemanticField,currentValue){
 		var element = terms[i];
 		var className = element.className.replace("term ","");
 		var semanticField = className.split(" ")[0].trim();
-		var value = className.split(" ")[1].trim();
+		var value = className.split(" ")[1];
 		value = value.replace("_"," ");
+		value = value.trim();
 		if(semanticField == currentSemanticField && value == currentValue){
 			element.setAttribute("style","background-color:lightgrey; color:white");
 		}else{
@@ -78,22 +79,23 @@ var ctr = 0;
 var array = [];
 var semanticFieldLabel = {};
 var semanticFieldInstance = {};
+var semanticFieldStatistics = {};
 
 //init semantic field label
-semanticFieldLabel['Autorité'] = "<b>Autorités citées:</b><br/>";
-semanticFieldLabel['Théâtre'] = "<b>Champ sémantique du théâtre:</b><br/>";
-semanticFieldLabel['Sentiment_Positif'] = "<b>Champ sémantique des sentiments positifs:</b><br/>";
-semanticFieldLabel['Sentiment_Négatif'] = "<b>Champ sémantique des sentiments négatifs:</b><br/>";
-semanticFieldLabel['Classe_Sociale'] = "<b>Champ sémantique des classe sociales:</b><br/>";
-semanticFieldLabel['Morale_Positive'] = "<b>Champ sémantique de la morale positive:</b><br/>";
-semanticFieldLabel['Morale_Négative'] = "<b>Champ sémantique de la morale négative:</b><br/>";
-semanticFieldLabel['Amour'] = "<b>Champ sémantique de l'amour:</b><br/>";
-semanticFieldLabel['Religion'] = "<b>Champ sémantique religieux:</b><br/>";
-semanticFieldLabel['Fête'] = "<b>Champ sémantique de la fête et de la musique:</b><br/>";
-semanticFieldLabel['Guerre'] = "<b>Champ sémantique du combat:</b><br/>";
-semanticFieldLabel['Origine'] = "<b>Champ sémantique de la nationalité:</b><br/>";
-semanticFieldLabel['Juridique'] = "<b>Champ sémantique juridique:</b><br/>";
-semanticFieldLabel['Argent'] = "<b>Champ sémantique de l'argent:</b><br/>";
+semanticFieldLabel['Autorité'] = "<b>Autorités citées</b>";
+semanticFieldLabel['Théâtre'] = "<b>Champ sémantique du théâtre</b>";
+semanticFieldLabel['Sentiment_Positif'] = "<b>Champ sémantique des sentiments positifs</b>";
+semanticFieldLabel['Sentiment_Négatif'] = "<b>Champ sémantique des sentiments négatifs</b>";
+semanticFieldLabel['Classe_Sociale'] = "<b>Champ sémantique des classe sociales</b>";
+semanticFieldLabel['Morale_Positive'] = "<b>Champ sémantique de la morale positive</b>";
+semanticFieldLabel['Morale_Négative'] = "<b>Champ sémantique de la morale négative</b>";
+semanticFieldLabel['Amour'] = "<b>Champ sémantique de l'amour</b>";
+semanticFieldLabel['Religion'] = "<b>Champ sémantique religieux</b>";
+semanticFieldLabel['Fête'] = "<b>Champ sémantique de la fête et de la musique</b>";
+semanticFieldLabel['Guerre'] = "<b>Champ sémantique du combat</b>";
+semanticFieldLabel['Origine'] = "<b>Champ sémantique de la nationalité</b>";
+semanticFieldLabel['Juridique'] = "<b>Champ sémantique juridique</b>";
+semanticFieldLabel['Argent'] = "<b>Champ sémantique de l'argent</b>";
 
 //init semantic field instance
 semanticFieldInstance['Autorité'] =  new Array();
@@ -111,6 +113,22 @@ semanticFieldInstance['Origine'] = new Array();
 semanticFieldInstance['Juridique'] = new Array();
 semanticFieldInstance['Argent'] = new Array();
 
+//init semantic field statistics
+semanticFieldStatistics['Autorité'] =  0;
+semanticFieldStatistics['Théâtre'] = 0 ;
+semanticFieldStatistics['Sentiment_Positif'] = 0;
+semanticFieldStatistics['Sentiment_Négatif'] = 0;
+semanticFieldStatistics['Classe_Sociale'] = 0;
+semanticFieldStatistics['Morale_Positive'] = 0;
+semanticFieldStatistics['Morale_Négative'] = 0;
+semanticFieldStatistics['Amour'] = 0;
+semanticFieldStatistics['Religion'] = 0;
+semanticFieldStatistics['Fête'] = 0;
+semanticFieldStatistics['Guerre'] = 0;
+semanticFieldStatistics['Origine'] = 0;
+semanticFieldStatistics['Juridique'] = 0;
+semanticFieldStatistics['Argent'] = 0;
+
 for(i = 0; i < terms.length; i++)
 {
    var element = terms[i];
@@ -119,12 +137,16 @@ for(i = 0; i < terms.length; i++)
    //element.addEventListener("onclick",colorText());
    var className = element.className.replace("term ","");
    var semanticField = className.split(" ")[0].trim();
-   var value = className.split(" ")[1].trim();
+   var value = className.split(" ")[1];
    value = value.replace("_"," ");
+   value = value.trim();
    //alert("semanticField "+semanticField);
    //alert("value "+value);
    
    var liste = semanticFieldInstance[semanticField];
+   var count = semanticFieldStatistics[semanticField];
+   semanticFieldStatistics[semanticField] = count + 1;
+   
    //alert (liste.length);
    if(liste.contains(value) == false){
 		liste[liste.length] = value;
@@ -144,7 +166,7 @@ i = 0;
 for(semanticField in semanticFieldLabel){
 	var liste = semanticFieldInstance[semanticField];
 	if(liste.length > 0){
-	 var element = createElement("li","","<a href=\"#\" onclick=\"javascript:colorTextSemanticField(\'"+semanticField+"\'); return false;\">"+semanticFieldLabel[semanticField]+"</a>["+convertArrayToString(liste, semanticField)+"]");
+	 var element = createElement("li","","<a href=\"#\" onclick=\"javascript:colorTextSemanticField(\'"+semanticField+"\'); return false;\">"+semanticFieldLabel[semanticField]+"</a>"+"<b>["+semanticFieldStatistics[semanticField]+" occurrences] :</b><br/>"+"["+convertArrayToString(liste, semanticField)+"]");
 	 
 	 array[i] = element;
 	 i = i+1;
