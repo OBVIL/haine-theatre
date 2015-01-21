@@ -53,6 +53,25 @@ function colorText(currentSemanticField,currentValue){
 	
 }
 
+function colorTextSemanticField(currentSemanticField){
+	//delete all color
+	var terms = document.getElementsByClassName("term");
+	var i = 0;
+	for(i = 0; i < terms.length; i++)
+	{
+		var element = terms[i];
+		var className = element.className.replace("term ","");
+		var semanticField = className.split(" ")[0].trim();
+		
+		if(semanticField == currentSemanticField){
+			element.setAttribute("style","background-color:lightgrey; color:white");
+		}else{
+			element.removeAttribute("style");
+		}
+		
+	}
+}
+
 var terms = document.getElementsByClassName("term");
 var i = 0 ;
 var ctr = 0;
@@ -125,7 +144,7 @@ i = 0;
 for(semanticField in semanticFieldLabel){
 	var liste = semanticFieldInstance[semanticField];
 	if(liste.length > 0){
-	 var element = createElement("li","",semanticFieldLabel[semanticField]+"["+convertArrayToString(liste, semanticField)+"]");
+	 var element = createElement("li","","<a href=\"#\" onclick=\"javascript:colorTextSemanticField(\'"+semanticField+"\'); return false;\">"+semanticFieldLabel[semanticField]+"</a>["+convertArrayToString(liste, semanticField)+"]");
 	 
 	 array[i] = element;
 	 i = i+1;
