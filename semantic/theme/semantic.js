@@ -29,6 +29,54 @@ for(i=0; i<array.length;i++){
 return text;
 }
 
+
+function sortMapByValue(map)
+{
+    var tupleArray = [];
+    for (var key in map) tupleArray.push([key, map[key]]);
+    tupleArray.sort(function (a, b) { return b[1] - a[1]});
+    return tupleArray;
+}
+
+function sortAndconvertArrayToString(array, semanticField){
+
+var text = "";
+var i;
+var termFrequency = {};
+
+for(i=0; i<array.length;i++){
+		
+	if((array[i] in termFrequency) == false){
+		termFrequency[array[i]] = 1;
+	}else{
+		var f = termFrequency[array[i]];
+		termFrequency[array[i]] = f + 1;
+	
+	}
+}
+
+var termFrequency = sortMapByValue(termFrequency);
+i = 0;
+for(var key in termFrequency){
+	var label = termFrequency[key][0];
+	var frequency = termFrequency[key][1];
+	if(!(label == undefined)){
+		if(i < termFrequency.length-1){
+		text = text + "<a href=\"#\" onclick=\"javascript:colorText(\'"+semanticField+"\',\'"+label+"\'); return false;\" title=\""+frequency+" occurrences\">"+label+"</a>, ";
+	}else{
+		text = text + "<a href=\"#\" onclick=\"javascript:colorText(\'"+semanticField+"\',\'"+label+"\'); return false;\"title=\""+frequency+"\" occurrences>"+label+"</a>";
+	
+	}
+	i = i+1;
+	}
+	
+}
+
+
+return text;
+}
+
+
 function colorText(currentSemanticField,currentValue){
 	
 	//delete all color
@@ -79,6 +127,7 @@ var ctr = 0;
 var array = [];
 var semanticFieldLabel = {};
 var semanticFieldInstance = {};
+var semanticFieldAllInstance = {};
 var semanticFieldStatistics = {};
 
 //init semantic field label
@@ -129,6 +178,24 @@ semanticFieldStatistics['Origine'] = 0;
 semanticFieldStatistics['Juridique'] = 0;
 semanticFieldStatistics['Argent'] = 0;
 
+//init semantic field all instance
+semanticFieldAllInstance['Autorité'] =  new Array();
+semanticFieldAllInstance['Théâtre'] = new Array() ;
+semanticFieldAllInstance['Sentiment_Positif'] = new Array();
+semanticFieldAllInstance['Sentiment_Négatif'] = new Array();
+semanticFieldAllInstance['Classe_Sociale'] = new Array();
+semanticFieldAllInstance['Morale_Positive'] = new Array();
+semanticFieldAllInstance['Morale_Négative'] = new Array();
+semanticFieldAllInstance['Amour'] = new Array();
+semanticFieldAllInstance['Religion'] = new Array();
+semanticFieldAllInstance['Fête'] = new Array();
+semanticFieldAllInstance['Guerre'] = new Array();
+semanticFieldAllInstance['Origine'] = new Array();
+semanticFieldAllInstance['Juridique'] = new Array();
+semanticFieldAllInstance['Argent'] = new Array();
+
+
+
 for(i = 0; i < terms.length; i++)
 {
    var element = terms[i];
@@ -146,6 +213,9 @@ for(i = 0; i < terms.length; i++)
    var liste = semanticFieldInstance[semanticField];
    var count = semanticFieldStatistics[semanticField];
    semanticFieldStatistics[semanticField] = count + 1;
+   // use liste 2 to sort all element by frequence
+   var liste2 = semanticFieldAllInstance[semanticField];
+   liste2[liste2.length] = value;
    
    //alert (liste.length);
    if(liste.contains(value) == false){
@@ -165,8 +235,10 @@ for(i = 0; i < terms.length; i++)
 i = 0;
 for(semanticField in semanticFieldLabel){
 	var liste = semanticFieldInstance[semanticField];
+	var text = sortAndconvertArrayToString(semanticFieldAllInstance[semanticField],semanticField);
 	if(liste.length > 0){
-	 var element = createElement("li","","<a href=\"#\" onclick=\"javascript:colorTextSemanticField(\'"+semanticField+"\'); return false;\">"+semanticFieldLabel[semanticField]+"</a>"+"<b>["+semanticFieldStatistics[semanticField]+" occurrences] :</b><br/>"+"["+convertArrayToString(liste, semanticField)+"]");
+	 //var element = createElement("li","","<a href=\"#\" onclick=\"javascript:colorTextSemanticField(\'"+semanticField+"\'); return //false;\">"+semanticFieldLabel[semanticField]+"</a>"+"<b>["+semanticFieldStatistics[semanticField]+" occurrences] :</b><br/>"+"["+convertArrayToString(liste, semanticField)+"]");
+	 var element = createElement("li","","<a href=\"#\" onclick=\"javascript:colorTextSemanticField(\'"+semanticField+"\'); return false;\">"+semanticFieldLabel[semanticField]+"</a>"+"<b>["+semanticFieldStatistics[semanticField]+" occurrences] :</b><br/>"+"["+text+"]");
 	 
 	 array[i] = element;
 	 i = i+1;
