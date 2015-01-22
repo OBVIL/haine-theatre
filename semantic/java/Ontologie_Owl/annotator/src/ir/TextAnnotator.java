@@ -14,6 +14,8 @@ public class TextAnnotator {
 	
 	private static String START_BODY = "<body>";
 	private static String END_BODY = "</body>";
+	private static String XML_REGEX_TAG = "</*[éèçàêùûa-zA-Z_0-9:=\"/.\\- ]+/*>";
+	//private static String XML_REGEX_TAG = "</*.+/*>";
 		
 	
 	private static String getTEIBody(String text){
@@ -26,7 +28,7 @@ public class TextAnnotator {
 	private static String annotateXMLText(String text){
 		StringBuffer newXMLText = new StringBuffer();
 		//text = text.replaceAll("\n", " ");
-		text = text.replaceAll("(</*[éèçàêùûa-zA-Z_0-9:=\" ]+/*>)", "\r$1\r");
+		text = text.replaceAll("("+XML_REGEX_TAG+")", "\r$1\r");
 		//text = text.replaceAll("(\n){2,}", "\n");
 		//FileIO.writeFile(text, "body.txt", Parameters.UTF8);
 		
@@ -35,7 +37,7 @@ public class TextAnnotator {
 		int counter = 1;
 		for(String element : elements){
 			System.out.println("Annotating part "+counter+"/"+elements.length);
-			if(!element.matches("</*[éèçàêùûa-zA-Z_0-9:=\" ]+/*>") && element.matches(".*[a-zA-Z]+.*")){
+			if(!element.matches(XML_REGEX_TAG) && element.matches(".*[a-zA-Z]+.*")){
 				//System.out.println(element);
 				String newElement = annotateText(element);
 				newXMLText = newXMLText.append(newElement);
