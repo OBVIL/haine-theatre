@@ -14,7 +14,7 @@ public class TextAnnotator {
 	
 	private static String START_BODY = "<body>";
 	private static String END_BODY = "</body>";
-	private static String XML_REGEX_TAG = "</*[éèçàêùûa-zA-Z_0-9:=\"/.\\- ]+/*>";
+	private static String XML_REGEX_TAG = "</*[éèçàêùûa-zA-Z_0-9:=\"/.\\-# ]+/*>";
 	//private static String XML_REGEX_TAG = "</*.+/*>";
 		
 	
