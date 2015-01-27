@@ -124,6 +124,7 @@ else {
     <script type="text/javascript" src="<?php echo $teipot; ?>Tree.js">//</script>
     <script type="text/javascript" src="<?php echo $teipot; ?>Form.js">//</script>
     <script type="text/javascript" src="<?php echo $teipot; ?>Sortable.js">//</script>
-    <script type="text/javascript"><?php if (isset($doc['js']))echo $doc['js']; ?></script>  
+    <script type="text/javascript"><?php if (isset($doc['js']))echo $doc['js']; ?></script>
+    <script type="text/javascript" src="<?php echo $pot->basehref; ?>semantic/theme/semantic.js">//</script>
   </body>
 </html>
