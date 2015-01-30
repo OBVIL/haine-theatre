@@ -52,7 +52,7 @@ public class TextAnnotator {
 	}
 	
 	
-	private static String annotateText(String text) {
+	public static String annotateText(String text) {
 		ArrayList<String> textChars = new ArrayList<String>();
 		
 		for(char c : text.toCharArray()){
