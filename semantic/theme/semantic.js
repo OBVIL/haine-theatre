@@ -62,9 +62,9 @@ for(var key in termFrequency){
 	var frequency = termFrequency[key][1];
 	if(!(label == undefined)){
 		if(i < termFrequency.length-1){
-		text = text + "<a href=\"#\" onclick=\"javascript:colorText(\'"+semanticField+"\',\'"+label+"\'); return false;\" title=\""+frequency+" occurrences\">"+label+"</a>, ";
+		text = text + "<a href=\"#\" onclick=\"javascript:colorText(this, \'"+semanticField+"\',\'"+label+"\'); return false;\" title=\""+frequency+" occurrences\">"+label+"</a>, ";
 	}else{
-		text = text + "<a href=\"#\" onclick=\"javascript:colorText(\'"+semanticField+"\',\'"+label+"\'); return false;\"title=\""+frequency+"\" occurrences>"+label+"</a>";
+		text = text + "<a href=\"#\" onclick=\"javascript:colorText(this, \'"+semanticField+"\',\'"+label+"\'); return false;\"title=\""+frequency+"\" occurrences>"+label+"</a>";
 	
 	}
 	i = i+1;
@@ -77,11 +77,12 @@ return text;
 }
 
 
-function colorText(currentSemanticField,currentValue){
+function colorText(currentElement,currentSemanticField,currentValue){
 	
 	//delete all color
 	var terms = document.getElementsByClassName("term");
 	var i = 0;
+	var labelChanged = false;
 	for(i = 0; i < terms.length; i++)
 	{
 		var element = terms[i];
@@ -90,10 +91,27 @@ function colorText(currentSemanticField,currentValue){
 		var value = className.split(" ")[1];
 		value = value.replace("_"," ");
 		value = value.trim();
+		var color = semanticFieldColors[currentSemanticField];
 		if(semanticField == currentSemanticField && value == currentValue){
-			element.setAttribute("style","background-color:lightgrey; color:white");
-		}else{
-			element.removeAttribute("style");
+			if(element.getAttribute("style") != null){
+				element.removeAttribute("style");
+				element.removeAttribute("title");
+				if(labelChanged == false){
+					currentElement.innerHTML = currentElement.innerHTML.replace("<b>","");
+					currentElement.innerHTML = currentElement.innerHTML.replace("</b>","");
+					labelChanged = true;
+				}
+				
+			}else{
+				element.setAttribute("style","background-color:"+color+"; color:white");
+				element.setAttribute("title",currentSemanticField.replace("_"," "));
+				if(labelChanged == false){
+					currentElement.innerHTML = "<b>"+ currentElement.innerHTML + "</b>";
+					labelChanged = true;
+				}
+				
+			}
+			
 		}
 		
 	}
@@ -102,23 +120,58 @@ function colorText(currentSemanticField,currentValue){
 	
 }
 
-function colorTextSemanticField(currentSemanticField){
+function colorTextSemanticField(currentElement, currentSemanticField){
 	//delete all color
 	var terms = document.getElementsByClassName("term");
 	var i = 0;
-	for(i = 0; i < terms.length; i++)
-	{
+	var liste = currentElement.parentNode.getElementsByTagName("a");
+	var allNotColored = true;
+	
+	for(i=1;i<liste.length;i++){
+		
+		if(liste[i].innerHTML.indexOf("<b>") > -1){
+			allNotColored = false;
+			break;
+		
+		}
+	}
+	if(allNotColored == false){
+		for(i = 0; i < terms.length; i++)
+	    {
+		  var element = terms[i];
+		  var className = element.className.replace("term ","");
+		  var semanticField = className.split(" ")[0].trim();
+		  var color = semanticFieldColors[currentSemanticField];
+		  if(semanticField == currentSemanticField){
+				element.removeAttribute("style");
+				element.removeAttribute("title");
+		  }
+		}
+	    
+		for(i=1;i<liste.length;i++){
+			liste[i].innerHTML = liste[i].innerHTML.replace("<b>","");
+			liste[i].innerHTML = liste[i].innerHTML.replace("</b>","");
+	    }
+	}else{
+	  for(i = 0; i < terms.length; i++)
+	  {
 		var element = terms[i];
 		var className = element.className.replace("term ","");
 		var semanticField = className.split(" ")[0].trim();
-		
+		var color = semanticFieldColors[currentSemanticField];
 		if(semanticField == currentSemanticField){
-			element.setAttribute("style","background-color:lightgrey; color:white");
-		}else{
-			element.removeAttribute("style");
+			element.setAttribute("style","background-color:"+color+"; color:white");
+			element.setAttribute("title",currentSemanticField.replace("_"," "));
+			}
+			
 		}
+		for(i=1;i<liste.length;i++){
+			liste[i].innerHTML = "<b>"+liste[i].innerHTML+"</b>";
+			
+	    }
 		
 	}
+	
 }
 
 var terms = document.getElementsByClassName("term");
@@ -129,6 +182,7 @@ var semanticFieldLabel = {};
 var semanticFieldInstance = {};
 var semanticFieldAllInstance = {};
 var semanticFieldStatistics = {};
+var semanticFieldColors = {};
 
 //init semantic field label
 semanticFieldLabel['Autorité'] = "<b>Autorités citées</b>";
@@ -145,6 +199,22 @@ semanticFieldLabel['Guerre'] = "<b>Champ sémantique du combat</b>";
 semanticFieldLabel['Origine'] = "<b>Champ sémantique de la nationalité</b>";
 semanticFieldLabel['Juridique'] = "<b>Champ sémantique juridique</b>";
 semanticFieldLabel['Argent'] = "<b>Champ sémantique de l'argent</b>";
+
+//init semantic field colors
+semanticFieldColors['Autorité'] = "#006600";
+semanticFieldColors['Théâtre'] = "#00CC00";
+semanticFieldColors['Sentiment_Positif'] = "#336666";
+semanticFieldColors['Sentiment_Négatif'] = "#009999";
+semanticFieldColors['Classe_Sociale'] = "#CC0066";
+semanticFieldColors['Morale_Positive'] = "#3300FF";
+semanticFieldColors['Morale_Négative'] = "#330099";
+semanticFieldColors['Amour'] = "#333366";
+semanticFieldColors['Religion'] = "#663300";
+semanticFieldColors['Fête'] = "#CC0000";
+semanticFieldColors['Guerre'] = "#000033";
+semanticFieldColors['Origine'] = "#006666";
+semanticFieldColors['Juridique'] = "#0066CC";
+semanticFieldColors['Argent'] = "#0066FF";
 
 //init semantic field instance
 semanticFieldInstance['Autorité'] =  new Array();
@@ -238,19 +308,20 @@ for(semanticField in semanticFieldLabel){
 	var text = sortAndconvertArrayToString(semanticFieldAllInstance[semanticField],semanticField);
 	if(liste.length > 0){
 	 //var element = createElement("li","","<a href=\"#\" onclick=\"javascript:colorTextSemanticField(\'"+semanticField+"\'); return //false;\">"+semanticFieldLabel[semanticField]+"</a>"+"<b>["+semanticFieldStatistics[semanticField]+" occurrences] :</b><br/>"+"["+convertArrayToString(liste, semanticField)+"]");
-	 var element = createElement("li","","<a href=\"#\" onclick=\"javascript:colorTextSemanticField(\'"+semanticField+"\'); return false;\">"+semanticFieldLabel[semanticField]+"</a>"+"<b>["+semanticFieldStatistics[semanticField]+" occurrences] :</b><br/>"+"["+text+"]");
+	 var element = createElement("li","","<a href=\"#\" onclick=\"javascript:colorTextSemanticField(this, \'"+semanticField+"\'); return false;\">"+semanticFieldLabel[semanticField]+"</a>"+"<b>["+semanticFieldStatistics[semanticField]+" occurrences] :</b><br/>"+"["+text+"]");
 	 
 	 array[i] = element;
 	 i = i+1;
 	}
 	
 }
-
-var motCles = createElement("ul","",array);
-var motClesListe = createElement("li","[class:  less]",["Annotations associées:",motCles]);
-var treeClass = createElement("ul","[class:tree treejs]",motClesListe);
-var divTags = createElement("div","[id:tags]",treeClass);
-//alert(divTags.id);
-var article = document.getElementById("article");
-//alert(article.innerHTML);
-article.insertBefore(divTags,article.childNodes[0]);
+if(array.length > 0){
+	var motCles = createElement("ul","",array);
+    var motClesListe = createElement("li","[class:  less]",["Annotations associées:",motCles]);
+    var treeClass = createElement("ul","[class:tree treejs]",motClesListe);
+    var divTags = createElement("div","[id:tags]",treeClass);
+    //alert(divTags.id);
+    var article = document.getElementById("article");
+    //alert(article.innerHTML);
+    article.insertBefore(divTags,article.childNodes[0]);
+}
