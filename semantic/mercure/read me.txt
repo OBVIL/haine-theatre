@@ -1,0 +1,17 @@
+utilitaire pour récuperer les super concepts d'un concept
+
+commande : java -jar owlUtil.jar "ONTOLOGY_PATH=D:\root-ontology.owl"
+
+sous php :  $sortie = exec(java -jar owlUtil.jar "ONTOLOGY_PATH=D:\root-ontology.owl");
+
+Le résultat est un string de la forme suivante:
+identifiant du concept TABULATION [liste concept pères] \r
+identifiant du concept TABULATION [liste concept pères] \r
+identifiant du concept TABULATION [liste concept pères] \r
+
+exemple:
+Vingt-quatre_violons	[Corporation, Chambre_du_roi, Thing]
+VENISE,_Théâtre_San_Giovanni_Grisostomo	[Place, Thing]
+THORIGNY-SUR-VIRE	[MANCHE, Place, Thing]
+LIMERAY,_Abbaye_cistercienne_de_Moncé	[LIMERAY, Place, Thing, INDRE-ET-LOIRE]
+PARIS,_Hôtel_d'Aumont	[PARIS, Place, Thing]
