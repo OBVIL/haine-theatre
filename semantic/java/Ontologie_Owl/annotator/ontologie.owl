@@ -29,17 +29,17 @@
     </rdfs:subClassOf>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Farce</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Farce</formatting>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Pendant le  Moyen Âge: petit intermède comique joué sur le parvis des églises au cours de la représentation d'un mystère.
 Après: pièce de théâtre d'inspiration bouffonne mettant en scène des personnages souvent grotesques et présentant généralement un comique de mots, de gestes ou de situation(s).</Définition>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Bouffon">
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Comédien qui joue la farce, la pantomime, spécialisé dans le comique de bas étage.</Définition>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Acteur:Bouffon</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <rdfs:subClassOf>
       <owl:Class rdf:ID="Acteur"/>
     </rdfs:subClassOf>
@@ -52,8 +52,8 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Classe_sociale"/>
     </rdfs:subClassOf>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Chevalier</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Philosophe">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -65,10 +65,10 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
   <owl:Class rdf:ID="Danseur">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Danseur</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Acteur:Danseur</formatting>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Personne qui danse par profession, généralement sur les places publiques.</Définition>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Acteur"/>
     </rdfs:subClassOf>
@@ -97,6 +97,8 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     >solennité</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >religion</Signe_Linguistique>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Religion</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >sacrifice</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -126,6 +128,8 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >passion</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Jésus Christ</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >païen</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >pentecôte</Signe_Linguistique>
@@ -144,6 +148,10 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >vestale</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >religieux</Signe_Linguistique>
+    <Signe_Linguistique_Exacte rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Foi</Signe_Linguistique_Exacte>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Canoniste</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >serment</Signe_Linguistique>
@@ -159,8 +167,6 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     >chrétien</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >démon</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Religion</formatting>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >disciple</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -172,8 +178,6 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >prêtre</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >foi</Signe_Linguistique>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >eglise</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >apôtre</Signe_Linguistique>
@@ -183,8 +187,8 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     >écriture Sainte</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Bal">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Bal</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <rdfs:subClassOf>
       <owl:Class rdf:ID="Danse"/>
     </rdfs:subClassOf>
@@ -214,8 +218,8 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     >Caractéristique de nature, bonne ou mauvaise, d'une chose ou d'une personne.</Définition>
   </owl:Class>
   <owl:Class rdf:ID="Histrion">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Acteur:Histrion</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Histrion</Signe_Linguistique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -232,23 +236,23 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     </rdfs:subClassOf>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Bateleur</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Acteur:Bateleur</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Satire">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Satire</formatting>
     <rdfs:subClassOf>
       <owl:Class rdf:ID="Théatre"/>
     </rdfs:subClassOf>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Satire</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Pantomime">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Pantomime</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Pantomime</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Technique d'expression dramatique suivant laquelle les situations, les sentiments, les idées sont rendus par des attitudes, des gestes, des jeux de physionomie, sans recours à la parole.</Définition>
     <rdfs:subClassOf>
@@ -256,6 +260,8 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:ID="Jongleur">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Jongleur</Signe_Linguistique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -263,26 +269,24 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Acteur"/>
     </rdfs:subClassOf>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Acteur:Jongleur</formatting>
   </owl:Class>
   <owl:Class rdf:ID="Père">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
     <Signe_Linguistique_Exacte rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >père</Signe_Linguistique_Exacte>
     <rdfs:subClassOf rdf:resource="#Citoyen"/>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Famille</formatting>
   </owl:Class>
   <owl:Class rdf:ID="Farceur">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Farceur</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Acteur:Farceur</formatting>
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Acteur"/>
     </rdfs:subClassOf>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Acteur spécialisé dans les rôles de bouffon, de comique qui dit ou fait des choses bouffonnes, joue des tours pour amuser ou se divertir aux dépens d'autrui.</Définition>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Défendre">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -308,22 +312,22 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     >Raisonnable</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >sérieux</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Appréciation:Défendre:value</formatting>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >respect</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >admiration</Signe_Linguistique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Valeur positive, de défense</Définition>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Morale_Positive</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:about="#Danse">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Danse</formatting>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Action où l'on danse.</Définition>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Réunion où l'on danse.</Définition>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Danse</Signe_Linguistique>
     <rdfs:subClassOf>
@@ -331,8 +335,6 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:ID="Mystère">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Mystère</formatting>
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Théatre"/>
     </rdfs:subClassOf>
@@ -340,6 +342,8 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     >Mystère</Signe_Linguistique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Au Moyen Âge, genre dramatique qui mettait en scène des sujets religieux tels que la Nativité, la Passion, la Résurrection, des scènes tirées des deux Testaments ou de la vie des Saints.</Définition>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Qualité_Négative">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -352,8 +356,6 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     >inutile</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >furieux</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Qualité(s) évoquée(s):Qualité(s) négative(s):value</formatting>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >impureté</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -364,6 +366,8 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     >déshonnête</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >impudicité</Signe_Linguistique>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sentiment_Négatif</Champ_Sémantique>
     <rdfs:subClassOf rdf:resource="#Qualité"/>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >passion</Signe_Linguistique>
@@ -399,6 +403,8 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     >faible</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Fille">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >vierge</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -406,8 +412,6 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <rdfs:subClassOf>
       <owl:Class rdf:ID="Enfant"/>
     </rdfs:subClassOf>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Famille</formatting>
   </owl:Class>
   <owl:Class rdf:about="#Acteur">
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -421,15 +425,15 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Instrument</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Thématique"/>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Musique</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Fête</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Noble">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Noble</formatting>
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Classe_sociale"/>
     </rdfs:subClassOf>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Noblesse</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -444,12 +448,14 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     >représenter</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Spectacle</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Représentation</formatting>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Représentation de théâtre, de danse, de plusieurs disciplines artistiques, qui est donnée en public.</Définition>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Bourgeoisie">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Bourgeoie</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -457,12 +463,10 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Classe_sociale"/>
     </rdfs:subClassOf>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Bourgeoisie</formatting>
   </owl:Class>
   <owl:Class rdf:ID="Fête">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Fête</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Fête</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Saturnale</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -471,13 +475,13 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     >fête</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Thématique"/>
   </owl:Class>
-  <owl:Class rdf:about="#Appréciation">
-    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Estimation personnelle de valeur positive ou négative d'un certain auteur sur un certain thème concernant le théâtre.</Définition>
-  </owl:Class>
   <owl:Class rdf:about="#Autorité">
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Personne qui exerce une certaine influence sur les idées et les pensées de la postérité et citée par les auteurs du corpus Haine du Théâtre.</Définition>
+  </owl:Class>
+  <owl:Class rdf:about="#Appréciation">
+    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Estimation personnelle de valeur positive ou négative d'un certain auteur sur un certain thème concernant le théâtre.</Définition>
   </owl:Class>
   <owl:Class rdf:ID="Tragédie">
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -486,15 +490,15 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Théatre"/>
     </rdfs:subClassOf>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Tragédie</formatting>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Tragédie</Signe_Linguistique>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:about="#Enfant">
     <rdfs:subClassOf rdf:resource="#Citoyen"/>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Famille</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >enfance</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -504,8 +508,8 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Spectateur ou Spectatrice (homme, femme, enfant, fille, mère, père, fils)</rdfs:isDefinedBy>
     <rdfs:subClassOf rdf:resource="#Thématique"/>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Spectateur</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Personne qui assiste à une représentation.</Définition>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -516,20 +520,20 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
   <owl:Class rdf:ID="Cirque">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Cirque</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Cirque</formatting>
     <rdfs:subClassOf rdf:resource="#Spectacle_Représentation"/>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Lieu où se déroulent les jeux publics et se donnent des spectacles équestres, acrobatiques, et variés.</Définition>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Divertissement">
     <rdfs:subClassOf rdf:resource="#Spectacle_Représentation"/>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Intermède dansé et/ ou chanté à l'entracte ou à la fin d'une œuvre lyrique ou dramatique.</Définition>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >divertissement</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Divertissement</formatting>
   </owl:Class>
   <owl:Class rdf:ID="Condamner">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -557,8 +561,6 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >reproche</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >diabolique</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Appréciation:Condamnation:value</formatting>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >licencieux</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -585,6 +587,8 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >déguisement</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >vaine</Signe_Linguistique>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Morale_Négative</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >nuisible</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -638,22 +642,22 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Classe_sociale"/>
     </rdfs:subClassOf>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Commandant</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >proconsul</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Fils">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Famille</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >fils</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Enfant"/>
   </owl:Class>
   <owl:Class rdf:ID="Mime">
     <rdfs:subClassOf rdf:resource="#Acteur"/>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Acteur:Mime</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Mime</Signe_Linguistique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -662,8 +666,6 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
   <owl:Class rdf:ID="Qualité_Positive">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >agréable</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Qualité(s) évoquée(s):Qualité(s) positive(s):value</formatting>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >magnifique</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -689,6 +691,8 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >rigueur</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Qualité"/>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sentiment_Positif</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >modeste</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -707,8 +711,8 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
   <owl:Class rdf:ID="Mascarade">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Mascarade</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Mascarade</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <rdfs:subClassOf rdf:resource="#Spectacle_Représentation"/>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Divertissement, spectacle dont les gens sont déguisés et masqués alternant des figures de danse et des récitations de vers galants</Définition>
@@ -716,8 +720,8 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
   <owl:Class rdf:ID="Famille">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >famille</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Famille</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
     <rdfs:subClassOf rdf:resource="#Citoyen"/>
   </owl:Class>
   <owl:Class rdf:ID="Empereur">
@@ -726,36 +730,36 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Classe_sociale"/>
     </rdfs:subClassOf>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Empereur</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Satyre">
     <rdfs:subClassOf rdf:resource="#Spectacle_Représentation"/>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Satyre</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Pièce dramatique grecque, mettant en scène des satyres (Divinité terrestre, compagnon de Dionysos ou Bacchus, représenté avec un corps d'homme, des cornes et des membres inférieurs de bouc, réputé pour son comportement libidineux).</Définition>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Satyre</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Argent">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Argent</Champ_Sémantique>
     <rdfs:subClassOf rdf:resource="#Thématique"/>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Argent</formatting>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Argent</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Mère">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Famille</formatting>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >mère</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Citoyen"/>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Guerre">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Guerre</formatting>
     <rdfs:subClassOf rdf:resource="#Thématique"/>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Guerre</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >arme</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -773,25 +777,27 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Classe_sociale"/>
     </rdfs:subClassOf>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Prince</formatting>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >prince</Signe_Linguistique>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Troubadour">
     <rdfs:subClassOf rdf:resource="#Acteur"/>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Acteur:Troubadour</formatting>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >(Trouvère) Poète qui, du xiieau xives., dans le nord de la France, composait en langue d'oïl des chansons de geste, romans, contes, ballades, etc., avec leur accompagnement musical, et qui restait généralement fixé auprès d'un grand seigneur et mécène.</Définition>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >(Troubadour) Poète qui, aux xiieet xiiies., dans le Midi de la France, composait en langue d'oc des poèmes, satires, ballades, etc., avec leur accompagnement musical, et qui allait de château en château, propageant les valeurs de la société courtoise.</Définition>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Trouvère</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Troubadour</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Comédie">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Comédie</Signe_Linguistique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -799,33 +805,33 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Théatre"/>
     </rdfs:subClassOf>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Comédie</formatting>
   </owl:Class>
   <owl:Class rdf:about="#Théatre">
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Différents types de genres théâtraux ou de parties théâtrales.</Définition>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Théatre</formatting>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Théatre</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >scène</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Spectacle_Représentation"/>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Roi">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >roi</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Royauté</formatting>
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Classe_sociale"/>
     </rdfs:subClassOf>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Juridique">
     <rdfs:subClassOf rdf:resource="#Thématique"/>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Juridique</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Juridique</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >législateur</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -838,15 +844,17 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >Les auteurs (écrivains) qui ont rédigé les textes qui font partie du corpus du Projet "Haine du Théâtre"</Définition>
   </owl:Class>
   <owl:Class rdf:ID="Tragi-Comédie">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Tragi-Comédie</formatting>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Tragi-Comédie</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Théatre"/>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Pièce de théâtre dont l'action est romanesque, l'intrigue tragique et le dénouement heureux; ou Pièce de théâtre dans laquelle sont entremêlés des événements graves et des incidents comiques, gais.</Définition>
   </owl:Class>
   <owl:Class rdf:ID="Amour">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Amour</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >affection</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -857,8 +865,6 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >passion</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >plaisir</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Amour</formatting>
     <rdfs:subClassOf rdf:resource="#Thématique"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Passion doit etre lié aussi à la réligion: la passion (en tant que vice) est mauvaise pour la christianité</rdfs:comment>
@@ -869,15 +875,15 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <rdfs:subClassOf rdf:resource="#Spectacle_Représentation"/>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Court récit allégorique, le plus souvent en vers, qui sert d'illustration à une vérité morale.</Définition>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Type(s) de spectacle mentionné:Fable</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Reine">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classe_Sociale</Champ_Sémantique>
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Classe_sociale"/>
     </rdfs:subClassOf>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Classe(s) sociale(s):Royauté</formatting>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >reine</Signe_Linguistique>
   </owl:Class>
@@ -885,6 +891,8 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <rdfs:subClassOf rdf:resource="#Thématique"/>
   </owl:Class>
   <owl:Class rdf:ID="Origine">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Origine</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Allemand</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -900,8 +908,6 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >Origine de la nationalité; (grèque, grèc, italien, espagnol, etc.)</rdfs:isDefinedBy>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Romain</Signe_Linguistique>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Thématique(s) abordée(s):Nationalité:value</formatting>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Espagnol</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -909,8 +915,8 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
   </owl:Class>
   <owl:Class rdf:ID="Comédien">
     <rdfs:subClassOf rdf:resource="#Acteur"/>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Acteur:Comédien</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Comédien</Signe_Linguistique>
   </owl:Class>
@@ -946,277 +952,277 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
   <Autorité rdf:ID="Bacchus">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Bacchus</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Bacchus</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Bernard">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Bernard</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Bernard</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Quintilien">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Quintilien</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Quintilien</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Horace">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Horace</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Horace</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Euripide">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Euripide</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Euripide</formatting>
   </Autorité>
   <Autorité rdf:ID="Esope">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Esope</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Esope</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Zozime">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Zozime</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Zozime</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Honorius">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Honorius</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Honorius</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Marius">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Marius</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Marius</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Démon">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Démon</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Démon</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Virgile">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Virgile</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Virgile</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Varron">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Varron</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Varron</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Gratien">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Gratien</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Gratien</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Sidonius">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Sidonius</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Sidonius</formatting>
   </Autorité>
   <Autorité rdf:ID="Budée">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Budée</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Budée</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Josèphe">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Josèphe</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Josèphe</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Hérode">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Hérode</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Hérode</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Cyprien">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Cyprien</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Cyprien</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Pline">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Pline</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Pline</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Sophocle">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Sophocle</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Sophocle</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Ambroise">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Ambroise</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Ambroise</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Manlius">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Manlius</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Manlius</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Svetone">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Svetone</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Svetone</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Apollodorus">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Apollodorus</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Apollodorus</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Schardius">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Schardius</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Schardius</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Martial">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Martial</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Martial</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Tertullien">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Tertullien</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Tertullien</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Salvien">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Salvien</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Salvien</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Auguste">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Auguste</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Auguste</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Borromée">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Borromée</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Borromée</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Pères">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Pères</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Pères</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Tite">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Tite</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Tite</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Cyrille">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Cyrille</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Cyrille</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
-  <owl:AnnotationProperty rdf:ID="formatting"/>
   <Autorité rdf:ID="Terence">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Terence</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Terence</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Escobar">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Escobar</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Escobar</formatting>
   </Autorité>
   <Autorité rdf:ID="Hercule">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Hercule</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Hercule</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Plutarque">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Plutarque</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Plutarque</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Chrysostome">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Chrysostome</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Chrysostome</formatting>
   </Autorité>
   <Autorité rdf:ID="Job">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Job</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Job</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="François">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >François</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):François</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Pierre">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Pierre</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Pierre</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Justinien">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Justinien</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Justinien</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Tatien">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Tatien</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Tatien</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Constantius">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Constantius</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Constantius</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
+  <owl:AnnotationProperty rdf:ID="Champ_Sémantique"/>
   <Autorité rdf:ID="Theodecte">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Theodecte</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Theodecte</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Augustin">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Augustin</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Augustin</rdfs:label>
   </Autorité>
@@ -1224,465 +1230,465 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
   <Autorité rdf:ID="Néron">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Néron</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Néron</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <owl:AnnotationProperty rdf:ID="Signe_Linguistique_Exacte"/>
   <Autorité rdf:ID="Térence">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Térence</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Térence</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Plaute">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Plaute</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Plaute</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Euchratius">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Euchratius</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Euchratius</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Aubignac">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Aubignac</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Aubignac</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Conti">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Conti</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Conti</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Minutius">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Minutius</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Minutius</formatting>
   </Autorité>
   <Autorité rdf:ID="David">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):David</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >David</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Théodose">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Théodose</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Théodose</formatting>
   </Autorité>
   <Autorité rdf:ID="Antonin">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Antonin</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Antonin</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Thomas">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Thomas</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Thomas</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Guzman">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Guzman</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Guzman</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Paphnuce">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Paphnuce</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Paphnuce</formatting>
   </Autorité>
   <Autorité rdf:ID="Baudouin">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Baudouin</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Baudouin</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Tacite">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Tacite</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Tacite</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Thespis">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Thespis</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Thespis</formatting>
   </Autorité>
   <Autorité rdf:ID="Mathieu">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Mathieu</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Mathieu</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Valentinien">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Valentinien</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Valentinien</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Macrobe">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Macrobe</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Macrobe</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Menochius">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Menochius</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Menochius</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Sénèque">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Sénèque</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Sénèque</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Louis">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Louis</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Louis</formatting>
   </Autorité>
   <Autorité rdf:ID="Constantin">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Constantin</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Constantin</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Paul">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Paul</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Paul</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Valère">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Valère</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Valère</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Innocent">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Innocent</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Innocent</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="César">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):César</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >César</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Live">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Live</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Live</formatting>
   </Autorité>
   <Autorité rdf:ID="Oliva">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Oliva</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Oliva</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Démosthène">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Démosthène</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Démosthène</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Lactance">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Lactance</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Lactance</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Ézéchiel">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Ézéchiel</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Ézéchiel</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Tyr">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Tyr</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Tyr</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Apollon">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Apollon</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Apollon</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Basile">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Basile</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Basile</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Aristote">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Aristote</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Aristote</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Paulin">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Paulin</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Paulin</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Nicole">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Nicole</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Nicole</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Pompée">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Pompée</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Pompée</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Cicéron">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Cicéron</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Cicéron</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Probus">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Probus</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Probus</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Homère">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Homère</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Homère</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Clément">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Clément</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Clément</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Theodorus">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Theodorus</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Theodorus</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Enoch">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Enoch</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Enoch</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Jesus">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Jesus</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Jesus</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Baronius">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Baronius</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Baronius</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Laodicée">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Laodicée</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Laodicée</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Mariana">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Mariana</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Mariana</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Diogène">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Diogène</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Diogène</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Sozomene">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Sozomene</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Sozomene</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Mendoza">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Mendoza</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Mendoza</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Yves">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Yves</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Yves</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Lucien">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Lucien</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Lucien</formatting>
   </Autorité>
   <Autorité rdf:ID="Andronicus">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Andronicus</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Andronicus</formatting>
   </Autorité>
   <Autorité rdf:ID="Apollinaris">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Apollinaris</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Apollinaris</formatting>
   </Autorité>
   <Autorité rdf:ID="Orose">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Orose</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Orose</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Julien">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Julien</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Julien</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Corneille">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Corneille</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Corneille</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Nevius">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Nevius</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Nevius</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Jérôme">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Jérôme</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Jérôme</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Scipion">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Scipion</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scipion</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Richelieu">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Richelieu</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Richelieu</formatting>
   </Autorité>
   <Autorité rdf:ID="Grégoire">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Grégoire</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Grégoire</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Comitolus">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Comitolus</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Comitolus</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Theodore">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Theodore</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Theodore</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Donat">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Donat</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Donat</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Boniface">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Boniface</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Boniface</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Léon">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Léon</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Léon</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Vitruve">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Vitruve</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Vitruve</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Penna">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Penna</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Penna</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Denis">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Denis</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Denis</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Platon">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Platon</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Platon</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Arcadius">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Arcadius</formatting>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Arcadius</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Ovide">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Ovide</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Ovide</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Philippe">
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Philippe</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Philippe</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Voisin">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Voisin</rdfs:label>
-    <formatting rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité(s) évoquée(s):Voisin</formatting>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <owl:AnnotationProperty rdf:ID="Signe_Linguistique"/>
 </rdf:RDF>

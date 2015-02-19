@@ -4,8 +4,10 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
+import util.FileIO;
 import util.Parameters;
 import edu.stanford.smi.protegex.owl.model.OWLModel;
 
@@ -52,15 +54,25 @@ public class OntologyManager {
 		return individuals;
 	}
 	public static void main(String [] args){
-		int size = 0;
-		for(Individual key : getIndividualList()){
-			System.out.println(key.getFormatting());
-		}
-		
-//		for(String key : getOntologyConcept().keySet()){
-//			System.out.println(getOntologyConcept().get(key).getFormatting());
+//		int size = 0;
+//		for(Individual key : getIndividualList()){
+//			System.out.println(key.getFormatting());
 //		}
-		
+		StringBuffer buffer = new StringBuffer();
+		for(String key : getOntologyConcept().keySet()){
+			System.out.println(getOntologyConcept().get(key));
+			Concept c = getOntologyConcept().get(key);
+			List<String> terms = new ArrayList<String>();
+			terms.addAll(c.getLabels());
+			terms.addAll(c.getLinguistic_signs());
+			terms.addAll(c.getExact_Linguistic_signs());
+			for(Individual i : c.getIndividuals()){
+				terms.addAll(i.getLabels());
+			}
+			String txt = key +"\t" + terms+"\n";
+			buffer.append(txt);
+		}
+		FileIO.writeFile(buffer.toString(), "d:\\list.txt", Parameters.UTF8);
 //		System.out.println(size);
 //		System.out.println(getIndividualList().size());
 	}
