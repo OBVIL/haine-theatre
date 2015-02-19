@@ -22,5 +22,13 @@ public class TextUtil {
 		}
 		return true;
 	}
+	
+	public static String removeDoubleSpace(String text){
+		while(text.contains("  ")){
+			text = text.replaceAll("  ", " ");
+		}
+		
+		return text.trim();
+	}
 
 }
