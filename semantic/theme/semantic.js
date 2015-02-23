@@ -186,26 +186,26 @@ var semanticFieldColors = {};
 
 //init semantic field label
 semanticFieldLabel['Autorité'] = "<b>Autorités citées</b>";
-semanticFieldLabel['Théâtre'] = "<b>Champ sémantique du théâtre</b>";
-semanticFieldLabel['Sentiment_Positif'] = "<b>Champ sémantique des sentiments positifs</b>";
-semanticFieldLabel['Sentiment_Négatif'] = "<b>Champ sémantique des sentiments négatifs</b>";
-semanticFieldLabel['Classe_Sociale'] = "<b>Champ sémantique des classe sociales</b>";
-semanticFieldLabel['Morale_Positive'] = "<b>Champ sémantique de la morale positive</b>";
-semanticFieldLabel['Morale_Négative'] = "<b>Champ sémantique de la morale négative</b>";
-semanticFieldLabel['Amour'] = "<b>Champ sémantique de l'amour</b>";
-semanticFieldLabel['Religion'] = "<b>Champ sémantique religieux</b>";
-semanticFieldLabel['Fête'] = "<b>Champ sémantique de la fête et de la musique</b>";
-semanticFieldLabel['Guerre'] = "<b>Champ sémantique du combat</b>";
-semanticFieldLabel['Origine'] = "<b>Champ sémantique de la nationalité</b>";
-semanticFieldLabel['Juridique'] = "<b>Champ sémantique juridique</b>";
-semanticFieldLabel['Argent'] = "<b>Champ sémantique de l'argent</b>";
+semanticFieldLabel['Théâtre'] = "<b>Théâtre</b>";
+semanticFieldLabel['Sentiment_Positif'] = "<b>Sentiments positifs</b>";
+semanticFieldLabel['Sentiment_Négatif'] = "<b>Sentiments négatifs</b>";
+semanticFieldLabel['Société'] = "<b>Société</b>";
+semanticFieldLabel['Morale_Positive'] = "<b>Morale positive</b>";
+semanticFieldLabel['Morale_Négative'] = "<b>Morale négative</b>";
+semanticFieldLabel['Amour'] = "<b>Amour</b>";
+semanticFieldLabel['Religion'] = "<b>Religion</b>";
+semanticFieldLabel['Fête'] = "<b>Fête et musique</b>";
+semanticFieldLabel['Guerre'] = "<b>Guerre</b>";
+semanticFieldLabel['Origine'] = "<b>Nationalité</b>";
+semanticFieldLabel['Droit'] = "<b>Droit</b>";
+semanticFieldLabel['Economique'] = "<b>Economie et argent</b>";
 
 //init semantic field colors
 semanticFieldColors['Autorité'] = "#006600";
 semanticFieldColors['Théâtre'] = "#00CC00";
 semanticFieldColors['Sentiment_Positif'] = "#336666";
 semanticFieldColors['Sentiment_Négatif'] = "#009999";
-semanticFieldColors['Classe_Sociale'] = "#CC0066";
+semanticFieldColors['Société'] = "#CC0066";
 semanticFieldColors['Morale_Positive'] = "#3300FF";
 semanticFieldColors['Morale_Négative'] = "#330099";
 semanticFieldColors['Amour'] = "#333366";
@@ -213,15 +213,15 @@ semanticFieldColors['Religion'] = "#663300";
 semanticFieldColors['Fête'] = "#CC0000";
 semanticFieldColors['Guerre'] = "#000033";
 semanticFieldColors['Origine'] = "#006666";
-semanticFieldColors['Juridique'] = "#0066CC";
-semanticFieldColors['Argent'] = "#0066FF";
+semanticFieldColors['Droit'] = "#0066CC";
+semanticFieldColors['Economique'] = "#0066FF";
 
 //init semantic field instance
 semanticFieldInstance['Autorité'] =  new Array();
 semanticFieldInstance['Théâtre'] = new Array() ;
 semanticFieldInstance['Sentiment_Positif'] = new Array();
 semanticFieldInstance['Sentiment_Négatif'] = new Array();
-semanticFieldInstance['Classe_Sociale'] = new Array();
+semanticFieldInstance['Société'] = new Array();
 semanticFieldInstance['Morale_Positive'] = new Array();
 semanticFieldInstance['Morale_Négative'] = new Array();
 semanticFieldInstance['Amour'] = new Array();
@@ -229,15 +229,15 @@ semanticFieldInstance['Religion'] = new Array();
 semanticFieldInstance['Fête'] = new Array();
 semanticFieldInstance['Guerre'] = new Array();
 semanticFieldInstance['Origine'] = new Array();
-semanticFieldInstance['Juridique'] = new Array();
-semanticFieldInstance['Argent'] = new Array();
+semanticFieldInstance['Droit'] = new Array();
+semanticFieldInstance['Economique'] = new Array();
 
 //init semantic field statistics
 semanticFieldStatistics['Autorité'] =  0;
 semanticFieldStatistics['Théâtre'] = 0 ;
 semanticFieldStatistics['Sentiment_Positif'] = 0;
 semanticFieldStatistics['Sentiment_Négatif'] = 0;
-semanticFieldStatistics['Classe_Sociale'] = 0;
+semanticFieldStatistics['Société'] = 0;
 semanticFieldStatistics['Morale_Positive'] = 0;
 semanticFieldStatistics['Morale_Négative'] = 0;
 semanticFieldStatistics['Amour'] = 0;
@@ -245,15 +245,15 @@ semanticFieldStatistics['Religion'] = 0;
 semanticFieldStatistics['Fête'] = 0;
 semanticFieldStatistics['Guerre'] = 0;
 semanticFieldStatistics['Origine'] = 0;
-semanticFieldStatistics['Juridique'] = 0;
-semanticFieldStatistics['Argent'] = 0;
+semanticFieldStatistics['Droit'] = 0;
+semanticFieldStatistics['Economique'] = 0;
 
 //init semantic field all instance
 semanticFieldAllInstance['Autorité'] =  new Array();
 semanticFieldAllInstance['Théâtre'] = new Array() ;
 semanticFieldAllInstance['Sentiment_Positif'] = new Array();
 semanticFieldAllInstance['Sentiment_Négatif'] = new Array();
-semanticFieldAllInstance['Classe_Sociale'] = new Array();
+semanticFieldAllInstance['Société'] = new Array();
 semanticFieldAllInstance['Morale_Positive'] = new Array();
 semanticFieldAllInstance['Morale_Négative'] = new Array();
 semanticFieldAllInstance['Amour'] = new Array();
@@ -261,8 +261,8 @@ semanticFieldAllInstance['Religion'] = new Array();
 semanticFieldAllInstance['Fête'] = new Array();
 semanticFieldAllInstance['Guerre'] = new Array();
 semanticFieldAllInstance['Origine'] = new Array();
-semanticFieldAllInstance['Juridique'] = new Array();
-semanticFieldAllInstance['Argent'] = new Array();
+semanticFieldAllInstance['Droit'] = new Array();
+semanticFieldAllInstance['Economique'] = new Array();
 
 
 
