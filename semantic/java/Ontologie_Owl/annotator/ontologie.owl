@@ -11,6 +11,15 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xml:base="http://www.owl-ontologies.com/Ontology1417515237.owl">
   <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Droit">
+    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ensemble des lois et dispositions juridiques qui règlent les rapports entre les membres d'une société.</Définition>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Thématique"/>
+    </rdfs:subClassOf>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Droit</Champ_Sémantique>
+  </owl:Class>
   <owl:Class rdf:ID="Historien">
     <rdfs:subClassOf>
       <owl:Class rdf:ID="Autorité"/>
@@ -20,7 +29,7 @@
   </owl:Class>
   <owl:Class rdf:ID="Citoyen">
     <rdfs:subClassOf>
-      <owl:Class rdf:ID="Classe_sociale"/>
+      <owl:Class rdf:ID="Société"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:ID="Farce">
@@ -28,7 +37,7 @@
       <owl:Class rdf:ID="Spectacle_Représentation"/>
     </rdfs:subClassOf>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Farce</Signe_Linguistique>
+    >farce</Signe_Linguistique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Pendant le  Moyen Âge: petit intermède comique joué sur le parvis des églises au cours de la représentation d'un mystère.
 Après: pièce de théâtre d'inspiration bouffonne mettant en scène des personnages souvent grotesques et présentant généralement un comique de mots, de gestes ou de situation(s).</Définition>
@@ -48,12 +57,12 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
   </owl:Class>
   <owl:Class rdf:ID="Chevalier">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Chevalier</Signe_Linguistique>
+    >chevalier</Signe_Linguistique>
     <rdfs:subClassOf>
-      <owl:Class rdf:about="#Classe_sociale"/>
+      <owl:Class rdf:about="#Société"/>
     </rdfs:subClassOf>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
+    >Société</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Philosophe">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -77,10 +86,12 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >péché</Signe_Linguistique>
     <rdfs:subClassOf>
-      <owl:Class rdf:ID="Thématique"/>
+      <owl:Class rdf:about="#Thématique"/>
     </rdfs:subClassOf>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >jésuite</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >écriture sainte</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >dévotion</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -112,8 +123,6 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >dieu</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Païen</Signe_Linguistique>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >aumône</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >charité</Signe_Linguistique>
@@ -122,13 +131,13 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >jésus-christ</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >jésus christ</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >sacrilège</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >église</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >passion</Signe_Linguistique>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Jésus Christ</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >païen</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -137,6 +146,8 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     >superstition</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >providence</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >demi-dieux</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >evêque</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -150,9 +161,9 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >religieux</Signe_Linguistique>
     <Signe_Linguistique_Exacte rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Esprit</Signe_Linguistique_Exacte>
+    <Signe_Linguistique_Exacte rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Foi</Signe_Linguistique_Exacte>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Canoniste</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >serment</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -162,7 +173,7 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >divinité</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Demi-Dieux</Signe_Linguistique>
+    >canoniste</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >chrétien</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -176,6 +187,8 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >dimanche</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ciel</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >prêtre</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >eglise</Signe_Linguistique>
@@ -184,7 +197,20 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique_Exacte rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Père</Signe_Linguistique_Exacte>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >écriture Sainte</Signe_Linguistique>
+    >paganisme</Signe_Linguistique>
+  </owl:Class>
+  <owl:Class rdf:ID="Théâtre">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
+    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Différents types de genres théâtraux ou de parties théâtrales.</Définition>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >théâtre</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >scène</Signe_Linguistique>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Spectacle_Représentation"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:ID="Bal">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -193,11 +219,15 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
       <owl:Class rdf:ID="Danse"/>
     </rdfs:subClassOf>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Bal</Signe_Linguistique>
+    >bal</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:about="#Thématique">
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Ensemble des arguments principaux et plus importants qui ressortent dans le(s) texte(s) analysé(s).</Définition>
+  </owl:Class>
+  <owl:Class rdf:ID="Qualité">
+    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Caractéristique de nature, bonne ou mauvaise, d'une chose ou d'une personne.</Définition>
   </owl:Class>
   <owl:Class rdf:ID="Endroit">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -213,10 +243,6 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Lieu général ou spécifique</Définition>
   </owl:Class>
-  <owl:Class rdf:ID="Qualité">
-    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Caractéristique de nature, bonne ou mauvaise, d'une chose ou d'une personne.</Définition>
-  </owl:Class>
   <owl:Class rdf:ID="Histrion">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Théâtre</Champ_Sémantique>
@@ -227,6 +253,17 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Acteur"/>
     </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Législatif">
+    <rdfs:subClassOf rdf:resource="#Droit"/>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Droit</Champ_Sémantique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >législateur</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >code</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >loi</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Bateleur">
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -241,16 +278,16 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
   </owl:Class>
   <owl:Class rdf:ID="Satire">
     <rdfs:subClassOf>
-      <owl:Class rdf:ID="Théatre"/>
+      <owl:Class rdf:about="#Spectacle_Représentation"/>
     </rdfs:subClassOf>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Théâtre</Champ_Sémantique>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Satire</Signe_Linguistique>
+    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Toute œuvre écrite, chantée, peinte, tout propos comportant une raillerie, une critique virulente.</Définition>
   </owl:Class>
   <owl:Class rdf:ID="Pantomime">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Pantomime</Signe_Linguistique>
+    >pantomime</Signe_Linguistique>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Théâtre</Champ_Sémantique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -272,7 +309,7 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
   </owl:Class>
   <owl:Class rdf:ID="Père">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
+    >Société</Champ_Sémantique>
     <Signe_Linguistique_Exacte rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >père</Signe_Linguistique_Exacte>
     <rdfs:subClassOf rdf:resource="#Citoyen"/>
@@ -292,24 +329,30 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >digne</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >convenable</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >avoir tort de condamner</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >honnête</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >chaste</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >apologie</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >raisonnable</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >vertu</Signe_Linguistique>
     <rdfs:subClassOf>
       <owl:Class rdf:ID="Appréciation"/>
     </rdfs:subClassOf>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >approuver</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >favorable</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >sans reproche</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >vertueux</Signe_Linguistique>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Raisonnable</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >sérieux</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -321,6 +364,15 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Morale_Positive</Champ_Sémantique>
   </owl:Class>
+  <owl:Class rdf:ID="Mystère">
+    <rdfs:subClassOf rdf:resource="#Théâtre"/>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mystère</Signe_Linguistique>
+    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Au Moyen Âge, genre dramatique qui mettait en scène des sujets religieux tels que la Nativité, la Passion, la Résurrection, des scènes tirées des deux Testaments ou de la vie des Saints.</Définition>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
+  </owl:Class>
   <owl:Class rdf:about="#Danse">
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Action où l'on danse.</Définition>
@@ -329,21 +381,10 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Théâtre</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Danse</Signe_Linguistique>
+    >danse</Signe_Linguistique>
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Spectacle_Représentation"/>
     </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:ID="Mystère">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="#Théatre"/>
-    </rdfs:subClassOf>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Mystère</Signe_Linguistique>
-    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Au Moyen Âge, genre dramatique qui mettait en scène des sujets religieux tels que la Nativité, la Passion, la Résurrection, des scènes tirées des deux Testaments ou de la vie des Saints.</Définition>
-    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Théâtre</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Qualité_Négative">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -359,8 +400,6 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >impureté</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Rage</Signe_Linguistique>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >faux</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >déshonnête</Signe_Linguistique>
@@ -369,6 +408,8 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Sentiment_Négatif</Champ_Sémantique>
     <rdfs:subClassOf rdf:resource="#Qualité"/>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >rage</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >passion</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -402,9 +443,13 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >faible</Signe_Linguistique>
   </owl:Class>
+  <owl:Class rdf:about="#Acteur">
+    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Acteur, comédien, personne qui se donne en spéctacle (avec son corps et/ou sa voix) dans des pièces de théâtre ou dans des réprésentations soit publiques soit privés.</Définition>
+  </owl:Class>
   <owl:Class rdf:ID="Fille">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
+    >Société</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >vierge</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -413,41 +458,37 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
       <owl:Class rdf:ID="Enfant"/>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:about="#Acteur">
-    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Acteur, comédien, personne qui se donne en spéctacle (avec son corps et/ou sa voix) dans des pièces de théâtre ou dans des réprésentations soit publiques soit privés.</Définition>
-  </owl:Class>
   <owl:Class rdf:ID="Musique">
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >instrument</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >chanson</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >flûte</Signe_Linguistique>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Instrument</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Thématique"/>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Fête</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Noble">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="#Classe_sociale"/>
+      <owl:Class rdf:about="#Société"/>
     </rdfs:subClassOf>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
+    >Société</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Noblesse</Signe_Linguistique>
+    >noblesse</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Noble</Signe_Linguistique>
+    >noble</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:about="#Spectacle_Représentation">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Jeu</Signe_Linguistique>
+    >jeu</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >geste</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >représenter</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Spectacle</Signe_Linguistique>
+    >spectacle</Signe_Linguistique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Représentation de théâtre, de danse, de plusieurs disciplines artistiques, qui est donnée en public.</Définition>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -455,20 +496,22 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
   </owl:Class>
   <owl:Class rdf:ID="Bourgeoisie">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
+    >Société</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Bourgeoie</Signe_Linguistique>
+    >bourgeois</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >bourgeosie</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Bourgeoisie</Signe_Linguistique>
     <rdfs:subClassOf>
-      <owl:Class rdf:about="#Classe_sociale"/>
+      <owl:Class rdf:about="#Société"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:ID="Fête">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Fête</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Saturnale</Signe_Linguistique>
+    >Saturnales</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >célébration</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -487,9 +530,7 @@ Après: pièce de théâtre d'inspiration bouffonne mettant en scène des person
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Pendant l'antiquité: oeuvre lyrique et dramatique mettant en scène des acteurs masqués dialoguant et un chœur chantant, dont le sujet, propre à exciter la terreur ou la pitié, était emprunté à la mythologie ou à l'histoire; genre dramatique auquel appartient ce type de pièce.
 Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, dont la composition est soumise à des règles strictes (les trois unités), qui met en scène des personnages illustres, tirés de l'Antiquité grecque ou romaine, qui fait reposer l'action sur des conflits passionnels dans lesquels les personnages sont déchirés et implacablement entraînés vers une catastrophe ou un destin désastreux.</Définition>
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="#Théatre"/>
-    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Théâtre"/>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Tragédie</Signe_Linguistique>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -498,7 +539,7 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
   <owl:Class rdf:about="#Enfant">
     <rdfs:subClassOf rdf:resource="#Citoyen"/>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
+    >Société</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >enfance</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -513,13 +554,15 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Personne qui assiste à une représentation.</Définition>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >spectatrice</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >public</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >spectateur</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Cirque">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Cirque</Signe_Linguistique>
+    >cirque</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Spectacle_Représentation"/>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Lieu où se déroulent les jeux publics et se donnent des spectacles équestres, acrobatiques, et variés.</Définition>
@@ -556,6 +599,8 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >trahison</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Appréciation"/>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >impure</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >lascif</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >reproche</Signe_Linguistique>
@@ -587,6 +632,8 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >déguisement</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >vaine</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >méprisable</Signe_Linguistique>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Morale_Négative</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -596,8 +643,6 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >fureur</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Indignation</Signe_Linguistique>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >honteux</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >moquerie</Signe_Linguistique>
@@ -605,6 +650,8 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >mauvais</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >vanité</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >indignation</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >ordure</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -630,9 +677,9 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >contraire</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >pernicieux</Signe_Linguistique>
+    >désapprouver</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Impure</Signe_Linguistique>
+    >pernicieux</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >gravité</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -640,16 +687,16 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
   </owl:Class>
   <owl:Class rdf:ID="Commandant">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="#Classe_sociale"/>
+      <owl:Class rdf:about="#Société"/>
     </rdfs:subClassOf>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
+    >Société</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >proconsul</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Fils">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
+    >Société</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >fils</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Enfant"/>
@@ -668,6 +715,8 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >agréable</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >magnifique</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >purifié</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >utile</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -710,7 +759,7 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
   </owl:Class>
   <owl:Class rdf:ID="Mascarade">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Mascarade</Signe_Linguistique>
+    >mascarade</Signe_Linguistique>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Théâtre</Champ_Sémantique>
     <rdfs:subClassOf rdf:resource="#Spectacle_Représentation"/>
@@ -721,40 +770,45 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >famille</Signe_Linguistique>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
+    >Société</Champ_Sémantique>
     <rdfs:subClassOf rdf:resource="#Citoyen"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Satyre">
+    <rdfs:subClassOf rdf:resource="#Acteur"/>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Théâtre</Champ_Sémantique>
+    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Divinité terrestre, compagnon de Dionysos ou Bacchus, représenté avec un corps d'homme, des cornes et des membres inférieurs de bouc, réputé pour son comportement libidineux.</Définition>
   </owl:Class>
   <owl:Class rdf:ID="Empereur">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >empereur</Signe_Linguistique>
     <rdfs:subClassOf>
-      <owl:Class rdf:about="#Classe_sociale"/>
+      <owl:Class rdf:about="#Société"/>
     </rdfs:subClassOf>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
-  </owl:Class>
-  <owl:Class rdf:ID="Satyre">
-    <rdfs:subClassOf rdf:resource="#Spectacle_Représentation"/>
-    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Théâtre</Champ_Sémantique>
-    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Pièce dramatique grecque, mettant en scène des satyres (Divinité terrestre, compagnon de Dionysos ou Bacchus, représenté avec un corps d'homme, des cornes et des membres inférieurs de bouc, réputé pour son comportement libidineux).</Définition>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Satyre</Signe_Linguistique>
+    >Société</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Argent">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Argent</Champ_Sémantique>
+    >Economique</Champ_Sémantique>
     <rdfs:subClassOf rdf:resource="#Thématique"/>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Argent</Signe_Linguistique>
+    >aumône</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >argent</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Mère">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >mère</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Citoyen"/>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
+    >Société</Champ_Sémantique>
+  </owl:Class>
+  <owl:Class rdf:about="#Société">
+    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ensemble d'êtres humains unifiés par un réseau de relations, de traditions et d'institutions, vivant en groupe organisé</Définition>
+    <rdfs:subClassOf rdf:resource="#Thématique"/>
   </owl:Class>
   <owl:Class rdf:ID="Guerre">
     <rdfs:subClassOf rdf:resource="#Thématique"/>
@@ -774,13 +828,11 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >lutte</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Prince">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="#Classe_sociale"/>
-    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Société"/>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >prince</Signe_Linguistique>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
+    >Société</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Troubadour">
     <rdfs:subClassOf rdf:resource="#Acteur"/>
@@ -802,42 +854,25 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >Comédie</Signe_Linguistique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Pièce de théâtre, quel que soit le genre auquel elle appartient: tout ouvrage dramatique ou bouffon ou sérieux.</Définition>
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="#Théatre"/>
-    </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="#Théatre">
-    <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Différents types de genres théâtraux ou de parties théâtrales.</Définition>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Théatre</Signe_Linguistique>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >scène</Signe_Linguistique>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Théâtre</Signe_Linguistique>
-    <rdfs:subClassOf rdf:resource="#Spectacle_Représentation"/>
-    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Théâtre</Champ_Sémantique>
+    <rdfs:subClassOf rdf:resource="#Théâtre"/>
   </owl:Class>
   <owl:Class rdf:ID="Roi">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >roi</Signe_Linguistique>
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="#Classe_sociale"/>
-    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Société"/>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
+    >Société</Champ_Sémantique>
   </owl:Class>
   <owl:Class rdf:ID="Juridique">
-    <rdfs:subClassOf rdf:resource="#Thématique"/>
+    <rdfs:subClassOf rdf:resource="#Droit"/>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Juridique</Champ_Sémantique>
+    >Droit</Champ_Sémantique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >législateur</Signe_Linguistique>
+    >prévôt</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >code</Signe_Linguistique>
+    >justice</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >loi</Signe_Linguistique>
+    >juge</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Auteur">
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -846,32 +881,36 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
   <owl:Class rdf:ID="Tragi-Comédie">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Tragi-Comédie</Signe_Linguistique>
-    <rdfs:subClassOf rdf:resource="#Théatre"/>
+    <rdfs:subClassOf rdf:resource="#Théâtre"/>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Théâtre</Champ_Sémantique>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Pièce de théâtre dont l'action est romanesque, l'intrigue tragique et le dénouement heureux; ou Pièce de théâtre dans laquelle sont entremêlés des événements graves et des incidents comiques, gais.</Définition>
   </owl:Class>
   <owl:Class rdf:ID="Amour">
-    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Amour</Champ_Sémantique>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >affection</Signe_Linguistique>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >réjouissance</Signe_Linguistique>
-    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >désir</Signe_Linguistique>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Passion doit etre lié aussi à la réligion: la passion (en tant que vice) est mauvaise pour la christianité</rdfs:comment>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >passion</Signe_Linguistique>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >affection</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >adultère</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >plaisir</Signe_Linguistique>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Amour</Champ_Sémantique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >réjouissance</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Thématique"/>
-    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Passion doit etre lié aussi à la réligion: la passion (en tant que vice) est mauvaise pour la christianité</rdfs:comment>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >fornication</Signe_Linguistique>
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >désir</Signe_Linguistique>
   </owl:Class>
   <owl:Class rdf:ID="Fable">
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Fable</Signe_Linguistique>
+    >fable</Signe_Linguistique>
     <rdfs:subClassOf rdf:resource="#Spectacle_Représentation"/>
     <Définition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Court récit allégorique, le plus souvent en vers, qui sert d'illustration à une vérité morale.</Définition>
@@ -880,15 +919,10 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
   </owl:Class>
   <owl:Class rdf:ID="Reine">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Classe_Sociale</Champ_Sémantique>
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="#Classe_sociale"/>
-    </rdfs:subClassOf>
+    >Société</Champ_Sémantique>
+    <rdfs:subClassOf rdf:resource="#Société"/>
     <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >reine</Signe_Linguistique>
-  </owl:Class>
-  <owl:Class rdf:about="#Classe_sociale">
-    <rdfs:subClassOf rdf:resource="#Thématique"/>
   </owl:Class>
   <owl:Class rdf:ID="Origine">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -937,7 +971,7 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <rdfs:domain rdf:resource="#Auteur"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="évoquer_avec_métaphore">
-    <rdfs:range rdf:resource="#Théatre"/>
+    <rdfs:range rdf:resource="#Théâtre"/>
     <rdfs:domain>
       <owl:Class>
         <owl:unionOf rdf:parseType="Collection">
@@ -949,6 +983,70 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
       </owl:Class>
     </rdfs:domain>
   </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="Champ_Sémantique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:range>
+      <owl:DataRange>
+        <owl:oneOf rdf:parseType="Resource">
+          <rdf:rest rdf:parseType="Resource">
+            <rdf:rest rdf:parseType="Resource">
+              <rdf:rest rdf:parseType="Resource">
+                <rdf:rest rdf:parseType="Resource">
+                  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                  >Société</rdf:first>
+                  <rdf:rest rdf:parseType="Resource">
+                    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >Morale_Positive</rdf:first>
+                    <rdf:rest rdf:parseType="Resource">
+                      <rdf:rest rdf:parseType="Resource">
+                        <rdf:rest rdf:parseType="Resource">
+                          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                          >Religion</rdf:first>
+                          <rdf:rest rdf:parseType="Resource">
+                            <rdf:rest rdf:parseType="Resource">
+                              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                              >Guerre</rdf:first>
+                              <rdf:rest rdf:parseType="Resource">
+                                <rdf:rest rdf:parseType="Resource">
+                                  <rdf:rest rdf:parseType="Resource">
+                                    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                                    >Economique</rdf:first>
+                                  </rdf:rest>
+                                  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                                  >Droit</rdf:first>
+                                </rdf:rest>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                                >Origine</rdf:first>
+                              </rdf:rest>
+                            </rdf:rest>
+                            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                            >Fête</rdf:first>
+                          </rdf:rest>
+                        </rdf:rest>
+                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >Amour</rdf:first>
+                      </rdf:rest>
+                      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                      >Morale_Négative</rdf:first>
+                    </rdf:rest>
+                  </rdf:rest>
+                </rdf:rest>
+                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Sentiment_Négatif</rdf:first>
+              </rdf:rest>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+              >Sentiment_Positif</rdf:first>
+            </rdf:rest>
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Théâtre</rdf:first>
+          </rdf:rest>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+          >Autorité</rdf:first>
+        </owl:oneOf>
+      </owl:DataRange>
+    </rdfs:range>
+  </owl:DatatypeProperty>
   <Autorité rdf:ID="Bacchus">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Bacchus</rdfs:label>
@@ -1003,12 +1101,6 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Marius</rdfs:label>
   </Autorité>
-  <Autorité rdf:ID="Démon">
-    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité</Champ_Sémantique>
-    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Démon</rdfs:label>
-  </Autorité>
   <Autorité rdf:ID="Virgile">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Virgile</rdfs:label>
@@ -1057,6 +1149,10 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Autorité</Champ_Sémantique>
   </Autorité>
+  <Auteur rdf:ID="Vincent">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vincent</rdfs:label>
+  </Auteur>
   <Autorité rdf:ID="Pline">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Pline</rdfs:label>
@@ -1068,6 +1164,12 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >Sophocle</rdfs:label>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Autorité</Champ_Sémantique>
+  </Autorité>
+  <Autorité rdf:ID="Lucain">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lucain</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Ambroise">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -1099,6 +1201,13 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Autorité</Champ_Sémantique>
   </Autorité>
+  <owl:DataRange>
+    <owl:oneOf rdf:parseType="Resource">
+      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+      >Test</rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </owl:oneOf>
+  </owl:DataRange>
   <Autorité rdf:ID="Martial">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Martial</rdfs:label>
@@ -1111,6 +1220,10 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Tertullien</rdfs:label>
   </Autorité>
+  <Auteur rdf:ID="Guillot_Gorju">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Guillot Gorju</rdfs:label>
+  </Auteur>
   <Autorité rdf:ID="Salvien">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Autorité</Champ_Sémantique>
@@ -1147,6 +1260,10 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Autorité</Champ_Sémantique>
   </Autorité>
+  <rdf:Description rdf:ID="Théatre">
+    <Signe_Linguistique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >théâtre</Signe_Linguistique>
+  </rdf:Description>
   <Autorité rdf:ID="Terence">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Terence</rdfs:label>
@@ -1165,17 +1282,17 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Autorité</Champ_Sémantique>
   </Autorité>
-  <Autorité rdf:ID="Plutarque">
-    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Plutarque</rdfs:label>
-    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité</Champ_Sémantique>
-  </Autorité>
   <Autorité rdf:ID="Chrysostome">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Chrysostome</rdfs:label>
+  </Autorité>
+  <Autorité rdf:ID="Plutarque">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Plutarque</rdfs:label>
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Job">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -1213,7 +1330,6 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Autorité</Champ_Sémantique>
   </Autorité>
-  <owl:AnnotationProperty rdf:ID="Champ_Sémantique"/>
   <Autorité rdf:ID="Theodecte">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Theodecte</rdfs:label>
@@ -1255,26 +1371,28 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
   <Autorité rdf:ID="Aubignac">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Autorité</Champ_Sémantique>
+    <rdf:type rdf:resource="#Auteur"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Aubignac</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Conti">
+    <rdf:type rdf:resource="#Auteur"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Conti</rdfs:label>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Autorité</Champ_Sémantique>
-  </Autorité>
-  <Autorité rdf:ID="Minutius">
-    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité</Champ_Sémantique>
-    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Minutius</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="David">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Autorité</Champ_Sémantique>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >David</rdfs:label>
+  </Autorité>
+  <Autorité rdf:ID="Minutius">
+    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autorité</Champ_Sémantique>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Minutius</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Théodose">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -1420,12 +1538,6 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Autorité</Champ_Sémantique>
   </Autorité>
-  <Autorité rdf:ID="Tyr">
-    <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Autorité</Champ_Sémantique>
-    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Tyr</rdfs:label>
-  </Autorité>
   <Autorité rdf:ID="Apollon">
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Autorité</Champ_Sémantique>
@@ -1444,6 +1556,10 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Aristote</rdfs:label>
   </Autorité>
+  <Auteur rdf:ID="Saint_Évremond">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Évremond</rdfs:label>
+  </Auteur>
   <Autorité rdf:ID="Paulin">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Paulin</rdfs:label>
@@ -1451,6 +1567,7 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >Autorité</Champ_Sémantique>
   </Autorité>
   <Autorité rdf:ID="Nicole">
+    <rdf:type rdf:resource="#Auteur"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Nicole</rdfs:label>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -1570,6 +1687,10 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Orose</rdfs:label>
   </Autorité>
+  <Auteur rdf:ID="Beaulieu">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Beaulieu</rdfs:label>
+  </Auteur>
   <Autorité rdf:ID="Julien">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Julien</rdfs:label>
@@ -1685,6 +1806,7 @@ Après (en partic. en France aux xviie et xviiie s.: oeuvre dramatique en vers, 
     >Philippe</rdfs:label>
   </Autorité>
   <Autorité rdf:ID="Voisin">
+    <rdf:type rdf:resource="#Auteur"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Voisin</rdfs:label>
     <Champ_Sémantique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"

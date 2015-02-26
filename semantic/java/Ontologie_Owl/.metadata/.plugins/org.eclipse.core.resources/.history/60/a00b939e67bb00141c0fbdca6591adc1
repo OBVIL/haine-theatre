@@ -1,0 +1,23 @@
+package ir;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Test {
+
+	public static void main(String[] args) {
+		String term = "…vÍque";
+		String text = "M. L'ÈvÍque d'Alet";
+		 Pattern pattern = Pattern.compile("((?i)\\b" + term  + "\\b)");
+		   Matcher matcher = pattern.matcher(text);
+		   while (matcher.find()){
+			   Position position = new Position(matcher.start(), matcher.end(), text.substring(matcher.start(), matcher.end()));
+			   //System.out.println(text.substring(matcher.start(), matcher.end()));
+			   System.out.println(position);
+		   }
+		   
+		   System.out.println("È‡Í…".replaceAll("\\p{M}", ""));
+
+	}
+
+}

@@ -128,9 +128,8 @@ public class SqliteManager extends DefaultHandler implements LexicalHandler{
             	
             	if(qualifiedName.equalsIgnoreCase(div)){
             		
-            		if((attributes.getQName(loopIndex).equalsIgnoreCase("type")
-                			&& (attributes.getValue(loopIndex).equalsIgnoreCase("article")
-                        			|| attributes.getValue(loopIndex).equalsIgnoreCase("chapter")))){
+            		if(attributes.getQName(loopIndex).equalsIgnoreCase("type")
+                			&& attributes.getValue(loopIndex).equalsIgnoreCase("chapter")){
             			isChapter = true;
             		}
             		if(attributes.getQName(loopIndex).equalsIgnoreCase("xml:id")){
