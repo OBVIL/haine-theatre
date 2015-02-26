@@ -68,8 +68,15 @@ public class TextAnnotator {
 				for(Position position : conceptMetaData.get(key)){
 					int start = position.getStart();
 					int end = position.getEnd();
-					String rend = IR.FORMS_KEYS.get(position.getText().toLowerCase());
+					String rend = IR.GET_FORMS_KEYS(position.getText());
+										
+					if(rend == null || rend.equals("")){
+						rend = position.getText().toLowerCase();
+					}
+					
+					//System.out.println("form key "+position.getText().toLowerCase());
 					rend = TextUtil.capitalize(rend).replace(" ", "_");
+					
 					String tagStart = "<term type=\""+semantic_field+"\" rend=\""+rend+"\">"+textChars.get(start);
 					String tagEnd = textChars.get(end-1)+"</term>";
 					textChars.set(start, tagStart);

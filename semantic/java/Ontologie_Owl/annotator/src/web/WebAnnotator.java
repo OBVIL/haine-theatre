@@ -158,9 +158,8 @@ public class WebAnnotator extends DefaultHandler implements LexicalHandler{
 	            	text += '"';
 	            	
 	            	if(qualifiedName.equalsIgnoreCase(div)
-	            			&& (attributes.getQName(loopIndex).equalsIgnoreCase("type")
-	            			&& (attributes.getValue(loopIndex).equalsIgnoreCase("article")
-	            			|| attributes.getValue(loopIndex).equalsIgnoreCase("chapter")))){
+	            			&& attributes.getQName(loopIndex).equalsIgnoreCase("type")
+	            			&& attributes.getValue(loopIndex).equalsIgnoreCase("chapter")){
 	            		isPart = true;
 	            	}
 	            }

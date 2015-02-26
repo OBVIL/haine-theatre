@@ -3,7 +3,6 @@ package ir;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -19,24 +18,73 @@ import owl.OWLManager;
 import owl.OntologyManager;
 import util.FileIO;
 import util.Parameters;
+import util.TextUtil;
 import edu.stanford.smi.protegex.owl.model.OWLModel;
 
 
-class StringComparator implements Comparator<String> {
-	  public int compare(String o1, String o2) {
-	    if (o1.length() > o2.length()) {
-	      return -1;
-	    } else if (o1.length() < o2.length()) {
-	      return 1;
-	    } else {
-	      return 0;
-	    }
-	  }
-}
 
 public class IR {
 	// building term unique value for the TEI file
-	public static HashMap<String, String> FORMS_KEYS = new HashMap<String, String>();
+	private static HashMap<String, String> FORMS_KEYS = new HashMap<String, String>();
+   
+	private static HashMap<String, String> accents = new HashMap<String, String>();
+	
+	private static void ADD_FORMS_KEYS(String id, String term){
+		id = TextUtil.stripFirstAccent(id.toLowerCase()).replace("-", " ");
+		FORMS_KEYS.put(id, term);
+	}
+	
+	public static String GET_FORMS_KEYS(String id){
+		
+		id = TextUtil.stripFirstAccent(id.toLowerCase()).replace("-", " ");
+		return  FORMS_KEYS.get(id);
+	}
+	        
+	private static HashMap<String, String> getAccents(){
+		if(accents.isEmpty()){
+			accents.put("È", "[ÈE"+"È".toUpperCase()+"]");
+			accents.put("Ë", "[ËE"+"Ë".toUpperCase()+"]");
+			accents.put("Í", "[ÍE"+"Í".toUpperCase()+"]");
+			accents.put("‡", "[‡A"+"‡".toUpperCase()+"]");
+			accents.put("‚", "[‚A"+"‚".toUpperCase()+"]");
+			accents.put("Ê", "[Ê"+"Ê".toUpperCase()+"]");
+			accents.put("ú", "[ú"+"ú".toUpperCase()+"]");
+			accents.put("i", "[i"+"Ó".toUpperCase()+"]");
+			accents.put("Ó", "[i"+"Ó".toUpperCase()+"]");
+			
+			accents.put("È".toUpperCase(), "[ÈE"+"È".toUpperCase()+"]");
+			accents.put("Ë".toUpperCase(), "[ËE"+"Ë".toUpperCase()+"]");
+			accents.put("Í".toUpperCase(), "[ÍE"+"Í".toUpperCase()+"]");
+			accents.put("‡".toUpperCase(), "[‡A"+"‡".toUpperCase()+"]");
+			accents.put("‚".toUpperCase(), "[‚A"+"‚".toUpperCase()+"]");
+			accents.put("Ê".toUpperCase(), "[Ê"+"Ê".toUpperCase()+"]");
+			accents.put("ú".toUpperCase(), "[ú"+"ú".toUpperCase()+"]");
+			accents.put("i".toUpperCase(), "[i"+"Ó".toUpperCase()+"]");
+			accents.put("Ó".toUpperCase(), "[i"+"Ó".toUpperCase()+"]");
+			
+			accents.put("Á", "[Á"+"Á".toUpperCase()+"]");
+			accents.put("Á".toUpperCase(), "[Á"+"Á".toUpperCase()+"]");
+		}
+		
+		return accents;
+	}
+	
+  private static String changeAccentToRegex(String term){
+		
+		String [] tokens = term.split(" ");
+		String newTerm = "";
+		for(String token : tokens){
+			String firstChar = token.substring(0, 1);
+			String regex = getAccents().get(firstChar);
+			if(regex == null){
+				regex = firstChar;
+			}
+			newTerm = newTerm + " " + regex + token.substring(1);
+		}
+		
+		return newTerm.trim();
+		
+	}
 	
 	public static List<Position> matchTerm(String term, String text){
 		List<Position> positions = new ArrayList<Position>();
@@ -65,10 +113,12 @@ public class IR {
 		
 		for(String term : terms){
 			term = term.replace("-", "\\-");
-			regex = regex + "\\b" + term +"\\b|";
+			//regex = regex + "\\b" + term +"\\b|";
+			regex = regex + "\\b" + changeAccentToRegex(term) +"\\b|";
 		}
 		
 		regex = regex.substring(0, regex.length() - 1);
+		
 		//System.out.println(regex);
 		try{
 			   //Pattern pattern = Pattern.compile(regex,Pattern.CASE_INSENSITIVE);
@@ -90,8 +140,7 @@ public class IR {
 	
 	public static List<Position> matchRegex(String regex, String text){
 		List<Position> positions = new ArrayList<Position>();
-		
-		//System.out.println(regex);
+				
 		try{
 			  
 			   Pattern pattern = Pattern.compile(regex);
@@ -136,7 +185,7 @@ public class IR {
 			if(!terms.isEmpty()){
 				Set<String> forms = new HashSet<String>();
 				for(String term : terms){
-					forms.addAll(Morphalou.getTermForms(term));
+					forms.addAll(Morphalou.getWordForms(term));
 				}
 				terms.clear();
 				terms.addAll(forms);
@@ -150,7 +199,7 @@ public class IR {
 			if(!exact_terms.isEmpty()){
 				Set<String> forms = new HashSet<String>();
 				for(String exact_term : exact_terms){
-					forms.addAll(Morphalou.getTermForms(exact_term));
+					forms.addAll(Morphalou.getWordForms(exact_term));
 				}
 				exact_terms.clear();
 				exact_terms.addAll(forms);
@@ -278,7 +327,7 @@ public class IR {
 					Iterator<String> iter = _forms.iterator();
 					while(iter.hasNext()){
 						String element = iter.next();
-						FORMS_KEYS.put(element.toLowerCase(), term);
+						ADD_FORMS_KEYS(element, term);
 					}
 					forms.addAll(_forms);
 				}
@@ -298,7 +347,7 @@ public class IR {
 					Iterator<String> iter = _forms.iterator();
 					while(iter.hasNext()){
 						String element = iter.next();
-						FORMS_KEYS.put(element.toLowerCase(), exact_term);
+						ADD_FORMS_KEYS(element, exact_term);
 					}
 					forms.addAll(_forms);
 				}
@@ -318,15 +367,19 @@ public class IR {
 				String regex = "";
 				for(String search_term : search_terms){
 					if(search_term.startsWith("(nn)_")){
-						regex = regex + "\\b" + search_term.replace("(nn)_", "") + "\\b|" ;
+						//regex = regex + "\\b" + search_term.replace("(nn)_", "") + "\\b|" ;
+						regex = regex + "\\b" + changeAccentToRegex(search_term.replace("(nn)_", "")) + "\\b|" ;
 					}
 					
 					if(search_term.startsWith("(?i)_")){
-						regex = regex + "((?i)\\b" + search_term.replace("(?i)_", "") + "\\b)|" ;
+						//regex = regex + "((?i)\\b" + search_term.replace("(?i)_", "") + "\\b)|" ;
+						regex = regex + "((?i)\\b" + changeAccentToRegex(search_term.replace("(?i)_", "")) + "\\b)|" ;
 					}
 				}
 				regex = regex.substring(0, regex.length() - 1);
-				regex = regex.replace("-", "\\-");
+				regex = regex.replace("-", "[\\-\\s]+");
+				regex = regex.replace(" ", "[\\-\\s]+");
+				//System.out.println(regex);
 				List<Position> positions = IR.matchRegex(regex, txt);
 				
 				if(!positions.isEmpty()){
@@ -367,16 +420,11 @@ public class IR {
 			}
 			
 			System.out.println(key + " terms "+ instances+ " size "+ individualMetaData.get(key).size());
+		}
+		System.out.println("--------------------------------------------");
+		for(String key : FORMS_KEYS.keySet()){
+			System.out.println(key+" : "+FORMS_KEYS.get(key));
 		}*/
-//		List<String> tagss = new ArrayList<String>();
-//		tagss.addAll(tags);
-//		Collections.sort(tagss, new stringComparator());
-//		System.out.println(tagss);
-//		for(String tag : tagss){
-//			txt = txt.replace(tag, "<FONT style=\"BACKGROUND-COLOR: yellow\">"+tag+"</FONT>");
-//		}
-//		
-//		FileIO.writeFile(txt, "D:\\text.html", "UTF-8");
 		
 		results.put(Parameters.CONCEPT, conceptMetaData);
 		results.put(Parameters.INDIVIDUAL, individualMetaData);
@@ -388,7 +436,7 @@ public class IR {
 	
 	public static void main(String[] args) {
 		
-		IR.matchWithOntology(Parameters.GET_ONTOLOGY_PATH(), "text.txt");
+		IR._matchWithOntology(FileIO.readFile(new File("text.txt"), "UTF-8"));
 
 	}
 	
