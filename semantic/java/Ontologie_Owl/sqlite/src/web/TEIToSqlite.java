@@ -33,11 +33,15 @@ public class TEIToSqlite extends DefaultHandler implements LexicalHandler{
     static String div ="div";
     static String term ="term";
     static boolean isChapter = false;
+   
     static int chapterOpened = 0;
+    static int termOpened = 0;
+    static String currentTermValue = "";
     static int semanticTermCount = 0;
     static String chapter_id = "";
     static ArrayList<SemanticChapterStat> semanticChapterStats = new ArrayList<SemanticChapterStat>();
     static ArrayList<SemanticTag> semanticTags = new ArrayList<SemanticTag>();
+   
     
     static String dataBase = "CREATE  TABLE  IF NOT EXISTS \"SemanticChapterStat\" (\n"+
     		"\"id\" VARCHAR PRIMARY KEY  NOT NULL , \n"+
@@ -50,7 +54,8 @@ public class TEIToSqlite extends DefaultHandler implements LexicalHandler{
     		"\"id\" VARCHAR PRIMARY KEY  NOT NULL , \n"+
     		"\"term_id\" VARCHAR NOT NULL , \n"+
     		"\"parent_id\" VARCHAR NOT NULL , \n"+
-    		"\"chapter_id\" VARCHAR NOT NULL );\n\n";
+    		"\"chapter_id\" VARCHAR NOT NULL, \n"+
+    		"\"text_value\" VARCHAR NOT NULL );\n\n";
    
     public static void resetAnnotator(){
 		
@@ -62,6 +67,10 @@ public class TEIToSqlite extends DefaultHandler implements LexicalHandler{
 	    chapter_id = "";
 	    semanticChapterStats = new ArrayList<SemanticChapterStat>();
 	    semanticTags = new ArrayList<SemanticTag>();
+	    
+	    termOpened = 0;
+	    currentTermValue = "";
+	   
 	    
 		
 	}
@@ -168,6 +177,7 @@ public class TEIToSqlite extends DefaultHandler implements LexicalHandler{
     	String text = "";
     	String term_id = "";
     	String parent_id = "";
+    	
       
     	text = "";
     	text += '<';
@@ -195,6 +205,7 @@ public class TEIToSqlite extends DefaultHandler implements LexicalHandler{
             	}
             	
             	if(qualifiedName.equalsIgnoreCase(term)){
+            	
             		
             		if(attributes.getQName(loopIndex).equalsIgnoreCase("type")){
             			parent_id = attributes.getValue(loopIndex);
@@ -203,6 +214,7 @@ public class TEIToSqlite extends DefaultHandler implements LexicalHandler{
             		if(attributes.getQName(loopIndex).equalsIgnoreCase("rend")){
             			term_id = attributes.getValue(loopIndex);
             		}
+            				
             	
             	}
             	
@@ -210,7 +222,9 @@ public class TEIToSqlite extends DefaultHandler implements LexicalHandler{
             }
         }
         text += '>';
-        
+        if(isChapter && qualifiedName.equalsIgnoreCase(term)){
+        	termOpened ++;
+    	 }
        // xmlBuffer.add(text);
        if(isChapter && qualifiedName.equalsIgnoreCase(div)){
     	   chapterOpened ++;
@@ -240,8 +254,12 @@ public class TEIToSqlite extends DefaultHandler implements LexicalHandler{
       	
         if(isChapter){
         	 cdata .append(characterData+" ");
+        	 
+        	 if(termOpened > 0 && characterData.length()>0){
+        		 currentTermValue = characterData;
+        	 }
         }
-       
+            
         
              
     }
@@ -255,10 +273,27 @@ public class TEIToSqlite extends DefaultHandler implements LexicalHandler{
     public void endElement(String uri, String localName, String qualifiedName)
     {
     	String text = "";
+    	  	
+    	if(qualifiedName.equalsIgnoreCase(term) && isChapter && termOpened > 0){
+    		int count = 0;
+    		while(termOpened > count){
+    			//System.out.println(termOpened+ " "+currentTermValue);
+    			//System.out.println(semanticTags.size() +" "+count);
+    			if(semanticTags.size()>= 1){
+    				
+    				semanticTags.get(semanticTags.size() - 1 - count).setText_value(currentTermValue);
+    			}
+    			
+    			count ++;
+    		}
+    		termOpened = 0;
+    		currentTermValue = "";
+    	}
     	
     	if(qualifiedName.equalsIgnoreCase(div) && isChapter){
     		chapterOpened --;
     	}
+    	
     	if(qualifiedName.equalsIgnoreCase(div) && chapterOpened == 0 && isChapter){
     		isChapter = false;
     		String data = cdata.toString();

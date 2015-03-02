@@ -140,7 +140,7 @@ public static Set<String> getTermForms(String term){
 	
 	
 	public static void main(String [] args){
-		System.out.println(Morphalou.getTermForms("faux raisonnement"));
+		System.out.println(Morphalou.getTermForms("Dieux"));
 		
 		
 		
