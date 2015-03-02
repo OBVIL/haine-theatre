@@ -6,6 +6,7 @@ public class SemanticTag {
 	String term_id = "";
 	String parent_id = "";
 	String chapter_id = "";
+	String text_value = "";
 	
 	
 	public SemanticTag(String id, String term_id, String parent_id,
@@ -46,17 +47,26 @@ public class SemanticTag {
 	public void setChapter_id(String chapter_id) {
 		this.chapter_id = chapter_id;
 	}
+	
+	public String getText_value() {
+		return text_value;
+	}
+
+	public void setText_value(String text_value) {
+		this.text_value = text_value;
+	}
+	
 
 	@Override
 	public String toString() {
 		return "SemanticTag [id=" + id + ", term_id=" + term_id
 				+ ", parent_id=" + parent_id + ", chapter_id=" + chapter_id
-				+ "]";
+				+ ", text_value=" + text_value + "]";
 	}
-	
+
 	public String getSqliteQuery(){
-		String query = "INSERT INTO SemanticTag (id,term_id,parent_id,chapter_id)\n";
-		query = query + "VALUES ('"+id+"','"+term_id+"','"+parent_id+"','"+chapter_id+"');\n";
+		String query = "INSERT INTO SemanticTag (id,term_id,parent_id,chapter_id,text_value)\n";
+		query = query + "VALUES ('"+id+"','"+term_id+"','"+parent_id+"','"+chapter_id+"','"+text_value+"');\n";
 		
 		return query;
 	}
