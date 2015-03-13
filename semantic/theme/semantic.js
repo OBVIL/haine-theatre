@@ -187,8 +187,8 @@ var semanticFieldColors = {};
 //init semantic field label
 semanticFieldLabel['Autorité'] = "<b>Autorités citées</b>";
 semanticFieldLabel['Théâtre'] = "<b>Théâtre</b>";
-semanticFieldLabel['Sentiment_Positif'] = "<b>Sentiments positifs</b>";
-semanticFieldLabel['Sentiment_Négatif'] = "<b>Sentiments négatifs</b>";
+semanticFieldLabel['Qualité_Positive'] = "<b>Qualités positives</b>";
+semanticFieldLabel['Qualité_Négative'] = "<b>Qualités négatives</b>";
 semanticFieldLabel['Société'] = "<b>Société</b>";
 semanticFieldLabel['Morale_Positive'] = "<b>Morale positive</b>";
 semanticFieldLabel['Morale_Négative'] = "<b>Morale négative</b>";
@@ -199,12 +199,13 @@ semanticFieldLabel['Guerre'] = "<b>Guerre</b>";
 semanticFieldLabel['Origine'] = "<b>Nationalité</b>";
 semanticFieldLabel['Droit'] = "<b>Droit</b>";
 semanticFieldLabel['Economie'] = "<b>Economie et argent</b>";
+semanticFieldLabel['Femme'] = "<b>Femme</b>";
 
 //init semantic field colors
 semanticFieldColors['Autorité'] = "#006600";
 semanticFieldColors['Théâtre'] = "#00CC00";
-semanticFieldColors['Sentiment_Positif'] = "#336666";
-semanticFieldColors['Sentiment_Négatif'] = "#009999";
+semanticFieldColors['Qualité_Positive'] = "#336666";
+semanticFieldColors['Qualité_Négative'] = "#009999";
 semanticFieldColors['Société'] = "#CC0066";
 semanticFieldColors['Morale_Positive'] = "#3300FF";
 semanticFieldColors['Morale_Négative'] = "#330099";
@@ -215,12 +216,13 @@ semanticFieldColors['Guerre'] = "#000033";
 semanticFieldColors['Origine'] = "#006666";
 semanticFieldColors['Droit'] = "#0066CC";
 semanticFieldColors['Economie'] = "#0066FF";
+semanticFieldColors['Femme'] = "#0060FF";
 
 //init semantic field instance
 semanticFieldInstance['Autorité'] =  new Array();
 semanticFieldInstance['Théâtre'] = new Array() ;
-semanticFieldInstance['Sentiment_Positif'] = new Array();
-semanticFieldInstance['Sentiment_Négatif'] = new Array();
+semanticFieldInstance['Qualité_Positive'] = new Array();
+semanticFieldInstance['Qualité_Négative'] = new Array();
 semanticFieldInstance['Société'] = new Array();
 semanticFieldInstance['Morale_Positive'] = new Array();
 semanticFieldInstance['Morale_Négative'] = new Array();
@@ -231,12 +233,13 @@ semanticFieldInstance['Guerre'] = new Array();
 semanticFieldInstance['Origine'] = new Array();
 semanticFieldInstance['Droit'] = new Array();
 semanticFieldInstance['Economie'] = new Array();
+semanticFieldInstance['Femme'] = new Array();
 
 //init semantic field statistics
 semanticFieldStatistics['Autorité'] =  0;
 semanticFieldStatistics['Théâtre'] = 0 ;
-semanticFieldStatistics['Sentiment_Positif'] = 0;
-semanticFieldStatistics['Sentiment_Négatif'] = 0;
+semanticFieldStatistics['Qualité_Positive'] = 0;
+semanticFieldStatistics['Qualité_Négative'] = 0;
 semanticFieldStatistics['Société'] = 0;
 semanticFieldStatistics['Morale_Positive'] = 0;
 semanticFieldStatistics['Morale_Négative'] = 0;
@@ -247,12 +250,13 @@ semanticFieldStatistics['Guerre'] = 0;
 semanticFieldStatistics['Origine'] = 0;
 semanticFieldStatistics['Droit'] = 0;
 semanticFieldStatistics['Economie'] = 0;
+semanticFieldStatistics['Femme'] = 0;
 
 //init semantic field all instance
 semanticFieldAllInstance['Autorité'] =  new Array();
 semanticFieldAllInstance['Théâtre'] = new Array() ;
-semanticFieldAllInstance['Sentiment_Positif'] = new Array();
-semanticFieldAllInstance['Sentiment_Négatif'] = new Array();
+semanticFieldAllInstance['Qualité_Positive'] = new Array();
+semanticFieldAllInstance['Qualité_Négative'] = new Array();
 semanticFieldAllInstance['Société'] = new Array();
 semanticFieldAllInstance['Morale_Positive'] = new Array();
 semanticFieldAllInstance['Morale_Négative'] = new Array();
@@ -263,7 +267,7 @@ semanticFieldAllInstance['Guerre'] = new Array();
 semanticFieldAllInstance['Origine'] = new Array();
 semanticFieldAllInstance['Droit'] = new Array();
 semanticFieldAllInstance['Economie'] = new Array();
-
+semanticFieldAllInstance['Femme'] = new Array();
 
 
 for(i = 0; i < terms.length; i++)
