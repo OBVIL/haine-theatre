@@ -186,13 +186,16 @@ var semanticFieldColors = {};
 
 //init semantic field label
 semanticFieldLabel['Autorité'] = "<b>Autorités citées</b>";
+semanticFieldLabel['Acteur'] = "<b>Acteurs cités</b>";
 semanticFieldLabel['Théâtre'] = "<b>Théâtre</b>";
+semanticFieldLabel['Théorie_Dramatique'] = "<b>Théorie dramatique</b>";
+semanticFieldLabel['Lieu_des_spectacles'] = "<b>Lieux des spectacles</b>";
 semanticFieldLabel['Qualité_Positive'] = "<b>Qualités positives</b>";
 semanticFieldLabel['Qualité_Négative'] = "<b>Qualités négatives</b>";
 semanticFieldLabel['Société'] = "<b>Société</b>";
 semanticFieldLabel['Morale_Positive'] = "<b>Morale positive</b>";
 semanticFieldLabel['Morale_Négative'] = "<b>Morale négative</b>";
-semanticFieldLabel['Passion'] = "<b>Passion</b>";
+//semanticFieldLabel['Passion'] = "<b>Passion</b>";
 semanticFieldLabel['Religion'] = "<b>Religion</b>";
 semanticFieldLabel['Fête'] = "<b>Fête et musique</b>";
 semanticFieldLabel['Guerre'] = "<b>Guerre</b>";
@@ -200,6 +203,8 @@ semanticFieldLabel['Origine'] = "<b>Nationalité</b>";
 semanticFieldLabel['Droit'] = "<b>Droit</b>";
 semanticFieldLabel['Economie'] = "<b>Economie et argent</b>";
 semanticFieldLabel['Femme'] = "<b>Femme</b>";
+semanticFieldLabel['Passion_Négative'] = "<b>Passion négative</b>";
+semanticFieldLabel['Passion_Positive'] = "<b>Passion positive</b>";
 
 //init semantic field colors
 semanticFieldColors['Autorité'] = "#006600";
@@ -209,7 +214,7 @@ semanticFieldColors['Qualité_Négative'] = "#009999";
 semanticFieldColors['Société'] = "#CC0066";
 semanticFieldColors['Morale_Positive'] = "#3300FF";
 semanticFieldColors['Morale_Négative'] = "#330099";
-semanticFieldColors['Passion'] = "#333366";
+//semanticFieldColors['Passion'] = "#333366";
 semanticFieldColors['Religion'] = "#663300";
 semanticFieldColors['Fête'] = "#CC0000";
 semanticFieldColors['Guerre'] = "#000033";
@@ -217,6 +222,11 @@ semanticFieldColors['Origine'] = "#006666";
 semanticFieldColors['Droit'] = "#0066CC";
 semanticFieldColors['Economie'] = "#0066FF";
 semanticFieldColors['Femme'] = "#0060FF";
+semanticFieldColors['Acteur'] = "#006699";
+semanticFieldColors['Lieu_des_spectacles'] = "#CC0099";
+semanticFieldColors['Théorie_Dramatique'] = "#00CC99";
+semanticFieldColors['Passion_Négative'] = "#333366";
+semanticFieldColors['Passion_Positive'] = "#333399";
 
 //init semantic field instance
 semanticFieldInstance['Autorité'] =  new Array();
@@ -226,7 +236,7 @@ semanticFieldInstance['Qualité_Négative'] = new Array();
 semanticFieldInstance['Société'] = new Array();
 semanticFieldInstance['Morale_Positive'] = new Array();
 semanticFieldInstance['Morale_Négative'] = new Array();
-semanticFieldInstance['Passion'] = new Array();
+//semanticFieldInstance['Passion'] = new Array();
 semanticFieldInstance['Religion'] = new Array();
 semanticFieldInstance['Fête'] = new Array();
 semanticFieldInstance['Guerre'] = new Array();
@@ -234,6 +244,11 @@ semanticFieldInstance['Origine'] = new Array();
 semanticFieldInstance['Droit'] = new Array();
 semanticFieldInstance['Economie'] = new Array();
 semanticFieldInstance['Femme'] = new Array();
+semanticFieldInstance['Acteur'] = new Array();
+semanticFieldInstance['Lieu_des_spectacles'] = new Array();
+semanticFieldInstance['Théorie_Dramatique'] = new Array();
+semanticFieldInstance['Passion_Négative'] = new Array();
+semanticFieldInstance['Passion_Positive'] = new Array();
 
 //init semantic field statistics
 semanticFieldStatistics['Autorité'] =  0;
@@ -243,7 +258,7 @@ semanticFieldStatistics['Qualité_Négative'] = 0;
 semanticFieldStatistics['Société'] = 0;
 semanticFieldStatistics['Morale_Positive'] = 0;
 semanticFieldStatistics['Morale_Négative'] = 0;
-semanticFieldStatistics['Passion'] = 0;
+//semanticFieldStatistics['Passion'] = 0;
 semanticFieldStatistics['Religion'] = 0;
 semanticFieldStatistics['Fête'] = 0;
 semanticFieldStatistics['Guerre'] = 0;
@@ -251,6 +266,11 @@ semanticFieldStatistics['Origine'] = 0;
 semanticFieldStatistics['Droit'] = 0;
 semanticFieldStatistics['Economie'] = 0;
 semanticFieldStatistics['Femme'] = 0;
+semanticFieldStatistics['Acteur'] = 0;
+semanticFieldStatistics['Lieu_des_spectacles'] = 0;
+semanticFieldStatistics['Théorie_Dramatique'] = 0;
+semanticFieldStatistics['Passion_Négative'] = 0;
+semanticFieldStatistics['Passion_Positive'] = 0;
 
 //init semantic field all instance
 semanticFieldAllInstance['Autorité'] =  new Array();
@@ -260,7 +280,7 @@ semanticFieldAllInstance['Qualité_Négative'] = new Array();
 semanticFieldAllInstance['Société'] = new Array();
 semanticFieldAllInstance['Morale_Positive'] = new Array();
 semanticFieldAllInstance['Morale_Négative'] = new Array();
-semanticFieldAllInstance['Passion'] = new Array();
+//semanticFieldAllInstance['Passion'] = new Array();
 semanticFieldAllInstance['Religion'] = new Array();
 semanticFieldAllInstance['Fête'] = new Array();
 semanticFieldAllInstance['Guerre'] = new Array();
@@ -268,7 +288,11 @@ semanticFieldAllInstance['Origine'] = new Array();
 semanticFieldAllInstance['Droit'] = new Array();
 semanticFieldAllInstance['Economie'] = new Array();
 semanticFieldAllInstance['Femme'] = new Array();
-
+semanticFieldAllInstance['Acteur'] = new Array();
+semanticFieldAllInstance['Lieu_des_spectacles'] = new Array();
+semanticFieldAllInstance['Théorie_Dramatique'] = new Array();
+semanticFieldAllInstance['Passion_Négative'] = new Array();
+semanticFieldAllInstance['Passion_Positive'] = new Array();
 
 for(i = 0; i < terms.length; i++)
 {
@@ -285,6 +309,7 @@ for(i = 0; i < terms.length; i++)
    //alert("value "+value);
    
    var liste = semanticFieldInstance[semanticField];
+   if (liste != null){
    var count = semanticFieldStatistics[semanticField];
    semanticFieldStatistics[semanticField] = count + 1;
    // use liste 2 to sort all element by frequence
@@ -296,12 +321,10 @@ for(i = 0; i < terms.length; i++)
 		liste[liste.length] = value;
 		semanticFieldInstance[semanticField] = liste;
    }
+   }
+   
 	
-  /* if(array.length==0 || array.contains(term)== false){
-	array[ctr] = term;
-	//alert("array[ctr] "+array[ctr]);
-	ctr = ctr+1;
-   }*/
+  
       
 }
 
