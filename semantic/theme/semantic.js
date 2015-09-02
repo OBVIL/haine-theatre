@@ -62,9 +62,9 @@ for(var key in termFrequency){
 	var frequency = termFrequency[key][1];
 	if(!(label == undefined)){
 		if(i < termFrequency.length-1){
-		text = text + "<a href=\"#\" onclick=\"javascript:colorText(this, \'"+semanticField+"\',\'"+label+"\'); return false;\" title=\""+frequency+" occurrences\">"+label+"</a>, ";
+		text = text + "<a href=\"#\" style=\"padding:0\" onclick=\"javascript:colorText(this, \'"+semanticField+"\',\'"+label+"\'); return false;\" title=\""+frequency+" occurrences\">"+label+"</a>, ";
 	}else{
-		text = text + "<a href=\"#\" onclick=\"javascript:colorText(this, \'"+semanticField+"\',\'"+label+"\'); return false;\"title=\""+frequency+"\" occurrences>"+label+"</a>";
+		text = text + "<a href=\"#\" style=\"padding:0\" onclick=\"javascript:colorText(this, \'"+semanticField+"\',\'"+label+"\'); return false;\"title=\""+frequency+"\" occurrences>"+label+"</a>";
 	
 	}
 	i = i+1;
