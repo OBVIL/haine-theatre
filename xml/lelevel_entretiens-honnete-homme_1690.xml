@@ -3,15 +3,37 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
-      <titleStmt/>
-      <editionStmt/>
+      <titleStmt>
+        <title>Entretien sur ce qui forme l’honnête homme et le vrai savant</title>
+        <author key="Lelevel, Henri (1655?-....)">Lelevel</author>
+        <editor key="Lecercle, François (1950-....)">François Lecercle</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Ludivine Rey</name>
+          <resp>Transcription</resp>
+        </respStmt>
+        <respStmt>
+          <name>Chiara Mainardi</name>
+          <resp>Stylage, XML TEI</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
-        <availability status="restricted"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2015"/>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d'Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l'OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d'Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l'OBVIL et surtout l'adresse Internet de la ressource.</p><p>Pas d'Utilisation Commerciale : dans l'intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l'OBVIL s'engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n'est pas souhaitable.</p></licence>
+        </availability>
       </publicationStmt>
-      <sourceDesc/>
+      <sourceDesc>
+        <bibl><author>Lelevel</author>, <title>Entretien sur ce qui forme l’honnête homme et le vrai savant</title>, <pubPlace>Paris</pubPlace>, <publisher>Edme Couterot</publisher>, <date>1690</date>.</bibl>
+      </sourceDesc>
     </fileDesc>
     <profileDesc>
-      <creation/>
+      <creation>
+        <date when="1690"/>
+      </creation>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
@@ -19,7 +41,7 @@
   </teiHeader>
   <text>
     <body>
-      <head>Entretien /sur ce qui forme /l’honnête homme /et le vrai savant/ par M. de Lelevel<note place="bottom">[NdE] Ce texte a été établi à partir de l’édition de 1690, publiée chez Edme Couterot. La pagination est celle de l’édition de 1690.</note>.</head>
+      <head>Entretien /sur ce qui forme /l’honnête homme /et le vrai savant/ par M. de Lelevel<note place="bottom" resp="editor">[NdE] Ce texte a été établi à partir de l’édition de 1690, publiée chez Edme Couterot. La pagination est celle de l’édition de 1690.</note>.</head>
       <div>
         <head><pb n="193" xml:id="p193"/><pb/>VII ENTRETIEN.</head>
         <p>La bonne et mauvaise Poésie … Les effets de la Comédie. L’usage des Poètes. Celui des Orateurs. La fausse éloquence. Comment on acquiert la véritable. Comment on devient Philosophe. Les effets des fausses études.</p>
