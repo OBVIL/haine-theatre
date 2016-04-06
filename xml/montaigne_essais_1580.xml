@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2016-04-06T13:20:46+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dissertation sur la condemnation des théâtres</title>
+        <author key="Montaigne, Michel de (1533-1592)">Montaigne</author>
+        <editor key="Francois, Lecercle">Chiara Mainardi</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Chiara Mainardi</name>
+          <resp>Stylage, édition XML-TEI</resp>
+        </respStmt>
+       </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2016"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/montaigne_essais_1580/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d'Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l'OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d'Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l'OBVIL et surtout l'adresse Internet de la ressource.</p><p>Pas d'Utilisation Commerciale : dans l'intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l'OBVIL s'engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n'est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl ref="http://catalogue.bnf.fr/ark:/12148/cb30035477w/PUBLIC"><author>Montaigne</author>, <title>Essais, I, 26</title>, <pubPlace>Verdun</pubPlace>, <publisher>P. Villey et Saulnier</publisher>, <date>1565</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1565"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>« De l’institution des enfants », Essais, I, 26 [fin]<note resp="author" place="bottom">[NdE] Ed. Villey-Saulnier, PUF, 1965, p. 176-177</note>.</head>
+      <p>[a] Mon âme ne laissait pourtant en même temps d’avoir à part soi des remuements fermes [c] et des jugements sûrs et ouverts autour des objets qu’elle connaissait, [a] et les digérait seule, sans aucune communication. Et, entre autres choses, je crois à la vérité qu’elle eût été du tout incapable de se rendre à la force et à la violence.</p>
+      <quote>
+        <p>[b] Mettrai-je en compte cette faculté de mon enfance : une assurance de visage, et souplesse de voix et de geste, à m’appliquer aux rôles que j’entreprenais ? Car, avant l’âge,</p>
+        <p><quote>Alter ab undecimo tum me vix ceperat annus<note resp="author" place="bottom">[NdE] « A peine avais-je atteinte ma douzième année » (Virgile, <hi rend="i">Bucoliques</hi>, VIII, 39).</note></quote>,</p>
+        <p>j’ai soutenu les premiers personnages ès tragédies latines de Buchanan, de Guérente et de Muret, qui se représentèrent en notre collège de Guyenne avec dignité. En cela Andreas Goveanus, notre principal, comme en toutes autres parties de sa charge, fut sans comparaison le plus grand principal de France : et m’en tenait-on maître ouvrier. C’est un exercice que je ne méloue point aux jeunes enfants de maison ; et ai vu nos Princes s’y adonner depuis en personne, à l’exemple d’aucuns des anciens, honnêtement et louablement.</p>
+        <p>[c] Il était loisible même d’en faire métier aux gens d’honneur en Grèce : <quote>Aristoni tragico actori rem aperit : huic et genus et fortuna honesta erant ; nec ars, quia nihil tale apud Graecos pudori est, ea deformabat.<note resp="author" place="bottom">[NdE] « Il découvre son projet à l’acteur tragique Ariston. C‘était un homme distingué par sa naissance et par sa fortune ; et sa profession (comme les occupations de ce genre n’ont rien de déshonorant chez les Grecs) ne le rabaissait en rien » (Tite-Live, XXIV, 24).</note></quote></p>
+        <p>[b] Car j’ai toujours accusé d’impertinence ceux qui condamnent ces ébattements, et d’injustice ceux qui refusent l’entrée de nos bonnes villes aux comédiens qui le valent, et envient au peuple ces plaisirs publiques. Les bonnes polices prennent soin d’assembler les citoyens et les rallier, comme aux offices sérieux de la dévotion, aussi aux exercices et jeux ; la société et amitié s’en augmente. Et puis on ne leur saurait concéder des passetemps plus réglés que ceux qui se font en présence d’un chacun et à la vue même du magistrat. Et trouverais raisonnable que le magistrat, et le prince, à ses dépens, en gratifiant quelquefois la commune, d’une affection et bonté comme paternelle ; [c] et qu’aux villes populeuses il y eût des lieux destinés et disposés pour ces spectacles : quelque divertissement de pires actions et occultes.</p>
+        <p>[a] Pour revenir à mon propos, il n’y a tel que d’allécher l’appétit et l’affection, autrement on ne fait que des ânes chargés de livres. On leur donne à coups de fouet en garde leur pochette pleine de science, laquelle, pour bien faire, il ne faut pas seulement loger chez soi, il la faut épouser.</p>
+      </quote>
+      </div>
+    </body>
+  </text>
+</TEI>
