@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--odt2tei: 2016-01-20T13:47:59+01:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dancourt_lettre-rousseau_1759" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -12,6 +13,9 @@
         <edition>OBVIL</edition>
         <respStmt>
           <name>Clotilde Thouret </name>
+          <resp>Stylage, XML TEI</resp>
+        </respStmt>
+        <respStmt>
           <name>Chiara Mainardi</name>
           <resp>Stylage, XML TEI</resp>
         </respStmt>
