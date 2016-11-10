@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
@@ -52,7 +52,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="texte" xml:id="HDT_5">
+        <div type="chapter">
           <head>Apologie du théâtre</head>
           <label><pb n="141"/>APOLOGIE DU THÉATRE,<lb/>OU<lb/><hi rend="i">ANALYSE de la Lettre de <hi rend="sc">M. Rousseau</hi>, Citoyen de Geneve, à <hi rend="sc">M. d’Alembert</hi>, au sujet des Spectacles.</hi></label>
           <p>Celui qui a regardé les Belles-Lettres comme une cause de la corruption des mœurs ; celui qui, pour notre bien, eut voulu nous mener paître, n’a pas dû approuver qu’on envoyât ses Concitoyens à une école de politesse &amp; de goût : mais sans nous prévenir contre ses principes, discutons-les de bonne foi.</p>

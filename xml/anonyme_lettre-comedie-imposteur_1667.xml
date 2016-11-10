@@ -1,54 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Lettre sur la Comédie de l'Imposteur</title>
-<author>Anonyme</author>
-<editor key="Lecercle, François (1950-....)">François Lecercle</editor>
-<editor key="Thouret, Clotilde (1974-....)">Clotilde Thouret</editor>
-</titleStmt>
-<editionStmt>
-<edition>OBVIL</edition>
-<respStmt>
-<name>Chiara Mainardi</name>
-<resp>XML TEI</resp>
-</respStmt>
-</editionStmt>
-<publicationStmt>
-<publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
-<date when="2016"/>
-<idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/anonyme_lettre-comédie-imposteur_1667/</idno>
-<availability status="restricted">
-<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d'Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l'OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d'Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l'OBVIL et surtout l'adresse Internet de la ressource.</p><p>Pas d'Utilisation Commerciale : dans l'intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l'OBVIL s'engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n'est pas souhaitable.</p></licence>
-</availability>
-</publicationStmt>
-<sourceDesc>
-<bibl><author>Anonyme</author>, <title>Lettre sur la Comédie de l'Imposteur</title>, <pubPlace>s.l.</pubPlace>, <publisher>s.n.</publisher>, <date>1667</date>.</bibl>
-</sourceDesc>
-</fileDesc>
-<profileDesc>
-<creation>
-<date when="1667"/>
-</creation>
-<langUsage>
-<language ident="fr"/>
-</langUsage>
-</profileDesc>
-</teiHeader>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre sur la Comédie de l'Imposteur</title>
+        <author key="Anonyme">Anonyme</author>
+        <editor key="Lecercle, François (1950-....)">François Lecercle</editor>
+        <editor key="Thouret, Clotilde (1974-....)">Clotilde Thouret</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Chiara Mainardi</name>
+          <resp>XML TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2016"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/anonyme_lettre-comédie-imposteur_1667/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d'Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l'OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d'Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l'OBVIL et surtout l'adresse Internet de la ressource.</p>
+            <p>Pas d'Utilisation Commerciale : dans l'intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l'OBVIL s'engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n'est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Anonyme</author>, <title>Lettre sur la Comédie de l'Imposteur</title>, <pubPlace>s.l.</pubPlace>, <publisher>s.n.</publisher>, <date>1667</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1667"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
   <text>
     <body>
-    <head rend="uc">Lettre / sur la Comédie / de / l’Imposteur / MDCLXVII.</head>
-      <div>
-      	<head rend="uc">Avis</head>
+      <head rend="uc">Lettre / sur la Comédie / de / l’Imposteur / MDCLXVII.</head>
+      <div type="chapter">
+        <head rend="uc">Avis</head>
         <p><pb n="*ii"/>Cette Lettre est composée de deux parties : la première est une relation de la représentation de <hi rend="i">L'Imposteur</hi>, et la dernière consiste en deux réflexions sur cette comédie<note place="bottom">[NDE] <hi rend="i">Tartuffe, ou l’hypocrite</hi> est créée en 1664 pour « Les Plaisirs de l’île enchantée » à Versailles ; le roi en interdit la représentation « publique ». Le texte est remanié, passe de 3 à 5 actes et change de titre pour <hi rend="i">Panulphe, ou l’imposteur</hi> (le personnage principal porte un vêtement d’homme du monde et non plus de dévot). Après avoir été jouée à Saint-Cloud le 16 juillet, lors d’une visite du roi à Madame, cette nouvelle version est présentée le 5 août 1667 au Palais Royal. En l’absence de Louis XIV, qui est au siège de Lille, elle est interdite par le Premier Président du Parlement de Paris, Guillaume de Lamoignon. Puis, l’archevêque de Paris, Hardouin de Péréfixe, promulgue une ordonnance frappant d’interdit toute représentation et toute lecture de la pièce, sous peine d’excommunication. La <hi rend="i">Lettre sur la comédie de L’Imposteur</hi> est publiée le 20 août 1667. L’anonyme commence par faire le récit en détail de la pièce interdite (p. 1-79), puis formule « deux réflexions » sur la comédie (p. 79-124). Cette défense de Molière dissimule en fait un propos libertin sous l’apparente orthodoxie du texte ; là-dessus, voir l’analyse de Jean-Pierre Cavaillé : « Hypocrisie et Imposture dans la querelle du <hi rend="i">Tartuffe</hi> (1664-1669) : La <hi rend="i">Lettre sur la comédie de l’imposteur</hi> (1667) », <hi rend="i">Les Dossiers du Grihl</hi> [En ligne], Les dossiers de Jean-Pierre Cavaillé, Libertinage, athéisme, irréligion. Essais et bibliographie, mis en ligne le 09 juin 2007. URL : http://dossiersgrihl.revues.org/292 ; DOI : 10.4000/dossiersgrihl.292.</note>. Pour ce qui est de la relation, on a cru qu’il était à propos d’avertir ici que l’auteur n’a vu la pièce qu’il rapporte que la seule fois qu’elle a été représentée en public, et sans aucun dessein d’en rien retenir, ne prévoyant pas l’occasion qui l’a engagé à faire ce petit ouvrage : ce qu’on ne dit point pour le louer de bonne mémoire, qui est une qualité pour qui il a tout le mépris imaginable, mais bien pour aller au-devant de ceux qui ne seront pas contents de ce qui est inséré des paroles de la Comédie dans cette Relation, parce qu’ils voudraient voir la pièce entière, et qui ne seront<pb n="*iiv"/> pas assez raisonnables pour considérer la difficulté qu’il y a eu à en retenir seulement ce qu’on en donne ici. L'Auteur s’est contenté la plupart du temps de rapporter à peu près les mêmes mots, et ne se hasarde guère à mettre des vers: il lui était bien aisé, s’il eût voulu, de faire autrement, et de mettre tout en vers ce qu’il rapporte, de quoi quelques gens se seraient peut-être mieux accommodés; mais il a cru devoir ce respect au Poète dont il raconte l’ouvrage, quoiqu’il ne l’ait jamais vu que sur le théâtre, de ne point travailler sur sa matière, et de ne se hasarder pas à défigurer ses pensées, en leur donnant peut-être un tour autre que le sien. Si cette retenue et cette sincérité ne produisent pas un effet fort agréable, on espère du moins qu’elles paraîtront estimables à quelques-uns, et excusables à tous.</p>
         <p><pb n="*iii"/>Des deux réflexions qui composent la dernière partie, on n’aurait point vu la plupart de la dernière, et l’Auteur n’aurait fait que la proposer sans la prouver, s’il en avait été cru, parce qu’elle lui semble trop spéculative, mais il n’a pas été le maître : toutefois, comme il se défie extrêmement de la délicatesse des esprits du siècle, qui se rebutent à la moindre apparence de dogme, il n’a pu s’empêcher d’avertir dans le lieu même, comme on verra, ceux qui n’aiment pas le raisonnement, qu’ils n’ont que faire de passer outre. Ce n’est pas qu’il n’ait fait tout ce que la brièveté du temps et ses occupations de devoir lui ont permis, pour donner à son discours l’air le moins contraint, le plus libre et le plus dégagé qu’il a pu; mais, comme il n’est point de genre d’écrire plus difficile que celui-là, il avoue<pb n="*iiiv"/><pb/>de bonne foi qu’il aurait encore besoin de cinq ou six mois pour mettre ce seul discours du Ridicule non pas dans l’état de perfection dont la matière est capable, mais seulement dans celui qu’il est capable de lui donner.</p>
         <p>En général, on prie les Lecteurs de considérer la circonspection dont l’Auteur a usé dans cette matière, et de remarquer que dans tout ce petit Ouvrage il ne se trouvera pas qu’il juge en aucune manière de ce qui est en question, sur la Comédie qui en est le sujet : car, pour la première partie, ce n’est, comme on l’a déjà dit, qu’une relation fidèle de la chose, et de ce qui s’en est dit pour et contre par les intelligents ; et, pour les réflexions qui composent l’autre, il n’y parle que sur des suppositions qu’il n’examine point. Dans la première, il suppose l’innocence de cette<pb n="n.ch"/><pb/>pièce, quant au particulier de tout ce qu’elle contient, ce qui est le point de la question, et s’attache simplement à combattre une objection générale qu’on a faite, sur ce qu’il est parlé de la Religion ; et, dans la dernière, continuant sur la même supposition, il propose une utilité accidentelle qu’il croit qu’on en peut tirer contre la galanterie et les galants, utilité qui assurément est grande, si elle est véritable ; mais qui, quand elle le serait, ne justifierait pas les défauts essentiels que les Puissances ont trouvés dans cette Comédie, si tant est qu’ils y soient, ce qu’il n’examine point.</p>
         <p>C'est ce qu’on a cru devoir dire par avance, pour la satisfaction des gens sages, et pour prévenir la pensée que le titre de cet Ouvrage leur pourrait donner, qu’on manque au respect qui est dû aux Puissances : mais<pb n="n.ch.v"/><pb/>aussi, après avoir eu cette déférence et ce soin pour le jugement des hommes, et leur avoir rendu un témoignage si précis de sa conduite, s’ils n’en jugent pas équitablement, l’auteur a sujet de s’en consoler, puisqu’il ne fait enfin que ce qu’il croit devoir à la Justice, à la Raison et à la Vérité.</p>
       </div>
-      <div>
+      <div type="chapter">
         <head rend="uc">Lettre sur la Comédie de l’Imposteur</head>
         <p><pb n="1" xml:id="p1"/>Monsieur,</p>
         <p>Puisque c’est un crime pour moi que d’avoir été à la première représentation de <hi rend="i">L’Imposteur</hi>, que vous avez manquée, et que je ne saurais en obtenir le pardon qu’en réparant la perte que vous avez faite et qu’il vous plaît de m’imputer, il faut bien que j’essaie de rentrer dans vos bonnes grâces, et que je fasse violence à ma paresse pour satisfaire votre curiosité.</p>
@@ -123,7 +129,7 @@
         <salute>Je suis, </salute>
         <salute>Monsieur, </salute>
         <salute>Votre, etc. </salute>
-        <dateline>Le 20 août 1667. </dateline>
+        <dateline>Le 20 août 1667.</dateline>
       </div>
     </body>
   </text>
