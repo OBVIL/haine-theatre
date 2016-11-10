@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
@@ -47,7 +47,7 @@
   </teiHeader>
   <text>
     <body>
-      <div>
+      <div type="chapter">
         <head>RÉPONSE / A LA LETTRE ADRESSÉE A L’AUTEUR / DES HERESIES IMAGINAIRES.<note place="bottom" resp="editor">[NDE] Cette lettre est publiée anonymement le 1<hi rend="sup">er</hi> avril 1666. Elle a été attribuée à Jean Barbier d’Aucour, ou Isaac Lemaistre de Sacy, ou encore Louis-Charles d’Albert, duc de Luynes. Elle est l’une des deux réponses faite à la<hi rend="i"> Lettre à l’auteur des Hérésies imaginaires, et des deux Visionnaires</hi> de Jean Racine publiée en 1666 qui était une réplique aux attaques de Desmarets par Nicole. L’auteur répond ici à Racine en reprenant une bonne partie de ses arguments, sans toutefois suivre tout à fait leur ordre.Deux éditions ont été utilisées pour l’établissement de ce texte : l’édition originale (<hi rend="i">Réponse à la lettre adressée à l’auteur de Hérésies imaginaires</hi>, s.n.s.l. (Paris), 1666, 4°, 12 p.), ainsi que l’édition Thirouin pour les notes (Nicole, <hi rend="i">Traité de la Comédie</hi>, éd. L. Thirouin, Paris, Champion, 1998, p. 249-263). Comme Thirouin, nous avons intégré les cinq lignes de corrections indiquées à la dernière page de l’édition originale avec la mention « Fautes à corriger ».</note></head>
         <salute><pb n="1" xml:id="p1"/><hi rend="sc">Monsieur</hi>,</salute>
         <p>Je ne sais si l’auteur des <hi rend="i">Hérésies imaginaires</hi> jugera à propos de vous faire réponse. Je connais des gens qui auraient sujet de se plaindre, s’il le faisait. Ils ont souffert avec patience qu’on ait répondu à M. Desmarets, et je ne m’en étonne pas : un Prophète mérite quelque préférence. Mais vous, Monsieur, qui n’avez pas encore prophétisé, il y aurait de l’injustice à vous traiter mieux qu’on ne les a traités. Pour moi qui ne suis point de Port-Royal et qui n’ai de part à tout ceci qu’autant que j’y en veux prendre, je crois que sans vous faire d’affaire avec le P. du Bosc, ni avec M. de Marandé<note place="bottom" resp="editor">[NDE] Jacques du Bosc, religieux cordelier et Léonard de Marandé, adversaire du jansénisme.</note>, je vous puis dire un mot sur le sujet de votre lettre. J'espère que cela ne sera pas inutile pour en faire connaître le prix. Le monde passe quelquefois trop légèrement sur les choses : il est bon de les lui faire remarquer.</p>
