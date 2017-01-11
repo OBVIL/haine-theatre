@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mezieres_critique-livre-contre-spectacles_1760" xml:lang="fr">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Critique d’un livre contre les spectacles</title>
+          <author>Mézières, Marquis de</author>
+        </titleStmt>
+        <editionStmt>
+          <edition>OBVIL</edition>
+          <respStmt>
+            <name>François Lecercle</name>
+            <resp>Responsable d’édition</resp>
+          </respStmt>
+          <respStmt>
+            <name>Clotilde Thouret</name>
+            <resp>Responsable d’édition</resp>
+          </respStmt>
+        </editionStmt>
+        <publicationStmt>
+          <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+          <date when="2016"/>
+          <availability status="restricted">
+            <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+              <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+              <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+              <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+              <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+              <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+            </licence>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl>
+            <title>Critique d’un livre contre les spectacles</title>
+            <author>Mézières, Marquis de</author>
+            <biblScope>p. III-XX; p. 21-92</biblScope>
+            <date>1760</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+        <creation>
+          <date when="1760"/>
+        </creation>
+        <langUsage>
+          <language ident="fr"/>
+        </langUsage>
+      </profileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="texte" xml:id="HDT_21">
+          <head>Critique d’un livre contre les spectacles</head>
+          <div type="chapitre" xml:id="CH_21_1">
+            <head><pb n="iii"/><hi rend="i">DISCOURS PRÉLIMINAIRE.</hi></head>
+            <p>Aimable &amp; précieuse ignorance, véritable mere des humains ! Pourquoi vous êtes-vous défigurée à nos regards ?</p>
+            <p>Oh ! mes Peres, dans quel repos se filoit la trame de votre vie ! La satisfaction de vos besoins &amp; les connoissances utiles vous offroient toujours des plaisirs sans mélange : vous vous contentiez de croire ce que vous sentiez : Et sans vous embarrasser <pb n="iv"/>dans ce que vous ne compreniez pas, vous n’interrompiez point le cours naturel de vos esprits, vous ne les rassembliez point inutilement dans votre cerveau, au détriment du reste de vos organes : par l’exercice que vous faisiez, vous les aidiez au contraire à circuler par tout votre corps : vivant tranquilles, vous viviez en santé, vous étiez gais &amp; vigoureux.</p>
+            <p>Depuis la renaissance des Lettres, que notre état est changé ! Une foule de cerveaux brûlés s’est emparée de l’Imprimerie : l’orgueil a produit des Métaphysiciens de toute espece : ils ont chassé la <pb n="v"/>nature ; elle est devenue un problême. Avant que de suivre ses impressions, il faut en rendre raison, les disséquer, les évaluer, les soumettre au ton du jour. Tout n’est aujourd’hui que systêmes ridicules.</p>
+            <p>Nos Erostrates modernes, cherchant sans pudeur la célébrité, prétendent créer un homme nouveau : ils nous ont effrayés par les couleurs hideuses dont ils ont peint nos penchans naturels, &amp; sont parvenus à nous faire honte des propriétés de notre être. « Vous êtes dans l’erreur, » nous crient-ils incessamment ; « détruisez vos passions ; cessez d’être ce que vous <pb n="vj"/>êtes, &amp; devenez les phantômes de nos imaginations. »</p>
+            <p>Infideles Rhéteurs qui embarrassez notre simplicité dans vos sophismes, quand cesserez-vous de nous allarmer vainement ? Quand commencerez-vous à nous être utiles en effet ?</p>
+            <p>Vous qui prétendez nous faire accroire tant de choses extravagantes ; qui nous assurez que nos sens nous font illusion ; apprenez que ce que vous nommez illusion, cet éternel sujet de vos déclamations, que vous nous reprochez avec tant d’aigreur, est le principe ou l’occasion de vos jugemens <pb n="vij"/>ainsi que des nôtres. Tout n’est <hi rend="i">presque</hi><note resp="author" place="bottom"><p>Les lettres italiques signifient dans ce Discours Préliminaire la même chose que dans les Notes de mon Essai sur la Nature du Chant.</p></note> sur la terre qu’illusion pour les hommes ; c’est leur seule réalité : ils parlent, ils s’agitent dans le mode des impressions qui les met en mouvement ; mais la cause de ces impressions en est cachée à tous.</p>
+            <p>La vérité n’est point pour nous dans les objets extérieurs ; elle réside intérieurement dans chacun : rien n’est <hi rend="i">plus</hi> certain que ce que nous sentons, &amp; notre sentiment est la chose la plus constante, qui <pb n="viij"/>existe véritablement pour nous dans l’Univers. Je n’ai pas besoin d’une boule pour en ressentir l’impression ; mes muscles, par leur propre mouvement, peuvent se trouver disposés de même que dans ce contact<note resp="author" place="bottom"><p>C’est ainsi qu’arrivent les reminiscences, les rêves, &amp; tous ces mouvemens communicatifs à l’ame, où les plaisirs &amp; les peines sont bien réels.</p></note>. D’ailleurs, je ne sçai si c’est une boule que je sens ; toutes choses n’étant que de rapport, leur essence nous est parfaitement inconnue<note resp="author" place="bottom"><p>Si une position ne convient pas plus à l’essence d’une chose qu’une autre ; si une disposition de nos organes n’est pas plus convenable qu’une autre aux fonctions de notre ame ; si un mouvement quelconque des rayons solaires n’est pas plus propre qu’un autre à représenter dans nos yeux l’image des choses que nous voyons, comment pourrons-nous nous décider, lorsque les différentes positions d’un objet, les diverses dispositions de nos organes, &amp; la variété des mouvemens de ce fluide subtil, qui fait la lumiere, nous feront voir, toucher &amp; goûter différemment un même objet ? <hi rend="i">Léibnitz</hi> a bien senti cette difficulté ; c’est elle qui lui a fait embrasser le systême des Monades, &amp; réduire tout ce que nous éprouvons par les sens, à des phénomenes, c’est-à-dire, à des apparences. <hi rend="i">Pirrhonisme du Sage</hi>, §. 114.</p></note> : elles ne viennent <pb n="ix"/>point à nous dans leur propre forme, mais dans la forme que nous les présentent les divers milieux ou tamis par où elles passent, &amp; font tels ou tels effets sur nous, selon la disposition de l’organe qu’elles frappent. Les feuilles d’un <pb n="x"/>arbre réfléchies sur les globules de l’air, me paroissent vertes ; &amp; à travers les pores ou conduits d’un prisme, elles sont tout aussi véritablement rouges pour moi.</p>
+            <p>Les divers sentimens, que nous avons de la nature des choses, peuvent donc n’être que des illusions, puisque ce ne sont point les objets qui nous les procurent immédiatement, que ce ne sont point eux dans leur réalité, &amp; qu’ils ne sont pas même nécessaires. Ce partage de vérités &amp; d’erreurs que chacun établit arbitrairement, soutient opiniâtrement, &amp; veut faire accepter avec tyrannie, est la preuve caractéristique <pb n="xj"/>de la plus honteuse ignorance. Le sentiment des autres, dans quelque nombre qu’ils soient, est un néant pour moi, jusqu’à ce que j’en éprouve un pareil.</p>
+            <p>La vérité ou persuasion intime, naît du tact particulier : elle ne peut être de convention, &amp; on s’abuse soi-même, quand on croit croire sur caution. Les Apôtres demandoient à Dieu qu’il touchât les Gentils.</p>
+            <p>Je serois fou de ne pas croire vrai ce que je sens, par quelque organe que ce soit : mais je serois extravagant si je décidois que tout ce qui me paroîtroit être mes semblables, <pb n="xij"/>dût sentir comme moi, &amp; si je voulois les y obliger : c’est cependant la prétention de tous ces dogmatistes qui nous inondent de leurs rêveries. M. Rousseau veut diriger jusqu’à mes plaisirs, &amp; m’apprendre l’effet qu’ils font sur moi.</p>
+            <p>Lorsque je vais à l’Opera (quoique je convienne qu’il n’est peut-être pas aussi bon qu’il pourroit être) mon sang se calme, mon imagination s’adoucit, &amp; mon ami éprouve le même effet.</p>
+            <p>La Tragédie &amp; plusieurs Comédies me remuent extrêmement, &amp; me donnent une émulation inexprimable. L’impression bien faite <pb n="xiij"/>de la vertu ne s’efface point. La premiere Comédie que j’ai vûë, fut Timon Misantrope : quand j’entendis Arlequin lui dire : « Et que me faisoit cela ; je méritois, moi, de faire de bonnes actions : » je me sentis pénétré d’une lumiere qui échauffa mon cœur, qui y fit éclorre une autre forme de sentimens : il sembloit que j’acquérois un nouvel être : il ne s’est pas encore passé un seul jour sans que cette idée ne me soit revenue : &amp; depuis plus de trente ans, je cherche &amp; m’empresse à faire tout le bien qui est en mon pouvoir.</p>
+            <p>Je m’imagine que d’autres hommes <pb n="xiv"/>sont organisés comme moi, &amp; par conséquent reçoivent une même impression.</p>
+            <p>Eh ! qu’on veuille nous persuader aujourd’hui, par un discours captieux, que les Spectacles sont l’école du vice, que les vertus même qu’on y présente menent au crime, devons-nous le croire par préférence à ce que nous sentons ? M. Rousseau dit<note resp="author" place="bottom"><p>Dans sa Lettre sur la Musique Françoise. <hi rend="i">Page</hi> 91.</p></note> que quand une Françoise croit chanter, elle aboye<note resp="author" place="bottom"><p>Dans le Livre objet de la présente Critique.</p></note> ; que la Comédie est infame par sa nature, &amp; que les Acteurs <pb n="xv"/>&amp; les Spectateurs sont tous des scélérats dignes du gibet.</p>
+            <p>J’avoue que cette licence effrénée d’un Particulier sans caractere, nourri dans nos Théâtres, qui ose faire publier à Paris un Libelle aussi monstrueux, contre une Nation dont il n’a qu’à se louer, m’a révolté ; &amp; je n’ai pu m’empêcher de faire la critique de son Livre, malgré toute la faveur où sa façon d’écrire &amp; la nouveauté des idées qu’il présente, le mettent aujourd’hui auprès du Public.</p>
+            <p>Je joins à cette Critique les endroits de son Livre même, dans lesquels, oubliant l’intérêt de son <pb n="xvj"/>systême, il parle dans la vérité, &amp; fait comme une espece d’amende honorable à l’humanité.</p>
+            <p>J’ajoute l’opinion de M. de Voltaire qui, ayant travaillé, ainsi que M. Rousseau, pour le Théâtre, doit, ce me semble, être écouté dans cette cause, du moins autant que lui ; &amp; je finis par une Lettre, que j’écrivis il y a bien des années, dont je retrouve par hazard le brouillon.</p>
+            <p>M. Rousseau sçaura par cette petite Dissertation sur le Théâtre, qu’on a vu tout ce qu’il voit, mais qu’on l’a vu différemment : il pourra y remarquer aussi comment les <pb n="xvij"/>gens vertueux se communiquent leurs idées, &amp; que la douceur &amp; la politesse sont les fidelles compagnes de l’honnêteté des mœurs.</p>
+            <p>On m’a dit que M. Rousseau étoit hypocondriaque au troisiéme degré ; je le plains : car M. Boërhaave (ce Descartes de la Médecine) dit que cette maladie est pire que la mort : il a raison ; car la mort <hi rend="i">peut</hi> ne point faire de mal, &amp; l’hypocondrie livre sa victime à la noire fureur de son bitume corrosif.</p>
+            <p><note resp="author" place="bottom"><p>Il dit, page 31 de la Préface de sa Comédie de Narcisse : <hi rend="i">S’ils remarquent</hi> (<hi rend="i">les hommes</hi>) <hi rend="i">que l’amour de la réputation me fasse oublier celui de la vertu, je les prie de m’en avertir, &amp; même publiquement, &amp; je leur promets de jetter à l’instant au feu mes Ecrits &amp; mes Livres, &amp; de convenir de toutes les erreurs qu’il leur plaira de me reprocher.</hi></p></note> Je conseille à M. Rousseau, <pb n="xviij"/>s’il a quelque intervalle, d’enterrer dans ces momens-là ce que sa bile exaltée aura pu lui faire produire : les pores de tous nos mélancoliques sont ouverts pour recevoir ses poisons : &amp; c’est doubler ses maux que de les communiquer.</p>
+            <p>Qui oublie plus essentiellement la vertu &amp; ses devoirs, que celui qui se déclare affirmativement l’ennemi de la société ? Qui bâtit une <pb n="xix"/>rapsodie de paradoxes tirés de la fable des Abeilles<note resp="author" place="bottom"><p>Quoique contraires dans leurs principes, leur résultat se trouve le même : ces deux grands Ecrivains sont à l’unisson pour les injures.</p></note>, pour tromper les hommes, &amp; leur faire croire qu’ils sont faits pour vivre seuls dans les forêts ?</p>
+            <p>Il se dévoile lui-même, quand il dit dans ce même Livre contre les Spectacles, page 223 : « Le plus méchant homme est celui qui s’isole le plus, qui concentre le plus son cœur en lui-même : le meilleur est celui qui partage également ses affections à tous ses semblables ».</p>
+            <ab type="ornament">***</ab>
+            <quote>
+              <lg>
+                <l><pb n="xx"/>Blaise Pascal a tort, il faut en convenir ;</l>
+                <l>Ce pieux Misantrope ! Héraclite sublime !</l>
+                <l>Qui pense qu’ici-bas tout est misere &amp; crime.<note resp="author" place="bottom"><p><hi rend="sc">M. de Voltaire</hi>, Lettre au Roi de Prusse.</p></note></l>
+              </lg>
+            </quote>
+          </div>
+          <div type="chapitre" xml:id="CH_21_2">
+            <head><pb n="21"/><hi rend="i">REMARQUES</hi><lb/>SUR LE LIVRE DE J.J. ROUSSEAU, CONTRE LES SPECTACLES.</head>
+            <div type="section" xml:id="SC_21_2_1">
+              <head><pb n="22"/><hi rend="sc">Texte.</hi></head>
+              <label><hi rend="i">Page 13.</hi></label>
+              <p>Vous serez sûrement le premier Philosophe (M. d’Alembert) qui jamais ait excité un Peuple libre, une petite Ville, &amp; un Etat pauvre à se charger d’un Spectacle public.</p>
+              <label><hi rend="i">Page 14.</hi></label>
+              <p>Tout amusement inutile est un mal pour un être dont la vie est si courte &amp; le temps si précieux.</p>
+              <label><hi rend="i">Pages 15 &amp; 16.</hi></label>
+              <p>L’on croit s’assembler au Spectacle, &amp; c’est-là que chacun s’isole : c’est-là qu’on va oublier ses amis, ses voisins, ses proches, pour s’intéresser à des fables, pour pleurer les malheurs des morts, ou rire aux dépens des vivans. Mais j’aurois dû sentir que ce langage <pb n="24"/>n’est plus de saison dans notre siécle. Tâchons d’en prendre un qui soit mieux entendu.</p>
+              <label><hi rend="i">Page 17.</hi></label>
+              <p>Quand à l’espece des Spectacles, c’est nécessairement le plaisir qu’ils donnent, &amp; non l’utilité qui les détermine<note resp="author" place="bottom"><p>Les Auteurs.</p></note> ; si l’utilité peut s’y trouver, à la bonne heure.</p>
+              <label><hi rend="i">Pages 21 &amp; 22.</hi></label>
+              <p>Quand Arlequin Sauvage est si bien accueilli des Spectateurs, pense-t’on que ce soit par le goût qu’ils prennent pour le sens &amp; la simplicité de ce personnage, &amp; qu’un seul d’entr’eux voulût pour cela lui ressembler ? C’est tout au contraire, que cette Piece favorise <pb n="26"/>leur tour d’esprit, qui est d’aimer &amp; rechercher les idées neuves &amp; singulieres, &amp; il n’y en a point de plus neuves pour eux que celles de la nature. C’est précisément leur aversion pour les choses communes, qui les ramene quelquefois aux choses simples.</p>
+              <label><hi rend="i">Page 22.</hi></label>
+              <p>Il s’ensuit de ces premieres observations, que l’effet général du Spectacle est de renforcer le caractere national, d’augmenter les inclinations naturelles, &amp; de donner une nouvelle énergie à toutes les passions.</p>
+              <label><hi rend="i">Page 23.</hi></label>
+              <p>Le Théâtre purge les passions qu’on n’a pas, &amp; fomente celles qu’on a. Ne voilà t’il pas un remede bien administré ?</p>
+              <label><pb n="28"/><hi rend="i">Note de la Page 24.</hi></label>
+              <p>Qu’on mette pour voir sur la Scene Françoise un homme droit &amp; vertueux, mais simple &amp; grossier, sans amour, sans galanterie, &amp; qui ne fasse pas de belles phrases ; j’aurai tort si l’on réussit.</p>
+              <label><hi rend="i">Page 26.</hi></label>
+              <p>L’opinion n’en dépend point (du Théâtre), puisqu’au lieu de faire la loi au Public, le Théâtre la reçoit de lui.</p>
+              <label><hi rend="i">Page 30.</hi></label>
+              <p>Que va-t’il voir au Spectacle (le Méchant) ? Précisément ce qu’il voudroit trouver par-tout, des leçons de vertu pour le Public, dont il s’excepte, &amp; des gens immolant tout à leur devoir tandis qu’on n’exige rien de lui.</p>
+              <label><pb n="30"/><hi rend="i">Pages 35 &amp; 36.</hi></label>
+              <p>Ces productions d’esprit, comme la plûpart des autres, n’ont pour but que les applaudissemens.</p>
+              <p>Quand l’Auteur en reçoit, &amp; que les Acteurs les partagent, la Piece est parvenue à son but, &amp; l’on n’y cherche point d’autre utilité. Or si le bien est nul, reste le mal ; &amp; comme celui-ci n’est point douteux, la question me paroît décidée.</p>
+              <label><hi rend="i">Page 49.</hi></label>
+              <p>Tout en est mauvais &amp; pernicieux (de la Comédie), tout tire à conséquence <pb n="32"/>pour les Spectateurs ; &amp; les plaisirs même du Comique étant fondés sur un vice du cœur humain, c’est une suite de ce principe, que plus la Comédie est agréable &amp; parfaite, plus son effet est funeste aux mœurs.</p>
+              <label><hi rend="i">Page 73.</hi></label>
+              <p>Je ne ferai pas à Dancourt l’honneur de parler de lui.</p>
+              <label><hi rend="i">Page 75.</hi></label>
+              <p>Nos Auteurs modernes, guidés par de meilleures intentions, font des Pieces plus épurées.</p>
+              <label><hi rend="i">Page <seg resp="wordpro">86</seg>.</hi></label>
+              <p>Quand il seroit vrai qu’on ne peint au Théâtre que des passions légitimes, s’ensuit-il de-là que les impressions en sont plus foibles, que les effets en sont <pb n="34"/>moins dangereux ? Comme si les vives images d’une tendresse innocente étoient moins douces, moins séduisantes, moins capables d’échauffer un cœur sensible, que celles d’un amour criminel à qui l’horreur du vice sert au moins de contrepoison ? Mais si l’idée de l’innocence embellit quelques instans le sentiment qu’elle accompagne, bien-tôt les circonstances l’effacent de la mémoire, tandis que l’impression d’une passion si douce reste gravée au fond du cœur…. D’une action fort honnête faire un exemple de corruption : voilà l’effet des amours permis au Théâtre.</p>
+              <label><hi rend="i">Page 93.</hi></label>
+              <p>Pour moi je crois entendre chaque Spectateur dire en son cœur à la fin de la Tragédie : Ah ! qu’on me donne une <pb n="36"/>Zaïre, je ferai bien en sorte de ne la pas tuer.</p>
+              <label><hi rend="i">Page 97.</hi></label>
+              <p>Je crois qu’on peut conclure de ces considérations diverses, que l’effet moral du Spectacle &amp; des Théâtres ne sçauroit jamais être bon ni salutaire en lui-même.</p>
+              <label><hi rend="i">Page 100.</hi></label>
+              <p>Dans une grande ville pleine de gens intrigans, désœuvrés, sans religion, sans principes, dont l’imagination dépravée par l’oisiveté, la fainéantise, par l’amour du plaisir, &amp; par de grands besoins, n’engendre que des monstres, &amp; n’inspire que des forfaits ; dans les grandes villes où les mœurs &amp; l’honneur ne sont rien, parce que chacun dérobant aisément sa conduite <pb n="38"/>aux yeux du public, ne se montre que par son crédit, &amp; n’est estimé que par ses richesses ; la Police ne sçauroit trop multiplier les plaisirs permis, ni trop s’appliquer à les rendre agréables, pour ôter aux particuliers la tentation d’en chercher de plus dangereux. Comme les empêcher de s’occuper, c’est les empêcher de mal faire, deux heures par jour, dérobées à l’activité du vice, sauvent la douziéme partie des crimes qui se commettroient.</p>
+              <label><hi rend="i">Page 108.</hi></label>
+              <p>Je n’ai rien retenu de leurs mœurs, de leurs sociétés, de leurs caracteres, (des Montagnons). Aujourd’hui que j’y porterois d’autres yeux, faut-il ne revoir plus cet heureux pays ? Hélas il est sur la route du mien !</p>
+              <label><pb n="40"/><hi rend="i">Page 110.</hi></label>
+              <p>Dieu veuille qu’on n’y mette pas des lanternes, (chez les Montagnons.)</p>
+              <label><hi rend="i">Page 112.</hi></label>
+              <p>En certains lieux les Spectacles seront utiles pour rendre les gens riches moins mal-faisants ; pour distraire le peuple de ses miseres ; pour lui faire oublier ses Chefs en voyant ses Baladins ; pour maintenir &amp; perfectionner le goût quand l’honnêteté est perdue ; pour couvrir d’un vernis de procédés la laideur du vice ; pour empêcher, en un mot, que les <pb n="42"/>mauvaises mœurs ne dégénerent en brigandage.</p>
+              <label><hi rend="i">Page 113.</hi></label>
+              <p>De ces nouvelles réflexions il résulte une conséquence directement contraire à celle que je tirois des premieres.</p>
+              <label><hi rend="i">Page 115.</hi></label>
+              <p>Des Spectacles &amp; des mœurs ! Voilà ce qui formeroit vraiement un spectacle à voir.</p>
+              <label><hi rend="i">Page 118.</hi></label>
+              <p>Quant au choix des instrumens propres à diriger l’opinion publique, c’est une autre question qu’il seroit superflu de résoudre pour vous, &amp; que ce n’est pas ici le lieu de résoudre pour la multitude.</p>
+              <label><pb n="44"/><hi rend="i">Page 133.</hi></label>
+              <p>Le hasard, mille causes fortuites, mille circonstances imprévues, font ce que la force &amp; la raison ne sçauroient faire.</p>
+              <label><hi rend="i">Page 135.</hi></label>
+              <p>L’état des Comédiens est un état de licence &amp; de mauvaises mœurs ; les hommes y sont livrés au désordre ; les femmes y menent une vie scandaleuse.</p>
+              <label><hi rend="i">Page 136. Note.</hi></label>
+              <p>Si les Anglois ont inhumé la célebre Oldfied à côté de leurs Rois, ce n’étoit pas son métier, mais son talent qu’ils vouloient honorer.</p>
+              <label><pb n="46"/><hi rend="i">Page 141.</hi></label>
+              <p>La Tragédie chez les Grecs n’étant d’abord jouée que par des hommes, on ne voyoit point sur leur Théâtre ce mélange scandaleux d’hommes &amp; de femmes, qui fait des nôtres autant d’Ecoles de mauvaises mœurs.</p>
+              <label><hi rend="i">Page 144.</hi></label>
+              <p>Quel est l’esprit que le Comédien reçoit de son état ? Un mélange de bassesse, de fausseté, de ridicule orgueil, &amp; d’indigne avilissement, qui le rend propre à toutes sortes de personnages, hors le plus noble de tous, celui d’homme qu’il abandonne.</p>
+              <label><hi rend="i">Page 147.</hi></label>
+              <p>Y a-t’il rien de plus odieux, de plus choquant, de plus lâche, qu’un honnête homme à la Comédie, faisant le rôle <pb n="48"/>d’un scélérat, &amp; déployant tout son talent pour faire valoir de criminelles maximes, dont lui-même est pénétré d’horreur ?</p>
+              <label><hi rend="i">Page 147.</hi></label>
+              <p>Dans ce siecle, où regnent si fierement les préjugés &amp; l’erreur sous le nom de Philosophie, les hommes abrutis par leur vain sçavoir, ont fermé leur esprit à la voix de la raison, &amp; leur cœur à celle de la nature.</p>
+              <label><hi rend="i">Page 148.</hi></label>
+              <p>Les Angloises sont douces &amp; timides.</p>
+              <label><hi rend="i">Page 148.</hi></label>
+              <p>Les Anglois &amp; les Angloises ont tous deux un grand respect pour les choses honnêtes.</p>
+              <label><pb n="50"/><hi rend="i">Page 149.</hi></label>
+              <p>Les Dames Angloises errent aussi volontiers dans leurs Parcs solitaires, qu’elles vont se montrer à Vaux-Hall. De ce goût commun pour la solitude, naît aussi celui des lectures contemplatives &amp; des Romans, dont l’Angleterre est inondée (<hi rend="i">t</hi>).</p>
+              <label><hi rend="i">Note.</hi></label>
+              <p><seg resp="wordpro">(<hi rend="i">t</hi>)</seg> Ils sont, comme les hommes, sublimes ou détestables.</p>
+              <label><hi rend="i">Page 150.</hi></label>
+              <p>La honte &amp; la pudeur sont dans les femmes inséparables de l’honnêteté.</p>
+              <label><hi rend="i">Page 150.</hi></label>
+              <p>A l’instant va s’élever contre moi cette Philosophie d’un jour, qui naît &amp; meurt dans le coin d’une grande Ville, &amp; veut étouffer de-là le cri de la nature, &amp; la voix unanime du genre humain.</p>
+              <label><pb n="52"/><hi rend="i">Pages 151 &amp; 152.</hi></label>
+              <p>Préjugés populaires ! me crie-t’on. Petites erreurs de l’enfance ! Pourquoi rougirions-nous des besoins que nous donna la nature ? Pourquoi trouverions-nous un motif de honte dans un acte aussi indifférent en soi &amp; aussi utile dans ses effets ?… Par cette maniere de raisonner, ceux qui ne voyent pas pourquoi l’homme est existant, devroient nier qu’il existe.</p>
+              <label><hi rend="i">Page 153.</hi></label>
+              <p>Les desirs sont égaux ! Qu’est-ce à dire ? Y a-t’il de part &amp; d’autre mêmes facultés de les satisfaire ? Que deviendroit l’espece humaine, si l’ordre de l’attaque &amp; de la défense étoit changé ? L’assaillant choisiroit au hasard des temps où la victoire seroit impossible ; <pb n="54"/>l’assailli seroit laissé en paix, quand il auroit besoin de se rendre, &amp; poursuivi sans relâche, quand il seroit trop foible pour succomber.</p>
+              <label><hi rend="i">Pages 158. &amp; 159.</hi></label>
+              <p>L’argument tiré de l’exemple des bêtes, ne conclut point &amp; n’est pas vrai. L’homme n’est point un chien ni un loup. Il ne faut qu’établir dans son espece les premiers rapports de la société, pour donner à ses sentimens une moralité toujours inconnue aux bêtes. Les animaux ont un cœur &amp; des passions ; mais la sainte image de l’honnête &amp; du beau, n’entra jamais que dans le cœur de l’homme.</p>
+              <label><pb n="56"/><hi rend="i">Page 165.</hi></label>
+              <p>Par le progrès de la politesse elle a du enfin dégénerer en grossiereté. C’est ainsi que la modestie naturelle au sexe est peu à peu disparuë, &amp; que les mœurs des vivandieres se sont transmises aux femmes de qualité.</p>
+              <label><hi rend="i">Page 171.</hi></label>
+              <p>Je n’aurois rempli qu’imparfaitement ma tâche, si je ne cherchois sur notre situation particuliere, ce qui résultera de l’établissement d’un Théâtre dans notre ville.</p>
+              <label><pb n="58"/><hi rend="i">Page 188.</hi></label>
+              <p>Qu’un Monarque gouverne des hommes ou des femmes, cela lui doit être assez indifférent, pourvu qu’il soit obéï ; mais dans une République il faut des hommes.</p>
+              <label><hi rend="i">Page 194. Note.</hi></label>
+              <p>Les écrits des femmes sont tous froids &amp; jolis comme elles ; ils auront tant d’esprit que vous voudrez, jamais d’ame ; ils seroient cent fois plutôt sensés que passionnés. Elles ne savent ni décrire ni sentir l’amour même.</p>
+              <label><pb n="60"/><hi rend="i">Pages 206 &amp; 207.</hi></label>
+              <p>Le vin tente moins la jeunesse &amp; l’abat moins aisément ; un sang ardent lui donne d’autres desirs ; dans l’âge des passions toutes s’enflamment au feu d’une seule, la raison s’altere en naissant, &amp; l’homme encore indompté devient indisciplinable avant que d’avoir porté ce joug des loix…. Il se rend l’ennemi public par l’exemple &amp; l’effet de ses mœurs corrompues…. Il vaudroit mieux qu’il n’eût point existé.</p>
+              <label><hi rend="i">Page 227.</hi></label>
+              <p>Qu’est-ce au fond que ce goût si vanté ? L’art de se connoître en petites choses.</p>
+              <label><hi rend="i">Page 248.</hi></label>
+              <p>Je voudrois qu’en général, dans les bals que je propose, toute personne <pb n="62"/>mariée y fût admise au nombre des spectateurs &amp; des juges, sans qu’il fût permis à aucune de profaner la dignité conjugale en dansant elle-même : car à quelle fin honnête pourroit-elle se donner ainsi en montre au public ?</p>
+              <label><hi rend="i">Page 257.</hi></label>
+              <p>A Sparte, dans une laborieuse oisiveté, tout étoit plaisir &amp; spectacle.</p>
+              <label><hi rend="i">Page 258.</hi></label>
+              <p>Pense-t’on qu’au fond l’adroite parure de nos femmes ait moins son danger, qu’une nudité absolue, dont l’habitude tourneroit bientôt les premiers effets en indifférence &amp; peut-être en dégoût ?</p>
+              <label><pb n="64"/><hi rend="i">Pages 258 &amp; 259.</hi></label>
+              <p>Ne sçait-on pas que les statues &amp; les tableaux n’offensent les yeux, que quand un mélange de vêtemens rend les nudités obscenes ?</p>
+            </div>
+            <div type="section" xml:id="SC_21_2_2">
+              <head><pb n="23"/><hi rend="sc"><hi rend="i">Réponse.</hi></hi></head>
+              <label>I.</label>
+              <p>Les Spectacles par eux-mêmes ne sont point contraires à la Philosophie ; la seule erreur de M. d’Alembert est peut-être d’avoir proposé de les établir à Genève.</p>
+              <label>II.</label>
+              <p>Le mal par rapport à l’homme est la souffrance &amp; le dégoût, non l’amusement &amp; l’émotion dont il a essentiellement besoin.</p>
+              <label>III.</label>
+              <p>Qu’importe si les sujets sont morts ou vivans ? Ce sont les vertus qui intéressent, &amp; elles sont toujours vivantes. La Salle d’un Spectacle est le cabinet des honnêtes gens ; c’est-là qu’ils viennent penser, s’échauffer, s’exciter vers l’honnête &amp; le beau ! un Spectacle vertueux est la nourriture des ames, il en est l’exercice, non l’oisiveté.</p>
+              <label><pb n="25"/>IV.</label>
+              <p>Cette seconde condition n’est pas indifférente, c’est au contraire le principal moyen exigé, &amp; c’est l’essence d’une bonne Piece.</p>
+              <label>V.</label>
+              <p>La simple nature plaît dans Arlequin Sauvage, parce que nous ne pouvons nous détacher d’elle, &amp; que nous aimons à nous voir dans cette nudité.</p>
+              <label><pb n="27"/>VI.</label>
+              <p>Pour rendre le Spectacle utile, il n’y a donc qu’à choisir les passions vertueuses.</p>
+              <label>VII.</label>
+              <p>M. Rousseau est prié de nous faire apperce-voir le sel ou le bon sens de cette plaisanterie.</p>
+              <label><pb n="29"/>VIII.</label>
+              <p>Le grossier sans doute nous déplairoit ; partout il nous paroît un défaut ; mais la droiture &amp; la franchise, qui ne seroient pas traitées d’une façon burlesque, nous intéresseroient sans autre secours ; elles crient sans cesse au fond de notre ame.</p>
+              <label>IX.</label>
+              <p>L’opinion publique s’y soumet à la longue : Qui a poli les mœurs &amp; le langage des Athéniens, si ce n’est leur Théâtre ?</p>
+              <label>X.</label>
+              <p>Le méchant pourroit profiter de la pratique des vertus qu’on feroit aimer aux hommes ; donc il ne faut pas exciter les hommes à la vertu ? Quelle conclusion !</p>
+              <label><pb n="31"/>XI.</label>
+              <p>Les applaudissemens que les Auteurs s’efforcent de mériter, sont ordinairement ceux qui peuvent leur rapporter une réputation de bonnes mœurs &amp; de vertu, parce qu’elle est la seule qui donne de la considération.</p>
+              <p>Si la Piece nous arrache des larmes, ou de pitié pour un innocent malheureux, ou de joye pour un opprimé qui triomphe ; si elle peint dignement quelque vertu ; si elle inspire de l’horreur pour quelque vice, elle aura les applaudissemens qui lui sont dus ; les Acteurs jouiront de ceux qu’ils méritent ; le Spectateur lui-même s’applaudira d’avoir été sensible.</p>
+              <p>Ainsi je ne conçois pas comment dans ces productions d’esprit le bien est nul, &amp; que le seul mal reste. Je nie la majeure de cette hypothese scholastique.</p>
+              <label>XII.</label>
+              <p>Rendre ridicule les vices &amp; les défauts, ce qui est l’effet du Comique, c’est fortifier &amp; rendre <pb n="33"/>agréables les vices du cœur humain. Quel faux jour est ceci ! Heureusement il est aisé à appercevoir.</p>
+              <label>XIII.</label>
+              <p>Que M. Rousseau nous permette de trouver plaisant ce souverain mépris de l’Auteur de Narcisse pour l’Auteur des trois Cousines.</p>
+              <label>XIV.</label>
+              <p>Aveu de sa part qu’il existe des Pieces où l’on enseigne la vertu.</p>
+              <label>XV.</label>
+              <p>Qu’un sentiment faux est difficile à soutenir ! plus on parle &amp; plus on s’avilit. Enfin, selon M. Rousseau, c’est une corruption que d’enseigner la vertu &amp; l’innocence des inclinations, parcequ’on peut en abuser ! La passion est en <pb n="35"/>nous, ce n’est point elle que nous acquérons au Théâtre, mais précisément les circonstances qui l’embellissent, qui s’unissent à notre penchant, &amp; le <seg resp="wordpro">décident</seg> pour l’honnête.</p>
+              <label>XVI.</label>
+              <p>Mauvais bon mot d’une imagination ardente de jeune homme, que les nouveaux protecteurs de M. Rousseau approuveront sans doute !</p>
+              <label><pb n="37"/>XVII.</label>
+              <p>Même de ces considérations diverses que nous venons d’entendre, cette conclusion positive me paroît hazardée. Qu’on la mette vis-à-vis des principes que j’ai rappellés sur les conditions d’une bonne Piece.</p>
+              <label>XVIII.</label>
+              <p>Calomnie atroce, qui attaque par un écrit public tous les peuples policés ! Oser dire que les grandes villes ne sont pleines que de scélérats, c’est être soi-même <seg resp="wordpro">partisans</seg> du vice, c’est lui donner le principal attribut de la vertu : elle seule fait le lien des hommes : le crime les désunit : une société qui subsiste, présente nécessairement l’idée d’urbanité &amp; de mœurs : L’oisiveté &amp; la fainéantise se trouvent dans les forêts, le travail &amp; l’industrie dans les villes.</p>
+              <p>Le peuple François est sobre, laborieux, <pb n="39"/>spirituel, industrieux ; il a la douceur de son climat ; il n’engendre point de monstres ; il n’est point couvert de forfaits. Magistrats qui le gouvernez, punissez ses calomniateurs ; dès qu’il verra que vous l’estimez, il se respectera lui-même ; l’ambition d’être estimable germera dans son cœur ; il acquérera du nerf ; il se perfectionnera dans la vertu &amp; dans les mœurs.</p>
+              <label>XIX.</label>
+              <p>Ceci est une histoire détachée, dont on ne voit ni l’à-propos, ni le but : M. Rousseau met ces Montagnons, dont il a oublié les mœurs, la société &amp; le caractere, au-dessus de tous les peuples de la terre. Il lui falloit un peuple qu’il ne connût pas, pour pouvoir en aimer un. Il regrette aussi son pays : (quoiqu’il dise dans un <pb n="41"/>autre endroit, que la politesse &amp; l’urbanité qui commencent a y paroître dans la jeunesse, le choquent terriblement.) Qu’il se satisfasse, &amp; nous laisse dans nos Villes avec nos défauts : il doit abandonner des hommes pervertis, &amp; assez dégradés pour chercher à s’amuser, &amp; pour aimer à être ensemble.</p>
+              <label>XX.</label>
+              <p>Il lui étoit réservé de trouver mauvais l’établissement des lanternes dans Paris.</p>
+              <label>XXI.</label>
+              <p>Répétitions des mêmes injures.</p>
+              <label><pb n="43"/>XXII.</label>
+              <p>Laquelle faut-il croire ?</p>
+              <label>XXIII.</label>
+              <p>Fausse plaisanterie, puisque cela n’est nullement incompatible.</p>
+              <label>XXIV.</label>
+              <p>M. <seg resp="wordpro">Rousseau</seg> croit superflu de prouver ce qu’il avance à la multitude (c’est-à-dire, à nous autres) : mais il trouve convenable de donner plutôt des leçons sur le Tribunal des Maréchaux de France. Cette épisode de la cour d’honneur prouve combien il a de suite dans l’esprit.</p>
+              <label><pb n="45"/>XXV.</label>
+              <p>Le hasard est un être de raison, un mot vuide, inventé par l’ignorance : ce que nous nommons hasard, ce que nous croyons fortuit, est un résultat dont nous ignorons le calcul, de même que l’axiome que nous croyons le plus certain.</p>
+              <label>XXVI.</label>
+              <p>Vices de caractere, &amp; non de profession !</p>
+              <label>XXVII.</label>
+              <p>Cette distinction ne peut avoir lieu. Quel étoit le talent de la célebre Oldfield, si ce n’étoit celui de son métier ? Et si ce métier eut été réputé infame, comment auroit-on pû honorer &amp; récompenser l’art de le bien exercer ?</p>
+              <label><pb n="47"/>XXVIII.</label>
+              <p>Où est le scandale à voir des hommes &amp; des femmes ensemble ? C’est l’ordre de la nature : &amp; il me paroît plus scandaleux de voir les hommes faire le rôle des femmes. N’imitons point en cela les Grecs.</p>
+              <label>XXIX.</label>
+              <p>Un Comédien peut n’être point cela : ce n’est point son essence.</p>
+              <label>XXX.</label>
+              <p>Est-il permis de donner ces couleurs à un amusement sans conséquence, que nous nous procurons dans nos sociétés ?</p>
+              <label><pb n="49"/>XXXI.</label>
+              <p>Il se peint lui-même, s’écrieroit ici le Lecteur indigné, s’il ne craignoit de lui ressembler.</p>
+              <label>XXXII.</label>
+              <p>On ne croyoit pas que ce fussent leurs vertus caractéristiques.</p>
+              <label>XXXIII.</label>
+              <p>« Chaque homme, chaque action a son prix ; » voilà leur principe ; c’est le fondement de leur société.</p>
+              <label><pb n="51"/>XXXIV.</label>
+              <p>Preuve admirable de leur solidité, que leur passion pour les Romans !</p>
+              <label>XXXV.</label>
+              <p>Ils ne sont point sublimes.</p>
+              <label>XXXVI.</label>
+              <p>Pourquoi la honte ? Ce n’est pas un crime d’être femme, &amp; la honte ne suit que le crime.</p>
+              <label>XXXVII.</label>
+              <p>La reconnoissance ne paroît point être la vertu de M. Rousseau.</p>
+              <label><pb n="53"/>XXXVIII.</label>
+              <p>Fausse réfutation ! La pudeur ou timidité naturelle, qui naît de la délicatesse des organes, n’est point trouvée ridicule ; mais peut-être la loi qui la met en précepte, qui en donne des regles, &amp; qui honore &amp; deshonore les femmes pour le même acte.</p>
+              <label>XXXIX.</label>
+              <p>Raison originale <seg resp="wordpro">de la pudeur du sexe</seg> ! Il imagine les femmes bien mal-adroites !</p>
+              <label><pb n="55"/>XL.</label>
+              <p>Palinodie formelle de l’Auteur ! Un vrai Philosophe emploiroit-il de pareils raisonnemens ?</p>
+              <p>Un homme n’est pas un chien, un singe n’est pas un renard, qu’est-ce que cela prouve ?</p>
+              <p>Il s’agit ici, ce me semble, des passions &amp; de la façon de les satisfaire. M. Rousseau accorde aux animaux un cœur &amp; des passions comme aux hommes, voilà la ressemblance que l’on veut établir ; il oublie le démenti qu’il vient de donner.</p>
+              <p>Qui dispute que notre espece n’ait une idée de l’honnête &amp; du beau ? Mais l’honnête &amp; le beau se trouvent-ils dans une pudeur artificielle &amp; d’éducation, plutôt que dans la candeur &amp; la bonne foi ?</p>
+              <label><pb n="57"/>XLI.</label>
+              <p>Quoi, on punit d’exil &amp; de prison, les premiers d’un Etat, pour une chanson d’un jour que leur jeunesse a fait éclore, qui ne satyrise qu’en particulier ! Et on laisse vomir, imprimer, &amp; distribuer au Citoyen de Genéve, des libelles infames, contre ce qu’il y a de plus respectable dans les Nations !</p>
+              <p>Les femmes de qualité, dit-il, sont parvenues à avoir les mœurs des Vivandieres ! J’ai voyagé ou connu toute l’Europe, &amp; partout j’ai trouvé la décence de chaque pays généralement observée.</p>
+              <label>XLII.</label>
+              <p>Qui est-ce qui a donné cette tâche à M. Rousseau ?</p>
+              <label><pb n="59"/>XLIII.</label>
+              <p>Ce n’est pas précisément la quantité de monde que l’on gouverne, ni son obéissance passive qui fait la force &amp; le crédit d’un Royaume, c’est le nerf &amp; l’industrie de chaque membre ; &amp; un Royaume, pour fleurir, en exige davantage qu’un République, d’autant qu’ils sont moins excités.</p>
+              <p>Ainsi il est faux qu’il soit indifférent à un Monarque de gouverner des hommes ou des femmes.</p>
+              <label>XLIV.</label>
+              <p>Le Citoyen de Genéve est encore le premier qui ait accusé les femmes d’être froides, &amp; de ne pouvoir ni exprimer ni sentir l’amour. Eh, Héloïse ? Eh tant d’autres ? Toutes ses accusations vont à notre destruction ; mais il faut espérer qu’on en rappellera, dès qu’on sera sorti de l’étonnement que la <seg resp="wordpro">singularité</seg> &amp; la causticité de ce nouveau Diogene cause à tout le monde.</p>
+              <label><pb n="61"/>XLV.</label>
+              <p>Comment la raison étoit-elle avant que de naître ? A quel propos cette fureur assassine contre tous les jeunes gens répandus sur la terre, &amp; qui font l’espérance de chaque Pays ? Il ne restoit plus qu’eux à détruire.</p>
+              <label>XLVI.</label>
+              <p>Quelle définition du goût ! Le goût embrasse tout : c’est la justesse du tact, c’est la vérité même.</p>
+              <label>XLVII.</label>
+              <p>Voilà une autre singularité : la danse est un exercice salutaire à la santé, comme la promenade : <pb n="63"/>quoi ! exciter le mouvement, le broyement de nos liquides &amp; les ressorts de nos solides, c’est profaner la dignité conjugale ?</p>
+              <p>J’ignore cette dignité conjugale, qui m’empêche de me faire du bien en me divertissant : je ne connois de dignité naturelle que la dignité paternelle, &amp; je danse encore sans croire blesser celle-ci, tout comme ses chers Spartiates, dont il nous donne lui-même les fêtes pour modele.</p>
+              <label>XLVIII.</label>
+              <p>Laborieuse oisiveté est volé au Prince Persiflès.</p>
+              <label>XLIX.</label>
+              <p>Serions-nous moins bien organisés que les autres animaux ?</p>
+              <label><pb n="65"/>L.</label>
+              <p>On ne sçait point cela : une belle nudité absoluë fait, selon moi, plus d’effet qu’une demi-nudité.</p>
+            </div>
+          </div>
+          <div type="chapitre" xml:id="CH_21_3">
+            <head><pb n="66"/>EXTRAIT DE QUELQUES PENSÉES SAINES<lb/><hi rend="i">Qui se rencontrent dans le livre de <hi rend="sc">J.J. Rousseau</hi> contre le Théâtre, ou condamnation de son systéme par lui-même.</hi></head>
+            <p>L’effet<note resp="author" place="margin"><p>Page 21.</p></note> général du Spectacle est de renforcer le caractere national, d’augmenter les inclinations naturelles, &amp; de donner une nouvelle énergie à toutes les passions.</p>
+            <p>Le<note resp="author" place="margin"><p>Page 27.</p></note> Théâtre rend la vertu aimable…. Il opere un grand prodige de faire ce que la nature &amp; la raison font avant lui !</p>
+            <p>L’homme<note resp="author" place="margin"><p>Page 28.</p></note> est né bon, je le pense, &amp; crois l’avoir prouvé ; la source de l’intérêt qui nous attache à ce qui est honnête, &amp; nous inspire de l’aversion pour le mal, est en nous, &amp; non dans <pb n="67"/>les Pieces ; il n’y a point d’art pour faire naître cet intérêt, mais seulement pour s’en prévaloir.</p>
+            <p>L’amour du beau est un sentiment aussi naturel au cœur humain que l’amour de soi-même : il n’y naît pas d’un arrangement de Scènes, l’Auteur ne l’y porte pas, il l’y trouve ; &amp; de ce pur sentiment qu’il flatte, naissent les douces larmes qu’il fait couler.</p>
+            <p>(A<note resp="author" place="margin"><p>Page 32.</p></note> la vûë des personnes infortunées), on diroit que notre cœur se resserre de peur de s’attendrir à nos dépens.</p>
+            <p>Le<note resp="author" place="margin"><p>Page 40.</p></note> sçavoir, l’esprit, le courage, ont seuls notre admiration ; &amp; toi, douce &amp; modeste vertu, tu restes toujours sans honneurs !</p>
+            <p>Le<note resp="author" place="margin"><p>Page 42.</p></note> Fanatisme n’est pas une erreur, mais une fureur aveugle &amp; stupide que la raison ne retient jamais.</p>
+            <p>Thieste<note resp="author" place="margin"><p>Page 44.</p></note> n’est point un Héros courageux, ce n’est point un modele de vertu, on ne peut point dire non plus que ce soit un scélérat<note resp="author" place="bottom"><p>La preuve de cela, c’est qu’il intéresse.</p></note> c’est un <pb n="68"/>homme foible, &amp; pourtant intéressant par cela seul qu’il est homme &amp; malheureux.</p>
+            <p>Ne<note resp="author" place="margin"><p>Page 45.</p></note> seroit-il pas à desirer que nos sublimes Auteurs daignassent descendre un peu de leur continuelle élévation, &amp; nous attendrir quelquefois pour la simple humanité souffrante, de peur que, n’ayant de la pitié que pour des Héros malheureux, nous n’en n’ayons pour personne ?</p>
+            <p>Les Anciens parloient de l’humanité en phrases moins apprêtées ; mais ils sçavoient mieux l’exercer.</p>
+            <p><hi rend="i">Eh</hi><note resp="author" place="margin"><p>Page 46.</p></note> <hi rend="i">que de maux</hi>, s’écrioit un bon vieillard d’Athénes ! <hi rend="i">les Athéniens sçavent ce qui est honnête, mais les Lacédémoniens le pratiquent</hi>. Voilà la Philosophie moderne, &amp; les mœurs anciennes.</p>
+            <p>Les<note resp="author" place="margin"><p>Page 79.</p></note> Anciens avoient pour maxime que le pays, où les mœurs étoient les plus pures, étoit celui où l’on parloit le moins des femmes, &amp; que la femme la plus honnête étoit celle dont l’on parloit le moins.</p>
+            <p>J’observe que les Anciens tiroient volontiers <pb n="69"/>leurs titres d’honneur des droits de la nature, &amp; que nous ne tirons les nôtres que des droits du rang.</p>
+            <p>Les<note resp="author" place="margin"><p>Page 82.</p></note> vieillards dans les Tragédies sont représentés comme des tyrans, des usurpateurs : dans les Comédies, des jaloux, des usuriers, des pédans, des peres insupportables que tout le monde conspire à tromper. Voilà sous quel honorable aspect on montre la vieillesse au Théâtre ; voilà quel respect on inspire pour elle aux jeunes gens.</p>
+            <p>Qui<note resp="author" place="margin"><p>Page 83.</p></note> peut douter que l’habitude de voir toujours dans les vieillards des personnages odieux au Théâtre, n’aide à les faire rebuter dans la société, &amp; qu’en s’accoutumant à confondre ceux qu’on voit dans le monde avec les Radoteurs &amp; les Gérontes de la Comédie, on les méprise tous également ? observez à Paris dans une assemblée l’air suffisant &amp; vain, le ton ferme &amp; tranchant d’une impudente jeunesse, tandis que les anciens, craintifs &amp; modestes, ou n’osent ouvrir la bouche, ou sont à peine écoutés.</p>
+            <p><pb n="70"/>Titus<note resp="author" place="margin"><p>Page 90.</p></note> a beau rester Romain, il est seul de son parti, tous les Spectateurs ont épousé Bérénice.</p>
+            <p>Quand même on pourroit me disputer cet effet ; quand même l’on soutiendroit que l’exemple de force &amp; de vertu qu’on voit dans Titus, vainqueur de lui-même, fonde l’intérêt de la Piece, &amp; fait qu’en plaignant Bérénice, on est bien aise de la plaindre ; on ne feroit que rentrer en cela dans mes principes : parce que, comme je l’ai déja dit, les sacrifices faits au devoir &amp; à la vertu, ont toujours un charme secret, même pour les cœurs corrompus : &amp; la preuve que ce sentiment n’est point l’ouvrage de la Piece, c’est qu’ils l’ont avant qu’elle commence.</p>
+            <p>L’effet<note resp="author" place="margin"><p>Page 92.</p></note> d’une Tragédie est tout-à-fait indépendant de celui du dénouëment.</p>
+            <p>Le<note resp="author" place="margin"><p>Page 118.</p></note> seul bonheur que la plûpart des hommes connoissent, est d’être estimés heureux.</p>
+            <p>Pour<note resp="author" place="margin"><p>Page 128.</p></note> changer les actions dont l’estime publique est l’objet, il faut auparavant changer les jugemens qu’on en porte.</p>
+            <p><pb n="71"/>La<note resp="author" place="margin"><p>Page 150.</p></note> vie des femmes est un développement continuel de leurs mœurs, au lieu que celle des hommes, s’effaçant davantage dans l’uniformité des affaires, il faut attendre, pour en juger, de les voir dans les plaisirs.</p>
+            <p>On<note resp="author" place="margin"><p>Page 171.</p></note> ne voit point à Genéve ces énormes disproportions de fortune qui appauvrissent tout un pays pour enrichir quelques habitans, &amp; sément la misere autour de l’opulence.</p>
+            <p>Le<note resp="author" place="margin"><p>Page 222.</p></note> plus méchant des hommes est celui qui s’isole le plus, qui concentre le plus son cœur en lui-même ; le meilleur est celui qui partage également ses affections à tous ses semblables.</p>
+            <p>Le<note resp="author" place="margin"><p>Page 237.</p></note> vice ne s’insinue guere en choquant <seg resp="wordpro">l’honnêteté,</seg> mais en prenant son image ; &amp; les mots sales sont plus contraires à la politesse qu’aux bonnes mœurs : voilà pourquoi les expressions sont toujours plus recherchées, &amp; les oreilles plus scrupuleuses dans les pays les plus corrompus.</p>
+            <p>Il<note resp="author" place="margin"><p>Pages 241. &amp; 242.</p></note> ne suffit pas que le peuple ait du pain, &amp; vive dans sa condition. Il faut qu’il y vive <pb n="72"/>agréablement, afin qu’il en remplisse mieux les devoirs, qu’il se tourmente moins pour en sortir, &amp; que l’ordre public soit mieux établi : les bonnes mœurs tiennent plus qu’on ne pense, à ce que chacun se plaise dans son état.</p>
+            <p>Le manége &amp; l’esprit d’intrigue viennent d’inquiétude &amp; de mécontentement : tout va mal quand l’un aspire à l’emploi d’un autre. Il faut aimer son métier pour le bien faire ; l’assiette de l’État n’est bonne &amp; solide que quand tous se sentant à leur place, les forces particulieres se réünissent &amp; concourent au bien public, au lieu de s’user l’une contre l’autre ; comme elles font dans tout État mal constitué.</p>
+            <p>Cela posé, que doit-on penser de ceux qui voudroient ôter aux peuples les fêtes, les plaisirs, &amp; toute espece d’amusement, comme autant de distractions qui le détournent de son travail<note resp="author" place="bottom"><p>M. Rousseau a dit à la page 14. « Tout amusement inutile est un mal pour un être dont la vie est si courte &amp; le temps si précieux. » Il seroit à desirer pour lui qu’il se dédît pareillement de presque tout son livre.</p></note> ?</p>
+            <p>Cette maxime est barbare &amp; fausse ; tant pis <pb n="73"/>si le peuple n’a de temps que pour gagner son pain, il lui en faut encore pour le manger avec joye. Autrement il ne le gagnera pas longtemps. Ce Dieu juste &amp; bienfaisant, qui veut qu’il s’occupe, veut aussi qu’il se délasse. La nature lui impose également l’exercice &amp; le repos, le plaisir &amp; la peine ; le dégoût du travail accable plus les malheureux que le travail même.</p>
+            <p>Voulez-vous donc rendre un peuple actif &amp; laborieux ? Donnez-lui des fêtes, offrez-lui des amusemens qui lui fassent aimer son état, &amp; l’empêchent d’en envier un plus doux ; des jours ainsi perdus feront mieux valoir les autres. Présidez à ses plaisirs pour les rendre honnêtes, c’est le vrai moyen d’animer ses travaux.</p>
+            <p>Il<note resp="author" place="margin"><p>Page 256.</p></note> faut que chacun sente qu’il ne sauroit trouver ailleurs ce qu’il a laissé dans son pays ; <pb n="74"/>il faut qu’un charme invincible le rappelle au séjour qu’il n’auroit point dû quitter ; … il faut qu’au milieu de la pompe des grands Etats, &amp; de leur triste magnificence, une voix secrette leur crie incessamment au fond de l’ame : Ah ! où sont les jeux &amp; les fêtes de ma jeunesse ? Où est la concorde des citoyens ? Où est la fraternité publique ? Où est la pure joye &amp; la véritable allégresse ? Où sont la paix, la liberté, l’équité, l’innocence ? Allons chercher tout cela<note resp="author" place="bottom"><p>Pourquoi tout ceci se trouve-t’il en pure perte dans un mauvais livre ? Quel mélange d’humanité &amp; de monstruosité !</p></note>.</p>
+            <p>Je<note resp="author" place="margin"><p>Pages 260. 261. &amp; 262.</p></note> me souviens d’avoir été frappé dans mon enfance d’un spectacle assez simple, &amp; dont pourtant l’impression m’est toujours restée, malgré le temps &amp; la diversité des objets.</p>
+            <p>Le Régiment de Saint-Gervais avoit fait l’exercice, &amp; selon la coutume, on avoit soupé par compagnies : la plûpart de ceux qui les composoient <pb n="75"/>se rassemblerent après le soupé dans la Place de Saint-Gervais, &amp; se mirent à danser tous ensemble, Officiers &amp; Soldats, autour de la fontaine, sur le bassin de laquelle étoient montés les Tambours &amp; Fifres, &amp; ceux qui portoient les flambeaux.</p>
+            <p>Une danse de gens égayés par un long repas sembleroit n’offrir rien de fort intéressant à voir ; cependant l’accord de cinq ou six cens hommes en uniforme, se tenant tous par la main, &amp; formant une bande qui serpentoit en cadence &amp; sans confusion, avec mille tours &amp; retours, mille especes d’évolutions figurées, le choix des airs qui les animoient, le bruit des Tambours, l’éclat des flambeaux, un certain appareil militaire au sein du plaisir. Tout cela formoit une sensation très-vive qu’on ne pouvoit supporter de sang froid.</p>
+            <p>Il étoit tard, les femmes étoient couchées, toutes se releverent : bien-tôt les fenêtres furent pleines de spectatrices qui donnoient un nouveau zéle aux acteurs : elles ne purent tenir long-temps à leurs fenêtres, elles descendirent ; <pb n="76"/>les maîtresses venoient voir leurs maris, les servantes apportoient du vin, les enfans même éveillés par le bruit accoururent demi-vêtus entre les peres &amp; meres : la danse fut suspendue ; ce ne furent qu’embrassemens, ris, santés, caresses : il résulta de tout cela un attendrissement général que je ne sçaurois peindre, mais que dans l’allégresse universelle on éprouve assez naturellement au milieu de tout ce qui nous est cher. Mon pere, en m’embrassant, fut saisi d’un tréssaillement que je crois sentir &amp; partager encore. Jean-Jacques, me disoit-il, aime ton pays. Vois-tu ces bons Genevois, ils sont tous amis, ils sont tous freres, la joye &amp; la concorde regnent au milieu d’eux. Tu es Genevois, tu verras un jour d’autres peuples ; mais quand tu voyagerois autant que ton pere, tu ne trouveras jamais leurs pareils.</p>
+            <p>On voulut recommencer la danse, il n’y eut plus moyen : on ne savoit plus ce qu’on faisoit, toutes les têtes étoient tournées d’une ivresse plus douce que celle du vin. Après avoir resté quelque temps encore à rire &amp; à causer sur la <pb n="77"/>Place, il fallut se séparer ; chacun se retira paisiblement avec sa famille, &amp; voilà comment ces aimables &amp; prudentes femmes ramenerent leur maris, non pas en troublant leurs plaisirs, mais en allant les partager…. Non, il n’y a de pure joye que la joye publique !</p>
+            <p>Il<note resp="author" place="margin"><p>Page 263.</p></note> y avoit, dit Plutarque, chez les Lacédémoniens toujours trois danses en autant de bandes, selon la différence des âges, &amp; ces danses se faisoient au chant de chaque bande ; celle des vieillards commençoit la premiere en chantant le couplet suivant.</p>
+            <quote>
+              <lg>
+                <l>Nous avons été jadis,</l>
+                <l>Jeunes, vaillans &amp; hardis.</l>
+              </lg>
+            </quote>
+            <p>Suivoit celle des hommes, qui chantoient à leur tour, en frappant de leurs armes en cadence.</p>
+            <quote>
+              <lg>
+                <l>Nous le sommes maintenant,</l>
+                <l>A l’épreuve à tout venant.</l>
+              </lg>
+            </quote>
+            <p>Ensuite venoient les enfans, qui leur répondoient en chantant de toutes leurs forces.</p>
+            <quote>
+              <lg>
+                <l>Et nous bien-tôt le serons,</l>
+                <l>Qui tous vous surpasserons.</l>
+              </lg>
+            </quote>
+          </div>
+          <div type="chapitre" xml:id="CH_21_4">
+            <head><pb n="78"/>JUGEMENT DE <hi rend="i">M. DE VOLTAIRE</hi>, SUR LES SPECTACLES.</head>
+            <p>Saint Thomas d’Aquin, dont les mœurs valoient bien celles de Calvin &amp; du Pere Quesnel, Saint Thomas, qui n’avoit jamais vu de bonnes Comédies, qui ne connoissoit que des malheureux Histrions, devina pourtant que le Théâtre peut être utile : il eut assez de bon sens &amp; de justice pour sentir le mérite de cet art, tout informe qu’il étoit : il le permit, &amp; il l’approuva. Saint Charles Borromée examinoit lui-même les Pieces qu’on jouoit à Milan, il les munissoit de son approbation &amp; de son seing.</p>
+            <p>Qui seront après cela les <seg resp="wordpro">Visigoths</seg> qui voudront traiter d’empoisonneurs Rodrigue &amp; Chimene ? plut au Ciel que les barbares ennemis <pb n="79"/>du plus beau des arts, eussent la piété de Polieucte, la clémence d’Auguste, la vertu de Burrhus, &amp; qu’ils finissent comme le mari d’Alzire !</p>
+            <p>Je regarde la Tragédie &amp; la Comédie comme des leçons de vertu, de raison &amp; de bienséance. Corneille, ancien Romain parmi les François, a établi une école de grandeur d’ame, &amp; Moliere a fondé celle de la vie civile. Les génies François formés par eux appellent du fond de l’Europe les Étrangers qui viennent s’instruire chez nous, ce qui contribue à l’abondance de Paris : nos pauvres sont nourris du produit de ces ouvrages, qui nous soumettent jusqu’aux nations qui nous haïssent : tout bien pesé, il faut être ennemi de sa patrie pour condamner nos Spectacles.</p>
+            <p>J’ai toujours pensé que la Tragédie ne doit pas être un simple spectacle, qui touche le cœur sans le corriger : qu’importe au genre humain les passions &amp; les malheurs d’un Héros de l’Antiquité, s’ils ne servent pas à nous instruire.</p>
+            <p>La véritable Tragédie est l’école de la vertu ; <pb n="80"/>&amp; la seule différence qui soit entre les Théâtres épurés &amp; les livres de morale, c’est que l’instruction se trouve dans la Tragédie toute en action, c’est qu’elle y est intéressante, &amp; qu’elle se montre relevée des charmes d’un art qui ne fut inventé autrefois que pour instruire la Terre &amp; pour bénir le Ciel, &amp; qui par cette raison fut appellé le langage des Dieux.</p>
+            <p>Rien ne rend les hommes plus sociables, n’adoucit plus les mœurs, ne perfectionne plus leur raison, que de les rassembler pour leur faire goûter ensemble les plaisirs purs de l’esprit.</p>
+            <p>Les mêmes esprits qui bouleverseroient un Etat pour établir une opinion souvent absurde, anathématisent les plaisirs innocens, nécessaires à une grande ville, &amp; des Arts qui contribuent à la splendeur d’une nation : l’abolition des Spectacles seroit une idée plus digne du siécle d’Attila, que du siécle de Louis XIV.</p>
+            <p>C’est une des contradictions de nos mœurs, que d’un côté on ait laissé un reste d’infamie attaché aux Spectacles publics, &amp; que de l’autre on ait regardé les représentations comme l’exercice <pb n="81"/>le plus noble &amp; le plus digne des personnes Royales.</p>
+            <p>Si on trouvoit dans l’Antiquité un Poëme comme Armide ou comme Atys, avec idolâtrie il seroit reçu ; mais Quinault étoit moderne.</p>
+            <label><hi rend="i">Sentiment de Michel Montaigne, Ch. V. de la société.</hi></label>
+            <p>Il n’est point de si doux apprêt, ni de sauce si appétissante que celle qui se tire de la société.</p>
+            <p>Qui a ses mœurs establies en reglement au-dessus de son siecle : ou qu’il torde &amp; émousse ses régles : ou, ce que je lui conseille plustost, qu’il se retire à quartier, &amp; ne se mesle point de nous. Qu’y gagnera-t-il ? On peut regretter les meilleurs temps : mais non pas fuïr aux présens….</p>
+            <p>Pourquoi sans nous esmouvoir, rencontrons-nous quelqu’un qui ayt le corps tortu &amp; mal basti, &amp; ne pouvons souffrir le rencontre d’un esprit mal rangé, sans nous mettre en cholere ? Cette vicieuse aspreté tient plus au juge qu’à la faute….</p>
+            <p>La moyenne région loge les tempestes : les deux extrêmes des hommes philosophes, &amp; des hommes ruraux, concourent en tranquillité &amp; en bonheur.</p>
+          </div>
+          <div type="chapitre" xml:id="CH_21_5">
+            <head><pb n="82"/>FRAGMENT D’UNE LETTRE <hi rend="i">A M<hi rend="sup">E</hi>. DE</hi> ****. SUR LES SPECTACLES.</head>
+            <p>Vous me demandez, Madame, quelles conditions il faudroit pour qu’une Tragédie fût parfaite ? Je n’en connois qu’une seule. Il faudroit qu’elle nous rendît meilleurs.</p>
+            <p>Exigeons cet effet, &amp; laissons la liberté des moyens.</p>
+            <p>Pour parvenir à un succès si desirable, je crois qu’il seroit nécessaire d’avoir un génie neuf, élevé, nerveux, qui, ne reconnoissant de regles que son sentiment, ne bâtisse point sur le dessein d’autrui : un tel homme seroit notre Démosthenes ; mais la servitude &amp; le dégoût ne le formeront jamais, &amp; je ne cesse pas d’être <pb n="83"/>étonné que nous ayons encore de si bons Auteurs.</p>
+            <p>Une de nos especes d’Authomates, sans aucun fonds propre, Dogmatistes, Formalistes, Compilateurs &amp; Dissertateurs, qu’on nomme Sçavans, se sont arrogés le droit de donner des préceptes sur un Art qui n’a de loi que la nature : ils ont jetté les Auteurs dans un labyrinthe de regles embarrassantes &amp; ridicules : ils leur ont mis des entraves jusqu’à la façon de rendre leurs idées ; continuellement resserrés &amp; contraints dans la froide &amp; pénible méthode, le but leur échappe : cette méthode, si étrangere aux passions, produit quantité de petites beautés de détail, mais qui ne sortant pas essentiellement du sujet, forment un ensemble de pieces de rapport, sans force, &amp; incapable de causer de grandes émotions.</p>
+            <p>Après avoir fini l’ouvrage, il faut l’aller présenter à l’assemblée des Acteurs, avoir le talent de leur plaire, se soumettre à tous leur caprices, refondre les rôles principaux à leurs volontés, chacun exigeant le sien suivant son <pb n="84"/>talent, n’importe le caractere total de la Piéce.</p>
+            <p>Ce n’est pas tout : loin d’encourager la timidité d’un jeune Auteur, qui se distingue, par des honneurs publics, par une pension de l’Etat, on l’abandonne à une troupe de Harpies qui habite le Spectacle ; &amp; lorsqu’il ne se trouve pas assez riche pour leur donner de la pâture, &amp; les rassasier à une bonne table, ces animaux destructeurs déchirent son Ouvrage, &amp; attaquent sa personne ; le Public s’en divertit, &amp; l’Auteur sensé se retire.</p>
+            <p>C’est ainsi que, sans y faire attention, nous nous privons de bien des génies lumineux, capables, peut-être, de nous faire sortir de la médiocrité &amp; de la frivolité dans lesquelles nous languissons.</p>
+            <p>Le goût seul devroit être le conseiller des talents ; il seroit à souhaiter qu’il fût toujours le pere de la critique, &amp; que le fiel &amp; la noirceur n’en composassent pas autant de satyres empoisonnées. Un Auteur judicieux s’habitueroit alors à y faire attention ; il la regarderoit comme son amie, &amp; se perfectionneroit volontiers avec elle.</p>
+            <p><pb n="85"/>Mais toutes ces sortes de libelles, où la haine &amp; le mensonge prennent impudemment le langage de la vérité, dégoûtent les plus beaux génies, étouffent les talents, &amp; détruisent l’émulation.</p>
+            <p>Anéantir le mérite, n’est pas le métier d’un honnête homme. Je n’ai jamais blâmé qu’avec peine ; rempli de plaisirs, j’approuve avec avidité, &amp; la louange ne me paroît voluptueuse que quand je trouve à la donner.</p>
+            <p>Mais, Madame, vous desirez des détails, je vais hazarder quelques idées sur un sujet que je ne regarde point comme indifférent.</p>
+            <p>Je crois que le but digne de la Tragédie, est d’élever notre ame par des vertus mâles, de la rendre amoureuse du beau, de lui donner de l’émulation par des exemples d’un aimable héroïsme, &amp; de la tirer enfin d’un certain engourdissement qui n’est à présent que trop général ; je voudrois qu’une Piéce de Théâtre engageât par amour-propre chaque Auditeur à être aussi honnête homme que Scipion, à être aussi constant qu’Annibal.</p>
+            <p><pb n="86"/>L’amour peut faire le sujet principal d’une Tragédie, ainsi que les autres passions dominantes de l’homme, naturelles ou acquises.</p>
+            <p>Un amour vertueux peut même quelquefois se mêler avec d’autres passions par elles-mêmes peu saillantes ; il en adoucit les caracteres, il anime l’action, &amp; pour tout dire en un mot, il attendrit le Spectateur. L’esprit saisit bien une pensée, il s’en amuse, mais le profit en appartient au cœur, &amp; la principale affaire est de le mettre de la partie. L’amour est pour lui un sentiment tellement attrayant, qu’on peut l’amener aux vertus les plus difficiles, en se servant habilement de cette passion. Elle est la simpathie des hommes, &amp; un Héros amoureux est sûr de trouver dans chacun de nous un partisan. Nous nous en approchons avec plaisir, toutes ses actions nous intéressent, elles deviennent en quelque façon personnelles ; il aime comme nous, nous voulons agir comme lui ; la réflexion n’y a point de part. C’est une impression subite &amp; naturelle qui nous entraîne délicieusement.</p>
+            <p><pb n="87"/>C’est pourquoi je ne puis supporter qu’on nous accoutume à regarder l’amour comme contraire à l’honneur, l’excuse du crime, &amp; la source des plus noirs excès.</p>
+            <p>Quel avantage un Auteur peut-il espérer d’un portrait si odieux ? Le sentiment qu’il nous dépeint ainsi, nous est aussi propre que notre existence, &amp; ne nous étant pas possible de le haïr, n’est-il pas à craindre que nous ne nous accoutumions enfin aux vices sous lesquels on s’efforce de nous le montrer ?</p>
+            <p>Pourquoi ne nous point faire connoître l’amour sous une forme estimable ? Il n’a point d’autre pouvoir que de donner de l’effervescence à nos penchans naturels. Il est bon, magnanime, capable des plus grandes choses dans une belle ame ; il n’est dangereux que dans un cœur criminel. Il a causé de grands malheurs, il est vrai, mais n’a-t’il pas aussi formé de grands hommes ?</p>
+            <p>Pourquoi vouloir nous donner pour modeles les scélerats de l’Antiquité ? Venons-nous continuellement infecter la Scene d’un Radamiste, <pb n="88"/>d’un Cinna<note resp="author" place="bottom"><p>Auguste veut se démettre de l’Empire ; Cinna l’en détourne ; il lui persuade de rester sur le trône, pour avoir le prétexte d’assassiner son bienfaiteur &amp; son ami, &amp; parvenir par l’atrocité de ce crime à plaire à sa Maîtresse.</p>
+              <p>Ce caractere monstrueux est en <seg resp="wordpro">pure</seg> perte pour celui d’Auguste : en lui pardonnant, il reste toujours Tyran ; c’est la crainte &amp; la politique seules qui lui arrachent ce pardon, &amp; non pas la clémence.</p></note>, d’un Oreste, ou d’une Médée ? Quel talent malheureux que celui de nous faire prendre intérêt aux crimes les plus atroces, &amp; de nous faire courir à des monstres qui effrayent la nature !</p>
+            <p>Un Auteur ne se rendroit-il pas plus estimable, s’il nous faisoit aimer la vertu par la vertu même ? Que de faits n’a-t’on pas à nous donner pour exciter en nous une noble émulation !</p>
+            <p>Il me semble qu’il seroit aussi naturel &amp; plus touchant encore, que l’amour rappellât un criminel à la vertu, que d’entraîner dans le crime <pb n="89"/>un cœur plein de candeur &amp; d’innocence.</p>
+            <p>Un amour qui avilit le Héros, ne me paroît pas devoir faire le sujet d’une bonne Tragédie.</p>
+            <p>Vous voulez aussi, Madame, sçavoir ce que je pense des dernieres Tragédies de M. de Voltaire : je vous obéirai, dans l’espérance que vous engagerez votre amie à lui communiquer ce que je vais vous en dire ; présenté par les mains de la persuasion, il sera peut-être tenté d’y faire quelqu’attention.</p>
+            <p>Le sublime semble être sa nature ; la perfection de ses ouvrages dépend de lui ; la solitude, le travail exact, réfléchi, long &amp; pénible, la combinaison qui arrange toutes les parties au profit de son objet, sont des secondes qualités qui sont toujours à la volonté du grand génie.</p>
+            <p>Je ne dissimulerai point ici l’effet que m’a causé Zaïre ; elle m’a souvent touché jusqu’à me faire répandre des larmes. Cependant je ne puis la regarder que comme une Poësie Pastorale, que comme un Poëme vraiment digne de notre Opéra, où l’on n’observe d’autres loix que celle <pb n="90"/>d’amolir notre cœur : mais je la trouve absolument déplacée au Théâtre de la Comédie, qui doit être considéré comme l’Académie de nos mœurs.</p>
+            <p>En sortant d’avec Zaïre, lorsque l’on s’examine sur l’impression qu’elle nous a faite, on ne se trouve que de la tendresse, on est amant jusqu’à la fureur ! Qualité héroïque, il est vrai, pour des Bergers, mais non pour des hommes qui doivent un jour défendre la patrie, ou gouverner l’Etat, &amp; qui tous viennent déterminer leurs penchans dans les préceptes de la Comédie.</p>
+            <p>Son Brutus est une Piéce qui marquera à jamais le génie admirable de l’Auteur.</p>
+            <p>Il auroit été à desirer qu’au milieu de tant de beautés qui composent cet Ouvrage, M. de Voltaire se fût permis de remplir son objet ; c’étoit la catastrophe de l’orgueil &amp; de l’ambition ; tout annonçoit un exemple terrible des précipices dans lesquels ces cruelles passions entraînent un grand homme. Les Spectateurs en étoient déja émus : quelle surprise pour eux ? Tout-à-coup l’objet change, ce n’est plus une <pb n="91"/>conjuration, c’est une intrigue amoureuse ; sans à propos, sans vraisemblance, on met gratuitement sur le compte de l’amour les crimes de l’ambition ; &amp; M. de Voltaire se résout à s’écarter d’une histoire connue en faveur d’une épisode qui détruit le fonds de son sujet.</p>
+            <p>Avoir en même-temps rendu Titus forcené d’amour &amp; d’ambition, c’est nous avoir présenté un être impossible, que nous ne pouvons pas suivre. On a beau vouloir nous y intéresser, on ne réussit point. L’unité d’intérêt (ou de mouvement), est rompue : elle est plus nécessaire encore que l’unité de temps &amp; de lieu : Titus ne doit pas être amant<note resp="author" place="bottom"><p>Qu’on ne dise point que l’amour est une loi du Théâtre François. Le second Brutus, dans la Mort de César, &amp; plusieurs autres Héroi ne sont point amoureux.</p></note>. L’amour paroît révoltant dès qu’il est déplacé.</p>
+            <p>Nous avons de bien justes reproches à faire à M. Scudery, à sa sœur, &amp; à M. de la Calprenéde. <pb n="92"/>Ce sont eux qui, les premiers, ont établi l’amour le principe de toutes les actions des hommes, &amp; de généreux François que nous étions, nous ont rendus de véritables Sibarites.</p>
+            <p>Ils ont tout perverti ! Cirus n’a traversé l’Asie, la Médie, l’Hircanie, la Perse ; il n’a conquis tant de Provinces, n’a fondé un si puissant Empire, que pour délivrer Mandâne, sa Maîtresse, qui avoit été enlevée huit fois.</p>
+            <p>Ainsi de tous les autres grands hommes de l’Antiquité : ce ne sont plus que d’agréables Débauchés qui courent après des Avanturieres.</p>
+            <p>En nous pénétrant de leurs Romans enchanteurs, nous avons cru nous polir ; nous nous sommes affoiblis, nous nous sommes avilis !</p>
+            <p>Il n’y a peut-être aujourd’hui que M. de Voltaire qui puisse, par la force de ses Tableaux, s’opposer avec succès au goût efféminé de ce siecle.</p>
+            <p>Qu’il soit le censeur de notre molesse, &amp; qu’il n’en devienne jamais le complice.</p>
+          </div>
+        </div>
+      </body>
+    </text>
+  </TEI>
