@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="huerne_epitre_1761" xml:lang="fr">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Epitre sur les spectacles</title>
+          <author>Huerne de La Mothe, Charles</author>
+        </titleStmt>
+        <editionStmt>
+          <edition>OBVIL</edition>
+          <respStmt>
+            <name>François Lecercle</name>
+            <resp>Responsable d’édition</resp>
+          </respStmt>
+          <respStmt>
+            <name>Clotilde Thouret</name>
+            <resp>Responsable d’édition</resp>
+          </respStmt>
+        </editionStmt>
+        <publicationStmt>
+          <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+          <date when="2016"/>
+          <availability status="restricted">
+            <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+              <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+              <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+              <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+              <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+              <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+            </licence>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl>
+            <title>Epitre sur les spectacles</title>
+            <author>Huerne de La Mothe, Charles</author>
+            <biblScope>p. 3-14</biblScope>
+            <date>1761</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+        <creation>
+          <date when="1761"/>
+        </creation>
+        <langUsage>
+          <language ident="fr"/>
+        </langUsage>
+      </profileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="texte" xml:id="HDT_17">
+          <head>Epitre sur les spectacles</head>
+          <label><pb n="3"/>EPITRE SUR LES SPECTACLES DE PARIS.</label>
+          <quote>
+            <lg>
+              <l><hi rend="sc">Délicieux</hi> séjour, Olympe des Mortels,</l>
+              <l>Ou l’Amour a son Temple, &amp; Vénus ses Autels,</l>
+              <l>Paris, je vous revois ; déja mon œil découvre</l>
+              <l>La Forêt de Cythère &amp; perce jusqu’au Louvre :</l>
+              <l>Tout fixe mes regards ; d’un côté j’apperçois</l>
+              <l>La Retraite de Mars &amp; le Tombeau des Rois.</l>
+              <l>C’est dans ce monument que les Dieux de la Terre</l>
+              <l>Viennent en pâlissant déposer leur tonnerre ;</l>
+              <l>Fastueux Mausolée où le superbe orgueil,</l>
+              <l>Du plus sain des Bourbons a creusé le cercueil :</l>
+              <l>Plus loin de ces vallons pour arroser la Plaine,</l>
+              <l>Je vois en serpentant disparaître la Seine ;</l>
+              <l>Mais quels nouveaux objets s’offrent de toutes parts ?</l>
+              <l>Qui fait ainsi courir Paris aux Boulevarts ?</l>
+              <l>De femmes &amp; d’enfans quelle affreuse cohue</l>
+              <l>Je vois en se heurtant déboucher de la rue !</l>
+              <l>Grands Dieux ! Que d’embarras ! Que de Cabriolets !</l>
+              <l><pb n="4"/>Que d’Abbés ; de Coureurs ; de Robins ; de Valets !</l>
+              <l>Etourdi par les cris, le bruit &amp; les injures,</l>
+              <l>Je traverse au milieu de six rangs de voitures,</l>
+              <l>Pour demander quel est ce Spectacle nouveau :</l>
+              <l>J’entends crier : <hi rend="i">Entrez, c’est ici Ramponeau,</hi></l>
+              <l><hi rend="i">Monseigneur ; Ramponeau :</hi> voyons : <hi rend="i">entrez, mon Prince ;</hi></l>
+              <l>Me dit le harangueur : arrivant de Province</l>
+              <l>Je crus tout bonnement que quelque rareté,</l>
+              <l>Excitant du Public la curiosité,</l>
+              <l>Attiroit ce concours de filles désœuvrées,</l>
+              <l>De Ducs, de Freluquets &amp; de Femmes titrées ;</l>
+              <l>Là : près d’une Intendante assise en rang d’oignons</l>
+              <l>Figuroit sur un banc la Marmotte <hi rend="i">Fanchon ;</hi></l>
+              <l>La Fille d’Opéra coudoyait la Duchesse,</l>
+              <l>Et <hi rend="i">Damis</hi> séparait sa femme &amp; sa maîtresse :</l>
+              <l>Mais on léve la toille, &amp; <hi rend="i">Ramponeau</hi> paraît.</l>
+              <l>Un Manant ridicule est le plaisant objet</l>
+              <l>Qui rassemble Paris : honteux je me retire,</l>
+              <l>Et laisse mes Badeaux qui se pâmaient de rire.</l>
+              <l> Du plus beau lieu du monde, aimables Citoyens,</l>
+              <l>Vous verra-t on toujours occupés de <hi rend="i">Pantins ;</hi></l>
+              <l>Déserter les <hi rend="i">Français</hi><note resp="author" place="bottom"><p>La Comédie Françoise.</p></note> pour courir les Parades ?</l>
+              <l>Quel plaisir trouvez-vous à ces turlupinades,</l>
+              <l>A ces fades discours, à ces sales propos,</l>
+              <l>Que débite un <hi rend="i">Pasquin</hi> monté sur deux traiteaux ?</l>
+              <l>De <hi rend="i">Vadé</hi> voulez vous enrichissant la plume,</l>
+              <l><pb n="5"/>Des proverbes de Halle augmenter le volume ?</l>
+              <l>Que <hi rend="i">Lise</hi> chaque soir, au sortir de son lit,</l>
+              <l>Vienne sur les Remparts en cornette de nuit,</l>
+              <l>A l’abri de deux stors dérobant sa figure,</l>
+              <l>Promener tristement son antique voiture ?</l>
+              <l><hi rend="i">Lise</hi> a raison ; son tein soutient mal le grand jour :</l>
+              <l>Mais <seg resp="wordpro">B?? M?? mais d’Egmons</seg> dont l’amour</l>
+              <l>Arrondit l’embonpoint, &amp; calqua la figure,</l>
+              <l>Sur le moule piquant des Grâces d’Epicure ;</l>
+              <l>Sont faites pour orner ce superbe jardin,</l>
+              <l>Qu’au siécle des Beaux-Arts un compas à la main,</l>
+              <l><hi rend="i">Le Nature</hi> dessina pour décorer le Louvre.</l>
+              <l>Telle dans ces jardins d’où l’œil au loin découvre,</l>
+              <l>On voit dans le Printemps la Vénus de nos jours,</l>
+              <l>Sous un berceau de myrthe assembler les Amours,</l>
+              <l>Pour surprendre Zéphire au lever de l’aurore,</l>
+              <l>Sur le sein d’une fleur, qu’il vient de faire éclore ;</l>
+              <l>Les Grâces &amp; les Ris accompagnent ses pas ;</l>
+              <l>La fraîcheur du matin ajoute à ses appas ;</l>
+              <l>Le Nature sourit en la voyant si belle,</l>
+              <l>Et Zéphire la prend pour une fleur nouvelle ;</l>
+              <l>Mais où court mon esprit ? de ces Remparts poudreux</l>
+              <l>Me voici transporté dans le Palais des Dieux ;</l>
+              <l>De peur de m’égarer, regagnons notre Sphère ;</l>
+              <l>D’<hi rend="i">Icare</hi> redoutons le projet téméraire.</l>
+              <l>Quiconque de trop près approche du Soleil,</l>
+              <l>Sans pouvoir l’éviter, doit craindre un sort pareil.</l>
+              <l><pb n="6"/> Dans un char élégant mollement étendue ,</l>
+              <l>Quelle Divinité se présente à ma vue !</l>
+              <l>Un vernis répandu sur des <seg resp="wordpro">panneaux</seg> dorés,</l>
+              <l>D’un crystal transparent, avec art séparés,</l>
+              <l>Défend de vingt Magots la grotesque figure ;</l>
+              <l>Deux rapides coursiers enlévent la voiture,</l>
+              <l>Et la Déesse approche : ô temps ! ô siécle ! ô mœurs !</l>
+              <l>Quoi ! tu parais encore après tant de noirceurs ?</l>
+              <l>Quand Paris qui te hait, sans rappeller tes crimes,</l>
+              <l>En nommant tes amans peut compter tes victimes ?</l>
+              <l>Oses-tu te montrer, méprisable <seg resp="wordpro">Astrandi</seg></l>
+              <l>Bâtarde d’un hautbois, épouse d’un bandi,</l>
+              <l>D’un imbécile amant, trop insolente idole,</l>
+              <l><seg resp="wordpro">D’Egmons</seg> te doit la mort, Licidas la <seg resp="wordpro">Verole</seg></l>
+              <l><seg resp="wordpro">Fuir</seg> son déshonneur, l’Univers du mépris :</l>
+              <l>Mais quelle autre Beauté ? quelle est cette Laïs ?</l>
+              <l>A sa main jadis rude, aujourd’hui satinée,</l>
+              <l>Pour de bonnes raisons si souvent savonnée :</l>
+              <l>A son air, à son geste, à ce regard mutin,</l>
+              <l>A ce joli souris, à cet air libertin,</l>
+              <l>Sous un nom emprunté je reconnais <hi rend="i">Victoire</hi>,</l>
+              <l>Eléve d’un Couvent d’une illustre mémoire,</l>
+              <l>Des bras de la <hi rend="i">Paris</hi> un Abbé l’enleva ;</l>
+              <l>Au faîte des grandeurs un Comte l’éleva ;</l>
+              <l><hi rend="i">De Varenne</hi> parée en pompeux équipage,</l>
+              <l>Du luxe de nos jours fut la brillante image :</l>
+              <l>De même que l’insecte une fois papillon,</l>
+              <l>Ne jouit qu’un instant de sa belle saison,</l>
+              <l><pb n="7"/>En un jour élevée, en un moment déchue,</l>
+              <l>On la verra bientôt barboter dans la rue.</l>
+              <l> Mais l’heure approche où sur un Théâtre bouffon,<note resp="author" place="bottom"><p>La Comédie Italienne.</p></note></l>
+              <l>Confident d’un héros &amp; vainqueur d’un griffon,</l>
+              <l>Au mépris de Cothurne Arlequin doit paraître ;</l>
+              <l>C’est là qu’on voit <hi rend="i">Favart</hi>, maîtresse de son maître,</l>
+              <l>Pour s’en faire épouser contredire un vieillard ;</l>
+              <l>Où déguisant sa voix sous l’habit savoyard,</l>
+              <l>Tête-à-tête au Caffé le soir à la sourdine,</l>
+              <l>Vis-à-vis son mari surprendre <hi rend="i">Coraline</hi>.</l>
+              <l>On y voit <hi rend="i">Catinon</hi> par l’attrait des plaisirs,</l>
+              <l>D’un trop volage époux réveiller les desirs,</l>
+              <l>Pour regagner son cœur, n’employant que ses charmes,</l>
+              <l>A <hi rend="i">Saint Far</hi> enchanté faire rendre les armes.</l>
+              <l>Aimable <hi rend="i">Catinon</hi>, dont l’art si séduisant</l>
+              <l>De plaire &amp; de charmer est le moindre talent,</l>
+              <l>Du Public connaisseur tu ravis le suffrage,</l>
+              <l>Moi je prétends te rendre un plus sensible hommage,</l>
+              <l>Il est digne de toi, puisqu’il t’est présenté ;</l>
+              <l>Ton cœur en est l’objet, le mien me l’a dicté.</l>
+              <l>Quoi ! déjà tout finit, &amp; la vive <hi rend="i">Camille</hi></l>
+              <l>Pour le séjour des Dieux abandonnant la Ville,</l>
+              <l>Des trois Graces suivie, &amp; son fils dans les bras,</l>
+              <l>Va priver les Mortels de ses riants appas :</l>
+              <l>Vénus toutefois prête à quitter sa toilette,</l>
+              <l>Adressa ce discours à plus d’une Coquette.</l>
+              <l><pb n="8"/><hi rend="i">Il n’est qu’un seul moyen de parer la Beauté,</hi></l>
+              <l><hi rend="i">C’est l’Amour : ce miroir sans cesse consulté,</hi></l>
+              <l><hi rend="i">Ne vous y trompez pas, apprend mal l’art de plaire,</hi></l>
+              <l><hi rend="i">Le cœur conseille mieux dans l’amoureux mystère ;</hi></l>
+              <l><hi rend="i">Belles qui m’écoutez, quand vous sçaurez aimer,</hi></l>
+              <l><hi rend="i">Mon fils vous montrera comme ou peut enflammer.</hi></l>
+              <l> Le soir chez mes amis devenu Parasite,</l>
+              <l>J’entendrais <hi rend="i">Darnoncourt</hi> pénitent Sybarite,</l>
+              <l>Regrettant les erreurs de sa belle saison,</l>
+              <l>Peindre l’art de jouir en prêchant la Raison ;</l>
+              <l>Et nouveau Sectateur des Loix de la Nature,</l>
+              <l>Prétendre en fait d’amour, quoiqu’en dise <hi rend="i">Epicure</hi> ;</l>
+              <l>Que l’instant qu’on oppose aux plus pressans desirs,</l>
+              <l>Mûrit la jouissance, &amp; triple les plaisirs.</l>
+              <l>J’irai sortant de table applaudir au Théâtre,</l>
+              <l>A ces jeux défendus que <hi rend="i">Grandmont</hi> idolâtre,</l>
+              <l>Juger à son début l’Ouvrage d’un Auteur</l>
+              <l>Qui souvent attend tout du talent de l’Acteur.</l>
+              <l>J’y verrais <hi rend="i">Dumesnil</hi>, ou plutôt Melpomène,</l>
+              <l>Attirant tout Paris sur la tragique Scène,</l>
+              <l>D’une Amante offensée imitant les fureurs,</l>
+              <l>De sa haine étonner, ou remplir tous les cœurs ;</l>
+              <l>Quelquefois immolant d’innocentes victimes,</l>
+              <l>De Médée à nos yeux retracer tous les crimes.</l>
+              <l>Souvent aux pieds d’un Monstre altéré de son sang,</l>
+              <l>D’Egyste reconnu caresser le Tyran.</l>
+              <l>Je revertais <hi rend="i">Clairon</hi> maîtresse de la Scène</l>
+              <l>En longs habits de deuil sous les traits de Chimène</l>
+              <l><pb n="9"/>Contre un cher ennemi, tendre objet de ses pleurs,</l>
+              <l>Craindre de décider par ses vives douleurs</l>
+              <l>La Justice d’un Roi qui l’aime, &amp; qui balance,</l>
+              <l>Ou <hi rend="i">Camile</hi> en fureur respirant la vengeance,</l>
+              <l>Contre les jours d’un frere en ses criminels vœux</l>
+              <l>Soulever la Nature, &amp; l’Enfer, &amp; les Cieux ;</l>
+              <l>D’un laurier tout sanglant lui reprocher la gloire,</l>
+              <l>Et le forcer enfin à souiller sa victoire.</l>
+              <l> Successeur de <hi rend="i">Dufresne ;</hi> héritier séduisant</l>
+              <l>De son rare talent ; toi qui représentant</l>
+              <l>Les vertus des héros, leurs crimes, leur foiblesse,</l>
+              <l>Au jeu le plus brillant joins l’âme &amp; la noblesse,</l>
+              <l><hi rend="i">Le Kain</hi>, que tu me plais, quand maître de mes sens</l>
+              <l>Tu me fais éprouver tout ce que tu ressens !</l>
+              <l>Soit que fils vertueux d’une coupable mere,</l>
+              <l>Servant d’un Dieu vengeur l’implacable colere,</l>
+              <l>Tu sortes tout sanglant du tombeau de Ninus ;</l>
+              <l>Soit que fils criminel du stoïque Brutus,</l>
+              <l>Tu pleures dans les bras d’un Romain trop sévere :</l>
+              <l>Mais quand voyant briller entre les mains d’un pere,</l>
+              <l>Sur le sein d’Hypermnestre un poignard suspendu,</l>
+              <l>Tu peins le désespoir d’un amant éperdu,</l>
+              <l>Tous les cœurs partageant ta douleur &amp; ta rage,</l>
+              <l>Volent pour désarmer le tyran qui t’outrage.</l>
+              <l> Mais tout change ; &amp; je vois trompant leurs surveillans,</l>
+              <l>A l’aide d’un Valet, intriguer deux amans ;</l>
+              <l>Sous le masque des Ris, la fine <hi rend="i">Dangeville</hi>,</l>
+              <l><pb n="10"/>Jouer d’après nature, &amp; la Cour &amp; la Ville ;</l>
+              <l>Tantôt d’un jeune objet servant la passion,</l>
+              <l>Ecarter un témoin qui n’est point de saison ;</l>
+              <l>L’instant d’après, Coquette ou Bourgeoise à la mode,</l>
+              <l>D’un mari tout uni faire un époux commode ;</l>
+              <l>Ou lorgnant un Galant, retirée à l’écart,</l>
+              <l>Pour lui rendre un poulet, minauder avec art ;</l>
+              <l>Soubrette inimitable, adroite, gaie, unie,</l>
+              <l>Pour la peindre en trois mots, rivale de Thalie,</l>
+              <l>Cette immortelle Actrice est seule sans défauts ;</l>
+              <l><hi rend="i">Dumesnil</hi> a ses jours, &amp; <hi rend="i">Grandval</hi> des égaux ;</l>
+              <l>Là, j’apperçois <hi rend="i">Gaussin</hi>, cette charmante Actrice</l>
+              <l>Déguisée en Agnès, d’un air simple &amp; novice,</l>
+              <l>Exprimer ses desirs par sa tendre langueur,</l>
+              <l>Et peindre dans ses yeux les miracles du cœur ;</l>
+              <l>Retrouver dans l’Oracle une mine enfantine,</l>
+              <l>Ou du Comte d’Orban triompher dans Nanine.</l>
+              <l> <hi rend="i">Préville</hi>, Acteur charmant, admirable Crispin</l>
+              <l>Que tu me divertis ! quand d’un Abbé Poupin,</l>
+              <l>Empruntant l’air, le ton, le geste &amp; la figure,</l>
+              <l>Tu viens en manteau court prendre place au Mercure.</l>
+              <l> Et toi, qui dans ton jeu, des plus vives couleurs,</l>
+              <l>Nuance, en t’amusant, le tableau de nos mœurs.</l>
+              <l>Que tu peins bien un Fat ! puisque tel que tu joue,</l>
+              <l>Lui-même en s’admirant t’applaudit &amp; te loue.</l>
+              <l>Quelquefois Misantrope, ou Raisonneur facheux ;</l>
+              <l>Aujourd’hui Philosophe, &amp; demain Glorieux ;</l>
+              <l>Mais surtout affectant une froideur extrême,</l>
+              <l><pb n="11"/>Quand surpris par l’Amour, &amp; guidé par lui-même,</l>
+              <l>Tu fais avec tant d’art, triompher <hi rend="i">Marivaux.</hi></l>
+              <l><hi rend="i">Grandval,</hi> je me dédis ; tu n’as point de rivaux.</l>
+              <l> Le lendemain, je vole à ce Palais Magique,<note resp="author" place="bottom"><p>L’Opéra.</p></note></l>
+              <l>Qu’anime encor <hi rend="i">Lulli</hi> de sa tendre Musique,</l>
+              <l>Un sceptre de crystal en ses débiles mains,</l>
+              <l>L’Amour dans ces beaux lieux gouverne les humains ;</l>
+              <l>Respirant sous ces loix, on y voit cent Prêtresses</l>
+              <l>Annoncer ces faveurs, &amp; vanter leurs faiblesses.</l>
+              <l>Là, <hi rend="i">le Miere</hi> en chantant montre l’art de charmer.</l>
+              <l><hi rend="i">Larrivé</hi> dans ses sons apprend celui d’aimer :</l>
+              <l>Que vois-je ? La <hi rend="i">Lany</hi> de son exacte danse</l>
+              <l>Par ses pas mesurés annonce la cadence :</l>
+              <l>Que d’aisance ! que d’art ! que d’accord ! d’union !</l>
+              <l>Quelle légéreté ! quelle précision !</l>
+              <l>Oui, dans ces temps féconds que tout Paris nous vante,</l>
+              <l><hi rend="i">Camargo</hi> fut moins vive, &amp; <hi rend="i">Salé</hi> moins brillante ;</l>
+              <l>Ne penses pas, <hi rend="i">Lany</hi>, que dans les plus beaux jours,</l>
+              <l>Ton air trop sérieux éloigne les amours ;</l>
+              <l>Vénus ne voulant point rester seule à Cythère,</l>
+              <l>En te cédant les sœurs, s’est réservé le frère ;</l>
+              <l>Je connais la coquette ; elle aura craint tes jeux ;</l>
+              <l>Mais, crois moi, cet enfant le plus malin des Dieux,</l>
+              <l>Avec certain fripon, qu’on nomme le mystère,</l>
+              <l>Pour t’aller retrouver, sçaura tromper sa mère.</l>
+              <l> Mais quel nuage affreux vient obscurcir le jour ?</l>
+              <l><pb n="12"/>Tout annonce l’horreur, je ne vois plus l’amour ;</l>
+              <l>C’est Armide qui vient d’esprits environnée,</l>
+              <l>Un poignard à la main, de serpens couronnée.</l>
+              <l>Elle cherche Renaut : la rage est dans son cœur ;</l>
+              <l>Ce Renaut, qui bientôt doit être son vainqueur,</l>
+              <l>Est l’objet détesté que poursuit sa vengeance :</l>
+              <l>La cruelle avec joie essayant sa puissance,</l>
+              <l>D’un coup de sa baguette éléve, anéantit ;</l>
+              <l>L’Enfer, les Élémens, &amp; le Jour &amp; la Nuit</l>
+              <l>A ses ordres soumis respirent sa tendresse,</l>
+              <l>Ou servent en courroux sa fureur vengeresse.</l>
+              <l>La Palais du Destin environné d’éclairs,</l>
+              <l>Sur les aîles du temps soutenu dans les airs,</l>
+              <l>Descend du haut des Cieux : l’avenir y préside ;</l>
+              <l>C’est lui que sur son sort vient consulter Armide.</l>
+              <l><hi rend="i">En vain tu hais Renaut</hi>, lui dit-il…, <hi rend="i">pour toujours</hi></l>
+              <l><hi rend="i">De lui seul dépendra le bonheur de ses jours ;</hi></l>
+              <l><hi rend="i">D’un Dieu charmant telle est la volonté suprême,</hi></l>
+              <l><hi rend="i">J’ai prononcé l’Oracle, il l’a dicté lui-même.</hi></l>
+              <l>Aux ordres du Destin, esprits, obéissez.</l>
+              <l>Démons, rentrez sous terre, affreux cahos, cessez,</l>
+              <l>Armide a vû Renaut ; Renaut n’est plus coupable :</l>
+              <l>(Peut-on encor haïr ce qui paroît aimable ?)</l>
+              <l>Tout change en un instant ; la nuit fait place au jour ;</l>
+              <l>Mortels, reconnaissez le pouvoir de l’Amour :</l>
+              <l>Le Palais s’envolant disparaît dans la nue,</l>
+              <l>Un Parterre aussitôt le remplace à ma vue ;</l>
+              <l><pb n="13"/>Du grand <hi rend="i">Servandoni</hi> magique illusion,</l>
+              <l>Effet de sa brillante imagination :</l>
+              <l>Tout n’est qu’enchantement ; sous l’habit de Colette</l>
+              <l><hi rend="i">Arnoud</hi> subjugue Mars : le son de la trompette</l>
+              <l>Rappelle en vain ce Dieu dans les champs de l’honneur ;</l>
+              <l>Plus content, plus heureux de posséder son cœur,</l>
+              <l>Qu’il n’était autrefois jaloux de la victoire,</l>
+              <l>Pour la suivre il renonce aux hasards, à la gloire ;</l>
+              <l>Et livrant sans danger, de plus tendres combats,</l>
+              <l>Il met tout son bonheur à mourir dans ses bras.</l>
+              <l>L’amour excuse tout, dans le siécle où nous sommes,</l>
+              <l>Le Plaisir est le Dieu, qu’encensent tous les hommes ;</l>
+              <l>Nous vivons pour jouir ; il suffit d’être heureux,</l>
+              <l>On est justifié dès qu’on est amoureux.</l>
+              <l> Ainsi dans ces jardins embellis pour te plaire,</l>
+              <l>Qu’on prendrait pour Paphos, Amathonte, ou Cythère ;</l>
+              <l><hi rend="i">Coupé,</hi> quand un regard lancé de tes beaux yeux,</l>
+              <l>A donné le signal d’un combat amoureux ;</l>
+              <l>Sous ces ombrages frais, asyles du mystère,</l>
+              <l>Sur un lit de gazon qui touche à la fougère,</l>
+              <l>Tu suis un Prince aimable, &amp; les jeux, &amp; les ris,</l>
+              <l>Tandis que chaque mois, pour cinq fois dix louis,</l>
+              <l>D’un paillard impuissant, Poupone avec adresse.</l>
+              <l>Electrise les sens flétris par la vieillesse :</l>
+              <l>Ou que par passe-tems, ruinant un Fermier,</l>
+              <l><hi rend="i">La Deschamps</hi> met Crésus sur son ancien fumier.</l>
+              <l><pb n="14"/> Mais j’entens de doux sons ; &amp; la <hi rend="i">Vestris</hi> arrive,</l>
+              <l>On dirait qu’elle veut, par sa marche lascive ;</l>
+              <l>Du libertin <hi rend="i">Boucher</hi>, échauffant le cerveau,</l>
+              <l>A peindre Messaline, exciter son pinceau :</l>
+              <l>O toi qui sans danser, te pâmant en mesure,</l>
+              <l>Fais passer dans nos cœurs un rayon de luxure ;</l>
+              <l>Quand te reverra-t-on, pour ton bien, notre honneur,</l>
+              <l>Pour le repos du monde, &amp; ton propre bonheur,</l>
+              <l>En pet-en-l’air de gaze, au retour du Théâtre,</l>
+              <l>Prodiguant tes trésors de corail &amp; d’albâtre ;</l>
+              <l>De ces fiers ennemis contre nos jours armés.</l>
+              <l>Vengeant sur ton sopha les Français opprimés,</l>
+              <l>Plus que tous nos vaisseaux nuisible à l’Angleterre,</l>
+              <l>Dans le sein de la Paix leur déclarer la guerre :</l>
+              <l> C’est ainsi qu’à Paris au milieu des Plaisirs,</l>
+              <l>Vivant sans embarras, sans projets, sans desirs ;</l>
+              <l>Du tableau du Moment variant la journée,</l>
+              <l>J’attendrais désormais la fin de chaque année.</l>
+            </lg>
+          </quote>
+        </div>
+      </body>
+    </text>
+  </TEI>
