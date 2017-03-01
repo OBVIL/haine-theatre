@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dancourt_lettre-rousseau_1759" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Dancourt à Rousseau</title>
-        <author key="Dancourt, Louis Hurtaut (1725?-1801)">Dancourt</author>
-        <editor key="François, Poudevigne">Poudevigne François</editor>
+        <author key="Dancourt, Louis Hurtaut (1725?-1801)">Louis Hurtaut Dancourt</author>
+        <editor key="Poudevigne, François">François Poudevigne</editor>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
