@@ -34,9 +34,9 @@
       <sourceDesc>
         <bibl>
           <author>Etienne Félix d’Hénin de Cuvillers</author>,
-          <title>Des comédiens et du clergé ; suivi de réflexions sur le mandement de monseigneur l’archevêque de rouen</title>,
+          <title>Des comédiens, et du clergé ; suivi de réflexions sur le mandement de monseigneur l’archevêque de Rouen</title>,
           <pubPlace>Paris</pubPlace>,
-          <publisher> xxxxx</publisher>, 
+          <publisher>P. DUPONT, libraire, rue du Bouloy, n° 24,DELAUNAY, libraire, Palais-Royal, galerie de bois, Et les marchands de nouveautés</publisher>, 
           <date>1825</date>, 
           <biblScope>p. I-X ; p. 1-42</biblScope>.
         </bibl>
@@ -53,9 +53,8 @@
   </teiHeader>
   <text>
     <body>
-        <!-- TODO: structurer le titlePage... -->
-      <head>DES<lb/>COMEDIENS,<lb/>ET<lb/>DU CLERGE ;<lb/></head><head type="sub"><hi rend="sc">suivi de réflexions sur le mandement de monseigneur l’archevêque de rouen.</hi></head>
-        <label>PAR LE BARON D’HENIN DE CUVILLERS,<lb/>Maréchal-de-camp ; Chevalier de l’Ordre royal et militaire de Saint-Louis, Officier de l’Ordre royal de la Légion-d’honneur ; Membre de plusieurs Sociétés savantes, etc.</label>
+      <head>DES<lb/>COMEDIENS,<lb/>ET<lb/>DU CLERGE ;<lb/></head><head type="sub"><hi rend="sc">suivi de reflexions sur le mandement de<lb/> monseigneur l’archeveque de rouen.</hi></head>
+        <label>PAR LE BARON D’HENIN DE CUVILLERS,<lb/>Maréchal-de-camp ; Chevalier de l’Ordre royal et militaire de<lb/>Saint-Louis, Officier de l’Ordre royal de la Légion-d’honneur ;<lb/>Membre de plusieurs Sociétés savantes, etc.</label>
         <p rend="center">A PARIS,<lb/><hi rend="sc">Chez</hi> P. DUPONT, libraire, rue du Bouloy, n° 24.<lb/>DELAUNAY, libraire, Palais-Royal, galerie de bois,<lb/>Et les marchands de nouveautés.<lb/>1825.</p>
       <div type="preface">
         <pb n="I"/><head>PREFACE.</head>
@@ -102,13 +101,13 @@
         <p>Il était encore défendu par les lois Romaines à un sénateur d’épouser une <pb n="7"/>affranchie ; aux fils et aux petits-fils de sénateurs, d’épouser des Comédiennes, ou des filles de comédiennes, et il était pareillement défendu aux filles et petites-filles d’un sénateur de prendre alliance avec des Comédiens. Tibère ordonna qu’aucun sénateur ne les pourrait visiter chez eux, et qu’un chevalier Romain ne pourrait les accompagner dans la rue. La première peine, dit Ménochius, dont les histrions sont punis par les lois des empereurs, est la note d’infamie, par laquelle ils sont exclus des dignités, comme l’enseigne entre autres Lucas de Penna ; ajoutant que, parmi ces histrions notés d’infamie, sont compris ceux qui montent sur le théâtre, et y récitent des comédies, encore qu’ils ne fassent point de farces.</p>
         <p>Chez les anciens la profession de <pb n="8"/>jouer des tragédies et celle de jouer des comédies étaient deux professions distinctes. Il était rare que le même homme se mêlât de toutes deux. Platon, après avoir rapporté que les poètes qui voulaient composer des tragédies et des comédies n’y réussissaient pas également, ajoute que le genre tragique et le genre comique demandent chacun un tour particulier d’esprit, et il déclare même que les acteurs qui déclamaient les tragédies n’étaient pas les mêmes que ceux qui débitaient les comédies.</p>
         <p>Quintilien dit qu’Esopus déclamait beaucoup plus gravement que Roscius ; parce que le premier faisait profession de jouer dans le tragique, au lieu que celle de l’autre était de jouer dans le comique. Chacun avait contracté les manières de la scène à <pb n="9"/>laquelle il s’était particulièrement attaché. «<quote>Roscius citatior, Esopus gravior fuit, quod hic tragædias, ille comædias egit. »</quote> C’est le caractère qu’Horace leur avait déjà donné,</p>
-        <lg>
-          <l>Quæ gravis Esopus, quæ doctus Roscius egit.</l>
-        </lg>
+        <quote><lg>
+          <l>« Quæ gravis Esopus, quæ doctus Roscius egit. »</l>
+        </lg></quote>
         <p>Horace parle d’un acteur qui jouait le second rôle en imitant le premier acteur, et qui se rabaissait exprès pour servir de lustre à l’acteur principal ; et on n’a pu, chez les modernes, se rendre raison de la manière dont jouaient ces seconds acteurs.</p>
         <p>Les acteurs de la tragédie paraissaient élevés sur des souliers fort hauts et magnifiques, mais fort embarrassants, et les acteurs de la comédie avec des souliers bas ; les uns et les autres étaient masqués, mais les premiers pleins de gravité et les derniers affectant de faire rire les spectateurs.</p>
         <p><pb n="10"/>Les Comédiens qui n’étaient plus en état de paraître en public se retiraient pour mener une vie privée, après avoir suspendu leurs masques au temple de Bacchus.</p>
-        <p>Voici un article historique <note resp="editor">[NDE] IDENTIFIER LA SOURCE? AUSSI, VERIFIER FIN DE CITATION.</note>sur les Comédiens qui, chez les Grecs et les Romains, ont obtenu le plus de célébrité :</p>
+        <p>Voici un article historique <!-- <note resp="editor">[NDE] IDENTIFIER LA SOURCE? METTRE EN QUOTE? AUSSI, VERIFIER FIN DE CITATION.</note> -->sur les Comédiens qui, chez les Grecs et les Romains, ont obtenu le plus de célébrité :</p>
         <p>« <hi rend="i">Archelaus</hi>, Comédien Grec ; c’est le premier acteur dont nous ayons quelque connaissance. Lucien nous en a conservé la mémoire, en nous rapportant les étranges effets qu’il produisit à Abdère, lorsqu’il y joua le rôle de Persée, dans l’Andromède d’Euripide, où tous ceux qui l’avaient vu représenter étaient animés, jusqu’à en devenir malades, des mêmes fureurs dont ils l’avaient vu possédé.</p>
         <p>« <hi rend="i">Satyrus</hi>, acteur grec, connu par rapport à Démosthène dont nous rapporterons <pb n="11"/>ce trait d’histoire. Cet orateur ayant été rebuté dans quelques harangues et quelques causes qu’il plaidait devant le peuple, comme il se retirait chez lui, la tête couverte, tout confus et accablé de tristesse, le Comédien Satyrus, qui était de ses amis, le suivit. Démosthène se plaignant à lui de ce que, quoiqu’il prît plus de peine que les autres orateurs, et qu’il eût presque consumé ses forces dans l’étude, il était cependant assez malheureux pour ne pouvoir se rendre agréable au peuple, au lieu que des ivrognes et des mariniers ignorants et grossiers, étaient écoutés de ce même peuple. Vous avez raison, lui dit Satyrus ; mais ne vous rebutez point, prenez courage, je remédierai bientôt à votre chagrin, si vous voulez prononcer en ma présence quelques vers d’Euripide et de Sophocle. Démosthène <pb n="12"/>suivit son avis ; en ayant donc prononcé quelques-uns qui se présentèrent à sa mémoire, Satyrus les répétant après lui, leur donna une toute autre grâce, en les prononçant avec une telle justesse de voix, de geste et de mouvement, que Démosthène même les trouva bien différents dans la bouche de ce Comédien, et reconnut par là que, pour plaire, il fallait non seulement bien parler, mais encore bien prononcer. C’est pourquoi il fit faire un cabinet souterrain où il descendait tous les jours pour régler son geste et former sa voix ; et souvent il demeurait deux ou trois mois entiers dans sa maison, sans sortir, se faisant, de dessein formé, raser la moitié de la tête, afin que la honte de paraître dans cet état l’empêchât de sortir, quand même il en aurait envie. On dit encore de lui qu’il <pb n="13"/>montait quelquefois sur une montagne, et que là, il parlait à haute voix, ayant quelques cailloux dans la bouche, afin que sa langue, faisant des efforts pour bien prononcer, étant embarrassée par ces cailloux, il parlât avec plus de liberté et eût
           la prononciation meilleure, quand il parlerait en public.</p>
