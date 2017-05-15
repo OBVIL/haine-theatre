@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title>Des comédiens et du clergé</title>
-        <author key="Hénin de Cuvillers,Etienne Félix d’ (1755-1841)">Etienne Félix d’Hénin de Cuvillers (1755-1841)</author>
+        <author key="Hénin de Cuvillers, Etienne Félix d’ (1755-1841)">Etienne Félix d’Hénin de Cuvillers (1755-1841)</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -33,10 +33,12 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Des comédiens et du clergé</title>
-          <author>Etienne Félix d’Hénin de Cuvillers,</author>
-          <biblScope>p. I-X; p. 1-42,</biblScope>
-          <date>1825</date>
+          <author>Etienne Félix d’Hénin de Cuvillers</author>,
+          <title>Des comédiens et du clergé ; suivi de réflexions sur le mandement de monseigneur l’archevêque de rouen</title>,
+          <pubPlace>Paris</pubPlace>,
+          <publisher> xxxxx</publisher>, 
+          <date>1825</date>, 
+          <biblScope>p. I-X ; p. 1-42</biblScope>.
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -51,19 +53,16 @@
   </teiHeader>
   <text>
     <body>
-      <div type="titlePage">
         <!-- TODO: structurer le titlePage... -->
-        <head>Des comédiens et du clergé</head>
-        <label>DES<lb/>COMEDIENS,<lb/>ET<lb/>DU CLERGE ;<lb/><hi rend="sc">suivi de réflexions sur le mandement de monseigneur l’archevêque de rouen.</hi></label>
+      <head>DES<lb/>COMEDIENS,<lb/>ET<lb/>DU CLERGE ;<lb/></head><head type="sub"><hi rend="sc">suivi de réflexions sur le mandement de monseigneur l’archevêque de rouen.</hi></head>
         <label>PAR LE BARON D’HENIN DE CUVILLERS,<lb/>Maréchal-de-camp ; Chevalier de l’Ordre royal et militaire de Saint-Louis, Officier de l’Ordre royal de la Légion-d’honneur ; Membre de plusieurs Sociétés savantes, etc.</label>
         <p rend="center">A PARIS,<lb/><hi rend="sc">Chez</hi> P. DUPONT, libraire, rue du Bouloy, n° 24.<lb/>DELAUNAY, libraire, Palais-Royal, galerie de bois,<lb/>Et les marchands de nouveautés.<lb/>1825.</p>
-      </div>
-      <div type="chapter">
+      <div type="preface">
         <pb n="I"/><head>PREFACE.</head>
         <p>Ne préjugez point du titre de cet ouvrage ; lisez-le d’un bout à l’autre, et ouvrez votre âme à la vérité ; la conviction est fille de la raison.</p>
       </div>
-      <div type="chapter">
-        <head><pb n="V"/>SOMMAIRE<lb/>DES MATIÈRES<lb/><hi rend="sc">CONTENUES DANS CE VOLUME.</hi></head>
+      <div type="contents">
+        <pb n="V"/><head>SOMMAIRE DES MATIERES <hi rend="sc">CONTENUES DANS CE VOLUME.</hi></head>
         <p>Le précis historique des <hi rend="i">trois âges</hi> des comédiens ; leur état chez les Grecs et les Romains, et leur <hi rend="i">institution légale</hi> en France ; leurs privilèges sur les autres classes de la société, quant à la <hi rend="i">noblesse</hi> ;</p>
         <p>Leurs droits à exercer leur profession, sans que le <hi rend="i">clergé</hi> soit fondé à exiger leur <hi rend="i">abjuration</hi> et à leur faire le <hi rend="i">refus de sépulture</hi>.</p>
         <p>Les ecclésiastiques commettent un <hi rend="i">délit</hi>, envers les lois civiles, à raison de ce refus de sépulture, attendu qu’il ne leur est pas permis de condamner une profession que les diplômes du prince, les lois de l’Etat et les règlements de la police du royaume, ont instituée, protégée et honorée ; ils commettent un autre <hi rend="i">délit</hi>, envers les lois de l’Eglise, attendu que le refus de sépulture ne peut être fait qu’à des <hi rend="i">excommuniés dénoncés</hi>, et que les <pb n="VI"/>comédiens ne sont nullement dans cette catégorie.</p>
@@ -76,12 +75,12 @@
         <p>Cet ouvrage, en précisant les <hi rend="i">lois civiles et ecclésiastiques</hi> dont l’auteur fait l’application, servira de guide aux <hi rend="i">autorités constituées du royaume</hi>, en ce qui regarde leurs <hi rend="i">droits</hi> comme déléguées du prince, et conduira à leur instruction les <hi rend="i">prêtres</hi> qui peuvent méconnaître les obligations qui leur sont imposées par les conciles, en même temps qu’il offrira aux <hi rend="i">comédiens</hi> l’état constitutif et légal de leur profession.</p>
       </div>
       <div type="chapter">
-        <head><pb n="IX"/>DEDICACE</head>
-        <quote>
+        <pb n="IX"/><head>DEDICACE</head>
+        <salute>
           <p><hi rend="i">A MM. de l’Académie royale de musique ;</hi></p>
           <p><hi rend="i">MM. les Comédiens ordinaires du Roi ;</hi></p>
           <p><hi rend="i">Et MM. de l’Opéra-Comique,</hi> etc., etc.</p>
-        </quote>
+        </salute>
         <p><hi rend="sc">Messieurs,</hi></p>
         <p>Un préjugé détestable, et réprouvé par tous les hommes de bien, jette de la défaveur sur une <hi rend="i">profession</hi> que notre législation et l’autorité de nos rois n’ont cessé de protéger et d’honorer ; je crois satisfaire au vœu du public en fournissant, sur cette matière, tout ce que les lois civiles et ecclésiastiques ont de plus prépondérant pour fixer le jugement des hommes.</p>
         <p>Je désire de tout mon cœur avoir <pb n="X"/>atteint le but que je me suis proposé, et vous prie de croire aux sentiments d’estime et d’affection que vos talents inspirent à tout ami des sciences et des arts, et avec lesquels</p>
@@ -92,7 +91,7 @@
         <p>Paris le 30 avril 1825.</p>
       </div>
       <div type="chapter">
-        <head><pb n="1"/>DES<lb/>COMEDIENS<lb/>ET<lb/>DU CLERGE.</head>
+        <pb n="1"/><head>DES COMEDIENS ET DU CLERGE.</head>
         <p>L’existence des Comédiens doit être considérée sous trois périodes différentes, pour en raisonner avec connaissance de cause, et décider avec justice des canons qui ont été fulminés à leur égard.</p>
         <p>La première époque concerne l’état des Comédiens dans l’antiquité. <hi rend="i">Thespis</hi>, poète d’Athènes, qui vivait l’an 536 avant J.-C., fut l’inventeur de la tragédie chez les Grecs ; il allait de ville en ville, et ses Comédiens représentaient ses pièces grossières, montés <pb n="2"/>sur des charrettes, et le visage barbouillé de lie ; ils ne disaient que des injures ou divertissaient les spectateurs par des railleries ridicules, ou quelques chansons obscures. <hi rend="i">Eschyle</hi>, guerrier et poète d’Athènes, qui s’était trouvé aux batailles de Marathon, de Platée et de Salamine, composa 90 tragédies, dont 40 furent couronnées. Il introduisit le goût sur la scène, donna à ses Comédiens des costumes convenables à leurs rôles, leur chaussa le brodequin et les fit monter sur un théâtre, au lieu de char ou de charrette. Ce poète buvait avec excès et ne travaillait que dans l’ivresse. Il fut condamné à mort pour avoir inséré des vers impies dans une de ses pièces ; mais son frère obtint sa grâce, en montrant aux juges les blessures qu’il avait reçues à la bataille de Salamine. Il mourut l’an 456 avant J.-C. Il fut <pb n="3"/>le maître et l’ami de Sophocle, digne rival d’Euripide.</p>
         <p>Les Comédiens, chez les Grecs, et surtout à Athènes, rendirent leur profession recommandable, et s’attirèrent l’estime de leurs concitoyens au point d’être souvent chargés d’ambassades et de négociations importantes, comme les citoyens les plus considérables de la république. Aristodème fut nommé l’un des dix ambassadeurs d’Athènes pour conclure la paix avec Philippe, roi de Macédoine. <hi rend="i">Philip. de Démosth. remarq. de Tourreil.</hi></p>
@@ -265,13 +264,15 @@
         <p>Les <hi rend="i">troubadours</hi>, différents, comme je l’ai déjà fait observer, des jongleurs, brillèrent en Europe, environ 250 ans depuis 1120 ou 1130, jusqu’à la fin de Jeanne, première du nom, reine de Naples et de Sicile, et comtesse de Provence, qui mourut en 1382, et qui leur accordait une protection tout à fait spéciale ; alors défaillirent les <hi rend="i">Mécènes</hi> et défaillirent <hi rend="i">aussi les poètes</hi>, dit Nostradamus ; mais les troubadours, la plupart <hi rend="i">gentilshommes</hi>, <pb n="84"/>étaient de vrais <hi rend="i">Comédiens</hi> ambulants, qui se faisaient une gloire de représenter souvent eux-mêmes leurs poésies et qui introduisirent en France le goût de la comédie et du chant ; à ceux-ci succédèrent d’autres poètes qu’on nomma <hi rend="i">Comiques</hi>, c’est-à-dire <hi rend="i">Comédiens</hi>, parce qu’en effet ils jouaient encore dans les pièces qu’ils composaient et dans celles qu’ils débitaient à la cour des rois et des princes où ils étaient admis. Ces deux classes de troubadours et de poètes, <hi rend="i">acteurs ou Comédiens</hi>, dans leurs propres pièces, reçus, fêtés et honorés par les rois et les princes, furent en estime dans le royaume et jamais on n’a pensé, quoiqu’ils exerçassent bien la profession réelle de comédiens, de leur faire l’application des foudres de l’Eglise et de la jurisprudence de Charlemagne, qui avait lieu à l’égard <pb n="85"/>des jongleurs et des bateleurs qui couraient les rues et amusaient la populace.</p>
         <p>Ces poètes ayant cessé de représenter ainsi leurs productions, on vit naître, sous la fin du règne de Charles V, le <hi rend="i">chant royal</hi>, genre de poésie de même construction que la ballade, et qui se faisait en l’honneur de Dieu ou de la Vierge.</p>
         <p>Après que les chrétiens croisés eurent conquis la Terre sainte, il y allait beaucoup de pèlerins qui en revenaient, comme l’on peut penser, fort peu chargés d’argent. Pour s’attirer des aumônes, ils chantaient par les rues de Paris, des chansons ou cantiques qu’ils avaient composés en chemin, sur la Passion de Jésus-Christ, et sur les choses merveilleuses qu’ils avaient vues dans leurs voyages, et prétextant des naufrages, qu’ils <pb n="86"/>représentaient dans des espèces de tableaux, et qu’ils expliquaient dans leurs chants ou dans leurs récits. Ils se mêlaient avec ceux qui revenaient de St. Jacques de Compostelle, de N.D. de Lorette, ou de la Ste. Baume. Ils faisaient de petites troupes et attiraient la foule dans les places publiques ; leurs chapeaux et leurs rochets chargés de coquilles de grandeur et de couleur différentes et singulières, leur gros bourdon et le reste d’un équipage bizarre qu’ils ornaient encore dans le goût de ce qu’ils voulaient paraître, un air sauvage et des manières piteuses et composées, tout cela excitait la curiosité des yeux vulgaires, et rendait leurs récits bien plus imposants. On trouvait un merveilleux infini à tout ce que débitaient des gens qui revenaient de si loin. On prenait leurs contes faits à plaisir pour des visions qu’ils avaient <pb n="87"/>eues, et la crédulité des bonnes gens ne pouvait qu’être avantageuse aux pèlerins, à qui les aumônes étaient prodiguées.</p>
-        <p>Cet usage n’était pas nouveau dans le monde ; car chez les Romains, ceux qui avaient fait quelques grandes pertes, ou souffert quelque dommage, par naufrage ou autrement, avaient coutume de représenter dans un tableau le sujet de leur misère ; ils le pendaient à leur cou, et l’expliquaient par des chansons accommodées à leur état de disette et de pauvreté, pour toucher de compassion ceux qu’ils rencontraient dans leur chemin, et pour réparer, par la charité des gens de bien, les pertes qu’ils avaient faites.</p> « <quote>
+        <p>Cet usage n’était pas nouveau dans le monde ; car chez les Romains, ceux qui avaient fait quelques grandes pertes, ou souffert quelque dommage, par naufrage ou autrement, avaient coutume de représenter dans un tableau le sujet de leur misère ; ils le pendaient à leur cou, et l’expliquaient par des chansons accommodées à leur état de disette et de pauvreté, pour toucher de compassion ceux qu’ils rencontraient dans leur chemin, et pour réparer, par la charité des gens de bien, les pertes qu’ils avaient faites.</p>
+        <quote>
           <lg>
-            <l> Fracta rate naufragus assem,</l>
+            <l>« Fracta rate naufragus assem,</l>
             <l>Dum rogat, et picta se tempestate tuetur. »</l>
           </lg>
         </quote>
         <p><hi rend="sc">Juvénal</hi></p>
+        <p/>
         <p>Nos pèlerins donc plurent si fort <pb n="88"/>au peuple, que quelques charitables bourgeois firent dresser des théâtres sur lesquels ces pieuses troupes représentaient, tantôt un chrétien martyrisé, tantôt quelque action miraculeuse, ou enfin quelques mystères de notre religion.</p>
         <p>Comme on avait de la vénération pour cette espèce de spectacle, le zèle des <hi rend="i">ecclésiastiques</hi> leur inspira d’en donner dans des processions ; on commença même à faire de longs pèlerinages, pour exciter, dans les lieux où l’on passait, la dévotion du peuple, par la représentation des choses les plus simples.</p>
         <p>Ce fut à peu près dans ce temps-là qu’à Aix en Provence on commença à représenter, le jour de la Fête-Dieu, tous les mystères du vieux et du nouveau testament ; on n’oublia pas les <hi rend="i">danseurs</hi> qui précédaient l’Arche <pb n="89"/>d’Alliance ; et une infinité d’autres représentations profanes, qui étaient fort peu convenables à la solennité de cette fête. (Voyez-en les détails, dans la suite de cet ouvrage, chapitre des <hi rend="i">Processions</hi>.)</p>
@@ -416,10 +417,10 @@
         <quote>
           <lg>
             <l>« Tu réformas et la ville et la cour,</l>
-            <l> Mais quelle en fut la récompense ?</l>
-            <l> Les Français rougiront un jour</l>
-            <l> De leur peu de reconnaissance.</l>
-            <l> Il leur fallut un Comédien.</l>
+            <l>Mais quelle en fut la récompense ?</l>
+            <l>Les Français rougiront un jour</l>
+            <l>De leur peu de reconnaissance.</l>
+            <l>Il leur fallut un Comédien.</l>
             <l>« Qui mit à les polir sa gloire et son étude ;</l>
             <l><pb n="163"/>Mais, Molière, à ta gloire il ne manquerait rien,</l>
             <l>Si, parmi les défauts que tu peignis si bien,</l>
