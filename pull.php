@@ -10,7 +10,7 @@ include( dirname(dirname(__FILE__))."/Teinte/Build.php" );
     <link rel="stylesheet" type="text/css" href="../Teinte/tei2html.css" />
   </head>
   <body>
-    <div id="center" style="margin: 1em; ">
+    <div id="center" style="padding: 1em; ">
       <h1><a href="pull.php">Administration</a>, <a href="." target="_blank">haine du théâtre</a></h1>
       <form method="POST">
         <label>Mot de passe
