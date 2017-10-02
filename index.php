@@ -33,8 +33,8 @@ echo 'Haine du théâtre, OBVIL';
     <style>
 .bibliography h2.head {text-align:left; margin-left: 0;}
 #article.xml-diplo { background-image: url( "<?= $basehref ?>fond.png" );  background-color: #FFF; }
-.sortable tr.even, .sortable tr.odd { background-color: #FFF; }
-tr.xml-diplo { background: url( "<?= $basehref ?>fond.png" ); }
+.sortable tr.even, .sortable tr.odd { background: #FFF; }
+tr.xml-diplo td { background: url( "<?= $basehref ?>fond.png" ); }
     </style>
   </head>
   <body>
