@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="benoist_petit-fragment-catechistic_1579" xml:lang="en">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Petit fragment catechistic</title>
-        <author key="Benoist, René (1521-1608)">Benoist</author>
+        <author key="Benoist, René (1521-1608)">René Benoist</author>
         <editor key="Saint Martin, Marie (1984-....)">Marie Saint Martin</editor>
       </titleStmt>
       <editionStmt>
@@ -17,8 +15,16 @@
           <resp>Édition</resp>
         </respStmt>
         <respStmt>
+          <name>Clotilde Thouret</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
           <name>Chiara Mainardi</name>
           <resp>Stylage, XML TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Thomas Soury</name>
+          <resp>Editeur XML</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -26,7 +32,7 @@
         <date when="2015"/>
         <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/benoist_petit-fragment-catechistic_1579/</idno>
         <availability status="restricted">
-          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d'Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l'OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d'Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l'OBVIL et surtout l'adresse Internet de la ressource.</p><p>Pas d'Utilisation Commerciale : dans l'intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l'OBVIL s'engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n'est pas souhaitable.</p></licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d'Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l'OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d'Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l'OBVIL et surtout l'adresse Internet de la ressource.</p><p>Pas d'Utilisation Commerciale : dans l'intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l'OBVIL s'engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n'est pas souhaitable.</p></licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -48,16 +54,14 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <titlePart>PETIT / FRAGMENT / CATECHISTIC D'UNE PLUS
+    <body>
+    <head>PETIT / FRAGMENT / CATECHISTIC D'UNE PLUS
           <lb/>AMPLE CATECHESE DE LA MA- / gie répréhensible 
           <lb/>et des Magiciens, pris de / l’une des Catéchèses 
           <lb/>et Opuscules de M. / René Benoist Angevin, 
           <lb/>Docteur en Théo- / logie 
-          <lb/>et Curé de Saint Eustache à Paris.</titlePart>
-      </titlePage>
-    </front>
+          <lb/>et Curé de Saint Eustache à Paris.
+    </head></body>
     <body>
         <div type="chapter">
           <head><hi rend="i">Que les jeux des théâtres et les danses sont une suite de la science diabolique, opérante par 
