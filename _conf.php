@@ -6,6 +6,6 @@ return array(
   "pass" => "", // Mot de passe à renseigner obligatoirement à l’installation
   "srcglob" => array( "xml/*.xml", "xml-diplo/*.xml" ), // sources XML à publier
   "sqlite" => "hdt.sqlite", // nom de la base avec les métadonnées
-  "formats" => "article, toc, epub, kindle", // formats générés
+  "formats" => "article, toc, epub, kindle, html, markdown, iramuteq", // formats générés
 );
 ?>

@@ -55,7 +55,15 @@ else {
         <aside id="aside">
           <?php
 if ( $doc ) {
-  // if (isset($doc['download'])) echo $doc['download'];
+  echo "\n".'<nav id="download"><small>Télécharger :</small>';
+  // cas particulier ici, on n’a pas l’info pour choisir entre xml/ et xml-diplo/ dans GitHub
+  echo '<a target="_blank" href="epub/'.$doc['code'].'.epub">epub</a>';
+  echo ', <a target="_blank" href="kindle/'.$doc['code'].'.mobi">kindle</a>';
+  echo ', <a target="_blank" href="markdown/'.$doc['code'].'.md">txt</a>';
+  echo ', <a target="_blank" href="iramuteq/'.$doc['code'].'.txt"">iramuteq</a>';
+  echo ', <a target="_blank" href="html/'.$doc['code'].'.html">html</a>';
+  echo '.</nav>';
+
   // auteur, titre, date
   echo "\n".'<header>';
   if ($doc['byline']) echo "\n".'<div class="byline">'.$doc['byline'] .'</div>';
@@ -77,6 +85,16 @@ else if ( file_exists( $f="doc/".$docid."_toc.html" ) ) {
 }
 // accueil ? formulaire de recherche général
 else {
+  echo "\n".'<nav id="download"><small>Téléchagements :</small>';
+  echo ', <a target="_blank" href="http://github.com/OBVIL/haine-theatre/tree/gh-pages/xml">tei relu</a>';
+  echo ', <a target="_blank" href="https://github.com/OBVIL/haine-theatre/tree/gh-pages/xml-diplo">tei diplomatique</a>';
+  echo ', <a target="_blank" href="epub/">epub</a>';
+  echo ', <a target="_blank" href="kindle/">kindle</a>';
+  echo ', <a target="_blank" href="markdown/">txt</a>';
+  echo ', <a target="_blank" href="iramuteq/">iramuteq</a>';
+  echo ', <a target="_blank" href="html/">html</a>';
+  echo '.</nav>';
+
   echo'
 <form action="">
   <input style="width: 100%;" name="q" class="text" placeholder="Rechercher de mots" value="'.str_replace( '"', '&quot;', $base->p['q'] ).'"/>
