@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="boursault_lettre-archeveque-paris_1694">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A Monseigneur de Harlay, Archevêque de Paris</title>
+        <author key="Boursault, Edme (1638-1701)">Edme Boursault</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>François Lecercle</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Clotilde Thouret</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Ludivine Rey</name>
+          <resp>Editeur scientifique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Doranne Lecercle</name>
+          <resp>Editeur scientifique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Thomas Soury</name>
+          <resp>Editeur XML</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2017"></date>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/boursault_lettre-archeveque-paris_1694/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p><p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Edme Boursault</author>,
+          <title>Lettre à Monseigneur de Harlay, Archêque de Paris</title> [1694], in
+          <title>Lettres nouvelles de Monsieur Boursault. Accompagnées de fables, de remarques, de bons mots et d’autres particularitez aussi agréables qu’utiles, avec sept lettres amoureuses d’une dame à un cavalier</title>,
+          <pubPlace>Paris</pubPlace>,
+          <publisher>Veuve de Theodore Girard</publisher>,
+          <date>1697</date>,
+          <biblScope>p. 394-406</biblScope>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1697"></date>
+      </creation>
+      <langUsage>
+        <language ident="fr"></language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="chapter" xml:id="boursault_lettre-archeveque-paris_1694_1">
+        <pb n="394"></pb>
+      <head>A MONSEIGNEUR / DE HARLAY, / ARCHEVEQUE DE PARIS, / <term type="Autorité" rend="Duc">DUC</term> ET PAIR DE FRANCE </head><head type="sub"><hi rend="i">Touchant une Lettre ou Dissertation en faveur de la <term type="Théâtre" rend="Comédie">Comédie</term>.</hi></head>
+      <p rend="sc">Monseigneur,</p>
+        <p>Si j’avais l’<term type="Qualité_Positive" rend="Honneur">honneur</term> d’être mieux connu de <hi rend="sc">Votre Grandeur</hi>, je prendrais la liberté de l’aller voir au <term type="Lieu_des_spectacles" rend="Lieu">lieu</term> de celle que je prends de lui écrire, pour la supplier très humblement de me regarder comme le seul coupable de l’impression d’une Lettre que j’ai mise au <pb n="395"></pb>devant de quelques Pièces de <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">Théâtre</term></term> que j’ai données au <term type="Spectateur" rend="Public">Public</term>, (si toutefois il y a du <term type="Morale_Négative" rend="Crime">crime</term> à mettre au jour les sentiments des <term type="Autorité" rend="Pères"><term type="Religion" rend="Père">Pères</term></term> de l’<term type="Religion" rend="Église">Eglise</term>, touchant les <term type="Spectacle" rend="Spectacle">Spectacles</term> qui peuvent être permis, et ceux qui doivent absolument être défendus). Un Théologien d’un mérite distingué, et que je n’aurais pas consulté si je ne l’avais cru tel, me vint hier faire des <term type="Morale_Négative" rend="Reproche">reproches</term> de ce que j’avais rendu <term type="Spectateur" rend="Public">public</term> ce qu’il n’avait eu la bonté de faire que pour ma satisfaction particulière ; et me toucha dans l’endroit le plus sensible que j’aie, en m’accusant d’infidélité. Il est vrai, Monseigneur, (et j’ai trop de <term type="Qualité_Positive" rend="Respect"><term type="Morale_Positive" rend="Respect">respect</term></term> pour vous pour rien imposer) qu’étant en Province où je fis la <term type="Théâtre" rend="Comédie">Comédie</term> d’<term type="Acteur" rend="Esope">Esope</term>, un <term type="Qualité_Positive" rend="Bon">bon</term> Curé, qui peut-être n’avait jamais ouï parler de la <term type="Théâtre" rend="Comédie">Comédie</term> que dans son Rituel, qui faisait une <term type="Qualité_Positive" rend="Bon">bonne</term> partie de sa Bibliothèque, fit scrupule de me donner l’absolution, et enfin ne me la donna qu’à condition que je m’informerais à de plus habiles Gens que lui, si je pouvais en sûreté de conscience la faire <term type="Spectacle" rend="Représenter">représenter</term>. Je lui tins parole, et crus ne me pouvoir<pb n="396"></pb> mieux adresser qu’à celui qui avait été mon Confesseur à Paris, qui passait pour un <term type="Qualité_Positive" rend="Célèbre">célèbre</term> Professeur en <term type="Religion" rend="Théologie">Théologie</term>. Je lui envoyai non seulement <term type="Acteur" rend="Esope">Esope</term>, mais encore quelques autres <term type="Théâtre" rend="Comédie">Comédies</term> que j’avais faites, que je le conjurai d’examiner sérieusement ; et, s’il était aussi véritablement mon Ami qu’il me l’avait témoigné tant de fois, de faire réflexion qu’il s’agissait du repos de mon <term type="Religion" rend="Esprit">Esprit</term>, et peut-être de celui de mon Ame. Après lui avoir plusieurs fois réitéré la même prière il me renvoya mes Ouvrages, et la Lettre dont il m’a dit qu’on lui fait un <term type="Morale_Négative" rend="Crime">crime</term> auprès de vous. La grande faute que j’ai faite, et dont je ne puis me disculper envers lui, c’est, Monseigneur, de l’avoir osé faire imprimer sans sa permission. Je n’avais garde de la lui demander, sûr qu’il ne me l’accorderait pas : mais, comme j’ai d’autres Pièces à faire <term type="Spectacle" rend="Représenter">représenter</term>, et entre autres <hi rend="sc"><term type="Acteur" rend="Esope">Esope</term> à la Cour</hi>, que je suis prêt de soumettre à la Censure la plus austère, je me flattai que les <term type="Spectateur" rend="Auditeur">Auditeurs</term> me seraient plus <term type="Morale_Positive" rend="Favorable">favorables</term> si je leur faisais voir que les <term type="Autorité" rend="Pères"><term type="Religion" rend="Père">Pères</term></term> et les <term type="Religion" rend="Canon">Canons</term> qui <pb n="397"></pb>ont détesté les <term type="Théâtre" rend="Comédie">Comédies</term> <term type="Qualité_Négative" rend="Détestable">détestables</term> n’ont point prétendu interdire les <term type="Spectacle" rend="Divertissement">divertissements</term> <term type="Morale_Positive" rend="Honnête">honnêtes</term>, et, pour ainsi dire, plus capables de corriger les mœurs que de les corrompre. Voilà, Monseigneur, à quelle occasion ce Théologien a écrit la Lettre qui fait tant de bruit, et dans quel esprit j’ai pris la liberté, à son insu, de la mettre au jour. Votre Grandeur, qui est un abîme d’Erudition, sait mieux que personne que depuis que les Royaumes ont commencé d’être florissants, et que l’on a bâti de grandes <term type="Autorité" rend="Ville">Villes</term>, il y a fallu des <term type="Spectacle" rend="Spectacle">Spectacles</term> pour en amuser les habitants, et que si les <term type="Autorité" rend="Pères"><term type="Religion" rend="Père">Pères</term></term> de la primitive <term type="Religion" rend="Église">Eglise</term> blâmaient les <term type="Religion" rend="Chrétien">Chrétiens</term> d’y assister, c’était parce que les <term type="Spectacle" rend="Spectacle">Spectacles</term> des Anciens faisaient une partie essentielle de la <term type="Religion" rend="Religion">Religion</term> <term type="Religion" rend="Païen">Païenne</term>. Les <term type="Société" rend="Empereur">Empereurs</term> dont la mémoire est le plus en vénération (c’est des <term type="Société" rend="Empereur">Empereurs</term> <term type="Religion" rend="Chrétien">Chrétiens</term> dont je parle) ne défendirent pas les <term type="Spectacle" rend="Spectacle">Spectacles</term> à leurs Sujets, mais ils en bannirent l’<term type="Religion" rend="Idolâtrie">Idolâtrie</term> ; et s’il vous plaisait, Monseigneur, de rappeler un peu votre souvenir, vous trouveriez que des <term type="Religion" rend="Pape">Papes</term> n’ont pas cru les <term type="Affect" rend="Plaisir">plaisirs</term> du <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">Théâtre</term></term> <pb n="398"></pb><term type="Morale_Négative" rend="Indigne"><term type="Qualité_Négative" rend="Indigne">indignes</term></term> de l’attention des <term type="Religion" rend="Chrétien">Chrétiens</term>, puisqu’ils ne faisaient point de difficulté d’y assister eux-mêmes. Il est rapporté dans les Ecrits du <term type="Religion" rend="Cardinal">Cardinal</term> Bessarion, <term type="Religion" rend="Patriarche">Patriarche</term> de Constantinople, dont <term type="Autorité" rend="Baronius">Baronius</term> fait mention dans ses <hi rend="i">Annales Ecclésiastiques</hi>, que le <term type="Religion" rend="Pape">Pape</term> Alexandre III, après avoir terminé ses différends avec l’<term type="Société" rend="Empereur">Empereur</term> Frédéric premier, surnommé Barberousse, accorda plusieurs privilèges aux Vénitiens, en considération de l’asile qu’ils lui avaient donné pendant la <term type="Guerre" rend="Guerre">guerre</term> ; et particulièrement le droit d’avoir la troisième <term type="Lieu_des_spectacles" rend="Place">place</term> pour leur <term type="Autorité" rend="Duc">Duc</term><note resp="editor">[NDUL = note de <bibl>Ch. Urbain et E. Levesque, <hi rend="i">L’<term type="Religion" rend="Église">Eglise</term> et le <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">théâtre</term></term></hi>, Paris, Grasset, 1930</bibl>] <term type="Autorité" rend="Duc">Duc</term> : doge.</note> au <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">Théâtre</term></term> du <term type="Religion" rend="Pape">Pape</term><note resp="editor">[NDUL] Boursault a dû tirer ce renseignement de l’écrit anonyme de l’abbé d’<term type="Autorité" rend="Aubignac"><term type="Auteur" rend="Aubignac">Aubignac</term></term> : <hi rend="i">Dissertation sur la <term type="Morale_Négative" rend="Condamnation">condamnation</term> des <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">théâtres</term></term></hi>, Paris, 1666, in-12, p. 100. Le fait a été révoqué en doute, sous prétexte que, des deux documents rapportés par <term type="Autorité" rend="Baronius">Baronius</term> touchant les privilèges concédés au doge de Venise par Alexandre III, le second ne parle pas du <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">théâtre</term></term> (<bibl>Bertrand de La Tour, <hi rend="i">Réflexions morales</hi>, dans ses <hi rend="i">Œuvres complètes</hi>, éd. Migne, t. IV, col. 321 <hi rend="i">sqq</hi>, 1220 <hi rend="i">sqq</hi>.</bibl>).</note>. Pour épargner la peine à Votre Grandeur de chercher elle-même l’endroit que j’ai l’<term type="Qualité_Positive" rend="Honneur">honneur</term> de lui citer, je vais mettre ici ses propres termes. « <quote><hi rend="i">Pontifex ob beneficium a Venetis susceptum Sebastiano Duci et ejus successoribus, ac Senatui Veneto privilegia concessit, etc. <seg rend="exquote">Et un peu après</seg> : Quod Venetorum Principi tertiam sedem in Theatro fieri fecit, cum prius duæ tantum in Papæ Theatro sedes essent, quarum dexteram Pontifex, sinistram vero Cæsar tenet</hi></quote><note resp="author">[NDA] Baron, an 1177. [NdE] <bibl><term type="Société" rend="Cesare">Cesare</term> Baronio, <hi rend="i">Annales Ecclesiasticae</hi>, tome XII, Anvers, Plantin, 1609, p. 672.</bibl></note> ». Il est donc vrai, Monseigneur, <pb n="399"></pb>que le <term type="Religion" rend="Pape">Pape</term> avait un <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">Théâtre</term></term> où sa Sainteté occupait la première <term type="Lieu_des_spectacles" rend="Place">place</term>, l’<term type="Société" rend="Empereur">Empereur</term> la seconde, et le Doge de Venise la troisième : Eh qu’y pouvait-on <term type="Spectacle" rend="Représenter">représenter</term> de plus <term type="Qualité_Positive" rend="Beau">beau</term>, de plus pur, et, si je l’ose dire, de plus profitable que les Pièces de <term type="Autorité" rend="Corneille">Corneille</term> et de Racine ? Y a-t-il rien qui<note resp="editor">[NDE] Remplace qu’il.</note> ait mieux démasqué l’Hypocrisie que le Tartuffe de <term type="Autorité" rend="Molière"><term type="Autorité" rend="Molière"><term type="Auteur" rend="Molière"><term type="Auteur" rend="Molière">Molière</term></term></term></term> : et ne serait-il pas à souhaiter que les Prédicateurs eussent converti autant d’âmes que cet Auteur a corrigé de manières ridicules ? Combien y a-t-il de grands Seigneurs dont les flatteurs applaudissent jusques aux défauts, et qui ne se verraient jamais, tels qu’ils sont, sans les portraits que l’on en fait à la <term type="Théâtre" rend="Comédie">Comédie</term> ? Ce n’est pas toujours le bras levé que l’on fait entendre raison aux hommes : et les instructions qui effrayent font souvent moins d’impression sur les cœurs que celles qui divertissent.</p>
+        <quote>
+          <lg>
+      <l>Il faut étudier les Grands,</l>
+      <l>S’accommoder à leurs caprices,</l>
+      <l>Et par des chemins différents</l>
+      <l>Corriger leurs différents <term type="Morale_Négative" rend="Vice"><term type="Passion" rend="Vice">Vices</term></term>.</l>
+      <l><pb n="400"></pb>D’un ton trop sévère et trop haut</l>
+      <l>Vouloir d’un Orgueilleux réprimer le défaut</l>
+      <l>C’est le rendre encore plus superbe ;</l>
+      <l>Au <term type="Lieu_des_spectacles" rend="Lieu">lieu</term> que sur son âme on fait plus de progrès</l>
+      <l>Suivant l’ingénieux Proverbe</l>
+      <l><hi rend="i">Castigat ridendo mores</hi>.</l>
+          </lg>
+        </quote>
+      <p>Si Votre Grandeur me voulait permettre de lui parler avec autant de <term type="Qualité_Positive" rend="Bon">bonne</term> foi que de <term type="Qualité_Positive" rend="Respect"><term type="Morale_Positive" rend="Respect">respect</term></term>, je lui dirais que l’orage qui s’est élevé depuis quelques jours contre la <term type="Théâtre" rend="Comédie">Comédie</term>, dont, sans y penser, j’ai été la cause, a été comme une de ces pluies heureuses, qui redoublent la fertilité de la Terre ; et que les raisons contre un <term type="Spectacle" rend="Divertissement">Divertissement</term> si approuvé ont paru si <term type="Qualité_Négative" rend="Faible">faibles</term> qu’elles ont augmenté l’envie d’y aller. Tous ceux qui se sont déchaînés contre elle ne sont pas plus connus qu’ils l’étaient auparavant, ou s’ils le sont ce n’est pas à leur avantage. S’ils ont excité un peu de curiosité ils ont bien causé des bâillements ; et le plus heureux fruit que puisse faire ce qu’ils ont écrit, c’est, Monseigneur, de leur inspirer une ferme <pb n="401"></pb>résolution de ne plus écrire. Que voit-on sur le <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">Théâtre</term></term> du Monde qui, à proprement parler, ne soit <term type="Théâtre" rend="Comédie">Comédie</term> : et que de Personnages y fait-on, à quoi il ne manque que le nom de Tartuffe pour être les Originaux, dont celui qu’on a représenté n’est que la Copie ?</p>
+        <quote>
+          <lg>
+      <l><term type="Qualité_Positive" rend="Bon">Bon</term> <term type="Religion" rend="Dieu">Dieu</term>, que dans le Monde on se déguise bien !</l>
+      <l>Dans quelle <term type="Théâtre" rend="Comédie">Comédie</term> a-t-on mieux fait son Rôle</l>
+      <l>Que Pacôme qui la contrôle</l>
+      <l>Pendant toute sa vie a su faire le sien ?</l>
+      <l>Si les fictions et les fables</l>
+      <l>Parmi les <term type="Religion" rend="Chrétien">Chrétiens</term> sont blâmables</l>
+      <l>Et trahissent la Vérité ;</l>
+      <l>Est-il fiction plus criante</l>
+      <l>Que de prêcher la Pauvreté</l>
+      <l>Avec Vingt Mille Ecus de rente ?</l>
+          </lg>
+        </quote>
+      <p>Le <term type="Religion" rend="Cardinal">Cardinal</term> de <term type="Autorité" rend="Richelieu">Richelieu</term> qui était un grand Théologien, un grand <term type="Religion" rend="Évêque">Evêque</term>, et un grand Ministre d’Etat, se serait-il si hautement déclaré le Protecteur <pb n="402"></pb>de la <term type="Théâtre" rend="Comédie">Comédie</term>, et de ceux qui écrivaient avec succès pour le <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">Théâtre</term></term>, s’il eût trouvé ce <term type="Spectacle" rend="Divertissement">Divertissement</term> <term type="Morale_Négative" rend="Indigne"><term type="Qualité_Négative" rend="Indigne">indigne</term></term> d’un <term type="Religion" rend="Chrétien">Chrétien</term> : et la Sorbonne, qui lui est redevable de tant de bienfaits, peut-elle condamner ce qu’approuvait ce grand Homme, sans donner une atteinte à sa mémoire ? En Espagne et en Portugal, où l’Inquisition est si sévère, ne représente-t-on pas des <term type="Théâtre" rend="Comédie">Comédies</term> : et parmi des <term type="Société" rend="Peuple">Peuples</term> où la moindre peccadille envers la <term type="Religion" rend="Religion">Religion</term> est souvent un <term type="Morale_Négative" rend="Crime">crime</term> irrémissible, ces <term type="Spectacle" rend="Spectacle">Spectacles</term> seraient-ils permis s’il était vrai qu’ils fussent si <term type="Morale_Négative" rend="Pernicieux">pernicieux</term> ? <term type="Autorité" rend="Tertullien">Tertullien</term>, S. <term type="Autorité" rend="Cyprien">Cyprien</term> son <term type="Religion" rend="Disciple">Disciple</term>, S. <term type="Autorité" rend="Chrysostome">Chrysostome</term>, S. <term type="Autorité" rend="Augustin"><term type="Autorité" rend="Augustin">Augustin</term></term>, <term type="Autorité" rend="Orose">Orose</term>, <term type="Autorité" rend="Lactance">Lactance</term>, <term type="Autorité" rend="Salvien">Salvien</term>, et pour citer des autorités encore plus grandes, les <term type="Religion" rend="Concile">Conciles</term> ont condamné le plus justement du monde les <term type="Spectacle" rend="Spectacle">Spectacles</term> de leur Temps, parce qu’en effet ils étaient <term type="Morale_Négative" rend="Abominable">abominables</term> ; et si nous en voyions de pareils je suis persuadé que les plus Libertins de notre Siècle les condamneraient aussi ; mais aujourd’hui que la <term type="Théâtre" rend="Comédie">Comédie</term> est non seulement exempte de ces abominations, mais capable de donner des leçons <term type="Qualité_Positive" rend="Utile">utiles</term>, les <pb n="403"></pb>raisons qui avaient donné <term type="Lieu_des_spectacles" rend="Lieu">lieu</term> aux Anathèmes fulminés contre elle, ne subsistent plus ; et s’il faut des <term type="Spectacle" rend="Divertissement">Divertissements</term> aux hommes pour les délasser des fatigues qui sont inséparables de la vie, c’est un de ceux que je crois le plus <term type="Qualité_Positive" rend="Innocent"><term type="Autorité" rend="Innocent">innocents</term></term>. Si je ne craignais d’être comptable des moments que je vous ferais perdre, je vous supplierais très humblement, Monseigneur, d’avoir la bonté de voir vous-même la <term type="Théâtre" rend="Comédie">Comédie</term> d’<term type="Acteur" rend="Esope">Esope</term> que je vous envoie, et de me dire s’il y a la moindre chose qui puisse blesser la plus scrupuleuse <term type="Morale_Positive" rend="Vertu">Vertu</term>. J’y reprends les défauts en <term type="Société" rend="Général">général</term> sans toucher à personne en particulier ; et tel qui n’a jamais été sensible à toutes les remontrances qu’on lui a faites, ravi de rire des <term type="Qualité_Négative" rend="Sottise">sottises</term> d’autrui, appréhende d’en faire, de <term type="Passion" rend="Peur">peur</term> de donner sujet de rire à son tour.</p>
+        <quote>
+          <lg>
+      <l>Ce n’est point un conte frivole :</l>
+      <l>A qui veut faire ce qu’il doit</l>
+      <l>Il n’est point de meilleure Ecole</l>
+      <l>Que les <term type="Qualité_Négative" rend="Sottise">Sottises</term> que l’on voit.</l>
+      <l>Dans les plus illustres <term type="Société" rend="Famille">Familles</term></l>
+      <l><pb n="404"></pb>Bien souvent aux Garçons, quelquefois même aux <term type="Femme" rend="Fille"><term type="Société" rend="Fille">Filles</term></term></l>
+      <l>Les conseils des Parents semblent hors de saison ;</l>
+      <l>Et par les leçons du <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">Théâtre</term></term></l>
+      <l>Le Fat le plus opiniâtre</l>
+      <l> Est d’abord mis à la raison.</l>
+          </lg>
+        </quote>
+      <p>C’est dans cette vue, Monseigneur, que j’ai choisi <term type="Acteur" rend="Esope">Esope</term> pour le traduire partout où il y a des abus, et pour lui faire dire, sous les apparences des Fables, la Vérité à tout le monde, sans que personne puisse raisonnablement s’en offenser. Celui que j’ai l’<term type="Qualité_Positive" rend="Honneur">honneur</term> d’envoyer à Votre Grandeur est <hi rend="i"><term type="Acteur" rend="Esope">Esope</term> en Province</hi>, et celui qui lui succédera sera <hi rend="i"><term type="Acteur" rend="Esope">Esope</term> à la Cour</hi>, persuadé qu’il y a des abus comme ailleurs, et qu’ils y sont d’autant plus considérables que ceux qui les commettent sont dans une plus grande élévation. De là je le mènerai où je croirai ses leçons le plus nécessaires ; et partout je donnerai tant de laideur au <term type="Morale_Négative" rend="Vice"><term type="Passion" rend="Vice">Vice</term></term> et tant de beauté à la <term type="Morale_Positive" rend="Vertu">Vertu</term> qu’il ne tiendra pas à moi que <pb n="405"></pb>l’on n’ait autant de <term type="Morale_Négative" rend="Haine"><term type="Passion" rend="Haine">haine</term></term> pour l’un que d’<term type="Passion" rend="Amour">amour</term> pour l’autre.</p>
+        <quote>
+          <lg>
+      <l>Dans le dessein que j’ai de faire aller <term type="Acteur" rend="Esope">Esope</term></l>
+      <l>Partout où les abus offrent de <term type="Qualité_Négative" rend="Faux">faux</term> appas,</l>
+      <l>Ne croyez pas que j’enveloppe</l>
+      <l>Parmi les <term type="Passion" rend="Vicieux">vicieux</term> ceux qui ne le sont pas.</l>
+      <l>Comme un <term type="Qualité_Négative" rend="Sot">Sot</term> me chagrine, et qu’un <term type="Qualité_Négative" rend="Méchant">Méchant</term> m’irrite,</l>
+      <l>Avec un vrai <term type="Affect" rend="Plaisir">plaisir</term> je loue un vrai Mérite ;</l>
+      <l>N’importe dans quel rang on en soit revêtu :</l>
+      <l>Aux petits comme aux Grands j’aime à rendre <term type="Droit" rend="Justice">justice</term> ;</l>
+      <l>Et je défigure le <term type="Morale_Négative" rend="Vice"><term type="Passion" rend="Vice">Vice</term></term></l>
+      <l>Comme j’embellis la <term type="Morale_Positive" rend="Vertu">Vertu</term>.</l>
+          </lg>
+        </quote>
+      <p>Vous voyez, Monseigneur, par la Matière que je me prescris que je ne cherche ni à corrompre les mœurs, ni à favoriser le libertinage ; et qu’en soutenant les <term type="Spectacle" rend="Spectacle">Spectacles</term> nécessaires, je souhaite qu’ils soient toujours <term type="Qualité_Positive" rend="Innocent"><term type="Autorité" rend="Innocent">innocents</term></term>. Si malgré toutes les précautions que je prends pour ne rien laisser échapper à ma <pb n="406"></pb>plume qui me puisse brouiller avec la Pudeur la plus délicate, il plaît à Votre Grandeur de m’employer à quelque chose de plus <term type="Morale_Positive" rend="Sérieux">sérieux</term>, mon obéissance à ses Ordres lui fera connaître avec combien de soumission et de <term type="Qualité_Positive" rend="Respect"><term type="Morale_Positive" rend="Respect">respect</term></term> je suis,</p>
+      <p rend="sc">Monseigneur,</p>
+      <p rend="sc">De Votre Grandeur,</p>
+      <p>Très humble et très obéissant serviteur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

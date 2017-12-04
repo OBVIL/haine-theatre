@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Epître sur la condemnation du théâtre</title>
+        <author key="Bardou, Pierre (1… -1724)">Pierre Bardou</author>
+        <editor key="Goursolas, Marie-Hélène">Marie-Hélène Goursolas</editor>
+        </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Marie-Hélène Goursolas</name>
+          <resp>Editrice scientifique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Ludivine Rey</name>
+          <resp>Transcription</resp>
+        </respStmt>
+          <respStmt>
+           <name>Doranne Lecercle</name>
+          <resp>Correction</resp>
+          </respStmt>
+        <respStmt>
+          <name>Chiara Mainardi</name>
+          <resp>Stylage, édition XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2016"></date>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/bardou_epistre_1694/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d'Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l'OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d'Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l'OBVIL et surtout l'adresse Internet de la ressource.</p><p>Pas d'Utilisation Commerciale : dans l'intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l'OBVIL s'engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n'est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl ref="http://catalogue.bnf.fr/ark:/12148/cb30035477w/PUBLIC"><author>Bardou Pierre</author>, <title>Epistre sur la condamnation du theatre a Monsieur Racine</title>, <pubPlace>Paris</pubPlace>, <publisher>Chez la veuve de Jean Baptiste Coignard</publisher>, <date>1684</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1684"></date>
+      </creation>
+      <langUsage>
+        <language ident="fr"></language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="chapter" xml:id="bardou_epistre_1694_1">
+        <head><hi rend="uc">Epistre / sur / la <term type="Morale_Négative" rend="Condamnation">condamnation</term> / du theatre / <hi rend="i">a Monsieur Racine</hi> / a Paris,</hi> / Chez la veuve de <hi rend="uc">Jean Baptiste Coignard</hi> Imprimeur ordinaire / du Roy et de l’Académie <term type="Nationalité" rend="Français">Française</term>, rue S. Jacques, devant la rue / des Noyers, à la Bible d’or. / MDCLXXXIV. / <hi rend="i"><hi rend="uc">Avec permission</hi></hi><pb n="1" xml:id="p1"></pb></head>
+        <p></p>
+        <p><hi rend="uc">
+          <lb></lb>Epistre
+          <lb></lb>sur
+          <lb></lb>la condamnation
+          <lb></lb>du theatre.</hi></p>
+        <p></p>
+      <l>Le <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">Théâtre</term></term> est proscrit, RACINE, il va cesser,</l>
+      <l>L’<term type="Religion" rend="Église">Eglise</term>, sur ce point, commence à prononcer.</l>
+        <l>Contre le T***<note resp="editor">[NdE] : Le <term type="Société" rend="Père">père</term> <term type="Autorité" rend="François">François</term> Caffaro, « Théatin », auteur de la « Lettre d’un théologien, illustre par sa qualité et son mérite, consulté par l’auteur pour savoir si la <term type="Théâtre" rend="Comédie">Comédie</term> peut être permise, ou doit être absolument défendu » (dans Pièces de <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">théâtre</term></term> de Boursault, Paris : Jean Guignard, 1694, p. 1-75.)</note>, et son <term type="Qualité_Positive" rend="Hardi">hardi</term> volume</l>
+      <l>Je vois de toutes parts son zèle qui s’allume.</l>
+        <l>Le <term type="Religion" rend="Prélat">Prélat</term> a fait bruit<note resp="editor">[NdE] : La prise de position du <term type="Société" rend="Père">père</term> Caffaro en faveur du <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">théâtre</term></term> a fait réagir Bossuet lui-même qui, après une lettre cinglante à l’intéressé, fait paraître ses <hi rend="i">Maximes et réflexions sur la <term type="Théâtre" rend="Comédie">Comédie</term></hi> (Paris, Jean Anisson, 1694).</note> ; et la chaire a tonné.</l>
+      <l>Sous le poids des écrits, dont il est condamné,</l>
+      <l>Déjà plus d’un Docteur a fait gémir la presse.</l>
+      <l>En <term type="Morale_Négative" rend="Vaine">vain</term>, pour l’appuyer, la volupté s’empresse ;</l>
+      <l>La <term type="Théâtre" rend="Comédie">Comédie</term> expire, et son <term type="Morale_Négative" rend="Vaine">vain</term> défenseur</l>
+      <l>Ne sert qu’à réveiller le courroux du Censeur.</l>
+      <l></l>
+      <l><pb n="4" xml:id="p4"></pb> Et qui peut, parmi nous, <term type="Morale_Positive" rend="Approuver">approuver</term> une <term type="Théâtre" rend="Scène">Scène</term></l>
+      <l>Où règne avec éclat l’impiété <term type="Religion" rend="Païen">païenne</term> ?</l>
+      <l>Où l’on voit chaque jour les <term type="Religion" rend="Démon">Démons</term> encensés</l>
+      <l>Rétablir, par nos mains, leurs <term type="Religion" rend="Autel">autels</term> renversés.</l>
+      <l>Quelle école, en ces <term type="Lieu_des_spectacles" rend="Lieu">lieux</term>, pour la <term type="Qualité_Négative" rend="Faible">faible</term> jeunesse,</l>
+      <l>Que celle, où l’on enseigne à sentir la tendresse ?</l>
+      <l>Où, pour toucher d’exemple, et suborner un cœur,</l>
+      <l>Par les yeux d’une <term type="Femme" rend="Femme">femme</term> on enchaîne un vainqueur :</l>
+      <l>Où l’on fait aux héros un devoir ridicule</l>
+      <l>De se soumettre au <term type="Religion" rend="Dieu">Dieu</term> qui fait filer <term type="Autorité" rend="Hercule">Hercule</term>.</l>
+      <l>Aux <term type="Religion" rend="Païen">païens</term>, il est vrai, l’on pardonne aisément</l>
+      <l>Qu’un héros courageux devienne un lâche amant.</l>
+      <l>D’une Vénus <term type="Qualité_Négative" rend="Infâme">infâme</term> adorateurs fidèles,</l>
+      <l>Leurs flammes n’étaient point <term type="Morale_Négative" rend="Honteux">honteuses</term>, <term type="Qualité_Négative" rend="Criminel">criminelles</term> :</l>
+      <l>L’<term type="Passion" rend="Amour">amour</term> le plus <term type="Morale_Négative" rend="Indigne"><term type="Qualité_Négative" rend="Indigne">indigne</term></term>, et le plus <term type="Passion" rend="Vicieux">vicieux</term></l>
+      <l>Avait, pour s’excuser, l’exemple de leurs <term type="Religion" rend="Dieu">Dieux</term>.</l>
+      <l>Mais nous, que l’Evangile instruit de ses maximes,</l>
+      <l>Nous verra-t-on ainsi diviniser les <term type="Morale_Négative" rend="Crime">crimes</term> ?</l>
+      <l>En donner au <term type="Spectateur" rend="Public">public</term> des préceptes pompeux,</l>
+      <l>Consacrer à l’<term type="Passion" rend="Amour">amour</term> des hymnes et des <term type="Spectacle" rend="Jeux">jeux</term> ;</l>
+      <l>Sur la terre et le <term type="Religion" rend="Ciel">ciel</term> lui donner la <term type="Guerre" rend="Victoire">victoire</term>,</l>
+      <l>Et charmés de nos fers, applaudir à sa <term type="Qualité_Positive" rend="Gloire">gloire</term>.</l>
+      <l></l>
+      <l>Cet <term type="Passion" rend="Amour">amour</term>, nous dit-on, que l’on peint si puissant,</l>
+      <l>Dans ses plus grands transports n’a rien que d’<term type="Autorité" rend="Innocent"><term type="Qualité_Positive" rend="Innocent"><term type="Autorité" rend="Innocent">innocent</term></term></term>.</l>
+      <l>Du <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">théâtre</term></term>, aujourd’hui, les douces impostures</l>
+      <l>N’en font aux <term type="Spectateur" rend="Spectateur">spectateurs</term> que de sages peintures ;</l>
+      <l>Par l’austère devoir le <term type="Morale_Négative" rend="Crime">crime</term> est combattu ;</l>
+      <l>Et l’on y voit toujours triompher la <term type="Morale_Positive" rend="Vertu">vertu</term>.</l>
+      <l></l>
+      <l>RACINE, c’est ainsi que tes doctes ouvrages</l>
+      <l>N’offrirent de ton cœur que de <term type="Société" rend="Noble">nobles</term> images.</l>
+      <l><pb n="5" xml:id="p5"></pb>L’<term type="Passion" rend="Amour">amour</term>, dans tes écrits, <term type="Morale_Positive" rend="Honnête">honnête</term>, généreux,</l>
+      <l>Dès qu’il fut <term type="Morale_Négative" rend="Déréglé">déréglé</term> se trouva malheureux.</l>
+      <l>Mais toi-même, bientôt, en te rendant <term type="Droit" rend="Justice">justice</term>,</l>
+      <l>N’as-tu pas du <term type="Religion" rend="Démon">Démon</term> reconnu l’artifice,</l>
+      <l>Qui pour mieux préparer son funeste <term type="Morale_Négative" rend="Poison">poison</term>,</l>
+      <l>Sait donner à l’erreur un <term type="Qualité_Négative" rend="Faux">faux</term> air de raison :</l>
+      <l>Content que l’on affecte un dehors de sagesse,</l>
+      <l>Plonge insensiblement les cœurs dans la <term type="Morale_Négative" rend="Mollesse">mollesse</term> ;</l>
+      <l>Et fait du fol <term type="Passion" rend="Amour">amour</term> de si charmants portraits,</l>
+      <l>Qu’on cesse d’éviter et de craindre ses traits ?</l>
+      <l>Tu voulus dans les vers d’Esther et d’Athalie,</l>
+      <l>Donner un nouveau lustre à la <term type="Théâtre" rend="Scène">Scène</term> avilie ;</l>
+      <l>Et par toi, dans <term type="Religion" rend="Saint">saint</term> Cyr, le <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">théâtre</term></term> ennobli</l>
+      <l>Offre du vrai sublime un modèle accompli.</l>
+      <l></l>
+      <l>On ne voit pas régner, dans ce nouveau tragique,</l>
+      <l>Tout le <term type="Qualité_Négative" rend="Faux">faux</term> merveilleux de la <term type="Morale_Positive" rend="Vertu">vertu</term> stoïque.</l>
+      <l>Tes héros ne sont pas de ces audacieux</l>
+      <l>Qui ravagent la terre, et menacent les cieux.</l>
+      <l>Ici, l’<term type="Passion" rend="Amour">amour</term> masqué d’une sage apparence,</l>
+      <l>Ne tend point en secret de piège à l’innocence.</l>
+      <l>De plus grands intérêts, de plus <term type="Qualité_Positive" rend="Beau">beaux</term> sentiments</l>
+      <l>N’excitent dans l’esprit que d’heureux mouvements.</l>
+      <l>On y voit, dès l’abord, s’emparer de la <term type="Théâtre" rend="Scène">Scène</term></l>
+      <l>Du véritable <term type="Religion" rend="Dieu">Dieu</term> la grandeur souveraine.</l>
+      <l>De sa <term type="Qualité_Positive" rend="Gloire">gloire</term> invisible on sent la majesté ;</l>
+      <l>On y craint sa <term type="Droit" rend="Justice">justice</term>, on chérit sa bonté.</l>
+      <l>Mon âme, qui se sent de sa grandeur première,</l>
+      <l>Vole vers cet objet, s’y livre toute entière ;</l>
+      <l>Et goûtant, à longs traits, l’aimable vérité,</l>
+      <l>Conçoit pour tout le reste une illustre fierté.<note resp="editor">[NdE] On corrige un point d’interrogation en point.</note> </l>
+      <l><pb n="6" xml:id="p6"></pb> Mieux que dans les écrits du savant <term type="Religion" rend="Paganisme">paganisme</term>,</l>
+      <l>Tu m’y fais <term type="Qualité_Positive" rend="Admirer">admirer</term> le parfait héroïsme.</l>
+      <l>Une <term type="Morale_Positive" rend="Vertu">vertu</term> sublime, ou n’entre point l’orgueil,</l>
+      <l>De la <term type="Morale_Positive" rend="Vertu">vertu</term> <term type="Religion" rend="Païen">païenne</term> inévitable écueil,</l>
+      <l>Un courage indompté, conduit par la sagesse ;</l>
+      <l>Nul mélange <term type="Morale_Négative" rend="Honteux">honteux</term> de force et de faiblesse.</l>
+      <l>Si de la <term type="Qualité_Positive" rend="Beau">belle</term> Esther un <term type="Société" rend="Prince">Prince</term> est enchanté,</l>
+      <l>C’est sa <term type="Morale_Positive" rend="Vertu">vertu</term> qu’il vante et non pas sa beauté,</l>
+      <l>Rien du <term type="Morale_Négative" rend="Profane"><term type="Religion" rend="Profane">profane</term></term> <term type="Passion" rend="Amour">amour</term> n’y ressent la licence ;</l>
+      <l>Tout respire en Esther la paix et l’innocence.</l>
+      <l>Quel <term type="Affect" rend="Plaisir">plaisir</term> d’écouter tes aimables Acteurs,</l>
+      <l>Des plus hautes <term type="Morale_Positive" rend="Vertu">vertus</term> nouveaux Prédicateurs !</l>
+      <l>Des poèmes si <term type="Qualité_Positive" rend="Beau">beaux</term>, chaque fois qu’on les joue,</l>
+      <l>Exercent sur nos cœurs les droits de Bourdaloue :</l>
+      <l>Celui qui de son <term type="Religion" rend="Dieu">Dieu</term> tendait à s’éloigner,</l>
+      <l>S’y sent, par le <term type="Affect" rend="Plaisir">plaisir</term>, doucement ramener.</l>
+      <l>Et quand, des <term type="Religion" rend="Saint">saints</term> écrits <term type="Qualité_Positive" rend="Magnifique">magnifique</term> interprète,</l>
+      <l>Tu prends entre tes mains la harpe du <term type="Religion" rend="Prophète">prophète</term> ;</l>
+      <l>Est-il quelque <term type="Religion" rend="Démon">démon</term>, dans l’âme des <term type="Qualité_Négative" rend="Méchant">méchants</term>,</l>
+      <l>Qui puisse résister à des sons si touchants ?</l>
+      <l></l>
+      <l>C’est là que la <term type="Morale_Positive" rend="Vertu">vertu</term> peut tenir son école.</l>
+      <l>L’acteur innocemment y peut jouer son rôle.</l>
+      <l>Là, mettant à <term type="Economie" rend="Profit">profit</term> les heures du loisir,</l>
+      <l>Le parterre <term type="Religion" rend="Chrétien">chrétien</term> s’instruit avec <term type="Affect" rend="Plaisir">plaisir</term>.</l>
+      <l>C’est dans ces vers sacrez, mêlés de symphonie,</l>
+      <l>Qu’il sied bien aux auteurs d’exercer leur génie.</l>
+      <l>S’ils ont de leurs talents autrement disposé,</l>
+      <l>C’est un présent du <term type="Religion" rend="Ciel">Ciel</term> dont ils ont abusé.</l>
+      <l>Pour donner à son <term type="Religion" rend="Culte">culte</term> un air plus <term type="Qualité_Positive" rend="Magnifique">magnifique</term>,</l>
+      <l><term type="Religion" rend="Dieu">Dieu</term> sans doute inspira les vers et la musique.</l>
+      <l><pb n="7" xml:id="p7"></pb> Faut-il que pour la fable il se soit consumé,</l>
+      <l>Tout ce <term type="Qualité_Positive" rend="Beau">beau</term> feu d’esprit parmi nous allumé !</l>
+      <l>Mensonges séducteurs, pompeuses bagatelles,</l>
+      <l>Méritiez-vous d’user nos plumes les plus <term type="Qualité_Positive" rend="Beau">belles</term> !</l>
+      <l>Fallait-il, pour chanter l’<term type="Passion" rend="Amour">amour</term>, et ses erreurs,</l>
+      <l>Profaner d’un Lully les divines <term type="Morale_Négative" rend="Fureur">fureurs</term> !</l>
+      <l></l>
+      <l>Loin de nous, l’appareil de tous ces <term type="Morale_Négative" rend="Vaine">vains</term> <term type="Spectacle" rend="Spectacle">spectacles</term>,</l>
+      <l>Qui doivent leur éclat aux fabuleux miracles ;</l>
+      <l>Et dont tout l’art consiste à savoir ranimer</l>
+      <l>D’aveugles <term type="Religion" rend="Passion">passions</term> qu’il nous faut réprimer.</l>
+      <l>Gardons-nous d’écouter d’amoureuses chimères ;</l>
+      <l>D’honorer de nos pleurs des maux imaginaires.</l>
+      <l>Ou, s’il est à pleurer certaine volupté,</l>
+      <l>Pleurons des <term type="Religion" rend="Saint">saints</term> héros la mort, l’adversité.</l>
+      <l>Qu’on vienne, à ton exemple, en de savantes veilles,</l>
+      <l>Des volumes <term type="Qualité_Positive" rend="Sacré">sacrés</term> étaler les merveilles.</l>
+      <l>De Joseph, dans les fers, partageons les douleurs ;</l>
+      <l>Pour Jonathas mourant laissons couler nos pleurs.</l>
+      <l>Que du ferme Abraham l’<term type="Société" rend="Auguste">auguste</term> <term type="Religion" rend="Sacrifice">sacrifice</term></l>
+      <l>Prépare des dangers dont notre cœur frémisse.</l>
+      <l>Allons, avec Jephté, soupirer à l’<term type="Religion" rend="Autel">autel</term>,</l>
+      <l>Où sa <term type="Femme" rend="Fille"><term type="Société" rend="Fille">fille</term></term> <term type="Qualité_Positive" rend="Innocent"><term type="Autorité" rend="Innocent">innocente</term></term> attend le coup <term type="Passion" rend="Mortel">mortel</term>.</l>
+      <l><term type="Religion" rend="Dieu">Dieu</term> qui verra nos cœurs touchés par ces images,</l>
+      <l>Jusque dans nos <term type="Affect" rend="Plaisir">plaisirs</term> recevra nos hommages.</l>
+      <l>Mais, qu’il rentre à jamais dans l’éternelle nuit,</l>
+      <l>Ce fantôme d’<term type="Passion" rend="Amour">amour</term>, que la <term type="Théâtre" rend="Scène">Scène</term> a produit !</l>
+      <l>Qui sait presque toujours allumer dans nos veines</l>
+      <l>Le feu dont il brûla les Phèdres, les Chimènes.</l>
+      <l>Malheur à notre esprit, s’il goûte des <term type="Affect" rend="Plaisir">plaisirs</term></l>
+      <l>Qui peuvent contre <term type="Religion" rend="Dieu">Dieu</term> révolter nos désirs !</l>
+      <l></l>
+      <l><pb n="8" xml:id="p8"></pb>Mais je le vois tomber ce dangereux <term type="Lieu_des_spectacles" rend="Théâtre"><term type="Théâtre" rend="Théâtre">théâtre</term></term>,</l>
+      <l>Qu’anima si longtemps un génie idolâtre.</l>
+      <l>Ses poètes rampants, et ses <term type="Morale_Négative" rend="Mauvais">mauvais</term> acteurs</l>
+      <l>Rebutent, chaque jour, les doctes <term type="Spectateur" rend="Spectateur">spectateurs</term>.</l>
+      <l>Pour charmer dans ses <term type="Spectacle" rend="Jeux">jeux</term>, l’esprit avec l’oreille,</l>
+      <l>Il n’a plus son <term type="Autorité" rend="Molière"><term type="Autorité" rend="Molière"><term type="Auteur" rend="Molière"><term type="Auteur" rend="Molière">Molière</term></term></term></term>, il a perdu <term type="Autorité" rend="Corneille">Corneille</term>.</l>
+      <l>Et lorsque par toi seul soutenu, rassuré,</l>
+      <l>Il voit monter sa <term type="Qualité_Positive" rend="Gloire">gloire</term> au suprême degré ;</l>
+      <l>Tu disparais, tu veux faire un plus <term type="Société" rend="Noble">noble</term> usage</l>
+      <l>Des talents que le <term type="Religion" rend="Ciel">ciel</term> t’a donnés en partage.</l>
+      <l>RACINE, c’en est fait. Tout son lustre a passé,</l>
+      <l>Depuis qu’à l’embellir ta <term type="Femme" rend="Muse">muse</term> a renoncé.</l>
+      <l>Et ta sage retraite est un coup qui l’étonne</l>
+      <l>Plus que tous les Censeurs que lui fait la Sorbonne.</l>
+      <l></l>
+      <signed>P. BARDOU </signed>
+      <byline>Prieur de la Voux</byline>
+      <signed></signed>
+      </div>
+    </body>
+  </text>
+</TEI>

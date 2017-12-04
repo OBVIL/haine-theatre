@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="montaigne_essais_1580" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De l’institution des enfants</title>
+        <author key="Montaigne, Michel de (1533-1592)">Montaigne</author>
+        <editor key="Francois, Lecercle">François Lecercle</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Chiara Mainardi</name>
+          <resp>Stylage, édition XML-TEI</resp>
+        </respStmt>
+       </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2016"></date>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/montaigne_essais_1580/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d'Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l'OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d'Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l'OBVIL et surtout l'adresse Internet de la ressource.</p><p>Pas d'Utilisation Commerciale : dans l'intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l'OBVIL s'engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n'est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl ref="http://catalogue.bnf.fr/ark:/12148/cb30035477w/PUBLIC"><author>Montaigne</author>, <title>Essais, I, 26</title>, <pubPlace>Paris</pubPlace>, <publisher>P. Villey et Saulnier, PUF</publisher>, <date>1965</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1580"></date>
+      </creation>
+      <langUsage>
+        <language ident="fr"></language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="chapter" xml:id="montaigne_essais_1580_1">
+        <head>« De l’institution des <term type="Société" rend="Enfant">enfants</term> », Essais, I, 26 [fin]<note resp="editor">[NdE] Etant donné la nature particulière du texte de Montaigne, avec ses trois "couches" (1580, 1595, exemplaire de Bordeaux) repérées respectivement par les lettres a, b et c, nous dérogeons à la norme habituelle qui est de citer d'après les toutes premières éditions, en donnant leur pagination. Nous donnons donc les pages de l'édition de référence, Montaigne, Essais, éd. P. Villey et V.L. Saulnier, Paris, PUF, 1965, p. 176-177. L'essai est datable d'environ 1578.</note>.</head>
+        <p>[a] Mon âme ne laissait pourtant en même temps d’avoir à part soi des remuements fermes<note resp="editor">[NdE] Comprendre : des réactions fondées.</note> [c] et des jugements sûrs et ouverts autour des objets qu’elle connaissait, [a] et les digérait seule, sans aucune communication<note resp="editor">[NdE] Comprendre : sans rien en faire savoir à personne.</note>. Et, entre autres choses, je crois à la vérité qu’elle eût été du tout <term type="Qualité_Négative" rend="Incapable">incapable</term> de se rendre à la force et à la violence.</p>
+        <p>[b] Mettrai-je en compte cette faculté de mon <term type="Société" rend="Enfance">enfance</term> : une assurance de visage, et souplesse de voix et de <term type="Spectacle" rend="Geste">geste</term>, à m’appliquer aux rôles que j’entreprenais ? Car, avant l’âge,</p>
+        <p><quote>Alter ab undecimo tum me vix ceperat annus</quote><note resp="editor">[NdE] « A peine avais-je atteinte ma douzième année » (<term type="Autorité" rend="Virgile"><term type="Autorité" rend="Virgile">Virgile</term></term>, <hi rend="i">Bucoliques</hi>, VIII, 39).</note>, j’ai soutenu les premiers personnages ès <term type="Théâtre" rend="Tragédie">tragédies</term> latines de Buchanan<note resp="editor">[NdE] George Buchanan (1506-1582), humaniste écossais, auteur de <term type="Théâtre" rend="Tragédie">tragédies</term> latines.</note>, de Guérente<note resp="editor">[NdE] Guillaume Guérente, humaniste et pédagogue <term type="Nationalité" rend="Français">français</term>, éditeur d'<term type="Autorité" rend="Aristote"><term type="Autorité" rend="Aristote">Aristote</term></term>.</note> et de Muret<note resp="editor">[NdE] <term type="Société" rend="Marc_Antoine">Marc-Antoine</term> Muret (1526-1585) humaniste et pédagogue <term type="Nationalité" rend="Français">français</term>, auteur d'une <term type="Théâtre" rend="Tragédie">tragédie</term> latine <hi rend="i">Julius <term type="Société" rend="Caesar">Caesar</term></hi>.</note>, qui se représentèrent en notre <term type="Lieu_des_spectacles" rend="Collège">collège</term> de Guyenne avec <term type="Affect" rend="Dignité">dignité</term>. En cela Andreas Goveanus<note resp="editor">[NdE] André de Gouveia (ou Gouvea, 1497-1548), humaniste portugais, principal du <term type="Lieu_des_spectacles" rend="Collège">collège</term> de Guyenne.</note>, notre principal, comme en toutes autres parties de sa <term type="Economie" rend="Charges">charge</term>, fut sans comparaison le plus grand principal de France : et m’en tenait-on maître <term type="Société" rend="Ouvrier">ouvrier</term>. C’est un exercice que je ne méloue point aux jeunes <term type="Société" rend="Enfant">enfants</term> de maison<note resp="editor">[NdE] Comprendre : que je ne condamne pas pour les jeunes <term type="Société" rend="Enfant">enfants</term> de <term type="Qualité_Positive" rend="Bon">bonne</term> maison.</note> ; et ai vu nos <term type="Société" rend="Prince">Princes</term> s’y adonner depuis en personne, à l’exemple d’aucuns des anciens, honnêtement et louablement.</p>
+        <p>[c] Il était loisible même d’en faire métier aux gens d’<term type="Qualité_Positive" rend="Honneur">honneur</term> en Grèce : <quote>Aristoni tragico actori rem aperit : huic et genus et fortuna honesta erant ; nec ars, quia nihil tale apud Graecos pudori est, ea deformabat.</quote><note resp="editor">[NdE] « Il découvre son projet à l’acteur tragique Ariston. C‘était un homme distingué par sa naissance et par sa fortune ; et sa profession (comme les occupations de ce genre n’ont rien de déshonorant chez les <term type="Nationalité" rend="Grec">Grecs</term>) ne le rabaissait en rien » (<term type="Autorité" rend="Tite">Tite</term>-<term type="Autorité" rend="Live">Live</term>, XXIV, 24).</note></p>
+        <p>[b] Car j’ai toujours accusé d’impertinence<note resp="editor">[NdE] Erreur de jugement.</note> ceux qui condamnent ces ébattements, et d’injustice ceux qui refusent l’entrée de nos <term type="Qualité_Positive" rend="Bon">bonnes</term> <term type="Autorité" rend="Ville">villes</term> aux <term type="Acteur" rend="Comédien">comédiens</term> qui le valent, et envient<note resp="editor">[NdE] Refusent.</note> au <term type="Société" rend="Peuple">peuple</term> ces <term type="Affect" rend="Plaisir">plaisirs</term> <term type="Spectateur" rend="Public">publiques</term>. Les <term type="Qualité_Positive" rend="Bon">bonnes</term> polices<note resp="editor">[NdE] = ce qui règle la vie de la cité.</note> prennent <term type="Affect" rend="Soin">soin</term> d’assembler les citoyens et les rallier, comme aux offices <term type="Morale_Positive" rend="Sérieux">sérieux</term> de la <term type="Religion" rend="Dévotion">dévotion</term>, aussi aux exercices et <term type="Spectacle" rend="Jeux">jeux</term> ; la société et amitié s’en augmente. Et puis on ne leur saurait concéder des passetemps plus réglés que ceux qui se font en présence d’un chacun et à la vue même du <term type="Droit" rend="Magistrat">magistrat</term>. Et trouverais <term type="Morale_Positive" rend="Raisonnable">raisonnable</term> que le <term type="Droit" rend="Magistrat">magistrat</term>, et le <term type="Société" rend="Prince">prince</term>, à ses dépens, en gratifiât quelquefois la commune<note resp="editor">[NdE] = le commun <term type="Société" rend="Peuple">peuple</term>, le vulgaire. Donc : le <term type="Société" rend="Peuple">peuple</term>.</note>, d’une affection et bonté comme paternelle ; [c] et qu’aux <term type="Autorité" rend="Ville">villes</term> populeuses il y eût des <term type="Lieu_des_spectacles" rend="Lieu">lieux</term> destinés et disposés pour ces <term type="Spectacle" rend="Spectacle">spectacles</term> : quelque <term type="Spectacle" rend="Divertissement">divertissement</term> de pires actions et occultes<note resp="editor">[NdE] Comprendre : ce qui détourne de faire des choses bien pires, en secret.</note>.</p>
+        <p>[a] Pour revenir à mon propos, il n’y a tel que<note resp="editor">[NdE] Comprendre : il n’y a rien de tel que de solliciter l’envie (de faire quelque chose) et les sentiments.</note> d’allécher l’appétit et l’affection, autrement on ne fait que des ânes chargés de livres. On leur donne à coups de fouet en garde leur pochette pleine de science, laquelle, pour bien faire, il ne faut pas seulement loger chez soi, il la faut épouser.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
