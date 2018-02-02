@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
 <!--Odette: 2017-01-10T14:42:10+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
 	<teiHeader>
@@ -40,9 +41,7 @@
 		</profileDesc>
 	</teiHeader>
   <text>
-  	<front>
-    			<titlePage>
-    				<titlePart>OBSERVATIONS SUR UNE COMÉDIE DE MOLIÈRE,
+    				<head>OBSERVATIONS SUR UNE COMÉDIE DE MOLIÈRE,
     					<lb/>intitulée,
     					<lb/>Le Festin de Pierre.
     					<lb/>Par le Sieur DE ROCHEMONT.
@@ -55,9 +54,7 @@
     					<lb/>OBSERVATIONS SUR UNE COMÉDIE DE MOLIÈRE,
     					<lb/>intitulée,
     					<lb/>Le Festin de Pierre.
-    				</titlePart>
-    			</titlePage>
-    		</front>
+    				</head>
   	<body>
   		<div type="chapter">
     		<head><hi rend="b"><hi rend="i">Observations sur une comédie de Molière intitulée Le Festin de Pierre</hi>, Paris, Nicolas Pépingué, 1665</hi><note place="bottom" resp="editor">[NDE] Ce texte est paru peu après la création de <hi rend="i">Dom Juan ou le Festin de Pierre</hi> de Molière : le permis d’imprimer est daté du 10 mai 1665, la pièce avait été créée le 15 février. On ignore qui se fait appeler « Sieur de Rochemont ». Ce pamphlet provoquera deux réponses anonymes : <hi rend="i">Réponse aux observations touchant Le Festin de Pierre de M. de Molière</hi> et <hi rend="i">Lettre sur les observations d’une comédie du sieur Molière intitulée Le Festin de Pierre</hi>, toutes deux parues chez Gabriel Quinet, la même année (mais sans achevé d’imprimer).</note></head>
