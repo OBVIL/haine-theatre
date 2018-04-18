@@ -2,12 +2,12 @@
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="adibert_avis_1687.pdf" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Avis aux RR PP jésuites</title>
-        <author>Adibert, Pierre</author>
+        <title>Avis aux RR. PP. jésuites</title>
+        <author key="Adibert, Pierre (fl. 1686-1687)">Pierre Adibert</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -36,14 +36,10 @@
             <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
         </availability>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/adibert_avis_1687/</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <author>Pierre Adibert</author>,
-          <title>Avis aux RR PP jésuites</title>,
-          <date>1687</date>,
-          <biblScope>p. 3-70</biblScope>.
-        </bibl>
+        <bibl><author>Pierre Adibert</author>, <title>Avis aux RR. PP. jésuites d'Aix-en-Provence, sur un imprimé qui a pour titre : Ballet dansé à la réception de Monseigneur l'Archevêque d'Aix</title>,<pubPlace>Cologne</pubPlace>, <publisher>Pierre Le Blanc</publisher>, <date>1687</date>, <biblScope>p. 3-70</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -57,6 +53,7 @@
   </teiHeader>
   <text>
     <body>
+      <div>
         <pb n="3"/><head>AVIS AUX RR. PP. JESUITES D’AIX EN PROVENCE,<lb/>Sur un Imprimé qui a pour Titre :<lb/><hi rend="i">Ballet dansé à la Réception de Monseigneur l’Archevêque d’Aix.</hi></head>
         <div type="introduction">
         <p>Il est étrange, Mes Révérends Pères, que vous ayez si mal profité des Avis que l’on donna l’année passée à vos Confrères de Luxembourg sur leur scandaleuse Procession ; et que l’on soit obligé de vous en donner de semblables sur ce que vous venez de faire à Aix qui n’est pas moins indigne de Chrétiens, de Religieux et de Prêtres.</p>
@@ -165,11 +162,11 @@
           </quote>
           <p>Ce que vous mettez dans la bouche de Jupiter, n’est pas moins injurieux à Dieu que Jupiter même. Le mot d’Empire par lequel vous exprimez la conduite <pb n="25"/>future de votre Archevêque, fait voir que vous n’êtes guère accoutumés au langage ni de l’Ecriture ni de l’Eglise, n’y ayant rien dans l’une et dans l’autre qui soit davantage condamné dans un Evêque, que cet Esprit de domination et d’Empire avec lequel il voudrait gouverner les âmes que <hi rend="sc">Jésus Christ</hi> a mises en liberté.<note resp="author" place="bottom">I. Pet. 5.</note>
             « <quote><hi rend="i">Paissez le troupeau qui vous est commis</hi><seg type="exquote">, dit S. Pierre à tous les Evêques, … …</seg><hi rend="i">non en dominant sur l’héritage du Seigneur, mais en vous rendant les modèles du troupeau par une vertu qui naisse du fond du cœur</hi></quote> ». Et <hi rend="sc">Jésus Christ</hi> dans l’Evangile : <quote><hi rend="i">Les Rois des Nations dominent sur eux, et ceux qui ont puissance sur les peuples sont appelés Rois et Seigneurs, mais il n’en est pas ainsi de vous</hi></quote>. « <quote>Il est donc clair<seg type="exquote">, dit<note resp="author" place="bottom"><p>De Consider. Prolog.</p></note> Saint Bernard,</seg> que la domination est interdite aux Apôtres, et que si vous voulez avoir la domination et l’Apostolat tout ensemble, vous les perdrez tous deux. Vous devez dompter les loups, mais non pas dominer sur les brebis. Car on vous les a confiées pour les paître, et non pas pour les opprimer.</quote> »</p>
-          <p>Mais de quoi s’avise votre Jupiter de <pb n="26"/>dire, <hi rend="i">que <quote>sous l’Empire de votre Héros, les peuples verront refleurir la Religion et la piété</quote></hi> ? Est-ce que feu M. le Cardinal Grimaldi les avait laissé périr l’une et l’autre, et qu’elles ont besoin de refleurir sous votre Héros ? C’est ce que nous pourrons examiner plus bas. Je me contenterai d’avertir ici que dans votre Dictionnaire <hi rend="i">faire refleurir la Religion et la piété</hi> dans un Diocèse, c’est y mettre le trouble et la confusion ; c’est en bannir les Ecclésiastiques les plus éclairés et les plus pieux, ou les mettre hors d’état de servir l’Eglise ; en un mot, c’est ruiner en deux ou trois mois, autant que l’on peut, le fruit d’un long et pénible travail de tout Evêque, quelque Saint qu’il eût été, qui n’aurait pas approuvé vos mauvaises maximes et votre conduite relâchée. Mais venons au <hi rend="sc">Prélude</hi>.</p>
+          <p>Mais de quoi s’avise votre Jupiter de <pb n="26"/>dire, <hi rend="i">que </hi><quote><hi rend="i">sous l’Empire de votre Héros, les peuples verront refleurir la Religion et la piété</hi></quote> ? Est-ce que feu M. le Cardinal Grimaldi les avait laissé périr l’une et l’autre, et qu’elles ont besoin de refleurir sous votre Héros ? C’est ce que nous pourrons examiner plus bas. Je me contenterai d’avertir ici que dans votre Dictionnaire <hi rend="i">faire refleurir la Religion et la piété</hi> dans un Diocèse, c’est y mettre le trouble et la confusion ; c’est en bannir les Ecclésiastiques les plus éclairés et les plus pieux, ou les mettre hors d’état de servir l’Eglise ; en un mot, c’est ruiner en deux ou trois mois, autant que l’on peut, le fruit d’un long et pénible travail de tout Evêque, quelque Saint qu’il eût été, qui n’aurait pas approuvé vos mauvaises maximes et votre conduite relâchée. Mais venons au <hi rend="sc">Prélude</hi>.</p>
         </div>
         <div type="chapter">
           <head>VI.</head>
-          <p>Vous dites, « <hi rend="i">qu’<quote>il répond à l’élection, et qu’il sera représenté par la fable de la Pomme d’or</quote></hi>. »</p>
+          <p>Vous dites, « <hi rend="i">qu’</hi><quote><hi rend="i">il répond à l’élection, et qu’il sera représenté par la fable de la Pomme d’or</hi></quote>. »</p>
           <p>Cette Pomme d’or, mes Pères, est propre à faire souvenir ceux qui ont lu les Poètes, de l’Histoire ou de la fable de ces trois Déesses qui se disputant l’une à l’autre le prix de la beauté s’en remirent <pb n="27"/>au jugement de Pâris qui décida en faveur de Vénus. La pudeur m’empêche de dire le reste. Elle peut encore servir à rappeler dans l’esprit la prise de Troie, et ces longues et cruelles guerres qu’Homère et Virgile ont décrites, et dont votre Pomme d’or fut la première cause.</p>
           <p>Mais on ne comprend pas comment il est possible qu’elle soit l’allégorie d’une élection qui fasse honneur à votre Prélat, et quelques habiles que vous soyez, mes Pères, dans la fiction, certainement vous faites naufrage dès le Prélude, et votre Héros ne doit point vous savoir gré de l’avoir joué d’une manière qui donne une idée très désavantageuse de son entrée à l’Archevêché de votre Eglise ? Car voici l’application que vous faites ou que vous pensez faire de votre fable en sa faveur.</p>
           <p>« <quote><hi rend="i">Six Génies dansent</hi><seg type="exquote">, dites-vous,</seg> <hi rend="i">lorsqu’une Pomme d’or tombe du ciel. L’on entend une voix qui prononce distinctement ce mot</hi> <hi rend="sc">au plus digne</hi>. »</quote></p>
@@ -302,6 +299,7 @@
           <p>Voilà donc votre Héros devenu Dieu, et du nombre de ces Dieux que les Romains appelaient <hi rend="i">Majorum Gentium</hi>, c’est à dire, du premier ordre, puisque ceux du second ordre, <hi rend="i">Hercule, Orphée, Argus, Esculape</hi>, lui viennent faire hommage en mettant chacun à ses pieds le Symbole de sa divinité. Vous pouviez encore faire qu’Apollon lui mit sur la tête sa couronne de laurier. Est-ce que vous l’avez oublié ? ou que vous avez appréhendé de n’en être pas avoués ?</p>
           <p>Il ne vous restait plus pour recueillir le fruit de vos rares inventions, que de les faire publier par la Renommée. Et c’est à quoi vous ne manquez pas. « <quote><hi rend="i">La Renommée</hi><seg type="exquote">, dites-vous, </seg><hi rend="i">partira pour aller annoncer par toute la terre, la joie de la Ville, le mérite du Héros, et les honneurs qu’on lui a rendus</hi></quote> ». Il en sera quelque chose. <pb n="70"/>Cette prophane <hi rend="i">apothéose</hi> et tout ce qui l’a précédée sont d’un genre de folie assez singulier, pour être publiés par la Renommée sinon par toute la terre, au moins en beaucoup de lieux. Mais ne doutez point qu’elle ne publie aussi les charitables Avis que l’on vous donne, pour vous porter à rentrer en vous-mêmes, et à réparer le scandale que vos Processions et vos Ballets causent à l’Eglise.</p>
         </div>
+      </div>
     </body>
   </text>
 </TEI>
