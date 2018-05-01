@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Essai sur la comédie nouvelle</title>
+        <author key="Meslé le Jeune (??-??)">Meslé le Jeune</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>François Lecercle</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Clotilde Thouret</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2018" />
+        <idno>http:/obvil.paris-sorbonne.fr/corpus/haine-theatre/mesle_essai-sur-comedie_1752/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Meslé le Jeune</author>, 
+          <title>Essai sur la comédie nouvelle</title>, 
+          <pubPlace>Paris</pubPlace>, 
+          <publisher>Veuve Pissol et M. Duchesne</publisher>, 
+          <date>1752</date> 
+          <biblScope>p. I-VIII; 1-175</biblScope>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1752" />
+      </creation>
+      <langUsage>
+        <language ident="fr" />
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="contents">
+        <head>Essai sur la comédie nouvelle</head>
+        <label>ESSAI<lb />Sur la Comédie Moderne<lb />où l’on réfute les nouvelles observations de M. Fagan au sujet des condamnations prononcées contre les Comédiens</label></div>
+        <div type="letter">
+          <pb n="I" /><head>A MONSIEUR<lb />M.R.D.D.A.A.</head>
+          <p><hi rend="i">Ce n’est point à un Grand que je dédie mon Livre. Mon hommage est plus pur ; c’est à mon ami. Ce titre annonce <pb n="II" />tous les avantages que j’y trouve.</hi></p>
+          <p><hi rend="i">Vous les sentez comme moi,</hi> <hi rend="sc">mon cher Ami</hi> ; <hi rend="i">votre cœur vous les dit assez, sans que je vous les explique. La véritable amitié sympathise.</hi></p>
+          <p><hi rend="i">Agréez donc ces</hi> <hi rend="sc">Essais</hi>, <hi rend="i">et qu’ils consacrent nos sentiments. Voilà où je borne mes vœux, votre éloge, et mon Epître.</hi></p>
+          <p>M.L.J.D.B.</p>
+        </div>
+        <div type="preface">
+          <pb n="III" /><head><hi rend="i">PRÉFACE.</hi></head>
+          <p>Une Préface est pardonnable, quand elle est courte.</p>
+          <p>Je n’ai pas pris la plume précisément pour attaquer les Spectacles. Les <hi rend="i">nouvelles Observations</hi> ont depuis peu percé jusqu’à moi ; il m’a paru si facile de les réfuter, que je l’ai fait. Voilà tout. Plus une Apologie est faible, plus la Critique est aisée. Cela n’est pas brave, mais cela est commode.</p>
+          <p>Je ne suis ennemi déclaré, ni de la Comédie, ni des Comédiens. Il y en a même parmi <pb n="IV" />ces derniers qui me semblent dignes à tous égards de l’estime et de l’amitié des honnêtes gens. Je déclare donc que je n’en veux à personne, que je n’ai voulu offenser personne, que je n’ai eu personne en vue. Ce que j’ai dit, j’ai dû le dire ; la matière l’exigeait.</p>
+          <p>On pourra me prêter des motifs que je n’ai point eu<note place="bottom" resp="editor"> [NDE] A l'époque, l'accord du participe passé pouvait ne pas se faire.</note>, faire des applications que je n’ai point eu en vue. Tant pis. D’avance je proteste contre.</p>
+        </div>
+        <div type="chapter">
+          <pb n="V" /><head>APPROBATION.</head>
+          <p>J’ai lu par ordre de Monseigneur le Chancelier un Manuscrit intitulé, <hi rend="i">Essai sur la Comédie moderne</hi> : et je n’y ai rien trouvé qui puisse en empêcher l’impression. A Paris, ce 15 Juin 1752. COQUELEI DE CHAUSSE-PIERRE.</p>
+        </div>
+        <div type="chapter">
+          <head><hi rend="i">PRIVILEGE DU ROY.</hi></head>
+          <p><hi rend="sc">Louis par la grâce de Dieu Roi de France et de Navarre</hi> : A nos aimés et féaux Conseillers, les Gens tenant nos Cours de Parlement, Maîtres des Requêtes ordinaires de notre Hôtel, Grand Conseil, Prévôt de Paris, Baillis, Sénéchaux, leurs Lieutenants Civils, et autres nos Justiciers qu’il appartiendra, <hi rend="sc">Salut</hi> : Notre aimé le sieur <seg>… … …</seg>. Nous a fait exposer qu’il désirerait faire imprimer et donner au Public un Ouvrage qui a pour titre, <hi rend="i">Essai sur la Comédie moderne, où l’on réfute les nouvelles Observations de M. Fagan</hi>, s’il Nous plaisait lui accorder <pb n="VI"/>nos Lettres de permission pour ce nécessaires : <hi rend="sc">A ces causes</hi>, voulant favorablement traiter l’Exposant, Nous lui avons permis et permettons par ces Présentes de faire imprimer ledit Ouvrage en un ou plusieurs Volumes, et autant de fois que bon lui semblera, et de le faire vendre et débiter par tout notre Royaume pendant le temps de trois années consécutives, à compter du jour de la date des Présentes. Faisons défenses à tous Imprimeurs, Libraires, et autres personnes, de quelque qualité et condition qu’elles soient, d’en introduire d’impression étrangère dans aucun lieu de notre obéissance ; à la charge que ces Présentes seront enregistrées tout au long sur le Registre de la Communauté des Imprimeurs et Libraires de Paris, dans trois mois de la date d’icelles ; que l’impression dudit Ouvrage sera faite dans notre Royaume, et non ailleurs, en bon papier et beaux caractères, conformément à la feuille imprimée attachée pour modèle sous le contre-scel<note resp="editor" place="bottom"> [NDE] Petit sceau apposé sur le tiret du parchemin qui attache les lettres scellées en chancellerie (Littré).</note> des Présentes ; que l’Impétrant se conformera en tout aux Règlements de la Librairie, et notamment à celui <pb n="VII"/>du 10 Avril 1725 ; qu’avant de l’exposer en vente, le manuscrit qui aura servi de copie à
+          l’impression dudit Ouvrage sera remis, dans le même état, où l’approbation y aura été donnée, ès mains de notre très cher et féal Chevalier, Chancelier de France, le sieur de Lamoignon, et qu’il en sera ensuite remis deux Exemplaires dans notre Bibliothèque publique, un dans celle de notre Château du Louvre, un dans celle de notre dit très cher et féal Chevalier, Chancelier de France, le sieur de Lamoignon, et un dans celle de notre très cher et féal Chevalier, Garde des Sceaux de France, le sieur de Machault, Commandeur de nos Ordres ; le tout à peine de nullité des Présentes. Du contenu desquelles vous mandons et enjoignons de faire jouir ledit Exposant et ses ayant cause pleinement et paisiblement, sans souffrir qu’il leur soit fait aucun trouble ou empêchement : Voulons qu’à la copie des Présentes qui sera imprimée tout au long au commencement ou à la fin dudit Ouvrage, foi y soit ajoutée comme à l’original. <hi rend="sc">Commandons</hi> au premier notre Huissier ou Sergent sur ce <pb n="VIII"/>requis, de faire pour l’exécution d’icelles tous actes requis et nécessaires, sans demander autre permission, et nonobstant clameur de Haro, Charte Normande, et Lettres à ce contraires ; car tel est notre plaisir. <hi rend="sc">Donné</hi> à Paris le vingt-neuvième jour du mois de Juin, l’an de grâce mil sept cents cinquante-deux, et de notre Règne le trente-septième. Par le Roi en son Conseil.</p>
+          <p><hi rend="i">Signé</hi>, SAINSON.</p>
+          <p><hi rend="i">Registré sur le Registre XIII. de la Chambre royale des Libraires et Imprimeurs de Paris,</hi> n°. 6. fol. 4. <hi rend="i">conformément au Règlement de 1723, qui fait défenses, art. 4. à toutes personnes, de quelque qualité qu’elles soient, autres que les Libraires ou Imprimeurs, de vendre, débiter, et faire afficher aucuns Livres pour les vendre en leurs noms, soit qu’ils s’en disent les Auteurs, ou autrement ; et à la charge de fournir à la susdite Chambre neuf Exemplaires prescrits par l’article 108. du même Règlement. A Paris, le vingt-et-un Juillet mil sept cents cinquante-deux.</hi></p>
+          <p><hi rend="i">Signé</hi>, COIGNARD, <hi rend="i">Syndic</hi>.</p>
+        </div>
+        <div type="chapter">
+          <pb n="1" /><head><hi rend="i">ESSAI</hi><lb />SUR<lb />LA COMEDIE<lb />MODERNE.</head>
+          <p>Le goût pour la Comédie, et pour les Spectacles en général, est devenu si universel, on s’y livre avec tant d’habitude, et ils ont acquis depuis environ un siècle un si haut degré de perfection en France ; que, d’un côté, bien loin de les regarder comme un plaisir criminel et pernicieux, on les met au nombre de <pb n="2" />ces délassements innocents, nécessaires, autorisés, et utiles, même à la jeunesse, à qui on les permet sans conséquence, à qui on les prescrit sans réflexion ; et que d’un autre, c’est, pour ainsi dire, s’attirer la haine publique, que de s’élever contre un préjugé si flatteur, et qu’il est aussi difficile à un Ecrivain de le détruire que dangereux de le combattre.</p>
+          <p>J’ose cependant prendre les armes, dûssai-je être accusé de <hi rend="i">chercher à entretenir le courroux de l’Eglise</hi> ? Mais je les prends moins en Théologien et en Casuiste qu’en homme raisonnable, qui n’a besoin, pour les combattre, que des faits et du raisonnement, et qui, indépendamment des droits de la Religion, ne cherche qu’à faire valoir ceux de <pb n="3" />la vérité. C’est à son tribunal seul que je traduis le Théâtre.</p>
+          <p>Qu’on ne trouve donc point singulier qu’un homme étranger, pour ainsi dire, à la piété, sans vocation décidée ; en un mot un homme du monde se charge d’un ministère qui paraît purement apostolique. Je ne me serais d’ailleurs jamais avisé d’écrire contre la Comédie, si on l’eût laissée telle qu’elle est, et que l’on n’eût pas troublé le silence où l’on était à son égard. Je suis même bien persuadé que ce que je dirai n’opérera pas plus sa proscription, que les <hi rend="i">nouvelles Observations</hi> n’opéreront sa décharge : mais j’ai cru qu’il était essentiel de détromper ceux qu’elles auront pu séduire, et de fournir au moins aux gens sensés <pb n="4"/>de quoi appuyer leur jugement sur une matière qui devient tous les jours plus importante, surtout pour l’éducation de la jeunesse.</p>
+          <p>Amateur des Spectacles, je désirerais peut-être, plus que qui ce soit<note place="bottom" resp="editor"> [NDE] plus que qui ce soit = plus que qui que ce soit.</note>, que l’on pût les rendre tels, qu’on les fréquentât sans scrupule, et qu’on nous les procurât sans rougir. Mais j’ai de la peine à croire ce que nous dit un célèbre Rhéteur<note place="bottom" resp="author"> [NDA] Le P. Porée.</note>, qu’on pourrait faire du Théâtre une très bonne école pour les mœurs. Il n’en est pas lui-même bien convaincu ; en tout cas, dans l’état où il se trouve aujourd’hui, il y aurait encore bien du chemin à faire. L’impiété, la grossièreté, <pb n="5"/>l’indécence, n’y règnent plus tant, si l’on veut, mais le danger y est plus grand. Cette <hi rend="i">politesse</hi>, cette <hi rend="i">élévation de sentiments</hi>, ces <hi rend="i">grandes leçons pour les mœurs</hi>, sont des fleurs agréables sous lesquelles le serpent est caché.</p>
+          <p>On ne se persuadera point que si la Comédie eût toujours été telle qu’elle est aujourd’hui, <hi rend="i">elle ne se serait point attiré les censures ecclésiastiques</hi>. Mais en le supposant pour un moment ; s’il était vrai que l’Eglise n’eût pas eu alors assez de motifs pour lancer l’anathème, il ne l’est pas moins qu’elle n’en a pas assez à présent pour le retirer.</p>
+          <p>Tout le monde sait ce qu’était la Comédie dans les derniers siècles ; <pb n="6"/>une plume habile<note place="bottom" resp="author"> [NDE] Le P. Le Brun.</note> nous a exposé avec ordre, et la honte de sa naissance, et le progrès de ses désordres. Ce n’est point par là que je me propose de l’attaquer ; ses défenseurs les plus zélés sont d’accord avec moi qu’elle était alors intolérable : mais comme ils se font un grand moyen de son état actuel, il s’agit de leur prouver qu’elle est plus dangereuse que jamais, et qu’on ne doit pas espérer que l’Eglise devienne moins sévère à son égard, ni qu’elle l’absolve des condamnations qu’elle a prononcées contre elle et contre les Comédiens.</p>
+          <p>M. Fagan, connu par plusieurs Pièces de Théâtre qui ont réussi, (pour annoncer ses talents, il suffit <pb n="7" />de nommer <hi rend="i">la Pupille</hi>, cette Pièce toujours nouvelle pour les Spectateurs, et adoptée par tous les Théâtres de la France) vient à la qualité d’Auteur de joindre celle d’Apologiste<note place="bottom" resp="author"> [NDA] Les <hi rend="i">nouvelles Observations</hi> ont paru dans le Public à la fin de l’année dernière ; mais ce n’est que depuis peu de temps qu’elles sont venues à ma connaissance.</note>. Son zèle l’a séduit ; il s’en faut bien qu’il ait gagné la cause qu’il a défendue.</p>
+          <p>Celle que j’entreprends me décide son adversaire. Voilà une guerre ouverte. Je n’en veux cependant qu’à l’ouvrage : mais comme il est bien difficile de le combattre, sans attaquer l’Auteur, et que ce serait trahir les intérêts dont je me charge, que de ménager ceux de M.F. j’userai toujours avec lui de la distinction <pb n="8" />qu’il mérite personnellement.</p>
+          <p>Quelque hasardés que soient dans le fond les principes de cet ouvrage, j’avoue qu’ils ne laissent pas que d’avoir quelque chose de spécieux et d’apparent, qui n’aura pas manqué de trouver des approbateurs parmi ce grand nombre de personnes déjà trop prévenues en faveur du Théâtre.</p>
+          <p>Il paraît que le véritable objet de M.F. est de prouver que le Théâtre devenu plus épuré, est devenu non seulement moins criminel, mais qu’il est devenu même utile pour les mœurs ; et dès là, qu’il n’y a point de difficulté de l’absoudre, et de détruire un préjugé qui lui nuit, puisque les prétextes <pb n="9"/>qui l’ont fait condamner ne subsistent plus.</p>
+          <p>C’est au temps de Molière, dont il soutient <hi rend="i">les Pièces suffisamment bonnes pour les mœurs</hi>, qu’il fixe la première époque de la pureté et de l’utilité de la Comédie ; utilité si grande, selon lui, qu’elle <hi rend="i">compense bien le danger</hi> qu’elle pourrait causer.</p>
+          <p>De sorte que n’ayant eu pour but que de justifier la Comédie moderne, et étant le premier à condamner l’ancienne, on ne peut s’empêcher de lui demander en passant pourquoi il a cherché à affaiblir les condamnations prononcées contre cette ancienne Comédie, à critiquer ceux qui ont écrit contre elle, et à détourner le vrai sens des <pb n="10"/>Conciles et des Rituels qui la proscrivent. Pourquoi s’est-il obstiné à trouver favorables à son parti tant d’anciens Docteurs qu’il cite, comme Saint Thomas d’Aquin, Saint François de Sales, Saint Charles Borromée, qui n’avaient aucune connaissance de la nouvelle ? C’est s’écarter, on ose le dire. En supposant (ce qui n’est pas) que ces saints Personnages eussent favorisé les spectacles, ce n’aurait pu être assurément que ceux de leurs siècles. Or, M.F. les condamnant lui-même, quel avantage en peut-il retirer ? Il faut convenir qu’on est bien embarrassé quand on a une mauvaise cause.</p>
+          <p>Au reste, mon dessein n’est point de le suivre pas à pas, ni de copier <pb n="11"/>son plan. Voici le mien, il est bien simple.</p>
+          <p>Je veux uniquement établir que la Comédie, à compter de Molière, et à commencer par lui, sans devenir plus utile, est devenue plus dangereuse. Le détail où j’entrerai réfutera naturellement une partie <hi rend="i">des nouvelles Observations</hi>. Je parcourrai ensuite celles que mes premières réflexions n’auront pas combattues, mais sans me gêner à le faire par ordre ni par division.</p>
+          <p>Il est des matières dont tous les objets ont tant de ressemblance, qu’il n’est guère possible de les diviser heureusement ; il est d’ailleurs plus difficile qu’on ne pense d’avoir de l’ordre. Souvent en commençant un ouvrage, on se fait un beau <pb n="12" />plan d’exactitude : la chaleur de l’action le fait oublier, ou la difficulté de le suivre le fait abandonner. Les <hi rend="i">Observations</hi> de M.F. pourraient en fournir quelques exemples.</p>
+          <p>Pour la satisfaction de ceux qui seront curieux d’approfondir la matière, et les mettre en état d’en porter un jugement solide, on a cru à propos d’ajouter à la fin de ce petit ouvrage une histoire abrégée de ceux qui ont paru pour et contre la Comédie depuis le dix-septième siècle jusqu’à présent, et de leur indiquer ensuite les différents Pères de l’Eglise qui en ont traité, et les autorités où ils ont puisé leurs réflexions.</p>
+          <p>M.F. a senti sans doute que ces <pb n="13" /><hi rend="i">Observations</hi> n’étaient pas proposables à tout le monde. Il a paru embarrassé de savoir à qui il s’adresserait. On ne trouve pas qu’il se soit déterminé d’une manière fort avantageuse. Le jugement de ceux à qui il se soumet, étant sans autorité, serait sans utilité. C’est de l’Eglise que doit venir l’absolution qu’il demande ; et il ne s’adresse qu’à <hi rend="i">un petit nombre de personnes</hi>, dont le tribunal n’est guère compétent.</p>
+          <p>Il est vrai qu’il implore en même temps le crédit et la générosité des <hi rend="i">personnes qui ont accès auprès des Puissances pour faire valoir auprès d’elles ce qu’elles auront trouvé de juste dans la cause des Comédiens</hi>.</p>
+          <p>Mais on ne croit pas que ses instances <pb n="14" />aient beaucoup de succès, ni que des gens raisonnables, <hi rend="i">et qui respectent la Religion</hi>, embrassent des intérêts qui lui sont opposés.</p>
+          <p>Pour moi, je m’adresse à tout le monde, surtout à ceux que ces <hi rend="i">Observations</hi> auront pu ébranler ; je m’adresse même à ceux qui regardent comme M.F. la condamnation des spectacles comme un <hi rend="i">préjugé</hi>, et qui pensent qu’il peut être <hi rend="i">détruit</hi> par la suite ; enfin je m’adresse à M.F. lui-même.</p>
+          <p>Suivant lui, <hi rend="i">les apologies faites en faveur de la Comédie ont toujours été assez faibles, et ces apologies ont toujours été réfutées par des plumes habiles</hi>. Il s’est peut-être autant flatté de l’exception que je la crains. Mais plus jaloux d’être utile que de me <pb n="15" />faire un nom, cette crainte n’est pas assez forte pour m’arrêter. J’entre en matière.</p>
+          <p>Il est certain que Molière a purgé le Théâtre de bien des grossièretés. Mais lorsque les vices les plus honteux diffamaient la scène, et avilissaient les Acteurs ; lorsque ceux-ci jouaient avec les gestes les moins équivoques ; que les hommes et les femmes méprisaient toutes les règles de la pudeur, et que l’on y prononçait ouvertement des blasphèmes contre le saint Nom de Dieu : pour peu que l’on sût rougir, pour peu que la conscience ou l’éducation parlassent, ces spectacles devaient naturellement faire <pb n="16"/>horreur ; du moins ne pouvait-on s’y méprendre, ni regarder comme permis des discours aussi profanes, des actions aussi licencieuses et aussi contraires à l’honnêteté.</p>
+          <p>Le vice tout nu déplaît même aux vicieux ; enveloppé d’une gaze légère, il a pour eux bien plus d’appas.</p>
+          <p>Le goût fin et la politesse du siècle de Molière ne se serait pas accommodé de ces excès monstrueux, de ces libertés choquantes ; et elles révolteraient encore plus le nôtre. La corruption des cœurs n’en a pas chassé la pudeur ; ce n’est plus qu’un faible reste, il est vrai ; mais il se ranime encore, l’on aime au moins à s’en parer. Le Théâtre serait donc absolument décidé infâme, <pb n="17" />et des infâmes seuls oseraient y assister.</p>
+          <p>Molière, et les Auteurs qui l’ont suivi, ont pris un autre tour. Le vice est toujours l’âme et le mobile de leurs Pièces : mais il ne s’y montre qu’avec un visage modeste ; il n’a plus rien d’affreux ; il n’a plus rien du moins qu’on n’excuse, et qu’on ne se pardonne aisément dans le monde. Il parle un langage poli, châtié ; (quoiqu’il se sente toujours de son accent, qui, malgré lui, le fait trop souvent reconnaître) il ne présente que des images riantes et agréables ; ses manières séduisantes affectent l’âme de sentiments qui lui sont toujours favorables. Tantôt il excite la pitié et la compassion ; tantôt il se déguise avec <pb n="18"/>tant d’art, qu’on le prend pour la vertu ; souvent il croit se rendre ridicule, il se rend aimable ; et toujours sous prétexte de rendre une passion odieuse, il en inspire de funestes. En un mot le Théâtre est toujours le même au fond sous une autre forme. Il en impose aux yeux pour corrompre plus sûrement le cœur. L’écueil est moins visible, des routes agréables y conduisent ; on est séduit, on les prend, bientôt l’on s’égare ; enfin l’on échoue. Plus le danger est caché, plus il est grand.</p>
+          <p>Eh ! où est d’abord l’avantage que la Comédie nous procure ? De quelle utilité est-elle pour les mœurs ? Est-ce parce qu’elle jette un ridicule sur certains défauts ? <pb n="19"/>Mais on voit, en examinant les Pièces de Molière, et de nos Auteurs modernes, que ces défauts ne sont que des vices décriés dans le monde, et indépendants des <hi rend="i">bonnes mœurs</hi> ; car il ne faut pas s’aveugler sur ce mot, ni l’interpréter futilement. Les mœurs regardent l’âme, et consistent moins dans une certaine politesse, dans de certaines manières consacrées par le bel usage, que dans un cœur droit et pur, une conduite sage et réglée. Un homme peut être très peu propre pour le monde, et avoir tous les ridicules que nos Comédies dépeignent, sans être moins juste, moins vertueux ; et c’est l’essentiel. Le reste est un ornement de bienséance qui rendrait peut-être <pb n="20"/>ses autres qualités plus aimables, mais qui ne contribuerait pas à les lui faire acquérir.</p>
+          <p>Ainsi, ce sont moins des défauts réels, que des défauts d’usage et de mode, qui n’ont rien en eux de criminel que la Comédie tympanise<note resp="editor" place="bottom"> [NDE] tympaniser = décrier, rendre ridicule. On trouve ce mot dans le théâtre de Molière.</note>. Que l’on jette un coup d’œil sur le Théâtre de Molière, ce grand Précepteur des mœurs, ce grand Moraliste. Depuis la première de ses Pièces jusqu’à la dernière, on ne l’y verra combattre que ces faiblesses indifférentes, ces petits riens sans conséquence qui déparent l’extérieur sans dégrader, sans altérer le fond.</p>
+          <p>Quelles bonnes leçons, par exemple, peuvent donner au cœur ?</p>
+          <p>Un jeune homme dont l’indiscrétion <pb n="21" />et la vivacité retardent le succès d’une intrigue amoureuse qui l’intéresse, et dont un valet fourbe a la direction<note place="margin"><hi rend="i">L’Etourdi</hi>.</note>.</p>
+          <p>Deux amants qui se brouillent pour un malentendu, afin de se procurer, ainsi qu’aux Spectateurs, le plaisir du raccommodement<note place="margin"><hi rend="i">Le Dépit amoureux</hi>.</note>.</p>
+          <p>Des femmes Romanesques qui affectent un langage à la mode<note place="margin"><hi rend="i">Les Précieuses ridicules</hi>.</note>.</p>
+          <p>D’autres follement entêtées d’être savantes, et de le paraître<note place="margin"><hi rend="i">Les Femmes savantes</hi>.</note>.</p>
+          <p>Des vieillards amoureux, surveillants, sévères, intéressés<note place="margin"><hi rend="i">L’Ecole des Maris. Le Cocu imaginaire. L’Avare</hi>, etc.</note>.</p>
+          <p>Un libertin décidé, dont <hi rend="i">la punition théâtrale</hi> ramène moins à la vertu, que sa conduite n’inspire le vice <hi rend="i">par les couleurs qu’il lui prête</hi><note place="margin"><hi rend="i">Le Festin de Pierre</hi>.</note>.</p>
+          <p>Des maris scrupuleux ou dupes de leur simplicité et de la coquetterie <pb n="22" />de leurs femmes<note place="margin"><hi rend="i">Georges Dandin</hi>.</note>.</p>
+          <p>Des gens incommodes et fâcheux<note place="margin"><hi rend="i">Les Fâcheux.</hi></note>.</p>
+          <p>Des Bourgeois copiant ridiculement les gens de qualité<note place="margin"><hi rend="i">Le Bourgeois Gentilhomme.</hi></note>.</p>
+          <p>Une querelle de ménage qui produit un incident plus comique que fructueux<note place="margin"><hi rend="i">Le Médecin malgré lui.</hi></note>.</p>
+          <p>Une fable du Paganisme mise en action ; fable qui n’a pour objet que l’intrigue la plus licencieuse, et la passion la plus criminelle<note place="margin"><hi rend="i">Amphitryon.</hi></note>.</p>
+          <p>Une espèce de Philosophe<note place="margin"><hi rend="i">Le Misanthrope.</hi></note>, ou pour me servir des termes de M.F. <hi rend="i">un faux Philosophe rempli de lui-même, qui se complaît dans le mérite sauvage de détester l’humanité</hi> ; mais qui ne la déteste que sur des vains prétextes, et qui ne reproche à son siècle que des défauts superficiels, <pb n="23" />plus intéressants pour la société que pour les mœurs.</p>
+          <p>Un fourbe dont l’intrigue, les maximes, et les démarches, de l’aveu même des sectateurs de Molière, sont dangereuses à tous égards<note place="margin"><hi rend="i">Le Tartuffe.</hi></note>.</p>
+          <p>Enfin une foule de traits piquants et de satyres outrées contre les Médecins, que Molière, comme l’on sait, drappoit<note place="bottom" resp="editor"> [NDE] draper = dire beaucoup de mal de quelqu'un (Littré).</note> moins par raison que par faiblesse.</p>
+          <p>Voilà un tableau vrai des Pièces de Molière. Si la plupart de ces objets sont vicieux, ils ne le sont qu’à un certain égard ; et ils ne le sont pas assez pour influer sur les mœurs.</p>
+          <p>Ce sont, comme dit un Auteur<note place="bottom">L’Auteur de la République des Lettres, Avril 1684, page 201.</note>, « <quote>certaines qualités qui ne sont pas tant <pb n="24" />un crime, qu’un faux goût, qu’un sot entêtement, comme vous diriez l’humeur des prudes, des précieuses, de ceux qui outrent les modes, qui s’érigent en Marquis, qui parlent incessamment de leur noblesse ; car pour la galanterie criminelle, l’envie, la fourberie, l’avarice, la vanité, et choses semblables, on ne peut croire que le Comique leur ait fait beaucoup de mal.</quote> »</p>
+          <p>**Il y a dans ce grand nombre de Pièces qu’on vient de récapituler, quelques vices qui, au premier aspect, paraissent plus réels et plus essentiellement contraires aux bonnes mœurs, comme le libertinage qu’on a prétendu attaquer dans <hi rend="i">le Festin de Pierre</hi>, l’hypocrisie dans <hi rend="i">le Tartuffe</hi>, l’avarice dans <hi rend="i">l’Avare</hi>.</p>
+          <p>Mais pour sentir combien ces <pb n="25" />trois Pièces sont peu propres à corriger les vices qu’elles semblent avoir pour objet, il ne s’agit que de faire attention à deux excès, où la Comédie donne ordinairement.</p>
+          <p>Le premier et le plus fréquent, c’est qu’elle ne peint jamais les vices avec des couleurs qui les rendent odieux ou méprisables ; elle arrange ses tableaux de façon que ses préceptes sont un badinage qui attire plus au mal qu’il n’en éloigne, et qu’elle répand sur les défauts un certain ridicule trop plaisant pour en donner de l’horreur.</p>
+          <p>Le second, est que lorsque les portraits ne sont pas flattés, ils sont outrés. Les caractères sont si chargés, qu’ils n’offrent que des vertus <pb n="26" />au-dessus de la force humaine, ou des vices rares à trouver. C’est un autre inconvénient qui fait encore plus douter, que le Théâtre puisse être jamais propre, malgré toutes les réformes qu’on pourrait faire, à corriger les mœurs. Le penchant que nous avons à juger de nous favorablement, nous fait méconnaître nos ressemblances, si elles ne sont tout-à-fait marquées. Lorsqu’on nous représente des défauts qui surpassent de beaucoup les nôtres, au lieu de chercher à nous corriger, nous nous applaudissons de ce prétendu avantage.</p>
+          <p>Sans chercher à défendre la critique faite sur le Festin de Pierre, (que M.F. trouve peu solide, sans s’expliquer davantage, et sans le <pb n="27" />prouver) il suffit d’observer, tant à l’égard de cette Pièce que des deux autres dont on vient de parler :</p>
+          <p>Que l’<hi rend="i">Avare</hi> n’a point blâmé l’avarice dans le sens qu’elle doit l’être, et que cette Comédie jette plutôt un ridicule sur le refus des parents de ne point se prêter aux folles dépenses de leurs enfants, et sur la vigilance qui les met en garde contre leurs mauvais desseins, qu’elle n’attaque l’avarice comme passion et comme dérèglement capital.</p>
+          <p>Que <hi rend="i">le Tartuffe</hi>, sous prétexte de combattre l’hypocrisie, se raille des dehors de la piété.</p>
+          <p>Et que dans <hi rend="i">le Festin de Pierre</hi> on fait dire des impiétés d’une manière vive, éloquente, et très propre à persuader.</p>
+          <pb n="28" /><p>Comme c’est principalement sur l’excellence des préceptes que renferment les Comédies de <hi rend="i">Molière</hi> qu’on appuie le plus ; pour convaincre mieux de leur futilité, et faire voir que des modes, de certains usages, un extérieur ridicule, en sont l’unique but, il n’est pas indifférent d’entrer dans un léger détail. Les preuves que ces Comédies en offrent sont innombrables : mais on s’en tiendra à quelques-uns de ces passages, de ces morceaux les plus estimés ; on se bornera même aux Pièces qui font le plus de bruit et le plus d’effet au Théâtre.</p>
+          <p><seg>«</seg> Ne voudriez-vous point, dit Sganarelle dans l’Ecole des maris,</p>
+          <quote>
+            <lg>
+              <l>De vos jeunes muguets m’inspirer les manières,</l>
+              <l>M’obliger à porter de ces petits chapeaux</l>
+              <pb n="29" /><l>Qui laissent éventer leurs débiles cerveaux ;</l>
+              <l>Et de ces blonds cheveux de qui la vaste enflure</l>
+              <l>Des visages humains offusque la figure ;</l>
+              <l>De ces petits pourpoints sous les bras se perdans,</l>
+              <l>Et de ces grands collets jusqu’au nombril pendans ;</l>
+              <l>De ces manches qu’à table on voit tâter les sausses,</l>
+              <l>Et de ces cotillons appelés haut-de-chausses ;</l>
+              <l>De ces souliers mignons de rubans revêtus,</l>
+              <l>Qui vous font ressembler à des pigeons patus ;</l>
+              <l>Et de ces grands canons où, comme en des entraves,</l>
+              <l>On met tous les matins ses deux jambes esclaves,</l>
+              <l>Et par qui nous voyons ces Messieurs les galands</l>
+              <l>Marcher écarquillés, ainsi que des volans.</l>
+              <l>Je vous plairais sans doute équipé de la sorte,</l>
+              <l>Et je vous vois porter les sottises qu’on porte.</l>
+            </lg>
+          </quote>
+          <p>On lui répond par un de ces traits de morale si vantés :</p>
+          <quote>
+            <lg>
+              <l>Toujours au plus grand nombre on doit s’accommoder,</l>
+              <pb n="30" /><l>Et jamais il ne faut se faire regarder.</l>
+              <l>L’un et l’autre excès choque ; et tout homme bien sage</l>
+              <l>Doit faire des habits ainsi que du langage,</l>
+              <l>N’y rien trop affecter, et sans empressement</l>
+              <l>Suivre ce que l’usage y fait de changement.</l>
+              <l>Mon sentiment n’est pas qu’on prenne la méthode</l>
+              <l>De ceux qu’on voit toujours renchérir sur la mode,</l>
+              <l>Et qui dans cet excès dont ils sont amoureux,</l>
+              <l>Seraient fâchés qu’un autre eût été plus loin qu’eux.</l>
+              <l>Mais je tiens qu’il est mal, sur quoi que l’on se fonde,</l>
+              <l>De fuir obstinément ce que suit tout le monde,</l>
+              <l>Et qu’il vaut mieux souffrir d’être au nombre des fous,</l>
+              <l>Que du sage parti se voir seul contre tous.</l>
+            </lg>
+          </quote>
+          <p>Est-il un axiome plus ridicule ? et ne vaut-il pas mieux au contraire être seul sage, que fol avec la multitude ?</p>
+          <p>Dans le Misanthrope, qui est la <pb n="31" />Pièce qui passe pour avoir le mieux corrigé les mœurs, pour avoir donné plus de leçons et de meilleures, pour avoir enfin été la plus utile, quels défauts y reprend-t-on ?</p>
+          <p>On ne peut s’empêcher de rester un peu plus longtemps sur cette Comédie, et d’en rapporter les traits les plus saillants ; rien ne peut mieux persuader de ce qu’on vient de dire, que Molière n’attaque que des défauts superficiels, peu intéressants pour les mœurs, et qui sont même la plupart des défauts imaginaires.</p>
+          <p>On y apprend que c’est <hi rend="i">une lâche méthode</hi>, et qu’il n’y a <hi rend="i">rien de si haïssable</hi> <seg>… … … … …</seg>.</p>
+          <quote>
+            <lg>
+              <l><seg>… … … … …</seg> que les contorsions</l>
+              <l>De tous ces grands faiseurs de protestations,</l>
+              <l><pb n="32" />Ces affables donneurs d’embrassades frivoles,</l>
+              <l>Ces obligeants diseurs d’inutiles paroles,</l>
+              <l>Qui de civilités avec tous font combat,</l>
+              <l>Et traitent du même air l’honnête homme et le fat :</l>
+              <l>Quel avantage a-t-on [<hi rend="i">dit le Misanthrope</hi>] qu’un homme vous caresse,</l>
+              <l>Vous jure amitié, foi, zèle, estime, tendresse,</l>
+              <l>Et vous fasse de vous un éloge éclatant,</l>
+              <l>Lorsqu’au premier faquin il court en faire autant ?</l>
+              <l>Non, non, il n’est point d’âme un peu bien située,</l>
+              <l>Qui veuille d’une estime ainsi prostituée ;</l>
+              <l>Et la plus rigoureuse a des régals peu chers,</l>
+              <l>Dès qu’on voit qu’on nous mêle avec tout l’Univers.</l>
+              <l>Sur quelque préférence une estime se sonde ;</l>
+              <l>Et c’est n’estimer rien, qu’estimer tout le monde.</l>
+              <l>Puisque vous y donnez dans ces <hi rend="i">vices du temps</hi>,</l>
+              <l>Morbleu, vous n’êtes pas pour être de mes gens,</l>
+              <l>Je refuse d’un cœur la vaste complaisance</l>
+              <l>Qui ne fait de mérite aucune différence.</l>
+              <l>Je veux qu’on me distingue ; et pour le trancher net,</l>
+              <l><pb n="33" />L’ami du genre humain n’est pas du tout mon fait.</l>
+            </lg>
+          </quote>
+          <p>Belle délicatesse ! Morale bien utile ! N’omettons aucune des leçons de cette Pièce fameuse, et exposons exactement tous les vices qu’elle a en vue.</p>
+          <p>Ici c’est <hi rend="i">la vieille Emilie</hi> à qui on reproche <seg>… … … … …</seg>.</p>
+          <quote>
+            <lg>
+              <l>Qu’à son âge il sied mal de faire la jolie,</l>
+              <l>Et que le blanc qu’elle a scandalise un chacun.</l>
+            </lg>
+          </quote>
+          <p>On dit à <hi rend="i">Dorilas</hi> <seg>… … …</seg></p>
+          <quote>
+            <lg>
+              <l><seg>… … …</seg> qu’il est trop importun,</l>
+              <l>Et qu’il n’est à la Cour oreille qu’il ne lasse</l>
+              <l>A conter sa bravoure et l’éclat de sa race.</l>
+            </lg>
+          </quote>
+          <p>Là, c’est un bel esprit du siècle à qui l’on fait entendre <seg>… … …</seg>.</p>
+          <quote>
+            <lg>
+              <l>Qu’il faut qu’un galant homme ait toujours grand empire</l>
+              <l>Sur les démangeaisons qui nous prennent d’écrire ;</l>
+              <l><pb n="34" />Qu’il doit tenir la bride aux grands empressemens</l>
+              <l>Qu’on a de faire éclat de tels amusemens ;</l>
+              <l>Et que par la chaleur de montrer ses ouvrages,</l>
+              <l>On s’expose à jouer de mauvais personnages ;</l>
+              <l><seg>… … … … …</seg></l>
+              <l><seg>… … …</seg> qu’un froid écrit assomme ;</l>
+              <l>Qu’il ne faut que ce faible à décrier un homme ;</l>
+              <l>Et qu’eût-on d’autre part cent belles qualités,</l>
+              <l>On regarde les gens par leurs méchants côtés.</l>
+              <l>Quel besoin si pressant [<hi rend="i">lui dit-on</hi>] avez-vous de rimer ?</l>
+              <l>Et qui diantre vous pousse à vous faire imprimer ?</l>
+              <l>Si l’on peut pardonner l’essor d’un mauvais livre,</l>
+              <l>Ce n’est qu’aux malheureux qui composent pour vivre.</l>
+              <l>Croyez-moi, résistez à vos tentations,</l>
+              <l>Dérobez au Public ces occupations ;</l>
+              <l>Et n’allez point quitter, de quoi que l’on vous somme,</l>
+              <l>Le nom que dans la Cour vous avez d’honnête homme,</l>
+              <l>Pour prendre de la main d’un avide Imprimeur</l>
+              <l>Celui de ridicule et misérable Auteur.</l>
+            </lg>
+          </quote>
+          <p>Il est essentiel de donner une <pb n="35" />idée de la quatrième scène du second acte : cette scène par excellence, où, dit-on, Molière a peint tant de vices, et où il s’est plu à les rassembler sous le même point de vue.</p>
+          <p>Mais, pour ne rien laisser échapper, et faire voir aux apologistes combien l’on est exact sur les traits qu’ils admirent dans Molière, mettons auparavant ici quelques vers de la première scène du même acte, qui présentent aussi une image assez détaillée : c’est le Misanthrope qui parle à sa maîtresse :</p>
+          <quote>
+            <lg>
+              <label>(<hi rend="i">Célimène.</hi>)</label>
+              <l>Sur quel fond de mérite et de vertu sublime</l>
+              <l>Appuyez-vous en lui l’honneur de votre estime ?</l>
+              <l>Est-ce par l’ongle long qu’il porte au petit doigt,</l>
+              <l><pb n="36" />Qu’il s’est acquis chez vous l’estime où l’on le voit ?</l>
+              <l>Vous êtes-vous rendue avec tout le beau monde</l>
+              <l>Au mérite éclatant de sa perruque blonde ?</l>
+              <l>Sont-ce ses grands canons qui vous le font aimer ?</l>
+              <l>L’amas de ses rubans a-t-il su vous charmer ?</l>
+              <l>Est-ce par les appas de sa vaste réingrave</l>
+              <l>Qu’il a gagné votre âme en faisant votre esclave ?</l>
+              <l>Ou sa façon de rire et son ton de fausset</l>
+              <l>Ont-ils de vous toucher su trouver le secret ?</l>
+            </lg>
+          </quote>
+          <p>Voici une partie de cette quatrième scène.</p>
+          <quote>
+            <lg>
+              <label><hi rend="sc">Clitandre.</hi></label>
+              <l>Parbleu, je viens du Louvre où Cléonte au levé,</l>
+              <l>Madame, a bien paru ridicule achevé.</l>
+              <l><seg>… … … … …</seg></l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Célimène.</hi></label>
+              <l>Dans le monde, à vrai dire, il se barbouille fort ;</l>
+              <l>Par-tout il porte un air qui saute aux yeux d’abord,</l>
+              <l>Et lorsqu’on le revoit après un peu d’absence,</l>
+              <l><pb n="37" />On le retrouve encor plus plein d’extravagance.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Acaste.</hi></label>
+              <l>Parbleu, s’il faut parler des gens extravagants,</l>
+              <l>Je viens d’en essuyer un des plus fatigants ;</l>
+              <l>Damon le raisonneur, qui m’a, ne vous déplaise,</l>
+              <l>Une heure au grand soleil tenu hors de ma chaise.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Célimène.</hi></label>
+              <l>C’est un parleur étrange, et qui trouve toujours</l>
+              <l>L’art de ne nous rien dire avec de grands discours ;</l>
+              <l>Dans les propos qu’il tient on ne voit jamais goutte,</l>
+              <l>Et ce n’est que du bruit que tout ce qu’on écoute.</l>
+              <l><seg>… … … … …</seg></l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Clitandre.</hi></label>
+              <l>Timante encor, Madame, est un bon caractère.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Célimène.</hi></label>
+              <l>C’est de la tête aux pieds un homme tout mystère,</l>
+              <l>Qui vous jette en passant un coup d’œil égaré,</l>
+              <l>Et sans aucune affaire est toujours affairé.</l>
+              <l>Tout ce qu’il vous débite en grimaces abonde,</l>
+              <l><pb n="38" />A force de façons il assomme le monde.</l>
+              <l>Sans cesse il a tout bas, pour rompre l’entretien,</l>
+              <l>Un secret à vous dire ; et ce secret n’est rien.</l>
+              <l>De la moindre vétille il fait une merveille,</l>
+              <l>Et jusques au bon jour il dit tout à l’oreille.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Acaste.</hi></label>
+              <l>Et Géralde, Madame ?</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Célimène.</hi></label>
+              <l> O l’ennuyeux conteur !</l>
+              <l>Jamais on ne le voit sortir du grand Seigneur.</l>
+              <l>Dans le brillant commerce il se mêle sans cesse,</l>
+              <l>Et ne cite jamais que Duc, Prince, ou Princesse.</l>
+              <l>La qualité l’entête, et tous ses entretiens</l>
+              <l>Ne sont que de chevaux, d’équipages, et de chiens :</l>
+              <l>Il tutaye en parlant ceux du plus haut étage,</l>
+              <l>Et le nom de Monsieur est chez lui hors d’usage.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Clitandre.</hi></label>
+              <l>On dit qu’avec Bélise il est du dernier bien.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Célimène.</hi></label>
+              <l>Le pauvre esprit de femme et le sec entretien !</l>
+              <l>Lorsqu’elle vient me voir je souffre le martyre,</l>
+              <l>Il faut suer sans cesse à chercher que lui dire ;</l>
+              <pb n="39" /><l>Et la stérilité de son expression</l>
+              <l>Fait mourir à tous coups la conversation.</l>
+              <l>En vain pour attaquer son stupide silence,</l>
+              <l>De tous les lieux communs vous prenez l’assistance,</l>
+              <l>Le beau temps, et la pluie, et le froid, et le chaud,</l>
+              <l>Sont des fonds qu’avec elle on épuise bien-tôt.</l>
+              <l>Cependant sa visite assez insupportable</l>
+              <l>Traîne en une longueur encore épouvantable ;</l>
+              <l>Et l’on demande l’heure, et l’on bâille vingt fois,</l>
+              <l>Qu’elle s’émeut autant qu’une pièce de bois.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Acaste.</hi></label>
+              <l>Que vous semble d’Adraste ?</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Célimène.</hi></label>
+              <l> Ah, quel orgueil extrême !</l>
+              <l>C’est un homme gonflé de l’amour de <seg>soi-même.</seg></l>
+              <l>Son mérite jamais n’est content de la Cour,</l>
+              <l>Contr’elle il fait métier de pester chaque jour ;</l>
+              <l>Et l’on ne donne emploi, charge, ni bénéfice</l>
+              <l>Qu’à tout ce qu’il se croit on ne fasse injustice.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Clitandre.</hi></label>
+              <l>Mais le jeune Cléon chez qui vont aujourd’hui</l>
+              <l>Nos plus honnêtes gens, que dites-vous de lui ?</l>
+            </lg>
+            <lg>
+              <pb n="40" /><label><hi rend="sc">Célimène.</hi></label>
+              <l>Que de son cuisinier il s’est fait un mérite,</l>
+              <l>Et que c’est à sa table à qui l’on rend visite.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Eliante.</hi></label>
+              <l>Il prend soin d’y servir des mets fort délicats.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Célimène.</hi></label>
+              <l>Oui, mais je voudrais bien qu’il ne s’y servît pas.</l>
+              <l>C’est un fort méchant plat que sa <seg>sotte</seg> personne,</l>
+              <l>Et qui gâte à mon goût tous les repas qu’il donne.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Alceste.</hi></label>
+              <l>On fait assez de cas de son oncle Damis,</l>
+              <l>Qu’en dites-vous, Madame ?</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Célimène.</hi></label>
+              <l> Il est de mes amis !</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Philinte.</hi></label>
+              <l>Je le trouve honnête homme et d’un air assez sage.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Célimène.</hi></label>
+              <l>Oui, mais il veut avoir trop d’esprit, dont j’enrage.</l>
+              <l>Il est guindé sans cesse ; et dans tous ses propos,</l>
+              <l>On voit qu’il se fatigue à dire de bons mots.</l>
+              <l>Depuis que dans la tête il s’est mis d’être habile,</l>
+              <l><pb n="41" />Rien ne touche son goût, tant il est difficile.</l>
+              <l>Il veut voir des défauts à tout ce qu’on écrit,</l>
+              <l>Et pense que louer n’est pas d’un bel esprit,</l>
+              <l>Que c’est être savant que trouver à redire ;</l>
+              <l>Qu’il n’appartient qu’aux sots d’admirer et de rire,</l>
+              <l>Et qu’en n’approuvant rien des ouvrage du temps,</l>
+              <l>Il se met au-dessus de tous les autres gens.</l>
+              <l>Aux conversations même il trouve à reprendre ;</l>
+              <l>Ce sont propos trop bas pour y daigner descendre ;</l>
+              <l>Et les deux bras croisés du haut de son esprit,</l>
+              <l>Il regarde en pitié tout ce que chacun dit.</l>
+              <l><seg>… … … … …</seg></l>
+            </lg>
+          </quote>
+          <p>Le Misanthrope lui-même a aussi son tour ; et voici son défaut. C’est sa maîtresse elle-même qui prend soin de le tracer.</p>
+          <quote>
+            <lg>
+              <label><hi rend="sc">Célimène.</hi></label>
+              <l>Et ne faut-il pas bien que Monsieur contredise ?</l>
+              <l>A la commune voix veut-on qu’il se réduise,</l>
+              <l>Et qu’il ne fasse pas éclater en tous lieux</l>
+              <l>L’esprit contrariant qu’il a reçu des Cieux ?</l>
+              <l>Le sentiment d’autrui n’est jamais pour lui plaire ;</l>
+              <l><pb n="42" />Il prend toujours en main l’opinion contraire,</l>
+              <l>Et penserait paraître un homme du commun,</l>
+              <l>Si l’on voyait qu’il fût de l’avis de quelqu’un.</l>
+              <l>L’honneur de contredire a pour lui tant de charmes,</l>
+              <l>Qu’il prend contre lui-même assez souvent les armes ;</l>
+              <l>Et ses vrais sentiments sont combattus par lui,</l>
+              <l>Aussi-tôt qu’il les voit dans la bouche d’autrui.</l>
+            </lg>
+          </quote>
+          <p>En bonne foi où trouver dans tout cela des principes bien salutaires, une morale utilement instructive ? Et l’on demande aux partisans du Théâtre, (aux partisans raisonnables) s’ils sont eux-mêmes persuadés, qu’au sortir de ces Pièces, on reviendra plus parfait, plus sage, plus exact, et mieux disposé aux devoirs essentiels ? Y reprend-on des vices ? aucuns. On n’y fronde que des ridicules, dont la plupart <pb n="43" />même sont si outrés, que personne au monde ne croira les avoir à ce point-là ; et quand par hasard quelqu’un s’y reconnaîtrait, la réforme qu’il ferait sur lui à cet égard, ne rejaillirait pas beaucoup sur ses mœurs. Or comme cette réforme ne pourrait concerner qu’un bien petit nombre de personnes, le Théâtre n’aurait pas de grands avantages. Une chose n’est regardée comme vraiment utile, que quand elle l’est en général, et qu’elle profite à la multitude.</p>
+          <p>Bien loin de corriger, ces Pièces produisent un effet tout contraire. En les examinant de plus près, on les verra n’offrir que des sentiments dangereux, sur-tout pour la jeunesse. Sans parler de l’amour, le <pb n="44" />plus funeste de tous, comme on va le prouver dans un moment, de combien de conseils condamnables, de leçons criminelles, de raisonnements peu délicats, et d’expressions obscènes, sont-elles remplies ? Pour quelques traits de morale inutile, combien de maximes affreuses ?</p>
+          <p>Dans <hi rend="i">l’Ecole des maris</hi>, dont M.F. donne une esquisse qui, toute ajustée qu’elle est à son usage, n’annonce rien de bien conséquent pour les mœurs ; et où, dit-il, l’<hi rend="i">époux qui devient le tyran de sa femme est si bien contrasté par le galant homme, qu’il laisse une honnête liberté à la sienne</hi>. Ecoutons les leçons que l’on fait aux pères, et à ceux qui sont chargés de l’éducation de la jeunesse. <pb n="45" />Voyons en quoi consiste l’<hi rend="i">honnête liberté</hi> que <hi rend="i">ce galant homme</hi> laisse non pas <hi rend="i">à sa femme</hi>, (M.F. change ici les traits du tableau) mais à une jeune fille dont la conduite et l’éducation lui ont été confiées par son père en mourant, qui, à la vérité lui a permis d’en faire un jour <hi rend="i">sa femme</hi>.</p>
+          <quote>
+            <lg>
+              <l>Elles sont sans parents, et notre ami leur père</l>
+              <l>Nous commit leur conduite à son heure dernière ;</l>
+              <l>Et nous chargeant tous deux, ou de les épouser,</l>
+              <l>Ou sur notre refus un jour d’en disposer,</l>
+              <l>Sur elles par contrats nous sut dès leur enfance</l>
+              <l>Et de père et d’époux donner pleine puissance.</l>
+            </lg>
+          </quote>
+          <p>Voyons, dis-je, quelle éducation il lui donne, comment il forme ses mœurs, quelle route il conseille de suivre <seg>… … … … …</seg></p>
+          <quote>
+            <lg>
+              <l><seg>… … …</seg> Je tiens sans cesse</l>
+              <pb n="46" /><l>Qu’il nous faut en riant instruire la jeunesse,</l>
+              <l>Reprendre ses défauts avec grande douceur,</l>
+              <l>Et du nom de vertu ne lui point faire peur.</l>
+              <l>Mes soins pour Léonore ont suivi ces maximes.</l>
+              <l>Des moindres libertés je n’ai point fait des crimes.</l>
+              <l>A ses jeunes désirs j’ai toujours consenti,</l>
+              <l>Et je ne m’en suis point, grâce au Ciel, repenti.</l>
+              <l>J’ai souffert qu’elle ait vu les belles compagnies,</l>
+              <l>Les divertissements, les bals, les comédies.</l>
+              <l>Ce sont choses pour moi que je tiens de tout temps</l>
+              <l>Fort propres à former l’esprit des jeunes gens ;</l>
+              <l>Et l’école du monde, en l’air dont il faut vivre,</l>
+              <l>Instruit mieux à mon gré que ne fait aucun livre.</l>
+              <l>Elle aime à dépenser en habits, linge, et nœuds.</l>
+              <l>Que voulez-vous ? Je tâche à contenter ses vœux ;</l>
+              <l>Et ce sont des plaisirs qu’on peut dans nos familles,</l>
+              <l>Lorsqu’on a du bien, permettre aux jeunes filles.</l>
+            </lg>
+          </quote>
+          <pb n="47" /><p>Inspirer à la jeunesse les sentiments du monde, inviter un sexe fragile à la coquetterie, préconiser des plaisirs dont on doit l’éloigner, exhorter les parents à seconder ses intentions ; voilà ce qu’on appelle <hi rend="i">élévation de sentiments, grandes leçons, politesse</hi>.</p>
+          <p>D’un autre côté, il n’y a presque pas une de ces Comédies que l’équivoque et l’obscénité n’assaisonnent de traits moins grossiers à la vérité, que dans les derniers siècles, mais plus piquants et plus voluptueux, dont l’impression plus forte et plus prompte en rend l’effet plus sûr et plus terrible.</p>
+          <p>Les exemples n’en manquent pas dans Molière ; on serait en état d’en donner un grand nombre ; chaque <pb n="48" />Pièce en fournit : on se fixera à une seule. Il est important d’en user modestement ; la matière est délicate. Ainsi on rapportera nûment quelques passages sans en faire sentir l’énergie.</p>
+          <p>On choisit <hi rend="i">l’Ecole des femmes</hi> que M.F. présente sous un si bel aspect, et dont il pallie adroitement le péril, ennoblissant autant qu’il peut le sujet ; car on croit que c’est de cette Comédie dont il a entendu parler, quand il a dit que Molière avait eu dessein de corriger <hi rend="i">celui qui abuse d’un dépôt confié, qui veut séduire en sa faveur une enfant qu’il a mal instruite, et qui compte lui enlever et les douceurs de la vie et les biens</hi>.</p>
+          <p>Il n’y a rien que l’éloquence et le génie ne sachent transformer et <pb n="49" />déguiser. Par leurs secours, la même chose considérée sous différents rapports, sous différents points de vue, peut paraître bonne et mauvaise, louable et répréhensible. Telle est la Comédie dont on parle.</p>
+          <p>A l’analyse qu’en fait M.F. on ne croirait pas, si on ne la connaissait, que sous le vain prétexte de réprimer la mauvaise foi et la séduction, elle fournit à chaque pas des armes à l’impureté ; qu’elle en fait des images si séduisantes, que les gradations en sont si imperceptibles et si adroites, ses progrès si rapides, qu’elle est toute entière dans les cœurs, avant qu’on l’ait, pour ainsi dire, sentie s’y introduire ; en un mot qu’elle porte à chaque phrase l’esprit, malgré lui-même, <pb n="50" />sur des idées sur lesquelles il n’est pas possible de prendre le change.</p>
+          <p>Dans la troisième scène du premier acte :</p>
+          <quote>
+            <lg>
+              <label><hi rend="sc">Arnolphe.</hi></label>
+              <l>Vous vous êtes toujours, comme on voit, bien portée.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l>Hors les puces qui m’ont la nuit inquiétée.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Arnolphe.</hi></label>
+              <l>Ah, vous aurez dans peu quelqu’un pour les chasser !</l>
+            </lg>
+          </quote>
+          <p>On se gardera bien de commenter, ni d’indiquer l’application de la comparaison suivante : elle se trouve dans la deuxième scène du deuxième acte.</p>
+          <quote>
+            <lg>
+              <l>La femme est en effet le potage de l’homme ;</l>
+              <l>Et quand un homme voit d’autres hommes par fois</l>
+              <l><pb n="51" />Qui veulent dans sa soupe aller tremper leurs doigts,</l>
+              <l>Il en montre aussi-tôt une colère extrême.</l>
+            </lg>
+          </quote>
+          <p>Comment pourra-t-on tourner du côté des mœurs, ou seulement excuser la cinquième scène du même acte, qu’il n’est pas indifférent de détailler un peu ?</p>
+          <quote>
+            <lg>
+              <l><seg>… … … … …</seg></l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Arnolphe.</hi></label>
+              <l>Oui, mais que faisait-il étant seul avec vous ?</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l>Il disait qu’il m’aimait d’un amour sans seconde,</l>
+              <l>Et me disait des mots les plus gentils du monde ;</l>
+              <l>Des choses que jamais rien ne peut égaler,</l>
+              <l>Et dont toutes les fois que je l’entends parler,</l>
+              <l>La douceur me chatouille, et là-dedans remue</l>
+              <l>Certain je ne sais quoi dont je fuis toute émue.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Arnolphe.</hi></label>
+              <l><seg>… … … … …</seg></l>
+              <l>Ne vous faisait-il point aussi quelques caresses ?</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l>Oh, tant ! Il me prenait et les mains et les bras,</l>
+              <l>Et de me les baiser il n’était jamais las.</l>
+            </lg>
+            <lg>
+              <label><pb n="52" /><hi rend="sc">Arnolphe.</hi></label>
+              <l>Ne vous a-t-il point pris, Agnès, quelqu’autre chose ?</l>
+              <l>(<hi rend="i">la voyant interdite.</hi>)</l>
+              <l>Ouf.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l>Eh, il m’a !…</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Arnolphe.</hi></label>
+              <l>Quoi ?</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l>pris…</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Arnolphe.</hi></label>
+              <l>Euh !</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l>Le…</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Arnolphe.</hi></label>
+              <l>Plaît-il ?</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l> Je n’ose.</l>
+              <l>Et vous vous fâcherez peut-être contre moi ?</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Arnolphe.</hi></label>
+              <l>Non.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l>Si fait.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Arnolphe.</hi></label>
+              <l>Mon Dieu, non !</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l>Jurez donc votre <seg>foi.</seg></l>
+            </lg>
+            <lg>
+              <label><pb n="53" /><hi rend="sc">Arnolphe.</hi></label>
+              <l>Ma foi. Soit.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l>Il m’a pris… Vous serez en colère.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Arnolphe.</hi></label>
+              <l>Non.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l>Si.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Arnolphe.</hi></label>
+              <l> Non, non, non, non ; diantre, que de mystère ?</l>
+              <l>Qu’est-ce qu’il vous a pris ?</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l>Il…</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Arnolphe</hi> <hi rend="i">à part</hi>.</label>
+              <l>Je souffre en damné.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l>Il m’a pris… le ruban que vous m’aviez donné.</l>
+              <l>A vous dire le vrai, je n’ai pu m’en défendre.</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Arnolphe.</hi></label>
+              <l>Passe pour le ruban. Mais je voulais apprendre</l>
+              <l>S’il ne vous a rien fait que vous baiser les bras ?</l>
+            </lg>
+            <lg>
+              <label><hi rend="sc">Agnès.</hi></label>
+              <l>Comment, est-ce qu’on fait d’autres choses ?</l>
+            </lg>
+          </quote>
+          <p>Enfin, dans <hi rend="i">le Tartuffe</hi> qu’on dit n’avoir pas été <hi rend="i">infructueux</hi>, et avoir <pb n="54" /><hi rend="i">produit de bons effets</hi>, outre les idées obscènes qu’il fournit de temps en temps, la religion, quoi qu’on dise, y est précisément jouée ; et il s’y trouve des traits d’une impiété décidée, et de l’athéisme le plus caractérisé.</p>
+          <quote>
+            <label><hi rend="i">ACTE III. Scène 2.</hi></label>
+            <lg>
+              <label><hi rend="sc">Tartuffe.</hi></label>
+              <l>…. Ah, mon Dieu, je vous prie,</l>
+              <l>Avant que de parler prenez-moi ce mouchoir !</l>
+              <l>…. Couvrez ce sein que je ne saurais voir.</l>
+              <l>Par de pareils objets les âmes sont blessées,</l>
+              <l>Et cela fait venir de coupables pensées.</l>
+              <l><seg>… … … … …</seg></l>
+              <l>Vous êtes donc bien tendre à la tentation,</l>
+              <l>Et la chair sur vos sens fait grande impression ?</l>
+              <l>Certes je ne sais pas quelle chaleur vous monte ;</l>
+              <l>Mais à convoiter moi je ne suis pas si prompte ;</l>
+              <l>Et je vous verrais nu du haut jusques en bas,</l>
+              <l>Que toute votre peau ne me tenterait pas.</l>
+            </lg>
+          </quote>
+          <p>Voilà pour l’obscénité. Voici pour l’impiété.</p>
+          <p><pb n="55" />On a beau dire que c’est un scélérat qui parle. C’est une bien mauvaise maxime, pour faire détester le vice, que de l’exposer publiquement, et de le faire paraître au grand jour. Ceux qui ne le connaissent pas apprennent à le connaître ; il n’effraie pas ceux qui le connaissent déjà.</p>
+          <quote>
+            <label><hi rend="i">ACTE III. Scène 3.</hi></label>
+            <lg>
+              <l><seg>… … … … …</seg></l>
+              <l>L’amour qui nous attache aux beautés éternelles,</l>
+              <l>N’étouffe pas en nous l’amour des temporelles.</l>
+              <l>Nos sens facilement peuvent être charmés</l>
+              <l>Des ouvrages parfaits que le Ciel a formés.</l>
+              <l><seg>… … … … …</seg></l>
+              <l>Le Ciel défend de vrai certains contentements ;</l>
+              <l>Mais on trouve avec lui des accommodements.</l>
+              <l>Selon divers besoins il est une science</l>
+              <l>D’étendre les liens de notre conscience,</l>
+              <l>Et de rectifier le mal de l’action</l>
+              <l>Avec la pureté de notre intention.</l>
+            </lg>
+          </quote>
+          <quote>
+            <pb n="56" /><label><hi rend="i">ACTE IV. Scène 5.</hi></label>
+            <lg>
+              <l><seg>… … … … …</seg></l>
+              <l>Le mal n’est jamais que dans l’éclat qu’on fait,</l>
+              <l>Le scandale du monde est ce qui fait l’offense ;</l>
+              <l>Et ce n’est pas pécher, que pécher en silence.</l>
+            </lg>
+          </quote>
+          <p>Peut-on, après cela, nous vanter l’utilité de la Comédie, et l’appeler <hi rend="i">l’Ecole des mœurs</hi> ? Peut-on mettre ces Pièces en parallèle avec <hi rend="i">les prédications les plus saintes et les plus éloquentes</hi> ? Croit-on nous persuader que s’il est des jeunes gens estimables par leurs mœurs, ils en sont plus redevables au Théâtre qu’à la Chaire ? Et en rétorquant à M.F. son argument, ne serait-on pas mieux fondé à s’écrier ? Combien de jeunes gens très assidus aux spectacles <hi rend="i">ne conserveraient aucune idée des bonnes mœurs</hi>, s’ils n’étaient <pb n="57"/>soutenus, ou <hi rend="i">par des prédications saintes et éloquentes</hi>, ou par des sentiments d’honneur naturels, ou par une éducation avantageuse ? Combien d’autres au contraire, plus assidus aux prédications, conserveraient mieux les bonnes idées qu’ils y reçoivent, et en retireraient plus de fruit, s’<hi rend="i">ils n’étaient attirés aux spectacles par d’appât du plaisir</hi> ?</p>
+          <p>Non, la Comédie ne corrige point ; on voit, et le peu d’avantage qu’elle procure, et la quantité de maux qu’elle peut produire. L’on peut même assurer, dit l’Auteur déjà cité<note place="bottom"><p>L’Auteur de la République des Lettres.</p></note>, qu’il n’y a rien de plus propre à inspirer de la coquetterie, que ces Pièces, parce qu’on y tourne perpétuellement en ridicule <pb n="58" />les soins que les pères et mères prennent de s’opposer aux engagements amoureux de leurs enfants.</p>
+          <p>Il n’y a point en effet de Comédie où cela ne soit ; les passages sont si fréquents et si connus, qu’il n’est pas possible de les détailler, sans copier toutes les Pièces.</p>
+          <p>En vain le Théâtre se glorifie-t-il d’offrir maintenant de grands sentiments. Qu’est-ce au fond que ces grands sentiments ? Des saillies d’amour-propre et de vanité, des mouvements d’ambition, d’amour, de jalousie, de haine, de vengeance, de désespoir. Si nos Comédies contiennent quelques maximes que la raison, que les mœurs puissent adopter, qu’ils sont rares ! Et que <pb n="59" />le petit nombre en est encore peu utile ! Ou elles sont environnées de raisonnements dangereux qui les effacent, ou elles viennent trop tard ; le coup mortel est frappé, elles glissent sur la plaie.</p>
+          <p>En un mot point d’utilité dans la Comédie, beaucoup de danger.</p>
+          <p>Mais le plus grand de tous, (et c’est ici la première réforme qu’il faudrait y faire) c’est la peinture si vive, si bien variée, que l’on y fait de l’amour cette passion funeste à tous le cœurs, à tous les sexes, à tous les âges. Que d’occasions, que de moyens d’y succomber ! Combien nos Comédies nous en fournissent-elles ! Elles ne roulent toutes que sur des intrigues amoureuses ; on y apprend à connaître <pb n="60" />ce malheureux sentiment dans tous ses degrés, dans tous ses caprices, à le sentir, à l’inspirer, à parler son langage.</p>
+          <p>L’idée qu’en donne M. Racine le fils dans son Epître à M. de Valincourt, est bien vraie et bien frappante.</p>
+          <quote>
+            <lg>
+              <l>Des discours trop grossiers le Théâtre épuré,</l>
+              <l>Cependant à l’amour est par nous consacré.</l>
+              <l>Là, de nos voluptés l’image la plus vive</l>
+              <l>Frappe, enlève les sens, tient une âme captive.</l>
+              <l>Le jeu des passions saisit le spectateur ;</l>
+              <l>Il aime, il souffre, il hait, et lui-même est Acteur.</l>
+              <l>D’un Héros soupirant là chacun prend la place ;</l>
+              <l>Et c’est dans tous les cœurs que la scène se passe.</l>
+              <l>Le poison de l’amour a bien-tôt pénétré,</l>
+              <l>D’autant plus dangereux, qu’il est mieux préparé.</l>
+              <l>Ce feu toujours couvert d’une trompeuse cendre,</l>
+              <pb n="61" /><l>S’allume au moindre souffle, et cherche à se répandre.</l>
+              <l>Gardons-nous d’irriter ce perfide ennemi ;</l>
+              <l>Dans le cœur le plus froid il ne dort qu’à demi.</l>
+              <l>Et périsse notre art, que nos lyres se taisent,</l>
+              <l>Si c’est à l’amour seul que les hommes se plaisent.</l>
+            </lg>
+          </quote>
+          <p>On ne peut mieux persuader combien l’amour est dangereux dans les Comédies, ni mieux combattre les objections qui ont été faites de tout temps, et que M.F. renouvelle aujourd’hui, que cet amour a pour but l’union la plus légitime, et qu’il fait toujours un mariage ; qu’en se servant des propres termes de M. Nicole, rien n’est plus convainquant, ni plus décisif. On verra combien le reproche que lui fait M.F. est peu fondé, de n’avoir blâmé les spectacles qu’à <pb n="62" />cause de l’immodestie des Actrices.</p>
+          <p>La Morale de M. Nicole est ici des plus simples ; et il ne raisonne pas tant en Théologien, qu’en homme vrai, qu’en honnête homme.</p>
+          <p>« Comme la passion de l’amour est, dit-il, la plus forte impression que le <hi rend="i">péché</hi> ait faite sur nos âmes, ce qui paraît assez par les désordres horribles qu’elle produit dans le monde, il n’y a rien de plus dangereux que de l’exciter, de la nourrir, et de détruire ce qui la tient en bride, et qui en arrête le cours.</p>
+          <p>« Or, ce qui y sert le plus, est une certaine horreur que la coutume et la bonne éducation en impriment ; et rien ne diminue davantage cette horreur que la Comédie ; parce que cette passion y paraît avec honneur, <pb n="63" />et d’une manière qui, au lieu de la rendre horrible, est capable au contraire de la faire aimer. Elle y paraît sans honte et sans infamie ; on y fait gloire d’en être touché ; ainsi l’esprit s’y apprivoise peu-à-peu ; on apprend à la souffrir et à en parler ; et l’âme s’y laisse ensuite doucement aller, en suivant la pente de la nature.</p>
+          <p>« Il est inutile de dire, pour justifier les Comédies, qu’on n’y représente que des <hi rend="i">passions légitimes, et qui ont pour fin le mariage</hi>. Car encore que le mariage fasse un bon usage de la <hi rend="i">concupiscence</hi>, elle est néanmoins en soi toujours mauvaise et déréglée ; et il n’est pas permis de l’exciter, ni dans soi-même, ni dans les autres ; on doit toujours la <pb n="64" />regarder comme le honteux effet <hi rend="i">du péché</hi>, comme une source de poison capable de nous infecter à tous moments, si <hi rend="i">Dieu</hi> n’en arrêtait les mauvais effets. Ainsi, de quelque <hi rend="i">honnêteté</hi> apparente dont les Comédies tâchent de la revêtir, on ne peut nier qu’en cela même elles ne soient <hi rend="i">contraires aux bonnes mœurs</hi>, puisqu’elles impriment une idée agréable d’une passion vicieuse, et qu’elles en font même une qualité héroïque, n’y en ayant point qui paroisse avec plus d’éclat que celle-là dans les héros de Théâtre.</p>
+          <p>« Le mariage règle <hi rend="i">la concupiscence</hi>, mais il ne la rend pas réglée ; elle retient toujours quelque chose du dérèglement qui lui est propre ; et ce n’est que par force qu’elle se <pb n="65" />contient dans les bornes que la raison lui prescrit. Or, en excitant cette passion par les Comédies, on n’imprime pas en même temps l’amour de ce qui la règle. Les spectateurs ne reçoivent que l’impression de la passion, et peu ou point de la règle de la passion. L’Auteur l’arrête où il veut dans ses personnages par un trait de plume ; mais il ne l’arrête pas de même en ceux en qui il l’excite : la représentation d’un <hi rend="i">amour légitime</hi>, et celle d’un amour qui ne l’est pas, font presque le même effet, et n’excitent qu’un même mouvement, qui agit ensuite diversement, suivant les différentes dispositions qu’il rencontre ; et souvent même la représentation couverte de ce voile d’honneur <pb n="66" />est plus dangereuse, parce que l’esprit la regarde avec moins de précaution, qu’elle y est reçue avec moins d’horreur, et que le cœur s’y laisse aller avec moins de résistance.</p>
+          <p>« Mais, ajoute-t-il, la Comédie n’excite pas seulement les passions, elle enseigne aussi le langage des passions, c’est-à-dire l’art de s’en exprimer, et de les faire paraître d’une manière agréable et ingénieuse, ce qui n’est pas un petit mal. Il y a bien des gens qui étouffent de mauvais desseins, parce qu’ils manquent d’adresse pour s’en exprimer ; et il arrive aussi quelquefois que des personnes, sans être touchées de passions, et voulant simplement faire paraître leur esprit, se trouvent ensuite insensiblement <pb n="67" />engagées dans des passions qu’elles ne faisaient auparavant que contrefaire ».</p>
+          <p>Dire que les Comédies enseignent le langage des passions, ce n’est point un raisonnement outré ; l’expérience confirme tous les jours le sentiment de M. Nicole.</p>
+          <p>Combien de jeunes gens, s’ils voulaient être sincères, avoueraient que sans le secours des spectacles, ils n’auraient pas si tôt perdu une certaine retenue qui tient en garde contre les premières atteintes de cette passion ; que c’est la Comédie qui leur en a développé tous les mystères ; que c’est là qu’ils ont pris leurs premières leçons de galanterie, et qu’ils y ont appris l’art de faire parler des feux, <pb n="68" />inspirés, il est vrai, par la nature ; mais que leur simplicité ne pénétrait pas, ou que leur timidité n’osait faire éclore.</p>
+          <p>Une déclaration d’amour dans une Pièce qu’ils ont vu jouer, leur a fait ouvrir les yeux, les a animés. Cette déclaration ingénieuse, tendre, écoutée, heureuse, leur trace la route qu’ils cherchent, les flatte du même succès. Leur situation est la même que celle de l’amant, dont on leur offre le tableau. Même passion, même timidité, mêmes moyens par conséquent à employer.</p>
+          <p>Il en est à peu près de même des jeunes personnes de l’autre sexe. Elles s’accoutument à entendre un langage, que ceux-là apprennent <pb n="69" />à leur parler. Elles apprennent elles-mêmes à y répondre. La force de la représentation prévaut sur celle de l’éducation. Le danger, le crime de l’intrigue, diminuent à leurs yeux ; il s’anéantit bien-tôt. L’amour au Théâtre est toujours heureux, du moins dans les Comédies ; il y est peint comme un sentiment naturel, souvent comme une vertu. Elles y voient des filles qu’on appelle vertueuses, qui se livrent néanmoins à cette passion sans conséquence : elles les voient préférer le choix de leur cœur à celui de leurs parents, s’exposer à tout, mettre tout en usage pour le soutenir : ces parents à la vérité les inquiètent, menacent, fulminent ; mais ils cèdent enfin : les amants <pb n="70" />sont unis ; et après quelques légères persécutions, leur passion triomphe, est satisfaite.</p>
+          <p>Si les spectatrices ont les mêmes embarras, les mêmes inconvénients, les mêmes peines à craindre, elles ont du moins les mêmes précautions à prendre, et sur-tout le même bonheur à espérer. Comment ne suivraient-elles pas leur penchant, et étoufferaient-elles leurs tendres sentiments ? S’il en est dont le cœur soit neuf encore, il ne sera pas longtemps sans occupation ; il ne faut qu’une scène pour le séduire.</p>
+          <p>On leur donnera, je le veux, l’éducation la plus exacte ; on les instruira à réprimer toutes leurs passions, et sur-tout l’amour, à l’éviter, <pb n="71" />à le craindre ; on leur en fera un crime ; on le leur peindra affreux, dangereux ; on leur en fera sentir les conséquences ; on les veillera. Qu’importe ? Elles voient les mères de Théâtre en faire autant, elles ne voient pas les filles en faire mieux ; au contraire elles voient tous leurs projets réussir, et leur industrie tromper les soins et la vigilance des personnes chargées de leur conduite. N’ont-elles pas lieu de croire, que ce qui arrive sur le Théâtre, arrivera pour elles, et que tous les avis qu’on leur donne aboutiront au même but ?</p>
+          <p>Il faudrait donc, pour parvenir à la réforme que M.F. propose lui-même pour le Théâtre, (tant il <pb n="72" />est convaincu qu’il est encore dangereux aujourd’hui) il faudrait donc commencer par retrancher des Comédies toutes les intrigues amoureuses. C’est le même plan qui avait été proposé il y a quelques années par un Comédien lui-même, cet honnête homme dont parle M.F.</p>
+          <p>Mais, si l’on ne convient pas que ce plan soit impraticable, on avoue du moins qu’il a bien des difficultés, et l’on ne pense pas qu’il s’exécute jamais. Ces intrigues sont généralement ce qui est trouvé de plus beau, de plus fin dans toutes les Pièces de Théâtre ; chacun en est avide, chacun les suit ; tous les cœurs sont dans une douce impatience d’en voir le dénouement et <pb n="73" />la fin. Plus ces intrigues sont adroites et impliquées, leur nœud ingénieux ; plus leur succès est sûr et la séduction certaine.</p>
+          <p>Ainsi l’on sent combien le retranchement qu’on en conseille doit déplaire, et paraître dur aux amateurs. M.F. a même trouvé moyen de les effrayer davantage par sa comparaison.</p>
+          <p>Loin de travailler à détruire par les preuves la sagesse d’un règlement, qui au fond n’a rien d’impossible ni de bizarre, il a crû qu’il aurait plutôt fait, pour en dégoûter les gens du monde, de le faire passer à leurs yeux pour des statuts de Religieux, et de lui donner un air de Couvent. Cela n’est pas en effet attrayant pour des gens habitués <pb n="74" />à des allures bien différentes. Mais l’on est persuadé qu’il n’a pas parlé sérieusement, et qu’il n’a cherché qu’à égayer sa matière par ce badinage. Car s’il est bien constant qu’il serait indécent que le Théâtre copiât l’extérieur d’un Monastère, on ne peut disconvenir qu’il serait du bon ordre qu’il en eût la pureté intérieure.</p>
+          <p>Ce que propose M.F. de recommander aux Censeurs de redoubler leur exactitude pour ne souffrir dans les Pièces, ni impiété, ni satyre personnelle, ni obscénités, ne suffit pas pour en écarter le danger. Plus ces Pièces seront polies, plus encore une fois, si l’amour en est toujours l’âme et le principe, elles seront dangereuses et nuisibles. Elles <pb n="75" />causeront d’autant plus de mal, qu’on se persuadera qu’elles en ont moins, et qu’on s’y exposera avec moins de crainte et de scrupule.</p>
+          <p>Du côté de l’impiété, de la satyre, et de l’obscénité, l’expédient proposé serait excellent pour les Pièces à venir ; mais dans les anciennes que l’on joue tous les jours, il n’y en a presque point d’admissibles pour la pureté. Que deviendront elles ? Il faut donc les retrancher ; car où serait l’utilité d’être sévère sur les nouvelles, si on en laisse paraître impunément à côté d’elles d’autres qui méritent la proscription ? Le mal serait toujours aussi grand.</p>
+          <p>On n’a examiné ici que les Comédies de Molière ; mais ce ne sont <pb n="76" />pas les seules de condamnables en ce genre. Il en paraît journellement au Théâtre qui le sont autant, et souvent davantage ; telles que celles de Renard, qui est le Poète qui a le mieux imité Molière ; celles de Scarron, Montfleury, Baron, Dancourt, Poisson, Dufrény, Legrand, etc. La plus grande partie des Pièces de ces Auteurs sont restées au Théâtre, principalement celles de Dancourt et de Legrand. Pour peu qu’on les connaisse, on conviendra que je les apprécie ce qu’elles valent.</p>
+          <p>De sorte que si on réduisait le Théâtre (comme il le faudrait dans ce cas) aux Pièces nouvelles, et à celles qui parmi les anciennes ne pourraient être accusées de grossièreté, <pb n="77" />les Comédiens n’auraient pas grande obligation à M.F. d’avoir donné l’idée d’un plan qui tend, il est vrai, à rendre le Théâtre plus décent, mais qui tend aussi à le rendre stérile.</p>
+          <p>On convient que ce serait encore pis, si on le réduisait à n’avoir plus d’<hi rend="i">amour</hi> : privé de cet ornement, il serait désert ; ou du moins n’étant plus agréable que pour bien peu de gens, il serait peu fréquenté. Car il faut, comme dit encore M. Nicole, non seulement des passions dans les Comédies, mais il en faut de vives et de violentes. Les affections communes ne sont pas propres pour donner le plaisir qu’on y cherche ; et il n’y aurait rien de plus froid qu’un mariage <pb n="78" />chrétien, dégagé de passion de part et d’autre. Il faut toujours qu’il y ait du transport ; que la jalousie y entre ; que la volonté des parents se trouve contraire, et qu’on se serve d’intrigues pour faire réussir ses desseins. Ainsi l’on montre le chemin à ceux qui seront possédés de la même passion de se servir des mêmes adresses pour arriver à la même fin.</p>
+          <p>Cela justifie encore ce que l’on vient de dire il y a un moment pour la jeunesse.</p>
+          <p>Les Pièces de M. de la Chaussée cité par M.F. ont sans contredit plus de pureté qu’aucunes du Théâtre ; mais elles ne sont pas exemptes de ces passions violentes. La délicatesse de l’Auteur est répandue <pb n="79"/>dans tous ses ouvrages ; mais sans chercher à diminuer l’estime qu’ils ont acquis, en est-il un seul dont l’amour ne soit le mobile, et où il ne soit caractérisé avec des traits et des détails d’autant plus dangereux, qu’ils sont mieux ménagés ? L’équivoque ni la basse plaisanterie ne les dégradent point ; on ne respire point à leur représentation un air de volupté qui règne dans toutes les autres Pièces de Théâtre, on en convient ; mais tout y est si tendre, si touchant, que le cœur est affecté dès les premières scènes ; l’intérêt qu’on y prend est si vif, qu’il peut être très funeste, et qu’elles perdent par-là l’avantage qu’elles auraient sur toutes les autres d’être plus capables de corriger les <pb n="80"/>hommes, et de les rendre meilleurs.</p>
+          <p>Que l’on ne se fasse point un titre du compliment que lui fit à sa réception à l’Académie Françoise l’<hi rend="i">illustre Prélat</hi> qui y présidait alors<note place="bottom" resp="author"> [NDA] M. l’Archevêque de Sens.</note>. On sait qu’en fait de compliments, la Rhétorique, ainsi que la Poésie, prend souvent certaines licences. D’ailleurs personne n’ignore la circonstance qui occasionna celui-ci, dans lequel l’Orateur crut pouvoir risquer un parallèle qui ne tirait point à conséquence, et où il s’en tint même au genre délibératif vis-à-vis de M. de la Chaussée, en disant seulement qu’il croyait qu’il lui <hi rend="i">semblait par le bien qu’il avait entendu dire de ses Pièces, qu’elles pouvaient concourir au but que <pb n="81" />la Chaire se propose</hi>. Le cas sans doute était délicat pour ce Prélat ; l’usage exigeait qu’il louât : il n’avait pas à choisir la matière de son éloge ; il ne s’en présentait qu’une ; il ne pouvait guère parler autrement qu’il n’a fait.</p>
+          <p>Quelle conséquence tirer d’une politesse vague et momentanée, qui est fondée même sur un oui-dire ? On doute fort que celui dont elle partait eût été aussi loin, s’il avait connu par lui-même les Pièces qui en étaient l’objet.</p>
+          <p>Au surplus, on ne s’en prend pas directement à M. de la Chaussée du danger qu’il y a dans ses drames. On est persuadé qu’il n’y en met que pour céder à la nécessité, et pour servir les spectateurs, suivant <pb n="82" />le goût où les Poètes ses prédécesseurs l’ont accoutumé.</p>
+          <p>Cette espèce de nécessité qu’il y ait des passions violentes sur le Théâtre, fait son malheur et celui des Comédiens ; et il est tout naturel de conclure que, puisqu’il est impossible que la Comédie subsiste sans être mauvaise, il est impossible qu’elle subsiste sans être condamnable, et sans être condamnée.</p>
+          <p>Cependant, si l’on y faisait bien réflexion, il serait possible de faire de très bonnes Comédies sans amour ; elles n’amuseraient peut-être pas d’abord, parce que le goût n’y serait pas fait : il ne s’agirait que de l’y accoutumer ; il s’y ferait petit-à-petit, et insensiblement. Quelqu’un <pb n="83"/>qui n’en aurait jamais vu ni lu d’autres, s’y réjouirait certainement ; nous nous y réjouirions nous-mêmes à la fin, quand les autres seraient oubliées : l’habitude fait tout. C’est à cette occasion qu’on pourrait dire justement, <hi rend="i">que beaucoup de préjugés dont on croyait ne jamais revenir, ont néanmoins été détruits par la suite</hi>.</p>
+          <p>L’objet principal de la Comédie est d’amuser. Ne peut-on s’amuser qu’avec l’amour ? Nous rions tous les jours de bon cœur, au récit d’aventures qui se passent dans le monde, souvent sous nos yeux, dans lesquelles l’amour n’a pas la moindre part : pourquoi n’en ririons-nous pas au Théâtre ? Sommes-nous là différents de ce que <pb n="84" />nous sommes ailleurs ? Nos organes sont-ils autrement disposés ? Notre âme devient-elle plus méthodique ? Ses mouvements ne sont-ils pas les mêmes ?</p>
+          <p>Un écolier trouve un plaisir infini dans les Comédies de son Collège ; il ne s’en dégoûte que quand il en voit d’autres. Ces Pièces-là cependant ne sont que plaisantes. Jamais la moindre intrigue, la moindre scène amoureuse. Le nom de l’amour n’y entre jamais ; ou si on le nomme, c’est pour le rendre odieux, et non pour l’inspirer ; on n’en parle que comme d’un vice, et non comme d’un sentiment permis, encore moins comme d’une vertu. On n’y voit point de personnages de femmes ; tous les rôles <pb n="85" />sont remplis par des hommes ; tout y est châtié ; rien n’est capable d’y flatter la sensualité, ni de fomenter le dérèglement des passions : c’est pour le coup un divertissement innocent.</p>
+          <p>On ne conçoit pas comment M.F. ne sent pas la différence de ces Pièces avec celles de nos Théâtres, ni comment il peut demander pourquoi la représentation du même sujet dans les Collèges et sur le Théâtre public, est d’un côté une bonne action, et de l’autre un crime. C’est faire une question pour le plaisir d’en faire une. Il ne faut pas être profond pour la décider. Ici tout est dangereux, là tout est pur ; c’est un exercice utile à la jeunesse, c’est un plaisir qui contribue à son <pb n="86" />instruction. On n’ose pas s’étendre davantage sur cette réponse ; elle est presque aussi inutile que la question. Tout ce qu’on peut dire à M.F. et aux Comédiens, c’est que s’ils ne veulent pas que ce qui touche à leur Théâtre soit souillé, ils n’ont qu’à se conformer en tout aux représentations des Collèges ; on conviendra, quand ils n’en donneront que de semblables, qu’elles ne sont plus dignes de censure. Rentrons dans notre thèse.</p>
+          <p>Il est donc constant que les Comédies des Collèges ne tirent point leurs agréments de l’amour. Qui nous empêche de les imiter ? On va dire sans doute que ces fortes de Pièces sont bonnes pour des enfants, et qu’elles ne méritent pas <pb n="87" />l’attention des gens raisonnables.</p>
+          <p>Mais cependant on voit bien des gens raisonnables qui s’y amusent ; les écoliers ne sont pas les seuls spectateurs. Beaucoup de personnes qui fréquentent ordinairement les autres spectacles se trouvent à ceux-là, et les goûtent<note place="bottom" resp="author"> [NDA] M.F. s’écrie dans ses Observations : « Pourquoi la représentation du même sujet dans les Collèges et sur le Théâtre public, est-il d’un côté une bonne action, et de l’autre un crime ? Faut-il que tout ce qui touche au Théâtre se souille dans l’instant » ?</note>. Je dirais volontiers : Pourquoi le même sujet serait-il d’un côté amusant, et de l’autre ennuyant ? Faut-il que tout ce qui touche au Théâtre public ait pour plaire un air de débauche et de libertinage ?</p>
+          <p>Il y a plus : nous avons nous-mêmes sur nos Théâtres des Comédies <pb n="88" />qui sont goûtées, que l’on voit avec plaisir, où l’amour n’entre pour rien. Telles sont les Pièces à scènes épisodiques, vulgairement appelées <hi rend="i">Pièces à tiroir</hi>. La plupart sont sans intrigues et sans amour, où il y est bien faible, et n’y paraît, pour ainsi dire, qu’en passant.</p>
+          <p>Sans aller chercher plus loin, M.F. nous en offre une dans ses <hi rend="i">originaux</hi>, l’une des trois Pièces qui composent ses <hi rend="i">caractères de Thalie</hi>. Il s’agit précisément d’un mariage dans cette petite Comédie ; mais la passion ne parle dans aucune de ses scènes. On ne voit même paraître qu’un instant la fille qu’on destine au héros de la Pièce. C’est un jeune homme dont l’excellent naturel est obscurci par quantité de défauts qui le rendent <pb n="89" />vicieux pour la société et pour le monde. On veut l’en corriger, et le rendre plus digne de celle qu’on veut lui faire épouser. On imagine, pour le faire apercevoir de ses mauvaises qualités, de n’introduire auprès de lui que des gens qui lui ressemblent. Le projet réussit. Ses défauts le frappent quand il les voit dans les autres. Le fond de cette Pièce est assez ingénieux, et le détail amuse. La scène est alternativement remplie par un ignorant, un petit-maître, un fanfaron, un homme de table, etc. Chaque rôle fournit naturellement des traits plaisants ; et l’on peut dire qu’ils sont maniés avec adresse. On demande s’il serait ridicule de se modeler sur ce plan ; et si ce qui a été fait une fois, ne peut pas l’être mille.</p>
+          <pb n="90"/><p>On pourrait encore citer une Pièce de M.F. dont l’amour n’est point le mobile, et qui ne lui doit aucun de ses agréments. C’est du moins un amour bien différent de celui que l’on blâme dans les autres Comédies. Un sentiment aussi précieux que celui qui a fait naître <hi rend="i">l’Heureux Retour</hi><note place="bottom"><p>Cette petite Pièce a été faite sur le retour du Roi après sa convalescence, et a assez réussi. M. Panard y a fourni les Vaudevilles.</p></note>, et qui y est si bien dépeint, est trop respectable pour être dangereux ; et l’on est tenté d’appliquer à M.F. ces vers qu’il fait dire à un des personnages de sa Pièce :</p>
+          <quote>
+            <lg>
+              <l>Je vais vous dire <seg>quelques</seg> choses,</l>
+              <l>Monsieur l’Avocat : si jamais</l>
+              <l>Vous ne plaidiais que de ces causes,</l>
+              <l>Vous gagneriais tous vos procès.</l>
+            </lg>
+          </quote>
+          <pb n="91"/><p>On a beau dire ; en retranchant l’amour des Comédies, on n’en retrancherait point tout le sel ; elles auraient encore de quoi plaire si l’on voulait. Il est vrai qu’il faudrait plus d’art ; mais les talents en brilleraient davantage ; ce serait une nouvelle carrière ouverte aux Auteurs, qui en auraient plus d’occasions de se signaler.</p>
+          <p>Que l’on ne craigne pas que les sujets tarissent : tout préjugé à part, la scène est susceptible de toutes sortes de vices ; il n’en est point qui n’y puisse paraître, si on l’habille avec décence et avec une certaine délicatesse. On a joué jusqu’à présent les Curieux, les Menteurs, les Joueurs, les Distraits, etc. tant d’autres caractères que l’on a ou trop <pb n="92"/>flattés ou trop outrés ; en les rapprochant de la vérité, ils en offriraient de nouveaux. Après cela, il en est tant d’autres qu’on peut employer avec avantage ; il en est qui ne l’ont jamais été, parce qu’ils paraissent moins heureux, ou plus bas, comme le Gourmand, le Malpropre, etc. mais traités noblement et par une main habile, ils auraient du succès, et pourraient fournir de bonnes plaisanteries, des leçons utiles à la société, des maximes de politesse, des règles d’usage, des principes pour le monde ; car en général c’est tout ce qu’on peut tirer de la Comédie ; et il sera toujours très difficile de la rendre vraiment profitable aux bonnes mœurs ; tout son mérite serait de leur être moins nuisible.</p>
+          <pb n="93" /><p>Il pourrait naître encore une infinité de sujets des événements, comme <hi rend="i">l’heureux Retour</hi>. Nous étions l’année dernière dans une circonstance bien favorable<note place="bottom" resp="author"> [NDA] La Naissance de Monseigneur le Duc de Bourgogne.</note> : ce qui faisait et fait encore la joie de toute la France, de toute l’Europe, était bien capable d’en fournir d’heureux. Sans aller chercher les héros de la fable, les Muses en avaient de plus réels à célébrer ; la matière était assez abondante pour qu’on se passât aisément de sujets étrangers, &amp; d’incidents profanes &amp; dangereux. Cette idée a même été suivie, et elle a fourni des Pièces à deux Théâtres de Paris<note place="bottom" resp="author"> [NDA] <hi rend="i">La Guirlande</hi>, et <hi rend="i">Acante et Zéphise</hi>, à l’Opéra. <hi rend="i">Les Vœux accomplis</hi>, à la Comédie Italienne.</note>.</p>
+          <pb n="94"/><p>Si on fait quelque attention au Discours du P. Porée, dont M.F. veut en vain se faire un titre, puisqu’il est précisément contraire à son système ; si l’on veut, dis-je, entrer dans l’esprit de ses réflexions, je crois que dans le chaos qu’il n’a pas voulu nous débrouiller, on pourrait entrevoir quelque lueur du plan dont on donne ici une idée ; il faut croire qu’il l’avait en vue, quand il a dit qu’il était possible, quoique très difficile, de faire du Théâtre une école capable de former les mœurs.</p>
+          <p>On a d’autant plus de raisons pour le croire, qu’il soutient que la scène est actuellement dépravée, et qu’il n’y a que de grands efforts capables de la rendre telle qu’elle <pb n="95"/>pourrait, et telle qu’elle devrait être.</p>
+          <p>Il faut que M.F. n’ait pas lu ce Discours avec attention, ou qu’il ait été aveuglé par un préjugé bien violent ; s’il l’eût seulement examiné d’un œil indifférent, il l’aurait trouvé absolument opposé à ses intérêts ; et il se serait bien gardé de dire que, c’<hi rend="i">est tout ce qu’un esprit sage et orné peut produire de plus équitable</hi>. Car s’il est équitable, s’il est sage, les <hi rend="i">nouvelles Observations</hi> ne le sont pas.</p>
+          <p>L’éloge qu’en fait M.F. est juste ; la conséquence qu’il en tire est fausse ; rien n’est moins favorable aux spectacles d’à présent, que ce Discours.</p>
+          <p>Quoique l’Orateur semble quelquefois <pb n="96" />flatter la Comédie et la caresser, il est trop vrai pour ne la pas condamner. On dirait qu’il a prévu les objections de M.F. tant son Discours les réfute naturellement<note place="bottom"><p>Ce Discours a été prononcé en Latin au Collège des Jésuites le 13 Mars 1733, et a pour titre, <hi rend="i">Theatrum ne sit vel esse possit schola in formandis moribus idonea</hi> ? Il a été traduit en François par le P. Brumoy.</p></note>.</p>
+          <p>Il donne à peu près les mêmes raisons que celles dont on vient de se servir. L’art de l’exposition, de l’arrangement, la beauté et le choix du style, l’énergie des termes, le succès des transitions, la force des tableaux : voilà ce qui en fait la différence.</p>
+          <p>Il examine en particulier tous les genres de spectacles, et principalement <pb n="97"/>la Tragédie et la Comédie. Il les trouve tous très reprochables.</p>
+          <p>Il remonte à la source du mal ; elle est, selon lui, dans les Auteurs et les Acteurs comme dans les Spectateurs ; mais il la trouve singulièrement dans les Auteurs, qui perdent à tout moment de vue et la fin et le but du sujet qu’ils se mêlent de traiter.</p>
+          <p>Leur vrai but, dit-il, leur grand but paraît être uniquement de briller, et de se faire promptement connaître et admirer du public, de se donner en quelque sorte en spectacle à toute une ville, sans se piquer beaucoup du titre de bons citoyens, dont le devoir est de se rendre utiles, et de contribuer au bien commun de la nation.</p>
+          <p><pb n="98" />Horace dit que les Poètes veulent ou plaire ou être utiles. Le P. Porée dit que les nôtres ne veulent que plaire.</p>
+          <p>En général deux folles passions, capables seules de corrompre toute une nation, lui paraissent être le grand objet de nos Poètes, et en être l’objet bien plus pour les réveiller que pour les éteindre.</p>
+          <p>Il adresse la parole au grand Corneille, et lui reproche d’avoir donné des exemples et des préceptes de vengeance et de duel dans son <hi rend="i">Cid</hi>, et de les avoir donnés d’une manière d’autant plus dangereuse, qu’elle est plus pleine d’élévation, sinon de cœur et de sentiments, du moins d’esprit et de pensées.</p>
+          <p>Sa modestie sur l’article de l’amour <pb n="99" />donne au P. Porée l’occasion de parler de Racine, à qui il reproche son indiscrétion à cet égard. Il fait alors le parallèle de ces deux grands Maîtres de la scène Françoise, et dit ensuite que ceux qui se sont emparés de la scène après ces deux Poètes, ont bien pu imiter ou surpasser même leurs défauts, principalement celui des <hi rend="i">sottises amoureuses</hi> ; mais qu’il ne leur a pas été si aisé d’atteindre à leur art, beaucoup moins à leur génie.</p>
+          <p>Il répond ensuite au prétexte qu’on réveille l’amour pour le corriger et le bannir ; il appelle cela exciter un grand incendie pour l’éteindre, après qu’il a fait bien des ravages ; donner du poison pour le faire revomir, après qu’il a déchiré <pb n="100" />les entrailles. L’amour n’est pas, dit-il, de ces passions peu naturelles, qu’on est sûr comme d’éteindre après les avoir allumées.</p>
+          <p>Il fait voir que les anciens Tragiques ne connaissaient point cette passion, et que leur Théâtre ne se soutenait que mieux sans elle ; qu’Eschyle ne l’a jamais mise sur le sien ; que Sophocle ne l’y a admise qu’une fois, et Euripide deux fois, et encore avec de grands égards, beaucoup de discrétion et de bienséance.</p>
+          <p>Dans Athènes, suivant cet Orateur, la Tragédie se servait du ressort des passions pour les guérir ; elle les met en œuvre aujourd’hui pour augmenter leurs maux. La scène antique éteignait dans les <pb n="101" />Athéniens la soif de l’ambition, parce qu’elle la regardait comme la plus dangereuse peste de la République. La scène Françoise souffle aujourd’hui dans les cœurs un double poison, que nous devons regarder comme également funeste à la Religion et à l’Etat.</p>
+          <p>Après avoir montré combien la Tragédie a perdu de son ancienne majesté, en perdant sa gravité, sa sévérité, sa modestie, sa décence, il passe à la Comédie moderne. Il ne pense pas qu’elle ait raison de se flatter d’être plus pure que l’ancienne : le caractère qu’il fait de Molière est achevé ; et par-là même il en fait un maître dans l’art des mœurs d’autant plus mauvais, qu’il le fait meilleur dans l’art du poème dramatique.</p>
+          <p><pb n="102" />La Comédie, dit-il, se donne pour être fort différente de ce qu’elle fut jadis ; elle étale les vices et les défauts qu’elle réforme par ses Pièces ; elle cite les Petits-maîtres, les Femmes savantes, les Misanthropes, les Malades imaginaires, les diverses Ecoles, etc. L’Orateur insère un mot sur chaque chose, et fait ensuite une récapitulation des vices plus pernicieux, que la Comédie moderne a, dit-il, introduits, et qu’elle autorise. Mais pourquoi, ajoute-t-il, s’en prendre à la Comédie ? Est-ce par sa nature, ou n’est-ce pas plutôt par la malice d’autrui qu’elle s’est pervertie ? Ah, prenons-nous en à ceux qui, pouvant la rendre bonne et utile, l’ont rendue nuisible et pernicieuse ! <pb n="103" />Oui, j’ose m’en prendre d’abord au Chef même des Auteurs et des Acteurs de notre Scène.</p>
+          <p>Poète par goût, plus que par étude, ce fut un feu de jeunesse, non la malignité de la fortune qui le fit Comédien. Né pour des emplois sérieux, transporté dans le Comique, rigide Observateur du ridicule, Peintre plaisant d’après nature, exact sans affectation d’exactitude, correct sans paraître s’être gêné, serré dans sa prose, libre et aisé dans ses vers, riche en sentences, fertile en plaisanteries ; on peut dire qu’il réunit en lui seul toutes les qualités et la plupart des défauts des Poètes célèbres en ce genre. Aussi piquant qu’Aristophane, quelquefois aussi peu retenu ; <pb n="104" />aussi vif que Plaute, de temps en temps aussi bouffon ; aussi fin que Térence, souvent aussi libre dans ses tableaux : Molière fut-il plus grand par la nature ou par l’art ? Inimitable dans l’un et dans l’autre, vicieux par ces deux endroits, il nuisit autant qu’il excella. Le meilleur Maître, s’il enseigne le mal, est le pire de tous les Maîtres.</p>
+          <p>A de tels sentiments sur la Comédie, reconnaît-on un Apologiste ? Le P. Porée peut-il être cité comme tel ? M.F. a pris le change. S’il eût écrit contre la Comédie, aurait-il pu employer une autorité plus convaincante que ce Discours ?</p>
+          <p>N’y voit-on pas en effet le P. Porée la condamner ouvertement ? <pb n="105"/>Il la soutient dans l’état même qu’elle est aujourd’hui très inutile aux mœurs ; il va jusqu’à déclarer qu’elle leur est dangereuse ; il y blâme sur-tout les intrigues amoureuses ; et c’est précisément tout ce qu’on dit ici à M.F.</p>
+          <p>Il ne faut donc pas qu’il se récrie tant sur ce que le P. Lebrun, et plusieurs autres Théologiens ont soutenu que les spectacles condamnés par les Pères n’étaient pas plus coupables que nos Comédies. Si on ne peut leur reprocher l’indécence grossière et honteuse, dont les premiers étaient souillés ; les mauvais effets et les suites dangereuses qui résultent des uns comme des autres, en rendra toujours la comparaison juste ; et ce ne sera <pb n="106" />point être outré, que d’appliquer aux uns les condamnations prononcées contre les autres.</p>
+          <p>C’est principalement au P. Lebrun à qui M.F. reproche d’avoir outré la matière : mais puisque l’occasion s’en présente, on croit devoir le justifier un peu aux yeux de ceux qui ne connaîtraient pas son ouvrage ; on ne craint rien de ceux qui le connaissent.</p>
+          <p>M.F. l’accuse d’abord d’avoir soutenu que les Pièces de Théâtre ont été de tout temps condamnées pour leur seule inutilité.</p>
+          <p>Cela n’est pas plus exact que ce qu’il a dit de M. Nicole. Le P. Lebrun a bien dit que l’inutilité des Comédies était une raison qui les avait fait condamner ; et en cela il <pb n="107" />a parlé d’après l’Evangile ; mais il n’a pas dit que ce fût la seule raison. Il en a rapporté beaucoup d’autres, telles que l’indécence, l’équivoque, la mauvaise morale, les maximes dangereuses, les intrigues d’amour.</p>
+          <p>Il est ensuite accusé d’avoir fait <hi rend="i">des comparaisons si injustes et si outrées</hi>, qu’on ne peut dans ses critiques respecter que son zèle.</p>
+          <p>C’est encore quelque chose que le zèle d’un Ecrivain qui fait voir que la Comédie est mauvaise, soit respectable aux yeux même de son adversaire.</p>
+          <p>Mais en quoi les comparaisons du P. Lebrun sont-elles <hi rend="i">injustes et outrées</hi> ? Il ne laisse pas que de s’en trouver beaucoup de répandues dans ses ouvrages : desquelles M. <pb n="108" />F. se plaint-il ? Par le zèle qu’on lui voit pour la Comédie et les Comédiens, on entrevoit ce qui l’irrite, et on va tâcher de le tranquilliser. Si l’on n’y réussit pas, cela servira du moins à réfuter cette objection, et à en détruire une autre qui commence ses observations, et sur laquelle il paraît faire un grand fond.</p>
+          <p>Tous les défenseurs du Théâtre ont toujours été étonnés que les Comédiens fussent excommuniés, et que les Spectateurs ne le fussent pas ; et M.F. regarde encore aujourd’hui comme une singularité frappante, que les Comédiens soient en même temps proscrits et autorisés ; et il trouve que c’est une contradiction insoutenable, que de vouloir diffamer une troupe <pb n="109" />de gens à talents, que l’on reconnaît d’ailleurs être nécessaires, et que ce contraste ne peut pas longtemps subsister dans un Etat, dont le goût et les décisions sont des lois pour toutes les autres Cours de l’Europe.</p>
+          <p>Le P. Lebrun s’est servi de plusieurs moyens de réplique contre cette objection, qui paraissent également raisonnables et décisifs, et dont l’on va faire une courte analyse, nécessaire pour amener la comparaison fatale.</p>
+          <p>Il a répondu que quand on fait attention au mal que l’Eglise aperçoit dans les spectacles, aux soins qu’elle prend d’éloigner ses enfants de tout ce qui peut nourrir des passions dangereuses, et à la <pb n="110" />condescendance qu’elle doit avoir pour les Chrétiens faibles qui ne peuvent rompre leurs chaînes, et qui peut-être ne les sentent pas ; on voit que l’Eglise doit tolérer ceux qui vont aux spectacles, se contenter de punir les principaux Acteurs, et faire toujours exhorter les Fidèles à les fuir, jusqu’à ce qu’ils soient désertés ; … que la raison et l’expérience nous apprennent qu’on ne peut se dispenser de tolérer certains maux ; que l’Eglise craint d’arracher l’ivraie, crainte d’arracher le bon grain ; qu’elle doit tourner toute son application à faire connaître cette ivraie aux Fidèles, et à leur en donner de l’horreur, de peur qu’ils ne prennent pour bonne nourriture ce qui <pb n="111" />gâterait leur esprit et leur cœur…</p>
+          <p>Qu’il y a plusieurs usages très condamnables, dont on n’a pu faire revenir le monde, qu’après les avoir condamnés durant longtemps, comme les bains communs des hommes et des femmes, etc.</p>
+          <p>Que quand même les lois civiles permettraient des abus, et que plusieurs personnes les autoriseraient, il ne faudrait pas moins s’élever contre <seg>… … … … …</seg></p>
+          <p>Que si l’on souffre ces sortes de personnes, (les Comédiens) pour éviter de plus grands maux, comme on a toléré autrefois des choses qui paraissaient plus mauvaises, il faut du moins qu’on fasse entendre qu’elles sont mauvaises.</p>
+          <p>Que le comble des maux, est <pb n="112" />que le mal ose se revêtir de tous les caractères du bien.</p>
+          <p>Enfin, et voici sans doute la comparaison qui a choqué M.F. que S. Louis, le saint Pape Pie V. Saint Charles, et quelques autres Saints, ont bien souffert qu’il y eût des femmes de mauvaise vie dans les grandes villes ; mais que ces malheureuses femmes étaient notées d’infamie, et que l’on ne permettait pas qu’elles se trouvassent dans les assemblées de dévotion avec les femmes pieuses ; que l’Eglise en a toujours usé de même à l’égard des Comédiens, et qu’elle se trouve vis-à-vis d’eux réduite à de pareilles extrémités.</p>
+          <p>Le P. Lebrun ne dit pas que les Comédiens et les femmes débauchées <pb n="113" />se ressemblent ; que leur vie est la même ; qu’il n’y a point de différence entre les mauvais lieux et le Théâtre ; mais que S. Louis, et les autres Saints, en usaient à l’égard des uns comme à l’égard des autres ; et que si celles-ci ne pouvaient pas argumenter de la tolérance qu’on avait pour elles, ni en conclure que leur état fût honnête et licite ; ceux-là, parce qu’ils sont autorisés par le Gouvernement, ne peuvent pas dire que leur profession ne soit pas criminelle.</p>
+          <p>Quand on voit les Comédiens se glorifier d’être soutenus par les Puissances, on est tenté, en renchérissant sur le P. Lebrun, de leur faire aussi une comparaison qui a quelque ressemblance avec la sienne. <pb n="114" />On leur répond (avec la permission de M.F.) que c’est à peu près comme si une femme infidèle faisait gloire du prix de ses infidélités, et qu’elle voulût passer pour innocente, parce qu’on la souffrirait devant d’honnêtes gens par des raisons de nécessité ou de politique.</p>
+          <p>On peut encore ajouter à ce qu’a dit le P. Lebrun, que dans les Etats les mieux policés, il y a certains abus, certains dérèglements qu’il ferait trop dangereux de vouloir extirper ; qu’on est obligé prudemment de <hi rend="i">laisser croître l’ivraie avec le bon grain</hi> ; que si les Puissances supérieures semblent influer et fournir en quelque sorte à l’accroissement de cette mauvaise semence, c’est un mystère qu’il faut respecter <pb n="115" />par une sage discrétion, et non pas entreprendre témérairement de le sonder ; que les plus grands Prélats, depuis Constantin jusqu’à Justinien, n’ont point fait un crime aux Empereurs de n’avoir pas aboli les Théâtres ; que le Gouvernement de la France est trop bien entendu, trop sage, et trop prudent, pour qu’il se prête à l’innovation que se promet M.F. et qu’au surplus les raisons d’Etat et de Politique ne peuvent pas ôter à l’Eglise le droit de condamner ces abus et ces dérèglements tolérés.</p>
+          <p>M.F. demande si le P. Lebrun devait se prévaloir de plusieurs Conciles particuliers, qui ne regardent qu’une certaine discipline, des rituels de Diocèses, et de plusieurs <pb n="116" />Mandements peu favorables à la Comédie, qui ont paru au commencement de ce siècle. On lui répond que oui ; parce qu’il n’y a point de lois plus certaines et plus respectables que les Conciles, les Rituels, et les Mandements.</p>
+          <p>Mais comme M.F. ne parle que de Conciles particuliers, et qu’il n’en rappelle que deux, lorsque le P. Lebrun en a cité plus de trente, on lui en demande à son tour la raison. Si ceux de Reims et de Bourges de 1583 et 1584, (le Journal de Verdun d’Octobre 1751 a rectifié heureusement l’anachronisme) ne parlent que des Spectacles des jours de fêtes, des Danses dans les cimetières, devant les églises ; les autres sont bien plus étendus, <pb n="117" />et ont des dispositions bien plus générales. On sent bien que M.F. s’est trouvé intéressé à les taire ; mais prudemment, il aurait dû aussi laisser là ceux de Reims et de Bourges, afin de ne point réveiller l’attention sur tous les autres. On renvoie les lecteurs au P. Lebrun, pour se convaincre de ce qu’on avance à cet égard. Pour M.F. quoiqu’on voie bien qu’il l’a lu, on le prie d’y jeter de nouveau les yeux.</p>
+          <p>Quant aux Mandements qui ont paru au commencement de ce siècle, est-ce les détruire, que de dire qu’ils sont une suite des sentiments reçus dans l’Eglise ? au contraire c’est leur donner plus d’autorité.</p>
+          <pb n="118" /><p>C’est par une suite de ces sentiments reçus dans l’Eglise, que la Comédie est et sera toujours condamnée ; c’est par une suite de ces sentiments qui ne varieront point, que, lorsque les Comédiens de France présentèrent une Requête au Pape Innocent XII. pour se plaindre de ce que les Confesseurs leur avaient refusé les Sacrements au Jubilé de 1696, s’ils ne renonçaient à leur état, la Congrégation du Concile tenu à Rome les renvoya.</p>
+          <p>Et qu’en l’année 1701, à l’occasion du grand Jubilé, les Comédiens ayant encore prétendu être absous sans restriction ; et MM. les Curés de Paris ayant tenu ferme, ils s’avisèrent de présenter une nouvelle Requête au Pape Clément X, <pb n="119" />dans laquelle rien ne fut oublié ; et que ce Pape ayant fait examiner la Requête, elle fut rejetée, et la discipline des Curés confirmée.</p>
+          <p>Voilà des faits constants, qu’il est d’autant plus à propos d’ajouter encore à tout ce qu’a dit le P. Lebrun, qu’ils cadraient parfaitement aux circonstances, en 1751<note place="bottom"><p>Les <hi rend="i">nouvelles Observations</hi> ont paru dans le temps du Jubilé, dont M.F. a voulu sans doute procurer les grâces aux Comédiens, sans restriction et sans gêne.</p></note>. Les extraits de ces deux Requêtes et les réponses se trouvent dans un ouvrage sur la Comédie, imprimé à Orléans d’abord en 1697, et depuis vers le commencement du siècle.</p>
+          <p>On exposait dans ces deux Requêtes, et principalement dans celle de 1701, ce que M.F. expose dans ses Observations, que la <pb n="120" />Comédie condamnée dans les derniers siècles n’est point celle qui existe dans celui-ci ; que l’on était en droit dès lors (en 1701) d’espérer de l’Eglise l’absolution des Comédiens, et que les motifs qui ont occasionné les respectables décisions des Conciles, n’existaient plus. On s’efforçait de le prouver ; et quoi que dise M.F. qu’il n’y a jamais eu avant lui d’habiles défenseurs de la Comédie, on peut assurer, que si ces Requêtes n’offraient pas des preuves convaincantes, (il ne saurait y en avoir) ces preuves étaient présentées avec tant d’art, et si ingénieusement tournées, qu’elles étaient pour le moins aussi capables d’éblouir que les <hi rend="i">nouvelles Observations</hi>.</p>
+          <pb n="121" /><p>Ces Requêtes cependant n’ont pas eu de succès ; M.F. doit-il se flatter que la sienne en aura davantage ? Lui sur-tout qui ne s’adresse ni aux Papes, ni aux Evêques, ni aux Curés, et qui n’intercède qu’auprès d’un petit nombre de personnes.</p>
+          <p>On lui pardonne d’avoir cherché à justifier la Comédie ; il est naturel à un Auteur comique de s’intéresser à sa gloire. Mais doit-on lui passer d’avoir voulu, pour ainsi dire, rendre tant de Saints et d’illustres personnages, ses complices, en leur prêtant des sentiments qu’ils n’ont jamais eus ?</p>
+          <p>On a vu combien il s’était mépris à l’égard du P. Porée ; il en a fait autant à l’égard de S. Thomas d’Aquin, de S. François de Sales, <pb n="122" />de S. Charles Borromée, de S. Jérôme, et de plusieurs autres Docteurs, qu’il cite pour avoir été favorables à la Comédie. (Citation inutile, comme on l’a déjà dit, puisqu’il ne s’agit ici que de la Comédie moderne, et que tous ces Personnages n’ont pu parler que de l’ancienne, que M.F. condamne).</p>
+          <p>Il est vrai que dans tout ce nombre, il n’y a que S. Jérôme, saint Charles, et M. Huet, sur lesquels M.F. s’explique : il ne nous montre point en quoi consiste l’indulgence des autres.</p>
+          <p>On pourrait se dispenser de réfuter des raisons, indifférentes à la thèse ; mais on se fait une espèce de scrupule de laisser croire à M.F. qu’elles ont persuadé, et que l’on ne peut leur rien opposer. Ces <pb n="123" />trois Docteurs ont aussi peu favorisé l’ancienne Comédie, que le P. Porée a favorisé la moderne.</p>
+          <p>Par rapport à S. Jérôme, M.F. se fonde sur ce que ce saint Docteur a dit dans une de ses épîtres, qu’il faisait ses délices de la lecture de Térence, et qu’il a encore adopté plusieurs traits des Comédies de Turpilius.</p>
+          <p>D’abord M.F. ne nous indique ni cette épître, ni le passage dont il se prévaut, en sorte qu’il n’est pas possible de s’y arrêter comme à quelque chose de constant. Il y a apparence qu’il aura lu saint Jérôme avec les mêmes yeux, que ceux dont il a examiné le Discours du P. Porée.</p>
+          <p>Mais d’ailleurs serait-ce là un <pb n="124" />moyen bien victorieux ? Saint Jérôme était savant ; et, comme on le voit dans ses épîtres, il possédait la langue Latine autant qu’il la chérissait. Tout le monde sait qu’il s’est acquis le nom de <hi rend="i">Tullius Christianus</hi>. Il a pu faire ses délices de Térence pour la pureté de sa diction, la beauté de son style, l’arrangement de ses phrases ; l’aimer comme savant, et le condamner comme Auteur comique. Il n’y a personne qui ne sente et qui ne fasse cette distinction.</p>
+          <p>Il en est de même des traits de Turpilius qu’il aura employés ; il peut s’être trouvé dans les Pièces de ce Poète des expressions heureuses, qui pouvaient trouver place ailleurs sans conséquence : saint <pb n="125" />Jérôme s’en sera servi. Il y a souvent dans les Auteurs comiques des morceaux estimables, qui, détachés de l’<hi rend="i">ensemble</hi>, n’ont rien de répréhensible, et qui peuvent s’appliquer en toute autre occasion.</p>
+          <p>Par exemple : il s’en trouve plusieurs dans Térence. Ses Comédies sont même entre les mains de tout le monde, et particulièrement de ceux qui apprennent la langue Latine, et de ceux qui l’enseignent. Il faut en passer par-là ; c’est une nécessité inévitable. On l’a reconnu au Concile de Trente ; et dans l’Index des livres défendus ; on a excepté expressément ceux que le besoin qu’on a d’apprendre le Latin a rendu nécessaires. Térence est un des Auteurs anciens le plus capable <pb n="126" />de donner aux jeunes gens la pureté de la langue Latine. On a soin d’en supprimer les endroits trop libres, et qui pourraient les corrompre. Mais on peut dire que les Pièces de cet Auteur, et en général celles des Anciens, sont bien moins dangereuses que celles de nos jours. Celles-ci font toujours plus d’effet, parce qu’elles sont prises sur notre air et sur nos manières ; que les personnes qu’elle nous représente sont faites comme celles avec qui nous vivons ; et que presque tout ce que nous y voyons, ou nous prépare à recevoir les impressions de quelque chose de semblable que nous trouverons bien-tôt, ou renouvelle celles que nous avons déjà reçues.</p>
+          <pb n="127" /><p>Il n’est donc pas étonnant, après cela, que saint Jérôme se soit plu à la lecture de Térence. L’on ne pense pas que personne fasse à ce Saint l’injure de croire qu’il aura précisément choisi, pour s’amuser, les endroits licencieux, qui d’ailleurs sont plus rares dans ce Poète que dans aucun autre.</p>
+          <p>Il est encore moins extraordinaire que l’on ait un recueil de ses Comédies de l’impression du Vatican, puisque d’après le Concile le plus respectable, elles peuvent être sans crime entre les mains des personnes les plus pieuses.</p>
+          <p>On peut ajouter que, quand on les imprime au Vatican, c’est avec les réformes ; et que quand on les y imprimerait entières, on n’en pourrait <pb n="128" />encore rien conclure d avantageux pour la Comédie.</p>
+          <p>Ainsi il s’en faut de beaucoup que le raisonnement que M.F. fait à ce sujet, suffise ; et bien loin qu’il soit impossible d’y répondre, de bonne foi on pense qu’on aurait pu se passer de le faire absolument.</p>
+          <p>Ce qui est étonnant, c’est que M.F. si attentif à se prévaloir de faits peu conséquents, et qui n’en rapporte même que de fort douteux, n’ait pas pensé à tirer parti de ce que saint Grégoire de Zenana a mis la Passion de Notre-Seigneur en Tragédie. C’est un fait qui ne serait point contesté, et qui, quelque peu important qu’il soit, aurait pu du moins imposer davantage que ce qui est hasardé sur saint Jérôme.</p>
+          <pb n="129" /><p>Si l’on voulait rendre à M.F. fait pour fait, on pourrait lui en citer un qui ferait l’opposé du sien. C’est que saint Augustin s’accuse d’avoir été à la Comédie, et de s’y être laissé attendrir.</p>
+          <p>Par rapport à saint Charles Borromée, qui, selon M.F. a permis la Comédie, lorsqu’il fut, dit-il, informé et de son peu de danger et de sa nécessité. On ne sait pas sur quelle autorité il appuie ce fait, ni dans quelles annales il l’a puisé.</p>
+          <p>S’il ne parle que d’après Riccoboni, qui prétend que ce saint Archevêque n’a pas dédaigné d’approuver quelques canevas Italiens de sa propre main, sa décision ne doit pas être fort respectable.</p>
+          <p>Quelques réflexions détruiront <pb n="130" />aisément et ce préjugé, et la conséquence qu’on en tire.</p>
+          <p>Il est si peu vrai que S. Charles Borromée ait été persuadé de la nécessité de la Comédie, et qu’il l’ait permise ; que, sur ce que les Gouverneurs de Milan s’opposèrent aux exhortations qu’il faisait aux Princes et aux Magistrats de chasser de leurs Etats toutes sortes de Comédiens, il fit ordonner au troisième Concile provincial que les Prédicateurs reprendraient avec force les dérèglements de ces plaisirs, que les hommes séduits par une conduite dépravée, mettaient au nombre des bagatelles, où il n’y a point de mal ; qu’ils décrieraient avec exécration les spectacles, les jeux, les bouffonneries du Théâtre, etc. <pb n="131" />qu’ils développeraient avec soin les suites et les effets funestes des spectacles ; et qu’enfin ils n’oublieraient rien pour déraciner ce mal, et faire cesser cette source de corruption.</p>
+          <p>Il est vrai que Riccoboni a avancé, en publiant son Théâtre Italien, que les canevas des Comédies Italiennes jouées à l’impromptu, étaient examinés par une personne nommée par saint Charles, qui les approuvait, et signait ensuite de sa main, lorsqu’il ne se trouvait point dans l’action, ni dans la conduite de la Pièce, chose qui pût nuire à l’innocence de la jeunesse, ni scandaliser les spectateurs Chrétiens.</p>
+          <p>Mais, comme dit le P. Lebrun, <pb n="132" />ce fait ne s’accorde pas avec le récit de l’Auteur de la vie de saint Charles, qui assure que les Comédiens aimèrent mieux quitter Milan, que d’observer les lois prescrites par ce saint Cardinal.</p>
+          <p>En effet, en supposant pour un moment la vérité de ce que dit Riccoboni, on voit que les conditions imposées par saint Charles ne devaient pas être goûtées des Comédiens, puisqu’elles tendaient à rendre leurs spectacles froids, et à les priver de leurs agréments ordinaires. M.F. lui-même ne doit pas tirer un grand avantage de cette anecdote, puisqu’elle prouve que si saint Charles a approuvé la Comédie, il ne l’a approuvée qu’autant qu’elle serait pure et innocente, <pb n="133" />et qu’il ne l’a permise que dans le cas où elle ferait, comme on soutient ici qu’il faudrait qu’elle fût, pour être tolérable ; qu’il n’y eût dans l’action, ni dans la conduite, rien de nuisible à l’innocence de la jeunesse, ni capable de scandaliser les spectateurs Chrétiens.</p>
+          <p>Approuver la Comédie, à condition qu’elle sera comme elle doit être, c’est la condamner comme elle est.</p>
+          <p>Quoi qu’il en soit, on ne rapporte aucuns de ces canevas signés de la main de saint Charles ; et il en faudrait pour juger jusqu’où il portait sa tolérance. C’est donc encore un fait douteux. Un homme, comme dit le P. Lebrun, intéressé par sa profession à trouver la Comédie <pb n="134" />innocente, peut-il prétendre que des allégations vagues suffiront pour faire compter saint Charles Borromée au nombre des Apologistes du Théâtre ?</p>
+          <p>Enfin par rapport à M. Huet, Evêque d’Avranches, que l’on a toujours reconnu pour un homme célèbre, mais que jusqu’à présent on n’avait point regardé comme <hi rend="i">un Docteur scolastique</hi> ; on ne voit pas par ce qu’en dit M.F. qu’il ait favorisé en rien la Comédie. On voit seulement qu’il nous a fait entendre dans sa Lettre sur les Romans, que l’allégorie, que l’ironie même sont permises. Cela ne dit point, ni ne veut point dire que les spectacles le soient. De ce que ces deux figures n’ont rien de condamnable <pb n="135" />en elles-mêmes, et qu’elles sont souvent employées dans les Pièces de Théâtre, s’ensuit-il que les Pièces de Théâtre ne soient point condamnables ? C’est comme si l’on disait que la Comédie n’est point défendue, parce que la Poésie ne l’est pas.</p>
+          <p>L’allégorie et l’ironie n’ont qu’un rapport indirect avec les spectacles ; toutes sortes de matières sont de leur ressort. Elles ne sont pas uniquement propres aux Pièces de Théâtre ; il n’est guère d’ouvrages qui n’en soient susceptibles, puisqu’elles n’ont point même été bannies <hi rend="i">de ce Livre sacré, dont toutes les expressions sont si sublimes et si mesurées</hi>, de <hi rend="i">ce Livre enfin le plus cher aux Chrétiens</hi>.</p>
+          <pb n="136" /><p>Au surplus, il est bien singulier que pour prouver l’indulgence d’un homme pour la Comédie, on cite un de ses ouvrages, où il n’en dit pas le mot.</p>
+          <p>Comment est-ce que M.F. accoutumé à trouver favorables à son système les Auteurs qui le sont le moins, n’a pas tiré de conséquence avantageuse du Traité du Prince de Conti contre la Comédie ? Il n’a pu à cet égard dissimuler, ni la vénération que l’on doit ressentir pour cet ouvrage, ni combien il est décisif pour la condamnation des spectacles ; mais on n’imaginerait pas comme il s’y prend pour en diminuer la force.</p>
+          <p>On y aperçoit, dit-il, ainsi que dans quelques maximes de M. de la <pb n="137" />Rochefoucauld, un peu trop de dégoût pour le monde ; voilà toutes les objections de M.F.</p>
+          <p>Ce n’est pas là attaquer, c’est fuir. Ce n’est pas détruire un ouvrage, c’est convenir que l’on n’a rien à y opposer. C’est dire : cet ouvrage n’est pas bon, parce qu’il est contraire à mes sentiments ; car cela ne veut pas dire autre chose. Comment un Discours qui blâme des plaisirs que le monde chérit, pourrait-il respirer le goût du monde ?</p>
+          <p>M.F. prétend-il insinuer que ce que le Prince de Conti a dit contre les spectacles, n’est pas raisonnable, ou ne doit pas faire impression, parce que ses maximes ne sont pas conformes à celles du monde ? Veut-il faire entendre que <pb n="138" />l’ouvrage le plus solide, dicté par la raison, par la vérité, et par la religion, est l’effet du caprice ? Mais il ne persuadera pas plus de cela, qu’il ne fera adopter la morale singulière qu’il débite à cette occasion.</p>
+          <p>Il est décidé, selon lui, que la fervente dévotion a des degrés où il est toujours très bon de s’efforcer d’atteindre, mais qui ne peuvent pas faire une loi pour le général des hommes.</p>
+          <p>On aurait été charmé d’apprendre par qui cela a été décidé, dans quel Concile, par quels Docteurs. C’est un principe assez nouveau dans notre Religion, pour qu’il soit appuyé de quelque autorité. Car les règles de cette Religion qui sont <pb n="139" />les mêmes pour tous ceux qui la suivent, nous enseignent, et nous obligent sans exception et sans restriction, à travailler sans cesse à nous rendre plus parfaits, à aimer Dieu, le prochain, à faire pénitence, etc. s’en dispenser, c’est violer les préceptes ; et si le général des hommes n’a pas une fervente dévotion, qui n’est autre chose que l’observance de ces préceptes, il n’est pas moins vrai qu’il doit l’avoir, et que c’est une loi indispensable, absolue.</p>
+          <p>Un Théologien s’étendroit davantage sur cette objection, et ferait mieux sentir à M.F. combien il s’est égaré.</p>
+          <p>Mais sans l’être, on peut savoir comme les Théologiens ont parlé, <pb n="140" />et représenter à M.F. qu’aucun d’eux n’a dit ce qu’il leur fait dire, que les pompes du démon sont dans le péché.</p>
+          <p>On a appris au catéchisme que les pompes du démon et le péché sont choses très distinctes ; et quand on y explique ce que c’est que renoncer à satan, à ses pompes, et à ses œuvres, on nous dit que par satan, il faut entendre le monde ; par les pompes de satan, les pompes du monde, qui sont l’éclat trompeur et le faux brillant des richesses, ses honneurs, ses plaisirs, ses vanités, ses coutumes pernicieuses, ses maximes corrompues, etc. et par les œuvres, toutes sortes de péchés. En sorte que les pompes ne sont pas le péché, ni dans le péché. <pb n="141"/>Les pompes sont purement extérieures, le péché est souvent intérieur.</p>
+          <p>Voilà de ces matières qu’il n’est pas effectivement permis à tout le monde de traiter, et qui ne vont pas avec celles dont il s’agit ici. M.F. aurait bien fait de s’en dispenser ; on ne les embrasse que pour lui montrer qu’il en avait plus d’une raison.</p>
+          <p>On croit encore, sans trancher du Théologien, pouvoir lui observer au sujet du rapport des actions à Dieu, que le rapport continuel des actions les plus indifférentes n’est pas d’une spéculation si difficile ; qu’il ne faut que savoir bien sa religion, pour être capable de la supporter, et pour la regarder <pb n="142" />comme un précepte, comme une obligation.</p>
+          <p>Il n’y a point d’action, quelque indifférente qu’elle paroisse, si elle n’est pas mauvaise, qui ne puisse et ne doive se rapporter à Dieu, et celles qui sont décidées mauvaises, sont celles qu’il est absolument impossible de lui offrir.</p>
+          <p>Il y a au surplus une distinction essentielle à faire dans les actions. Il en est de bonnes, de mauvaises, et d’indifférentes : ces dernières se divisent encore, et sont conditionnelles ; c’est-à-dire que les mêmes actions peuvent quelquefois n’être qu’indifférentes, et quelquefois être mauvaises, telles que le jeu des cartes, de dé, etc. Celles-là sont indifférentes à l’égard de ceux à qui <pb n="143" />elles ne servent que d’un honnête délassement ; ils peuvent en ce cas les offrir à Dieu. Elles sont mauvaises à l’égard de ceux en qui elles sont une passion, et en qui elles occasionnent des excès criminels, comme la fureur, le blasphème, la mauvaise foi, etc. on ne peut alors les offrir à Dieu.</p>
+          <p>Il en est enfin qu’il n’est pas permis de regarder comme indifférentes. Peut-on, par exemple, appeler ainsi ce qui fait une occupation d’état ? et faut-il se faire violence pour rapporter à Dieu le choix de cet état ?</p>
+          <p>Mais quoiqu’en général tous les hommes doivent rapporter à Dieu le choix de leur état, et par conséquent les Comédiens eux-mêmes, <pb n="144" />il n’en est pas moins vrai que la profession de ces derniers est condamnable ; c’est une de ces offrandes peu agréables à Dieu. Thomassin par son usage louable, Beaubourg par son extérieur édifiant, Mademoiselle Beauval par sa sagesse, et beaucoup d’autres Comédiens par la pureté de leur conduite, n’ont pas rendu leur métier plus noble ni plus innocent. Ils ont tous été par leur état des occasions de scandale. Malheur, comme l’on sait, à ceux par qui il arrive !</p>
+          <p>Il n’est pas douteux que d’après les principes de notre Religion, la Comédie étant la source de bien des maux, les Comédiens ne soient responsables devant Dieu de bien des iniquités. Ce n’est point exagérer <pb n="145" />que de le dire ; mais c’est exagérer que d’aller aussi loin que va M.F. pour les justifier, et de vouloir insinuer que leur établissement dans les villes y opèrent plus de sagesse et de régularité.</p>
+          <p>Que l’on nomme, dit-il, une ville où jamais la plus petite troupe de campagne ne se soit établie ? Y verra-t-on les hommes moins brutaux, moins ivrognes, les femmes moins galantes ? L’avarice, la perfidie, l’indévotion, et tous les vices y seront-ils moins communs ?</p>
+          <p>On le prie lui-même de nommer une ville où l’établissement des Comédiens ait fait disparaître tous ces vices. Il ne pourrait mieux prouver leur utilité et celle de la Comédie. Mais s’il est vrai que partout <pb n="146" />où ils sont, les hommes ne sont pas moins vicieux, il faut en conclure au moins que la Comédie ne produit pas les bons effets dont on lui fait honneur.</p>
+          <p>M.F. s’est bien douté qu’on lui ferait cette question ; et c’est sans doute pour y répondre d’avance, qu’il cite la capitale d’une Province de France du côté du nord, où les bonnes mœurs se font remarquer, où l’on remplit avec la plus grande piété les devoirs du Christianisme ; où les hommes sont laborieux, et les femmes rarement infidèles ; et où cependant l’inclination pour les spectacles est si grande, que dans les temps où ils sont suspendus ailleurs, c’est-à-dire dans les jours saints, ils y subsistent encore, et <pb n="147" />souvent alors quelques bons Acteurs de Paris s’y sont transportés, pour s’y joindre aux troupes qui y sont fixées.</p>
+          <p>En vérité cette ville, telle qu’elle soit, doit avoir bien de la reconnaissance pour M.F. qui la choisit seule entre tant d’autres pour la préconiser avec tant de force et d’énergie, et dans des termes si flatteurs. Elle doit être bien jalouse de se voir l’objet de sa prédilection, et d’être proposée pour modèle à la France.</p>
+          <p>Il est fâcheux que M.F. nous ait dérobé l’avantage de la mieux connaître, et qu’il ait enseveli un nom si précieux dans les ténèbres. Il est cependant utile de connaître ceux que l’on donne pour exemple.</p>
+          <pb n="148" /><p>A la peinture qui nous est faite de la piété extraordinaire de cette ville, des mœurs estimables de ses citoyens, et sur-tout de la fidélité particulière de ses citoyennes, on ne jette les yeux sur aucune capitale. On voit par-tout la vertu et le vice assez également compensés chez les hommes comme chez les femmes ; on voit les devoirs du Christianisme également remplis et violés.</p>
+          <p>Mais à la grande inclination pour les spectacles, à leur représentation même dans les jours les plus saints, on en soupçonne une qui, sans lui faire tort, ne mérite pas plus que Paris, Lyon, et beaucoup d’autres, les éloges outrés qu’en fait M.F. qui à cet égard a été mal instruit, <pb n="149" />ou n’a pas voulu l’être mieux, ou a peut-être fait, en la peignant ainsi, l’office d’un bon compatriote. C’est cependant donner de bien mauvais garants de l’exactitude et de la sévérité de ses mœurs, que sa passion excessive pour les spectacles ; c’est en donner sur-tout de bien mauvais de sa piété, et de son zèle à remplir les devoirs du Christianisme, que de nous <seg>instruire</seg> que les spectacles suspendus par-tout ailleurs dans les jours saints, subsistent encore là.</p>
+          <p>Plusieurs Comédiens de nos jours sont estimables par leurs talents ; on ne doute point qu’ils ne le soient tous par leurs mœurs ; il faudrait encore qu’ils le fussent par leur état. Car on a beau se flatter et <pb n="150" />s’étourdir sur cette profession, il n’y a personne qui au fond du cœur ne sache l’apprécier.</p>
+          <p>La tache continuelle qui est imprimée sur eux, n’est pas un motif qui puisse justifier l’irrégularité qu’il y aurait dans leur conduite ; c’est au contraire une raison qui doit les engager à plus de circonspection sur eux-mêmes, afin au moins de n’avoir de reprochable que leur état : parce qu’on est malheureux, faut-il être coupable ? et ne vaut-il pas mieux être plaint que détesté ?</p>
+          <p>Ce n’est pas un principe général, que tous ceux qui paraissent en public soient en butte à la médisance ; c’est même un axiome outré. Il est nombre d’états qui rendent publics <pb n="151" />ceux qui les embrassent, sans les rendre moins respectables ; et si l’on se plaît volontiers à dire du mal, ce n’est que de ceux dont l’emploi ne fait pas juger le bien.</p>
+          <p>On convient que de tout temps les Comédiennes sur-tout, ont été plus exposées que d’autres à la médisance. Mais cela est-il étonnant ? et en général n’a-t-on pas presque toujours eu sujet d’en médire. Il leur devrait être cependant plus aisé qu’aux autres femmes de ne rien craindre à cet égard, puisque <hi rend="i">leurs aventures n’étant jamais ignorées</hi>, leur sagesse ne le serait pas. Ce doit être une consolation pour celles dont la vie est exacte, de savoir qu’on n’en doutera pas.</p>
+          <p>Cependant, sans attaquer aucunes <pb n="152"/>de nos Comédiennes, que l’on veut croire très sages, il est vrai de dire que ces sortes de femmes ne contribuent pas peu à rendre les spectacles dangereux à nos jeunes gens. Comment des femmes que l’on ne voit jamais que dans les passions, ne les irriteraient-elles pas dans ceux en qui elles commencent à germer ? Comment les peignant si bien, seraient-elles supposées ne les pas connaître, et ne les pas sentir ? Comment faites pour le plaisir, et le prêchant sans cesse, ne l’inspireraient-elles pas ? On les voit si tendres, si passionnées, qu’on désire être l’objet heureux de tant de sensibilité, de réaliser des fictions si charmantes, et de goûter des plaisirs si bien assaisonnés. <pb n="153"/>L’art séduit en tout, jusques dans la nature même.</p>
+          <p>On ajoute que la réputation malheureuse qu’elles ont de n’être pas cruelles, nourrit les desseins que leurs charmes font naître ; on se laisse volontiers aller à des espérances qui ont rarement été trompées. Le peu de risque de l’entreprise, la facilité de l’exécution, l’habitude du succès, fournissent des armes au vice ; vis-à-vis d’une honnête femme il a moins de privilèges. Près d’elle le respect tient lieu d’innocence, et la crainte d’échouer est un obstacle qui devient salutaire. La vertu naît souvent de la difficulté de commettre le crime.</p>
+          <p>Ce reproche général que l’on fait ici aux Comédiennes est justifié <pb n="154" />par le goût prodigieux et singulier que l’on a communément pour elles, et par la préférence marquée qu’on leur donne si ordinairement sur les autres femmes, même les plus aimables.</p>
+          <p>Pour excuser leur immodestie, M.F. est entré dans un trop léger détail ; pour la prouver, il en faudrait un trop grand.</p>
+          <p>Il a raison de dire qu’il est encore plus difficile de justifier l’Opéra que la Comédie. Il peut y avoir du remède à l’une, on n’en voit pas à l’autre. A l’Opéra le danger est par-tout ; et toute l’exactitude des Censeurs n’en saurait garantir. La morale qui y est répandue est déjà beaucoup ; mais ce n’est pas tout.</p>
+          <pb n="155" /><p>Malgré la difficulté qu’il y trouve, M.F. a voulu un peu justifier cette morale. Il ne croit pas qu’il y ait au monde une personne assez simple pour prendre des chansons pour des vérités. Il n’est cependant que trop vrai qu’elles ont toujours fait, et qu’elles feront toujours des impressions dangereuses sur l’esprit des jeunes gens, par qui l’habitude fait souvent adopter comme des maximes sûres ces principes voluptueux ; et que le dérèglement qu’elles inspirent, leur fait prendre aussi souvent des chansons pour des vérités, que les vérités mêmes pour des chansons.</p>
+          <p>Le fameux Despreaux a été bien malheureux d’avoir parlé de l’Opéra. Cela lui a attiré de la part de <pb n="156" />M.F. deux épithètes injurieuses à sa mémoire.</p>
+          <p>Enfin M.F. a presque été tenté de faire aussi l’apologie des Opéra Comiques et des Parodies, ces Pièces dont il avoue que le plus grand mérite est la satyre et les équivoques ; sans doute parce qu’il a été aussi Auteur dans ce genre ; mais comme il n’a point approfondi la matière, on ne croit pas à propos non plus de l’approfondir.</p>
+          <p>Voilà à peu près à quoi se réduisent les objections de M.F. on se flatte de les avoir réfutées avec succès, et d’avoir prouvé :</p>
+          <p>Que la Comédie a été jusques à présent et est encore infructueuse pour les mœurs ; qu’elle leur est même très nuisible, et que rien <pb n="157"/>n’est plus dangereux pour la jeunesse, si susceptible de mauvaises impressions.</p>
+          <p>Que l’art de Molière et de ceux qui l’ont suivi, en déguisant le danger, l’ont rendu plus grand, et que les talents des Auteurs dramatiques ne sont pas des titres pour justifier leurs Pièces.</p>
+          <p>Que les précautions qu’on propose de prendre pour rendre le Théâtre moins digne de censure, sont insuffisantes ; et que tant que l’on y laissera subsister l’amour, toutes les réformes seront inutiles.</p>
+          <p>Et que s’il n’y a pas de possibilité à réduire le Théâtre au point de modestie convenable, et à lui ôter ce qu’il a de funeste ; il n’y a pas d’espérance que l’Eglise lève jamais <pb n="158" />la tache dont il se plaint.</p>
+          <p>On n’a pas prétendu faire un traité complet des Spectacles, ni rapporter généralement toutes les autorités qui les condamnent : c’est pour éviter ce détail immense, dans lequel d’ailleurs plusieurs Ecrivains sont déjà entrés, que l’on va se contenter de les indiquer. On n’a pas voulu non plus, comme on l’a annoncé au commencement de cet Ouvrage, employer le secours de la piété, réclamer les droits de la <seg>Religion,</seg> ni combattre la Comédie suivant les maximes de l’Ecriture, et les instructions des saints Pères de l’Eglise ; elles auraient fourni des armes encore plus victorieuses que celles dont on s’est servi. On s’est modelé sur les observations de <pb n="159" />M. Fagan ; on n’a envisagé ici que les règles de la simple décence ; et l’on n’a parlé que suivant les principes de cette bienséance <seg>précieuse</seg> aux honnêtes gens, et qui est admise même dans le monde. On a cherché à détruire des principes qu’on a décorés du nom de la vérité, et à détromper les esprits sur des raisons, qui toutes faibles qu’elles sont par elles-mêmes, pourraient séduire des gens déjà intéressés à les trouver bonnes. On n’a eu pour but que de mettre la Comédie dans son vrai point de vue, et de montrer qu’elle n’est ni aussi pure ni aussi innocente qu’on le dit. Enfin l’on s’est proposé d’empêcher les partisans du Théâtre, et sur-tout les jeunes gens, si on ne peut les en éloigner, de les <pb n="160" />empêcher, dis-je, de se flatter qu’ils ne font point de mal en le fréquentant, et de leur ôter cette sécurité dangereuse qui nourrit leur erreur.</p>
+          <p>La généreuse hardiesse de celui qui nous montre que le mal est où il est en effet, doit être sans doute plus utile que l’adresse de celui qui cherche à persuader qu’il n’est pas où il est.</p>
+        </div>
+        <div type="chapter">
+          <pb n="161" /><head>HISTOIRE DES OUVRAGES<lb /><hi rend="i">Qui ont paru pour et contre la Comédie, depuis le 17<hi rend="sup">e</hi> Siècle.</hi></head>
+          <p>En Italie, il y a eu plusieurs Ouvrages imprimés contre la Comédie. A Padoue, en 1630, par François Marie del Monacho, Sicilien. A Florence, en 1645, par le P. Ottonelli, Jésuite : et un autre en 1652.</p>
+          <p>Hédelin, est le premier auteur François de ce siècle (1600) qui ait osé entreprendre de justifier la Comédie : il fit deux ouvrages en 1657 : le premier intitulé <hi rend="i">Pratique du Théâtre</hi>. Le second, <hi rend="i">Projet pour <pb n="162" />le rétablissement du Théâtre français</hi>, contenant les causes de sa décadence, et les remèdes qu’on y pourrait apporter. Dans le premier, l’auteur donne des preuves de son érudition dans les poésies anciennes. Le second ouvrage est demeuré imparfait, sans doute, parce qu’il n’a pas pu exécuter son dessein. Cet auteur propose deux raisons qui font voir les difficultés que l’on a de justifier la Comédie, et il tâche de les détruire. La première est la créance commune des peuples, que c’est pécher contre les règles du Christianisme que d’y assister. La seconde, l’infamie dont les Lois ont noté les Comédiens.</p>
+          <p>Ces deux ouvrages d’Hédelin ne furent pas sans réponse : on donna <pb n="163" />en 1659 un Traité contre la Comédie, qui se trouve dans le troisième volume des Essais de Morale ; et on peut regarder ce Traité comme une réponse ; car quoique l’Auteur n’y nomme ni Hédelin ni ses ouvrages, il se plaint cependant de la corruption de son siècle, de ce qu’on y avait voulu justifier la Comédie. Or il n’y avait alors que les ouvrages d’Hédelin pour la soutenir en France.</p>
+          <p>On a parlé plus haut de quelques Traités faits en Italie contre les Spectacles.</p>
+          <p>En 1657, le Curé de Saint Germain l’Auxerrois, à Paris, consulta les Docteurs en Théologie de la Faculté de Paris sur la matière de la Comédie ; il fut décidé qu’il y <pb n="164" />avait péché mortel, et pour les Comédiens, et pour ceux qui y contribuaient.</p>
+          <p>Saint Charles Borromée, qu’on veut faire passer pour un protecteur de la Comédie, a fait composer un livre particulier contre les Comédies, qui prouve qu’elles sont mauvaises à cause des circonstances qui les accompagnent, et de leurs effets, et que c’est pour cela qu’elles sont défendues. Ce livre a été traduit en François, et imprimé à Toulouse en 1662.</p>
+          <p>M. le Prince de Conti qui avait fréquenté les Théâtres avant sa conversion, et qui savait les maux qu’ils causent, se crut obligé d’écrire contre la Comédie ; et il le fit d’une manière savante, élevée, <pb n="165"/>et très pressante. On trouve dans l’ouvrage de ce Prince religieux autant de preuves de son zèle, que de la beauté de son esprit. Il donna ordre, peu de mois avant sa mort, à M. de Voisins de faire imprimer ce Traité, ce que ce Docteur exécuta en 1666, à Paris, chez Promé.</p>
+          <p>Le Public fut surpris de voir paraître dans la même année une apologie de la Comédie, par un livré intitulé, <hi rend="i">Dissertation sur la condamnation des Théâtres</hi>, dont on crut Hédelin encore l’auteur. M. de Voisins voulut défendre le Traité de M. le Prince de Conti contre la Comédie qu’il venait de donner au Public, et que cette Dissertation attaquait. C’est pourquoi il composa un livre <hi rend="i">in</hi>-4°. plein de preuves, <pb n="166" />et de faits les plus solides que l’on puisse désirer. Cet ouvrage a pour titre, <hi rend="i">Défense du Traité de M. le Prince de Conti touchant la Comédie</hi>, ou <hi rend="i">Réfutation de la Dissertation sur la condamnation des Théâtres</hi>. Il fut imprimé en 1679, à Paris, chez Coignard.</p>
+          <p>M. l’Abbé Fleury, dans les <hi rend="i">Mœurs des Chrétiens</hi>, condamne les Théâtres ; chez Aubouin, en 1682.</p>
+          <p>Il parut en 1672 une autre Pièce contre la Comédie, qui se trouve dans l’<hi rend="i">Education chrétienne des enfants</hi>, selon les maximes de l’Ecriture et les instructions des saints Pères de l’Eglise, avec un petit Traité contre les chansons mondaines, qui sont d’autant plus dangereuses qu’elles sont spirituelles ; car <pb n="167" />elles se chantent sans honte.</p>
+          <p>On n’avait point vu de réponses à tous ces savants et solides écrits contre la Comédie ; et on ne croyait pas que personne osât mettre la main à la plume pour la défendre. Cependant après plus de vingt années de silence, un particulier entreprit de justifier la Comédie par une Lettre qu’on a voulu faire passer pour une réponse faite à Boursault, auteur d’un volume de Pièces de Théâtre. Dans cette Lettre on feint d’avoir consulté un Théologien illustre par sa qualité et son mérite, pour savoir si la Comédie peut être permise, ou si elle doit être absolument défendue. Le Théologien prétendu veut justifier la Comédie par des <pb n="168" />passages de saint Thomas ; il fait aussi ses efforts pour établir que les saints Pères n’ont condamné les Spectacles des Païens, qu’à cause de la seule idolâtrie.</p>
+          <p>La Lettre de ce prétendu Théologien ayant paru à Paris en 1694 durant le Carême, plusieurs Prédicateurs zélés pour le salut des âmes, persuadés qu’ils devaient s’opposer à tout ce qui pouvait leur nuire, s’élevèrent contre cette Lettre.</p>
+          <p>Le premier ouvrage contre la Lettre du prétendu Théologien, a pour titre, <hi rend="i">Réponse à la Lettre du Théologien défenseur de la Comédie</hi>, imprimée à Paris, chez Girard, en 1694.</p>
+          <p>Le second, est une Lettre Françoise <pb n="169" />et Latine du Théologien accusé, (le P. Caffaro, Théatin,) adressée à Monseigneur l’Archevêque de Paris, chez Muguet, datée du 11 Mai 1694, qui contient sa soumission à la discipline des Rituels qui condamnent les Spectacles, et à tout ce que ce Prélat lui ordonnera pour édifier l’Eglise.</p>
+          <p>Ces deux ouvrages se trouvent à la tête de celui du P. Lebrun sur les Spectacles, intitulé <hi rend="i">Discours sur la Comédie</hi>, ou <hi rend="i">Traité historique et dogmatique des Jeux de Théâtre</hi>, et <hi rend="i">des autres Divertissements comiques</hi>, soufferts ou condamnés depuis le premier siècle de l’Eglise jusqu’à présent. La dernière édition de ce livre est de 1731, et se trouve à Paris chez la veuve Delaulne. Il est <pb n="170" />divisé en différents Discours, dans lesquels le P. Lebrun est entré dans tout le détail possible, et où il cite et rapporte les différentes autorités qui font la condamnation des Spectacles.</p>
+          <p>Le troisième ouvrage contre la Comédie qui parut après la Lettre du P. Caffaro, qui la défendait, est une Lettre d’un Docteur de Sorbonne à une personne de qualité sur le sujet de la Comédie, chez Mazuel.</p>
+          <p>Le quatrième, est une réfutation d’un Ecrit favorisant la Comédie, chez Couterot ; l’Auteur est M. de la Grange, Docteur et Chanoine régulier de Saint Victor, qui cite entre autres ce passage de saint Augustin, traité 100. sur saint Jean : <pb n="171" /><hi rend="i">Donner son bien aux Comédiens, c’est un crime énorme.</hi></p>
+          <p>Le cinquième a pour titre, <hi rend="i">Décision faite en Sorbonne touchant la Comédie</hi>, chez Coignard.</p>
+          <p>Le sixième, <hi rend="i">Réfutation des sentiments relâchés d’un nouveau Théologien</hi>, chez Coignard.</p>
+          <p>Le septième, <hi rend="i">Sentiments de l’Eglise et des saints Pères sur la Comédie</hi>, chez Couterot.</p>
+          <p>Le huitième, <hi rend="i">Maximes et Réflexions sur la Comédie</hi>, par M. Jacques Benigne Bossuet, Evêque de Meaux, chez Anisson.</p>
+          <p>Le neuvième et le dixième, sont les <hi rend="i">Réponses aux Requêtes des Comédiens</hi>, dont on a rendu compte plus haut, et qui se trouvent dans l’histoire des Ouvrages sur la Comédie que l’on a indiqués.</p>
+          <pb n="172" /><p>Le onzième, intitulé <hi rend="i">Pensées sur les Spectacles</hi>, se trouve dans la même histoire.</p>
+          <p>Le douzième est dans les Réflexions spirituelles du P. Croizet, Jésuite, chez Couterot, 1707.</p>
+          <p>Indépendamment de ces Ouvrages particuliers, on trouve dans ceux de différents autres Auteurs plusieurs passages contre la Comédie assez circonstanciés, pour mériter d’être indiqués.</p>
+          <p>On en trouve entre autres dans les Ecrits des PP. Guzman et Mariana, Jésuites ; dans les Sermons du P. Cheminais ; dans ceux du P. Senaut, quatrième Général de l’Oratoire ; et enfin dans le Journal de la République des Lettres en différents endroits, principalement au <pb n="173" />mois d’Avril 1684, page 201.</p>
+          <p>Toutes les preuves répandues dans ces différents Ouvrages se réduisent aux endroits de l’Ecriture-sainte, des Canons, des Conciles, et des Passages des saints Pères contre les Spectacles.</p>
+          <p>A l’égard des endroits de l’Ecriture-sainte, des Canons, et des Conciles, le P. Lebrun les a rapportés et détaillés ; on peut là-dessus consulter son Traité.</p>
+          <p>Mais comme on ne trouve pas qu’il ait indiqué généralement tous les saints Pères, on y va suppléer.</p>
+          <p>Tertullien dans son livre des Spectacles, chap. 4. 25. et 27.</p>
+          <p>Saint Cyprien, dans son Traité des Spectacles.</p>
+          <p>Saint Basile, dans son Tome IV. <pb n="174" />sur l’ouvrage des six jours.</p>
+          <p>Saint Jean Chrysostome, dans plusieurs de ses homélies, entre autres dans l’homélie 15 au Peuple d’Antioche, dans l’homélie 3 de David et de Saül, et dans l’homélie 38 sur saint Matthieu.</p>
+          <p>Saint Ambroise, dans son Traité de la Fuite du siècle, chap. 1<hi rend="sup">er</hi>.</p>
+          <p>Saint Augustin, dans son 3<hi rend="sup">e</hi> livre de ses Confessions, chap. 2.</p>
+          <p>S. Thomas, 22. q. 167. art. 2.</p>
+          <p>Saint Antonin, dans la 2 p. tit. … chap. 23. §. 1.</p>
+          <p>Et Saint François de Sales, dans le 33 chap. de la 3 part. de son Introduction.</p>
+          <p>On peut ajouter aux Ouvrages de ces saints Personnages, le Mandement de M. l’Evêque de Nîmes <pb n="175" />contre les Spectacles, du 8 Septembre 1708, qui est imprimé à la fin du Traité du P. Lebrun.</p>
+          <p>Depuis la Lettre du P. Caffaro, si on excepte les deux Requêtes des Comédiens dont on a parlé, on n’a point vu d’Apologie publique de la Comédie, que l’ouvrage de M.F. on ne pense pas qu’il ait plus de succès que les autres.</p>
+          <p>Il faut cependant mettre encore au nombre des Apologistes, le célèbre M. Daubignac, qui a composé la Pratique du Théâtre.</p>
+        </div>
+    </body>
+  </text>
+</TEI>
