@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--Odette: 2018-05-29T17:04:26+02:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlid="lalouette_histoire-de-la-comedie_1697" xml:lang="fr">
   <teiHeader>
     <fileDesc>
-      <titleStmt/>
+      <titleStmt>
+        <title>Histoire de la Comédie et de l’Opéra</title>
+        <author key="Lalouette, Ambroise (1656?-1724)">Ambroise Lalouette</author>
+      </titleStmt>
       <editionStmt/>
       <publicationStmt>
         <availability status="restricted"/>
@@ -14,7 +18,7 @@
     <profileDesc>
       <creation/>
       <langUsage>
-        <language ident="en"/>
+        <language ident="fr"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -27,7 +31,7 @@
       <p>Imprimé à Orléans, / Et se vend, / A PARIS, chez <hi rend="sc">Louis Josse</hi>, Imprimeur / de Monsieur l’Archevêque, rue / S. Jacques, à la Couronne d’Epines.</p>
       <p>MDCXCII. Avec Approbation et Permission.</p>
       <p>
-        <pb n="1" xml:id="p1"/>
+        <pb n="1"/>
       </p>
       <div>
         <head>PENSEES SUR LES SPECTACLES.</head>
