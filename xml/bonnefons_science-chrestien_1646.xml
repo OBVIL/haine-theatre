@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bonnefons_science-chrestien_1646" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bonnefons_science-chrétien_1646" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Science du chrestien</title>
+        <title>Science du chrétien</title>
         <author key="Bonnefons, Amable (16??-16??)">Amable Bonnefons</author>
+        <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -36,7 +37,7 @@
       <sourceDesc>
         <bibl>
           <author>Amable Bonnefons</author>, 
-          <title>Premier volume de la science du chrestien qui apprend I. Ce qu'il doit croire. II. Ce qu'il doit faire. III. Et ce qu'il doit fuyr. Par le P. Amable Bonnefons de la Compagnie de Jesus. Troisiesme Edition Augmentée du Catechisme des Peres et Docteurs de l'Eglise</title>, 
+          <title>Des comedies <hi rend="i">in </hi> Premier volume de la science du chrestien qui apprend I. Ce qu'il doit croire. II. Ce qu'il doit faire. III. Et ce qu'il doit fuyr. Par le P. Amable Bonnefons de la Compagnie de Jesus. Troisiesme Edition Augmentée du Catechisme des Peres et Docteurs de l'Eglise</title>, 
           <pubPlace>Paris</pubPlace>, 
           <publisher>Pierre de Breche père et fils et Mathurin et Jean Henault</publisher>, 
           <date>1646</date>, 
@@ -55,9 +56,10 @@
   </teiHeader>
   <text>
     <body>
-      <div type="article">
-        <pb n="638"/><head><hi rend="i">Des comédies.</hi></head>
-        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Du dommage que les comédies apportent.</note> 2. <hi rend="sc">Neoph.</hi><note place="bottom" resp="editor"> [NDE] Le Néoph. = Le Néophyte.</note> Saint Chrysostome, en l’Homélie 8. qu’il a fait de la Pénitence, décrit fort bien le sixième ennemi de notre chasteté, lorsque parlant des comédies sales et déshonnêtes, il les appelle la boutique commune de l’impudicité, l’école publique de l’incontinence, la chaire pestilente, un théâtre de toute impureté, un hôpital rempli de toute sorte de maladies contagieuses. En un mot, une fournaise de Babylone, en laquelle l’âme chaste se brûle, et se consomme dans les <pb n="639"/>flammes ardentes de la concupiscence. Le grand Tertullien ne donne qu’un coup de pinceau pour décrire la comédie, mais ses couleurs sont si noires qu’elles donnent de l’horreur. Il appelle ces comédies publiques, « <quote>le particulier consistoire de l’impudicité</quote> ». Salvien n’ose seulement en parler, parce que, dit-il, les choses qui s’y font sont, telles qu’on ne saurait les dire ni même s’en souvenir, sans se souiller, et la langue, et le cœur.</p>
+      <div><head>Premier volume de la science du chrestien</head></div>
+      <div>
+        <head><hi rend="i">Des comédies.</hi></head>
+        <pb n="638"/><p><hi rend="sc">Le</hi><note resp="author" place="margin">Du dommage que les comédies apportent.</note> 2. <hi rend="sc">Neoph.</hi><note place="bottom" resp="editor"> [NDE] Le Néoph. = Le Néophyte.</note> Saint Chrysostome, en l’Homélie 8. qu’il a fait de la Pénitence, décrit fort bien le sixième ennemi de notre chasteté, lorsque parlant des comédies sales et déshonnêtes, il les appelle la boutique commune de l’impudicité, l’école publique de l’incontinence, la chaire pestilente, un théâtre de toute impureté, un hôpital rempli de toute sorte de maladies contagieuses. En un mot, une fournaise de Babylone, en laquelle l’âme chaste se brûle, et se consomme dans les <pb n="639"/>flammes ardentes de la concupiscence. Le grand Tertullien ne donne qu’un coup de pinceau pour décrire la comédie, mais ses couleurs sont si noires qu’elles donnent de l’horreur. Il appelle ces comédies publiques, « <quote>le particulier consistoire de l’impudicité</quote> ». Salvien n’ose seulement en parler, parce que, dit-il, les choses qui s’y font sont, telles qu’on ne saurait les dire ni même s’en souvenir, sans se souiller, et la langue, et le cœur.</p>
         <p><hi rend="sc">Le Pros.</hi><note resp="editor" place="bottom"> [NDE] Le Pros. = Le Prosélyte.</note> Vous me semblez bien docte en cette matière, j’aimerais mieux entendre votre sentiment que celui des anciens.</p>
         <p><hi rend="sc">Le</hi><note resp="author" place="margin">Deux sortes de comédies.</note> 2. <hi rend="sc">Neoph.</hi> Voulez-vous que je vous parle franchement ? Je distingue deux sortes de comédies, les unes sont honnêtes, modestes, et fondées sur la bonté de la conscience de ceux qui les représentent, ou les font représenter. Celles-là sont plutôt pour donner un honnête divertissement, étant des représentations de choses bonnes et honnêtes, que pour offenser la chasteté. Mais s’il est question de parler des autres où l’on fait profession de faire des <pb n="640"/>actions et des gestes tout à fait impudiques, je dirai hardiment qu’à grande peine se trouve-t-il chose plus scandaleuse à l’honneur du Christianisme, plus préjudiciable à la jeunesse chaste, et plus dangereuse pour pécher mortellement ; car ce sont des filets, et des pièges que le diable dresse pour attraper une âme chaste ; ce sont des dispositions aux sacrifices de Venus, ou des degrés pour monter à l’autel de Baal. Si je croyais que vous et moi dussions jamais assister à ces vilaines comédies, je demanderais à Dieu qu’il envoyât son foudre pour nous écraser, et ce coup du Ciel ne nous serait pas si funeste, que le geste d’un comédien lascif, ou la parole d’une effrontée comédienne.</p>
         <p><hi rend="sc">Le Pros.</hi> Donnez-moi maintenant des armes pour combattre ce dernier ennemi.</p>
@@ -76,7 +78,6 @@
         <p><hi rend="sc">Le Pros.</hi> C’est assez dit, pour fortifier <pb n="643"/>mon esprit dans cette résolution, que je donnerais plutôt mon corps à mille croix, que mes oreilles à une seule comédie.</p>
         <p><hi rend="sc">Le</hi> 1. <hi rend="sc">Neoph.</hi> Si vous tenez ferme dans cette volonté, je vous assure déjà de la victoire sur ce sixième ennemi : mais ce n’est pas assez, il faut qu’un cœur Chrétien soit le vainqueur de tout ce qui peut attaquer sa chasteté.</p>
       </div>
-      
       </body>
   </text>
 </TEI>
