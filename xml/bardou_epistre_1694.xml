@@ -12,20 +12,18 @@
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Marie-Hélène Goursolas</name>
-          <resp>Editrice scientifique</resp>
+          <name>François Lecercle</name>
+          <resp>Responsable d'édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Clotilde Thouret</name>
+          <resp>Responsable d'édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Chiara Mainardi</name>
         </respStmt>
         <respStmt>
           <name>Ludivine Rey</name>
-          <resp>Transcription</resp>
-        </respStmt>
-          <respStmt>
-           <name>Doranne Lecercle</name>
-          <resp>Correction</resp>
-          </respStmt>
-        <respStmt>
-          <name>Chiara Mainardi</name>
-          <resp>Stylage, édition XML-TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -37,7 +35,8 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl ref="http://catalogue.bnf.fr/ark:/12148/cb30035477w/PUBLIC"><author>Bardou Pierre</author>, <title>Epistre sur la condamnation du theatre a Monsieur Racine</title>, <pubPlace>Paris</pubPlace>, <publisher>Chez la veuve de Jean Baptiste Coignard</publisher>, <date>1684</date>.</bibl>
+        <bibl><author>Pierre Bardou</author>, <title>Epistre sur la condamnation du theatre a Monsieur Racine</title>, <pubPlace>Paris</pubPlace>, <publisher>Chez la veuve de Jean Baptiste Coignard</publisher>, <date>1684</date>.
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -51,27 +50,24 @@
   </teiHeader>
   <text>
     <body>
-      <div type="chapter">
-        <head><hi rend="uc">Epistre / sur / la condamnation / du theatre / <hi rend="i">a Monsieur Racine</hi> / a Paris,</hi> / Chez la veuve de <hi rend="uc">Jean Baptiste Coignard</hi> Imprimeur ordinaire / du Roy et de l’Académie Française, rue S. Jacques, devant la rue / des Noyers, à la Bible d’or. / MDCLXXXIV. / <hi rend="i"><hi rend="uc">Avec permission</hi></hi><pb n="1" xml:id="p1"/></head>
+      <div type="letter">
+        <head>Epître sur la condemnation du théâtre</head>
+        <p rend="center"> <hi rend="uc">Epistre<lb/>sur<lb/>la condamnation<lb/>du theatre<lb/><hi rend="i">a Monsieur Racine</hi><lb/>a Paris,</hi><lb/>Chez la veuve de <hi rend="sc">Jean Baptiste Coignard</hi> Imprimeur ordinaire<lb/>du Roy et de l’Académie Française, rue S. Jacques, devant la rue<lb/>des Noyers, à la Bible d’or.<lb/>MDCLXXXIV.<lb/><hi rend="i"><hi rend="sc">avec permission</hi></hi><pb n="3" /></p>
         <p></p>
-        <p><hi rend="uc">
-          <lb/>Epistre
-          <lb/>sur
-          <lb/>la condamnation
-          <lb/>du theatre.</hi></p>
+        
         <p></p>
       <l>Le Théâtre est proscrit, RACINE, il va cesser,</l>
       <l>L’Eglise, sur ce point, commence à prononcer.</l>
-        <l>Contre le T***<note resp="editor">[NdE] : Le père François Caffaro, « Théatin », auteur de la « Lettre d’un théologien, illustre par sa qualité et son mérite, consulté par l’auteur pour savoir si la Comédie peut être permise, ou doit être absolument défendu » (dans Pièces de théâtre de Boursault, Paris : Jean Guignard, 1694, p. 1-75.)</note>, et son hardi volume</l>
+        <l>Contre le T***<note resp="editor">[NDE] : Le père François Caffaro, « Théatin », auteur de la « Lettre d’un théologien, illustre par sa qualité et son mérite, consulté par l’auteur pour savoir si la Comédie peut être permise, ou doit être absolument défendu » (dans Pièces de théâtre de Boursault, Paris : Jean Guignard, 1694, p. 1-75.)</note>, et son hardi volume</l>
       <l>Je vois de toutes parts son zèle qui s’allume.</l>
-        <l>Le Prélat a fait bruit<note resp="editor">[NdE] : La prise de position du père Caffaro en faveur du théâtre a fait réagir Bossuet lui-même qui, après une lettre cinglante à l’intéressé, fait paraître ses <hi rend="i">Maximes et réflexions sur la Comédie</hi> (Paris, Jean Anisson, 1694).</note> ; et la chaire a tonné.</l>
+        <l>Le Prélat a fait bruit<note resp="editor">[NDE] : La prise de position du père Caffaro en faveur du théâtre a fait réagir Bossuet lui-même qui, après une lettre cinglante à l’intéressé, fait paraître ses <hi rend="i">Maximes et réflexions sur la Comédie</hi> (Paris, Jean Anisson, 1694).</note> ; et la chaire a tonné.</l>
       <l>Sous le poids des écrits, dont il est condamné,</l>
       <l>Déjà plus d’un Docteur a fait gémir la presse.</l>
       <l>En vain, pour l’appuyer, la volupté s’empresse ;</l>
       <l>La Comédie expire, et son vain défenseur</l>
       <l>Ne sert qu’à réveiller le courroux du Censeur.</l>
       <l/>
-      <l><pb n="4" xml:id="p4"/> Et qui peut, parmi nous, approuver une Scène</l>
+      <l><pb n="4" /> Et qui peut, parmi nous, approuver une Scène</l>
       <l>Où règne avec éclat l’impiété païenne ?</l>
       <l>Où l’on voit chaque jour les Démons encensés</l>
       <l>Rétablir, par nos mains, leurs autels renversés.</l>
@@ -103,7 +99,7 @@
       <l/>
       <l>RACINE, c’est ainsi que tes doctes ouvrages</l>
       <l>N’offrirent de ton cœur que de nobles images.</l>
-      <l><pb n="5" xml:id="p5"/>L’amour, dans tes écrits, honnête, généreux,</l>
+      <l><pb n="5" />L’amour, dans tes écrits, honnête, généreux,</l>
       <l>Dès qu’il fut déréglé se trouva malheureux.</l>
       <l>Mais toi-même, bientôt, en te rendant justice,</l>
       <l>N’as-tu pas du Démon reconnu l’artifice,</l>
@@ -133,8 +129,8 @@
       <l>Mon âme, qui se sent de sa grandeur première,</l>
       <l>Vole vers cet objet, s’y livre toute entière ;</l>
       <l>Et goûtant, à longs traits, l’aimable vérité,</l>
-      <l>Conçoit pour tout le reste une illustre fierté.<note resp="editor">[NdE] On corrige un point d’interrogation en point.</note> </l>
-      <l><pb n="6" xml:id="p6"/> Mieux que dans les écrits du savant paganisme,</l>
+      <l>Conçoit pour tout le reste une illustre fierté.<note resp="editor">[NDE] On corrige un point d’interrogation en point.</note> </l>
+      <l><pb n="6" /> Mieux que dans les écrits du savant paganisme,</l>
       <l>Tu m’y fais admirer le parfait héroïsme.</l>
       <l>Une vertu sublime, ou n’entre point l’orgueil,</l>
       <l>De la vertu païenne inévitable écueil,</l>
@@ -165,7 +161,7 @@
       <l>C’est un présent du Ciel dont ils ont abusé.</l>
       <l>Pour donner à son culte un air plus magnifique,</l>
       <l>Dieu sans doute inspira les vers et la musique.</l>
-      <l><pb n="7" xml:id="p7"/> Faut-il que pour la fable il se soit consumé,</l>
+      <l><pb n="7" /> Faut-il que pour la fable il se soit consumé,</l>
       <l>Tout ce beau feu d’esprit parmi nous allumé !</l>
       <l>Mensonges séducteurs, pompeuses bagatelles,</l>
       <l>Méritiez-vous d’user nos plumes les plus belles !</l>
@@ -197,7 +193,7 @@
       <l>Malheur à notre esprit, s’il goûte des plaisirs</l>
       <l>Qui peuvent contre Dieu révolter nos désirs !</l>
       <l/>
-      <l><pb n="8" xml:id="p8"/>Mais je le vois tomber ce dangereux théâtre,</l>
+      <l><pb n="8" />Mais je le vois tomber ce dangereux théâtre,</l>
       <l>Qu’anima si longtemps un génie idolâtre.</l>
       <l>Ses poètes rampants, et ses mauvais acteurs</l>
       <l>Rebutent, chaque jour, les doctes spectateurs.</l>
