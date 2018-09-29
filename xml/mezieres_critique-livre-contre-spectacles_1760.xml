@@ -7,6 +7,7 @@
         <titleStmt>
           <title>Critique d’un livre contre les spectacles</title>
           <author key="Mézières, Marquis de (1709-1781)">Marquis de Mézières</author>
+          <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
         </titleStmt>
         <editionStmt>
           <edition>OBVIL</edition>
@@ -55,8 +56,8 @@
     </teiHeader>
     <text>
       <body>
-        <div type="preface">
-          <head>Critique d’un livre contre les spectacles<lb/>intitulé J. J. Rousseau, citoyen de Genève à M. D'Alembert</head></div>
+        <p rend="center"><hi rend="uc">Critique<lb/> d’un livre<lb/> contre<lb/> les spectacles<lb/>intitulé<lb/> J. J. Rousseau,<lb/> citoyen de Genève<lb/> à M. D'Alembert<lb/><lb/>A Amsterdam</hi><lb/><hi rend="i">Et se trouve à Paris</hi><lb/>Chez <hi rend="sc">Lambert</hi>, Imprimeur-Libraire, rue et<lb/> à côté de la Comédie Françoise,<lb/> au Parnasse :<lb/> et <hi rend="sc">Duchesne</hi>, Libraire,<lb/>rue S. Jacques,<lb/> au Temple du Goût<lb/>M DCC LX. </p>
+        
           <div type="chapter" >
             <pb n="iii"/><head><hi rend="i">DISCOURS PRELIMINAIRE.</hi></head>
             <p>Aimable et précieuse ignorance, véritable mère des humains ! Pourquoi vous êtes-vous défigurée à nos regards ?</p>
@@ -82,7 +83,8 @@
             <p>Qui oublie plus essentiellement la vertu et ses devoirs, que celui qui se déclare affirmativement l’ennemi de la société ? Qui bâtit une <pb n="xix"/>rhapsodie de paradoxes tirés de la fable des Abeilles<note resp="editor" place="bottom"> [NDE]  Ouvrage de Bernard Mandeville de 1714.</note><note resp="author" place="bottom"> [NDA] Quoique contraires dans leurs principes, leur résultat se trouve le même : ces deux grands Ecrivains sont à l’unisson pour les injures.</note>, pour tromper les hommes, et leur faire croire qu’ils sont faits pour vivre seuls dans les forêts ?</p>
             <p>Il se dévoile lui-même, quand il dit dans ce même Livre contre les Spectacles, page 223 : « <quote>Le plus méchant homme est celui qui s’isole le plus, qui concentre le plus son cœur en lui-même : le meilleur est celui qui partage également ses affections à tous ses semblables.</quote> »</p>
             <ab type="ornament">***</ab>
-            <pb n="xx"/><quote>
+            <pb n="xx"/>
+            <quote>
               <lg>
                 <l>« Blaise Pascal a tort, il faut en convenir ;</l>
                 <l>Ce pieux Misanthrope ! Héraclite sublime !</l>
