@@ -7,7 +7,8 @@
 <fileDesc>
 <titleStmt>
 <title>Apologie du théâtre français</title>
-<author>Petit</author>
+  <author key="Petit, M. (17??-17??">M. Petit</author>
+  <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
 </titleStmt>
 <editionStmt>
 <edition>OBVIL</edition>
@@ -36,12 +37,11 @@
 </publicationStmt>
 <sourceDesc>
 <bibl>
-  <author>Petit</author>, 
+  <author>M. Petit</author>, 
   <title>Apologie du théâtre français, dédiée à Messieurs les comédiens français ordinaires du Roi</title>, 
   <pubPlace>Paris</pubPlace>, 
   <publisher>Valleyre père</publisher>, 
-  <date>1765</date>, 
-  <biblScope>p. 1-4</biblScope>
+  <date>1765</date>. 
 </bibl>
 </sourceDesc>
 </fileDesc>
@@ -56,9 +56,9 @@
 </teiHeader>
 <text>
 <body>
-<div>
-<head>Apologie du théâtre français</head>
-  <pb n="1"/><label>APOLOGIE DU THÉATRE FRANÇAIS,<lb/>Dédiée à Messieurs les Comédiens Français ordinaires du Roi.<lb/><hi rend="i">Par M. PETIT.</hi></label>
+  <div>
+  <pb n="1"/><head>Apologie du théâtre français</head>
+  <p rend="center">APOLOGIE<lb/> DU THÉATRE FRANÇAIS,<lb/>Dédiée à Messieurs les Comédiens Français<lb/> ordinaires du Roi.<lb/><hi rend="i">Par <hi rend="sc">M. Petit.</hi></hi></p>
 <quote>
 <lg>
 <l>« J’Entreprends de chanter une ample Apologie ;</l>
@@ -200,7 +200,7 @@
 <l>Et tous, pour leur argent, y sont tous bienvenus. »</l>
 </lg>
 </quote>
-</div>
+  </div>
 </body>
 </text>
 </TEI>
