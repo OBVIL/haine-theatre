@@ -8,6 +8,7 @@
       <titleStmt>
         <title>Des comédiens et du clergé</title>
         <author key="Hénin de Cuvillers, Etienne Félix d’ (1755-1841)">Etienne Félix d’Hénin de Cuvillers</author>
+        <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -39,8 +40,7 @@
           <title>Des comédiens et du clergé, suivi de réflexions sur le mandement de monseigneur l’archevêque de Rouen</title>, 
           <pubPlace>Paris</pubPlace>, 
           <publisher>P. Dupont, Delaunay et les marchands de nouveautés</publisher>,
-          <date>1825</date>, 
-          <biblScope>p. I-X ; p. 1-42</biblScope>. 
+          <date>1825</date>. 
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -55,14 +55,12 @@
   </teiHeader>
   <text>
     <body>
-          <div>
-        <head>DES COMEDIENS ET DU CLERGE</head>
-        <head type="sub">
-          <hi rend="sc">suivi de reflexions sur le mandement de<lb/> monseigneur l’archeveque de rouen.</hi>
-        </head>
-        <label>PAR LE BARON D’HENIN DE CUVILLERS,<lb/>Maréchal-de-camp ; Chevalier de l’Ordre royal et militaire de<lb/>Saint-Louis, Officier de l’Ordre royal de la Légion-d’honneur ;<lb/>Membre de plusieurs Sociétés savantes, etc.</label>
-        <p rend="center">A PARIS,<lb/><hi rend="sc">Chez</hi> P. DUPONT, libraire, rue du Bouloy, n° 24.<lb/>DELAUNAY, libraire, Palais-Royal, galerie de bois,<lb/>Et les marchands de nouveautés.<lb/>1825.</p>
-      </div>
+          
+        <p rend="center">DES COMEDIENS ET DU CLERGE<lb/>
+          <hi rend="sc">suivi de reflexions sur le mandement de<lb/> monseigneur l’archeveque de rouen.<lb/>
+            par le baron d'henin de cuvillers,</hi><lb/>Maréchal-de-camp ; Chevalier de l’Ordre royal et militaire de<lb/>Saint-Louis, Officier de l’Ordre royal de la Légion-d’honneur ;<lb/>Membre de plusieurs Sociétés savantes, etc.<lb/><lb/>
+          A PARIS,<lb/><hi rend="sc">Chez p. dupont,</hi> libraire, rue du Bouloy, n° 24.<lb/><hi rend="sc">delaunay</hi>, libraire, Palais-Royal, galerie de bois,<lb/>Et les marchands de nouveautés.<lb/>1825.</p>
+      
       <div type="preface">
         <pb n="I"/>
         <head>PREFACE.</head>
@@ -70,11 +68,9 @@
       </div>
       <div type="contents">
         <pb n="V"/>
-        <head>SOMMAIRE <lb/>DES MATIERES <lb/></head>
-        <head type="sub">
-          <hi rend="sc">contenues dans ce volume.</hi>
-        </head>
-        <p rend="indent">Le précis historique des <hi rend="i">trois âges</hi> des comédiens ; leur état chez les Grecs et les Romains, et leur <hi rend="i">institution légale</hi> en France ; leurs privilèges sur les autres classes de la société, quant à la <hi rend="i">noblesse</hi> ;</p>
+        <head>SOMMAIRE DES MATIERES <hi rend="sc">contenues dans ce volume.</hi></head>
+        
+        <p>Le précis historique des <hi rend="i">trois âges</hi> des comédiens ; leur état chez les Grecs et les Romains, et leur <hi rend="i">institution légale</hi> en France ; leurs privilèges sur les autres classes de la société, quant à la <hi rend="i">noblesse</hi> ;</p>
         <p>Leurs droits à exercer leur profession, sans que le <hi rend="i">clergé</hi> soit fondé à exiger leur <hi rend="i">abjuration</hi> et à leur faire le <hi rend="i">refus de sépulture</hi>.</p>
         <p>Les ecclésiastiques commettent un <hi rend="i">délit</hi>, envers les lois civiles, à raison de ce refus de sépulture, attendu qu’il ne leur est pas permis de condamner une profession que les diplômes du prince, les lois de l’Etat et les règlements de la police du royaume, ont instituée, protégée et honorée ; ils commettent un autre <hi rend="i">délit</hi>, envers les lois de l’Eglise, attendu que le refus de sépulture ne peut être fait qu’à des <hi rend="i">excommuniés dénoncés</hi>, et que les <pb n="VI"/>comédiens ne sont nullement dans cette catégorie.</p>
         <p>Le tableau historique de plusieurs <hi rend="i">saints</hi> honorés par l’Eglise catholique, apostolique et romaine, qui ont été <hi rend="i">comédiens</hi> de profession, et qui ont souffert le <hi rend="i">martyre</hi> pour la foi de Jésus-Christ ;</p>
@@ -101,23 +97,21 @@
         <p>J’ai l’honneur d’être,</p>
         <p>Messieurs,</p>
         <p>Votre très humble et très obéissant serviteur.</p>
-        <p>
+        <signed>
           <hi rend="sc">Le baron d’Hénin de Cuvillers.</hi>
-        </p>
-        <p>Paris le 30 avril 1825.</p>
-        <!-- Faut-il utiliser des tags comme salute, dateline pour plus de précision? -->
+        </signed>
+        <dateline>Paris le 30 avril 1825.</dateline>
       </div>
       <div type="chapter">
         <pb n="1"/>
         <head>DES COMEDIENS ET DU CLERGE.</head>
-        <!-- faut-il respecter les coupes de ligne? -->
         <p rend="indent">L’existence des Comédiens doit être considérée sous trois périodes différentes, pour en raisonner avec connaissance de cause, et décider avec justice des canons qui ont été fulminés à leur égard.</p>
         <p>La première époque concerne l’état des Comédiens dans l’antiquité. <hi rend="i">Thespis</hi>, poète d’Athènes, qui vivait l’an 536 avant J.-C., fut l’inventeur de la tragédie chez les Grecs ; il allait de ville en ville, et ses Comédiens représentaient ses pièces grossières, montés <pb n="2"/>sur des charrettes, et le visage barbouillé de lie ; ils ne disaient que des injures ou divertissaient les spectateurs par des railleries ridicules, ou quelques chansons obscures. <hi rend="i">Eschyle</hi>, guerrier et poète d’Athènes, qui s’était trouvé aux batailles de Marathon, de Platée et de Salamine, composa 90 tragédies, dont 40 furent couronnées. Il introduisit le goût sur la scène, donna à ses Comédiens des costumes convenables à leurs rôles, leur chaussa le brodequin et les fit monter sur un théâtre, au lieu de char ou de charrette. Ce poète buvait avec excès et ne travaillait que dans l’ivresse. Il fut condamné à mort pour avoir inséré des vers impies dans une de ses pièces ; mais son frère obtint sa grâce, en montrant aux juges les blessures qu’il avait reçues à la bataille de Salamine. Il mourut l’an 456 avant J.-C. Il fut <pb n="3"/>le maître et l’ami de Sophocle, digne rival d’Euripide.</p>
         <p>Les Comédiens, chez les Grecs, et surtout à Athènes, rendirent leur profession recommandable, et s’attirèrent l’estime de leurs concitoyens au point d’être souvent chargés d’ambassades et de négociations importantes, comme les citoyens les plus considérables de la république. Aristodème fut nommé l’un des dix ambassadeurs d’Athènes pour conclure la paix avec Philippe, roi de Macédoine. <hi rend="i">Philip. de Démosth. remarq. de Tourreil</hi><note resp="editor" place="bottom"> [NDE] Renvoi aux <hi rend="i">Philippiques</hi> de Démosthènes avec des remarques de Jacques de Tourreil, Paris, Vve de Barbin, 1701.</note>.</p>
         <p>Les Grecs étaient fort sensibles au plaisir de l’esprit dont celui du théâtre fait d’ordinaire le charme le plus décevant. Ils étaient si fort prévenus en faveur de tous les talents qui mettent de l’agrément dans la société, que leurs rois ne dédaignaient pas de choisir des ministres parmi les Comédiens. <pb n="4"/>« <quote>In scenam vero prodire et populo esse spectaculo nemini in iisdem gentibus turpitudini, quæ omnia apud nos partim infamia, partim humilia, partim ab honestate remota ponuntur.</quote> » Quintil. orat<note resp="editor" place="bottom"> [NDE] Hénin réfère cette citation à l’<hi rend="i">Insitution oratoire</hi> de Quintilien, mais elle vient de la préface de Cornelius Nepos à son <hi rend="i">De viris illustribus</hi>.</note>.</p>
         <p>J’ai vu, dit Montaigne, en parlant des exercices du théâtre, nos princes s’y adonner, et représenter eux-mêmes, en personne, à l’exemple de quelques anciens <note resp="editor" place="bottom"> [NDE] Hénin cite les <hi rend="i">Essais</hi> de Montaigne, I, 26, « De l’institution des enfants » : « et ai vu nos Princes s’y adonner depuis en personne, à l’exemple d’aucuns des anciens, honnêtement et louablement.</note>. Dans l’ancienne Grèce, dit-il, les Comédiens n’étaient nullement méprisés. «<quote>Aristoni tragico aperit ; huic et genus et fortuna honesta erant ; nec ars, quia nihil tale apud Græcos pudori est, ea deformabat.</quote> » Tit.-Liv. Déc. 3<note resp="editor" place="bottom"> [NDE] Hénin omet un mot dans la citation (« Ariustoni tragico rem aperit ». Trad. : « Il découvre son projet à l’acteur tragique Ariston. C‘était un homme distingué par sa naissance et par sa fortune ; et sa profession (comme les occupations de ce genre n’ont rien de déshonorant chez les Grecs) ne le rabaissait en rien » (Tite-Live, XXIV, 24).</note>.</p>
         <p>Le théâtre était aussi, pour les peuples de la Grèce, un objet tellement important, qu’il se liait essentiellement au culte des dieux, et, dans les cérémonies religieuses, les Comédiens <pb n="5"/>représentaient souvent les divinités, et les imitaient et du geste et de la voix.</p>
-        <p>Mais si, dans la Grèce, les Comédiens furent honorés, il n’en fut pas de même à Rome, où la comédie ne s’introduisit que longtemps après, c’est-à-dire, vers l’an 240 avant J.-C. Les Comédiens y furent méprisés, quoique les Romains fissent, à l’instar des Grecs, servir la comédie aux fêtes sacrées et qu’ils l’employassent, au rapport de Tite-Live, comme un moyen propre à apaiser la colère des dieux. « <quote>Ludi scenici inter alia cœlestis iræ placamina instituti dicuntur. »</quote> Leurs premiers poètes comiques furent, Livius Andronicus, Naconis et Ennius, qui étaient à la fois auteurs et acteurs. A Ennius succédèrent Plaute et Cécilius, qui, de même que Térence, prirent leurs comédies du théâtre des Grecs ; après eux parut Afranius qui devint <pb n="6"/>célèbre par ses comédies sous le règne d’Auguste. Si la profession d’auteur conduisait alors à la célébrité, celle d’acteur tomba, comme je l’ai dit plus haut, dans l’abjection et le mépris ; car les Comédiens à Rome n’avaient pas, non seulement rang parmi les citoyens, mais encore, si quelque Romain s’avisait de monter sur le théâtre, il était sur-le-champ chassé de sa tribu et privé du droit de suffrage par les censeurs. C’est ce que dit expressément Scipion dans Cicéron, cité par S. Augustin, liv. II <hi rend="i">de la cité de Dieu</hi>, chap. <hi rend="sc">XIII</hi>. «<quote>Cum artem ludicram scenamque totam probo ducerent, genus id hominum, non modo honore reliquorum civium, sed etiam tribu moveri notatione censoria voluerunt.</quote> »</p>
+        <p>Mais si, dans la Grèce, les Comédiens furent honorés, il n’en fut pas de même à Rome, où la comédie ne s’introduisit que longtemps après, c’est-à-dire, vers l’an 240 avant J.-C. Les Comédiens y furent méprisés, quoique les Romains fissent, à l’instar des Grecs, servir la comédie aux fêtes sacrées et qu’ils l’employassent, au rapport de Tite-Live, comme un moyen propre à apaiser la colère des dieux. « <quote>Ludi scenici inter alia cœlestis iræ placamina instituti dicuntur.</quote> » Leurs premiers poètes comiques furent, Livius Andronicus, Naconis et Ennius, qui étaient à la fois auteurs et acteurs. A Ennius succédèrent Plaute et Cécilius, qui, de même que Térence, prirent leurs comédies du théâtre des Grecs ; après eux parut Afranius qui devint <pb n="6"/>célèbre par ses comédies sous le règne d’Auguste. Si la profession d’auteur conduisait alors à la célébrité, celle d’acteur tomba, comme je l’ai dit plus haut, dans l’abjection et le mépris ; car les Comédiens à Rome n’avaient pas, non seulement rang parmi les citoyens, mais encore, si quelque Romain s’avisait de monter sur le théâtre, il était sur-le-champ chassé de sa tribu et privé du droit de suffrage par les censeurs. C’est ce que dit expressément Scipion dans Cicéron, cité par S. Augustin, liv. II <hi rend="i">de la cité de Dieu</hi>, chap. <hi rend="sc">XIII</hi>. «<quote>Cum artem ludicram scenamque totam probo ducerent, genus id hominum, non modo honore reliquorum civium, sed etiam tribu moveri notatione censoria voluerunt.</quote> »</p>
         <p>Il était encore défendu par les lois Romaines à un sénateur d’épouser une <pb n="7"/>affranchie ; aux fils et aux petits-fils de sénateurs, d’épouser des Comédiennes, ou des filles de comédiennes, et il était pareillement défendu aux filles et petites-filles d’un sénateur de prendre alliance avec des Comédiens. Tibère ordonna qu’aucun sénateur ne les pourrait visiter chez eux, et qu’un chevalier Romain ne pourrait les accompagner dans la rue. La première peine, dit Ménochius, dont les histrions sont punis par les lois des empereurs, est la note d’infamie, par laquelle ils sont exclus des dignités, comme l’enseigne entre autres Lucas de Penna ; ajoutant que, parmi ces histrions notés d’infamie, sont compris ceux qui montent sur le théâtre, et y récitent des comédies, encore qu’ils ne fassent point de farces.</p>
         <p>Chez les anciens la profession de <pb n="8"/>jouer des tragédies et celle de jouer des comédies étaient deux professions distinctes. Il était rare que le même homme se mêlât de toutes deux. Platon, après avoir rapporté que les poètes qui voulaient composer des tragédies et des comédies n’y réussissaient pas également, ajoute que le genre tragique et le genre comique demandent chacun un tour particulier d’esprit, et il déclare même que les acteurs qui déclamaient les tragédies n’étaient pas les mêmes que ceux qui débitaient les comédies.</p>
         <p>Quintilien dit qu’Esopus déclamait beaucoup plus gravement que Roscius ; parce que le premier faisait profession de jouer dans le tragique, au lieu que celle de l’autre était de jouer dans le comique. Chacun avait contracté les manières de la scène à <pb n="9"/>laquelle il s’était particulièrement attaché. « <quote>Roscius citatior, Esopus gravior fuit, quod hic tragœdias, ille comœdias egit. »</quote> C’est le caractère qu’Horace leur avait déjà donné,</p>
@@ -126,7 +120,7 @@
             <l>« Quæ gravis Esopus, quæ doctus Roscius egit. »</l>
           </lg>
         </quote>
-        <p rend="indent">Horace parle d’un acteur qui jouait le second rôle en imitant le premier acteur, et qui se rabaissait exprès pour servir de lustre à l’acteur principal ; et on n’a pu, chez les modernes, se rendre raison de la manière dont jouaient ces seconds acteurs.</p>
+        <p>Horace parle d’un acteur qui jouait le second rôle en imitant le premier acteur, et qui se rabaissait exprès pour servir de lustre à l’acteur principal ; et on n’a pu, chez les modernes, se rendre raison de la manière dont jouaient ces seconds acteurs.</p>
         <p>Les acteurs de la tragédie paraissaient élevés sur des souliers fort hauts et magnifiques, mais fort embarrassants, et les acteurs de la comédie avec des souliers bas ; les uns et les autres étaient masqués, mais les premiers pleins de gravité et les derniers affectant de faire rire les spectateurs.</p>
         <p><pb n="10"/>Les Comédiens qui n’étaient plus en état de paraître en public se retiraient pour mener une vie privée, après avoir suspendu leurs masques au temple de Bacchus.</p>
         <p>Voici un article historique sur les Comédiens qui, chez les Grecs et les Romains, ont obtenu le plus de célébrité :</p>
@@ -423,17 +417,16 @@
         <p>Molière est persécuté, proscrit par les prêtres et par les jésuites ;</p>
         <p>Et ce sont des jésuites et des évêques qui lui font les plus belles épitaphes, pour le venger des injustices qu’il éprouve. Voici celle du père Bouhours, l’un des jésuites les plus instruits de son temps, l’auteur des Vies de S. Ignace et de S. François Xavier, et d’une traduction du Nouveau Testament :</p>
         <quote>
-          <!-- moyen de faire des retraits dans les lignes?? -->
           <lg>
             <l>« Tu réformas et la ville et la cour,</l>
-            <l>Mais quelle en fut la récompense ?</l>
-            <l>Les Français rougiront un jour</l>
-            <l>De leur peu de reconnaissance.</l>
-            <l>Il leur fallut un Comédien.</l>
+            <l> Mais quelle en fut la récompense ?</l>
+            <l> Les Français rougiront un jour</l>
+            <l> De leur peu de reconnaissance.</l>
+            <l> Il leur fallut un Comédien.</l>
             <l>« Qui mit à les polir sa gloire et son étude ;</l>
-            <l><pb n="163"/>Mais, Molière, à ta gloire il ne manquerait rien,</l>
-            <l>Si, parmi les défauts que tu peignis si bien,</l>
-            <l>Tu les avais repris de leur ingratitude. »</l>
+            <l><pb n="163"/>    Mais, Molière, à ta gloire il ne manquerait rien,</l>
+            <l>   Si, parmi les défauts que tu peignis si bien,</l>
+            <l>   Tu les avais repris de leur ingratitude. »</l>
           </lg>
         </quote>
         <p rend="indent">C’est donc l’historien du <hi rend="i">grand S. Ignace de Loyola</hi>, fondateur de la congrégation des jésuites, qui proclame à la génération d’alors et à la postérité : <hi rend="i">Que les Français rougiront un jour de leur ingratitude envers ce comédien</hi>, envers cet auteur célèbre, et il grave sur l’airain cette grande vérité.</p>
@@ -498,11 +491,11 @@
         <p>« Les <hi rend="i">excommuniés dénoncés</hi> ne peuvent licitement communiquer avec les autres fidèles, et les fidèles ne peuvent communiquer avec eux dans les choses exprimées dans le vers suivant qui est reçu de tous, et fondé sur le droit <hi rend="i">sentent. excomm. cap.</hi> 29.</p>
         <pb n="190"/>
         <quote> 
-          <p>
+          
             <l>« Os, orare, vale, communio, mensa negatus.</l>
-          </p>
+          
         </quote>
-        <p rend="indent">« <quote><hi rend="i">Os</hi>, Marque tout commerce par paroles, par lettres reçues ou envoyées, par présents donnés ou acceptés, par raison ou autres signes d’amitié ;</quote></p>
+        <p>« <quote><hi rend="i">Os</hi>, Marque tout commerce par paroles, par lettres reçues ou envoyées, par présents donnés ou acceptés, par raison ou autres signes d’amitié ;</quote></p>
         <p>« <quote><hi rend="i">Orare</hi>, Signifie la communication extérieure dans les offices divins, dans les sacrements, les prières même faites avec l’excommunié ;</quote></p>
         <p>« <quote><hi rend="i">Vale</hi>, Signifie le salut d’honnêteté qu’on ne doit pas même rendre à un excommunié qui vous salue ;</quote></p>
         <p>« <quote><hi rend="i">Communio</hi>, Signifie les mêmes exercices, les contrats, les voyages, les promenades, le repos qu’on ne doit pas prendre dans la même chambre ni dans le même lit avec l’excommunié, si ce n’est par nécessité et non par manière de société ;</quote></p>
@@ -1041,8 +1034,7 @@
         </quote>
         <p rend="indent">« <quote>Ce contrat a été ratifié de la très Sainte Trinité, le même jour du <pb n="329"/>glorieux S. Joseph en la même année.</quote></p>
         <p>
-          <persName><hi rend="sc">Fr. Arnoux de Saint-Jean-Baptiste</hi>, carme déchaussé, indigne secrétaire de Jésus. »</persName>
-          <!-- bonne solution pour le signataire???? -->
+          <signed><hi rend="sc">Fr. Arnoux de Saint-Jean-Baptiste</hi>, carme déchaussé, indigne secrétaire de Jésus. »</signed>
         </p>
         <p rend="indent">« <quote>Je, Madeleine Gasselin, indigne servante de Jésus, prends mon aimable Jésus pour mon époux, et lui promets fidélité, et que je n’en aurai jamais d’autre que lui, et lui donne pour gage de ma fidélité mon cœur, et tout ce que je ferai jamais ; m’obligeant à la vie et à la mort de faire tout ce qu’il désirera de moi, et de le servir de tout mon cœur pendant toute l’éternité. En foi de quoi j’ai signé de ma propre main le contrat irrévocable, en présence de la sur-adorable Trinité, de la sacrée Vierge Marie, mère de Dieu, mon glorieux père Saint Joseph, mon ange gardien et toute la cour céleste, l’an <pb n="330"/>de grâce 1650, jour de mon glorieux père Joseph.</quote></p>
         <quote>
@@ -1336,7 +1328,7 @@
           </row>
           <pb n="356*"/>
           <row>
-            <cell>16°. <hi rend="i">Sainte-Geneviève</hi>, à Paris, chef de la congrégation de son nom,</cell>
+            <cell/><cell>16°. <hi rend="i">Sainte-Geneviève</hi>, à Paris, chef de la congrégation de son nom,</cell>
           </row>
           <row>
             <cell/>
@@ -1603,9 +1595,10 @@
         <p>La puissance séculière doit veiller avec d’autant plus de soins à ce que le clergé ne s’éloigne pas des devoirs qui lui sont imposés par la discipline ecclésiastique, que c’est l’oubli de ces mêmes lois, au dire de notre roi, <pb n="377*"/>Henri III, qui a porté le clergé à faire ensanglanter son trône, et à bouleverser ses Etats ; que l’expérience du passé doit toujours servir de leçon pour l’avenir ;</p>
         <p>Le prince étant le <hi rend="i">protecteur né des canons des saints conciles</hi>, ainsi que l’Eglise le reconnaît elle-même, doit surveiller tant par lui que par ses délégués l’exécution de ce qu’ils ordonnent, afin que la religion ne perde rien de son lustre et des dogmes de son institution, parce qu’il est utile que les ministres du culte donnent eux-mêmes l’exemple de cette conformité aux saints canons, afin d’y amener successivement les fidèles commis à leur instruction ; les <hi rend="i">procureurs du roi</hi>, les <hi rend="i">préfets</hi>, les <hi rend="i">sous-préfets</hi> et les <hi rend="i">maires</hi> qui sont les délégués du prince, tant en ce qui concerne la justice que la police du royaume, <pb n="378*"/>doivent, avec tous les procédés convenables en pareils cas, faire sentir aux prêtres qu’ils ont sur eux une <hi rend="i">suprématie d’action</hi>, qui est assez forte pour les faire rentrer dans les lois de la discipline de l’Eglise, s’ils commettaient la faute de s’en écarter. La moindre expression de cette surveillance démontrera au clergé que s’il indique aux citoyens des devoirs à remplir, le prince et ses délégués sont là pour l’obliger à remplir les siens, et qu’ainsi la <hi rend="i">puissance séculière</hi>, devenant la protectrice et la mère tutélaire de la religion, sait en même temps forcer les prêtres et les peuples à observer ses rites et ses dogmes.</p>
       </div>
+      
       <div type="chapter">
         <pb n="379*"/>
-        <head>DU MANDEMENT<lb/><hi rend="sc">DE MONSEIGNEUR</hi><lb/>L’ARCHEVEQUE DE ROUEN.</head>
+        <head>DU MANDEMENT<hi rend="sc"> DE MONSEIGNEUR</hi> L’ARCHEVEQUE DE ROUEN.</head>
         <p rend="indent">Depuis le rétablissement du culte catholique en France, et surtout depuis la restauration, le zèle des fidèles s’est tellement accru, qu’on les voit remplir les églises à l’heure des offices, et suivre les prédicateurs avec une attention et une piété vraiment exemplaires : le Clergé ne pouvait donc que s’applaudir de cette influence de la religion sur les citoyens, et pour perpétuer un état de choses aussi louable, il n’avait qu’à agir avec douceur, circonspection, et franchise ;</p>
         <p>Mais des intentions exagérées, mais des mandements et des lettres pastorales qui rappellent toutes les rigueurs des lois ecclésiastiques et qui imposent <pb n="380*"/>aux fidèles des obligations que l’Eglise, depuis nombre de siècles, avait cessé d’exiger, viennent réveiller l’attention du public et exciter ses craintes.</p>
         <p>La nation qui trouvait dans son roi, et dans les princes de son auguste famille, l’exemple d’une piété salutaire, s’était fait un devoir de seconder, et les intentions du souverain et celles du Clergé ; mais aujourd’hui elle est forcée d’éprouver de l’incertitude dans la marche qu’on veut lui faire suivre, et elle craint réellement les suites d’un système qui peut causer de grands troubles dans le royaume.</p>
