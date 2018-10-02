@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
-
-<!--Odette: 2017-01-23T11:51:39+01:00-->
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="senancour_de_quelques_naïves_coutumes_1825">
   <teiHeader>
     <fileDesc>
       <titleStmt>
       <title>De quelques naïves coutumes</title>
-        <author key="Senancour, Étienne de (1770-1846)">Étienne Pivert de Senancour</author>
+        <author key="Senancour, Étienne Pivert de (1770-1846)">Étienne Pivert de Senancour</author>
+        <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -20,12 +21,7 @@
           <resp>Responsable d’édition</resp>
         </respStmt>
         <respStmt>
-          <name>Doranne Lecercle</name>
-          <resp>Editeur scientifique</resp>
-        </respStmt>
-        <respStmt>
           <name>Thomas Soury</name>
-          <resp>Editeur XML</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -38,12 +34,12 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <author>Étienne Pivert de Senancour</author>,
-          <title>De quelques naïves coutumes</title>, in
-          <title>Le Mercure du dix-neuvième siècle</title>,
-          <pubPlace>Paris</pubPlace>,
-          <publisher>Au bureau du Mercure</publisher>,
-          <date>1825</date>,
+          <author>Étienne Pivert de Senancour</author>, 
+          <title>De quelques naïves coutumes</title>, in 
+          <title>Le Mercure du dix-neuvième siècle</title>, 
+          <pubPlace>Paris</pubPlace>, 
+          <publisher>Au bureau du Mercure</publisher>, 
+          <date>1825</date>, 
           <biblScope>t. IX, p. 262-266</biblScope>.
         </bibl>
       </sourceDesc>
@@ -61,10 +57,10 @@
     <body>
       <div type="chapter">
         <pb n="262"/><head>De quelques naïves coutumes.</head>
-        <p>On vient de publier des renseignements historiques sous un titre assez singulier ; mais, par une singularité plus grande, le scandale n’est pas dans la réunion de deux mots<note resp="author">[NDA] <hi rend="i">Des Comédiens et du Clergé</hi>.</note> au rapprochement desquels on n’est pas très habitué ; une intention inexcusable se décèle dans les maximes, pures en apparence, dont ces récits sont entremêlés. L’auteur, qui est un militaire, et qui traite ces sujets graves <hi rend="i">ex abrupto</hi>,  méconnaît les convenances et confond les temps. Au mépris d’un axiome qui vient d’être promulgué presque officiellement sur la nécessité, en Europe, de l’entremise des ecclésiastiques appelés missionnaires dans les forêts du Nouveau Monde, l’auteur allègue les canons d’un concile auquel il ne manque presque rien pour être vieux de six siècles. « <quote>Il est ordonné aux évêques de prêcher par eux-mêmes, et non par d’autres</quote>. » Quelquefois aussi, sous prétexte d’une traduction exacte, le texte conserve une nudité qui révolte : « <quote>C’est par sa foi que l’évêque soutiendra son rang ; dans son petit logis, sa table sera pauvre, et ses meubles de vil prix</quote>. » Croit-on sans dessein une telle bassesse d’expression ? <pb n="263"/>Que l’on poursuive, et, dans la même page, on verra l’auteur insinuer qu’un évêque dînant avec des pauvres serait tout aussi respecté qu’en sortant de la table d’un ministre.</p>
+        <p>On vient de publier des renseignements historiques sous un titre assez singulier ; mais, par une singularité plus grande, le scandale n’est pas dans la réunion de deux mots<note resp="author" place="bottom">[NDA] <hi rend="i">Des Comédiens et du Clergé</hi>.</note> au rapprochement desquels on n’est pas très habitué ; une intention inexcusable se décèle dans les maximes, pures en apparence, dont ces récits sont entremêlés. L’auteur, qui est un militaire, et qui traite ces sujets graves <hi rend="i">ex abrupto</hi>,  méconnaît les convenances et confond les temps. Au mépris d’un axiome qui vient d’être promulgué presque officiellement sur la nécessité, en Europe, de l’entremise des ecclésiastiques appelés missionnaires dans les forêts du Nouveau Monde, l’auteur allègue les canons d’un concile auquel il ne manque presque rien pour être vieux de six siècles. « <quote>Il est ordonné aux évêques de prêcher par eux-mêmes, et non par d’autres.</quote> » Quelquefois aussi, sous prétexte d’une traduction exacte, le texte conserve une nudité qui révolte : « <quote>C’est par sa foi que l’évêque soutiendra son rang ; dans son petit logis, sa table sera pauvre, et ses meubles de vil prix.</quote> » Croit-on sans dessein une telle bassesse d’expression ? <pb n="263"/>Que l’on poursuive, et, dans la même page, on verra l’auteur insinuer qu’un évêque dînant avec des pauvres serait tout aussi respecté qu’en sortant de la table d’un ministre.</p>
       <p>Dans un livre semblable, les faits mêmes ne seront pas rapportés sans quelques-unes de ces réflexions, ou du moins de ces épithètes, au moyen desquelles on parviendrait à faire douter de l’innocence des anciennes Druidesses, ou de la sincérité des Marabouts. Retranchons ces superfluités, et nous n’aurons peut-être que des sujets d’édification.</p>
         <p>A la procession du rosaire, dans Venise, on voyait d’abord de jeunes garçons bien faits, puis de jeunes filles agréables. Une d’elles représentait sainte Catherine ; elle était accompagnée d’un enfant armé d’un balai, parce qu’un jour Dieu se présenta ainsi chez sainte Catherine, « <quote>pour lui servir de valet de chambre</quote> » (p. 277). Parmi ces filles étaient dispersés quelques plaisants qui s’efforçaient de les distraire par des postures grotesques ; ils étaient déguisés en démons, et quelques-uns d’eux poussaient le jeu fort loin, afin de rappeler le courage héroïque des vierges qui jadis ont résisté aux tentations de l’esprit malin. Derrière ce cortège assez animé, venaient une sainte vierge vivante, et une de bois ; la dévotion des spectateurs choisissait. Outre que ces comédiennes coûtaient peu, le peuple assistait au spectacle en plein air ; et, puisque la santé ainsi que l’économie contribuent au maintien des mœurs, on conçoit cette exclamation de plusieurs sages publicistes : Qui nous rendra la morale du bon temps !</p>
-        <p>C’était un bon temps, un beau jour, lorsqu’on réunissait <pb n="264"/>les cérémonies des fous, de l’âne et des cornards, ou lorsque les évêques dansaient ou jouaient à la boule dans les églises ou enfin lorsque les diacres, et ceux qu’alors on appelait sous-diacres, « <quote>prenaient plaisir a manger des boudins sur un coin de l’autel, au nez du prêtre célébrant</quote> ». Depuis que les systèmes modernes <hi rend="i">ont tout desséché</hi>, on n’assiste guère à de pareilles fêtes ; mais il n’y a pas plus de trente ans qu’au milieu des processions, les ânes entraient dans des cathédrales avec le droit d’y braire, permission qui depuis leur a été retirée. La prose chantée en l’honneur de ces coursiers, <hi rend="i">veloces super dromedarios</hi><note resp="editor">[NDE] = plus rapides que des dromadaires.</note>, a eu en français et en latin, de nombreuses variantes, et dans quelques églises, on ne disait rien sur l’effet du bâton <hi rend="i">in clunibus eorum</hi><note resp="editor">[NDE] = sur leurs derrières.</note>.</p>
+        <p>C’était un bon temps, un beau jour, lorsqu’on réunissait <pb n="264"/>les cérémonies des fous, de l’âne et des cornards, ou lorsque les évêques dansaient ou jouaient à la boule dans les églises ou enfin lorsque les diacres, et ceux qu’alors on appelait sous-diacres, « <quote>prenaient plaisir a manger des boudins sur un coin de l’autel, au nez du prêtre célébrant</quote> ». Depuis que les systèmes modernes <hi rend="i">ont tout desséché</hi>, on n’assiste guère à de pareilles fêtes ; mais il n’y a pas plus de trente ans qu’au milieu des processions, les ânes entraient dans des cathédrales avec le droit d’y braire, permission qui depuis leur a été retirée. La prose chantée en l’honneur de ces coursiers, <hi rend="i">veloces super dromedarios</hi><note resp="editor" place="bottom">[NDE] = plus rapides que des dromadaires.</note>, a eu en français et en latin, de nombreuses variantes, et dans quelques églises, on ne disait rien sur l’effet du bâton <hi rend="i">in clunibus eorum</hi><note resp="editor" place="bottom">[NDE] = sur leurs derrières.</note>.</p>
         <p>Les avis ont été fort partagés sur la fête des fous qu’on célébrait dans les cathédrales de Reims, de Sens, et dans beaucoup d’autres. Tandis qu’un théologien soutenait une thèse pour démontrer que cette cérémonie n’était pas moins approuvée du ciel que l’office de la conception de N.D., un chancelier de l’église de Paris prétendait que si les diables avaient à fonder une fête dans les temples chrétiens, ils ne pourraient rien imaginer de plus que ces « <quote>abominations mêlées d’une infinité de folâtreries et d’insolences</quote> ».</p>
       <p>Au seizième siècle on jouait le dimanche, après diner, de saintes historiettes, <hi rend="i">avec la farce au bout</hi> ; le peuple de Lyon appelait ce théâtre le Paradis, et François I<hi rend="sup">er</hi> y prit un grand plaisir. Louis XII étant indisposé contre le pape Jules II, <hi rend="i">les confrères de la passion</hi> avaient joué <hi rend="i">un prince des sots.</hi> Sans doute ce prince n’était pas le pape, mais seulement un personnage qui <pb n="265"/>voulait passer pour le pape, puisqu'on observe que <hi rend="i">Mère Sotte</hi> voulait aussi se faire passer pour l’Eglise. Si, disait-elle, vêtue d’habits sacerdotaux,</p>
         <quote>
@@ -91,9 +87,9 @@
             <l>A l’assaut, prélats, à l’assaut ! »</l>
           </lg>
         </quote>
-        <p>Peu de générations, moins de deux cents ans se sont écoulés depuis la rédaction d’un contrat de mariage, trouvé en original chez le curé de saint Donatien à Orléans. Ces sortes d’alliances spirituelles deviennent rares depuis que <hi rend="i">les croyances se perdent</hi>. « <quote>Je J... (le nom est en toutes lettres), fils du Dieu vivant, et époux des âmes fidèles, prends ma fille Madeleine Gasselin pour mon épouse, et lui promets fidélité et de ne l’abandonner jamais, et lui donner pour avantage et pour dot ma grâce en cette vie, lui promettant ma gloire en l’autre, et le partage à l’héritage de mon père ; en foi de quoi j’ai signé le contrat irrévocable de la main de mon secrétaire. Fait en <pb n="266"/>présence de mon père éternel, de mon amour, de ma très digne mère Marie, de mon père saint Joseph, et de toute ma cour : l’an de grâce 1650</quote>. » La pièce porte que cet accord a été ratifié par la Très Sainte Trinité. Le secrétaire était frère Arnoux, carme déchaussé<note resp="editor">[NDE] Les carmes déchaussés étaient membres de l’Ordre des Carmes Déchaux Séculiers (OCDS), héritier de Tiers-Ordre carmélite, fondé au quinzième siècle.</note>. Et voici l’engagement de l’épouse. « <quote>Je, Madeline Gasselin... prends mon aimable J... pour mon époux, et lui promets... que je n’en aurai jamais d’autre, et lui donne pour gage de fidélité mon cœur et tout ce que je ferai jamais</quote>... »</p>
+        <p>Peu de générations, moins de deux cents ans se sont écoulés depuis la rédaction d’un contrat de mariage, trouvé en original chez le curé de saint Donatien à Orléans. Ces sortes d’alliances spirituelles deviennent rares depuis que <hi rend="i">les croyances se perdent</hi>. « <quote>Je J... (le nom est en toutes lettres), fils du Dieu vivant, et époux des âmes fidèles, prends ma fille Madeleine Gasselin pour mon épouse, et lui promets fidélité et de ne l’abandonner jamais, et lui donner pour avantage et pour dot ma grâce en cette vie, lui promettant ma gloire en l’autre, et le partage à l’héritage de mon père ; en foi de quoi j’ai signé le contrat irrévocable de la main de mon secrétaire. Fait en <pb n="266"/>présence de mon père éternel, de mon amour, de ma très digne mère Marie, de mon père saint Joseph, et de toute ma cour : l’an de grâce 1650.</quote> » La pièce porte que cet accord a été ratifié par la Très Sainte Trinité. Le secrétaire était frère Arnoux, carme déchaussé<note resp="editor" place="bottom">[NDE] Les carmes déchaussés étaient membres de l’Ordre des Carmes Déchaux Séculiers (OCDS), héritier de Tiers-Ordre carmélite, fondé au quinzième siècle.</note>. Et voici l’engagement de l’épouse. « <quote>Je, Madeline Gasselin... prends mon aimable J... pour mon époux, et lui promets... que je n’en aurai jamais d’autre, et lui donne pour gage de fidélité mon cœur et tout ce que je ferai jamais</quote>... »</p>
       <p>Cette dépravation d’esprit a pu profiter à bien des gens ; mais il faut que tout change. Les phrases les plus artificieuses ramènent difficilement, et ne ramènent que dans l’ombre, les bouffonneries que des millions d’hommes prennent en dégout. Peut-être n’a-t-on pas renoncé au fond des choses ; mais ce n’est pas ici le lieu de ces sortes de recherches. Une remarque suffit : si les dehors sont plus décents, et l’extravagance plus cachée, si les impressions religieuses sont plus souvent au fond de l’âme, au lieu de s’exhaler en simagrées, cessez de reprocher à notre siècle les travers qu’il n’a pas, ou de le féliciter insidieusement de ceux auxquels il se livre encore ; cessez de calomnier vos contemporains selon l’usage immémorial de ceux qui profèrent de vaines paroles.</p>
-      <p>DE SENANCOUR</p>
+      <signed>DE SENANCOUR</signed>
       </div>
     </body>
   </text>
