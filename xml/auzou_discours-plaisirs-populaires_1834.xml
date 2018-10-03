@@ -8,6 +8,8 @@
         <titleStmt>
           <title>Discours sur les plaisirs populaires</title>
           <author key="Auzou, Louis-Napoléon (1806-1881)">Louis-Napoléon Auzou</author>
+          <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+          <editor key="Leceercle, François">François Lecercle</editor>
         </titleStmt>
         <editionStmt>
           <edition>OBVIL</edition>
@@ -40,8 +42,7 @@
             <title>Discours sur les plaisirs populaires, les bals et les spectacles</title>,
             <pubPlace>Paris</pubPlace>,
             <publisher>Secrétariat de l'Eglise française</publisher>,
-            <date>1834</date>,
-            <biblScope>p. 1-33</biblScope>.
+            <date>1834</date>.
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -56,13 +57,12 @@
     </teiHeader>
     <text>
       <body>
-        <div type="book">
-        <head>Discours sur les plaisirs populaires, les bals et les spectacles</head>
-        <label rend="bold">Prononcé dans l’Eglise française (première succursale de Clichy), sise à Paris, boulevard Saint-Denis, n. 10,<lb/> PAR L’ABBÉ AUZOU,<lb/>Curé de Clichy, par élection du peuple, et président de l’Eglise française.</label>
-          <p></p>
-        <pb n="1"/>
-        <p>« <quote>Venez à moi, vous tous qui êtes fatigués et qui êtes chargés, je vous soulagerai</quote> » ;</p>
-        <p>« <quote>Prenez mon joug sur vous et apprenez de moi que je suis doux et modeste de cœur ; et vous trouverez le repos de vos âmes.</quote> »</p>
+        <p></p>
+        <p rend="center">DISCOURS<lb/> <hi rend="sc">sur les</hi><lb/> PLAISIRS POPULAIRES,<lb/> <hi rend="sc">les bals</hi><lb/> Et les Spectacles<lb/>Prononcé dans l’Eglise française (première succursale de Clichy),<lb/> sise à Paris, boulevard Saint-Denis, n. 10,<lb/> PAR L’ABBÉ AUZOU,<lb/>Curé de Clichy, par élection du peuple, et président de l’Eglise française.<lb/><lb/>Prix 75c.<lb/><lb/>PARIS<lb/><hi rend="sc">au secretariat de l'eglise française</hi><lb/>Boulevard Saint-Denis, n. 10.<lb/>1834.</p>
+        <div type="chapter">
+          <pb n="1"/><head>Discours sur les plaisirs populaires, les bals et les spectacles</head>
+        <p>« <quote>Venez à moi, vous tous qui êtes fatigués et qui êtes chargés, je vous soulagerai</quote> ;</p>
+        <p>« <quote>Prenez mon joug sur vous et apprenez de moi que je suis doux et modeste de cœur ; et vous trouverez le repos de vos âmes.</quote></p>
         <p>« <quote>Car mon joug est doux et mon fardeau léger.</quote> »</p>
         <p><hi rend="sc">S. Mathieu</hi>, XI, 28, 29, 30.</p>
           <p></p>
@@ -276,9 +276,8 @@
         <p>De ridicules vieillards amoureux.</p>
         <p>Des femmes bel-esprit.</p>
         <p>Des pédants dont on peut dire :</p>
-        <quote>
-          <l>« Un sot savant est sot plus qu’un sot ignorant<note resp="editor" place="  "> [NDE] Molière, <hi rend="i">Les Femmes savantes</hi>, IV, 2.</note>. »</l>
-        </quote>
+          <p>« <quote>Un sot savant est sot plus qu’un sot ignorant<note resp="editor" place="  "> [NDE] Molière, <hi rend="i">Les Femmes savantes</hi>, IV, 2.</note>.</quote> »</p>
+        <p></p>
         <p>Des coquettes et des fats.</p>
         <p>Un marchand enrichi voulant trancher du gentilhomme.</p>
         <p>Un gentilhomme ruiné flattant et dupant le marchand enrichi.</p>
