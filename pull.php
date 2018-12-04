@@ -1,7 +1,10 @@
 <?php
 $conf = include( dirname(__FILE__)."/conf.php" );
 include( dirname(dirname(__FILE__))."/Teinte/Build.php" );
-
+if (php_sapi_name() == "cli") {
+  work($conf);
+  exit();
+}
 ?>
 <html>
   <head>
@@ -28,20 +31,7 @@ include( dirname(dirname(__FILE__))."/Teinte/Build.php" );
     echo "Mauvais mot de passe";
   }
   else {
-    $getcwd = getcwd();
-    chdir( $conf['srcdir']  );
-    echo 'Mise à jour distante <pre>'."\n";
-    // $last = exec( $conf['cmdup'], $output, $ret);
-    // echo implode( "\n", $output);
-    passthru( $conf['cmdup'] );
-    chdir( $getcwd );
-    echo '</pre>'."\n";
-    // envoyer le csv au build
-    echo 'Transformations <pre style="white-space: pre-wrap;">'."\n";
-    $build = new Teinte_Build( $conf );
-    if ( isset($_POST['force']) ) $build->clean();
-    $build->glob( );
-    echo '</pre>'."\n";
+    work($conf, isset($_POST['force']));
   }
 
       ?>
@@ -49,3 +39,21 @@ include( dirname(dirname(__FILE__))."/Teinte/Build.php" );
     </div>
   </body>
 </html>
+<?php
+function work($conf, $force=null) {
+  $getcwd = getcwd();
+  chdir($conf['srcdir']);
+  echo 'Mise à jour distante <pre style="white-space: pre-wrap;">'."\n";
+  // $last = exec( $conf['cmdup'], $output, $ret);
+  // echo implode( "\n", $output);
+  passthru($conf['cmdup']);
+  chdir($getcwd);
+  echo '</pre>'."\n";
+  // envoyer le csv au build
+  echo 'Transformations <pre style="white-space: pre-wrap;">'."\n";
+  $build = new Teinte_Build($conf);
+  if ($force) $build->clean();
+  $build->glob();
+  echo '</pre>'."\n";
+}
+?>
