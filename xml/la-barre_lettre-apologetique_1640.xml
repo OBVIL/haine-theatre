@@ -4,15 +4,45 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="la-barre_lettre-apologetique_1640.pdf">
   <teiHeader>
     <fileDesc>
-      <titleStmt/>
-      <editionStmt/>
+      <titleStmt>
+        <title>Lettre apologétique</title>
+        <author key="La Barre, Antoine de (ca 1614-16 ??)">Antoine de La Barre</author>
+        <editor key="??">?</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>François Lecercle</name>
+          <resp>Responsable d'édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Clotilde Thouret</name>
+          <resp>Responsable d'édition</resp>
+       </respStmt>
+      </editionStmt>
       <publicationStmt>
-        <availability status="restricted"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/la-tour_reflexions-t3_1765</idno>
       </publicationStmt>
-      <sourceDesc/>
+      <sourceDesc>
+        <bibl>
+          <author>Antoine de La Barre</author>, <title>Lettre apologétique ou défence contre la Libelle du père Augustin touchant la comédie</title>, <pubPlace>s.l.</pubPlace>, <publisher>s.n.</publisher>, <date>1640</date>. </bibl>
+      </sourceDesc>
     </fileDesc>
     <profileDesc>
-      <creation/>
+      <creation>
+        <date when="1640"/>
+      </creation>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
@@ -20,529 +50,91 @@
   </teiHeader>
   <text>
     <body>
-      <head>
-        <phr rend="ls">Lettre Apologétique ou défense contre le Libelle du Père Augustin./ 
-        Par le Sieur A.D.L.B. / Imprimé l’An MDCXL</phr>
-      </head>
-      <p xml:lang="fr">
+      <div>
+      <head rend="small">[FRONTISPICE]</head>
+        <p rend="center">LETTRE APOLOGETI-<lb/>QUE OU DEFFENCE,<lb/><hi rend="i">Contre le Libelle du</hi> PERE AUGUSTIN<lb/><hi rend="i">Touchant la Comédie</hi><lb/>Par le Sieur<lb/>A.D.L.B.<lb/>Imprimé l’An MDCXL</p></div>
+      <div>
         <pb n="A 2"/>
-      </p>
-      <salute xml:lang="fr">
-        <phr rend="ls">A/ MONSIEUR Monsieur le R.C.D.R.</phr>
+      <head> A MONSIEUR, Monsieur le R.C.D.R.
+      </head>
+      <salute>MONSIEUR,
       </salute>
-      <salute xml:lang="fr"><phr rend="ls">MONSIEUR</phr>,
-      </salute>
-      <p xml:lang="fr">
-        <phr rend="ls">Il y a quelque temps qu’il vous plût me commander de faire quelque chose en faveur de la Comédie, et répondre au libelle du Père Augustin, ce que j’ai fait avec autant d’affection, que j’ai d’intérêt à la défense de sa cause ; Il est vrai que j’eusse différé de rien mettre au jour pour diverses raisons que le silence et le respect m’oblige de taire, Mais le pouvoir que vous avez eu sur mon esprit, m’a fait rompre toutes sortes de considérations pour vous rendre cette satisfaction, et donner cette lettre apologétique au public, sous l’aveu de votre protection, espérant que vous l’agréerez d’aussi bon cœur, que je désire me conserver la qualité de</phr>
-      </p>
-      <p xml:lang="fr"><phr rend="ls">MONSIEUR</phr>,
-</p>
-      <p xml:lang="fr">
-        <phr rend="ls">Votre très humble et affectionné Serviteur</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">A.D.L.B.</phr>
-      </p>
-      <p xml:lang="fr">
-        <pb n="1" xml:id="p1"/>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">L’Approbation que la Comédie reçoit des plus célèbres esprits de ce siècle, lui sert d’un puissant avantage, pour se défendre contre le Père Augustin, qui non content de la faire l’objet de sa passion, tâche de la rendre odieuse, par la force de ses calomnies, et priver un chacun du plus agréable</phr>
-        <pb n="2" xml:id="p2"/>
-        <phr rend="ls"> divertissement, qui 
-        
-          <hi rend="bg_00ffff">sont</hi>
-        
-         [
-        
-          <hi rend="bg_00ffff">soit ?</hi>
-        
-        ] entre les exercices de l’esprit.</phr>
-      </p>
-      <p xml:lang="fr"><phr rend="ls">Il est vrai que ce n’est pas d’aujourd’hui, que ce Moine réformé a donné l’essor à sa méditation frénétique, pour choquer cette profession ; Mais la connaissance que tout le monde a de son mérite augmente d’autant plus sa réputation que son ignorance essaie d’en diminuer le prix : Ce qui m’a le plus étonné ça a été qu’après avoir lu son libelle, intitulé (
-        
-          <hi rend="i">le Théâtre du Monde</hi>
-        
-        ) par lequel il prétend assujettir la liberté de notre Vie ; J’ai trouvé qu’il était de la nature [de] ces écrevisses, où il y avait plus à éplucher qu’à prendre, que ses arguments étaient des galimatias, et qu’il savait mieux débiter une invective, qu’enseigner une doctrine</phr>, 
-        <pb n="3" xml:id="p3"/><phr rend="ls"> faire le Rabelais, que le Théologien, que les passages qu’il a tirés de l’Ecriture sainte, étaient des allégories ou métaphores, pour amuser ceux des petites maisons de Paris, que les allégations des Docteurs qu’il produit contre la Comédie, ont si peu de rapport à son sujet, que j’ai honte que le public soit témoin de la faiblesse de son jugement.</phr></p>
-      <p xml:lang="fr"><phr rend="ls">Sa plume qui est le truchement de ses pensées, et ses écrits le symbole de ses mœurs, font connaître, que ses œuvres sont l’image de son esprit, et son visage étant l’âme raccourcie de son naturel et le miroir de son cœur, montre par la débilité de son cerveau, que ses sens sont égarés, et que son jugement a sorti 
-        
-          <hi rend="bg_00ffff">les</hi>
-        
-         bornes de la raison, par ce</phr><pb n="4" xml:id="p4"/><phr rend="ls"> grand débordement d’injures dont son libelle est rempli</phr> :
-</p>
-      <p xml:lang="fr">
-        <phr rend="ls">Ce Casuiste semble avoir mal pris ses mesures, d’avoir voulu faire un parallèle, de la Profession des anciens Histrions, à celle des Comédiens ; d’autant qu’il n’y a aucune affinité ni correspondance entre leurs exercices, l’une étant un pur batelage et souplesse de corps, et l’autre une représentation d’une fortune privée, sans danger de 
-        la vie, comme témoigne Horace, en son livre, de Arte, 
-        
-          <hi rend="i">Comedia vero est Civilis privataeque fortunae sine periculo vitae comprehensio</hi> 
-        
-        ;</phr>
-      </p>
-      <p xml:lang="fr"><phr rend="ls">Je sais bien qu’il y en a plusieurs, qui ne sachant pas la différence de ces deux professions, confondent l’une avec l’autre, et sans distinction de genre, prennent</phr><pb n="5" xml:id="p5"/><phr rend="ls"> leur condition pour une même chose ; Mais il y a une telle inégalité entre elles, qu’il est facile de juger par la diversité de leurs fonctions, qu’elles n’ont nulle conformité ensemble, car celle des histrions n’est comme j’ai déjà dit qu’une démonstration d’agilité de corps et subtilité de main, mais l’autre étant une action plus relevée, fait voir qu’elle est une école des plus belles facultés de l’esprit, et où la mémoire fait un office digne d’admiration ; l’antiquité nous apprend qu’autrefois les Romains avaient ces Bateleurs en quelque considération, à cause du divertissement qu’ils donnaient à leurs Empereurs, mais ayant abusé du crédit qu’ils avaient obtenus du Sénat, s’adonnèrent à toutes</phr><pb n="6" xml:id="p6"/><phr rend="ls"> sortes de licences pernicieuses, ce qui obligea la ville de Rome de les chasser, et particulièrement un nommé Hyster, qui s’étant retiré à Athènes, fut suivi d’une bande de jeunes hommes, auxquels il enseigna ses tours de passe-passe et autres parties de son métier, et furent appelés Histrions, du nom de leur Maître, ces Libertins s’ennuyant de demeurer si longtemps dans un même lieu, prirent résolution de revenir à Rome pour exercer leurs jeux : Mais l’Empereur Sévère, ne pouvant souffrir ces Ennemis des bonnes mœurs, fit publier un Edit, par lequel ils furent pour la seconde fois bannis de tout le pays latin ; Lisez ce qu’en dit 
-        
-          <hi rend="i">Eusebius</hi>
-        
-        , et 
-        
-          <hi rend="i">Prosper Aquitanus</hi>
-        
-        , sur la remarque des</phr><pb n="7" xml:id="p7"/><phr rend="ls"> temps et des siècles</phr> :
-</p>
-      <p xml:lang="fr">
-        <phr rend="ls">Pour le regard des Mimes, ou Plaisanteurs, ils ont pris leur source d’un certain bouffon appelé Mimos qui signifie en langue grecque Imitateur, d’autant qu’en ses représentations il contrefaisait divers personnages, et imitait les façons des uns et des autres. Or après que ce tison d’enfer eut acquis quelque réputation parmi les Grands, à raison de ses bouffonneries et mots facétieux, il voulut pour augmenter le plaisir de ses Auditeurs, faire des tragédies entières, et pour les représenter s’associa de plusieurs garces, et enfants perdus, qui furent nommés 
-        
-          <hi rend="i">Scéniques</hi>
-        
-        , à cause qu’ils discernaient leurs actions par scènes, comme témoigne 
-        
-          <hi rend="i">Zénodore</hi>
-        
-        , en la troisième Epitre</phr>
-        <pb n="8" xml:id="p8"/>
-        <phr rend="ls"> contre 
-        
-          <hi rend="i">Apolinarius</hi>
-        
-        . Mais ces Infâmes abusant de l’autorité publique, se laissèrent emporter à toutes sortes de dissolutions et débauches, ce qui fit que plusieurs graves Sénateurs, ne pouvant supporter leurs insolences, les firent bannir avec les Astrologues, devins, et magiciens ; Voyez sur ce sujet les Centuries de 
-        
-          <hi rend="i">Galterius</hi>
-        
-        , la chronologie d’
-        
-          <hi rend="i">Onuphrius</hi>
-        
-         et de 
-        
-          <hi rend="i">Genebrard</hi>
-        
-         sur l’état de l’Empire Romain.</phr>
-      </p>
-      <p xml:lang="fr"><phr rend="ls">Il reste maintenant de voir, comme quoi les pères des quatre premiers siècles, ont parlé de ces impies, et pourquoi l’église a telles gens en abomination</phr> ?
-</p>
-      <p xml:lang="fr">
-        <phr rend="ls">Premièrement, 
-        
-          <hi rend="i">Saint Ignace</hi>
-        
-        , successeur d’
-        
-          <hi rend="i">Evodius</hi>
-        
-         en l’Evêché d’Antioche, et duquel l’Antiquité</phr>
-        <pb n="9" xml:id="p9"/>
-        <phr rend="ls"> a honoré les Epitres, comme témoigne le Cardinal 
-        
-          <hi rend="i">Baronius</hi>
-        
-         en ses annales, écrivant contre l’Empereur 
-        
-          <hi rend="i">Claudius</hi>
-        
-        , fulmine de ce qu’il souffrait l’exercice des 
-        
-          <hi rend="i">Mimes</hi>
-        
-        , qui infectaient dans Rome, la plupart de la jeunesse, par l’excès de leurs mauvaises vies.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Saint Martial évêque de Limoges, autrement appelé l’Apôtre des Gaules, l’un des septante-deux Disciples, dans une Epitre qu’il écrit à ceux de Bordeaux, après les avoir exhortés des devoirs spirituels, les conjure de s’exempter de la fréquentation de ces profanes, comme étant une école de l’idolâtrie, en effet les Païens s’en servaient pour rendre des louanges à leurs Dieux, par Hymnes et Cantiques ; c’est de là que la</phr>
-        <pb n="10" xml:id="p10"/>
-        <phr rend="ls"> poésie a été estimée le plus digne de tous les Arts, à cause de la noblesse de son origine, et fut même appelée le langage de la Divinité, car si nous considérons l’histoire Romaine, nous trouverons que les Oracles, ne répondaient autrement qu’en vers.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls"><hi rend="i">Polycarpe</hi>
-        
-         Disciple des Apôtres, et fait par eux Evêque de Smyrne, en son Epitre aux Philipiens, les reprend de leur vie scandaleuse, et par trop libertine.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls"><hi rend="i">Saint Denis</hi>
-        
-         Aréopagite, après avoir été converti par S. Paul, dans la ville d’Athènes, fut envoyé par le Pape Clément prêcher en France, où passant par l’Italie il écrivait à un sien ami Romain, d’éviter la présence de ses Bouffons, qui avaient pour lors grande vogue</phr>
-        <pb n="11" xml:id="p11"/>
-        <phr rend="ls"> parmi le peuple.</phr>
-      </p>
-      <p xml:lang="fr"><phr rend="ls"><hi rend="i">Justin Martyr</hi>
-        
-        , dans une Apologie à l’Empereur 
-        
-          <hi rend="i">Antoine</hi>
-        
-        , fils 
-        
-          <hi rend="i">d’Adrian</hi>
-        
-        , déclame puissamment contre ces dissolus, de ce qu’ils imitaient le Baptême des Chrétiens</phr> ;
-</p>
-      <p xml:lang="fr">
-        <phr rend="ls"><hi rend="i">Denis</hi>
-        
-         Evêque de Corinthe, en ses observations des jours de Dimanche, se plaint contre ces Corrupteurs de jeunesse, d’avoir pris des habits Sacerdotaux en dérision des Evêques.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls"><hi rend="i">Saint Irénée</hi>
-        
-         Disciple de 
-        
-          <hi rend="i">Polycarpe</hi>
-        
-        , étant envoyé à Lyon par le Pape Eleuthère, commença d’écrire contre ces Débauchés, et prêcher de leurs impuretés, comme témoigne Génébrard en sa Chronologie.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls"><hi rend="i">Tertullien</hi>
-        
-         Africain, qui s’était</phr>
-        <pb n="12" xml:id="p12"/>
-        <phr rend="ls"> glissé dans l’erreur des Cathafrigiens et Montanistes, quoique 
-        
-          <hi rend="i">Saint Cyprian</hi>
-        
-         l’appelle le Maître des bons esprits, après avoir fait son livre de la pudicité écrit à l’Empereur 
-        
-          <hi rend="i">Aelius Pertinax</hi>
-        
-        , sur le débordement de ces Faquins, qui prostituaient des femmes nues sur leurs théâtres au rapport de 
-        
-          <hi rend="i">Macrobe</hi>
-        
-        .</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls"><hi rend="i">Clément Alexandrin</hi>
-        
-        , natif d’Athènes, outre les huit livres, qu’il a fait des couleurs de l’Eglise, et des traditions Apostoliques. Il a laissé une Epitre au rapport de 
-        
-          <hi rend="i">Tristhemius</hi>
-        
-         par laquelle il blâme grandement les vices des Romains et des Bouffons.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls"><hi rend="i">Saint Grégoire</hi>
-        
-         le grand, Evêque de Neocésarée en la Province de Pont, surnommé 
-        
-          <hi rend="i">Thaumaturge</hi>
-        
-         pour l’excellence de ses vertus, en une</phr>
-        <pb n="13" xml:id="p13"/>
-        <phr rend="ls"> opuscule de la foi de l’Eglise, blâme l’Empereur 
-        
-          <hi rend="i">Decius</hi>
-        
-        , de s’adonner aux jeux scéniques.</phr>
-      </p>
-      <p xml:lang="fr"><phr rend="ls"><hi rend="i">Eusebius</hi>
-        
-        , Evêque de Césarée en Palestine, en l’une de ses œuvres de la foi des Evêques, reproche qu’il y en avait parmi eux, qui ressemblaient aux Comiques, qui avaient l’apparence belle, et le dedans corrompu des vices de l’arianisme</phr> ;
-</p>
-      <p xml:lang="fr">
-        <phr rend="ls">Le grand 
-        
-          <hi rend="i">Saint Basile</hi>
-        
-        , Evêque de Césarée en Cappadoce, en son traité des gestes de l’Eglise, écrivant à 
-        
-          <hi rend="i">Constantin</hi>
-        
-         second, le réprime de ce qu’il permet l’insolence des Histrions, et des Tragiques.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Le Pape 
-        
-          <hi rend="i">Tamasius</hi>
-        
-         [sic] en ses poèmes latins, parle des Mimes avec beaucoup de mépris.</phr>
-      </p>
-      <p xml:lang="fr"><phr rend="ls"><hi rend="i">Saint Epiphane</hi>
-        
-        , Evêque de</phr><pb n="14" xml:id="p14"/><phr rend="ls">Constance, dans son 
-        
-          <hi rend="i">Panarium</hi>
-        
-         se plaint de l’Empereur 
-        
-          <hi rend="i">Jovinian</hi>
-        
-        , de ce qu’il autorisait le vice des Comédiens, qui gâtaient par leurs lascivetés les bonnes mœurs d’un chacun</phr> ;
-</p>
-      <p xml:lang="fr">
-        <phr rend="ls"><hi rend="i">Saint Ambroise</hi>
-        
-        , Evêque de Milan, écrivant à sa sœur sur la préparation de la Messe, l’exhorte de s’abstenir de la vue des jeux publics, de peur d’être polluée par leurs actions.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls"><hi rend="i">S. Jean Chrysostome</hi>
-        
-        , Patriarche de Constantinople, en son étude du droit, défend d’admettre aucuns plaisanteurs dans les Villes, pour le scandale qu’ils causaient, et en une Epitre à l’Empereur 
-        
-          <hi rend="i">Honorius</hi>
-        
-        , se réjouit de ce qu’il les avait chassés de l’Empire, pour leurs dépravations.</phr>
-      </p>
-      <p xml:lang="fr"><phr rend="ls"><hi rend="i">S. Augustin</hi>
-        
-        , Evêque d’Hippone</phr><pb n="15" xml:id="p15"/><phr rend="ls"> en Afrique, étant envoyé à Carthage pour étudier, excella en toutes sortes de sciences, et enseignant la Rhétorique, écrivit une lettre à un sien Compagnon, selon 
-        
-          <hi rend="i">Eugenius</hi>
-        
-        , de fuir les façons des Bouffons</phr> :
-</p>
-      <p xml:lang="fr"><phr rend="ls"><hi rend="i">S. Cyprian</hi>
-        
-        , Evêque de Carthage, un des plus excellents Philosophes de son temps, et grand Orateur, en sa seconde Epitre de l’humilité des Chrétiens, fait mention d’un certain Comique, 
-        
-          <hi rend="i">Neoptolomeus</hi>
-        
-        , qui avait infecté l’Empereur 
-        
-          <hi rend="i">Valerius</hi>
-        
-        , par ses postures lascives ; bref, ils étaient convaincus de toutes sortes de crimes par les sacrés canons et décrets ; même le Pape 
-        
-          <hi rend="i">Gesalius</hi>
-        
-         leur fit défendre la communion des Sacrements, comme nous l’enseigne le docte 
-        
-          <hi rend="i">Rupert</hi>
-        
-        , en ses décrétales.</phr><pb n="16" xml:id="p16"/><phr rend="ls"> Mais si nous considérons en quel point est aujourd’hui la Comédie, nous trouverons qu’elle n’a aucune marque de l’antiquité, et ceux qui la professent, témoignent par la probité de leur vie, et par la représentation de leurs actions, qu’elle est entièrement dépouillée de toutes les qualités, qui pouvaient la noter d’infamie, et son mérite, l’ayant montée au plus haut degré de sa perfection, s’est mise dans une telle considération, auprès des Rois et des Princes, qu’elle leur tient lieu d’une sérieuse occupation ; Aussi se fait-elle avec tant de modestie, par l’innocence de ses poèmes, qu’elle dépite l’envie d’en offenser la réputation ; Je dirai de plus qu’elle est tellement Civile en ses diversités</phr>, 
-        <pb n="17" xml:id="p17"/><phr rend="ls"> qu’elle contraint les plus Religieux de lui donner des louanges, et chacun confesse que la force de ses charmes est si grande, qu’il faut être privé de sens commun pour en choquer la bonne odeur</phr> ;
-</p>
-      <p xml:lang="fr"><phr rend="ls">Si l’on regarde le nombre de ses qualités, on verra, que c’est le tableau des plus agréables passions, la parfaite image de la vie humaine, la vraie histoire parlante, la pure philosophie visible, l’entretien des bons esprits, le trône de la vertu, l’exemple de l’inconstance des choses, l’ennemie de l’ignorance, le modèle de l’Orateur, le raccourci de l’éloquence, le Cabinet des plus riches pensées, le trésor de la moralité, le miroir de la justice, le magasin de la fable ; bref j’en dis peu pour n’en pouvoir dire</phr><pb n="18" xml:id="p18"/><phr rend="ls"> assez, et j’ai de trop faibles Eloges, pour la moindre de ses parties</phr> :
-</p>
-      <p xml:lang="fr">
-        <phr rend="ls">Et quoique ce Pédant l’attaque par les plus rudes invectives de sa haine, elle est un puissant rocher, contre l’orage de ses malédictions, une tour, pour résister aux écueils de sa médisance, une muraille de bronze contre ses calomnies, un boulevard pour s’opposer à ses accusations, un bouclier contre ses impostures, un rempart capable de dissiper la foudre de passion, elle est enfin à l’épreuve de ses machines, et conservera sa renommée malgré l’effort de ses intentions.</phr>
-      </p>
-      <p xml:lang="fr"><phr rend="ls">Ce Sophiste prétendu, s’efforce de persuader au Vulgaire, que ceux de la Religion réformée, ne souffrent aucunement ce divertissement parmi eux, en quoi il montre</phr><pb n="19" xml:id="p19"/><phr rend="ls"> une grande ignorance ; vu qu’il n’y a Royaume, Province, Contrée ou Ville, où ils ne soient bien reçus et approuvés de ceux qui ont l’autorité souveraine ; en Angleterre le Roi en entretient ordinairement deux troupes à ses gages, qui le suivent quand il va à ses progrès, et où j’ai vu même des Ministres assister à leur représentations, entre autre un nommé 
-        
-          <hi rend="i">Joannes Davenantius</hi>
-        
-         Professeur de l’Académie Royale, et un certain 
-        
-          <hi rend="i">Vardus</hi>
-        
-         Préfet de la même Académie, qui tous deux avaient été députés au Synode de Dordrecht, comme des plus notables du Royaume</phr> :
-</p>
-      <p xml:lang="fr"><phr rend="ls">Dans la Hollande j’ai toujours vu des lieux érigés pour cet exercice, et particulièrement à Amsterdam</phr>, 
-        <pb n="20" xml:id="p20"/><phr rend="ls"> où s’est fait depuis peu le plus magnifique Théâtre de l’Europe, pour la Jeunesse de la Ville.</phr></p>
-      <p xml:lang="fr">
-        <phr rend="ls">A La Haye où son Altesse le Prince d’Orange tient sa Cour, il y a une troupe de Français qui représentent quatre fois la semaine, et où la plupart de la Noblesse, tant de l’une que de l’autre Religion assiste, sans aucun scrupule.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">A Rotterdam il y a un lieu destiné, où les jeunes hommes s’exercent, et donne l’argent aux pauvres Orphelins, si quelqu’un me dit que c’est pour une bonne œuvre, je réponds que le prétexte n’efface pas le vice s’il y en a.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Dans toutes les meilleures Villes, excepté celles où les Ministres gouvernent absolument, on y représente la Comédie sans difficulté.</phr>
-        <pb n="21" xml:id="p21"/>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Mais sans nous écarter hors la France, voyons dans les villes où Messieurs de la Religion sont, où ont été en quelque autorité, premièrement à Saumur, où est l’Académie des étrangers, avant sa réduction, j’ai vu diverses représentations, où le Sieur du Plessis Gouverneur du Château assistait, et le Sieur Bouchereau Ministre.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">A Montauban trois ans avant sa prise, il se joua une histoire par les Clercs de la ville, qui avait été tirée du vieil Testament appelée 
-        
-          <hi rend="i">l’Assyrien de Perse</hi>
-        
-        , où étaient contenus plusieurs beaux incidents trop longs à déduire, le Sieur Charnier un des plus doctes de son temps, et qui a fort écrit, fit l’avant-propos de ce poème.</phr>
-      </p>
-      <p xml:lang="fr"><phr rend="ls">A Nîmes, où il y a école de</phr><pb n="22" xml:id="p22"/><phr rend="ls"> Théologie, pour ceux qui étudient au Ministère, il se représenta devant le Sieur d’Aubais et le Baron de la Casaigne Consuls, une excellente Tragédie des conquêtes de 
-        
-          <hi rend="bg_00ffff">Pyrrus</hi>
-        
-        , où les quatre principaux Ministres, à savoir le Faucher grand Controversiste, le Sieur Petit excellent en la langue Grecque, Perol [?] autrefois Jésuite, grand Philosophe, et le Sieur Rousel qui fut Ministre de Monseigneur de Rohan, assistaient avec quantité de leurs amis</phr> :
-</p>
-      <p xml:lang="fr">
-        <phr rend="ls">A Montpelier pendant mes études il se fit quelques récréations entre lesquelles il se joua deux pièces, l’une tirée de 
-        
-          <hi rend="i">Joseph</hi>
-        
-        , et l’autre de l’histoire de 
-        
-          <hi rend="i">Perse</hi>
-        
-        , où plusieurs Ministres des lieux circonvoisins furent, et les deux Ministres de la</phr>
-        <pb n="23" xml:id="p23"/>
-        <phr rend="ls"> ville, qui étaient le Faucheur à présent Pasteur en l’Eglise de Charenton et le jeune Gigort.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">A La Rochelle pendant la Mairie du Sieur des Herbiers, se représenta une Tragicomédie tirée de l’histoire Romaine, dans le Collège où avaient été autrefois les Prêtres de 
-        
-          <hi rend="i">Sainte Marguerite</hi>
-        
-        , où il y avait grand nombre de Spectateurs, et plusieurs Ministres, entre lesquels je reconnus le Sieur Salbert, La Chapelière, le Blanc, et Bonis.</phr>
-      </p>
-      <p xml:lang="fr"><phr rend="ls">A Castres on joua une Comédie intitulée le 
-        
-          <hi rend="i">Jugement de Midas</hi>
-        
-        , devant le Duc de Rohan, où le Sieur du Mont et autres Ministres assistèrent</phr> :
-</p>
-      <p xml:lang="fr">
-        <phr rend="ls">Je sais bien que quelqu’un me dira, que les poèmes que ceux de la Religion représentent, sont</phr>
-        <pb n="24" xml:id="p24"/>
-        <phr rend="ls"> examinés par les Pasteurs ou 
-        
-          <hi rend="bg_00ffff">de</hi>
-        
-         ceux qui ont charge de l’Eglise ; et que lors qu’il s’y rencontre quelque chose contre la gloire de Dieu, ou les bonnes mœurs, on ne les souffre pas représenter. Mais quant au regard des Comédiens qui n’ont point de Compétiteurs ni de personnes pour corriger la liberté de leurs pièces, ils représentent sans considération d’offenser la vertu de leurs Auditeurs ; A quoi je réplique ; qu’il n’y a point de ville bien policée, où leurs Comédies ne passent par la coupelle des Magistrats, et où il ne leur soit défendu de n’exposer aucun sujet sur le Théâtre, qui puisse choquer l’honneur de Dieu, le service du Roi, et la réputation du prochain.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Si l’on m’objecte que dans la</phr>
-        <pb n="25" xml:id="p25"/>
-        <phr rend="ls"> farce il y a des mots un peu libres, et de mauvaise édification qui fait que l’on condamne la Comédie, je réponds que c’est être ignorant Logicien, en ce que l’une n’est pas de l’essence de l’autre, et qu’étant deux actions différentes et séparées elles n’ont aucune analogie entre elles, et que tel aimera l’une, qui haïra l’autre, outre que s’il se dit quelques rencontres ou pointes d’esprit qui soient facétieuses, les termes en sont ambigus, et n’ont aucun sens qui puisse blesser les chastes oreilles ; Ce n’est pas que je ne souhaitasse qu’elle fût abolie, pour le peu de satisfaction que les honnêtes gens y reçoivent, cela obligerait au moins la plupart de nos Prédicateurs et les Ministres de ne quitter pas si souvent</phr>
-        <pb n="26" xml:id="p26"/>
-        <phr rend="ls"> le texte de leur Evangile, pour nous étourdir la tête de telles matières, et parler avec plus de modération de la Comédie, et de ceux qui y assistent.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Je suis honteux que ce Révérend Père reproche aux Comédiens, qu’ils emploient toutes sortes de ruses et d’inventions, pour suspendre nos esprits, et que par de subtiles amorces ils chatouillent nos sens en telle façon, que les facultés de notre âme en 
-        
-          <hi rend="bg_00ffff">demeurèrent</hi>
-        
-         offensées ; Je ne sais d’ou il a tiré cette doctrine, et de qui elle est autorisée si c’est de son caprice, ou de quelque esprit aussi blessé de l’imaginative que lui ; car je suis étonné qu’une telle faiblesse soit sortie de la pensée d’un Religieux ; Je crois que le plus grand charme</phr>
-        <pb n="27" xml:id="p27"/>
-        <phr rend="ls"> par lequel ils tendent à captiver et arrêter les Curieux, c’est par le seul mérite de leurs poèmes, et non par aucune autre considération.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Pour les actions dissolues dont il les accuse, chacun aussi bien que moi les peut justifier, et dire avec vérité, que leurs gestes et déportements, se font avec autant de retenue et de discrétion que le sujet le saurait désirer.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Pour les imitations impudiques dont il s’efforce de les convaincre, je puis témoigner 
-        
-          <hi rend="bg_00ffff">que</hi>
-        
-         pendant trois mois que je les ai vus 
-        
-          <hi rend="bg_00ffff">que</hi>
-        
-         je n’ai jamais remarqué aucune chose qui approchât de ce vice, et que leurs actions ont toujours été accompagnées d’une grande modestie.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Quand aux crimes dont il les</phr>
-        <pb n="28" xml:id="p28"/>
-        <phr rend="ls"> blâme sans cause, il devrait s’informer mieux de l’état de leur vie, pour en juger avec plus d’équité, et retenir ce torrent d’injures dont il grossit journellement ses prédications, s’il avait été aussi soigneux d’écouter la Comédie pour en connaître la fonction, qu’il a été prompt à la condamner, il aurait vu qu’elle ne produit rien qui puisse blesser la vertu des assistants, ni jeter de mauvaises semences en leurs âmes. Mais il ressemble à ces estomacs indigestes qui rejettent ce qu’ils ne peuvent digérer, ou pour mieux dire à ces mouches cantharides qui sucent le venin, d’où les abeilles tirent leur miel.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Il prétend prouver en alléguant l’antiquité, que les Comédiens</phr>
-        <pb n="29" xml:id="p29"/>
-        <phr rend="ls"> sont notés d’infamie, selon les lois et constitutions Ecclésiastiques ; j’avoue avec lui que la Comédie à sa naissance, a été condamnée de l’Eglise primitive, et des Pères Orthodoxes, en ce qu’elle était une fondrière de tous vices : Mais comme les temps perfectionnent les hommes, et changent de mal en bien l’être des choses, elle s’est tellement rendue agréable par la pureté de son innocence, qu’il ne lui reste rien pour ajouter à son mérite, et qu’autant qu’elle a été pernicieuse en son principe, elle s’est montrée recommandable en la fleur de son printemps.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Outre que la question ayant été depuis peu réveillée dans cet auguste Parlement de Paris, touchant la réception de la Fémas</phr>
-        <note place="bottom">[NdE] Laffémas</note>
-        <phr rend="ls"> que l’on</phr>
-        <pb n="30" xml:id="p30"/>
-        <phr rend="ls"> accusait de l’avoir exercée, (sans preuve toutefois), où les plus beaux esprits de la Cour assistèrent, et nombre de Docteurs en Théologie pour vider ce différent ; il fut conclu et arrêté, après les diverses contestations d’une part et de l’autre, 
-        
-          <hi rend="bg_00ffff">et</hi>
-        
-         que la Comédie n’ayant plus rien du Paganisme et de contraire aux bonnes mœurs, elle pouvait être reçue entre les honnêtes récréations, puis même que le Concile de Trente ne l’avait décidée que comme action indifférente ; Et que quand au regard dudit Sieur de la Fémas soit qu’il l’eût professée ou non, il jouirait pleinement de la charge de Lieutenant Civil, avec injonction et défense de ne jamais opposer ce reproche à ceux qui voudraient être admis</phr>
-        <pb n="31" xml:id="p31"/>
-        <phr rend="ls"> aux offices de judicature, comme superflu et de nul effet ; Jugez par là si ce Docteur particulier, a raison de vouloir contester une proposition que les plus savants de la Sorbonne ont définie.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Ce qui m’étonne d’avantage, c’est de voir que celui, qui devrait avoir une domination de raison, sur les impétueux mouvements de son esprit, le laisse emporter à des licences qui sont non seulement indignes d’un Chrétien, mais même d’un Athée, que celui (dis-je) qui doit donner un calme et une tranquillité à la partie imaginative de son âme, et régler ses écrits à la dignité de sa vocation, s’altère l’esprit contre une chose que tout le monde approuve ; Je suis fâché qu’un Religieux qui doit</phr>
-        <pb n="32" xml:id="p32"/>
-        <phr rend="ls"> être le miroir de soi-même pour servir d’exemple à la piété, ne résigne plutôt les affections de son cœur à des actions saintes, qu’à se jeter sur les invectives.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Quelle pénitence je vous prie peut-il imposer aux médisants, puisque lui qui est le patron, sur lequel le pénitent se moule, se trouve le premier coupable ; ou qui sera le plus criminel, lui qui vise toutes ses pensées à ce point, ou l’autre qui l’imite. Mais ce qui le rend encore d’autant plus blâmable, c’est de vouloir choquer une profession, dont il ignore l’effet et la cause.</phr>
-      </p>
-      <p xml:lang="fr"><phr rend="ls">Je veux 
-        
-          <hi rend="bg_00ffff">qu’il y eût</hi>
-        
-         quelque mal à la voir, ou à la représenter, je demande si c’est par le moyen de ses injures qu’il espère l’abolir, et nous priver de ce divertissement, ou si</phr><pb n="33" xml:id="p33"/><phr rend="ls"> c’est par la chaine de ses calomnies qu’il croit garrotter nos consciences, s’il était aussi soigneux de lire S. Cyprian qu’à médire de ceux qui la voient, il aurait appris que le devoir d’un vrai Religieux, doit plutôt s’élever à la méditation de sa vie, qu’à chercher de quoi épiloguer sur celle d’autrui. Saint 
-        
-          <hi rend="i">Hilaire</hi>
-        
-         parlant de ceux qui ont l’administration de la chaire, dit qu’ils ne doivent nullement prostituer l’autorité de leur vocation, à l’extravagance de leur passion ; d’autant que comme dit Saint Jérôme, 
-        
-          <hi rend="i">Correctio lenis hominem suaviter instruit, nimis aspera vero deteriorem facit</hi>
-        
-        , le pécheur ne se convertit que par la voix de la douceur, et que le piquer par paroles scandaleuses</phr>, 
-        <pb n="34" xml:id="p34"/><phr rend="ls"> c’est le pousser dans le crime plus avant.</phr></p>
-      <p xml:lang="fr">
-        <phr rend="ls">S’il prend la peine de lire 
-        
-          <hi rend="i">Theodoret</hi>
-        
-        , il verra que les fautes, lesquelles sont réprimées avec sévérité se rengrangent d’autant plus que l’on croit les châtier ; la liberté qui nous est aussi naturelle que la vie ne peut souffrir de contrainte, dit S. Augustin ; un peu de douceur doit servir au vice comme un appât pour en amoindrir le cours dit 
-        
-          <hi rend="i">Philon</hi>
-        
-         le Juif ; qu’il voie avec quelle méthode, les anciens Docteurs ont converti les Pélagiens, les Donatistes, les Ariens et Albigeois, et autres qui s’adonnaient au vice, S. 
-        
-          <hi rend="i">Exuper</hi>
-        
-         dit qu’une réprimande modeste pour les mœurs, est une correction honnête.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Je souhaiterais pour sa gloire</phr>
-        <pb n="35" xml:id="p35"/>
-        <phr rend="ls"> qu’il fut Imitateur d’un S. Paul, qui attirait un chacun par l’humilité de son exemple, et que n’étant pas si violent en ses prédications, il pût nous inspirer de salutaires pensées, ceux qui comme lui font profession de la vie privée, doivent être d’une qualité tempérée, modeste, courtoise, humble, affable, débonnaire, et non d’une humeur vicieuse, aigre, bouillante et prompte, afin que le tempérament de leur ardeur, n’excite leur passion au-delà de leur devoir.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Qu’il considère combien la Calomnie est préjudiciable à la réputation des hommes, et comme elle opprime la vertu des plus justes actions, que sa rigueur a troublé les plus grands des siècles passés, qu’elle a décoché ses traits contre les plus</phr>
-        <pb n="36" xml:id="p36"/>
-        <phr rend="ls"> vertueux, qu’elle a été le fusil de la division des choses, qu’elle a ruiné l’harmonie de l’amitié des hommes, qu’elle a pris l’innocence à partie, qu’elle a essayé de corrompre toute la terre, bref qu’elle n’a rien exempté du joug de son pouvoir, puisque Dieu même a subi la force de sa tyrannie ; par le blasphème des Juifs, qui l’appelaient séducteur, corrupteur des lois, ennemi de l’Etat, un séditieux, un larron, et autres impiétés opposées diamétralement à l’éclat de ses belles vertus.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">De quelle impétuosité n’a elle point heurté les premiers Chrétiens, quand les Païens les appelaient secte pernicieuse, ennemis des Dieux, des Empereurs, des mœurs, et enfin de toute la nature</phr>
-        <pb n="37" xml:id="p37"/>
-        <phr rend="ls"> comme témoigne Tacite en son livre des mœurs, et Suetonius en la vie de Néron. Mais pour parler du malheur qu’a causé la médisance ; Voyons le fond de l’antiquité, nous trouverons un Moïse quitter la Cour de Pharaon pour aller aux déserts de Madian, l’emprisonnement d’un Joseph, un Prophète David chassé de la présence de Saül, un Daniel jeté dans la fosse aux lions, un peuple Hébreu à la veille de sa perte, une Susanne sur le point d’être lapidée ; Bref il n’y a peste plus dangereuse que celle de la calomnie, c’est pourquoi le Prophète royal, au Psaume septante et deux, dit que le Détracteur échelle le Ciel pour y vomir le venin de sa médisance, 
-        
-          <hi rend="i">posuit in coelum os suum et</hi>
-        
-</phr>
-        <pb n="38" xml:id="p38"/>
-        <phr rend="ls"><hi rend="i">lingua ejus transivit in terra</hi> 
-        
-        : Je ne trouve pas étrange de quoi les Calomniateurs dressent des assauts continuels, contre ceux qui sont accusés de quelques imperfections, puisque la pointe de leur langue s’attaque aux plus justes du monde ; plût à Dieu que ce vice n’eût aucune racine dans nos cœurs afin que la charité se trouvant en son lustre, l’amitié pût avoir son règne, et la paix entrant en son Empire, la concorde y trouvât le trône de sa félicité.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">La langue dit le docte Alciatus en son traité 
-        
-          <hi rend="i">De</hi>
-        
-         
-        
-          <hi rend="i">Jure Civili</hi>
-        
-        , étant le plus bel ornement dont Dieu ait enrichi notre nature, doit s’appliquer plutôt à la louange qu’au blâme. Si l’on me dit que c’est la verge de laquelle l’Eglise se sert</phr>
-        <pb n="39" xml:id="p39"/>
-        <phr rend="ls"> pour appeler le pécheur à repentance, je réponds qu’il y a différence, entre corriger le vice des hommes, et offenser l’honneur du prochain, comme fait le Père en tous les Chapitres de son libelle ; Car je crois qu’il n’y a point d’endroits dans les imprécations du Sieur de S. Amant où sa plume n’ait tiré quelque trait d’invective, pour forger des armes contre les plaisirs de la vie ; Et immoler la Comédie sur l’autel de sa passion.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Je dirai de plus, qu’il n’y a point d’impostures que sa langue n’ait trouvé dans l’égout de son papier journalier, pour essayer de ruiner la réputation de ceux qui la professent, et comme la médisance est la plus belle partie de son âme, ses injures sont aussi le plus riche</phr>
-        <pb n="40" xml:id="p40"/>
-        <phr rend="ls">ornement de son esprit, et pour dire en un mot de tous les vices d’un Calomniateur, ce Religieux en fait la grandeur de sa vertu et la force de sa Rhétorique.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Il croyait éblouir le Vulgaire par le fastueux titre de son livret, et rencontrer en nous des cœurs de cire, pour nous imprimer facilement le sceau de ses impertinences ; Mais n’ayant été qu’un mépris de sa réputation, et une risée de ceux qui l’ont une fois lu. Il n’a trouvé de crédit que parmi les beurrières pour peser leur marchandise, et le libraire qui l’a imprimé s’est trompé, en ce qu’il l’a plutôt pris au poids de la main qu’au jugement. Aussi n’est-il rempli que de faussetés, calomnies, bouffonneries, et autres matières de pareille étoffe.</phr>
-        <pb n="41" xml:id="p41"/>
-        <phr rend="ls"> C’est un discours rampant et vide de sens, plein d’autant de vanité que son auteur a de présomption et qui n’a rien qui soit 
-        
-          <hi rend="bg_00ffff">bastant</hi>
-        
-         d’ébranler le moindre esprit, ses raisons sont si mal rangées, ses paroles si confuses, et ses termes si grossiers, qu’ils tiennent de la froideur de son tempérament, et de la qualité de son jugement ; Bref, il aurait besoin de se faire relever de la folie, comme d’un acte de sa Minorité, ou faire un voyage au pays d’Anticire pour se purger le cerveau d’un peu d’ellébore.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Je vous puis assurer que si le Philosophe Zénon eut autrefois le sceptre d’or des Illyriens pour s’être exercé à la louange d’un chacun, que notre bon Père Augustin ne peut attendre qu’une couronne de chardon et un sceptre de foin, pour régir l’Empire des Gymnosophistes.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">Je le conjure en finissant cette lettre, de se servir en tous ses discours des armes de la Déesse Adrastie, que les anciens figuraient un mors dans la main, enseignant par cette figure emblématique, qu’il est nécessaire que les Détracteurs donnent un frein à leur langue, quand ils se jettent trop avant dans l’excès de la médisance : Cette bonne Déesse dit 
-        
-          <hi rend="i">Artemidore</hi>
-        
-        , fut adorée par les Egyptiens, comme étant celle qui prenait la défense des Innocents, pour les venger de la persécution des Calomniateurs.</phr>
-      </p>
-      <p xml:lang="fr">
-        <phr rend="ls">FIN</phr>
-      </p>
-      <p xml:lang="fr">
-        
-</p>
-      <p xml:lang="fr"/>
+        <p>Il y a quelque temps qu’il vous plût me commander de faire quelque chose en faveur de la Comédie, et répondre au libelle du Père Augustin, ce que j’ai fait avec autant d’affection, que j’ai d’intérêt à la défense de sa cause ; Il est vrai que j’eusse différé de rien mettre au jour pour diverses raisons que le silence et le respect m’oblige de taire, Mais le pouvoir que vous avez eu sur mon esprit, m’a fait rompre toutes sortes de considérations pour vous rendre cette satisfaction, et donner cette lettre apologétique au public, sous l’aveu de votre protection, espérant que vous l’agréerez d’aussi bon cœur, que je désire me conserver la qualité de</p>
+      
+      <salute>MONSIEUR</salute>
+      
+        <signed>Votre très humble et affectionné Serviteur<lb/>A.D.L.B.</signed></div>
+      <div>
+        <pb n="1"/><head>Lettre apologétique ou défense<lb/> contre le Libelle du Père Augustin</head>
+      
+      <p> L’Approbation que la Comédie reçoit des plus célèbres esprits de ce siècle, lui sert d’un puissant avantage, pour se défendre contre le Père Augustin, qui non content de la faire l’objet de sa passion, tâche de la rendre odieuse, par la force de ses calomnies, et priver un chacun du plus agréable <pb n="2"/> divertissement, qui sont<note place="bottom" resp="editor"> [NDE] On aurait plutôt tendance à écrire "soit", au singulier.</note> entre les exercices de l’esprit.</p>
+      <p>Il est vrai que ce n’est pas d’aujourd’hui, que ce Moine réformé a donné l’essor à sa méditation frénétique, pour choquer cette profession ; Mais la connaissance que tout le monde a de son mérite augmente d’autant plus sa réputation que son ignorance essaie d’en diminuer le prix : Ce qui m’a le plus étonné ça a été qu’après avoir lu son libelle, intitulé (<hi rend="i">le Théâtre du Monde</hi>) par lequel il prétend assujettir la liberté de notre Vie ; J’ai trouvé qu’il était de la nature de<note resp="editor" place="bottom"> [NDE] Ce mot manque dans le texte.</note> ces écrevisses, où il y avait plus à éplucher qu’à prendre, que ses arguments étaient des galimatias, et qu’il savait mieux débiter une invective, qu’enseigner une doctrine, <pb n="3"/> faire le Rabelais, que le Théologien, que les passages qu’il a tirés de l’Ecriture sainte, étaient des allégories ou métaphores, pour amuser ceux des petites maisons de Paris, que les allégations des Docteurs qu’il produit contre la Comédie, ont si peu de rapport à son sujet, que j’ai honte que le public soit témoin de la faiblesse de son jugement.</p>
+      <p >Sa plume qui est le truchement de ses pensées, et ses écrits le symbole de ses mœurs, font connaître, que ses œuvres sont l’image de son esprit, et son visage étant l’âme raccourcie de son naturel et le miroir de son cœur, montre par la débilité de son cerveau, que ses sens sont égarés, et que son jugement a sorti les bornes<note place="bottom" resp="editor"> [NDE] Nous écririons "est sorti des bornes". L'emploi de l'auxiliaire avoir est possible à l'époque.</note> de la raison, par ce<pb n="4" /> grand débordement d’injures dont son libelle est rempli :</p>
+        <p>Ce Casuiste semble avoir mal pris ses mesures, d’avoir voulu faire un parallèle, de la Profession des anciens Histrions, à celle des Comédiens ; d’autant qu’il n’y a aucune affinité ni correspondance entre leurs exercices, l’une étant un pur batelage et souplesse de corps, et l’autre une représentation d’une fortune privée, sans danger de la vie, comme témoigne Horace, en son livre, <hi rend="i">de Arte</hi>, « <quote>Comedia vero est Civilis privataeque fortunae sine periculo vitae comprehensio</quote>  »; </p>
+      <p >Je sais bien qu’il y en a plusieurs, qui ne sachant pas la différence de ces deux professions, confondent l’une avec l’autre, et sans distinction de genre, prennent<pb n="5" /> leur condition pour une même chose ; Mais il y a une telle inégalité entre elles, qu’il est facile de juger par la diversité de leurs fonctions, qu’elles n’ont nulle conformité ensemble, car celle des histrions n’est comme j’ai déjà dit qu’une démonstration d’agilité de corps et subtilité de main, mais l’autre étant une action plus relevée, fait voir qu’elle est une école des plus belles facultés de l’esprit, et où la mémoire fait un office digne d’admiration ; l’antiquité nous apprend qu’autrefois les Romains avaient ces Bateleurs en quelque considération, à cause du divertissement qu’ils donnaient à leurs Empereurs, mais ayant abusé du crédit qu’ils avaient obtenus du Sénat, s’adonnèrent à toutes<pb n="6" /> sortes de licences pernicieuses, ce qui obligea la ville de Rome de les chasser, et particulièrement un nommé Hyster, qui s’étant retiré à Athènes, fut suivi d’une bande de jeunes hommes, auxquels il enseigna ses tours de passe-passe et autres parties de son métier, et furent appelés Histrions, du nom de leur Maître, ces Libertins s’ennuyant de demeurer si longtemps dans un même lieu, prirent résolution de revenir à Rome pour exercer leurs jeux : Mais l’Empereur Sévère, ne pouvant souffrir ces Ennemis des bonnes mœurs, fit publier un Edit, par lequel ils furent pour la seconde fois bannis de tout le pays latin ; Lisez ce qu’en dit <hi rend="i">Eusebius</hi>, et <hi rend="i">Prosper Aquitanus</hi>, sur la remarque des<pb n="7"/> temps et des siècles : </p>
+        <p>Pour le regard des Mimes, ou Plaisanteurs, ils ont pris leur source d’un certain bouffon appelé Mimos qui signifie en langue grecque Imitateur, d’autant qu’en ses représentations il contrefaisait divers personnages, et imitait les façons des uns et des autres. Or après que ce tison d’enfer eut acquis quelque réputation parmi les Grands, à raison de ses bouffonneries et mots facétieux, il voulut pour augmenter le plaisir de ses Auditeurs, faire des tragédies entières, et pour les représenter s’associa de plusieurs garces, et enfants perdus, qui furent nommés <hi rend="i">Scéniques</hi>, à cause qu’ils discernaient leurs actions par scènes, comme témoigne <hi rend="i">Zénodore</hi>, en la troisième Epitre <pb n="8"/> contre <hi rend="i">Apollinarius</hi>. Mais ces Infâmes abusant de l’autorité publique, se laissèrent emporter à toutes sortes de dissolutions et débauches, ce qui fit que plusieurs graves Sénateurs, ne pouvant supporter leurs insolences, les firent bannir avec les Astrologues, devins, et magiciens ; Voyez sur ce sujet les <hi rend="i">Centuries</hi> de <hi rend="i">Galterius</hi>, la chronologie d’ <hi rend="i">Onuphrius</hi>et de <hi rend="i">Genebrard</hi> sur l’état de l’Empire Romain.</p>
+      <p>Il reste maintenant de voir, comme quoi les pères des quatre premiers siècles, ont parlé de ces impies, et pourquoi l’Eglise a telles gens en abomination ?</p>
+      <p >Premièrement, <hi rend="i">Saint Ignace</hi>, successeur d’<hi rend="i">Evodius</hi>en l’Evêché d’Antioche, et duquel l’Antiquité<pb n="9" />a honoré les Epitres, comme témoigne le Cardinal <hi rend="i">Baronius</hi> en ses annales, écrivant contre l’Empereur <hi rend="i">Claudius</hi>, fulmine de ce qu’il souffrait l’exercice des <hi rend="i">Mimes</hi>, qui infectaient dans Rome, la plupart de la jeunesse, par l’excès de leurs mauvaises vies.</p>
+      <p >Saint Martial évêque de Limoges, autrement appelé l’Apôtre des Gaules, l’un des septante-deux Disciples, dans une Epitre qu’il écrit à ceux de Bordeaux, après les avoir exhortés des devoirs spirituels, les conjure de s’exempter de la fréquentation de ces profanes, comme étant une école de l’idolâtrie, en effet les Païens s’en servaient pour rendre des louanges à leurs Dieux, par Hymnes et Cantiques ; c’est de là que la<pb n="10"/> poésie a été estimée le plus digne de tous les Arts, à cause de la noblesse de son origine, et fut même appelée le langage de la Divinité, car si nous considérons l’histoire Romaine, nous trouverons que les Oracles, ne répondaient autrement qu’en vers.</p>
+      <p><hi rend="i">Polycarpe</hi>Disciple des Apôtres, et fait par eux Evêque de Smyrne, en son Epitre aux Philippiens, les reprend de leur vie scandaleuse, et par trop libertine.</p>
+      <p>
+          <hi rend="i">Saint Denis</hi> Aréopagite, après avoir été converti par S. Paul, dans la ville d’Athènes, fut envoyé par le Pape Clément prêcher en France, où, passant par l’Italie il écrivait à un sien ami Romain, d’éviter la présence de ses Bouffons, qui avaient pour lors grande vogue<pb n="11"/> parmi le peuple.</p>
+      <p><hi rend="i">Justin Martyr</hi>, dans une Apologie à l’Empereur <hi rend="i">Antoine</hi>, fils <hi rend="i">d’Hadrian</hi>, déclame puissamment contre ces dissolus, de ce qu’ils imitaient le Baptême des Chrétiens ;</p>
+      <p ><hi rend="i">Denis</hi> Evêque de Corinthe, en ses observations des jours de Dimanche, se plaint contre ces Corrupteurs de jeunesse, d’avoir pris des habits Sacerdotaux en dérision des Evêques.</p>
+      <p><hi rend="i">Saint Irénée</hi> Disciple de <hi rend="i">Polycarpe</hi>, étant envoyé à Lyon par le Pape Eleuthère, commença d’écrire contre ces Débauchés, et prêcher de leurs impuretés, comme témoigne Génébrard en sa <hi rend="italic">Chronologie</hi>.</p>
+      <p><hi rend="i">Tertullien</hi> Africain, qui s’était<pb n="12"/> glissé dans l’erreur des Cathafrigiens et Montanistes, quoique <hi rend="i">Saint Cyprien</hi>l’appelle le Maître des bons esprits, après avoir fait son livre de la pudicité écrit à l’Empereur <hi rend="i">Aelius Pertinax</hi>, sur le débordement de ces Faquins, qui prostituaient des femmes nues sur leurs théâtres au rapport de <hi rend="i">Macrobe</hi>.</p>
+      <p >        <hi rend="i">Clément Alexandrin</hi>, natif d’Athènes, outre les huit livres, qu’il a fait des couleurs de l’Eglise, et des traditions Apostoliques. Il a laissé une Epitre au rapport de <hi rend="i">Tristhemius</hi>par laquelle il blâme grandement les vices des Romains et des Bouffons.</p>
+      <p ><hi rend="i">Saint Grégoire</hi> le grand, Evêque de Neocésarée en la Province de Pont, surnommé <hi rend="i">Thaumaturge</hi>pour l’excellence de ses vertus, en une
+        <pb n="13" /> opuscule de la foi de l’Eglise, blâme l’Empereur <hi rend="i">Decius</hi>, de s’adonner aux jeux scéniques.</p>
+      <p ><hi rend="i">Eusebius</hi>, Evêque de Césarée en Palestine, en l’une de ses œuvres de la foi des Evêques, reproche qu’il y en avait parmi eux, qui ressemblaient aux Comiques, qui avaient l’apparence belle, et le dedans corrompu des vices de l’arianisme ;</p>
+      <p >Le grand <hi rend="i">Saint Basile</hi>, Evêque de Césarée en Cappadoce, en son traité des gestes de l’Eglise, écrivant à <hi rend="i">Constantin</hi> second, le réprime de ce qu’il permet l’insolence des Histrions, et des Tragiques.</p>
+      <p> Le Pape <hi rend="i">Damasius</hi> <note resp="editor" place="bottom"> [NDE] Le texte donne Tamasius.</note> en ses poèmes latins, parle des Mimes avec beaucoup de mépris.</p>
+      <p><hi rend="i">Saint Epiphane</hi>, Evêque de<pb n="14"/>Constance, dans son <hi rend="i">Panarium</hi> se plaint de l’Empereur <hi rend="i">Jovinien</hi>, de ce qu’il autorisait le vice des Comédiens, qui gâtaient par leurs lascivetés les bonnes mœurs d’un chacun ;</p>
+      <p >        <hi rend="i">Saint Ambroise</hi>, Evêque de Milan, écrivant à sa sœur sur la préparation de la Messe, l’exhorte de s’abstenir de la vue des jeux publics, de peur d’être polluée par leurs actions.</p>
+      <p > <hi rend="i">S. Jean Chrysostome</hi>, Patriarche de Constantinople, en son étude du droit, défend d’admettre aucuns<note place="bottom" resp="editor"> [NDE] aucuns = certains.</note> plaisanteurs dans les Villes, pour le scandale qu’ils causaient, et en une Epitre à l’Empereur <hi rend="i">Honorius</hi>, se réjouit de ce qu’il les avait chassés de l’Empire, pour leurs dépravations.</p>
+      <p ><hi rend="i">S. Augustin</hi>, Evêque d’Hippone<pb n="15" /> en Afrique, étant envoyé à Carthage pour étudier, excella en toutes sortes de sciences, et enseignant la Rhétorique, écrivit une lettre à un sien Compagnon, selon  <hi rend="i">Eugenius</hi>, de fuir les façons des Bouffons :</p>
+      <p><hi rend="i">S. Cyprien</hi>, Evêque de Carthage, un des plus excellents Philosophes de son temps, et grand Orateur, en sa seconde Epitre de l’humilité des Chrétiens, fait mention d’un certain Comique, <hi rend="i">Neoptolomeus</hi>, qui avait infecté l’Empereur <hi rend="i">Valerius</hi>, par ses postures lascives ; bref, ils étaient convaincus de toutes sortes de crimes par les sacrés canons et décrets ; même le Pape <hi rend="i">Gesalius</hi> leur fit défendre la communion des Sacrements, comme nous l’enseigne le docte <hi rend="i">Rupert</hi>, en ses décrétales.<pb n="16"/> Mais si nous considérons en quel point est aujourd’hui la Comédie, nous trouverons qu’elle n’a aucune marque de l’antiquité, et ceux qui la professent, témoignent par la probité de leur vie, et par la représentation de leurs actions, qu’elle est entièrement dépouillée de toutes les qualités, qui pouvaient la noter d’infamie, et son mérite, l’ayant montée au plus haut degré de sa perfection, s’est mise dans une telle considération, auprès des Rois et des Princes, qu’elle leur tient lieu d’une sérieuse occupation ; Aussi se fait-elle avec tant de modestie, par l’innocence de ses poèmes, qu’elle dépite l’envie d’en offenser la réputation ; Je dirai de plus qu’elle est tellement Civile en ses diversités, <pb n="17"/> qu’elle contraint les plus Religieux de lui donner des louanges, et chacun confesse que la force de ses charmes est si grande, qu’il faut être privé de sens commun pour en choquer la bonne odeur ;</p>
+      <p >Si l’on regarde le nombre de ses qualités, on verra, que c’est le tableau des plus agréables passions, la parfaite image de la vie humaine, la vraie histoire parlante, la pure philosophie visible, l’entretien des bons esprits, le trône de la vertu, l’exemple de l’inconstance des choses, l’ennemie de l’ignorance, le modèle de l’Orateur, le raccourci de l’éloquence, le Cabinet des plus riches pensées, le trésor de la moralité, le miroir de la justice, le magasin de la fable ; bref j’en dis peu pour n’en pouvoir dire<pb n="18" /> assez, et j’ai de trop faibles Eloges, pour la moindre de ses parties :</p>
+      <p >Et quoique ce Pédant l’attaque par les plus rudes invectives de sa haine, elle est un puissant rocher, contre l’orage de ses malédictions, une tour, pour résister aux écueils de sa médisance, une muraille de bronze contre ses calomnies, un boulevard pour s’opposer à ses accusations, un bouclier contre ses impostures, un rempart capable de dissiper la foudre de passion, elle est enfin à l’épreuve de ses machines, et conservera sa renommée malgré l’effort de ses intentions. </p>
+        <p >Ce Sophiste prétendu, s’efforce de persuader au Vulgaire, que ceux de la Religion réformée, ne souffrent aucunement ce divertissement parmi eux, en quoi il montre<pb n="19" /> une grande ignorance ; vu qu’il n’y a Royaume, Province, Contrée ou Ville, où ils ne soient bien reçus et approuvés de ceux qui ont l’autorité souveraine ; en Angleterre le Roi en entretient ordinairement deux troupes à ses gages, qui le suivent quand il va à ses progrès<note resp="editor" place="bottom"> [NDE] Quand la cour se déplace. A remarquer que ce mot se dit particulierement d'une suite de conquêtes, d'une suite d'avantages remportez à la guerre (Dictionnaire de l'Académie, 1694)</note>, et où j’ai vu même des Ministres assister à leur représentations, entre autre un nommé <hi rend="i">Joannes Davenantius</hi> Professeur de l’Académie Royale, et un certain <hi rend="i">Vardus</hi> Préfet de la même Académie, qui tous deux avaient été députés au Synode de Dordrecht, comme des plus notables du Royaume :</p>
+      <p >Dans la Hollande j’ai toujours vu des lieux érigés pour cet exercice, et particulièrement à Amsterdam, 
+        <pb n="20" /> où s’est fait depuis peu le plus magnifique Théâtre de l’Europe, pour la Jeunesse de la Ville.</p>
+      <p >A La Haye où son Altesse le Prince d’Orange tient sa Cour, il y a une troupe de Français qui représentent quatre fois la semaine, et où la plupart de la Noblesse, tant de l’une que de l’autre Religion assiste, sans aucun scrupule.</p>
+      <p >  A Rotterdam il y a un lieu destiné, où les jeunes hommes s’exercent, et donne l’argent aux pauvres Orphelins, si quelqu’un me dit que c’est pour une bonne œuvre, je réponds que le prétexte n’efface pas le vice s’il y en a. </p>
+      <p >  Dans toutes les meilleures Villes, excepté celles où les Ministres gouvernent absolument, on y représente la Comédie sans difficulté.
+        <pb n="21" /> </p>
+        <p> Mais sans nous écarter hors la France, voyons dans les villes où Messieurs de la Religion sont, ou ont été en quelque autorité, premièrement à Saumur, où est l’Académie des étrangers, avant sa réduction<note place="bottom" resp="editor"> [NDE] Sans doute avec le sens d'une reconquête d'un pays ou ville remis en l'obeissance du Prince (Nicot).</note>, j’ai vu diverses représentations, où le Sieur du Plessis Gouverneur du Château assistait, et le Sieur Bouchereau Ministre.</p>
+      <p > A Montauban trois ans avant sa prise, il se joua une histoire par les Clercs de la ville, qui avait été tirée du vieil Testament appelée <hi rend="i">l’Assyrien de Perse</hi>, où étaient contenus plusieurs beaux incidents trop longs à déduire, le Sieur Charnier un des plus doctes de son temps, et qui a fort écrit, fit l’avant-propos de ce poème. </p>
+        <p>A Nîmes, où il y a école de<pb n="22"/> Théologie, pour ceux qui étudient au Ministère, il se représenta devant le Sieur d’Aubais et le Baron de la Casaigne Consuls, une excellente Tragédie des conquêtes de <hi rend="i">Pyrrus</hi><note resp="editor" place="bottom"> [NDE] Le texte donne "Pirus".</note>, où les quatre principaux Ministres, à savoir le Faucher grand Controversiste, le Sieur Petit excellent en la langue Grecque, Pérol autrefois Jésuite, grand Philosophe, et le Sieur Roussel qui fut Ministre de Monseigneur de Rohan, assistaient avec quantité de leurs amis :</p>
+      <p> A Montpellier pendant mes études il se fit quelques récréations entre lesquelles il se joua deux pièces, l’une tirée de <hi rend="i">Joseph</hi>, et l’autre de l’histoire de <hi rend="i">Perse</hi>, où plusieurs Ministres des lieux circonvoisins furent, et les deux Ministres de la<pb n="23"/> ville, qui étaient le Faucheur à présent Pasteur en l’Eglise de Charenton et le jeune Gigort.</p>
+      <p> A La Rochelle pendant la Mairie du Sieur des Herbiers, se représenta une Tragi-comédie tirée de l’histoire Romaine, dans le Collège où avaient été autrefois les Prêtres de <hi rend="i">Sainte Marguerite</hi>, où il y avait grand nombre de Spectateurs, et plusieurs Ministres, entre lesquels je reconnus le Sieur Salbert, La Chapelière, le Blanc, et Bonis.</p>
+      <p >A Castres on joua une Comédie intitulée le <hi rend="i">Jugement de Midas</hi>, devant le Duc de Rohan, où le Sieur du Mont et autres Ministres assistèrent :</p>
+      <p> Je sais bien que quelqu’un me dira, que les poèmes que ceux de la Religion représentent, sont<pb n="24"/> examinés par les Pasteurs ou par<note place="bottom" resp="editor"> [NDE] Le texte donne "de".</note>ceux qui ont charge de l’Eglise ; et que lorsqu’il s’y rencontre quelque chose contre la gloire de Dieu, ou les bonnes mœurs, on ne les souffre pas représenter. Mais quant au regard des Comédiens qui n’ont point de Compétiteurs ni de personnes pour corriger la liberté de leurs pièces, ils représentent sans considération d’offenser la vertu de leurs Auditeurs ; A quoi je réplique ; qu’il n’y a point de ville bien policée, où leurs Comédies ne passent par la coupelle des Magistrats, et où il ne leur soit défendu de n’exposer aucun sujet sur le Théâtre, qui puisse choquer l’honneur de Dieu, le service du Roi, et la réputation du prochain.</p>
+      <p > Si l’on m’objecte que dans la <pb n="25" /> farce il y a des mots un peu libres, et de mauvaise édification qui fait que l’on condamne la Comédie, je réponds que c’est être ignorant Logicien, en ce que l’une n’est pas de l’essence de l’autre, et qu’étant deux actions différentes et séparées elles n’ont aucune analogie entre elles, et que tel aimera l’une, qui haïra l’autre, outre que s’il se dit quelques rencontres ou pointes d’esprit qui soient facétieuses, les termes en sont ambigus, et n’ont aucun sens qui puisse blesser les chastes oreilles ; Ce n’est pas que je ne souhaitasse qu’elle fût abolie, pour le peu de satisfaction que les honnêtes gens y reçoivent, cela obligerait au moins la plupart de nos Prédicateurs et les Ministres de ne quitter pas si souvent <pb n="26" /> le texte de leur Evangile, pour nous étourdir la tête de telles matières, et parler avec plus de modération de la Comédie, et de ceux qui y assistent. </p>
+        <p > Je suis honteux que ce Révérend Père reproche aux Comédiens, qu’ils emploient toutes sortes de ruses et d’inventions, pour suspendre nos esprits, et que par de subtiles amorces ils chatouillent nos sens en telle façon, que les facultés de notre âme en demeurent<note resp="editor" place="bottom"> [NDE] Le texte donne demeurèrent</note> offensées ; Je ne sais d’ou il a tiré cette doctrine, et de qui elle est autorisée si c’est de son caprice, ou de quelque esprit aussi blessé de l’imaginative que lui ; car je suis étonné qu’une telle faiblesse soit sortie de la pensée d’un Religieux ; Je crois que le plus grand charme<pb n="27" />par lequel ils tendent à captiver et arrêter les Curieux, c’est par le seul mérite de leurs poèmes, et non par aucune autre considération.</p>
+      <p > Pour les actions dissolues dont il les accuse, chacun aussi bien que moi les peut justifier, et dire avec vérité, que leurs gestes et déportements, se font avec autant de retenue et de discrétion que le sujet le saurait désirer. </p>
+      <p > Pour les imitations impudiques dont il s’efforce de les convaincre, je puis témoigner que pendant trois mois que je les ai vus  que je n’ai jamais remarqué aucune chose qui approchât de ce vice, et que leurs actions ont toujours été accompagnées d’une grande modestie.</p>
+      <p > Quant aux crimes dont il les<pb n="28" />blâme sans cause, il devrait s’informer mieux de l’état de leur vie, pour en juger avec plus d’équité, et retenir ce torrent d’injures dont il grossit journellement ses prédications, s’il avait été aussi soigneux d’écouter la Comédie pour en connaître la fonction, qu’il a été prompt à la condamner, il aurait vu qu’elle ne produit rien qui puisse blesser la vertu des assistants, ni jeter de mauvaises semences en leurs âmes. Mais il ressemble à ces estomacs indigestes qui rejettent ce qu’ils ne peuvent digérer, ou pour mieux dire à ces mouches cantharides qui sucent le venin, d’où les abeilles tirent leur miel.</p>
+      <p >Il prétend prouver en alléguant l’antiquité, que les Comédiens<pb n="29"/> sont notés d’infamie, selon les lois et constitutions Ecclésiastiques ; j’avoue avec lui que la Comédie à sa naissance, a été condamnée de l’Eglise primitive, et des Pères Orthodoxes, en ce qu’elle était une fondrière de tous vices : Mais comme les temps perfectionnent les hommes, et changent de mal en bien l’être des choses, elle s’est tellement rendue agréable par la pureté de son innocence, qu’il ne lui reste rien pour ajouter à son mérite, et qu’autant qu’elle a été pernicieuse en son principe, elle s’est montrée recommandable en la fleur de son printemps.  </p>
+        <p> Outre que la question ayant été depuis peu réveillée dans cet auguste Parlement de Paris, touchant la réception de Laffémas <note place="bottom">[NDE] Le texte donne "la Fémas".</note>que l’on <pb n="30"/> accusait de l’avoir exercée, (sans preuve toutefois), où les plus beaux esprits de la Cour assistèrent, et nombre de Docteurs en Théologie pour vider ce différend ; il fut conclu et arrêté, après les diverses contestations d’une part et de l’autre,<note resp="editor" place="bottom"> [NDE] Le texte a "et" ici.</note> que la Comédie n’ayant plus rien du Paganisme et de contraire aux bonnes mœurs, elle pouvait être reçue entre les honnêtes récréations, puis même que le Concile de Trente ne l’avait décidée que comme action indifférente ; Et que quant au regard dudit Sieur de  Laffémas soit qu’il l’eût professée ou non, il jouirait pleinement de la charge de Lieutenant Civil, avec injonction et défense de ne jamais opposer ce reproche à ceux qui voudraient être admis<pb n="31"/> aux offices de judicature, comme superflu et de nul effet ; Jugez par là si ce Docteur particulier, a raison de vouloir contester une proposition que les plus savants de la Sorbonne ont définie. </p>
+      <p >Ce qui m’étonne d’avantage, c’est de voir que celui, qui devrait avoir une domination de raison, sur les impétueux mouvements de son esprit, le laisse emporter à des licences qui sont non seulement indignes d’un Chrétien, mais même d’un Athée, que celui (dis-je) qui doit donner un calme et une tranquillité à la partie imaginative de son âme, et régler ses écrits à la dignité de sa vocation, s’altère l’esprit contre une chose que tout le monde approuve ; Je suis fâché qu’un Religieux qui doit <pb n="32" />
+         être le miroir de soi-même pour servir d’exemple à la piété, ne résigne plutôt les affections de son cœur à des actions saintes, qu’à se jeter sur les invectives.</p>
+      <p > Quelle pénitence je vous prie peut-il imposer aux médisants, puisque lui qui est le patron, sur lequel le pénitent se moule, se trouve le premier coupable ; ou qui sera le plus criminel, lui qui vise toutes ses pensées à ce point, ou l’autre qui l’imite. Mais ce qui le rend encore d’autant plus blâmable, c’est de vouloir choquer une profession, dont il ignore l’effet et la cause.</p>
+      <p>Je veux qu’il y eût<note place="bottom" resp="editor"> [NDE] On écrirait "ait".</note> quelque mal à la voir, ou à la représenter, je demande si c’est par le moyen de ses injures qu’il espère l’abolir, et nous priver de ce divertissement, ou si<pb n="33"/> c’est par la chaine de ses calomnies qu’il croit garrotter nos consciences, s’il était aussi soigneux de lire S. Cyprien qu’à médire de ceux qui la voient, il aurait appris que le devoir d’un vrai Religieux, doit plutôt s’élever à la méditation de sa vie, qu’à chercher de quoi épiloguer sur celle d’autrui. Saint <hi rend="i">Hilaire</hi> parlant de ceux qui ont l’administration de la chaire, dit qu’ils ne doivent nullement prostituer l’autorité de leur vocation, à l’extravagance de leur passion ; d’autant que comme dit Saint Jérôme, « <quote>Correctio lenis hominem suaviter instruit, nimis aspera vero deteriorem facit</quote> », le pécheur ne se convertit que par la voix de la douceur, et que le piquer par paroles scandaleuses, <pb n="34"/> c’est le pousser dans le crime plus avant.</p>
+      <p> S’il prend la peine de lire <hi rend="i">Theodoret</hi>, il verra que les fautes, lesquelles sont réprimées avec sévérité se rengrègent<note resp="editor" place="bottom"> [NDE] Augmentent, en parlant d'un mal.</note> d’autant plus que l’on croit les châtier ; la liberté qui nous est aussi naturelle que la vie ne peut souffrir de contrainte, dit S. Augustin ; un peu de douceur doit servir au vice comme un appât pour en amoindrir le cours dit <hi rend="i">Philon</hi> le Juif ; qu’il voie avec quelle méthode, les anciens Docteurs ont converti les Pélagiens, les Donatistes, les Ariens et Albigeois, et autres qui s’adonnaient au vice, S. <hi rend="i">Exuper</hi> dit qu’une réprimande modeste pour les mœurs, est une correction honnête.</p>
+      <p> Je souhaiterais pour sa gloire<pb n="35"/> qu’il fût Imitateur d’un S. Paul, qui attirait un chacun par l’humilité de son exemple, et que n’étant pas si violent en ses prédications, il pût nous inspirer de salutaires pensées, ceux qui comme lui font profession de la vie privée, doivent être d’une qualité tempérée, modeste, courtoise, humble, affable, débonnaire, et non d’une humeur vicieuse, aigre, bouillante et prompte, afin que le tempérament de leur ardeur, n’excite leur passion au-delà de leur devoir. </p>
+      <p > Qu’il considère combien la Calomnie est préjudiciable à la réputation des hommes, et comme elle opprime la vertu des plus justes actions, que sa rigueur a troublé les plus grands des siècles passés, qu’elle a décoché ses traits contre les plus<pb n="36" /> vertueux, qu’elle a été le fusil de la division des choses, qu’elle a ruiné l’harmonie de l’amitié des hommes, qu’elle a pris l’innocence à partie, qu’elle a essayé de corrompre toute la terre, bref qu’elle n’a rien exempté du joug de son pouvoir, puisque Dieu même a subi la force de sa tyrannie ; par le blasphème des Juifs, qui l’appelaient séducteur, corrupteur des lois, ennemi de l’Etat, un séditieux, un larron, et autres impiétés opposées diamétralement à l’éclat de ses belles vertus.</p>
+      <p> De quelle impétuosité n’a-t-elle point heurté les premiers Chrétiens, quand les Païens les appelaient secte pernicieuse, ennemis des Dieux, des Empereurs, des mœurs, et enfin de toute la nature <pb n="37"/> comme témoigne Tacite en son livre des mœurs, et Suetonius en la vie de Néron. Mais pour parler du malheur qu’a causé la médisance ; Voyons le fond de l’antiquité, nous trouverons un Moïse quitter la Cour de Pharaon pour aller aux déserts de Madian, l’emprisonnement d’un Joseph, un Prophète David chassé de la présence de Saül, un Daniel jeté dans la fosse aux lions, un peuple Hébreu à la veille de sa perte, une Suzanne sur le point d’être lapidée ; Bref il n’y a peste plus dangereuse que celle de la calomnie, c’est pourquoi le Prophète royal, au Psaume septante et deux, dit que le Détracteur échelle<note place="bottom" resp="editor"> [NDE] échelle = escalade.</note> le Ciel pour y vomir le venin de sa médisance, « <quote>posuit in coelum os suum et <pb n="38"/> lingua ejus transivit in terra</quote> »  : Je ne trouve pas étrange de quoi les Calomniateurs dressent des assauts continuels, contre ceux qui sont accusés de quelques imperfections, puisque la pointe de leur langue s’attaque aux plus justes du monde ; plût à Dieu que ce vice n’eût aucune racine dans nos cœurs afin que la charité se trouvant en son lustre, l’amitié pût avoir son règne, et la paix entrant en son Empire, la concorde y trouvât le trône de sa félicité. </p>
+      <p > La langue dit le docte Alciatus en son traité <hi rend="i">De Jure Civili</hi>, étant le plus bel ornement dont Dieu ait enrichi notre nature, doit s’appliquer plutôt à la louange qu’au blâme. Si l’on me dit que c’est la verge de laquelle l’Eglise se sert<pb n="39" /> pour appeler le pécheur à repentance, je réponds qu’il y a différence, entre corriger le vice des hommes, et offenser l’honneur du prochain, comme fait le Père en tous les Chapitres de son libelle ; Car je crois qu’il n’y a point d’endroits dans les imprécations du Sieur de S. Amant où sa plume n’ait tiré quelque trait d’invective, pour forger des armes contre les plaisirs de la vie ; Et immoler la Comédie sur l’autel de sa passion.  </p>
+      <p > Je dirai de plus, qu’il n’y a point d’impostures que sa langue n’ait trouvé dans l’égout de son papier journalier, pour essayer de ruiner la réputation de ceux qui la professent, et comme la médisance est la plus belle partie de son âme, ses injures sont aussi le plus riche<pb n="40" />ornement de son esprit, et pour dire en un mot de tous les vices d’un Calomniateur, ce Religieux en fait la grandeur de sa vertu et la force de sa Rhétorique.</p>
+      <p>Il croyait éblouir le Vulgaire par le fastueux titre de son livret, et rencontrer en nous des cœurs de cire, pour nous imprimer facilement le sceau de ses impertinences ; Mais n’ayant été qu’un mépris de sa réputation, et une risée de ceux qui l’ont une fois lu. Il n’a trouvé de crédit que parmi les beurrières pour peser leur marchandise, et le libraire qui l’a imprimé s’est trompé, en ce qu’il l’a plutôt pris au poids de la main qu’au jugement. Aussi n’est-il rempli que de faussetés, calomnies, bouffonneries, et autres matières de pareille étoffe. <pb n="41"/> C’est un discours rampant et vide de sens, plein d’autant de vanité que son auteur a de présomption et qui n’a rien qui soit bastant<note resp="editor" place="bottom"> [NDE] bastant = suffisant (Dictionnaire de l'Académie, 1694).</note> d’ébranler le moindre esprit, ses raisons sont si mal rangées, ses paroles si confuses, et ses termes si grossiers, qu’ils tiennent de la froideur de son tempérament, et de la qualité de son jugement ; Bref, il aurait besoin de se faire relever de la folie, comme d’un acte de sa Minorité, ou faire un voyage au pays d’Anticyre pour se purger le cerveau d’un peu d’ellébore<note place="bottom" resp="editor"> [NDE] Plante, originaire de Grèce, considérée comme pouvant traiter la folie ou l'imbécillité.</note>. </p>
+      <p >Je vous puis assurer que si le Philosophe Zénon eut autrefois le sceptre d’or des Illyriens pour s’être exercé à la louange d’un chacun, que notre bon Père Augustin ne peut attendre qu’une couronne<pb n="42"/> de chardon et un sceptre de foin, pour régir l’Empire des Gymnosophistes.  </p>
+      <p >Je le conjure en finissant cette lettre, de se servir en tous ses discours des armes de la Déesse Adrastie, que les anciens figuraient un mors dans la main, enseignant par cette figure emblématique, qu’il est nécessaire que les Détracteurs donnent un frein à leur langue, quand ils se jettent trop avant dans l’excès de la médisance : Cette bonne Déesse dit 
+          <hi rend="i">Artemidore</hi>, fut adorée par les Egyptiens, comme étant celle qui prenait la défense des Innocents, pour les venger de la persécution des Calomniateurs.</p>
+      <label>
+        FIN
+      </label>
+      </div>
     </body>
   </text>
 </TEI>
