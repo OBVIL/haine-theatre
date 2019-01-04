@@ -2,125 +2,575 @@
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pontas_dictionnaire-cas-conscience_1724.pdf" xml:lang="fr">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Dictionnaire de cas de conscience</title>
-  <author key="Pontas, Jean (16??-17??)">Jean Pontas</author>
-  <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
-</titleStmt>
-<editionStmt>
-<edition>OBVIL</edition>
-<respStmt>
-<name>François Lecercle</name>
-<resp>Responsable d’édition</resp>
-</respStmt>
-<respStmt>
-<name>Clotilde Thouret</name>
-<resp>Responsable d’édition</resp>
-</respStmt>
-</editionStmt>
-<publicationStmt>
-<publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
-<date when="2018"/>
-  <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/pontas_dictionnaire-cas-conscience_1724</idno>
-<availability status="restricted">
-<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-<p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
-<p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
-<p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
-<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
-</licence>
-</availability>
-</publicationStmt>
-<sourceDesc>
-<bibl>
-  <author>Jean Pontas</author>, 
-  <title>Comédie <hi rend="i">in</hi> Dictionnaire de cas de conscience</title>, 
-<pubPlace>Paris</pubPlace>, 
-  <publisher>P.-A. Le Mercier</publisher>, 
-  <date>1715, rééd. 1724</date>, 
-  <biblScope>vol. 1, p. 739-750</biblScope>
-</bibl>
-</sourceDesc>
-</fileDesc>
-<profileDesc>
-<creation>
-<date when="1715"/>
-</creation>
-<langUsage>
-<language ident="fr"/>
-</langUsage>
-</profileDesc>
-</teiHeader>
-<text>
-<body>
-<div>
-  <head rend="small">[FRONTISPICE]</head>
-  <p rend="center"><hi rend="uc">dictionaire<lb/> de cas<lb/> de conscience,<lb/> ou<lb/> decisions<lb/> des plus<lb/> considerables<lb/> difficultez</hi><lb/> touchant la Morale et la Discipline Eclesiastique.<lb/><hi rend="sc">tirees de l'ecriture, des conciles, des decretales</hi><lb/> des Papes, des Pères et des plus célèbres Théologiens et Canonistes.<lb/><hi rend="i">Par Messire</hi> <hi rend="sc">Jean Pontas,</hi> <hi rend="i">Prêtre, Docteur en Droit-Canon de la Faculte<lb/> de Paris, et Soupenitencier de l'Eglise de Paris</hi><lb/><hi rend="sc">tome premier</hi><lb/>[...]<lb/>Seconde Edition, revûë et augmentée par l'Auteur.<lb/><lb/><hi rend="uc">a paris,</hi><lb/>Chez <hi rend="sc">pierre- augustin le mercier</hi>, rue saint Jacques, à saint Ambroise ; <hi rend="sc">simon langlois</hi>, rue saint Etienne d'Egrès ; <hi rend="sc">jacques josse</hi>, rue saint Jacques, à la Colombe Royale ; <hi rend="sc">saugrain</hi>, l'ainé, Quay des Augustins, à la Fleur-de-Lys ; <hi rend="sc">jacques quillau</hi>, rue Galande, proche de la rue du Fouare ; <hi rend="sc">louis-anne sevestre</hi>, sur le Pont saint Michel ; <hi rend="sc">jacques vincent</hi>, rue saint Severin, à l'Ange.<lb/>M DCC XXIV<lb/><hi rend="sc">avec approbation, et privilege du roy.</hi></p> </div>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pontas_dictionnaire-cas-conscience_1724.pdf"
+  xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dictionnaire de cas de conscience</title>
+        <author key="Pontas, Jean (16??-17??)">Jean Pontas</author>
+        <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>François Lecercle</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Clotilde Thouret</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/pontas_dictionnaire-cas-conscience_1724</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
+              « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons : «
+              Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC
+              BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures. La
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Jean Pontas</author>, <title>Comédie <hi rend="i">in</hi> Dictionnaire de cas de
+            conscience</title>, <pubPlace>Paris</pubPlace>, <publisher>P.-A. Le Mercier</publisher>,
+            <date>1715, rééd. 1724</date>, <biblScope>vol. 1, p. 739-750</biblScope>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1715"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head rend="small">[FRONTISPICE]</head>
+        <p rend="center"><hi rend="uc">dictionaire<lb/> de cas<lb/> de conscience,<lb/> ou<lb/>
+            decisions<lb/> des plus<lb/> considerables<lb/> difficultez</hi><lb/> touchant la Morale
+          et la Discipline Eclesiastique.<lb/><hi rend="sc">tirees de l'ecriture, des conciles, des
+            decretales</hi><lb/> des Papes, des Pères et des plus célèbres Théologiens et
+            Canonistes.<lb/><hi rend="i">Par Messire</hi>
+          <hi rend="sc">Jean Pontas,</hi>
+          <hi rend="i">Prêtre, Docteur en Droit-Canon de la Faculte<lb/> de Paris, et Soupenitencier
+            de l'Eglise de Paris</hi><lb/><hi rend="sc">tome premier</hi><lb/>[...]<lb/>Seconde
+          Edition, revûë et augmentée par l'Auteur.<lb/><lb/><hi rend="uc">a paris,</hi><lb/>Chez
+            <hi rend="sc">pierre- augustin le mercier</hi>, rue saint Jacques, à saint Ambroise ;
+            <hi rend="sc">simon langlois</hi>, rue saint Etienne d'Egrès ; <hi rend="sc">jacques
+            josse</hi>, rue saint Jacques, à la Colombe Royale ; <hi rend="sc">saugrain</hi>,
+          l'ainé, Quay des Augustins, à la Fleur-de-Lys ; <hi rend="sc">jacques quillau</hi>, rue
+          Galande, proche de la rue du Fouare ; <hi rend="sc">louis-anne sevestre</hi>, sur le Pont
+          saint Michel ; <hi rend="sc">jacques vincent</hi>, rue saint Severin, à l'Ange.<lb/>M DCC
+            XXIV<lb/><hi rend="sc">avec approbation, et privilege du roy.</hi></p>
+      </div>
 
-  <div type="article">
-  <pb n="739-740"/><head>COMEDIE.</head>
-    <p>La <hi rend="i">Comédie</hi>, à parler régulièrement, est un Poème Dramatique qui représente une action commune et plaisante, dont la fin est gaie, qui d’une manière ingénieuse, corrige les défauts des hommes ; et divertit par la peinture naïve qu’elle fait de leurs différents caractères. Telles sont celles d’Aristophane, de Plaute et de Térence. « <quote>Comœdia drama est<seg type="exquote">, dit Hofman,<note place="margin" resp="author">Hofman. v. <hi rend="i">Comœdia</hi>.</note></seg>  civiles et privatas actiones exitu læto repræsentans.</quote> » Ce mot pris dans un sens général, signifie toute sorte de Poème dramatique, soit Comédie Pastorale ou Tragédie. De sorte qu’on appelle <hi rend="i">Comédien</hi>, celui qui monte sur un théâtre et qui par le Rôle, dont il s’est chargé, aide aux autres à y représenter publiquement quelque Pièce dramatique, afin de divertir le peuple, et de gagner par là de quoi subsister. C’est donc avec raison que le Concile de Salzbourg, tenu en 1310.<note place="margin" resp="author"><hi rend="i">Conc. Salzbur. Can.</hi> 3.</note> les appelle des bouffons, <hi rend="i">bufones et gailhardos</hi>.</p>
-<p>Il est très certain, que la Comédie tire son origine des Païens, aussi bien que son progrès, comme le même Hofman le prouve fort amplement.</p>
-<p>On prétend que la Comédie Française a succédé à la Confrérie de la Passion, érigée environ l’an 1400. dans l’Eglise de la Trinité de Paris, et confirmée par Lettres <pb n="741-742"/>Patentes en 1402. dont les Confrères représentaient en certains jours et en certains lieux particuliers, plusieurs Mystères de la Religion, tels que sont ceux de la Passion et de la Résurrection de Notre Seigneur, et les Mystères de quelques Saints, et où le Roi Charles VI. voulut quelquefois assister. La Salle, où ils représentaient ces Pièces, ayant été destinée pour le logement des pauvres, par Arrêt du Parlement en 1545. ils achetèrent ensuite la place et les masures de l’ancien Hôtel de Bourgogne, où ils bâtirent et y élevèrent un théâtre, pour y continuer leurs représentations qui dégénérèrent et devinrent bientôt profanes : de sorte que le Parlement leur défendit par un Arrêt, rendu en 1548. de continuer à représenter le Mystère de la Passion et autres sacrés Mystères : Ils cessèrent donc leurs représentations ; mais au lieu d’en demeurer là, ils louèrent aux Comédiens Français et Italiens, leur théâtre et ce qui en dépendait, à l’exception d’une loge qu’ils s’y réservèrent : et enfin en 1676. le revenu de cette Confrérie fut uni à l’Hôpital Général.</p>
-<p>Plusieurs troupes de différents Comédiens s’étant établis au Marais et ailleurs, Louis XIV. par un simple Brevet les remit tous en 1680. en une seule troupe : et c’est là l’unique titre de l’établissement des Comédiens d’aujourd’hui, qui n’a pas été suivi de Lettres Patentes ; parce qu’ils ne font aucun corps dans l’Etat ; d’où ils peuvent être chassés, comme le furent par saint Louis, ceux qui se trouvèrent alors dans le Royaume, où ils ne sont tolérés encore à présent que par des raisons de pure politique, comme d’autres maux y sont soufferts, aussi bien qu’à Rome même et ailleurs.</p>
-    <p>Au reste on va voir dans les décisions suivantes quels sont les maux que produit la Comédie, et combien par conséquent elle est condamnable, selon le jugement même des anciens Romains, qui par leurs Lois mettaient les Comédiens au rang des personnes infâmes. « <quote>Prætoris verba dicunt<seg type="exquote">, ce sont les termes d’une Loi du Digeste,<note place="margin" resp="author"><hi rend="i">Leg. prætoris.</hi> 1. <hi rend="i">ff. de his qui notantur infamias. l.</hi> 3. <hi rend="i">tit.</hi> 2.</note></seg> infamia notatur qui.… artis Ludicræ pronuntiandi-ve causa in scænam prodierit.</quote> » Lesquelles paroles sont plus amplement expliquées dans la Loi suivante<note place="margin" resp="author"><hi rend="i">l. quod ait.</hi> 2. <hi rend="i">ibid.</hi> §. ait. prætor.</note> à la condamnation et à la honte de tous ceux qui montent sur le théâtre pour gagner de l’argent. Dès l’an 314. le Concile d’Arles déclara excommuniés ces sortes de gens, « <quote>de Theatricis <seg type="exquote">, disent les Pères de ce Concile,</seg> et ipsos placuit quamdiu agunt, à communione separari</quote> ». Le Concile d’Elvire<note place="margin" resp="author"><hi rend="i">Conc. Arelat. can.</hi> 5.</note> tenu en 305. priva pendant trois ans de la Communion, ceux qui prêtaient leurs habits, pour servir aux spectacles : « <quote>Matronæ, vel earum mariti, ut vestimenta<note place="margin" resp="author"><hi rend="i">Conc. Eliberit. can.</hi> 57.</note> sua ad ornandam seculariter pompam, non dent : et si fecerint, triennio abstineantur.</quote> » Ce sont les termes de ce Concile ; et il n’y a pas lieu de s’étonner de cette ancienne sévérité de l’Eglise à l’égard des Comédiens, et de ceux qui assistaient, ou qui participaient à leurs spectacles ; puisque les Païens mêmes, comme Sénèque, ont regardé les Comédies, comme la chose la plus contraire aux bonnes mœurs : « <quote>Nihil tam moribus alienum<seg type="exquote">, dit ce Philosophe,</seg> quam in spectaculo detineri »</quote> ; et qu’il y eut même quelques Empereurs, du nombre desquels est Domitien, qui chassèrent de Rome tous les Comédiens, comme autant de gens, dont il regardait la profession, comme pernicieuse au bon Gouvernement de ses Etats : en quoi certainement il ne se trompait pas dans cette pensée. Saint Chrysostome en son Homélie soixante-neuvième, sur l’Evangile de saint Mathieu, où il invective contre la Comédie, assure qu’elle est plutôt un mal réel et véritable, qu’un divertissement : « <quote>Quicquid ibi geritur non est oblectatio, sed pernicies.</quote> » Cela étant ainsi, nous pouvons donc assurer, comme une chose constante, que c’est avec raison que les Comédiens, et tous autres gens de cette trempe, dont l’emploi est d’exciter ou d’entretenir l’amour mondain et profane, sont privés de la participation des choses saintes ; et il n’est pas moins certain, que l’on ne peut sans péché assister à leurs spectacles.</p>
-<div type="chapter">
-  <pb n="741"/><head>CAS PREMIER.</head>
-<p>Aristobule, homme de qualité, et Marianne sa femme, ont coutume d’assister à la Comédie et à l’Opéra. Leur Confesseur veut les obliger à s’en abstenir entièrement, et leur déclare qu’il ne leur donnera pas l’absolution, s’ils ne lui promettent de n’y plus aller. Aristobule s’excuse sur ce que c’est une coutume si générale parmi les gens de qualité, qu’il ne peut refuser à ses amis de les y accompagner, sans leur paraître ridicule et sans leur être un sujet de risée, ou de mépris. Marianne s’en excuse aussi <pb n="742"/>par la même raison, et parce qu’elle ne peut se dispenser d’obéir à son mari, qui veut qu’elle y aille avec lui, ou avec d’autres Dames de qualité. Ils ajoutent tous deux, qu’ils n’y vont que dans le seul dessein de se récréer et de se délasser l’esprit par un divertissement, qui leur paraît innocent : les Comédies d’aujourd’hui étant beaucoup châtiées et beaucoup plus sérieuses et plus honnêtes, que ne l’étaient les pièces de Théâtre des siècles passés : et qu’enfin c’est une coutume reçue dans tous les pays les mieux policés, sans même excepter Rome, où est le premier Siège de la Religion. Le Confesseur peut-il déférer à <pb n="743"/>ces raisons et leur accorder l’absolution nonobstant le refus qu’ils font de s’en abstenir à l’avenir ?</p>
-<div type="section">
-<head><hi rend="sc">Réponse.</hi></head>
-<p>Les raisons qu’apportent Aristobule et Marianne ne peuvent les excuser devant Dieu. Car l’Eglise a condamné les jeux de théâtre dans tous les siècles, ainsi qu’il paraît par les Ecrits des Saints Pères, qui ont invectivé contre ces vains et pernicieux amusements.</p>
-<p>Tertullien<note place="margin" resp="author"><hi rend="i">Tertull. l. de spectaculis c.</hi> 17.</note> dit que le théâtre est le consistoire privé de l’impudicité, où l’on n’approuve que les libertés qu’on n’oserait prendre ailleurs, « <quote>Est privatum consistorium impudicitiæ, ubi nihil probatur quam quod alibi non probatur.</quote> » Il ajoute que les excuses ingénieuses, par lesquelles on tâche de justifier les jeux de théâtre n’ont d’autre fondement que le seul désir qu’on a de jouir des plaisirs du siècle. « <quote>Quam sapiens argumentatrix sibi videtur ignorantia humana ; præsertim cum aliquid ejusmodi de gaudiis et de fructibus seculi metuit amittere ! »</quote></p>
-<p>Saint Clément d’Alexandrie<note place="margin" resp="author"><hi rend="i">S. Clem. Alex. l.</hi> 3. <hi rend="i">pædagogi. c.</hi> 11. <hi rend="i">sub fin.</hi></note> ne déclame pas moins fortement contre les spectacles, et dit que ces sortes d’assemblées sont honteuses, et pleines d’iniquité. « <quote>Magna confusione et iniquitate hi cætus pleni sunt.</quote> » Et qu’on n’y entend que des sottises et des paroles contre la pudeur et la modestie. « <quote>Prohibeantur ergo spectacula et acromata, quæ nequitia, verbisque obscænis et vanis temere profusis plena sunt.</quote> »</p>
-  <p>Saint Jean Chrysostome<note place="margin" resp="author"><hi rend="i">S. Joan. Chrysost. Hom.</hi> 6. <hi rend="i">in Matth.</hi></note> combat les jeux de théâtre avec une force digne d’un zèle Apostolique, dont il était animé et se sert pour cela de plusieurs raisonnements convaincants, qu’il serait trop ennuyeux de rapporter tout au long. Il suffit de dire, qu’il assure, que ceux qui assistent aux Comédies et qui y donnent des marques du plaisir qu’ils y prennent, sont en quelque manière plus coupables que les Comédiens mêmes ; puisqu’en les autorisant par leur présence et en témoignant la joie qu’ils ont d’entendre leurs bouffonneries et leurs sottes plaisanteries, ils les animent à se rendre encore plus insolents, et en sont par conséquent la véritable cause. « <quote>Non enim<seg type="exquote">, dit ce Père,</seg> tam ille delinquit, qui illa simulat, quam tu præ illo, qui hoc fieri jubes : non solum jubes ; sed etiam exultatione, risu, plausu adjuvas quæ geruntur, omnibusque prorsus modis, hanc diabolicam confovens officinam.</quote> »</p>
-  <p>Saint Augustin<note place="margin" resp="author"> <hi rend="i">S. Aug. l. i. de civit. Dei c.</hi> 12.</note> déplore le malheur de la Ville de Carthage, d’avoir reçu les Comédiens, que le Roi Alaric avait chassés de Rome : et il appelle la Comédie, une peste encore plus pernicieuse que celle des gladiateurs et du Cirque, et que la ruse du démon a fait succéder à l’idolâtrie. « <quote>Ludi scænici, spectacula turpitudinum et licentia vanitatum … astutia spirituum nefandorum, prævidens illam pestilentiam <seg type="exquote">(idolatriæ)</seg> jam fine debito cessaturam .… aliam longe graviorem .… non corporibus, sed moribus curavit immittere.</quote> »</p>
-  <p>Salvien,<note place="margin" resp="author"><hi rend="i">Salvianus l.</hi> 6. <hi rend="i">de gubernatione. tom.</hi> 5. <hi rend="i">Biblioth. SS. Patrum.</hi></note> dit nettement que le théâtre est une des pompes du diable, auxquels les Chrétiens ont renoncé à leur Baptême : et que c’est par conséquent être apostat, que d’y assister. « <quote>Quomodo, ô Christiane, spectacula post baptismum sequeris, quæ opus esse diaboli confiteris ? in spectaculis enim quædam apostasia fidei est, et à symbolis ipsius et cælestibus sacramentis letalis prævaricatio.</quote> » La raison <pb n="744"/>qu’il en donne, est que le démon se trouve dans les spectacles qu’il a inventés. D’où il conclut, que, y assister, c’est donc quitter Jésus-Christ et reprendre le démon. « <quote>Diabolus autem <seg type="exquote">(est)</seg> in spectaculis et pompis suis. Ac per hoc, cum redimus ad spectaculum, relinquimus fidem Christi.</quote> » D’où il conclut derechef, que ce n’est donc pas un péché léger, mais un crime, qui donne à l’âme le coup de la mort. « <quote>Si cui itaque leve spectaculorum crimen videtur, respiciat cuncta quæ diximus et videat in spectaculis non voluptatem esse, sed mortem.</quote> »</p>
-<p>C’est donc avec raison, que les Rois Philippe le Bel et saint Louis chassèrent de France tous les Comédiens, et que le Parlement de Paris rendit dans le seizième siècle plusieurs Arrêts contre eux, tels que furent celui du 6. Octobre 1584. rendu contre ceux qui avaient établi un théâtre dans l’Hôtel de Cluny ; et celui du 10. Décembre 1588. contre une autre Troupe.</p>
-<p>Il est vrai, que les anciens Pères, en parlant de la sorte, avaient principalement en vue certains jeux de théâtre, qu’on appelait <hi rend="i">Majuma</hi>, dont les Empereurs firent retrancher ce qu’il y avait de plus dissolu, et de plus honteux : mais quelque réforme qu’on y ait fait, saint Chrysostome ne laisse pas de les appeler des écoles d’adultère et de libertinage : non pas qu’on représentât des actions sales sur le théâtre, ce que ces pieux Empereurs n’auraient pas souffert ; mais parce que les Comédiens de l’un et de l’autre sexe ne s’étudiaient qu’à se servir de paroles et de gestes affectées, qui n’étaient propres qu’à remplir l’esprit de mille idées impures et le cœur de mauvais désirs. Et voilà justement ce qui se passe encore dans les Comédies d’aujourd’hui. Les Comédiens et les Comédiennes ne montant sur le théâtre que pour y parler d’intrigues de mariages, ou d’amourettes. De sorte qu’on peut dire avec les Saints Pères, que les spectacles, sont, principalement pour les jeunes gens, une école d’impureté et de libertinage : « <quote>Privatum consistorium impudicitiæ</quote> ». Car enfin si un seul regard jeté sur une personne d’un sexe différent, même dans l’Eglise, est capable d’avoir des suites criminelles ; que doit-on penser de ceux qui se font avec une pleine liberté dans ces lieux, où l’immodestie, et l’impudence triomphent impunément ?</p>
-  <p>De plus l’Ecriture recommande d’éviter avec soin les mauvais entretiens, même particuliers, à cause qu’il est facile de s’y laisser corrompre : <note place="margin" resp="author">1. <hi rend="i">Corinth.</hi> 15. 33.</note> « <quote>Corrumpunt mores bonos colloquia mala.</quote> » Or quels sont les entretiens des Comédiens et des Farceurs ? Ce sont des entretiens publics de corruption, qui ne tendent qu’à la ruine des âmes, et qui sont applaudis, approuvés et autorisés par tous ceux qui y sont présents. Car peut-on être assez déraisonnable, pour attendre des entretiens innocents et modestes de la part d’une troupe de gens, que toutes les Lois Ecclesiastiques et civiles, déclarent infâmes :<note place="margin" resp="author"><hi rend="i">Ulpianus in leg.</hi> Quod ait. 2. <hi rend="i">ff. de his qui notantur infamiæ.</hi> § 5. <hi rend="i">lib.</hi> 3. <hi rend="i">tit.</hi> 2.</note> « <quote>Qui in scænam prodierit, infamis est</quote>, dit la Loi.<note place="margin" resp="author">« <quote>Scæna est quæ ludorum faciendorum causa, quolibet loco ubi quis consistat, moveaturque, spectaculum sui præbiturus, posita fit in publico, privatove, vel in vico, quo tamen loco passim homines spectaculi causa admittantur</quote> », <hi rend="i">cit.</hi> §. 5.</note> Et que le démon n’a suscités que pour corrompre la pureté des fidèles, sous le spécieux prétexte de les récréer, et pour renverser les véritables maximes de l’Evangile par des maximes contraires, qu’ils tâchent de rendre agréables par leurs bouffonneries et qu’ils font sucer comme le lait, aux gens du monde, dont le cœur est souvent déjà mal disposé ?</p>
-  <p>Revenons au cas proposé et concluons de tout <pb n="745"/>ce que nous venons de dire qu’Aristobule et Marianne sont obligés en conscience de renoncer à la Comédie pour toujours et d’obéir au commandement que le Confesseur leur en fait. Ils doivent, suivant le conseil de Salvien, considérer que les spectacles sont plutôt une mort à l’âme qu’un véritable plaisir. « <quote>Respiciant cuncta quæ diximus, et videant in spectaculis non voluptatem esse, sed mortem.</quote> » Car ils ont beau dire que la coutume a autorisé la Comédie et les Comédiens dans tous les Etats les mieux policés, et que cette coutume est autorisée par les Princes et par les Magistrats : Tout cela ne suffit pas pour les justifier, puisque l’Eglise les condamne et les a toujours condamnés et qu’elle veut qu’on regarde encore aujourd’hui les Comédiens comme des gens excommuniés et qu’on leur refuse les Sacrements et la Sépulture Ecclésiastique. Tout le monde sait que les Pasteurs les dénoncent publiquement pour tels tous les Dimanches au Prône des Messes de Paroisse conformément aux Décrets des anciens Conciles.<note place="margin" resp="author">« <quote>De theatricis et ipsos placuit, quandiu agunt, à communione separati.</quote> » <hi rend="i">Conc. Arelat.</hi> 1. <hi rend="i">c.</hi> 5.</note> Au reste, si on les souffre dans un état Chrétien ; ce n’est que comme un moindre mal, qu’on tolère, pour en éviter un plus grand. Ajoutons à cela que la coutume n’est autre chose qu’une ancienne erreur, si elle n’est fondée sur la justice et sur la vérité. « <quote>Consuetudo sine veritate vetustas erroris est</quote> », dit Saint Cyprien.<note place="margin" resp="author"><hi rend="i">S. Cyprien. Epist.</hi> 74. <hi rend="i">ad Pompeium.</hi> <hi rend="i">Secund. Edit. Pamelii et Dodvuel.</hi></note> Jésus-Christ n’a pas dit qu’il était la coutume, mais qu’il était la vérité. C’est pourquoi ni la longueur du temps, ni l’autorité des personnes, ni les privilèges des nations, n’ont pas la force de rendre légitime une mauvaise coutume. C’est ainsi que raisonne Tertullien :<note place="margin" resp="author"> <hi rend="i">Tertull. lib. de Velandis Virgin.</hi></note> « <quote>Hoc exigit veritatem, cui nemo præscribere potest, non spatium temporum, non patrocinia personarum, non privilegium nationum .… Christus veritatem se, non consuetudinem cognominavit.</quote> » Enfin une coutume qui est contraire aux Lois de l’Eglise et aux Constitutions Canoniques n’est d’aucune autorité et est un véritable abus. « <quote>Consuetudo<seg type="exquote">, dit le Pape Innocent III.<note place="margin" resp="author"><hi rend="i">Innoc. III. in cap.</hi> Ad nostram. <hi rend="i">de consuetud. l.</hi> 1. <hi rend="i">tit.</hi> 4.</note> écrivant à l’Evêque de Poitiers :</seg> Quæ canonicis obviat institutis, nullius debet esse momenti</quote>. »</p>
-  <p>Mais comme les Fauteurs des Comédiens soutiennent, que S. Thomas<note place="margin" resp="author"><hi rend="i">S. Thom.</hi> 2. 2. <hi rend="i">q.</hi> 168. <hi rend="i">art.</hi> 3. <hi rend="i">ad.</hi> 3.</note> leur est favorable, en ce qu’il semble dire, que la Profession des Comédiens n’est pas mauvaise de sa nature et que l’on peut même contribuer à leur subsistance, pourvu que ce soit d’une manière modérée. « <quote>Officium histrionum<seg type="exquote">, dit-il,</seg> quod ordinatur ad solatium hominibus exhibendum, non est secundum se illicitum, nec sunt in statu peccati ; dummodo moderate ludo utantur ; id est, non utendo aliquibus illicitis verbis, vel factis ad ludum, etc.</quote> » Il est nécessaire qu’on sache que ce Saint Docteur n’entend pas parler des Comédies, telles que les dépeignent les Conciles et les Pères, et telles qu’on les représente encore aujourd’hui, ou comme nous l’avons déjà dit, on ne voit qu’intrigues de mariages, ou d’amourettes et que des paroles équivoques, qui ne tendent qu’à exciter, ou à entretenir les passions les plus déréglées et les plus honteuses. Car peut-on sans faire une injure atroce à ce Saint, lui imputer une doctrine contraire à celle des Conciles et des Pères de tous les siècles ? Et est-il croyable, qu’il ait voulu approuver une Profession, qui rend infâmes et excommuniés ceux qui l’exercent ? Il est donc vrai de dire qu’il ne parle que des seuls jeux de théâtre qui, comme il le dit, sont en quelque manière utiles ou nécessaires au soulagement des peines de la vie, entre lesquels il met les représentations <pb n="746"/>de chasse. Il veut bien qu’on puisse donner quelque chose de modéré à ceux, qui donnent ces sortes de divertissements, qu’il appelle selon le langage ordinaire du théâtre <hi rend="i">Histriones</hi>. Voici comme il parle, non pas par occasion, et comme en passant ainsi qu’il fait dans le passage qu’on objecte ; mais expressément, <hi rend="i">ex professo</hi>, dans un autre ouvrage qu’il avait fait           auparavant<note place="margin" resp="author"><hi rend="i">Idem. in</hi> 4. <hi rend="i">dist.</hi> 16. <hi rend="i">q.</hi> 4. <hi rend="i">art.</hi> 2. <hi rend="i">quæst.</hi> 2. <hi rend="i">in corp.</hi></note> « <quote>Ad secundam quæstionem dicendum, quod hujusmodi spectacula, si sunt rerum turpium et ad peccatum provocantium, studiosa eorum inspectio peccatum est ; et quandoque in eis tanta potest libido adhiberi, ut sit etiam mortale. Vnde a tali inspectione omnes se arcere debent</quote>. » Voilà quel est le sentiment de ce Saint sur les Comédies, telles qu’on les représente aujourd’hui : après quoi il ajoute… « <quote>Quædam vero spectacula sunt de rebus utilibus et ad vitam necessariis, sicut sunt venationes et cætera hujusmodi : et talia spectacula distrahunt animum. Vnde quamvis possit sine peccato eis intendi, servata discretione debita, quantum ad discretiones personæ et aliarum circumstantiarum ; tamen pœnitenti sunt vitanda, propter hoc, quod debet cor ad Deum collectum habere ; nisi quantum necessitas exposcit.</quote> » Cet Ange de l’Ecole n’a donc garde d’enseigner, qu’on puisse assister aux Comédies dont nous parlons, ni qu’on puisse rien donner à ceux qui les représentent ; puisque tout au contraire il les condamne lui-même avec S. Augustin peu après les paroles qu’objectent les Fauteurs de la Comédie. « <quote>Si qui autem superflua in tales consumunt<seg type="exquote">, ajoute-t-il,</seg> vel etiam sustentant illos histriones, qui illicitis ludis utuntur, peccant, quasi eos in peccato foventes. Vnde Augustinus<note place="margin" resp="author"><hi rend="i">S. Aug. tract.</hi> 100. <hi rend="i">in Joan. ante med.</hi></note> dicit super Joannem, quod donare res suas histrionibus, vitium est immane.</quote> »</p>
-</div>
-</div>
-<div type="chapter">
-<head>CAS II.</head>
-<p>Licinius Farceur et Comédien, connu publiquement pour tel, s’étant présenté à Pâques à la Communion à la vue de tous ceux qui assistaient aux Divins Offices ; Ignace son Curé, la lui a refusée, dont Lucinius s’est fort scandalisé. Ce Curé a-t-il pu en conscience la lui refuser en public, malgré le scandale qu’il prévoyait bien devoir en arriver ?</p>
-<div type="section">
-<head><hi rend="sc">Réponse.</hi></head>
-<p>Puisque ce Comédien est connu publiquement pour tel, Ignace a pu et a même dû lui refuser la Communion, après néanmoins lui avoir demandé publiquement s’il s’était confessé et avait renoncé pour toujours à sa Profession. Car autrement, comme dit Saint Cyprien en son Epître à Eucratius,<note place="margin" resp="author"><hi rend="i">S. Cyprien, in can.</hi> Pro dilectione. 95. <hi rend="i">de censecras. dist.</hi> 2.</note> c’est offenser la Majesté de Dieu profaner la sainteté et la gloire de son Eglise et violer les règles de l’Evangile, que de permettre qu’elles soient souillées par la communication de personnes si indignes et si infâmes. « <quote>Puto nec Majestati Divinæ, nec Evangelicæ disciplinæ congruere, ut pudor et honor Ecclesiæ tam turpi et infami contagione fœdetur.</quote> » On ne doit donc recevoir ces sortes de gens à la grâce de la réconciliation et de la Communion, qu’après qu’ils ont donné des marques assurées d’une véritable conversion, ainsi que le déclare le troisième Concile de Carthage, tenu en l’an 397.<note place="margin" resp="author"><hi rend="i">Cont. Carthage.</hi> 111. <hi rend="i">c.</hi> 35. <hi rend="i">in can.</hi> Scænicis. 96. <hi rend="i">cad. dist.</hi></note> dont le Décret est conçu en ces termes : « <quote>Scænicis atque histrionibus, cæterisque hujusmodi personis, vel Apostaticis conversis, vel reversis ad Dominum, gratia, vel reconciliatio non negetur.</quote> »<note place="margin" resp="author">De Gen. theol. mor. tom. 2. trait. 4. c. 8. n. 5.</note></p>
-</div>
-</div>
-<div type="chapter">
-  <pb n="747"/><head>CAS III.</head>
-<p>Philometor, Comédien, connu publiquement pour tel, étant malade au lit de la mort, et n’ayant pas voulu promettre de renoncer à sa Profession, quelque instance que son curé lui en ait faite, est mort sans recevoir les Sacrements, ce Curé les lui ayant refusés. Sur quoi l’on demande deux choses. La première, si le Curé a pu les lui refuser, le voyant prêt de mourir. La seconde, si étant mort en cet état, le Curé peut sans péché refuser à son corps la sépulture Ecclésiastique ; principalement, s’il a donné d’ailleurs des marques qu’il était repentant de ses péchés ?</p>
-<div type="section">
-<head><hi rend="sc">Réponse.</hi></head>
-  <p>Pour répondre en peu de mots à ces deux difficultés, il faut présupposer que, comme nous l’avons dit en répondant au premier cas, les Comédiens sont excommuniés. C’est ce qui est évident 1°. par le cinquième Canon du premier Concile d’Arles que nous avons cité. 2°. Par l’Epître que S. Cyprien écrit à Eucratius, qui l’avait consulté, pour savoir comment il se devait comporter à l’égard d’un certain Comédien qui avait à la vérité quitté le théâtre, mais qui continuait à enseigner sa Profession à d’autres : sur quoi ce Saint Martyr répond que cet homme-là doit être regardé et traité comme un excommunié.<note place="margin" resp="author"><hi rend="i">S. Cyprien. in can.</hi> Pro dilectione. 95. <hi rend="i">cit. dist.</hi> 2. <hi rend="i">de consecrat</hi>.</note> Voici ses termes. « <quote>Consulendum me existimasti, frater carissime, quid mihi videatur de histrione quodam, qui, apud vos constitutus, in ejusdem adhuc artis suæ dedecore perseverat et Magister et Doctor, non erudiendorum, sed perdendorum puerorum, id, quod male didicit, cæteris quoque insinuat, an talis debeat communicare nobiscum ; puto, nec Majestati Divinæ, nec Evangelicæ disciplinæ congruere, ut pudor et honor Ecclesiæ tam turpi et tam infami contagione fæletur… nec excuset se quisquam, si à theatro ipse cessaverit, cum tamen hoc cæteros doceat.</quote> » 3°. Par le Concile appelé <hi rend="i">quini sextum</hi> ou <hi rend="i">in trullo</hi>,<note place="margin" resp="author"><hi rend="i">Conc. in trullo. can.</hi> 51.</note> assemblé sur la fin du septième siècle, lequel défend aux laïques sous peine d’excommunication d’exercer la Profession de Comédien et de représenter des spectacles. « <quote>Omnino prohibet hæc sancta et universalis Synodus<seg type="exquote">, disent les Pères de ce Concile,</seg> eos qui dicuntur mimi et eorum spectacula… atque in scæna saltationes fieri. Si quis autem præsentem canonem contempserit, et se alicui eorum, quæ sunt vetita, dederit ; si sit quidem clericus ; deponatur : si vero laïcus 3. segregetur.</quote> »</p>
-<p>Nous pouvons ajouter, que les Lois Civiles mêmes sont conformes en ce point à celles de l’Eglise, comme on le peut voir par celles des Empereurs Valentinien, Valens et Gratien, dont une est trop remarquable, pour ne la pas rapporter ici toute entière. La voici :<note place="margin" resp="author"><hi rend="i">Lib.</hi> 15. <hi rend="i">Cod. Theodos. tit.</hi> 7. <hi rend="i">de Scænicis. tom.</hi> 5.</note> « <quote>Scænici et scænicæ, qui ultimo vitæ, necessitate cogente interitus imminentis ad Dei summi sacramenta properarunt, si fortassis evaserint, nulla post hac in theatralis spectaculi conventione revocentur. Ante omnia tamen diligenti observari ac teneri sanctione jubemus, ut vere et in extremo periculo constituti, id pro salute poscentes, si tamen antistites probant, beneficii consequantur. Quod ut fideliter fiat, statim eorum ad judices, si in præsenti sunt, vel curatores urbium singularum, desiderium perferatur : quod ut, inspectoribus missis, sedula exploratione quæratur, an indulgeri his necessitas poscat extrema suffragia.</quote> » Voilà une Loi expresse, qui prouve évidemment, que ces Empereurs, non plus que <pb n="748"/>les Evêques, ne voulaient pas qu’on admit aux Sacrements les Comédiens, quoiqu’ils se trouvassent malades au lit de la mort, à moins qu’ils ne fissent une promesse authentique, entre les mains des Magistrats, de ne plus jamais exercer leur Profession ; et que même en ce cas, on ne leur donnât les Sacrements, que lorsque les Evêques le trouveraient à propos ; c’est-à-dire, qu’encore qu’on ne leur refusât pas l’absolution, quand ils donnaient des marques d’une sincère pénitence on ne leur accordait néanmoins la sainte Communion qu’avec l’approbation de l’Evêque.</p>
-<p>Cela étant ainsi, il est constant que le Curé de <hi rend="i">Philometor</hi> a fait son devoir, en lui refusant les Sacrements à cause de l’opiniâtreté, où il était, de vouloir persévérer dans sa Profession de Comédien : et que par une suite indispensable il a dû refuser à son corps la sépulture Ecclésiastique ; puisqu’elle n’est due qu’à ceux qui meurent dans la Communion de l’Eglise : il est inutile de dire, que ce Comédien a d’ailleurs témoigné de la douleur de ses péchés, à moins qu’il n’ait détesté sa Profession et n’ait promis d’y renoncer pour toujours : ses autres péchés n’ayant pas pu lui être remis pendant qu’il conservait de l’affection pour celui dont sa profession le rendait coupable. D’ailleurs on ne doit pas accorder la sépulture Ecclésiastique aux pécheurs publics, ainsi qu’il est porté par le Rituel Romain, et par plusieurs autres. D’où il s’ensuit qu’on doit donc la refuser aux Comédiens, qui meurent sans donner des marques d’une sincère pénitence, puisqu’ils exercent publiquement une Profession criminelle.</p>
-</div>
-</div>
-<div type="chapter">
-<head>CAS IV.</head>
-<p>Il y a dans la ville de Milan un Monastère de Religieux, qui, quoique non réformés, mènent une vie fort réglée et très édifiante. Ces Religieux ont coutume de se donner trois ou quatre fois par chaque année la récréation de représenter par eux-mêmes, et entre eux seuls, dans une Salle particulière quelques pièces de théâtre sur des sujets de piété : et pour cela ils se servent des vêtements, dont on use à la Comédie et à l’Opéra, et qu’ils louent moyennant une somme qu’ils paient à celui qui les a en garde. L’un s’habille en Roi ; l’autre en Princesse ; l’autre en Courtisan ; l’autre en Accusateur ; l’autre en Juge ; ou de quelque autre manière, selon le rôle qu’il doit faire. Sur quoi on demande si ces Religieux commettent en cela quelque péché, et quel il est ?</p>
-<div type="section">
-<head><hi rend="sc">Réponse.</hi></head>
-<p>Pour décider cette difficulté, qui nous fut proposée le 18. Novembre 1716. par une personne qui nous est inconnue, nous supposons avec saint Thomas,<note place="margin" resp="author"><hi rend="i">S. Thom.</hi> 2. 3. <hi rend="i">q.</hi> 169. <hi rend="i">art.</hi> 3. <hi rend="i">ad. 3.</hi></note> parlant des vêtements dont chacun doit se servir par rapport à son sexe et à son état, que c’est une action vicieuse et condamnable de sa nature, qu’un homme se travestisse en femme ou une femme en homme. « <quote>De se vitiosum est, quod mulier utatur veste virili ; et è converso</quote> ». A moins que ce ne soit peut-être pour une cause nécessaire et importante, telle que le serait celle, où il s’agirait de sauver sa vie, son honneur, ou sa liberté. « <quote>Potest tamen hoc fieri sine peccato propter aliquam necessitatem, vel causa se occultandi ab hostibus, vel propter defectum alterius vestimenti, vel propter aliud hujusmodi.</quote> » C’est l’exception que ce saint Docteur mit à la règle générale qu’il vint d’établir. Nous savons bien <pb n="749"/>que saint Thomas ne parle là et ailleurs,<note place="margin" resp="author"><hi rend="i">Idem.</hi> 1. 2. <hi rend="i">q.</hi> 102. <hi rend="i">art.</hi> 6. <hi rend="i">ad.</hi> 6.</note> que la différence qu’il doit y avoir entre les habillements ordinaires qui sont propres aux deux sexes, et qu’il ne spécifie pas le changement qui s’en fait dans la représentation des pièces de théâtre ; mais la maxime qu’il établit, en disant, que c’est une chose mauvaise de sa nature, <hi rend="i">de se vitiosum est</hi>, que les hommes se travestissent en femmes, ou les femmes en hommes, suffit pour condamner cette pratique, excepté dans le cas de nécessité, où la Loi n’oblige pas. Cela étant supposé comme une vérité constante, nous ne croyons pas qu’on puisse excuser de péché très grief les Religieux, dont il s’agit dans l’espèce proposée : et cela pour plusieurs raisons.</p>
-<p>La première : parce que cette sorte de récréation étant par elle-même et par ses circonstances entièrement mondaine, et de la nature de celles que prennent les seules personnes du siècle, elle ne peut en aucune manière convenir à des Religieux, qui par la régularité de leur conduite, et par la sainteté de leur état doivent être très éloignés des maximes et des pratiques du monde, auxquelles ils ont absolument renoncé par leur profession solennelle.</p>
-<p>La seconde : parce qu’il n’est jamais permis à des Religieux de se dépouiller de leur habit pour peu de temps, sous prétexte d’une plus grande commodité dans une récréation même licite ; tel qu’est le jeu de boule en particulier. A plus forte raison doit-on dire, qu’il ne leur est donc pas permis de s’en dépouiller pour se revêtir d’habits de théâtre, ni même d’en couvrir les leurs en les mettant par-dessus leurs robes : ces habits n’étant propres qu’à des gens que l’Eglise regarde comme excommuniés.</p>
-<p>La troisième est qu’il est moralement impossible, que ces Religieux puissent se donner un tel divertissement, sans que cela vienne à la connaissance de quelques Novices, ou de quelques domestiques séculiers : et qu’ainsi ils ne leur causent quelque scandale, ou à ceux qui le pourront apprendre d’eux dans la suite. Qu’on ne nous dise pas, que ces sortes de divertissements se font d’une manière si secrète, qu’il n’est pas possible que les gens du dehors en puissent avoir connaissance ; car nous savons le contraire : puisqu’un Prêtre qui avait été Religieux dans un Ordre qui a de la réputation, nous a assure que cela s’y pratiquait dans le temps qu’il y était ; et il n’y a pas un mois qu’un Docteur de Sorbonne nous assura, que celui qui est le Maître de ces habits de théâtre, lui dit au mois de Janvier de cette année 1717. qu’il en avait fourni à une autre Communauté Religieuse, d’un Ordre même réformé, pour représenter dans le Convent une pièce de cette nature.</p>
-<p>La quatrième est, qu’il ne paraît guère possible que ces Religieux puissent emprunter, ou louer ces sortes d’habits, des personnes qui les ont sous leur garde, sans leur donner quelque occasion de curiosité, et de juger de l’usage qu’ils en veulent <pb n="750"/>faire : ce qui ne peut leur donner qu’une fort mauvaise édification de leur conduite, et les porter à les décrier et à s’en entretenir avec d’autres séculiers, qu’on sait n’être déjà d’ailleurs que trop portés au mépris des Prêtres et des Religieux par le seul endroit que la vie à laquelle leur état les engage, condamne les maximes et la conduite des gens du siècle.</p>
-<p>La cinquième qui doit frapper davantage tout esprit raisonnable, est, qu’il est honteux et indigne de la sainteté de l’état d’un Religieux, qu’il se travestisse en femme, en Roi, ou en Courtisan, et qu’en cela il représente un personnage qui ne convient qu’à des Arlequins, et à des Bouffons.</p>
-<p>Nous ne voulons rien dire de la mollesse et du peu de retenue, où s’engagent souvent ceux qui ne font point de scrupule de se laisser aller à un tel excès, et nous nous contentons de déclarer notre sentiment, qui est, que ces Religieux ne peuvent en conscience, et sans un péché fort grief continuer à prendre une telle récréation.</p>
-<p>Nous pouvons joindre à ces raisons l’autorité d’un Concile, tenu à Cologne en 1549. qui défend aux Religieuses de faire représenter des pièces de théâtre dans leurs Monastères, bien que ce soit des sujets de piété.<note place="margin" resp="author"><hi rend="i">Conc. colon.</hi> 2. <hi rend="i">Decreto</hi> 17.</note> « <quote>Quæ spectacula, etiamsi de rebus sacris et piis exhiberentur ; parum tamen boni, mali vero plurimum relinquere in sanctimonialium mentibus possunt, gestus externos spectantibus et mirantibus … ideo vetamus et prohibemus posthac, vel Comœdos admitti in virginum Monasteria, vel virgines Comœdias, spectare.</quote> » Ce sont les termes du Concile, qui ne doivent pas moins regarder les Religieux que les Religieuses, et qui condamnent encore plus ceux dont il s’agit dans l’espèce proposée ; puisqu’ils sont eux-mêmes les Acteurs de la Comédie.</p>
-<p>Tout ce que nous venons de dire ne doit pas tirer à conséquence contre les Tragédies, qui se représentent dans plusieurs Collèges. 1°. Parce que ce ne sont pas des Religieux qui représentent les différents personnages qui y paraissent ; mais des écoliers séculiers. 2°. Parce que cet exercice est très utile aux jeunes gens, tant pour fortifier leur mémoire, que pour les rendre plus hardis à parler un jour en public, soit dans la Chaire ou au Barreau. 3°. Parce que l’espérance de remporter quelques-uns des prix, qu’on y distribue à la fin à ceux qui les ont mérités, les porte à étudier avec plus de soin. 4°. Parce qu’enfin on n’y voit point de garçons travestis en femmes ; et que tout s’y passe dans la modestie, et sans que personne s’en scandalise.</p>
-</div>
-</div>
-  </div>
-</body>
-</text>
+      <div type="article">
+        <pb n="739-740"/>
+        <head>COMEDIE.</head>
+        <p>La <hi rend="i">Comédie</hi>, à parler régulièrement, est un Poème Dramatique qui
+          représente une action commune et plaisante, dont la fin est gaie, qui d’une manière
+          ingénieuse, corrige les défauts des hommes ; et divertit par la peinture naïve qu’elle
+          fait de leurs différents caractères. Telles sont celles d’Aristophane, de Plaute et de
+          Térence. « <quote>Comœdia drama est<seg type="exquote">, dit Hofman,<note place="margin"
+                resp="author">Hofman. v. <hi rend="i">Comœdia</hi>.</note></seg> civiles et privatas
+            actiones exitu læto repræsentans.</quote> » Ce mot pris dans un sens général, signifie
+          toute sorte de Poème dramatique, soit Comédie Pastorale ou Tragédie. De sorte qu’on
+          appelle <hi rend="i">Comédien</hi>, celui qui monte sur un théâtre et qui par le Rôle,
+          dont il s’est chargé, aide aux autres à y représenter publiquement quelque Pièce
+          dramatique, afin de divertir le peuple, et de gagner par là de quoi subsister. C’est donc
+          avec raison que le Concile de Salzbourg, tenu en 1310.<note place="margin" resp="author"
+              ><hi rend="i">Conc. Salzbur. Can.</hi> 3.</note> les appelle des bouffons, <hi
+            rend="i">bufones et gailhardos</hi>.</p>
+        <p>Il est très certain, que la Comédie tire son origine des Païens, aussi bien que son
+          progrès, comme le même Hofman le prouve fort amplement.</p>
+        <p>On prétend que la Comédie Française a succédé à la Confrérie de la Passion, érigée
+          environ l’an 1400. dans l’Eglise de la Trinité de Paris, et confirmée par Lettres <pb
+            n="741-742"/>Patentes en 1402. dont les Confrères représentaient en certains jours et en
+          certains lieux particuliers, plusieurs Mystères de la Religion, tels que sont ceux de la
+          Passion et de la Résurrection de Notre Seigneur, et les Mystères de quelques Saints, et où
+          le Roi Charles VI. voulut quelquefois assister. La Salle, où ils représentaient ces
+          Pièces, ayant été destinée pour le logement des pauvres, par Arrêt du Parlement en 1545.
+          ils achetèrent ensuite la place et les masures de l’ancien Hôtel de Bourgogne, où ils
+          bâtirent et y élevèrent un théâtre, pour y continuer leurs représentations qui
+          dégénérèrent et devinrent bientôt profanes : de sorte que le Parlement leur défendit par
+          un Arrêt, rendu en 1548. de continuer à représenter le Mystère de la Passion et autres
+          sacrés Mystères : Ils cessèrent donc leurs représentations ; mais au lieu d’en demeurer
+          là, ils louèrent aux Comédiens Français et Italiens, leur théâtre et ce qui en dépendait,
+          à l’exception d’une loge qu’ils s’y réservèrent : et enfin en 1676. le revenu de cette
+          Confrérie fut uni à l’Hôpital Général.</p>
+        <p>Plusieurs troupes de différents Comédiens s’étant établis au Marais et ailleurs,
+          Louis XIV. par un simple Brevet les remit tous en 1680. en une seule troupe : et c’est là
+          l’unique titre de l’établissement des Comédiens d’aujourd’hui, qui n’a pas été suivi de
+          Lettres Patentes ; parce qu’ils ne font aucun corps dans l’Etat ; d’où ils peuvent être
+          chassés, comme le furent par saint Louis, ceux qui se trouvèrent alors dans le Royaume, où
+          ils ne sont tolérés encore à présent que par des raisons de pure politique, comme d’autres
+          maux y sont soufferts, aussi bien qu’à Rome même et ailleurs.</p>
+        <p>Au reste on va voir dans les décisions suivantes quels sont les maux que produit la
+          Comédie, et combien par conséquent elle est condamnable, selon le jugement même des
+          anciens Romains, qui par leurs Lois mettaient les Comédiens au rang des personnes infâmes.
+            « <quote>Prætoris verba dicunt<seg type="exquote">, ce sont les termes d’une Loi du
+                Digeste,<note place="margin" resp="author"><hi rend="i">Leg. prætoris.</hi> 1. <hi
+                  rend="i">ff. de his qui notantur infamias. l.</hi> 3. <hi rend="i"
+                >tit.</hi> 2.</note></seg> infamia notatur qui.… artis Ludicræ pronuntiandi-ve causa
+            in scænam prodierit.</quote> » Lesquelles paroles sont plus amplement expliquées dans la
+          Loi suivante<note place="margin" resp="author"><hi rend="i">l. quod ait.</hi> 2. <hi
+              rend="i">ibid.</hi> §. ait. prætor.</note> à la condamnation et à la honte de tous
+          ceux qui montent sur le théâtre pour gagner de l’argent. Dès l’an 314. le Concile d’Arles
+          déclara excommuniés ces sortes de gens, « <quote>de Theatricis <seg type="exquote">,
+              disent les Pères de ce Concile,</seg> et ipsos placuit quamdiu agunt, à communione
+            separari</quote> ». Le Concile d’Elvire<note place="margin" resp="author"><hi rend="i"
+              >Conc. Arelat. can.</hi> 5.</note> tenu en 305. priva pendant trois ans de la
+          Communion, ceux qui prêtaient leurs habits, pour servir aux spectacles : « <quote>Matronæ,
+            vel earum mariti, ut vestimenta<note place="margin" resp="author"><hi rend="i">Conc.
+                Eliberit. can.</hi> 57.</note> sua ad ornandam seculariter pompam, non dent : et si
+            fecerint, triennio abstineantur.</quote> » Ce sont les termes de ce Concile ; et il n’y
+          a pas lieu de s’étonner de cette ancienne sévérité de l’Eglise à l’égard des Comédiens, et
+          de ceux qui assistaient, ou qui participaient à leurs spectacles ; puisque les Païens
+          mêmes, comme Sénèque, ont regardé les Comédies, comme la chose la plus contraire aux
+          bonnes mœurs : « <quote>Nihil tam moribus alienum<seg type="exquote">, dit ce
+              Philosophe,</seg> quam in spectaculo detineri »</quote> ; et qu’il y eut même quelques
+          Empereurs, du nombre desquels est Domitien, qui chassèrent de Rome tous les Comédiens,
+          comme autant de gens, dont il regardait la profession, comme pernicieuse au bon
+          Gouvernement de ses Etats : en quoi certainement il ne se trompait pas dans cette pensée.
+          Saint Chrysostome en son Homélie soixante-neuvième, sur l’Evangile de saint Mathieu, où il
+          invective contre la Comédie, assure qu’elle est plutôt un mal réel et véritable, qu’un
+          divertissement : « <quote>Quicquid ibi geritur non est oblectatio, sed
+          pernicies.</quote> » Cela étant ainsi, nous pouvons donc assurer, comme une chose
+          constante, que c’est avec raison que les Comédiens, et tous autres gens de cette trempe,
+          dont l’emploi est d’exciter ou d’entretenir l’amour mondain et profane, sont privés de la
+          participation des choses saintes ; et il n’est pas moins certain, que l’on ne peut sans
+          péché assister à leurs spectacles.</p>
+        <div type="chapter">
+          <pb n="741"/>
+          <head>CAS PREMIER.</head>
+          <p>Aristobule, homme de qualité, et Marianne sa femme, ont coutume d’assister à la Comédie
+            et à l’Opéra. Leur Confesseur veut les obliger à s’en abstenir entièrement, et leur
+            déclare qu’il ne leur donnera pas l’absolution, s’ils ne lui promettent de n’y plus
+            aller. Aristobule s’excuse sur ce que c’est une coutume si générale parmi les gens de
+            qualité, qu’il ne peut refuser à ses amis de les y accompagner, sans leur paraître
+            ridicule et sans leur être un sujet de risée, ou de mépris. Marianne s’en excuse aussi
+              <pb n="742"/>par la même raison, et parce qu’elle ne peut se dispenser d’obéir à son
+            mari, qui veut qu’elle y aille avec lui, ou avec d’autres Dames de qualité. Ils ajoutent
+            tous deux, qu’ils n’y vont que dans le seul dessein de se récréer et de se délasser
+            l’esprit par un divertissement, qui leur paraît innocent : les Comédies d’aujourd’hui
+            étant beaucoup châtiées et beaucoup plus sérieuses et plus honnêtes, que ne l’étaient
+            les pièces de Théâtre des siècles passés : et qu’enfin c’est une coutume reçue dans tous
+            les pays les mieux policés, sans même excepter Rome, où est le premier Siège de la
+            Religion. Le Confesseur peut-il déférer à <pb n="743"/>ces raisons et leur accorder
+            l’absolution nonobstant le refus qu’ils font de s’en abstenir à l’avenir ?</p>
+          <div type="section">
+            <head><hi rend="sc">Réponse.</hi></head>
+            <p>Les raisons qu’apportent Aristobule et Marianne ne peuvent les excuser devant Dieu.
+              Car l’Eglise a condamné les jeux de théâtre dans tous les siècles, ainsi qu’il paraît
+              par les Ecrits des Saints Pères, qui ont invectivé contre ces vains et pernicieux
+              amusements.</p>
+            <p>Tertullien<note place="margin" resp="author"><hi rend="i">Tertull. l. de spectaculis
+                  c.</hi> 17.</note> dit que le théâtre est le consistoire privé de l’impudicité, où
+              l’on n’approuve que les libertés qu’on n’oserait prendre ailleurs, « <quote>Est
+                privatum consistorium impudicitiæ, ubi nihil probatur quam quod alibi non
+                probatur.</quote> » Il ajoute que les excuses ingénieuses, par lesquelles on tâche
+              de justifier les jeux de théâtre n’ont d’autre fondement que le seul désir qu’on a de
+              jouir des plaisirs du siècle. « <quote>Quam sapiens argumentatrix sibi videtur
+                ignorantia humana ; præsertim cum aliquid ejusmodi de gaudiis et de fructibus seculi
+                metuit amittere ! »</quote></p>
+            <p>Saint Clément d’Alexandrie<note place="margin" resp="author"><hi rend="i">S. Clem.
+                  Alex. l.</hi> 3. <hi rend="i">pædagogi. c.</hi> 11. <hi rend="i">sub
+                fin.</hi></note> ne déclame pas moins fortement contre les spectacles, et dit que
+              ces sortes d’assemblées sont honteuses, et pleines d’iniquité. « <quote>Magna
+                confusione et iniquitate hi cætus pleni sunt.</quote> » Et qu’on n’y entend que des
+              sottises et des paroles contre la pudeur et la modestie. « <quote>Prohibeantur ergo
+                spectacula et acromata, quæ nequitia, verbisque obscænis et vanis temere profusis
+                plena sunt.</quote> »</p>
+            <p>Saint Jean Chrysostome<note place="margin" resp="author"><hi rend="i">S. Joan.
+                  Chrysost. Hom.</hi> 6. <hi rend="i">in Matth.</hi></note> combat les jeux de
+              théâtre avec une force digne d’un zèle Apostolique, dont il était animé et se sert
+              pour cela de plusieurs raisonnements convaincants, qu’il serait trop ennuyeux de
+              rapporter tout au long. Il suffit de dire, qu’il assure, que ceux qui assistent aux
+              Comédies et qui y donnent des marques du plaisir qu’ils y prennent, sont en quelque
+              manière plus coupables que les Comédiens mêmes ; puisqu’en les autorisant par leur
+              présence et en témoignant la joie qu’ils ont d’entendre leurs bouffonneries et leurs
+              sottes plaisanteries, ils les animent à se rendre encore plus insolents, et en sont
+              par conséquent la véritable cause. « <quote>Non enim<seg type="exquote">, dit ce
+                  Père,</seg> tam ille delinquit, qui illa simulat, quam tu præ illo, qui hoc fieri
+                jubes : non solum jubes ; sed etiam exultatione, risu, plausu adjuvas quæ geruntur,
+                omnibusque prorsus modis, hanc diabolicam confovens officinam.</quote> »</p>
+            <p>Saint Augustin<note place="margin" resp="author">
+                <hi rend="i">S. Aug. l. i. de civit. Dei c.</hi> 12.</note> déplore le malheur de la
+              Ville de Carthage, d’avoir reçu les Comédiens, que le Roi Alaric avait chassés de
+              Rome : et il appelle la Comédie, une peste encore plus pernicieuse que celle des
+              gladiateurs et du Cirque, et que la ruse du démon a fait succéder à l’idolâtrie.
+                « <quote>Ludi scænici, spectacula turpitudinum et licentia vanitatum … astutia
+                spirituum nefandorum, prævidens illam pestilentiam <seg type="exquote"
+                  >(idolatriæ)</seg> jam fine debito cessaturam .… aliam longe graviorem .… non
+                corporibus, sed moribus curavit immittere.</quote> »</p>
+            <p>Salvien,<note place="margin" resp="author"><hi rend="i">Salvianus l.</hi> 6. <hi
+                  rend="i">de gubernatione. tom.</hi> 5. <hi rend="i">Biblioth. SS.
+                Patrum.</hi></note> dit nettement que le théâtre est une des pompes du diable,
+              auxquels les Chrétiens ont renoncé à leur Baptême : et que c’est par conséquent être
+              apostat, que d’y assister. « <quote>Quomodo, ô Christiane, spectacula post baptismum
+                sequeris, quæ opus esse diaboli confiteris ? in spectaculis enim quædam apostasia
+                fidei est, et à symbolis ipsius et cælestibus sacramentis letalis
+                prævaricatio.</quote> » La raison <pb n="744"/>qu’il en donne, est que le démon se
+              trouve dans les spectacles qu’il a inventés. D’où il conclut, que, y assister, c’est
+              donc quitter Jésus-Christ et reprendre le démon. « <quote>Diabolus autem <seg
+                  type="exquote">(est)</seg> in spectaculis et pompis suis. Ac per hoc, cum redimus
+                ad spectaculum, relinquimus fidem Christi.</quote> » D’où il conclut derechef, que
+              ce n’est donc pas un péché léger, mais un crime, qui donne à l’âme le coup de la mort.
+                « <quote>Si cui itaque leve spectaculorum crimen videtur, respiciat cuncta quæ
+                diximus et videat in spectaculis non voluptatem esse, sed mortem.</quote> »</p>
+            <p>C’est donc avec raison, que les Rois Philippe le Bel et saint Louis chassèrent de
+              France tous les Comédiens, et que le Parlement de Paris rendit dans le seizième siècle
+              plusieurs Arrêts contre eux, tels que furent celui du 6. Octobre 1584. rendu contre
+              ceux qui avaient établi un théâtre dans l’Hôtel de Cluny ; et celui du 10. Décembre
+              1588. contre une autre Troupe.</p>
+            <p>Il est vrai, que les anciens Pères, en parlant de la sorte, avaient principalement en
+              vue certains jeux de théâtre, qu’on appelait <hi rend="i">Majuma</hi>, dont les
+              Empereurs firent retrancher ce qu’il y avait de plus dissolu, et de plus honteux :
+              mais quelque réforme qu’on y ait fait, saint Chrysostome ne laisse pas de les appeler
+              des écoles d’adultère et de libertinage : non pas qu’on représentât des actions sales
+              sur le théâtre, ce que ces pieux Empereurs n’auraient pas souffert ; mais parce que
+              les Comédiens de l’un et de l’autre sexe ne s’étudiaient qu’à se servir de paroles et
+              de gestes affectées, qui n’étaient propres qu’à remplir l’esprit de mille idées
+              impures et le cœur de mauvais désirs. Et voilà justement ce qui se passe encore dans
+              les Comédies d’aujourd’hui. Les Comédiens et les Comédiennes ne montant sur le théâtre
+              que pour y parler d’intrigues de mariages, ou d’amourettes. De sorte qu’on peut dire
+              avec les Saints Pères, que les spectacles, sont, principalement pour les jeunes gens,
+              une école d’impureté et de libertinage : « <quote>Privatum consistorium
+                impudicitiæ</quote> ». Car enfin si un seul regard jeté sur une personne d’un sexe
+              différent, même dans l’Eglise, est capable d’avoir des suites criminelles ; que
+              doit-on penser de ceux qui se font avec une pleine liberté dans ces lieux, où
+              l’immodestie, et l’impudence triomphent impunément ?</p>
+            <p>De plus l’Ecriture recommande d’éviter avec soin les mauvais entretiens, même
+              particuliers, à cause qu’il est facile de s’y laisser corrompre : <note place="margin"
+                resp="author">1. <hi rend="i">Corinth.</hi> 15. 33.</note> « <quote>Corrumpunt mores
+                bonos colloquia mala.</quote> » Or quels sont les entretiens des Comédiens et des
+              Farceurs ? Ce sont des entretiens publics de corruption, qui ne tendent qu’à la ruine
+              des âmes, et qui sont applaudis, approuvés et autorisés par tous ceux qui y sont
+              présents. Car peut-on être assez déraisonnable, pour attendre des entretiens innocents
+              et modestes de la part d’une troupe de gens, que toutes les Lois Ecclesiastiques et
+              civiles, déclarent infâmes :<note place="margin" resp="author"><hi rend="i">Ulpianus
+                  in leg.</hi> Quod ait. 2. <hi rend="i">ff. de his qui notantur infamiæ.</hi> § 5.
+                  <hi rend="i">lib.</hi> 3. <hi rend="i">tit.</hi> 2.</note> « <quote>Qui in scænam
+                prodierit, infamis est</quote>, dit la Loi.<note place="margin" resp="author"
+                  >« <quote>Scæna est quæ ludorum faciendorum causa, quolibet loco ubi quis
+                  consistat, moveaturque, spectaculum sui præbiturus, posita fit in publico,
+                  privatove, vel in vico, quo tamen loco passim homines spectaculi causa
+                  admittantur</quote> », <hi rend="i">cit.</hi> §. 5.</note> Et que le démon n’a
+              suscités que pour corrompre la pureté des fidèles, sous le spécieux prétexte de les
+              récréer, et pour renverser les véritables maximes de l’Evangile par des maximes
+              contraires, qu’ils tâchent de rendre agréables par leurs bouffonneries et qu’ils font
+              sucer comme le lait, aux gens du monde, dont le cœur est souvent déjà mal
+              disposé ?</p>
+            <p>Revenons au cas proposé et concluons de tout <pb n="745"/>ce que nous venons de dire
+              qu’Aristobule et Marianne sont obligés en conscience de renoncer à la Comédie pour
+              toujours et d’obéir au commandement que le Confesseur leur en fait. Ils doivent,
+              suivant le conseil de Salvien, considérer que les spectacles sont plutôt une mort à
+              l’âme qu’un véritable plaisir. « <quote>Respiciant cuncta quæ diximus, et videant in
+                spectaculis non voluptatem esse, sed mortem.</quote> » Car ils ont beau dire que la
+              coutume a autorisé la Comédie et les Comédiens dans tous les Etats les mieux policés,
+              et que cette coutume est autorisée par les Princes et par les Magistrats : Tout cela
+              ne suffit pas pour les justifier, puisque l’Eglise les condamne et les a toujours
+              condamnés et qu’elle veut qu’on regarde encore aujourd’hui les Comédiens comme des
+              gens excommuniés et qu’on leur refuse les Sacrements et la Sépulture Ecclésiastique.
+              Tout le monde sait que les Pasteurs les dénoncent publiquement pour tels tous les
+              Dimanches au Prône des Messes de Paroisse conformément aux Décrets des anciens
+                Conciles.<note place="margin" resp="author">« <quote>De theatricis et ipsos placuit,
+                  quandiu agunt, à communione separati.</quote> » <hi rend="i">Conc. Arelat.</hi> 1.
+                  <hi rend="i">c.</hi> 5.</note> Au reste, si on les souffre dans un état Chrétien ;
+              ce n’est que comme un moindre mal, qu’on tolère, pour en éviter un plus grand.
+              Ajoutons à cela que la coutume n’est autre chose qu’une ancienne erreur, si elle n’est
+              fondée sur la justice et sur la vérité. « <quote>Consuetudo sine veritate vetustas
+                erroris est</quote> », dit Saint Cyprien.<note place="margin" resp="author"><hi
+                  rend="i">S. Cyprien. Epist.</hi> 74. <hi rend="i">ad Pompeium.</hi>
+                <hi rend="i">Secund. Edit. Pamelii et Dodvuel.</hi></note> Jésus-Christ n’a pas dit
+              qu’il était la coutume, mais qu’il était la vérité. C’est pourquoi ni la longueur du
+              temps, ni l’autorité des personnes, ni les privilèges des nations, n’ont pas la force
+              de rendre légitime une mauvaise coutume. C’est ainsi que raisonne Tertullien :<note
+                place="margin" resp="author">
+                <hi rend="i">Tertull. lib. de Velandis Virgin.</hi></note> « <quote>Hoc exigit
+                veritatem, cui nemo præscribere potest, non spatium temporum, non patrocinia
+                personarum, non privilegium nationum .… Christus veritatem se, non consuetudinem
+                cognominavit.</quote> » Enfin une coutume qui est contraire aux Lois de l’Eglise et
+              aux Constitutions Canoniques n’est d’aucune autorité et est un véritable abus.
+                  « <quote>Consuetudo<seg type="exquote">, dit le Pape Innocent III.<note
+                    place="margin" resp="author"><hi rend="i">Innoc. III. in cap.</hi> Ad nostram.
+                      <hi rend="i">de consuetud. l.</hi> 1. <hi rend="i">tit.</hi> 4.</note>
+                  écrivant à l’Evêque de Poitiers :</seg> Quæ canonicis obviat institutis, nullius
+                debet esse momenti</quote>. »</p>
+            <p>Mais comme les Fauteurs des Comédiens soutiennent, que S. Thomas<note place="margin"
+                resp="author"><hi rend="i">S. Thom.</hi> 2. 2. <hi rend="i">q.</hi> 168. <hi
+                  rend="i">art.</hi> 3. <hi rend="i">ad.</hi> 3.</note> leur est favorable, en ce
+              qu’il semble dire, que la Profession des Comédiens n’est pas mauvaise de sa nature et
+              que l’on peut même contribuer à leur subsistance, pourvu que ce soit d’une manière
+              modérée. « <quote>Officium histrionum<seg type="exquote">, dit-il,</seg> quod
+                ordinatur ad solatium hominibus exhibendum, non est secundum se illicitum, nec sunt
+                in statu peccati ; dummodo moderate ludo utantur ; id est, non utendo aliquibus
+                illicitis verbis, vel factis ad ludum, etc.</quote> » Il est nécessaire qu’on sache
+              que ce Saint Docteur n’entend pas parler des Comédies, telles que les dépeignent les
+              Conciles et les Pères, et telles qu’on les représente encore aujourd’hui, ou comme
+              nous l’avons déjà dit, on ne voit qu’intrigues de mariages, ou d’amourettes et que des
+              paroles équivoques, qui ne tendent qu’à exciter, ou à entretenir les passions les plus
+              déréglées et les plus honteuses. Car peut-on sans faire une injure atroce à ce Saint,
+              lui imputer une doctrine contraire à celle des Conciles et des Pères de tous les
+              siècles ? Et est-il croyable, qu’il ait voulu approuver une Profession, qui rend
+              infâmes et excommuniés ceux qui l’exercent ? Il est donc vrai de dire qu’il ne parle
+              que des seuls jeux de théâtre qui, comme il le dit, sont en quelque manière utiles ou
+              nécessaires au soulagement des peines de la vie, entre lesquels il met les
+              représentations <pb n="746"/>de chasse. Il veut bien qu’on puisse donner quelque chose
+              de modéré à ceux, qui donnent ces sortes de divertissements, qu’il appelle selon le
+              langage ordinaire du théâtre <hi rend="i">Histriones</hi>. Voici comme il parle, non
+              pas par occasion, et comme en passant ainsi qu’il fait dans le passage qu’on objecte ;
+              mais expressément, <hi rend="i">ex professo</hi>, dans un autre ouvrage qu’il avait
+              fait auparavant<note place="margin" resp="author"><hi rend="i">Idem. in</hi> 4. <hi
+                  rend="i">dist.</hi> 16. <hi rend="i">q.</hi> 4. <hi rend="i">art.</hi> 2. <hi
+                  rend="i">quæst.</hi> 2. <hi rend="i">in corp.</hi></note> « <quote>Ad secundam
+                quæstionem dicendum, quod hujusmodi spectacula, si sunt rerum turpium et ad peccatum
+                provocantium, studiosa eorum inspectio peccatum est ; et quandoque in eis tanta
+                potest libido adhiberi, ut sit etiam mortale. Vnde a tali inspectione omnes se
+                arcere debent</quote>. » Voilà quel est le sentiment de ce Saint sur les Comédies,
+              telles qu’on les représente aujourd’hui : après quoi il ajoute… « <quote>Quædam vero
+                spectacula sunt de rebus utilibus et ad vitam necessariis, sicut sunt venationes et
+                cætera hujusmodi : et talia spectacula distrahunt animum. Vnde quamvis possit sine
+                peccato eis intendi, servata discretione debita, quantum ad discretiones personæ et
+                aliarum circumstantiarum ; tamen pœnitenti sunt vitanda, propter hoc, quod debet cor
+                ad Deum collectum habere ; nisi quantum necessitas exposcit.</quote> » Cet Ange de
+              l’Ecole n’a donc garde d’enseigner, qu’on puisse assister aux Comédies dont nous
+              parlons, ni qu’on puisse rien donner à ceux qui les représentent ; puisque tout au
+              contraire il les condamne lui-même avec S. Augustin peu après les paroles qu’objectent
+              les Fauteurs de la Comédie. « <quote>Si qui autem superflua in tales consumunt<seg
+                  type="exquote">, ajoute-t-il,</seg> vel etiam sustentant illos histriones, qui
+                illicitis ludis utuntur, peccant, quasi eos in peccato foventes. Vnde
+                  Augustinus<note place="margin" resp="author"><hi rend="i">S. Aug. tract.</hi> 100.
+                    <hi rend="i">in Joan. ante med.</hi></note> dicit super Joannem, quod donare res
+                suas histrionibus, vitium est immane.</quote> »</p>
+          </div>
+        </div>
+        <div type="chapter">
+          <head>CAS II.</head>
+          <p>Licinius Farceur et Comédien, connu publiquement pour tel, s’étant présenté à Pâques à
+            la Communion à la vue de tous ceux qui assistaient aux Divins Offices ; Ignace son Curé,
+            la lui a refusée, dont Lucinius s’est fort scandalisé. Ce Curé a-t-il pu en conscience
+            la lui refuser en public, malgré le scandale qu’il prévoyait bien devoir en
+            arriver ?</p>
+          <div type="section">
+            <head><hi rend="sc">Réponse.</hi></head>
+            <p>Puisque ce Comédien est connu publiquement pour tel, Ignace a pu et a même dû lui
+              refuser la Communion, après néanmoins lui avoir demandé publiquement s’il s’était
+              confessé et avait renoncé pour toujours à sa Profession. Car autrement, comme dit
+              Saint Cyprien en son Epître à Eucratius,<note place="margin" resp="author"><hi
+                  rend="i">S. Cyprien, in can.</hi> Pro dilectione. 95. <hi rend="i">de censecras.
+                  dist.</hi> 2.</note> c’est offenser la Majesté de Dieu profaner la sainteté et la
+              gloire de son Eglise et violer les règles de l’Evangile, que de permettre qu’elles
+              soient souillées par la communication de personnes si indignes et si infâmes.
+                « <quote>Puto nec Majestati Divinæ, nec Evangelicæ disciplinæ congruere, ut pudor et
+                honor Ecclesiæ tam turpi et infami contagione fœdetur.</quote> » On ne doit donc
+              recevoir ces sortes de gens à la grâce de la réconciliation et de la Communion,
+              qu’après qu’ils ont donné des marques assurées d’une véritable conversion, ainsi que
+              le déclare le troisième Concile de Carthage, tenu en l’an 397.<note place="margin"
+                resp="author"><hi rend="i">Cont. Carthage.</hi> 111. <hi rend="i">c.</hi> 35. <hi
+                  rend="i">in can.</hi> Scænicis. 96. <hi rend="i">cad. dist.</hi></note> dont le
+              Décret est conçu en ces termes : « <quote>Scænicis atque histrionibus, cæterisque
+                hujusmodi personis, vel Apostaticis conversis, vel reversis ad Dominum, gratia, vel
+                reconciliatio non negetur.</quote> »<note place="margin" resp="author">De Gen.
+                theol. mor. tom. 2. trait. 4. c. 8. n. 5.</note></p>
+          </div>
+        </div>
+        <div type="chapter">
+          <pb n="747"/>
+          <head>CAS III.</head>
+          <p>Philometor, Comédien, connu publiquement pour tel, étant malade au lit de la mort, et
+            n’ayant pas voulu promettre de renoncer à sa Profession, quelque instance que son curé
+            lui en ait faite, est mort sans recevoir les Sacrements, ce Curé les lui ayant refusés.
+            Sur quoi l’on demande deux choses. La première, si le Curé a pu les lui refuser, le
+            voyant prêt de mourir. La seconde, si étant mort en cet état, le Curé peut sans péché
+            refuser à son corps la sépulture Ecclésiastique ; principalement, s’il a donné
+            d’ailleurs des marques qu’il était repentant de ses péchés ?</p>
+          <div type="section">
+            <head><hi rend="sc">Réponse.</hi></head>
+            <p>Pour répondre en peu de mots à ces deux difficultés, il faut présupposer que, comme
+              nous l’avons dit en répondant au premier cas, les Comédiens sont excommuniés. C’est ce
+              qui est évident 1°. par le cinquième Canon du premier Concile d’Arles que nous avons
+              cité. 2°. Par l’Epître que S. Cyprien écrit à Eucratius, qui l’avait consulté, pour
+              savoir comment il se devait comporter à l’égard d’un certain Comédien qui avait à la
+              vérité quitté le théâtre, mais qui continuait à enseigner sa Profession à d’autres :
+              sur quoi ce Saint Martyr répond que cet homme-là doit être regardé et traité comme un
+                excommunié.<note place="margin" resp="author"><hi rend="i">S. Cyprien. in can.</hi>
+                Pro dilectione. 95. <hi rend="i">cit. dist.</hi> 2. <hi rend="i">de
+                consecrat</hi>.</note> Voici ses termes. « <quote>Consulendum me existimasti, frater
+                carissime, quid mihi videatur de histrione quodam, qui, apud vos constitutus, in
+                ejusdem adhuc artis suæ dedecore perseverat et Magister et Doctor, non erudiendorum,
+                sed perdendorum puerorum, id, quod male didicit, cæteris quoque insinuat, an talis
+                debeat communicare nobiscum ; puto, nec Majestati Divinæ, nec Evangelicæ disciplinæ
+                congruere, ut pudor et honor Ecclesiæ tam turpi et tam infami contagione fæletur…
+                nec excuset se quisquam, si à theatro ipse cessaverit, cum tamen hoc cæteros
+                doceat.</quote> » 3°. Par le Concile appelé <hi rend="i">quini sextum</hi> ou <hi
+                rend="i">in trullo</hi>,<note place="margin" resp="author"><hi rend="i">Conc. in
+                  trullo. can.</hi> 51.</note> assemblé sur la fin du septième siècle, lequel défend
+              aux laïques sous peine d’excommunication d’exercer la Profession de Comédien et de
+              représenter des spectacles. « <quote>Omnino prohibet hæc sancta et universalis
+                  Synodus<seg type="exquote">, disent les Pères de ce Concile,</seg> eos qui
+                dicuntur mimi et eorum spectacula… atque in scæna saltationes fieri. Si quis autem
+                præsentem canonem contempserit, et se alicui eorum, quæ sunt vetita, dederit ; si
+                sit quidem clericus ; deponatur : si vero laïcus 3. segregetur.</quote> »</p>
+            <p>Nous pouvons ajouter, que les Lois Civiles mêmes sont conformes en ce point à celles
+              de l’Eglise, comme on le peut voir par celles des Empereurs Valentinien, Valens et
+              Gratien, dont une est trop remarquable, pour ne la pas rapporter ici toute entière. La
+                voici :<note place="margin" resp="author"><hi rend="i">Lib.</hi> 15. <hi rend="i"
+                  >Cod. Theodos. tit.</hi> 7. <hi rend="i">de Scænicis. tom.</hi> 5.</note>
+                « <quote>Scænici et scænicæ, qui ultimo vitæ, necessitate cogente interitus
+                imminentis ad Dei summi sacramenta properarunt, si fortassis evaserint, nulla post
+                hac in theatralis spectaculi conventione revocentur. Ante omnia tamen diligenti
+                observari ac teneri sanctione jubemus, ut vere et in extremo periculo constituti, id
+                pro salute poscentes, si tamen antistites probant, beneficii consequantur. Quod ut
+                fideliter fiat, statim eorum ad judices, si in præsenti sunt, vel curatores urbium
+                singularum, desiderium perferatur : quod ut, inspectoribus missis, sedula
+                exploratione quæratur, an indulgeri his necessitas poscat extrema
+              suffragia.</quote> » Voilà une Loi expresse, qui prouve évidemment, que ces Empereurs,
+              non plus que <pb n="748"/>les Evêques, ne voulaient pas qu’on admit aux Sacrements les
+              Comédiens, quoiqu’ils se trouvassent malades au lit de la mort, à moins qu’ils ne
+              fissent une promesse authentique, entre les mains des Magistrats, de ne plus jamais
+              exercer leur Profession ; et que même en ce cas, on ne leur donnât les Sacrements, que
+              lorsque les Evêques le trouveraient à propos ; c’est-à-dire, qu’encore qu’on ne leur
+              refusât pas l’absolution, quand ils donnaient des marques d’une sincère pénitence on
+              ne leur accordait néanmoins la sainte Communion qu’avec l’approbation de l’Evêque.</p>
+            <p>Cela étant ainsi, il est constant que le Curé de <hi rend="i">Philometor</hi> a fait
+              son devoir, en lui refusant les Sacrements à cause de l’opiniâtreté, où il était, de
+              vouloir persévérer dans sa Profession de Comédien : et que par une suite indispensable
+              il a dû refuser à son corps la sépulture Ecclésiastique ; puisqu’elle n’est due qu’à
+              ceux qui meurent dans la Communion de l’Eglise : il est inutile de dire, que ce
+              Comédien a d’ailleurs témoigné de la douleur de ses péchés, à moins qu’il n’ait
+              détesté sa Profession et n’ait promis d’y renoncer pour toujours : ses autres péchés
+              n’ayant pas pu lui être remis pendant qu’il conservait de l’affection pour celui dont
+              sa profession le rendait coupable. D’ailleurs on ne doit pas accorder la sépulture
+              Ecclésiastique aux pécheurs publics, ainsi qu’il est porté par le Rituel Romain, et
+              par plusieurs autres. D’où il s’ensuit qu’on doit donc la refuser aux Comédiens, qui
+              meurent sans donner des marques d’une sincère pénitence, puisqu’ils exercent
+              publiquement une Profession criminelle.</p>
+          </div>
+        </div>
+        <div type="chapter">
+          <head>CAS IV.</head>
+          <p>Il y a dans la ville de Milan un Monastère de Religieux, qui, quoique non réformés,
+            mènent une vie fort réglée et très édifiante. Ces Religieux ont coutume de se donner
+            trois ou quatre fois par chaque année la récréation de représenter par eux-mêmes, et
+            entre eux seuls, dans une Salle particulière quelques pièces de théâtre sur des sujets
+            de piété : et pour cela ils se servent des vêtements, dont on use à la Comédie et à
+            l’Opéra, et qu’ils louent moyennant une somme qu’ils paient à celui qui les a en garde.
+            L’un s’habille en Roi ; l’autre en Princesse ; l’autre en Courtisan ; l’autre en
+            Accusateur ; l’autre en Juge ; ou de quelque autre manière, selon le rôle qu’il doit
+            faire. Sur quoi on demande si ces Religieux commettent en cela quelque péché, et quel il
+            est ?</p>
+          <div type="section">
+            <head><hi rend="sc">Réponse.</hi></head>
+            <p>Pour décider cette difficulté, qui nous fut proposée le 18. Novembre 1716. par une
+              personne qui nous est inconnue, nous supposons avec saint Thomas,<note place="margin"
+                resp="author"><hi rend="i">S. Thom.</hi> 2. 3. <hi rend="i">q.</hi> 169. <hi
+                  rend="i">art.</hi> 3. <hi rend="i">ad. 3.</hi></note> parlant des vêtements dont
+              chacun doit se servir par rapport à son sexe et à son état, que c’est une action
+              vicieuse et condamnable de sa nature, qu’un homme se travestisse en femme ou une femme
+              en homme. « <quote>De se vitiosum est, quod mulier utatur veste virili ; et è
+                converso</quote> ». A moins que ce ne soit peut-être pour une cause nécessaire et
+              importante, telle que le serait celle, où il s’agirait de sauver sa vie, son honneur,
+              ou sa liberté. « <quote>Potest tamen hoc fieri sine peccato propter aliquam
+                necessitatem, vel causa se occultandi ab hostibus, vel propter defectum alterius
+                vestimenti, vel propter aliud hujusmodi.</quote> » C’est l’exception que ce saint
+              Docteur mit à la règle générale qu’il vint d’établir. Nous savons bien <pb n="749"
+              />que saint Thomas ne parle là et ailleurs,<note place="margin" resp="author"><hi
+                  rend="i">Idem.</hi> 1. 2. <hi rend="i">q.</hi> 102. <hi rend="i">art.</hi> 6. <hi
+                  rend="i">ad.</hi> 6.</note> que la différence qu’il doit y avoir entre les
+              habillements ordinaires qui sont propres aux deux sexes, et qu’il ne spécifie pas le
+              changement qui s’en fait dans la représentation des pièces de théâtre ; mais la maxime
+              qu’il établit, en disant, que c’est une chose mauvaise de sa nature, <hi rend="i">de
+                se vitiosum est</hi>, que les hommes se travestissent en femmes, ou les femmes en
+              hommes, suffit pour condamner cette pratique, excepté dans le cas de nécessité, où la
+              Loi n’oblige pas. Cela étant supposé comme une vérité constante, nous ne croyons pas
+              qu’on puisse excuser de péché très grief les Religieux, dont il s’agit dans l’espèce
+              proposée : et cela pour plusieurs raisons.</p>
+            <p>La première : parce que cette sorte de récréation étant par elle-même et par ses
+              circonstances entièrement mondaine, et de la nature de celles que prennent les seules
+              personnes du siècle, elle ne peut en aucune manière convenir à des Religieux, qui par
+              la régularité de leur conduite, et par la sainteté de leur état doivent être très
+              éloignés des maximes et des pratiques du monde, auxquelles ils ont absolument renoncé
+              par leur profession solennelle.</p>
+            <p>La seconde : parce qu’il n’est jamais permis à des Religieux de se dépouiller de leur
+              habit pour peu de temps, sous prétexte d’une plus grande commodité dans une récréation
+              même licite ; tel qu’est le jeu de boule en particulier. A plus forte raison doit-on
+              dire, qu’il ne leur est donc pas permis de s’en dépouiller pour se revêtir d’habits de
+              théâtre, ni même d’en couvrir les leurs en les mettant par-dessus leurs robes : ces
+              habits n’étant propres qu’à des gens que l’Eglise regarde comme excommuniés.</p>
+            <p>La troisième est qu’il est moralement impossible, que ces Religieux puissent se
+              donner un tel divertissement, sans que cela vienne à la connaissance de quelques
+              Novices, ou de quelques domestiques séculiers : et qu’ainsi ils ne leur causent
+              quelque scandale, ou à ceux qui le pourront apprendre d’eux dans la suite. Qu’on ne
+              nous dise pas, que ces sortes de divertissements se font d’une manière si secrète,
+              qu’il n’est pas possible que les gens du dehors en puissent avoir connaissance ; car
+              nous savons le contraire : puisqu’un Prêtre qui avait été Religieux dans un Ordre qui
+              a de la réputation, nous a assure que cela s’y pratiquait dans le temps qu’il y
+              était ; et il n’y a pas un mois qu’un Docteur de Sorbonne nous assura, que celui qui
+              est le Maître de ces habits de théâtre, lui dit au mois de Janvier de cette année
+              1717. qu’il en avait fourni à une autre Communauté Religieuse, d’un Ordre même
+              réformé, pour représenter dans le Convent une pièce de cette nature.</p>
+            <p>La quatrième est, qu’il ne paraît guère possible que ces Religieux puissent
+              emprunter, ou louer ces sortes d’habits, des personnes qui les ont sous leur garde,
+              sans leur donner quelque occasion de curiosité, et de juger de l’usage qu’ils en
+              veulent <pb n="750"/>faire : ce qui ne peut leur donner qu’une fort mauvaise
+              édification de leur conduite, et les porter à les décrier et à s’en entretenir avec
+              d’autres séculiers, qu’on sait n’être déjà d’ailleurs que trop portés au mépris des
+              Prêtres et des Religieux par le seul endroit que la vie à laquelle leur état les
+              engage, condamne les maximes et la conduite des gens du siècle.</p>
+            <p>La cinquième qui doit frapper davantage tout esprit raisonnable, est, qu’il est
+              honteux et indigne de la sainteté de l’état d’un Religieux, qu’il se travestisse en
+              femme, en Roi, ou en Courtisan, et qu’en cela il représente un personnage qui ne
+              convient qu’à des Arlequins, et à des Bouffons.</p>
+            <p>Nous ne voulons rien dire de la mollesse et du peu de retenue, où s’engagent souvent
+              ceux qui ne font point de scrupule de se laisser aller à un tel excès, et nous nous
+              contentons de déclarer notre sentiment, qui est, que ces Religieux ne peuvent en
+              conscience, et sans un péché fort grief continuer à prendre une telle récréation.</p>
+            <p>Nous pouvons joindre à ces raisons l’autorité d’un Concile, tenu à Cologne en 1549.
+              qui défend aux Religieuses de faire représenter des pièces de théâtre dans leurs
+              Monastères, bien que ce soit des sujets de piété.<note place="margin" resp="author"
+                  ><hi rend="i">Conc. colon.</hi> 2. <hi rend="i">Decreto</hi> 17.</note>
+                « <quote>Quæ spectacula, etiamsi de rebus sacris et piis exhiberentur ; parum tamen
+                boni, mali vero plurimum relinquere in sanctimonialium mentibus possunt, gestus
+                externos spectantibus et mirantibus … ideo vetamus et prohibemus posthac, vel
+                Comœdos admitti in virginum Monasteria, vel virgines Comœdias, spectare.</quote> »
+              Ce sont les termes du Concile, qui ne doivent pas moins regarder les Religieux que les
+              Religieuses, et qui condamnent encore plus ceux dont il s’agit dans l’espèce
+              proposée ; puisqu’ils sont eux-mêmes les Acteurs de la Comédie.</p>
+            <p>Tout ce que nous venons de dire ne doit pas tirer à conséquence contre les Tragédies,
+              qui se représentent dans plusieurs Collèges. 1°. Parce que ce ne sont pas des
+              Religieux qui représentent les différents personnages qui y paraissent ; mais des
+              écoliers séculiers. 2°. Parce que cet exercice est très utile aux jeunes gens, tant
+              pour fortifier leur mémoire, que pour les rendre plus hardis à parler un jour en
+              public, soit dans la Chaire ou au Barreau. 3°. Parce que l’espérance de remporter
+              quelques-uns des prix, qu’on y distribue à la fin à ceux qui les ont mérités, les
+              porte à étudier avec plus de soin. 4°. Parce qu’enfin on n’y voit point de garçons
+              travestis en femmes ; et que tout s’y passe dans la modestie, et sans que personne
+              s’en scandalise.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

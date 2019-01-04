@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr"
   xml:id="rolland-du-plessis_remonstrances-au-roi_1588">
   <teiHeader>
     <fileDesc>
@@ -21,6 +21,7 @@
         </respStmt>
         <respStmt>
           <name>Thomas Soury</name>
+          <resp>XML-TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -29,21 +30,31 @@
         <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/rolland-du-plessis_remontrances-au-roi_1588/</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-            <p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
-            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
-            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
-            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+            <p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
+              « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons : «
+              Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC
+              BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures. La
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <author>Nicolas Rolland du Plessis</author>,
-          <title>Remonstrance tres-humbles au Roy de France et de Pologne Henry troisiesme de ce nom, par un sien fidelle Officier et subject, sur les desordres et miseres de ce Royaume, cause d'icelles, et moyens d'y pourvoir à la gloire de Dieu et repos universel de cet Estat</title>,
-          <date>1588</date>,
-          <biblScope>p. 128-135</biblScope>.
-        </bibl>
+          <author>Nicolas Rolland du Plessis</author>, <title>Remonstrance tres-humbles au Roy de
+            France et de Pologne Henry troisiesme de ce nom, par un sien fidelle Officier et
+            subject, sur les desordres et miseres de ce Royaume, cause d'icelles, et moyens d'y
+            pourvoir à la gloire de Dieu et repos universel de cet Estat</title>, <date>1588</date>,
+            <biblScope>p. 128-135</biblScope>. </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -59,16 +70,129 @@
     <body>
       <div type="chapter">
         <head rend="small">[FRONTISPICE]</head>
-        <p rend="center">REMONSTRAN-<lb/>CES TRES-HUMBLES<lb/> AU ROY DE FRANCE ET<lb/>de Pologne Henry troisiesme<lb/> de ce nom, par un sien fidelle<lb/> Officier et subject, sur les desor-<lb/>dres et miseres de ce Royaume,<lb/> cause d'icelles, et moyens d'y<lb/> pourvoir à la gloire de Dieu et<lb/> repos universel de cet Estat<lb/>. . . . <lb/>MDLXXXVIII.</p></div>
-        <div>
-        <pb n="128"/><p>Il y a encore un autre grand mal qui se commet et tolère<note resp="editor" place="bottom">[NDE] tolère = se tolère.</note>, principalement en votre <pb n="129"/>ville de Paris, aux jours des Dimanches et fêtes, lequel est d’autant plus grand préjudice à l’honneur de Dieu, et à la sanctification de ses fêtes que aucun autre, et qui est plein d’un si grand abus, que je l’estime (avec les plus sages) suffisant pour attrainer<note resp="editor" place="bottom">[NDE] attrainer = apporter, attirer.</note> toutes les malédictions de Dieu sur vous et sur votre Royaume, spécialement sur ladite ville de Paris<note resp="author" place="margin">Jeux et spectacles tolérés dans Paris aux jours de fêtes.</note>, où telle méchanceté est plus autorisée qu’en autre lieu de votre Royaume. Ce sont les jeux et spectacles publics qui se font lesdits jours de fêtes et Dimanches, tant par des étrangers Italiens que par des Français, et par-dessus tous, ceux qui se font en une Cloaque et maison de Satan nommée l’hôtel de Bourgogne<note resp="author" place="margin">Jeux abominables de l’hôtel de Bourgogne.</note>, par ceux qui abusivement se disent Confrères de la Passion de Jésus-Christ.</p>
-        <p>En ce lieu se donnent mille assignations scandaleuses au préjudice de l’honnêteté et pudicité des femmes<note resp="author" place="margin">Maux qui adviennent des jeux de l’hôtel de Bourgogne.</note>, et à la ruine des familles des pauvres artisans, desquels la salle basse est toute pleine, et lesquels plus de deux <pb n="130"/>heures avant le jeu, passent leur temps en devis impudiques, en jeux de cartes et de dés, en gourmandise et ivrognerie tout publiquement, d’où viennent plusieurs querelles et batteries<note resp="editor" place="bottom"> [NDE] batteries = bagarres.</note>. Sur l’échafaud l’on y dresse des autels chargés de Croix et ornements Ecclésiastiques, l’on y représente des Prêtres revêtus de surplis, même aux farces impudiques, pour faire mariages de risées : L’on y lit le texte de l’Evangile en chant Ecclésiastique, pour, (par occasion,) y rencontrer un mot à plaisir qui sert au jeu : Et au surplus il n’y a farce qui ne soit orde sale et vilaine, au scandale de la jeunesse qui y assiste, laquelle avale à longs traits ce venin et poison, qui se couve en sa poitrine, et en peu de temps opère les effets, que chacun sait et voit trop fréquemment.</p>
-        <p>Par ce moyen Dieu est grandement offensé<note resp="author" place="margin">Dieu et le public sont offensés par les jeux de l’hôtel de Bourgogne.</note>, tant en ladite transgression des fêtes, que par les susdits blasphèmes, jeux et impudicités qui s’y commettent. Davantage Dieu y est courroucé en l’abus et profanation des <pb n="131"/>choses saintes, dont ils se servent. Et le public intéressé par la débauche et jeux des artisans. Joint que telle impiété est entretenue des deniers d’une confrérie, qui devraient être employés à la nourriture des pauvres, principalement en ces temps èsquels il fait si cher vivre, et auquel<note resp="editor" place="bottom">[NDE] Se réfère à ces temps.</note> plusieurs meurent de faim.</p>
-        <p>Or (<hi rend="sc">Sire</hi>) Toute cette ordure est maintenant par vous : car vous leur avez donné vos lettres de permission pour continuer cet abus encommencé devant votre règne<note resp="author" place="margin">Le Roi a donné ses lettres de permission pour continuer les jeux de Bourgogne.</note> : vous avez mandé à votre Cour de Parlement et Prévôt de Paris de les faire jouir du contenu en vos lettres. Ce qu’ils ont très bien exécuté, ayant maintenu un tel abus contre Dieu et la défense des Pasteurs Ecclésiastiques<note resp="author" place="margin">Les magistrats ont entériné lettres de permission contre la défense des Pasteurs Ecclésiastiques.</note>, et nonobstant la clameur universelle de tous les prédicateurs de Paris, lesquels continuent encore journellement de s’en plaindre, mais en vain, n’ayant pu pour tout obtenir sinon une défense de jouer durant une année, pour recommencer au bout de l’an <pb n="132"/>plus que devant. C’est un grand désordre certainement, que l’on a journellement si grande peine à obtenir vos lettres pour choses de justice, et quand on les a obtenues, la plus grande peine est en la vérification<note resp="author" place="margin">Lettres du Roi sont aisément impétrées et vérifiées ès choses qui sont contre Dieu.</note>, exécution et jouissance du fruit d’icelles, dont on ne peut venir à bout : et toutefois pour telles moqueries et vilenies qui sont contre le commandement de Dieu, vos lettres et les arrêts ne manquent point. Jugez (Sire) si cela est faire justice.</p>
-        <p>Ceux qui défendent telles choses disent une seule raison d’apparence, à savoir que tels jeux et spectacles, sont bons pour le menu peuple, afin de le détourner des berlans<note resp="editor" place="bottom">[NDE] berlan - maison de jeu, de boisson.</note> et autres débauches qu’il fait lesdits jours de fête<note resp="author" place="margin">Raisons de ceux qui défendent et soutiennent les jeux aux jours de fêtes.</note>, auquel il est oisif, et que après avoir travaillé toute la semaine en peine et tristesse<note resp="author" place="margin">Réfutation desdites raisons.</note>, cela lui sert de réjouissance et plaisir, et le retire d’autres vices plus grands : froide et maigre considération, par laquelle cuidant<note resp="editor" place="bottom">[NDE] cuidant = croyant.</note> fuir un gouffre, l’on tombe dans un autre plus dangereux. Premièrement je leur <pb n="133"/>demanderais, s’il est raisonnable de prendre son plaisir, et se réjouir au préjudice, du commandement de Dieu<note resp="author" place="margin">On ne se doit jamais réjouir au préjudice du commandement de Dieu.</note>, qui veut être servi tout le jour de la fête, par prières et assistance au service public, lequel est délaissé pour aller à ces jeux, et quelle Théologie est-ce, de dire que les fêtes sont pour réjouir le peuple<note resp="author" place="margin">Les fêtes ne sont ordonnées pour réjouir le peuple.</note> ? Dieu dit le contraire en l’écriture Sainte, l’âme (dit-il) laquelle ne sera affligée au jour de la fête périra<note resp="editor" place="bottom">[NDE] périra = sera chassé de, sera perdu.</note> de mon peuple. Ils disent que le peuple est oiseux<note resp="editor" place="bottom">[NDE] oiseux = oisif.</note> aux jours de fête : et qui l’empêche de s’occuper en bonnes œuvres, d’aller au sermon, et d’ouïr le service tout le jour ? en ce faisant il ne sera point oisif.</p>
-        <p>Davantage ils disent, que par faute de se réjouir honnêtement, le peuple s’adonne aux jeux de berlans et autres vices, et qu’ils ruinent leurs familles, (comme si c’était un plaisir honnête que d’aller aux spectacles le jour de la fête en transgressant le commandement de Dieu, les saints canons de l’Eglise<note resp="author" place="margin">Aller aux Jeux publics le jour de la fête est contre les lois divines et humaines.</note>, et les lois humaines <pb n="134"/>qui le défendent. La loi dit tit. de feriis au Cod. qu’il n’est point permis de passer le jour de la fête en aucune volupté : et l’Empereur auteur de cette Loi le défend expressément : d’où il appert<note resp="editor" place="bottom">[NDE] il appert = il est évident.</note> que aller et assister aux jeux et spectacles le jour de la fête, est transgresser les lois divines et humaines : ce n’est donc pas un plaisir honnête.</p>
-        <p>Au surplus je demande si pour aller à ces spectacles le peuple est moins vicieux et corrompu<note resp="author" place="margin">Les spectacles corrompent les mœurs du peuple.</note>, s’il en hante moins de berlans, vu que la salle de ce maudit hôtel de Bourgogne, lorsque l’on y joue est toute pleine de berlans et de joueurs de cartes et de dés, et outre cela les fossés de Paris ne laissent pas d’être remplis de tireurs de arquebuses et d’arcs, de joueurs de quilles, de courte-boulle<note resp="editor" place="bottom">[NDE] C'est le jeu de boules, celui qui est encore pratiqué aujourd'hui.</note>, de cartes et de dés, sans aucun châtiment du Magistrat. Les considérations susdites sont donc frivoles pour soutenir telle méchanceté. Car votre peuple ne laisse pas d’être oisif, vicieux, et corrompu, tant par ces mêmes spectacles, que par <pb n="135"/>l’impunité et négligence du Magistrat. Aussi jamais ne fut un si arrogant et méchant peuple<note resp="author" place="margin">Le menu peuple de France est arrogant et méchant.</note> qu’est le menu peuple des villes de France, principalement de Paris, lequel mâtine<note resp="editor" place="bottom">[NDE] mâtiner = maltraiter.</note> tout le monde, s’échappant des charges et cotisations lesquelles tombent entièrement sur les médiocres<note resp="editor" place="bottom">[NDE] médiocres = gens ordinaires.</note> des villes et aux champs, sur plus pauvres cent fois que ne sont telles manières de gens Artisans, vivant assurément dans les villes plus francs que les Gentilshommes.</p>
-        <p>C’est ce qui rend ce menu peuple si superbe en habits<note resp="author" place="margin">Le menu peuple de France superbe en habits.</note>, et plus pompeux que n’étaient anciennement les grands marchands : et voilà comment ces jeux de l’Hôtel de Bourgogne ont bien opéré pour retirer le peuple des vices, voilà la profession de piété qui se fait à Paris sous votre autorité, et de vos Magistrats : voilà la désobéissance générale par tout votre Royaume au Commandement de Dieu écrit en la première table, lesquels<note resp="editor" place="bottom">[NDE] Se réfère aux Commandements de Dieu.</note> ne regardent que Dieu, son honneur, et son service.</p>
+        <p rend="center">REMONSTRAN-<lb/>CES TRES-HUMBLES<lb/> AU ROY DE FRANCE ET<lb/>de Pologne
+          Henry troisiesme<lb/> de ce nom, par un sien fidelle<lb/> Officier et subject, sur les
+          desor-<lb/>dres et miseres de ce Royaume,<lb/> cause d'icelles, et moyens d'y<lb/>
+          pourvoir à la gloire de Dieu et<lb/> repos universel de cet Estat<lb/>. . . .
+          <lb/>MDLXXXVIII.</p>
+      </div>
+      <div>
+        <pb n="128"/>
+        <p>Il y a encore un autre grand mal qui se commet et tolère<note resp="editor"
+            place="bottom">[NDE] tolère = se tolère.</note>, principalement en votre <pb n="129"
+          />ville de Paris, aux jours des Dimanches et fêtes, lequel est d’autant plus grand
+          préjudice à l’honneur de Dieu, et à la sanctification de ses fêtes que aucun autre, et qui
+          est plein d’un si grand abus, que je l’estime (avec les plus sages) suffisant pour
+            attrainer<note resp="editor" place="bottom">[NDE] attrainer = apporter, attirer.</note>
+          toutes les malédictions de Dieu sur vous et sur votre Royaume, spécialement sur ladite
+          ville de Paris<note resp="author" place="margin">Jeux et spectacles tolérés dans Paris aux
+            jours de fêtes.</note>, où telle méchanceté est plus autorisée qu’en autre lieu de votre
+          Royaume. Ce sont les jeux et spectacles publics qui se font lesdits jours de fêtes et
+          Dimanches, tant par des étrangers Italiens que par des Français, et par-dessus tous, ceux
+          qui se font en une Cloaque et maison de Satan nommée l’hôtel de Bourgogne<note
+            resp="author" place="margin">Jeux abominables de l’hôtel de Bourgogne.</note>, par ceux
+          qui abusivement se disent Confrères de la Passion de Jésus-Christ.</p>
+        <p>En ce lieu se donnent mille assignations scandaleuses au préjudice de l’honnêteté et
+          pudicité des femmes<note resp="author" place="margin">Maux qui adviennent des jeux de
+            l’hôtel de Bourgogne.</note>, et à la ruine des familles des pauvres artisans, desquels
+          la salle basse est toute pleine, et lesquels plus de deux <pb n="130"/>heures avant le
+          jeu, passent leur temps en devis impudiques, en jeux de cartes et de dés, en gourmandise
+          et ivrognerie tout publiquement, d’où viennent plusieurs querelles et batteries<note
+            resp="editor" place="bottom"> [NDE] batteries = bagarres.</note>. Sur l’échafaud l’on y
+          dresse des autels chargés de Croix et ornements Ecclésiastiques, l’on y représente des
+          Prêtres revêtus de surplis, même aux farces impudiques, pour faire mariages de risées :
+          L’on y lit le texte de l’Evangile en chant Ecclésiastique, pour, (par occasion,) y
+          rencontrer un mot à plaisir qui sert au jeu : Et au surplus il n’y a farce qui ne soit
+          orde sale et vilaine, au scandale de la jeunesse qui y assiste, laquelle avale à longs
+          traits ce venin et poison, qui se couve en sa poitrine, et en peu de temps opère les
+          effets, que chacun sait et voit trop fréquemment.</p>
+        <p>Par ce moyen Dieu est grandement offensé<note resp="author" place="margin">Dieu et le
+            public sont offensés par les jeux de l’hôtel de Bourgogne.</note>, tant en ladite
+          transgression des fêtes, que par les susdits blasphèmes, jeux et impudicités qui s’y
+          commettent. Davantage Dieu y est courroucé en l’abus et profanation des <pb n="131"
+          />choses saintes, dont ils se servent. Et le public intéressé par la débauche et jeux des
+          artisans. Joint que telle impiété est entretenue des deniers d’une confrérie, qui
+          devraient être employés à la nourriture des pauvres, principalement en ces temps èsquels
+          il fait si cher vivre, et auquel<note resp="editor" place="bottom">[NDE] Se réfère à ces
+            temps.</note> plusieurs meurent de faim.</p>
+        <p>Or (<hi rend="sc">Sire</hi>) Toute cette ordure est maintenant par vous : car vous leur
+          avez donné vos lettres de permission pour continuer cet abus encommencé devant votre
+            règne<note resp="author" place="margin">Le Roi a donné ses lettres de permission pour
+            continuer les jeux de Bourgogne.</note> : vous avez mandé à votre Cour de Parlement et
+          Prévôt de Paris de les faire jouir du contenu en vos lettres. Ce qu’ils ont très bien
+          exécuté, ayant maintenu un tel abus contre Dieu et la défense des Pasteurs
+            Ecclésiastiques<note resp="author" place="margin">Les magistrats ont entériné lettres de
+            permission contre la défense des Pasteurs Ecclésiastiques.</note>, et nonobstant la
+          clameur universelle de tous les prédicateurs de Paris, lesquels continuent encore
+          journellement de s’en plaindre, mais en vain, n’ayant pu pour tout obtenir sinon une
+          défense de jouer durant une année, pour recommencer au bout de l’an <pb n="132"/>plus que
+          devant. C’est un grand désordre certainement, que l’on a journellement si grande peine à
+          obtenir vos lettres pour choses de justice, et quand on les a obtenues, la plus grande
+          peine est en la vérification<note resp="author" place="margin">Lettres du Roi sont
+            aisément impétrées et vérifiées ès choses qui sont contre Dieu.</note>, exécution et
+          jouissance du fruit d’icelles, dont on ne peut venir à bout : et toutefois pour telles
+          moqueries et vilenies qui sont contre le commandement de Dieu, vos lettres et les arrêts
+          ne manquent point. Jugez (Sire) si cela est faire justice.</p>
+        <p>Ceux qui défendent telles choses disent une seule raison d’apparence, à savoir que tels
+          jeux et spectacles, sont bons pour le menu peuple, afin de le détourner des berlans<note
+            resp="editor" place="bottom">[NDE] berlan - maison de jeu, de boisson.</note> et autres
+          débauches qu’il fait lesdits jours de fête<note resp="author" place="margin">Raisons de
+            ceux qui défendent et soutiennent les jeux aux jours de fêtes.</note>, auquel il est
+          oisif, et que après avoir travaillé toute la semaine en peine et tristesse<note
+            resp="author" place="margin">Réfutation desdites raisons.</note>, cela lui sert de
+          réjouissance et plaisir, et le retire d’autres vices plus grands : froide et maigre
+          considération, par laquelle cuidant<note resp="editor" place="bottom">[NDE] cuidant =
+            croyant.</note> fuir un gouffre, l’on tombe dans un autre plus dangereux. Premièrement
+          je leur <pb n="133"/>demanderais, s’il est raisonnable de prendre son plaisir, et se
+          réjouir au préjudice, du commandement de Dieu<note resp="author" place="margin">On ne se
+            doit jamais réjouir au préjudice du commandement de Dieu.</note>, qui veut être servi
+          tout le jour de la fête, par prières et assistance au service public, lequel est délaissé
+          pour aller à ces jeux, et quelle Théologie est-ce, de dire que les fêtes sont pour réjouir
+          le peuple<note resp="author" place="margin">Les fêtes ne sont ordonnées pour réjouir le
+            peuple.</note> ? Dieu dit le contraire en l’écriture Sainte, l’âme (dit-il) laquelle ne
+          sera affligée au jour de la fête périra<note resp="editor" place="bottom">[NDE] périra =
+            sera chassé de, sera perdu.</note> de mon peuple. Ils disent que le peuple est
+            oiseux<note resp="editor" place="bottom">[NDE] oiseux = oisif.</note> aux jours de
+          fête : et qui l’empêche de s’occuper en bonnes œuvres, d’aller au sermon, et d’ouïr le
+          service tout le jour ? en ce faisant il ne sera point oisif.</p>
+        <p>Davantage ils disent, que par faute de se réjouir honnêtement, le peuple s’adonne aux
+          jeux de berlans et autres vices, et qu’ils ruinent leurs familles, (comme si c’était un
+          plaisir honnête que d’aller aux spectacles le jour de la fête en transgressant le
+          commandement de Dieu, les saints canons de l’Eglise<note resp="author" place="margin"
+            >Aller aux Jeux publics le jour de la fête est contre les lois divines et
+            humaines.</note>, et les lois humaines <pb n="134"/>qui le défendent. La loi dit tit. de
+          feriis au Cod. qu’il n’est point permis de passer le jour de la fête en aucune volupté :
+          et l’Empereur auteur de cette Loi le défend expressément : d’où il appert<note
+            resp="editor" place="bottom">[NDE] il appert = il est évident.</note> que aller et
+          assister aux jeux et spectacles le jour de la fête, est transgresser les lois divines et
+          humaines : ce n’est donc pas un plaisir honnête.</p>
+        <p>Au surplus je demande si pour aller à ces spectacles le peuple est moins vicieux et
+            corrompu<note resp="author" place="margin">Les spectacles corrompent les mœurs du
+            peuple.</note>, s’il en hante moins de berlans, vu que la salle de ce maudit hôtel de
+          Bourgogne, lorsque l’on y joue est toute pleine de berlans et de joueurs de cartes et de
+          dés, et outre cela les fossés de Paris ne laissent pas d’être remplis de tireurs de
+          arquebuses et d’arcs, de joueurs de quilles, de courte-boulle<note resp="editor"
+            place="bottom">[NDE] C'est le jeu de boules, celui qui est encore pratiqué
+            aujourd'hui.</note>, de cartes et de dés, sans aucun châtiment du Magistrat. Les
+          considérations susdites sont donc frivoles pour soutenir telle méchanceté. Car votre
+          peuple ne laisse pas d’être oisif, vicieux, et corrompu, tant par ces mêmes spectacles,
+          que par <pb n="135"/>l’impunité et négligence du Magistrat. Aussi jamais ne fut un si
+          arrogant et méchant peuple<note resp="author" place="margin">Le menu peuple de France est
+            arrogant et méchant.</note> qu’est le menu peuple des villes de France, principalement
+          de Paris, lequel mâtine<note resp="editor" place="bottom">[NDE] mâtiner =
+            maltraiter.</note> tout le monde, s’échappant des charges et cotisations lesquelles
+          tombent entièrement sur les médiocres<note resp="editor" place="bottom">[NDE] médiocres =
+            gens ordinaires.</note> des villes et aux champs, sur plus pauvres cent fois que ne sont
+          telles manières de gens Artisans, vivant assurément dans les villes plus francs que les
+          Gentilshommes.</p>
+        <p>C’est ce qui rend ce menu peuple si superbe en habits<note resp="author" place="margin"
+            >Le menu peuple de France superbe en habits.</note>, et plus pompeux que n’étaient
+          anciennement les grands marchands : et voilà comment ces jeux de l’Hôtel de Bourgogne ont
+          bien opéré pour retirer le peuple des vices, voilà la profession de piété qui se fait à
+          Paris sous votre autorité, et de vos Magistrats : voilà la désobéissance générale par tout
+          votre Royaume au Commandement de Dieu écrit en la première table, lesquels<note
+            resp="editor" place="bottom">[NDE] Se réfère aux Commandements de Dieu.</note> ne
+          regardent que Dieu, son honneur, et son service.</p>
       </div>
     </body>
   </text>

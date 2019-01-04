@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lemarcant_conduite-du-vrai-chretien_1694" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lemarcant_conduite-du-vrai-chretien_1694"
+  xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,9 +20,11 @@
         </respStmt>
         <respStmt>
           <name>Chiara Mainardi</name>
+          <resp>XML-TEI</resp>
         </respStmt>
         <respStmt>
           <name>Ludivine Rey</name>
+          <resp>XML-TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -30,11 +32,26 @@
         <date when="2015"/>
         <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/lemarcant_conduite-du-vrai-chrétien_1694/</idno>
         <availability status="restricted">
-          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d'Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l'OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d'Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l'OBVIL et surtout l'adresse Internet de la ressource.</p><p>Pas d'Utilisation Commerciale : dans l'intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l'OBVIL s'engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n'est pas souhaitable.</p></licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2014
+              Université Paris-Sorbonne, agissant pour le Laboratoire d'Excellence « Observatoire de
+              la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique
+              protégée par le code de la propriété intellectuelle sur les bases de données (L341-1)
+              est mise à disposition de la communauté scientifique internationale par l'OBVIL, selon
+              les termes de la licence Creative Commons : « Attribution - Pas d'Utilisation
+              Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution
+              : afin de référencer la source, toute utilisation ou publication dérivée de cette
+              ressource électroniques comportera le nom de l'OBVIL et surtout l'adresse Internet de
+              la ressource.</p><p>Pas d'Utilisation Commerciale : dans l'intérêt de la communauté
+              scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification :
+              l'OBVIL s'engage à améliorer et à corriger cette ressource électronique, notamment en
+              intégrant toutes les contributions extérieures. La diffusion de versions modifiées de
+              cette ressource n'est pas souhaitable.</p></licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Jean Le Marcant</author>, <title>La conduite du vrai chrétien</title>, <pubPlace>Paris</pubPlace>, <publisher>E. Couterot</publisher>, <date>1694</date>, <biblScope>p. 415-434 : 456-465</biblScope>.</bibl>
+        <bibl><author>Jean Le Marcant</author>, <title>La conduite du vrai chrétien</title>,
+            <pubPlace>Paris</pubPlace>, <publisher>E. Couterot</publisher>, <date>1694</date>,
+            <biblScope>p. 415-434 : 456-465</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -50,40 +67,328 @@
     <body>
       <div>
         <head rend="small">[FRONTISPICE]</head>
-        <p rend="center"><hi rend="uc">La Conduite<lb/>du vray<lb/>chrétien<lb/>dans la sanctification<lb/>des dimanches<lb/>et des festes<lb/><lb/>A Paris</hi><lb/>Chez <hi rend="sc">Edme Couterot</hi>, ruë Saint <lb/>Jacques, au bon Pasteur.<lb/>M DC XCIV.<lb/><hi rend="sc">Avec Privilege du Roy.</hi></p></div>
-        <div type="chapter">
-          <pb n="415"/><head>ARTICLE V.<lb/></head>
-        <head type="sub">Qui sont ceux qui pèchent contre la sanctification des Dimanches et des Fêtes, bien qu’ils y aient entendu la Messe, et se soient abstenus du travail</head>
-          <p>[...]</p>
-          <div2>
-            <pb n="422"/><head>Des Bateleurs, Comédiens, et Tabarins.</head>
-            <p>Voici une troisième sorte de violateurs et de pécheurs publics auxquels Messieurs les Juges devraient s’opposer, parce qu’il y va de la gloire de Dieu, de l’honneur de l’Eglise, et du bien des fidèles ; et ne le faisant pas, ils participent à tous les crimes qu’ils commettent et font commettre ; ce sont les Comédiens, Tabarins, Bateleurs et Vagabonds, lesquels autorisés par Messieurs les Magistrats, perdent une infinité d’âmes par leurs sales représentations et discours impudiques. Je ne prétends pas condamner absolument toutes les Comédies, non plus que ceux qui y assistent, étant vrai qu’il s’en peut faire, et s’en est fait plusieurs, desquelles on est sorti sans être aucunement souillé ni blessé par les paroles qu’on y a entendues, ni par les actions qu’on y a vues, parce que tout y était fort honnête, et fort retenu ; ni celles qui ne sont que pour donner quelque récréation à l’esprit, et qui <pb n="423"/>sont hors de tout péril. Je ne puis pas accuser de péché ceux qui y assistent, à moins que leur état et leur condition ne les en dût empêcher. Je n’en ai que contre ceux dont je viens de parler, lesquels par leurs sales paroles, actions et gestes impudiques, empoisonnent les âmes : ce qui fait qu’on les doit fuir, et qu’on ne les peut entendre sans crime. C’est pour cela qu’ils étaient tellement en horreur parmi les Romains, que non seulement ils étaient privés des honneurs auxquels les Citoyens pouvaient aspirer ; mais encore ils étaient marqués par les Censeurs, d’une marque qui les rendait infâmes : c’était aussi pourquoi Saint Cyprien ne voulait pas qu’on les reçût à la participation des Sacrements ; et l’Eglise assemblée au sixième Concile général, qui est le troisième de Constantinople en 681. a défendu à tous Ecclésiastiques soit réguliers ou séculiers, de se trouver jamais aux jeux publics et spectacles, et que s’ils sont convaincus d’y avoir assisté, ils soient excommuniés et privés de toutes charges en l’Eglise<note place="margin" resp="author">Canon 23.</note> : et le saint Evêque de Marseille Salvian, assure que ces sortes de gens qui tiennent le Théâtre, <pb n="424"/>ont toujours été en telle aversion, que de son temps<note place="margin" resp="author">De proced. Lib. 6. </note> la pratique était en France, qu’aux renonciations qui se font au saint Baptême, on y ajoutait celle des spectacles et des Comédies lascives. C’est ce qui a obligé S. Cyprien à se plaindre si fort de ces Bateleurs et Tabarins, en disant, « <quote>Hélas ! en quel malheureux siècle sommes-nous, on ne commet pas seulement le crime ; mais on l’enseigne ? que peut-on dire de plus déplorable ? On apprend l’adultère en le voyant ; et avec la douceur de l’autorité publique, la personne qui était entrée chaste à la comédie, s’en retourne chez elle toute impudique.</quote> » C'est donc l’autorité des Magistrats qui concourt à ces grands maux, et à la perte des âmes, par la permission et le consentement qu’ils donnent à ces farceurs et bateleurs : c’est leur permettre d’arracher les âmes d’entre les mains de Dieu, pour les rendre les esclaves du diable. Si donc 1a maxime de S. Grégoire demeure constante, comme il n’y a pas lieu d’en douter, que celui qui peut empêcher le crime, et ne l’empêche pas, se rend coupable du même crime : qui pourra exempter Messieurs les Gens <pb n="425"/>du Roi, de tous les péchés que commettent et font commettre dans leur Ville, ces sortes de gens ; vue que non seulement ils le peuvent empêcher, mais de plus qu’ils y sont obligés par leurs Charges ? Qu’ils ne nous allèguent point que ces gens là ont la permission du Prince : s’il connaissait que toute leur intention n’est que pour tirer de l’argent de ses sujets, et pour cela se servir des moyens les plus infâmes ; il ne leur accorderait jamais cette permission. Mais pour faire voir que ce n’est qu’un prétexte de la part des Magistrats ; combien y a-t-il de Juges et autres Gens du Roi, qui ne les ont jamais voulu souffrir dans leur Ville, et qui n’ont pas pu voir qu’à la sortie de la Messe, des Vêpres, ou du Sermon, on trouvât un Théâtre dressé, comme un Autel pour le Diable, contre Jésus-Christ, pour détruire en une heure de temps tous les bons sentiments que les Prédications avaient fait naître dans les âmes pendant toute une semaine. Cependant qu’en est-il arrivé à ces Juges Chrétiens, sinon la bénédiction des gens de bien ? Il ne faut donc qu’un peu de vrai Christianisme ; il ne faut <pb n="426"/>qu’un peu de zèle pour son salut et pour celui des autres, afin de bannir ces ennemis de la vertu et de l’honnêteté : que Messieurs les Magistrats se donnent la peine d’entendre le Saint Esprit, qui leur parle et qui leur crie, « <quote>apprenez Juges, ouvrez, les oreilles, vous qui tenez sous votre autorité, les multitudes, et qui vous plaisez dans les pouvoirs que vous avez sur les Troupes, apprenez deux choses, la premières que toute votre puissance vient de Dieu, la seconde que ce même Dieu vous demandera compte de toutes vos œuvres, et fondera jusqu’à la moindre de vos pensées, par la raison que vous ayant établi les Ministres de son Royaume, vous n’avez point observé la Loi de la Justice ni marché selon sa volonté : ce qui fait qu’en peu de temps il vous apparaîtra d’une manière terrible, et vous fera demeurer d’accord que le jugement contre ceux qui président aux autres, sera effroyable </quote>» : Que répondra donc à Dieu le Juge qui aura contribué à la perte des âmes, par la permission injuste qu’il aura donnée à ces persécuteurs de la vertu ? n’aura-t-il point assez à faire à rendre compte de ses propres péchés, sans se voir obligé à rendre <pb n="427"/>raison de ceux des autres ? N’est ce pas aussi pour cela, Messieurs les Magistrats, que le Saint Esprit vous dit par la bouche du Prophète, « <quote>jusqu’à quand jugerez-vous injustement, et aurez-vous égard à la personne des pécheurs ?</quote> » Je sais bien que quelques-uns entendent cette répréhension, de la criminelle conduite des Juges, lesquels pour asseoir leurs Jugements, n’envisagent ni la Loi, ni le mérite de la cause ni leur propre conscience, mais seulement la qualité des personnes : si c’est un homme puissant dont ils puissent attendre du service, un ami qu’ils veulent obliger, un parent pour le favoriser, ou quelque autre dont on espère de la gratification : mais je n’ignore pas aussi, que ces paroles, « <quote>jusqu’à quand aurez-vous égard à la personne des pécheurs</quote> », ne doivent être expliquées que de l’injustice que commettent ces Messieurs, donnant leur consentement et leur approbation à des pécheurs publics, tels que sont pour l’ordinaire ceux qui tiennent le Théâtre, et qui ne trouvent leur accommodement, que dans la perte des autres. Si Dieu ordonne aux Juges par la bouche du même Prophète de prendre le parti <pb n="428"/>des pauvres, contre l’oppression des méchants, et si pour leur infidélité à cet ordre, il dit, que « <quote>les fondements de la terre sont ébranlés</quote> », c’est-à-dire, les Provinces et les Royaumes dans le trouble et le renversement, par l’occasion que leur faiblesse ou leur lâcheté donne à l’insolence, aux vols, aux pillages, et aux meurtres, appuyés sur l’espérance de l’impunité ; que leur dira-t-il, s’il se trouve que non seulement ils aient été l’occasion de la perte des âmes, mais qu’ils y aient actuellement contribué, comme en effet ils y contribuent, puisque c’est par leur ordre que les Théâtres sont dressés, que ceux qui corrompent les mœurs, y paraissent effrontément, et que Dieu y est outragé publiquement et impunément : qui pourra, je vous prie, mettre à couvert les Juges de si grands maux, vu que c’est leur criminelle tolérance qui en est la source ?</p>
-          <p>Je remarque encore deux choses bien considérables, que le Prophète adresse aux Juges : la première est quand il les appelle « <quote>des Dieux et les fils du Souverain</quote> » : et la seconde, lors qu’il leur dit, « <quote>qu’ils mourront comme des hommes</quote> » : car par les premières paroles, il leur représente <pb n="429"/>qu’ils sont revêtus de la puissance de Dieu ; que c’est de lui seul qu’ils tiennent leur autorité sur les autres, et qu’ils sont enfants de Dieu non seulement par adoption, comme le reste des hommes, en tant que unis à Dieu par la foi et par la grâce, mais encore par leur établissement dans leurs Charges, par celui qui est le seul et vrai Dieu, au pouvoir duquel ils participent. Or si le Prophète appelle les Juges, « <quote>des Dieux, et les enfants de Dieu</quote> », n’est ce pas pour les engager doucement et agréablement à se conduire dans l’exercice de leurs Charges chrétiennement, saintement de sans reproche ; puisque ce serait une chose tout à fait honteuse, que des personnes si élevées et qui portent des qualités si glorieuses, se laissassent aller à des injustices, qui leur fissent changer leur nom de Dieux, en celui d’Antéchrists ? car, de grâce, quelle est la pratique, quelle est la fin, quel est le fruit de ces gens qui paraissent sur les Théâtres, sinon les mêmes que l’Ecriture marque de cet homme de perdition, et dont ils sont les avant-coureurs, à savoir d’arracher les âmes d’entre les mains de Dieu, pour les faire les<pb n="430"/>esclaves de Satan, par la liberté que Messieurs les Juges leur ont donnée ?</p>
-          <p>«<quote> Vous mourrez comme des hommes</quote> », ajoute le Prophète parlant aux Juges, comme s’il disait, vous ne mourrez pas comme Juges, comme Pasteurs et Supérieurs des autres, mais comme hommes qui n’aurez aucune autorité non plus que le dernier des mortels, et qui serez traités avec toute sorte de mépris, de confusion et de peines, parce que la grandeur du châtiment se prendra de la grandeur des grâces que vous aurez reçues : le haut rang que vous tenez dans le monde ne vous exemptera ni de la mort, ni du jugement, ni des tourments qui sont préparés à ceux qui président, et qui ont abusé de leur autorité, comme font les Juges qui préfèrent la satisfaction d’un Tabarin, d’un Jodelet, et d’un faquin, à la gloire de Dieu, à l’honneur de son Eglise, et au salut des âmes qui sont le prix du Sang de Jésus-Christ : Pensez-y, Messieurs, il y va de vôtre éternité.</p>
-          </div2>
-          <div2>
-        <pb n="431"/><head>De l’assistance aux Théâtres</head>
-         <p>Ce ne sont pas seulement les gens du commun qui assistent aux spectacles pour y entendre les Comédiens, ou les Bateleurs ; mais aussi le plus souvent les personnes de condition, sans se mettre en peine s’ils violent les jours dédiés à Dieu, se persuadant, comme j’ai dit, qu’il leur suffit d’avoir entendu la sainte Messe, et de s’être abstenus du travail, pour bien célébrer ces saints jours : ce qui fait qu’ils ne font aucun scrupule de se rendre aux théâtres et aux farces publiques pendant ces célébrités. Je sais bien qu’il ne leur est pas plus permis de s’y rencontrer les autres jours ; mais je marque ici particulièrement les Dimanches et les Fêtes, pour satisfaire au sujet que je traite, comme aussi parce que c’est ces saints jours qu’on emploie plus ordinairement à ces pernicieux divertissements. Ce que je viens de dire touchant Messieurs les Gens du Roi, qui souffrent les Bateleurs et Comédiens, devrait suffire pour détourner un chacun de ces honteuses <pb n="432"/>assemblées : cependant pour ne rien omettre dans une matière si importante, et où il y va tant du salut, je veux y ajouter quelque chose en faveur de ceux qui peut-être ne connaissent pas assez à quel étrange péril de leur salut ils s’engagent, en assistant à ces spectacles.</p>
-          <p>Je ne dirai rien de moi sur ce sujet, me contentant de faire parler ceux qui en ont écrit avec tant de force et de justice : écoutez-donc, mon cher Lecteur, quel a été le sentiment de saint Cyprien<note place="margin" resp="author">Epist. ad Donat., lib. 2 [<hi rend="i">Epître à Donat</hi>, livre 2].</note>, qui dit que « <quote>tels spectacles d’adultères, d’homicides, de larcins, lubriquement et salement représentés, sont pernicieux et sacrilèges , et que souvent telle femme qui était allée pudique aux spectacles, en retourne impudique</quote> » : Tertullien ne doit rien sur ce sujet à saint Cyprien ; car si nous lui demandons qu’est-ce que le Théâtre ? il nous répondra en propres termes, que « <quote>c’est le temple des Diables<note place="margin" resp="author">Lib. de Spect. [Tertullien, Des<hi rend="i"> spectacles</hi>].</note></quote> ». Il ne faut donc pas douter qu’ils n’y président, puis qu’il leur est dédié, et que ce qui s’y fait ne leur soit très agréable. C’est pour cela que saint Augustin dit, que « <quote>donner de l’argent aux Bateleurs est un vice cruel <pb n="433"/>et détestable</quote> ». Le même Tertullien que je viens de citer, parlant de la scène et de l’échafaud des Farceurs, l’appelle « <quote>la sacristie de Vénus, le consistoire de l’impudicité, l’arsenal de toute vilenie, qui prend sa grâce et sa gaité, de l’ordure et de la saleté</quote> », parce que la voix des Bateleurs, leurs gestes et leurs habits de parade, allument des étincelles de lubricité dans le cœur de ceux qui les écoutent et qui les regardent.</p>
-          <p>Saint Chrysostome en une Homélie de la Pénitence, nomme le Théâtre, « <quote>la boutique commune de la luxure, le collège public de l’incontinence, l’échafaud de l’impudicité, et la fournaise de Babylone<note place="margin" resp="author">Homélie 8.</note> </quote>» : Lactance Firmien Précepteur de Crispe fils du Grand Constantin, dans son <hi rend="i">Livre des divines institutions</hi>, parlant des Bateleurs, dit « <quote>qu’ils débitent une discipline de corruption</quote> ». Si je ne craignais point de faire trop de confusion à ces Bourgeoises, à ces Demoiselles et Dames qui ont tant d’inclination pour les spectacles, lesquelles plaignent bien moins vingt ou trente sols pour les Farceurs, qu’elles ne font un double qu’elles donnent assez rarement à un pauvre ; je leur ferais encore entendre saint <pb n="434"/>Cyprien, lequel parlant des exercices des bateleurs, les nomme « <quote>un lieu infâme, <hi rend="i">publici pudoris lupanarium</hi></quote> », où l’on perd la pudeur et la pudicité, « <quote>l’école et la maîtresse de toute impudicité</quote> » : Saint Augustin sur les Psaumes, parlant des spectacles, les appelle « <quote>les greniers de l’impudicité</quote> ». Après tous les sentiments de ces grands et saints personnages, dites-moi, je vous prie, Messieurs les Gentilshommes, dites-moi, je vous prie, Mesdames, Bourgeois, Bourgeoises, qui que vous soyez, n’aurez-vous point d’horreur désormais de passer les après-dînées entières dans ces assemblées si pernicieuses, pour y perdre votre argent, votre temps, la pureté de votre corps, et l’intégrité de vos mœurs ? Si la marque à laquelle on reconnaissait les Chrétiens au rapport de Tertullien, était la fuite des Théâtres et des spectacles ; qui pourra, Messieurs et Mesdames, se persuader que vous professez la même Religion que ces premiers Chrétiens, que vous êtes imbus des mêmes maximes, que vous suivez le même Evangile, et que vous aspirez à la même gloire, si l’on vous voit encore dans ces assemblées impies, et assis dans <pb n="435"/>les chaises de pestilence ? Mais si ces spectacles vous sont défendus en toutes sortes de jours, combien davantage les devez-vous fuir dans les Dimanches et les Fêtes ? car n’est-ce pas profaner ces saints jours ? n’est-ce pas les dérober à Dieu, pour les consacrer au Diable ? n’est-ce pas faire une profession publique que vous n’êtes Chrétiens et Chrétiennes que de nom, puisque vous aimez mieux employer deux ou trois heures aux spectacles, qu’une demi-heure à l’Eglise, pour vous disposer à une bonne Communion ? Ne vous vantez donc plus d’avoir saintement célébré les Fêtes ou les Dimanches, parce que vous y avez entendu la sainte Messe, et que vous vous êtes abstenus du travail, puisqu’il est vrai que vous les avez violés autant de fois, que vous vous êtes rendus à ces pernicieuses assemblées : vous y avez plus déshonoré Dieu cent fois, que vous ne l’avez honoré par la Messe que vous avez entendue : il vous regarde donc comme autant de profanateurs des jours qui lui sont dédiés, et vous châtiera sur ce point selon vos démérites.</p>
-          </div2>
+        <p rend="center"><hi rend="uc">La Conduite<lb/>du vray<lb/>chrétien<lb/>dans la
+            sanctification<lb/>des dimanches<lb/>et des festes<lb/><lb/>A Paris</hi><lb/>Chez <hi
+            rend="sc">Edme Couterot</hi>, ruë Saint <lb/>Jacques, au bon Pasteur.<lb/>M DC
+            XCIV.<lb/><hi rend="sc">Avec Privilege du Roy.</hi></p>
+      </div>
+      <div type="chapter">
+        <pb n="415"/>
+        <head>ARTICLE V.<lb/></head>
+        <head type="sub">Qui sont ceux qui pèchent contre la sanctification des Dimanches et des
+          Fêtes, bien qu’ils y aient entendu la Messe, et se soient abstenus du travail</head>
+        <p>[...]</p>
+        <div>
+          <pb n="422"/>
+          <head>Des Bateleurs, Comédiens, et Tabarins.</head>
+          <p>Voici une troisième sorte de violateurs et de pécheurs publics auxquels Messieurs les
+            Juges devraient s’opposer, parce qu’il y va de la gloire de Dieu, de l’honneur de
+            l’Eglise, et du bien des fidèles ; et ne le faisant pas, ils participent à tous les
+            crimes qu’ils commettent et font commettre ; ce sont les Comédiens, Tabarins, Bateleurs
+            et Vagabonds, lesquels autorisés par Messieurs les Magistrats, perdent une infinité
+            d’âmes par leurs sales représentations et discours impudiques. Je ne prétends pas
+            condamner absolument toutes les Comédies, non plus que ceux qui y assistent, étant vrai
+            qu’il s’en peut faire, et s’en est fait plusieurs, desquelles on est sorti sans être
+            aucunement souillé ni blessé par les paroles qu’on y a entendues, ni par les actions
+            qu’on y a vues, parce que tout y était fort honnête, et fort retenu ; ni celles qui ne
+            sont que pour donner quelque récréation à l’esprit, et qui <pb n="423"/>sont hors de
+            tout péril. Je ne puis pas accuser de péché ceux qui y assistent, à moins que leur état
+            et leur condition ne les en dût empêcher. Je n’en ai que contre ceux dont je viens de
+            parler, lesquels par leurs sales paroles, actions et gestes impudiques, empoisonnent les
+            âmes : ce qui fait qu’on les doit fuir, et qu’on ne les peut entendre sans crime. C’est
+            pour cela qu’ils étaient tellement en horreur parmi les Romains, que non seulement ils
+            étaient privés des honneurs auxquels les Citoyens pouvaient aspirer ; mais encore ils
+            étaient marqués par les Censeurs, d’une marque qui les rendait infâmes : c’était aussi
+            pourquoi Saint Cyprien ne voulait pas qu’on les reçût à la participation des
+            Sacrements ; et l’Eglise assemblée au sixième Concile général, qui est le troisième de
+            Constantinople en 681. a défendu à tous Ecclésiastiques soit réguliers ou séculiers, de
+            se trouver jamais aux jeux publics et spectacles, et que s’ils sont convaincus d’y avoir
+            assisté, ils soient excommuniés et privés de toutes charges en l’Eglise<note
+              place="margin" resp="author">Canon 23.</note> : et le saint Evêque de Marseille
+            Salvian, assure que ces sortes de gens qui tiennent le Théâtre, <pb n="424"/>ont
+            toujours été en telle aversion, que de son temps<note place="margin" resp="author">De
+              proced. Lib. 6. </note> la pratique était en France, qu’aux renonciations qui se font
+            au saint Baptême, on y ajoutait celle des spectacles et des Comédies lascives. C’est ce
+            qui a obligé S. Cyprien à se plaindre si fort de ces Bateleurs et Tabarins, en disant,
+              « <quote>Hélas ! en quel malheureux siècle sommes-nous, on ne commet pas seulement le
+              crime ; mais on l’enseigne ? que peut-on dire de plus déplorable ? On apprend
+              l’adultère en le voyant ; et avec la douceur de l’autorité publique, la personne qui
+              était entrée chaste à la comédie, s’en retourne chez elle toute impudique.</quote> »
+            C'est donc l’autorité des Magistrats qui concourt à ces grands maux, et à la perte des
+            âmes, par la permission et le consentement qu’ils donnent à ces farceurs et bateleurs :
+            c’est leur permettre d’arracher les âmes d’entre les mains de Dieu, pour les rendre les
+            esclaves du diable. Si donc 1a maxime de S. Grégoire demeure constante, comme il n’y a
+            pas lieu d’en douter, que celui qui peut empêcher le crime, et ne l’empêche pas, se rend
+            coupable du même crime : qui pourra exempter Messieurs les Gens <pb n="425"/>du Roi, de
+            tous les péchés que commettent et font commettre dans leur Ville, ces sortes de gens ;
+            vue que non seulement ils le peuvent empêcher, mais de plus qu’ils y sont obligés par
+            leurs Charges ? Qu’ils ne nous allèguent point que ces gens là ont la permission du
+            Prince : s’il connaissait que toute leur intention n’est que pour tirer de l’argent de
+            ses sujets, et pour cela se servir des moyens les plus infâmes ; il ne leur accorderait
+            jamais cette permission. Mais pour faire voir que ce n’est qu’un prétexte de la part des
+            Magistrats ; combien y a-t-il de Juges et autres Gens du Roi, qui ne les ont jamais
+            voulu souffrir dans leur Ville, et qui n’ont pas pu voir qu’à la sortie de la Messe, des
+            Vêpres, ou du Sermon, on trouvât un Théâtre dressé, comme un Autel pour le Diable,
+            contre Jésus-Christ, pour détruire en une heure de temps tous les bons sentiments que
+            les Prédications avaient fait naître dans les âmes pendant toute une semaine. Cependant
+            qu’en est-il arrivé à ces Juges Chrétiens, sinon la bénédiction des gens de bien ? Il ne
+            faut donc qu’un peu de vrai Christianisme ; il ne faut <pb n="426"/>qu’un peu de zèle
+            pour son salut et pour celui des autres, afin de bannir ces ennemis de la vertu et de
+            l’honnêteté : que Messieurs les Magistrats se donnent la peine d’entendre le Saint
+            Esprit, qui leur parle et qui leur crie, « <quote>apprenez Juges, ouvrez, les oreilles,
+              vous qui tenez sous votre autorité, les multitudes, et qui vous plaisez dans les
+              pouvoirs que vous avez sur les Troupes, apprenez deux choses, la premières que toute
+              votre puissance vient de Dieu, la seconde que ce même Dieu vous demandera compte de
+              toutes vos œuvres, et fondera jusqu’à la moindre de vos pensées, par la raison que
+              vous ayant établi les Ministres de son Royaume, vous n’avez point observé la Loi de la
+              Justice ni marché selon sa volonté : ce qui fait qu’en peu de temps il vous apparaîtra
+              d’une manière terrible, et vous fera demeurer d’accord que le jugement contre ceux qui
+              président aux autres, sera effroyable </quote>» : Que répondra donc à Dieu le Juge qui
+            aura contribué à la perte des âmes, par la permission injuste qu’il aura donnée à ces
+            persécuteurs de la vertu ? n’aura-t-il point assez à faire à rendre compte de ses
+            propres péchés, sans se voir obligé à rendre <pb n="427"/>raison de ceux des autres ?
+            N’est ce pas aussi pour cela, Messieurs les Magistrats, que le Saint Esprit vous dit par
+            la bouche du Prophète, « <quote>jusqu’à quand jugerez-vous injustement, et aurez-vous
+              égard à la personne des pécheurs ?</quote> » Je sais bien que quelques-uns entendent
+            cette répréhension, de la criminelle conduite des Juges, lesquels pour asseoir leurs
+            Jugements, n’envisagent ni la Loi, ni le mérite de la cause ni leur propre conscience,
+            mais seulement la qualité des personnes : si c’est un homme puissant dont ils puissent
+            attendre du service, un ami qu’ils veulent obliger, un parent pour le favoriser, ou
+            quelque autre dont on espère de la gratification : mais je n’ignore pas aussi, que ces
+            paroles, « <quote>jusqu’à quand aurez-vous égard à la personne des pécheurs</quote> »,
+            ne doivent être expliquées que de l’injustice que commettent ces Messieurs, donnant leur
+            consentement et leur approbation à des pécheurs publics, tels que sont pour l’ordinaire
+            ceux qui tiennent le Théâtre, et qui ne trouvent leur accommodement, que dans la perte
+            des autres. Si Dieu ordonne aux Juges par la bouche du même Prophète de prendre le parti
+              <pb n="428"/>des pauvres, contre l’oppression des méchants, et si pour leur infidélité
+            à cet ordre, il dit, que « <quote>les fondements de la terre sont ébranlés</quote> »,
+            c’est-à-dire, les Provinces et les Royaumes dans le trouble et le renversement, par
+            l’occasion que leur faiblesse ou leur lâcheté donne à l’insolence, aux vols, aux
+            pillages, et aux meurtres, appuyés sur l’espérance de l’impunité ; que leur dira-t-il,
+            s’il se trouve que non seulement ils aient été l’occasion de la perte des âmes, mais
+            qu’ils y aient actuellement contribué, comme en effet ils y contribuent, puisque c’est
+            par leur ordre que les Théâtres sont dressés, que ceux qui corrompent les mœurs, y
+            paraissent effrontément, et que Dieu y est outragé publiquement et impunément : qui
+            pourra, je vous prie, mettre à couvert les Juges de si grands maux, vu que c’est leur
+            criminelle tolérance qui en est la source ?</p>
+          <p>Je remarque encore deux choses bien considérables, que le Prophète adresse aux Juges :
+            la première est quand il les appelle « <quote>des Dieux et les fils du
+            Souverain</quote> » : et la seconde, lors qu’il leur dit, « <quote>qu’ils mourront comme
+              des hommes</quote> » : car par les premières paroles, il leur représente <pb n="429"
+            />qu’ils sont revêtus de la puissance de Dieu ; que c’est de lui seul qu’ils tiennent
+            leur autorité sur les autres, et qu’ils sont enfants de Dieu non seulement par adoption,
+            comme le reste des hommes, en tant que unis à Dieu par la foi et par la grâce, mais
+            encore par leur établissement dans leurs Charges, par celui qui est le seul et vrai
+            Dieu, au pouvoir duquel ils participent. Or si le Prophète appelle les Juges,
+              « <quote>des Dieux, et les enfants de Dieu</quote> », n’est ce pas pour les engager
+            doucement et agréablement à se conduire dans l’exercice de leurs Charges chrétiennement,
+            saintement de sans reproche ; puisque ce serait une chose tout à fait honteuse, que des
+            personnes si élevées et qui portent des qualités si glorieuses, se laissassent aller à
+            des injustices, qui leur fissent changer leur nom de Dieux, en celui d’Antéchrists ?
+            car, de grâce, quelle est la pratique, quelle est la fin, quel est le fruit de ces gens
+            qui paraissent sur les Théâtres, sinon les mêmes que l’Ecriture marque de cet homme de
+            perdition, et dont ils sont les avant-coureurs, à savoir d’arracher les âmes d’entre les
+            mains de Dieu, pour les faire les<pb n="430"/>esclaves de Satan, par la liberté que
+            Messieurs les Juges leur ont donnée ?</p>
+          <p>«<quote> Vous mourrez comme des hommes</quote> », ajoute le Prophète parlant aux Juges,
+            comme s’il disait, vous ne mourrez pas comme Juges, comme Pasteurs et Supérieurs des
+            autres, mais comme hommes qui n’aurez aucune autorité non plus que le dernier des
+            mortels, et qui serez traités avec toute sorte de mépris, de confusion et de peines,
+            parce que la grandeur du châtiment se prendra de la grandeur des grâces que vous aurez
+            reçues : le haut rang que vous tenez dans le monde ne vous exemptera ni de la mort, ni
+            du jugement, ni des tourments qui sont préparés à ceux qui président, et qui ont abusé
+            de leur autorité, comme font les Juges qui préfèrent la satisfaction d’un Tabarin, d’un
+            Jodelet, et d’un faquin, à la gloire de Dieu, à l’honneur de son Eglise, et au salut des
+            âmes qui sont le prix du Sang de Jésus-Christ : Pensez-y, Messieurs, il y va de vôtre
+            éternité.</p>
         </div>
-        <div type="chapter">
-          <pb n="456"/><head>ARTICLE VI.</head>
-          <head type="sub">S’il n’est point permis de se recréer et divertir les jours de Fêtes et Dimanches<lb/>(…)</head>
-          <p>[...]</p>
-          <div2>
-          <pb n="459"/><head>Quels sont les divertissements ordinaires de la plus grande partie des chrétiens pendant les Dimanches et les Fêtes.</head>
-          <p>Il me semble qu’on peut réduire ces divertissements à cinq principaux, à savoir, les théâtres et comédies, le jeu, les régals, la chasse, et les visites : ce sont-là, à mon avis, les seuls divertissements de la plupart des Chrétiens pendant les jours des Dimanches et des Fêtes. Reste donc à examiner si ces sortes de divertissements sont licites, et s’ils ne sont point accompagnés de circonstances et défauts qui les rendent illicites et condamnables ; et pour cet effet considérons-les, et les regardons dans l’esprit, et selon la règle des plus saints hommes qui nous aient précédés.</p></div2>
-          <div2>
-          <pb n="460"/><head>Des Théâtres.</head>
-          <p>J’ai déjà parlé des spectacles, théâtres et comédies, et je croirais avoir assez dit, pour n’y devoir rien ajouter, si la matière dont il s’agit ne m’y engageait, et si le mal que traînent après eux les théâtres, ne m’y forçait, vu même que c’est ce malheureux et funeste divertissement après lequel courent les Chrétiens d’aujourd’hui, et à quoi ils emploient la plus grande partie des Fêtes et des Dimanches. J'ai marqué ci-devant, en parlant de la comédie, qu’il y en avait d’honnêtes, et éloignées de toutes paroles et actions malfaisantes, auxquelles on pourrait assister, supposé que quelques circonstances ne dussent pas s’y opposer. C’est donc des spectacles infâmes où l’on ne voit, et on n’entend que postures méfiantes et déshonnêtes, et paroles équivoques, quelquefois même brutales, dont j’ai eu dessein de parler ; et c’est encore sur ceux-là mêmes sur lesquels, mon cher Lecteur, je veux <pb n="461"/>vous faire entendre derechef les sentiments de ceux qui les ont regardés dans l’esprit de Dieu.</p>
-          <p>Le Saint Evêque de Marseille, Salvian, parlant des spectacles, dans le sixième livre qu’il a fait du gouvernement de Dieu, est fort éloigné de les faire passer pour divertissements, puisqu’il les condamne avec tant de chaleur : voici ses propres termes : « <quote>Aller aux théâtres<seg type="exquote">, dit ce Saint,</seg> est une espèce d’apostasie de la foi, une prévarication mortelle de ses Symboles et célestes Sacrements </quote>» : car, de grâce, quelle est la première confession que font les Chrétiens, lorsqu’ils sont admis au Sacrement salutaire du Baptême, si ce n’est dire et protester, qu’ils renoncent au diable, à ses pompes, aux spectacles que tu reconnais et confesses être des œuvres du diable ? Tu as une fois renoncé au diable et à ses spectacles ; ainsi il s’ensuit nécessairement qu’allant aux spectacles à dessein et de propos délibéré tu retournes en effet à ton premier maître qui est le diable : car ayant en même temps renoncé à tous les deux, et ayant dit et reconnu que le diable et ses pompes n’étaient <pb n="462"/>qu’une même chose ; retournant vers l’un, tu retournes aussitôt vers l’autre : car je renonce, dis-tu, au diable, à ses pompes, aux spectacles et à ses œuvres, et après cela, tu dis, je crois en Dieu le Père tout-puissant, et en Jésus-Christ son Fils. Pour donc croire en Dieu, on renonce auparavant au diable, parce que qui ne renonce point au diable, ne croit point en Dieu : d’où il s’ensuit que celui-là quitte Dieu qui retourne au diable. Or le diable se trouve dans ces spectacles, et parmi ces pompes ; de sorte que retournant aux spectacles, nous faisons banqueroute à la foi de Jésus-Christ. C’est donc par ce moyen que tous les mystères du Symbole sont ruinés dans nos cœurs , et après avoir sapé ce premier fondement de notre créance, tout ce qui suit des autres vérités du Symbole menace ruine dans nos esprits : et un peu après, ce même Saint ajoute : s’il y a donc quelqu’un qui s’imagine que de se trouver aux spectacles ne soit qu’une faute légère, qu’il considère attentivement tout ce que nous venons de dire, et qu’il prenne bien garde que le plaisir et le contentement ne se trouve pas aux <pb n="463"/>spectacles, mais la mort ; et quelques lignes après il dit, qu’est-ce qu’on remarque de semblable chez les Infidèles et chez les Barbares ? y voit-on des jeux de cirques ? où sont leurs théâtres ? où est cet assemblage, et cet amas criminel de diverses impuretés et débauches, c’est-à-dire, la désolation et le renversement de notre espérance et de notre salut : et encore que ces choses fussent en usage parmi eux, pendant qu’ils vivaient dans les ténèbres du Paganisme, ils étaient toutefois bien moins criminels, n’étant point coupables de prévarication contre une chose sainte et sacrée, ni une injure faite au Sacrement et contre son caractère : mais pour nous, comment pouvons-nous nous défendre, vu que nous confessons et publions que nous renonçons au don précieux et incomparable du salut, et qui fait qu’on nous peut justement reprocher, et demander où est notre Christianisme ? Où paraît en nous, cette sainte, auguste et irrépréhensible Religion ? de sorte qu’on pourrait à bon droit nous objecter, qu’il semble que nous ne recevions le Sacrement de salut, que pour rendre notre <pb n="464"/>offense plus griève [grave] et plus criminelle, que quand nous vivions encore dans le Paganisme : car nous préférons les jeux publics, aux Eglises, nous méprisons les Autels, et autorisons par notre présence les théâtres.</p>
-          <p>Le même Salvian ajoute encore un peu après, je demande à la conscience de tous, où est-ce qu’il y a plus grand abord de Chrétiens, ou bien aux amphithéâtres où on reprenne les jeux publics, ou bien aux lieux destinés au culte et à l’honneur de Dieu ? Nous laissons Jésus-Christ sur l’Autel, pour repaître nos yeux adultères par les regards très impudiques de l’incontinence, et de la licence à recevoir un tas de sales objets que l’on représente dans ces jeux.</p>
-          <p>Après ce saint Evêque, je vous prie, mon cher Lecteur, d’entendre Tertullien, sur les sentiments que les Chrétiens de son temps avaient de ces sortes de divertissements ; voici comme il en parle<note place="margin" resp="author">Lib. de spectat. c. 10 [Tertullien, Des<hi rend="i"> spectacles</hi>, chapitre 10.]</note> : « <quote>Pour bien faire connaître<seg type="exquote">, dit-il,</seg> qu’est-ce que le théâtre, et en déclarer l’essence, on peut dire que c’est le temple de Vénus, où la volupté est traitée, estimée, honorée et adorée comme <pb n="465"/>une divinité ; c’est la citadelle ou le fort où toutes sortes d’impuretés se pratiquent avec toute licence et effronterie</quote> » : ensuite de quoi il rapporte un exemple d’une femme chrétienne, dans le corps de laquelle le diable entra, pendant qu’elle assistait aux spectacles : car comme on faisait les exorcismes pour chasser cet hôte cruel, le chargeant de malédiction de ce qu’il avait été si cruel, que d’entreprendre sur une personne fidèle, il répondit toujours, ‘Dieu l’a ainsi permis, pour rendre témoignage de l’abomination de ces lieux infâmes, et quand j’en ai ainsi usé, ça a été avec justice, l’ayant trouvée sur ma terre, et dans un lieu où je suis le Seigneur et le maître’.</p>
-          <p>Je n’en veux pas dire davantage sur ce sujet, en ayant parlé ci-devant assez amplement, joint que les deux Auteurs que je viens de produire, Salvian et Tertullien s’en sont suffisamment expliqués, pour faire connaître à un chacun que les spectacles et les théâtres ne doivent jamais passer chez les vrais Chrétiens pour divertissements, puisqu’ils traitent ceux qui y assistent d’apostats, de prévaricateurs des Sacrements, <pb n="466"/>de gens qui retournent vers le diable leur premier maître, qui préfèrent le démon à Dieu, qui font banqueroute à la foi de Jésus-Christ, qu’ils sont plus criminels que les païens, qu’ils sont sans Religion, qu’ils ne cherchent qu’à repaître leurs yeux adultères ; gens enfin qui se jettent volontairement dans le fort et la citadelle où se commettent toutes sortes d’impuretés. Dites-moi, de grâce, mon cher Lecteur, oseriez-vous après cela baptiser les théâtres et les spectacles, de récréations et de divertissements ? ne confesserez-vous pas au contraire, que c’est par là que l’on profane les Dimanches et les Fêtes, en quittant criminellement les Eglises et les Autels, comme parle Salvian, pour aller aux jeux publics, et autoriser les théâtres.</p>
-          </div2>
+        <div>
+          <pb n="431"/>
+          <head>De l’assistance aux Théâtres</head>
+          <p>Ce ne sont pas seulement les gens du commun qui assistent aux spectacles pour y
+            entendre les Comédiens, ou les Bateleurs ; mais aussi le plus souvent les personnes de
+            condition, sans se mettre en peine s’ils violent les jours dédiés à Dieu, se persuadant,
+            comme j’ai dit, qu’il leur suffit d’avoir entendu la sainte Messe, et de s’être abstenus
+            du travail, pour bien célébrer ces saints jours : ce qui fait qu’ils ne font aucun
+            scrupule de se rendre aux théâtres et aux farces publiques pendant ces célébrités. Je
+            sais bien qu’il ne leur est pas plus permis de s’y rencontrer les autres jours ; mais je
+            marque ici particulièrement les Dimanches et les Fêtes, pour satisfaire au sujet que je
+            traite, comme aussi parce que c’est ces saints jours qu’on emploie plus ordinairement à
+            ces pernicieux divertissements. Ce que je viens de dire touchant Messieurs les Gens du
+            Roi, qui souffrent les Bateleurs et Comédiens, devrait suffire pour détourner un chacun
+            de ces honteuses <pb n="432"/>assemblées : cependant pour ne rien omettre dans une
+            matière si importante, et où il y va tant du salut, je veux y ajouter quelque chose en
+            faveur de ceux qui peut-être ne connaissent pas assez à quel étrange péril de leur salut
+            ils s’engagent, en assistant à ces spectacles.</p>
+          <p>Je ne dirai rien de moi sur ce sujet, me contentant de faire parler ceux qui en ont
+            écrit avec tant de force et de justice : écoutez-donc, mon cher Lecteur, quel a été le
+            sentiment de saint Cyprien<note place="margin" resp="author">Epist. ad Donat., lib. 2
+                [<hi rend="i">Epître à Donat</hi>, livre 2].</note>, qui dit que « <quote>tels
+              spectacles d’adultères, d’homicides, de larcins, lubriquement et salement représentés,
+              sont pernicieux et sacrilèges , et que souvent telle femme qui était allée pudique aux
+              spectacles, en retourne impudique</quote> » : Tertullien ne doit rien sur ce sujet à
+            saint Cyprien ; car si nous lui demandons qu’est-ce que le Théâtre ? il nous répondra en
+            propres termes, que « <quote>c’est le temple des Diables<note place="margin"
+                resp="author">Lib. de Spect. [Tertullien, Des<hi rend="i">
+              spectacles</hi>].</note></quote> ». Il ne faut donc pas douter qu’ils n’y président,
+            puis qu’il leur est dédié, et que ce qui s’y fait ne leur soit très agréable. C’est pour
+            cela que saint Augustin dit, que « <quote>donner de l’argent aux Bateleurs est un vice
+              cruel <pb n="433"/>et détestable</quote> ». Le même Tertullien que je viens de citer,
+            parlant de la scène et de l’échafaud des Farceurs, l’appelle « <quote>la sacristie de
+              Vénus, le consistoire de l’impudicité, l’arsenal de toute vilenie, qui prend sa grâce
+              et sa gaité, de l’ordure et de la saleté</quote> », parce que la voix des Bateleurs,
+            leurs gestes et leurs habits de parade, allument des étincelles de lubricité dans le
+            cœur de ceux qui les écoutent et qui les regardent.</p>
+          <p>Saint Chrysostome en une Homélie de la Pénitence, nomme le Théâtre, « <quote>la
+              boutique commune de la luxure, le collège public de l’incontinence, l’échafaud de
+              l’impudicité, et la fournaise de Babylone<note place="margin" resp="author">Homélie
+                8.</note> </quote>» : Lactance Firmien Précepteur de Crispe fils du Grand
+            Constantin, dans son <hi rend="i">Livre des divines institutions</hi>, parlant des
+            Bateleurs, dit « <quote>qu’ils débitent une discipline de corruption</quote> ». Si je ne
+            craignais point de faire trop de confusion à ces Bourgeoises, à ces Demoiselles et Dames
+            qui ont tant d’inclination pour les spectacles, lesquelles plaignent bien moins vingt ou
+            trente sols pour les Farceurs, qu’elles ne font un double qu’elles donnent assez
+            rarement à un pauvre ; je leur ferais encore entendre saint <pb n="434"/>Cyprien, lequel
+            parlant des exercices des bateleurs, les nomme « <quote>un lieu infâme, <hi rend="i"
+                >publici pudoris lupanarium</hi></quote> », où l’on perd la pudeur et la pudicité,
+              « <quote>l’école et la maîtresse de toute impudicité</quote> » : Saint Augustin sur
+            les Psaumes, parlant des spectacles, les appelle « <quote>les greniers de
+              l’impudicité</quote> ». Après tous les sentiments de ces grands et saints personnages,
+            dites-moi, je vous prie, Messieurs les Gentilshommes, dites-moi, je vous prie, Mesdames,
+            Bourgeois, Bourgeoises, qui que vous soyez, n’aurez-vous point d’horreur désormais de
+            passer les après-dînées entières dans ces assemblées si pernicieuses, pour y perdre
+            votre argent, votre temps, la pureté de votre corps, et l’intégrité de vos mœurs ? Si la
+            marque à laquelle on reconnaissait les Chrétiens au rapport de Tertullien, était la
+            fuite des Théâtres et des spectacles ; qui pourra, Messieurs et Mesdames, se persuader
+            que vous professez la même Religion que ces premiers Chrétiens, que vous êtes imbus des
+            mêmes maximes, que vous suivez le même Evangile, et que vous aspirez à la même gloire,
+            si l’on vous voit encore dans ces assemblées impies, et assis dans <pb n="435"/>les
+            chaises de pestilence ? Mais si ces spectacles vous sont défendus en toutes sortes de
+            jours, combien davantage les devez-vous fuir dans les Dimanches et les Fêtes ? car
+            n’est-ce pas profaner ces saints jours ? n’est-ce pas les dérober à Dieu, pour les
+            consacrer au Diable ? n’est-ce pas faire une profession publique que vous n’êtes
+            Chrétiens et Chrétiennes que de nom, puisque vous aimez mieux employer deux ou trois
+            heures aux spectacles, qu’une demi-heure à l’Eglise, pour vous disposer à une bonne
+            Communion ? Ne vous vantez donc plus d’avoir saintement célébré les Fêtes ou les
+            Dimanches, parce que vous y avez entendu la sainte Messe, et que vous vous êtes abstenus
+            du travail, puisqu’il est vrai que vous les avez violés autant de fois, que vous vous
+            êtes rendus à ces pernicieuses assemblées : vous y avez plus déshonoré Dieu cent fois,
+            que vous ne l’avez honoré par la Messe que vous avez entendue : il vous regarde donc
+            comme autant de profanateurs des jours qui lui sont dédiés, et vous châtiera sur ce
+            point selon vos démérites.</p>
         </div>
-      </body>
+      </div>
+      <div type="chapter">
+        <pb n="456"/>
+        <head>ARTICLE VI.</head>
+        <head type="sub">S’il n’est point permis de se recréer et divertir les jours de Fêtes et
+          Dimanches<lb/>(…)</head>
+        <p>[...]</p>
+        <div>
+          <pb n="459"/>
+          <head>Quels sont les divertissements ordinaires de la plus grande partie des chrétiens
+            pendant les Dimanches et les Fêtes.</head>
+          <p>Il me semble qu’on peut réduire ces divertissements à cinq principaux, à savoir, les
+            théâtres et comédies, le jeu, les régals, la chasse, et les visites : ce sont-là, à mon
+            avis, les seuls divertissements de la plupart des Chrétiens pendant les jours des
+            Dimanches et des Fêtes. Reste donc à examiner si ces sortes de divertissements sont
+            licites, et s’ils ne sont point accompagnés de circonstances et défauts qui les rendent
+            illicites et condamnables ; et pour cet effet considérons-les, et les regardons dans
+            l’esprit, et selon la règle des plus saints hommes qui nous aient précédés.</p>
+        </div>
+        <div>
+          <pb n="460"/>
+          <head>Des Théâtres.</head>
+          <p>J’ai déjà parlé des spectacles, théâtres et comédies, et je croirais avoir assez dit,
+            pour n’y devoir rien ajouter, si la matière dont il s’agit ne m’y engageait, et si le
+            mal que traînent après eux les théâtres, ne m’y forçait, vu même que c’est ce malheureux
+            et funeste divertissement après lequel courent les Chrétiens d’aujourd’hui, et à quoi
+            ils emploient la plus grande partie des Fêtes et des Dimanches. J'ai marqué ci-devant,
+            en parlant de la comédie, qu’il y en avait d’honnêtes, et éloignées de toutes paroles et
+            actions malfaisantes, auxquelles on pourrait assister, supposé que quelques
+            circonstances ne dussent pas s’y opposer. C’est donc des spectacles infâmes où l’on ne
+            voit, et on n’entend que postures méfiantes et déshonnêtes, et paroles équivoques,
+            quelquefois même brutales, dont j’ai eu dessein de parler ; et c’est encore sur ceux-là
+            mêmes sur lesquels, mon cher Lecteur, je veux <pb n="461"/>vous faire entendre derechef
+            les sentiments de ceux qui les ont regardés dans l’esprit de Dieu.</p>
+          <p>Le Saint Evêque de Marseille, Salvian, parlant des spectacles, dans le sixième livre
+            qu’il a fait du gouvernement de Dieu, est fort éloigné de les faire passer pour
+            divertissements, puisqu’il les condamne avec tant de chaleur : voici ses propres
+            termes : « <quote>Aller aux théâtres<seg type="exquote">, dit ce Saint,</seg> est une
+              espèce d’apostasie de la foi, une prévarication mortelle de ses Symboles et célestes
+              Sacrements </quote>» : car, de grâce, quelle est la première confession que font les
+            Chrétiens, lorsqu’ils sont admis au Sacrement salutaire du Baptême, si ce n’est dire et
+            protester, qu’ils renoncent au diable, à ses pompes, aux spectacles que tu reconnais et
+            confesses être des œuvres du diable ? Tu as une fois renoncé au diable et à ses
+            spectacles ; ainsi il s’ensuit nécessairement qu’allant aux spectacles à dessein et de
+            propos délibéré tu retournes en effet à ton premier maître qui est le diable : car ayant
+            en même temps renoncé à tous les deux, et ayant dit et reconnu que le diable et ses
+            pompes n’étaient <pb n="462"/>qu’une même chose ; retournant vers l’un, tu retournes
+            aussitôt vers l’autre : car je renonce, dis-tu, au diable, à ses pompes, aux spectacles
+            et à ses œuvres, et après cela, tu dis, je crois en Dieu le Père tout-puissant, et en
+            Jésus-Christ son Fils. Pour donc croire en Dieu, on renonce auparavant au diable, parce
+            que qui ne renonce point au diable, ne croit point en Dieu : d’où il s’ensuit que
+            celui-là quitte Dieu qui retourne au diable. Or le diable se trouve dans ces spectacles,
+            et parmi ces pompes ; de sorte que retournant aux spectacles, nous faisons banqueroute à
+            la foi de Jésus-Christ. C’est donc par ce moyen que tous les mystères du Symbole sont
+            ruinés dans nos cœurs , et après avoir sapé ce premier fondement de notre créance, tout
+            ce qui suit des autres vérités du Symbole menace ruine dans nos esprits : et un peu
+            après, ce même Saint ajoute : s’il y a donc quelqu’un qui s’imagine que de se trouver
+            aux spectacles ne soit qu’une faute légère, qu’il considère attentivement tout ce que
+            nous venons de dire, et qu’il prenne bien garde que le plaisir et le contentement ne se
+            trouve pas aux <pb n="463"/>spectacles, mais la mort ; et quelques lignes après il dit,
+            qu’est-ce qu’on remarque de semblable chez les Infidèles et chez les Barbares ? y
+            voit-on des jeux de cirques ? où sont leurs théâtres ? où est cet assemblage, et cet
+            amas criminel de diverses impuretés et débauches, c’est-à-dire, la désolation et le
+            renversement de notre espérance et de notre salut : et encore que ces choses fussent en
+            usage parmi eux, pendant qu’ils vivaient dans les ténèbres du Paganisme, ils étaient
+            toutefois bien moins criminels, n’étant point coupables de prévarication contre une
+            chose sainte et sacrée, ni une injure faite au Sacrement et contre son caractère : mais
+            pour nous, comment pouvons-nous nous défendre, vu que nous confessons et publions que
+            nous renonçons au don précieux et incomparable du salut, et qui fait qu’on nous peut
+            justement reprocher, et demander où est notre Christianisme ? Où paraît en nous, cette
+            sainte, auguste et irrépréhensible Religion ? de sorte qu’on pourrait à bon droit nous
+            objecter, qu’il semble que nous ne recevions le Sacrement de salut, que pour rendre
+            notre <pb n="464"/>offense plus griève [grave] et plus criminelle, que quand nous
+            vivions encore dans le Paganisme : car nous préférons les jeux publics, aux Eglises,
+            nous méprisons les Autels, et autorisons par notre présence les théâtres.</p>
+          <p>Le même Salvian ajoute encore un peu après, je demande à la conscience de tous, où
+            est-ce qu’il y a plus grand abord de Chrétiens, ou bien aux amphithéâtres où on reprenne
+            les jeux publics, ou bien aux lieux destinés au culte et à l’honneur de Dieu ? Nous
+            laissons Jésus-Christ sur l’Autel, pour repaître nos yeux adultères par les regards très
+            impudiques de l’incontinence, et de la licence à recevoir un tas de sales objets que
+            l’on représente dans ces jeux.</p>
+          <p>Après ce saint Evêque, je vous prie, mon cher Lecteur, d’entendre Tertullien, sur les
+            sentiments que les Chrétiens de son temps avaient de ces sortes de divertissements ;
+            voici comme il en parle<note place="margin" resp="author">Lib. de spectat. c. 10
+              [Tertullien, Des<hi rend="i"> spectacles</hi>, chapitre 10.]</note> : « <quote>Pour
+              bien faire connaître<seg type="exquote">, dit-il,</seg> qu’est-ce que le théâtre, et
+              en déclarer l’essence, on peut dire que c’est le temple de Vénus, où la volupté est
+              traitée, estimée, honorée et adorée comme <pb n="465"/>une divinité ; c’est la
+              citadelle ou le fort où toutes sortes d’impuretés se pratiquent avec toute licence et
+              effronterie</quote> » : ensuite de quoi il rapporte un exemple d’une femme chrétienne,
+            dans le corps de laquelle le diable entra, pendant qu’elle assistait aux spectacles :
+            car comme on faisait les exorcismes pour chasser cet hôte cruel, le chargeant de
+            malédiction de ce qu’il avait été si cruel, que d’entreprendre sur une personne fidèle,
+            il répondit toujours, ‘Dieu l’a ainsi permis, pour rendre témoignage de l’abomination de
+            ces lieux infâmes, et quand j’en ai ainsi usé, ça a été avec justice, l’ayant trouvée
+            sur ma terre, et dans un lieu où je suis le Seigneur et le maître’.</p>
+          <p>Je n’en veux pas dire davantage sur ce sujet, en ayant parlé ci-devant assez amplement,
+            joint que les deux Auteurs que je viens de produire, Salvian et Tertullien s’en sont
+            suffisamment expliqués, pour faire connaître à un chacun que les spectacles et les
+            théâtres ne doivent jamais passer chez les vrais Chrétiens pour divertissements,
+            puisqu’ils traitent ceux qui y assistent d’apostats, de prévaricateurs des Sacrements,
+              <pb n="466"/>de gens qui retournent vers le diable leur premier maître, qui préfèrent
+            le démon à Dieu, qui font banqueroute à la foi de Jésus-Christ, qu’ils sont plus
+            criminels que les païens, qu’ils sont sans Religion, qu’ils ne cherchent qu’à repaître
+            leurs yeux adultères ; gens enfin qui se jettent volontairement dans le fort et la
+            citadelle où se commettent toutes sortes d’impuretés. Dites-moi, de grâce, mon cher
+            Lecteur, oseriez-vous après cela baptiser les théâtres et les spectacles, de récréations
+            et de divertissements ? ne confesserez-vous pas au contraire, que c’est par là que l’on
+            profane les Dimanches et les Fêtes, en quittant criminellement les Eglises et les
+            Autels, comme parle Salvian, pour aller aux jeux publics, et autoriser les théâtres.</p>
+        </div>
+      </div>
+    </body>
   </text>
 </TEI>
