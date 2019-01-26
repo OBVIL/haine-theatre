@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
-<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?> 
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="mariana_de-spectaculis_1599.pdf">
   <teiHeader>
     <fileDesc>
@@ -53,16 +54,18 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1599"/>
+        <date when="1599"></date>
       </creation>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
-    <body>
+    <text>
+      <body>
       <div>
-        <head rend="small">JOANNIS<lb/>MARIANAE<lb/>Hispani, e Soc. Jesu<lb/>DE REGE<lb/><hi rend="small-caps">e regis institutione<lb/>libri iii</hi><lb/>Ad Phillipum III. Hispaniae Regem Catholicum<lb/>Anno 1599<lb/>Cum Privilegio<lb/>Apud Petrum Rodericum, typo. Regium.</head>
+        <head rend="small"> [FRONTISPICE]</head>
+        <p rend="center">JOANNIS<lb/>MARIANAE<lb/>Hispani, e Soc. Jesu<lb/>DE REGE<lb/><hi rend="small-caps">e regis institutione<lb/>libri iii</hi><lb/>Ad Phillipum III. Hispaniae Regem Catholicum<lb/>Anno 1599<lb/>Cum Privilegio<lb/>Apud Petrum Rodericum, typo. Regium.</p>
       </div>
      <div>
         <pb n="406" xml:id="p406"/>
