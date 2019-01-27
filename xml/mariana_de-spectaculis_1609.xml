@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
-<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?> 
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="mariana_de-spectaculis_1609.pdf">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>De spectaculis</title>
-        <author key="Mariana, Juan de ()">Juan de Mariana</author>
+        <author key="Mariana, Juan de (1536-1624)">Juan de Mariana</author>
         <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
       </titleStmt>
       <editionStmt>
@@ -47,8 +48,8 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <author>Juan de Mariana</author>, <title>De spectaculis</title>, <pubPlace></pubPlace>, <publisher></publisher>,
-          <date>1609</date>. </bibl>
+          <author>Juan de Mariana</author>, <title>De spectaculis <hi rend="i">in</hi> Joannis Marianae e societate Jesu Tractatus VII</title>, <pubPlace>Coloniae Agrippinae</pubPlace>, <publisher>Antonii Hierati</publisher>,
+          <date>1609</date>,<biblScope>p. 127-188</biblScope>. </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -62,22 +63,15 @@
   </teiHeader>
   <text>
     <body>
-      <div type="frontispiece">
-        <pb n="127" xml:id="p127"/>
-        <p><title>JOAN MARIANÆ / DE SPECTACULIS / LIBER SINGU- / LARIS</title><note place="bottom"
-              ><p rend="p1">[NDE] <seg rend="s1">In </seg><seg rend="s1"><hi xml:lang="fr" rend="i"
-                  >Joannis Marianæ,... Tractatus VII : I. De Adventu B. Jacobi Apostoli in
-                  Hispaniam ; II. Pro editione vulgata ; III. De Spectaculis ; IV. De Monetæ
-                  mutatione ; V. De Die mortis Christi ; VI. De Annis Arabum ; VII. De Morte et
-                  immortalitate ; nunc primum in lucem editi</hi>,</seg><seg rend="s1"> </seg><seg
-                rend="s1"> Coloniæ Agrippinæ, A. Hieratus, 1609, p. 127-188. Cet opuscule reprend et
-                élargit un chapitre de son </seg><seg rend="s1"><hi xml:lang="fr" rend="i">De Rege
-                  et regis institutione</hi></seg><seg rend="s1">, Toledo, apud Petru Rodericum
-                typo. Regium, 1599, livre III, chap. 15, « De Spectaculis », p.
-            406-419.</seg></p><p/></note> . </p>
+      <div>
+        <head rend="small">[FRONTISPICE]</head>
+        <p rend="center">JOANNIS<lb/> MARIANÆ<lb/>E SOCIETATE JESU<lb/>TRACTATUS VII.<lb/><hi rend="i">I. De Adventu B. Jacobi Apostoli in
+          Hispaniam<lb/>II. Pro editione vulgata.<lb/>III. De Spectaculis.<lb/>IV. De Monetæ
+          mutatione.<lb/>V. De Die mortis Christi.<lb/>VI. De Annis Arabum.<lb/>VII. De Morte et
+          immortalitate.</hi><lb/> Nunc primum in lucem editi.<lb/><lb/><hi rend="sc">Coloniæ Agrippinæ</hi><lb/>Sumptibus Antonii Hierati, sub Monocerote<lb/>M. DC. IX.<lb/><hi rend="i">Permessu Superiorum, et cum gratia et Privileg. S Cæsar Maiest.</hi></p>
       </div>
       <div>
-        <head>Index Capitum.</head>
+        <pb n="127" xml:id="p127"/><head>Index Capitum.</head>
         <p>Cur disputatio de spectaculis suscipiatur. Cap I.</p>
         <p>Varia spectaculorum genera. Cap. II.</p>
         <p>Theatri Circique structuræ. Cap. III</p>
@@ -103,13 +97,14 @@
         <p>Sixti Pontificis diploma. XXIii.</p>
         <p>Clementis Octavi diploma. XXIV.</p>
         <p>Conclusio operis. XXV.</p>
-        <p>
-          <pb n="128" xml:id="p128"/>
-        </p>
+        
       </div>
       <div>
-        <head>CAP. Primum. / Cur disputatio de spectaculis suscipiatur.</head>
-        <p xml:lang="fr">VETEREM ludorum insaniam nova disputatione de spectaculis compescere pro
+        <pb n="128" xml:id="p128"/> <head>CAP. Primum. Cur disputatio de spectaculis suscipiatur.<note place="bottom" resp="editor">[NDE] Mariana reprend et
+          élargit un chapitre du <hi rend="i">De Rege et regis institutione</hi>, Toledo, apud Petru Rodericum
+            typo. Regium, 1599, livre III, chap. 15, « De Spectaculis », p.
+            406-419.</note></head>
+        <p>VETEREM ludorum insaniam nova disputatione de spectaculis compescere pro
           virili parte cogitanti mihi sæpenumero in mentem venit admirari, tantopere mores nostros
           ab antiquis degenerasse, ut quæ majores nostri pari et consona voce vituperarunt, quasi
           religionis Christianæ ludibrum ac dedecus, passim nostra ætate usurpari videamus, quasi
@@ -152,7 +147,7 @@
           avelli se sinit ab iis, quæ cum voluptate suscipiuntur ; cujus sumus natura cupidissimi,
             <pb n="129" xml:id="p129"/>præmi, præsertim specie utilitatis objecta aut honestatis,
           quæ major calamitas est. Si quis vanitati resistat, ei vehementer irascitur populi
-          multitudo. <hi rend="i">Ille sit publicus inimicus</hi>. Augustinus ait lib. II. <hi
+          multitudo. « <quote>Ille sit publicus inimicus.</quote> » Augustinus ait lib. II. <hi
             rend="i">de civit. Dei</hi> cap. XX. « <quote>cui hæc fœlicitas displicet. Quisquis eam
             auferre vel mutare tentaverit, eum libera multitudo avertat ab auribus, evertat a
             sedibus, auferat a viventibus. Illi habeantur dii veri, qui hanc adipiscendam populis
@@ -170,7 +165,7 @@
           furentes, rapidi, miserabiles.</p>
       </div>
       <div>
-        <head>CAP. II / Varia spectaculorum genera.</head>
+        <head>CAP. II. Varia spectaculorum genera.</head>
         <p xml:lang="fr">Suscepto igitur officio coercendi ludorum petulantiam : commodum duxi
           initio quid <hi rend="i">spectaculum</hi> sit, et quam varia spectaculorum genera olim
           essent, summatim explicare. <hi rend="i">Spectaculum est ludus voluptatis causa publice
@@ -188,8 +183,7 @@
           Histrio dicti, unde primum advecti in urbem sunt, qui an gestu tantum et motu corporis
           personas varias exprimerent non satis constat, et plerique verba illis in fabulis
           detrahunt, gestus impudicissimos dant, de quibus Cassiodor. li. IV. epistolarum epistola
-          postrema ad Symmachum, loqui videtur cum de theatro agens ; « <quote>His sunt<hi
-              rend="bg_ffff00">, inquit,</hi> additæ orchestrarum loquacissimæ manus, linguosi
+          postrema ad Symmachum, loqui videtur cum de theatro agens ; « <quote>His sunt<seg type="exquote">, inquit,</seg> additæ orchestrarum loquacissimæ manus, linguosi
             digiti, silentium clamosum, expositio tacita.</quote> » Verum Gellius li. VII. c. V.
           Polo histrioni vocem et lachrymas dat, cum pro Orestis ossibus filii nuper defuncti urnam
           gestaret recens e sepulchro detractam. Neque in magno ponam discrimine, utrovis modo
@@ -219,10 +213,10 @@
             <hi rend="b">grec</hi>
           </l>
         </quote>
-        <p xml:lang="fr">Omnino Tertullianum lib. <hi rend="i">de spectaculis</hi> ludos omnes
+        <p> Omnino Tertullianum lib. <hi rend="i">de spectaculis</hi> ludos omnes
           tribuit « <quote>in Circenses scenicos, agones, et munera gladiatorum</quote> »; et cum
           Tertulliano consentiens Isidorus loco supra citato ludos a locis in quibus committebantur
-          quadrifariam distinxit, « <quote>ludus<hi rend="bg_ffff00">, inquiens,</hi> aut Gymnicus
+          quadrifariam distinxit, « <quote>ludus, inquiens, aut Gymnicus
             est, aut Circensis, aut gladiatorius, aut scenicus</quote> ». In gymnasio unde Gymnici
           ludi dicti sunt, saltu juvenes, cursu jactu, luctaque certabant, ac omnino de virium
           magnitudine et gloria contentio erat. <hi rend="i">Gymnasium</hi> autem dicebatur, quod
@@ -262,87 +256,14 @@
           obtendens, quod alio loco copiosius est explicandum.</p>
       </div>
       <div>
-        <head>CAP. III. / Theatri Circique structuræ.</head>
-        <p xml:lang="fr">DE theatro et Circo quali structura fuerint pauca dicere cogitabam, ne
-          aures nostræ peregrinari videantur, cum in eorum mentionem incidimus, quod sæpenumero
-          contingat, necesse est. Nam theatri et amphiteatri conjuncta explicatio erit, theatrum
-          enim circuli forma erat, quarta tantum circuli parte detracta, ubi scena surgebat duobus
-          theatri brachiis inclusa quasi frons totius operis, in quam omni ex parte conspectus
-          esset, divisa in scenam unde actores prodibant, <hi rend="i">Proscenium</hi> sive <hi
-            rend="i">pulpitum</hi>, ubi agebantur fabulæ, et <hi rend="i">orchestram</hi> humiliori
-          loco positam saltatoribus servientem, tametsi Isidorus lib. XVIII. cap. XLIV. <hi rend="i"
-            >pulpitum et orchestram</hi> idem facit, et non ignoramus has voces loquentium abusu
-          sæpe confundi, ad aliaque significanda traduci. Ex duobus theatris dempta scena
-          ampliatisque lateribus <hi rend="i">Amphitheatrum</hi> constabat, quasi in unum juncta duo
-            <hi rend="i">theatra</hi> seu <hi rend="i">visoria</hi> (ut Cassiodori lib. V. epistola
-          XLII. verbis utamur) majori longitudine quam latitudine, ovi forma, ac quædam prolixa
-          rotunditas, uti idem ait. Temporaria atque e ligno plura fuisse Romæ theatra suspicari
-          libet, quale illud Curionis apud Plinum lib. XXXVI. e lapide amphitheatrum primum Statilii
-          Tauri impensa, Augusti suasu factum est in campo Martio, anno urbis conditæ DCCXXV. cujus
-          magna pars ad sanctæ Crucis in Hierusalem ad ipsa urbis mœnia cernitur, nam amphitheatrum
-          alterum nobilissimum in urbe media priori incendio deformato Augustus destinavit.
-          Vespasianus, uti Suetonius ait in ejus vita cap. IX. extruxit, sed gloriam absoluti et
-          dedicati operis, Titus ejus filius tulit, non Domitianus, uti vulgo hominum persuasio
-          habet, eoque referenda sunt Martialis carmina in ejus operis laudem li. I. ejus
-          amphitheatri formam explicare pergimus, quoniam ad ejus instar theatra alia et amphiteatra
-          extructa per urbes erant, paucis mutatis. Ac primum <hi rend="i">arena</hi> dicebatur,
-          quoniam ea sternebatur ad commoditatem pugnatium : <hi rend="i">Cavea</hi> quod locus
-          cavus erat ab utraque parte in eam altitudinem erecto opere vix ut oculi pertingerent, et
-          quoniam ex Marco Varrone li. IV. <hi rend="i">cavum</hi> in ædibus dictum, locus intra
-          parietes relictus ad communem omnium usum, qui si tectus erat dicebatur <hi rend="i"
-            >testudo</hi>, si apertus ut lucem caperet, <hi rend="i">impluvium</hi>. Sic Varronis
-          verba inntelligenda putabam, ea operis amplitudine, ut XXCVII.<note place="bottom"
-            >[Margin.] Note manuscrite en marge : + millia.</note> homines caperet, ut Victor ait,
-          stantes sedentesve, non explicat. In area, Jovis latiaris ara erecta fuit, sub area cloacæ
-          fortassis ad aquas recipiendas aut derivandas, quæ ex pluvia dilabebantur. Circum opus
-          porticus erat multis januis pertusum, feras aut gladiatores unde emitterent, supra
-          porticum projectura mœnianorum instar, podiumque, unde Senatores et Principes spectabant,
-          clatris seu retiis adjectis ad majus tutamen, adjecto etiam ad radicem operis aliquando
-          euripo, hoc est, fossa aquis plena ad feras arcendas. Supra podium gradus succedunt minori
-          altitudine singuli quam latitudine, nempe superiorum pedes, inferiores sedentes capere
-          debebant. Erant autem ex intervallo tribus distincti baltheis totum opus cingentibus, unde
-          præcinctiones et perizomata vocantur, nimirum prioris podii similitudine latioresque, ad
-          quorum radices viæ erant, per quas a locis in loca alia transibatur. Sic Tertullianum
-          intelligo, cum cap. III. ait. « <quote>Vias enim vocant cardines baltheorum per ambitum<hi
-              rend="bg_ffff00">, nam quod sequitur,</hi> et discrimina popularium per
-            proclivium </quote>», ad minores scalas referri debet, <pb n="132" xml:id="p132"/>quibus
-          ab uno, ut puto baltheo versus alterum descendebatur, inter quas intervalla graduum
-          comprehensa cunei vocabantur a figura deorum angustiori ; qui cunei diversis ordinibus
-          attributi erant equitibus, tribunis, militibus, unde ludos spectarent. In ipsa autem
-          baltheorum fronte januæ parvulæ erant, <hi rend="i">vomitoria inde dicta</hi>, quod ad
-          accipiendam et reddendam multitudinem idoneæ essent, ut per concamerationes, quæ sub
-          gradibus erant, ingredi et exire possent. In summo opere porticus erat cum cancellis
-          tecta, unde populus et mulieres spectabant, aut pedibus stantes, aut e cathedris positis.
-          Præterea vela erant ad solem arcendum et pegmata, hoc est, machinæ e ligno plicatiles in
-          alios usus, et ut puto, extendendis velis servientes, quæ pegmata in summo ædificio
-          extantia confixa dixeris. Erant et tubi occulti per gradus facti, uti ex commissuris
-          lapidum cernitur hodie etiam Romæ, lotio fortassis reddendo, aut emittenda aqua pluviali.
-          Podium, ubi senatus erat, <hi rend="i">orchestra</hi> vocabatur voce a scena mutuata, unde
-          equites spectabant equestria, unde populus popularia. Hæc ex <hi rend="i">Justo
-            Lipsio</hi> lib. <hi rend="i">de amphitheatro</hi>, paucis commutatis desumpta sunt. Quæ
-          de circo dicturi sumus ex Tertulliano, Cassiodoroque lib. III. epist. L. et Isidoro
-          collegimus, atque aliis. Duplex circus Romæ fuit : alter flaminius dictus, cujus nulla
-          certa vestigia extant, alter Maximus in valle, ut immensa moles montibus contineretur
-          Aventino Palatinoque a Tarquinio Prisco primum constitutus, uti Dionysius et Livius aiunt,
-          deinde a Cæsare dictatore Plinius auctor lib. XXXVI. cap. XV. iisdem vestigiis longitudine
-          stadiorum trium, latitudine unius, sed cum ædificiis jugerum quaternum ducenta sexaginta
-          millia homines sedentes capiebat, ingenti procul dubio vastitate ; centum quinquaginta
-          millia Dionysius ait. Porticus totum opus circumdabant ferme, tecto inæquali, quod
-          columnis sustinebatur inferius, ita ut quasi tres porticus conjunctæ essent, extrinsecus
-          alia porticus erat æquali tecto, officinas in se habens et cubicula superius, per quæ
-          venientibus ad spectaculum ascensus, ingressusque erat ad gradus, qui in hunc modum erant
-          compositi, supra interioris porticus tectum ima parte podium erat adjectis clatris,
-          quemadmodum in amphitheatro dictum est. Deinde ordine assurgebant gradus, in quibus erat
-          sedendum cum suis vomitoriis et superiori porticu, unde spectabat populus. Baltheos seu
-          præcinctiones cum suis viis in circo fuisse non invenio : erat tamen euripus decem pedum
-          latus ad radices totius operis interius. Erant etiam januæ duodecim ad septentionalem
-          plagam, quæ arte quadam simul omnes pandebantur, pinnis superius extantibus mœnium instar,
-          unde ad oppidum ire dicebatur, uti Varro ait lib. IV. Ausonius epistola V. tredecim portas
-          Circi fuisse ait, multa enim cum dixisset de iis, quæ senario numero in rebus sunt
-          addit :</p>
+        <head>CAP. III. Theatri Circique structuræ.</head>
+        <p xml:lang="fr">DE theatro et Circo quali structura fuerint pauca dicere cogitabam, ne aures nostræ peregrinari videantur, cum in eorum mentionem incidimus, quod sæpenumero contingat, necesse est. Nam theatri et amphiteatri conjuncta explicatio erit, theatrum enim circuli forma erat, quarta tantum circuli parte detracta, ubi scena surgebat duobus theatri brachiis inclusa quasi frons totius operis, in quam omni ex parte conspectus esset, divisa in scenam unde actores prodibant, <hi rend="i">Proscenium</hi> sive <hi rend="i">pulpitum</hi>, ubi agebantur fabulæ, et <hi rend="i">orchestram</hi> humiliori loco positam saltatoribus servientem, tametsi Isidorus lib. XVIII. cap. XLIV. <hi rend="i">pulpitum et orchestram</hi> idem facit, et non ignoramus has voces loquentium abusu sæpe confundi, ad aliaque significanda traduci. Ex duobus theatris dempta scena ampliatisque lateribus <hi rend="i">Amphitheatrum</hi> constabat, quasi in unum juncta duo <hi rend="i">theatra</hi> seu <hi rend="i">visoria</hi> (ut Cassiodori lib. V. epistola XLII. verbis utamur) majori longitudine quam latitudine, ovi forma, ac quædam prolixa rotunditas, uti idem ait. Temporaria atque e ligno plura fuisse Romæ theatra suspicari libet, quale illud Curionis apud Plinum lib. XXXVI. e lapide amphitheatrum primum Statilii Tauri impensa, Augusti suasu factum est in campo Martio, anno urbis conditæ DCCXXV. cujus magna pars ad sanctæ Crucis in Hierusalem ad ipsa urbis mœnia cernitur, nam amphitheatrum alterum nobilissimum in urbe media priori incendio deformato Augustus destinavit. Vespasianus, uti Suetonius ait in ejus vita cap. IX. extruxit, sed gloriam absoluti et dedicati operis, Titus ejus filius tulit, non Domitianus, uti vulgo hominum persuasio habet, eoque referenda sunt Martialis carmina in ejus operis laudem li. I. ejus amphitheatri formam explicare pergimus, quoniam ad ejus instar theatra alia et amphiteatra extructa per urbes erant, paucis mutatis. Ac primum <hi rend="i">arena</hi>
+          dicebatur, quoniam ea sternebatur ad commoditatem pugnatium : <hi rend="i">Cavea</hi> quod locus cavus erat ab utraque parte in eam altitudinem erecto opere vix ut oculi pertingerent, et quoniam ex Marco Varrone li. IV. <hi rend="i">cavum</hi> in ædibus dictum, locus intra parietes relictus ad communem omnium usum, qui si tectus erat dicebatur <hi rend="i">testudo</hi>, si apertus ut lucem caperet, <hi rend="i">impluvium</hi>. Sic Varronis verba inntelligenda putabam, ea operis amplitudine, ut XXCVII.<note place="bottom"> Note manuscrite  : + millia.</note> homines caperet, ut Victor ait, stantes sedentesve, non explicat. In area, Jovis latiaris ara erecta fuit, sub area cloacæ fortassis ad aquas recipiendas aut derivandas, quæ ex pluvia dilabebantur. Circum opus porticus erat multis januis pertusum, feras aut gladiatores unde emitterent, supra porticum projectura mœnianorum instar, podiumque, unde Senatores et Principes spectabant, clatris seu retiis adjectis ad majus tutamen, adjecto etiam ad radicem operis aliquando euripo, hoc est, fossa aquis plena ad feras arcendas. Supra podium gradus succedunt minori altitudine singuli quam latitudine, nempe superiorum pedes, inferiores sedentes capere debebant. Erant autem ex intervallo tribus distincti baltheis totum opus cingentibus, unde præcinctiones et perizomata vocantur, nimirum prioris podii similitudine latioresque, ad quorum radices viæ erant, per quas a locis in loca alia transibatur. Sic Tertullianum intelligo, cum cap. III. ait. « <quote>Vias enim vocant cardines baltheorum per ambitum<seg type="exquote">, nam quod sequitur,</seg> et discrimina popularium per proclivium </quote>», ad minores scalas referri debet, <pb n="132" xml:id="p132"/>quibus ab uno, ut puto baltheo versus alterum descendebatur, inter quas intervalla graduum comprehensa cunei vocabantur a figura deorum angustiori ; qui cunei diversis ordinibus attributi erant equitibus, tribunis, militibus, unde ludos spectarent. In ipsa autem
+          baltheorum fronte januæ parvulæ erant, <hi rend="i">vomitoria inde dicta</hi>, quod ad accipiendam et reddendam multitudinem idoneæ essent, ut per concamerationes, quæ sub gradibus erant, ingredi et exire possent. In summo opere porticus erat cum cancellis tecta, unde populus et mulieres spectabant, aut pedibus stantes, aut e cathedris positis. Præterea vela erant ad solem arcendum et pegmata, hoc est, machinæ e ligno plicatiles in alios usus, et ut puto, extendendis velis servientes, quæ pegmata in summo ædificio extantia confixa dixeris. Erant et tubi occulti per gradus facti, uti ex commissuris lapidum cernitur hodie etiam Romæ, lotio fortassis reddendo, aut emittenda aqua pluviali. Podium, ubi senatus erat, <hi rend="i">orchestra</hi> vocabatur voce a scena mutuata, unde equites spectabant equestria, unde populus popularia. Hæc ex <hi rend="i">Justo Lipsio</hi> lib. <hi rend="i">de amphitheatro</hi>, paucis commutatis desumpta sunt. Quæ de circo dicturi sumus ex Tertulliano, Cassiodoroque lib. III. epist. L. et Isidoro collegimus, atque aliis. Duplex circus Romæ fuit : alter flaminius dictus, cujus nulla certa vestigia extant, alter Maximus in valle, ut immensa moles montibus contineretur Aventino Palatinoque a Tarquinio Prisco primum constitutus, uti Dionysius et Livius aiunt, deinde a Cæsare dictatore Plinius auctor lib. XXXVI. cap. XV. iisdem vestigiis longitudine stadiorum trium, latitudine unius, sed cum ædificiis jugerum quaternum ducenta sexaginta millia homines sedentes capiebat, ingenti procul dubio vastitate ; centum quinquaginta millia Dionysius ait. Porticus totum opus circumdabant ferme, tecto inæquali, quod columnis sustinebatur inferius, ita ut quasi tres porticus conjunctæ essent, extrinsecus alia porticus erat æquali tecto, officinas in se habens et cubicula superius, per quæ venientibus ad spectaculum ascensus, ingressusque erat ad gradus, qui in hunc modum erant compositi, supra interioris porticus tectum ima parte podium erat
+          adjectis clatris, quemadmodum in amphitheatro dictum est. Deinde ordine assurgebant gradus, in quibus erat sedendum cum suis vomitoriis et superiori porticu, unde spectabat populus. Baltheos seu præcinctiones cum suis viis in circo fuisse non invenio : erat tamen euripus decem pedum latus ad radices totius operis interius. Erant etiam januæ duodecim ad septentionalem plagam, quæ arte quadam simul omnes pandebantur, pinnis superius extantibus mœnium instar, unde ad oppidum ire dicebatur, uti Varro ait lib. IV. Ausonius epistola V. tredecim portas Circi fuisse ait, multa enim cum dixisset de iis, quæ senario numero in rebus sunt addit :</p>
         <quote>
-          <l>Ostia quot pro parte aperit stridentia Circus</l>
-          <l>Excepto medium quod patet ad stadium.</l>
+          <l>« Ostia quot pro parte aperit stridentia Circus</l>
+          <l>Excepto medium quod patet ad stadium. »</l>
         </quote>
         <p xml:lang="fr">Prope januas erant carcerea a coercendis equis dicti, unde signo mappa dato
           currus (qua etiam mappa explicata ludos Circenses fore populo significabatur)
@@ -362,7 +283,7 @@
           terra : quod consilia, cui ille præerat, tecta debeant esse. Porro a Conso ludi Circenses
             <hi rend="i">Consualia</hi> sunt dicti, et <hi rend="i">Consus</hi> idem Neptunus (ut
           Tertullianus ait <hi rend="i">de spectaculis</hi> cap. V.) cui totus apparatus serviebat,
-          qua ratione in tanta turba deesset ? Item columnæ variæ erant, et mater magna De<hi
+          qua ratione in tanta turba deesset ? Item columnæ variæ erant, et **mater magna De<hi
             rend="bg_00ffff">u</hi>m, quo quæque ordine divinare non attinet, nam delphinorum
           effigies ad Euripi oram effictas puto. Sic enim Cassiodorus ait, « <quote>Euripus maris
             vitrei reddit imaginem, unde illuc delphini æquorei aquas interfluunt </quote>» ; nisi
