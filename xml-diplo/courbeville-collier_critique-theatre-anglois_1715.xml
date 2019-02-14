@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="courbeville-collier_critique-theatre-anglais_1715.pdf" xml:lang="fr">
+    xml:id="courbeville-collier_critique-theatre-anglois_1715.pdf" xml:lang="fr">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,6 +25,7 @@
             <publicationStmt>
                 <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
                 <date when="2017"/>
+                <idno>http://obvil.sorbonne-universite.site/corpus/haine-theatre/courbeville-collier_critique-theatre-anglois_1715/</idno>
                 <availability status="restricted">
                     <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
                         <p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire
@@ -69,7 +70,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="texte" xml:id="HDT_83">
+            <div type="book" xml:id="HDT_83">
                 <head>La critique du théâtre anglois</head>
                 <label><pb n="0"/>LA CRITIQUE DU THEATRE ANGLOIS,<lb/><hi rend="i"
                     >COMPARÉ</hi><lb/>AU THEATRE D’ATHENES, DE ROME ET DE FRANCE.<lb/><hi rend="i"
@@ -80,8 +81,9 @@
                     ordinaire de Monseigneur le Dauphin,<lb/>ruë S. Jacques, au Dauphin
                     couronné.</p>
                 <p rend="center">M. DCC. XV.<lb/><hi rend="i">AVEC PRIVILEGE DU ROY.</hi></p>
-                <div type="chapitre" xml:id="CH_83_1">
-                    <head><pb n="I"/>AVERTISSEMENT DU TRADUCTEUR.</head>
+                <div type="chapter" xml:id="CH_83_1">
+                    <pb n="I"/>
+                    <head>AVERTISSEMENT DU TRADUCTEUR.</head>
                     <p>L’Ouvrage dont je donne ici la Traduction est fameux en Angleterre sous ce
                         titre : <hi rend="i">Examen abregé des mauvaises mœurs &amp; de la
                             profanation du Théatre Anglois : avec le sentiment de l’antiquité sur ce
@@ -102,7 +104,7 @@
                         cette foule d’écrits, celui de M. Collier subsiste contre eux dans toute sa
                         force. Cet Auteur a eu le plaisir de voir combien nos Poëtes sont des
                         adversaires méprisables, lorsqu’ils sortent de leur sphére, &amp; qu’ils se
-                        mêlent de parler raison. <seg>»</seg></p>
+                        mêlent de parler raison. »</p>
                     <p>Il ne faut point d’autre éloge du Livre de M. Collier que ce fracas vainement
                         excité contre lui sur le Parnasse Anglois. Pour moi si-tôt que j’appris par
                         le Journal de Londres, la nouvelle de cette guerre littéraire, j’eus une
@@ -126,7 +128,7 @@
                         de Saint <pb n="IV"/>Evremont n’est que comme un leger crayon, qui n’est pas
                         même ressemblant, au moins pour l’essentiel. « Il n’y a point de Comedie (ce
                         sont ses termes) qui se conforme plus à celle des Anciens que l’Angloise,
-                        pour ce qui regarde les mœurs. <seg>»</seg></p>
+                        pour ce qui regarde les mœurs. »</p>
                     <p>Voilà en peu de mots un panegyrique bien glorieux au Théatre Anglois, &amp;
                         capable d’inspirer de la jalousie à toutes les autres Muses Dramatiques ;
                         s’il est fondé sur le vrai. Mais en quelque sens que M. de S. Evremont
@@ -139,7 +141,7 @@
                         plein de la même estime pour lui, je ne l’attaque point, tout mort qu’il
                         est. Mais j’ai un concurrent à lui opposer qu’il ne jugeroit pas indigne
                         d’entrer en lice avec lui. C’est M. Collier, lequel combat la Comedie
-                        Angloise par <pb n="V"/>un <seg>parallele</seg> continuel avec celle des
+                        Angloise par <pb n="V"/>un paralelle continuel avec celle des
                         Anciens, dont l’Angloise s’écarte si fort <hi rend="i">pour ce qui regarde
                             les mœurs</hi>.</p>
                     <p>Il y a apparence qu’on s’en rapportera plus sur ce point à M. Collier, qui
@@ -188,7 +190,7 @@
                         particuliere du Théatre François ? Ils verront pour le moins que ni la
                         Tragedie ni <pb n="VIII"/>la Comedie ne doivent rouler sur une passion qui
                         paroît presque toûjours chez eux une vertu &amp; non une foiblesse, ou qui
-                        est toûjours pernicieuse aux mœurs sous quelque <seg>forme</seg> qu’ils la
+                        est toûjours pernicieuse aux mœurs sous quelque <seg>fome</seg> qu’ils la
                         representent. C’est ce que leur reproche l’ingenieux Auteur qui vient de
                         donner au public un Recueil de ses Poësies, &amp; dont le merite est trop
                         connu par ses Poëmes, de l’Art de Prêcher &amp; de l’Amitié, pour que je ne
@@ -276,7 +278,7 @@
                         traduits ; <hi rend="i">l’Homme sans façon : le Chevalier
                             Ventre-de-Tonne</hi>, &amp;c.</p>
                 </div>
-                <div type="chapitre" xml:id="CH_83_2">
+                <div type="chapter" xml:id="CH_83_2">
                     <head>AVIS.</head>
                     <p><hi rend="i">J’Apprens dans le cours de l’impression de cet ouvrage que feu
                             M. Dryden si souvent &amp; si justement attaqué par M. Collier, s’étoit
@@ -284,12 +286,13 @@
                             ses Poëmes licentieux, &amp; que pour satisfaire en quelque sorte à
                             Dieu, à la Religion &amp; au bon exemple, il traduisit en sa langue
                             quelques-uns de nos meilleurs Livres de pieté. J’ai cru devoir à la
-                                <seg>memoire</seg> de M. Dryden ce témoignage public de sa
+                                memoire de M. Dryden ce témoignage public de sa
                             conversion : Dieu veüille que ses confreres comme lui coupables, se
                             soient convertis ou se convertissent bien-tôt comme lui.</hi></p>
                 </div>
-                <div type="chapitre" xml:id="CH_83_3">
-                    <head><pb n="XIV"/>PRÉFACE DE L’AUTEUR</head>
+                <div type="preface" xml:id="CH_83_3">
+                    <pb n="XIV"/>
+                    <head>PRÉFACE DE L’AUTEUR</head>
                     <p><hi rend="i">Persuadé comme je le suis que rien n’a contribué davantage à
                             corrompre nôtre siécle que les spectacles, je consacre volontiers
                             quelques-unes de mes veilles à écrire sur ce sujet. Certainement nos
@@ -356,7 +359,7 @@
                         <hi rend="i">ménager, n’a plus qu’un pas à faire pour fléchir</hi> le genou
                         devant Baal.</p>
                 </div>
-                <div type="chapitre" xml:id="CH_83_4">
+                <div type="introduction" xml:id="CH_83_4">
                     <head>DESSEIN DE L’OUVRAGE.</head>
                     <p><hi rend="i">La fin du Poëme dramatique est de porter à la vertu &amp;
                             d’éloigner du vice ; c’est de montrer l’inconstance des grandeurs
@@ -395,9 +398,10 @@
                             contre nos Poëtes ; &amp; faire voir à la fois la nouveauté &amp; le
                             scandale de la pratique du Théatre Anglois.</hi></p>
                 </div>
-                <div type="chapitre" xml:id="CH_83_5">
-                    <head><pb n="XX"/><hi rend="i">LISTE DES NOMS</hi><lb/><hi rend="i">des Comedies
-                            &amp; des Personnages, traduits de l’Anglois en François.</hi></head>
+                <div type="contents" xml:id="CH_83_5">
+                    <pb n="XX"/>
+                    <head><hi rend="i">LISTE DES NOMS</hi><lb/><hi rend="i">des Comedies &amp; des
+                            Personnages, traduits de l’Anglois en François.</hi></head>
                     <p>L’Amour Desinteressé. <hi rend="i">Love for Love.</hi> C.</p>
                     <p>L’Amour Triomphant. <hi rend="i">Love Triomphant.</hi> C.</p>
                     <p>L’Astrologue Joüé. <hi rend="i">The Mock-Astrologer.</hi> C.</p>
@@ -430,17 +434,19 @@
                     <p>Sans-soucy. <hi rend="i">Careless.</hi> P.</p>
                     <p>Ventre-de-Tonne. <hi rend="i">Tun-Belly.</hi> P.</p>
                 </div>
-                <div type="chapitre" xml:id="CH_83_6">
-                    <head><pb n="XXII"/><hi rend="i">APPROBATION.</hi></head>
+                <div type="privilege" xml:id="CH_83_6">
+                    <pb n="XXII"/>
+                    <head><hi rend="i">APPROBATION.</hi></head>
                     <p>J’ay lû par l’ordre de Monseigneur le Chancelier, <hi rend="i">La Critique du
                             Theatre Anglois</hi>, &amp; j’ai crû que la lecture n’en seroit ni moins
                         utile ni moins agreable en France qu’elle l’a été en Angleterre. Fait à
                         Paris ce 31 Mai 1714.</p>
                     <p><hi rend="i">Signé</hi>, RAGUET.</p>
                 </div>
-                <div type="chapitre" xml:id="CH_83_7">
-                    <head><pb n="1"/>CHAPITRE I.<lb/><hi rend="i">L’obscenité du Théatre Anglois
-                            dans le langage.</hi></head>
+                <div type="chapter" xml:id="CH_83_7">
+                    <pb n="1"/>
+                    <head>CHAPITRE I.<lb/><hi rend="i">L’obscenité du Théatre Anglois dans le
+                            langage.</hi></head>
                     <p>Je ne crois pas qu’on exige de moi qu’en traitant cette matiere, je cite les
                         endroits de nos Comedies qui y ont rapport, &amp; que je marque exactement
                         en quel Acte <pb n="2"/>on les trouvera, en quelle Scéne, en quelle page. Ce
@@ -545,7 +551,7 @@
                         la sagesse qu’elles montrent ailleurs, ne seroient qu’hypocrisie &amp; que
                         grimace ?</p>
                     <p>Suppositions trop injurieuses au sexe pour les admettre ! Ce seroit
-                            <seg>traiter</seg> les Dames à peu prés de la même maniere que ceux qui
+                            traitter les Dames à peu prés de la même maniere que ceux qui
                         reçoivent leur argent, pour les insulter à la face d’une nombreuse
                         Assemblée : ce seroit s’imaginer qu’elles se repaissent d’idées criminelles,
                         qu’elles sont accoûtumées au langage des mauvais lieux, &amp; qu’elles
@@ -571,7 +577,7 @@
                     <p>Premierement. Nos Dramatiques mettent des obscenitez dans la bouche même du
                         sexe : les personnages &amp; les pieces que je me suis contenté de nommer en
                         sont des preuves sensibles ; &amp; s’il en étoit besoin, ces preuves
-                        pourroient être multipliées presque <seg>à</seg> l’infini ; car les Comedies
+                        pourroient être multipliées presque à l’infini ; car les Comedies
                         chez nous sont rarement innocentes de ces desordres ; les Tragedies mêmes
                         n’en sont pas toûjours nettes. <hi rend="i">Monimie</hi>,<note
                             place="margin"><p>Dans l’Orphelin.</p></note> par exemple, <pb n="12"
@@ -668,7 +674,7 @@
                         lie du peuple.</p>
                     <p>Troisiémement. On retranche souvent au Spectateur jusqu’au foible azile de la
                         double entente : il est reduit à la necessité de comprendre une
-                            <seg>sottise,</seg> ou bien de <pb n="19"/>ne rien concevoir. Lors même
+                            sotise, ou bien de <pb n="19"/>ne rien concevoir. Lors même
                         qu’une pensée a deux faces, on met la pire sous ses yeux. Tout est alors
                         tellement disposé que le mauvais côté de la pensée se montre toûjours :
                         semblable à une peinture hideuse qui nous presente toûjours le regard.</p>
@@ -707,7 +713,7 @@
                         l’adultere de Jupiter &amp; l’employ de Mercure qui le favorise ; que la
                         priere adressée aux Dieux par <pb n="22"/>Gimnasium est moins
                             horrible ;<note place="margin"><p>Gissellar.</p></note> que Cherée
-                        autorise sa faute sur <seg>l’aventure</seg> de Jupiter &amp; de Danaé.<note
+                        autorise sa faute sur l’avanture de Jupiter &amp; de Danaé.<note
                             place="margin"><p>Terent. Eunuch.</p></note></p>
                     <p>Mais l’esprit du Christianisme est bien different de la créance de ces
                         Poëtes. Les exemples de l’Auteur de nôtre Foy sont autant d’arrêts prononcez
@@ -803,7 +809,7 @@
                     <p>Cependant, il ne s’étend jamais à la moderne sur les succés ni sur les
                         disgraces de l’amour : ces deux articles lui paroissent des écuëils, il n’y
                         touche que légérement &amp; avec beaucoup de circonspection. Enfin il laisse
-                            <seg>quelque</seg>
+                            quelque
                         <pb n="30"/>ressource à la modestie, il respecte la dignité de l’homme
                         raisonnable, &amp; fait assez sentir que la corruption des mœurs n’est point
                         son objet.</p>
@@ -819,7 +825,7 @@
                     <p>Plaute neanmoins vivoit dans un siecle qui n’étoit pas encore <pb n="31"
                         />bien rafiné, &amp; semble ajuster souvent ses Comedies à la portée du
                         vulgaire. C’est pour cela, je croi, que ses caractéres passent le naturel,
-                        &amp; que chaque trait ridicule en est trop <seg>allongé ;</seg> que ses
+                        &amp; que chaque trait ridicule en est trop alongé ; que ses
                         vieillards sont trop credules, ses avares trop défians, &amp; tous ses
                         originaux singuliers au-delà du vraisemblable : c’est peut-être encore pour
                         la même raison que ses personnages du dernier ordre sont trop libres dans
@@ -838,7 +844,7 @@
                         de jeunes personnes dont on attendoit beaucoup de reserve.</p>
                     <p>A la verité, dans l’Heautontimoreumenos l’intrigue du Poëte oblige Antiphile
                         de paroître déguisée sous Bacchis : elles ont ensemble à cette occasion un
-                        court dialogue, où Bacchis toute <seg>Courtisane</seg> qu’elle est se
+                        court dialogue, où Bacchis toute Courtisanne qu’elle est se
                         comporte en honnête femme : ses paroles n’ont rien de ses mœurs ; <pb n="33"
                         />au contraire, elle louë la vertu qu’elle n’a pas &amp; l’admire dans
                         Antiphile. Antiphile dit, il est vrai, combien elle a toûjours été constante
@@ -867,7 +873,7 @@
                             verbum turpe.</hi></p>
                     <p>Les esclaves chez lui sont en regle &amp; sur leurs gardes :<note
                             place="margin"><p>Heauton.</p></note> ils fuïent l’occasion, ou bien ils
-                        la parent ; ils glissent plutôt qu’ils <seg>n’appuyent</seg> sur un endroit
+                        la parent ; ils glissent plutôt qu’ils n’apuyent sur un endroit
                         dangereux. Ce Poëte n’estimoit point que la bassesse de la naissance fût
                         comme <pb n="35"/>un passe-port pour la saleté : il sçavoit que le poison le
                         moins nuisible peut s’attacher à certains temperamens, &amp; qu’outre cela
@@ -930,7 +936,7 @@
                         science où nos Poëtes ont voulu exceller pour la mettre en vogue. Que de
                         moyens jusqu’à nos jours, inconnus ! que de ressorts nouveaux ! que de
                         piéges par eux inventez pour surprendre la vertu ! Avec quels
-                        applaudissemens <seg>n’en chante-t’il pas</seg> la défaite ! Car voilà leur
+                        applaudissemens n’enchantent-ils pas la défaite ! Car voilà leur
                         objet principal : la finesse de l’intrigue, &amp; la naïveté de la
                         representation se terminent là pour l’ordinaire. Rome avoit d’autres
                         sentimens sur ce point, dont elle prévoyoit les conséquences : le
@@ -944,10 +950,10 @@
                         plus present à l’esprit &amp; plus agissant sur le cœur ?</p>
                     <p>Afin de réünir ensemble tous les Dramatiques Latins ; Seneque est chaste dans
                         son langage, &amp; laisse ordinairement l’amour à quartier. Il n’y a point
-                        chez lui de <seg>cajoleries ;</seg> si ce n’est dans son <hi rend="i"
+                        chez lui de cajolleries ; si ce n’est dans son <hi rend="i"
                             >Hercules furens</hi> : &amp; là même, Lycus dit peu de choses &amp; en
                         termes honnêtes à Megare. Il s’étend assez dans sa Thébaïde sur l’inceste
-                            <seg>d’Œdipe,</seg> mais sans aucune description fâcheuse. Phedre à la
+                            d’Ædipe, mais sans aucune description fâcheuse. Phedre à la
                         verité déclare ouvertement sa passion, elle en avoüe la violence, &amp; est
                         bien moins sage dans Seneque que dans Euripide.<note place="margin"
                                 ><p>Hippol.</p></note> Cependant, si les sentimens de Phedre
@@ -957,7 +963,7 @@
                         est hardi ; &amp; semble vouloir transmettre aux Spectateurs la noble audace
                         qui l’anime. Son style a je ne sçai quoi de pompeux, de guerrier, &amp; si
                         je l’ose dire, d’entreprenant : c’est en quelque maniere la trompette qui
-                        sonne dans ses vers, propres à <seg>échauffer</seg> le courage, à inspirer
+                        sonne dans ses vers, propres à échaufer le courage, à inspirer
                         l’ardeur Martiale &amp; à en faire venir à une action. Mais il ne ménage pas
                         toûjours son feu ; il se perd quelquefois dans les nuës, emporté par son
                         attrait pour le sublime ; il est surabondant en épithetes : ses metaphores
@@ -976,7 +982,7 @@
                         parler tres-succintement. Mais la rareté même de ces sortes d’exemples dans
                         ce Poëte est une preuve efficace pour l’affaire presente ; &amp; son
                         témoignage est d’autant <pb n="43"/>plus fort qu’il est plus précis.</p>
-                    <p>Oreste est forcé par l’Oracle de <seg>venger</seg> la mort de son pere au
+                    <p>Oreste est forcé par l’Oracle de vanger la mort de son pere au
                         prix de celle de sa mere :<note place="margin"><p>Orest. 48. Edit.
                                 Cantab.</p></note> lorsqu’il est sur le point d’ôter la vie à celle
                         dont il l’a reçuë, il en rapelle la cruauté ; mais il en dissimule
@@ -1039,7 +1045,7 @@
                         de l’interêt personnel qui l’attache à la Princesse ; si ce n’est dans un
                         vers tellement obscur que Creon ne le comprit pas. Antigone de sa part, au
                         milieu de ses autres malheurs déplore celui de se voir mourir si jeune ;
-                        sans qu’il lui <seg>échappe</seg> une parole sur le chapitre d’Hemon. Le
+                        sans qu’il lui échape une parole sur le chapitre d’Hemon. Le
                         Poëte d’ailleurs se garde bien de mettre au même temps sur le Théatre ces
                         deux personnages si intéressez l’un à l’autre : il apprehende qu’ils ne lui
                         deviennent <pb n="48"/>des caractéres trop delicats à manier &amp; trop
@@ -1087,7 +1093,7 @@
                             rencontre ! Quel lustre n’en reçoit pas le merite</hi> &amp;c.<note
                             place="margin"><p>Edit. Cantab. p. 232. &amp;c.</p></note></p>
                     <p>Le Scoliaste fait ces reflexions sur quelques vers d’Hippolite,
-                        <seg>«</seg> Que l’imagination d’un Poëte doit être pure, &amp; que les
+                        « Que l’imagination d’un Poëte doit être pure, &amp; que les
                         Muses étant Vierges, il faut que les Poëmes soient assortis à cet
                         état. »</p>
                     <p>Hermione reproche à Andromaque que son mari ne la regarde pas avec de yeux
@@ -1117,10 +1123,10 @@
                         sans qu’il le dise lui-même : on en jugera. <hi rend="i">Que sont</hi>,
                         dit-il, <hi rend="i">les foüets, les roues, les tortures comparées à nôtre
                             séparation cruelle ? Ne sont-ce pas les douceurs les plus doucereuses du
-                            monde ? n’est-ce pas le plus <seg>lethargique</seg> repos où l’on puisse
+                            monde ? n’est-ce pas le plus letargique repos où l’on puisse
                             être plongé ? n’est-ce pas l’air le plus rafraîchissant qui puisse
                             devorer ?</hi></p>
-                    <p>Des <hi rend="i">douceurs doucereuses, un repos <seg>lethargique</seg></hi>
+                    <p>Des <hi rend="i">douceurs doucereuses, un repos letargique</hi>
                         &amp; <hi rend="i">un air devorant</hi> seroient d’étranges consolations
                         dans la souffrance ! Cette comparaison <pb n="54"/>n’est elle pas bien
                         imaginée ? c’est apparemment que ceux qui aiment, semblables à ceux qui sont
@@ -1146,18 +1152,18 @@
                         Du-Bartas.</p>
                     <quote>
                         <lg>
-                            <l> <seg>«</seg> Quelquefois il advient que la force du froid</l>
+                            <l> « Quelquefois il advient que la force du froid</l>
                             <l>Géle toute la nuë : &amp; c’est alors qu’on void</l>
                             <l>Tomber à grands floccons une celeste laine :</l>
                             <l>Le bois devient sans feüille, &amp; sans herbe la plaine.</l>
                             <l>L’univers n’a qu’un tein, &amp; sur l’amas chenu</l>
-                            <l>A grand’ peine paroît du Cerf le chef cornu. <seg>»</seg></l>
+                            <l>A grand’ peine paroît du Cerf le chef cornu. »</l>
                         </lg>
                     </quote>
                     <p>Je conçois cette description encore mieux que l’autre, que je renvoye aux
                         reflexions de M. Dryden.<note place="margin"><p>Epist. dedicat. du Moine
                                 Espagnol.</p></note> Mais <hi rend="i">des douceurs doucereuses, un
-                            repos qui aille à la <seg>lethargie,</seg> un air le plus rafraîchissant
+                            repos qui aille à la letargie, un air le plus rafraîchissant
                             qui <pb n="56"/>puisse devorer, des roulades de frayeur, des torrens
                             continuels d’une pluye brûlante</hi> ; c’est ce que je n’entends point.
                         Car pour parler un peu à la mode de nôtre Théatre, cette multitude
@@ -1199,7 +1205,7 @@
                         voulût <pb n="59"/>suivre à la piste une mauvaise odeur pour faire la
                         découverte d’un cloaque ? Je ne m’arrête pas davantage à cette objection ;
                         parce que je la retrouveray ailleurs.<note place="margin"><p>Dans
-                                    <seg>Dom</seg> Guichot par M. Durfey.</p></note></p>
+                                    Dom Guichot par M. Durfey.</p></note></p>
                     <p>Le Théatre d’Athenes s’est vû jusqu’icy dans la regle ; mais je tombe
                         d’accord qu’il n’y a pas été sans prescription. Aristophane se donne de
                         grandes libertez, &amp; ses personnages de femmes s’en ressentent aussi-bien
@@ -1226,7 +1232,7 @@
                         Religion &amp; lui déclare qu’il <hi rend="i">ne reconnoît point les Dieux
                             suivant la notion commune</hi>.<note place="margin"><p>Nub. <hi
                                     rend="sc">a.</hi> 1. s. 3. Edit. Amstel.</p></note> Le Poëte lui
-                            <seg>fait dire</seg> en un autre endroit que <hi rend="i">les Nuées sont
+                            dit en un autre endroit que <hi rend="i">les Nuées sont
                             les seules Divinitez</hi> : ce qui est le même trait de Satyre que celui
                         de Juvenal contre les Juifs, lesquels n’adoroient qu’un souverain
                         Estre :</p>
@@ -1240,7 +1246,7 @@
                         est une chimere Il avance &amp; tâche d’obtenir de Strepsiade par
                         composition qu’il n’admettra point d’autres Dieux que le <hi rend="i"
                             >Cahos</hi>, les <hi rend="i">Nuées</hi> &amp; <hi rend="i">la
-                            Langue</hi>. <seg>Pour</seg> conclusion : le Poëte condamne le
+                            Langue</hi>. Par conclusion : le Poëte condamne le
                         Philosophe à une peine <pb n="62"/>publique à cause de ses singularitez. Il
                         met le feu à l’Ecole de Socrate pour avoir appris aux jeunes gens à disputer
                         contre les loix de la justice, à ce qu’il prétend, pour avoir débité des
@@ -1288,7 +1294,7 @@
                         opinion sur la commune créance, il avertit que quiconque ne paye pas le
                         salaire d’un crime trop monstrueux pour le nommer il sera jetté sur le
                         rivage du Tartare. Mais avec quelles gens s’y trouvera-t-il ? Avec ceux qui
-                        se parjurent, dit ce Poëte, avec ceux qui <seg>maltraitent</seg> leur pere
+                        se parjurent, dit ce Poëte, avec ceux qui maltraittent leur pere
                         ou leur mere. Ainsi trahir ses sermens, outrager ceux à qui l’on doit la
                         lumiére, &amp; ne point recompenser une abomination commise, tout cela va de
                         pair au sentiment d’Aristophane. N’est-il pas évident qu’en plaçant de <pb
@@ -1308,7 +1314,7 @@
                         capables qu’eux du Gouvernement. <pb n="67"/>Le Conseiller d’Etat des
                         oiseaux continue &amp; avertit qu’aprés avoir achevé la cité suspenduë,
                         &amp; fortifié l’air d’alentour, leur premier soin doit être de reclamer
-                        leur ancienne <seg>souveraineté :</seg> que si Jupiter est sourd à leur
+                        leur ancienne souverainté : que si Jupiter est sourd à leur
                         juste prétention, il faut lui déclarer &amp; aux autres Dieux confederez une
                         sainte guerre ; &amp; couper incessamment toute communication entre le Ciel
                         &amp; la terre. Pisthetœrus s’échauffe sur le nouvel interêt qu’il prend à
@@ -1355,14 +1361,14 @@
                         la scurrilité par l’impudence. Est-il rien de plus mauvais sens ? Sur tout
                             <hi rend="i">ce juste</hi>, <pb n="71"/>comme il plaît au Poëte de
                         l’appeller, ayant dit au commencement de son discours que l’on condamnoit
-                        les gens au foüet pour de pareilles <seg>sottises,</seg> lorsque le
+                        les gens au foüet pour de pareilles sotises, lorsque le
                         Gouvernement &amp; la discipline étoient en vigueur.</p>
                     <p>Le Chœur des <hi rend="i">Grenoüilles</hi><note place="margin"
                             ><p>P. 200.</p></note> ne s’accorde pas mieux avec soi-même, &amp; tombe
                         dans une semblable contrarieté de maximes.<note place="margin"
                                 ><p>P. 242.</p></note> Bien plus ; dans la suite de la Piece,
                         Eschyle fait le personnage d’un plaisant &amp; d’un agréable contre son
-                        humeur naturelle : il tourne ses propres <seg>raisonnemens</seg> en
+                        humeur naturelle : il tourne ses propres rasonnemens en
                         railleries le plus mal à propos du monde ; dans le moment qu’il dispute pour
                         la couronne de laurier. Aprés avoir badiné quelque temps sur l’histoire de
                         Bellerophon, Eschyle du même ton badin accuse Euripide d’avoir ruiné les
@@ -1373,7 +1379,7 @@
                     <p>Ces legeretez burlesques ont fort mauvaise grace dans la bouche d’Eschyle :
                         son caractére est tout different, &amp; dans le fonds &amp; dans les œuvres
                         qu’il a laissées à la posterité. Il nous est représenté, ce
-                            <seg>tragique,</seg> comme un homme serieux, fier, haut, sensible à
+                            tragyque, comme un homme serieux, fier, haut, sensible à
                         l’honneur, piqué au vif de se voir un rival, &amp; d’être forcé d’entrer en
                         lice avec Euripide. Des puerilitez conviennent-elles à un homme de cette
                         trempe &amp; à l’affaire dont il étoit question ?</p>
@@ -1386,7 +1392,7 @@
                         à l’extravagance du Poëte ; c’est lorsqu’ils vont se rendre au Conseil, la
                         tête remplie du bien de la nation. De petits bouffons sont-ils propres à
                         regler les affaires importantes de l’Etat, &amp; à donner de l’autorité aux
-                        loix ? La saleté &amp; l’ineptie <seg>sympathisent</seg> elles avec la
+                        loix ? La saleté &amp; l’ineptie sympatissent-elles avec la
                         sagesse &amp; la gravité de la Magistrature ? Pour convertir des Magistrats
                         en tabarins, il faut avoir percé bien avant dans le vraisemblable &amp; dans
                         les secrets de la Politique ! Le tableau qu’Aristophane en fait est aussi
@@ -1541,7 +1547,7 @@
                             n="85"/>Piece eut le malheur d’avoir de tres mauvais Juges : on la
                         siffla avant qu’elle eût été à demi representée. Mais il paroît que la trop
                         grande austérité de ses mœurs fut l’unique sujet de la persécution qu’elle
-                        souffrit. Peu de temps aprés, Benjanson &amp; Beaumont <seg>vengerent</seg>
+                        souffrit. Peu de temps aprés, Benjanson &amp; Beaumont vangerent
                         dans leurs Vers l’Auteur <hi rend="i">de la Bergere fidéle</hi>.<note
                             place="margin"><p>Oeuvres de Beaumont.</p></note> Et comme Beaumont
                         celebre la modestie de Fletcher sur toutes choses, aussi est-il loüé pour la
@@ -1559,11 +1565,11 @@
                                 de Fletcher.</p></note>
                         <hi rend="i">Athenes on a banni du Théatre, &amp; à Rome on a hué ceux qui
                             introduisoient sur la Scéne des parasites, faiseurs de singeries, des
-                            fous indecemment vêtus, des <seg>Courtisanes</seg> libres dans leurs
+                            fous indecemment vêtus, des Courtisannes libres dans leurs
                             paroles.</hi></p>
                     <p><hi rend="i">Loin</hi><note place="margin"><p>Second Prologue de la même
                                 piece.</p></note>
-                        <hi rend="i">d’icy <seg>toute Satire</seg> qui attaque les particuliers,
+                        <hi rend="i">d’icy toure Satyre qui attaque les particuliers,
                             toute expression trop enjouée, tout ce qui peut avoir l’ombre du crime.
                             Une coupable joye ne cause point un vray contentement ; &amp; les
                             honnêtes gens ne sont touchez que des choses honnêtes.</hi></p>
@@ -1606,7 +1612,7 @@
                         l’imagination de mes Auditeurs ; &amp; aprés y avoir consumé toute mon
                         industrie, la modestie de nôtre Théatre a desavoüé <pb n="90"/>ce peu que la
                         necessité de mon sujet m’a forcé d’en faire connoître,
-                        &amp;c. <seg>»</seg></p>
+                        &amp;c. »</p>
                     <p>Ces paroles nous exposent à la fois, &amp; le témoignage du Poëte, &amp; la
                         pratique du Théatre François &amp; le sentiment de la nation Françoise.
                         Est-il rien de plus fort contre nous ?</p>
@@ -1619,7 +1625,7 @@
                         imaginé. Aristophane tout coupable qu’il est par tant <pb n="91"/>d’endroits
                         l’est bien moins qu’eux à cet égard : il n’employe jamais les figures de la
                         plus obscéne Rethorique ; il leur étoit reservé d’en être un jour les
-                            <seg>créateurs.</seg></p>
+                            créatures.</p>
                     <p>Leurs Oeuvres mêlées sont encore licentieuses à faire frémir. Ce sont
                         communément des collections de tout ce que les Poëtes les plus sales de
                         l’antiquité nous ont transmis de plus infame. Ce n’est point assez ; le
@@ -1631,7 +1637,7 @@
                         éloges : mais s’il n’en <pb n="92"/>est pas ainsi, il me semble qu’on
                         devroit traiter ces ouvrages tout autrement qu’on ne fait.</p>
                 </div>
-                <div type="chapitre" xml:id="CH_83_8">
+                <div type="chapter" xml:id="CH_83_8">
                     <head>CHAPITRE II.<lb/><hi rend="i">L’Impieté du Théatre Anglois.</hi></head>
                     <p>Je reduis l’impieté de nos Poëtes à ces deux chefs à leurs imprecations
                         d’abord &amp; à leurs sermens ; ensuite à l’abus qu’ils font de la Religion,
@@ -1699,7 +1705,7 @@
                         conduite. Mais, si les veritez de l’Evangile n’étonnent point certains
                         esprits, comme j’ai bien lieu de le croire, ne craignent-ils pas du moins la
                         loy qui proscrit en termes formels les juremens sur le Théatre ?</p>
-                    <p><seg>«</seg> Pour prévenir &amp; empêcher le grand abus du saint Nom de <pb
+                    <p>« Pour prévenir &amp; empêcher le grand abus du saint Nom de <pb
                             n="98"/>Dieu sur le Théatre, à la Comedie, &amp;c. il est ordonné par
                         nôtre Souverain Seigneur.… que si une fois ou plusieurs aprés la présente
                         seance du Parlement, quelqu’un ou quelques-uns sur le Théatre à la Comedie,
@@ -1712,7 +1718,7 @@
                         sujet, à quelque Chambre de Justice que ce soit à Westminster : sur quoi nul
                         pretexte de non comparoître, <pb n="99"/>nul credit, nul offre de serment
                         pour affirmer le contraire, ne sera reçu. »</p>
-                    <p>Si l’on tenoit la main à l’exécution de ce Réglement <seg>authentique,</seg>
+                    <p>Si l’on tenoit la main à l’exécution de ce Réglement autentique,
                         le Théatre moderne rentreroit dans le devoir, ou bien les spectacles
                         seroient abolis.</p>
                     <p>Au surplus ; ce n’est pas seulement une irreligion, c’est encore une
@@ -1740,7 +1746,7 @@
                         pour faire abhorrer, comme je l’espere, leur sacrilege conduite.</p>
                     <p>Une Chapelle sert de Scéne au premier Acte de <hi rend="i">l’Astrologue
                             Joüé</hi> : &amp; afin qu’on sçache d’abord à quelle intention se
-                        prépare ce lieu sacré, la Scéne s’ouvre par des <seg>coquetteries,</seg>
+                        prépare ce lieu sacré, la Scéne s’ouvre par des coqueteries,
                         &amp; par de bons mots sur la pieté.<note place="margin"><p>P.</p></note>
                         <hi rend="i">Iacynte</hi> y est une des principales Actrices : elle
                         interrompt entr’autres choses <hi rend="i">Theodosie</hi> sa sœur, &amp;
@@ -1774,7 +1780,7 @@
                         &amp; pour s’en moquer d’une maniére plus sensible, on fait tout-à-coup
                         apparoître un Diable sur le Théatre. Ce Diable vient à éternuer, sur quoi on
                         lui dit : <hi rend="i">Que Dieu le contente ! que probablement il aura
-                                <seg>attrapé</seg> un <seg>rhume</seg> pour s’être trop long-temps
+                                attrappé un rume pour s’être trop long-temps
                             éloigné du feu.</hi></p>
                     <p>La Scéne de <hi rend="i">L’Orphelin</hi><note place="margin"><p>C.</p></note>
                         est dans une contrée de la Chrétienté ; sans que la Religion y soit pour
@@ -1849,7 +1855,7 @@
                             d’Achab.</p></note><hi rend="i">Si Jehu étoit Cocher de <pb n="108"
                             />Fiacre, j’en suis content…. Vous pouvez mettre cela en note
                             marginale : quoique.… pour prévenir la critique, faites-le seulement
-                            avec un petit <seg>asterisque,</seg> &amp; dites : Jehu étoit jadis
+                            avec un petit asterique, &amp; dites : Jehu étoit jadis
                             Cocher de Fiacre.</hi> Toute miserable qu’est cette irreligion, j’ai de
                         la peine à croire que l’Auteur s’en sçache mauvais gré ; vû qu’il a bien
                         senti qu’il y prophanoit à la fois le Texte &amp; le Commentaire. Je
@@ -1890,13 +1896,13 @@
                         badins &amp; plus burlesques sur la resurrection <pb n="111"/>des morts.
                         Sans doute que l’Auteur de <hi rend="i">Dom Sebastien</hi> ne compte pas
                         trop de se voir un jour à ce terrible spectacle : l’idée
-                            <seg>bouffonne</seg> qu’il prête à une de nos plus effrayantes veritez
+                            bouffone qu’il prête à une de nos plus effrayantes veritez
                         ne peut s’adapter qu’à un homme qui tâtonne dans les tenebres de la nuit
                         &amp; qui ne sçait ce qu’il fait. Mais que quiconque parle de <hi rend="i"
                             >chercher où sont ses membres au jugement dernier</hi>, craigne de ne
                         les trouver que trop tôt.</p>
                     <p>Au quatriéme Acte ; <hi rend="i">Mustapha</hi>
-                        <seg>date</seg>
+                        datte
                         <hi rend="i">de la seconde nuit du mois</hi><note place="margin"
                                 ><p>Exod. 12. 13.</p></note>
                         <hi rend="i">Abib, son exaltation au Generalat</hi> des troupes rebelles. On
@@ -1975,7 +1981,7 @@
                     <p>La matiere &amp; le mouvement sont des choses si dépendantes du hazard, si
                         susceptibles de variation, &amp; qui ont avec cela si necessairement leurs
                         effets. Ces proprietez de la matière &amp; du mouvement
-                            <seg>sympathisent-elles</seg> avec la nature de l’amitié selon l’idée
+                            sympatisent-elles avec la nature de l’amitié selon l’idée
                         que nous en avons tous ? Le choix peut-il avoir sa racine dans le hazard ?
                         la vertu dans la necessité ? la constance dans l’instabilité ? Il faudra
                         donc que tout homme soit ou ami ou ennemi malgré lui &amp; aussi long-temps
@@ -1992,7 +1998,7 @@
                             prochaine ; parce qu’elle n’est que fort petite.</hi> Ici le Poëte se
                         met à la place d’Abraham, &amp; assit son Mecene sur le trône de Dieu :
                         &amp; où est l’esprit en tout cela ? où est le merveilleux ? Apparemment que
-                        c’est dans la convenance du <seg>parallele</seg> ? A l’égard de <hi rend="i"
+                        c’est dans la convenance du paralelle ? A l’égard de <hi rend="i"
                             >la ville prochaine</hi>, pour laquelle M. Dryden demande grace ; où est
                         l’allusion ? Ce n’étoit point de Segor qu’Abraham parloit, mais de <pb
                             n="119"/>Sodome &amp; de Gomorrhe, ces deux villes si criminelles &amp;
@@ -2059,7 +2065,7 @@
                         l’Auteur même de la nature. <hi rend="i">Alphonso</hi><note place="margin"
                                 ><p>Ibid.</p></note> continue &amp; compare à la felicité du Ciel
                         l’infamie d’un incestueux amour : c’est selon lui, <hi rend="i">l’Eternité
-                                <pb n="124"/>en <seg>raccourci</seg></hi>.<note place="margin"
+                                <pb n="124"/>en racourci</hi>.<note place="margin"
                                 ><p>Ibid.</p></note> On diroit que la passion n’a rien de piquant
                         pour nôtre Théatre, à moins qu’elle n’y paroisse l’effet forcené d’un
                         cerveau fanatique : il faut que pour attirer l’attention du Spectateur elle
@@ -2106,7 +2112,7 @@
                         invective avec aspreté contre la structure du corps humain. <hi rend="i">La
                             nature</hi>, dit-il, <hi rend="i">n’a eu de la prévoyance que pour les
                             ours &amp; les araignées.</hi> C’est la reconnoissance que M<hi
-                            rend="sup">r</hi> C. <seg>témoigne</seg> au Seigneur pour tous les biens
+                            rend="sup">r</hi> C. témoigne au Seigneur pour tous les biens
                         qu’il en a reçus. Il va d’un crime à un autre ; de la censure des ouvrages
                         de Dieu à la prophanation de sa sainte parole.</p>
                     <p>M<hi rend="sup">r</hi>. <hi rend="i">De Longueveuë confesse qu’il est naturel
@@ -2147,7 +2153,7 @@
                         ce tour impertinent à un trait de l’histoire sacrée ? &amp; loger Samson une
                         seconde fois dans la maison<note place="margin"><p>Allusion au lieu où se
                                 joüe la Comedie &amp; aux spectateurs.</p></note> de Dagon, afin d’y
-                        devenir la risée des <seg>Philistins ?</seg></p>
+                        devenir la risée des Philistims ?</p>
                     <p><pb n="130"/>Achevons cette Comedie. <hi rend="i">Babillard</hi> voudroit
                         avoir enlevé à <hi rend="i">Valentin</hi> sa Maîtresse : celui cy témoigne
                         sur ce point son ressentiment en style de Theologien. <hi rend="i">Je vous
@@ -2167,7 +2173,7 @@
                         n’eût-on égard ici qu’à la modestie, il sied tres-mal à une femme de parler
                         d’elle de la sorte : ce langage d’<hi rend="i">Angelique</hi> étoit des plus
                         insipides, sans l’allusion impie par où le Poëte a cru y apporter un grand
-                            <seg>assaisonnement.</seg></p>
+                            assaissonnement.</p>
                     <p><hi rend="i">La Femme Provoquée</hi><note place="margin"><p>P. 38.</p></note>
                         regale les Spectateurs d’une chanson à boire, qui est un abregé du pur
                         Athéïsme. Il est vrai que l’on dit aprés cela que cette chanson est <hi
@@ -2208,7 +2214,7 @@
                     <p>Ce prétendu jeu de Théatre n’est pas rare dans <hi rend="i">le Relaps.
                             Milord-fat</hi> se rit des solemnitez publiques de la Religion, comme
                             <pb n="134"/>s’il y avoit de la foiblesse &amp; du mauvais sens à rendre
-                        au Seigneur nos <seg>hommages :</seg>
+                        au Seigneur nos homages :
                         <note place="margin"><p>P. 34.</p></note><hi rend="i">En verité le Dimanche
                             est un vilain jour…. Etre attentif aux prieres, c’est être attentif à
                             quoi l’on ne devroit point du tout l’être.</hi> Pretieux impie !
@@ -2567,7 +2573,7 @@
                             sang sortit, &amp; que j’aperçus du lait rouge sur ses lévres ; ce qui
                             me fit évanouir de frayeur.</hi></p>
                     <p>Portrait achevé d’un enfant qui téte ! Description si naïve qu’il semble que
-                        le Poëte ne vienne que d’être <seg>séveré !</seg> Serieusement c’est une
+                        le Poëte ne vienne que d’être sevré ! Serieusement c’est une
                         grande puerilité que cette idée de <hi rend="i">La Famine</hi> ; &amp; <hi
                             rend="i">Cleora</hi> paroît encore plus manquer de jugement que de
                         nourriture. Si cette imagination n’étoit <pb n="160"/>pas susceptible des
@@ -2581,7 +2587,7 @@
                         </lg>
                     </quote>
                     <p>Au reste, ce qu’il y a de vif &amp; d’animé dans cette Scéne, ce sont des
-                        impietez <seg>d’Enthousiastes :</seg> car j’avoüe que l’imagination de nôtre
+                        impietez d’Entousiastes : car j’avoüe que l’imagination de nôtre
                         Poëte, en quelque humeur qu’il soit, n’est jamais sterile ni languissante
                         pour de tels sujets. Ainsi, est-il des gens qui ont toûjours assez d’esprit
                         pour tourner ingenieusement les mauvaises choses, pour répandre des graces
@@ -2678,9 +2684,10 @@
                         ordonne le bien. En un mot, l’impieté ne sert qu’à nous apprendre d’avance
                         le langage des reprouvez.</p>
                 </div>
-                <div type="chapitre" xml:id="CH_83_9">
-                    <head><pb n="169"/>CHAPITRE III.<lb/><hi rend="i">L’insolence du Théatre Anglois
-                            à l’égard du Clergé.</hi></head>
+                <div type="chapter" xml:id="CH_83_9">
+                    <pb n="169"/>
+                    <head>CHAPITRE III.<lb/><hi rend="i">L’insolence du Théatre Anglois à l’égard du
+                            Clergé.</hi></head>
                     <p>Nos Dramatiques traitent les gens d’Eglise d’une maniére bien étrange ! ils
                         n’attaquent en toute autre rencontre que quelque défaut exterieur ou
                         purement naturel &amp; borné à un certain nombre de personnes : mais ils ne
@@ -2692,12 +2699,12 @@
                         membres.</p>
                     <p><pb n="170"/>Il est vrai que le Clergé, soit Séculier ou Regulier, n’est pas
                         un leger obstacle aux prétentions des Poëtes : par le ministere sacré la
-                            <seg>Religion</seg> se conserve, les veritez éternelles se perpetuent
+                            Religon se conserve, les veritez éternelles se perpetuent
                         &amp; la vertu se soutient. Non, le vice n’aura point un empire sans
                         limites, &amp; les consciences n’y éprouveront point une securité sans
                         interruption ; tandis que les Ministres de l’Evangile
-                            <seg>s’acquitteront</seg> de leur devoir : tandis que ces Ministres
-                        seront regardez comme les Envoyez du Seigneur &amp; les <seg>colonnes</seg>
+                            s’acquiteront de leur devoir : tandis que ces Ministres
+                        seront regardez comme les Envoyez du Seigneur &amp; les colomnes
                         du Christianisme ; tandis qu’ils seront en possession d’être écoutez &amp;
                         respectez pour leur caractère, le sujet de la douleur des Poëtes subsistera
                         toûjours ; le Théatre sera toûjours traversé, l’Athéïsme combattu, &amp; le
@@ -2770,7 +2777,7 @@
                             rend="i">le Chevalier de Gravité</hi>,<note place="margin"><p>Dans
                                 l’Orphelin.</p></note> &amp; le traite de <hi rend="i">tu</hi> &amp;
                             <hi rend="i">toi</hi>. L’Aumônier oubliant son caractére respecte &amp;
-                            <seg>flatte</seg> l’insolence de <hi rend="i">Chamont</hi> : le jeune
+                            flate l’insolence de <hi rend="i">Chamont</hi> : le jeune
                         homme devenu plus fier par la basse complaisance du Chapelain redouble
                         d’audace &amp; porte l’insulte au dernier excez. <hi rend="i">N’y a-t-il
                             donc pas dans toute ta Tribu un seul honnête homme</hi>, dit-il ? <hi
@@ -2808,18 +2815,18 @@
                             <hi rend="i">Le Fourbe</hi> est digne de remarque. <hi rend="i"
                             >Bienmasqué</hi> projette d’enlever à <hi rend="i">Mellifont</hi><note
                             place="margin"><p>C.</p></note> sa Maîtresse ; &amp; il engage dans
-                        cette entreprise le <seg>Chapelain</seg>
+                        cette entreprise le Chappelain
                         <note place="margin"><p>P. 17.</p></note><hi rend="i">Rend-grace ; Car il
                                 <pb n="178"/>faut bien qu’un Levite y ait part, vû que si pas-un
                             d’eux ne s’en mêloit, aucune intrigue soit publique soit particuliere
                             n’iroit son chemin.</hi> Bienmasqué crie donc à la porte du
-                            <seg>Chapelain :</seg>
+                            Chappelain :
                         <hi rend="i">Mr. Rend-grace, Mr. Rend-grace !</hi> celui-ci répond : <hi
                             rend="i">Mon cher Mr. je n’ai plus que le dernier vers d’un acrostiche à
                             faire, &amp; je suis à vous dans l’espace d’une Oraison jaculatoire,
                             dans un</hi> Amen. <hi rend="i">Mon bon Mr. Rend-grace, ne tardez
                             pas</hi>, repart <hi rend="i">Bienmasqué. Je me rends</hi>, dit le
-                            <seg>Chapelain,</seg>
+                            Chappelain,
                         <hi rend="i">je cesserois au milieu d’un Sermon pour vous faire plaisir.
                             Vous ne pourriez m’en faire un plus grand</hi>, replique Bienmasqué ;
                             <hi rend="i">excepté celui que je viens vous demander. Avez-vous pensé à
@@ -2920,7 +2927,7 @@
                             voûte azurée, &amp; du Palais des Dieux ; &amp; que le fracas de ma
                             bruyante joie les rende sourds.</hi> Ce Phebus me rappelle un endroit de
                         je ne sçai quel Rimeur, qui est à peu prés d’une égale beauté pour la
-                        pensée : <hi rend="i">Qu’arriveroit-il si une foible <seg>abeille</seg>
+                        pensée : <hi rend="i">Qu’arriveroit-il si une foible abeille
                             venoit à heurter contre l’extrémité du pole antarctique</hi> ? Je ne
                         dissimulerai pas que M. Dryden dans sa défense du <hi rend="i">Duc de
                             Guise</hi> se disculpe fort de ce cambizés ; mais pourquoi le passoit il
@@ -2932,7 +2939,7 @@
                         yvre, se bat contre un Commissaire de Quartier, qui le terrasse &amp; qui
                         l’arrête. Sur cela <hi rend="i">Jean Brute</hi> peste, jure &amp; lance à
                         quiconque des imprecations accompagnées des plus grandes infamies : les
-                        Officiers de la Justice le <seg>bernent</seg> &amp; le donnent en spectacle
+                        Officiers de la Justice le bernent &amp; le donnent en spectacle
                         comme un fidele portrait de tout l’ordre Ecclesiastique.</p>
                     <p>Ce plaisir-là n’est gueres digne d’un Protestant &amp; ne fait pas beaucoup
                         d’honneur à la Reformation. L’Eglise Anglicane (j’entens ceux qui la
@@ -2984,7 +2991,7 @@
                             besoin d’argent, de benefices, de vin, &amp;c. Procurez-lui tout cela,
                             &amp; je vous réponds qu’il dira la verité comme un oracle.</hi>
                         Quelques lignes auparavant ce sont des grossieretez encore plus crûës &amp;
-                        semées de quelques sales bassesses : <seg>assaisonnement</seg> ordinaire de
+                        semées de quelques sales bassesses : assaissonnement ordinaire de
                         la Comedie.</p>
                     <p><hi rend="i">Coupler</hi><note place="margin"><p>Ibid.</p></note> avec sa
                         politesse accoûtumée apprend au <hi rend="i">Jeune La Mode</hi>, que <hi
@@ -3258,7 +3265,7 @@
                         Ainsi, il est moins étonnant qu’il y eût quelquefois des Prêtres sur le
                         Théatre de ces Payens : le sujet de la piece étoit grave alors ; &amp;
                         d’ailleurs l’esprit du Paganisme rend cet usage plus tolerable.</p>
-                    <p>Mais nos Poëtes se guident sur une autre <seg>boussole</seg> que les
+                    <p>Mais nos Poëtes se guident sur une autre boussolle que les
                         anciens : leur but, c’est de détruire la Religion ; leur maxime c’est de
                         renverser la morale ; &amp; leur grande affaire, c’est à tout le moins de
                         faire rire. Quoiqu’il en soit, que l’on arrange les choses comme on voudra,
@@ -3457,7 +3464,7 @@
                         leur étoit consacré : aussi en donnoient-ils de grandes marques ; car
                         lorsque leurs premiers. Magistrats &amp; leurs Consuls mêmes rencontroient
                         quelqu’une des Vestales, ils ne manquoient point de baisser leurs faisceaux
-                        par respect. Le Sacerdoce fut chez eux <seg>restreint</seg> pendant quelque
+                        par respect. Le Sacerdoce fut chez eux restraint pendant quelque
                         temps à l’ordre de Patrice, c’est-à-dire de la plus haute noblesse. Ensuite,
                         les Empereurs eux-mêmes furent communément Grands-Prêtres. Ces peuples
                         rechercherent dans leurs malheurs l’amitié de Coriolan qu’ils avoient
@@ -3625,9 +3632,10 @@
                         de Morale ; &amp; j’y renvoye le Lecteur.<note place="margin"><p>Essays de
                                 Morale par M. Collier.</p></note></p>
                 </div>
-                <div type="chapitre" xml:id="CH_83_10">
-                    <head><pb n="240"/>CHAPITRE IV.<lb/><hi rend="i">Le vice élevé en honneur &amp;
-                            substitué à la place de la vertu sur le Théatre Anglois.</hi></head>
+                <div type="chapter" xml:id="CH_83_10">
+                    <pb n="240"/>
+                    <head>CHAPITRE IV.<lb/><hi rend="i">Le vice élevé en honneur &amp; substitué à
+                            la place de la vertu sur le Théatre Anglois.</hi></head>
                     <p>L’Auteur de la nature a distingué la vertu d’avec le vice par des traits si
                         marquez, qu’il est facile d’en reconnoître la difference dans les
                         conjonctures qui sont de quelque importance pour nous. Rien ne sçauroit
@@ -3636,7 +3644,7 @@
                         l’autre a je ne sçai quoi d’odieux &amp; de sombre, propre à se faire fuir.
                         Ceux donc qui s’efforcent de confondre ces caractéres differens, de les
                         effacer s’il se peut, &amp; de les changer, <pb n="241"/>ne
-                            <seg>sont-ils</seg> pas dignes de toute sorte de blâme ?</p>
+                            sont-ils pas dignes de toute sorte de blâme ?</p>
                     <p>A la verité, tandis que la raison est sur ses gardes &amp; que la conscience
                         ne gauchit point, il n’y a gueres lieu d’apprehender qu’on leur impose
                         ouvertement. Mais lorsque le vice est caché sous la surface du plaisir,
@@ -3671,7 +3679,7 @@
                                 p. 61.</p></note><hi rend="i">Lorenzo</hi> scelerat infame accuse
                         son pere, grave Magistrat, d’être <hi rend="i">un pilier de mauvais
                             lieux</hi>. <note place="margin"><p>Dans la Femme de la
-                                    <seg>Campagne</seg> p. 25.</p></note><hi rend="i">Hornet</hi>
+                                    Capamgne p. 25.</p></note><hi rend="i">Hornet</hi>
                         debite d’énormes saletez : <hi rend="i">Hancourt</hi> trahit un ami qui en a
                         toûjours bien usé à son égard. <note place="margin"><p>P. Dans l’Homme sans
                                 façon.</p></note><hi rend="i">Franc-homme</hi> a le langage d’un
@@ -3701,7 +3709,7 @@
                         débauché, un impie, un mauvais cœur, un fils dénaturé. Ce <hi rend="i"
                             >Valentin</hi> est pourtant traité en homme vertueux ; tout lui réüssit
                         à son gré, son bonheur surpasse même ses desirs. Nous aurions sans doute une
-                        belle <seg>categorie</seg> de vertus, si elles étoient de la façon de ces
+                        belle cathegorie de vertus, si elles étoient de la façon de ces
                         Messieurs-là ! ils n’oublient rien pour ennoblir le vice, ils n’épargnent
                         rien pour le rendre heureux.</p>
                     <p>Dans <hi rend="i">La Femme Provoquée ; Constant</hi> jure comme un
@@ -3722,7 +3730,7 @@
                         soins d’un avenir sont des idées &amp; des précautions propres du vulgaire :
                         quiconque donne dans ces travers est un homme sans honneur, un homme à
                         noyer.</p>
-                    <p>Voici donc en <seg>raccourci</seg> le tableau du vrai galant-homme ; c’est de
+                    <p>Voici donc en racourci le tableau du vrai galant-homme ; c’est de
                         siffler toutes les veritez chrêtiennes, de blasphémer, de dire des infamies
                         au sexe même, de violer toutes les loix de l’amitié, de déchirer ses amis en
                         leur absence &amp; d’en trahir les interêts. Le galant homme que celui qui
@@ -3812,7 +3820,7 @@
                             rend="i">Je veux bien que tu sçaches vieux penard dégoûtant que je me
                             moque de ton Couvent : dis encore une fois le nom de Couvent, &amp; je
                             te renonce pour mon pere.</hi></p>
-                    <p>Je finis ici le <seg>parallele</seg> qu’il me <pb n="254"/>feroit aisé de
+                    <p>Je finis ici le paralelle qu’il me <pb n="254"/>feroit aisé de
                         pousser plus loin entre les Poëtes anciens &amp; les modernes. C’en est
                         assez pour moi, qu’on sçache à la honte de nôtre Théatre que tout personnage
                         vicieux y a du succez. Loin qu’il soit même averti de ses vices, il est
@@ -4038,12 +4046,12 @@
                         l’obscénité, la profanation &amp; la licence effrenée d’outrager Dieu &amp;
                         les hommes : il confesse que cette plainte <pb n="271"/>n’est que trop bien
                         fondée, &amp; marque une extrême douleur de ne pouvoir pas la démentir : il
-                        se <seg>flatte</seg> pourtant que tous ses confreres ne sont pas embarquez
+                        se flate pourtant que tous ses confreres ne sont pas embarquez
                         dans cette horrible entreprise de se damner. A mon égard, poursuit-il, j’ose
                         avancer, &amp; je le fais sur le témoignage sensible de ma conscience, que
                         j’ai toûjours tremblé à la moindre pensée d’impieté &amp; que j’ai toûjours
                         fremi des ordures qui sont aujourd’hui l’aliment du Théatre.… Quel homme
-                        raisonnable, ou quel homme bien né ne rougit pas <seg>d’enflammer</seg>
+                        raisonnable, ou quel homme bien né ne rougit pas d’enflâmer
                         ainsi la convoitise ? Chaque intermede est un tissu d’infamies capables de
                         choquer les oreilles d’un Payen, &amp; un ramas de blasphêmes qui devroient
                         glacer le sang dans les veines à l’homme chrêtien. »</p>
@@ -4058,7 +4066,7 @@
                         évenemens heureux, mais souvent des miserables, des rivaux, des esclaves,
                         des valets, des Maîtres mêmes châtiez : &amp; tout cela dans les regles de
                         la Justice, le devoir d’un Poëte étant d’instruire au
-                        naturel. <seg>»</seg></p>
+                        naturel. »</p>
                     <p>Si Benjanson y entendoit quelque chose, la Comedie n’a donc pas pour fin
                         unique &amp; principale <pb n="273"/>de divertir précisément, comme le veut
                         M. Dryden. Ce témoignage de Benjanson est si clair &amp; si sensé qu’il n’a
@@ -4077,7 +4085,7 @@
                         le tabarinage ne doit gueres être moins sujet à la correction qu’un outrage
                         insigne ; que celui qui est dominé par son humeur bouffonne &amp; qui ne
                         cherche qu’à faire rire est un ridicule ; qu’un homme de sens &amp; qui a de
-                        l’éducation refuseroit même d’entendre une <seg>bouffonnerie.</seg></p>
+                        l’éducation refuseroit même d’entendre une bouffonerie.</p>
                     <p>« Quant au plaisir en général,<note place="margin"><p>De Morib. L. 10.
                                 c. 2.</p></note> le même Philosophe dit que des satisfactions
                         criminelles ne sont point proprement des plaisirs ; &amp; qu’elles ne
@@ -4204,7 +4212,7 @@
                             manifeste ; car vous êtes nez Turcs &amp; il a été un vrai Turc à vôtre
                             égard.</hi> Voilà un caractére d’homme judicieusement formé ! un homme
                         bien <pb n="285"/>propre à être le conservateur &amp; l’oracle de la
-                        Religion ! Cette harangue <seg>seroit</seg> beaucoup mieux au <hi rend="i"
+                        Religion ! Cette harangue seyoit beaucoup mieux au <hi rend="i"
                             >Capitaine Thomas</hi> :<note place="margin"><p>P.</p></note> mais le
                         Poëte a ses regles particulieres ; tout est bon à son sens pour un Mufti,
                         pour un Patriarche, pour un Prêtre quel qu’il soit.</p>
@@ -4281,7 +4289,7 @@
                             place="margin"><p>Dans L’Amour Triomphant.</p></note> Ce <hi rend="i"
                             >Sancho</hi> tout grand guerrier qu’on le fait ne connoît rien au nom de
                         Heraut d’armes qu’on lui donne : il s’imagine qu’on l’<hi rend="i"
-                                ><seg>appelle</seg> Herode ou de quelqu’autre nom de Juif</hi>. On
+                                >apelle Herode ou de quelqu’autre nom de Juif</hi>. On
                         sacrifie ainsi le caractére d’un Officier de guerre à un miserable jeu de
                         mots. Aprés tout, Sancho qui ne sçait pas ce que c’est qu’un Heraut d’armes,
                         sçait pourtant ce que c’est que le style laconique : connoissance bien moins
@@ -4314,7 +4322,7 @@
                         ce qu’il y a de surprenant, c’est que <hi rend="i">Dom Carlos</hi> y ait la
                         meilleure part ; quoique ce soit un caractére d’homme de bon sens. Ce n’est
                         donc point à lui, mais bien au Poëte qu’il faut s’en prendre.</p>
-                    <p>Je viens <seg>aux</seg> procedez impolis de nôtre Théatre envers les
+                    <p>Je viens au procedez impolis de nôtre Théatre envers les
                         personnes de qualité de l’un &amp; de l’autre sexe. Premierement les femmes
                         y sont apostrophées avec des airs de rusticité qu’on ne voit <pb n="293"
                         />que chez nous ; quoiqu’elles aient toûjours été en possession d’être
@@ -4326,7 +4334,7 @@
                             Espagnol.</p></note> homme de naissance fait ces exclamations en
                         paroissant sur le Théatre : <note place="margin"><p>P. 47.</p></note><hi
                             rend="i">O vertu ! vertu ! qu’es-tu devenuë ? les hommes t’abandonnent
-                            pour cette mauvaise marchandise qu’on <seg>appelle</seg> femme !…. Le
+                            pour cette mauvaise marchandise qu’on apelle femme !…. Le
                             Ciel prit l’homme dans son sommeil lorsqu’il la forma de lui : car s’il
                             eût été éveillé, il n’y auroit jamais consenti.</hi> La rareté de la
                         vertu dans les hommes pouvoit &amp; devoit être exprimée autrement : il
@@ -4364,7 +4372,7 @@
                             à conduire une intrigue pour autrui que pour soi-même : cela exerce tous
                             les talens naturels de la femme ; il y a de la pratique <pb n="296"
                             />pour l’hypocrisie, pour la dissi : mulation, pour la
-                                <seg>flatterie,</seg> pour le mensonge &amp; pour la
+                                flaterie, pour le mensonge &amp; pour la
                         malice.</hi></p>
                     <p>Enfin nos Poëtes en usent fort cavalierement à l’égard des Seigneurs
                         d’Angleterre : ils habillent les Milords en Quolibets &amp; leur attribuent
@@ -4388,7 +4396,7 @@
                         occasion. Ce n’est pas que je refuse ici à l’Auteur un aveu public de son
                         bel esprit, dont je suis touché autant que qui ce soit : mais il me sera
                         permis de lui avoüer aussi que ses plaisanteries, si l’on peut ainsi les
-                        appeller, vont trop loin, &amp; que son <seg>enthousiasme</seg> lui fait
+                        appeller, vont trop loin, &amp; que son entousiasme lui fait
                         outrer les caractéres.</p>
                     <p>Mustapha vend <hi rend="i">Dom Alverez</hi> sur le pié d’esclave :<note
                             place="margin"><p>Dans Dom Sebast.</p></note> le Marchand lui demande :
@@ -4445,16 +4453,17 @@
                         Cependant laissons la joüir seule des fruits de son rare merite, &amp;
                         venons à autre chose.</p>
                 </div>
-                <div type="chapitre" xml:id="CH_83_11">
-                    <head><pb n="302"/>CHAPITRE V.<lb/><hi rend="i">Remarques sur L’Amphitrion, Le
-                            Roi Arthur, Dom Guichot &amp; Le Relaps.</hi></head>
+                <div type="chapter" xml:id="CH_83_11">
+                    <pb n="302"/>
+                    <head>CHAPITRE V.<lb/><hi rend="i">Remarques sur L’Amphitrion, Le Roi Arthur,
+                            Dom Guichot &amp; Le Relaps.</hi></head>
                     <div type="section" xml:id="SC_83_11_1">
                         <head>ARTICLE PREMIER.</head>
                         <p>Ces Comedies vont recevoir des éloges semblables à ceux qu’on a vû dans
                             les Chapitres précedens ; excepté la derniere à qui nous en reservons
                             encore de plus complets. Comme les Auteurs de ces ouvrages se sont
                             extrêmement mis en frais &amp; parez de plus de joyaux qu’à
-                                <seg>l’ordinaire,</seg> ils meritent des attentions particulieres :
+                                <seg>l’ordiinaire,</seg> ils meritent des attentions particulieres :
                             tant d’atours ne doivent point être confondus dans la foule. Ainsi,
                             faisons-leur place, &amp; accordons leur une distinction <pb n="303"
                             />qu’ils demandent. Amphitrion passera le premier.</p>
@@ -4521,7 +4530,7 @@
                             qu’indiquée, l’expression en est honnête ; &amp; celui qui la cite,
                             c’est un jeune libertin. Ces circonstances diminuent la faute de
                             Terence, &amp; en changent presque la nature si on la
-                                <seg>rapproche</seg> de celles de nôtre Poëte.</p>
+                                raproche de celles de nôtre Poëte.</p>
                         <p>A l’égard des Tragiques Grecs <pb n="308"/>il n’y a rien à esperer d’eux
                             en faveur du Jupiter Anglois. Ils parlent de Jupiter en des termes
                             magnifiques, &amp; pleins de respect, &amp; ne font qu’un tout uniforme
@@ -4532,7 +4541,7 @@
                             de la Deité. Homere, à la verité, ne le ménage pas si scrupuleusement ;
                             mais il n’en ravale point non plus le caractére jusqu’à le rendre
                             obscéne. Le plus condamnable endroit d’Homere est celui où Jupiter
-                            raconte à Junon ses <seg>aventures</seg> amoureuses : ce Dieu fabuleux
+                            raconte à Junon ses avantures amoureuses : ce Dieu fabuleux
                             s’abandonnant alors à son humeur galante, se dit charmé de la ceinture
                             de Venus &amp; <pb n="309"/>soumis à l’ascendant de sa passion. Il faut
                             avoüer qu’Homere s’étoit ici engagé dans un mauvais pas ; aussi
@@ -4546,7 +4555,7 @@
                             leurs Dieux des protecteurs du libertinage.</p>
                         <p>M. Dryden dira-t-il que Jupiter étant connu pour une Idole de sale
                             memoire, sa conduite feinte ne sçauroit gueres être pernicieuse ?
-                            Erreur. Il n’est point de <seg>circonstances</seg> qui autorisent
+                            Erreur. Il n’est point de circostances qui autorisent
                             l’obscénité, ni qui en ôtent le <pb n="310"/>poison : <hi rend="i">Le
                                 commerce des méchans communique aux bons la corruption</hi>, dit
                             Menandre, ainsi que saint Paul. Je joins ensemble ces deux témoignages,
@@ -4750,7 +4759,7 @@
                             changer la face de l’enfer en une Scéne comique. Moyen propre à les
                             endurcir dans leur déreglement, à les tranquilliser dans leur
                             irreligion, &amp; à leur donner un front d’airain qui les fasse tout
-                                <seg>oser.</seg> Enfin, ces prétendus jeux de Théatre ne sçauroient
+                                <seg>user.</seg> Enfin, ces prétendus jeux de Théatre ne sçauroient
                             causer de moindres maux que d’extenuer les horreurs d’un enfer
                             infiniment redoutable, &amp; de diminuer la crainte toûjours trop foible
                             d’une damnation éternelle.</p>
@@ -4783,7 +4792,7 @@
                             c’est une histoire feinte, c’est un tissu de choses qui réellement ne
                             subsistent point. Quoiqu’il en soit, si la poësie, suivant le Pere
                             Rapin, consiste dans le mélange de la verité &amp; de la
-                                <seg>fable,</seg> la Piece de M. Dryden est plus fondée sur la
+                                <seg>fble,</seg> la Piece de M. Dryden est plus fondée sur la
                             verité qu’il ne le pense peut-être.</p>
                         <p>Seroit-ce un contre-temps de nous rappeller à l’esprit ce que les saintes
                             Lettres nous disent de l’enfer ? Il y est peint avec tous les traits de
@@ -4834,7 +4843,7 @@
                             figure d’un païsan.</p>
                         <quote>
                             <lg>
-                                <l><pb n="332"/> « Nous avons <seg>attrapé</seg> nôtre Ministre,
+                                <l><pb n="332"/> « Nous avons attrappé nôtre Ministre,
                                     oüi-da</l>
                                 <l> Et nous l’attraperons encore.</l>
                                 <l> Pourquoi cette grosse pecore</l>
@@ -4842,7 +4851,7 @@
                                 <l> Pour feüilleter dans son grimoire</l>
                                 <l> Puis repeter sa leçon par memoire,</l>
                                 <l>Et jazer tant, tant, tant que le benêt le sot</l>
-                                <l> Laisse brûler la viande dans le pot. <seg>»</seg><note
+                                <l> Laisse brûler la viande dans le pot. »<note
                                         place="margin"><p>Cecy est en vers Anglois &amp; se
                                             chante.</p></note></l>
                             </lg>
@@ -4862,7 +4871,7 @@
                             conséquences : quant à son dessein, il ne me paroît à moi nullement
                             équivoque. Le lieu où il debite ces maximes, les personnes sur qui elles
                             tombent, &amp; la methode de s’en servir laissent un chemin facile au
-                            vol, &amp; il n’en coûtera pas plus <seg>doresnavant</seg> pour le
+                                vol, &amp; il n’en coûtera pas plus <seg>dorsenavant</seg> pour le
                             commettre qu’il en coûte à un pestiferé pour communiquer son mal aux
                             autres.</p>
                         <p><pb n="334"/>Aprés tout, le Clergé ne doit pas être trop mécontent : il
@@ -4877,15 +4886,15 @@
                                 Arth.</p></note> comme si les Pilotes n’étoient que pour le beau
                             temps. On ne doute point que ces deux Seigneurs ne soient d’un caractére
                             different de celui que leur donne M. Dryden ; mais le talent
-                                <seg>du</seg> Poëte pour le panegyrique n’en est pas moins étrange,
+                                de Poëte pour le panegyrique n’en est pas moins étrange,
                             &amp; ce n’est que sur cela que j’insiste.<note place="margin"
                                     ><p>Ibid.</p></note> Il louë encore Atticus &amp; Ciceron, l’un
-                            pour ses affectations &amp; l’autre pour sa <seg>poltronnerie ;</seg>
+                            pour ses affectations &amp; l’autre pour sa poltronerie ;
                             &amp; il rabaisse au contraire <pb n="335"/>le courage de Caton. Aprés
                             cela, il témoigne son zele pour le bien public, &amp; se felicite <hi
                                 rend="i">de voir la nation en sûreté contre les insultes des
                                 étrangers, &amp;c.</hi> cependant il a <hi rend="i">quelque
-                                inquietude au sujet <seg>des</seg> Gaulois</hi>.<note place="margin"
+                                inquietude au sujet de Gaulois</hi>.<note place="margin"
                                     ><p>Ibid.</p></note> Apparemment qu’il craint que ces peuples
                             qui ne sont plus ne viennent enlever les Muses d’Angleterre, ne
                             confinent l’Opera dans une prison, &amp; n’enterrent ainsi <hi rend="i"
@@ -5040,7 +5049,7 @@
                                 un tison ardent qui te pende au derriere ! Oüi, Prêtre que tu es,
                                 boute-feu qui allumes le flambeau de la discorde par toutes les
                                 nations…. Ecoute, laid magot ; n’étoit le respect que j’ai pour ces
-                                Messieurs, je repasserois ta <seg>soutane</seg> de la bonne façon :
+                                Messieurs, je repasserois ta soutanne de la bonne façon :
                                 vermine d’Eglise que tu es.</hi> Le Chevalier conclut sa harangue
                             par un bon soir donné à Bernardo en des termes qu’on ne lira point ici.
                             Au quatriéme Acte on appelle le Clergé dans une chanson ; <hi rend="i"
@@ -5130,7 +5139,7 @@
                             neanmoins par un goût particulier aimoit ce jargon, il trouvera dans
                             l’original dequoi se rassasier. La Scéne du Tailleur &amp; du Jardinier
                             est de la même solidité &amp; de la même beauté d’esprit.</p>
-                        <p>Dans la troisiéme Partie, paroît une troupe de <seg>Marionnettes.</seg>
+                        <p>Dans la troisiéme Partie, paroît une troupe de Marionettes.
                             <pb n="353"/>C’est heureusement rencontrer : car toute la Piece ne
                             marche que par ressorts. Mais, quel dommage que ces petits automates ne
                             se soient pas plutôt montrez ! la Comedie entiere devoit être joüée par
@@ -5143,10 +5152,10 @@
                         <p>Les Epîtres dedicatoires de M. Durfey sont précisément aussi spirituelles
                             &amp; aussi raisonnables que ses Comedies : Donnons-en quelque petit
                             essay. Il parle ainsi dans celle qu’il adresse à Madame la Duchesse
-                            d’Ormond : <hi rend="i">C’est, Madame, de <seg>l’heureuse</seg> étoile
-                                de vôtre Grandeur, que je <seg>date</seg> ma fortune.</hi>
-                            <pb n="354"/><seg>Dater</seg> du jour &amp; de l’endroit est quelque
-                            chose de vulgaire &amp; de bas ; mais <seg>dater</seg> d’une étoile,
+                            d’Ormond : <hi rend="i">C’est, Madame, de l’heurese étoile
+                                de vôtre Grandeur, que je datte ma fortune.</hi>
+                            <pb n="354"/>Datter du jour &amp; de l’endroit est quelque
+                            chose de vulgaire &amp; de bas ; mais datter d’une étoile,
                             cela a je ne sçai quoi de sublime qui convient fort à l’hemisphére de la
                             Comedie. Qui ne croira sans peine que ces enthousiasmes sont en effet
                                 <hi rend="i">de pauvres rejettons du cerveau</hi> de M.
@@ -5188,7 +5197,7 @@
                                 <l>Qui pour me divertir n’a que la saleté ;</l>
                                 <l>Qu’il s’en aille, s’il veut, sur deux treteaux monté</l>
                                 <l><pb n="357"/>Amusant le Pont-noeuf de ses sornettes fades,</l>
-                                <l>Aux laquais assemblez joüer ses Mascarades. <seg>»</seg></l>
+                                <l>Aux laquais assemblez joüer ses Mascarades. »</l>
                             </lg>
                         </quote>
                     </div>
@@ -5198,20 +5207,20 @@
                         <p>Je mets le Relaps à côté de Dom Guichot, parce qu’il marche assez de pair
                             avec lui. Cependant, comme l’Auteur du Relaps se sçait tres-bon gré de
                             son ouvrage &amp; s’en remercie amplement dans sa préface ; je
-                            sacrifierai un peu plus de temps à <seg>l’analyse</seg> de cette
+                            sacrifierai un peu plus de temps à l’analise de cette
                             Comedie, dont j’examinerai <hi rend="i">la Fable, les mœurs, les
                                 caractéres, &amp;c.</hi> Voici la fable de la maniere que je la
                             conçois.</p>
-                        <p><seg>«</seg> La Mode jeune Cadet libertin &amp; prodigue se trouve reduit
+                        <p>« La Mode jeune Cadet libertin &amp; prodigue se trouve reduit
                             à la derniere misere, au retour <pb n="358"/>de ses longues courses. Son
                             sort veut qu’il rencontre un jour Coupler vieux rusé, faiseur de mariage
                             par profession : cet honnête homme lui suggere le dessein
-                                <seg>d’attraper</seg> le Lord-Fat son frere aîné lequel a de gros
+                                d’attrapper le Lord-Fat son frere aîné lequel a de gros
                             biens. Le jeune La Mode outré de n’avoir pû obtenir de son frere aîné
                             une certaine somme d’argent, entre dans le dessein de Coupler : il duppe
                             à l’aide de celui-ci Le Chevalier Ventre-de-Tonne, épouse par surprise
                             son heritiere destinée au Lord-Fat, &amp; devient maître par là d’un
-                            bien tres considerable. <seg>»</seg></p>
+                            bien tres considerable. »</p>
                         <p>Sur ce plan de la fable, je trouve en premier lieu que la Piece est
                             mal-à-propos intitulée, <hi rend="i">Le Relaps</hi>, ou <hi rend="i">la
                                 Vertu en danger</hi>. Ces deux noms sont tirez des caractéres de <hi
@@ -5259,11 +5268,11 @@
                             ils peuvent conclure qu’ils sont en bon chemin pour arriver à une haute
                             fortune. C’est cette maxime que s’applique le jeune <hi rend="i">La
                                 Mode</hi>, lorsque son impieté lui fait dire : <hi rend="i">La
-                                Providence prend <seg>soins</seg> des gens de merite.</hi><note
+                                Providence prend soint des gens de merite.</hi><note
                                 place="margin"><p>P. 19.</p></note></p>
                         <p>Autre instruction. Lorsqu’un homme est mal dans ses affaires, il ne
                             s’agit plus pour lui d’écouter la voix de la conscience, ni de se
-                                <seg>chicaner</seg> par des vûës d’honneur ou de devoir. Alors les
+                                chicanner par des vûës d’honneur ou de devoir. Alors les
                             plus courts expediens sont les meilleurs : le besoin present justifie
                             les moyens quels qu’ils soient, pourvû qu’on obtienne ce qu’on
                             souhaite : <hi rend="i">Vn Chevalier de l’industrie vaut bien un
@@ -5285,7 +5294,7 @@
                             enchanteurs. Confrontons le Relaps avec ces principes : pour en
                             expliquer l’intrigue, il faut que nous disions quelque chose encore de
                             plus sur la fable.</p>
-                        <p><seg>«</seg> Le Lord-Fat dameret de Londres étoit convenu d’épouser la
+                        <p>« Le Lord-Fat dameret de Londres étoit convenu d’épouser la
                             fille du Chevalier Ventre de Tonne, Gentilhomme campagnard, éloigné de
                             cinquante lieuës de Londres. Cette distance de lieux n’est pas
                             insurmontable, à ce que je croi. Cependant, le Milord n’a jamais vû sa
@@ -5305,7 +5314,7 @@
                             quelques petits tours de fripponnerie &amp; de souplesse dans la
                             famille, il épouse la Demoiselle sans bruit, à l’insçu de son pere,
                             &amp; une semaine avant le jour marqué pour la
-                            cérémonie. <seg>»</seg></p>
+                            cérémonie. »</p>
                         <p><pb n="366"/>Voilà le fonds de la fable suivant le dessein du Poëte. Le
                             contretemps causé dans la suite par la venuë du Lord-Fat &amp; le
                             témoignage du Chapelain <hi rend="i">Bulle</hi> &amp; de la <hi rend="i"
@@ -5354,7 +5363,7 @@
                                 Angleterre.</p></note> &amp; le suppose éloigné de cinquante lieuës
                             de Londres seulement. Mais, au caractere de ce Gentilhomme, on le
                             prendroit pour un des monstres d’Hercule, ou pour un des Géans de Guy de
-                                <seg>Warwick :</seg> son procedé est tout Romanesque, &amp; n’a rien
+                                Warvick : son procedé est tout Romanesque, &amp; n’a rien
                             de conforme au temps, ni au pays. Lorsque La Mode &amp; <hi rend="i"
                                 >Lory</hi> son valet arrivent, ils trouvent le pont-levis du Château
                             levé, les portes barricadées, un gros mousqueton bandé pour répondre <pb
@@ -5379,7 +5388,7 @@
                             il arrive avant le temps arrêté, &amp; sans le bel équipage qu’on
                             attendoit : il n’a rien du Lord-Fat, ni pour le langage ni pour l’air,
                             ni pour les manieres. Ventre-de-Tonne lu demande : <hi rend="i">Où sont
-                                vos <seg>carrosses</seg> &amp; vos domestiques, Milord ?</hi><note
+                                vos carosses &amp; vos domestiques, Milord ?</hi><note
                                 place="margin"><p>P. 59.</p></note> La Mode lui apporte cette
                             miserable défaite. <hi rend="i">Monsieur, afin de vous témoigner &amp; à
                                 Mademoiselle combien je suis impatient d’entrer dans vôtre famille,
@@ -5406,7 +5415,7 @@
                             &amp; la raison, que les manieres du Lord-Fat étoient toutes inconnuës à
                             Ventre-de-Tonne : que si le Chevalier en étoit instruit, c’en étoit bien
                             assez pour lui faire juger que <hi rend="i">La Mode</hi> pouvoit être un
-                                <seg>aventurier,</seg> &amp; un Lord-Fat supposé. Pourquoi donc s’en
+                                avanturier, &amp; un Lord-Fat supposé. Pourquoi donc s’en
                             tient-il sans aucune reflexion à la lettre seule de <hi rend="i"
                                 >Coupler</hi> ? Que n’enferme-t-il alors sous triple cadenat <pb
                                 n="374"/>la Demoiselle Hoyden, pour se donner le loisir de faire un
@@ -5417,12 +5426,12 @@
                             vraisemblance qu’il passe ainsi de l’extrémité de la défiance à l’excez
                             de la credulité.</p>
                         <p>En un mot, Le Lord-Fat &amp; Ventre-de-Tonne sont des insensez ou non :
-                            si ce sont des insensez, où est la finesse de les <seg>attraper ?</seg>
+                            si ce sont des insensez, où est la finesse de les attrapper ?
                             où est l’art du Poëte ? Si ce ne sont pas des insensez, pourquoi le
                             Poëte les represente-t-il tels ? pourquoi leur caractére est-il comme un
                             monstrueux composé de parties qui ne se rapportent point ? Qu’on les
                             prenne donc dans quel sens on voudra, l’intrigue <pb n="375"/>tournera
-                                <seg>toûjours</seg> mal : la premiere supposition la rend
+                                toûjous mal : la premiere supposition la rend
                             impertinente, &amp; la seconde incroyable.</p>
                         <p>Disons maintenant un mot des mœurs de cette Piece. Les mœurs dans le
                             langage du Théatre ont une signification particuliere. Aristote &amp; le
@@ -5441,7 +5450,7 @@
                             pas les varier, de sorte qu’un seul-homme en paroisse deux, qu’un homme
                             d’esprit devienne un sot, qu’un courtisan poli devienne un pedant. Si le
                             Poëte d’un autre côté, met un impertinent sur la Scéne, il doit le
-                                <seg>restreindre</seg> précisement à son rôle, &amp; lui retrancher
+                                restraindre précisement à son rôle, &amp; lui retrancher
                             toute sentence grave. En user autrement c’est aller contre la nature
                             &amp; nous representer au lieu d’elle, une chimere. Appliquons au Relaps
                             quelques-unes de ces remarques.</p>
@@ -5470,7 +5479,7 @@
                             dit des paroles sales ; &amp; est tout aussi mal élevée que Marie de la
                             Belle-humeur. Il est visible que l’Auteur du Relaps n’est ici qu’une
                             copie de M. Durfey ;<note place="margin"><p>Dom
-                                <seg>Guichot.</seg></p></note> &amp; par consequent ce morceau lui a
+                                Guich.</p></note> &amp; par consequent ce morceau lui a
                             extrémement plû dans l’original. Mais ce qui n’est pas déja une beauté
                             pour Marie de la Belle-humeur sied encore bien plus mal à la fille d’un
                             Chevalier. Celle-là n’est aprés tout qu’une pauvre païsanne, en qui la
@@ -5483,7 +5492,7 @@
                             est de jurer par son Createur, aprés quoi elle dit : <note
                                 place="margin"><p>P. 59.</p></note><hi rend="i">Bien leur en prend
                                 que j’aie un mari qui me vient ; sans cela je me serois mariée avec
-                                le <seg>Boulanger :</seg> Dame, ouy ; je l’aurois fait. Qui que ce
+                                le Boullanger : Dame, ouy ; je l’aurois fait. Qui que ce
                                 soit ne sçauroit frapper à la porte qu’il ne faille aussi-tôt
                                 m’enfermer</hi>. Arrestons ici ; ce qui suit est d’une obscénité qui
                             glace d’horreur.</p>
@@ -5493,7 +5502,7 @@
                             éducation à laquelle on a apporté tant de soins ? A sa rusticité on la
                             croiroit élevée avec la canaille du village, &amp; à son impudence on la
                             croiroit nourrie dans la salle de la Comedie. Le Poëte s’est
-                                <seg>apparemment</seg> flatté qu’il justifioit ces fautes grossieres
+                                apparamment flatté qu’il justifioit ces fautes grossieres
                             en appellant celle à qui il les prête, Mademoiselle <hi rend="i"
                                 >Rustre</hi>.<note place="margin"><p>Hoyden en Anglois signifie
                                     Rustre.</p></note> Erreur ! Pour nous la donner aussi obscéne
@@ -5642,7 +5651,7 @@
                             est assez pour les premiers personnages de nôtre Poëte.</p>
                         <p>Ce seroit à present le lieu d’examiner les <hi rend="i">sentimens</hi>
                             &amp; l’<hi rend="i">expression</hi> du Relaps, qui sont deux autres
-                            parties du Théatre. <hi rend="i">La <seg>Pensée</seg> ou les sentimens
+                            parties du Théatre. <hi rend="i">La Pensé ou les sentimens
                                 sont les expressions de la Pensée ou des sentimens.</hi><note
                                 place="margin"><p>Rap. Reflex. p. 64.</p></note> Mais cet examen ne
                             me paroît pas necessaire, aprés celui que nous avons fait des
@@ -5738,7 +5747,7 @@
                             s’appelle blasphême ; ce qui est de tous les blasphêmes le plus
                             énorme.</p>
                         <p>Le fort de l’apologie de nôtre Poëte consiste à accabler d’invectives le
-                            Clergé (marque <seg>authentique</seg> de sa Religion) encore le fait il
+                            Clergé (marque autentique de sa Religion) encore le fait il
                             si bassement &amp; si grossierement qu’on voit bien qu’il n’a nul usage
                             même du monde. Il croit pourtant avoir foudroyé tous les Ecclesiastiques
                             par ces terribles epithetes : <hi rend="i">Torticolis ! visage à vis !
@@ -5767,7 +5776,7 @@
                             les témoignages des Peres que l’on ne peut rejetter sous quelque
                             pretexte que ce soit.</p>
                         <p>A l’égard des Payens les plus renommez ; Platon est le premier en
-                                <seg>date.</seg> Ce Philosophe si sage, cet homme <hi rend="i"
+                                datte. Ce Philosophe si sage, cet homme <hi rend="i"
                                 >divin</hi> nous-dit : <note place="margin"><p>Plat. de Rep. L. 10.
                                     Euseb. Præpar. Evang.</p></note>« Que la Comedie excite les
                             passions &amp; en pervertit l’usage ; &amp; que par consequent elle est
@@ -5786,19 +5795,19 @@
                             jeunes gens. On risque trop à leur permettre d’y aller, avant que l’âge
                             &amp; l’instruction ayent affermi dans eux la vertu, &amp; les ayent
                             formez <pb n="402"/>comme à l’épreuve contre la
-                            corruption. <seg>»</seg></p>
+                            corruption. »</p>
                         <p>Ce Philosophe qui avoit creusé dans le cœur humain autant que personne,
                             observe de plus : <note place="margin"><p>Ibid. Lib. 8.</p></note>« Que
                             la Musique &amp; l’Action font de tres-fortes impressions, qu’elles
                             maîtrisent les Spectateurs, qu’elles tournent les passions à l’imitation
                             du sujet qui est offert : en sorte que si la representation est
-                                obscéne <seg>»</seg>, l’assemblée ne peut manquer de s’en
+                                obscéne », l’assemblée ne peut manquer de s’en
                             ressentir.</p>
                         <p>L’Orateur Romain invective contre <note place="margin"><p>Tuscul. Quæst.
                                     Lib. 4.</p></note>« les Poëmes licentieux, qu’il nomme le poison
                             de la pudeur &amp; de la sagesse. Il dit que la Comedie subsiste par
                             l’obscénité : &amp; que le plaisir est la racine de tout
-                                mal. <seg>»</seg><note place="margin"><p>De Leg.
+                                mal. »<note place="margin"><p>De Leg.
                             L. 1°.</p></note></p>
                         <p>Tite-Live rapporte ainsi l’origine de la Comedie parmi les Romains :
                                 <note place="margin"><p>Dec. 1. L. 7.</p></note>« Elle fut
@@ -5848,7 +5857,7 @@
                                     L. 7. de audiend. Poët.</p></note>« les Comedies ne sont gueres
                             propres qu’à gâter la jeunesse. Lors donc que la poësie Dramatique
                             commence à devenir hardie &amp; licentieuse, on ne sçauroit trop tôt lui
-                            mettre un frein. <seg>»</seg></p>
+                            mettre un frein. »</p>
                         <p>Telle est l’opinion de ces celebres Auteurs touchant le Théatre. Ils
                             chargent les Poëtes du déreglement des mœurs, &amp; opposent à leur
                             licence toutes les barrieres imaginables. Cependant, ces Payens
@@ -5956,7 +5965,7 @@
                         <p>Le Code Theodosien définit les Comediens,<note place="margin"><p>XV. Cod.
                                     Tit. VII. p. 375.</p></note>
                             <hi rend="i">Personæ inhonestæ</hi> ; c’est-à-dire, dans la plus douce
-                            interprétation, des Personnes <seg>notées</seg> &amp; flétries. Leur
+                            interprétation, des Personnes nottées &amp; flétries. Leur
                             portrait même ne pouvoit être vû que dans la salle de la Comedie ; &amp;
                             il leur étoit défendu de l’exposer dans quelque <hi rend="i">lieu
                                 honnête</hi><note place="margin"><p>In honesto loco.</p></note> de
@@ -6065,7 +6074,7 @@
                         <p>Par le 35. Canon de ce même Concile il est arrêté ; « Que l’on ne
                             refusera point l’entrée de l’Eglise aux Acteurs ou autres gens employez
                             au Théatre, qui se sont convertis, ou qui reviennent à la penitence
-                            aprés être retombez. <seg>»</seg> Ceci est encore une preuve que l’on
+                            aprés être retombez. » Ceci est encore une preuve que l’on
                             rejettoit de la Communion des fidéles, les Comediens qui persistoient
                                 <pb n="421"/>dans leurs profanations.</p>
                         <p>Un autre Concile d’Afrique déclare ; <note place="margin"><p>Ann. 424.
@@ -6092,7 +6101,7 @@
                             nôtre sens, de veritables extravagances. Nous ne pouvons nous permettre
                             de voir aucune Scéne immodeste. Les adulteres des Dieux &amp; des Heros
                             sur le Théatre, sont des divertissemens d’insensez, mais d’autant plus
-                            dangereux que des Poëtes mercenaires les <seg>sursont</seg> en y mêlant
+                            dangereux que des Poëtes mercenaires les surfont en y mêlant
                             tous les charmes <pb n="423"/>du langage. A Dieu ne plaise que nous
                             Chrêtiens, qui devons nous distinguer par la modestie, qui sommes élevez
                             dans le sein de la vertu, &amp; obligez de vivre en regle ; à Dieu ne
@@ -6172,7 +6181,7 @@
                                 <pb n="429"/>quel est l’homme qui se puisse promettre de n’être
                             jamais susceptible du mal, encore qu’il s’y expose ? Qui que ce soit ne
                             se plaît à une chose, sans qu’elle fasse quelque impression
-                                <seg>flatteuse</seg> sur lui : cette impression ne sçauroit être
+                                flateuse sur lui : cette impression ne sçauroit être
                             entretenuë avec complaisance sans laisser aprés elle des traces de la
                             même espece. Or ces traces ne manqueront point de nous frapper, de nous
                             toucher, de nous remuer de plus en plus ; &amp; de nous faire pousser
@@ -6183,7 +6192,7 @@
                             ridicule à se donner de la peine d’aller à un spectacle <pb n="430"
                             />précisément pour y être spectateur. Si ce n’est que cela que l’on se
                             propose, je croi que des Chrêtiens devroient avoir autre chose à faire
-                            que de <seg>courir</seg> à ces assemblées sans sçavoir pourquoi.</p>
+                            que de courrir à ces assemblées sans sçavoir pourquoi.</p>
                         <p><note place="margin"><p>Ibid. Cap. 22.</p></note>« Les Magistrats mêmes
                             qui protegent le Théatre, traitent fort mal les Comediens. Ils en
                             flétrissent le métier, &amp; les privent de la liberté commune, des
@@ -6194,7 +6203,7 @@
                             d’estimer un art, dont on maltraite &amp; on diffame les plus habiles
                             Ouvriers ? Quelle conduite étrange, de perdre <pb n="431"/>d’honneur des
                             gens par les endroits mêmes par où ils valent ? Peut-on confesser plus
-                                <seg>authentiquement</seg> qu’une chose est mauvaise que de couvrir
+                                autentiquement qu’une chose est mauvaise que de couvrir
                             d’infamie ceux qui y excellent ?</p>
                         <p><note place="margin"><p>Ibid. Cap. 23.</p></note>« Puis donc que le
                             Tribunal de la sagesse humaine juge à propos d’avilir le Théatre, malgré
@@ -6376,7 +6385,7 @@
                         <p>« Eloignons-nous donc de ces spectacles, conclut Lactance ; de crainte
                             que le poison qu’on y exhale ne rejaillisse jusques sur <pb n="446"
                             />nous. Les amusemens doivent laisser nôtre cœur dans une
-                                <seg>assiette</seg> tranquille, &amp; non point le déregler. Au
+                                assiete tranquille, &amp; non point le déregler. Au
                             reste, l’attache au plaisir, quelque innocent même qu’il fût, est
                             toûjours dangereuse : elle nous fait perdre le souvenir de nôtre Dieu,
                             &amp; negliger nos devoirs de Chrêtien.</p>
@@ -6523,7 +6532,7 @@
                             Commentaire sur l’Evangile selon saint Jean. « Que sert de tracer ici
                             une peinture <pb n="458"/>exacte de chaque desordre qui se commet aux
                             spectacles ? il suffit de le dire en général : ce ne sont que
-                                <seg>bouffonneries,</seg> turpitudes, injures, sermens,
+                                bouffoneries, turpitudes, injures, sermens,
                             imprecations : ce n’est que scandale, confusion, horreur. Ecoutez-moi
                             donc, Chrêtiens, c’est à vous que j’adresse la parole : Qu’aucun de ceux
                             qui ont le bonheur de participer à la sainte Table, ne deshonore son
@@ -6594,13 +6603,13 @@
                             Maître dans sa profession, dit-il, qu’il meritoit seul de paroître sur
                             le Théatre : mais d’un autre côté, c’étoit un si honnête homme que de
                             toute sa troupe il meritoit le moins d’y monter. N’est-ce pas là un aveu
-                                <seg>authentique</seg> de l’iniquité du Théatre ? N’est-ce pas dire
+                                authentique de l’iniquité du Théatre ? N’est-ce pas dire
                                 <pb n="464"/>assez nettement que plus on étoit honnête homme dans le
                             Paganisme même, plus on étoit engagé à n’avoir aucune part au
                             Théatre ? »</p>
                         <p>Je pourrois m’étendre davantage sur saint Augustin : mais je suis fort
                             pour la brieveté, lorsque les longs discours ne sont point absolument
-                            necessaires. Je pourrois aussi <seg>parcourir</seg> les siécles suivans,
+                            necessaires. Je pourrois aussi parcourrir les siécles suivans,
                             &amp; y recüeillir dequoi prouver ce que j’ai avancé jusqu’ici. Mais je
                             croi avoir apporté des autoritez assez fortes, assez évidentes, &amp; en
                             assez grand nombre pour que l’on doive s’en contenter. Je les termine
@@ -6624,7 +6633,7 @@
                             l’assemblée où toutes les maximes de la Religion sont le plus
                             ouvertement combattuës. Je le repete ; que qui que ce soit donc n’y
                             aille sous ombre de s’instruire : car tout n’y est que poison
-                                preparé. <seg>»</seg></p>
+                                preparé. »</p>
                     </div>
                     <div type="section" xml:id="SC_83_11_6">
                         <head>CONCLUSION.</head>
@@ -6665,7 +6674,7 @@
                             les fondemens du Théatre : la force de leurs raisonnemens subsisteroit
                             &amp; suffiroit seule pour leur donner gain de cause.</p>
                         <p>On me demandera peut-être si la ressemblance est exacte, la
-                                <seg>parallele</seg> juste entre l’ancienne Rome &amp; Londres ? Si
+                                paralelle juste entre l’ancienne Rome &amp; Londres ? Si
                             le Théatre Anglois offre quelque chose d’aussi mauvais que les danses
                             des Pantomimes ? Je ne dis pas cela absolument : les postures des
                             Danseurs modernes, quoique hardies &amp; quelquefois même indecentes, ne
@@ -6818,13 +6827,13 @@
                             Et sur cet article, le Théatre François n’est peut-être gueres moins
                             blâmable que le nôtre.<note place="margin"><p>Le Cid. Cinna. Pompée
                                     &amp;c.</p></note></p>
-                        <p>Il s’ensuit de-là qu’on se fait une <seg>fausse</seg> idée de l’honneur,
+                        <p>Il s’ensuit de-là qu’on se fait une fause idée de l’honneur,
                             au mépris de l’Evangile, &amp; au préjudice de la paix qui devroit
                             regner parmi les Chrêtiens. Je conviens que le Théatre n’est pas
                             l’Auteur de la damnable coûtume de se venger. Mais pourquoi ne
                             s’appliquer pas à arrêter le cours d’un si grand mal ? J’ai toûjours <pb
                                 n="482"/>cru que ce n’étoit pas le but de la poësie dramatique
-                                <seg>d’appuyer</seg> les faux préjugez, &amp; les mauvaises
+                                d’appuier les faux préjugez, &amp; les mauvaises
                             coûtumes ; de fomenter les caprices &amp; les erreurs des hommes.
                             Cependant nos Poëtes n’oublient rien pour entretenir la méchanceté du
                             siécle, &amp; pour en rassurer le desordre : ils ont fait de la
@@ -6901,7 +6910,7 @@
                             nôtre Estre, &amp; de nôtre qualité d’hommes chrêtiens. <pb n="488"/>Et
                             si cela est, comment pouvons nous goûter des spectacles où l’on nous
                             rabaisse à l’état des bêtes ? des spectacles qui sont des derisions
-                                <seg>continuelles</seg> de nôtre créance, &amp; qui nous font un
+                                continuelles de nôtre créance, &amp; qui nous font un
                             Roman de nos plus solides esperances pour la vie future ?</p>
                         <p>Au surplus, il sied bien à nos Poëtes de plaisanter encore, &amp; de
                             vouloir nous faire accroire qu’ils se proposent pour fin de reformer les
@@ -6966,9 +6975,9 @@
                             faire penitence, que personne.</p>
                     </div>
                 </div>
-                <div type="chapitre" xml:id="CH_83_12">
-                    <head><pb n="494"/>TABLE DES PRINCIPALES MATIERES<lb/>Contenues dans ce
-                        Volume.</head>
+                <div type="chapter" xml:id="CH_83_12">
+                    <pb n="494"/>
+                    <head>TABLE DES PRINCIPALES MATIERES<lb/>Contenues dans ce Volume.</head>
                     <p rend="center"><hi rend="sc">Chapitre Premier.</hi></p>
                     <p><hi rend="i">L’Obscenité du Theatre Anglois dans dans le langage,</hi> page
                         1</p>
@@ -7104,7 +7113,7 @@
                     <p rend="center"><hi rend="sc">Article Second.</hi></p>
                     <p><hi rend="i">Remarques sur le Roy Arthur de M. Dryden,</hi> 322</p>
                     <p rend="center"><hi rend="sc">Article Troisiéme.</hi></p>
-                    <p><hi rend="i">Examen du Dom Guichot de M. <seg>Durfey,</seg></hi> 336</p>
+                    <p><hi rend="i">Examen du Dom Guichot de M. Durfeï,</hi> 336</p>
                     <p rend="center"><hi rend="sc">Article Quatriéme.</hi></p>
                     <p><hi rend="i">Examen du Relaps ou de la Vertu en danger, de M.V.</hi> 357</p>
                     <p><hi rend="i">L’OPINION DES AVTEVRS tant profanes que sacrez, touchant les
@@ -7132,8 +7141,9 @@
                         474</p>
                     <p>Conclusion, 466</p>
                 </div>
-                <div type="chapitre" xml:id="CH_83_13">
-                    <head><pb n="502"/><hi rend="i">PRIVILEGE DV ROY.</hi></head>
+                <div type="chapter" xml:id="CH_83_13">
+                    <pb n="502"/>
+                    <head><hi rend="i">PRIVILEGE DV ROY.</hi></head>
                     <p>Louis par la grace de Dieu Roy de France &amp; de Navarre, à nos amez &amp;
                         feaux Conseillers les Gens tenans nos Cours de Parlement, Maistres des
                         Requestes ordinaires de nôtre Hôtel, Grand Conseil, Prevost de Paris,
@@ -7149,7 +7159,7 @@
                         forme, marge, caractere, conjointement ou séparement, &amp; autant de fois
                         que bon luy semblera, &amp; de le faire vendre &amp; debiter par tout nôtre
                         Royaume pendant le temps de quatre années consécutives, à compter du jour de
-                        la <seg>date</seg> desdites Presentes. Faisons deffenses à toutes sortes de
+                        la datte desdites Presentes. Faisons deffenses à toutes sortes de
                         personnes de quelque qualité &amp; condition qu’elles soient, d’en
                         introduire d’impression étrangere dans aucun lieu de nostre Obéïssance ;
                         &amp; à tous imprimeurs, Libraires &amp; autres, d’imprimer ou faire
@@ -7161,7 +7171,7 @@
                         l’autre tiers audit Exposant, &amp; de tous dépens, dommages &amp;
                         interesis. A la charge que ces Presentes seront enregistrées tout au long
                         sur le Registre de la Communauté des Imprimeurs &amp; Libraires de Paris,
-                        &amp; ce dans trois mois de la <seg>date</seg> d’icelles ; que l’impression
+                        &amp; ce dans trois mois de la datte d’icelles ; que l’impression
                         dudit Livre sera faite dans nôtre Royaume &amp; non ailleurs, en bon papier
                         &amp; en beaux caracteres, conformément aux Reglemens de la Librairie ;
                         &amp; qu’avant que de l’exposer en vente, il en sera mis deux exemplaires

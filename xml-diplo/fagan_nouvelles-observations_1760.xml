@@ -2,257 +2,725 @@
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fagan_nouvelles-observations_1760.pdf" xml:lang="fr">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Nouvelles observations</title>
-<author>Fagan, Barthélémy-Christophe</author>
-</titleStmt>
-<editionStmt>
-<edition>OBVIL</edition>
-<respStmt>
-<name>François Lecercle</name>
-<resp>Responsable d’édition</resp>
-</respStmt>
-<respStmt>
-<name>Clotilde Thouret</name>
-<resp>Responsable d’édition</resp>
-</respStmt>
-</editionStmt>
-<publicationStmt>
-<publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
-<date when="2017"/>
-<availability status="restricted">
-<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-<p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
-<p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
-<p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
-<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
-</licence>
-</availability>
-</publicationStmt>
-<sourceDesc>
-<bibl>
-<title>Nouvelles observations</title>
-<author>Fagan, Barthélémy-Christophe</author>
-<biblScope>p. 393-429</biblScope>
-<date>1751, rééd. 1760</date>
-</bibl>
-</sourceDesc>
-</fileDesc>
-<profileDesc>
-<creation>
-<date when="1751"/>
-</creation>
-<langUsage>
-<language ident="fr"/>
-</langUsage>
-</profileDesc>
-</teiHeader>
-<text>
-<body>
-<div type="texte" xml:id="HDT_63">
-<head>Nouvelles observations</head>
-<label><pb n="393"/>NOUVELLES OBSERVATIONS,<lb/><hi rend="i">AU SUJET</hi><lb/>DES CONDAMNATIONS PRONONCÉES CONTRE LES COMÉDIENS.</label>
-<p>Les Apologies faites en faveur de la Comédie ont toujours été assez foibles ; &amp; toujours ces Apologies ont été réfutées par des plumes habiles.</p>
-<p>Pourquoi la Comédie n’a-t-elle point eu de meilleurs défenseurs ? C’est que, dans cette entreprise, un Ecrivain se trouve d’abord arrêté par des obstacles qui mortifient son amour-propre ; car, d’un côté, des personnes pieuses regardent comme un crime, la seule proposition de faire absoudre les Comédiens par l’Eglise ; &amp; de l’autre, les trois quarts des Spectateurs traitent de ridicule, le soin que l’on prend de justifier leur plaisir : de façon que cette défense est, aux yeux des Dévots, un attentat ; <pb n="394"/>&amp; aux yeux des Gens du monde, un pédantisme.</p>
-<p>Cependant, on ne sçauroit disconvenir que de voir les Comédiens, en même-tems, proscrits &amp; autorisés, ne soit une chose qui renferme une singularité frappante.</p>
-<p>En vain les Théologiens croyent-ils s’être assez rapprochés, &amp; avoir suffisamment étendu leur charité, en établissant, que l’on peut tolérer ceux qui vont aux Spectacles ; &amp; qu’à l’égard des Acteurs, dans les momens pressans, on est prêt à recevoir leur abjuration ; en vain d’autres Philosophes pensent-ils, d’après Pope, que tout est bien, tel qu’il soit, &amp; qu’il faut des ombres au Tableau ; en vain la Politique croiroit-elle entrevoir, dans une innovation, quelques inconvéniens : il n’en est pas moins vrai, que de vouloir diffamer une Troupe de Gens à talens, que l’on reconnoît d’ailleurs être nécessaires, est une contradiction insoutenable, &amp; qui ne peut pas long-tems subsister dans un Etat, dont le goût &amp; les décisions sont des Loix pour toutes les autres Cours de l’Europe.</p>
-<p>Le désir de décider la question est donc un désir légitime ; mais si, en l’entreprenant, <pb n="395"/>on n’a pour soi, ni les consciences scrupuleuses, ni les consciences aisées, à qui donc pourra-t-on s’adresser ?</p>
-<p>Ce sera à un petit nombre de Personnes qui, quoique jouissant des délassemens de la Société, respectent la Religion ;</p>
-<p>A des Personnes qui sçavent que beaucoup de préjugés, dont on croyoit ne jamais revenir, ont néanmoins été détruits par la suite ;</p>
-<p>A des Personnes, enfin, assez généreuses pour faire valoir, auprès des Puissances, ce qu’elles auront trouvé de juste dans la Cause des Comédiens, &amp; qui détachées d’intérêts personnels, chérissent tout ce qui peut constater la gloire de l’Etat.</p>
-<p>On espere rassembler tout ce qu’il est possible de dire, à ce sujet, dans les trois Observations suivantes.</p>
-<quote>
-<p>1°. <hi rend="i">Que les raisons que l’on a rapportées jusqu’à présent, pour prouver que la Comédie condamnée n’est point celle qui existe aujourd’hui, n’ont jamais été exposées avec assez de soin.</hi></p>
-<p>2°. <hi rend="i">Que la Comédie, telle qu’elle a été traitée par Moliere, est suffisamment bonne pour les mœurs ; à plus forte raison depuis les sages réglemens qui ont été introduits.</hi></p>
-<p>3°. <hi rend="i">Que les désordres que l’on pourroit <pb n="396"/>reprocher aux Personnes de Théâtre, sont indépendans de leur Profession.</hi></p>
-</quote>
-<div type="section" xml:id="SC_63_1">
-<head>PREMIERE OBSERVATION.</head>
-<p>Ce n’est que depuis un siécle environ, que l’on est en droit d’espérer de l’Eglise, l’Absolution des Comédiens ; car on ne doit pas s’attendre ici, que l’on ose improuver les respectables décisions des Conciles. On prétend seulement faire voir les motifs qui ont occasionné ces décisions, &amp; que ces motifs n’existent plus.</p>
-<p>Si la Comédie eût toujours été telle qu’elle est aujourd’hui, il y a lieu de croire qu’elle ne se seroit point attiré les Censures Ecclésiastiques.</p>
-<p>On va rapporter comment, depuis la naissance du Christianisme jusqu’au tems des derniers Conciles, elle les a justement méritées.</p>
-<p>On ne peut exprimer jusqu’à quel point la licence fut portée à Rome, sous les derniers Empereurs.</p>
-<p>On n’accusera pas les Saints Peres d’avoir été des Censeurs outrés, ni des Critiques trop austeres, quand on sçaura qu’il <pb n="397"/>se passa un très-long espace de tems, avant qu’ils obtinssent la suppression des Bains publics, communs aux hommes &amp; aux femmes, dans lesquels se trouvoient des femmes Chrétiennes.</p>
-<p>Les Spectacles étoient dans le même goût.</p>
-<p>Apulée, qui vivoit dans le deuxieme siecle, fait la description d’un Spectacle Pantomime de son tems, où l’on représentoit le Jugement de Pâris, &amp; où Vénus paroissoit telle qu’on la décrit dans les Métamorphoses.</p>
-<p>Cette représentation du Jugement de Pâris, étoit suivie de l’exposition d’une femme condamnée à mort, &amp; à une prostitution dont la pudeur ne permet pas de nommer le genre.<note place="bottom"><p>Voyez l’Asne d’Or d’Apulée.</p></note></p>
-<p>Au fameux Théâtre d’Antioche, qui, dans sa vaste enceinte, comprenoit un Jardin &amp; une partie de la Fontaine de Daphné, des Femmes qui faisoient les Rolles de Nayades, pendant la représentation de la Piéce, nageoient nues aux yeux des Spectateurs.</p>
-<p>Il arrivoit encore que beaucoup de Comédiens, <pb n="398"/>à l’exemple des Gladiateurs, se blessoient à mort sur la Scéne ; de sorte que, sans qu’il soit besoin de multiplier les exemples, on voit clairement que ce n’étoit alors, qu’horreurs, que meurtres, que prostitutions.</p>
-<p>Une autre espece de Spectacles, qui, quoique bien moins abominables, étoient tout aussi dignes de la juste Censure des Saints Peres, étoit la Représentation des Mystères du Paganisme ; car quoiqu’aujourd’hui nous soyons peu touchés des Aventures de Jupiter, de Mars, &amp;c. &amp; que les Dieux, sur notre Théâtre, figurent assez mal, un nouveau Chrétien, qui assistoit à ces Spectacles, n’étoit pas moins irrégulier qu’un Juif, qui de nos jours seroit nouvellement converti, &amp; que nous verrions retourner à la Synagogue.</p>
-<p>Une réflexion générale est que l’établissement du Christianisme demandoit, sans doute, des précautions, qui aujourd’hui ne seroient pas nécessaires ; &amp; tout le monde conviendra que l’on doit être bien plus sur ses gardes, quand on est sur des Terres Ennemies.</p>
-<p>Après la destruction de l’Empire de Rome, la Comédie, suivant l’expression <pb n="399"/>de beaucoup d’Auteurs, resta ensevelie sous les ruines des Villes.</p>
-<p>A la fin du septieme Siécle &amp; dans le huitieme, elle reparut chez les Empereurs d’Orient ; mais sous quelles couleurs ? Cette nouvelle Comédie ne méritoit pas moins toute l’indignation de l’Eglise. Ces Princes, entêtés de l’erreur des Iconoclastes,<note place="bottom"><p>Briseurs d’images.</p></note> permettoient que des Bouffons, revêtus d’habits Episcopaux, fissent mille indécences. Un Patriarche déposé étoit l’objet d’une de ces Farces publiques, &amp; l’on n’épargnoit rien pour tourner en dérision les Evêques &amp; tout le Sacerdoce.</p>
-<p>C’est quelques tems après que les Tournois commencerent à s’établir en France, c’est-à-dire, comme plusieurs le prétendent, sous le regne de Charles le Chauve, dans le neuvieme Siécle. Auparavant, il paroît que les Armes, la Chasse, le Plein-Chant, tenoient lieu de tout amusement.</p>
-<p>On sçait jusqu’à quel point ces Tournois, qui d’abord ne paroissoient qu’un Exercice Militaire, devinrent par la suite dangereux, &amp; il est innombrable combien de Noblesse y a succombé.</p>
-<p><pb n="400"/>L’Eglise, qui voyoit dans des Chrétiens, de nouveaux Gladiateurs déjà condamnés par les Peres, n’a cessé de fulminer contre ces Jeux, pendant le tems immense qu’ils ont duré.</p>
-<p>J’ose remarquer en passant, que si les Théologiens de France, qui voyoient les Princes &amp; le Peuple si amoureux de cet Exercice, eussent représenté dans les Conciles la nécessité de le régler plutôt que de le condamner en général, &amp; que la sévérité des Conciles n’eût tombé que sur ce que l’on appelloit <hi rend="i">les Combats à outrage &amp; à fer émoulu</hi>, ces Jeux, sans doute, n’auroient pas eu des effets ni des suites aussi funestes.</p>
-<p>Venons, enfin, au tems du dernier Concile Général.</p>
-<p>Le terrible accident, arrivé à Henri II, qui mettoit tous les Jeux en horreur, &amp; la révolte naissante de Luther, qui, par ses maximes relâchées, venoit de secouer le joug de la vraie Religion, permettoient-ils d’espérer qu’au Concile de Trente, &amp; dans les Parlemens de France, on auroit d’autre objet, que tout ce qui pourroit contribuer à l’austere Réformation des Mœurs, &amp; à la plus réguliere Observation de la Discipline ? Et étoit-ce là le moment de <pb n="401"/>se flatter, après tous les crimes que l’on vient d’exposer, que l’on voudroit bien se prêter à un nouvel Examen au sujet des Spectacles, &amp; que l’on auroit quelqu’indulgence, pour qui ? Pour une troupe <seg>d’Acteurs</seg> imbécilles, qui paroissoient depuis quelque tems parmi nous, &amp; qui prophanoient les Mysteres de la Religion, en les représentant au coin des rues &amp; sur des échaffauts ?</p>
-<p>Les Tragédies &amp; Comédies de Garnier &amp; de Jodelle, qui parurent dès 1551, ne méritoient gueres une exception. Tout ce qui a rempli le Théâtre long-tems après, n’en étoit pas plus digne, à commencer par les Bandes Italiennes, amenées sous Henri III, qui ne jouoient que des Farces remplies de libertés.</p>
-<p>Quelle comparaison est-il donc possible de faire des Spectacles dont on vient de parler, à ceux qui paroissent aujourd’hui ? Et quelle justice y a-t-il à appliquer aux uns, les condamnations portées contre les autres.</p>
-<p>Cependant il se rencontre des Ecrivains, qui, sans avoir égard à cette prodigieuse différence, semblent chercher à entretenir le courroux de l’Eglise ; qui trouvent <pb n="402"/>du Crime jusques dans les Drames les plus sages, &amp; qui soutiennent enfin que des Piéces de Théâtre aussi honnêtes &amp; aussi épurées que nos bonnes Comédies, ont été de tous tems condamnées pour leur seule inutilité.</p>
-<p>Du nombre de ces Ecrivains, est le Pere le Brun dans sa réplique<note place="bottom"><p>Le titre est, <hi rend="i">Traité des Jeux de Théâtre</hi>. La derniere Édition est de 1731.</p></note> à la Lettre imprimée à la tête des Œuvres de <seg>Boursault.</seg></p>
-<p>Les critiques du Pere le Brun sont si outrées, &amp; ses Comparaisons si injustes, qu’on n’y peut respecter que son zele.</p>
-<p>D’ailleurs, le P. le Brun devoit-il tant se prévaloir de plusieurs Conciles particuliers, qui ne regardent qu’une certaine Discipline, comme ceux de Tours &amp; de Bourges, en 1683, &amp; 1684, qui défendent les Spectacles les jours de Fêtes, les danses dans les Cimetieres, les danses devant les Eglises, &amp;c ?</p>
-<p>Devoit-il encore regarder, comme un si grand surcroît d’autorités, les Rituels des Diocèses, puisque les Rituels ne sont qu’une suite naturelle des décisions des Conciles ?</p>
-<p><pb n="403"/>Les autorités que le P. le Brun tire des Auteurs Payens, ont-elles plus de force ?</p>
-<p>Que, suivant le témoignage d’un Historien, Junius Messala ait été blâmé d’avoir frustré ses légitimes Héritiers, pour donner tout son patrimoine à des Comédiens ; Messala faisoit, sans doute, une action injuste ; mais quelle conséquence en tirer contre les Comédiens ?</p>
-<p>Que Juvénal, dans sa dixieme Satyre, ait reproché au Peuple Romain, qu’il ne désiroit plus que deux choses : <hi rend="i">du Pain, &amp; les Jeux du Cirque</hi>.</p>
-<p>Eh ! comment les mœurs monstrueuses, qui régnoient alors, &amp; qui s’accroissoient tous les jours, pouvoient-elles échapper à un Poëte satyrique ?</p>
-<p>Etoit-il supportable, même aux yeux des Philosophes Payens, que sur la fin de l’Empire, les Théâtres fussent bâtis plus superbement que les Temples, &amp; que les Jeux du Cirque fussent plus brillans que les Cérémonies Religieuses ?</p>
-<p>Il en est des Etats comme des Particuliers : ils succomberont infailliblement, si l’amour du plaisir éteint celui du devoir.</p>
-<p>Nous exposerons, par la suite, les causes de la disgrace des Comédiens chez les <pb n="404"/>Payens. Nous nous réservons aussi à demander si les plaisirs modérés sont en eux-mêmes criminels, &amp; si notre Comédie n’est d’aucune utilité, &amp; d’autres choses qui n’appartiennent pas absolument à l’objet que l’on s’est proposé dans ce premier Chapitre.</p>
-<p>Mais un sentiment que l’on ne sçauroit trop-tôt combattre, est celui du Pere le Brun, &amp; de quelques autres Théologiens, qui soutiennent que les Spectacles, condamnés par les Peres, n’étoient pas plus coupables que nos Comédies.</p>
-<p>On peut assurément comparer nos bonnes Comédies à celles de Térence. Or, sur quoi le Pere le Brun peut-il appuyer son sentiment ; une seule réflexion suffira pour le détruire.</p>
-<p>Si les Spectacles, contre lesquels Saint Chrysostôme fulminoit avec tant d’ardeur, eussent été des Spectacles tels que les représentations des Piéces de Térence, seroit-il vraisemblable que S. Jérôme, qui sans doute étoit de la même Doctrine, &amp; qui vivoit dans le même Siécle, eût dit, dans l’une de ses Epîtres, qu’il faisoit ses délices de la lecture de cet Auteur ?</p>
-<p>S. Jérôme tenoit ce goût de Donat, <pb n="405"/>dont il avoit été Disciple à Rome, &amp; qui a fait des Commentaires sur Térence &amp; sur Virgile.</p>
-<p>Saint Jérôme auroit-il encore adopté plusieurs traits des Comédies de Turpilius, Poëte qui vivoit au tems de Pompée ?</p>
-<p>On ajoute enfin, que si de pareilles Piéces étoient si condamnables, il seroit bien étonnant que l’on eût un Recueil des Comédies de Térence, de l’impression du Vatican.</p>
-<p>On croit que ce raisonnement seul doit suffire ; &amp; de bonne-foi, on ne pense pas qu’il soit possible d’y répondre.</p>
-<p>Il parut, en 1669, un Ecrit contre la Comédie, que l’on attribue à un grand Prince. Après avoir avoué la vénération que l’on doit ressentir pour cet Ouvrage, on ne peut s’empêcher de dire qu’on y apperçoit, ainsi que dans quelques maximes de M. de la Rochefoucault, un peu trop de dégoût du monde.</p>
-<p>Il est décidé d’ailleurs, que la fervente dévotion a des degrés où il est toujours très-bon de s’efforcer d’atteindre, mais qui ne peuvent pas faire une loi absolue pour le général des hommes.</p>
-<p>Au grand Conti, enfin, on peut opposer <pb n="406"/>le grand Condé, qui, quoique pénétré des sentimens les plus Chrétiens, qu’il a fait éclater dans un Testament le plus édifiant &amp; le plus judicieux du monde, a toujours été le Protecteur des Théâtres, &amp; des bons Ouvrages en tous genres.</p>
-<p>On objecte encore qu’au commencement du Siecle où nous sommes, il parut plusieurs Mandemens peu favorables à la Comédie.</p>
-<p>Mais que l’on fasse attention que les Mandemens, ainsi que les Rituels, sont une conséquence nécessaire des sentimens reçus dans l’Eglise.</p>
-<p>Rien n’est au-dessus de la vérité. La généreuse hardiesse d’un Casuiste qui nous montre que le mal n’est pas où en effet il ne se trouve point, est peut-être plus admirable &amp; plus utile à la Religion, que le zele outré de celui qui nous dégoûte de nos obligations en les exagérant.</p>
-<p>C’est dans ce principe que tant d’illustres Personnages, &amp; tant de saints Docteurs, que l’on appelle Scholastiques, ont laissé entrevoir combien ils étoient indulgens à la Comédie.</p>
-<p>On ne terminera pas ces Observations sans les citer. Pour le moment, on choisit <pb n="407"/>sit seulement le célébre M. Huet, Evêque d’Avranches, qui, dans sa Lettre sur les Romans, nous fait entendre que l’Allégorie, que l’Ironie même sont permises ; &amp; que ces deux figures n’ont point été bannies de ce Livre sacré, dont toutes les expressions sont si sublimes &amp; si mesurées, dans le Livre enfin le plus cher aux Chrétiens.</p>
-</div>
-<div type="section" xml:id="SC_63_2">
-<head>II. OBSERVATION.</head>
-<p>Il ne faut pas perdre de vue que la Comédie est un plaisir.</p>
-<p>Un des plus honnêtes Hommes que le Théâtre ait possédés depuis long-tems,<note place="bottom"><p>Louis Riccoboni.</p></note> proposa, il y a quelques années, un plan de réforme ? mais il faut avouer que ses bonnes intentions l’ont conduit à un plan qui est impraticable. Ses Statuts conviendroient, pour ainsi dire, à une Communauté de Religieux ; &amp; il n’est pas possible, ni même du bon ordre, que le Théâtre ait l’air d’un Monastère.</p>
-<p>Il est constant que si les Théologiens <pb n="408"/>prenoient la peine de réfléchir attentivement sur la nature des Piéces de Moliere, ils conviendroient, avec quelques exceptions, qu’elles sont suffisamment bonnes pour les mœurs ; à plus forte raison notre Comédie, depuis que la Cour a institué des Censeurs pour l’examiner &amp; la corriger, avant qu’elle soit présentée au Public.</p>
-<p>La Bruyere, dont les sentimens ont été reconnus si orthodoxes par son fameux Chapitre contre les Esprits forts, ne peut dissimuler que les Personnes pieuses ne connoissent qu’un seul péché au monde, qui est l’amour.</p>
-<p>Mais l’Epoux qui devient le tyran de sa Femme, &amp; qui est si bien contrasté dans l’<hi rend="i">Ecole des Maris</hi>, par le galant homme qui laisse une honnête liberté à la sienne ;</p>
-<p>Celui qui abuse d’un dépôt confié, qui veut séduire, en sa faveur, une Enfant qu’il a mal instruite, &amp; qui compte lui enlever &amp; les douceurs de la vie &amp; les biens ;</p>
-<p>Un faux Philosophe, rempli de lui-même, qui se complaît dans le mérite sauvage de détester l’humanité ;</p>
-<p>Un avare sordide, ingrat envers ses Enfans :</p>
-<p>Tous ces objets ne sont-ils pas vicieux ? <pb n="409"/>Ne voudra-t-on jamais se persuader que l’Amour, au Théâtre, n’est représenté qu’avec les nuances convenables !</p>
-<p>Dans les Tragédies, il est la source de tous les malheurs qui arrivent aux hommes ; dans les Comédies, il a pour but l’union la plus légitime. S’il est criminel, il cause la mort ; s’il ne l’est pas, il fait un mariage.</p>
-<p>Un objet dont les Ecclésiastiques se mêlent peu, &amp; qui cependant, dans la Bourgeoisie, est d’une grande conséquence, est le juste assortiment des mariages. Ainsi l’obsession des Vieillards, les poursuites maussades des sots amoureux, les vues intéressées des Parens, ont toujours dû paroître importantes aux Poëtes Comiques, &amp; sur-tout à un aussi grand Philosophe que Moliere.</p>
-<p>C’est dans des vues aussi utiles à la société, qu’il a peint la stupidité de certains Gentillâtres, l’entêtement des Roturiers qui veulent être Gentilshommes, les fausses caresses des gens de Cour, les Fats, les Précieuses.</p>
-<p>Moliere n’étoit ni impie, ni méchant ; &amp; pour se convaincre qu’il n’a jamais eu que des intentions sages, que l’on songe <pb n="410"/>un instant au fond de deux de ses Piéces, qui sont le plus attaquées pour les mœurs.</p>
-<p>Au sujet du Festin de Pierre, il fut imprimé une Critique faite par un Ecclésiastique, où l’on se récrie beaucoup sur ce que, dans cette Piéce, les intérêts du Ciel sont remis entre les mains d’un Valet, &amp; sur ce que Dom Juan est puni par une ridicule fusée.</p>
-<p>Quelle solidité y a-t-il dans une pareille Critique ? Cette Piéce, adoptée par Moliere, &amp; ensuite par Thomas Corneille, est, comme l’on sçait, tirée de l’Espagnol ; &amp; l’on y reconnoît aisément le goût de la Nation, pour mettre des moralités dans la bouche des Valets. Le Sganarelle de Dom Juan n’est autre chose que le Sancho de D. Quichotte, qui rend mal de fort bonnes pensées ; mais les Auteurs n’ont eu assurément en cela aucune idée de jouer le Ciel. S’ils eussent manqué de probité, il leur auroit été facile de rendre le Libertin moins détestable. On n’est responsable que des couleurs que l’on prête aux vices ; &amp; à l’égard de la punition Théâtrale que Dom Juan éprouve à la fin, qu’elle soit bien ou mal représentée, il n’en résulte pas moins l’aveu des Auteurs, que l’impiété de Dom <pb n="411"/>Juan est digne du dernier supplice.</p>
-<p>Quel est le but principal de Moliere dans la Piéce de George Dandin ? C’est de railler la faute que fait un homme de rien, en épousant une fille de qualité. Mais on peut ajouter que, dans cette Piéce, il se trouve une correction bien plus essentielle ; car si la femme de George Dandin est visiblement coquette, elle est aussi visiblement ridicule ; &amp; c’étoit bien là l’intention de Moliere, qui, sur l’infidélité conjugale, portoit plus loin que personne le chagrin &amp; la jalousie, que, dans l’autre siecle, on voyoit si fort à la mode.</p>
-<p>Il est peu d’hommes qui souhaitassent que les femmes, dont ils sont écoutés, fussent semblables à celle-là, &amp; qui fussent bien flattés d’une intrigue qui ne subsisteroit que par des tours aussi malins.</p>
-<p>Ce n’est pas que dans les Piéces de Moliere il n’y en ait, comme Amphitrion &amp; le Tartuffe, que les Censeurs n’approuveroient pas aujourd’hui. L’une n’ayant rien d’intéressant pour nous, &amp; ne pouvant produire aucune utilité, &amp; l’autre étant dangereuse à beaucoup d’égards.</p>
-<p>Il est vrai que le Tartuffe n’a peut-être pas été infructueux envers ceux qui se sont <pb n="412"/>le plus courroucés contre lui, &amp; que les gens d’Eglise pouvoient avoir alors un extérieur affecté, &amp; une ardeur à se mêler des affaires des familles, que l’on ne remarque plus en eux à présent.</p>
-<p>Quand un vice ou un ridicule n’existent plus, on s’apperçoit moins de la nécessité de l’Ouvrage qui les a détruits.</p>
-<p>Mais, quelques bons effets que le Tartuffe ait pu produire, tous les sujets de Piéces qui conduisent à employer des termes, ou sacrés ou mystiques, doivent être bannis du Théâtre.</p>
-<p>C’est la raison pour laquelle les sujets tirés des Ecritures Saintes, auroient dû n’y jamais paroître ; &amp; c’est dans ce sentiment, sans doute, que, de nos jours, les Magistrats n’ont point permis le Moyse de M. l’Abbé Nadal, ni d’autres Tragédies modernes.</p>
-<p>Il y a encore dans les Comédies les plus morales de Moliere, quelques traits que l’on n’approuveroit pas, comme quand Arnolphe dit à Agnès, dans l’<hi rend="i">Ecole des Femmes</hi>.</p>
-<quote>
-<lg>
-<l><seg>… … … … … …</seg></l>
-<l>Et qu’il est aux Enfers des Chaudieres bouillantes,</l>
-<l>Où l’on plonge, à jamais, les Femmes mal vivantes,</l>
-<l>Et ce que je vous dis ne sont pas des Chansons.</l>
-</lg>
-</quote>
-<p><pb n="413"/>On sçait bien que le ridicule tombe sur un homme qui emploie, &amp; qui outre les expressions de la Religion, pour un intérêt charnel, ainsi que dans le Tartuffe ; mais ces peintures, quoique naïves, sont trop sujettes à être mal interprétées.</p>
-<p>Il en est de même de cette maxime de l’Œdipe de M. de Voltaire ;</p>
-<quote>
-<lg>
-<l>Les Prêtres ne sont pas ce qu’un vain Peuple pense,</l>
-<l>Notre crédulité fait toute leur science.</l>
-</lg>
-</quote>
-<p>Quoique les Prêtres de Jocaste soient assurément reconnus pour des imposteurs, ces Vers, dans l’esprit des jeunes gens, occasionnent trop une mauvaise application.</p>
-<p>M. de Voltaire, qui a si bien suivi les traces du grand Corneille, &amp; qui a fait plus que lui, en enrichissant la Nation d’un Poëme Epique, auroit dû imiter son noble empressement à retrancher dans le Cid, les quatre fameux Vers sur le Duel, dès qu’on lui eût fait entendre qu’ils étoient contre les bonnes mœurs. Personne n’ignore que la vraie gloire ne peut s’acquérir que par les plus chers sacrifices.</p>
-<p>Si donc, dans les Piéces de Théâtre, on entrevoit encore aujourd’hui quelques <pb n="414"/>maximes douteuses, d’un autre côté quelle politesse, quelle élévation de sentimens, quelles grandes leçons ne renferment elles pas !</p>
-<p>La politesse qui regne au Théâtre peut être comparée à celle du Courtisan le plus attentif.</p>
-<p>Le danger que pourroient causer les Spectacles (à des cœurs qui succomberoient par-tout) n’est-il pas bien compensé par l’utilité que d’autres en retirent ?</p>
-<p>Combien de jeunes gens, peu assidus aux Prédications les plus saintes &amp; les plus éloquentes, ne conserveroient aucune idée des bonnes mœurs, s’ils n’étoient attirés aux Spectacles par l’appas du plaisir ; &amp; il faut avouer que lorsqu’un trait de morale s’y rencontre, il frappe d’autant plus que l’on s’attendoit moins à l’y trouver.</p>
-<p>Un amusement si instructif sera-t-il toujours accusé, &amp; doit-on se faire un nouveau titre des regrets que Corneille &amp; Racine ont témoignés sur la fin de leurs jours ?</p>
-<p>Corneille &amp; Racine ont gémi ; ils en ont eu raison, sans doute, puisqu’ils ont passé leur vie dans une occupation condamnée : mais n’est-il pas bien cruel que les Auteurs <pb n="415"/>de <hi rend="i">Cinna</hi>, d’<hi rend="i">Héraclius</hi> &amp; de <hi rend="i">Phédre</hi>, ayent été fondés à verser des larmes d’un juste repentir ?</p>
-</div>
-<div type="section" xml:id="SC_63_3">
-<head>III. OBSERVATION.</head>
-<p>Plus les désordres pourroient paroître grands dans les mœurs des Comédiens, &amp; plus un cœur, vraiment pénétré de charité, devroit se hâter d’en écarter tout prétexte.</p>
-<p>Ce n’est pas que de tout tems, il n’y ait eu parmi eux de très-honnêtes gens. Ce n’est pas que le corps des Comédiens n’ait, en tout tems, fait de très-bonnes actions ; peut-être même s’en est-il trouvé qui, par des dévotions fréquentes, ont taché de racheter devant Dieu, le malheur d’une profession dans laquelle ils étoient nécessairement engagés.</p>
-<p>Mais en général seroit-il étonnant que des personnes, sur qui l’on veut imprimer une tache continuelle, ne se piquassent pas de beaucoup de régularité ?</p>
-<p>Indépendamment de cela : le Théâtre <pb n="416"/>est-il le seul endroit où les femmes trouvent des Amans ?</p>
-<p>Les femmes de Théâtre, par leur profession, sont, pour ainsi dire, des hommes de Lettres, &amp; elles sont si laborieuses, qu’il n’en est peut-être pas dans le monde qui, par leurs occupations, soient si fort au-dessus d’une oisive volupté.</p>
-<p>Si donc les galanteries des Comédiennes font du bruit, il ne faut pas s’en prendre à leur profession. Ajoutez à cela que leurs aventures sont plus difficilement ignorées, &amp; que l’on se plaît volontiers à médire des personnes qui paroissent en public.</p>
-<p>Il y a encore une autre prévention de la part de ceux qui blâment les Spectacles sans les avoir fréquentés.<note place="bottom"><p>M. Nicole.</p></note> C’est de penser que les Actrices y soient habillées plus immodestement qu’ailleurs.</p>
-<p>Une Comédienne qui n’observeroit pas exactement les modes reçues à la Cour &amp; à la Ville, &amp; qui iroit au-delà, feroit une faute contre son état, &amp; s’exposeroit à des désagrémens.</p>
-<p>Jettons donc à présent les yeux sur la disgrace des Comédiens, même chez les Payens.</p>
-<p><pb n="417"/>Cette disgrace vient de la témérité des Poëtes, dont ils se sont rendus les Organes.</p>
-<p>Aristophane est le Pere de cette proscription qui, aujourd’hui, malgré leurs supplications &amp; leurs réformes, subsiste encore, contre les Comédiens, parmi nous.</p>
-<p>La Comédie fut regardée, dans sa naissance, comme un effet de la sagesse des Grecs, &amp; elle resta long-tems dans la plus haute estime ; mais quand un Poëte osa se mocquer publiquement des Dieux, des Ministres de l’Etat, &amp; des Philosophes les plus respectés, les choses changerent de face, &amp; ces Comédiens, auparavant si aimés, furent alors chassés comme ils le méritoient.</p>
-<p>Les Romains, tant que la Comédie chez eux fut honnête, ne proscrivirent leurs Comédiens, que par l’affectation qu’ils avoient d’imiter en tout les Grecs, &amp; plus encore, par l’ombrage qu’ils concevoient de tout ce qui pouvoit diminuer leur vanité ; car on ne peut s’empêcher d’être surpris qu’un Peuple si belliqueux, fût si puérile en tant de choses, &amp; si souvent sujets aux terreurs paniques.</p>
-<p><pb n="418"/>Une preuve de contradiction chez les Romains, sur le compte de leurs Comédiens, est que ceux qui jouoient dans les Piéces Attelanes, qui étoient des espéces d’in-promptu, n’étoient point notés, parce que les Citoyens eux-mêmes se plaisoient à s’en mêler.</p>
-<p>La disgrace des Comédiens chez les Grecs est donc accidentelle, &amp; chez les Romains contradictoire.</p>
-<p>Il est par-conséquent visible, que le bien &amp; le mal de cette profession consistent dans les bonnes ou mauvaises maximes qu’on y débite, &amp; que la profession n’a rien de déshonnête en soi.</p>
-<p>Ira-t-on incendier toute une Bibliothéque parce que l’on sçaura qu’elle renferme des Livres obscénes ou impies, &amp; ne vaut-il pas mieux l’en purger ?</p>
-<p>Sera-t-il nécessaire de renouveller ici la question, que les défenseurs de la Comédie ont faite tant de fois ? Pourquoi la représentation du même sujet, dans les Colléges &amp; sur le Théâtre public, est d’un côté une bonne action, &amp; de l’autre un crime ?</p>
-<p>Faut-il que tout ce qui touche à ce Théâtre se souille dans l’instant ? Et à cette occasion, <pb n="419"/>on demandera si l’on doit, comme le font de certains Ecrivains, rendre les Comédiens responsables de toutes les iniquités des hommes ?</p>
-<p>Que l’on nomme une Ville où jamais la plus petite Troupe de Campagne ne se soit établie : y verra-t-on les hommes moins brutaux, moins yvrognes, les femmes moins galantes ? L’avarice, la perfidie, l’indévotion, &amp; tous les vices y seront-ils moins communs ?</p>
-<p>On pourroit, au contraire, citer la Capitale d’une Province de France, du côté du Nord, où les bonnes mœurs se font remarquer ; où l’on remplit avec la plus grande piété, les devoirs du Christianisme ; où les hommes sont laborieux, &amp; les femmes rarement infidelles, &amp; où cependant l’inclination pour les Spectacles est si grande, que dans les tems où ils sont suspendus ailleurs, c’est-à-dire, dans les jours saints, ils y subsistent encore, &amp; souvent alors quelques bons Acteurs de Paris s’y sont transportés pour s’y joindre aux Troupes qui y sont fixées.</p>
-<p>Peut-on être insensible à ces raisons, &amp; seroit-il possible que l’on restât aujourd’hui dans l’indifférence ?</p>
-<p><pb n="420"/>On convient que ce n’est point aux Ecclésiastiques à se rendre ouvertement les défenseurs d’un Spectacle qu’ils ne fréquentent pas, qu’ils voyent condamné dans la plupart des Livres qui se présentent à leurs yeux, &amp; dont ils devroient même blâmer le trop grand usage, en le regardant comme un plaisir permis.</p>
-<p>Mais doivent-ils se refuser aux raisons les plus évidentes, &amp; peuvent-ils ne pas ressentir quelque douleur, en prévoyant que les Spectacles seront difficilement détruits, par l’attachement que les Peuples ont fait voir de tous tems pour cette sorte d’amusement ; &amp; qu’ainsi un grand nombre d’hommes Chrétiens, qui y sont employés, seront toujours chargés de la haine de l’Eglise ?</p>
-<p>Une opinion encore bien étonnante, est de croire que les occupations d’un Comédien ne lui laissent pas le tems des plus graves réflexions. Quoique cet état soit pénible, par toutes les études qu’il exige, l’exercice n’en est pas journalier. Un Acteur sera quelquefois plusieurs mois sans paroître sur la scene ; &amp; dans les tems où les Spectacles sont le plus courus, ce n’est que trois jours de la Semaine que l’Acteur <pb n="421"/>le plus nécessaire paroît en public.</p>
-<p>Il est donc incontestable qu’un Comédien peut avoir l’esprit porté aux choses sérieuses, tout autant que les Sculpteurs, les Peintres, &amp; tous les Professeurs des Arts agréables.</p>
-<p>A Londres, il n’est guères de Comédiens qui n’ayent une profession étrangere à la Comédie.</p>
-<p>Est-ce, enfin, un faux bruit, ou s’il est vrai que la Cour de Rome n’exerce plus contre cette profession la rigueur qu’elle s’est attirée autrefois avec tant de justice ?</p>
-<p>Et lorsque quelques Théologiens disent : Mais, si les pompes du Démon ne sont pas là, où sont-elles donc ? On leur répond, sur l’autorité de plusieurs autres Théologiens, que les pompes du Démon sont dans le péché, &amp; spécialement dans l’orgueil ; que les choses les plus riches &amp; les plus brillantes ne sont point, en elles-mêmes, criminelles ; que le plus beau de tous les Spectacles est la contemplation du Ciel, de la Terre, &amp; de la Mer ; que Salomon, dans sa gloire, n’étoit pas si artistement vêtu que le Lys des champs ; &amp; que tous les efforts de magnificence, que peuvent faire les Souverains, ne valent pas un simple boccage que nous offre la Nature.</p>
-<p><pb n="422"/>Il est des matieres qu’il n’est pas permis à tout le monde de traiter ; mais on croit, au sujet du rapport des actions à Dieu, que le rapport continuel des actions les plus indifférentes, comme <hi rend="i">le jeu de cartes, de dez</hi>, conduit à une spéculation que bien des esprits ne sont pas capables de supporter.</p>
-<p>Cependant, il y a des exemples que quelques Comédiens, même dans l’état où sont les choses, croyoient sans doute le pouvoir faire. Thomassin, de la Comédie Italienne, suivant l’usage Ultramontain, ne montoit jamais au Théâtre qu’il ne fît le signe de la Croix. Beaubour dans les Eglises édifioit tous ceux qui l’environnoient. Du côté de la bonne conduite, &amp; de la piété, on cite encore Mademoiselle Beauval, ainsi que plusieurs autres, qui ont rempli tous les devoirs d’honnêtes femmes, avec la plus grande exactitude, &amp; qui n’ont jamais été soupçonnées de la moindre galanterie.</p>
-<p>On peut donc, sans avoir égard aux paralleles injurieux, que font de certains Critiques, soutenir hardiment, qu’il est possible qu’un Comédien soit, dans son métier, un homme très-juste devant Dieu.</p>
-<p>Et la possibilité ne consiste qu’en deux <pb n="423"/>choses. 1°. Que ses actions, &amp; les Piéces dans lesquelles il joue, soient suivant les bonnes mœurs. 2°. Que l’Eglise veuille bien le purger d’une indignation qui paroît n’avoir plus de fondement.</p>
-</div>
-<div type="section" xml:id="SC_63_4">
-<head><hi rend="i">Conclusion, &amp; Moyens simples de Réforme.</hi></head>
-<p>Des raisons que l’on vient d’exposer, on peut conclure que la Comédie, telle qu’elle a été dans sa naissance, &amp; telle qu’elle est aujourd’hui, doit passer pour l’effet de la sagesse des Peuples les plus polis, &amp; que sa disgrace vient :</p>
-<p>Chez les Grecs, de la témérité d’Aristophane.</p>
-<p>Chez les Romains, de leur affectation à imiter les Grecs.</p>
-<p>Chez les premiers Chrétiens, de l’impureté, de l’idolâtrie, &amp; des abominations des derniers tems de l’Empire de Rome.</p>
-<p>Au septieme Siecle, des jeux sacriléges des Iconoclastes.</p>
-<p>Quelques tems après, de l’établissement en France des jeux homicides des <pb n="424"/>Tournois, qui ont duré jusqu’au seizieme Siecle.</p>
-<p>Et enfin depuis le seizieme Siecle jusques peu avant le Regne de Louis XIV, du défaut de considération que méritoient les Drames que l’on représentoit.</p>
-<p>Avant même qu’elle fût aussi réglée, &amp; aussi honnête qu’elle est aujourd’hui, on peut compter de très-grands Personnages qui en ont fait une juste évaluation, &amp; qui lui ont été favorables.</p>
-<p>De ce nombre sont, Saint Thomas d’Aquin, Saint François de Sales, un Evêque de Florence, Monsieur Huet, que nous avons déjà cité, Fabricius, Dacier, &amp; beaucoup d’autres, entre lesquels nous distinguerons deux célebres Philosophes, l’un Prophane, &amp; l’autre Chrétien, que l’on cite mal-à-propos, comme contraires à la Comédie.</p>
-<p>Sénèque, que l’on met de ce rang, fait un grand éloge des Mots &amp; Sentences qui se trouvoient dans les Mimes de Publius-Syrus<note place="bottom"><p>Poëte Comique qui vivoit du tems de Jules César.</p></note>, qui n’étoient, cependant, que des especes de Farces.</p>
-<p>Saint Charles, au milieu des acclamations de toute l’Italie, vint effectivement <pb n="425"/>réprimer les excès qui se commettoient pendant le Carnaval de Milan ; mais quand il fut informé du peu de danger, &amp; de la nécessité de la Comédie, il la permit pourvû que les Piéces eussent auparavant été présentées au Juge ; &amp; Riccobini prétend, que ce Saint Archevêque n’a pas dédaigné d’approuver quelques Canevas Italiens, de sa propre main.</p>
-<p>Doit-on, d’ailleurs, parmi les Théologiens de France, ne compter pour rien la protection marquée que les Cardinaux de Richelieu &amp; de Mazarin ont accordée à la Comédie ; l’un par sa passion pour la Poësie, &amp; l’autre par son goût exquis pour les Machines Théâtrales ; &amp; M. le Cardinal de Fleuri a-t-il dérogé à cette protection ?</p>
-<p>Tout ce qu’un esprit sage &amp; orné peut produire de plus équitable, ne se trouve-t-il pas dans le discours récité par le P. Porée, il y a quelques années, au sujet des Spectacles ? Il y avoue à la vérité, que par la faute des Acteurs, des Auteurs, &amp; des Spectateurs, le Théâtre n’est pas irreprochable ; mais il conclut, qu’il pourroit être propre à former les mœurs, &amp; c’est, sans doute, la décision la plus favorable qui fût permise à un homme de son état.</p>
-<p><pb n="426"/>Comment en a usé un illustre Prélat<note place="bottom"><p>M. l’Archevêque de Sens.</p></note> à la réception de M. de la Chaussée, à l’Académie ? Après avoir parlé avec toute la délicatesse que la circonstance exigeoit, il reconnoît Moliere pour le fléau du ridicule, il loue M. de la Chaussée de la pureté de ses Piéces, &amp; convient que, par le bien qu’il en a entendu dire, ses Piéces semblent concourir au but que la Chaire se propose, de rendre les hommes meilleurs.</p>
-<p>Pourquoi donc, enfin, seroit-on scandalisé d’une absolution aussi juste, que celle que l’on espere pour les Comédiens ? Et quels inconvéniens pourroit-elle causer ?</p>
-<label><hi rend="i">Du côté de la Politique.</hi></label>
-<p>En se rendant, de plus-en-plus, sévere sur le choix des Sujets, il n’est pas à craindre qu’une trop grande quantité de jeunes gens s’engagent avec fureur dans une profession qui ne seroit plus défendue : l’excellence des talens est souvent une barriere plus difficile à franchir que le scrupule.</p>
-<p>Outre cela, il n’y a pas d’apparence que beaucoup de personnes, partagées des biens de la fortune, veuillent jamais embrasser <pb n="427"/>un genre de vie, qui exige tant d’étude &amp; de sujettion.</p>
-<label><hi rend="i">Du côté de la Conscience.</hi></label>
-<p>Une Piéce de Théâtre, est un Livre. Un Livre peut être bon ou mauvais ; c’est l’affaire des Censeurs de n’en point permettre de mauvais.</p>
-<p>Un Comédien, est un Académicien, qui, sans se mêler d’enseigner les grands préceptes réservés à la Chaire de Vérité, peut, comme tous les autres Membres des Académies, prétendre à inspirer la politesse &amp; l’honneur.</p>
-<p>Dans le nombre des Spectateurs, tout est dangereux pour un cœur qui n’est pas formé ; la promenade, les assemblées, les Temples mêmes. D’ailleurs, le trop grand usage des plaisirs permis est répréhensible, &amp; peut toujours être l’objet de l’attention des Théologiens ; mais, pour le général des hommes, un honnête délassement d’esprit a toujours été reconnu absolument nécessaire.</p>
-<p>Et dire, que le mal des Spectacles réside dans la réunion de tant de gens assemblés pour un objet agréable, n’est qu’un raisonnement spécieux.</p>
-<p>A l’égard de l’Opéra, qui paroît être-plus difficile à justifier, c’est encore l’affaire <pb n="428"/>des Censeurs de le rendre plus digne du titre honorable qu’il porte d’Académie Royale de Musique. On dira seulement, au sujet de la Morale qui y est répandue, que l’on ne croit pas qu’il y ait au monde une personne assez simple, ou environnée de gens assez simples, pour prendre des Chansons pour des vérités, que quand Quinault a dit :</p>
-<quote>
-<lg>
-<l>Est-on sage</l>
-<l>Dans le bel âge,</l>
-<l>Est-on sage</l>
-<l>De n’aimer pas ?</l>
-</lg>
-</quote>
-<p>Et beaucoup d’autres choses semblables ; il n’a dit que ce qui est sans cesse exprimé dans les Chansons que l’on chante par tout l’Univers, &amp; que, sur cet article, il ne faut pas tout-à-fait écouter Despréaux, qui étoit piquant &amp; envieux.</p>
-<p>Il y a encore une autre espece de Piéces, dont, à la vérité, le plus grand mérite semble être la Satyre &amp; les Equivoques ; mais, comme elles ne paroissent pas ordinairement sur des Théâtres reglés, tout ce que l’on peut dire est que, quand elles existent, les Censeurs doivent redoubler leur attention pour les corriger.</p>
-<p>Suivant le plan que l’on s’est ici tracé, <pb n="429"/>toute la réforme de la Comédie se réduit à deux choses :</p>
-<p>1°. Du côté de la Politique, à se rendre, de plus-en-plus, sévère sur le choix des Sujets.</p>
-<p>2°. Du côté de la Conscience, à maintenir, avec force, les Réglemens déjà établis, lesquels consistent :</p>
-<p>A ne point permettre de Piéces tirées des Ecritures Saintes, ainsi que plusieurs Magistrats s’en sont déjà déclarés.</p>
-<p>A mettre ordre à la conduite des Acteurs &amp; Actrices qui éclateroit trop, comme on en a vu plusieurs exemples.</p>
-<p>A recommander enfin aux Censeurs de redoubler leur exactitude, pour ne souffrir, dans les Piéces, ni impiété, ni satyre personnelle, ni obscénité.</p>
-<p>On se flatte d’avoir exposé un si grand nombre de raisons, que l’on espere qu’elles produiront des effets utiles ; &amp; une remarque digne d’attention, c’est que les Personnes les plus pieuses &amp; les plus éclairées, s’écartent de leur objet, sans y penser ; car un moyen certain de rendre les Acteurs, les Auteurs &amp; les Spectateurs plus sages, est de lever l’Excommunication prononcée contre les Comédiens.</p>
-</div>
-</div>
-</body>
-</text>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fagan_nouvelles-observations_1760.pdf"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nouvelles observations</title>
+                <author>Fagan, Barthélémy-Christophe</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>François Lecercle</name>
+                    <resp>Responsable d’édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Clotilde Thouret</name>
+                    <resp>Responsable d’édition</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+                <date when="2017"/>
+                <idno>http://obvil.sorbonne-universite.site/corpus/haine-theatre/fagan_nouvelles-observations_1760/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution – Pas
+                            d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures. La diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Nouvelles observations</title>
+                    <author>Fagan, Barthélémy-Christophe</author>
+                    <biblScope>p. 393-429</biblScope>
+                    <date>1751, rééd. 1760</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1751"/>
+            </creation>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="book" xml:id="HDT_63">
+                <head>Nouvelles observations</head>
+                <label><pb n="393"/>NOUVELLES OBSERVATIONS,<lb/><hi rend="i">AU SUJET</hi><lb/>DES
+                    CONDAMNATIONS PRONONCÉES CONTRE LES COMÉDIENS.</label>
+                <p>Les Apologies faites en faveur de la Comédie ont toujours été assez foibles ;
+                    &amp; toujours ces Apologies ont été réfutées par des plumes habiles.</p>
+                <p>Pourquoi la Comédie n’a-t-elle point eu de meilleurs défenseurs ? C’est que, dans
+                    cette entreprise, un Ecrivain se trouve d’abord arrêté par des obstacles qui
+                    mortifient son amour-propre ; car, d’un côté, des personnes pieuses regardent
+                    comme un crime, la seule proposition de faire absoudre les Comédiens par
+                    l’Eglise ; &amp; de l’autre, les trois quarts des Spectateurs traitent de
+                    ridicule, le soin que l’on prend de justifier leur plaisir : de façon que cette
+                    défense est, aux yeux des Dévots, un attentat ; <pb n="394"/>&amp; aux yeux des
+                    Gens du monde, un pédantisme.</p>
+                <p>Cependant, on ne sçauroit disconvenir que de voir les Comédiens, en même-tems,
+                    proscrits &amp; autorisés, ne soit une chose qui renferme une singularité
+                    frappante.</p>
+                <p>En vain les Théologiens croyent-ils s’être assez rapprochés, &amp; avoir
+                    suffisamment étendu leur charité, en établissant, que l’on peut tolérer ceux qui
+                    vont aux Spectacles ; &amp; qu’à l’égard des Acteurs, dans les momens pressans,
+                    on est prêt à recevoir leur abjuration ; en vain d’autres Philosophes
+                    pensent-ils, d’après Pope, que tout est bien, tel qu’il soit, &amp; qu’il faut
+                    des ombres au Tableau ; en vain la Politique croiroit-elle entrevoir, dans une
+                    innovation, quelques inconvéniens : il n’en est pas moins vrai, que de vouloir
+                    diffamer une Troupe de Gens à talens, que l’on reconnoît d’ailleurs être
+                    nécessaires, est une contradiction insoutenable, &amp; qui ne peut pas long-tems
+                    subsister dans un Etat, dont le goût &amp; les décisions sont des Loix pour
+                    toutes les autres Cours de l’Europe.</p>
+                <p>Le désir de décider la question est donc un désir légitime ; mais si, en
+                    l’entreprenant, <pb n="395"/>on n’a pour soi, ni les consciences scrupuleuses,
+                    ni les consciences aisées, à qui donc pourra-t-on s’adresser ?</p>
+                <p>Ce sera à un petit nombre de Personnes qui, quoique jouissant des délassemens de
+                    la Société, respectent la Religion ;</p>
+                <p>A des Personnes qui sçavent que beaucoup de préjugés, dont on croyoit ne jamais
+                    revenir, ont néanmoins été détruits par la suite ;</p>
+                <p>A des Personnes, enfin, assez généreuses pour faire valoir, auprès des
+                    Puissances, ce qu’elles auront trouvé de juste dans la Cause des Comédiens,
+                    &amp; qui détachées d’intérêts personnels, chérissent tout ce qui peut constater
+                    la gloire de l’Etat.</p>
+                <p>On espere rassembler tout ce qu’il est possible de dire, à ce sujet, dans les
+                    trois Observations suivantes.</p>
+                <quote>
+                    <p>1°. <hi rend="i">Que les raisons que l’on a rapportées jusqu’à présent, pour
+                            prouver que la Comédie condamnée n’est point celle qui existe
+                            aujourd’hui, n’ont jamais été exposées avec assez de soin.</hi></p>
+                    <p>2°. <hi rend="i">Que la Comédie, telle qu’elle a été traitée par Moliere, est
+                            suffisamment bonne pour les mœurs ; à plus forte raison depuis les sages
+                            réglemens qui ont été introduits.</hi></p>
+                    <p>3°. <hi rend="i">Que les désordres que l’on pourroit <pb n="396"/>reprocher
+                            aux Personnes de Théâtre, sont indépendans de leur Profession.</hi></p>
+                </quote>
+                <div type="section" xml:id="SC_63_1">
+                    <head>PREMIERE OBSERVATION.</head>
+                    <p>Ce n’est que depuis un siécle environ, que l’on est en droit d’espérer de
+                        l’Eglise, l’Absolution des Comédiens ; car on ne doit pas s’attendre ici,
+                        que l’on ose improuver les respectables décisions des Conciles. On prétend
+                        seulement faire voir les motifs qui ont occasionné ces décisions, &amp; que
+                        ces motifs n’existent plus.</p>
+                    <p>Si la Comédie eût toujours été telle qu’elle est aujourd’hui, il y a lieu de
+                        croire qu’elle ne se seroit point attiré les Censures Ecclésiastiques.</p>
+                    <p>On va rapporter comment, depuis la naissance du Christianisme jusqu’au tems
+                        des derniers Conciles, elle les a justement méritées.</p>
+                    <p>On ne peut exprimer jusqu’à quel point la licence fut portée à Rome, sous les
+                        derniers Empereurs.</p>
+                    <p>On n’accusera pas les Saints Peres d’avoir été des Censeurs outrés, ni des
+                        Critiques trop austeres, quand on sçaura qu’il <pb n="397"/>se passa un
+                        très-long espace de tems, avant qu’ils obtinssent la suppression des Bains
+                        publics, communs aux hommes &amp; aux femmes, dans lesquels se trouvoient
+                        des femmes Chrétiennes.</p>
+                    <p>Les Spectacles étoient dans le même goût.</p>
+                    <p>Apulée, qui vivoit dans le deuxieme siecle, fait la description d’un
+                        Spectacle Pantomime de son tems, où l’on représentoit le Jugement de Pâris,
+                        &amp; où Vénus paroissoit telle qu’on la décrit dans les Métamorphoses.</p>
+                    <p>Cette représentation du Jugement de Pâris, étoit suivie de l’exposition d’une
+                        femme condamnée à mort, &amp; à une prostitution dont la pudeur ne permet
+                        pas de nommer le genre.<note place="bottom"><p>Voyez l’Asne d’Or
+                                d’Apulée.</p></note></p>
+                    <p>Au fameux Théâtre d’Antioche, qui, dans sa vaste enceinte, comprenoit un
+                        Jardin &amp; une partie de la Fontaine de Daphné, des Femmes qui faisoient
+                        les Rolles de Nayades, pendant la représentation de la Piéce, nageoient nues
+                        aux yeux des Spectateurs.</p>
+                    <p>Il arrivoit encore que beaucoup de Comédiens, <pb n="398"/>à l’exemple des
+                        Gladiateurs, se blessoient à mort sur la Scéne ; de sorte que, sans qu’il
+                        soit besoin de multiplier les exemples, on voit clairement que ce n’étoit
+                        alors, qu’horreurs, que meurtres, que prostitutions.</p>
+                    <p>Une autre espece de Spectacles, qui, quoique bien moins abominables, étoient
+                        tout aussi dignes de la juste Censure des Saints Peres, étoit la
+                        Représentation des Mystères du Paganisme ; car quoiqu’aujourd’hui nous
+                        soyons peu touchés des Aventures de Jupiter, de Mars, &amp;c. &amp; que les
+                        Dieux, sur notre Théâtre, figurent assez mal, un nouveau Chrétien, qui
+                        assistoit à ces Spectacles, n’étoit pas moins irrégulier qu’un Juif, qui de
+                        nos jours seroit nouvellement converti, &amp; que nous verrions retourner à
+                        la Synagogue.</p>
+                    <p>Une réflexion générale est que l’établissement du Christianisme demandoit,
+                        sans doute, des précautions, qui aujourd’hui ne seroient pas nécessaires ;
+                        &amp; tout le monde conviendra que l’on doit être bien plus sur ses gardes,
+                        quand on est sur des Terres Ennemies.</p>
+                    <p>Après la destruction de l’Empire de Rome, la Comédie, suivant l’expression
+                            <pb n="399"/>de beaucoup d’Auteurs, resta ensevelie sous les ruines des
+                        Villes.</p>
+                    <p>A la fin du septieme Siécle &amp; dans le huitieme, elle reparut chez les
+                        Empereurs d’Orient ; mais sous quelles couleurs ? Cette nouvelle Comédie ne
+                        méritoit pas moins toute l’indignation de l’Eglise. Ces Princes, entêtés de
+                        l’erreur des Iconoclastes,<note place="bottom"><p>Briseurs
+                            d’images.</p></note> permettoient que des Bouffons, revêtus d’habits
+                        Episcopaux, fissent mille indécences. Un Patriarche déposé étoit l’objet
+                        d’une de ces Farces publiques, &amp; l’on n’épargnoit rien pour tourner en
+                        dérision les Evêques &amp; tout le Sacerdoce.</p>
+                    <p>C’est quelques tems après que les Tournois commencerent à s’établir en
+                        France, c’est-à-dire, comme plusieurs le prétendent, sous le regne de
+                        Charles le Chauve, dans le neuvieme Siécle. Auparavant, il paroît que les
+                        Armes, la Chasse, le Plein-Chant, tenoient lieu de tout amusement.</p>
+                    <p>On sçait jusqu’à quel point ces Tournois, qui d’abord ne paroissoient qu’un
+                        Exercice Militaire, devinrent par la suite dangereux, &amp; il est
+                        innombrable combien de Noblesse y a succombé.</p>
+                    <p><pb n="400"/>L’Eglise, qui voyoit dans des Chrétiens, de nouveaux Gladiateurs
+                        déjà condamnés par les Peres, n’a cessé de fulminer contre ces Jeux, pendant
+                        le tems immense qu’ils ont duré.</p>
+                    <p>J’ose remarquer en passant, que si les Théologiens de France, qui voyoient
+                        les Princes &amp; le Peuple si amoureux de cet Exercice, eussent représenté
+                        dans les Conciles la nécessité de le régler plutôt que de le condamner en
+                        général, &amp; que la sévérité des Conciles n’eût tombé que sur ce que l’on
+                        appelloit <hi rend="i">les Combats à outrage &amp; à fer émoulu</hi>, ces
+                        Jeux, sans doute, n’auroient pas eu des effets ni des suites aussi
+                        funestes.</p>
+                    <p>Venons, enfin, au tems du dernier Concile Général.</p>
+                    <p>Le terrible accident, arrivé à Henri II, qui mettoit tous les Jeux en
+                        horreur, &amp; la révolte naissante de Luther, qui, par ses maximes
+                        relâchées, venoit de secouer le joug de la vraie Religion, permettoient-ils
+                        d’espérer qu’au Concile de Trente, &amp; dans les Parlemens de France, on
+                        auroit d’autre objet, que tout ce qui pourroit contribuer à l’austere
+                        Réformation des Mœurs, &amp; à la plus réguliere Observation de la
+                        Discipline ? Et étoit-ce là le moment de <pb n="401"/>se flatter, après tous
+                        les crimes que l’on vient d’exposer, que l’on voudroit bien se prêter à un
+                        nouvel Examen au sujet des Spectacles, &amp; que l’on auroit
+                        quelqu’indulgence, pour qui ? Pour une troupe <seg>d’Acteurs</seg>
+                        imbécilles, qui paroissoient depuis quelque tems parmi nous, &amp; qui
+                        prophanoient les Mysteres de la Religion, en les représentant au coin des
+                        rues &amp; sur des échaffauts ?</p>
+                    <p>Les Tragédies &amp; Comédies de Garnier &amp; de Jodelle, qui parurent dès
+                        1551, ne méritoient gueres une exception. Tout ce qui a rempli le Théâtre
+                        long-tems après, n’en étoit pas plus digne, à commencer par les Bandes
+                        Italiennes, amenées sous Henri III, qui ne jouoient que des Farces remplies
+                        de libertés.</p>
+                    <p>Quelle comparaison est-il donc possible de faire des Spectacles dont on vient
+                        de parler, à ceux qui paroissent aujourd’hui ? Et quelle justice y a-t-il à
+                        appliquer aux uns, les condamnations portées contre les autres.</p>
+                    <p>Cependant il se rencontre des Ecrivains, qui, sans avoir égard à cette
+                        prodigieuse différence, semblent chercher à entretenir le courroux de
+                        l’Eglise ; qui trouvent <pb n="402"/>du Crime jusques dans les Drames les
+                        plus sages, &amp; qui soutiennent enfin que des Piéces de Théâtre aussi
+                        honnêtes &amp; aussi épurées que nos bonnes Comédies, ont été de tous tems
+                        condamnées pour leur seule inutilité.</p>
+                    <p>Du nombre de ces Ecrivains, est le Pere le Brun dans sa réplique<note
+                            place="bottom"><p>Le titre est, <hi rend="i">Traité des Jeux de
+                                    Théâtre</hi>. La derniere Édition est de 1731.</p></note> à la
+                        Lettre imprimée à la tête des Œuvres de <seg>Boursault.</seg></p>
+                    <p>Les critiques du Pere le Brun sont si outrées, &amp; ses Comparaisons si
+                        injustes, qu’on n’y peut respecter que son zele.</p>
+                    <p>D’ailleurs, le P. le Brun devoit-il tant se prévaloir de plusieurs Conciles
+                        particuliers, qui ne regardent qu’une certaine Discipline, comme ceux de
+                        Tours &amp; de Bourges, en 1683, &amp; 1684, qui défendent les Spectacles
+                        les jours de Fêtes, les danses dans les Cimetieres, les danses devant les
+                        Eglises, &amp;c ?</p>
+                    <p>Devoit-il encore regarder, comme un si grand surcroît d’autorités, les
+                        Rituels des Diocèses, puisque les Rituels ne sont qu’une suite naturelle des
+                        décisions des Conciles ?</p>
+                    <p><pb n="403"/>Les autorités que le P. le Brun tire des Auteurs Payens,
+                        ont-elles plus de force ?</p>
+                    <p>Que, suivant le témoignage d’un Historien, Junius Messala ait été blâmé
+                        d’avoir frustré ses légitimes Héritiers, pour donner tout son patrimoine à
+                        des Comédiens ; Messala faisoit, sans doute, une action injuste ; mais
+                        quelle conséquence en tirer contre les Comédiens ?</p>
+                    <p>Que Juvénal, dans sa dixieme Satyre, ait reproché au Peuple Romain, qu’il ne
+                        désiroit plus que deux choses : <hi rend="i">du Pain, &amp; les Jeux du
+                            Cirque</hi>.</p>
+                    <p>Eh ! comment les mœurs monstrueuses, qui régnoient alors, &amp; qui
+                        s’accroissoient tous les jours, pouvoient-elles échapper à un Poëte
+                        satyrique ?</p>
+                    <p>Etoit-il supportable, même aux yeux des Philosophes Payens, que sur la fin de
+                        l’Empire, les Théâtres fussent bâtis plus superbement que les Temples, &amp;
+                        que les Jeux du Cirque fussent plus brillans que les Cérémonies
+                        Religieuses ?</p>
+                    <p>Il en est des Etats comme des Particuliers : ils succomberont
+                        infailliblement, si l’amour du plaisir éteint celui du devoir.</p>
+                    <p>Nous exposerons, par la suite, les causes de la disgrace des Comédiens chez
+                        les <pb n="404"/>Payens. Nous nous réservons aussi à demander si les
+                        plaisirs modérés sont en eux-mêmes criminels, &amp; si notre Comédie n’est
+                        d’aucune utilité, &amp; d’autres choses qui n’appartiennent pas absolument à
+                        l’objet que l’on s’est proposé dans ce premier Chapitre.</p>
+                    <p>Mais un sentiment que l’on ne sçauroit trop-tôt combattre, est celui du Pere
+                        le Brun, &amp; de quelques autres Théologiens, qui soutiennent que les
+                        Spectacles, condamnés par les Peres, n’étoient pas plus coupables que nos
+                        Comédies.</p>
+                    <p>On peut assurément comparer nos bonnes Comédies à celles de Térence. Or, sur
+                        quoi le Pere le Brun peut-il appuyer son sentiment ; une seule réflexion
+                        suffira pour le détruire.</p>
+                    <p>Si les Spectacles, contre lesquels Saint Chrysostôme fulminoit avec tant
+                        d’ardeur, eussent été des Spectacles tels que les représentations des Piéces
+                        de Térence, seroit-il vraisemblable que S. Jérôme, qui sans doute étoit de
+                        la même Doctrine, &amp; qui vivoit dans le même Siécle, eût dit, dans l’une
+                        de ses Epîtres, qu’il faisoit ses délices de la lecture de cet Auteur ?</p>
+                    <p>S. Jérôme tenoit ce goût de Donat, <pb n="405"/>dont il avoit été Disciple à
+                        Rome, &amp; qui a fait des Commentaires sur Térence &amp; sur Virgile.</p>
+                    <p>Saint Jérôme auroit-il encore adopté plusieurs traits des Comédies de
+                        Turpilius, Poëte qui vivoit au tems de Pompée ?</p>
+                    <p>On ajoute enfin, que si de pareilles Piéces étoient si condamnables, il
+                        seroit bien étonnant que l’on eût un Recueil des Comédies de Térence, de
+                        l’impression du Vatican.</p>
+                    <p>On croit que ce raisonnement seul doit suffire ; &amp; de bonne-foi, on ne
+                        pense pas qu’il soit possible d’y répondre.</p>
+                    <p>Il parut, en 1669, un Ecrit contre la Comédie, que l’on attribue à un grand
+                        Prince. Après avoir avoué la vénération que l’on doit ressentir pour cet
+                        Ouvrage, on ne peut s’empêcher de dire qu’on y apperçoit, ainsi que dans
+                        quelques maximes de M. de la Rochefoucault, un peu trop de dégoût du
+                        monde.</p>
+                    <p>Il est décidé d’ailleurs, que la fervente dévotion a des degrés où il est
+                        toujours très-bon de s’efforcer d’atteindre, mais qui ne peuvent pas faire
+                        une loi absolue pour le général des hommes.</p>
+                    <p>Au grand Conti, enfin, on peut opposer <pb n="406"/>le grand Condé, qui,
+                        quoique pénétré des sentimens les plus Chrétiens, qu’il a fait éclater dans
+                        un Testament le plus édifiant &amp; le plus judicieux du monde, a toujours
+                        été le Protecteur des Théâtres, &amp; des bons Ouvrages en tous genres.</p>
+                    <p>On objecte encore qu’au commencement du Siecle où nous sommes, il parut
+                        plusieurs Mandemens peu favorables à la Comédie.</p>
+                    <p>Mais que l’on fasse attention que les Mandemens, ainsi que les Rituels, sont
+                        une conséquence nécessaire des sentimens reçus dans l’Eglise.</p>
+                    <p>Rien n’est au-dessus de la vérité. La généreuse hardiesse d’un Casuiste qui
+                        nous montre que le mal n’est pas où en effet il ne se trouve point, est
+                        peut-être plus admirable &amp; plus utile à la Religion, que le zele outré
+                        de celui qui nous dégoûte de nos obligations en les exagérant.</p>
+                    <p>C’est dans ce principe que tant d’illustres Personnages, &amp; tant de saints
+                        Docteurs, que l’on appelle Scholastiques, ont laissé entrevoir combien ils
+                        étoient indulgens à la Comédie.</p>
+                    <p>On ne terminera pas ces Observations sans les citer. Pour le moment, on
+                        choisit <pb n="407"/>sit seulement le célébre M. Huet, Evêque d’Avranches,
+                        qui, dans sa Lettre sur les Romans, nous fait entendre que l’Allégorie, que
+                        l’Ironie même sont permises ; &amp; que ces deux figures n’ont point été
+                        bannies de ce Livre sacré, dont toutes les expressions sont si sublimes
+                        &amp; si mesurées, dans le Livre enfin le plus cher aux Chrétiens.</p>
+                </div>
+                <div type="section" xml:id="SC_63_2">
+                    <head>II. OBSERVATION.</head>
+                    <p>Il ne faut pas perdre de vue que la Comédie est un plaisir.</p>
+                    <p>Un des plus honnêtes Hommes que le Théâtre ait possédés depuis
+                            long-tems,<note place="bottom"><p>Louis Riccoboni.</p></note> proposa,
+                        il y a quelques années, un plan de réforme ? mais il faut avouer que ses
+                        bonnes intentions l’ont conduit à un plan qui est impraticable. Ses Statuts
+                        conviendroient, pour ainsi dire, à une Communauté de Religieux ; &amp; il
+                        n’est pas possible, ni même du bon ordre, que le Théâtre ait l’air d’un
+                        Monastère.</p>
+                    <p>Il est constant que si les Théologiens <pb n="408"/>prenoient la peine de
+                        réfléchir attentivement sur la nature des Piéces de Moliere, ils
+                        conviendroient, avec quelques exceptions, qu’elles sont suffisamment bonnes
+                        pour les mœurs ; à plus forte raison notre Comédie, depuis que la Cour a
+                        institué des Censeurs pour l’examiner &amp; la corriger, avant qu’elle soit
+                        présentée au Public.</p>
+                    <p>La Bruyere, dont les sentimens ont été reconnus si orthodoxes par son fameux
+                        Chapitre contre les Esprits forts, ne peut dissimuler que les Personnes
+                        pieuses ne connoissent qu’un seul péché au monde, qui est l’amour.</p>
+                    <p>Mais l’Epoux qui devient le tyran de sa Femme, &amp; qui est si bien
+                        contrasté dans l’<hi rend="i">Ecole des Maris</hi>, par le galant homme qui
+                        laisse une honnête liberté à la sienne ;</p>
+                    <p>Celui qui abuse d’un dépôt confié, qui veut séduire, en sa faveur, une Enfant
+                        qu’il a mal instruite, &amp; qui compte lui enlever &amp; les douceurs de la
+                        vie &amp; les biens ;</p>
+                    <p>Un faux Philosophe, rempli de lui-même, qui se complaît dans le mérite
+                        sauvage de détester l’humanité ;</p>
+                    <p>Un avare sordide, ingrat envers ses Enfans :</p>
+                    <p>Tous ces objets ne sont-ils pas vicieux ? <pb n="409"/>Ne voudra-t-on jamais
+                        se persuader que l’Amour, au Théâtre, n’est représenté qu’avec les nuances
+                        convenables !</p>
+                    <p>Dans les Tragédies, il est la source de tous les malheurs qui arrivent aux
+                        hommes ; dans les Comédies, il a pour but l’union la plus légitime. S’il est
+                        criminel, il cause la mort ; s’il ne l’est pas, il fait un mariage.</p>
+                    <p>Un objet dont les Ecclésiastiques se mêlent peu, &amp; qui cependant, dans la
+                        Bourgeoisie, est d’une grande conséquence, est le juste assortiment des
+                        mariages. Ainsi l’obsession des Vieillards, les poursuites maussades des
+                        sots amoureux, les vues intéressées des Parens, ont toujours dû paroître
+                        importantes aux Poëtes Comiques, &amp; sur-tout à un aussi grand Philosophe
+                        que Moliere.</p>
+                    <p>C’est dans des vues aussi utiles à la société, qu’il a peint la stupidité de
+                        certains Gentillâtres, l’entêtement des Roturiers qui veulent être
+                        Gentilshommes, les fausses caresses des gens de Cour, les Fats, les
+                        Précieuses.</p>
+                    <p>Moliere n’étoit ni impie, ni méchant ; &amp; pour se convaincre qu’il n’a
+                        jamais eu que des intentions sages, que l’on songe <pb n="410"/>un instant
+                        au fond de deux de ses Piéces, qui sont le plus attaquées pour les
+                        mœurs.</p>
+                    <p>Au sujet du Festin de Pierre, il fut imprimé une Critique faite par un
+                        Ecclésiastique, où l’on se récrie beaucoup sur ce que, dans cette Piéce, les
+                        intérêts du Ciel sont remis entre les mains d’un Valet, &amp; sur ce que Dom
+                        Juan est puni par une ridicule fusée.</p>
+                    <p>Quelle solidité y a-t-il dans une pareille Critique ? Cette Piéce, adoptée
+                        par Moliere, &amp; ensuite par Thomas Corneille, est, comme l’on sçait,
+                        tirée de l’Espagnol ; &amp; l’on y reconnoît aisément le goût de la Nation,
+                        pour mettre des moralités dans la bouche des Valets. Le Sganarelle de Dom
+                        Juan n’est autre chose que le Sancho de D. Quichotte, qui rend mal de fort
+                        bonnes pensées ; mais les Auteurs n’ont eu assurément en cela aucune idée de
+                        jouer le Ciel. S’ils eussent manqué de probité, il leur auroit été facile de
+                        rendre le Libertin moins détestable. On n’est responsable que des couleurs
+                        que l’on prête aux vices ; &amp; à l’égard de la punition Théâtrale que Dom
+                        Juan éprouve à la fin, qu’elle soit bien ou mal représentée, il n’en résulte
+                        pas moins l’aveu des Auteurs, que l’impiété de Dom <pb n="411"/>Juan est
+                        digne du dernier supplice.</p>
+                    <p>Quel est le but principal de Moliere dans la Piéce de George Dandin ? C’est
+                        de railler la faute que fait un homme de rien, en épousant une fille de
+                        qualité. Mais on peut ajouter que, dans cette Piéce, il se trouve une
+                        correction bien plus essentielle ; car si la femme de George Dandin est
+                        visiblement coquette, elle est aussi visiblement ridicule ; &amp; c’étoit
+                        bien là l’intention de Moliere, qui, sur l’infidélité conjugale, portoit
+                        plus loin que personne le chagrin &amp; la jalousie, que, dans l’autre
+                        siecle, on voyoit si fort à la mode.</p>
+                    <p>Il est peu d’hommes qui souhaitassent que les femmes, dont ils sont écoutés,
+                        fussent semblables à celle-là, &amp; qui fussent bien flattés d’une intrigue
+                        qui ne subsisteroit que par des tours aussi malins.</p>
+                    <p>Ce n’est pas que dans les Piéces de Moliere il n’y en ait, comme Amphitrion
+                        &amp; le Tartuffe, que les Censeurs n’approuveroient pas aujourd’hui. L’une
+                        n’ayant rien d’intéressant pour nous, &amp; ne pouvant produire aucune
+                        utilité, &amp; l’autre étant dangereuse à beaucoup d’égards.</p>
+                    <p>Il est vrai que le Tartuffe n’a peut-être pas été infructueux envers ceux qui
+                        se sont <pb n="412"/>le plus courroucés contre lui, &amp; que les gens
+                        d’Eglise pouvoient avoir alors un extérieur affecté, &amp; une ardeur à se
+                        mêler des affaires des familles, que l’on ne remarque plus en eux à
+                        présent.</p>
+                    <p>Quand un vice ou un ridicule n’existent plus, on s’apperçoit moins de la
+                        nécessité de l’Ouvrage qui les a détruits.</p>
+                    <p>Mais, quelques bons effets que le Tartuffe ait pu produire, tous les sujets
+                        de Piéces qui conduisent à employer des termes, ou sacrés ou mystiques,
+                        doivent être bannis du Théâtre.</p>
+                    <p>C’est la raison pour laquelle les sujets tirés des Ecritures Saintes,
+                        auroient dû n’y jamais paroître ; &amp; c’est dans ce sentiment, sans doute,
+                        que, de nos jours, les Magistrats n’ont point permis le Moyse de M. l’Abbé
+                        Nadal, ni d’autres Tragédies modernes.</p>
+                    <p>Il y a encore dans les Comédies les plus morales de Moliere, quelques traits
+                        que l’on n’approuveroit pas, comme quand Arnolphe dit à Agnès, dans l’<hi
+                            rend="i">Ecole des Femmes</hi>.</p>
+                    <quote>
+                        <lg>
+                            <l><seg>… … … … … …</seg></l>
+                            <l>Et qu’il est aux Enfers des Chaudieres bouillantes,</l>
+                            <l>Où l’on plonge, à jamais, les Femmes mal vivantes,</l>
+                            <l>Et ce que je vous dis ne sont pas des Chansons.</l>
+                        </lg>
+                    </quote>
+                    <p><pb n="413"/>On sçait bien que le ridicule tombe sur un homme qui emploie,
+                        &amp; qui outre les expressions de la Religion, pour un intérêt charnel,
+                        ainsi que dans le Tartuffe ; mais ces peintures, quoique naïves, sont trop
+                        sujettes à être mal interprétées.</p>
+                    <p>Il en est de même de cette maxime de l’Œdipe de M. de Voltaire ;</p>
+                    <quote>
+                        <lg>
+                            <l>Les Prêtres ne sont pas ce qu’un vain Peuple pense,</l>
+                            <l>Notre crédulité fait toute leur science.</l>
+                        </lg>
+                    </quote>
+                    <p>Quoique les Prêtres de Jocaste soient assurément reconnus pour des
+                        imposteurs, ces Vers, dans l’esprit des jeunes gens, occasionnent trop une
+                        mauvaise application.</p>
+                    <p>M. de Voltaire, qui a si bien suivi les traces du grand Corneille, &amp; qui
+                        a fait plus que lui, en enrichissant la Nation d’un Poëme Epique, auroit dû
+                        imiter son noble empressement à retrancher dans le Cid, les quatre fameux
+                        Vers sur le Duel, dès qu’on lui eût fait entendre qu’ils étoient contre les
+                        bonnes mœurs. Personne n’ignore que la vraie gloire ne peut s’acquérir que
+                        par les plus chers sacrifices.</p>
+                    <p>Si donc, dans les Piéces de Théâtre, on entrevoit encore aujourd’hui quelques
+                            <pb n="414"/>maximes douteuses, d’un autre côté quelle politesse, quelle
+                        élévation de sentimens, quelles grandes leçons ne renferment elles pas !</p>
+                    <p>La politesse qui regne au Théâtre peut être comparée à celle du Courtisan le
+                        plus attentif.</p>
+                    <p>Le danger que pourroient causer les Spectacles (à des cœurs qui
+                        succomberoient par-tout) n’est-il pas bien compensé par l’utilité que
+                        d’autres en retirent ?</p>
+                    <p>Combien de jeunes gens, peu assidus aux Prédications les plus saintes &amp;
+                        les plus éloquentes, ne conserveroient aucune idée des bonnes mœurs, s’ils
+                        n’étoient attirés aux Spectacles par l’appas du plaisir ; &amp; il faut
+                        avouer que lorsqu’un trait de morale s’y rencontre, il frappe d’autant plus
+                        que l’on s’attendoit moins à l’y trouver.</p>
+                    <p>Un amusement si instructif sera-t-il toujours accusé, &amp; doit-on se faire
+                        un nouveau titre des regrets que Corneille &amp; Racine ont témoignés sur la
+                        fin de leurs jours ?</p>
+                    <p>Corneille &amp; Racine ont gémi ; ils en ont eu raison, sans doute,
+                        puisqu’ils ont passé leur vie dans une occupation condamnée : mais n’est-il
+                        pas bien cruel que les Auteurs <pb n="415"/>de <hi rend="i">Cinna</hi>,
+                            d’<hi rend="i">Héraclius</hi> &amp; de <hi rend="i">Phédre</hi>, ayent
+                        été fondés à verser des larmes d’un juste repentir ?</p>
+                </div>
+                <div type="section" xml:id="SC_63_3">
+                    <head>III. OBSERVATION.</head>
+                    <p>Plus les désordres pourroient paroître grands dans les mœurs des Comédiens,
+                        &amp; plus un cœur, vraiment pénétré de charité, devroit se hâter d’en
+                        écarter tout prétexte.</p>
+                    <p>Ce n’est pas que de tout tems, il n’y ait eu parmi eux de très-honnêtes gens.
+                        Ce n’est pas que le corps des Comédiens n’ait, en tout tems, fait de
+                        très-bonnes actions ; peut-être même s’en est-il trouvé qui, par des
+                        dévotions fréquentes, ont taché de racheter devant Dieu, le malheur d’une
+                        profession dans laquelle ils étoient nécessairement engagés.</p>
+                    <p>Mais en général seroit-il étonnant que des personnes, sur qui l’on veut
+                        imprimer une tache continuelle, ne se piquassent pas de beaucoup de
+                        régularité ?</p>
+                    <p>Indépendamment de cela : le Théâtre <pb n="416"/>est-il le seul endroit où
+                        les femmes trouvent des Amans ?</p>
+                    <p>Les femmes de Théâtre, par leur profession, sont, pour ainsi dire, des hommes
+                        de Lettres, &amp; elles sont si laborieuses, qu’il n’en est peut-être pas
+                        dans le monde qui, par leurs occupations, soient si fort au-dessus d’une
+                        oisive volupté.</p>
+                    <p>Si donc les galanteries des Comédiennes font du bruit, il ne faut pas s’en
+                        prendre à leur profession. Ajoutez à cela que leurs aventures sont plus
+                        difficilement ignorées, &amp; que l’on se plaît volontiers à médire des
+                        personnes qui paroissent en public.</p>
+                    <p>Il y a encore une autre prévention de la part de ceux qui blâment les
+                        Spectacles sans les avoir fréquentés.<note place="bottom"><p>M.
+                            Nicole.</p></note> C’est de penser que les Actrices y soient habillées
+                        plus immodestement qu’ailleurs.</p>
+                    <p>Une Comédienne qui n’observeroit pas exactement les modes reçues à la Cour
+                        &amp; à la Ville, &amp; qui iroit au-delà, feroit une faute contre son état,
+                        &amp; s’exposeroit à des désagrémens.</p>
+                    <p>Jettons donc à présent les yeux sur la disgrace des Comédiens, même chez les
+                        Payens.</p>
+                    <p><pb n="417"/>Cette disgrace vient de la témérité des Poëtes, dont ils se sont
+                        rendus les Organes.</p>
+                    <p>Aristophane est le Pere de cette proscription qui, aujourd’hui, malgré leurs
+                        supplications &amp; leurs réformes, subsiste encore, contre les Comédiens,
+                        parmi nous.</p>
+                    <p>La Comédie fut regardée, dans sa naissance, comme un effet de la sagesse des
+                        Grecs, &amp; elle resta long-tems dans la plus haute estime ; mais quand un
+                        Poëte osa se mocquer publiquement des Dieux, des Ministres de l’Etat, &amp;
+                        des Philosophes les plus respectés, les choses changerent de face, &amp; ces
+                        Comédiens, auparavant si aimés, furent alors chassés comme ils le
+                        méritoient.</p>
+                    <p>Les Romains, tant que la Comédie chez eux fut honnête, ne proscrivirent leurs
+                        Comédiens, que par l’affectation qu’ils avoient d’imiter en tout les Grecs,
+                        &amp; plus encore, par l’ombrage qu’ils concevoient de tout ce qui pouvoit
+                        diminuer leur vanité ; car on ne peut s’empêcher d’être surpris qu’un Peuple
+                        si belliqueux, fût si puérile en tant de choses, &amp; si souvent sujets aux
+                        terreurs paniques.</p>
+                    <p><pb n="418"/>Une preuve de contradiction chez les Romains, sur le compte de
+                        leurs Comédiens, est que ceux qui jouoient dans les Piéces Attelanes, qui
+                        étoient des espéces d’in-promptu, n’étoient point notés, parce que les
+                        Citoyens eux-mêmes se plaisoient à s’en mêler.</p>
+                    <p>La disgrace des Comédiens chez les Grecs est donc accidentelle, &amp; chez
+                        les Romains contradictoire.</p>
+                    <p>Il est par-conséquent visible, que le bien &amp; le mal de cette profession
+                        consistent dans les bonnes ou mauvaises maximes qu’on y débite, &amp; que la
+                        profession n’a rien de déshonnête en soi.</p>
+                    <p>Ira-t-on incendier toute une Bibliothéque parce que l’on sçaura qu’elle
+                        renferme des Livres obscénes ou impies, &amp; ne vaut-il pas mieux l’en
+                        purger ?</p>
+                    <p>Sera-t-il nécessaire de renouveller ici la question, que les défenseurs de la
+                        Comédie ont faite tant de fois ? Pourquoi la représentation du même sujet,
+                        dans les Colléges &amp; sur le Théâtre public, est d’un côté une bonne
+                        action, &amp; de l’autre un crime ?</p>
+                    <p>Faut-il que tout ce qui touche à ce Théâtre se souille dans l’instant ? Et à
+                        cette occasion, <pb n="419"/>on demandera si l’on doit, comme le font de
+                        certains Ecrivains, rendre les Comédiens responsables de toutes les
+                        iniquités des hommes ?</p>
+                    <p>Que l’on nomme une Ville où jamais la plus petite Troupe de Campagne ne se
+                        soit établie : y verra-t-on les hommes moins brutaux, moins yvrognes, les
+                        femmes moins galantes ? L’avarice, la perfidie, l’indévotion, &amp; tous les
+                        vices y seront-ils moins communs ?</p>
+                    <p>On pourroit, au contraire, citer la Capitale d’une Province de France, du
+                        côté du Nord, où les bonnes mœurs se font remarquer ; où l’on remplit avec
+                        la plus grande piété, les devoirs du Christianisme ; où les hommes sont
+                        laborieux, &amp; les femmes rarement infidelles, &amp; où cependant
+                        l’inclination pour les Spectacles est si grande, que dans les tems où ils
+                        sont suspendus ailleurs, c’est-à-dire, dans les jours saints, ils y
+                        subsistent encore, &amp; souvent alors quelques bons Acteurs de Paris s’y
+                        sont transportés pour s’y joindre aux Troupes qui y sont fixées.</p>
+                    <p>Peut-on être insensible à ces raisons, &amp; seroit-il possible que l’on
+                        restât aujourd’hui dans l’indifférence ?</p>
+                    <p><pb n="420"/>On convient que ce n’est point aux Ecclésiastiques à se rendre
+                        ouvertement les défenseurs d’un Spectacle qu’ils ne fréquentent pas, qu’ils
+                        voyent condamné dans la plupart des Livres qui se présentent à leurs yeux,
+                        &amp; dont ils devroient même blâmer le trop grand usage, en le regardant
+                        comme un plaisir permis.</p>
+                    <p>Mais doivent-ils se refuser aux raisons les plus évidentes, &amp; peuvent-ils
+                        ne pas ressentir quelque douleur, en prévoyant que les Spectacles seront
+                        difficilement détruits, par l’attachement que les Peuples ont fait voir de
+                        tous tems pour cette sorte d’amusement ; &amp; qu’ainsi un grand nombre
+                        d’hommes Chrétiens, qui y sont employés, seront toujours chargés de la haine
+                        de l’Eglise ?</p>
+                    <p>Une opinion encore bien étonnante, est de croire que les occupations d’un
+                        Comédien ne lui laissent pas le tems des plus graves réflexions. Quoique cet
+                        état soit pénible, par toutes les études qu’il exige, l’exercice n’en est
+                        pas journalier. Un Acteur sera quelquefois plusieurs mois sans paroître sur
+                        la scene ; &amp; dans les tems où les Spectacles sont le plus courus, ce
+                        n’est que trois jours de la Semaine que l’Acteur <pb n="421"/>le plus
+                        nécessaire paroît en public.</p>
+                    <p>Il est donc incontestable qu’un Comédien peut avoir l’esprit porté aux choses
+                        sérieuses, tout autant que les Sculpteurs, les Peintres, &amp; tous les
+                        Professeurs des Arts agréables.</p>
+                    <p>A Londres, il n’est guères de Comédiens qui n’ayent une profession étrangere
+                        à la Comédie.</p>
+                    <p>Est-ce, enfin, un faux bruit, ou s’il est vrai que la Cour de Rome n’exerce
+                        plus contre cette profession la rigueur qu’elle s’est attirée autrefois avec
+                        tant de justice ?</p>
+                    <p>Et lorsque quelques Théologiens disent : Mais, si les pompes du Démon ne sont
+                        pas là, où sont-elles donc ? On leur répond, sur l’autorité de plusieurs
+                        autres Théologiens, que les pompes du Démon sont dans le péché, &amp;
+                        spécialement dans l’orgueil ; que les choses les plus riches &amp; les plus
+                        brillantes ne sont point, en elles-mêmes, criminelles ; que le plus beau de
+                        tous les Spectacles est la contemplation du Ciel, de la Terre, &amp; de la
+                        Mer ; que Salomon, dans sa gloire, n’étoit pas si artistement vêtu que le
+                        Lys des champs ; &amp; que tous les efforts de magnificence, que peuvent
+                        faire les Souverains, ne valent pas un simple boccage que nous offre la
+                        Nature.</p>
+                    <p><pb n="422"/>Il est des matieres qu’il n’est pas permis à tout le monde de
+                        traiter ; mais on croit, au sujet du rapport des actions à Dieu, que le
+                        rapport continuel des actions les plus indifférentes, comme <hi rend="i">le
+                            jeu de cartes, de dez</hi>, conduit à une spéculation que bien des
+                        esprits ne sont pas capables de supporter.</p>
+                    <p>Cependant, il y a des exemples que quelques Comédiens, même dans l’état où
+                        sont les choses, croyoient sans doute le pouvoir faire. Thomassin, de la
+                        Comédie Italienne, suivant l’usage Ultramontain, ne montoit jamais au
+                        Théâtre qu’il ne fît le signe de la Croix. Beaubour dans les Eglises
+                        édifioit tous ceux qui l’environnoient. Du côté de la bonne conduite, &amp;
+                        de la piété, on cite encore Mademoiselle Beauval, ainsi que plusieurs
+                        autres, qui ont rempli tous les devoirs d’honnêtes femmes, avec la plus
+                        grande exactitude, &amp; qui n’ont jamais été soupçonnées de la moindre
+                        galanterie.</p>
+                    <p>On peut donc, sans avoir égard aux paralleles injurieux, que font de certains
+                        Critiques, soutenir hardiment, qu’il est possible qu’un Comédien soit, dans
+                        son métier, un homme très-juste devant Dieu.</p>
+                    <p>Et la possibilité ne consiste qu’en deux <pb n="423"/>choses. 1°. Que ses
+                        actions, &amp; les Piéces dans lesquelles il joue, soient suivant les bonnes
+                        mœurs. 2°. Que l’Eglise veuille bien le purger d’une indignation qui paroît
+                        n’avoir plus de fondement.</p>
+                </div>
+                <div type="section" xml:id="SC_63_4">
+                    <head><hi rend="i">Conclusion, &amp; Moyens simples de Réforme.</hi></head>
+                    <p>Des raisons que l’on vient d’exposer, on peut conclure que la Comédie, telle
+                        qu’elle a été dans sa naissance, &amp; telle qu’elle est aujourd’hui, doit
+                        passer pour l’effet de la sagesse des Peuples les plus polis, &amp; que sa
+                        disgrace vient :</p>
+                    <p>Chez les Grecs, de la témérité d’Aristophane.</p>
+                    <p>Chez les Romains, de leur affectation à imiter les Grecs.</p>
+                    <p>Chez les premiers Chrétiens, de l’impureté, de l’idolâtrie, &amp; des
+                        abominations des derniers tems de l’Empire de Rome.</p>
+                    <p>Au septieme Siecle, des jeux sacriléges des Iconoclastes.</p>
+                    <p>Quelques tems après, de l’établissement en France des jeux homicides des <pb
+                            n="424"/>Tournois, qui ont duré jusqu’au seizieme Siecle.</p>
+                    <p>Et enfin depuis le seizieme Siecle jusques peu avant le Regne de Louis XIV,
+                        du défaut de considération que méritoient les Drames que l’on
+                        représentoit.</p>
+                    <p>Avant même qu’elle fût aussi réglée, &amp; aussi honnête qu’elle est
+                        aujourd’hui, on peut compter de très-grands Personnages qui en ont fait une
+                        juste évaluation, &amp; qui lui ont été favorables.</p>
+                    <p>De ce nombre sont, Saint Thomas d’Aquin, Saint François de Sales, un Evêque
+                        de Florence, Monsieur Huet, que nous avons déjà cité, Fabricius, Dacier,
+                        &amp; beaucoup d’autres, entre lesquels nous distinguerons deux célebres
+                        Philosophes, l’un Prophane, &amp; l’autre Chrétien, que l’on cite
+                        mal-à-propos, comme contraires à la Comédie.</p>
+                    <p>Sénèque, que l’on met de ce rang, fait un grand éloge des Mots &amp;
+                        Sentences qui se trouvoient dans les Mimes de Publius-Syrus<note
+                            place="bottom"><p>Poëte Comique qui vivoit du tems de Jules
+                            César.</p></note>, qui n’étoient, cependant, que des especes de
+                        Farces.</p>
+                    <p>Saint Charles, au milieu des acclamations de toute l’Italie, vint
+                        effectivement <pb n="425"/>réprimer les excès qui se commettoient pendant le
+                        Carnaval de Milan ; mais quand il fut informé du peu de danger, &amp; de la
+                        nécessité de la Comédie, il la permit pourvû que les Piéces eussent
+                        auparavant été présentées au Juge ; &amp; Riccobini prétend, que ce Saint
+                        Archevêque n’a pas dédaigné d’approuver quelques Canevas Italiens, de sa
+                        propre main.</p>
+                    <p>Doit-on, d’ailleurs, parmi les Théologiens de France, ne compter pour rien la
+                        protection marquée que les Cardinaux de Richelieu &amp; de Mazarin ont
+                        accordée à la Comédie ; l’un par sa passion pour la Poësie, &amp; l’autre
+                        par son goût exquis pour les Machines Théâtrales ; &amp; M. le Cardinal de
+                        Fleuri a-t-il dérogé à cette protection ?</p>
+                    <p>Tout ce qu’un esprit sage &amp; orné peut produire de plus équitable, ne se
+                        trouve-t-il pas dans le discours récité par le P. Porée, il y a quelques
+                        années, au sujet des Spectacles ? Il y avoue à la vérité, que par la faute
+                        des Acteurs, des Auteurs, &amp; des Spectateurs, le Théâtre n’est pas
+                        irreprochable ; mais il conclut, qu’il pourroit être propre à former les
+                        mœurs, &amp; c’est, sans doute, la décision la plus favorable qui fût
+                        permise à un homme de son état.</p>
+                    <p><pb n="426"/>Comment en a usé un illustre Prélat<note place="bottom"><p>M.
+                                l’Archevêque de Sens.</p></note> à la réception de M. de la
+                        Chaussée, à l’Académie ? Après avoir parlé avec toute la délicatesse que la
+                        circonstance exigeoit, il reconnoît Moliere pour le fléau du ridicule, il
+                        loue M. de la Chaussée de la pureté de ses Piéces, &amp; convient que, par
+                        le bien qu’il en a entendu dire, ses Piéces semblent concourir au but que la
+                        Chaire se propose, de rendre les hommes meilleurs.</p>
+                    <p>Pourquoi donc, enfin, seroit-on scandalisé d’une absolution aussi juste, que
+                        celle que l’on espere pour les Comédiens ? Et quels inconvéniens
+                        pourroit-elle causer ?</p>
+                    <label><hi rend="i">Du côté de la Politique.</hi></label>
+                    <p>En se rendant, de plus-en-plus, sévere sur le choix des Sujets, il n’est pas
+                        à craindre qu’une trop grande quantité de jeunes gens s’engagent avec fureur
+                        dans une profession qui ne seroit plus défendue : l’excellence des talens
+                        est souvent une barriere plus difficile à franchir que le scrupule.</p>
+                    <p>Outre cela, il n’y a pas d’apparence que beaucoup de personnes, partagées des
+                        biens de la fortune, veuillent jamais embrasser <pb n="427"/>un genre de
+                        vie, qui exige tant d’étude &amp; de sujettion.</p>
+                    <label><hi rend="i">Du côté de la Conscience.</hi></label>
+                    <p>Une Piéce de Théâtre, est un Livre. Un Livre peut être bon ou mauvais ; c’est
+                        l’affaire des Censeurs de n’en point permettre de mauvais.</p>
+                    <p>Un Comédien, est un Académicien, qui, sans se mêler d’enseigner les grands
+                        préceptes réservés à la Chaire de Vérité, peut, comme tous les autres
+                        Membres des Académies, prétendre à inspirer la politesse &amp;
+                        l’honneur.</p>
+                    <p>Dans le nombre des Spectateurs, tout est dangereux pour un cœur qui n’est pas
+                        formé ; la promenade, les assemblées, les Temples mêmes. D’ailleurs, le trop
+                        grand usage des plaisirs permis est répréhensible, &amp; peut toujours être
+                        l’objet de l’attention des Théologiens ; mais, pour le général des hommes,
+                        un honnête délassement d’esprit a toujours été reconnu absolument
+                        nécessaire.</p>
+                    <p>Et dire, que le mal des Spectacles réside dans la réunion de tant de gens
+                        assemblés pour un objet agréable, n’est qu’un raisonnement spécieux.</p>
+                    <p>A l’égard de l’Opéra, qui paroît être-plus difficile à justifier, c’est
+                        encore l’affaire <pb n="428"/>des Censeurs de le rendre plus digne du titre
+                        honorable qu’il porte d’Académie Royale de Musique. On dira seulement, au
+                        sujet de la Morale qui y est répandue, que l’on ne croit pas qu’il y ait au
+                        monde une personne assez simple, ou environnée de gens assez simples, pour
+                        prendre des Chansons pour des vérités, que quand Quinault a dit :</p>
+                    <quote>
+                        <lg>
+                            <l>Est-on sage</l>
+                            <l>Dans le bel âge,</l>
+                            <l>Est-on sage</l>
+                            <l>De n’aimer pas ?</l>
+                        </lg>
+                    </quote>
+                    <p>Et beaucoup d’autres choses semblables ; il n’a dit que ce qui est sans cesse
+                        exprimé dans les Chansons que l’on chante par tout l’Univers, &amp; que, sur
+                        cet article, il ne faut pas tout-à-fait écouter Despréaux, qui étoit piquant
+                        &amp; envieux.</p>
+                    <p>Il y a encore une autre espece de Piéces, dont, à la vérité, le plus grand
+                        mérite semble être la Satyre &amp; les Equivoques ; mais, comme elles ne
+                        paroissent pas ordinairement sur des Théâtres reglés, tout ce que l’on peut
+                        dire est que, quand elles existent, les Censeurs doivent redoubler leur
+                        attention pour les corriger.</p>
+                    <p>Suivant le plan que l’on s’est ici tracé, <pb n="429"/>toute la réforme de la
+                        Comédie se réduit à deux choses :</p>
+                    <p>1°. Du côté de la Politique, à se rendre, de plus-en-plus, sévère sur le
+                        choix des Sujets.</p>
+                    <p>2°. Du côté de la Conscience, à maintenir, avec force, les Réglemens déjà
+                        établis, lesquels consistent :</p>
+                    <p>A ne point permettre de Piéces tirées des Ecritures Saintes, ainsi que
+                        plusieurs Magistrats s’en sont déjà déclarés.</p>
+                    <p>A mettre ordre à la conduite des Acteurs &amp; Actrices qui éclateroit trop,
+                        comme on en a vu plusieurs exemples.</p>
+                    <p>A recommander enfin aux Censeurs de redoubler leur exactitude, pour ne
+                        souffrir, dans les Piéces, ni impiété, ni satyre personnelle, ni
+                        obscénité.</p>
+                    <p>On se flatte d’avoir exposé un si grand nombre de raisons, que l’on espere
+                        qu’elles produiront des effets utiles ; &amp; une remarque digne
+                        d’attention, c’est que les Personnes les plus pieuses &amp; les plus
+                        éclairées, s’écartent de leur objet, sans y penser ; car un moyen certain de
+                        rendre les Acteurs, les Auteurs &amp; les Spectateurs plus sages, est de
+                        lever l’Excommunication prononcée contre les Comédiens.</p>
+                </div>
+            </div>
+        </body>
+    </text>
 </TEI>

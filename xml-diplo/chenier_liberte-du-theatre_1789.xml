@@ -2,7 +2,7 @@
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="chenier_liberté-du-theatre_1789.pdf" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="chenier_liberte-du-theatre_1789" xml:lang="fr">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -23,7 +23,8 @@
 <publicationStmt>
 <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
 <date when="2017"/>
-<availability status="restricted">
+    <idno>http://obvil.sorbonne-universite.site/corpus/haine-theatre/chenier_liberte-du-theatre_1789/</idno>
+    <availability status="restricted">
 <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
 <p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
 <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
@@ -53,7 +54,7 @@
 </teiHeader>
 <text>
 <body>
-<div type="texte" xml:id="HDT_61">
+<div type="book" xml:id="HDT_61">
 <head>La liberté du théâtre</head>
 <label><pb n="1"/>DE LA LIBERTÉ DU THÉATRE, EN FRANCE.</label>
 <p rend="center">Par M.J. de <hi rend="sc">Chénier</hi>.</p>
