@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Chocquet, Louis [article du Supplément au Dictionnaire Historique et
+					Critique]</title>
+				<author key="Bayle, Pierre (1647-1706)">Pierre Bayle</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>OBVIL</edition>
+				<respStmt>
+					<name>Infoscribe</name>
+					<resp>saisie, XML-TEI</resp>
+				</respStmt>
+				<respStmt>
+					<name>Eric Thiébaud</name>
+					<resp>contributeur</resp>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Sorbonne Université, LABEX OBVIL</publisher>
+				<date when="2019"/>
+				<idno>http://obvil.sorbonne-universite.site/corpus/haine-theatre/bayle_chocquet-louis_1722</idno>
+				<availability status="restricted">
+					<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+						<p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+							d’Excellence « Observatoire de la vie littéraire » (ci-après
+							dénommé OBVIL).</p>
+						<p>Cette ressource électronique protégée par le code de la propriété
+							intellectuelle sur les bases de données (L341-1) est mise à disposition
+							de la communauté scientifique internationale par l’OBVIL, selon les
+							termes de la licence Creative Commons : « Attribution – Pas
+							d’Utilisation Commerciale – Pas de Modification 3.0 France (CCBY-NC-ND
+							3.0 FR) ».</p>
+						<p>Attribution : afin de référencer la source, toute utilisation ou
+							publication dérivée de cette ressource électroniques comportera le nom
+							de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+						<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+							scientifique, toute utilisation commerciale est interdite.</p>
+						<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger
+							cette ressource électronique, notamment en intégrant toutes les
+							contributions extérieures, la diffusion de versions modifiées de cette
+							ressource n’est pas souhaitable.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Pierre Bayle, « Chocquet,
+							Louis », in <hi rend="i">Supplément au Dictionnaire Historique et Critique
+						par Monsieur Bayle, pour les Editions de MDCCII et MDCCXV</hi>,
+						<pubPlace>Genève</pubPlace>, <publisher>Fabri et Barillot</publisher>,
+						<date>1722</date>, p. 42-44. PDF : <ref
+						target="https://books.google.fr/books?id=VgmLwPlgW6kC">Google</ref>.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1722"/>
+			</creation>
+			<langUsage>
+				<language ident="fre"/>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 type="article">
+				<pb n="42" xml:id="p42h"/>
+				<p>CHOCQUET (Louïs) fameux Poëte François vers le milieu du XVI. siecle, &amp;
+					Auteur d’un Ouvrage fort rare &amp; fort singulier, dont nous donnerons
+					ci-dessous des Extraits <ref xml:id="to_rem-A" target="#rem-A">(<hi rend="i">A</hi>)</ref>. Il a été inconu
+					à La Croix du Maine, mais non pas à <pb n="43" xml:id="p43h"/>Du Verdier, qui l’a mis dans sa
+					Bibliotheque<note n="a" place="margin"><p><hi rend="i"
+						>Pag. 796.</hi></p></note> comme l’Auteur d’un in folio qui fut
+					imprimé à Paris l’an 1541. Il s’est contenté de marquer que c’est un Volume où
+					les Actes des Apôtres &amp; l’Apocalypse de Saint Jean ont été <hi rend="i">mis
+						en Rime Françoise par Personnages.</hi> Il a négligé d’en raporter des
+					Extraits, &amp; ce n’est point sa coutume de négliger cela quand un Livre
+					contient des choses un peu singulieres. Il a même assez souvent raporté de longs
+					Passages qui n’avoient rien de fort exquis. On peut donc <pb n="44" xml:id="p44h"/>s’étonner
+					avec raison qu’il n’ait rien cité des Poësies de Louïs Chocquet ; car on y
+					trouve des Scenes bien étranges, &amp; bien surprenantes. Nous suplérons à ce
+					defaut, &amp; nous ferons conoitre cet Ouvrage un peu mieux qu’on ne le conoit
+					dans du Verdier.</p>
+				<div2>
+					<pb n="42" xml:id="p42b"/>
+					<head>[Remarque]</head>
+					<p><ref xml:id="rem-A" target="#to_rem-A">(<hi rend="i">A</hi>)</ref> <hi rend="i">Il est Auteur
+								d’un Ouvrage… fort singulier, dont nous donnerons des
+								Extraits.</hi>] L’Exemplaire, qui m’a été préte<note n="1"
+								place="margin"><p><hi rend="i">Monsr.</hi> Sloane, <hi rend="i"
+										>Médecin célebre à Londres, qui a plusieurs Livres rares
+										dans sa nombreuse Bibliotheque, m’a fait la faveur de me le
+										preter, &amp; Mr. Silvestre a pris la peine de me le faire
+										tenir.</hi></p></note>, contient trois Parties, dont la I.
+							est intitulée <hi rend="i">Le prémier volume des Catholiques œuvres
+								&amp; Actes des Apostres redigez en escript par Sainct Luc
+								Evangeliste &amp; hystoriographe, depute par le Sainct Esperit.
+								Icelluy sainct Luc escripuant à Theophile, Avecques plusieurs
+								hystoires en icelluy inserez des gestes des Cesars. Et les
+								demonstrances des figures de Lapocalypse veues par sainct Jehan
+								Zebedee en l’Isle de Pathmos soubz Domician cesar, avecques les
+								cruautiez tant de Neron que dicelluy Domictan. Le tout veu &amp;
+								corrige bien &amp; deuement selon la vraye verite, &amp; joue par
+								personnages à Paris en l’hostel de Flandres l’an mil cinq cens XLI.
+								Avec privilege du Roy. On les vend en la grand Salle du Palais par
+								Arnoul &amp; Charles les Angeliers freres tenans leurs bouticques au
+								prémier &amp; deuxiesme pilliers devant la Chappelle de Messeigneurs
+								les Presidens.</hi> Ce prémier Volume contient en 210. feuillets
+							cinq livres des Actes des Apôtres. Voions le Titre de la II.
+							Partie : <hi rend="i">le second volume du Magnificque Mystere des
+								Actes des Apostres continuant la narration de leurs faicts &amp;
+								gestes selon l’escripture saincte, avecques plusieurs histoires en
+								icelluy inserées des gestes des Cesars. Veu &amp; corrigé bien &amp;
+								deuement selon la vraye verite, &amp; ainsi que le mystere est la
+								joue à Paris ceste presente année mil cinq cens quarante &amp; ung.
+								Avec Privilege.</hi> Ce second Volume contient 165. feuillets, &amp;
+							finit au neuvieme livre des Actes des Apôtres. La III. Partie est <hi
+								rend="i">l’Apocalypse Saint Jehan Zebedee, ou sont comprinses les
+								visions &amp; revelations que icelluy Saint Jehan eut en l’Isle de
+								Pathmos, le tout ordonne par figures convenables selon le texte de
+								la Saincte escripture. Ensemble les cruauliez de Domicien Cesar.
+								Avec Privilege M. D. xli.</hi> Elle contient 46. feuillets, &amp;
+							fut achevée d’imprimer le 27. de Mai 1541. L’Ouvrage est in
+							folio.</p>
+						<p>Louïs Chocquet n’a mis son nom qu’au commencement de la troisieme Partie.
+							Il l’y a mis en deux manieres, prémiérement par une Epigramme Latine au
+							revers du prémier feuillet<note n="2" place="margin"><p>Ludovici
+									Choquié, ad magistrum Antonium le Coq, Doctorem Medicum
+									perdoctum Epigramma. <hi rend="i">Cette Epigramme est de</hi>
+									16. <hi rend="i">Vers Héxametres &amp;
+								Pentametres.</hi></p></note>, &amp; puis au haut du second feuillet,
+							« Cy ensuit le Mystere de l’Apocalypse Sainct Jehan, avec les cruaultez
+							de Domicien Empereur de Romme, compose par maistre Loys Chocquet. » On ne
+							trouve aucune mention de lui dans les Privileges d’imprimer. Ce fut
+							Guillaume Alabat, <hi rend="i">marchant demourant à Bourges</hi>, qui
+							obtint le Privilege de François I., à Lion, le 24. de
+							Juillet 1536. Il l’obtint pour six années. Il expose, <quote><hi rend="i"
+								>que a l’honneur &amp; louenge de dieu, de nostre mere saincte
+								eglise, &amp; de la saincte foy catholicque, &amp; pour condition
+								&amp; consolation de tous bons &amp; vrays Chrestiens. Il feroit
+								voulentiers Imprimer le livre des Actes des apostres en cinq ou
+								plusieurs volumes qu’il a par devers luy &amp; qui a este compose en
+								ryme françoise &amp; corrige a grans frais &amp; mises.</hi></quote> Lui
+							&amp; ses Libraires<note n="3" place="margin"><p rend="i">Arnoul
+										&amp; Charles Langelier.</p></note> eurent un Procès au
+							Parlement de Paris l’an 1540. contre <hi rend="i">Maistre François
+								Hamelin, François Potrain, Jehan Louvet, &amp; Leonard Chollet,
+								Maistres &amp; Entrepreneurs du mystere des Actes des Apostres</hi>
+							à Paris cette année là. La Cour ordonna que ces quatre Entrepreneurs ne
+							pourroient faire imprimer <quote><hi rend="i">le mystere des dicts Actes des
+								Apostres par autres que par ceulx qui ont eu le Privilege de les
+								imprimer quelque addition qu’ils y</hi> fissent</quote>. On voit dans une
+							Balade aux commencement du II. Volume les noms <hi rend="i">de ces</hi>
+							quatre <hi rend="i">Entrepreneurs &amp; qualitez.</hi> Voici en quels
+							termes :</p>
+						<quote>
+							<l rend="i">Au Plasmateur rendent grace les quatre</l>
+							<l rend="i">De bon vouloir entre Parisiens</l>
+							<l rend="i">Les quels ont faict apparoir le Theatre</l>
+							<l rend="i">Bien ensuyvant les Rommains anciens</l>
+							<l>. . . . . . .</l>
+							<l>. . . . . . .</l>
+							<l>. . . . . . .</l>
+							<l rend="i">Françoys de nom les deux, n’en faut debatre</l>
+							<l rend="i">Lung Hamelin, l’autre Poutrain, scients</l>
+							<l rend="i">Lung en practique, &amp; l’autre pour sembatre</l>
+							<l rend="i">Tixtre tapis soubs rethoriciens</l>
+							<l rend="i">Sçait assez bien, puis pour l’exploict parfuire</l>
+							<l rend="i">Leonard Chovelet boucher voulut bien faire</l>
+							<l rend="i">Et Jehan Louvet operateur aux fleurs</l>
+							<l rend="i">Bien congnoissant des bons grains les meilleurs.</l>
+							<l rend="i">A iceulx quatre honneur royal desire</l>
+							<l rend="i">Donner faveur abollir les erreurs</l>
+							<l rend="i">Qui font humains a vertu contredire.</l>
+						</quote>
+						<p>Je raporte toutes ces petites particularitez, parce qu’elles peuvent
+							servir à faire conoitre quelques circonstances de la Comédie de ce
+							siecle là. Quelques-unes de ces circonstances ne sont point dans le
+								Moreri<note n="4" place="margin"><p><hi rend="i">Dans l’Edition de
+										Paris, 1699., au Mot</hi> Comédie. <hi rend="i">Remarquez en
+										passant qu’on a corrigé dans cette Edition une Bévue très
+										grossiere des précédentes, mais non pas sans y laisser
+										glisser une Faute d’Impression. Il y avoit dans les
+										précédentes sur quoi</hi> l’on peut voir Boccalini &amp;
+									Ragguaglio ; <hi rend="i">&amp; on a mis dans l’Edition de
+										1699.</hi>, sur quoy on peut voir Boccalini dans son
+									Fagualio di Parnasso. <hi rend="i">Il faloit mettre</hi> dans
+									ses Ragguagli di Parnasso.</p></note> ; car, par éxemple,
+							on n’y trouve point que l’Hôtel de Flandres ait jamais été le lieu où se
+							soient données les Représentations Dramatiques des Histoires de la
+							Sainte Ecriture dans Paris. Mais, pour faire mieux conoitre ce que
+							c’étoit en ce tems là que le Théatre François, je raporterai quelques
+							morceaux des Pieces de notre Chocquet. Ils sufiront à nous aprendre, que
+							pendant que l’on défendoit au Peuple de voir les Histoires Saintes dans
+							le Livre qui les contient purement &amp; fidélement, on lui permettoit
+							de les voir sur le Théatre, souillées de mille inventions grossieres,
+							dont on exprimoit la plupart d’une façon basse, &amp; en style de
+							farceur.</p>
+						<p>La prémiere Histoire que l’on ait décrite dans ce Volume est l’élection
+							d’un Apôtre en la place de Judas. On a suposé bassement que les Apôtres
+							firent tirer à la courte paille ; car c’est ainsi que je puis
+							qualifier l’expédient qu’on raconte<note n="5" place="margin"><p><hi
+										rend="i">Premier Livre des</hi> Actes des Apôtres, <hi
+										rend="i">folio 3.</hi></p></note> :</p>
+						<quote>
+							<l rend="i">Baillez les festus preparez</l>
+							<l rend="i">Ainsi que l’avons assigne.</l>
+							<l rend="i">Lung en y a qui a ung signe</l>
+							<l rend="i">Comme il appert, signe lauons</l>
+							<l rend="i">Pour l’amour de nos compaignons.</l>
+							<l rend="i">Le second de signe na point,</l>
+							<l>Dont pour acheuer nostre poinct</l>
+							<l rend="i">Pierre, tenez les en uos mains,</l>
+							<l rend="i">Et eulx deux, qui sont incertains</l>
+							<l rend="i">Ou le signe est, n’en quelle espece,</l>
+							<l rend="i">Viendront tirer chascun sa piece,</l>
+							<l rend="i">Et celluy auquel escherra</l>
+							<l rend="i">Le signe, subrogue sera</l>
+							<l rend="i">Au lieu qui est ja devise.</l>
+						</quote>
+						<p>Après que les deux fetus surent tirez, les Apôtres regardérent <hi
+								rend="i">qui avoit le signe</hi>, &amp; s’écriérent tous
+							ensemble,</p>
+						<quote>
+							<l rend="i">C’est Mathias :</l>
+						</quote>
+						<p>Sur quoi Saint Pierre s’exprima ainsi</p>
+						<quote>
+							<l rend="i">                      Loue soit dieu,</l>
+							<l rend="i">Ca Mathias, entre nous autres</l>
+							<l rend="i">Faictes nombre des douze Apostres.</l>
+							<l rend="i">Joyeulx en suis, proficiat,</l>
+							<l><hi rend="i">Conferme soyez en l’estat</hi><note n="6" place="margin"
+											><p rend="i">Là même.</p></note>.</l>
+						</quote>
+						<p>On met très souvant les Diables en jeu ; &amp; c’est dans ces
+							endroits là que le Poëte s’excite le plus, &amp; qu’il met
+							principalement en œuvre son industrie ; mais il soutient mal les
+							caracteres, &amp; au lieu d’inspirer de l’horreur, il étoit plus propre
+							à faire rire. Il s’abandonnoit au burlesque, tant le gout qui régnoit
+							alors étoit mauvais. Il introduit Lucifer qui convoque tous les Diables,
+							&amp; il lui fait dire :</p>
+						<quote>
+							<l rend="i">Dyables meschans destinez en terre estre,</l>
+							<l rend="i">Clos a jamais dans le centre terrestre,</l>
+							<l rend="i">Viendrez vous point a mes cris &amp; aboys,</l>
+							<l rend="i">Sortez au feu de nostre infernal être</l>
+							<l rend="i">Par mes haulx cris vous pouez bien cognoistre</l>
+							<l rend="i">Que c’est a droict que complaindre me
+								doibs :</l>
+							<l rend="i">Haro, haro, nul de vous je ne veoys,</l>
+							<l rend="i">Si ne venez desesperer m’en voys.</l>
+							<l rend="i">Dyables mauldicts, Dyablesses, Dyabletons,</l>
+							<l rend="i">Courez en lair, trauersez champs &amp; boys</l>
+							<l rend="i">Foulare gectez, accordante a ma voix</l>
+							<l><hi rend="i">Approchez tost dyabolicques luytons :
+									&amp;c.</hi><note n="7" place="margin"><p rend="i">Là même,
+											folio 3. verso.</p></note></l>
+						</quote>
+						<p><pb n="43" xml:id="p43b"/>Voici la réponse de Sathan :</p>
+						<quote>
+							<l rend="i">Prince denfer tes cris as faict estendre</l>
+							<l rend="i">Si tresavant qu’ils sont venus descendre</l>
+							<l rend="i">Jusques au fons des noires regions</l>
+							<l rend="i">Nos vils manoirs tu as presque faict fendre</l>
+							<l rend="i">Que te fault-il ? Es tu prest de te pendre</l>
+							<l><hi rend="i">Dyables sont hors par grandes legions</hi><note n="8"
+									place="margin"><p rend="i">Là même, folio
+								4.</p></note>.</l>
+						</quote>
+						<p>Autre Discours de Lucifer :</p>
+						<quote>
+							<l>» Haro, haro, approche toy grant Dyable,</l>
+							<l>» Approche toy notayre mal fiable.</l>
+							<l>» Fier Belyal procureur des enfers</l>
+							<l>» Si tu ne fais ung faulx traict desuoyable</l>
+							<l>» Nous perdons tout le genre humain saluable</l>
+							<l>» Et demourons seuls enchaynez en fers.</l>
+							<l>. . . . . . .</l>
+							<l>. . . . . . .</l>
+							<l>» Sur terre auons des ennemis peruers</l>
+							<l>» Encontre nous machinans prescherie</l>
+							<l>» Ce sont villains yssus de pescherie</l>
+							<l>» Voulans noncer de dieu la paix cherie.</l>
+							<l>» Mais si vostre art a mort ne les ruyne</l>
+							<l>» Ravis serez tous a la boucherie</l>
+							<l>» Si gay n’aura de qui la bouche rie</l>
+							<l>» S’il le convient laisser mettre en ruyne.</l>
+						</quote>
+						<p>Autre Réponse de Sathan :</p>
+						<quote>
+							<l>» Prince dampne de tenebre &amp; bruyne</l>
+							<l>» Loup ravissant, ton hurlement ne fine</l>
+							<l>» Que te fault-il ? as tu la rage au cueur ?</l>
+							<l>» Prens plomb fondu, chaulx, soufre, &amp; poix resine</l>
+							<l>» Metail bouillant qui seront drogue fine</l>
+							<l>» Pour destouper ta mauldicte rancueur. »</l>
+						</quote>
+						<p>Autre Discours de Lucifer.</p>
+						<quote>
+							<l>» Après que Christ fut au tombeau rendu</l>
+							<l>» Trois jours apres de mort ressuscita</l>
+							<l>» Et qui plus est tout vif se presenta</l>
+							<l>» A ses amys qui ne sont pas des nostres,</l>
+							<l>» Douze coquins qui se nomment Apostres,</l>
+							<l>» Grans seducteurs de la loy Judaïque</l>
+							<l>» Ausquels il dit le texte Evangelicque</l>
+							<l>» Soit soustenu &amp; presche de par vous</l>
+							<l>» Apres es cieulx il monta devant tous</l>
+							<l>» En les laissant tous douze sur la terre,</l>
+							<l>» Lesquels present nous meinent dure guerre</l>
+							<l>» En la cite Hierusalem nommee</l>
+							<l>» Et tout autour du pays de Judee</l>
+							<l>» Qui est pour nous grande perplexite.</l>
+							<l>» Dyables obscurs chascun soit incite</l>
+							<l>» Pour ces maraulx a la mort faire rendre</l>
+							<l>» Si dessus nous les laissez entreprendre</l>
+							<l>» Dieu pis yra pour nous dessus les rens</l>
+							<l>» Pour ce Sathan vers eulx le chemins prens</l>
+							<l>» Pense souldain de leur liurer bataille</l>
+							<l>» Pour mettre a fin la maudicte canaille</l>
+							<l>» Transporte toy aux prestres de la loy</l>
+							<l>» Lesquels tousjous ayent lor &amp; aloy</l>
+							<l>» En recordant leur mauldicte auarice</l>
+							<l>» De ces coquins donne bien la notice, &amp;c. <note n="9"
+									place="margin"><p><hi rend="i">Prémier Livre des</hi> Actes des
+										Apôtres, <hi rend="i">folio 5.</hi></p></note>. »</l>
+						</quote>
+						<p>Satan répond.</p>
+						<quote>
+							<l>» De tous les Droicts assez entends l’affaire</l>
+							<l>» Pour exploicter sans long temps pretendu</l>
+							<l>» Au fonds d’enfer je puisse estre pendu</l>
+							<l>» Si en brief temps je ne fais des merveilles</l>
+							<l>» Puis qu’il convient que je souffle es oreilles</l>
+							<l>» Bien tost mourront les coquins de Jesus. »</l>
+						</quote>
+						<p>Lucifer aiant partagé entre les Diables ses commissions, Sathan lui parla
+							de la sorte :</p>
+						<quote>
+							<l>» Voy Lucifer tous Dyables sont enclins</l>
+							<l>» Par tours souldains mouvemens &amp; declins</l>
+							<l>» Dessus les champs leur deuoir tres bien faire,</l>
+							<l>» Mais au depart pour mieulx nous satisfaire</l>
+							<l>» Ta patte estends sur nos groings dyabolicques</l>
+							<l>» Pour confermer nos esprits drachoniques</l>
+							<l>» Que recevons pour benediction<note n="10" place="margin"><p><hi
+											rend="i">Là même, folio 5. verso.</hi></p></note>.”</l>
+						</quote>
+						<p>Voici ce que Lucifer répond :</p>
+						<quote>
+							<l>» Dyables dampnez en malediction</l>
+							<l>» Dessus vous tous par puissance interdicte</l>
+							<l>» Ma patte estends qui est de Dieu mauldicte</l>
+							<l>» Pour de tous maulx &amp; malfaicts vous absouldre</l>
+							<l>» Couverts soyez de fulminante fouldre.</l>
+						</quote>
+						<p>N’étoit-ce pas donner dans le ridicule, &amp; y tourner
+							indirectement la Sainte &amp; Apostolique cérémonie de l’imposition des
+							mains ?</p>
+						<p>Après ces Dialogues des Démons, on en voit d’autres qui
+							sont pires en leur espece ; car les Discours que l’on fait tenir à
+							Dieu &amp; à Jesus-Christ parlans l’un à l’autre sont entiérement
+							indignes de la majesté du sujet. Les sergens qui emprisonnérent les deux
+							Apôtres qui guérirent un boiteux, parlent si burlesquement, que c’est un
+							morceau de Farce.</p>
+						<quote>
+							<label type="speaker"><hi rend="sc">Agrippart</hi></label>
+							<l rend="i">Prens moy ce galland par le poing</l>
+							<l rend="i">Et le me lye d’une corde</l></quote>
+						<label type="speaker"><hi rend="sc">Griffon</hi></label>
+							<l rend="i">Si je lui fais misericorde</l>
+							<l rend="i">Beau Sire je veuil qu’on me tonde</l>
+						<label><hi rend="sc">Agrippart</hi></label>
+							<l part="I" rend="i">Est il lye</l>
+						<label type="speaker"><hi rend="sc">Griffon</hi></label>
+							<l part="F" rend="i">Le mieulx du monde.</l>
+							<l rend="i">Allons les cacher pour la pluye</l>
+							<l rend="i">Vous serez enfans de la pye</l>
+							<l><hi rend="i">Gallans, car vous serez en cage</hi><note n="11"
+									place="margin"><p rend="i">Là même, folio
+								6.</p></note></l>
+						<p>Trotemenu, messager du grand Sacrificateur Anne,
+							enchérit sur ce burlesque :</p>
+						<quote>
+							<l>» C’est rage comme je chopine</l>
+							<l>» De chanter ne me puis tenir,</l>
+							<l>» Toutes les fois que je chemine</l>
+							<l>» Il n’est chose qui ne se mine</l>
+							<l>» J’ay huy si bien tire laureille</l>
+							<l>» Puis le matin à ma bouteille</l>
+							<l>» Que tout est pieca mis en vente</l>
+							<l>» Je n’ay garde quelle sesuente,</l>
+							<l>» Car plus ny a raisin ne moust<note n="12" place="margin"><p><hi
+											rend="i">Là même, folio 7.</hi></p></note></l>
+						</quote>
+						<p>Rapportons quelques morceaux du Dialogue d’Anne &amp; de
+							Caiphe.</p>
+						<quote>
+							<label><hi rend="sc">Anne</hi></label>
+							<l>» Je les ai veus tres bonnes gens<note n="13" place="margin"><p><hi
+											rend="i">Il parle des deux Apôtres Pierre &amp; Jean
+											emprisonnez.</hi></p></note></l>
+							<l>» Loyaulx &amp; de bonne fasson</l>
+							<l>» Et mont apporte du poisson</l>
+							<l>» Cent fois a vendre en mon hostel</l></quote>
+						<label><hi rend="sc">Cayphas</hi></label>
+					<l part="I">» Est il vray</l>
+						<label type="speaker"><hi rend="sc">Anne</hi></label>
+							<l part="F">Par Dieu il est tel</l>
+					<l>» Mes gens en ont bien souvenance :</l>
+					<l>» Mais pour mieulx vivre à leur plaisance</l>
+					<l>» Ils ont delaisse leur mestier</l>
+					<l>» Dont ils n’auoient pas mestier,</l>
+					<l>» Car tres bien ils en pouoient viure</l>
+					<l>» Et depuis ont voulu ensuyure</l>
+					<l>» Jesus le mauvais Scismaticque</l>
+					<pb n="44" xml:id="p44b"/>
+					<l>» Qui leur a apprins la magicque</l>
+					<l>» Et nygromance on le scait bien,</l>
+					<l>» Car il estoit magicien</l>
+					<l>» Le plus grand qui fust jusqua Romme<note n="14" place="margin"><p><hi
+											rend="i">Prémier Livre des</hi> Actes des Apostres, <hi
+											rend="i">folio 8. verso.</hi></p></note>.”</l>
+						<p>L’Interrogation juridique qu’on fit au Boiteux me semble
+							devoir être raportée :</p>
+						<quote>
+							<label type="speaker"><hi rend="sc">Anne</hi></label>
+							<l>: … » mais je te vueil demander</l>
+							<l>» S’il est vray ce qu’on a compte,</l>
+							<l>» On nous a ici recite</l>
+							<l>» Que pour trouuer moyen de viure</l>
+							<l>» Toy qui estoys fort &amp; deliure</l>
+							<l>» Faignoys d’estre tout contrefaict.</l>
+							<l>» D’y hardiment si tu las faict</l>
+							<l>» Je le te feray pardonner</l>
+							<l>» Avecques ce te feray donner</l>
+							<l>» De l’argent pour toy bien pourvoir</l>
+							<l>» Plus qu’il nont : On peut bien scavoir</l>
+							<l>» Qu’ils ten ont donne &amp; promis</l>
+							<l>» Affin que dies qu’ils tont mis</l>
+							<l>» En bon estat &amp; en sante</l>
+							<l>» Pour avoir bruyt par la cite</l>
+							<l>» De faire miracles patens<note n="15" place="margin"><p><hi rend="i"
+								>Là même, folio 8. verso.</hi></p></note>. »</l></quote>
+						<p>Par ces échantillons du prémier Livre, on pourra juger
+							de tout le Volume ; mais il faut se souvenir qu’il ne sont pas
+							aussi grotesques qu’une infinité d’autres endroits.</p>
+						<p>Il faut noter que l’Auteur se conforme soigneusement aux
+							traditions populaires. Il fourre<note n="16" place="margin"><p><hi
+										rend="i">Au V. Livre.</hi></p></note> un long Episode
+							concernant Denys l’Aréopagite, &amp; son ordination à l’Episcopat. Il en
+								fourre<note n="17" place="margin"><p rend="i">Là
+								même.</p></note> un autre beaucoup plus long touchant la Mort,
+							la Resurrection, &amp; l’Assomption de la Sainte Vierge. On admiroit en
+							ce tems-là cette manœuvre de Théatre ; mais aujourd’hui, elle fait
+							pitié. C’est ici qu’il faut que je cite ces Vers de Mr. Des
+							Preaux :</p>
+						<quote>
+							<l rend="i">Chez nos devots Ayeux le Théatre abhorré</l>
+							<l rend="i">Fut long-tems dans la France un plaisir ignoré.</l>
+							<l rend="i">De Pelerins, dit-on, une troupe grossiere</l>
+							<l rend="i">En public à Paris y monta la prémiere,</l>
+							<l rend="i">Et sotement zélée en sa simplicité</l>
+							<l rend="i">Joüa les Saints, la Vierge, &amp; Dieu, par
+								piété.</l>
+							<l rend="i">Le Savoir à la fin dissipant l’Ignorance</l>
+							<l rend="i">Fit voir de ce projet la dévote imprudence.</l>
+							<l rend="i">On chassa ces Docteurs préchant sans mission,</l>
+							<l><hi rend="i">On vit renaitre Hector, Andromaque, Ilion</hi><note
+									n="18" place="margin"><p>Des Preaux, Art Poëtique, <hi rend="i"
+											>Chant III., p. m. 203.</hi></p></note>.</l>
+						</quote>
+						<p>Si vous voulez un Commentaire sur cela, lisez ces
+								paroles<note n="19" place="margin"><p><hi rend="i">Tirées de
+										Menestrier, des Représentations en Musique anciennes &amp;
+										modernes, pag.</hi> 153. 154.</p></note>. « Il est certain
+							que les Pelerinages introduisirent ces Spectacles de devotion. Ceux qui
+							revenoient de Jerusalem &amp; de la Terre-Sainte, de Saint Jaques de
+							Compostelle, de la Sainte-Baume de Provence, de Sainte Reine, du Mont
+							Saint Michel, de Nôtre-Dame du Puy, &amp; de quelques autres lieux de
+							pieté, composoient des Cantiques sur leurs Voyages, y méloient le recit
+							de la vie &amp; de la mort du Fils de Dieu, ou du Jugement dernier d’une
+							maniere grossiere, mais que le chant &amp; la simplicité de ces temps là
+							sembloient rendre pathetique, chantoient les miracles des Saints, leur
+							Martyre, &amp; certaines Fables à qui la créance du peuple donnoit le
+							nom de Visions, &amp; d’Apparitions. Ces Pelerins qui alloient par
+							troupes, &amp; qui s’arrêtoient dans les ruës &amp; dans les places
+							publiques où ils chantoient le Bourdon à la main, le Chapeau &amp; le
+							Mantelet chargez de Coquilles &amp; d’Images peintes de diverses
+							couleurs, faisoient une espece de spectacle qui plut, &amp; qui excita
+							la pieté de quelques Bourgeois de Paris à faire un fond pour acheter un
+							lieu propre à élever un Theatre, où l’on representeroit ces Mysteres les
+							jours de Fête, autant pour l’instruction du peuple, que pour son
+							divertissement. L’Italie avoit des Theatres publics, où l’on
+							representoit ces Mysteres, &amp; j’en ai vû un à Veletri, sur le chemin
+							de Rome à Naples, dans une place publique, où il n’y a pas quarante ans
+							que l’on a cessé de representer les Mysteres de la vie du Fils de Dieu.
+							Ces Spectacles de pieté parurent si beaux dans ces siecles ignorans, que
+							l’on en faisoit les principaux ornemens des receptions des Princes quand
+							ils entroient dans les Villes, &amp; comme on chantoit <hi rend="i">Noël
+								Noël</hi>, au lieu des cris de Vive le Roi, on representoit dans les
+							ruës la Samaritaine, le mauvais Riche, la Passion de Jesus-Christ, &amp;
+							plusieurs autres Mysteres, pour recevoir nos Rois. Les Pseaumes &amp;
+							les Proses de l’Eglise étoient les Opera de ces temps-là. On alloit en
+							Procession au devant de ces Princes avec les Bannieres des
+							Eglises : on chantoit à leur loüange des Cantiques composez de
+							divers Passages de l’Ecriture liez ensemble, pour faire des allusions
+							sur les actions principales de leurs Regnes.</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>

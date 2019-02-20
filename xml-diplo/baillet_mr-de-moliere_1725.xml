@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. de Moliere [article des Jugemens des savans]</title>
+                <author key="Baillet, Adrien (1649-1706)"
+                    ref="https://data.bnf.fr/fr/11889890/adrien_baillet/">Adrien Baillet</author>
+                <author key="La Monnoye, Bernard de (1641-1728). Éditeur scientifique"
+                    ref="https://data.bnf.fr/fr/12171739/bernard_de_la_monnoye/">Bernard de La
+                    Monnoye</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/baillet_mr-de-moliere_1725</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Adrien Baillet, « Mr. de Moliere », in <hi rend="i">Jugemens des savans sur
+                        les principaux ouvrages des auteurs par Adrien Baillet</hi>, <edition>Revûs,
+                        corrigez, et augmentez par Mr. de la Monnoye</edition>,
+                        <pubPlace>Paris</pubPlace>, <publisher>aux dépens de la
+                        compagnie</publisher>, <date>1725</date>, tome IV, deuxième partie,
+                    p. 339-352. PDF : <ref target="https://books.google.fr/books?id=4owx7NJ96wgC"
+                        >Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1725"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter">
+                <pb n="339" xml:id="p339"/>
+                <head type="main"><hi rend="sc">Mr</hi>. de Moliere<note n="1" place="bottom"
+                        >&#x00B6;. C’est Moliére qu’il faut dire, &amp; non pas de
+                    Moliére.</note>,</head>
+                <head type="sub">(<hi rend="i">Jean-Baptiste Pocquelin</hi>), Parisien, mort en
+                    Comédien, vers l’an 1673.<note n="2" place="bottom">&#x00B6;. Il mourut le
+                        17. Février 1673, agé de 53 ans, ou, suivant quelques-uns, de 51. ans &amp;
+                        demi.</note>. Poëte François.</head>
+                <p>1520. <hi rend="big">M</hi>R. Moliére est un des plus dangereux ennemis que le
+                    Siécle ou le monde<note n="3" place="bottom">J’entens ce Monde que Jesus-Christ
+                        appelle son Adversaire.</note> ait suscité à l’Eglise de <hi rend="sc"
+                        >Jesus-Christ</hi> : &amp; il est d’autant plus redoutable qu’il fait encore
+                    après sa mort le même ravage dans le cœur de ses Lecteurs, qu’il en avoit fait
+                    de son vivant dans celui de ses Spectateurs. Mais pour ne rien entreprendre sur
+                    les devoirs de nos Pasteurs &amp; des Prédicateurs de l’Evangile, j’abandonne le
+                    Comédien pour ne parler ici que du Poëte Comique, &amp; pour rapporter de la
+                    maniére la plus succinte &amp; la plus seche qu’il me sera possible, <pb n="340"
+                        xml:id="p340"/>quelques-uns des jugemens que nos Critiques Séculiers &amp;
+                    Réguliers en ont porté,</p>
+                <p>Mr. Moliére a donc fait un grand nombre de Comédies, tant en Vers qu’en Prose que
+                    l’on a partagées en sept volumes, dont le premier en comprend quatre, savoir,
+                    les <hi rend="i">Précieuses Ridicules</hi>, <hi rend="i">le C.
+                        imaginaire</hi><note n="1" place="bottom">&#x00B6;. Baillet qui a si souvent
+                        écrit <hi rend="i">pédérastie</hi> tout au long, n’a osé écrire <hi rend="i"
+                            >Cocu</hi>.</note>, ou <hi rend="i">Sganarelle</hi>, l’<hi rend="i"
+                        >Etourdi</hi> ou <hi rend="i">les Contretems</hi>, &amp; le <hi rend="i"
+                        >Dépit amoureux</hi>. Le second en comprend quatre<note n="2" place="bottom"
+                        >&#x00B6;. Il devoit dire <hi rend="i">en comprend</hi> cinq : &amp; ne pas
+                        omettre <hi rend="i">l’Ecole des femmes</hi>.</note>, savoir, les <hi
+                        rend="i">Fâcheux</hi>, l’<hi rend="i">Ecole des Maris</hi>, la <hi rend="i"
+                        >Critique de l’Ecole des Femmes</hi>, la <hi rend="i">Princesse d’Elide, ou
+                        les Plaisirs de l’Isle enchantée</hi>. Le troisiéme aussi quatre, le <hi
+                        rend="i">Sicilien ou l’Amour Peintre</hi>, l’<hi rend="i">Amphitryon</hi>,
+                    le <hi rend="i">Mariage forcé</hi>, l’<hi rend="i">Avare</hi>. Le quatriéme
+                    quatre, <hi rend="i">George Dandin</hi>, le <hi rend="i">Tartuffe</hi> ou l’<hi
+                        rend="i">Imposteur</hi>, le <hi rend="i">Médecin malgré lui</hi>, l’<hi
+                        rend="i">Amour Médecin</hi>. Le cinquiéme trois, le Sieur de <hi rend="i"
+                        >Pourceaugnac</hi>, le <hi rend="i">Misanthrope</hi>, le <hi rend="i"
+                        >Bourgeois Gentilhomme</hi>, qui est une Comédie Balet. Le sixiéme trois,
+                        <hi rend="i">Psyché</hi>, Tragédie Balet, les <hi rend="i">Femmes
+                        savantes</hi>, les <hi rend="i">Fourberies de Scapin</hi>. Le septiéme n’en
+                        <pb n="341" xml:id="p341"/>contien que deux, savoir le <hi rend="i">Malade
+                        imaginaire</hi> &amp; l’<hi rend="i">Ombre de Moliere</hi>. On ajoute une
+                    autre Comédie qui porte le titre du <hi rend="i">Festin de Pierre</hi><note
+                        n="3" place="bottom">&#x00B6;. On est surpris que Baillet n’ayant donné au
+                        public son Recueil de Jugemens sur les Poëtes qu’en 1686. ait pu ignorer
+                        qu’il avoit paru quatre ans auparavant, savoir en 1682. une édition des
+                        Oeuvres de Moliére en 8. volumes, dans le septiéme desquels se trouve le
+                        Festin de Pierre.</note> ; mais elle ne paroît plus au monde, du moins
+                    n’a-t-elle pas été mise dans le Recueil des autres : de sorte qu’elle doit
+                    passer pour une Piéce supprimée, dont la mémoire ne subsiste plus que par les
+                    observations qu’on a faites contre cette Piéce &amp; celle du Tartuffe<note
+                        n="4" place="bottom">&#x00B6;. Moliére avoit d’abord appellé Panulphe, &amp;
+                        non pas Tartuffe, l’Imposteur représenté dans la Piéce. Il parut du moins
+                        sur cette Comédie en 1667. une Lettre apologétique <hi rend="i">in</hi>-12,
+                        dont l’Auteur qui dit avoir assisté à la premiére représentation, &amp; qui
+                        en rend un compte exact à un ami, ne donne par tout à l’Hypocrite que ce nom
+                        de Panulphe. On croit que Moliére a depuis changé Panulphe en Tartuffe, par
+                        rapport à Montufar, imposteur ainsi nommé dans une Nouvelle que Scarron a
+                        tirée de l’Espagnol, &amp; qu’il a intitulée les Hypocrites. A ne prendre en
+                        effet que les deux derniéres syllabes de Montufar, il est aisé, par la
+                        transposition des lettres de faire <hi rend="i">artuf</hi>, &amp; de là par
+                        une légére addition <hi rend="i">Tartuffe.</hi> C’est uniquement ce qu’en
+                        son Dictionnaire au mot <hi rend="i">Tartuffe</hi> auroit du dire Furetiére,
+                        &amp; non pas que la Comédie de Moliére est imitée de la Nouvelle Espagnole,
+                        ce qui est très-faux.</note>.</p>
+                <p>Il faut convenir que personne n’a reçu de la Nature plus de talens que Mr.
+                    Moliere pour pouvoir jouer tout le genre humain, pour trouver le ridicule des
+                    choses les plus sérieuses, &amp; pour l’exposer avec finesse &amp; naïveté aux
+                    yeux du Public. C’est en quoi consiste l’avantage qu’on lui donne sur tous les
+                    Comiques modernes, sur ceux de l’ancienne Rome, &amp; sur ceux même de la
+                    Grece : de sorte que s’il se fût contenté de suivre les intentions de Mr. le
+                    Cardinal de Richelieu, qui avoit dessein de purifier la Comédie, &amp; de ne
+                    faire faire sur le Théâtre que des leçons de <pb n="342" xml:id="p342"/>Vertus
+                    Morales, comme on veut nous le persuader, nous n’aurions peut-être pas tant de
+                    précautions à prendre pour la lecture de ses Ouvrages.</p>
+                <p>Pour devancer les autres comme il a fait, il s’est cru obligé de prendre une
+                    autre route qu’eux. Il s’est appliqué particuliérement à connoître le génie des
+                    Grands, &amp; de ce qu’on appelle le beau monde, au lieu que les autres se sont
+                    souvent bornés à la connoissance du peuple. Les Anciens Poëtes, dit le Pere
+                        Rapin<note n="1" place="bottom">Ren. Rapin, Reflex. particul. ou seconde
+                        part. de la Poëtiq. Reflex. <num>xxvi</num>.</note>, n’ont que des valets
+                    pour les plaisans de leur Théâtre ; &amp; les plaisans du Théâtre de Moliere
+                    sont les Marquis &amp; les gens de qualité : les autres n’ont joué dans la
+                    Comédie que la vie bourgeoise &amp; commune ; &amp; Moliere a joué tout Paris
+                    &amp; la Cour. Ce même Pere prétend que Moliere est le seul parmi nous qui ait
+                    découvert ces traits de la Nature qui la distinguent &amp; qui la font
+                    connoître. Il ajoute que les beautés des Portraits qu’il fait, sont si
+                    naturelles qu’elles se font sentir aux personnes les plus grossiéres : &amp; que
+                    le talent qu’il avoit à plaisanter s’étoit renforcé de la moitié par celui qu’il
+                    avoit de contrefaire.</p>
+                <p>C’est par ce moyen qu’il a su réformer, non pas les mœurs des Chrétiens, mais les
+                    défauts de la vie civile, &amp; de ce qu’on appelle le train de ce monde, &amp;
+                    c’est sans doute tout ce qu’a voulu louer en lui le <pb n="343" xml:id="p343"
+                    />P. Bouhours, par le jugement avantageux qu’il semble en avoir fait dans le
+                    Monument qu’il a dressé à sa mémoire, où après l’avoir appellé par rapport à ses
+                    talens naturels<note n="2" place="bottom">Gill. Menage dans ses Observations sur
+                        la Langue Françoise, seconde partie chapitre 4. pag. 15. de l’édit. de l’an
+                        1676.</note>,</p>
+                <quote>
+                    <l>Ornement du Théâtre, incomparable Acteur,</l>
+                    <l>  Charmant Poëte, illustre Auteur,</l>
+                </quote>
+                <p>Il ajoute pour nous précautionner contre ses Partisans &amp; ses admirateurs,
+                    &amp; pour nous spécifier la qualité du service qu’il peut avoir rendu aux Gens
+                    du Monde,</p>
+                <quote>
+                    <lg>
+                        <l>  C’est toi dont les plaisanteries</l>
+                        <l>Ont gueri des Marquis l’esprit extravagant.</l>
+                        <l>  C’est toi qui par tes momeries</l>
+                        <l>As reprimé l’orgueil du Bourgeois arrogant.</l>
+                    </lg>
+                    <lg>
+                        <l>  Ta Muse en jouant l’Hypocrite</l>
+                        <l>  A redressé les faux Dévots.</l>
+                        <l>  La Précieuse à tes bons mots</l>
+                        <l>  A reconnu son faux mérite.</l>
+                        <l>  L’Homme ennemi du Genre Humain,</l>
+                        <l>  Le Campagnard qui tout admire</l>
+                        <l>  N’ont pas lû tes Ecrits en vain :</l>
+                        <l>Tous deux s’y sont instruits en ne pensant qu’à rire.</l>
+                    </lg>
+                    <pb n="344" xml:id="p344"/>
+                    <lg>
+                        <l>Enfin tu reformas &amp; la Ville &amp; la Cour.</l>
+                        <l>  Mais quelle en fut la récompense ?</l>
+                        <l>  Les François rougiront un jour</l>
+                        <l>  De leur peu de reconnoissance.</l>
+                        <l>  Il leur falut un Comédien<note n="1" place="bottom">&#x00B6;. Comment
+                                Ménage qui a produit &amp; critiqué ces Vers du P. Bouhours, ne
+                                s’est-il pas apperçu que <hi rend="i">Comédien</hi>, qui n’est ici
+                                que de trois syllabes, devoit être de quatre ?</note></l>
+                        <l>Qui mit à les polir son art &amp; son étude.</l>
+                        <l>Mais, Moliere, à ta gloire il ne manqueroit rien</l>
+                        <l>Si parmi leurs défauts que tu peignis si bien,</l>
+                        <l>Tu les avois repris de leur ingratitude.</l>
+                    </lg>
+                </quote>
+                <p>Voilà peut-être tout ce qu’on peut raisonnablement éxiger d’un Critique judicieux
+                    qui n’a pu refuser la justice que l’on doit à tout le monde, &amp; qui n’a point
+                    cru devoir blâmer des qualités qui sont véritablement estimables, non seulement
+                    parce qu’elles viennent de la Nature, mais encore parce qu’elles ont été
+                    cultivées &amp; polies par le travail &amp; l’industrie particuliére du
+                    Poëte.</p>
+                <p>Mr. Despréaux persuadé de cette espéce de mérite de Moliere, du moins autant que
+                    le P. Bouhours, semble n’avoit pas été du sentiment de ce Pere sur le peu de
+                    reconnoissance que le Public a témoigné pour tous ses services après sa mort. Il
+                    prétend au contraire que l’on n’a bien reconnu son mérite qu’après qu’il eut
+                    joué le dernier rôle de sa vie, &amp; que l’on a beaucoup mieux jugé du prix de
+                    ses <pb n="345" xml:id="p345"/>Piéces en son absence, que lors qu’il étoit
+                    présent. C’est ce qu’il marque à Mr. Racine, lors qu’il lui dit que<note n="1"
+                        place="bottom">Nicol. Boil. Despréaux, Epitre <num>vii</num>. à Racine Vers
+                        19. &amp; suiv.</note>.</p>
+                <quote>
+                    <l>Avant qu’un peu de terre obtenu par priére</l>
+                    <l>Pour jamais sous la tombe eût renfermé Moliére.</l>
+                    <l>Mille de ces beaux traits, aujourd’hui si vantés,</l>
+                    <l>Furent des sots esprits à nos yeux rebutés.</l>
+                    <l>L’Ignorance &amp; l’Erreur à ses naissantes Piéces</l>
+                    <l>En habit de Marquis, en robes de Comtesses</l>
+                    <l>Venoient pour diffamer son chef-d’œuvre nouveau,</l>
+                    <l>Et secouoient la tête à l’endroit le plus beau.</l>
+                    <l>Le Commandeur vouloit la Scene plus éxacte.</l>
+                    <l>Le Vicomte indigné sortoit au second Acte.</l>
+                    <l>L’un défenseur zélé des Bigots mis en jeu,</l>
+                    <l>Pour prix de ses bons mots le condamnoit au feu.</l>
+                    <l>L’autre, fougueux Marquis, lui déclarant la guerre,</l>
+                    <l>Vouloit vanger la Cour immolée au Parterre,</l>
+                    <l>Mais si-tôt que d’un trait de ses fatales mains</l>
+                    <l><pb n="346" xml:id="p346"/>La Parque l’eût rayé du nombre des Humains,</l>
+                    <l>On reconnut le prix de sa Muse éclipsée.</l>
+                    <l>Toute la Comédie avec lui terrassée,</l>
+                    <l>En vain d’un coup si rude espera revenir,</l>
+                    <l>Et sur ses brodequins ne pût plus se tenir.</l>
+                </quote>
+                <p>Jusques-là nous n’avons encore trouvé rien de trop favorable à ceux qui nous
+                    vantent si fort la Morale de Mr. Moliere, &amp; qui publient hautement dans
+                    Paris, qu’il <hi rend="i">a corrigé plus de défauts à la Cour &amp; à la Ville
+                        lui seul que tous les Prédicateurs ensemble.</hi> Il faut avoir une envie
+                    étrange de se munir du nom des Auteurs graves, &amp; de se donner des garants
+                    d’importance, pour vouloir nous persuader par l’autorité de quelques Critiques
+                    de réputation qui ont eu de l’indulgence pour Moliere, que ces vices qu’il a
+                    corrigés fussent autre chose que des maniéres extérieures d’agir &amp; de
+                    converser dans le monde. Il faut être bon jusqu’à l’excès pour s’imaginer qu’il
+                    ait travaillé pour la discipline de l’Eglise &amp; la réforme de nos mœurs. Tous
+                    ces grands défauts à la correction desquels on veut qu’il se soit appliqué, ne
+                    sont pas tant des qualités vicieuses ou criminelles que quelque faux goût,
+                    quelque sot entêtement, quelques affectations ridicules, telles que celles qu’il
+                    a reprises assés à propos dans les Prudes, les Précieuses, dans ceux qui outrent
+                    les modes, qui s’éxigent en Marquis, qui parlent incessamment de leur noblesse,
+                    qui ont toujours <pb n="347" xml:id="p347"/>quelque Poësie de leur façon à
+                    montrer aux gens.</p>
+                <p>Voilà, dit Mr. Bayle<note n="1" place="bottom">Nouvelles de la Republ. des
+                        Lettres d’Avril <seg/> pag. 203, 204.</note>, les désordres dont les
+                    Comédies de Moliere ont un peu arrêté le cours. Car pour la galanterie
+                    criminelle, l’envie, la fourberie, l’avarice, la vanité, &amp; les autres crimes
+                    semblables ; il ne faut pas croire, selon l’observation du même Auteur, qu’elles
+                    leur ayent fait beaucoup de mal. Au contraire il n’y a rien de plus propre pour
+                    inspirer la coquéterie que ces sortes de Piéces, parce qu’on y tourne
+                    perpétuellement en ridicule les soins que les Peres &amp; Meres prennent de
+                    s’opposer aux engagemens amoureux de leurs enfans. La galanterie n’est pas la
+                    seule science qu’on apprend à l’école de Moliere, on apprend aussi les maximes
+                    les plus ordinaires du libertinage, contre les véritables sentimens de la
+                    Religion, quoi qu’en veuillent dire les ennemis de la Bigoterie, &amp; nous
+                    pouvons assurer que son Tartuffe est une des moins dangereuses pour nous mener à
+                        l’<hi rend="i">irréligion</hi>, dont les semences sont répanduës d’une
+                    maniére si fine &amp; si cachée dans la plupart de ses autres Piéces, qu’on peut
+                    assurer qu’il est infiniment plus difficile de s’en défendre que de celle où il
+                    jouë pêle &amp; mêle Bigots &amp; Devots le masque levé.</p>
+                <p>Mais il faut laisser encore une fois à ceux que Dieu a choisis pour combattre la
+                        <pb n="348" xml:id="p348"/>Comédie, &amp; les Comédiens le soin d’en faire
+                    voir les dangers &amp; les funestes effets, &amp; renvoyer ceux qui voudront
+                    s’en instruire plus à fond aux Traités qu’en ont écrit, je ne dis pas seulement
+                    Mr. le Prince de Conty, Mr. de Voysin, Mr. Nicole, &amp;c. Mais encore le Pere
+                    Dominique Othonelli, Jésuite Italien, Frédéric Cerutus, François Marie del
+                    Monacho, &amp; le Sieur B. A.<note n="1" place="bottom">&#x00B6;. Peut-être
+                        est-ce notre Auteur, qui pour se mieux déguiser s’est désigné par B. A. de
+                        peur, s’il se fût désigné par A. B. qu’on n’eût trop aisément reconnu <hi
+                            rend="i">Adrien Baillet</hi>.</note> qui a écrit en particulier contre
+                    Moliere. Ainsi il ne me reste plus qu’à dire un mot de sa maniére d’écrire,
+                    &amp; de représenter ses Piéces de Théâtre.</p>
+                <p>Mr. Rosteau prétend qu’il étoit également bon Auteur &amp; bon Acteur, que rien
+                    n’est plus plaisamment imaginé que la plupart de ses Piéces ; qu’il ne s’est pas
+                    contenté de posséder simplement l’art de la bouffonnerie, comme la plupart des
+                    autres Comédiens ; mais qu’il a fait voir, quand il lui a plu, qu’il étoit assés
+                    serieusement savant<note n="2" place="bottom">Rosteau, Sentim. sur quelques
+                        livres d’Auteurs qu’il a lûs pag. 69.</note>. Mademoiselle le Fevre trouve
+                    qu’il avoit beaucoup du génie &amp; des maniéres de Plaute &amp;
+                        d’Aristophane<note n="3" place="bottom">Anne le Fevre, Dissertat. sur les
+                        Comed. préf. d’Aristoph.</note>.</p>
+                <p>Mr. Despréaux, qui par une prudence toute particuliére ayant commencé son
+                    portrait de son vivant, ne voulut l’achever qu’après sa mort, releve
+                    extraordinairement cette facilité merveilleuse qu’il <pb n="349" xml:id="p349"
+                    />avoit pour faire des vers, &amp; s’adressant à lui-même, il lui dit avec une
+                    franchise des premiers siécles<note n="4" place="bottom">N. B. Despréaux, Satir.
+                        seconde, Vers 1. &amp; suiv.</note>,</p>
+                <quote>
+                    <l>——— Que sa fertile veine</l>
+                    <l>Ignore en écrivant le travail &amp; la peine ;</l>
+                    <l>Qu’Apollon tient pour lui tous ses trésors ouverts</l>
+                    <l>Et qu’il fait à quel coin se marquent les bons Vers…..</l>
+                    <l>Que s’il veut une Rime, elle vient le chercher</l>
+                    <l>Qu’au bout du Vers jamais on ne le voit broncher</l>
+                    <l>Et sans qu’un long détour l’arrête ou l’embarrasse</l>
+                    <l>A peine a-t-il parlé qu’elle-même s’y place.</l>
+                </quote>
+                <p>Le même Auteur voyant Moliere au tombeau, dépouillé de tous les ornemens
+                    extérieurs dont l’éclat avoit éblouï les meilleurs yeux, durant qu’il paroissoit
+                    lui-même sur son Théâtre, remarqua plus facilement ce qui avoit tant imposé au
+                    monde, c’est-à-dire, ce caractére aisé &amp; naturel, mais un peu trop
+                    populaire, trop bas, trop plaisant &amp; trop bouffon. Ce Comédien, dit-il<note
+                        n="5" place="bottom">Le même Auteur dans l’Art Poëtiq. chant 3, Vers 394.
+                        &amp; suiv.</note>,</p>
+                <pb n="350" xml:id="p350"/>
+                <quote>
+                    <l>Peut-être de son Art eût remporté le prix,</l>
+                    <l>Si, moins ami du Peuple en ses doctes Peintures,</l>
+                    <l>Il n’eût point fait souvent grimacer ses figures ;</l>
+                    <l>Quitté pour le bouffon l’agréable &amp; le fin,</l>
+                    <l>Et sans honte à Terence allié Tabarin.</l>
+                    <l>Dans ce sac ridicule où Scapin s’envelope,</l>
+                    <l>Je ne reconnois plus l’Auteur du Misanthrope.</l>
+                </quote>
+                <p>Mr. Pradon qui s’est imaginé que par cette légére censure on avoit voulu profiter
+                    de la mort du lion pour lui tirer les poils, prétend<note n="1" place="bottom"
+                        >Pradon, Nouvelles Remarques sur les Oeuvres de D…. pag. 36.</note> que
+                    Moliere n’est pas si défiguré dans le <hi rend="i">Scapin</hi> qu’on ne l’y
+                    puisse reconnoître. Il dit qu’il n’a pas prétendu faire dans Scapin une Satire
+                    fine comme dans le <hi rend="i">Misanthrope</hi>. Scapin, selon lui, est une
+                    plaisanterie, qui ne laisse pas d’avoir son sel &amp; ses agrémens, comme le <hi
+                        rend="i">Mariage forcé</hi>, ou <hi rend="i">les Medecins</hi>. A dire le
+                    vrai, ces Piéces sont fort inférieures au <hi rend="i">Misanthrope</hi>, à l’<hi
+                        rend="i">Ecole des Femmes</hi>, au <hi rend="i">Tartuffe</hi>, &amp; à ces
+                    grands coups de Maîtres : mais elles ne sont pourtant pas d’un Ecolier, &amp;
+                    l’on y trouve toujours une certaine finesse répanduë que le seul Moliere avoit
+                    pour en assaisonner les moindres Ouvrages.</p>
+                <p>Mr. Despréaux &amp; Mr. Pradon ne sont pas les seuls qui ayent parlé dans leurs
+                    écrits du <hi rend="i">Misanthrope</hi> de Moliere comme <pb n="351"
+                        xml:id="p351"/>de son chef-d’œuvre. Le P. Rapin nous fait connoître qu’il
+                    est aussi dans le même sentiment, &amp; il est allé même encore plus loin que
+                    ces deux Critiques, lors qu’il dit, qu’à son sens c’est le plus achevé &amp; le
+                    plus singulier de tous les Ouvrages Comiques qui ayent jamais paru sur le
+                        Théâtre<note n="2" place="bottom">Ren. Rapin, au lieu cité ci-dessus, partie
+                        seconde des Refl. sur la Poëtique.</note></p>
+                <p>Nous avons vû la plus célébre des Piéces de Moliere ; mais ceux qui souhaiteront
+                    voir la plus scandaleuse, ou du moins la plus hardie, pourront jetter les yeux
+                    sur le <hi rend="i">Tartuffe</hi>, où il a prétendu comprendre dans la
+                    juridiction de son Théâtre le droit qu’on les Ministres de l’Eglise de reprendre
+                    les Hypocrites, &amp; de déclamer contre la fausse dévotion. On voit bien par la
+                    maniére dont il a confondu les choses, qu’il étoit franc Novice dans la dévotion
+                    dont il ne connoissoit peut-être que le nom, &amp; qu’il avoit entrepris
+                    au-dessus de ses forces. Les Comédiens &amp; les Bouffons publics sont des
+                    personnes décriées de tout tems, &amp; que l’Eglise même par voie de droit
+                    considére comme retranchées de son corps, parce qu’elle ne les croit jamais dans
+                    l’innocence. Mais quand Moliere auroit été innocent jusqu’alors n’auroit-il pas
+                    cessé de l’être dès qu’il eut la présomption de croire que Dieu vouloit bien se
+                    servir de lui pour corriger un vice répandu par toute l’Eglise, &amp; dont la
+                    réformation n’est peut-être <pb n="352" xml:id="p352"/>pas même reservée à des
+                    Conciles entiers ? Si Tertullien a eu raison de soutenir que le Théâtre est la
+                    Seigneurie ou le Royaume du Diable, je ne vois pas ce qui nous peut obliger pour
+                    chercher le reméde à notre hypocrisie &amp; à nos fausses dévotions <hi rend="i"
+                        >d’aller consulter Beelzebut</hi>, tandis que nous aurons des <hi rend="i"
+                        >Prophetes en Israël</hi>.</p>
+                <p>Au reste, quelque capable que fût Moliere, on prétend qu’il ne savoit pas même
+                    son Théâtre tout entier, &amp; qu’il n’y a que l’amour du Peuple qui ait pû le
+                    faire absoudre d’une infinité de fautes. Aussi peut-on dire qu’il se soucioit
+                    peu d’Aristote<note n="1" place="bottom">&#x00B6; Il ne paroit pas avoir voulu
+                        donner de lui cette idée, lors qu’il a dit dans sa préface sur les <hi
+                            rend="i">Facheux</hi>, qu’il ne désespéroit pas de faire voir un jour en
+                        grand Auteur, qu’il pouvoit citer Aristote, &amp; Horace.</note> &amp; des
+                    autres Maîtres, pourvû qu’il suivît le goût de ses Spectateurs qu’il
+                    reconnoissoit pour ses uniques Juges.</p>
+                <p>Le Pere Rapin prétend, que l’ordonnance de ses Comédies est toujours défectueuse
+                    en quelque chose, &amp; que ses dénoumens ne sont point heureux.</p>
+                <p>Il faut avouer qu’il parloit assés bien François ; qu’il traduisoit passablement
+                    l’Italien : qu’il ne copioit point mal ses Auteurs, mais on dit peut-être trop
+                    legerement, qu’il n’avoit point le don de l’invention, ni le génie de la belle
+                        Poësie<note n="2" place="bottom">Observation sur la Comédie de Moliere,
+                        intit. le Festin de Pierre pag. 5. &amp;c.</note>, quoique ses amis même
+                    convinssent que dans toutes ses Piéces <hi rend="i">le Comédien avoit plus de
+                        part que le Poëte, &amp; que leur principale beauté consistoit dans
+                        l’Action.</hi></p>
+            </div1>
+        </body>
+    </text>
+</TEI>

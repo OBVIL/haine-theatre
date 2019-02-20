@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Des divertissemens du Carnaval [Réflexions chrétiennes, I]</title>
+				<author key="Croiset, Jean (1656-1738)" ref="https://data.bnf.fr/fr/12927799/jean_croiset/">Jean Croiset</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>OBVIL</edition>
+				<respStmt>
+					<name>Infoscribe</name>
+					<resp>saisie, XML-TEI</resp>
+				</respStmt>
+				<respStmt>
+					<name>Eric Thiébaud</name>
+					<resp>contributeur</resp>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Sorbonne Université, LABEX OBVIL</publisher>
+				<date when="2019"/>
+				<idno>http://obvil.sorbonne-universite.site/corpus/haine-theatre/croiset_carnaval_1777</idno>
+				<availability status="restricted">
+					<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+						<p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+							d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+							OBVIL).</p>
+						<p>Cette ressource électronique protégée par le code de la propriété
+							intellectuelle sur les bases de données (L341-1) est mise à disposition
+							de la communauté scientifique internationale par l’OBVIL, selon les
+							termes de la licence Creative Commons : « Attribution – Pas
+							d’Utilisation Commerciale – Pas de Modification 3.0 France (CCBY-NC-ND
+							3.0 FR) ».</p>
+						<p>Attribution : afin de référencer la source, toute utilisation ou
+							publication dérivée de cette ressource électroniques comportera le nom
+							de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+						<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+							scientifique, toute utilisation commerciale est interdite.</p>
+						<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+							ressource électronique, notamment en intégrant toutes les contributions
+							extérieures, la diffusion de versions modifiées de cette ressource n’est
+							pas souhaitable.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Jean Croiset, « Des divertissemens du Carnaval », in <hi rend="i">Réflexions
+						chrétiennes sur divers sujets de morale, utiles à toutes sortes de
+						personnes, et particuliérement à celles qui font la Retraite spirituelle un
+						jour chaque mois. Par le Père Jean Croiset, de la Compagnie de Jesus</hi>,
+						<pubPlace>Paris</pubPlace>, <publisher>Michel Sorin</publisher>,
+						<date>1777</date>, tome I, p. 92-109. PDF : <ref
+						target="http://books.google.fr/books?id=fMAsAAAAYAAJ">Google</ref>.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1777"/>
+			</creation>
+			<langUsage>
+				<language ident="fre"/>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 type="chapter">
+				<pb n="92" xml:id="p92"/>
+				<head><hi rend="i">Des divertissemens du Carnaval.</hi></head>
+				<div2 type="section">
+					<head>I.</head>
+					<p>Si parmi les calomnies que les Païens faisoient aux Chrétiens, on s’étoit a
+						visé de leur reprocher que tandis que notre Religion condamne le Paganisme
+						dans tous ses chefs, elle en suit la licence en plusieurs points ; qu’avec
+						une morale austere qui donne des bornes si étroites aux plus honnêtes
+						divertissements, elle permet les joies &amp; les fêtes des Païens ; que ses
+						loix toutes pures, toutes saintes qu’elles sont, ne laissent pas d’autoriser
+						en certains tems le libertinage : &amp; que sévere ou indulgente, selon les
+						diverses occurrences, elle permet en certains jours de l’année la
+						dissolution &amp; les débauches, qu’elle défend en d’autres tems : si l’on
+						eût osé faire cet injurieux reproche aux Chrétiens, avec quelle hardiesse,
+						avec quelle indignation eût-on d’abord crié, &amp; avec raison, au mensonge,
+						à la calomnie ?</p>
+					<p>Quelle fausseté plus grossiere leur eût-on dit ? quelle plus visible
+						imposture, que d’accuser la loi chrétienne de déreglement dans les mœurs,
+						elle qui condamne jusqu’au désir, jusqu’à <pb n="93" xml:id="p93"/>la pensée
+						du crime ? Peut-on ignorer jusqu’à quel point de délicatesse elle exige la
+						pureté du cœur ? Quel vice peut-on dire qu’elle ait jamais flatté ? Y a-t-il
+						un moment dans toute la vie, qu’elle exempte de la pratique de la vertu,
+						qu’elle dispense de l’obligation de plaire à Dieu ? Y en a-t-il un seul où
+						elle souffre qu’on lui déplaise ?</p>
+					<p>Ainsi auroient répondu avec confiance ces premiers Chrétiens, à qui on n’a
+						voit rien à reprocher, si ce n’est qu’ils ne paroissoient jamais dans le
+						cirque, qu’ils fuyoient le théatre, &amp; les spectacles publics ; qu’on ne
+						les voyoit, ni couronnés de fleurs, ni vêtus de pourpre ; qu’une modestie
+						inaltérable regnoit dans tous les états ; qu’ils ne connoissoient point dans
+						les âges, de saisons de plaisirs ; que leurs divertissemens toujours
+						honnêtes &amp; toujours purs, étoient autant de leçons de vertus &amp; de
+						bienséance, &amp; qu’en tout tems ils étoient Chrétiens. Voilà ceux qui
+						auroient aisément confondu la calomnie. Mais serions-nous aujourd’hui en
+						droit par notre conduite si peu chrétienne, de répondre comme eux ?</p>
+					<p>Ne nous opposeroit-on pas d’abord ces festins, ces bals, ces danses, ces
+						divertissemens, que les premiers <pb n="94" xml:id="p94"/>Chrétiens
+						reprochoient aux idolâtres, comme des marques toutes visibles, &amp; de la
+						corruption de leurs mœurs, &amp; de la fausseté même de leur religion.</p>
+					<p>Qu’auroit-on à répliquer, si les Païens nous disoient que nous faisons au
+						carnaval ce qu’ils faisoient tous les ans aux bacchanales ? mêmes excès,
+						mêmes festins, mêmes réjouissances, mêmes fêtes. Le libertinage est public,
+						la licence n’en est guère moins effrenée. Seroit-on bien reçu à dire qu’on y
+						garde un peu plus de mesures ; c’est-à-dire, que les réjouissances, ou
+						mascarades du carnaval sont un reste du Paganisme mitigé ? Mais, graces au
+						Seigneur, la licence des lâches Chrétiens ne sçauroit déroger à l’invariable
+						sainteté de la loi chrétienne, qui a condamné de tout tems, comme elle
+						condamne encore aujourd’hui, ces profanes &amp; scandaleux
+						divertissemens.</p>
+					<p>C’étoit l’ennemi du salut des hommes, qui, élevé presque sur tous les Autels,
+						fier de l’empire qu’il avoit sur tous les cœurs, se faisoit consacrer par
+						ces dissolutions les premiers jours de chaque année ; à quel autre principe
+						peut-on attribuer l’institution &amp; la coutume des scandaleux
+						divertissemens du carnaval ?</p>
+					<p><pb n="95" xml:id="p95"/>Quel homme de bon sens oseroit les autoriser, ces
+						joyes licentieuses, par la proximité des jours de pénitence qui les suivent.
+						Dira-t-on qu’on donne toute liberté à ses sens, parce qu’on doit se répentir
+						au premier jour des libertés qu’on leur aura données ? Qu’on livre son cœur
+						à tous les plaisirs mondains, &amp; à cent divertissemens peu chrétiens,
+						parce qu’on en doit bientôt faire pénitence ?</p>
+					<p>Il faudra pendant le Carême pleurer ses péchés, il faut se dédommager par
+						avance de ces pleurs à venir, par toute forte de licence. L’Eglise obligera
+						dans peu de jours les Chrétiens à jeûner ; il faut prévenir ce jeûne par des
+						excès, &amp; des repas qui feront autant de débauches. On nous montrera
+						bientôt combien toutes ces fêtes de carnaval sont indignes du nom de
+						Chrétien ; travaillons à mériter ces reproches. On nous prêchera la
+						pénitence ; faisons tout ce qu’il faut pour en avoir plus de besoin.</p>
+					<p>On sent le ridicule de ce raisonnement. Quand sentira-t-on l’indignité de
+						cette conduite ? On auroit honte de justifier ainsi le carnaval ; c’est
+						pourtant ce que signifie tout ce qu’on a dit, pour en autoriser la coutume.
+						Hé quoi ! ne <pb n="96" xml:id="p96"/>sera-t-on Chrétien que par grimace,
+						&amp; selon les différentes saisons ? Est-ce une moquerie que notre
+						Religion ? Aujourd’hui scélerat avec éclat, &amp; demain hypocrite par
+						bienséance. Quelques dehors de religion succéderont à des dissolutions
+						païennes ; &amp; adorant le même Dieu, ayant la même loi, craignant les
+						mêmes châtiment au carnaval qu’en Carême, on se fera honneur dans un tems,
+						de faire tout le contraire de ce que cette loi ordonne ; dans un autre, un
+						mérite d’applaudir à tous ses articles.</p>
+					<p>Est-il possible qu’une folie si grossiere ne révolte pas tout esprit ? Et
+						pour peu qu’on ait de teinture de religion, on ose même dire, de raison,
+						peut-on donner dans une telle illusion ?</p>
+					<p>Ignore-t-on que pour être véritablement Chrétien, il faut toujours vivre en
+						Chrétien ? Dieu ne veut point de notre cœur, s’il ne le posséde toujours :
+						&amp; vous croyez qu’il agréera des jours que le monde partage avec lui ? Si
+						l’on connoît assez Dieu pour avouer qu’il mérite qu’on le serve certains
+						jours de l’année : quel mépris ne fait-on pas de lui, si l’on juge qu’on
+						peut se dispenser de le servir certains autres jours ? C’est un article de
+						foi, que le monde est son <pb n="97" xml:id="p97"/>irréconciliable ennemi :
+						&amp; il y aura un tems où un Chrétien pourra sans honte se livrer
+						étourdiment à tous les divertissemens mondains ; un tems où il sera permis
+						de n’aimer &amp; ne servir que le monde.</p>
+					<p>Oseroit-on débiter une maxime si contraire à la foi &amp; au bon sens ? C’est
+						cependant la maxime qu’on suit aujourd’hui dans le monde ? tant il est vrai
+						qu’on donne nécessairement dans une espéce de folie, dès qu’on cesse de
+						raisonner &amp; de vivre en Chrétien.</p>
+				</div2>
+				<div2 type="section">
+					<head>II.</head>
+					<p>Mais quel mal y a-t-il, dit-on, de se divertir en carnaval ? Et quel mérite
+						donne ce carnaval à des divertissemens qui en tout autre tems sont
+						illicites ? Quel privilége ont ces jours qui précédent le Carême, pour
+						autoriser ce qu’on condamne en tout autre tems ?</p>
+					<p>On demande quel mal il y a de se divertir en carnaval ; c’est-à-dire, de
+						renouveller au milieu du Christianisme la plûpart des fêtes des Païens, de
+						deshonorer la profession de Chrétien par toutes sortes de plaisirs mondains,
+						&amp; d’en faire même trophée.</p>
+					<p>Quel mal il y a de se déguiser pour n’avoir plus honte de rien, &amp; pour
+							<pb n="98" xml:id="p98"/>s’exposer à tous les dangers sans crainte.</p>
+					<p>Quel mal il y a de passer une partie du jour au jeu, presque toute la nuit au
+						bal ; ne repaître ses yeux que d’objets lascifs &amp; séduisans ; ne
+						reconnoître d’autre Dieu que le plaisir, ni d’autre maître que la passion ;
+						se confondre dans un tas de libertins, les sens sans retenue, le cœur sans
+						garde, l’esprit sans modération ; être de toutes les parties de
+						divertissemens, éternellement avec tout ce qu’il y a de moins régulier &amp;
+						de plus dissolu dans une ville : car de quels autres sujets pendant le
+						carnaval peuvent être composées ces assemblées si libres, &amp; la plûpart
+						nocturnes ? Y trouve-t-on une personne de probité ? Quelle surprise s’il s’y
+						trouvoit une personne vertueuse ? A quelles railleries n’y seroit pas exposé
+						un homme de bien ? Raison plausible qui fait sentir de quel caractère sont
+						les gens qui s’y trouvent. Et l’on demande après cela quel mal il y a dans
+						tous ces plaisirs du carnaval !</p>
+					<p>Et quel mal n’y a-t-il pas ? Quelle innocence à l’épreuve de tous les piéges
+						qu’on y tend ? Quelle vertu intrépide au milieu de tant d’ennemis ? Le tems
+						du carnaval sera donc le tems qu’on se livrera à toutes les passions, le
+						tems <pb n="99" xml:id="p99"/>qu’on s’exposera sans crainte à mille périls,
+						le tems qu’on sacrifiera publiquement à tous les vices.</p>
+					<p>Hé quoi ! le Christianisme, dit un grand Serviteur de Dieu, n’est-il donc
+						qu’un fantôme, une chymere ? Le nom de Jesus-Christ que nous portons, &amp;
+						qui lui a coûté tant de sang, est-ce un nom si vil &amp; si méprisable qu’il
+						ne puisse être deshonoré par aucune action, quelque folle, quelque indécente
+						qu’elle puisse être ? Est-il possible qu’il n’y ait nulle bienséance à
+						garder dans un état qui nous fait enfans de Dieu par adoption ?</p>
+					<p>Un Prince n’oseroit faire le Comédien, un simple Bourgeois croit qu’il y a
+						des divertissemens indignes de sa condition : un Religieux se rendroit
+						infame en se divertissant comme la plus grande partie des Chrétiens ; &amp;
+						un Chrétien se persuade qu’il n’y a rien de messéant à un si grand nom, il
+						n’a point de honte de se divertir en Païen.</p>
+					<p>Quoi ! mettre cinq ou six heures de tems à se parer &amp; à se peindre le
+						visage, pour aller ensuite dans une assemblée tendre des piéges à la
+						chasteté des hommes, &amp; servir de flambeau au démon pour allumer par-tout
+						le feu de l’impudicité : demeurer les nuits <pb n="100" xml:id="p100"
+						/>entieres exposé aux yeux &amp; à la cajollerie de tout ce qu’il y a de
+						libertins dans une ville ; employer tout ce que l’art &amp; la nature ont de
+						plus dangereux pour attirer leurs regards, &amp; pour séduire leur cœur,
+						déguiser sa personne &amp; son sexe, pour ôter à la grace ce petit secours
+						qu’elle trouve dans nos habits ; rouler de quartier en quartier sous un
+						masque de théatre ; ne se pas contenter de discours srivoles &amp; inutiles,
+						se relâcher jusqu’à dire des paroles qui scandalisent : de quel terme
+						oseroit-on se servir pour autoriser une licence si scandaleuse ? L’esprit du
+						monde, l’intempérance dans les repas, les excès dans le jeu, les assemblées
+						de plaisirs, la comédie &amp; les bals sont-ils moins condamnables en
+						carnaval qu’en Carême ? Le vice est-il moins vice en un tems qu’en un
+						autre ? Et en quelle part de l’Evangile trouve-t-on qu’il y ait des jours
+						dans l’année où le précepte de se mortifier, d’éviter les dangers, de vivre
+						en Chrétien, de mener une vie pure &amp; exemplaire, &amp; d’avoir les
+						maximes du monde en horreur, oblige moins qu’en un autre tems ?</p>
+					<p>Que penseroit un Païen qui ayant été témoin pendant le carnaval de ces
+						spectacles publics, de ces assemblées <pb n="101" xml:id="p101"/>mondaines,
+						de ces infinies séances au jeu, de ces repas dissolus, de ces nocturnes
+						divertissemens, de tout ce que le luxe le plus étudié &amp; le plus poli
+						inspire de mondanité ou de faste, entreroit dans nos Eglises deux jours
+						après, &amp; verroit aux pieds des Autels courber la tête sous la cendre,
+						plusieurs de ceux qu’il auroit vû quelques heures devant à la comédie ou au
+						bal ?</p>
+					<p>Nous voyons ce que penseroit un Païen, nous penserons même comme lui. Nous
+						contenterons-nous toujours de condamner ce que nous continuons de faire ? Et
+						ferons-nous toujours ce que nous condamnons. N’est-ce pas se jouer de notre
+						Religion que de donner au public de pareilles scenes ? N’est-ce pas décrier
+						par une conduite si irréguliere les plus saintes cérémonies de la Religion ?
+						Une grimace de piété succéde à plusieurs jours de fêtes profanes :
+						Semblables à ces peuples envoyés dans Samarie, qui tantôt Assyriens &amp;
+						tantôt Israëlites, après avoir encensé les Idoles, venoient adorer le vrai
+						Dieu.</p>
+					<p>Mais que de railleries à essuyer, si je ne suis point des divertissemens du
+						carnaval, &amp; si je ne parois plus au bal ni dans ces assemblées
+						mondaines !</p>
+					<p>La raillerie de ce qu’on est homme de <pb n="102" xml:id="p102"/>bien, fait
+						autant d’honneur à celui qui en est l’objet, qu’elle décrie chez tous les
+						honnêtes gens le libertin qui raille. On dira que vous n’êtes plus des fêtes
+						du carnaval, parce que vous avez pris le parti de mener une vie chrétienne :
+						est-ce donc un crime d’être vraîment Chrétien ?</p>
+					<p>Que de railleries piquantes sur l’inébranlable probité de Loth au milieu
+						d’une ville si universellement corrompue ; que de plaisanteries à essuyer
+						sur sa piété, sur sa modestie, sur sa retraite ; que de discours
+						désobligeans ; que d’insultes pour s’être conservé dans l’innocence, pour ne
+						s’être pas laissé entraîner au torrent ! Mais ces railleurs parlerent-ils
+						sur le même ton quand ils virent le feu du ciel sur eux &amp; sur leurs
+						familles, tandis que le vengeur de tant de crimes avoit mis le juste en
+						sûreté ?</p>
+					<p>La raillerie en matiere de Religion n’ébranle jamais un cœur droit &amp;
+						sincere, elle ne fait peur qu’à ceux que la vertu a déjà effrayés. Un bon
+						esprit voit aisément le ridicule de ces fades plaisanteries, &amp; il sçait
+						les mépriser.</p>
+					<p>Et pour n’être point inquiété dans ces excès scandaleux par les mouvemens de
+						la grace, on les méprise jusques à ce qu’enfin on ait acquis une fausse
+						sécurité <pb n="103" xml:id="p103"/>de conscience. On arrive tard à cet
+						aveuglement total si étroitement lié avec la réprobation ; mais comme
+						l’esprit est d’ordinaire séduit par le cœur, on se fait une étude de ne pas
+						voir ce qu’on ne veut pas faire. On aime le jeu, on se plaît au bal, tout ce
+						qui vient troubler cette passion est regardé comme ennemi de notre repos. On
+						fait ce qu’on peut pour prendre les remords d’une conscience effrayée pour
+						de fausses allarmes.</p>
+					<p>On regarde avec pitié tous ces Directeurs incommodes qui condamnent les
+						spectacles &amp; les bals ; on n’oublie rien pour les faire passer pour des
+						esprits vains &amp; fâcheux, qui ne cherchent qu’à se distinguer par
+						d’austéres singularités, &amp; qui aiment à se faire un nom aux dépens des
+						ames simples &amp; trop crédules.</p>
+					<p>Quelle secrette aversion, si quelque personne vertueuse ose désapprouver ces
+						fortes de plaisirs ? Et Jesus-Christ lui-même est-il mieux traité, si pour
+						condamner ces plaisirs qu’il proscrit si hautement, on s’avise de citer sa
+						parole ? L’Evangile est peu écouté dans l’école des mondains. Ceux de ce
+						caractère qui liront ces Réflexions en seront-ils fort touchés ? Combien qui
+						se sçauront mauvais gré de s’être mis dans la nécessité de les faire.</p>
+				</div2>
+				<div2 type="section">
+					<pb n="104" xml:id="p104"/>
+					<head>III.</head>
+					<p>On se roidit contre sa propre raison quand on se plaît à être trompé. Toute
+						erreur qui nourrit &amp; qui flatte la passion, a des charmes. Pour peu
+						qu’on ait de Religion, on ne peut s’empêcher de condamner les réjouissances
+						&amp; les mascarades du carnaval, on ne peut ignorer que l’Evangile ne
+						condamne le bal, les spectacles, &amp; les assemblées profanes ; mais on
+						s’étourdit à plaisir sur ce point de morale comme sur bien d’autres. Le
+						nombre, la qualité, l’éclat de ceux qui se trompent comme eux, fait une
+						espéce d’autorité qui leur rend cette erreur plus plausible ; &amp; dès
+						qu’on s’y plaît &amp; qu’on l’aime, on ne veut pas que ce soit une
+						erreur.</p>
+					<p>Dites à cette jeune personne que ses parens prennent plaisir d’immoler à tant
+						de vanités, &amp; qui est si contente d’en être la victime ; dites à ce
+						libertin en qui l’esprit du monde &amp; une oisiveté invétérée ont presque
+						éteint l’esprit de Religion ; dites à cette jeune femme qu’un leurre de
+						fortune flatte &amp; éblouit, &amp; qui n’a plus de goût que pour les joies
+						&amp; les fêtes mondaines ; dites-leur que selon saint Chrysostôme, il n’y a
+						point de plus dangereux ennemis du <pb n="105" xml:id="p105"/>salut que ces
+						divertissemens nocturnes, ni qui soient moins chrétiens.</p>
+					<p>Dites-leur que le bal est défendu parce qu’il est presque toujours l’écueil
+						de l’innocence, le tombeau de la pudeur, le théatre de toutes les vanités
+						mondaines, &amp; le triomphe de toutes les passions : que c’est un
+						assemblage de tous les dangers du salut, &amp; un précis vif &amp; piquant
+						de toutes les tentations : que tont y est écueil : que tout y est poison :
+						danses, instrumens, objets, entretiens, assemblée, tout y concourt à
+						étouffer les sentimens de piété, à séduire &amp; l’esprit &amp; le cœur :
+						que rien n’est plus opposé que le bal à l’esprit du Christianisme : avec
+						quel mépris serez-vous écouté ! Que de fades plaisanteries sur le prétendu
+						réformateur ! Que de gloses sur la morale outrée !</p>
+					<p>Ainsi méprisoit-on autrefois les salutaires avertissemens, &amp; la morale
+						des plus saints Patriarches de l’ancienne loi. Mais quand les beaux jours
+						commencerent à s’obscurcir, que le Ciel irrité répandoit ses torrens &amp;
+						que la mer en courroux ne reconnoissoit plus de bornes ; quand les eaux du
+						déluge ayant interrompu tous les plaisirs, portoient l’effroi avec la mort
+						jusques sur le sommet des plus hautes montagnes : <pb n="106" xml:id="p106"
+						/>alors pensoit-on que la morale avoit été outrée, &amp; qu’elle portoit à
+						faux ? Crût-on qu’on avoit eu tort de condamner ce que nous approuvons
+						aujourd’hui, &amp; qui alluma la colere du Dieu vivant ? Avoit-on tort
+						d’avoir crié contre ce torrent d’iniquité qui inondoit le genre humain,
+						&amp; qu’il fallut noyer dans un déluge ?</p>
+					<p>Une main invisible jettera l’effroi au milieu de ces cercles &amp; de ces
+						bals, une mort précipitée &amp; toujours imprevue, dissipera ces assemblées.
+						Le tems viendra que ces jeunes personnes, ces libertins, ces gens du monde,
+						condamneront avec indignation contre eux-mêmes, avec une espéce d’horreur,
+						tous ces profanes divertissemens, mais en fera-t-il tems ?</p>
+					<p>On aura eu raison alors de traiter de divertissemens païens les réjouissances
+						du carnaval ; alors ces Ministres de l’Evangile, sinceres &amp; peu
+						flatteurs, auront été les sages, on rendra justice alors à la vertu de ceux
+						qui avoient pris le bon parti, en s’interdisant toutes ces fêtes peu
+						chrétiennes. Alors on avouera que les maximes du monde étoient contraires à
+						la véritable sagesse &amp; au bon sens ; &amp; que ces joies n’étoient pas
+						plus permises en carnaval qu’en Carême. Mais <pb n="107" xml:id="p107"
+						/>qu’un repentir est amer quand il est sans fruit &amp; sans ressource !
+						&amp; que le souvenir du bal cause de regrets &amp; de troubles à qui
+						l’envisage au lit de la mort !</p>
+					<p>On n’entend pas même si tard pour condamner un divertissement si peu
+						chrétien. Le tumulte n’étourdit pas naturellement, il y a des intervalles de
+						raison ; &amp; quelque affoiblie qu’elle soit dans un libertin, elle ne
+						laisse pas de lui faire voir la malignité de ce qui lui plaît, &amp; de lui
+						faire sentir le poison de ce qui l’enchante.</p>
+					<p>J’ai toujours crû les bals dangereux, disoit un des plus beaux esprits de son
+						tems, &amp; le Courtisan le plus poli de son siécle :<note place="bottom"
+							n="*">M. le Comte de Bussy Rabutin.</note> j’ai toujours crû les bals
+						dangereux ; ce n’a pas été seulement ma raison qui me l’a fait croire, ç’a
+						encore été mon expérience ; &amp; quoique le témoignage des Peres de
+						l’Eglise soit bien fort, je tiens que sur ce chapitre celui d’un Courtisan
+						doit être d’un plus grand poids. Je sçais bien qu’il y a des gens qui, à ce
+						qu’ils disent, courent moins de hazard en ces lieux-là que d’autres ;
+						cependant les gens qui composent ces fortes d’assemblées, ont assez de peine
+						à résister aux tentations <pb n="108" xml:id="p108"/>dans la solitude ; à
+						plus forte raison dans ces lieux-là où les beaux objets, les flambeaux, les
+						violons, &amp; l’agitation de la danse échaufferoient des Anachoretes. Les
+						vieilles gens qui pourroient peut-être aller au bal sans intéresser leur
+						conscience, seroient ridicules d’y aller ; &amp; les jeunes gens à qui la
+						bienséance le permettroit, ne le pourroient pas sans s’exposer à de trop
+						grands périls. Ainsi je tiens qu’il ne faut point aller au bal quand on est
+						Chrétien, &amp; je crois que les Directeurs feroient leur devoir, s’ils
+						exigeoient de ceux dont ils gouvernent les consciences, qu’ils n’y allassent
+						jamais.</p>
+					<p>Et certes si les spectacles profanes sont défendus ; si les assemblées
+						mondaines sont peu chrétiennes ; si l’on ne peut s’exposer au péril sans
+						péché ; si la sûreté n’est pas entiere dans la solitude ; si l’Evangile est
+						la régle des mœurs, si la pureté se flétrit par un seul regard ; s’il ne
+						faut qu’un désir pour corrompre le cœur ; si les héros chrétiens ont de la
+						peine même dans le désert de conserver leur innocence, quel homme de bon
+						sens oseroit dire qu’il est licite d’aller au bal ? Quel homme raisonnable
+						peut conserver l’esprit chrétien &amp; ne pas condamner les divertissemens
+						profanes <pb n="109" xml:id="p109"/>du carnaval, &amp; ne pas regarder comme
+						criminelles toutes ces joies licentieuses.</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>

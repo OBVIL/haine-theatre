@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Entretien X. Sur la Comédie</title>
+                <author key="Guilloré, François (1615-1684)" ref="https://data.bnf.fr/fr/14328335/francois_guillore/">François Guilloré</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/guillore_entretien-comedie_1684</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>François Guilloré, « Entretien X. Sur la Comédie », in <hi rend="i">Retraite
+                        pour les Dames. Par le R. P. F. Guilloré, de la Compagnie de
+                        Jesus</hi>,<pubPlace>Paris</pubPlace>, <publisher>Estienne
+                        Michallet</publisher>, <date>1684</date>, p. 365-380. PDF : <ref
+                        target="http://books.google.fr/books?id=moTTHvAHaJIC">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1680"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter">
+                <pb n="363" xml:id="p363"/>
+                <head>Entretien X. sur <hi rend="i">la Comedie</hi></head>
+                <p><hi rend="big">L</hi>E grand usage de ce divertissement, qui est si agréable à la
+                    veuë, &amp; à l’esprit, fera peût-être, qu’il ne me sera pas facile de desabuser
+                    les personnes, qui se voyent autorisées de l’exemple de tant de gens, &amp;
+                    favorisées de l’inclination de la nature corrompuë : Mais peût-être aussi, quand
+                    j’auray ôté le bandeau de dessus leurs yeux, ne verront-elles pas moins le
+                    danger du Théatre, qu’elles en ont trouvé jusques icy les spectacles
+                    charmans.</p>
+                <p>Il y a tant de choses, lesquelles condamnent l’usage, qui s’en fait, que, de
+                    quelque côté que l’on se tourne, l’on n’entend, que des voix, qui crient contre
+                    ce divertissement, autant préjudiciable à l’ame, qu’il est agréable aux
+                    sens.</p>
+                <p>L’Eglise, la conscience, &amp; les fréquens <pb n="364" xml:id="p364"/>naufrages
+                    de l’innocence, sont ces voix, qui disent, que de tous les moyens, qu’a le démon
+                    pour perdre bien des ames, la comédie en est le plus doux, le plus fort, &amp;
+                    le plus caché.</p>
+                <p>Il ne faut donc, que les entendre, pour sortir de l’aveuglement, pourveu qu’on
+                    les entende sans préoccupation, &amp; sans aporter un esprit rebelle contre des
+                    veritez, aussi claires, que celles, que je va mettre en avant.</p>
+                <div2 type="section">
+                    <head>§. I.</head>
+                    <p>Premierement, c’est une chose tres-constante, que tous les Peres de l’Eglise
+                        ont déclamé contre la comédie, qui se faisoit de leur temps, comme contre un
+                        spectacle, qui alloit de luy-même à la grande corruption des mœurs : Il ne
+                        faut qu’en lire les invectives, pour voir de quel zéle ils estoient portez
+                        contre un divertissement, qui en des-honorant le Christianisme, en
+                        corrompoit aussi les maximes, &amp; la pureté.</p>
+                    <p>Aprés les Apôtres, fut-il jamais des personnes, que l’on puisse dire avoir
+                        esté inspirées, comme eux, du S. Esprit ? Ils en ont esté les organes, &amp;
+                        les interprêtes, pour dire plus clairement à tous les <pb n="365"
+                            xml:id="p365"/>Chrétiens, ce que les saintes Ecritures n’ont dit
+                        souvent, que sous des ombres ; c’est donc eux, qu’il faut écouter, quand il
+                        est question de bien faire le discernement des choses douteuses ; Et c’est
+                        eux aprés l’Evangile, que Dieu nous a donnez, pour estre la juste régle de
+                        nos actions.</p>
+                    <p>Si cela ne peut estre contredit, n’est-on pas obligé de condamner, ce qu’ils
+                        condamnent ? N’est-on pas donc obligé de regarder au moins la comédie, comme
+                        un divertissement dangereux, puis qu’ils ont parlé de cette sorte de
+                        spectacle, comme d’une chose, capable de corrompre les mœurs les plus
+                        innocentes ? Et des Dames Chrétiennes peuvent-elles y assister, aprés ce
+                        qu’ils en ont dit, sans montrer, ou que l’on fait peü d’estime de leur
+                        autorité, ou que l’on croit, que Dieu ne les a pas établis dans son Eglise,
+                        pour estre les oracles des Peuples ?</p>
+                    <p>C’est à vous de voir si en bonne conscience l’on peut faire contre les
+                        sentimens &amp; les décisions de ceux, que Dieu a donnez à l’Eglise, pour
+                        ses Docteurs,</p>
+                </div2>
+                <div2 type="section">
+                    <head>>§. II.</head>
+                    <p>Il suffiroit de dire, que, suivant simplement les pensées de ces grands
+                        Hommes, <pb n="366" xml:id="p366"/>le divertissement de la comédie n’est pas
+                        tout-à-fait innocent ; néanmoins, sans faire le Casuite, pour conclure, si
+                        la comédie prise en elle-même est péché, je maintiens, qu’on n’y peut guéres
+                        aller sans pécher, &amp; je n’ay pour cet effet à alléguer, que des raisons
+                        plausibles, conformes au bon sens, &amp; convaincantes.</p>
+                    <p>Je le prens d’un concours de diverses choses, qui toutes favorisent la
+                        concupiscence, &amp; qui, non pas nécessairement, mais presque
+                        infailliblement font tomber dans quelque déréglement.</p>
+                    <p>Les matieres, qui s’y traitent, ne sont ordinairement, que d’amour, &amp; de
+                        ses intrigues, car le théatre ne plairoit plus, si cette passion n’en
+                        faisoit l’ame : L’expression, qu’on en fait, est par la déclamation la plus
+                        douce, la plus animée, &amp; la plus transportée : L’ajustement d’une
+                        comédienne n’a rien, qui ne respire je ne sçay quoy d’impur, par la nudité
+                        de sa gorge, par son geste mol, &amp; affecté, &amp; par son action
+                        efféminée.</p>
+                    <p>Tout cela, ne sont-ce pas autant de fortes attaques, données par les yeux,
+                        &amp; par les oreilles, au cœur des personnes, qui écoutent ce qui se
+                        déclame, &amp; qui voyent le spectacle d’une comédie, pour y porter des
+                        impressions d’amour, en leur <pb n="367" xml:id="p367"/>amolissant la
+                        volonté ; en leur gravant dans l’i-imagination des images, &amp; des
+                        representations moins honnêtes ; &amp; en leur laissant dans la memoire des
+                        idées, qui ont toûjours quelque chose de sensuel ?</p>
+                    <p>Ajoûtez la disposition ordinaire, qu’on aporte à la comédie, où l’on ne va,
+                        que pour recevoir avec plaisir &amp; douceur tous les charmes du
+                        Théatre.</p>
+                    <p>Je demande si cette disposition de l’esprit, &amp; du cœur secondant
+                        elle-méme les sollicitations moles, &amp; douces de ces objets, il est
+                        possible, qu’on s’en défende, sans s’y laisser aller fort sensüellement ? La
+                        vertu la plus sévére ne s’en pourroit presque pas garantir, &amp; vous
+                        voulez, que des gens, qui ne respirent, que les plaisirs des sens, puissent
+                        estre avec innocence parmi tant de dangereux apas, où ils se jettent encore,
+                        &amp; se plaisent ?</p>
+                    <p>Ce seroit, ou ne pas sçavoir la force de ces objets, ou ignorer la foiblesse
+                        de nôtre nature, ou se faire une vertu chimérique, ou, par une vaine
+                        présomption, vouloir trouver sa seureté au milieu des écüeils.</p>
+                </div2>
+                <div2 type="section">
+                    <head>§. III.</head>
+                    <p>C’est un principe universellement receü de l’Ecole, que, quand quelque chose
+                        de <pb n="368" xml:id="p368"/>sa nature porte au péché, l’on ne peut pas en
+                        user librement, sans pécher ; cela parle de soy, sans autre preuve, à un
+                        esprit, qui a seulement un petit raïson d’intelligence : Remontez maintenant
+                        à ce que je viens de dire de la comédie, dont toutes les circonstances n’ont
+                        rien, qui de soy-méme ne donne quelque penchant au péché.</p>
+                    <p>Si ce principe donc, que j’ay avancé, est recevable, l’aplication en estant
+                        faite à la comédie, je vous laisse le jugement du péché, qui se peut
+                        commettre en y allant l’effet, qui part d’un principe, tenant toûjours de la
+                        nature de son principe.</p>
+                </div2>
+                <div2 type="section">
+                    <head>§. IV.</head>
+                    <p>Mais la preuve de ce que je dis se fortifie beaucoup, par la nature de
+                        plusieurs piéces de théatre, qui font aujourd’huy le plus agréable
+                        divertissement des auditeurs ; car souvent, ou elles sont toutes bouffonnes,
+                        ou elles peuvent passer pour impies, estant une chose trop connuë, qu’on en
+                        a veü, qui tournoient toute la dévotion, &amp; la pieté en ridicule.</p>
+                    <p>Quoy ? cela seul ne suffit il pas, pour fuir le Théâtre, où l’on aprend tant
+                        de leçons de railleries, &amp; d’impieté ? Mais <pb n="369" xml:id="p369"
+                        />aujourd’huy, comme je vous l’ay marqué tout au long dans l’Entretien du
+                        Cercle, presque tout le monde aime à railler, &amp; à rire, aux dépens des
+                        bonnes mœurs, de la pureté, &amp; de la Religion ; c’est l’esprit empoisonné
+                        du temps, qui se répand, &amp; se glisse par tout ; on l’aime en soy, on
+                        l’aime dans les autres, &amp; ceux qui sçavent mieux s’en aquitter, sont les
+                        plus aplaudis.</p>
+                    <p>C’est aussi pour cela, que l’on court volontiers au théâtre, où l’on voit si
+                        bien faire ce personnage, &amp; d’où l’on tire de si belles leçons : Theâtre
+                        mal-heureux, sur lequel on a veü naître de nos jours, quelque chose de pis,
+                        que ce qu’avoit celuy des Romains, où la pieté n’estoit pas tant décriée par
+                        les infidelles, qui l’ignoroient, qu’on l’a veuë l’estre aujourd’huy par des
+                        Chrêtiens, qui la connoissant, en ont fait leur fable &amp; leur
+                        divertissement !</p>
+                    <p>Et puis, Madame, vous penserez aprés cela, que le Théâtre peut estre bien
+                        innocent ?</p>
+                </div2>
+                <div2 type="section">
+                    <pb n="370" xml:id="p370"/>
+                    <head>§. V.</head>
+                    <p>Mais, comme vous pourriez vous reretrancher, en me disant deux choses, &amp;
+                        que ces piéces ne se joüent pas tous les jours, pour soüiller toûjours le
+                        Théâtre, &amp; que toutes les personnes, qui ont plus de Christianisme, ont
+                        coûtume de s’en abstenir ; je vous l’accorde, quoy que cela se pourroit
+                        assez disputer.</p>
+                    <p>Laissons donc ce Théatre infame &amp; libertin, pour vous mettre hors de
+                        combat : Mais revenons aussi à ce Théatre, dont j’ay tantôt parlé, qui ne
+                        respire, que l’air de l’amour, qui en enseigne si délicatement toutes les
+                        leçons, &amp; que vous voudriez bien justifier, disant que des bouffonneries
+                        impies ne s’y voyent point ; or sçachez, que celuy-cy n’est gueres moins
+                        dangereux, que l’autre.</p>
+                    <p>Car n’est-ce pas là, que tres-souvent la jeunesse fait les prémiers naufrages
+                        de son innocence ? Elle, qui sans cela peût-être n’auroit jamais sçeü ce que
+                        c’est, que du mal, &amp; qui n’en avoit, ny la pensée, ny les idées, le
+                        voyant alors si bien dépeint sur le Théatre avec toutes les couleurs, de la
+                        parole, d’une expression douce, &amp; de la déclamation ; Elle, dis-je, <pb
+                            n="371" xml:id="p371"/>commence à sortir de la sainte ignorance, où elle
+                        estoit, &amp;, ce que la nature ne luy avoit pas encore apris, des
+                        Comediens, &amp; des Comediennes le luy aprennent, comme les nouveaux
+                        Maîtres de son premier mal-heur.</p>
+                    <p>Ce mêtier, apris à une si méchante école, étant secondé, par les inclinations
+                        naturelles, &amp; ne laissant, que les idées d’une douceur efféminée, ce
+                        jeune homme, &amp; cette jeune fille, commencent à mettre en pratique, ce
+                        qu’on leur a si bien enseigné sur le Théatre : L’innocence est attaquée,
+                        l’on aime sa foiblesse dans l’attaque, &amp; en suite arrivent les grandes
+                        chûtes, à qui la comédie a donné les commencemens.</p>
+                </div2>
+                <div2 type="section">
+                    <head>§. VI.</head>
+                    <p>Elle n’est pas seulement à la jeunesse l’occasion de la perte de son ame ;
+                        mais il se peut dire, qu’elle est à presque tout le monde l’écüeil le plus
+                        dangereux de la chasteté : Il en est comme d’un vaisseau, qui estant déja
+                        tout fracassé, par le tempête, est réjetté encore parmi les bancs, &amp; les
+                        rochers, pour achever d’avantage de se briser, en achevant son naufrage.</p>
+                    <p>C’est ainsi, que la chasteté estant <pb n="372" xml:id="p372"/>d’ailleurs
+                        tant interressée en toute manière, par de fréquens débris, trouve à la
+                        comédie, comme son dernier écüeil, où elle acheve de corrompre, &amp; de
+                        perdre, ce qui pouvoit encore n’estre pas corrompu entierement, &amp; où
+                        elle assure, &amp; confirme dans sa corruption, ce qui l’estoit déjà depuis
+                        long-temps.</p>
+                    <p>Car de penser, que parmi tant de charmes pour les yeux, &amp; pour les
+                        oreilles, que présente le Théatre, l’on puisse y estre avec un cœur
+                        invulnérable, &amp; une pureté toûjours exacte &amp; délicate, c’est une
+                        idée, &amp; tout ensemble une témérité, qui mérite, que l’on perde, ce que
+                        l’on prétend conserver.</p>
+                </div2>
+                <div2 type="section">
+                    <head>§. VII.</head>
+                    <p>Et quoy que je vous accordasse, que tous les inconveniens, que j’a y alleguez
+                        jusque icy, se pourroient contredire, en voicy néanmoins deux
+                        très-considérables, qui de vôtre aveü ne pourront pas asseurément se
+                        disputer.</p>
+                    <p>Le prémier est, que toutes les personnes, qui fréquentent ces sortes de
+                        spectacles, ne peuvent avoir d’ordinaire aucun sentiment de pieté ; car ces
+                        bons sentiments, dont une ame peut estre touchée <pb n="373" xml:id="p373"
+                        />ne viennent, que des saintes pensées, dont auparavant elle a esté
+                        remplie ; &amp; encore le cœur a-t’il bien de la peine à goûter les choses
+                        divines, quelque plénitude de connoissance, qui aîr pü précéder ; c’est sa
+                        dureté naturelle, c’est son fond de corruption, c’est son oposition à la
+                        pieté, qui fait tout cela.</p>
+                    <p>Comment donc une personne, qui fréquente le Théatre, sera-t’elle capable
+                        d’aucun sentiment Chrêtien, ne remportant de là, qu’une teste pleine d’idées
+                        douces, &amp; charmantes, &amp; de toutes les passions foles, &amp;
+                        imaginaires, que la déclamation d’un Comédien luy a pû representer ?</p>
+                    <p>Toutes ces choses au contraire desseichent infiniment le cœur, &amp; le
+                        rendent incapable de tous les mouvemens, que la grace y pourroir insurüer :
+                        Vous n’en pouvez pas doûter, Madame, si jamais vous avez aimé la comédie,
+                        comme vôtre ame alors a esté éloignée de la dévotion, pour laquelle vous
+                        n’aviez, qu’un extréme dégoût, parce que vous astiez toute pénétrée du
+                        dégoût de la comédie.</p>
+                    <p>Or n’y eût-il que ce seul mal, n’est-il pas assez grand, pour renoncer au
+                        Théatre, de se voir comme rejettée de Dieu, par une insensibilité à tous les
+                            <pb n="374" xml:id="p374"/>mouvemens d’une dévotion Chrétienne ?</p>
+                </div2>
+                <div2 type="section">
+                    <head>§. VIII.</head>
+                    <p>Mais le second invenient, qui ne soûfre non plus de difficulté, est bien plus
+                        grand ; je vous prie d’y faire attention.</p>
+                    <p>Je ne diray pas, que c’est pécher mortellement, d’aller à la comédie ; mais
+                        je diray, qu’à plusieurs c’est péché mortel, d’y aller : La verité de cette
+                        proposition ne se prend pas simplement du spectacle, mais encore des
+                        dispositions particulieres de la personne,</p>
+                    <p>Elle est, par exemple, d’un tempérament doux &amp; très-sensible ; elle a un
+                        cœur, qui prend aussi-tôt feü ; l’imagination en est vive &amp; forte, pour
+                        conserver la molesse, &amp; l’impureté des images ; la volonté en est
+                        naturellement foible, &amp; facile, pour se laisser aller à toutes ces
+                        representations ; elle a l’expérience de ces desordres secrets, qu’elle a
+                        plûtôt aimez, qu’elle n’a combatus.</p>
+                    <p>Je dis là-dessus, qu’avec un tel fond de disposition, il est difficile, que
+                        cette personne aille à la comédie, sans pécher mortellement : Et combien en
+                        est-il, de celles, qu’on y voir, qui n’ayent une disposition semblable, ou
+                        naturelle, ou <pb n="375" xml:id="p375"/>acquise ? Et ainsi, combien en
+                        est-il, à qui il est difficile d’aller à la comédie, qu’elles ne fassent des
+                        péchez mortels ? Les tempéramens gâtez, par la corruption du libertinage,
+                        prouvent assez, que cette disposition ne peut estre que trop commune.</p>
+                    <p>Jugez sur ce pied, Madame, où vous en pourrez venir, si vous aimez le
+                        divertissement de la comédie.</p>
+                </div2>
+                <div2 type="section">
+                    <head>§. IX.</head>
+                    <p>Et après tout cela, n’est-il pas étonnant, que pour se jetter dans le danger
+                        de son salut, que pour perdre souvent son innocence, que pour pécher souvent
+                        mortellement, l’on aille à la comédie avec autant de chaleur, &amp; de
+                        passion, qu’aux plus fameux Prédicateurs ; qu’on y trouve même plus de goût,
+                        &amp; que l’on coure, comme au feü, à la nouveauté de quelque piéce ?</p>
+                    <p>Ne se peut-il pas dire, que c’est le deshonneur de nôtre Religion, de voir,
+                        que très souvent le théatre de la comédie soit plus suivi, que la chaire de
+                        verité ? que tandis que des Prédicateurs de l’Evangile seront abandonnez,
+                        les Comédiens cependant ne manquent pas d’auditeurs, qui y vont en foüle ?
+                        &amp; que la folie, <pb n="376" xml:id="p376"/>&amp; le mensonge soient plus
+                        écoutez, que la parole éternelle ? Estes-vous de ces aveugles, Madame ?</p>
+                </div2>
+                <div2 type="section">
+                    <head>§. X.</head>
+                    <p>Ce qui fait mieux voir encore l’indignité de ce grand desordre, c’est que
+                        l’on donnera plus d’argent une seule fois, pour une place, &amp; pour une
+                        loge à la comédie, qu’on n’en donnera toute une année, pour avoir place au
+                        Sermon.</p>
+                    <p>Cela est-il Chrétien ? Se souvient on de son caractére ? N’est-ce pas montrer
+                        le peü d’estime, qu’on fait de la parole de Dieu, en comparaison d’un
+                        théatre profane ? N’est-ce pas en quelque maniere donner l’avantage à un
+                        comédien, par dessus lès Députez, &amp; les Ambassadeurs du Ciel ? Et
+                        n’est-ce pas comme acheter a prix d’argent ce qui est souvent le sujet,
+                        &amp; la matiere de sa perte ?</p>
+                    <p>Et à vous, Madame, vous puis-je demander, si vous n’avez pas ainsi
+                        quelquefois épargné le vôtre, pour les Sermons, sans l’épargner aucunement,
+                        afin de vous contenter du diverrissement de la comédie, si préjudiciable à
+                        vôtre ame ? Vous le sçavez.</p>
+                </div2>
+                <div2 type="section">
+                    <head>§. XI.</head>
+                    <p>Me direz vous maintenant, que l’on <pb n="377" xml:id="p377"/>voit des
+                        personnes de bonne vie, &amp; de bonnes mœurs, qui sans tant de façon vont à
+                        la comédie, comme les autres, &amp; qu’ainsi l’on est fort justifié, quand
+                        on agit sur leur exemple ?</p>
+                    <p>Ne vous fortifiez pas, Madame, de ce côté-là, car l’apuy, que vous prennez,
+                        est très-foible : Il faut plûtôt dire, que ces personnes, que l’on dit estre
+                        personnes de pieté, sont en cela méme scandaleuses, de se servir ainsi de la
+                        sainte profession, qu’elles font, pour autoriser le libertinage de leur
+                        divertissement.</p>
+                    <p>Ce sont ces Dévotes, &amp; ces Dévots, qui ne se veulent gesner en rien,
+                        &amp; qui se veulent contenter en tout ; qui sont avec les mondains aux
+                        pieds du Théatre, &amp; avec les plus saintes ames au pied du Crucifix ; Et
+                        qui ont coûtume de se tourner, selon toutes les rencontres, bonnes, &amp;
+                        mauvaises.</p>
+                    <p>Dites donc plûtôt, qu’elles vous sont un exemple de scandale, pour les fuïr,
+                        &amp; non pas un exemple d’édification, pour les suivre, &amp; les
+                        imiter.</p>
+                </div2>
+                <div2 type="section">
+                    <head>§. XII.</head>
+                    <p>Me direz-vous encore, qu’on en voit, qui estant consacrez à Dieu, ne font <pb
+                            n="378" xml:id="p378"/>aucune difficulté de se trouver avec les
+                        seculiers, pour prendre le divertissement de la comédie ?</p>
+                    <p>Hé ? mon Dieu, Madame, laissons là, je vous prie, cette partie si délicate de
+                        l’Eglise, sans la toucher rudement : Ces gens portent alors avec eux leur
+                        condamnation, sans que nous soyons obligez de parler ; nous ne devons avoir,
+                        que le silence, &amp; le gémissement, respectant toûjours leur caractére ;
+                        nous n’avons qu’à baisser les yeux de honte, pour celle, qu’ils ne prennent
+                        pas, comme pour nous persüader, que nos yeux ne voyent pas, ce qu’ils voyent
+                        en effet ; Et je m’asseure, que vous-même, ayant l’esprit un peü Chrêtien,
+                        vous ne tirerez pas avantage d’un exemple, qui passe le scandale ordinaire,
+                        pour aller plus librement à la Comédie.</p>
+                </div2>
+                <div2 type="section">
+                    <head>§, XIII.</head>
+                    <p>Il me semble, qu’il ne vous reste plus rien à m’objecter sur cette matiere,
+                        si ce n’est, qu’aujourd’huy le Théatre est plus innocent, qu’il ne fût
+                        jamais, &amp; que les pieces, qu’on y joüe, n’ont rien de cette indécence,
+                        qu’elles avoient autrefois.</p>
+                    <p>C’est là justement, où je vous attendois ; Et moy je vous dis, Madame,
+                        qu’elles sont en <pb n="379" xml:id="p379"/>quelque façon plus dangereuses à
+                        l’innocence, qu’elles n’estoient ; car autrefois l’innocence n’avoit garde
+                        d’en estre interressée, puis que les personnes, qui avoient un peü de
+                        conscience, fuyoient le Théatre, comme un lieu de scandale, &amp; de péché,
+                        &amp; qu’on n’y voyoit, que celles, qui avoient perdu la conscience, &amp;
+                        la pudeur.</p>
+                    <p>Mais aujourd’huy, sous ce prétexte trompeur, que le Théatre n’a plus rien,
+                        qui blesse ouvertement l’honnesteté, bien des ames innocentes y sont
+                        attirées, comme les autres, ne pensant, qu’a se donner simplement le
+                        divertissement d’un spectacle, que l’on dit estre maintenant innocent.</p>
+                    <p>C’est à dire, Madame, que le poison est presenté avec bien de la douceur,
+                        &amp; dans un vase d’or, &amp; que ce qui avoit coûtume d’offenser les yeux
+                        &amp; les oreilles, par une liberté trop effrontée, ayant esté banny du
+                        Théatre, on y a laissé l’air le plus doux, &amp; le plus empoisonné de
+                        l’amour.</p>
+                    <p>C’est l’apas, où sont pris ceux, qui au reste veulent le bien, mais qui
+                        veulent aussi avoir part aux plus agréables divertissemens du siecle ; Et
+                        c’est ainsi, que cette mal-heureuse réformation, engage <pb n="380"
+                            xml:id="p380"/>plusieurs personnes de pieté dans un desordre, où l’on ne
+                        voyoit auparavant, que celles, qui avoient renoncé à la vertu.</p>
+                    <p>Cela veut dire enfin, que ce n’estoir pas assez au Démon, que les gens d’une
+                        conscience toute perdue fussent à luy, par le scandale d’un Thêatre infame ;
+                        si ceux, que quelque pieté rend recommandables, n’en estoient faits encore
+                        les victimes, par le poison inspiré de l’amour, qu’un nouveau Théatre aprend
+                        aujourd’huy, plus modestement, mais aussi plus malicieusement, qu’il ne fist
+                        jamais.</p>
+                    <trailer rend="i">FIN</trailer>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

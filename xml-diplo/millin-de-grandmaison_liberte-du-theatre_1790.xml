@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sur la liberté du théatre</title>
+                <author key="Millin de Grandmaison, Aubin-Louis (1759-1818"
+                    ref="https://data.bnf.fr/fr/12525262/aubin-louis_millin/">Aubin-Louis Millin de
+                    Grandmaison</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/millin-de-grandmaison_liberte-du-theatre_1790</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Aubin-Louis Millin de Grandmaison, <hi rend="i">Sur la Liberté du
+                    Théatre</hi>, <pubPlace>Paris</pubPlace>, <publisher>Lagrange</publisher>,
+                        <date>1790</date>, in-8, 60 p. PDF : <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k481767">Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1790"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="book">
+                <pb n="3" xml:id="p3"/>
+                <head>Sur la liberté du théatre.</head>
+                <p><hi rend="big">T</hi><hi rend="sc">ous</hi> les peuples de la terre ont des fêtes
+                    publiques et des spectacles ; toutes les nations policées ont des théâtres,
+                    qu’elles regardent à la fois comme des lieux de plaisir et d’instruction. Les
+                    hommes mêmes les moins éclairés, ceux qui ne lisent jamais, y prennent quelque
+                    teinture de la fable et de l’histoire, y puisent quelques préceptes de morale,
+                    et le philosophe y admire le développement et la peinture fidele de toutes les
+                    passions.</p>
+                <p>Le théâtre, comme délassement, comme instruction, comme lieu d’assemblée, n’est
+                    donc pas une chose indifférente ; mais il ne sçauroit être considéré de la même
+                    maniere dans un état libre et dans un état despotique.</p>
+                <p>Dans l’un, il doit être soumis à des loix ; dans l’autre, à des regles
+                    arbitraires.</p>
+                <p>Un gouvernement despotique doit beaucoup multiplier les plaisirs pour distraire
+                        <pb n="4" xml:id="p4"/>le peuple de ses maux, et lui en faire perdre le
+                    souvenir ; mais il doit établir dans les spectacles une police sévere, de peur
+                    que ces lieux d’assemblée ne deviennent un point de réunion où l’on puisse
+                    prendre des résolutions contre ses intérêts. Personne ne doit pouvoir y élever
+                    la voix ni parler au public<note n="1" place="bottom"><hi rend="sc">Tout</hi> le
+                        monde sait que M. Billard, auteur du <hi rend="sc">Suborneur</hi>, fut
+                        arrêté et enfermé un an à Charenton. Il avoit osé se lever sur un banc dans
+                        l’orchestre, haranguer le parterre, et le prendre pour juge du refus que les
+                        comédiens avoient fait de sa piece. A peine avoit-il achevé ces mots, <hi
+                            rend="sc">Messieurs, le comédien Préville</hi>…… que déjà il n’étoit
+                        plus libre. Aujourd’hui, on fait impunément des motions dans le parterre. Si
+                        elles sont ridicules, les huées et les sifflets les ont bientôt étouffées.
+                        Le public assemblé est tumultueux et peu poli, mais rarement il est
+                        injuste.</note>, excepté les acteurs. Des soldats doivent toujours empêcher
+                    que les témoignages de contentement ou de désapprobation ne soient trop
+                        vifs<note n="2" place="bottom">Ce fut contre la Morliere, fameux chef de
+                        cabale, que la police déploya d’abord tous ses moyens : avant lui, on
+                        jouissoit de plus de liberté au spectacle ; mais à cette époque le parterre
+                        étoit toujours rempli d’espions prêts à dénoncer un mot contre une piece ou
+                        contre une actrice comme un véritable attentat. Les ministres portoient même
+                        l’arbitraire de leur autorité jusqu’à interdire à quelques particuliers
+                        l’entrée des spectacles. Au moindre bruit, les sentinelles entroient par
+                        deux côtés, dans le milieu du parterre, et saisissoient, souvent par
+                        méprise, le voisin tranquille du spectateur qui siffloit ou applaudissoit :
+                        on le conduisoit au corps-de-garde, delà au châtelet, d’où il ne sortoit
+                        qu’avec un ordre du maréchal de Biron, et le vieux satrape faisoit beaucoup
+                        de difficultés pour le donner. Mais c’étoit sur-tout quand les gentilshommes
+                        de la chambre vouloient soutenir une mauvaise actrice, qui avoit pour eux
+                        des talens particuliers, qu’on déployoit toute la puissance des baïonnettes.
+                        La garde étoit doublée, vingt applaudisseurs à gages occupoient le milieu du
+                        parterre, et au moindre signe de désapprobation les soldats s’avançoient
+                        pour s’emparer de ceux qui avoient osé le donner. On n’étoit libre de
+                        siffler à son aise qu’aux premieres places. Jamais M. le maréchal de Duras
+                        n’avoit fait des dispositions plus savantes que quand il voulut chasser
+                        Mademoiselle Saint-Val., malgré le vœu du public. Les évolutions que les
+                        gardes-françoises firent alors dans le parterre, peuvent passer pour des
+                        chefs-d’œuvres de tactique.</note>, dans la crainte que le peuple ne
+                    s’accoutume à des mouvemens tumultueux<note n="3" place="bottom">Il est aisé aux
+                        despotes, de prévoir les premiers orages qui se forment contre leur
+                        puissance. Dès que le peuple s’agite, que loin d’être épouvanté au premier
+                        aspect de leurs satellites, il ose tenter une résistance, même inutile, ils
+                        doivent voir que leur joug devient insupportable, que les esprits
+                        s’électrisent par le frottement, et que leur injuste pouvoir sera renversé.
+                        Depuis près d’un an, avant la révolution, le peuple n’étoit plus si doux, si
+                        facile à conduire. Dans les lieux d’assemblée et dans les spectacles, il
+                        opposoit la résistance à la force armée, souvent il enlevoit les captifs des
+                        mains des gardes-françoises, et il les forçoit à les rendre. Je l’ai vu,
+                        dans ces derniers instans, former le siége d’un corps-de-garde. Ces
+                        premieres convulsions étoient les symptômes de la révolution qui s’est
+                        opérée.</note>.</p>
+                <p>Si les chefs d’un tel gouvernement laissent subsister un assez grand nombre de
+                    spectacles pour amuser le peuple, ils limitent pourtant ce nombre à cause de la
+                    difficulté qu’ils éprouveroient à les surveiller : delà l’établissement des
+                    priviléges accordés à l’intrigue par la faveur, et qui ont toujours été, pour
+                    les hommes en place, une source de prévarications de tous les genres.</p>
+                <p>En fixant à un très-petit nombre les grands théâtres, ils laissent sur-tout
+                    multiplier les petits spectacles, parce qu’ils ont pour eux l’avantage d’amuser
+                    le peuple sans <pb n="5" xml:id="p5"/>l’éclairer, et de le jeter, par la
+                    dépravation des mœurs, dans cette abjection, où il faut qu’il demeure pour être
+                    plus facilement gouverné.</p>
+                <p>C’est par une raison tout-à-fait semblable qu’ils établissent, sur les pieces des
+                    grands théâtres, la censure la plus sévere.</p>
+                <p>Quant à celles des petits spectacles, on leur permet d’être très licencieuses,
+                    pour vu qu’elles n’aient ni plan ni conduite ; si elles ne blessent pas le bon
+                    sens et la raison, le censeur les défend comme attentatoires aux priviléges des
+                    grands théâtres<note n="4" place="bottom">Après avoir passé à la censure de la
+                        police, les pieces des petits spectacles devoient encore éprouver celle des
+                        comédiens François et Italiens. Si les acteurs, chargés de cette censure,
+                        trouvoient la piece bien conduite, ils retranchoient quelques scenes, qui la
+                        privoient de l’enchaînement et de la suite qu’elle devoit avoir. Aussi
+                        quelle licence, quelle hardiesse, aux directeurs des petits spectacles,
+                        d’oser se permettre de représenter, comme au théâtre François, des pieces
+                        vraisemblables. Souvent les comédiens privilégiés ne souffroient que des
+                        scenes épisodiques Quelquefois ils retenoient pour leur théâtre une piece
+                        destinée aux petits spectacles. Mais le plus souvent ils jugeoient la piece
+                        trop au-dessus des petits spectacles, et trop au-dessous du leur ; alors ils
+                        la défendoient absolument, et elle n’étoit jouée nulle part.</note>.</p>
+                <p>Les censeurs doivent être choisis parmi les hommes qui se sont toujours montrés
+                    le plus pénétrés des principes de ce gouvernement ; et pour les y attacher
+                    davantage, on leur accorde des graces personnelles, dont la continuité et la
+                    stabilité dépendent entiérement du maintien de ces mêmes principes.</p>
+                <p>Ces précautions ne suffisent pas encore ; et malgré l’approbation du censeur, les
+                    réclamations d’un homme en place, d’un ambassadeur,<note n="5" place="bottom">M.
+                        d’Aranda, ambassadeur d’Espagne, a fait défendre <hi rend="sc">dom
+                            Carlos</hi>, tragédie de M. le Febvre, jouée chez Madame de Montesson,
+                        et que les comédiens François alloient représenter sur leur théâtre.
+                        Campistron, pour traiter le même sujet, avoit été obligé de placer la scene
+                        dans un autre pays, et d’appeler son héros <hi rend="sc"
+                        >Andronic</hi>.</note> d’un homme puissant suffisent pour empêcher la
+                    représentation.</p>
+                <p><pb n="6" xml:id="p6"/>La tragédie doit enseigner les grandes vérités politiques,
+                    et les vertus publiques.</p>
+                <p>Les auteurs tragiques sont donc obligés, s’ils veulent exprimer une idée forte,
+                    de tourmenter leur génie pour la couvrir du voile de l’allégorie. S’ils veulent
+                    parler de la religion, ils ne peuvent mettre en scone que les prêtres de
+                    Jupiter, d’Apollon et de Céres, des Druides, des Bonzes et des Bramines. S’ils
+                    veulent peindre le sublime amour de la liberté, c’est dans les républiques
+                    anciennes, chez les Grecs et chez les Romains qu’ils doivent puiser leur sujet ;
+                    et s’ils veulent exposer toutes les injustices et les atrocités d’un
+                    gouvernement despotique, ils ne peuvent guère offrir au spectateur que des
+                    Musulmans.</p>
+                <p>Si malgré toutes ces précautions la piece présente encore des rapprochemens trop
+                    aisés à faire, des allusions trop faciles à saisir, il est défendu aux comédiens
+                    de la jouer, et au public de l’entendre.<note n="6" place="bottom">La tragédie
+                        des <hi rend="sc">Druïdes</hi>, de M. Leblanc, fut défendue à la huitieme
+                        représentation, parce qu’on y voyoit la fille d’un roi prenant l’habit des
+                        vestales, et que, par une circonstance singuliere, Madame Louise, fille de
+                        Louis XV, venoit de se faire carmelite. <hi rend="sc">Ericie</hi> ou la <hi
+                            rend="sc">Vestale</hi>, par M. de Fontanelle, a été défendue pendant
+                        quinze ans, quoiqu’on la jouât dans toutes les provinces, parce que, sous
+                        cette allégorie, l’auteur s’étoit permis de peindre les dangers des vœux
+                        monastiques.</note>. Il faut que ces allégories, ces allusions ne puissent
+                    être senties, que par le petit nombre d’hommes extrêmement au courant, de sorte
+                    que la leçon est rarement reçue par ceux pour qui elle est faite.</p>
+                <p><pb n="7" xml:id="p7"/>Nous devons cependant convenir que cette gêne, comme celle
+                    de la rime, a quelquefois été la source de beautés, qu’une plus grande facilité
+                    de tout exprimer n’auroit pu produire.</p>
+                <p>Chez un peuple ainsi gouverné, il ne peut donc exister de tragédies vraiment
+                    nationales. On n’y peut guere exposer les grandes vérités qui intéressent la
+                    nation entiere, et l’éclaireroient sur ses droits ; on n’ose y débiter que des
+                    leçons d’une morale usée et commune ; la soumission aveugle au despotisme des
+                    rois y est réduite en principes, et fortifiée par des exemples ; on y déploie
+                    toutes ces idées gothiques et chevaleresques, qui n’ont pour fondement que des
+                    préjugés, et les vertus publiques qu’on y loue le plus, sont des traits d’un
+                    courage souvent inconsidéré, ou d’un faux honneur, qui, dans les états
+                    despotiques, tient lieu de vertus<note n="7" place="bottom"><p>Pour justifier
+                            cette assertion, je citerai quelques vers d’une tragédie, qui a été
+                            regardée comme vraiment nationale, et qui, à ce titre, a obtenu le plus
+                            grand succès.</p>
+                        <p>Dans le siége de Calais, Edouard, après avoir fait la peinture du
+                            gouvernement Anglois, s’écrie :</p>
+                        <quote>
+                            <l>Mais que voyois-je en France ? un roi, maître suprême,</l>
+                            <l>  En qui vous révérez la Divinité même :</l>
+                            <l>Des grands, que son pouvoir a seul rendu puissans ;</l>
+                            <l>  Du bras qui les soutient, apuis reconnoissans :</l>
+                            <l>Un peuple doux, sensible….. une famille immense,</l>
+                            <l>  A qui le seul amour dicte l’obéissance ;</l>
+                            <l>  Qui laisse tous ses droits à son pere asservis,</l>
+                            <l>Sûre qu’il veut toujours le bonheur de ses fils.</l>
+                            <bibl><hi rend="sc">Siege de Calais</hi>. Acte 3. Scene 2.</bibl>
+                        </quote></note>.</p>
+                <p>Le but de la comédie est de donner des leçons de morale et de vertus privées.</p>
+                <p>Comme dans ce genre d’ouvrage on ne discute guere les intérêts des gouvernemens,
+                    et qu’on n’y introduit que des hommes <pb n="8" xml:id="p8"/>d’une condition
+                    commune, il conserve plus de liberté que la tragédie. Mais en permettant à la
+                    comédie de verser le ridicule sur quelques états, il en est qu’elle ne peut
+                    attaquer. On y déchire la perruque d’un commissaire ; on y met <hi rend="i"
+                        >Sangsue</hi> aux prises avec <hi rend="i">Brigandeau</hi> ; mais on ne peut
+                    présenter un curé respectable à la vénération qu’il doit inspirer, ni exposer un
+                    prêtre fanatique à l’opprobre qu’il mérite<note n="8" place="bottom">Mélanie ;
+                        l’Honnête Criminel ; Comminges ; Jean Hennuyer, évêque de Lizieux, ont
+                        toujours été proscrits de la scene.</note>.</p>
+                <p>Si la comédie est du genre héroïque, si elle représente des hommes d’une
+                    condition plus élevée, elle est soumise aux mêmes entraves que la tragédie<note
+                        n="9" place="bottom">La Partie de Chasse d’Henri IV a été proscrite pendant
+                        tout le regne de Louis XV. On la jouoit cependant sur tous les théâtres
+                        particuliers ; mais il étoit défendu de l’offrir au peuple. Les ministres
+                        redoutoient la comparaison qu’il pourroit faire de ces deux rois. Cette
+                        leçon, que des courtisans prenoient pour une flatterie, étoit terrible, et
+                        capable de tirer ce sardanapale de sa stupeur, s’il en avoit au
+                        profiter.</note>.</p>
+                <p>Tel est l’état du théâtre sous un gouvernement despotique.</p>
+                <p>Tel étoit le nôtre avant la prise de la Bastille.</p>
+                <p>Cette forteresse, en tombant, a laissé échapper des idées de liberté, qu’elle
+                    sembloit tenir captives : ces idées se sont étendues à tout ; mais relativement
+                    au théâtre, l’esprit de curiosité a plus fait que la connoissance des
+                    principes.</p>
+                <p>Les comédiens Français ont donné <hi rend="i">Marie de Brabant</hi>, <hi rend="i"
+                        >Ericie</hi>, <hi rend="i">l’Honnête Criminel</hi>, <pb n="9" xml:id="p9"
+                    />et l’on a été surpris, de n’y pas trouver un seul vers qui pût alarmer la
+                    prudence des magistrats. Ces pieces ont même été jugées plus foibles, parce
+                    qu’on s’étoit figuré, qu’une fougueuse énergie avoit été le prétexte de leur
+                    proscription.</p>
+                <p>On avoit beaucoup entendu parler d’une tragédie de <hi rend="i">Charles IX</hi>,
+                    par <hi rend="sc">M. de Chénier</hi>. Le public a voulu voir sur la scene ce
+                    cardinal frénétique, un des plus ardens instigateurs de la St. Barthelemy. La
+                    lutte des préjugés contre les principes a été longue et vive<note n="10"
+                        place="bottom">On se rappelle la résistance de l’assemblée de la commune ;
+                        la lutte du district des Carmes et de celui des Cordeliers ; les bruits
+                        répandus que l’on s’égorgeroit dans la salle ; les pistolets que plusieurs
+                        spectateurs avoient dans leur poche, et cependant jamais représentation n’a
+                        été plus tranquille.</note> ; mais enfin, sans se rendre à la raison, ils
+                    ont cédé à la crainte, et les prêtres catholiques ont perdu avec tous les autres
+                    privileges, celui de ne pouvoir être exposés sur la scene tels qu’ils sont,
+                    vertueux ou fanatiques.</p>
+                <p>Cette époque étoit donc celle d’une révolution pour le théâtre François, et cette
+                    révolution a été le sujet de plusieurs ouvrages.</p>
+                <p>Ceux qui ont écrit les premiers, se sont d’abord occupés de réclamer pour les
+                    comédiens l’état civil, dont ils étoient privés par un injuste préjugé<note
+                        n="11" place="bottom">MM. de Chénier et Laya ont écrit sur ce sujet. Voyez
+                        aussi quelques lettres imprimées dans la <hi rend="sc">Chronique de
+                            Paris</hi>.</note>. L’assemblée <pb n="10" xml:id="p10"/>nationale a
+                    reconnu la justice de leurs droits, et ils ont obtenu le décret qu’ils
+                    desiroient.</p>
+                <p>On avoit lieu de croire que les comédiens, devenus citoyens actifs, électeurs et
+                    éligibles, élevés pour la plupart aux grandes militaires dans les bataillons de
+                    leurs districts, et ayant coopéré eux-mêmes par leur constance, leur assiduité,
+                    leur zele et leur courage à la révolution, qui nous a rendus libres, ne
+                    prétendroient pas jouir des bienfaits de la nouvelle constitution, et conserver
+                    les priviléges exclusifs, qui leur ont été accordés sous l’ancien régime.</p>
+                <p>C’est assurément ce qu’ils ne devoient pas faire.</p>
+                <p>C’est pourtant ce qu’ils ont fait<note n="12" place="bottom"><p>MM. Les comédiens
+                            François n’ont-ils pas fait quitter le titre de <hi rend="sc">Théatre
+                                François</hi> au théâtre du Palais-royal, comme si cet adjectif <hi
+                                rend="sc">François</hi> ne pouvoit pas être appliqué sans
+                            distinction à tous les théâtres, sur lesquels on ne parle ni hébreu, ni
+                            grec, ni latin, ni allemand, ni anglois, ni italien, etc.</p>
+                        <p>Ils ont fait plus, en présentant à l’assemblée de la commune un mémoire,
+                            par lequel ils réclament les priviléges exclusifs qui leur ont été
+                            accordés par Louis XIV et par Colbert ; ils veulent faire regarder
+                            l’extinction de ces priviléges comme la perte de l’art, et dans le même
+                            moment ils jouent <hi rend="sc">Les Trois Noces</hi>, piece ornée de
+                            musique et de danses, qui réunit les deux genres de l’opéra et de la
+                            comédie italienne. Il faut convenir qu’ils exécutent cet <hi rend="sc"
+                                >opéra comique</hi> à merveille, que Mesdemoiselles le Vienne, Joly
+                            et Lange chantent et dansent avec beaucoup de grace, et qu’on ne peut
+                            pas donner à des couplets plus d’esprit et d’expression que M.
+                            Dazincourt ; mais les succès qu’ils obtiennent, doivent leur prouver que
+                            la nature ne les ayant point bornés à un seul genre de talent, tout
+                            privilége, qui les empêcheroit de les déployer, seroit injuste et
+                            vexatoire, qu’il priveroit le public du plaisir qu’il trouve à les
+                            entendre, et qu’il les frustreroit des applaudissemens qui leur sont
+                            dus. Ils doivent réfléchir qu’il peut exister sur d’autres théâtres des
+                            êtres <hi rend="sc">privilégiés</hi> comme eux, sinon par le roi, du
+                            moins par la nature, et que ce seroit une souveraine injustice d’arrêter
+                            les efforts de leur zele pour obtenir les mêmes applaudissemens.</p>
+                        <p>Un homme de lettres, amateur du talent des comédiens ; mais ennemi des
+                            privileges, a fait au sujet des Trois Noces les vers suivans :</p>
+                        <quote>
+                            <l>Par ordre de la liberté,</l>
+                            <l>Que le temps rendra plus polie,</l>
+                            <l>Chez vous Melpomene et Thalie</l>
+                            <l>Diront enfin la vérité :</l>
+                            <l>Par nos suffrages enhardie</l>
+                            <l>Votre ardeur les secondera,</l>
+                            <l>Mais si vous chantez l’opéra,</l>
+                            <l>Ne chantez pas la tragédie.</l>
+                        </quote></note>.</p>
+                <p>Ils agissent en cela comme une femme qui seroit à-la-fois prude et galante, pour
+                    avoir les plaisirs du vice et les honneurs de la vertu.</p>
+                <p>Parmi les ouvrages, qui avoient pour unique but la réforme du théâtre, on doit
+                    principalement distinguer ceux de MM. de Chénier et de Cailhava.</p>
+                <p>Dans son traité <hi rend="i">de la Liberté du Théâtre</hi>, <pb n="11"
+                        xml:id="p11"/>ouvrage fortement écrit et profondément pensé, M. de Chénier
+                    n’a examiné qu’une partie du sujet, l’abolition de la censure.</p>
+                <p>M. de Cailhava, dans son dernier écrit, qui a pour titre : <hi rend="i">Les
+                        causes de la décadence du théâtre, et les moyens de le faire refleurir</hi>,
+                    a parfaitement démontré que cette décadence n’étoit occasionnée que par le
+                    défaut de rivalité et de concurrence ; mais plus littérateur que publiciste, il
+                    a moins considéré le grand intérêt de la conservation des principes qui tiennent
+                    à notre liberté, que son amour pour l’art dramatique qu’il a cultivé avec
+                    succès. Il propose l’établissement d’un second théâtre <hi rend="i"
+                        >privilégié</hi>. Il indique pour les divers théâtres des réunions, des
+                    séparations, des suppressions qu’il croit utiles, mais qui ne pourroient
+                    s’effectuer qu’en laissant agir une autorité absolue, arbitraire, et absolument
+                    opposée aux droits de la propriéte.</p>
+                <p>Le comité de constitution a rendu public son projet de loi pour la liberté de la
+                    presse, dont la liberté du théâtre est une partie très-essentielle. Ce projet,
+                    n’ayant pas été jugé assez favorable dans quelques points à <pb n="12"
+                        xml:id="p12"/>la liberte, a été retiré, et sera présenté avec des changemens
+                    quand l’assemblée nationale s’occupera de l’ordre judiciaire ; mais on y
+                    distingue que les commissaires ont déjà établi quelques-uns des principes
+                    relatifs à la liberté du théâtre, en déclarant que toutes les pieces imprimées
+                    doivent être communes aux différens théâtres cinq ans après la mort de
+                        l’auteur<note n="13" place="bottom"><quote><p><hi rend="sc"
+                                >Article</hi> XVIII. Les pièces de théâtre, soit imprimées, soit
+                                manuscrites, ne pourront être jouées sur aucun théâtre public
+                                pendant la vie de l’auteur, ou moins de cinq ans après sa mort, sans
+                                son consentement exprès et par écrit, ou de celui de ses ayans
+                                cause. Chaque infraction à la présente loi sera punie par des
+                                dommages et intérêts, d’une valeur égale à la recette totale de la
+                                réprésentation ; mais cinq ans après la mort de l’auteur, toutes ses
+                                pieces seront sensées un bien commun à tous les théâtres.</p>
+                            <p><hi rend="sc">Art.</hi> XIX. Les articles 14, 15, 16 et 17 regardent
+                                aussi la musique imprimée, et l’article 18 est commun à la musique
+                                de théâtre, imprimée ou manuscrite.</p>
+                            <p><hi rend="sc">Art</hi>. XX. Les comédiens, qui sont déjà en
+                                possession de jouer des ouvrages de musique et des pieces de
+                                théâtre, composés par des auteurs vivans, et sans leur consentement,
+                                seront obligés d’obtenir leur consentement, sinon ils seront tenus
+                                de payer à l’auteur une rétribution qui sera réglée par la
+                                municipalité ; et, dans ce dernier cas, le caissier du théâtre, ou
+                                toute autre personne indiquée par l’auteur, sera dépositaire de
+                                cette rétribution, pour en rendre compte à
+                        l’auteur.</p></quote></note>.</p>
+                <p>Ce projet, ces ouvrages ont réveillé tous les ennemis de la liberté du théâtre,
+                    et, par conséquent, de la liberté de la pensée la plus précieuse de toutes. Ils
+                    ont réuni leurs efforts à ceux des comédiens pour s’y opposer. Un grand nombre
+                    d’auteurs dramatiques s’est assemblé, et ils ont présenté au comité de
+                    constitution un mémoire qui n’est rempli que de vues personnelles et
+                    pécuniaires ; d’autres auteurs, dans la vûe d’intéresser les comédiens et d’être
+                    joués plus promptement, ont embrassé leur parti et ont défendu leurs priviléges,
+                    ou du moins, desirant en secret de les voir anéantir, ils n’ont pas osé les
+                    attaquer.</p>
+                <p>Ces considérations m’ont engagé à développer les principes que je crois les <pb
+                        n="13"/>seuls admissibles, sur la liberté du théâtre. Je ne discute pas
+                    l’étendue des priviléges respectifs des comédiens du Royaume<note n="14"
+                        place="bottom"><p>La connoissance de la hiérarchie dramatique étoit
+                            véritablement une science difficile à acquérir, et l’on ne sauroit trop
+                            admirer le génie fécond du ministre de Paris, pour trouver le moyen
+                            d’accorder de nouveaux priviléges sans enfreizidre les anciens.</p>
+                        <p>L’<hi rend="sc">Opéra</hi> ayant la suprématie, tous les autres théâtres
+                            lui étoient subordonnés, et il levoit sur eux, même sur le théâtre
+                            François et sur le théâtre Italien, un impôt assez considérable pour
+                            leur permettre de mauvais ballets.</p>
+                        <p>Les <hi rend="sc">Comédiens François</hi> ne pouvoient pas jouer des
+                            opéras comiques.</p>
+                        <p>Les <hi rend="sc">Comédiens Italiens</hi> ne pouvoient pas jouer des
+                            pieces sans musique. Ils en obtinrent ensuite la permission, pourvu
+                            qu’ils y conservassent toujours le personnage d’arlequin. Quand ils
+                            eurent chassé les véritables Italiens, qui étoient leurs peres, ils
+                            purent jouer des pieces sans musique, même en cinq actes, mais point de
+                            tragédie. Il étoit permis à l’acteur de s’évanouir, même de se blesser ;
+                            mais il lui étoit défendu de se tuer ou de mourir. Ces pieces devoient
+                            remplacer les cannevas Italiens, les mardis et les vendredis, et ces
+                            jours-là il leur étoit interdit, par l’opéra, de jouer des pieces en
+                            musique. Ils viennent d’obtenir du ministre de Paris la levée de cette
+                            défense. Et certes, ils doivent être très-reconnoissans de cet excès de
+                            bonté et d’indulgence.</p>
+                        <p>Ces trois grands théâtres, vexés réciproquement par leurs priviléges
+                            respectifs, vexoient encore plus les autres théâtres.</p>
+                        <p>Le <hi rend="sc">Théatre de Monsieur</hi> ne jouoit que des opéras
+                            Italiens, ou parodiés de l’Italien. Mais il étudoit la loi, en supposant
+                            que des opéras originaux étoient parodiés ; c’est ainsi qu’il joue l’<hi
+                                rend="sc">Isle enchantée</hi>, de M. Bruni, et le <hi rend="sc"
+                                >nouveau dom Quichotte</hi>, de M. Champein.</p>
+                        <p>Les comédiens de la cour ne pouvoient pas s’approcher de Paris de plus de
+                            deux lieues, ils jouoient à Saint-Cloud.</p>
+                        <p>Nous avons vu comment les grands théâtres exerçoient sur les petits la
+                                <hi rend="sc">Dictature</hi>, la <hi rend="sc">Censure</hi>, la <hi
+                                rend="sc">Découpure</hi>.</p>
+                        <p>Les <hi rend="sc">Varietés</hi> ne pouvoient jouer que des piéces en
+                            trois actes.</p>
+                        <p>M. <hi rend="sc">Nicolet</hi> étoit obligé de conserver ses danseurs de
+                            cordes.</p>
+                        <p>M. <hi rend="sc">Audinot</hi> n’a pu, pendant long-temps, faire parler
+                            que des marionettes ; on lui a permis ensuite de leur substituer des
+                            enfans.</p>
+                        <p>Les <hi rend="sc">Elèves de l’Opéra</hi> ne pouvoient d’abord jouer que
+                            des pantomimes. On leur permit ensuite, mais avec beaucoup de
+                            difficulté, quelques petites pieces.</p>
+                        <p>Ces divers théâtres ne pouvoient pas même chanter un pont-neuf ; et quand
+                            une chanson étoit nécessaire, l’acteur la récitoit, et les violons en
+                            jouoient l’air.</p>
+                        <p>Pour obtenir la permission de chanter, les entrepreneurs des <hi
+                                rend="sc">Beaujolois</hi> convinrent que leurs acteurs ne seroient
+                            que les gestes pendant que des musiciens chanteroient pour eux dans la
+                            coulisse.</p>
+                        <p>Comment imaginer de nouveaux subterfuges ? Les entrepreneurs des <hi
+                                rend="sc">Bleuettes</hi> trouverent la solution de ce problème ; ils
+                            se soumirent aux mêmes entraves que les Beaujolois, et de plus ils
+                            mirent une gaze entre eux et les spectateurs.</p>
+                        <p>Les <hi rend="sc">Associés</hi> jouoient des pieces de toute espece ;
+                            mais ils étoient obligés de les faire précéder par des marionettes.</p>
+                        <p>Les <hi rend="sc">Délassemens</hi> avoient aussi des marionettes ; mais,
+                            pour différer des associés, ils furent obligés d’adopter la gaze des
+                            bleuettes.</p>
+                        <p>Ces derniers spectacles étoient d’abord soumis à jouer la parade, ensuite
+                            on les obligea seulement a conserver toujours le <hi rend="sc">Théatre
+                                extérieur</hi>.</p>
+                        <p>Dans la rue Saint-Antoine, quelques amateurs jouoient la comédie. Le
+                            propriétaire de la salle voulut, pour retirer ses frais, louer les
+                            loges ; on lui fit les défenses les plus séveres ; enfin, à force de
+                            protections, il obtint ce qu’il desiroit, à condition qu’on ne
+                            commenceroit qu’à 7 heures, c’est-à-dire, une heure après les autres
+                            spectacles.</p>
+                        <p>C’est sans doute aussi pour ne pas enfreindre les priviléges, que
+                            M. Séraphin ayant donné à son spectacle le titre d’<hi rend="sc">Ombres
+                                Chinoises</hi>, Astley a nommé les siennes <hi rend="sc">Ombres
+                                Angloises</hi>.</p>
+                        <p>Enfin les curiosités, les spectacles ambulans étoient grévés, sinon de
+                            priviléges, du moins de permissions qui ne s’obtenoient qu’à prix
+                            d’argent.</p>
+                        <p>Je ne finirois pas si je voulois rapporter toutes les entraves
+                            réciproques, les redevances mutuelles, imposées aux divers
+                            spectacles.</p>
+                        <p>Comment suivre cette échelle, cette graduation de priviléges et ses
+                            ramifications ? Aussi étoit-elle sans cesse la source de débats, de
+                            réclamations toujours décidées à l’avantage de celui qui payoit le
+                            plus.</p>
+                        <p>Anéantissez les priviléges, plus de querelles, plus de procés ; chacun
+                            jouira des fruits de son industrie, et ne devra compte qu’à la loi.</p>
+                        <p>Ne consultez pas les directeurs de ces différens théâtres, ils vous
+                            diront qu’il faut supprimer tous les priviléges qui les gênent, mais que
+                            le leur est une propriété qu’ils ont acquise ; ils vous montreront les
+                            arrêts du conseil qu’ils ont obtenus, les contrats de cession, etc.
+                            etc.</p>
+                        <p>C’est ainsi que l’armée patriotique de Bordeaux, demande, dans son
+                            adresse, la suppression des priviléges des compagnies des Indes et du
+                            Sénégal, et la conservation de ceux de la ville de Bordeaux et de la
+                            Guyenne.</p>
+                        <p>C’est ainsi que raisonnent et que raisonneront toujours les
+                            privilégiés.</p></note> je ne les regarde tous que comme des monumens du
+                    despotisme que l’on avoit su introduire jusques dans les choses les plus
+                    frivoles. J’examine seulement quel doit être le théâtre dans notre nouvelle
+                    constitution, et quelle est l’espece de liberté qui lui convient.</p>
+                <p>Pour procéder avec plus de méthode, je diviserai cette importante question en six
+                    questions principales :</p>
+                <p>1°. Tous les hommes ont-ils indistinctement le droit d’élever un théâtre ?</p>
+                <p>2°. Peut-on prescrire aux entrepreneurs des théâtres les quartiers et les lieux
+                    où ils doivent les placer ?</p>
+                <p>3°. Peut-on leur défendre de s’établir dans des quartiers ou des lieux
+                    particuliers ?</p>
+                <p>4°. Les genres doivent-ils être fixés ?</p>
+                <p>5°. Les pieces imprimées doivent-elles être communes à tous les théâtres après la
+                    mort des auteurs ?</p>
+                <p>6°. La censure doit-elle être exercée sur le théâtre ?</p>
+                <pb n="14" xml:id="p14"/>
+                <div2 type="section">
+                    <head>§. I. <hi rend="i">Tous les hommes ont-ils, indistinctement, le droit
+                            d’établir un théâtre ?</hi></head>
+                    <p>Je ne conçois pas qu’un homme qui a lu la déclaration des droits, quelque
+                        pénétré qu’il soit de la rouille des préjugés, puisse être pour la
+                        négative.</p>
+                    <p>Tous les hommes sont égaux en droits. Ainsi tout privilége exclusif ne
+                        sçauroit exister, puisqu’il priveroit absolument tous les citoyens des
+                        droits qu’il attribueroit à un petit nombre de citoyens.</p>
+                    <p>Tout ce qui peut nuire est défendu par la loi.</p>
+                    <p>Le théâtre ne sçauroit donc pas nuire, puisqu’il n’est pas défendu par la
+                        loi.</p>
+                    <p>La liberté consiste à pouvoir faire tout ce qui n’est pas défendu par la
+                        loi.</p>
+                    <p>Il est donc permis d’élever un théâtre, puisque le théâtre n’est pas défendu
+                        par la loi.</p>
+                    <p>La loi ne sçauroit défendre à un citoyen ce qu’elle permet à un autre.</p>
+                    <p>Si un seul homme peut élever un théâtre, tous les autres hommes ont donc le
+                        même droit.</p>
+                    <p><pb n="15" xml:id="p15"/>Ces principes ne sçauroient être contestés par
+                        personne ; mais ceux qui se montrent contraires à la liberté du théâtre,
+                        prétendent que, dans ce cas, leur application est dangereuse.</p>
+                    <p>Aucune application d’une loi n’est dangereuse, ou la loi n’est pas bonne dans
+                        toutes ses parties, et il faut que le corps législatif la refasse, ou y
+                        ajoute un article relatif au cas qu’elle n’avoit pas prévu.</p>
+                    <p>Mais il n’y a pas encore de loi qui permette à tout le monde d’élever un
+                        théâtre.</p>
+                    <p>Il n’y en a pas non plus qui le défende ; des priviléges ne sont pas des
+                        loix.</p>
+                    <p>Tout ce qui n’est pas défendu, par la loi, est permis par la loi.</p>
+                    <p>Ainsi, en s’attachant rigoureusement aux principes, il demeurera démontré que
+                        tous les hommes, étant égaux en droits, ont celui d’élever un théâtre, comme
+                        d’élever une boutique, d’exploiter une mine, d’établir une manufacture,
+                        etc.</p>
+                    <p>Ces principes sont incontestables, il ne s’agit donc plus que de rédiger une
+                        bonne loi qui punisse les abus qu’on en pourroit faire.</p>
+                    <p>Cette loi est bien difficile à poser :</p>
+                    <p><pb n="16" xml:id="p16"/>Sans doute, elle est difficile, mais elle est
+                        possible ; car par-tout où je conçois un délit, je conçois une peine contre
+                        ce délit, et par conséquent une loi qui détermine cette peine.</p>
+                    <p>Il suffit donc d’établir le principe pour démontrer, que la liberté du
+                        théâtre ne peut être genée sans porter atteinte à la liberté de penser.</p>
+                    <p>Mais je veux bien encore réfuter les objections banales que l’on peut faire
+                        contre l’application de ce principe.</p>
+                    <p>On avance d’abord que les spectacles ne pouvant pas être très-nombreux, la
+                        prohibition porte sur trop peu d’individus, pour être nuisible à la
+                        société.</p>
+                    <p>Mais c’est la disposition même d’une loi qui fait qu’elle est juste ou
+                        injuste, et non le nombre plus ou moins grand des individus qu’elle
+                        concerne :</p>
+                    <p>Si les spectacles sont nombreux, l’injustice des priviléges est plus
+                        grande.</p>
+                    <p>Si ils sont peu nombreux, ce n’est pas même la peine de commettre une
+                        injustice.</p>
+                    <p>Il est faux d’ailleurs que les priviléges portent sur peu d’individus,
+                        puisqu’ils <pb n="17" xml:id="p17"/>gênent dans leurs plaisirs les amateurs
+                        nombreux des spectacles.</p>
+                    <p>Ceux qui conviennent de la nécessité de la concurrence pour les progrès de
+                        l’art dramatique, prétendent qu’on doit se borner à l’érection d’un autre
+                        grand théâtre.</p>
+                    <p>Certes sous le déspotisme des ministres de Paris, et des gentilshommes de la
+                        chambre, l’établissement d’un second théâtre, c’est-à-dire, la concession
+                        d’un second privilége, étoit tout ce que l’on concevoit de mieux, parce que
+                        l’on ne pouvoit pas prévoir qu’un jour les priviléges seroient anéantis.
+                        Pendant vingt ans, les gens de lettres et les amateurs ont sollicité, sans
+                        succès, ce second théâtre, et l’on n’imagine pas aujourd’hui comment il a pu
+                        éprouver tant de difficultés.</p>
+                    <p>A présent, ceux-mêmes qui ont empêché le second théâtre par tant de moyens,
+                        sentent bien que tous les priviléges absolument exclusifs doivent être nuls,
+                        et ils en sollicitent l’établissement, dans la seule vûe de s’opposer à la
+                        liberté indéfinie du théâtre.</p>
+                    <p>Dans quelques années, quand on aura joui de cette liberté, on ne concevra pas
+                            <pb n="18"/>plus qu’elle aie pu éprouver des obstacles, que l’on ne
+                        conçoit aujourd’hui comment, dépuis vingt ans, on n’a pas un second
+                        théâtre.</p>
+                    <p>Créer un second théâtre, c’est accorder un second privilége, et non pas les
+                        anéantir ; c’est faire beaucoup pour un second entrepreneur, ou une seconde
+                        société ; mais rien pour la liberté, rien pour l’art dramatique : car point
+                        d’art quelconque sans liberté.</p>
+                    <p>Créer un second théâtre, c’est partager l’empire, et non pas briser ses
+                        fers.</p>
+                    <p>Qui prescrira, en matiere de priviléges, quel est le terme où l’on doit
+                        s’arrêter ? qui décidera si un troisieme demandeur, un quatrieme, un
+                        cinquieme n’ont pas un droit égal à la concurrence ?</p>
+                    <p>La prudence du magistrat.</p>
+                    <p>Sa prudence, c’est sa volonté, et sa volonté n’est pas la loi.</p>
+                    <p>Un privilége pour un second théâtre, est un arrêt d’exclusion pour un
+                        troisieme.</p>
+                    <p>Un privilége pour un troisieme théâtre, est un arrêt d’exclusion pour un
+                        quatrieme.</p>
+                    <p>Et l’on oseroit ainsi fermer la carriere, <pb n="19" xml:id="p19"/>limiter le
+                        nombre des concurrens, et fixer des bornes à l’industrie, au talent et au
+                        génie.</p>
+                    <p>Il seroit dangereux de souffrir un plus grand nombre de théâtres.</p>
+                    <p>Quel seroit ce danger ?</p>
+                    <p>Paris seroit bientôt rempli de théâtres.</p>
+                    <p>Qu’importe ?</p>
+                    <p>Cette multiplicité de théâtres entraînera la chute de l’art.</p>
+                    <p>Avancer que le grand nombre des acteurs nuira aux progrès de la déclamation,
+                        c’est comme si l’on disoit que le grand nombre des auteurs dramatiques est
+                        la cause de la décadence du théâtre.</p>
+                    <p>La multiplicité des petits spectacles est dangereuse pour le peuple ; elle
+                        corrompt ses mœurs, et favorise la paresse.</p>
+                    <p>Je conviens que, si l’on trouvoit un moyen de forcer tous les paresseux d’un
+                        empire à travailler, il s’enrichiroit du produit de leur travail et de leur
+                        industrie, et que la misere y seroit moins grande. Mais il est impossible de
+                        contraindre la nonchalance et la paresse à devenir actives et laborieuses ;
+                        et il y a, dans Paris, une multitude d’hommes qui ne <pb n="20" xml:id="p20"
+                        />sont jamais occupés le soir, et qui inondent les quais, les billards, les
+                        cabarets, etc.</p>
+                    <p>Les perruquiers, les domestiques sont de ce nombre ; et ce sont eux qui, avec
+                        les hommes désoccupés, remplissent les petits spectacles<note n="15"
+                            place="bottom">Les Délassemens, les associés, et les autres petits
+                            spectacles des boulevards, sont remplis, les jours d’opéra, par les
+                            domestiques qui attendent leurs maîtres. Ceux qui préferent ces
+                            plaisirs, sont ordinairement les plus sages et les plus exacts. Ils y
+                            demeurent, pour 6 sols, jusqu’à l’heure de la sortie de l’opéra, tandis
+                            que beaucoup de leurs camarades perdent dans les billards, ou dépensent,
+                            avec des filles ou au cabaret, des sommes fort au-dessus de leurs
+                            facultés ; et ce dérangement les conduit souvent à des actions basses
+                            pour eux, et dangereuses pour leurs maîtres.</note>.</p>
+                    <p>Ne vaudroit-il pas mieux qu’on jouât sur ces théâtres, pour un prix modique,
+                        les pieces de nos bons auteurs, que de débiter au peuple ces pieces infâmes
+                        qui lui inspirent le goût du vice, au lieu de l’amour des vertus.</p>
+                    <p>Ces petits spectacles, à un très-bas prix, ne sauroient nuire aux grands
+                        théâtres ; car aucun de ceux qui les suivent, ne pourroient supporter de
+                        voir jouer les mêmes pieces aux délassemens, aux associés, etc.</p>
+                    <p>Pourquoi voudroit-on priver le peuple des jouissances que se procurent les
+                        autres hommes ? Pourquoi ne pourroit-il pas rire à <hi rend="i">George
+                            Dandin</hi>, et pleurer à <hi rend="i">Zaïre</hi>, pour 6 et 12 sols,
+                        puisque le prix des autres théâtres lui en interdit l’entrée ?</p>
+                    <p>C’est déshonorer la scene et les chefs-d’œuvres des grands hommes.</p>
+                    <p><pb n="21" xml:id="p21"/>Déshonore-t-on la peinture, parce qu’on vend des
+                        tableaux sur le pont-au-change et sur le port au bled ?</p>
+                    <p>Déshonore-t-on <hi rend="i">Vernet</hi>, parce qu’on y expose des copies de
+                        ses marines ?</p>
+                    <p>Le peuple n’est pas capable de sentir ces chefs-d’œuvres.</p>
+                    <p>Ceux qui avancent cette assertion, n’ont jamais assisté à un spectacle <hi
+                            rend="i">gratis</hi> ; les traits gais et touchans, les belles
+                        situations, y sont toujours saisis avec justesse et promptitude, et vivement
+                        applaudis.</p>
+                    <p>Le peuple n’iroit pas à ces spectacles ; il n’aime que les farces.</p>
+                    <p>Si le peuple n’alloit pas à ces spectacles, leur établissement cesseroit
+                        bientôt, et ne pourroit causer aucun ombrage ; mais, loin que le peuple
+                        cherche les farces, il est certain que, dans les petits spectacles, les
+                        traits de vertu et de courage les plus exagérés, exprimés avec le plus
+                        d’emphase et d’invraisemblance, sont ceux qu’il entend avec le plus de
+                        plaisir.</p>
+                    <p>Les gens du monde, dégoûtés du beau, ne viennent à ces spectacles que pour
+                        ces traits dont la licence et la trivialité forcent <pb n="22" xml:id="p22"
+                        />le rire, et ce sont eux qui se plaîgnent de ce que la morale s’introduit
+                        même dans les petits spectacles, et de ce qu’elle y est ennuyeuse, tandis
+                        que le peuple témoigne sa satisfaction de la maniere la moins équivoque<note
+                            n="16" place="bottom">Pendant plusieurs années on a joué aux Associés
+                            toutes les pieces du théâtre François, sous d’autres titres : <hi
+                                rend="sc">Le Pere de Famille</hi>, s’appeloit les <hi rend="sc"
+                                >Embarras du ménage</hi>, <hi rend="sc">Béverley</hi>, la <hi
+                                rend="sc">Passion du Jeu</hi>, <hi rend="sc">Zaïre</hi>, le <hi
+                                rend="sc">Grand Turc mis a mort</hi>, et le peuple suivoit tellement
+                            ce spectacle, qu’en peu d’années les directeurs, qui avoient commencé
+                            sur des treteaux, ont a été en état de faire bâtir une assez jolie
+                            salle. Aujourd’hui que ces pieces leur sont défendues, ils jouent tous
+                            les drames de M. Mercier, et ceux de M. de Falbaire, la <hi rend="sc"
+                                >Révolution de Portugal</hi>, l’<hi rend="sc">Epouse vertueuse</hi>
+                            et d’autres pieces imprimées ou manuscrites, qui ne se jouent pas sur
+                            les autres théâtres. Le peuple suit et applaudit, à l’ambigu comique, le
+                                <hi rend="sc">Soufflet</hi>, les <hi rend="sc">Dragées d’un jeune
+                                Prince</hi>, la <hi rend="sc">Conspiration manquée</hi>, etc. Aux
+                            grands danseurs du roi, l’<hi rend="sc">Honnête Huissier</hi>, le <hi
+                                rend="sc">Voleur converti</hi>, le <hi rend="sc">Héros
+                                Américain</hi>, les <hi rend="sc">Enfans du Soleil</hi>, piece dans
+                            laquelle l’auteur a enchâssé plusieurs morceaux du poëme des <hi
+                                rend="sc">Incas</hi>, de M. de Marmontel ; enfin aux délassemens, on
+                            ne voit sur l’affiche que <hi rend="sc">Louis XII</hi> ; <hi rend="sc"
+                                >Robert le Fort</hi> ; <hi rend="sc">Pharamond</hi>, etc. Voilà les
+                            pieces que le peuple suit, les titres qui l’attirent, tandis que les
+                            gens du monde ne courent qu’aux pieces ordurieres.</note>.</p>
+                    <p>Puisqu’il n’est pas de moyens de forcer la paresse au travail, il ne faut
+                        donc pas fermer les spectacles au peuple ; tâcher qu’ils deviennent pour
+                        lui, sans qu’il s’en apperçoive, un lieu d’instruction publique ; c’est la
+                        seule maniere de les rendre utiles, au lieu d’être dangereux.</p>
+                    <p>Il faut donc, pour arriver à ce but, leur laisser toute liberté ; en bannir
+                        la licence, non par la censure et les prohibitions, mais par des loix sages
+                        et séveres. C’est ainsi que le peuple perdra cette grossiereté de langage si
+                        rebutante, et cette barbarie révoltante qui lui a fait souiller de sang la
+                        plus belle des révolutions.</p>
+                    <p>Pourquoi le peuple d’Athenes, qui n’avoit pas la faculté de lire, parce que
+                        l’imprimerie n’existoit pas, et que les copies des manuscrits coûtoient trop
+                        cher, étoit-il le peuple le plus poli, et parloit-il un <pb n="23"
+                            xml:id="p23"/>langage si épuré ? C’est qu’il se formoit aux théâtres, où
+                        tous les citoyens, sans distinction, étoient admis ; dans les fêtes
+                        publiques, où les grands poëtes et les grands historiens récitoient leurs
+                        belles compositions et disputoient le prix ; et dans les places publiques où
+                        il entendoit l’éloquence, tantôt douce, tantôt foudroyante, de ses
+                        orateurs.</p>
+                    <p>Voilà pourquoi une marchande d’herbes d’Athenes reconnut, à un seul mot, que
+                        Théophraste étoit étranger.</p>
+                    <p>Il est inutile de répondre à ceux qui prétendent que les troupes seroient
+                        trop fatiguées par la garde qu’il faudroit faire. On sait combien les
+                        soldats recherchent la garde des spectacles, qui leur vaut un surcroît de
+                        paie.</p>
+                    <p>La multiplicité des spectacles ne sauroit donc être dangereuse.</p>
+                    <p>Mais quand il seroit vrai qu’elle auroit des inconvéniens, je pourrois encore
+                        répondre à ce raisonnement : la liberté du théâtre est précisément ce qui en
+                        empêchera la multiplicité.</p>
+                    <p><pb n="24" xml:id="p24"/>Ils pourront se multiplier par le droit ; mais le
+                        nombre en sera toujours borné par le fait.</p>
+                    <p>L’établissement d’un théâtre exige un emplacement, une salle, des magasins
+                        d’habits et des acteurs. Toutes ces choses nécessitent des frais
+                        considérables ; et quand les priviléges n’existeront plus, il n’y aura qu’un
+                        espoir presqu’assuré de réussir qui pourra engager les capitalistes à prêter
+                        des fonds. On verra d’abord une lutte d’efforts et de succès ; mais
+                        l’avantage demeurera nécessairement à ceux qui réuniront le plus de moyens
+                        pour plaire au public ; c’est son suffrage seul, et non pas le caprice des
+                        magistrats qui doit fixer les places.</p>
+                    <p>Ces efforts impuissans entraîneront la ruine de quelques particuliers ; et le
+                        gouvernement doit veiller en pere sur les propriétés des citoyens comme sur
+                        leur vie.</p>
+                    <p>Sans doute, un bon gouvernement doit avoir des loix générales, qui protegent
+                        les propriétés et les défendent de la fraude et de l’injustice ; mais cette
+                        prévoyance si utile, si nécessaire deviendroit la plus accablante des
+                        tyrannies, si elle rendoit les <pb n="25" xml:id="p25"/>magistrats juges des
+                        spéculations particulieres.</p>
+                    <p>Défendre à des directeurs d’élever un théâtre, sous prétexte que cette
+                        entreprise les ruinera seroit une action aussi ridicule que d’empêcher un
+                        spéculateur d’un autre genre d’exploiter une mine, sous prétexte que le
+                        filon qu’il veut travailler n’est pas aussi riche qu’il le pense, et ne le
+                        dédomagera pas de ses frais.</p>
+                    <p>Chacun est maître de disposer à son gré de sa fortune.</p>
+                    <p>De la sienne, oui ; de celle des autres, non ; et ces faux spéculateurs
+                        entraîneront les capitalistes dans leur ruine.</p>
+                    <p>Tout homme qui associe un autre homme à une spéculation ne le ruine pas ; ils
+                        se réunissent pour partager les bénéfices ou les pertes de l’entreprise ;
+                        ils s’enrichissent ou se ruinent ensemble : des loix qui empêcheroient ces
+                        associations, ces compagnies, jusqu’à ce que les magistrats s’en fussent
+                        rendu les juges, frapperoient d’inertie le commerce et l’industrie.</p>
+                    <p>Ces considérations ridicules étoient celles que le garde-des-sceaux, le
+                        directeur, <pb n="26" xml:id="p26"/>et le secrétaire de la librairie
+                        faisoient valoir, pour empêcher les journaux. Aujourd’hui chacun peut faire
+                        un journal, avec plus ou moins de succès : cependant aucun journaliste n’a
+                        encore exposé son bilan.</p>
+                    <p>Mais ce sont les priviléges qui ruinent les entrepreneurs et les
+                        compagnies.</p>
+                    <p>Malgré l’étendue des priviléges, l’opéra coûte un argent prodigieux au
+                        gouvernement, et jamais la recette n’a été au niveau de la dépense.</p>
+                    <p>Malgré leurs priviléges, MM. les comédiens François et Italiens ont des
+                        dettes si énormes, qu’ils sont aujourd’hui fort embarassés pour y
+                        satisfaire.</p>
+                    <p>Quant aux autres spectacles, il est certain que le possesseur d’un privilége
+                        qui permet à lui seul de faire ce qui est défendu à tous les autres, ne
+                        manquera jamais de trouver des capitalistes qui s’associeront à son
+                        entreprise. C’est ainsi que MM. l’Ecluse et Malter, les premiers
+                        entrepreneurs des Variétes, se sont ruinés ; que ceux actuels ont eu
+                        beaucoup de peine à faire prospérer cette entreprise, dont le succès seroit
+                        peut-être encore incertain sans l’heureuse <pb n="27" xml:id="p27"
+                        />situation de leur salle : c’est ainsi que le théâtre des éleves de l’opéra
+                        a tombé, que Torré et les entrepreneurs du colisée ont fait banqueroute, que
+                        les Beaujolois peuvent à peine se soutenir, et que le Cirque et le Panthéon
+                        auront le même sort.</p>
+                    <p>Ce sont donc les priviléges qui enfantent pour les théâtres les inconvéniens
+                        que, selon leurs défenseurs, ils doivent empêcher. Quand le théâtre sera
+                        libre, les capitalistes ne seront plus séduits par l’exclusivité, ils
+                        peseroient mieux les dangers de l’entreprise, et la fortune des particuliers
+                        sera beaucoup moins exposée.</p>
+                    <p>Ainsi la suppression des priviléges dramatiques sera utile aux auteurs qui ne
+                        peuvent être joués que sur un seul théâtre, aux acteurs qui ne peuvent jouer
+                        que sur un seul théâtre, aux ouvriers de tous genres qui ne peuvent
+                        travailler que pour un seul théâtre, et au public qui jouira de l’effet
+                        heureux que produira la concurrence, et ne sera pas forcé à ne voir les
+                        pieces de Moliere et de Racine que sur un seul théâtre<note n="17"
+                            place="bottom">Depuis long-temps les gens de lettres se plaingent de ce
+                            que les comédiens sont seuls les maîtres d’admettre ou de refuser les
+                            pieces qu’on leur présente, et ils ont raison. Il est certain que les
+                            comédiens étant privilégiés, il est impossible d’appeler de leurs
+                            arrêts. Mais quand la liberté du théâtre sera admise, toutes ces
+                            querelles entre les différens spectacles, entre les acteurs, entre les
+                            auteurs et les comédiens, cesseront, les comédiens seront alors, avec
+                            justice, les maîtres de recevoir une piece comme on sera maître de la
+                            leur donner. S’ils abandonnent une piece, sous prétexte qu’elle ne leur
+                            produit rien, cet abandon rendra à l’auteur la permission de la porter
+                            sur un autre théâtre, ou on la fera valoir. C’est ainsi que plusieurs
+                            ouvrages, perdus à jamais pour le public, reparoîtront et augmenteront
+                            ses plaisirs.</note>.</p>
+                    <p>La suppression des priviléges ne sera fâcheuse que pour les comédiens,</p>
+                    <p><pb n="28" xml:id="p28"/>Leur conservation n’étoit donc utile qu’aux
+                            comédiens<note n="18" place="bottom">MM. les comédiens François, après
+                            avoir avancé dans leur adresse, page 7, qu’une seconde troupe nuiroit
+                            aux progrès de l’art dramatique, ajoutent : « On ne peut se rappeler,
+                            sans émotion, le succès momentané qu’usurpa Pradon sur le divin
+                            Racine ». Ils n’ont donc pas lu l’histoire de leur théâtre ; ils ne
+                            savent donc pas que la <hi rend="sc">Phedre</hi> de Pradon, qui fut
+                            préférée par une cabale de beaux esprits à la <hi rend="sc">Phedre</hi>
+                            de Racine, fut donnée pour la premiere fois en 1676, et celle de Racine
+                            en 1677 et qu’ainsi Pradon auroit toujours en l’avantage, et que Racine
+                            n’auroit pas réussi à faire jouer sa <hi rend="sc">Phedre</hi>, s’il u’y
+                            avoit pas eu deux troupes.</note>.</p>
+                    <p>Il en est ainsi de tous les priviléges ; ils ne sont bons que pour les
+                        privilégiés.</p>
+                </div2>
+                <div2 type="section">
+                    <head>§. II. <hi rend="i">Doit-on prescrire aux entrepreneurs des différens
+                            Spectacles les quartiers et les lieux où ils doivent les
+                        placer.</hi></head>
+                    <p><hi rend="sc">Il</hi> est certain qu’il seroit plus avantageux qu’il y eût
+                        des théâtres dans les différens quartiers, que de les voir tous se réunir
+                        dans un seul.</p>
+                    <p>C’est pourtant ce qui pourra arriver, si on leur laisse une liberté absolue ;
+                        ainsi les magistrats doivent avoir l’autorité de leur fixer les quartiers où
+                        ils doivent s’établir.</p>
+                    <p>Aucunement.</p>
+                    <p>L’intérêt des directeurs de spectacles, l’unique objet pour lequel ils
+                        travaillent, est celui de gagner de l’argent ; ainsi ils s’établissent dans
+                        les lieux où ils esperent parvenir plus sûrement à ce but. Quelques <pb
+                            n="29" xml:id="p29"/>personnes du marais, du faubourg St.-Germain, de la
+                        Cité, demandent un spectacle, mais ces spectacles seroient sans
+                        spectateurs.</p>
+                    <p>Il seroit très-incommode, sans doute, que les boulangers fussent réunis dans
+                        un seul endroit ; eh bien, ils sont dispersés dans les différens quartiers ;
+                        pourquoi ? parce que par-tout on a besoin de manger et que partout ils
+                        trouvent à vendre.</p>
+                    <p>Dans tous les lieux où il y a des acheteurs, il y a des marchands ; par-tout
+                        où il y aura des spectateurs, il y aura des théâtres.</p>
+                    <p>Il seroit injuste d’ordonner à un marchand de s’établir dans un endroit où il
+                        ne trouveroit pas à vendre.</p>
+                    <p>La police a fait l’impossible pour établir un marché, rue d’Aguesseau,
+                        pourquoi n’y a-t-elle pas réussi ? c’est qu’il n’y a pas d’acheteurs.</p>
+                    <p>Que les habitans d’un quartier offrent à un entrepreneur des soumissions
+                        assez considérables pour le fixer dans son centre, il s’y établira bientôt
+                        un spectacle ; mais c’est à lui seul à choisir le lieu qui lui convient
+                        davantage.</p>
+                </div2>
+                <div2 type="section">
+                    <pb n="30" xml:id="p30"/>
+                    <head>§. III. <hi rend="i">Peut-on empêcher un théâtre de s’établir dans un
+                            quartier ou dans un lieu particulier</hi> ?</head>
+                    <p><hi rend="sc">La</hi> loi ne peut pas forcer un homme à faire ce qui est
+                        utile aux autres hommes ; mais elle peut l’empêcher de faire ce qui leur
+                        nuiroit.</p>
+                    <p>Ainsi elle ne peut pas forcer un entrepreneur de spectacle à s’établir dans
+                        un quartier ; mais elle pourroit l’empêcher de s’établir dans un lieu
+                        particulier, si, dans ce lieu, il pouvoit nuira à d’autres hommes.</p>
+                    <p>Les magistrats peuvent donc leur interdire les rues trop étroites, les
+                        endroits où il y a peu de débouchés, peu de place pour ranger les voitures,
+                        et ceux où les maisons trop mal construites et trop rapprochées, seroient
+                        trop exposées aux incendies ; afin que la sûreté et la vie des citoyens ne
+                        soient pas compromises.</p>
+                    <p>Il ne peut pas exister d’autres motifs d’interdiction.</p>
+                    <p>Mais, pourra-t-on permettre à un spectacle de s’établir à côté d’un
+                        autre ?</p>
+                    <p><pb n="31" xml:id="p31"/>Assurément, si la sureté publique n’y est pas
+                        intéressée.</p>
+                    <p>Un marchand d’étoffes peut-il défendre à un autre marchand d’étoffes de
+                        devenir son voisin ? Non. sans doute ; celui qui aura des étoffes de
+                        meilleur goût, un magasin mieux décoré, des commis plus polis, et qui vendra
+                        à meilleur marché, méritera la préférence, et sera sûr de l’obtenir.</p>
+                    <p>Il en est de même des spectacles.</p>
+                    <p>Si un entrepreneur ne veut pas avoir des voisins trop près de lui, je ne
+                        connois qu’un moyen, c’est d’acheter tout un quartier, et de se fixer au
+                        centre.</p>
+                    <p>A Londres, les deux grands spectacles sont très-près l’un de l’autre, et
+                        cette proximité n’a jamais été l’objet d’aucune réclamation.</p>
+                    <p>Une loi qui banniroit un spectacle du voisinage d’un autre, nuiroit
+                        également, et à l’entrepreneur qui voudroit acheter un terrein, et à celui
+                        qui voudroit le vendre ; il se peut qu’un propriétaire eut un terrein si
+                        bien placé pour l’établissement d’un spectacle qu’il le vendit deux cent
+                        mille francs à un directeur, tandis qu’autrement il ne <pb n="32"
+                            xml:id="p32"/>le vendroit pas la moitié, et que peut-être même il ne le
+                        vendroit pas du tout.</p>
+                    <p>Il n’y a donc que la sûreté publique qui puisse faire exclure un théâtre d’un
+                        lieu particulier<note n="19" place="bottom">MM. les comédiens Italiens ne
+                            sont donc pas fondés à empêcher le théâtre de Monsieur de s’établir, rue
+                            des filles Saint-Thomas, parce que cette rue est trop voisine de leur
+                            spectacle. Comment détermineroient-ils la distance à laquelle il seroit
+                            permis de les approcher. Ils ont encore moins de droit de solliciter la
+                            destruction de ce charmant spectacle, le seul où ils puissent prendre
+                            des leçons de chant et de goût, et où leurs compositeurs puissent se
+                            former.</note>.</p>
+                    <p>Tout entrepreneur de spectacle doit avoir le droit de l’établir quand il lui
+                        plaîra, et où il lui plaîra, en faisant une simple déclaration à la
+                        municipalité, qui ne pourra s’y opposer que dans les cas prescrits par la
+                        loi.</p>
+                </div2>
+                <div2 type="section">
+                    <head>§. IV. <hi rend="i">Les genres doivent-ils être fixés aux différens
+                            Spectacles.</hi></head>
+                    <p><hi rend="sc">Il</hi> seroit aussi ridicule d’obliger des acteurs à ne jouer
+                        que des tragédies, ou des comédies, ou des farces, ou à ne chanter que de
+                        grands operas, ou des comédies, en vaudevilles, que de contraindre les
+                        auteurs et les musiciens à ne s’essayer que dans l’un de ces genres. Il
+                        auroit fallu, d’après ce principe, empêcher Racine de donner <hi rend="i"
+                            >les Plaideurs</hi> ; Corneille, <hi rend="i">le Menteur</hi> ;
+                        Voltaire, <hi rend="i">Nanine</hi> ; Piron, <hi rend="i">Gustave</hi> ;
+                        Destouches, <hi rend="i">le Rapatriage</hi>, etc.</p>
+                    <p><pb n="33" xml:id="p33"/>Enfin l’interdiction d’un seul genre ne pourroit se
+                        faire qu’en vertu d’un privilége qui attribueroit exclusivement ce genre à
+                        un seul théâtre ; ainsi elle porte par cela seul sa condamnation.</p>
+                    <p>Il suffit de jeter les yeux sur la note (14), pour sentir tout le ridicule
+                        des priviléges dramatiques.</p>
+                </div2>
+                <div2 type="section">
+                    <head>§. V. <hi rend="i">Les pieces imprimées doivent-elles être communes à tous
+                            les théâtres ?</hi></head>
+                    <p>Une piece de théâtre imprimée ne doit pas être soumise à d’autres loix qu’un
+                        livre imprimé. Elle appartiendra donc au public un certain nombre d’années
+                        après la mort de l’auteur.</p>
+                    <p>Cependant chaque théâtre regarde ses pieces comme une propriété ; c’est ce
+                        qu’on appelle leur fonds.</p>
+                    <p>Corneille, Racine, Moliere, ont travaillé pour leur siecle et pour la
+                        postérité, pour la France, pour l’Europe entiere, et non pas pour les
+                        comédiens.</p>
+                    <p>Les comédiens François ont acheté ce fonds un million.</p>
+                    <p><pb n="34" xml:id="p34"/>Il leur en a rapporté douze. L’immensité de ce
+                        produit ne pourroit cependant pas devenir un titre contre leur propriété, si
+                        elle étoit réelle ; mais ils ne peuvent être propriétaires d’une piece
+                        qu’ils n’ont pas payée ; c’est le public qui, en donnant son argent à la
+                        porte, paie les auteurs et les acteurs. Les acteurs n’abandonnent qu’une
+                        foible portion de la recette ; c’est donc le public qui, après la mort de
+                        l’auteur, devient le véritable propriétaire des pièces qu’il a lui seul
+                        acquises. Les sociétés sont main-mortables et inhabiles à succéder.</p>
+                    <p/>
+                    <p>Si les pieces imprimées ne devenoient pas, au bout d’un certain temps, une
+                        propriété nationale, elles devroient appartenir aux héritiers des auteurs,
+                        et non pas aux comédiens<note n="20" place="bottom"><p>Quand on songe au peu
+                                de soin que les acteurs mettent souvent aux anciens ouvrages, aux
+                                moyens qu’ils emploient pour faire <hi rend="sc">tomber</hi>, dans
+                                    <hi rend="sc">les regles</hi>, les pieces des auteurs vivans,
+                                afin d’en devenir propriétaires, et qu’on les voit prétendre être
+                                les héritiers des auteurs, on a envie de s’écrier comme
+                                Rhadamiste :</p>
+                            <quote>
+                                <l>Qui, vous, seigneurs, qui seuls causâtes leur ruine ;</l>
+                                <l>Ah ! doit-on hériter de ceux qu’on assassine ?</l>
+                            </quote></note></p>
+                    <p>Eh bien, si la nation est propriétaire, ses pieces ne doivent être jouées que
+                        sur le théâtre de la nation.</p>
+                    <p/>
+                    <p>Nos chefs-d’œuvres dramatiques constituent le théâtre de la nation, dans
+                        quelque pays du monde qu’on les lise ou qu’on les joue. Appeler ainsi la
+                        salle dans laquelle on <pb n="35" xml:id="p35"/>les représente, c’est
+                        prendre le contenant pour le contenu<note n="21" place="bottom"><p>Ce sont
+                                les chefs-d’œuvres de nos grands auteurs dramatiques qui composent
+                                le <hi rend="sc">Théatre de la Nation</hi> : ce n’est pas le local
+                                sur lequel on les représente, à qui l’on doit exclusivement donner
+                                ce titre ; et il nous semble qu’avant de se l’arroger, il faudroit
+                                préalablement avoir le consentement de la nation, où au moins de ses
+                                représentans. Autrement l’opéra, ce spectacle si magnifique, qui
+                                attire les étrangers, se croira en droit de le prendre, les
+                                comédiens Italiens aussi : nous avons déjà le <hi rend="sc">Cirque
+                                    de la Nation</hi>, et nous aurons bientôt <hi rend="sc">Les
+                                    grands Danseurs de la Nation</hi>, <hi rend="sc">les Délassemens
+                                    de la Nation</hi>, <hi rend="sc">les Bleuettes de la
+                                Nation</hi>, etc…</p>
+                            <p>Ce titre contraste d’ailleurs avec celui de comédiens du roi ; et si
+                                MM. les comédiens François l’obtiennent, ils doivent renoncer aux
+                                vingt-deux mille livres que le roi leur paie, et aux pensions qu’il
+                                leur fait.</p>
+                            <p/>
+                            <p>Si MM. les comédiens François ont imaginé, en se donnant eux-mêmes un
+                                titre exclusif, empêcher la liberté du théâtre, ils se sont
+                                trompés ; elle est nécessaire pour les progrès de l’art dramatique,
+                                et pour que les <hi rend="sc">Pieces de la Nation</hi> soient
+                                dignement représentées.</p></note>.</p>
+                    <p>Quelle sera donc la récompense des comédiens François, pour avoir conservé
+                        ces ouvrages ?</p>
+                    <p>Ce ne sont pas les comédiens qui nous les ont conservés, mais l’imprimerie.
+                        Les pieces d’Eschyle, de Sophocle, d’Euripide, d’Aristophane, de Séneque, de
+                        Plaute, de Térence ne nous sont-elles pas parvenues ? et cependant les
+                        comédiens n’en ont jamais joué aucune.</p>
+                    <p>Ils ont des dettes considérables, dont ce fonds doit être regardé comme
+                        l’hypotheque.</p>
+                    <p>Peut-on, raisonnablement, solliciter la conservation d’un abus, parce que
+                        l’on a contracté des dettes, et que l’on prétend qu’elles sont hypothequées
+                        sur la jouissance de cet abus.</p>
+                    <p>Or, les priviléges sont un abus.</p>
+                    <p>Mais ou devoit croire que les priviléges dureroient éternellement.</p>
+                    <p>Qui pouvoit penser qu’un jour la Bastille seroit prise d’assaut ? c’est
+                        pourtant ce qui est arrivé.</p>
+                    <p><pb n="36" xml:id="p36"/>Que deviendroit aujourd’hui une hypotheque établie
+                        sur la Bastille<note n="22" place="bottom">On a pourtant donné des pensions
+                            au commissaire pourvoyeur de la Bastille, à l’aumônier de la Bastille,
+                            aux porte-clefs de la Bastille, mais les prisonniers et les vainqueurs
+                            de la Bastille n’ont rien obtenu.</note>.</p>
+                    <p>Pourquoi les comédiens, qui ont joui, pendant cent ans, des priviléges
+                        exclusifs, et qui ont fait des profits énormes, sont-ils endettés ?</p>
+                    <p>Leur inconduite et l’imperitie de leur administration sont-elles un titre
+                        pour la conservation d’un abus ?</p>
+                    <p>Ils doivent, il faut que leurs créanciers prennent avec eux toutes les
+                        sûretés possibles ; mais ils ne peuvent considérer une chose qui
+                        n’appartient pas à leurs débiteurs comme une hypotheque.</p>
+                    <p>La nation ne peut pas abandonner ses droits et sa propriété, parce que
+                        quelques particuliers s’en sont fait une hypotheque.</p>
+                    <p>MM. les comédiens François ont déjà détruit eux mêmes cette objection, en
+                        assurant que si la comédie a des dettes, elle possede un mobilier
+                        considérable, des biens-fonds et d’autres propriétés, dont la valeur immense
+                        ne peut se calculer<note n="23" place="bottom">Adresse de MM. les comédiens
+                            François à la commune de Paris, page 10, l. 19.</note>.</p>
+                    <p>Ils prétendent que, si d’autres comédiens se permettent de jouer leurs
+                        pieces, ils seront ruinés. Ils comptent donc bien peu <pb n="37"
+                            xml:id="p37"/>sur leurs talens, sur cette tradition qu’ils prétendent
+                        posséder seuls, s’ils ne se croient pas en état de soutenir la
+                        concurrence ?</p>
+                    <p>Leur salle est désavantageusement située. Qui les empêche de la quitter et de
+                        se fixer ailleurs ? Ils ne manqueront pas de trouver des capitalistes qui
+                        s’associeront à leur entreprise.</p>
+                </div2>
+                <div2 type="section">
+                    <head>§. VI. <hi rend="i">La censure doit-elle être établie sur les pieces de
+                            théâtre ?</hi></head>
+                    <p>Je ne conçois pas qu’on puisse seulement faire cette question à un peuple
+                        vraiment libre.</p>
+                    <p>M. de Chenier a établi, à ce sujet, les véritables principes dans son <hi
+                            rend="i">Traité de la liberté du théâtre</hi>, et dans quelques lettres
+                        au <hi rend="i">Journal</hi> et à la <hi rend="i">Chronique de
+                        Paris</hi>.</p>
+                    <p>L’article XI de la <hi rend="i">Déclaration des droits</hi> ne prononce-t-il
+                        pas que tout homme est libre de publier sa pensée, de quelque maniere que ce
+                        soit, sauf à répondre de l’abus de cette liberté, dans les cas déterminés
+                        par la loi.</p>
+                    <p><pb n="38" xml:id="p38"/>Le théâtre est sûrement une maniere de publier sa
+                        pensée ; ainsi un auteur dramatique ne doit rendre compte de sa pensée qu’à
+                        la loi.</p>
+                    <p>La censure ne peut être établie sans l’opinion d’un homme, et l’opinion d’un
+                        homme n’est pas la loi.</p>
+                    <p>Si l’on créoit un comité de censure ?</p>
+                    <p/>
+                    <p>Un comité donneroit l’expression de la volonté de plusieurs hommes, et ce ne
+                        seroit pas encore la loi.</p>
+                    <p/>
+                    <p>Le magistrat n’est que l’organe de la loi ; mais il n’est pas la loi ; il ne
+                        peut pas même l’interpréter ; il ne peut que la prononcer.</p>
+                    <p>Le théatre doit être un moyen du gouvernement, pour faire recevoir au peuple
+                        les impressions qu’il doit prendre<note n="24" place="bottom"><p>On lit dans
+                                un article du Journal de Paris, du 18 octobre, relatif à la censure
+                                du théâtre, <quote>« qu’on peut gouverner le peuple, en lui faisant
+                                    ses chansons »</quote>. Il est certain, et aucun aristocrate
+                                n’en doute, que le moyen d’asservir le peuple, est de ne lui faire
+                                entendre que ce qu’on veut qu’il sache, et de lui cacher ce qu’il
+                                est de son intérêt de savoir : c’étoit le but du ministere, en
+                                privilégiant les journaux.</p>
+                            <p>L’auteur du même article ajoute, que <quote>« c’étoit parce que les
+                                    Grecs pensoient ainsi qu’ils avoient donné le même nom <hi
+                                        rend="sc">Nomos</hi> aux chansons et aux loix »</quote>. On
+                                voit aisément qu’il n’est ni helléniste, ni musicien, ni publiciste.
+                                Rousseau, Dict. de musique, édition in-8°, tome 2, page 11, lui
+                                auroit appris <quote>« que <hi rend="sc">nome</hi> signifioit chez
+                                    les Grecs tout chant déterminé par des regles qu’il n’étoit pas
+                                    permis d’enfreindre : tels étoient le <hi rend="sc">nome</hi>
+                                    Lydien, le <hi rend="sc">nome</hi> Phrygien, etc.,
+                                    etc. »</quote>. Jamais les Grecs n’ont pensé à gouverner le
+                                peuple par des chansons. Les enfans savent que Mazarin disoit des
+                                François : <quote>« ils chantent ; ils paieront »</quote>. Et ce qui
+                                fait aujourd’hui trembler l’aristocratie, c’est qu’on discute, on
+                                écrit, on s’arme, et l’on ne chante pas.</p></note>.</p>
+                    <p>Cette maxime machiavélique est celle des despotes qui veulent gouverner des
+                        esclaves.</p>
+                    <p>Les calomniateurs de la liberté répetent tous cet adage favori, que la
+                        liberté n’est pas la licence. Qui doute de cette vérité commune ?</p>
+                    <p>Les loix sont faites pour protéger la liberté, en punissant la licence.</p>
+                    <p><pb n="39" xml:id="p39"/>Relativement au théâtre, où finit la liberté, la
+                        commence la licence — non : là commence la loi.</p>
+                    <p>Il vaut mieux prévenir les délits que de punir. — Ces mots sont l’abregé de
+                        tout code du despotisme, et le pretexte dont ses agens se sont toujours
+                        servis, pour exercer une autorité prohibitive, vexatoire et arbitraire ;
+                        c’est cet axiôme qui nous a donné la Bastille et les lettres de cachet,
+                        l’espionnage et les 17 inquisitions de la pensée. C’est cette belle maxime
+                        qui faisoit que l’on privoit un homme de sa liberté, et de l’usage de ses
+                        facultés intellectuelles, pour prevenir un prétendu délit qu’il auroit pu
+                        commettre ; on le punissoit enfin pour n’être pas obligé de le punir<note
+                            n="25" place="bottom">Agnelet, dans l’avocat Patelin, ne tue ses moutons
+                            que pour les empêcher de mourir de la clavelée.</note>.</p>
+                    <p>Si la censure existoit pour la représentation, l’auteur auroit toujours le
+                        droit de faire imprimer sa piece. On sait combien le peuple est avide des
+                        ouvrages prohibés. Ainsi les précautions qu’on auroit prises, pour empêcher
+                        le sien de se repandre, serviroient à en multiplier les éditions.</p>
+                    <p>Il ne s’agit donc que de faire une bonne loi pour le théâtre. Elle est
+                        difficile à poser ; <pb n="40" xml:id="p40"/>mais il suffit qu’elle soit
+                        possible, et c’est ce que j’ai démontré.</p>
+                    <p>C’est envain qu’on objecte l’exemple des Grecs et des Romains ; il est une
+                        foule de preuves, que chez eux la censure dramatique n’existoit pas<note
+                            n="26" place="bottom"><p>Je ne citerai ni l’ancienne comédie, où l’on
+                                nommoît les personnages, ni la moyenne, dans laquelle on se servoit
+                                de masques ressemblans aux personnes que l’on vouloit désigner, mais
+                                la moderne, qui étoit la plus épurée. Térence, cet auteur élégant,
+                                pur et correct, y a puisé toutes ses pieces, et cependant rien n’est
+                                plus contre la décence théâtrale que les cris de l’Andrienne qui
+                                accouche, et la comédie entiere de l’eunuque.</p>
+                            <p>Toutes les pieces étoient jugées par le peuple. L’Archonte avoit le
+                                droit de les admettre au concours ; c’est-à-dire, qu’il régloit
+                                seulement les rangs, et toutes les comédies d’Aristophane prouvent
+                                qu’il n’exerçoit pas la censure.</p></note>.</p>
+                    <p>Leurs spectacles étoient des fêtes nationales, où un peuple entier pouvoit
+                        assister, et ils ne sçauroient être comparés aux nôtres. Si nous voulions
+                        les imiter en tout, il nous faudroit avoir des décorations versatiles, un
+                        orchestre pour les danseurs separé du théâtre, un chœur tournant de droite à
+                        gauche, et de gauche à droite, en chantant des strophes et des
+                        anti-strophes, des hommes remplissant les rôles de femmes, et ayant des
+                        masques pleurant d’un coté, et riant de l’autre.</p>
+                    <p>En Angleterre ! — il est vrai qu’en Angleterre le théâtre est soumis à des
+                        entraves et à des formes arbitraires<note n="27" place="bottom">Le <hi
+                                rend="sc">lord Chamberlain</hi> a sous sa dépendance les trois
+                            grands théâtres, qui sont nommés <hi rend="sc">théatres du Roi</hi>. Les
+                            acteurs s’y donnent, comme les nôtres, sur les affiches, le titre de
+                            serviteurs de S. M. Cette prérogative empêche la cour d’être tournée en
+                            ridicule sur ces trois théâtres ; mais elle n’y jouit d’aucun autre
+                            privilége ; on n’attend jamais le roi pour commencer. Le bruit que le
+                            peuple fait avant que la toile soit levée est épouvantable ; c’est le
+                            passe-tems du peuple dans les galeries, de ce peuple qui ne s’embarasse
+                            guere de ce qui est honnête et séant ; mais qui sait qu’il est libre. Ce
+                            bruit a cependant très-rarement des suites dangereuses. Le directeur du
+                            spectacle doit soumettre chaque piece à la censure du <hi rend="sc">lord
+                                Chamberlain</hi> 14 jours avant la premiere représentation, sous
+                            peine de 60 livres sterlings d’amende, environ 1200 livres de notre
+                            monnoie.</note> ; mais on sait que c’est Walpole qui a consommé cette
+                        iniquité ministerielle, parce qu’il avoit un intérêt considérable dans les
+                        deux principaux théâtres. C’est ce même Walpole qui a révélé aux rois
+                        d’Angleterre cette politique coupable, ce systême de corruption <pb n="41"
+                            xml:id="p41"/>des membres du parlement, qui fait tous les jours des
+                        progrès effrayans, et qui finira par ruiner la liberté. On sait que les
+                        Anglois éclairés mettent la liberté du théâtre au même rang que la liberté
+                        de la presse<note n="28" place="bottom"><quote>Les entraves que l’on veut
+                                donner au théâtre, sont des chaînes dont on chargeroit la liberté,
+                                le plus grand bien, le plus grand bonheur dont un peuple puisse
+                                jouir ; mais il n’y a pas de bonheur sans mélange, et la licence est
+                                l’alliage de la liberté ; c’est une tache sur l’œil du corps
+                                politique, il faut, pour l’enlever, une main sûre et habile. Il
+                                vaudrait encore mieux laisser subsister la tache, que de blesser
+                                l’œil. Si un ouvrage est licencieux ; s’il offense les particuliers,
+                                ou s’il peut être dangereux au gouvernement, les tribunaux sont
+                                ouverts, et le plaignant a, dans ce cas, l’avantage qu’il ne manque
+                                point de témoins. <bibl><hi rend="sc">Lord Chesterfield on the bill
+                                        for licensing and regulating the
+                                theatre.</hi></bibl></quote></note>.</p>
+                    <p>Le lord Chesterfield prononça dans la chambre des pairs un discours sur le
+                        bill des théâtres, qui est parfaitement écrit, et plein d’excellentes
+                        idées.</p>
+                    <p>Pourquoi se perdre dans un étalage d’érudition ? est-il question d’exemples
+                        et de citations, quand il faut des principes.</p>
+                    <p>La liberté du théâtre est une liberté, et la violation d’une seule liberté,
+                        conduit nécessairement à la perte de toute liberté.</p>
+                    <p>Le pouvoir arbitraire, comme ces mauvaises herbes qui croissent et se
+                        multiplient rapidement, repousse bientôt, et couvre de ses rejetons
+                        malfaisans l’autel même de la liberté. Malheur au pays où les magistrats
+                        sont législateurs ; et ils le sont partout où leur opinion particuliere peut
+                        décider.</p>
+                    <p>La censure ne sera donc pas exercée sur le théâtre, puisqu’elle mettroit
+                        toujours l’opinion d’un homme, ou de plusieurs hommes à la place de la
+                        loi.</p>
+                    <p><pb n="42" xml:id="p42"/>Je crois avoir suffisamment établi, sur quelles
+                        bases la liberté du théâtre doit reposer. Pourquoi seroit-il seul soumis à
+                        l’arbitraire, quand tout le reste ne sera soumis qu’à la loi ?</p>
+                    <p>Les législateurs et les administrateurs n’écouteront surement aucune des
+                        réclamations fondées sur des intérêts particuliers, pour prononcer la loi
+                        relative au théâtre, et la faire exécuter.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

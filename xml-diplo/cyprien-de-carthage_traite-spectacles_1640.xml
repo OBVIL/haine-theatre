@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Traité des Spectacles des Gentils</title>
+				<author key="Cyprien de Carthage (02??-258 ; saint)" ref="https://data.bnf.fr/fr/11886041/cyprien/">Cyprien de Carthage</author>
+				<author key="Caliste, R. P. Traducteur" ref="https://data.bnf.fr/fr/10691449/caliste/">R. P. Caliste. Traducteur</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>OBVIL</edition>
+				<respStmt>
+					<name>Infoscribe</name>
+					<resp>saisie, XML-TEI</resp>
+				</respStmt>
+				<respStmt>
+					<name>Eric Thiébaud</name>
+					<resp>contributeur</resp>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Sorbonne Université, LABEX OBVIL</publisher>
+				<date when="2019"/>
+				<idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/cyprien-de-carthage_traite-spectacles_1640</idno>
+				<availability status="restricted">
+					<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+						<p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+							d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+							OBVIL).</p>
+						<p>Cette ressource électronique protégée par le code de la propriété
+							intellectuelle sur les bases de données (L341-1) est mise à disposition
+							de la communauté scientifique internationale par l’OBVIL, selon les
+							termes de la licence Creative Commons : « Attribution – Pas
+							d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+							3.0 FR) ».</p>
+						<p>Attribution : afin de référencer la source, toute utilisation ou
+							publication dérivée de cette ressource électroniques comportera le nom
+							de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+						<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+							scientifique, toute utilisation commerciale est interdite.</p>
+						<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+							ressource électronique, notamment en intégrant toutes les contributions
+							extérieures, la diffusion de versions modifiées de cette ressource n’est
+							pas souhaitable.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Cyprien de Carthage, « Traité des Spectacles des Gentils », in <hi rend="i"
+						>Sainct Cyprian à Donat : à Demetrian : des Spectacles ; et de la Vanité des
+						Idoles. De la Version du R. P. Caliste, Augustin Deschaussé</hi>,
+						<pubPlace>Paris</pubPlace>, <publisher>Antoine de Sommaville</publisher>,
+						<date>1640</date>, p. 147-193. PDF : <ref
+						target="https://books.google.fr/books?id=E4XUEOJQIcIC">Google</ref>.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1640"/>
+			</creation>
+			<langUsage>
+				<language ident="fre"/>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 type="chapter">
+				<pb n="155" xml:id="p155"/>
+				<head>SAINCT CYPRIAN DES SPECTACLES.</head>
+				<p><hi rend="big">C</hi>omme il m’est extremement sensible de me voir hors des
+					occasions de vous escrire (car de tous les maux que ie souffre depuis que ie
+					suis en exil, celuy qui m’afflige le plus c’est de ne vous pouvoir entretenir)
+					aussi m’est-il impossible d’exprimer la ioye que ie ressens, quand ie vous puis
+						<pb n="156" xml:id="p156"/>tesmoigner mes soins, &amp; vous faire auoüer que
+					pour estre separés de corps nous ne le sommes pas d’esprit ; &amp; certes ie
+					m’imagine estre parmy vous autres toutes les fois que ie vous visite de mes
+					lettres. Car encore que vous ne doutiez point de la verité de mes paroles, &amp;
+					que vous sçachiez bien que ie ne suis pas d’humeur à vous faire compliment ;
+					i’ay voulu neantmoins dissiper le soupçon que vous pourriez auoir de ma
+					fidelité, vû que la plus asseurée preuue d’vne amitié veritable, c’est de ne
+					laisser passer aucune occasion pour en donner les tesmoignages. Et partant bien
+					que ie sçache asseurerement, que si vous fleurissez beaucoup dans la foy &amp;
+					dans la pieté, vous n’estes pas moins austeres &amp; Reguliers en vos mœurs ;
+					&amp; que vos actions ne desmentent en rien vostre <pb n="157" xml:id="p157"
+					/>creance ; ie sçay aussi que le siecle est remply d’esprits libertins, qui
+					estans engagés dans le vice luy donnent beaucoup d’autorité pour le faire aymer,
+					&amp; ne voulants pas estre seuls dans l’erreur, taschẽt non seulemẽt d’y
+					attirer les autres par leurs persuasions ingenieuses, mais empruntẽt encor la
+					faueur de l’Escriture Saincte pour l’accõmoder à leurs sentimẽts ; nous voulãt
+					faire croire qu’elle appreuue les crimes &amp; les diuertissemẽs impies des
+					spectacles puis que (disent-ils) n’ont rien qu’vn innocent plaisir, &amp; qu’ils
+					seruent à delasser nos esprits abbatus des continuelles occupations ; car
+					l’impudence du siecle a si fort alteré la vigueur de la discipline
+					Ecclesiastique, &amp; l’a renduë si languissante &amp; eneruée par les
+					desbordements, que les vicieux ne se mettent plus en peine de treu-<note
+						place="bottom" resp="editor">[NdE] treuuer</note>
+					<pb n="158" xml:id="p158"/>des excuses aux vices les voyants appuyées du
+					consentement public. C’est ce qui m’a porté à vous dresser ce discours, pour
+					vous auertir de vostre deuoir, afin qu’vne salutaire instruction découure vos
+					manquements, &amp; remedie aux blesseures de vos ames, qui n’estants pas
+					soignées ne guariroient pas facilement ; car plus on flatte vn mal plus on le
+					rend incurable : Et le vice n’est iamais plus insolent que lors qu’on
+					l’authorise ; &amp; qu’on excuse sa malice au lieu de la chastier.</p>
+				<p>Que des fidelles ! des hommes qui font profession de la Religion Chrestienne,
+					n’ayent point honte de se ioindre aux Payens ; qu’ils suiuent auec eux les
+					impietés &amp; les superstitions ; qu’ils corrompent le sens des Sainctes
+					Escritures pour maintenir les abominations des Spectacles ; <pb n="159"
+						xml:id="p159"/>qu’ils prophanent ce qu’il ne faut manier qu’auec reuerence ;
+					&amp; qu’ils dressent à l’idolatrie vn trophée de nos depoüilles ? quelle
+					odieuse lascheté ; puisque fauorisants de leur presence les spectacles qui sont
+					instituez à l’honneur d’vn Idole, c’est toûjours à la gloire du Paganisme, &amp;
+					au mespris du vray <hi rend="sc">Diev</hi>, &amp; de la Religion. Certes cette
+					infidelité me fait rougir, &amp; i’ay honte de mettre au iour les foibles
+					arguments dont ils la couurent. Ils n’attendent pas qu’on deffende les
+					spectacles, ils preuiennent eux-mesmes, &amp; demandent hardiment ; qui les peut
+					impreuuer puisque la Saincte Escriture les appreuue ; le Prophete Helie n’a t’il
+					pas mené le chariot d’Israël ; Dauid n’a t’il pas dansé deuant l’Arche
+					d’Alliance à la face de tout son peuple ; ne lisons nous pas qu’aux <pb n="160"
+						xml:id="p160"/>plus Sainctes réjoüissances on a fait des concerts de voix
+					&amp; d’instruments ; qu’on y a fait retentir les Harpes, les Tambours, les
+					Trompettes, &amp; les Psalterions. Sainct Paul mesme pour nous exciter à l’amour
+					de la Vertu, &amp; à la haine du vice, s’est seruy des termes de luttes, de
+					combats, de courses ; de palmes &amp; de victoires ; pourquoy donc sera t’il
+					moins permis aux Chrestiens d’assister à vne representation qu’aux anciens ;
+					pourquoy leur deffendra t’on des choses que la Saincte Escritute authorise si
+					solemnellement. C’est ainsi qu’ils vont tout glorieux aux Spectacles. C’est
+					ainsi que ces rares interpretes suiuent la lettre des escritures ; bien qu’il
+					leur fust plus seant de n’y auoir iamais étudié que de donner vn sens si
+					contraire à ce qu’elles signifient. Car quelle impudence <pb n="161"
+						xml:id="p161"/>d’appliquer les Oracles Diuins de la Saincte Escriture à la
+					deffẽce des vices, puisque son intention est de nous en faire conceuoir
+					l’horreur, &amp; de nous porter à l’amour de la perfection Euangelique ; &amp;
+					que si elle a des lieux &amp; des passages qui semblent en quelque façon
+					s’accorder à leurs sentiments, on ne les y a pas couchés en faueur des
+					spectacles, &amp; des Chrestiens qui y assistent : mais au contraire pour nous
+					donner dans leur sens mysterieux la connoissance des fruits que nous en pouuõs
+					tirer, &amp; pour nous animer à l’amour des bonnes choses, puisque les Payens
+					mesmes s’échauffent si fort après des sottises, dont ils ne peuuẽt esperer de
+					gloire, &amp; qui ne leur sçauroient produire que de la peine.</p>
+				<p>C’est donc prendre les choses du bon costé que d’expliquer ces allegories pour
+					l’amour de la <pb n="162" xml:id="p162"/>vertu ; puisque dans les saincts
+					Cahiers on les a obseruées si soigneusement à céte seule intention, &amp; non
+					pas pour donner cours à la vanité de ces Spectacles, qui sont les fruits de la
+					superstition payenne ; ouy, la sainte Escriture l’a fait pour allumer on nos
+					cœurs le desir de la perfection euangelique, &amp; nous faire obtenir vn iour
+					les recompenses que le Ciel nous prepare à l’issuë de céte vie, qui ne se
+					peuuent mieux abreger que par les trauaux &amp; les calamitez dont elle est
+					accompagnée. Car si elle nomme Helie le cocher d’Israël, elle n’appreuue pas
+					pour cela les courses du cirq, puisque iamais Helie n’a couru dans céte fameuse
+					academie de la superstition ; &amp; si Dauid a fait des cõcerts de musique, pour
+					adorer le vray Dieu &amp; honorer l’Arche d’alliance, cela ne conclud pas en
+					faueur des <pb n="163" xml:id="p163"/>Chrestiens qui se meslent parmy les
+					Gentils sur le theatre, &amp; qui s’y font imitateurs de leurs impietez ;
+					puisque iamais Dauid n’a representé les fables &amp; les ordures de la Grece
+					auec des détours &amp; des mouuements impudiques de tout le corps, comme les
+					Athletes dans le cirq. Dauid dans ses rejoüissances, a fait seruir les
+					trompettes, les tambours &amp; les psalterions aux loüanges du vray Dieu ; &amp;
+					non pas d’vn idole. C’est estre donc bien aueuglé que de ne mettre point de
+					difference entre les Spectacles deuots, &amp; les Spectacles impies &amp;
+					malicieux : Mais nostre artificieux ennemy altere tousiours la bonté des choses
+					Saintes, pour authoriser celles qui sont défenduës. Que si la sainte Escriture
+					n’a pas le pouuoir de desabuser vn Chrestiẽ, qu’au moins la honte d’auoir esté
+					si long temps <pb n="164" xml:id="p164"/>abusé le fasse reconnaistre ; &amp;
+					qu’il ne prophane plus l’Escriture, parce qu’elle est prudente ; elle
+					s’accommode comme vne mere bien auisée à nos infirmitez ; elle donne quelquefois
+					des commãdemens, quelquefois de simples conseils : &amp; souuent ce qu’elle veut
+					défendre est mieux défendu par son silence que par sa voix, quand sa modestie le
+					veut ainsi ; si la verité y paroissoit tousiours nüe, elle auroit changé de
+					nature, ayãt ses nourrissons en si mauuais estime. Car il y a des choses que la
+					Loy des commandemens estouffe dãs le silence, &amp; qui neãtmoins seruent
+					souuent d’instruction bien qu’elles soient défenduës, &amp; d’autres qui
+					semblent oubliées, bien qu’elles soient escrites. La raison doit suppleer au
+					defaut des preceptes, elle nous doit tousiours conduire, &amp; elle dicte assez
+					ce que la sainte <pb n="165" xml:id="p165"/>Escriture pouroit oublier. Il faut
+					seulement rentrer en nous mesme, &amp; produire des raisonnemens conformes à
+					nostre condition ; ainsi les loix de l’honnesteté seront religieusement
+					obseruées, car les choses qui partent de nous ont beaucoup plus d’efficace quand
+					de tout ce qu’elles sont, elles n’en sont redeuables qu’à elle mesme.</p>
+				<p>Mais pour reprendre nostre discours ; qu’est-ce que la sainte Escriture défend ?
+					Ie dis qu’elle défend de voir ce qu’elle défend de faire. Elle a condamné les
+					representations, d’autant que par vn certain rapport elles sont attachées aux
+					actions, comme en estants les images. Elle n’a point renuersé l’idolatrie
+					qu’elle n’ait eu dessein d’enseuelir dans vne mesme ruine les fruits qu’a
+					produit céte enragée, céte mere feconde des jeux, des spectacles, de ces
+					monstres de la vanité &amp; <pb n="166" xml:id="p166"/>legereté des payens. Car
+					a ton quelque spectacle sans auoir vn idole ; voyons nous vn seul des jeux du
+					cirq, qui ne soit accompagné du sacrifice &amp; des effusions ; &amp; quels
+					combats y font les payens qui ne soient dediés à la memoire impie des défunts.
+					Dans céte coniõcture que peut faire vn Chrestien qui doit necessairement estre
+					idolatre, ou n’estre point spectateur. S’il n’a pas dessein d’idolatrer, &amp;
+					s’il abhorre les superstitions, pourquoy allegue t’il en leur faueur l’authorité
+					des Escritures, pourquoy viole-t’il la Sainteté de sa Profession, lors qu’il
+					fait d’vn crime le suiet de ses plaisirs, &amp; qu’il agrée des spectacles &amp;
+					des impietez, dont Dieu n’a iamais permis l’vsage : au contraire, il doit
+					sçauoir qu’ils sont de l’inuention des Diables, qui donnent tousiours aux
+					mauuaises choses le voile de <pb n="167" xml:id="p167"/>l’innocence. Mais,
+					est-il bien possible qu’vn Chrestien qui exorcise les demons dans l’Eglise, ait
+					l’impudence d’applaudir aux voluptez du theatre qui leur sont consacrées : &amp;
+					apres auoir renoncé genereusement au diable &amp; à ses vanitez dans le
+					Baptesme, courir vistement au spectacle pour y renoncer Iesus-Christ.</p>
+				<p>L’idolatrie, comme i’ay déja dit, est la mere de tous ces ieux : mais n’osant se
+					declarer ouuertement aux pauures Chrestiens, elle a recours aux artifices pour
+					les y attirer, &amp; surprendre insensiblement, auec les doux charmes de la
+					volupté, leurs yeux &amp; leurs oreilles. <hi rend="sc">Romvle</hi> qui ietta
+					les premiers fondemens de céte pompeuse cité, qui porte encor son nom, consacra
+					les premiers leux du cirq au Dieu des conseils surnommé Consus, pour estre aydé
+					de ses conseils dans <pb n="168" xml:id="p168"/>l’enleuement des Sabines, qui
+					trop curieuses de voir vne Comedie, se veirent la proye d’vn tas de frippons
+					&amp; de bannis que Romule auoit appellés pour peupler sa nouuelle ville. Par
+					succession de temps, &amp; à la poursuite du peuple superstitieux qui estoit
+					cruellement pressé de la famine, on donna naissance aux autres ieux comiques,
+					qui furent dediés les vns apres les autres à la memoire de Baccus, de Ceres, des
+					Morts, des Idoles, des Diables. Tous les Demons president diuersement à ces
+					disputes de course, de force, de vigueur des nerfs, de voix &amp; d’instruments,
+					qui ont pris origine dans la Grece ; les Demons sont arbitres de ces
+					assemblées : Et si l’on recherche soigneusement la source de toutes ces
+					illusions &amp; de ces charmes trompeurs qui gaignent si subtilement la veuë <pb
+						n="169" xml:id="p169"/>&amp; les oreilles d’vn spectateur, on la découurira
+					dans vn mort, dans vn Idole, ou dãs vn Diable : c’est ainsi que ce rusé
+					aduersaire preuoyant que l’Idolatrie route nuë &amp; sans fard paraistroit
+					mõstrueuse, &amp; qu’elle dõneroit plus d’horreur que d’amour, s’auisa de la
+					reuestir des spectacles, afin qu’auec le foïble plaisir dont ils sont meslés,
+					elle pût cacher sa laideur sous vn visage est ranger. Il n’est pas necessaire de
+					décrire icy la diuersité de tant de ieux &amp; d’inhumains sacrifices, ou la
+					barbarie d’vn Prestre des faux Dieux s’estend le plus souuent sur les mortels.
+					Ce n’est pas assés qu’vn sacrifice soit impie, il faut qu’il soit sanglant. Céte
+					place abominable fume du sang des hommes ; on y épuise les veines de l’innocente
+					victime qu’on sacrifie au plaisir public, on voit sõ sang nager dãs les coupes
+					&amp; les vaisseaux, <pb n="170" xml:id="p170"/>&amp; on l’offre encor tout
+					chaud à l’idole qui y preside pour le desalterer. Le theatre est en mesme temps
+					vne boucherie, &amp; vn lieu d’ordures ; &amp; l’on esgorge des hommes en suitte
+					des jeux &amp; des passe-temps pour apprendre aux spectateurs, que le fruict
+					qu’ils remporteront de céte veuë sera glorieux, s’ils y ont apris à estre tout
+					ensemble voluptueüx &amp; sanguinaires. Comme si ce n’estoit pas assés à l’homme
+					d’estre aucunement porté de son naturel à la barbarie, sans reueiller encore ses
+					humeurs &amp; ses passiõs, &amp; exciter dans son cœur vne funeste rage par céte
+					leçon publique. On employe ce qu’il y a de plus inhumain dans la nature, pour
+					arracher du corps humain vn leger soufle de vie. On nourrit auec delicatesse les
+					lyõs, les tygres, &amp; les leopards, pour les rendre plus habiles à <pb n="171"
+						xml:id="p171"/>déchirer les hommes ; &amp; les cruels maistres qui ont le
+					soin de ces animaux, &amp; qui les dressent pour le plaisir des Spectateurs, les
+					animent au carnage par mille artifices, &amp; taschent de les mettre dans le
+					comble d’inhumanité, qui peut-estre leur auoit esté denié par la nature.</p>
+				<p>Ie fremis d’horreur en céte pensée ; mais l’idolatrie en donne bien d’autres
+					suiets. Car que d’impertinance &amp; de vanité dans les combats du cirq, où l’on
+					void les sottes émulations qu’ont des athletes à paraistre les premiers en
+					addresse &amp; en magnificence, en la beauté des couleurs &amp; des liurées,
+					&amp; en la somptuosité des chariots. Ils attachent tous leurs soins aux haras ;
+					ils sont rauis quand vn cheual a esté bon coureur, abbatus &amp; tristes quand
+					il s’est monstré pesant. Ils espluchent soigneusement tous les <pb n="172"
+						xml:id="p172"/>defauts d’vne beste, ils calculent ses années, ils
+					s’enquestent de l’âge qu’elle peut auoir, ils consultent ceux qui l’ont dressée,
+					ils recherchent diligemmẽt son histoire &amp; sa genealogie, ils déduisent au
+					long ses ayeuls, ses bysayeuls &amp; son engeance. Sans mentir céte perte de
+					temps est bien honteuse, &amp; toutes ces vaines occupatiõs ne ressentent pas
+					beaucoup son honneste homme. En effet si l’on agite quelque question sur nostre
+					creance ou sur nos mysteres, en presence de ce suffisant, qui vante si haut ses
+					recherches, &amp; qui ne charge sa memoire que des remarques d’vn cheual, de sa
+					race &amp; du cõte de ses années ; si on luy en demande son sentiment, on voit
+					aussi-tost son ignorance, ou s’il en sçait quelque chose, est-il pas bien
+					criminel d’en negliger, ainsi la pratique ? Demandez-luy <pb n="173"
+						xml:id="p173"/>en-suitte le chemin qu’il a tenu pour arriuer au Spectacle,
+					vous le verrés confus, &amp; forcé d’auoüer que les lieux infames, la
+					conuersation des femmes prostituées, la veuë des débauches publiques, &amp; des
+					nudités scãdaleuses, le deshonneur &amp; l’infamie, &amp; tout ce qui se peut
+					imaginer de lascif &amp; de plus honteux dans vne ville ? ont esté les passages
+					&amp; les conditions qui luy ont frayé le chemin du theatre. Ie ne veux point
+					m’informer s’il a fait du mal en tant de dangereuses occasions, mais le
+					reprendre seulement du hasard où il s’est mis d’en faire ; car au moins a t’il
+					esté tesmoin de beaucoup de méchancetés : &amp; ces mesmes yeux qu’il porte au
+					Spectacle des Idolatres, sont les yeux qu’il a soüillé n’agueres par le
+					rencontre de mille objets impudiques. Est-ce estre Chrestien que <pb n="174"
+						xml:id="p174"/>de cherir des euenemens si impies &amp; si contraires à son
+					estat ; &amp; peut-on douter qu’il ne fut assez impudent pour porter s’il
+					pouuoit le Saint Esprit dans ces lieux de débauches &amp; d’infamie, puisqu’à
+					l’issuë de la Messe étant congedié auec les autres Chrestiens, selon la coustume
+					de l’Eglise, &amp; bruslant d’enuie d’estre vistement au theatre, il y porté le
+					S. Sacrement qu’il venoit de receuoir, &amp; s’est allé ietter auec ce precieux
+					dépost entre les bras des publiques &amp; prostituées, sans cõsiderer que pour
+					le plaisir criminel d’vn Spectacle, il attire sur soy les vengeances &amp; les
+					chastimens du Ciel.</p>
+				<p>Passons à ces Comediens qui remplissent la scene d’impuretez &amp; d’ordures ;
+					sans mentir, i’ay honte d’estre icyleur accusateur, &amp; la bien-seance de ma
+					profession me défend de rapporter <pb n="175" xml:id="p175"/>tous leurs
+					discours, leurs abominations, &amp; leur adresse à bien ioüer toutes sortes de
+					personnages, on y commet mille ordures, on y apprend les intrigues dans les
+					amours, les détours &amp; subtilitez des amants dans leurs poursuittes, les
+					finesses des adulteres pour abuser, le peu de resistance des femmes pour ne
+					l’estre pas, les lasciuetez, les petits discours, les rendez vous, les messages,
+					toutes ces momeries authorisées de l’agreement des impudiques, &amp; ce qui
+					m’estonne le plus, de la presence des plus affairez, des peres de famille, qui
+					quittent froidement leur mesnage pour se treuuer au Spectacle, pour y folastrer,
+					pour y faire les gaillards, &amp; pour y donner à connaistre qu’ils n’ont pas
+					encor esteint les feux de la ieunesse, bien qu’ils ne soient la plus-part que
+					des souches à <pb n="176" xml:id="p176"/>demi pourries, des stupides, &amp; des
+					hommes pour beaucoup de raisons, sans pudeur &amp; sans honnesteté : Mais ce qui
+					est plus admirable, c’est d’y voir toutes les conditions extremement maltraitées
+					dans les discours, &amp; de n’y voir personne qui en témoigne du ressentiment,
+					qui ne se treuue au Spectacle, &amp; qui ce semble ne tiene à gloire d’y estre
+					ioüé par des insolents. L’infamie est estimée en public, chacun y fait estat du
+					des-honneur ; chacun court à céte fameuse eschole des vices, qui triomphe
+					pompeusement de la honte publique. On se presse pour auoir place dãs vn
+					consistoire de l’impudicité ; de crainte que si on ne commettoit point de mal en
+					public, on fût soupçonné de n’en pas assez commettre, ou dépecher contre les
+					leçons qu’on en fait au Spectacle : car à la face <pb n="177" xml:id="p177"/>des
+					loix mesme, on enseigne la pratique de tout ce qu’elles défendent. Dans ces
+					lieux où les débauches fleurissent auec excés, quelle posture peut tenir vn
+					Chrestien à qui les seules pensées du vice sont des crimes ; quelle satisfaction
+					a t’il de voir l’impureté dans son throsne ; prend-il plaisir à voir tant
+					d’objets &amp; de marques d’infamie, pour estre puis après moins honteux &amp;
+					plus libertin ; &amp; ne considere t’il point que pour auoir souuent veu faire
+					le mal, on apprend à le faire aussi par coustume.</p>
+				<p>Au moins les femmes que la misere du viure, &amp; leur malheur reduisent à se
+					prostituer, ont quelque espece d’hõnesteté dans vne extreme infamie ; leur
+					abandonnement est en secret, leurs crimes sont voilez des tenebres, leurs corps
+					se donnent aux <pb n="178" xml:id="p178"/>débauches dans des lieux retirez :
+					&amp; bien qu’elles ayent vendu leur honte, &amp; que leurs visages ayent quitté
+					céte innocente pudeur qui leur estoit si auantageuse, elles rougissent à tous
+					moments d’apprehension d’estre veuës. Mais icy tous les vices ont quitté le
+					masque, les crimes sont publics, on y passe sous silence, mais bien plustost on
+					y loüe l’impudicité des prostituées, les yeux mesme y sont criminels, car on y
+					estudie les moyens de commettre aussi l’adultere par la vuë. Ainsi les
+					impudicitez, le des-honneur &amp; l’infamie augmentent à veuë d’œil. Ainsi vn
+					hõme qui est souple de tous ses mẽbres quoy qu’il ait le corps affoibly de
+					débauches ; vn hõme qui ne merite pas le nom de fẽme pour ses dissolutiõs ; bref
+					vn ie ne sçay qui, vn voluptueux, vn mõstre en nos iours qui n’est ny hõme ny
+					femme, a biẽ <pb n="179" xml:id="p179"/>le pouuoir de ietter le desordre dans
+					vne ville, &amp; de donner par ses bouffõneries vn credit absolu aux salles
+					plaisirs &amp; aux fables du temps passé, qu’il fait reuiure dans la scene :
+					C’est de céte façon que nôtre nature defectueuse nous porte à l’amour des choses
+					illicites ; &amp; que les hommes pour authoriser leurs vices recherchent les
+					memoires des anciens afin d’en tirer quelques mauuaises actions qui ont esté la
+					proye de plusieurs siecles, &amp; que l’aage deuroit auoir estouffées, ces
+					squelettes qui sont fraischement sorties de la poussiere &amp; du tombeau,
+					paraissent sur le theatre ; &amp; comme si les voluptez n’auoient pas assez
+					d’empire d’elles mesmes, on expose aux Spectateurs ces exemples de l’impudicité
+					de nos ancestres, pour leur en donner dauantage. Ie ne puis souffrir que les <pb
+						n="180" xml:id="p180"/>Chrestiens, au lieu de condamner ces spectacles y
+					donnent leur attention ; &amp; ils ne sçauroient sans faire tort à leur
+					condition, porter la veuë sur les actions bouffonnes de certains charlatans qui
+					ont appris des Grecs l’art d’imiter toutes sortes de voix pour le plaisir des
+					oreilles ; quel agreement y a t’il dans ces sots exercices. L’vn fait exprimer à
+					sa trompette vn son guerrier &amp; enroüé, &amp; l’autre fait exprimer à sa
+					flute des voix plaintiues ; vn autre voulant accorder vn instrument auec la voix
+					delicate d’vn homme, emplit le corps du sien de l’air qu’il a premierement
+					attiré dans ses poulmons ; il se peint la face à force d’y souffler, &amp; puis
+					retirant par les pertuis l’air qui s’y est gardé quelque temps, &amp;
+					entrecouppant le son à diuerses reprises, il tasche de donner à ses <pb n="181"
+						xml:id="p181"/>doigts l’vsage de la parolle : Et bien qu’il forme seulement
+					des voix inarticulées, n’est-il pas bien m’éconnaissant de renuerser ainsi les
+					ordres du createur, qui pour parler ne luy a pas dõné les doigts mais la langue.
+					Chacun de ces badins veut paraistre habil-homme, &amp; ce seroit perdre le temps
+					de mettre au iour toutes leurs façons de faire. Leur corps y contribuë ses plus
+					violents efforts, &amp; s’ils crient ou s’ils declament c’est auec vne
+					contention de tous les nerfs, &amp; des eslancemens si excessifs, qu’à les voir
+					on diroit qu’ils se vont rompre vne veine. Mais quand tous ces jeux ne se
+					celebreroient point à l’honneur des Idoles, des Chrestiens ne deuroient pas s’y
+					trouuer, ils ne deuroient pas cherir des diuertissemens, qui pour estre exempts
+					de crime ne sont pas exempts de vanité, &amp; <pb n="182" xml:id="p182"/>dont le
+					pompeux appareil a trop de la liberté du siecle. Car ceux qui gaignent leur vie
+					aux dépens de leurs jouës qu’ils exposẽt aux coups &amp; aux soufflets, sont ils
+					pas bien fous de viure ainsi sur le plaisir du peuple, à qui ils se donnent eux
+					mesme en spectacle ; &amp; ceux qui lient entre eux vne partie de manger auec
+					excés, &amp; qui en disputent publiquement la gloire, après s’y estre disposez
+					par vne diette extréme, &amp; qui surpasse ce semble les forces de nostre
+					nature ; sont-ils dignes de loüange ? Ce jeu est bien plaisant, la loy en est,
+					que celuy qui par vne excessiue abstinence a mieux combattu la faim, soit desia
+					victorieux par auance ; &amp; la qualité heroïque d’estre plus grand mangeur que
+					les autres, est le prix de la victoire. Certes les pratiques de ceux-cy sont
+					bien criminelles ; &amp; des autres, <pb n="183" xml:id="p183"/>ie ne sçay
+					comment ils veulent acheter le viure si cherement, que de l’acheter en
+					prostitüant honteusement leur visage.</p>
+				<p>Que i’ay encor en horreur le jeu infame des lutteurs. On voit des hommes, qui
+					pour paraistre bien soupples &amp; adroits, taschent par mille détours lascifs
+					de s’abbatre l’vn l’autre, se liants par des embrassements si sales, que les
+					plus dissolus ont honte de les voir faire ; en effet si quelqu’vn y a de
+					l’auantage sur son aduersaire, la victoire est bien honteuse puisque la honte en
+					fait vne partie, &amp; que la déshonnesteté y est en triomphe. On void mille
+					autres extrauagances dans le Spectacle. Les vns tous nuds se picquent d’adresse
+					à bien sauter ; les autres à battre bien l’air auec vn balon d’airin, ayans
+					ramassé toutes leurs forces dans les poings, afin de <pb n="184" xml:id="p184"
+					/>pousser plus loin céte lourde machine. On estime gloire ce qui est vne pure
+					folie ; &amp; de moy i’estime qu’vn Spectateur seroit bien sage s’il
+					reconnaissoit la vanité de tous ces exercices. Les Chrestiens sont criminels
+					s’ils ne les fuyent, il les faut abhorer, puisque tant d’impietés &amp; de
+					superstitions, &amp; tout ce superbe équipage des spectacles seruent seulement à
+					rendre l’idolatrie plus pompeuse &amp; mieux suiuie. Nos yeux &amp; nos oreilles
+					doiuent s’appliquer aux bonnes choses, &amp; ne point gouster toutes ces
+					libertes ; nos ames agissent le plus souuent par ces deux puissances, &amp;
+					quand on est prõpt à escouter le mal, on s’habituë promptement à le commettre.
+					Nous y sommes naturellement portés plustost qu’au bien ; nous auons vne secrette
+					inclination pour les vices ; &amp; partant que <pb n="185" xml:id="p185"/>peut
+					faire vne ame qui les prend pour exemples, &amp; qui se conduit par les saillies
+					d’vne nature lubrique &amp; corrompuë ; &amp; si estant foible de soy-mesme,
+					elle glisse aisément ; comment pourra-t’elle s’empescher de choir estant poussée
+					d’ailleurs ?</p>
+				<p>Nous auons des esprits trop releués pour les abbaisser à des choses si viles
+					&amp; méprisables. Vn Chrestien doit preferer les loüables occupations à
+					l’oysiueté du theatre ; &amp; si les spectacles ont attiré ses inclinations, il
+					y en a de plus beaux dans la nature que ceux de la gentilité, &amp; il aura dans
+					leur entretien les vrays &amp; solides plaisirs. Car sans luy descouurir ces
+					Spectacles surnaturels, ces beautés celestes &amp; rauissantes, qui luy seront
+					cachées tant qu’il viura ; ie veux exposer à sa veuë céte vaste machine du
+					monde, qui est <pb n="186" xml:id="p186"/>remplie de tant de merueilles. Qu’il
+					porte donc ses yeux &amp; son admiration vers le Ciel, &amp; qu’en suitte d’vn
+					tout si accõply il décẽde aux parties. Il verra le Soleil, cet Astre lumineux
+					qui diuise les iours &amp; les nuits, qui no<hi rend="sup">9</hi> iette ses
+					lumieres, foiblemẽt quand il se leue, auec vigueur sur le midy, pour nous les
+					dérober enfin sur le soir, &amp; faire place par sa retraite à la nuit. Alors il
+					pourra dans ce profond silence admirer à loisir le globe de la Lune, ce beau
+					corps qui nous fournit la clarté au defaut du premier, &amp; qui par le cours
+					&amp; decours, nous donne auec la distinction des mois, la cõnaissance des
+					saisons. Parmy ces tenebres il sera esclairé d’vne infinité de celestes
+					flambeaux, il verra les estoilles errantes &amp; mobiles, il verra les fixes, il
+					verra tous ces beaux astres qui semblent amener vn nouueau <pb n="187"
+						xml:id="p187"/>iour. Qu’il admire en suitte la diuision des années en
+					saisons, des saisons en mois, des iours &amp; des nuits que les heures partagent
+					si iustement. Qu’il jette en après les yeux sur la terre, dont la masse est
+					comme vn point enuironnée du Ciel, &amp; suspenduë auec les montagnes qui luy
+					sont attachées. Il ne pourra voir sans s’estonner, les eaux &amp; les fleuues,
+					qui d’vn cours precipité se vont perdre les vns dans les autres ; les mers &amp;
+					leurs reflus, leurs ports &amp; leurs promontoires. Il raisonnera en passant sur
+					l’vnion qui est entre les choses naturelles, il verra qu’elles conspirent
+					vnaniment par des secrets diuers &amp; ocultes, à accomplir les ordres de cette
+					adorable prouidence. Au dessus de nous &amp; plus bas que le Ciel il verra l’air
+					auec ses regions, qui eschauffe &amp; vegete la terre, qui a <pb n="188"
+						xml:id="p188"/>vn soin particulier de sa nourriture &amp; de ses
+					productions, qui se resserrant luy ouure ses canaux &amp; fait creuer les nüées
+					pour luy donner la pluye quand elle en a de besoin, &amp; qui vne autre fois se
+					dilate, se rarefie, &amp; r’appelle sa premiere serenité pour luy donner le
+					beau-temps, &amp; ne rien oublier de ce qui peut estre à son soulagement. Bref
+					il verra les parties du mõde frequentées par diuer habitans, les hommes sur la
+					terre, les oyseaux dans l’air, &amp; les poissons sous les eaux.</p>
+				<p>Que ces Spectacles sont rauissants, veritablement ils meritent seuls la
+					meditation d’vn Chrestien, car quel cirq ou quel theatre peut disputer de gloire
+					&amp; de beauté auec toutes ces merueilles ? C’est assez de dire que Dieu en est
+					l’ouurier, &amp; que les hommes ont esleué les autres, <pb n="189" xml:id="p189"
+					/>dont les embellissemens &amp; la structure qui nous semble prodigieuse, ne
+					sont autre chose qu’vn assemblage confus, &amp; vn peu curieux des pierres qu’on
+					a arrachées du sein des carrieres &amp; des montagnes. Et tous ces beaux
+					lambris, dont l’or &amp; les richesses surprennent les yeux vn peu foibles, que
+					sont ils aupres du vif esclat des Astres. Iamais les ouurages des hommes ne
+					donneront de l’admiration à vn Chrestien qui sçait que Dieu l’a choisi pour son
+					enfant. Celuy qui n’a des yeux que pour admirer la creature sans le Createur,
+					fait tort à sa generosité, &amp; à la grãdeur de sa naissance. On peut bien
+					estre Chrestien &amp; aymer les Spectacles, mais il les faut rechercher dans
+					l’Escriture sainte, c’est ainsi qu’vn fidelle pourra satisfaire sa curiosité
+					sans deroger à sa foy. C’est-là qu’il verra <pb n="190" xml:id="p190"/>Dieu qui
+					crea le monde d’vn rien, qui donne l’estre à ce qui n’en auoit point, &amp; qui
+					destine vne infinité d’animaux à l’vsage de l’homme, qu’il tire aussi du neãt
+					pour en faire vn chef-d’œuure accomply. Il contemplera les hommes dans leur
+					ingratitude, &amp; dans vn deluge de crimes, pour les voir en après enseuelis
+					dans le deluge des eaux. Il verra les naufrages en suite de la vengeance
+					diuine ; il verra les recompenses en suite des sainctes actions, &amp; les
+					chastiments en suite des impietés &amp; des mauaises œuures. Il verra toutes les
+					creatures soumises au Createur, excepté l’homme seul qui luy est rebelle, il
+					verra les mers se resserrer &amp; estre à sec pour la commodité du peuple
+					esleu ; &amp; pour le soulager vne autrefois, il verra les eaux reiaillir en
+					abondance des pierres &amp; des rochers. <pb n="191" xml:id="p191"/>Il verra le
+					Ciel fournir au defaut des greniers la mãne &amp; les moissons, &amp; les
+					fleuues suspendre leur cours rapide &amp; remonter ce semble vers leur source,
+					pour donner le passage libre sur leur sable. Il verra que les Saints
+					personnages, dont la vie a esté tousiours conduitte par la Foy, &amp; par les
+					vrays preceptes de la vertu, n’ont rien trouué d’impossible ; qu’ils ont
+					hardiment combattu l’actiuité des flammes &amp; du feu, &amp; donné des loix à
+					ce fier élement ; qu’ils ont appriuoisé, &amp; adoucy les bestes farouches, les
+					dépoüllants de l’inhumanité dont elles ont esté pourueuës par la nature. Il
+					verra reuiure ceux qui estoient morts ; bien plus il verra des squelettes
+					décharnés, &amp; quasi pourris sortir des tombeaux pleins de vie. Et pour la
+					derniere face du Spectacle, il <pb n="192" xml:id="p192"/>verra le diable qui
+					auoit reduit sous sa dominatiõ toute l’estenduë de la terre habitée, captif aux
+					pieds de <hi rend="sc">Iesvs-Christ</hi>, &amp; contraint de reuerer ses loix,
+					&amp; d’orner le triomphe de sa croix, de ses propres dépoüilles. Ces Spectacles
+					(mes freres) sont curieux &amp; diuertissants, ils sont seuls dignes de vous,
+					&amp; c’est vn plaisir indicible de les aimer, ainsi que c’est vne necessité
+					d’ouurir les yeux à l’esperãce &amp; au salut. Ces Spectacles sont bien plus
+					illustres que ceux des payens, puis qu’estans destinés au plaisir de l’ame, la
+					priuation des yeux corporels n’en peut oster la jouïssance. En fin ils nous sont
+					tousiours presents, &amp; nous n’en auons point l’obligation à vn Preteur ou à
+					vn Consul eschauffé à monstrer au peuple sa magnificence par le superbe appareil
+					d’vn spectacle ; mais à ce <pb n="193" xml:id="p193"/>Souuerain Monarque, à
+					cette infinie Majesté, à Dieu Eternel, Tout-puissant, Createur, qui est deuant
+					tout &amp; dessus tout, Pere de nostre Sauueur <hi rend="sc">Iesvs-Christ</hi>,
+					que nous deuons aimer &amp; adorer à iamais.</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

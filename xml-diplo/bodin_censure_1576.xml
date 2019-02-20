@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De la Censure. Chapitre I [Les Six Livres de la République, extrait]</title>
+                <author key="Bodin, Jean (1530-1596)"
+                    ref="https://data.bnf.fr/fr/11999951/jean_bodin/">Jean Bodin</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/bodin_censure_1576</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Jean Bodin, <hi rend="i">Les Six Livres de la République de I. Bodin Angevin.
+                        A Monseigneur du Faur, seigneur de Pibrac, Conseiller du Roy en son Conseil
+                        privé</hi>, <pubPlace>Paris</pubPlace>, <publisher>Jacques Du
+                        Puy</publisher>, <date>1576</date>, livre VI, « De la Censure », chapitre
+                    premier, (p. 602-616), p. 611-613. PDF : <ref
+                        target="http://gallica.bnf.fr/ark:/12148/btv1b86268103"
+                    >Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1576"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb n="611" xml:id="p611"/>
+                <head>Les comedies &amp; farces pernicieuses à toute
+                    Republique.</head>
+                <p>Ie tais aussi l'abus qui se commet en souffrant les Comiques, &amp; Iongleurs,
+                    qui est vne autre peste de la Republique des plus pernicieuses qu'on sçauroit
+                    imaginer : car il n'y a rien qui gaste plus les bonnes meurs, &amp; la
+                    simplicité, &amp; bonté naturelle d'vn peuple, ce qui a d'autant plus d'effect,
+                    &amp; de puissance, que les parolles, les accens, les gestes, les mouuemens,
+                    &amp; actions conduites auec touts les artifices qu'on peut imaginer, &amp; d'vn
+                    suget le plus ord, &amp; le plus deshonneste qu'on peut choisir, laisse vne
+                    impression viue en l'ame de ceux qui tendent là tous leurs sens. brief on peut
+                    dire, que le theatre des ioüeurs, est vn aprentissage de toute impudicité,
+                    lubricité, <pb n="612" xml:id="p612"/>paillardise, ruse, finesse, meschanceté. Et non sans
+                    cause disoit Aristote<note n="8" place="margin">lib. 7. ca. 15.
+                        polit.</note>, qu'il faut bien garder les sugets d'aller aux ieux des
+                    comiques : il eust encores mieux dit, qu'il faut raser les theatres, &amp;
+                    fermer les portes de la ville aux ioueurs : <hi rend="i">quia,</hi> dit
+                    Seneque, <quote><hi rend="i">nihil tam moribus alienum, quàm in spectaculo
+                        desidere.</hi></quote> Si on dit que les Grecs, &amp; Romains permettoyent les
+                    ieux : ie responds que c'estoit pour vne superstition qu'ils auoyent à
+                    leurs Dieux. mais les plus sages les ont tousiours blasmez. car combien que la
+                    Tragedie aie ne sçay quoy de plus Heroïque, &amp; qui moins effemine les cueurs
+                    des hommes, si est-ce toutesfois que Solon ayant veuiouer vne tragedie de
+                    Thespis, le trouua fort mauuais : dequoy s'excusant Thespis disoit, que ce
+                    n'estoit que ieu, Non, dist Solon, mais le ieu tourne en chose sericuse,
+                    beaucoup plus eust-il blasmé les comedies, qui estoyent encores incognues. &amp;
+                    maintenant on met tousiours à la fin des tragedies, (comme vne poizon és
+                    viandes) la farce, ou comedie. Et quand ores les ieux seroyent tollerables aux
+                    peuples meridionaux, pour estre d'vn naturel plus pesant, &amp; melancholique,
+                    &amp; pour sa constance naturelle moins suget à se changer, si est-ce que cela
+                    doibt estre defendu aux peuples tirant plus vers le Septentrion, pour estre de
+                    leur naturel sanguins, legers, &amp; volages, &amp; qui ont presque toute la
+                    force de leur ame en l'imagination du sens commun, &amp; brutal. Mais il ne faut
+                    pas esperer, que les ieux soyent defendus, ou empeschez par les
+                    magistrats : car ordinairement on voit, qu'ils sont les premiers aux ieux.
+                    C'est la propre charge des censeurs graues, &amp; seueres, qui auront la
+                    discretion d'entretenir les honnestes exercices de la gymnastique pour maintenir
+                    la santé du corps : &amp; de la musique. pour ranger les appetits soubs
+                    l'obeissance de la raison. i'entens la musique<note n="9" place="margin">duabus
+                        potissimum rebus ciuitates conseruantur γυμναστικῇ καὶ μουσικῇ, vt ait Plato
+                        in Timæo.</note>, qui signifie non seulement l'harmonie : ains encores
+                    toutes sciences liberales, &amp; honnestes : &amp; prendront garde
+                    principalement, que la musique naturelle ne soit alterce, &amp; corrompue comme
+                    elle est à present : puisqu'il n'y a rien qui coule plus doucement aux
+                    affections interieures de l'ame. Et pour le moins si on ne peut gaigner ce point
+                    là, que les chansons Ioniques, &amp; Lydiennes, c'est à dire, le cinq &amp;
+                    septiesme ton, soyent bannis de la Republique, &amp; defendus à la ieunesse,
+                    comme Platon, &amp; Aristote disoyent qu'il est necessaire, pour moins que la
+                    musique Diatonique, qui est la plus naturelle, que la chromatique, &amp;
+                    Enharmonique, ne soit corrompue par la meslange des autres : &amp; que les
+                    chansons dorienes ou du premier ton, qui est propre à la douceur, &amp; grauité
+                    bien seante, ne soyẽt deguisees en plusieurs tõs, &amp; dechiquetees, en sorte,
+                    que la pluspart des musiciẽs en deuiennent fols, &amp; insensez : par ce
+                    qu'ils ne sçauroyent gouster vne musique naturelle, non plus qu'vn estomac
+                    debifé, &amp; corrõpu de friandises, ne peut <pb n="613" xml:id="p613"/>gouster vne bõne &amp;
+                    solide viande. Or tout cela depẽd du debuoir des Censeurs, attendu que les iuges
+                    &amp; autres officiers n'y prendrõt iamais garde.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

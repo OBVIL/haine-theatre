@@ -1,0 +1,1771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>La Criticomanie, (scénique), dernière cause de la décadence de la religion et
+					des mœurs. Tome I</title>
+				<author key="Hache, Marc-François">Marc-François Hache</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>OBVIL</edition>
+				<respStmt>
+					<name>Infoscribe</name>
+					<resp>saisie, XML-TEI</resp>
+				</respStmt>
+				<respStmt>
+					<name>Anne-Laure Huet</name>
+					<resp>contributeur</resp>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Sorbonne Université, LABEX OBVIL</publisher>
+				<date when="2019"/>
+				<idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/hache_criticomanie-01_1819</idno>
+				<availability status="restricted">
+					<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+						<p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+							d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+							OBVIL).</p>
+						<p>Cette ressource électronique protégée par le code de la propriété
+							intellectuelle sur les bases de données (L341-1) est mise à disposition
+							de la communauté scientifique internationale par l’OBVIL, selon les
+							termes de la licence Creative Commons : « Attribution - Pas
+							d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+							3.0 FR) ».</p>
+						<p>Attribution : afin de référencer la source, toute utilisation ou
+							publication dérivée de cette ressource électroniques comportera le nom
+							de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+						<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+							scientifique, toute utilisation commerciale est interdite.</p>
+						<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+							ressource électronique, notamment en intégrant toutes les contributions
+							extérieures, la diffusion de versions modifiées de cette ressource n’est
+							pas souhaitable.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Marc-François Hache, <hi rend="i">La Criticomanie, (scénique), dernière cause
+						de la décadence de la religion et des mœurs ; en justification des lumières
+						du dix-huitième siècle ; Pour faire suite au Traité des Causes de
+						l’Indigence et de l’Immoralité, et Moyens de les détruire</hi>,
+						<pubPlace>Paris</pubPlace>, <publisher>Delaunay et Pélicier,
+						Corbier</publisher>, <date>1819</date>, tome I, XXXIV-206 p. PDF : <ref
+						target="https://books.google.fr/books?id=F5I-KxDxWjAC">Google</ref>.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1819"/>
+			</creation>
+			<langUsage>
+				<language ident="fre"/>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 type="preface">
+				<pb n="v" xml:id="pv"/>
+				<head>Préambule</head>
+				<p><hi rend="big">J</hi><hi rend="sc">e</hi> sens bien qu’il y a à peu près autant
+					d’imprudence, pour ne pas dire de ridicule, à écrire aujourd’hui contre les
+					spectacles, qu’il y en aurait à blâmer l’usage du vin en présence de convives
+					tout remplis de ses fumées ; mais je sais aussi que toute ivresse a des
+					intervalles pendant lesquels on permet à l’homme de sang-froid, de s’efforcer
+					d’en diminuer les trop grands excès. Toutefois, si nous étions parvenus au
+					dernier degré de corruption, et qu’il n’y eût pas à présent plus d’espoir <pb
+						n="vi" xml:id="pvi"/>de retour que l’affreux état de guerre, et de folles
+					illusions n’en laissaient concevoir dernièrement, je préférerais me taire pour
+					ne pas grossir inutilement le nombre des moralistes déclamant et prêchant dans
+					le désert depuis tant d’années ; mais autant l’on a été découragé à la vue de la
+					contagion du mauvais exemple, et des lois d’un despote <hi rend="i"
+						>bataillard</hi> qui ne respectait rien, qui a attiré sur nous tous les
+					fléaux avec la malédiction du ciel et des nations ; autant l’on doit espérer de
+					l’influence des lois sages qui vont nous régir, de cette Charte, <pb n="vii"
+						xml:id="pvii"/>si long-temps disputée, que nous venons de recevoir d’un Roi
+					juste qui la secondera encore par l’exemple de toutes les vertus, d’un Roi qui
+					recommande et protège tout ce qui est respectable, dont le cœur est
+					véritablement bon, les vues sages et paternelles, les promesses sincères ;
+					puisque rien ne le détourne de sa mission sacrée, et qui ne forcera donc pas les
+					écrivains de désirer, à la fin de son règne, pouvoir déchirer les pages où ils
+					en auraient trop loué le commencement trompeur. C’est pourquoi, plein de
+					confiance dans la nouvelle ère qui vient <pb n="viii" xml:id="pviii"/>de
+					s’ouvrir, je veux ajouter mon denier au tribut de talents ou d’efforts attendus
+					de tous les amis de l’ordre et de la patrie, pour concourir au rétablissement de
+					la morale sur ses anciennes bases, revues ou éclairées, et au retour du repos et
+					du bonheur de la société dont on voudrait souvent pouvoir s’éloigner
+					aujourd’hui, en s’écriant avec plus de raison qu’autrefois : <quote><hi rend="i"
+							>O beata solitudo ! ô sola beatitudo !</hi></quote></p>
+				<p>Mais consentira-t-on à m’entendre ? me pardonnera-t-on d’oser, moi, ver de terre,
+						<pb n="ix" xml:id="pix"/>signaler aussi comme moyen puissant d’accélérer et
+					de combler les désordres, un genre de composition regardé bientôt par tout le
+					monde comme un excellent moyen de les arrêter, et de désigner pour le plus
+					répréhensible un ouvrage fameux du <num>xvii<hi rend="sup">e</hi></num> siècle
+					auquel on croit avoir la plus grande obligation ? Fort de la pureté de mes
+					intentions et de la certitude que mon opinion nouvelle, en cas d’erreur, et du
+					reproche imminent d’avoir négligé ce précepte : <quote><hi rend="i">Sumite
+							materiam vestris qui scribitis æquam viribus</hi></quote>, ne peut
+					causer aucun mal, et pourrait <pb n="x" xml:id="px"/>encore, au contraire,
+					donner quelques indications neuves et faire naître des idées utiles à d’autres
+					écrivains plus exercés, qui considéreraient ce sujet sous de nouveaux points de
+					vue ; j’aurai le courage d’écrire, de soumettre à la discussion la plus
+					solennelle, et au jugement des hommes les mieux éclairés ce que je crois avoir
+					remarqué de plus, en continuant de chercher de bonne foi, et sans d’autre
+					passion que celle du bonheur commun, comment il s’est fait que, malgré toutes
+					nos lumières et nos belles institutions, malgré nos immenses <pb n="xi"
+						xml:id="pxi"/>bibliothèques renfermant tant de plans et de systèmes, ou de
+					bons livres destinés à nous améliorer, comme ceux qui paraissent encore tous les
+					jours sous toutes les formes ; et malgré les exemples, les efforts successifs et
+					continuels des orateurs les plus éloquents et les plus vertueux, et des sages
+					les plus instruits, les plus persuasifs, secondés par les plus vigoureuses
+					satires et censures ou critiques vivantes de nos personnes, de nos défauts et de
+					nos vices, nous soyons toujours tombés en effet de plus en plus dans le
+					relâchement, et soyons <pb n="xii" xml:id="pxii"/>arrivés sitôt au degré de
+					cette effrayante dissolution de mœurs dont un parti accuse aujourd’hui avec si
+					peu de discernement ces moyens mêmes de réformation. Je vais peut-être encore
+					une fois être moi-même accusé de cynisme et de morosité ; vu que je ne dissimule
+					point le mal, ce que je fais, pour mieux faire sentir l’urgence des remèdes que
+					je propose. Soyez mes juges, hommes de bien, observateurs sages qui, étrangers
+					aux exagérations passionnées des partis, voyez mieux les véritables causes de ce
+					débordement, et <pb n="xiii" xml:id="pxiii"/>osez avouer à vos antagonistes la
+					perversité, toutes les perfidies, les criminelles extravagances de vos
+					contemporains, en les voyant habituellement se trahir, se persécuter les uns les
+					autres, commettre toutes les espèces d’injustices et d’excès, chercher le
+					bonheur en détruisant ce qui en est le principe, acquérir des richesses, obtenir
+					des places en donnant l’exemple contagieux et funeste du mépris des vertus et
+					des lois qui en sont la garantie ; biens empoisonnés dont ils ne doivent pas
+					jouir en paix, dont les enfants seront un jour dépouillés <pb n="xiv"
+						xml:id="pxiv"/>par les mêmes moyens odieux que les parents ont pratiqués et
+					propagés avec aussi peu de retenue que si la fin de leur vie devait être la fin
+					de tout ce qui les intéresse. Il y a déjà long-temps, en effet, que c’est par
+					imitation qu’on agit à l’égard de la morale et de ses soutiens qui succombent
+					comme des hommes sauvages et barbares agissent, dans un naufrage, à l’égard du
+					vaisseau et de l’équipage dont le danger ne les inquiète pas, pourvu qu’ils
+					pillent et se chargent de butin. Funeste aveuglement ! Que de folles ambitions,
+					que de <pb n="xv" xml:id="pxv"/>méprisables intrigues ! s’écriait naguère un
+					écrivain sensible : la vérité semble pour jamais exilée de la terre, la
+					fourberie prend le langage de la bonne foi, la cupidité le masque du
+					désintéressement, la calomnie aiguise son stylet, la délation tient d’une main
+					le rameau d’or pour séduire, et de l’autre le poignard pour frapper !… et ces
+					forfaits n’étonnent plus ! on est même si accoutumé à en voir de plus en plus
+					cruels, qu’il faudra bientôt d’horribles complications d’atrocités pour
+					intéresser et fixer un moment l’attention !… Oui, jugez-moi, hommes <pb n="xvi"
+						xml:id="pxvi"/>éclairés et vertueux que je révère : je vous le demande,
+					soyez de bonne foi, parlez librement ; je veux tirer de votre réponse une
+					conséquence tout opposée à celles qu’en voudront déduire les pessimistes
+					systématiques qui blâment la philosophie et les lumières qu’elle répand ; qui
+					prétendent que les hommes s’égarent et <hi rend="i">tombent dans le fossé</hi>,
+					parce qu’ils y voient clair, tandis qu’il est si naturel de penser que cela leur
+					arrive parce qu’ils n’y voient pas assez ; je vous le demande, dis-je, comment
+					envisagez-vous l’état actuel de la société ? y <pb n="xvii" xml:id="pxvii"
+					/>respirez-vous librement ? ne vous trouvez-vous pas comme submergés dans un
+					océan de corruption ? à quelques exceptions près, sur quelle contrée, sur quoi
+					et sur qui pouvez-vous jeter les yeux que vous n’en aperceviez l’empreinte ou
+					les ravages ? savez-vous que faire, ou aller, à qui vous confier avec pleine
+					sécurité ? pouvez-vous vous taire, parler ou écrire, sans craindre qu’on ne
+					donne une mauvaise interprétation à votre silence, à vos paroles, ou à vos
+					écrits ? prospérez-vous dans un état sans être entourés d’envieux malfaisants ?
+					occupez-vous la moindre place <pb n="xviii" xml:id="pxviii"/>sans être en proie
+					à vingt dénonciateurs qui cherchent à vous la ravir ? faites-vous
+					quelqu’affaire, un marché, un contrat, une société quelconque, sans craindre
+					d’être trompés, sans l’être en effet fort souvent, et sans être forcés de
+					plaider même avec ceux qui se disaient vos amis, que vous avez obligés ? et
+					fréquemment vos affaires n’ont elles pas été plus embrouillées par ceux que vous
+					avez chargés de les éclaircir et de vous faire rendre justice ? ces défenseurs
+					perfides, qui sèment adroitement le trouble et la discorde, n’ont ils pas
+					trafiqué de <pb n="xix" xml:id="pxix"/>vos intérêts, ne vous ont ils pas ruinés
+					ou cruellement rançonnés et fait maudire leur médiation<note n="1"
+						place="bottom">Associés probes, amis sincères, honnêtes pères de famille,
+						veuves et orphelins, comme vous bonnes gens sans instruction et sans
+						prévoyance, qui gémissez sur tous les points de la terre civilisée, où vous
+						avez été outragés, trompés, dépouillés impitoyablement par toutes sortes
+						d’oppresseurs rusés qui jouissent sans remords de vos dépouilles en présence
+						de vos misères, vous prouvez à l’observateur, même favorisé de la fortune,
+						mais non égoïste, que la civilisation, par les moyens combattus qui l’ont
+						opérée, a moins adouci les mœurs qu’elle n’a rafiné, subtilisé les vices de
+						la barbarie.</note> ? et les forfaits commis tous les jours par le feu, le
+					fer <pb n="xx" xml:id="pxx"/>et le poison, dont tous les tribunaux sont occupés
+					sans cesse à nous révéler les horreurs, ne vous glacent-ils pas d’effroi ?
+					Enfin, êtes-vous vertueux avec sûreté et tranquillité ? faites-vous de bonnes
+					œuvres impunément, vous acquittez-vous exactement des devoirs de votre état et
+					de votre religion, ou les recommandez-vous sans être taxés d’hypocrisie,
+					soupçonnés d’être fourbes et de vouloir en imposer par ce moyen ? Rien ne peut
+					faire mieux sentir que cette expérience habituelle, l’étendre du mal, et la
+					difficulté du retour au bien. Cette <pb n="xxi" xml:id="pxxi"/>difficulté doit
+					être moins grande, toutefois, je le répète, sous une constitution aussi
+					raisonnable que celle que nous avons eu le bonheur d’obtenir enfin ; parce qu’en
+					respectant les hommes, elle doit nécessairement les porter à se respecter
+					eux-mêmes. Les lois d’un peuple libre, dit un savant distingué, ses institutions
+					sages et garantissantes, doivent amener la noblesse des sentiments et la pureté
+					des mœurs.</p>
+				<p>Mes recherches ou remarques nouvelles, tracées, je l’avoue d’avance, avec peu
+					d’art et de méthode, sur les causes de cette dégénération rapide, ne sont <pb
+						n="xxii" xml:id="pxxii"/>pas conjecturales, ni bornées au temps que j’ai
+					vécu. J’ai consulté, outre les lumières de la plus longue expérience de mes
+					doyens d’âge, les différents genres de traditions historiques, les écrits
+					authentiques et les mémoires secrets, les anecdotes et même les arts et leurs
+					productions ; j’y ai observé les hommes et le cours de leurs vertus, de leurs
+					vices, de leur langage, de leurs actions, les variations des principes et de
+					l’esprit des sociétés ou des cercles et coteries, en un mot, le mouvement de
+					l’opinion et des mœurs. C’est d’après ces <pb n="xxiii" xml:id="pxxiii"
+					/>documents certains, dont le principal est le fait incontestable que
+					l’irréligion et l’immoralité ont commencé à croître et s’étendre plus
+					sensiblement chez nous, comme chez les autres, à dater de l’époque des plus
+					fortes des leçons satiriques données en leur faveur, <hi rend="i">sous la forme
+						dramatique</hi> ; c’est d’après ces documents, dis-je, qui, abstraction
+					faite de tout ce qui a été dit pour et contre sur cette question, m’ont mis à
+					portée de comparer les temps, d’apprécier moi-même les causes qui ont agi sur
+					les mœurs aux différentes époques, par le rapprochement des <pb n="xxiv"
+						xml:id="pxxiv"/>effets, que j’ose avancer et entreprendre de prouver à mon
+					tour et à ma manière, sans prétendre le faire mieux que mes prédécesseurs, mais,
+					pour appuyer leur jugement, que l’amalgame ou le concours <hi rend="i"
+						>irrégulier</hi> de la joyeuse et attirante instruction théâtrale avec le
+					sérieux, l’austère et premier mode d’instruction et de réformation, a été
+					funeste à celui-ci ; qu’il l’a d’abord fait négliger et ensuite étouffé ou
+					paralysé presque entièrement en le suppléant fort mal, en le remplaçant comme un
+					étourdi spirituel et malin remplacerait un patriarche grave et prudent.</p>
+				<p><pb n="xxv" xml:id="pxxv"/>La violence ou l’énergie déplacée, les contre-temps,
+					les doubles ententes, le vague, les traits envenimés, les tableaux et les tours
+					ingénieux, les attraits licencieux, l’éclat, la coquetterie, si je puis parler
+					ainsi, en un mot, l’art séduisant des critiques du théâtre dont la malignité est
+					en effet le moyen ordinaire, souvent le principe, depuis long-temps a produit
+					cet effet, en attirant et captivant la foule qu’il a agitée à l’excès et
+					égarée.</p>
+				<p>Je prends pour exemple le justement célèbre <hi rend="i">Tartufe</hi>, par <pb
+						n="xxvi" xml:id="pxxvi"/>Molière, qui est réputé offrir la plus parfaite
+					leçon de l’espèce ; parce que si je parviens à convaincre celui-là, il sera
+					facile ensuite de juger ses coopérateurs. Je ne m’ingère pas de remettre en
+					jugement cette production sous le rapport dramatique ou littéraire ; cette cause
+					a été plaidée et bien jugée ; il y a long-temps que c’est une affaire finie ;
+					d’ailleurs, il y a prescription à cet égard : il serait trop ridicule d’y
+					revenir et de paraître vouloir, de concert avec des étrangers jaloux de la
+					supériorité de nos compatriotes, détruire une réputation <pb n="xxvii"
+						xml:id="pxxvii"/>légitimée par une si antique possession ; <hi rend="i">il
+						ne s’agit ici que d’erreurs</hi>, ou de démontrer, d’après l’expérience,
+					qu’une composition dramatique, quelle que soit sa perfection, présente toujours
+					des côtés très-défectueux ; que souvent la forme, par exemple, a des effets
+					contraires qui nuisent au fond, et empêchent l’auteur d’arriver heureusement à
+					son but. Je reconnais avec tout le monde que Molière a été peintre exact du cœur
+					de l’homme, qu’il en a bien reconnu les replis, qu’il a bien vu ce qui s’y
+					passait ; mais je tiens qu’il n’a pas prévu ce qui <pb n="xxviii"
+						xml:id="pxxviii"/>s’y passerait, par l’effet des portraits qu’il en fait. Je
+					prie d’observer aussi que je ne me suis permis cette discussion tardive ou
+					réchauffée sur cet auteur respectable, dont on ne peut lire les principaux
+					ouvrages sans admiration, qu’enhardi par la pensée que malgré tout ce qui en a
+					été dit, on pourra encore le discuter sous quelque rapport, même dans des
+					siècles, comme nous le faisons tous les jours des anciens auteurs grecs et
+					latins les plus fameux ; et me sentant d’ailleurs soutenu, quant au fond, par de
+					grandes autorités, par celles de Labruyère, de Racine, du <pb n="xxix"
+						xml:id="pxxix"/>président de Lamoignon, de Bourdaloue, des savants de
+					Port-Royal et d’autres, qui en ont parlé dans le même sens, qui ont combattu la
+					comédie en question à sa naissance, et l’ont jugée dangereuse unanimement, par
+					des présomptions, par des calculs de probabilité seulement, et sur qui j’ai donc
+					l’avantage du temps, de plus longues observations, des faits, ou de raisons
+					positives, en un mot, de l’expérience. C’est cette seule considération qui me
+					porte à écrire après eux, à attaquer aujourd’hui cet ouvrage <hi rend="i">par
+						rapport à ses résultats sur nos <pb n="xxx" xml:id="pxxx"/>mœurs</hi>, et à
+					montrer combien étaient justes les pressentiments de ces grands hommes, et
+					comment l’objet de leurs craintes s’est réalisé <hi rend="i">avant, et sans
+						l’influence des nouvelles théories philosophiques.</hi></p>
+				<p>Il est vrai que depuis ce temps-là on a dit le plus éloquemment, et d’après
+					l’expérience aussi, tout ce qu’il était possible de dire des effets du théâtre
+					sur le cœur ; mais il me semble qu’il reste encore quelque chose à dire de ses
+					effets sur la tête ; c’est-à-dire de l’influence de ses critiques vagues des
+					personnes sur l’esprit et le jugement. C’est sous <pb n="xxxi" xml:id="pxxxi"
+					/>ce point de vue, particulièrement, que je considérerai l’action du théâtre ;
+					je rappellerai cependant et confondrai avec les miennes, pour les fortifier les
+					unes par les autres, une partie des raisons apportées et déjà bien répétées
+					contre cette institution <hi rend="i">dans son état actuel.</hi> Ces répétitions
+					d’ailleurs sont dûment autorisées par la continuation du mal qui va toujours en
+					augmentant, et ne peut diminuer qu’à proportion que le nombre des hommes qui en
+					sont véritablement effrayés, et cherchent de concert à l’arrêter, approchera du
+					nombre de ceux qui <pb n="xxxii" xml:id="pxxxii"/>se plaisent et s’accordent à
+					le commettre. Si cette considération ne renfermait pas une réponse suffisante,
+					et que je fusse obligé d’en faire une au libelliste froid qui, à la vue de la
+					plus grande misère, et du pouvoir commun à tous les hommes d’être immoral, m’a
+					contesté l’affaire et le besoin pur d’écrire sur l’indigence et l’immoralité, et
+					de traiter des moyens d’en détruire les causes, je pourrais y ajouter, qu’ayant
+					vu dès mon enfance la maison de mon père, administrateur des pauvres,
+					continuellement assiégée ou remplie de malheureux <pb n="xxxiii"
+						xml:id="pxxxiii"/>pleurant, souffrant la faim et le froid, marqués de tous
+					les traits de la misère, ces tristes scènes, ont fait naître et laissé dans mon
+					cœur un sentiment pénible que je n’ai pu soulager que par la composition de ce
+					Traité ; et que ma mission fut, par conséquent, de la nature de celle que nous
+					recevons tous de la <hi rend="i">pitié</hi>, pour tâcher de retirer notre
+					semblable d’un abîme où nous le voyons périr. C’est en vertu d’une mission aussi
+					naturelle, et pour une fin aussi légitime que je vais émettre quelques autres
+					conceptions modérément et sans fougue, au risque, à <pb n="xxxiv"
+						xml:id="pxxxiv"/>présent, me plaçant entre deux extrêmes d’ancienne date,
+					qui ont chacun de nombreux et chauds partisans dont je blâme franchement les
+					excès contraires, d’être qualifié à la fois de fanatique et d’impie, d’ennemi et
+					d’esclave de l’art dramatique. C’est pourquoi je prie mes juges impartiaux de ne
+					prononcer sur mon opinion nouvelle qu’après avoir lu attentivement cet essai ;
+					et si je ne suis parvenu à les convaincre de la pureté des sentiments qui me
+					l’ont inspiré, il ne me restera plus qu’à regretter qu’ils ne puissent pas lire
+					dans mon cœur.</p>
+			</div1>
+			<div1 type="dedication">
+				<pb n="36" xml:id="p36"/>
+				<p><hi rend="i">Aux lecteurs estimables qui pourraient cependant me soupçonner
+						dominé par l’orgueil ou l’amour-propre.</hi></p>
+				<lg>
+					<l>Ceci ne prouve aucunement</l>
+					<l>Que je crois valoir mieux que vous ;</l>
+					<l>J’exprime le vœu seulement</l>
+					<l>Que bientôt nous valions mieux tous.</l>
+				</lg>
+			</div1>
+			<div1 type="book">
+				<pb n="37" xml:id="p37"/>
+				<head>La criticomanie</head>
+				<p><hi rend="big">I</hi><hi rend="sc">l</hi> se forme naturellement dans l’ordre
+					civil ou moral trois principales classes d’hommes en même temps qu’ils se
+					civilisent, d’où il résulte trois écoles, l’une de bonnes mœurs, l’autre de
+					mœurs mixtes, et la dernière de mauvaises mœurs ; lesquelles ont chacune deux
+					sections. Je ne retracerai pas les vicissitudes de ces écoles depuis leur
+					formation, ni les causes et les événements qui y ont contribué ; il faudrait
+					pour cela refaire une histoire de la civilisation. Il suffit à la fin que je me
+					propose de les <pb n="38" xml:id="p38"/>prendre à l’état auquel les avaient
+					amenées chez nous en dernier résultat, au <num>xvii<hi rend="sup"
+					>e</hi></num> siècle, les dissensions politiques et religieuses, notamment le
+					luthéranisme, le calvinisme, les guerres de la ligue et de la fronde, les
+					disputes des jansénistes et des molinistes. A cette époque, la première école,
+					qui avait déjà considérablement souffert de ces derniers troubles, restait
+					composée en plus grande partie de ces hommes sages et éclairés qui peuvent le
+					mieux commander à leurs passions, qui sont sincèrement attachés à leur religion
+					qu’ils prennent pour seul guide, qui ne désirent d’autres biens ni <pb n="39"
+						xml:id="p39"/>d’autres plaisirs que ceux qu’elle permet, en un mot, qui
+					marchent le plus fermement dans les sentiers de la vertu, dont ils sont les
+					organes les plus purs, qu’ils soutiennent par leurs discours et par leurs
+					exemples, ou par leurs écrits, avec différents degrés de lumière, de force et de
+					perfection, mais tous sincèrement et de bonne foi.</p>
+				<p>Les hommes faibles et superstitieux, les pieux ignorants, les dévots passionnés
+					et trop ardents, les fanatiques et intolérants, en formaient la deuxième
+					section.</p>
+				<p><pb n="40" xml:id="p40"/>La seconde école, qui venait de recevoir beaucoup de la
+					première, et de fournir encore davantage à la dernière, comprenait alors tous
+					ceux dont la religion moins éclairée, moins affermie, était combattue ; dont les
+					heureux penchants étaient pour le moment contre-balancés par des passions
+					vives ; ce qui les rendait irrésolus, ou sans caractère décidé ; ils flottaient
+					entre le vice et la vertu ; ils sacrifiaient à l’un en rendant hommage à
+					l’autre. Ce sont eux <quote><hi rend="i">qui sont presqu’autant touchés de la
+							lecture d’un mauvais livre que de celle d’un bon, et dont le cœur
+							concilie les choses contraires et <pb n="41" xml:id="p41"/>admet les
+							incompatibles.</hi></quote> (Lab.) Cette section, nécessairement
+					hypocrite, est la plus nombreuse ; parce qu’elle convient aux hommes ordinaires,
+					à des êtres imparfaits par essence, naturellement enclins au bien et au mal,
+					susceptibles donc d’être séduits par les charmes de la vertu et entraînés par
+					les séductions du vice dont ils reconnaissent la difformité et avouent la honte,
+					à l’empire duquel cependant ils ne peuvent entièrement se dérober <quote><hi
+							rend="i">qu’après de longs combats sur eux-mêmes…</hi></quote> Par
+					conséquent, ceux-là, de quelques rang, profession ou religion qu’ils soient,
+					devront <pb n="42" xml:id="p42"/>nécessairement se rendre plus souvent coupables
+					tant qu’ils seront dans cette école militante ; et personne ne peut contester
+					raisonnablement que ce ne soit un bien, qu’en attendant mieux, ils aient
+					néanmoins le soin ou <hi rend="i">l’hypocrisie</hi>, pour sauver les apparences
+					et éviter le scandale, de se cacher, de tenir secrètes les atteintes qu’ils
+					portent à la morale dont ils sentent le prix et la nécessité, qu’ils voudraient
+					voir respecter, qu’ils défendent même publiquement et de concert avec ses
+					organes les plus purs de la première division, desquels ils sont
+					incontestablement les utiles auxiliaires. En effet, on <pb n="43" xml:id="p43"
+					/>a connu bien des hommes de toutes les communions, de tous les rangs et de tous
+					les états, même des pères de famille, qui sacrifiaient secrètement aux
+					faiblesses humaines, et qui donnaient d’un autre côté de sages instructions, de
+					bons exemples à tous ceux qui les entouraient, à leurs enfants, surtout, qu’ils
+					élevaient dans les bons principes, dont ils faisaient soigner particulièrement
+					l’éducation. On a vu aussi des prêtres de cette section montrer le plus grand
+					zèle à s’acquitter des fonctions de leur état, mériter l’estime de leurs
+					supérieurs et l’amour de ceux dont la direction leur était <pb n="44"
+						xml:id="p44"/>confiée. Le T….. même aurait pu obtenir de grands succès,
+					ramener dans le sein de l’église, rendre à la morale des hommes qui en étaient
+					les ennemis. Je compare cette section à un individu, comme il y en a tant en
+					places, réunissant à plusieurs défauts secrets dont il se corrige, <hi rend="i"
+						>peu à peu</hi>, avec l’âge et l’expérience, beaucoup de bonnes qualités qui
+					le mettent en rapport avec les hommes sages qu’il imite et seconde dans bien des
+					cas, et en font au total un homme utile à la société, un bon citoyen.</p>
+				<p>Que ceux de mes contradicteurs prochains qui douteraient de <pb n="45"
+						xml:id="p45"/>l’aptitude des membres de cette section à seconder la première
+					école, à toucher les âmes, à être les organes de la religion et des mœurs, à
+					cause de leurs faiblesses secrètes, se rappellent que Molière, et eux-mêmes,
+					peut-être, regardent comme une excellente école de mœurs le théâtre dont les
+					organes, en général, ne se donnent pas même la peine de cacher leurs
+					déréglements ; et ils seront forcés de convenir qu’à plus forte raison les
+					autres, sans avoir l’innocence et la pureté de mœurs des chefs de la première
+					école, peuvent propager leurs principes, rappeler avec succès leurs maximes,
+					leurs <pb n="46" xml:id="p46"/>exemples, prêcher, recommander leur doctrine, en
+					montrer la sainteté, en inspirer l’amour.</p>
+				<p>Les fourbes, les impies et méchants, qui s’efforcent de paraître probes,
+					religieux et bons, qui prennent tous les dehors de ces vertus, formaient la
+					deuxième section de cette école.</p>
+				<p>Enfin, la troisième et dernière école, qui s’était considérablement augmentée de
+					la perte récente des autres, était composée d’impies et de libertins, ou de ces
+					mauvais sujets qui se jouent manifestement des religions, de la morale et de <pb
+						n="47" xml:id="p47"/>ses préceptes, qui ne portent aucun masque, <hi
+						rend="i">qui ne sont pas hypocrites</hi>, qui s’abandonnent sans réserve à
+					leurs passions, qui ne craignent pas de scandaliser la société, de corrompre les
+					deux sexes dans leurs trois âges ; et ces libertins, qu’on fasse bien attention
+					aussi à cette circonstance, en même temps qu’on poursuivait à outrance les
+					hypocrites, étaient déjà tolérés, non pas universellement, mais dans un certain
+					nombre de belles sociétés, même dans des palais. On y voyait des femmes galantes
+					et des hommes déhontés persifler l’homme sage et bien pensant dont la conduite
+						<pb n="48" xml:id="p48"/>faisait la censure de leurs excès. Depuis
+					long-temps ils appelaient langoureux tourtereaux les maris fidèles, et amants
+					gaulois les amants constants. Par des écrits en vers licencieux, ils faisaient
+					habituellement confidence au public de leurs bonnes aventures, de leurs
+					conquêtes nouvelles, de leurs triomphes sur l’innocence et la vertu ; on y
+					voyait, dis-je, ces libertins, non-seulement tolérés, mais bien accueillis,
+					cités même comme spirituels et aimables ; ou les recherchait, on les honorait,
+					on ne leur adressait en souriant que le reproche plus encourageant, plus
+					flatteur qu’humiliant pour eux, d’être <pb n="49" xml:id="p49"/><hi rend="i">des
+						roués, des charmants vauriens</hi>, pour qui les dames surtout avaient la
+					plus grande indulgence, dont plusieurs raffolaient, ne trouvant dans leur
+					conduite que des <quote><hi rend="i">noirceurs aimables</hi></quote>. Chacun, en
+					effet, prenait plaisir à les entendre raconter ; elles égayaient parfois aussi
+					des cercles du plus haut rang. Quant aux moralistes, ils impatientaient plus
+					qu’ils ne touchaient ou intimidaient les disciples de cette école qui est aussi
+					ancienne que les autres. Quelques grands personnages, des ducs, des marquis, des
+					comtes, des duchesses, des comtesses et des financiers, des abbés, des auteurs,
+					en un mot, des <pb n="50" xml:id="p50"/>hommes et des femmes de tous les rangs
+					distingués y ont figuré successivement, et ont servi d’autorité à toutes les
+					époques, à dater du <num>xvi<hi rend="sup">e</hi></num> siècle surtout.</p>
+				<p>Les scélérats qui ont étouffé dans leurs âmes tous les sentiments de la justice,
+					de l’honneur et de l’humanité, ces malheureux qui ne connaissent aucune loi, qui
+					n’ont d’autre retenue que celle qu’ils croient nécessaire à leur conservation,
+					ou pour éviter le glaive qui menace de les frapper, sont placés dans la deuxième
+					section de cette école, à une distance convenable de la première toutefois.</p>
+				<p><pb n="51" xml:id="p51"/>Ces trois institutions spontanées que je divise en six
+					sections distinctes, afin de rendre palpable, autant que possible, ce qui est
+					arrivé confusément et presque insensiblement, par le concours de tous, et, pour
+					ainsi dire, à l’insu de chacun ; et afin que pouvant mieux apprécier par là les
+					effets divers que les moyens employés ont produits d’abord sur telle et telle
+					section, et puis sur toutes ensemble, c’est-à-dire, sur la société entière, on
+					puisse mieux juger aussi des moyens à employer désormais pour la réforme si
+					malheureusement tentée jusqu’à présent ; ces trois <pb n="52" xml:id="p52"
+					/>institutions spontanées, dis-je, constituent un système moral existant
+					nécessairement dans l’état de civilisation, parce qu’il est fondé sur la
+					diversité naturelle des dispositions que les hommes y apportent. L’harmonie qui
+					règne entre les deux premières, du moins par rapport aux points fondamentaux,
+					est de la plus grande importance, quoique imparfaite. C’est par elle que la
+					morale publique est garantie de la contagion de la dernière école contre
+					laquelle, ainsi réunies, elles ont une importante majorité ; c’est par cet
+					accord, qu’il y a dans la société plus d’édification que de scandale, plus <pb
+						n="53" xml:id="p53"/>de leçons de sagesse que d’exemples de libertinage, et
+					par conséquent, plus d’encouragement à la vertu que d’entraînement au vice. Ce
+					ne fut en effet que par les efforts combinés de ces deux divisions, formant un
+					corps considérable d’hommes soumis aux lois divines et humaines, remplissant, ou
+					honorant tous les devoirs de la société, animés du même esprit, tendant au même
+					but, quoique par des directions différentes plus ou moins justement
+					controversées, répandus partout en plus grand nombre que leurs antagonistes
+					effrénés, partout instruisant, édifiant, exhortant, <pb n="54" xml:id="p54"
+					/>servant de point de ralliement aux esprits combattus, aux vertus chancelantes,
+					faisant une autorité respectable, prépondérante, qui déterminait nécessairement
+					la masse du peuple en faveur des règles établies pour la conduite de l’homme en
+					société, en faveur des bons principes, ou des vérités fondamentales qu’ils
+					transmettaient sans interruption de génération en génération ; ce ne fut que par
+					ce concours, dis-je, que le christianisme et la morale ont résisté pendant tant
+					de siècles à toutes les attaques de l’impiété, aux erreurs graves de toute
+					espèce, aux écrivains corrompus et <pb n="55" xml:id="p55"/>corrupteurs, aux
+					incrédules, aux athées, aux fatalistes épouvantables, aux libertins vulgaires,
+					aux grands scandales, à tous les événements, à tous les systèmes subversifs.</p>
+				<p>Il ne restait qu’un moyen qui n’avait pas encore été pris en grand, de détruire
+					ce corps conservateur qui, malheureusement encore, était devenu, à l’époque de
+					l’attaque, la proie des disputes de religion, de discordes intestines plus vives
+					que jamais, qui disposaient les esprits à une discorde plus générale ; il
+					consistait à le sous-diviser en attaquant d’abord ses membres défectueux, ou <pb
+						n="56" xml:id="p56"/>le côté personnel le plus faible, sous l’apparence, ou
+					même, ainsi que cela est arrivé, je me plais à le croire, avec le sentiment d’un
+					grand respect, de beaucoup d’estime et d’attachement pour le côté fort, à cause
+					de la pureté de ses principes et de sa conduite ; moyen opposé à ceux qui
+					avaient été employés jusqu’alors, lesquels, dirigés par des écrivains
+					irréligieux contre <hi rend="i">le fond des religions</hi>, en alarmaient, en
+					irritaient et resserraient tous les partisans ; au lieu que par cette nouvelle
+					attaque, qui eut lieu au milieu du dix-septième siècle, et qui fut si
+					vigoureusement dirigée <pb n="57" xml:id="p57"/>contre l’hypocrisie d’une
+					section, on a, par suite, et de proche en proche, atteint et divisé les plus
+					respectables, en séparant ainsi leurs intérêts en apparence. On a flatté, exalté
+					les vertus angéliques de la première école, engagé, compromis les vertus mixtes
+					de la seconde, et remué fortement les passions humaines de toutes les trois, ce
+					qui a amené le conflit le plus funeste, conflit que des hommes seuls, tels que
+					Racine et le président de Lamoignon, pouvaient prévoir.</p>
+				<p>Voici l’aperçu de la progression lente, et plus ou moins sourde, <pb n="58"
+						xml:id="p58"/>selon les circonstances, de ses malheureux résultats, dont
+					Molière, sans l’avoir voulu, a été la plus grande cause par sa comédie du <hi
+						rend="i">Tartufe</hi>, que les méchants et les ignorants ont rendue un
+					instrument de dommage et de confusion, de la manière suivante, dont le
+					commencement a été mieux aperçu que la suite.</p>
+				<p>Cette satire qui ne procède pas des troubles qui agitaient alors l’église, qui
+					n’en fut qu’un incident bien fâcheux, selon moi, n’a sans doute été dirigée
+					intentionellement et directement que contre la deuxième section de la seconde
+						<pb n="59" xml:id="p59"/>école, c’est-à-dire, contre les hommes <hi rend="i"
+						>fourbes, impies et méchants, qui s’efforcent de paraître probes, religieux
+						et bons, qui prennent tous les dehors de ces vertus pour captiver la
+						confiance de ceux qu’ils veulent tromper.</hi></p>
+				<p>Quoique je ne conçoive pas bien comment l’auteur a pu espérer de frapper juste et
+					les atteindre distinctement, étant confondus avec les honnêtes gens, surtout
+					avec <hi rend="i">les mixtes</hi>, et dans les ténèbres dont ils restaient
+					enveloppés jusqu’à la maturité et l’éclat de leurs impostures ; j’admets qu’il
+					ait obtenu ce succès, que sa <pb n="60" xml:id="p60"/>satire n’ait eu d’action
+					d’abord que sur ces imposteurs, <hi rend="i">qu’elle les a appréhendés, fustigés
+						et attachés au gibet de l’opinion publique</hi>, pour me servir des
+					expressions d’un littérateur distingué ; mais on sera forcé d’admettre aussi une
+					chose plus intelligible : de convenir qu’il y a eu réaction, que le fouet de
+					cette satire, qu’il aurait fallu, pour bien faire, pouvoir contenir à volonté,
+					toujours bien diriger, et même interdire à beaucoup de gens, ou retirer, au
+					besoin, étant resté à la disposition de tout le monde, toutes les passions s’en
+					sont emparées successivement, qu’il a été saisi, en <pb n="61" xml:id="p61"
+					/>second lieu, par les premiers fustigés, de même, et avec plus de facilité que
+					des malfaiteurs désarment et frappent les agents de la justice ordinaire, et
+					tourné contre leurs accusateurs ou exécuteurs qui, bien que moins
+					répréhensibles, ou même très-purs intérieurement, avaient toujours l’extérieur
+					ou les principaux traits sensibles du tartufe qui les singeait, et dont ils ne
+					différaient réellement que par le principe de leurs actions, par des pensées
+					secrètes qu’il leur était impossible de faire valoir pour leur justification. En
+					effet, qui pouvait pénétrer la vérité et juger en ce cas ? puisqu’un <pb n="62"
+						xml:id="p62"/>tartufe ressemble à un homme de bien tant qu’il n’est pas
+					découvert, l’homme de bien peut donc être soupçonné, prévenu, impunément accusé
+					d’être un tartufe encore enveloppé.</p>
+				<p>On ne peut, dit un profond observateur, bien juger les hommes par le dehors de
+					leurs actions. Il n’y a qu’un très-petit nombre de connaisseurs qui les
+					discernent et qui soient en droit de prononcer sur leur intérieur. Ce n’est que
+					peu à peu, et forcé même par les occasions, que la vertu parfaite et le vice
+					consommé viennent enfin à se déclarer. C’est pourquoi sans <pb n="63"
+						xml:id="p63"/>doute, devant un tribunal composé de sages, le jugement d’une
+					cause semblable resterait du moins long-temps suspendu ; mais ici c’est la
+					multitude excitée, aveuglée, ce sont les mêmes hommes passionnés qui accusent,
+					jugent, condamnent, et exécutent sur-le-champ et en même temps.</p>
+				<p>Ceux qui jetaient les premières pierres, et dont la vertu ne brillait pas d’un
+					éclat extraordinaire, paraissaient donc aussi dûment attaqués eux-mêmes par les
+					méchants et les fourbes atteints et irrités qui les leur rendaient avec l’audace
+					du filou qui crie <hi rend="i">haro</hi>
+					<pb n="64" xml:id="p64"/>sur l’honnête homme qu’il a volé. Ils ont été traités
+					de tartufes, accusés de cacher aussi de criminelles intentions sous les fausses
+					apparences de la vertu. Ils ont été à leur tour <hi rend="i">appréhendés et
+						fustigés</hi> comme des coupables, sans que personne pût mieux qu’eux-mêmes
+					montrer leur innocence ni en donner une caution suffisante. Et l’on concevra de
+					mieux en mieux comment quarante ou cinquante années de vertus furent même encore
+					d’une impuissante recommandation dans la suite. Il y a trop d’exemples, en
+					effet, que des hommes vraiment religieux et de mœurs pures ont été <pb n="65"
+						xml:id="p65"/>poursuivis jusqu’au de-là du tombeau par la tyrannie des
+					agents de cette satire aveugle et à toute main, qui allait comme elle était
+					poussée, que chacun dirigeait à son gré, et toujours avec d’autant plus de
+					succès pour les méchants, que la grande majorité des gens donne aux déclamateurs
+					les plus ardents la vertu opposée aux vices qu’ils paraissent combattre. Sa
+					première application qui a été faite au président de Lamoignon, en plein
+					spectacle, par une annonce maligne qui fut bien applaudie, et qui, sans autre
+					forme ni examen, a fait rire tout Paris aux dépens de ce magistrat si <pb n="66"
+						xml:id="p66"/>respectable, aurait dû faire présager l’abus facile, les
+					applications injustes et inconsidérées que la malignité en ferait, et le mal qui
+					en résulterait infailliblement.</p>
+				<p>En supposant qu’il n’y eut que la seule petite section justement châtiée qui ait
+					ainsi récriminé, les conséquences n’en paraîtraient pas encore
+					très-effrayantes ; mais dans l’état où en étaient les choses et les personnes,
+					ce mouvement une fois imprimé, la récrimination devait aller bien au-delà, et
+					toujours s’étendre par degrés ainsi que l’agression. La troisième et grande
+					école, celle de mauvaises <pb n="67" xml:id="p67"/>mœurs, qui était
+					habituellement l’objet des leçons sévères, des censures, de tous les discours ou
+					sermons des moralistes religieux et autres (dont le droit de blâmer n’était
+					guères discuté ou contesté auparavant) était là toute prête, et n’a pas tardé à
+					prendre parti ; ses nombreux, et dès long-temps impatientés disciples, ont saisi
+					la balle au bond ; ils se sont emparés avec empressement de cette nouvelle et
+					excellente tactique pour faire taire leurs éternels censeurs.</p>
+				<p>Et en même temps les hypocrites ou tartufes, proscrits <pb n="68" xml:id="p68"
+					/>d’abord de l’école mixte dans laquelle ils étaient cachés, en quelque sorte
+					liés, assujettis, contenus, qui ne furent pas corrigés ou meilleurs pour avoir
+					été démasqués avec cette violence, semblables à d’autres criminels qui, après
+					s’être dégagés de leurs liens d’une autre espèce, fuient et vont se réunir aux
+					mauvais sujets libres, pour exercer leur brigandage en force et plus sûrement,
+					se sont jetés dans cette autre école en fermentation et entièrement
+					récriminante ; ils se sont associés à ses vieux sectaires sans masque dont ils
+					ont alors affiché les maximes, et pris le ton <pb n="69" xml:id="p69"/>pour
+					jouir des mêmes franchises. Les uns se sont mêlés aux fripons, aux escrocs, aux
+					scélérats déterminés et aguerris, les autres aux esprits forts, aux impies de
+					profession, aux libertins caustiques, aux roués tolérés dans le monde, lesquels
+					ne pouvaient rien désirer de plus favorable aux intérêts de leurs principes et
+					de leurs ressentiments que cette satire ingénieuse et foudroyante <hi rend="i"
+						>dont eux seuls étaient évidemment à couvert</hi>, qui les privilégiait en
+					quelque sorte, qui leur envoyait du renfort muni de haine et d’une arme
+					nouvelle, la plus propre à combattre les frondeurs de leurs <pb n="70"
+						xml:id="p70"/>principes et les importuns observateurs de leur conduite.
+					Aussi, ils accueillirent bien les transfuges, firent cause commune avec eux, et
+					conjurèrent plus puissamment ensemble.</p>
+				<p>Leur réaction s’étendit alors sur toutes les sections, sans exception, s’étant
+					mis aussi à goguenarder plus vivement même leurs condisciples les plus timides
+					ou <hi rend="i">les moins avancés</hi>, auxquels ils ont fait faire des progrès
+					plus rapides. Mais ils chargèrent avec toute l’aigreur d’une entière opposition,
+					non-seulement leurs antagonistes de la seconde école, <pb n="71" xml:id="p71"
+					/>sur lesquels malheureusement, avec l’examen plus actif, plus rigoureux que
+					provoquait l’aiguillon de la satire, ils trouvaient souvent quelque prise, ce
+					qui paraissait justifier <hi rend="i">toutes</hi> leurs détractions, et leur
+					donnait une nouvelle vigueur à rendre censure pour censure, <hi rend="i">oculum
+						pro oculo, dentem pro dente ;</hi> mais aussi ceux de la première école,
+					même les plus purs et les plus édifiants, qui ne furent bientôt plus, selon eux,
+					que des tartufes qu’ils ont confondus avec les autres. D’accord, et guidés par
+					le même ressentiment, ils dirent partout la même chose unanimement dans toutes
+					les occasions semblables.</p>
+				<p><pb n="72" xml:id="p72"/>Ils se sont évertués ainsi de concert pour les assimiler
+					tous au tartufe de la comédie ; ils les signalaient comme tels, ils leur
+					appliquaient hardiment tous les traits de cette satire, parce qu’ils ne
+					craignaient point d’être jamais confondus par la vue claire de la vérité, et
+					convaincus de calomnie.</p>
+				<p>Or, ces détractions plus multipliées, ces bruits calomnieux applaudis et répétés
+					par plus de partisans ou de coteries licencieuses, et par les échos habituels de
+					l’ignorance, de la sottise et de la méchanceté, ressemblaient beaucoup à la voix
+					publique, et <pb n="73" xml:id="p73"/>formaient promptement, <hi rend="i">dans
+						la sphère de chaque application</hi>, une fausse évidence, une opinion
+					vicieuse et contagieuse, de la nature de celle qui a tant de fois opprimé
+					l’homme de génie, et fait méconnaître pendant toute sa vie, quelquefois encore
+					long-temps après sa mort, son mérite réel, quoiqu’il fût visible dans ses
+					productions et susceptible d’être bien prouvé, formaient, dis-je, une opinion
+					vicieuse, suffisante, à plus forte raison, pour opprimer la vertu, pour
+					déconcerter une grande partie, et généralement déconsidérer des personnes dont
+					le plus grand nombre <pb n="74" xml:id="p74"/>n’était pas sans reproche, et dont
+					les plus irrépréhensibles n’avaient à opposer à la voix publique que la voix de
+					leur conscience, ou le sentiment de la droiture de leurs âmes que Dieu seul
+					pouvait connaître.</p>
+				<p>Et quand même quelques-uns auraient pu, par des moyens extraordinaires, prouver
+					leur bonne conscience ou leur vraie dévotion, je doute que cela leur eût été
+					bien utile, attendu que cette satire se trouve une arme à deux tranchants qui
+					frappe directement aussi les vrais dévots, en représentant Orgon, qui l’est <pb
+						n="75" xml:id="p75"/>indubitablement, sous d’autres couleurs odieuses ; elle
+					en fait un fanatique, un sot têtu, mauvais époux, père dénaturé. Et sa mère qui
+					aime Tartufe parce qu’elle le croit honnête homme ou dévot pur, qui est censée
+					vraie dévote elle-même, est une mégère qui gronde tout le monde, qui frappe les
+					gens à tort, à travers.</p>
+				<p>Mais nous ne sommes pas encore à la fin des progrès et des ravages de cette
+					censure malheureuse qui, comme on voit, n’est parvenue à <hi rend="i"
+						>corriger</hi> les tartufes qu’en les faisant des scélérats publics, encore
+					par un moyen qui <pb n="76" xml:id="p76"/>devait les rendre les plus cruels
+					ennemis de ceux dont ils quittaient les rangs ; qu’en les adjoignant à de plus
+					grands fléaux de la société, dans une autre classe d’hommes pervers qui
+					conspiraient ouvertement, sans relâche et sans compensation, la perte ou la
+					spoliation de leurs concitoyens, la ruine de la religion et des mœurs. A Dieu ne
+					plaise que je prenne la défense de ces odieux hypocrites, et que je veuille
+					empêcher de les punir ! Je veux montrer seulement que cette manière de le faire
+					est impraticable ou dangereuse ; qu’ils n’ont pu être changés qu’en pire, et
+					rendus <pb n="77" xml:id="p77"/>plus nuisibles au présent sans aucun avantage
+					pour l’avenir ; puisque le vice qui les possédait n’a pu être chassé avec eux,
+					qu’il est resté et a reparu sous d’autres livrées, qu’il paraît aujourd’hui sous
+					celle de la bienfaisance et de la philosophie ; ce qui durera jusqu’à ce que ces
+					masques soient brisés aussi imprudemment, et que les vrais philosophes et les
+					hommes véritablement bienfaisants soient livrés de même aux dédains stupides et
+					à la risée de la multitude. On a déjà commencé cette œuvre dont je parlerai plus
+					bas. N’eût-il pas mieux valu les laisser cachés et tenus sous le frein, <pb
+						n="78" xml:id="p78"/>et continuer avec zèle l’emploi des moyens ordinaires
+					pour les toucher et les faire entrer dans la bonne voie avant la consommation de
+					leurs crimes, ou les punir sévèrement après, à mesure qu’ils en auraient été
+					convaincus ? Et, de plus, les hommages qu’ils rendaient à la vertu, ces bons
+					exemples continuels qu’ils donnaient à la multitude en concurrence avec la
+					première section de leur école qu’ils appuyaient au lieu de la dénigrer,
+					n’étaient-ils pas plus utiles à la morale publique, à bien compter, que ne lui
+					étaient préjudiciables les suites isolées, rares, intéressant peu de monde, <pb
+						n="79" xml:id="p79"/>de leurs fourberies obscures, ou qui n’éclataient que
+					pour être punies exemplairement encore, d’une manière ou de l’autre, par la
+					justice ou par la clameur publique, qui n’était pas alors un instrument aveugle
+					de persécution ? D’ailleurs, qu’on se rappelle qu’à un certain point de la
+					civilisation la morale ne peut être maintenue dans la société que par les
+					instructions et les exemples d’hommes corrompus, pour la plupart, et plus ou
+					moins vicieux, qui ont continuellement besoin de se suppléer ou succéder pour
+					cet effet, parce qu’en général, à cette époque de relâchement, ils <pb n="80"
+						xml:id="p80"/>passent leur vie à édifier et à scandaliser tour-à-tour, ainsi
+					que je l’ai déjà dit, ou à broncher d’une manière punissable. Il s’ensuit qu’il
+					est besoin de prudence et de beaucoup de discernement dans l’application des
+					remèdes aux maux existants, pour ne pas courir le risque de rompre tous les
+					ressorts et soutiens affaiblis de la morale et causer une confusion
+					générale.</p>
+				<p>Mais, hélas ! cette confusion est résultée presque aussi grande de l’application
+					partielle qui a été faite ; car nous ne sommes pas encore à la fin, dis-je, des
+					progrès <pb n="81" xml:id="p81"/>et des ravages du funeste remède contre
+					l’hypocrisie : (aujourd’hui que les feux de la division sont éteints, que la
+					religion, qui était dans ce temps-là le premier de tous les intérêts, n’a
+					presque plus que des amis et des ennemis indifférents ou froids, et que par
+					conséquent elle ne peut plus être ni la raison, ni le prétexte de violents
+					débats, beaucoup de monde aura de la peine à concevoir l’irritation ou
+					l’effervescence des passions qui s’entrechoquaient alors. On se persécutait à ce
+					sujet, on s’injuriait, on se battait, on se faisait exiler ou emprisonner). Ce
+					remède a d’abord réellement envenimé le <pb n="82" xml:id="p82"/>mal, et ensuite
+					il a eu pour autre résultat, non-seulement de rallier et armer les trois
+					mauvaises sections contre les trois bonnes, mais après avoir ainsi fait perdre à
+					celles-ci leur prepondérance, il a encore jeté parmi elles le trouble et la
+					discorde, par la même influence qu’il continua d’exercer de plus en plus
+					généralement, en prenant toujours une nouvelle activité. Cette comédie était
+					jouée et lue partout, et partout accueillie avec d’autant plus d’enthousiasme
+					que ses premiers et brillants succès avaient été annonçés par toutes les
+					trompettes de la Renommée, et que les contradictions qu’elle avait <pb n="83"
+						xml:id="p83"/>essuyées au commencement lui avaient valu le témoignage
+					éclatant de la protection d’un grand roi : <quote><hi rend="i">principibus
+							placuisse haud minima laus est</hi></quote> ; ce qui, même
+					indépendamment de son mérite réel et de la réputation de l’auteur qui avait déjà
+					été, quelques années auparavant, l’objet de la munificence royale, devait lui
+					assurer en tous lieux les préventions les plus favorables et les suffrages de la
+					multitude enthousiaste. Louis XIV, dont le cœur droit fut séduit par le beau
+					rôle de Cléante, serait probablement resté de l’avis du sage président de
+					Lamoignon, sur cette pièce qu’il a <pb n="84" xml:id="p84"/>défendu pendant deux
+					ans de jouer en public, si elle eût paru lorsqu’il fut plus âgé et marié.
+					Peut-être aussi a-t-il été entraîné à lever cette défense par la raison que la
+					puissance du clergé, si redoutable aussi quand on lui laisse passer ses bornes,
+					portait encore quelqu’ombrage aux ministres à cette epoque. Mais, dans cette
+					supposition, ainsi qu’une batterie cesse son feu quand l’ennemi n’est plus à
+					craindre, la satire aurait dû suspendre ses traits lorsque cette puissance,
+					d’ailleurs respectable, n’a plus donné d’inquiétude sérieuse ; c’est-à-dire, que
+					la terrible pièce de théâtre aurait dû <pb n="85" xml:id="p85"/>rentrer dans le
+					répertoire, comme une coulevrine qui n’est plus nécessaire rentre dans l’arsenal
+					pour n’en sortir que dans le cas de nouveaux dangers ; et aucune paix ou
+					armistice de ce genre n’ayant eu lieu, la forte impulsion donnée d’abord,
+					toujours bien soutenue et propagée par les théâtres, jointe à la fièvre de la
+					réaction, non moins bien entretenue par les révoltés de la seconde et de la
+					troisième écoles, se communiqua rapidement et causa la plus grande fermentation,
+					agita les esprits et les cœurs si généralement, et au point que toutes les
+					passions s’y étant définitivement intéressées, <pb n="86" xml:id="p86"/>surtout
+					la pieuse ignorance, le fanatisme, ainsi que l’intolérance des controversistes
+					et de leurs disciples ; je veux dire des orthodoxes et des hérétiques, de tous
+					les scolastiques encore soulevés, qui se frondaient, qui se prêtaient
+					mutuellement l’erreur et se disputaient avec chaleur l’orthodoxie, et qui,
+					chemin faisant, ont rencontré la nouvelle qualification électrique de <hi
+						rend="i">tartufe</hi>, que chacun a trouvé convenir à son adversaire, et
+					dont les schismatiques ont dû tirer avantage aussi contre leurs antagonistes
+					ainsi divisés avec scandale ; il s’est établi dans les trois écoles une
+					émulation <pb n="87" xml:id="p87"/>confuse de zèle aveugle et de zèle simulé qui
+					a fait naître un esprit d’inquisition partout, dans l’église, dans les cloîtres,
+					dans le public, dans les sociétés particulières, jusqu’au sein des familles. Cet
+					esprit commença à s’exercer de l’une à l’autre des nombreuses classes des
+					écoles ; et par une suite nécessaire de ce mouvement des grandes et des petites
+					passions communes ou particulières, connues ou secrètes, chacune l’a tourné
+					contre elle-même ; et, à quelques exceptions près, un peu plus tôt ou un peu
+					plus tard, on a vu la discorde se mettre dans toutes, et y agiter ses funestes
+						<pb n="88" xml:id="p88"/>brandons. L’idée de l’hypocrisie étant devenue
+					dominante, on croyait en apercevoir où l’on en supposait partout ; les démarches
+					les plus innocentes la décelaient, les paroles les plus pures la respiraient :
+					cette disposition hostile n’est même pas encore passée aujourd’hui ; elle est
+					devenue habituelle. Bientôt on n’entendit plus parler dans toutes les sections
+					et sectes catholiques, hérétiques et schismatiques, que de tartufes ou
+					d’hypocrites, cagots, caffards. Ce fut alors une mêlée générale, une véritable
+					guerre de la fronde, dans laquelle les femmes <hi rend="i">en état de jansénisme
+						ou de molinisme</hi>
+					<pb n="89" xml:id="p89"/>escrimaient aussi chaudement que les hommes ; guerre
+					qui s’est déclarée trop souvent entre bons voisins et bons amis jusques-là, même
+					entre frères et sœurs, entre les parents et les enfants. Toutes ces personnes,
+					prévenues et excitées par le fracas solennel et continué de la représentation ou
+					du tableau vivant de ce vice odieux, se jugeaient le plus précipitamment, sur de
+					simples et innocentes apparences ; toutes, et sans contredit, les méchants, les
+					jaloux, les rivaux, les envieux, les vindicatifs ou haineux, les fourbes, les
+					libertins, les impies, les ignorants, les insensés, les partisans <pb n="90"
+						xml:id="p90"/>et les fanatiques, dirigeaient cette satire foudroyante comme
+					des aveugles furieux dirigent une torche allumée ; et toutes voyaient le
+					portrait accompli du <hi rend="i">Tartufe</hi> dans ceux à qui ils en voulaient
+					ou qu’ils n’aimaient point, s’ils leur remarquaient le moindre trait de
+					ressemblance avec ce personnage détestable.</p>
+				<p>On peut juger combien le désordre fut encore plus étendu alors ; puisque, par le
+					vice particulier à cette satire, ce que j’ai fait remarquer plus haut, la
+					ressemblance sur laquelle était fondé le jugement, et qui était le <pb n="91"
+						xml:id="p91"/>régulateur des juges dans le cas présent se trouvait,
+					non-seulement dans une erreur ou une légère et première faute, une faiblesse
+					aperçue dans la conduite de celui qui respectait les mœurs exemplairement, mais
+					aussi dans les signes mêmes de la moralité. En effet, le costume ou l’air de
+					dévotion, le ton de bonhomie et de bonne foi, l’exacte observance des devoirs de
+					la religion, la louange de ses préceptes, les exhortations à les suivre, le
+					mépris des méchants, les plaintes contre le scandale de leur conduite, les
+					protestations de désintéressement ; les preuves même de droiture, <pb n="92"
+						xml:id="p92"/>d’honneur et d’honnêteté, les démonstrations de bonne amitié,
+					et si je je ne craignais de paraître minutieux ou exagéré en disant toute la
+					vérité, j’ajouterais : un air recueilli ou humilié, les yeux baissés ou levés
+					vers le ciel, tous ces signes, fussent-ils de l’âme la plus pure, n’étaient plus
+					que des <hi rend="i">sacrilèges grimaces</hi>, ou des simagrées, du patelinage,
+					n’annonçaient plus aux yeux de chacun, et bientôt à ceux du <hi rend="i">servum
+						pecus</hi>, de la multitude passive qui se nantissait toujours volontiers de
+					la cause, qu’un nouveau tartufe caché précisément sous les mêmes formes de son
+					modèle, en attendant que la <pb n="93" xml:id="p93"/>poire soit mûre pour la
+					cueillir. C’est pourquoi, quelle que fût la pensée de celui qui paraissait
+					ainsi, et de quelque profession et communion qu’il fût, il était poursuivi de
+					même avec le terrible fouet <hi rend="i">à tous chevaux</hi> qui en faisait
+					justice sans pitié.</p>
+				<p>Il est très-vrai qu’avant cette comédie il pouvait y avoir beaucoup d’hommes
+					pieux et respectables <hi rend="i">respectés</hi>, tels que l’auteur en cite :
+					des Périandre, des Ariston, des Polydore, des Clitandre, etc. ; mais je les
+					aurais <pb n="94" xml:id="p94"/>défiés de pouvoir se montrer impunément un
+					certain temps après ; tous les traits sous lesquels ils pouvaient paraître
+					avaient été empruntés et <hi rend="i">tartufiés.</hi> Ils ne devaient plus
+					compter qu’on les distinguerait, non-seulement parce que cette distinction était
+					naturellement difficile à faire ; mais aussi par la raison qu’en la supposant
+					même plus facile elle n’aurait encore été faite que rarement ; ce qui est prouvé
+					dans ce que j’ai dit, et confirmé, qui plus est par Molière lui-même ; car on
+					doit également appliquer aux agents de la censure dramatique <pb n="95"
+						xml:id="p95"/>ce qu’il dit avec raison pour ceux de la censure
+					ecclésiastique : que</p>
+				<quote>
+					<l>« Les hommes la plupart sont étrangement faits ;</l>
+						<l>Dans la juste nature on ne les voit jamais.</l>
+						<l>La raison a pour eux des bornes trop petites,</l>
+						<l>En chaque caractère ils passent les limites ;</l>
+						<l>Et la plus noble chose, ils la gâtent souvent</l>
+						<l>Pour la vouloir outrer et pousser trop avant. »</l>
+				</quote>
+				<p>Voilà, en effet, ce qui arrivait auparavant, comme le dit bien Molière, et ce qui
+					est arrivé plus généralement ensuite dans cette rencontre, comme je l’ai dit
+					aussi. L’emportement d’Orgon déclarant, en se voyant dupe de Tartufe, qu’il va
+					renoncer <quote><hi rend="i">à tous les gens de bien</hi></quote>, qu’il les aura désormais en
+					horreur, est donc un mouvement naturel <pb n="96" xml:id="p96"/>qui, bien
+					qu’injuste, comme le prêche le sage Cléante, n’en donne pas moins un aperçu de
+					ce qui devait résulter presque généralement d’un pareil tableau, dont l’énergie
+					et l’influence furent si malheureuses effectivement et s’étendirent si loin
+					qu’il ne resta plus qu’un moyen de connaître <hi rend="i">incontestablement</hi>
+					les hommes qui n’étaient pas tartufes ; c’était d’aller les observer, non pas
+					dans les sociétés honnêtes, ni dans les lieux saints, dans les églises, dans les
+					temples où l’on édifie ; où l’on se prosterne et prie Dieu ; mais dans des
+					réunions mondaines, dans des sociétés d’impies et de libertins, <pb n="97"
+						xml:id="p97"/>de débauchés, dans les cabarets, dans les tripots, dans les
+					orgies, et autres mauvais lieux où ils ne pouvaient être soupçonnés de vouloir
+					faire montre de religion et de vertus. Donc, il ne restait plus que ces refuges
+					assurés contre les traits de la satire !… Nous allons voir en effet ce dernier
+					degré de désordre et de confusion, où s’est terminée cette malheureuse guerre,
+					par la défection presque totale du bon parti.</p>
+				<p><quote><hi rend="i">Nemo fit repentè justus.</hi></quote> Cette maxime ne peut être contestée ;
+					et elle est la règle de conduite de tous les sages instituteurs et directeurs ;
+						<pb n="98" xml:id="p98"/>c’est pourquoi le changement subit pourtant que
+					rendait nécessaire le terrible fléau du mode dramatique de réformer, ne devait
+					encore se faire qu’en pire à cette époque ; car la masse des hommes faibles, de
+					mœurs mixtes de la seconde école, qui étaient alors plus maltraités que les
+					mauvais garnements qui en avaient été chassés au commencement, et dont les
+					vertus chancelantes avaient tant besoin, au contraire, d’être soutenues,
+					encouragées patiemment et avec charité ; ces nombreux et utiles auxiliaires de
+					la première école dont ils assuraient la suprématie, qu’ils rendaient la plus
+					forte et <pb n="99" xml:id="p99"/>dominante, comme je l’ai montré, ne se sentant
+					pas capables de s’élever tout-à-coup aux vertus irréprochables et à la pureté de
+					mœurs qui y régnaient, n’ont pas pu songer à y faire leur retraite. D’ailleurs
+					ils voyaient bien que cela eût même été inutile ou insuffisant pour leur
+					procurer la tranquillité qu’ils désiraient ; puisque ce beau département de la
+					morale était aussi en révolution, que tout y était confondu également, que les
+					agents de la satire n’y respectaient plus personnes, qu’il cherchaient à lui
+					enlever jusqu’à ses possessions les plus chères. Les défenseurs les plus
+					illustres des lois divines et <pb n="100" xml:id="p100"/>humaines, les hommes
+					les plus exemplaires de toutes les époques de cette funeste tourmente, ont été
+					attaqués successivement ; Bossuet, lui-même, n’a pas été à l’abri de traits
+					envenimés ; et la vertu de son plus digne émule, du plus éloquent orateur de la
+					chaire chrétienne, la vertu de Massillon a été mise aussi en problême. On a osé
+					attaquer ses mœurs ; on l’a accusé d’avoir des liaisons illicites avec des
+					femmes ; on lui a reproché notamment de s’être passionné pour madame de Sim….
+					Ainsi donc, un homme du plus éclatant mérite, le très-respectable Massillon, a
+					été mis aussi au rang des <pb n="101" xml:id="p101"/>tartufes, a été appréhendé
+					et fustigé comme les autres par les apôtres de l’impiété et du libertinage : ce
+					qui fait voir que cette révolution morale eut dans sa plus grande chaleur plus
+					d’un rapport réel avec le passage le plus terrible de notre révolution
+					politique. Les mots <hi rend="i">tartufe et hypocrite</hi> ont été pour elle ce
+					que les mots <hi rend="i">aristocrate</hi> et <hi rend="i">modéré</hi> furent
+					pour l’autre. Il fut également difficile d’en éviter la dangereuse application.
+					Elle a été faite de part et d’autre aussi aveuglément et aussi méchamment ; il
+					était à peu près aussi malaisé de se justifier de celle-ci que de celle-là ;
+					c’est <pb n="102" xml:id="p102"/>pourquoi, de même que les honnêtes gens, qui ne
+					pouvaient s’enfuir à cette époque de la révolution politique, n’avaient d’autre
+					moyen, pour éviter la réputation de <hi rend="i">modérés</hi> et l’échafaud, que
+					de commettre des actes d’immodération, c’est-à-dire, d’appuyer ou avouer les
+					principes, imiter ou servir les fureurs du parti dominant ; ainsi les amis de la
+					religion et des mœurs n’ont eu d’autre parti à prendre, pour échapper à la
+					réputation de tartufes et au poteau de l’infamie, que de se laisser aller à des
+					actes d’immoralité, de sourire aux excès du vice, d’imiter ou approuver les
+					déportements de <pb n="103" xml:id="p103"/>leurs juges accusateurs. Les hommes
+					sages et graves, les femmes vertueuses et exemplaires, qui imposaient auparavant
+					aux vauriens, aux libertins des cercles, devinrent bientôt leurs justiciables,
+					comme les citoyens prudents et instruits le sont devenus, des ignorants
+					énergumènes des sections de ce temps.</p>
+				<p>Le mal devait donc forcément devenir extrême. Il est parvenu au point, qu’excepté
+					les âmes privilégiées, ou le petit nombre d’hommes de la première école, doués
+					d’une vertu à toute épreuve, qui, malgré les épigrammes, les <pb n="104"
+						xml:id="p104"/>ridicules, les sarcasmes continuels et toutes les pantomimes
+					de la malignité, dont ils étaient les objets, sont restés les conservateurs, les
+					gardiens inébranlables des principes fondamentaux, tous les autres soutiens des
+					mœurs de la première et de la seconde écoles ont enfin succombé ; ils
+					cherchèrent silencieusement, chacun de son côté, un refuge contre la persécution
+					au milieu de leurs persécuteurs, ne pouvant en espérer autre part. Ils
+					entrèrent, comme les premiers proscrits, dans la dernière école ; c’est-à-dire,
+					qu’ils sont tombés dans le relâchement, et qu’ils s’associèrent à leur tour aux
+						<pb n="105" xml:id="p105"/>mœurs des <hi rend="i">roués, des charmants
+						vauriens</hi>, en se confondant avec les indépendants ou sceptiques, et les
+					libertins de tous les rangs qu’on laissait plus tranquilles, qui n’étaient pas
+					joués ou poursuivis si cruellement, qui, au contraire, étaient tolérés, honorés
+					même, qui ne redoutaient nullement cette impitoyable satire, dont ils s’étaient
+					faits, qui plus est, les inexorables agents, les exécuteurs indestituables.</p>
+				<p>Ce déplorable résultat était d’autant plus infaillible que cette comédie devait
+					d’ailleurs détruire directement d’un côté négligé, le <pb n="106" xml:id="p106"
+					/>bon effet qu’elle aurait pu produire de l’autre ; elle a dû même causer, par
+					une contre-action accidentelle, plus de désordres parmi les femmes que l’auteur
+					n’espérait en arrêter parmi les hommes. Si la remarque suivante a déjà été
+					faite, ce que j’ignore, rappelez-vous-la, lecteurs attentifs. Estime et respect
+					gardés à celles qui méritent d’être exceptées, j’observe que les femmes de
+					théâtre ont passé dans tous les temps pour être de mauvaise vie, pour être
+					galantes et vénales ; et même du temps de Molière leur état était avili et leurs
+					personnes absolument méprisables ; or, le <pb n="107" xml:id="p107"/>personnage
+					d’une femme très-vertueuse de cette comédie a été confié presque généralement à
+					ces femmes libres et scandaleuses, qui, lorsqu’elles étaient jeunes et belles,
+					bonnes actrices, possédant <hi rend="i">l’accent du cœur</hi>, comme on les
+					choisit ordinairement, lorsqu’elles jouaient bien, ou <hi rend="i"
+						>contrefaisaient</hi> parfaitement ce modèle de décence et de sagesse,
+					étaient couvertes d’applaudissements, ravissaient tous les spectateurs en
+					admiration, les forçaient à oublier les désordres de leur vie privée, et se
+					faisaient aimer et rechercher même par des hommes considérables qui les
+					préféraient à toute <pb n="108" xml:id="p108"/>autre, qui les comblaient de
+					bienfaits et de bonheur pendant leur vie, en attendant que les poètes leur
+					adressassent des épîtres après leur mort. Si donc le public a vu dans <hi
+						rend="i">Tartufe</hi> un hypocrite démasqué et puni, il a pu voir à côté,
+					dans <hi rend="i">Élmire</hi>, une hypocrite recevoir les plus douces
+					récompenses ; si l’immoralité timide, honteuse ou secrète a été poursuivie,
+					découragée dans cette pièce, l’immoralité, connue, déhontée, y fut bien
+					encouragée, y parut absoute ou regardée comme gentillesse. Et aucune
+					abstraction, aucun raisonnement en <hi rend="i">sub diverso respectu</hi>, n’ont
+					pu empêcher les <pb n="109" xml:id="p109"/>femmes de voir dans cet exemple
+					entraînant, que, malgré les déréglements de la vie privée, on pouvait parvenir
+					aux plus grandes jouissances dans le monde ; qu’il était possible qu’elles
+					fussent en même temps galantes, vicieuses, hypocrites, intéressantes, aimables,
+					aimées, recherchées, et même enrichies. On doit sentir avec combien plus de
+					succès les passions, que ces exemples flattaient et mettaient à l’aise, ont dû
+					ensuite exercer leur empire dans toutes les scènes particulières analogues.
+					C’est donc dans le même tableau où l’on démasque un tartufe, qu’on indique le
+					moyen d’associer plus <pb n="110" xml:id="p110"/>heureusement le vice à la
+					vertu, et de se procurer leurs jouissances diverses. On y fait voir qu’il ne
+					faut pas à cet effet prendre tant de soins de cacher ses défauts pour paraître
+					vertueux ; que cela expose à-la-fois aux plaintes de la morale et aux pointes
+					plus à craindre de la malignité ; mais qu’il vaut mieux se jouer agréablement et
+					sans prétention sous le voile aimable des vertus. Sans doute des exemples si
+					flatteurs ne pouvaient manquer d’être mis à profit, et généralement, étant
+					multipliés sur tous les théâtres. Aussi l’art du comédien a fait bien plus de
+					progrès, a été beaucoup mieux goûté que <pb n="111" xml:id="p111"/>la morale
+					singée des comédies. Il s’est répandu partout avec ses charmes et ses succès ;
+					c’est par lui que les personnes et les mœurs les plus opposées se sont peu à peu
+					rapprochées, et ont été enfin confondues ; c’est par suite de son influence que
+					de bons observateurs ont eu sujet d’écrire, à propos de changement de mœurs,
+					qu’aujourd’hui celui qui sait prendre tous les tons, toutes les formes, qui sait
+					être faux, vicieux avec de belles manières, avec talent, avec grâce, est presque
+					sûr d’avoir dans la société une existence brillante, un nom distingué, de se
+					faire aimer, rechercher.</p>
+				<p><pb n="112" xml:id="p112"/>Voici des principes relatifs au même objet, d’un
+					écrivain dont l’autorité est d’un grand poids, qui confirment parfaitement ce
+					que j’ai dit des résultats qu’a dû avoir la comédie du Tartufe. Après avoir
+					établi que cette composition avait un second objet d’utilité en ce qu’elle
+					frappait le plus rude coup contre ce qui s’appelle la galanterie solide, en
+					termes honnêtes, il dit : <quote>« Que si quelque chose est capable de mettre la
+					fidélité du mariage à l’abri de l’artifice des corrupteurs, c’est assurément
+					cette comédie, parce que les voies les plus ordinaires et les plus fortes, par
+					où on a <pb n="113" xml:id="p113"/>coutume d’attaquer, y sont tournées en
+					ridicule d’une manière si vive et si puissante qu’on paraîtrait sans doute
+					ridicule, quand on viendrait les employer après cela. »</quote> Ensuite il suppose qu’en
+					lui accordant que les raisonnements et les manières du Tartufe semblent
+					ridicules, on lui objectera qu’il ne s’ensuit pas qu’elles le semblassent dans
+					un autre, etc. ; à quoi il répond que <quote><hi rend="i">l’excès de ridicule que ces
+						manières, ont, dans le Tartufe, fait que toutes les fois qu’elles se
+						présenteront au spectateur dans quelqu’autre occasion, elles lui sembleront
+						assurément ridicules, quoique peut-être elles ne <pb n="114" xml:id="p114"
+						/>le seraient pas tant dans cet autre sujet que dans le Tartufe</hi></quote> ; mais
+					c’est que l’âme naturellement avide de joie se laisse ravir nécessairement à la
+					première vue des choses qu’elle a conçues une fois comme extrêmement ridicules ;
+					l’âme dans cet état n’étant pas capable de faire la différence du sujet où elle
+					voit ces choses ridicules d’avec celui où elle les a premièrement vues, etc. ;
+					la raison de cela est que notre imagination, qui est le receptacle naturel du
+					ridicule selon la manière ordinaire d’agir, en attache si fortement le caractère
+					au matériel dans quoi elle voit comme sont ici les paroles, les <pb n="115"
+						xml:id="p115"/>manières de Tartufe, qu’en quelqu’autre lieu, quoique plus
+					décent, que nous trouvions ces mêmes manières, nous sommes d’abord frappés d’un
+					souvenir de cette première fois si elle a fait une impression extraordinaire,
+					lequel se mêlant mal à propos avec l’occasion présente, et partageant l’une à
+					force de plaisir qu’il lui donne, confond les deux actions en une et transporte
+					dans la dernière tout ce qui nous a charmés et nous a donné de la joie dans la
+					première, <hi rend="i">ce qui n’est autre que le ridicule de cette
+						première</hi>.</p>
+				<p>Ceux qui ont étudié la nature <pb n="116" xml:id="p116"/>de l’âme et les progrès
+					de ses opérations morales, ajoute-t-il, ne s’étonneront pas de cette forme de
+					procéder si irrégulière dans le fond, et qu’elle prenne ainsi le change, et
+					attribue de cette sorte à l’un ce qui ne convient qu’à l’autre, etc. (Ces
+					observateurs doivent s’étonner encore moins de voir attribuer au vrai dévot, à
+					l’homme probe et sincère, ce qui ne convient qu’à Tartufe.) Il prouve plus loin
+					que <quote><hi rend="i">l’âme a une répugnance naturelle à cesser de considérer comme
+						ridicule ce qu’elle a une fois considéré comme tel</hi></quote>.</p>
+				<p><pb n="117" xml:id="p117"/>D’après ces principes n’est-il pas sensible que les
+					hommes sincèrement pieux, dont les dehors, les exercices, les paroles et les
+					manières, ont été puissamment raillés et ridiculisés dans le Tartufe, ne peuvent
+					plus se montrer, ou donner des expressions de leur piété, sans être considérés
+					comme ridicules ? cela est clair pour tout homme sans prévention.</p>
+				<p>La démonstration de l’utilité du second objet de la comédie du Tartufe est donc
+					en même temps la démonstration du mauvais effet que cette pièce a dû produire
+					dans son objet principal, auquel elle <pb n="118" xml:id="p118"/>devait nuire
+					nécessairement par les mêmes raisons qui devaient la rendre utile à l’objet
+					accessoire. L’autorité de Molière lui-même vient par conséquent à l’appui de
+					tout ce qui a été dit plus haut des dangers et des suites de cette satire ;
+					puisque c’est lui qui professe ces principes <hi rend="i">dans sa lettre sur
+						l’imposteur.</hi></p>
+				<p>A la vue de cette aberration si extraordinaire et si indigne du génie de cet
+					auteur, on serait tenté de croire que, ne voulant pas que ses censeurs pussent
+					la lui reprocher avec tout droit, et lui en faire honte, il a désiré surtout
+					leur <pb n="119" xml:id="p119"/>faire sentir par cette lettre qu’il savait fort
+					bien ce qu’il faisait, que c’était non-seulement aux Tartufes, mais aussi au
+					clergé qu’il avait intention <hi rend="i">de porter un rude coup</hi>, sans être
+					trop aperçu ; parce qu’il en voulait à ce corps qui frappait alors si rudement
+					le sien, qui l’avilissait et le persécutait, qui anathématisait sa personne ;
+					telles peuvent être en effet les réactions produites par la cruelle et irritante
+					intolérance.</p>
+				<p>Et ce soupçon serait encore fortifié par les remarques que l’auteur n’a pas si
+					bien désigné la profession des personnages dans <pb n="120" xml:id="p120"/>les
+					autres pièces, et qu’il s’est moqué aussi des colléges où les comédies étaient
+					prohibées. On pourrait trouver d’ailleurs qu’il donne trop d’importance à ce
+					prétendu second objet d’utilité de sa comédie ; et il paraîtrait d’autant plus
+					raisonnable qu’il n’en voulut faire qu’une occasion de développer ses principes,
+					que ceux-ci, bien que lumineux ne sont nullement applicables au Tartufe sous le
+					rapport de la galanterie, vu que les moyens dont ce faux dévot se sert ici, et
+					qui sont ridiculisés, ne sont pas, comme le dit l’auteur, les voies ordinaires,
+					et les plus fortes par où l’on attaque les femmes : <pb n="121" xml:id="p121"
+					/>tout le monde au contraire dit avec Labruyère que les voies de séduction de ce
+					triste galant, de ce galant portant haire et cilice, sont aussi extraordinaires
+					qu’insensées.</p>
+				<p>Au reste, comme Molière ne pouvait penser que ce coup qu’il portait à son ennemi
+					retentirait plus loin, tirerait à plus grandes conséquences que ceux qui lui
+					avaient été portés jusques-là, d’autres parts, ou qu’une vengeance ordinaire
+					contre des abus de pouvoir, il ne serait pas, dans cette hypothèse, plus
+					coupable qu’un autre, intentionnellement.</p>
+				<p><pb n="122" xml:id="p122"/>Quoi qu’il en soit, il résulte aussi de ses
+					observations profondes que les plus honnêtes gens, eux-mêmes, devaient
+					nécessairement se tromper dans l’application principale du fléau de cette
+					satire, qu’ils devaient <hi rend="i">confondre les deux occasions en une,
+						transporter dans la dernière tout ce qui leur avait donné de la joie dans la
+						première</hi> ; c’est-à-dire, regarder du même œil et tourner en ridicule
+					l’homme sincère et probe qui se présenterait sous les mêmes traits qu’ils
+					avaient vu ridiculiser dans le Tartufe ; et par conséquent causer des injustices
+					et des injures continuelles, <pb n="123" xml:id="p123"/>exciter, même
+					indépendamment de la malignité et du ressentiment des coupables irrités, le
+					trouble et la confusion dont j’ai montré toutes les classes affectées.</p>
+				<p>Ces mêmes gens de bonne foi devaient encore être entraînés à commettre ces
+					méprises et ces injustices, seulement par l’influence des exemples de plusieurs
+					personnages estimables et applaudis dans la pièce ; car avant d’avoir pu bien
+					connaître ce que Tartufe avait dans l’âme, lorsque l’on pouvait encore et que
+					l’on devait charitablement croire qu’il n’était qu’un trop minutieux et insipide
+					dévot <pb n="124" xml:id="p124"/>de bonne foi, Cléante dit, à son sujet, pour
+					désenchanter Orgon :</p>
+				<quote>
+					<l>Aussi ne vois-je rien qui soit plus odieux</l>
+					<l>Que le dehors plâtré d’un zèle spécieux,</l>
+					<l>Que ces francs charlatans, que ces dévots de place</l>
+					<l>De qui la sacrilége et trompeuse grimace</l>
+					<l>Abuse impunément et se joue à leur gré</l>
+					<l>De ce qu’ont les mortels de plus saint et sacré ;</l>
+					<l>Ces gens qui, par une âme à l’intérêt soumise,</l>
+					<l>Font de dévotion métier et marchandise,</l>
+					<l>Et veulent acheter crédit et dignités</l>
+					<l>A prix de faux clins d’yeux et d’élans affectés, etc.</l>
+				</quote>
+				<p>Ce charlatanisme est en effet bien odieux ; mais, je le répète, <hi rend="i"
+						>avant la déclaration</hi>, ni Cléante, ni Damis, ni Dorine, n’étaient pas
+					encore suffisamment fondés à prêter de pareilles vues à Tartufe, <pb n="125"
+						xml:id="p125"/><hi rend="i">ni en droit de prononcer sur son
+					intérieur</hi> : ses génuflexions, ses clins d’yeux, ses élans et autres
+					mouvements, étaient imités des vrais dévots ; c’est dans cette attitude qu’on
+					nous représente les hommes pieux que nous regrettons, les saints que nous
+					révérons ; tous ces signes ne pouvaient donc pas être des preuves certaines de
+					scélératesse ; mais comme dans cette rencontre l’événement a justifié
+					l’accusation hasardée ou prématurée, cet exemple éclatant d’accuser légèrement
+					et sur des préventions, fut encore très-fâcheux, et concourut au désordre. Il a
+					été suivi dans le monde avec <pb n="126" xml:id="p126"/>d’autant plus
+					d’opiniâtreté que chacun devait se flatter d’avoir aussi bon nez que Damis,
+					Dorine et Filipote, et posséder autant qu’eux la science de pénétrer dans les
+					cœurs, de <quote><hi rend="i">faire du faux d’avec le vrai la différence</hi></quote>.</p>
+				<p>Il est donc confirmé de nouveau que l’autre bien qu’on attendait de cette
+					comédie, outre celui de réprimer les imposteurs, je veux dire la méfiance
+					inspirée contre eux, aux bons, devait tourner aussi en fléau contre ceux-ci, et
+					en avantage pour les méchants.</p>
+				<p><pb n="127" xml:id="p127"/>C’est par le concours de ces diverses circonstances
+					que fut entièrement détruit le système de défense, ou la supériorité qui
+					résultait de l’harmonie des classes exemplaires, de l’accord de tous les amis
+					des mœurs, et du mutuel secours qu’ils se prêtaient. C’est ainsi que les écoles
+					de vertus ont été fermées ou abandonnées ; enfin c’est ainsi que le débordement
+					est devenu général, et que s’est formée, de la lie remuée des anciennes
+					principalement, cette nouvelle école dominante d’indépendance et de morale
+					lubrique, ou de licence dans les manières, dans les discours, dans les <pb
+						n="128" xml:id="p128"/>actions, école qui a donné une funeste direction à
+					l’esprit de la jeunesse, qui a corrompu successivement les générations, qui a
+					rendu les hommes <quote><hi rend="i">nequiores mox daturos progeniem
+					vitiosiorem.</hi></quote></p>
+				<quote>
+					<l>« Aujourd’hui l’aveugle jeunesse</l>
+					<l>A fait à la délicatesse</l>
+					<l>Succéder la grossièreté,</l>
+					<l>La débauche à la volupté, etc., »</l>
+				</quote>
+				<p>dit, long-temps après, un philosophe qui n’en pouvait mais.</p>
+				<p>En effet, la corruption a dû croître dans une progression effrayante, et d’autant
+					plus rapide que rien ne pouvait plus l’arrêter. <pb n="129" xml:id="p129"/>La
+					première école était réduite au silence ou devenue impuissante ; les sages
+					qu’elle avait pu conserver étaient peu nombreux et isolés, restés les seuls
+					objets de mire des conjurés. Ils ressemblaient à ces arbres qui ont échappé aux
+					flammes et qu’on aperçoit encore çà et là sur le sol d’une forêt incendiée où
+					ils se trouvent à la merci de tous les vents. Bientôt les questions de religion
+					et de morale ne furent plus de saison ; les disputes qu’elles occasionnaient
+					sont devenues insipides et ridicules comme tous ceux qui les soutenaient. La
+					rigueur des doctrines pures, qui était déjà naturellement difficile à <pb
+						n="130" xml:id="p130"/>supporter, a paru de jour en jour plus insupportable.
+					Les plus relâchées et les plus favorables aux passions alors sans frein furent
+					adoptées : telles que celles qui ont été introduites et professées par le corps
+					enseignant le plus fameux et le plus influent de ce temps là, d’après
+					lesquelles, au moyen de vains correctifs, de <hi rend="i">directions
+						mentales</hi> ou de formes et tournures astucieuses, on pouvait, <hi
+						rend="i">en sûreté de conscience, mentir, médire, calomnier, se parjurer,
+						suborner des témoins, contre-faire les écritures publiques et privées,
+						prêter à usure, garder ce qu’on avait acquis <pb n="131" xml:id="p131"
+						/>injustement, tuer son semblable en duel et même en traître, vendre et
+						acheter l’injustice, l’adultère, l’homicide, les choses sacrées</hi>, enfin
+					toutes les vertus auxquelles ces docteurs se contentaient de <quote><hi rend="i">donner
+						des paroles et des apparences</hi><seg type="exquote">, dit l’illustre Pascal, </seg><hi rend="i"
+						>tandis qu’ils accordaient tout réellement aux vices et aux passions…</hi></quote>
+					N’en sommes-nous pas arrivés-là, effectivement ? il y a peu de doctrines mieux
+					suivies aujourd’hui. Il est trop vrai que les gens du monde lettré, ayant été
+					prévenus de ces principes qui ont eu bientôt gagné les gens du peuple <hi
+						rend="i">dont l’ignorance n’a pu être un <pb n="132" xml:id="p132"
+						/>préservatif</hi><note n="2" place="bottom">Elle les a seulement laissés en
+						proie à la supériorité corrompue des autres.</note>, on les a observés
+					depuis lors, chacun selon son inclination, toutes les fois qu’on a pu le faire
+					avec autant de <hi rend="i">sûreté de corps</hi> que de sûreté de conscience ;
+					il est trop vrai même que ce dernier frein, qui était déjà réduit à peu de
+					chose, au moyen des <hi rend="i">escobarderies</hi> que les éloquentes lettres
+					provinciales ont réfutées sans doute aux yeux de la raison, mais qu’elles
+					n’auraient pu faire abandonner aux passions en pareille conjoncture, je suis
+					même convaincu qu’en les rapportant <pb n="133" xml:id="p133"/>elles ont
+					contribué à les propager, et que ces maximes dangereuses qui seraient peut-être
+					restées ensevelies dans la poussière des bibliothèques, traverseront les
+					générations à la faveur du beau style qui les combat ; il est trop vrai, dis-je,
+					que ce reste de frein même, basé sur la conscience, n’existe plus guère
+					aujourd’hui, qu’en général on n’est plus retenu que par une crainte servile, par
+					politique, ou intérêt du moment. Ce n’est plus par amour de Dieu ou du prochain,
+					ni par amour de la justice qu’on s’abstient du mal, c’est par la seule crainte
+					du châtiment actuel, c’est pour acquérir des biens <pb n="134" xml:id="p134"
+					/>temporels ou pour ne pas perdre ceux qu’on a obtenus. On n’a plus d’autre
+					espoir ni d’autre crainte, la perspective des biens spirituels a disparu ; la
+					nouvelle loi semble n’avoir pas existé, ou être abolie pour la plupart des
+					gens ; on est retourné aux grands principes du judaïsme.</p>
+				<p>Les théâtres ont eu beau jeu durant ce désastre qu’ont rendu extrême, sans doute,
+					tous les orages violents que nous avons essuyés avant de parvenir <hi rend="sc"
+						>a la</hi> C<hi rend="sc">harte</hi>, aussi <hi rend="i">ardemment que
+						généralement désirée</hi>, port heureux où nous trouvons enfin du calme, et
+						<pb n="135" xml:id="p135"/>d’où nous ne pouvons plus sortir désormais sans
+					courir de nouveaux dangers peut-être plus grands encore. Leur jurisdiction est
+					une des plus étendues aujourd’hui. On l’a organisée, en France, sous la forme de
+					l’administration la plus importante.</p>
+				<p>Elle est divisée en vingt-cinq arrondissements, dont chacun comprend plusieurs de
+					nos départements. Il y a deux sortes de directeurs, les uns de troupes
+					stationnaires pour les villes qui ont des spectacles permanents ; les autres de
+					troupes ambulantes <hi rend="i">dévouées</hi>, dit le réglement, <hi rend="i">à
+						l’instruction <pb n="136" xml:id="p136"/>des campagnes</hi>, ou destinées à
+						<hi rend="i">desservir</hi> les petites communes qui ne peuvent avoir du
+					spectacle à l’année…. Est-il possible de penser, sans en être affligé, à
+					l’influence que doivent avoir sur les nouvelles générations, sur la jeunesse
+					encore innocente de ces petits endroits paisibles, la présence de pareils <hi
+						rend="i">desservants</hi>, les propos, les exemples, l’instruction, en un
+					mot, de missionnaires dont les trois quarts au moins n’ont ni foi ni mœurs, ni
+					masque !… Hélas ! pourquoi faut-il, pour être juste, que je rappelle que ce
+					n’est pas à dire qu’ils soient beaucoup plus <pb n="137" xml:id="p137"/>méchants
+					aujourd’hui qu’on ne l’est dans d’autres professions<note n="3" place="bottom"
+						>Des missionnaires fanatiques, fougueux et intolérants de la seconde section
+						de la première école, rendraient ceux-ci plus dangereux encore, en les
+						montrant plus supportables qu’eux.</note> !</p>
+				<p>C’est ainsi que le goût des spectacles s’est répandu dans tous lieux, et que
+					l’éducation ou instruction accessoire du théâtre a prévalu de plus en plus sur
+					la principale. La foule s’y est toujours portée depuis, en augmentant, et les
+					temples sont devenus déserts, quoiqu’ils se soient <pb n="138" xml:id="p138"
+					/>éloignés de leur simplicité primitive, pour se conformer au goût dominant. Le
+					luxe, l’éclat, la pompe, par où ils ont voulu le disputer encore à leurs rivaux,
+					leur ont attiré par fois des spectateurs et non des fidèles.</p>
+				<p>On peut à présent concevoir aisément <hi rend="i">pourquoi les mœurs publiques
+						ont peu souffert des faiblesses de Henri IV et de Louis XIV, et comment la
+						corruption de la régence fut si effrénée, et gagna si promptement toutes les
+						classes de la société</hi>, qui offrit désormais aux écrivains avides de
+					renommée, l’attrait d’un champ ouvert, bien <pb n="139" xml:id="p139"/>préparé à
+					recevoir et féconder leurs écrits licencieux et hardis, lesquels auraient eu peu
+					de cours avant l’influence de l’ouvrage en discussion, et de quelques autres
+					dont je parlerai plus bas qui avaient rompu déjà toutes les digues, et causé
+					tout le dommage que j’ai retracé ; le rapprochement seul des faits ci-dessus
+					mentionnés, le prouverait suffisamment. C’est pourquoi, <hi rend="i">nonobstant
+						les clameurs de haro</hi>, je suis conséquent et impartial ; j’ose dire que
+					c’est à tort que l’on charge de tous nos malheurs, sans mesure et sans
+					miséricorde, les écrivains du <num>xviii<hi rend="sup">e</hi></num> siècle ;
+					puisque le coup <pb n="140" xml:id="p140"/>fatal était porté, et le mal déjà
+					épouvantable avant leur apparition. Ceux qui ont encore besoin d’en être
+					convaincus peuvent lire, entre autres histoires, celle de la vie du Régent,
+					celle d’un Cardinal, son ministre favori, ou de leurs courtisans et sujets
+					présents et suivants ; ils y verront tous les vices les plus honteux en action,
+					ils y verront les désordres de toutes espèces couler comme un torrent <hi
+						rend="i">des premiers rangs aux derniers.</hi> <quote>« Paris et les provinces, y
+					est-il dit, étaient tellement inondés de livres contre la religion, les mœurs et
+					le gouvernement, qu’on ne put en arrêter <pb n="141" xml:id="p141"/>le
+					débordement que par des défenses générales d’imprimer, etc. »</quote> Or, je le répète,
+					en ce temps-là, les philosophes accusés n’existaient point.</p>
+				<p>Il est vrai que dans la suite ces écrivains, entraînés eux-mêmes par le torrent,
+					ou plutôt effrayés par les crimes commis sous le masque de la religion, ont
+					encore frappé sans mesure le monstre agonisant du fanatisme, au lieu de se
+					contenter de poursuivre celui du despotisme, et sa hideuse féodalité dont ils
+					ont inspiré une générale et vigoureuse haine ; ce qui a amené un nouveau
+					conflit, lequel, sans doute, <pb n="142" xml:id="p142"/>ne pouvait se passer à
+					froid, mais qui n’a causé tant de déchirements ou d’excès révolutionnaires
+					imprévus, que par l’absence de la religion et des vertus propres à le modérer,
+					qui avaient été annullées dans la lutte précédente.</p>
+				<p>Au reste, si cet effroi d’un mal passé, et la crainte de son retour, accompagnés
+					du désir irréprochable de délivrer leur patrie d’un mal présent, du plus honteux
+					esclavage, les ont portés à ajouter passagèrement aux désordres existants, il
+					faut convenir qu’ils en ont arrêté qui n’auraient pas eu de bornes, résultant de
+					la <pb n="143" xml:id="p143"/>confusion dans laquelle ils avaient trouvé les
+					personnes et les choses, et de la pratique libre, jusqu’à la crainte de
+					l’échafaud, de doctrines anti-sociales, de préceptes inhumains <hi rend="i">qui
+						ont été repoussés et le plus éloquemment combattus</hi> par les premiers de
+					ces hommes fameux dont les ouvrages, en général, respirent l’amour de la justice
+					et de l’humanité, malgré les erreurs graves qu’ils renferment, et le cruel abus
+					qui en a été fait.</p>
+				<p>Je vois, en effet, une nouvelle réforme s’opérer par eux à cette époque, et
+					recueillir une grande partie des débris épars des sections <pb n="144"
+						xml:id="p144"/>et sectes dissoutes. Les nouveaux sectateurs furent ceux qui,
+					pour n’avoir pas été doués de vertus à l’épreuve de la persécution, ne se sont
+					pas laissé aller pour cela au dernier point de dégradation ; ils ont fui, ils se
+					sont réfugiés dans des cloaques, il est vrai, mais en conservant le fond des
+					vertus naturelles, et le besoin d’une situation qui y fût plus conforme. Etant
+					égarés et sans guides, il était naturel qu’ils se missent sous la conduite de
+					ces hommes supérieurs qui séduisaient et commandaient la confiance par l’éclat
+					de leurs talents, surtout lorsqu’ils y trouvaient avec une meilleure position
+						<pb n="145" xml:id="p145"/>la sécurité qu’ils cherchaient. Ils ont donc
+					adopté les principes et pris les mœurs de ces nouveaux réformateurs. Chacun
+					s’est voué plus particulièrement à celui dont les opinions étaient plus
+					conformes à ses propres idées, ou plus favorables à ses penchants. Les divisions
+					de l’église, les schismes et la pluralité des cultes n’avaient déjà que trop
+					accoutumé le monde à choisir entre les interprètes de l’Ecriture et des lois,
+					entre les docteurs et les doctrines. Et les plus savants professeurs du
+					molinisme, des célébres casuistes de la presqu’universelle institution que j’ai
+					citée plus haut, avaient <pb n="146" xml:id="p146"/>bien autrement préparé cette
+					dernière réforme, en décidant que <hi rend="i">tout ce qu’approuvait un auteur
+						célèbre, ou un homme grave était probable, et qu’on pouvait le suivre en
+						sûreté de conscience, même dans le cas où il serait en opposition avec un
+						autre aussi digne de confiance.</hi> On ne pouvait pas donner plus de
+					latitude ni laisser plus de liberté aux nouveaux réformés, ils en ont profité ;
+					ces faibles et honnêtes gens provenant des deux premières écoles, qui n’avaient
+					pas pu suivre Pascal ou Bossuet, et qui ont eu horreur de la compagnie des
+					Tartufes et des Escobars, se sont tournés du côté de Voltaire, de <pb n="147"
+						xml:id="p147"/>Rousseau et d’autres écrivains modernes ; des anciens même
+					ont été pris pour patrons.</p>
+				<p>Ces auteurs <hi rend="i">très-célèbres</hi> auxquels il faut en joindre plusieurs
+					des autres nations, de mérite, d’opinions et de mœurs semblables ou analogues
+						<hi rend="i">ont tenu dès-lors, et tiennent encore la probabilité
+						aujourd’hui</hi>, soit par l’effet de ce système, ou naturellement, pour les
+					cinq sixièmes de ce qui reste en Europe d’hommes pourvus encore d’assez de
+					vertus sociales pour être dignes de vivre en société. Oui, je crois le voir
+					ainsi, ce sont les sectateurs, hommes de bien attachés publiquement ou <pb
+						n="148" xml:id="p148"/>secrètement à ces nouvelles sectes d’indépendants qui
+					maintiennent aujourd’hui le ruineux édifice de la civilisation, concurremment
+					avec l’autre sixième, reste précieux des disciples de la première école ;
+					ceux-là y entretiennent l’esprit vital, ceux-ci le feu sacré.</p>
+				<p>Ces deux partis qui produisent ensemble un si grand bien, tout en se combattant,
+					sont susceptibles de se rapprocher ; non pas par les moyens de faction et de
+					violence dont on se sert, et qui ne peuvent que rappeler et perpétuer les
+					malheurs des débats précédents ; mais avec le secours de <pb n="149"
+						xml:id="p149"/>sages médiateurs. Le plus nombreux, formé à une époque de
+					désordres et de dispersion où il n’y avait plus de point central de ralliement,
+					ayant fait une longue et malheureuse épreuve de quelques nouvelles doctrines,
+					justifiées ou provoquées, pour la plupart, par les désordres antérieurs du
+					despotisme et du plus odieux, du furibond fanatisme dont toutes les horreurs ont
+					soulevé et souleveront éternellement l’indignation des écrivains amis de
+					l’humanité, est en état de juger par ses hommes de bonne foi et éclairés, par
+					ses magistrats et ses pères de famille effrayés des progrès de la <pb n="150"
+						xml:id="p150"/>perversité, ce qu’il faut en rejeter et ce qu’il doit en
+					conserver ; l’autre parti tout composé d’hommes pieux, pleins de la justice et
+					de la bonté du Dieu qu’ils servent fidèlement, du Dieu qui veut l’accord des
+					lois divines avec les lois sociales, <hi rend="i">fondées sur celles de la
+						nature qui sont aussi son ouvrage</hi>, profitant également de l’expérience
+					du passé, et des nouvelles lumières acquises, fera toutes les concessions
+					possibles que les circonstances et le progrès des choses commandent ; et l’on
+					pourra espérer par là de voir le rapprochement de ces indépendants avec les
+					meilleurs amis de la religion <pb n="151" xml:id="p151"/>s’effectuer aussi
+					heureusement dans cet ordre que celui non moins prodigieux que nous voyons
+					s’opérer actuellement dans l’ordre politique entre les républicains et les amis
+					de la monarchie actuelle, qui avaient été conduits à former deux partis acharnés
+					par suite aussi de désordres et d’anarchie, et qui prennent aujourd’hui ces
+					moyens de conciliation présentés par un Roi sage, dont l’administration lui
+					assure tous les jours, de plus en plus, les immortels souvenirs des
+						Français.<note n="4" place="bottom">Il vient de se faire un rapprochement
+						aussi exemplaire, en Allemagne, entre les luthériens et les
+						calvinistes.</note></p>
+				<p><pb n="152" xml:id="p152"/>Plaise à Dieu que telle soit du moins l’issue de cette
+					déplorable guerre entre les bonnes et les mauvaises mœurs, dont il résulte, pour
+					quiconque en observera bien la cause et le cours, une nouvelle preuve que les
+					hommes du plus grand génie peuvent se tromper, et que Molière, n’ayant pas assez
+					fait attention au degré de civilisation et de corruption auquel la société était
+					déjà parvenue de son temps, n’a pas bien apprécié les obstacles qu’il devait
+					rencontrer, a mal calculé les moyens et les effets de son entreprise de défendre
+					les mœurs ou la religion ; que <hi rend="i">pour en bannir l’abus il en <pb
+							n="153" xml:id="p153"/>a proscrit l’usage ;</hi> qu’il est tombé dans
+					l’erreur des réformateurs dont parle Montaigne, <quote><hi rend="i">lesquels, pour
+						décrasser, effacent, et qui, voulant amender les défauts particuliers
+						causent une confusion universelle, et guérissent les maladies par la
+						mort.</hi></quote></p>
+				<div2 type="chapter">
+					<pb n="154" xml:id="p154"/>
+					<head rend="i">Autres raisons à l’appui de ce sentiment, et les réponses aux
+						objections.</head>
+					<p>S’il n’était pas assez prouvé que surtout le sujet de la comédie du Tartufe
+						est essentiellement vicieux, que sa représentation n’était propre qu’à
+						frapper de ridicule la pratique des vertus, à nous en faire honte, à nous
+						démoraliser, on pourrait jeter un nouveau jour sur cette question, et
+						achever de rendre sensible le défaut radical que j’y relève, en faisant un
+						rapprochement entre cette pièce et d’autres du même genre.</p>
+					<p><pb n="155" xml:id="p155"/>J’en prends pour exemples deux ou trois du même
+						auteur : le Misantrope et l’Avare ; j’y ajouterai le Jaloux ou le C.c.
+						imaginaire ; or, il est évidemment possible d’éviter, sans se dégrader, les
+						ridicules de ces trois personnages livrés au tribunal de l’opinion publique.
+						Etes-vous du nombre de ceux qui n’admettent aucune bonne raison de devenir
+						misantrope, et qui craignent d’être assimilés à un pareil homme ? <hi
+							rend="i">tenez une conduite opposée à la sienne</hi>, cessez de déclamer
+						contre la corruption du genre humain, trouvez-la supportable,
+						familiarisez-vous avec elle, ne <pb n="156" xml:id="p156"/>suivez pas tous
+						les mouvements de votre bile ; que votre vertu ne soit pas si farouche,
+						sortez de votre retraite, ne fuyez pas les méchants, soyez indulgent pour
+						leurs vices, montrez-vous persuadé qu’ils sont inhérents à leur nature, et
+						qu’il n’y a pas de remède ; et continuez cependant de leur donner l’exemple
+						de la tolérance, de la bonté, de la charité et des autres qualités que vous
+						leur souhaitez, quoique vous éprouviez bien cruellement qu’ils s’en moquent
+						comme de vous ; alors vous ne pourrez plus être pris pour un misantrope.</p>
+					<p><pb n="157" xml:id="p157"/>Redoutez-vous la réputation de l’odieux avare ?
+						que votre manière d’agir <hi rend="i">ne ressemble pas non plus à la
+							sienne</hi> ; faites un usage raisonnable de vos richesses, ne soyez pas
+						aussi avide ou si passionné à les accumuler, ne tenez pas aussi honteusement
+						à des biens superflus ; employez-en du moins une partie à faire des bonnes
+						œuvres, à prouver que vous êtes bon citoyen, bon père et bon ami, et surtout
+						à soulager ceux qui manquent du nécessaire ; ils vous béniront, et vous
+						recevrez de tout le monde les louanges dues à un homme sensible et
+						libéral.</p>
+					<p><pb n="158" xml:id="p158"/>Ne voulez-vous pas être l’objet des brocards, des
+						pamphlets et des caricatures dont on accable les jaloux ? <hi rend="i">ne
+							paraissez pas plus marcher sur les traces</hi> de ces hommes ombrageux
+						et aveuglés par leur passion ; modérez la fougue de vos sentiments tendres,
+						repoussez par un air calme les méchants et leurs propos malins, ne vous
+						faites pas remarquer, ne vous affichez point par des plaintes éclatantes, ou
+						des démarches insensées, ne laissez même pas apercevoir vos inquiétudes, si
+						vous en avez ; mais faites avec prudence tout ce qui dépend de vous pour
+						prévenir <pb n="159" xml:id="p159"/>le mal ; soutenez la faiblesse de votre
+						épouse contre les séductions qui l’entourent, écartez tout doucement les
+						dangers qui la menacent, encouragez-la, répétez lui souvent que sa vertu
+						vous est bien chère, qu’elle fait votre bonheur, comme elle vous porte à
+						faire le sien, ce que vous devez lui prouver par vos bons procédés, et puis
+						observez-la silencieusement, croyez à son innocence jusqu’à ce que vous
+						ayiez acquis la preuve certaine de votre malheur, que, selon les
+						circonstances, en homme sage, vous dévorez encore secrètement, et vous ne
+						serez jamais regardé comme un jaloux ; parce <pb n="160" xml:id="p160"/>que
+						vous n’en aurez aucune apparence. Voilà à peu près, je crois, comment on
+						doit se comporter dans ces diverses circonstances, et comment on se comporta
+						afin de ne pas être pris pour un tartufe, et traduit comme tel au tribunal
+						redoutable. On a senti la nécessité, non pas de penser mieux qu’un tel
+						homme, cela était indifférent en ce cas, ou n’était pas l’affaire la plus
+						importante ; mais de <hi rend="i">tenir une conduite opposée à la
+							sienne</hi>, de ne pas marcher sur ses traces pour ne pas être soupçonné
+						de vouloir arriver au même but, de ne rien dire, de ne rien faire qui
+						ressemblât à ce qu’il <pb n="161" xml:id="p161"/>avait dit, à ce qu’il avait
+						fait pour attirer la confiance et tromper ; donc il a fallu abandonner ou
+						négliger comme j’ai montré qu’on avait abandonné ou négligé les exercices
+						pieux, ou les devoirs de la religion, les louanges de ses préceptes, et la
+						pratique des autres vertus que le Tartufe en jugement observait si
+						scrupuleusement pendant le temps qu’il méditait de faire des dupes, et pour
+						mieux y parvenir ; donc cette satire, qui prête tant de vraisemblance au
+						travestissement des plus belles actions d’un homme de bien, en indices d’un
+						méchant qui médite le mal, devait nécessairement <pb n="162" xml:id="p162"
+						/>produire les désordres qui existent et que je lui impute en grande
+						partie.</p>
+					<p>On pourra nier cette conséquence et dire qu’il y avait un milieu entre
+						s’acquitter de tous les devoirs que la religion et les autres vertus
+						prescrivent, et s’abandonner aux désordres de la dernière école, se vautrer
+						dans la fange du vice ; qu’il était possible de garder la pureté de son âme,
+						de rester attaché de cœur aux principes, à la sagesse, à la piété, aux
+						mœurs ; qu’il suffisait, pour éviter la persécution, de s’abstenir des
+						vertus pratiques, en s’isolant <pb n="163" xml:id="p163"/>des deux partis,
+						en fuyant également les disciples des écoles qui étaient aux prises, et
+						leurs errements, ou leurs exercices et habitudes, etc. Cela voudrait dire
+						qu’on pouvait et qu’il fallait plutôt se faire misantrope ; à quoi je
+						répondrais que cette résolution, la plus digne assurément d’un honnête homme
+						vaincu dans ce combat, résolution que plusieurs ont prise alors, que
+						beaucoup d’autres sans doute auraient désiré pouvoir prendre, était
+						impraticable pour le plus grand nombre ; soit à cause des diverses relations
+						sociales, ou des raisons trop puissantes d’intérêts <pb n="164"
+							xml:id="p164"/>particuliers ; soit par le genre ou la dépendance des
+						états ; soit enfin par la disposition actuelle des âmes.</p>
+					<p>D’ailleurs, le mal n’aurait été que suspendu, et serait tombé sur la
+						génération suivante qui, privée par là de bons exemples, d’encouragements,
+						ou d’instructions, serait devenue également la proie de l’école dominante de
+						corruption.</p>
+					<p>Au surplus, la paix dont l’on aurait pu jouir sous ce caractère ne pouvait
+						pas être de longue durée, puisque la misantropie a été mise aussi en
+						spectacle et vouée au ridicule ; que depuis cette époque <pb n="165"
+							xml:id="p165"/>le mot <hi rend="i">misantrope</hi> est devenu synonyme
+						de ceux de bourru, d’homme sauvage, d’ours, etc.</p>
+					<p>Si ces observateurs, ne voyant pas bien que le tartufe dont il s’agit est en
+						même temps tartufe de religion et de mœurs, que compromettre en le mettant
+						en spectacle les vertus chrétiennes, ce fut aussi compromettre les autres
+						vertus sociales qu’il avait besoin d’affecter aussi et qu’il affectait
+						également, persistaient à croire que cette satire, qui ne regardait que les
+						hypocrites de religion, n’a pu contribuer si puissamment à la démoralisation
+						générale ; sans <pb n="166" xml:id="p166"/>entreprendre de démontrer une
+						seconde fois une vérité qui me paraît évidente, il suffirait à ma thèse de
+						leur rappeler que la <hi rend="i">Criticomanie</hi>, comme pour consommer
+						l’ouvrage du premier tartufe, nous en a donné plusieurs subsidiaires, et
+						nommément un <hi rend="i">tartufe de mœurs</hi> ; personnage presque tout
+						imaginaire, composé de différents caractères, de vices incompatibles, ou
+						phénomène dans la société, auquel, au reste, on doit appliquer ce que j’ai
+						dit de l’autre, fût-il même regardé comme un tableau fidèle, parce qu’il n’a
+						été propre aussi qu’à faire triompher et rire le parti alors plus nombreux
+						des hommes sans <pb n="167" xml:id="p167"/>masques, et des femmes au
+						courant, qui ne faisaient pas tant de façons, ainsi qu’à réchauffer leur
+						bile et renouveler leur pouvoir, qui commençait à vieillir, de faire naître
+						les défiances, et des soupçons injustes contre les personnes, et de
+						travestir avec succès les meilleures actions.</p>
+					<p>Pendant cette nouvelle fermentation, du genre de la première, quoique moins
+						grande, la voix d’un seul ennemi pouvait aussi donner à un homme de bien qui
+						respectait véritablement les mœurs la teinte de cet autre monstrueux tartufe
+						qui a l’intention d’outrager et <pb n="168" xml:id="p168"/>déshonorer
+						l’épouse de son meilleur ami, qui est amoureux fou, et cependant s’aliène
+						par avarice les domestiques de celle qu’il convoite, dont il a besoin pour
+						parvenir à satisfaire sa nouvelle passion naturellement plus puissante que
+						la passion factice de l’or, et qui fait injure à un oncle bienfaisant,
+						s’associe à un vil usurier et complote avec lui pour dépouiller son frère ;
+						qui est donc, à la fois, malgré sa jeunesse et l’aisance dans laquelle il
+						est né, imposteur, traître, luxurieux, adultère, ingrat, dénaturé, avare,
+						usurier, escroc ! Et si l’auteur, d’ailleurs aussi excusable et aussi
+						estimable qu’un autre, s’étant <pb n="169" xml:id="p169"/>conformé à un
+						ordre de choses, ou à un usage qu’il a trouvé établi et bien reçu, pour
+						faire plus d’effet encore, pour nous causer une plus profonde impression et
+						une plus grande colère contre ce grand méchant, ne l’a pas fait en même
+						temps voleur, assassin, empoisonneur, c’est qu’il ne l’a pas voulu ; car ces
+						défauts sont concevables aussi dans le cœur d’un tel homme, et leurs traits
+						ne nuiraient pas beaucoup plus à la vraisemblance du tableau.</p>
+					<p>Je voudrais pouvoir faire sentir le ridicule et le danger de cette manie de
+						faire des monstres à <pb n="170" xml:id="p170"/>figure humaine. Si dénaturer
+						et embellir les couleurs qui sont propres aux vices, ou flatter les traits
+						des personnages immoraux et criminels en les représentant aimables et
+						séduisants, comme le font beaucoup d’autres auteurs, est un moyen
+						infaillible de corruption, l’excès contraire est aussi très-funeste.</p>
+					<p>Il consiste dans l’exagération des difformités. La plus dangereuse est la
+						peinture à faux, dramatique, de l’homme et de la société, ou cette
+						infidélité des tableaux vivants qui sont censés être ceux des mœurs ou de la
+						vie commune de tel rang, <pb n="171" xml:id="p171"/>de telle corporation, ou
+						de tel âge ou bien de telles personnes que la malignité désigne, et qui vont
+						être décriées, flétries, peut-être mises au désespoir ; il consiste aussi
+						dans la solennité et l’éclat des représentations, avec tous les prestiges du
+						théâtre ; c’est encore en réunissant la fiction à la vérité, en accumulant à
+						plaisir les vices, en les combinant et faisant supposer une liaison
+						naturelle entre eux ; c’est l’éternelle image des passions humaines les plus
+						honteuses sous les traits sacrés de la vertu qu’enfin on ne croit plus voir
+						nulle part qu’en apparence, que l’on méconnaît et décourage par trop de <pb
+							n="172" xml:id="p172"/>défiance, ou qu’on insulte par malignité ; enfin,
+						c’est en créant ainsi et faisant agir avec toute l’énergie possible, sous
+						les yeux de la multitude des personnages monstrueux qui servent d’excuse et
+						d’encouragement aux méchants, qui font horreur aux bons et, comme je l’ai
+						déjà dit, portent l’agitation dans les esprits faibles, l’inquiétude ou
+						l’animosité dans les cœurs, exaltent la tête de tous, et vont de la scène
+						publique provoquer la persécution, porter les désordres dans les scènes
+						privées de la vie, où toutes les passions excitées imitent la hardiesse des
+						auteurs, cherchent à réaliser leurs chimères jusques <pb n="173"
+							xml:id="p173"/>sur la vertu la plus pure :</p>
+					<quote>
+						<l>« Là de nos voluptés l’image la plus vive ;</l>
+						<l>Frappe, enlève les sens, tient une âme captive ;</l>
+						<l>Le jeu des passions saisit le spectateur ;</l>
+						<l>Il aime, il hait, il pleure, et lui-même est acteur. »</l>
+					</quote>
+					<p>Voilà plus clairement comme il arrive que ces critiques vantées manquent leur
+						but, sont de nul effet contre le vice audacieux, sur l’hypocrite impudent
+						qui atteste Dieu et la religion en faisant bonne contenance au rang des
+						victimes nombreuses des aggressions aveugles et des calomnies
+						effrontées.</p>
+					<p>Oui, ces peintures outrées qui ne corrigent personne ; c’est une <pb n="174"
+							xml:id="p174"/>vérité reconnue jusques dans les écrits de leurs plus
+						éloquents défenseurs, ont beaucoup contribué encore à augmenter le nombre
+						des méchants en fournissant de bons modèles à la multitude des gens enclins
+						au mal, qui ne les auraient jamais imaginés, et qu’ils se sont fait
+						l’habitude d’imiter ou servilement, ou avec des modifications selon les
+						circonstances. Elles ont répandu de tous côtés des lumières, des idées
+						nouvelles, des scélératesses, accompagnées de subtilités inconnues ou rares,
+						curieuses, piquantes même dans leur espèce, dont les libertins et les
+						fripons habiles ont profité les premiers, et <pb n="175" xml:id="p175"/>qui
+						ont pris vogue ensuite parmi les fripons ineptes et peu inventifs qui ont
+						une grande obligation au cerveau des réformateurs.</p>
+					<p>Outre les voies criminelles, inconnues, que ces écrivains possédés par la
+						passion de faire preuve d’imagination, de donner du neuf, du <hi rend="i"
+							>fort</hi>, des scènes <hi rend="i">à effet</hi> révélèrent
+						continuellement aux méchants et aux fourbes, ils les obligèrent à en
+						chercher aussi eux-mêmes ; c’est-à-dire à changer leurs stratagemes, à
+						rafiner leurs moyens, à user de plus d’industrie dans leurs fourberies,
+						laquelle industrie, toujours secondée et <pb n="176" xml:id="p176"/>excitée
+						de la même manière, se lègue, ou se perpétue en augmentant, reste avec ses
+						découvertes dans la société qu’elle infecte et désole de plus en plus.</p>
+					<p>C’est donc incontestablement les vices que les criticomanes dramatiques,
+						auxquels on peut joindre l’action plus lente d’auxiliaires romanciers, ont
+						perfectionnés par leurs inventions ingénieuses, par leurs tableaux superbes
+						et savants d’événements aussi rares qu’odieux. Voilà pourquoi ils sont
+						bientôt parvenus au plus haut degré d’instruction ou de finesse, et comment
+						un mal particulier, borné <pb n="177" xml:id="p177"/>à peu de personnes,
+						s’est étendu à un aussi grand nombre, sous des formes si variées et si
+						ingénieuses. Et voilà de nouveaux motifs d’être circonspect surtout dans la
+						pratique de l’instruction négative ou plutôt prévoyante.</p>
+					<p>S’il restait encore quelque doute, ces remarques n’en doivent plus laisser
+						qu’un moraliste, publiant aujourd’hui qu’il ne faut pas commettre tel excès,
+							<hi rend="i">voluptueux ou avantageux</hi>, dont la multitude des gens
+						qui l’entendent n’ont aucune idée, est aussi imprudent, aussi maladroit que
+						s’il leur disait qu’il ne faut pas aller dans tel <pb n="178" xml:id="p178"
+						/>endroit prendre son trésor qui y est caché. On ne doit pas plus douter que
+						l’excès ne soit commis qu’on ne doute que le trésor ne fût enlevé.</p>
+					<p>Les craintes inspirées, les exemples de punitions donnés confusément aux
+						vicieux par le théâtre ne sauraient être aussi efficaces que les exemples de
+						celles, bien autrement sensibles, donnés continuellement par la justice aux
+						fripons et aux voleurs, qui cependant fourmillent toujours partout ; ce qui
+						doit achever de persuader combien sont illusoires aujourd’hui les moralités
+						théâtrales dont on fait le plus solide argument en faveur de <pb n="179"
+							xml:id="p179"/>l’exposition honteuse des crimes ; des iniquités, des
+						égarements inouïs, de toutes les faiblesses humaines existantes et
+						possibles.</p>
+					<p>Maintenant, faisons abstraction de leurs inconvénients, et examinons plus
+						directement de quelle utilité pouvaient être ces tableaux hideux bordés de
+						vertus. Pour en revenir au <hi rend="i">tartufe</hi>, je le prends encore
+						pour exemple. Les honnêtes gens avaient-ils besoin de la peinture de cet
+						homme odieux ? N’ont-ils pas su de tout temps par des voies ordinaires qu’il
+						y a dans l’état ecclésiastique, comme dans toutes les autres professions,
+						des hommes <pb n="180" xml:id="p180"/>pervers qui se cachent sous le manteau
+						de la religion et des autres vertus ; ou en style évangélique, qui <hi
+							rend="i">se couvrent d’une peau d’agneau, et qui sont au dedans des
+							loups ravissants ?</hi> Voilà ce qu’on nous dit dès l’âge le plus
+						tendre, et ce que nous apprenons dans nos premières lectures ; or cet avis
+						d’une source divine et pure que tant d’exemples malheureusement justifient
+						et rappellent continuellement à tout le monde, et que, d’ailleurs, on peut
+						souvent renouveler par cette méthode calme qui réveille l’attention sans
+						réveiller les passions et les porter à confondre l’apparence avec la
+						réalité ; cet avis, <pb n="181" xml:id="p181"/>dis-je, était suffisant à cet
+						égard, et rendait inutiles les leçons magiques et inflammatoires du
+						théâtre.</p>
+					<p>En effet, lorsque nous savons par tradition et par nos propres observations
+						que des hommes de tous les rangs, que des princes même, que des prêtres, que
+						des prélats, des pontifes, ont donné des exemples de toutes les perfidies et
+						de tous les scandales, qu’ils ont même commis des atrocités, pourquoi tant
+						d’art et d’apprêts, et de si ingénieux tours de force pour nous dire une
+						chose que nous ne devons pas avoir de peine à croire, pour nous montrer
+						qu’un petit <pb n="182" xml:id="p182"/>particulier, clerc ou laïc, déguisé
+							<hi rend="i">en dévot</hi> veut séduire une femme et encore avoir sa
+						fortune par-dessus le marché ? qu’y a-t-il là de nouveau ou d’étonnant pour
+						nous ? nous savions de reste que cela est possible, puisque nous étions
+						instruits qu’il pouvait arriver des choses bien plus fortes de la même
+							part<note n="5" place="bottom">Il se présente ici une occasion de
+							confirmer ce que j’ai déjà dit pour faire apprécier l’influence du
+							théâtre. Les excès multipliés de plusieurs membres du clergé, dévots par
+							profession, les grands scandales de prélats, de princes même de
+							l’église, ont fait peu de mal à la religion, constatés et transmis,
+							pendant des siècles, par des voies ordinaires ; au lieu que la peinture
+							dramatique de la perfidie d’un misérable clerc l’a ébranlée jusques dans
+							ses fondements !</note>.</p>
+					<p><pb n="183" xml:id="p183"/>D’ailleurs personne n’ignore qu’habituellement
+						d’autres hommes déguisés <hi rend="i">en amis</hi> simplement ont les mêmes
+						vues ; et il n’y a que des insensés qui, connaissant les hommes capables de
+						cette dernière ruse, ne voient pas qu’ils sont capables aussi de la
+						première, et qu’il est prudent de se tenir sur ses gardes vis-à-vis toute
+						personne que l’on ne connaît point parfaitement ; et ces aveugles là n’ont
+						pas même pu profiter de l’avis donné sous la nouvelle forme, ou ils en ont
+						abusé.</p>
+					<p><pb n="184" xml:id="p184"/>Ainsi donc, après avoir mis à part, avec
+						l’admiration et tous les égards qui leur sont dûs, l’esprit, le génie et
+						l’art qui brillent dans la satire du Tartufe, et qui ont aveuglé le public
+						sur ses défauts, comme la pompe et les richesses l’aveuglent ordinairement
+						sur ceux des riches, on peut dire que son instruction s’est bornée à donner
+						aux honnêtes gens l’avis qu’on pouvait les tromper sous un masque noir comme
+						sous un masque blanc, ou sous l’habit ecclésiastique comme sous l’habit de
+						laïc ; ce qui ressemble au soin de leur apprendre que les brigands et les
+						voleurs, qui se mettent en <pb n="185" xml:id="p185"/>embuscade aux coins
+						des édifices profanes, pour surprendre et dépouiller les passants, se
+						cachent aussi derrière les temples, quand ils croient y être plus
+						avantageusement placés ; or, l’on n’attendait pas après une telle
+						révélation ; tout le monde en conviendra ; donc la plus savante, la plus
+						ingénieuse attaque dramatique a été dirigée contre <hi rend="i">un moulin à
+							vent.</hi></p>
+					<p>Comme l’erreur que j’attaque est si ancienne qu’elle a pris, pour beaucoup de
+						monde, nature de vérité, je crois ne pouvoir trop multiplier les raisons qui
+						peuvent <pb n="186" xml:id="p186"/>appuyer celles avec lesquelles je viens
+						de la combattre. Le passage suivant, tiré d’un ancien auteur latin
+						très-souvent cité, confirme bien mon opinion sur les effets irritants de
+						l’action théâtrale :</p>
+					<quote>
+						<l>Segniùs irritant animos demissa per aurem</l>
+						<l>Quam quæ sunt oculis subjecta fidelibus.</l>
+					</quote>
+					<p>Ce sage Romain conseillait et pratiquait le premier de ces moyens
+						d’instruction. L’élite des hommes éclairés de la Grèce, les juges d’Athènes
+						blâmaient tellement le dernier que d’après un réglement appelé <hi rend="i"
+							>Mos civitatis</hi>, ils refusaient même <pb n="187" xml:id="p187"
+						/>d’entendre à leur tribunal, comme exaltant aussi l’imagination, égarant la
+						raison, les discours trop fleuris, ornés de figures, ou soutenus de toute
+						autre magie oratoire ; ils voulaient qu’on leur présentât la vérité en style
+						simple et sévère, afin de pouvoir toujours prononcer avec l’esprit et le
+						cœur libres. Pourquoi donc, encore une fois, surtout lorsque notre plus
+						grand intérêt est la garantie de notre attention, prend-on le moyen de nous
+						irriter le plus violemment, pour nous avertir seulement de nous défier des
+						dévots et des autres maîtres ou modèles de morale, leurs condisciples, sous
+							<pb n="188" xml:id="p188"/>prétexte qu’il y a parmi eux des imposteurs,
+						ou des loups ravissans ?</p>
+					<p>Cet avis, transmis <hi rend="i">per aurem</hi>, au moyen du récit de quelque
+						fait, pouvait à la vérité ne pas suffire à un aveugle fait exprès, à un têtu
+						sans pareil comme Orgon ; mais il aurait suffi sans aucun doute à la masse
+						des honnêtes gens, pour les engager à se mettre en garde contre ces loups,
+						comme il suffit d’avertir ainsi les laboureurs qu’il y en a d’une autre
+						espèce auprès de leurs bergeries, dans des bois même où ils n’en ont jamais
+						vu, pour les <pb n="189" xml:id="p189"/>déterminer à veiller nuit et jour
+						sur leurs troupeaux ; en effet, on n’a jamais été obligé pour cela de
+						représenter publiquement une de ces bêtes féroces <hi rend="i">croquant un
+							mouton.</hi></p>
+					<p>Il résulte donc confirmativement que ce fut sans aucune nécessité qu’un grand
+						homme employa toute la force de son génie et toutes les illusions du théâtre
+						pour présenter un de ces faux frères aux honnêtes gens, de manière à les
+						faire frémir d’indignation et rougir d’être hommes, de manière à leur ôter
+						toute liberté d’esprit et de jugement, à leur <pb n="190" xml:id="p190"
+						/>rendre odieux et insupportables, non seulement le personnage, mais même
+						son masque ou le costume dont il s’est servi, l’attitude, les manières qu’il
+						a prises, les gestes qu’il a faits, toutes ses expressions qui le retraçent
+						à leurs yeux sans cesse et malgré eux, où qu’ils se trouvent, lors même que
+						ces traits leur attestent réellement la présence de la vertu qui, hélas,
+						n’en ayant pas d’autres sensibles, je le répète, se trouve ainsi condamnée à
+						être continuellement prise pour l’imposture et traitée comme telle !</p>
+					<p>Puisque la comparaison des méchants avec les loups est <pb n="191"
+							xml:id="p191"/>admise et consacrée, on peut, en suivant la métaphore,
+						comparer aussi les moyens de les détruire ou poursuivre. Or, je pense que la
+						meilleure manière de diriger les traits contre les premiers, est sagement
+						indiquée dans celle que l’on pratique pour les diriger contre les autres, et
+						qu’il est bien à regretter qu’on ne l’ait pas suivie, ou regardée comme une
+						condition <hi rend="i">sine quâ non.</hi> Quand on organise une battue pour
+						la destruction des loups sauvages, on a soin de n’armer que des gens <hi
+							rend="i">bien intentionnés</hi>, ayant la permission et la capacité de
+						porter une arme et de <hi rend="i">bien ajuster</hi>, qui sont <pb n="192"
+							xml:id="p192"/>conduits par un lieutenant de chasse, et soumis à ses
+						ordres, à qui encore il est défendu sous des peines sévères de tirer sur
+						d’autres bêtes que les malfaisantes qu’il leur est même enjoint d’épargner
+						lorsqu’elles se trouvent au milieu du troupeau, confondues avec leurs
+						innocentes victimes, dans la crainte de blesser celles-ci quoiqu’il soit
+						facile de les distinguer de leurs ennemis, etc. Au lieu de précautions aussi
+						sages qu’il eût été plus convenable encore de prendre en faveur des braves
+						gens que l’auteur de la satire voulait protéger et servir, voilà plus de
+						cent-cinquante ans qu’à son signal répété <pb n="193" xml:id="p193"/>par <hi
+							rend="i">les grands veneurs</hi> qui lui ont succédé, tous les théâtres
+						battent la générale, soulèvent, arment bons, mauvais, fidèles, mécréants,
+						lettrés, ignorants, sages, débauchés, insensés, habiles et maladroits, pour
+						chasser <hi rend="i">les loups tartufes.</hi> Tous les moyens leur sont
+						permis à tous, et toujours ; ils peuvent les chasser sans ordre et le plus
+						confusément, à cor et à cri, à tir et à courre, à traits de limiers, aux
+						furets et à panneaux ; c’est-à-dire, pour parler sans figures, que l’effet
+						de cette satire fut de transformer tous les individus composant un peuple,
+						sans en excepter la plus vile <pb n="194" xml:id="p194"/>canaille, en
+						censeurs, en juges de religion et de moralité, en inquisiteurs et
+						scrutateurs des consciences, et puis persifleurs amers, distributeurs
+						aveugles de sarcasmes, de quolibets, de huées, de ridicules, de lazzis,
+						lesquels traits, qui sont les moyens dramatiques de réforme, ils lancent
+						depuis cette époque à tort à travers, faisant ensemble, par le concert
+						naturel de l’aveuglement et de la malignité, <hi rend="i">un feu de
+							file</hi> contre ces loups, vrais ou prétendus tels, qui sont mêlés aux
+						brebis, aux hommes de bien, avec lesquels ils ont extérieurement une
+						parfaite ressemblance, dont il est impossible de les distinguer !..</p>
+					<p><pb n="195" xml:id="p195"/>Il faudrait n’avoir aucune idée des passions
+						humaines pour ne pas sentir enfin à quel degré de fermentation elles ont dû
+						s’élever, à quels excès elles ont dû se livrer, lorsqu’on leur eut ouvert
+						une telle carrière, et quelle confusion il devait nécessairement en
+						résulter.</p>
+					<p>Et si l’on conserve le sentiment que le plus grand nombre et les plus actifs
+						de ces <hi rend="i">chasseurs</hi> nouveaux qui se sont enrôlés
+						successivement dans cette armée indisciplinée qui eut bientôt des
+						cantonnements partout, étaient de mauvais sujets, des ennemis déclarés <pb
+							n="196" xml:id="p196"/>de l’ordre ; qu’ils étaient des loups eux-mêmes,
+						qui n’ont pris les armes qu’on leur a offertes que pour en abuser, pour
+						détruire les brebis et les agneaux, on ne pourra plus douter comment le
+						troupeau du seigneur a été exterminé ou dispersé, et quelle en fut la vraie
+						cause.</p>
+					<p>Ne devient-il pas de plus en plus sensible qu’il ne peut être avantageux ou
+						agréable qu’aux disciples de la dernière école de mettre en spectacle, de
+						cette sorte, l’image des vertus qui les inquiètent et les condamnent ; et
+						qu’eux seuls devraient le désirer pour leur <pb n="197" xml:id="p197"
+						/>vengeance et leur satisfaction ? Ils doivent s’en réjouir comme le
+						sectaire se réjouit de voir souiller et vilipender les attributs distinctifs
+						de la secte qu’il combat, comme les impies et la roture révolutionnaire se
+						sont réjouis il y a vingt-cinq ans de voir des polissons et des animaux
+						courir les rues couverts des ornements du sacerdoce et des décorations de la
+						noblesse, ou comme des criminels condamnés et subissant leur peine se
+						réjouiraient de voir jeter parmi eux des coupables vêtus de l’habit de leurs
+						juges.</p>
+					<p>La sage précaution que prend la politique de dégrader et <pb n="198"
+							xml:id="p198"/>dépouiller de toutes les marques de ses dignités, pour ne
+						pas les avilir aux yeux du peuple, l’homme en place convaincu de forfaits,
+						avant de l’envoyer à l’échafaud, est la censure la plus frappante de cet
+						usage inconséquent de traduire sur les tréteaux du ridicule et de l’infamie,
+						sur cette autre espèce d’échafaud d’autres criminels tout parés des
+						couleurs, ou sous les formes respectables de la vertu que, je ne puis cesser
+						de le répéter, les satires et les critiques intempestives et déplacées ont
+						fait ainsi tomber dans le mépris et conspuer.</p>
+					<p><pb n="199" xml:id="p199"/>L’exemple ou l’opinion des anciens ne peut pas
+						servir d’argument contre la mienne ; car, d’autres temps, d’autres mœurs ;
+						d’autres mœurs, d’autres moyens de diriger les hommes. Au bout d’un certain
+						nombre de siècles, il naît un nouvel ordre de choses, dit un ancien lui-même
+						de la plus grande autorité.</p>
+					<p>Il est donc superflu de leur opposer que ce sont les lumières de l’expérience
+						que nous avons plus qu’eux, qui invoquent un ordre nouveau à cet égard, ou
+						quelque réforme dont leur exemple même, au surplus, démontrait déjà la <pb
+							n="200" xml:id="p200"/>nécessité ; car, que furent pendant les derniers
+						temps de leur existence ces peuples de l’antiquité qui ont eu leurs
+						Antisthènes dramatiques comme nous, qui ont été aussi fous que nous de
+						comédies et de comédiens, qui couraient de même s’instruire aux spectacles ?
+						Vous voyez dans leur histoire que, comme nous aussi, par ou malgré leurs
+						Ménandres et leurs Aristophanes, ils furent légers, frivoles ; que comme
+						nous ils allaient se dégradant tous les jours ; qu’ils firent de même des
+						progrès rapides dans l’irréligion et la corruption, et qu’ils sont devenus
+						enfin ce que tout le monde sait, et ce que nous <pb n="201" xml:id="p201"
+						/>deviendrons sans doute aussi prématurément, si nous ne prenons une autre
+						marche qu’eux.</p>
+					<p>Dailleurs, les anciens n’étaient pas plus d’accord que les modernes sur ce
+						point. La grande question des dangers et de l’utilité des théâtres avait
+						déjà été agitée de leur temps. On a dit dès lors à peu près comme on dit
+						aujourd’hui en leur faveur, que les ouvrages dramatiques sont la plus
+						précieuse, la plus salutaire, la plus substantielle nourriture qu’on puisse
+						donner à notre âme et à notre esprit ; qu’on trouve dans leur recueil un
+						cours complet de morale, les tableaux <pb n="202" xml:id="p202"/>touchants
+						des plus sublimes vertus, la peinture fidèle des mœurs, les observations les
+						plus profondes sur les faiblesses humaines, les travers et les vices
+						combattus avec l’arme du ridicule par des satires sanglantes ; les grands
+						hommes ressuscités avec leur caractère, et leurs formes imposantes. On y
+						apprend à connaître le monde et la manière de se conduire dans toutes les
+						circonstances de la vie politique et privée ; en un mot, il a été dit en
+						leur faveur qu’on profite mieux par les exemples frappants donnés sur le
+						théâtre que par les lectures de préceptes de morale, trop sévèrement
+						exprimés, etc.</p>
+					<p><pb n="203" xml:id="p203"/>Et dans le même temps on disait contre à peu près
+						aussi ce que disent les modernes contradicteurs, tout en rendant justice à
+						l’art et aux talents de nos bons auteurs : que le recueil de ces ouvrages ne
+						contient que des peintures dangereuses des passions les plus entraînantes,
+						que des tableaux corrupteurs ; qu’on y voit l’intérêt sollicité le plus
+						souvent en faveur du crime ; une plaisanterie perfide faisant naître le rire
+						au lieu d’exciter l’indignation ; travestissant les vices en défauts
+						brillants, les travers en agréments, les conventions théâtrales excluant la
+						vraisemblance, le caprice des auteurs dénaturant <pb n="204" xml:id="p204"
+						/>les faits et les caractères ; des sentiments outrés, des mœurs postiches
+						et des maximes bonnes pour amollir les cœurs et égarer l’imagination.</p>
+					<p>Certes, voilà deux opinions fort opposées ! Quoique je tienne beaucoup à la
+						dernière, comme on a dû le voir, ce n’est pas à dire que je trouve l’autre
+						tout-à-fait fausse et dépourvue de toute raison justificative. Je dois
+						avouer que j’ai quelquefois éprouvé aussi une grande satisfaction à voir
+						foudroyer le vice sur le théâtre. Mais ce plaisir ne m’a jamais empêché de
+						voir le côté dangereux de la <pb n="205" xml:id="p205"/>leçon ; c’est
+						pourquoi je n’en demeure pas moins convaincu que sous le rapport que je le
+						considère, l’art dramatique, bien que le plus ingénieux et le plus piquant
+						que l’esprit humain ait inventé, divertit mieux qu’il n’instruit, mieux
+						qu’il ne réforme, si l’on veut ; que l’amusement qu’il procure a coûté
+						infiniment aux mœurs ; qu’il est un obstacle à leur restauration, et que,
+						par conséquent, il est nécessaire au retour de l’ordre si ardemment désiré,
+						non pas de le proscrire, comme il y en a qui le prétendent, je crois cela
+						aussi difficile à présent que de faire reculer la civilisation, mais d’en
+						modifier le système, d’en <pb n="206" xml:id="p206"/>borner et régler plus
+						sévèrement la jurisdiction, pour arrêter ici la tradition de ses mauvais
+						résultats.</p>
+					<p>Je hasarderai à la fin du second volume quelques idées qui pourront peut-être
+						concourir avec les moyens déjà indiqués, à cette réformation depuis
+						long-temps demandée.</p>
+					<p><hi rend="sc">fin du tome premier</hi>.</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>

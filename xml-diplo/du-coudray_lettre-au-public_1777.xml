@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Il est temps de parler [Lettre au public sur la mort de Messieurs de
+                    Crébillon, Gresset, Parfaict]</title>
+                <author key="Du Coudray, Alexandre-Jacques (1744-1790?)"
+                    ref="https://data.bnf.fr/fr/12001953/alexandre-jacques_du_coudray/"
+                    >Alexandre-Jacques Du Coudray</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/du-coudray_lettre-au-public_1777</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Alexandre-Jacques Du Coudray, <hi rend="i">« Il est temps de parler », in
+                        Lettre au public sur la mort de Messieurs de Crébillon, Censeur Royal ;
+                        Gresset, de l’Académie Françoise ; Parfaict, Auteur de l’Histoire du Théâtre
+                        François. Par l’Auteur des Anecdotes de l’Empereur</hi>,
+                        <pubPlace>Paris</pubPlace>, <publisher>Durand, Ruault</publisher>,
+                        <date>1777</date>, p. 27-36. PDF : <ref
+                        target="https://books.google.fr/books?id=Yio6AAAAcAAJ">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1777"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="article">
+                <pb n="27" xml:id="p27"/>
+                <head><hi rend="i">Il est tems de parler.</hi></head>
+                <p>A Toutes les vexations des Comédiens envers les Gens de Lettres, je n’ai dit mot.
+                    Au tyrannique empire, au despote injurieux que les <hi rend="i">Histrions</hi>
+                    exercent contre les successeurs des <hi rend="i">Corneille</hi> ou des <hi
+                        rend="i">Moliere</hi>, je n’ai dit mot. Au tort réel que ces <hi rend="i"
+                        >Messieurs</hi> &amp; ces <hi rend="i">Dames</hi> ont osé faire souffrir à
+                    nos Sophocles, Euripides, Plautes &amp; Térences Français, je n’ai dit mot. Mais
+                    pour ne rien dire, je n’en pensois pas moins. Or comme je pensois plusieurs
+                    choses, de crainte de les oublier, je les couchois sur le papier. Les ayant
+                    couché sur le papier, il auroit fallu les faire imprimer. Les ayant fait
+                    imprimer, il auroit fallu les publier : alors mes observations auroient eu peu
+                    de crédit dans le Public, qui aimoit assez les Comédiens<note n="1"
+                        place="bottom">Ici se trouvent des épithètes des plus humiliantes, que nous
+                        avons supprimées par ménagement.</note>. Mais aujourd’hui que leur insolence
+                    est à son comble, que leur arrogance est au suprême dégré, que leur impudence
+                    est montée au dernier période, je me suis dit à moi-même (tous bas encore) <hi
+                        rend="i">il est tems de parler.</hi> Or comme <hi rend="i">il est tems de
+                        parler</hi>, que j’ai laissé les autres parler, (&amp; parler haut) j’ai
+                    voulu parler, &amp; je parle.</p>
+                <p>Néanmoins comme je crains de mal parler, je me servirai souvent des expressions
+                    des autres ; c’est-à-dire, je ne ferai aucune difficulté de transcrire des
+                    lignes, des phrases, des pages même de nos Héros de la Littérature, de nos
+                    Défenseurs de l’Art Dramatique, de nos Athletes intrépides du tripot Comique,
+                    qui sont, sans les nommer, MM. <hi rend="i">Linguet</hi>, <hi rend="i"
+                        >Palissot</hi>, <hi rend="i">Mercier</hi> ; <hi rend="i">Kerlon</hi>, &amp;
+                    Chevalier <hi rend="i">du Coudray.</hi> Je vais donc parler, il en est tems,
+                    &amp; <pb n="28" xml:id="p28"/>je parle aussi ; mais je parle au nom de la
+                    République des Lettres. Ce n’est point ma cause que je vais plaider, c’est celle
+                    des Poëtes Dramatiques.</p>
+                <p>Un second Théâtre Français dans la Capitale de la France, où il y en a eu jusqu’à
+                    sept à la fois, (Voyez mon <hi rend="i">Histoire des Théâtres</hi>.) étoit le
+                    vœu général : c’étoit la demande, non-seulement des Gens de Lettres, mais encore
+                    des Gens du Monde. Les Écrits sans nombre pour prouver la nécessité de ce
+                    Théâtre honorable à la Nation, utile pour les mœurs, inondoient &amp; la Ville
+                    &amp; la Cour. M. le Chevalier <hi rend="i">du Coudray</hi>, (il m’a permis de
+                    le nommer) fut le premier qui proposa l’établissement de la Troupe de <hi
+                        rend="sc">Monsieur</hi>, Frere du Roi. Il présenta même un Mémoire au
+                    Conseil de S. A. R., &amp; M. le Duc <hi rend="i">de Laval</hi>, premier
+                    Gentilhomme de la Chambre du Prince, lui fit réponse par écrit &amp; de vive
+                    voix, que ce n’étoit point l’intention de <hi rend="sc">Monsieur</hi>.</p>
+                <p>Quelque tems après M. <hi rend="i">Cailhava</hi> fit paroître sa brochure,
+                    intitulée <hi rend="i">Causes de la décadence du Théâtre, &amp; des moyens de le
+                        faire refleurir ;</hi> ce qui engagea M. le Chevalier <hi rend="i">du
+                        Coudray</hi> à donner la sienne, qui parut sous le titre de <hi rend="i"
+                        >Lettre à Madame la Comtesse</hi> <hi rend="sc">de Turpin</hi><note n="2"
+                        place="bottom">J’ai grand soin de transcrire le Manuscrit tel qu’il est,
+                        j’en montrerai l’original aux incrédules : j’affecte de laisser les
+                        lacunes.</note>. Rapportons ce que M. <hi rend="i">de Kerlon</hi> en a dit
+                    alors dans ses Affiches de Province du 5 &amp; 12 Décembre de l’année 1760.</p>
+                <p>«</p>
+                <p>»</p>
+                <p/>
+                <p>“M. <hi rend="i">Linguet</hi> en a porté le jugement dans son Journal de
+                    Politique &amp; de Littérature, N°.... mois de Novembre, année 1774.</p>
+                <p>»</p>
+                <p>»</p>
+                <p><pb n="29" xml:id="p29"/>Je tâche d’observer, autant que je puis, l’ordre
+                    chronologique, &amp; cela à cause de l’<hi rend="i">Histoire du Théâtre
+                        Français.</hi> Au commencement de 1775, un Homme de Lettres estimable,
+                    Auteur <hi rend="i">du Roi &amp; du Ministre</hi>, ou <hi rend="i">Henri IV.
+                        &amp; Sully</hi>, Drame en 4 Actes, en Prose, disoit à la tête de cet
+                    Ouvrage dans son Avertissement.</p>
+                <quote>
+                    <p>« Un Public bien intentionné qui aime à encourager les talens, regrettera
+                        peut-être de ne point voir représenter cette Piéce, d’autant plus que c’est
+                        l’histoire du jour. Je lui réponds qu’il ignore, ou qu’il veut bien ignorer,
+                        que les avenues du Théâtre, bien loin d’être bordées d’orangers, de
+                        citronniers &amp; d’arbres odoriférans, ne sont garnies que de ronces,
+                        épines &amp; feuilles de houx. L’Homme de Lettres essuye mille désagrémens,
+                        dont le refus de son Ouvrage est le moindre : ce qui décourage un galant
+                        homme sur le chemin du Temple de Thalie.</p>
+                    <p>» Je le dis hautement, le Théâtre est perdu ; les Comédiens ne veulent point
+                        faire de frais de mémoire, ils s’en tiennent à leur ancien fonds, &amp; se
+                        contentent d’avoir douze mille livres de rente chacun. Un Histrion jouir de
+                        quatre mille écus ! O tems ! ô mœurs ! ô <hi rend="i">Sully</hi> ! J’ose
+                        donc le premier élever la voix, (&amp; je ne suis que l’écho du Public) pour
+                        arrêter cet abus infâme, pour réveiller la paresse des Acteurs. Pour avoir
+                        des nouveautés au Comique, au Tragique, il faut un second Théâtre dans notre
+                        Capitale.</p>
+                    <p>» <hi rend="sc">Monsieur</hi>, Frere du Roi, ajoute-t-il, peut faire cet
+                        heureux changement ; il en a le droit, &amp; je supplie ici les personnes
+                        qui l’entourent, de suggérer à S. A. R. cette bonne intention. On se
+                        souvient encore que notre illustre <hi rend="i">Moliere</hi> amena sa Troupe
+                        de Lyon, pour l’incorporer dans celle de <hi rend="sc">Monsieur</hi>, Frere
+                        unique de <hi rend="sc">Louis</hi> XIV. »</p>
+                </quote>
+                <p>Voici comme M. <hi rend="i">Kerlon</hi>, en rendant compte de cet Ouvrage,
+                    s’exprimoit dans la Feuille 19e. <hi rend="i">1755.</hi>
+                    <pb n="30" xml:id="p30"/><quote>« L’événement n’en pourroit tourner qu’à
+                        l’intérêt du public, s’il opéroit, suivant tous les vœux, l’établissement
+                        d’une <hi rend="i">seconde Troupe</hi>, seul moyen de faire éclore les
+                        talens du Théâtre, d’encourager les Auteurs, &amp; de rendre les Comédiens à
+                        la modestie de leur état. ”</quote> Disons maintenant quelque chose de nous,
+                    il est tems de parler.</p>
+                <p>J’ose avancer à la barbe des Athéniens, que <hi rend="i">Corneille</hi> ni <hi
+                        rend="i">Moliere</hi> ne pourroient faire de nos jours un si grand nombre de
+                    Piéces, vû la lenteur des <hi rend="i">Histrions</hi>, &amp; leur négligence à
+                    jouer les nouveautés ; &amp; je le prouve, <hi rend="i">car il est tems de
+                        parler</hi>.</p>
+                <p>Ces <hi rend="i">Messieurs</hi> &amp; ces <hi rend="i">Dames</hi> ne jouent que
+                    huit Piéces nouvelles par an, soit tragiques, soit comiques ; tandis qu’ils
+                    pourroient en donner vingt-quatre ; ils doivent même cette déférence, cette
+                    soumission aux Auteurs qui les font vivre, &amp; au Public qui les soudoye.
+                    Continuons. A huit Piéces par année, les 53 qui sont inscrites sur le noir
+                    Tableau du Foyer, ne pourront être jouées que dans <hi rend="i">six ans &amp;
+                        demi</hi>, (le calcul est aisé à faire, huit Piéces par an.) Or dans six ans
+                    &amp; demi il arrive bien des choses, sans compter le chapitre des accidens. Les
+                    événemens ordinaires, les aventures passées, les changemens de modes, les bons
+                    mots, les vaudevilles, &amp; pour dernier trait enfin, la mort des Auteurs. Ce
+                    que j’avance là malheureusement est un fait. MM. <hi rend="i">de Belloi</hi>
+                    &amp; <hi rend="i">Colardeau</hi> ont été les déplorables victimes du tripot
+                    comique. (<hi rend="i">Les pleurs inondent mon visage.</hi>) Ce dernier a même
+                    encore <hi rend="i">ses Perfidies à la mode</hi>, Comédie cinq Actes en vers,
+                    qui doivent être jouées…. quand…. Dieu seul le sait ; à son rang, c’est-à-dire
+                    dans quelques triples d’années. Alors si nous avons le malheur encore de perdre
+                    un de ces Poëtes, son ombre en descendant aux Champs Élisées pourra apprendre à
+                    l’illustre Auteur de <hi rend="i">Caliste</hi> &amp; d’<hi rend="i"
+                    >Astarbé</hi>, que sa Comédie se joue enfin ; mais ce ne pourra être qu’en 1779,
+                    encore… encore…</p>
+                <p><pb n="31" xml:id="p31"/>L’établissement du second Théâtre Français ne se faisant
+                    pas, quelques Poëtes Dramatiques, las d’attendre cinq à six ans, firent jouer
+                    leurs Piéces sur les Théâtres de Province ; entr’autres M. <hi rend="i"
+                        >Sauvigny</hi> à Bordeaux, où l’on représenta <hi rend="i">Gabrielle
+                        d’Estrées</hi>, Tragédie en 5 Actes, en vers ; &amp; M. *** à Rouen, où l’on
+                    donna <hi rend="i">le Siége de Rouen</hi>, Tragédie en cinq Actes, en vers. A ce
+                    sujet le judicieux Auteur du Journal de Politique &amp; de Littérature, fit
+                    cette réflexion. </p>
+                <quote>
+                    <p>« Si une fois les Troupes de Province se forment, &amp; que les procédés de
+                        celle de Paris continuent de révolter les Gens de Lettres, on ne voit pas
+                        pourquoi ceux-ci ne rameneroient pas la méthode ancienne de faire jouer
+                        leurs Piéces sur les Théâtres des grandes Villes ; ils y seroient jugés plus
+                        équitablement peut-être qu’à Paris.</p>
+                    <p>» Ils auroient moins de cabales &amp; de dégoûts à redouter ; &amp; l’intérêt
+                        des Comédiens de la Capitale les forceroit bientôt à solliciter auprès des
+                        Auteurs, la permission de jouer les Piéces jugées vraiment bonnes dans cette
+                        espece d’essai.</p>
+                    <p>» Nous sommes persuadés que Lyon, Marseille, Bordeaux, Rouen, fourniroient
+                        dès-à-prèsent des Parterres très-éclairés, &amp; peut-être des Acteurs
+                        très-capables de donner aux premieres Représentations l’éclat qui peut en
+                        faire sortir les beautés. N°. 20. année 1775. »</p></quote>
+                <p>Je n’en veux point à ces <hi rend="i">Messieurs</hi> ni à ces <hi rend="i"
+                        >Dames</hi> ; j’aime assez les Acteurs, plus encore les Actrices. J’honore
+                    les talens, mais je ne puis souffrir qu’ils soient les juges, ou plutôt les
+                    tyrans des Auteurs. Je n’ai rien eu à démêler avec eux, Dieu-merci ; ce n’est
+                    donc point par vengeance secrette que je les attaque, c’est à cause du tort que
+                    leur domination fait à l’Art Dramatique : quoiqu’à bien considérer, pourquoi
+                    craindre les décrets d’un aréopage qui a refusé <hi rend="i">Mérope</hi>, qu’on
+                    a obligé de recevoir <hi rend="i">la Métromanie</hi> ? Bien loin de s’en fâcher,
+                    il <pb n="32" xml:id="p32"/>faudroit en rire, (à mon avis, du moins sauf un
+                    meilleur.) Mais le tripot Comique existe, il s’est arrogé le droit d’accepter ou
+                    de refuser les Piéces, cela suffit pour le combattre. Cette affaire ne me
+                    regarde pas, il est vrai, mais je vois les intérêts de l’Art, &amp; il est
+                    permis, je pense, à tout galant homme, surtout à un Amateur de Spectacles, de
+                    les soutenir, &amp; même de les défendre envers &amp; contre tous, &amp; l’on ne
+                    peut que lui en savoir bon gré. Parlons des Lectures, puisqu’<hi rend="i">il est
+                        tems de parler.</hi></p>
+                <p>Les Lectures sont très-difficiles à obtenir, dit-on, car je n’en sais rien par
+                    moi-même, n’ayant jamais eu la <hi rend="i">Drammomanie</hi> ; mais je sais de
+                    bonne part qu’il y a quinze Piéces inscrites pour être lues ; Samedi dernier le
+                    tripot Comique en a lû une ; l’Auteur attendoit depuis trois mois. Ce nombre
+                    &amp; ce tems établis, la derniere Lecture se fera dans <hi rend="i">trois ans
+                        &amp; demi.</hi> Ajoutez <hi rend="i">six ans &amp; demi</hi> pour être
+                    représentée, (tel qu’on l’a vu ci-devant,) total <hi rend="i">dix ans.</hi> Je
+                    ne dis mot des tracasseries, des pas &amp; démarches qu’il faut faire, des
+                    mortifications qu’il faut essuyer, &amp; c. Je renvoie mon Lecteur à l’excellent
+                    Mémoire de M. <hi rend="i">François Neuf-Château</hi>, pour M. <hi rend="i"
+                        >Lonvay de la Saussaye</hi>, contre <hi rend="i">la Troupe des
+                        Comédiens</hi>.</p>
+                <p>On l’a dit souvent, &amp; on le répete tous les jours, entr’autres trois fameux
+                    Journalistes, (MM. <hi rend="i">Linguet</hi>, <hi rend="i">Kerlon</hi> &amp; <hi
+                        rend="i">Mercier</hi>,) qu’il étoit ridicule, pour ne pas dire indécent, de
+                    voir les Histrions juges des Piéces que les Auteurs leur présentent. En effet,
+                    ce sont des gens, la plupart sans études, sans connoissances, sans esprit ;
+                    &amp; l’axiome reçu <hi rend="i">ne mo dat quod non habet</hi>, a lieu ici plus
+                    que jamais. Néanmoins le tripot Comique a le droit, quoique mal acquis,
+                    d’accepter ou de refuser les Drames ; &amp; l’Homme de Lettres ressemble à un
+                    Vassal de Fief qui va faire foi &amp; hommage à son Seigneur suzerain. Quelle
+                    pitié ! Pour donc détruire ce funeste usage, cet odieux établissement, je
+                    propose un Tribunal composé de <pb n="33" xml:id="p33"/><hi rend="i">huit</hi>
+                    Gens de Lettres, qui auroient une réputation faire par trois succès au Théâtre,
+                        <hi rend="i">quatre</hi> dans le Tragique, <hi rend="i">quatre</hi> dans le
+                    comique, afin de juger les Poëmes que le génie a composé. Je ne suis point le
+                    premier qui aye pensé à cet établissement, à Dieu ne plaise d’avoir cette
+                    gloriole qui en aye fait voir l’avantage. (Voy. <hi rend="i">le
+                    Mimographe</hi>.) Mais je prétends aujourd’hui en faire sentir la nécessité
+                    indispensable, le terme n’est point trop fort ; je suis sûr d’être approuvé de
+                    tout le monde, des partisans même de nos Comédiens. D’ailleurs, c’est une idée
+                    que l’amour du bien public, l’avantage des Lettres, &amp; la gloire des Auteurs
+                    m’ont suggérée, &amp; que je hasarde. Ce n’est point sans exemple. Dans les
+                    beaux jours d’Athènes il y avoit cinq Magistrats établis pour juger de la bonté
+                    des Piéces de Théâtre, &amp; si elles méritoient d’être représentées au Public.
+                    Il y en avoit autant chez les Romains ; &amp; lorsque les Parties en attendoient
+                    le jugement, l’on disoit : <quote><hi rend="i">Stat in genuibus quinque
+                            judicum.</hi></quote></p>
+                <p>Je le répéterai au Lecteur, que je ne suis pour rien dans tout ceci, cette cause
+                    n’est pas la mienne ; mais je souffre de voir des Histrions tyrans despotes,
+                    juges souverains des productions du génie. A-t-on jamais vu l’Horloger porter
+                    son chef-d’œuvre de méchanisme, au Serrurier <hi rend="i">grossier</hi>,
+                    autrement dit, <hi rend="i">Faiseur de Tourne-broches</hi> : c’est la force de
+                    la vérité qui m’arrache cette réflexion. Maintenant écoutons parler M. <hi
+                        rend="i">Cailhava</hi>, dans son Ouvrage intitulé, <hi rend="i">Cause de la
+                        décadence du Théâtre, &amp;c.</hi> Après avoir démontré tous les risques
+                    qu’il y a de charger un Comédien d’examiner votre Drame, pour savoir s’il est
+                    digne d’être lû à l’assemblée générale, cet Auteur profond dit : <quote>« C’est
+                        dans ses mains, que votre sort est remis ; il peut à son gré vous fermer ou
+                        vous ouvrir les premieres avenues du Temple de Mémoire : reste à savoir s’il
+                        est assez éclairé pour juger de l’effet que la Piéce <pb n="34" xml:id="p34"
+                        />peut produire au Théâtre, si elle est dans le genre qu’il aime,
+                        &amp;c. »</quote> Et plus bas <hi rend="i">il ajoute</hi>. <quote>« Vous
+                        êtes admis à la Lecture, vous la faites en tremblant ; on vous juge, vous
+                        frémissez ; on recueille les voix, une seule fait pancher la balance, la
+                        Piéce est rejettée… Vous avez beau dire, <seg type="exquote"><hi rend="i">ce
+                                sont ses propres paroles</hi>,</seg> que rien n’est plus ridicule
+                        que cette diversité de sentimens si opposés les uns aux autres. Vous avez
+                        beau faire voir combien il est absurde qu’un Ouvrage de génie, sur lequel
+                        les Gens de l’Art peuvent à peine prononcer après l’avoir examiné à tête
+                        reposée, soit condamné à l’oubli sur une simple Lecture faite en l’air dans
+                        une assemblée tumultueuse. Vous avez beau, &amp;c. &amp;c. &amp;c. &amp;c.
+                        &amp;c. &amp;c. »</quote></p>
+                <p>Joignons encore à cela, car nous ne manquerons point d’appui ni d’exemple ;
+                    joignons, dis-je, ce que (feu M. <hi rend="i">Freron</hi><note n="3"
+                        place="bottom">Célebre Critique que la mort vient d’enlever à la République
+                        des Lettres, au mois de Février 1775.</note>, traçoit dans une de ses
+                    Feuilles, N°. 40. Année 1769. <quote>« Pour corriger cet abus, ne seroit-il pas
+                        possible que, parmi les Auteurs les plus estimés, on en choisît quelques-uns
+                        connus par leur goût, leurs lumieres &amp; leur honnêteté, à qui seroit
+                        confié l’examen des Ouvrages Dramatiques, &amp; le droit de prononcer sur
+                        leur refus ou leur acceptation. Ce Tribunal, sans doute, autroit encore ses
+                        inconvéniens, mais il en auroit moins. Les Gens de Lettres alors seroient
+                        jugés par leurs pairs ; les avis seroient motivés ; on ne craindroit plus
+                        d’être humilié par un froid dédain, ou trompé par un enthousiasme aveugle ;
+                        les chûtes deviendroient moins fréquentes, les succès plus honorables, &amp;
+                        les Acteurs retourneroient à leur place ; ils ne seroient que les <pb n="35"
+                            xml:id="p35"/><hi rend="i">interprêtes</hi> du génie, dont ils sont
+                        devenus les arbitres. »</quote></p>
+                <p>Voilà comme s’exprimoit hautement ce vif partisan des Comédiens, à qui ces <hi
+                        rend="i">Messieurs</hi> &amp; ces <hi rend="i">Dames</hi> avoient accordé
+                    ses entrées. Voyons aussi la façon de penser de M. <hi rend="i">Dorat</hi>, qui,
+                    certes, ne passera pas pour être leur ennemi. Voici donc ce qu’on lit dans son
+                    Discours préliminaire <hi rend="i">des deux Reines</hi>, Drame en quatre actes,
+                    en prose, belle édition avec gravures, 1769. <quote>« La lice Dramatique, <seg
+                            type="exquote"><hi rend="i">dit cet Auteur</hi>,</seg> est fermée tant
+                        par le nombre des athletes qui s’y présentent, que par la lenteur de ceux
+                        qui sont faits pour les seconder. J’estime fort les Comédiens, je n’ai point
+                        à me plaindre d’eux, leur talent mérite toutes sortes d’égards ; mais je ne
+                        conçois point leur politique. Ils ont une foule de Piéces nouvelles qui
+                        vieillissent dans leurs archives, &amp; attendent pour éclorre le moment de
+                        leur commodité. Voilà, <seg type="exquote"><hi rend="i">ajoute M.
+                            Dorat</hi>,</seg> vingt ou trente réputations qu’ils retardent
+                        impitoyablement ; &amp; ce sont, en quelque sorte, les fonds du public
+                        qu’ils retiennent avec dommage pour lui, &amp; sans avantage pour eux. Ces
+                        délais inexpliquables, &amp; sur lesquels il est bon de fixer l’attention du
+                            <hi rend="i">Comité</hi>, dégoûtent ceux qui écrivent pour le Théâtre,
+                        fatiguent l’émulation, tournent le travail vers un autre objet. »</quote>
+                    Rien de mieux dit, rien de plus vrai ! Que de Nourrissons du Pinde se sont
+                    trouvés dans le cas ! <quote>« Moi-même, si je puis me citer, <seg
+                            type="exquote"><hi rend="i">s’écrie M. le Chevalier du
+                            Coudray</hi>,</seg> en entrant dans le monde je me sentois, ou du moins
+                        croyois me sentir, un goût décidé pour la composition des Poëmes
+                        Dramatiques, une noble passion pour le Théâtre ; mais né, malheureusement
+                        pour moi, avec de la timidité, des sentimens, de l’ame, sans intrigues, sans
+                        cabale, d’ailleurs avec de la naissance &amp; un nom, je n’ai pû avoir ces
+                        viles complaisances, ces basses flatteries que certains <pb n="36"
+                            xml:id="p36"/>Auteurs semblent avoir pour ces <hi rend="i"
+                            >Messieurs</hi> &amp; ces <hi rend="i">Dames</hi> ; par conséquent ma
+                            <hi rend="i">noble passion</hi> s’est éteinte, &amp; mes talens ont été
+                        avortés : sans cela, peut-être aurois-je été loin dans la carriere
+                        dramatique. »</quote>
+                    <hi rend="i">Lettre à M. Palissot</hi>.</p>
+                <p>Quoique M. <hi rend="i">le Chevalier du Coudray</hi> semble traiter ce malheur
+                    légerement, on aura soin de lui dire avec la plus grande impartialité, qu’il a
+                    tort, &amp; très-grand tort d’abandonner le Théâtre. Il a fait ses preuves de
+                    talens dans l’Art Dramatique ; on peut même en juger par les trois Piéces qui
+                    composent le premier volume de son <hi rend="i">Théâtre de Famille.</hi> Qu’il
+                    me permette une comparaison, quoique toute comparaison cloche, les premieres
+                    Comédies de <hi rend="i">Moliere</hi> sont-elles ses meilleures ?
+                    laissoient-elles entrevoir tout ce qu’elles ont été depuis ? Son talent ne
+                    s’est-il pas développé par dégré ? Enfin <hi rend="i">le Fagotier</hi> ou le <hi
+                        rend="i">Médecin malgré lui</hi>, annonçoient-ils l’Auteur du <hi rend="i"
+                        >Misanthrope</hi> &amp; du <hi rend="i">Tartuffe</hi> ?</p>
+                <p>Revenons à notre objet, puisqu’<hi rend="i">il est tems de parler</hi>, &amp;
+                    disons que la conduite de ces <hi rend="i">Messieurs</hi> &amp; ces <hi rend="i"
+                        >Dames</hi> envers les Éleves du Parnasse est si indécente, qu’elle souleve
+                    tous les esprits. Les Amateurs du Théâtre, les plus zélés partisans des
+                    Comédiens, déposent contre leur despotisme. Le cri est général. Pourquoi ne pas
+                    faire cesser cet abus révoltant ? il n’est qu’un moyen, c’est l’établissement
+                    d’une seconde Troupe, au Marais, au Temple, ou ailleurs.</p>
+                <p/>
+                <trailer rend="i">FIN.</trailer>
+            </div1>
+        </body>
+    </text>
+</TEI>

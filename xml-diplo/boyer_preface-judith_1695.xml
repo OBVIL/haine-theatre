@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Preface [Judith, tragedie]</title>
+                <author key="Boyer, Claude (1618-1698)"
+                    ref="https://data.bnf.fr/fr/12190271/claude_boyer/">Claude Boyer</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/boyer_preface-judith_1695</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Claude Boyer, « Preface », in <hi rend="i">Judith, tragedie. Par Mr Boyer de
+                        l’Académie françoise</hi>, <pubPlace>Paris</pubPlace>, <publisher>Michel
+                        Brunet</publisher>, <date>1695</date>, n.p. PDF : <ref
+                        target="https://books.google.fr/books?id=76E5AAAAcAAJ">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1695"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="preface">
+                <pb n="n.p."/>
+                <head>Preface</head>
+                <p><hi rend="big">C</hi>’EST une erreur qui a infecté beaucoup d’esprits, qu’il
+                    étoit presque impossible d’accommoder heureusement au Theatre les Sujets qui
+                    sont tirez de l’Ecriture Sainte, &amp; de l’Histoire Chrétienne. Indigné contre
+                    une opinion si fausse &amp; si pernicieuse, je crus d’abord qu’elle n’étoit
+                    fondée que sur la prevention qui n’examine rien, &amp; dont la force imperieuse
+                    entraîne ordinairement la multitude ; mais aprés avoir creusé jusques dans la
+                    source de cette erreur, je vis qu’elle venoit de l’ignorance de l’art, de la
+                    foiblesse du genie, de la sterilité des inventions, &amp; sur tout du peu de
+                    goût &amp; de sensibilité qu’on a pour les choses de la Religion.</p>
+                <p>J’avouë qu’il est mal aisé d’assembler tout ce qui est necessaire à la
+                    composition de cette sorte d’ouvrages, d’autant plus <pb n="n.p."/>qu’il y a peu
+                    de modelles dans ce genre d’écrire, &amp; peu d’Auteurs qui soient d’humeur de
+                    les imiter. La plûpart ne font que suivre &amp; marcher aprés les autres ;
+                    privez du secours des bons exemples, ils n’osent hazarder un autre langage.
+                    C’est une route nouvelle presque inconnuë à nos Anciens, &amp; où ceux qui l’ont
+                    suivie aussi bien que les plus habiles de nos Modernes se sont quelquefois
+                    égarez. Ce qui peut encore les rebuter davantage, c’est qu’étant accoutumez à
+                    forger des évenemens qui n’ont ni suite ni vray-semblance, à donner des grands
+                    noms historiques aux fictions fabuleuses, &amp; à confondre ainsi la verité
+                    &amp; le mensonge, ils n’osent avec raison traiter des sujets, qu’on ne peut
+                    alterer sans un espece de sacrilége. Ils ignorent le talent d’inventer, ou en
+                    font un mauvais usage. Ils ne sçavent pas qu’il consiste à parer la vérité, non
+                    à la defigurer ; à l’enrichir, non à la des-honorer ; &amp; qu’enfin le secours
+                    des Episodes doit soustenir les Sujets, &amp; non pas les étouffer. Mais ce qui
+                    leur paroît de plus rebutant &amp; de plus épineux, c’est que pour donner à ces
+                    ouvrages les ornemens qu’ils demandent, il faut se remplir des grandes <pb
+                        n="n.p."/>veritez de la Religion, &amp; tirer de l’Ecriture sainte ces
+                    riches expressions que nous fournit la divine Poësie du Psalmiste &amp; des
+                    Prophetes, &amp; qui sont fort au dessus de tout ce que l’ingenieuse &amp;
+                    sçavante Antiquité a de plus grand &amp; de plus magnifique. Il faut sçavoir
+                    choisir &amp; ménager les sentimens de pieté qui sont amenez par la matiere,
+                    &amp; il ne faut en charger ces Poëmes, que lorsqu’ils sont destinez pour des
+                    Communautes Religieuses, &amp; des Assemblées particulieres. Le theatre doit
+                    instruire &amp; divertir le public, mais les instructions de pieté n’y doivent
+                    être ni frequentes ni affectées, il faut qu’elles soient regardées comme des
+                    sentimens qui sont attachez aux caracteres des Acteurs, &amp; qui servent à
+                    l’action qui se passe sur la Scene.</p>
+                <p>Quand je propose des regles si severes &amp; si sublimes, je n’ay pas la
+                    presomption de croire que je les ay entierement remplies dans la composition de
+                    Judith. Ce Poëme quelque succés qu’il ait eu n’est qu’un essay qui ne donne tout
+                    au plus qu’une foible idée de la perfection à laquelle des genies plus élevez
+                    que le mien pourroient à peine parvenir. La seule chose dont il m’est permis de
+                    m’applaudir, c’est d’avoir choisi <pb n="n.p."/>un sujet dont la beauté a
+                    soutenu ma foiblesse. Je ne sçay par quel hazard il a échapé aux yeux de ceux
+                    qui m’ont precedé.</p>
+                <p>Toutes les Histoires peuvent-elles fournir rien de plus élevé &amp; de plus
+                    propre pour la grande Tragedie que l’Histoire de Judith ? n’y voit-on pas le
+                    merveilleux &amp; le patetique dans toute sa force ? On y voit une Veuve
+                    consacrée au Seigneur, devoüée à la cendre &amp; au cilice, dans l’obscurité
+                    d’une vie humiliée &amp; penitente, s’arracher subitement à sa retraite, se
+                    mettre à la tête d’Israël, commander les Ahciens du Peuple, &amp; entreprendre
+                    la défaite d’Holoférne, quelle gloire ! quelle grandeur ! quelle merveilleuse
+                    nouveauté ! On y voit une Veuve si sage &amp; si reservée quitter ses modestes
+                    habits, ajoûter à sa beauté naturelle tout ce que l’artifice &amp; l’orgueil
+                    mondain peut inventer de pompeux &amp; de charmant pour surprendre &amp; pour
+                    seduire, aller au Camp des ennemis avec cet équipage, exposer sa vertu à la
+                    brutalité d’un vainqueur barbare, l’attendrir par le langage le plus engageant,
+                    &amp; le plus flateur. Où peut-on trouver une plus violente opposition
+                    d’interêts &amp; de devoirs, &amp; un plus grand contraste de <pb n="n.p."
+                    />sentimens &amp; de passions ? Quel plus digne sujet peut occuper l’Autheur
+                    tragique, s’il veut conserver la verité de l’Histoire sans blesser la sainteté
+                    de la matiere ?</p>
+                <p>Qu’il seroit à souhaiter que de pareilles sujets fussent quelquefois representez
+                    sur la Scene Françoise pour édifier &amp; divertir en même temps. La Comedie se
+                    doit faire honneur à elle-même en faisant honneur à la Religion. Les Comediens
+                    ont-ils un moyen plus seur &amp; plus glorieux pour confondre ceux qui
+                    s’obstinent sans cesse à décrier leur profession ? Quel attrait plus puissant
+                    pour reconcilier avec le Theatre ceux qui en sont les ennemis declarez ? Comme
+                    toute sorte de gloire appartient au siècle de <hi rend="sc">Louis le Grand</hi>,
+                    aprés y avoir vû les duels &amp; les blasphémes abolis, l’heresie exterminée,
+                    l’ordre &amp; la discipline par tout rétablis, il faut qu’on y voye la pieté
+                    florissante au milieu des plaisirs, les Spectacles consacrez, le Theatre
+                    sanctifié. Quand je parle si avantageusement des matieres saintes, je ne
+                    pretends pas exclure les Sujets profanes, quand ils sont traitez sagement, &amp;
+                    purgez de tout ce qui peut offenser la pudeur, &amp; revolter le Spectateur
+                    raisonnable.</p>
+                <p><pb n="n.p."/>Si j’étois d’humeur de grossir cette Preface, je pourrois faire une
+                    dissertation de l’unité de la Scene qu’on ne trouve point dans ma Tragedie.
+                    J’avouëray qu’à l’examiner dans toute la severité de la regle, la critique est
+                    raisonnable ; mais s’il falloit s’en tenir à cette parfaite unité qu’on me
+                    demande, on auroit à reprocher ce défaut presque à tous les Ouvrages de Theatre.
+                    Si Monsieur de Corneille se fût imposé cette regle, que seroit devenuë cette
+                    belle Scene que Rodrigue fait avec Chimene quand il la va trouver chez elle ?
+                    Que s’il faut justifier mon Ouvrage en particulier, il me suffit du moins pour
+                    établir l’unité morale que ce commerce qui est entre la Ville &amp; le Camp pour
+                    l’execution de ce qui se passe sur la Scene, se puisse faire vraysemblablement
+                    dans moins de temps qu’il ne faut pour satisfaire à la regle de vingt-quatre
+                    heures ; &amp; d’ailleurs cette unité de Scene se doit expliquer plus
+                    favorablement pour mon Ouvrage, puisque la proximité du Camp &amp; de la Ville
+                    estoit absolument necessaire dans les Sieges du temps de Judith où l’on ne
+                    pouvoit battre les murailles de la Ville assiegée, qu’avec des machines.</p>
+                <p><pb n="n.p."/>Je ne diray rien de l’Episode de Misael, il a paru si naturel &amp;
+                    a esté si heureux que ce seroit me rendre indigne de l’approbation qu’il a eüe,
+                    si je voulois la justifier. Je ne répondray point aux objections qu’on m’a
+                    faites par un jugement precipité, qui n’a pas examiné ce qui precede, &amp; ce
+                    qui suit les endroits qu’on a condamnés. Je répondray encore moins à la critique
+                    qui est fondée sur le goût &amp; non pas sur la régle.</p>
+                <p>Mais je ne sçaurois me taire sur l’étrange critique qui s’est répandüe contre les
+                    pieces saintes. Ce bruit est devenu un scandale public, &amp; semble nous faire
+                    entendre qu’il faudroit proscrire la pieté &amp; la bannit du Theatre, comme si
+                    nous estions encore dans ce siecle barbare &amp; ignorant, où les spectacles
+                    publics representoient nos plus sacrez mysteres d’une maniere qui rendoit
+                    ridicule ce qui devoit estre le sujet de l’attention la plus serieuse &amp; de
+                    la plus profonde veneration. Veut-on consacrer le Theatre aux matieres profanes,
+                    aux évenemens les plus horribles, aux parricides, aux empoisonnemens, aux
+                    passions outrées, aux amours incestueuses. J’avouë que les sujets les plus
+                    extraordinaires <pb n="n.p."/>peuvent instruire &amp; divertir quand ils sont
+                    maniez par des mains sçavantes &amp; heureuses ; mais peut-on douter que les
+                    matieres Saintes quand elles tombent en de pareilles mains, puissent recevoir un
+                    tour assez agreable pour plaire &amp; mieux encore pour édifier le Spectateur
+                    Chrestien. Nous avons un illustre exemple dans Polieucte, &amp; puisque Judith
+                    dont l’Histoire est si delicate &amp; si difficile à traiter, n’a pas dépleu
+                    dans la forme que je luy ay donnée, que ne peut-on pas attendre de ceux qui avec
+                    une Muse plus forte que la mienne, voudront entreprendre de semblables ouvrages,
+                    &amp; leur donner tous les ornemens de la Scene. Puissent-ils confondre l’envie,
+                    ou plûtôt s’attirer cette critique qui s’est déchaînée sur ce qui fait tant
+                    d’honneur à Judith.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>

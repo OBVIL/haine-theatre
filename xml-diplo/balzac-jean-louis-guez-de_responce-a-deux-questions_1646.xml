@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Responce à deux questions, ou du charactere et de l’instruction de la
+					Comedie. Discours quatriesme</title>
+				<author key="Balzac, Jean-Louis Guez de (1595-1654)"
+					ref="https://data.bnf.fr/fr/11890042/jean-louis_de_balzac/">Jean-Louis Guez de
+					Balzac</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>OBVIL</edition>
+				<respStmt>
+					<name>Infoscribe</name>
+					<resp>saisie, XML-TEI</resp>
+				</respStmt>
+				<respStmt>
+					<name>Eric Thiébaud</name>
+					<resp>contributeur</resp>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Sorbonne Université, LABEX OBVIL</publisher>
+				<date when="2019"/>
+				<idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/balzac-jean-louis-guez-de_responce-a-deux-questions_1646</idno>
+				<availability status="restricted">
+					<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+						<p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+							d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+							OBVIL).</p>
+						<p>Cette ressource électronique protégée par le code de la propriété
+							intellectuelle sur les bases de données (L341-1) est mise à disposition
+							de la communauté scientifique internationale par l’OBVIL, selon les
+							termes de la licence Creative Commons : « Attribution - Pas
+							d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+							3.0 FR) ».</p>
+						<p>Attribution : afin de référencer la source, toute utilisation ou
+							publication dérivée de cette ressource électroniques comportera le nom
+							de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+						<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+							scientifique, toute utilisation commerciale est interdite.</p>
+						<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+							ressource électronique, notamment en intégrant toutes les contributions
+							extérieures, la diffusion de versions modifiées de cette ressource n’est
+							pas souhaitable.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Jean-Louis Guez de Balzac, « Responce à deux questions, ou du charactere et de
+					l’instruction de la Comedie. Discours quatriesme », in <hi rend="i">Les Œuvres
+						diverses du sieur de Balzac</hi> [1644], <pubPlace>Paris</pubPlace>,
+						<publisher>P. Rocolet</publisher>, <date>1646</date>, p. 100-132. PDF : <ref
+						target="http://gallica.bnf.fr/ark:/12148/bpt6k15100420/f114"
+					>Gallica</ref>.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1644"/>
+			</creation>
+			<langUsage>
+				<language ident="fre"/>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 type="chapter">
+				<pb n="100" xml:id="p100"/>
+				<head>Responce à deux questions, ou du charactere et de l’instruction de la
+					Comedie.</head>
+				<head type="sub">Discours quatriesme.</head>
+				<p><hi rend="big">L</hi>A Comedie de nostre Arioste n’auoit garde d’estre bien
+					receuë en vostre Cour, &amp; je ne m’estonne point que les gens du grand Monde
+					n’ayent pas grand goust pour les delices du menu Peuple. Vn fameux Orateur du
+					siecle passé s’escria vn jour sur le sujet des Eclogues de Virgile, <quote><hi
+							rend="sc">Plevsta Diev qv’il evst ietté Tityre ov il vovloit qv’on <pb
+								n="101"/>iettast Ænée</hi></quote> ; Et le plus celebre de nos
+					derniers Poëtes m’a auoüé, qu’il auoit cherché trois jours entiers dans les
+					Poëmes de Terence ce qui m’y plaisoit si fort, sans auoir pû le trouuer.</p>
+				<p>Cet homme, <hi rend="sc">Monsievr</hi>, tout plein du Louure, de Fontainebleau
+					&amp; de Saint Germain, ne parloit que Cercles, que Rüelles &amp; que Cabinets.
+					D’ordinaire il appelloit à tesmoin la Reyne Mere du Roy, &amp; presque tousjours
+					Madame la doüairiere de Guize &amp; Madame la Princesse de Conti : Il
+					n’alleguoit jamais à moins d’vn Duc, ou d’vne Duchesse. Or il est certain, que
+					pour juger des compositions de cette nature il faut prendre l’esprit de
+					Bourgeois, &amp; quitter celuy de Courtisan : Il faut estre accoustumé à
+					l’égalité &amp; au bon ménage de Venise, &amp; n’auoir pas dans la teste le luxe
+					&amp; les superfluitez de Paris.</p>
+				<p>Parmy nous jusques icy on a confondu les deux Characteres, &amp; l’Imitation de
+					la vie priuée à esté plus loin que son objet. On <pb n="102" xml:id="p102"/>a
+					demandé des portraits qui embellissent, &amp; non pas qui ressemblassent. Quand
+					la matiere a esté rustique, &amp; qu’elle a desiré le naturel &amp; le sauuage,
+					on a voulu le poly &amp; le cultiué. On a basty nos Cabanes sur le plan de vos
+					Palais : Il n’y a point eu de difference entre nos Champs &amp; vos
+					Tuilleries.</p>
+				<p>N’auons nous pas veu chez les Poëtes Courtisans, des Villageoises coquettes &amp;
+					affétées ; des Bergeres chargées de pierreries &amp; de toile d’or ; peintes
+					&amp; fardées de tout le blanc &amp; de tout le rouge de nos voisins ? Dans la
+					plus-part des Fables que nous auons veuës, nous n’auons rien veu qui leur fust
+					propre, rien qui fust pur, rien qui fust reconnoissable. Nous auons veu des
+					hommes artificiels, des passions empruntées, &amp; des actions contraintes. Nous
+					auons veu la Nature falsifiée, &amp; vn Monde, qui n’est point le nostre. Nos
+					gens ont cherché de l’esclat &amp; de la force où il ne failloit que de la
+					clarté &amp; de la douceur. Ils ont fait de la <pb n="103" xml:id="p103"
+					/>Comedie, ce que les Maistres font de leurs seruantes, quand ils les
+					espousent : Ils luy ont fait changer d’estat, &amp; de condition : Ils font
+					cause que ce n’est plus elle.</p>
+				<p>Aussi je m’asseure, <hi rend="sc">Monsievr</hi>, que Scipion &amp; Lælius ne la
+					reconnoistroient point, s’ils la voyoient habillée de cette sorte, &amp; qu’ils
+					diroient que les ornemens qu’on luy a baillez, la déguisent plus qu’ils ne la
+					parent. Ils n’ignoroient pas ces bons Romains, la nature &amp; les proprietez de
+					chaque chose : Et comme ils estoient trop intelligens en l’art de la guerre,
+					pour bastir des Citadelles dans les vallons, ils auoient trop de connoissance
+					des ouurages de l’esprit, pour employer le haut stile &amp; les éuenemens
+					illustres dans les sujets populaires.</p>
+				<p>On se mesconteroit pourtant bien fort, si on pensoit mespriser generalement tout
+					ce qui se nomme populaire, &amp; si on croyoit qu’il ne peustrien naistre de bon
+					ny d’honneste hors de l’ordre des Patriciens &amp; <pb n="104" xml:id="p104"
+					/>des Cheualiers. Cette bassesse apparente, auec laquelle les Poëtes Comiques
+					s’accommodent à leur matiere, &amp; cette modeste expression des actions
+					ordinaires, ne laissent pas d’auoir vne dignité secrette, &amp; telle que la
+					vertu la donne aux personnes de moyenne condition. Les particuliers peuuent
+					estre aussi gens de bien &amp; aussi sages que les Souuerains ; mais ils ne
+					doiuent pas estre si hardis ny si ambitieux : Il y a des deuoirs qui leur font
+					communs ; Il y en a qui leur font propres.</p>
+				<p>Et quand Varron dans le jugement qu’il fait des Poëtes, attribüe la Grandeur à
+					Pacuue, &amp; la Mediocrité à Terence, il n’a point dessein de preferer l’vn à
+					l’autre, ny d’estimer dauantage le Grand que le Mediocre : Il veut seulement,
+						<hi rend="sc">Monsievr</hi>, par ces deux exemples representer l’idée &amp;
+					la forme des deux genres differens, à sçauoir de la Poësie Tragique, &amp; de la
+					Comique. Il ne trouue pas plus parfait le Colosse de ce Dieu, que la Statuë de
+					cet homme ; mais il les distingue par leurs <pb n="105" xml:id="p105"/>qualitez
+					essentielles. Il nous donne tacitement à entendre que la Grandeur seroit vn
+					defaut, si elle estoit où elle ne doit pas estre ; &amp; qu’il ne faut pas que
+					la Comedie pense hausser de prix en s’aggrandissant, puis que la Mediocrité luy
+					est tombée en partage ; Et qu’il y a vne Mediocrité toute d’or, toute pure,
+					&amp; toute brillante, que l’Antiquité a reconnuë, qui est sans doute celle de
+					Terence &amp; de l’Arioste.</p>
+				<p>Mais, <hi rend="sc">Monsievr</hi>, pour verifier en nostre langue, &amp; par
+					quelque exemple François, le jugement donné par le plus sçauant de tous les
+					Romains, voicy quatre vers dont il me souuient, &amp; que je vous prie de
+					considerer, qui peuuent estre du charactere sublime.</p>
+				<quote>
+					<l rend="i">Astres marquez de sang, qui parmy les tenebres,</l>
+					<l rend="i">Monstrez aux Malheureux vos lumieres funebres.</l>
+					<l rend="i">Fiers Arbitres du Sort, qui d’vn œil irrité,</l>
+					<l rend="i">Vistes le noir moment de ma natiuité.</l>
+				</quote>
+				<p><pb n="106" xml:id="p106"/>En voicy quatre autres, qui font moins de bruit, &amp;
+					qui sont à mon auis d’vn charactere moins releué ; vous les considererez aussi,
+					s’il vous plaist.</p>
+				<quote>
+					<l rend="i">Heureux qui se nourrit du lait de ses brebis,</l>
+					<l rend="i">Et qui de leur toizon voit filer ses habits ;</l>
+					<l rend="i">Qui ne sçait d’autre Mer que la Marne ou la Seine,</l>
+					<l rend="i">Et croit que tout finit où finit son domaine.</l>
+				</quote>
+				<p>Pensez vous, <hi rend="sc">Monsievr</hi>, que la force &amp; l’audace de ces
+					premiers Vers vaille dauantage que la douceur &amp; la modestie de ces derniers,
+					&amp; que le pompeux &amp; le magnifique soit icy le meilleur, &amp; le plus
+					loüable ? Ce n’est pas l’opinion de celuy à qui vous la demandez auec tant de
+					deference &amp; tant de ciuilité. Au contraire, comme il a esté dit que la
+					Nature n’est jamais si grande que dans les petites choses, il me semble qu’on
+					pourroit dire icy le mesme de l’Art, &amp; conclure à l’auantage du moindre sur
+					le plus grand, <pb n="107" xml:id="p107"/>ou certes à l’égalité de l’vn &amp; de
+					l’autre.</p>
+				<p>Car en effet la Mediocrité dont nous parlons, estant d’aussi bonne maison que la
+					Grandeur dont nous auons autrefois parlé, puis qu’elles viennent toutes deux de
+					mesme origine, &amp; d’vn mesme principe de bon esprit, qui doute que cette
+					noble Mediocrité ne se sente tousjours du lieu d’où elle est sortie, &amp; qu’en
+					quoy qu’elle s’employe, elle ne conserue les droits &amp; la dignité, ou pour le
+					moins l’air &amp; la mine de sa naissance ? Elle ne perd pas l’honneur, pour
+					renoncer à la vanité ; ny n’est degradée de noblesse, pour se familiariser
+					auecque le Peuple, &amp; se mesler des affaires populaires. Elle ne s’auilit pas
+					en s’humiliant : Elle va à pied, mais elle ne se laisse pas tomber dans la
+					boüe.</p>
+				<p>Ce n’est, <hi rend="sc">Monsievr</hi>, ny foiblesse ny lascheté que cette douceur
+					apparente ; c’est vne force dissimulée. Ce n’est point vn effet d’impuissance,
+					ou vne marque d’inferiorité d’esprit : c’est vn certain <pb n="108"
+						xml:id="p108"/>temperament de discours &amp; de sens rassis, où l’esprit
+					agit tout entier, quoy qu’il y agisse sans violence ; où il regne, quoy que ce
+					soit en Souuerain pacifique, &amp; qu’il ne braue personne, où il s’exerce dans
+					vne carriere limitée, &amp; ne laisse pas de faire de belles courses, quoy qu’il
+					s’esloigne des extremitez de l’Eloquence Oratoire, &amp; des precipices de la
+					Poësie heroïque.</p>
+				<p>Diray-je quelque chose apres cela ? C’est vn train reglé de la Raison droite, qui
+					en semblables rencontres est plustost discrette que timide ; plustost moderée
+					que paresseuse ; &amp; s’abstient plustost par continence que par pauureté. En
+					voulez vous d’auantage ? C’est vne bonace pleine de charmes, &amp; l’image d’vne
+					heureuse paix, dans laquelle il est bien moins aysé à l’esprit humain de se
+					retenir, estant, comme il est, naturellement ambitieux &amp; inquiet, que
+					d’exciter des troubles &amp; du tumulte, &amp; de faire le mauuais &amp; le
+					violent.</p>
+				<p><pb n="109" xml:id="p109"/>Ainsi le genre Mediocre est en quelques occasions le
+					genre parfait, soit dans la Poësie, soit dans la Prose. Et pour cette-cy, il est
+					tres-certain, <hi rend="sc">Monsievr</hi>, &amp; Pericles mesme, le sublime
+					&amp; l’Olympien Pericles en demeureroit d’accord auec nous, que l’Eloquence ne
+					doit pas tousjours aller par haut, &amp; que toutes ses actions ne doiuent pas
+					estre de toute sa force.</p>
+				<p>Ce Pericles estoit tousjours homme bien disant, mais il n’estoit pas tousjours
+					Orateur rapide &amp; impetueux. Il ne tonnoit pas deuant le Peuple, quand il
+					n’estoit question que de faire nettoyer les ruës de la Ville, ou de releuer vn
+					pan de muraille, qui estoit tombé, ou de taxer la viande de la boucherie. Il ne
+					mesloit pas le Ciel auecque la Terre, quand il se joüoit auec ses enfans, ou
+					qu’il entretenoit sa femme de l’œconomie de sa maison. Il est à croire que le
+					calme succedoit alors à la tempeste : Il cessoit alors d’estre le lupiter de la
+					Republique. <pb n="110" xml:id="p110"/>Et le vray lupiter mesme n’est-il pas
+					appellé dans les Fables le tranquille &amp; le serein, aussi bien que le
+					foudroyant &amp; l’amasseur de nüées.</p>
+				<p>Nos Muses, <hi rend="sc">Monsievr</hi>, sont tousjours filles de Iupiter ; Mais
+					elles ne chantent pas tousjours la victoire de leur pere contre les Titans,
+					&amp; ne sont pas tousjours en festin, &amp; en ceremonie auecque luy. Elles
+					veulent estre tousjours belles, la beauté ne desplaist &amp; n’ennuye jamais ;
+					Mais elles ne sont pas tousjours ajustées, le soin est souuent suspect à ceux
+					qui le voyent, &amp; incommode celles qui le prennent. Elles ont des robes de
+					parade, &amp; des habillemens à tous les jours : Et si Ronsard &amp; du Bellay
+					reuenoient au Monde, ils vous jureroient qu’ils les ont veuës en juppe &amp; en
+					leur des-habillé danser dans les bois aux rays de la Lune.</p>
+				<p>Après auoir dicté les Oracles &amp; inspiré les Prophetes, elles composent des
+					chansons à boire, &amp; des vaux-de-ville. Tirsis apprend d’elles comme il faut
+					faire <pb n="111" xml:id="p111"/>l’amour à Siluie : Elles se trouuent à des
+					nopces &amp; à des confrairies de Village. Mais le Village ne deuient pas pour
+					cela la Cour ; &amp; la propreté ne s’appelle pas magnificence ; &amp; Siluie
+					n’est pas changée en Semiramis ; &amp; les guirlandes de la Mariée ne doiuent
+					pas estre de diamans, de rubis, &amp; d’esmeraudes ; Il faut qu’elles soient de
+					jasmin, de roses &amp; de marjolaine.</p>
+				<p>Il s’ensuit, <hi rend="sc">Monsievr</hi>, que toutes fortes d’ornemens ne font
+					pas bien en toutes sortes de lieux, &amp; que la Pompe &amp; la Majesté peuuent
+					estre quelquefois hors de leur place. C’est la Bien-seance qui place les choses,
+					&amp; qui donne rang au Bien mesme, qui peut estre mis en mauuais lieu. La
+					Simplicité n’est pas riche ny parée ; cela impliqueroit contradiction morale ;
+					Mais elle a d’ailleurs son prix, son merite &amp; son agréement. Et les Graces
+					elles mesmes, qui coiffent &amp; qui habillent Venus ; qui luy inspirent la
+					vertu de plaire ; sans lesquelles ce n’est plus qu’vne Venus de <pb n="112"
+						xml:id="p112"/>Noruege ou de Moscouie ; ces Graces, <hi rend="sc"
+						>Monsievr</hi>, ne sont-elles pas representées toutes nües par les anciens
+					Poëtes ?</p>
+				<p>Ils ne leur donnent ny habillemens, ny voiles, ny nüages, pour se couurir. Et que
+					veut dire, je vous prie, cette nudité, si ce n’est ce que nous venons de dire ?
+					Si ce n’est qu’il sort de la negligence des attraits à percer les cœurs, qui
+					auoient resisté aux actions estudiées ? On peut tirer auantage, n’en doutez pas,
+					de certains defaux bien ménagez ; Et pourueu qu’il y ait fondement de beauté en
+					quelque sujet, la crasse, les haillons, la tristesse, l’indifference, les
+					froideurs mesmes &amp; les desdains donnent de l’amour.</p>
+				<p>Que si c’est trop dire que d’en dire tant, au moins est-il bien vray, <hi
+						rend="sc">Monsievr</hi>, qu’il y a eu des Festes au temps passé, qui se
+					faisoient sans despense &amp; sans appareil ; &amp; que c’eust esté les violer
+					que de les vouloir celebrer d’vne autre façon. Il y a eu des images de quelques
+					Dieux, qui <pb n="113" xml:id="p113"/>sembloient plustost venir de la main d’vn
+					Charpentier que de celle d’vn Sculpteur, tant elles estoient grossieres &amp;
+					mal-polies : Mais on les faisoit ainsi tout expres ; &amp; cette rudesse estoit
+					de l’essence de la Religion, comme icy elle est de l’essence de l’Art.</p>
+				<p>L’Art se cache donc en certaines occasions sous l’apparence de son contraire. Il
+					imite le desordre &amp; l’auenture : Il contrefait les choses soudaines &amp;
+					fortuites. Et c’est alors que veritablement il est Art : C’est alors que les
+					embusches font effet, quand elles ne font point d’éclat ; si on les descouure,
+					elles ne sont plus embusches.</p>
+				<p/>
+				<p>C’est ainsi encore, <hi rend="sc">Monsievr</hi>, que la Moralité dont vous me
+					parlez, &amp; que l’Instruction, de laquelle vous desirez que je vous parle,
+					doiuent estre distribüées dans les diuers endroits du Poëme Comique. Elles
+					doiuent s’y espandre inuisiblement &amp; doucement, comme le sang coule dans <pb
+						n="114" xml:id="p114"/>les veines, &amp; par tout le corps ; Mais elles ne
+					doiuent pas s’y jetter en foule &amp; auec ardeur, comme le sang sort de ses
+					vaisseaux naturels, &amp; se desborde par vne ebullition violente. Il faut
+					sentir l’Instruction ; Mais il ne faut pas la voir : Il faut qu’elle soit dans
+					toutes les parties du Poëme ; Mais il ne faut pas qu’elle s’y monstre ; Il ne
+					faut pas qu’elle die elle-mesme, I’y suis.</p>
+				<p>Cette Instruction, qui est produire par ce τὸ ἤθος, si estimé par les anciens
+					Maistres, &amp; que les gens de vostre grand Monde n’ont pas pris la peine de
+					remarquer dans la Comedie de nostre Arioste, est la vraye fin de la Poësie
+					representatiue. Elle est cause que les Poëtes de Theatre ont esté appellez des
+					Docteurs, διδασκάλοι καὶ κωμωδοδιδάσκαλοι, &amp; qu’on disoit <hi rend="sc"
+						>enseigner des Fables</hi>, pour dire <hi rend="sc">Faire iover des
+						Comedies</hi>. Et de là vient peut-estre que vostre Horace, grand imitateur
+					des Grecs, parlant du Dieu qui preside à la Poësie <pb n="115" xml:id="p115"
+					/>dramatique, <quote><hi rend="sc">Ie l’ay vev</hi><seg type="exquote">,
+							s’escrie-t’il,</seg>
+						<hi rend="sc">dans vne solitvde escartée, qvi enseignoit des
+						Vers</hi></quote>, il ne dit pas, qui les recitoit ; <quote><hi rend="sc">Et
+							les Nymphes et les Satyres, qvi les estvdioient sovs lvy</hi></quote>,
+					il ne dit pas, qui les escoutoient.</p>
+				<p>Ie voudrois bien que cette inuention fust du cru de vostre amy, car je la trouue
+					digne du Regne d’Auguste, &amp; d’vn Courtisan de Mecenas, &amp; d’vne personne
+					qui vous est chere : Mais ce qui me fait croire qu’elle n’est pas originaire de
+					Rome, &amp; qu’elle est venuë de de-là la Mer, comme quantité d’autres pareilles
+					inuentions, c’est qu’il y a encore en nature vne pierre precieuse, je croy que
+					c’est vne Chrysolite, grauée auec beaucoup de delicatesse, où Bacchus est
+					representé en homme qui fait leçon, &amp; les Nymphes d’vn costé &amp; les
+					Satyres de l’autre, qui luy prestent vne attention merueilleuse, &amp; semblent
+					escouter auidement toutes les choses qu’il semble dire.</p>
+				<p><pb n="116" xml:id="p116"/>On y voit de plus, <hi rend="sc">Monsievr</hi>, cinq
+					ou six hommes derriere les Satyres &amp; les Nymphes, entre lesquels je
+					m’imagine Menandre &amp; Aristophane, les tablettes &amp; le crayon à la main,
+					&amp; aupres d’eux vn chariot à demy renuersé, d’où sont tombez des habillemens
+					de Theatre, quelques flustes, plusieurs brodequins, &amp; force masques. Au
+					dessus il y a cette inscription en langue Grecque, qui sert d’ame à la figure,
+						<hi rend="sc">Bacchvs Doctevr</hi> ou <hi rend="sc">Maistre
+					d’Eschole</hi>.</p>
+				<p>Ce mystere a esté mal entendu par les derniers Poëtes, &amp; particulierement par
+					quelques Poëtes estrangers ; qui à vous dire le vray, sont les vrays Antipodes
+					du bon sens, &amp; sçauent en perfection l’art de mettre les choses hors de leur
+					place. Ces Escriuains monstrueux, &amp; plus esloignez de la vertu des Anciens,
+					j’vse d’vne de leurs comparaisons, que l’Enfer n’est esloigné du Ciel Empirée,
+					ont sans doute ouy parler de la Doctrine du Theatre, &amp; de la partie Morale
+					de la <pb n="117" xml:id="p117"/>Comedie. Quelqu’vn leur ayant dit que les
+					Poëtes Comiques enseignoient, &amp; qu’ils estoient appellez Docteurs, ils ont
+					pris à la lettre ce que quelqu’vn leur a dit ; &amp; se sont imaginez que pour
+					passer Maistres, il falloit dogmatiser, &amp; venir estaler sur la scene les
+					plus subtiles connoissances qu’ils auoient acquises à l’Eschole.</p>
+				<p>Ils ont certes admirablement reüssi en ce beau dessein. On trouue dans leurs
+					Poëmes tous leurs lieux communs ; toute la crudité, &amp; toute l’indigestion de
+					leurs estudes. Ils y alleguent la Sainte Escriture, &amp; les Conciles ; Saint
+					Augustin &amp; Saint Thomas ; le Droit Ciuil, &amp; le Droit Canon ; &amp;
+					croyent à mon aduis que la Theologie doit entrer dans leurs diuertissemens, par
+					la mesme raison que la Sarabande fait vne partie de leur deuotion.</p>
+				<p>Si vn de leurs Amoureux se plaint du mauuais traittement qu’il reçoit, &amp; de
+					la preference de son riual aupres de <pb n="118" xml:id="p118"/>sa Dame, il
+					prend sujet de là de parler de la Predestination &amp; de la Grace ; des Esleus
+					&amp; des Reprouuez. Vn autre Amoureux fait des argumens en forme, pour faire
+					des complimens plus reguliers, &amp; prouue à sa maistresse par quatre passages
+					d’Aristote, qu’elle doit auoir pitié de sa passion.</p>
+				<p>Les François &amp; les Italiens, je dis les plus déreiglez &amp; les moins
+					retenus de l’vne &amp; de l’autre nation, n’ont garde d’aller jusques là : Leur
+					extrauagance est dans vn estage beaucoup plus bas. Ils discourent seulement, au
+					lieu de parler ; c’est à dire, ils parlent en beaux esprits, &amp; ne parlent
+					pas en honnestes gens. Ie conclus absolument à la suppression de ces premiers ;
+					&amp; le feu President de Harlay, assisté de son Gilot &amp; de son Rapin, les
+					condamna vn jour à estre pendus par les pieds, comme gens desesperez, &amp; qui
+					se jettent dans les precipices. Les autres meritent vne plus legere punition ;
+					mais ils ne doiuent pas <pb n="119" xml:id="p119"/>pourtant estre renuoyez
+					absous ; Et je ne sçay si vous sçauez ce que fit à Vicence vn Senateur de
+					Venise, ennemy mortel des pointes &amp; des fentences hors de propos, &amp;
+					l’homme du monde qui souffroit le moins volontiers les Prefaces &amp; les
+					Digressions à la Comedie.</p>
+				<p>Il assistoit à la representation d’vne piece, remarquable par ces belles choses ;
+					admirée de tous les habiles de la Ville, &amp; de toute vne Academie, qui estoit
+					presente. Luy seul patissoit extremement dans cette commune joye ; Et après
+					plusieurs mines de degoust, &amp; plusieurs branslemens de teste, qui
+					tesmoignoient assez le peu de satisfaction qu’on luy donnoit, il se leua deux ou
+					trois fois de son siege, &amp; s’essuya le front auec son mouchoir. Le
+					troisiesme Acte estant à la fin venu, où Cynthio vouloit continüer de discourir
+					de la nature des passions ; &amp; s’estant tiré le mieux qu’il auoit pû d’vn
+					point de Morale, s’alloit jetter à corps perdu dans vne question de Physique, la
+						<pb n="120" xml:id="p120"/>patience échapa tout d’vn coup au bon Senateur.
+					Il auoit vn poncire en la main, qu’il jetta à la teste du Discoureur, auec ces
+					paroles, <quote><hi rend="sc">Bvffon fa me rider</hi></quote>.</p>
+				<p>Ils sont donc ridicules ces faux serieux ; &amp; font ridicules, sans pouuoir
+					faire rire les Senateurs de Venise, parce qu’ils sont ridicules, sans estre
+					plaisans. Ils sont sages &amp; habiles hors de saison. Ils imitent mal, pour
+					vouloir imiter trop éloquemment ; &amp; quittent l’ordinaire &amp; le bon, pour
+					chercher le rare &amp; le mauuais.</p>
+				<p>Ils haranguent, ils preschent, ils declament : Et ne se souuiennent pas que la
+					condamnation des Declamateurs en amour, est formelle dans ce vers d’vn homme,
+					qui a esté tout ensemble Poëte, Amoureux &amp; Declamateur,</p>
+				<quote>
+					<l rend="i">Quis nisi mentis inops tenera declamat amicæ ?</l>
+				</quote>
+				<p>Ils ne se souuiennent pas qu’il y a deux <pb n="121" xml:id="p121"/>sortes
+					d’Eloquence ; l’vne pure, libre &amp; naturelle ; l’autre figurée, contrainte
+					&amp; apprise ; l’vne du Monde ; l’autre de l’Eschole ; l’vne qui n’a rien que
+					le sens commun, &amp; la bonne nourriture ne puissent dicter ; l’autre qui
+					conserue l’odeur &amp; la teinture des liures &amp; des sciences. Ils ont oublié
+					que cette-cy est pour les Chaises &amp; pour les Barreaux, &amp; qu’elle n’est
+					pas pour les Conuersations des Caualiers &amp; des Dames.</p>
+				<p>Quel Monstre, bon Dieu, de voir vne jeune fille Rhetoricienne, qui ne parle que
+					par sentences &amp; par apophtegmes ; de voir vn Soldat speculatif, qui prononce
+					des Arrests de Morale &amp; de Politique ; d’escouter vne nourrice Stoïcienne,
+					qui soustient que tous les pechez sont égaux ; qu’vn coup de poing vaut vn coup
+					d’épée ; qu’vn inceste n’est par plus mauuais qu’vne premiere œillade
+					amoureuse !</p>
+				<p>Les Sentences &amp; les Apophtegmes sont des fruits recueillis du long âge, &amp;
+						<pb n="122" xml:id="p122"/>des conclusions tirées de l’experience.
+					D’ordinaire on oppose les vertus ciuiles aux militaires : La Philosophie, &amp;
+					particulierement la Philosophie Stoïque, est vne source escartée, où le menu
+					Peuple ne puise point. Et par consequent les jeunes filles, les soldats, &amp;
+					les nourrices representées par ces beaux esprits, sont d’vne espece qui ne se
+					trouue point parmy nous ; sont des personnes inconnües, estranges,
+					extraordinaires ; font d’vn autre Monde que le nostre ; ou il faut dire, <hi
+						rend="sc">Monsievr</hi>, qu’ils ont changé tout a fait le nostre.</p>
+				<p>Ils en ont gasté l’essentiel &amp; le propre, pour en vouloir purifier le
+					materiel &amp; le terrestre : Ils en ont perdu le corps, pour en vouloir
+					extraire l’esprit. Ils ont osté aux choses leur visage naturel, leur premiere
+					&amp; leur veritable forme, les marques &amp; les signes, par lesquels elles se
+					reconnoissent. Ils ont effacé la vie en la polissant.</p>
+				<p>Ces Messieurs ont fait vn Monde <pb n="123" xml:id="p123"/>instruit &amp;
+					discipliné, jusques dans les forests &amp; dans les cauernes de Canada ; vn
+					Monde Aduocat &amp; Declamateur ; Dialecticien &amp; Sophiste ; Astrologue
+					quelquefois &amp; Theologien ; vn Monde plus éloigné de cettuy-cy, &amp; plus
+					difficile à trouuer dans la Carte, que ne seroient les Champs Elisées, ny la
+					Republique de Platon. Ce sont les Architectes de cet admirable Monde. Ils sont
+					fondateurs d’vn nouueau Siecle Heroïque ; Et au lieu que dans celuy de nostre
+					Malherbe, <quote><hi rend="sc">tovs les metavx estoient or, tovtes les flevrs
+							estoient roses</hi></quote>, dans le leur tous les hommes sont Docteurs,
+					toutes les femmes sçauantes. Il n’y a que des Socrates &amp; des Pericles ; Il
+					n’y a que des Diotimes &amp; des Aspasies.</p>
+				<p>Ie veux dire, qu’ils font parler toutes les personnes, comme si elles auoient
+					toutes estudié ; comme si l’Vniuersité estoit deuenüe toute la Ville ; comme si
+					les Histoires rares &amp; les Fables peu <pb n="124" xml:id="p124"/>connües, les
+					Allegories &amp; les Antitheses s’estoient débordées iusques dans les
+					Appartemens des Femmes ; dans les Sales du Commun ; dans les Boutiques des
+					Artisans. Ils donnent leurs opinions, leurs dogmes &amp; leur genie à Chremes
+					&amp; à Micio ; au lieu qu’ils deuroient prendre les mœurs, les sentimens &amp;
+					l’esprit de Chremes &amp; de Micio. Ils ne representent pas les autres ; Ils se
+					representent eux-mesmes : Ils se debitent en differentes façons, &amp; sous
+					diuers noms.</p>
+				<p>Par exemple, <hi rend="sc">Monsievr</hi>, &amp; cecy se remarque plus
+					particulierement dans leurs Tragedies, s’ils sont de la Secte d’Epicure, tous
+					leurs personnages sont generalement Epicuriens, voire mesme les Femmes &amp; les
+					Enfans, qui blasphement contre la Prouidence de Dieu, &amp; nient l’Immortalité
+					de l’Ame. S’ils sont de la famille de Zenon, le Theatre ne retentit que de
+					Paradoxes. Ils espouuentent le Peuple par leurs maximes fieres &amp; <pb n="125"
+						xml:id="p125"/>superbes. Vous n’oüistes iamais tant de brauades contre la
+					Fortune : Vous ne vistes jamais estimer si hautement la Vertu, ny mespriser si
+					genereusement les choses humaines.</p>
+				<p>Ces grandes &amp; magnifiques paroles peuuent estre des ornemens, je le vous
+					auoüe : Mais ce sont des ornemens qui n’ont pas esté faits pour les personnes
+					qui les portent. Il semble ou qu’on les a achetez à la Fripperie, ou qu’on les a
+					desrobez dans la garderobe de quelque Prince : Et si je voulois fauoriser les
+					Poëtes qui les appliquent si mal, je dirois de leur raisonnement &amp; de leurs
+					Discours, ce que dit Socrate de l’Apologie, qui auoit esté faite pour luy ;
+							<quote><hi rend="sc">Elle est bonne, mais elle n’est pas bonne povr
+							Socrate</hi></quote> : Aussi les choses qu’ils conçoiuent, peuuent estre
+					belles, mais elles ne sont pas belles pour Chremes ny pour Micio : Elles
+					n’appartiennent point à ceux qui s’en seruent. Vous diriez qu’ils ont appris par
+					cœur des <pb n="126" xml:id="p126"/>sentences, &amp; qu’ils les alleguent de
+					quelque autre. On les nomme Acteurs improprement ; Ce sont de veritables
+					recitateurs ; Ce sont des Enfans qu’on a chifflez pour vn jour de ceremonie,
+					&amp; non pas des hommes qui traittent ensemble dans la conuersation
+					ordinaire.</p>
+				<p>Il se peut neanmoins, <hi rend="sc">Monsievr</hi>, que ces Poëtes plaisent, je ne
+					le nie pas ; Mais je ne pense pas que ce soit de la façon que les Poëtes de
+					Theatre doiuent plaire, ny qu’ils plaisent aux personnes intelligentes. On court
+					apres eux, par ce que le Peuple ayme les Prodiges, &amp; que les Cometes sont
+					plus regardées que le Soleil.</p>
+				<p>Leurs compositions ont de l’estrange &amp; de l’inouy. Elles ne paroissent pas
+					des ouurages de Peinture, qui resjoüissent l’esprit, &amp; touchent les belles
+					passions ; Elles ressemblent à des fantosmes de Magie, qui estonnent
+					l’imagination, &amp; ne contentent que les mauuaises curiositez. Et pour dire
+					quelque chose qui les fasche moins, <pb n="127" xml:id="p127"/>je dis qu’ils ne
+					figurent pas l’homme selon son âge, sa condition &amp; son païs ; Ils le
+					figurent à leur fantaisie, &amp; forment vn animal plus ou moins parfait, selon
+					l’humeur où ils sont.</p>
+				<p>Il se peut encore, <hi rend="sc">Monsievr</hi>, que ces sortes de Poëtes
+					enseignent, je ne m’y oppose pas ; Mais je soustiens que leur methode
+					d’enseigner est vicieuse sur le Theatre. Ils veulent instruire directement &amp;
+					sans artifice, par la voye commune des preceptes ; au lieu qu’ils deuroient
+					instruire auec adresse, par le moyen de l’imitation.</p>
+				<p>La Doctrine de laquelle nous parlons, est inseparablement vnie à la Fable ; ne
+					passe point du particulier au general ; entre dans l’esprit, sans dire son nom,
+					&amp; sans frapper à la porte : La leur au contraire se destache du corps de la
+					Fable ; nâge au dessus du sujet, &amp; ne se mesle point auec luy ; s’adresse au
+					Peuple &amp; aux Spectateurs ; &amp; seroit bien faschée de n’estre pas reconnuë
+					à l’instant mesme <pb n="128" xml:id="p128"/>qu’elle se presente. Ils sont sages
+					&amp; moraux, comme Theognis &amp; Phocilide, qui font profession expresse de
+					Moralité &amp; de Sagesse ; &amp; ils le deuroient estre comme Menandre &amp;
+					Alexis, qui semblent faire toute autre chose.</p>
+				<p>Vous auez bien oüy parler de certaines armes couuertes de myrte, &amp; de
+					certains hommes vestus en femmes, qui ont autrefois tué des Tyrans. Il faut icy
+					combattre les vices de la mesme sorte, &amp; couurir vn dessein courageux sous
+					vne apparence effeminée. Ce sont les ruses &amp; les stratagemes de la
+					Vertu.</p>
+				<p>Il n’est pas, <hi rend="sc">Monsievr</hi>, que vous n’ayez encore oüy parler de
+					la Medecine, qu’on appelle alimentale, qui guerit les corps en les nourrissant ;
+					&amp; d’vne autre science voluptueuse, qui purge auec des parfums &amp; auec des
+					fleurs ; &amp; d’vn autre Art surnaturel, qui se sert d’vne éponge au lieu de
+					rasoir, &amp; pense le bras, en appliquant ses remedes sur la <pb n="129"
+						xml:id="p129"/>chemise. S’il est possible, la Comedie doit agir sur l’ame
+					aussi finement &amp; aussi imperceptiblement. Ses operations ne doiuent pas
+					estre moins subtiles ny moins delicates. Il faut qu’il y ait de l’illusion &amp;
+					du charme ; de la fraude &amp; de la tromperie dans les moyens qu’elle employe,
+					pour arriuer à sa fin.</p>
+				<p>Vne tromperie si ingenieuse &amp; si honneste, est particulierement tromperie, en
+					ce qu’elle enseigne sans dogmatiser, &amp; fait des leçons, en faisant des
+					contes ; en ce qu’elle déguise les medecines en viandes, &amp; donnent aux
+					sausses &amp; aux ragousts la vertu de purger &amp; de guerir. O la bonne
+					trahison que celle-là ? De faire le bien qu’on ne promet pas ; D’estre Medecin
+					&amp; de ne paroistre que Cuisinier ; De cacher le salut &amp; la liberté de
+					l’ame sous du myrte, dans des fleurs, &amp; dans des parfums ; de renuoyer auec
+					edification ceux qui ne cherchoient que du plaisir ; De les rendre non seulement
+					plus joyeux &amp; plus satisfaits, mais <pb n="130" xml:id="p130"/>aussi
+					meilleurs &amp; plus vertueux.</p>
+				<p>C’est la tromperie, à mon auis, dont Gorgias le Leontin entendoit parler ; Et
+					qu’il preferoit aux actions legitimes ; C’est cette tromperie, auec laquelle il
+					disoit que celuy qui trompe est plus juste que celuy qui ne trompe pas ; &amp; à
+					laquelle il croyoit que les fins &amp; les habiles se deuoient laisser piper,
+					pour estre plus fins &amp; plus habiles.</p>
+				<p/>
+				<p>Mais de quelle maniere se trame cette excellente tromperie, &amp; quelle doit
+					estre la juste dispensation du τὸ ἤθος, dans le corps du Poëme Comique, pour
+					mesler l’instruction au plaisir, &amp; le salutaire au delicieux, ce sera le
+					sage &amp; le sçauant Monsieur Chapelain, qui le vous dira ; &amp; je ne sçay
+					pas pourquoy estant à Paris, &amp; à deux pas de l’Oracle, vous auez voulu
+					consulter vne Vieille de village.</p>
+				<p>Ce n’estoit pas moy, <hi rend="sc">Monsievr</hi>, qui pouuois donner satisfaction
+					à vostre esprit : Aussi ne l’ay-je point entrepris, <pb n="131" xml:id="p131"
+					/>ny n’ay crû vous rien découurir qui vous fust caché. I’ay trouué dans les deux
+					questions que vous m’auez proposées, dequoy m’esgayer, &amp; dequoy faire
+					exercice : Voilà tout ce que j’ay fait. Ie me suis promené auecque vous, à
+					l’entour d’vn Art, dont je ne voy que la superficie &amp; les dehors. Mais
+					nostre incomparable Amy, qui en possede l’interieur &amp; le fonds, vous mettra
+					dans le Donjon ; vous conduira par tous les coins &amp; tous les recoins ; vous
+					éclaircira du menu &amp; du particulier de toutes chose.</p>
+				<p>Il ne tiendra qu’à luy que vous n’ayez la reuelation des Mysteres, si
+					mal-entendus par les Poëtes Espagnols. Il sçait ce que j’ignore, &amp; ce que la
+					pluspart des Docteurs ne sçauent pas bien : Il penetre dans la plus noire
+					obscurité des connoissances Anciennes ; Il a le secret des premiers Grecs. S’il
+					vouloit, <hi rend="sc">Monsievr</hi>, il nous pourroit rendre les liures de la
+					Poëtique, que le Temps nous a rauis : <pb n="132" xml:id="p132"/>Au moins il ne
+					luy seroit pas difficile de reparer les ruïnes de celuy qui reste : Et s’il a
+					esté dit auec raison, qu’Aristote estoit le Genie de la Nature, nous pouuons
+					dire aussi justement qu’en cette matiere Monsieur Chapelain est le Genie
+					d’Aristote.</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

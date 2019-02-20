@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Second livre. Seconde epistre. Cecile Cyprian à Donat [extrait]</title>
+                <author key="Cyprien de Carthage (02??-258 ; saint)" ref="https://data.bnf.fr/fr/11886041/cyprien/">Cyprien de Carthage</author>
+                <author key="Tigeou, Jacques (15..-16..). Traducteur" ref="https://data.bnf.fr/fr/14550886/jacques_tigeou/">Jacques Tigeou.
+                    Traducteur</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/cyprien-de-carthage_epitre-a-donat_1574</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Cyprien de Carthage, « Second livre.
+                            Seconde epistre. Cecile Cyprian à Donat [extrait] », in <hi rend="i">Les Œuvres
+                        de sainct Cecile Cyprian, iadis evesque de Carthage, tres-victorievx martyr
+                        de Iesus Christ : avec quelques Annotations sur aucuns lieux obscurs et
+                        difficiles. Faictes Françoises, par M. Iaqves Tigeov Angevin, Docteur en
+                        Theologie, Chancelier et Chanoine en l’Eglise Cathedrale de Metz</hi>,
+                    <pubPlace>Paris</pubPlace>, <publisher>Nicolas Chesneau</publisher>,
+                        <date>1574</date>, p. 40-41. PDF : <ref
+                        target="http://books.google.fr/books?id=4-wMsnHKrnEC">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1574"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="letter">
+                <pb n="40" xml:id="p40"/>
+                <p><note n="11" place="margin">Il passe outre à declarer la vanité des ieux des
+                        Gladiateurs, lesquelz s’entretuoient, pour donner du passetemps au
+                        peuple.</note>Outre plus si tu veux detourner ta veuë pour contempler les
+                    villes &amp; citez, tu les trouuerras bien peuplees, mais c’est chose plus
+                    triste, que si elles estoient desertes. On y dresse vn ieu de Gladiateurs &amp;
+                    escrimeurs, pour donner recreation &amp; du passetemps au peuple, en respandant
+                    le sang humain. On nourrit le corps du Gladiateur de fortes viandes, on
+                    engraisse de saing doux ses bras &amp; membres charnuz, ses gros moignons de
+                    chair &amp; ses muscles, afin qu’estant ainsi bien engraissé &amp; refaict, il
+                    perisse &amp; meure plus cherement. Pour donner du passetemps à l’homme, l’homme
+                    est mis à mort : &amp; pouuoir occire vne personne, c’est science, c’est
+                    art, c’est vsage &amp; experience. On ne se contente pas de comettre telle
+                    meschanceté, si on ne l’enseigne quant &amp; quant. Sçauroit on parler de chose
+                    plus inhumaine, ou plus cruelle que celle la ? Pouuoir tuer vn homme, c’est
+                    vn art &amp; science, l’auoir tué &amp; massacré c’est gloire &amp; honneur. Et
+                    ie te prie, que diras tu, de ce que plusieurs s’exposent aux bestes sauuages,
+                    sans qu’ils y ayent esté condamnez ? Voire gens qui sont en la fleur de
+                    leur aage, d’assez honneste &amp; excellente beauté, vestuz somptueusement, se
+                    parẽt pour tomber en vne mort volontaire ? Et les miserables qu’ils sont,
+                    encores se glorifient ils en leurs maux. Ils bataillent auec les bestes, non pas
+                    pour crimes qu’ils ayent commis, mais par fureur qui les stimule. Les peres
+                    contemplent leur fils, le frere est au fond &amp; au bas du Theatre, la sœur
+                    semblablement est presente : &amp; est loysible d’enrichir &amp; amplifier
+                    le Theatre de dons &amp; presens, afin que la mere soit presente, pour receuoir
+                    la tristesse &amp; angoisse de la mort de son filz. O mon Dieu ! la
+                        mere <note n="12" place="margin">Il y a en latin <hi rend="i">redimit</hi>.
+                        Il se peult aussi entendre ainsi, la mere se couronne &amp; attiffe de
+                        certaine maniere de ornement de teste, en signe de ioye. <hi rend="i">à
+                            verbo Redimio</hi>.</note>rachete cela en ces spectacles tãt impies
+                    &amp; cruelz : &amp; neantmoins telles meres ne s’estiment estre
+                    parricides, &amp; cause de la mort de leurs enfans, en les contemplant ainsi
+                    mourir. Detourne ta veüe maintenant, pour considerer les diuers spectacles, non
+                    moins detestables, que ce que nous venons de dire : tu voiras és Theatres,
+                    ce qui te causera grande douleur, &amp; te fera rougir de honte. Il y a vne
+                    sorte de Tragedie, par laquelle on a de coustume de racompter par carmes les
+                    offenses, qu’on a commises. C’est horreur d’y voir representer les parricides
+                    &amp; les incestueux, exprimez &amp; depeints au vif par personnages : de
+                    peur que ce qui a esté vne fois cõmis &amp; perpetré, ne se puisse oublier. Et
+                    par ainsi on monstre à toute personne en oyant ces choses, que ce qui s’est fait
+                    vne fois, peult estre fait derechef. Iamais les vices ne meurent par vieillesse,
+                    iamais le crime ne s’efface par le temps, iamais vne meschanceté ne s’oublie. On
+                    propose pour exemples, ce qui a ia cessé d’estre meschãceté. Voilà cõme on prend
+                    passetemps d’entendre par les deshonnestes &amp; vilains gestes des basteleurs,
+                    ou d’entendre ce qui se fait au logis, ou d’ouir ce qui s’y peult faire. On
+                    apprend à paillarder, en le voyant, &amp; est on pour le iourd’huy tant
+                    accoustumé à ses plaisirs &amp; desirs, que paraduenture telle dame estoit allee
+                    aux ieux publics &amp; spectacles chaste, &amp; pu dique, laquelle en retourne
+                    impudique. Outre aussi quelle corruption de mœurs est-ce, quels embrassemens de
+                    meschancetez, quelles nourritures de vices, de se souiller des gestes &amp;
+                    contenances des ioueurs de farces ? de voir contre toute alliance &amp;
+                    droit de naistre, vne personne qui endure qu’elle soit despucelee ? Les
+                    masles sont effeminez : tout l’honneur &amp; vigueur du sexe masculin est
+                    corrompu par vn tel desguisement : &amp; qui peut mieux eneruer &amp;
+                    effeminer vn hõme, il est le plus vaillãt, &amp; le mieux venu. Il est louangé
+                    pour ce crime la, &amp; d’autant qu’il est plus vilain &amp; plus deshonneste,
+                    d’autant est il plus sçauant en son art : on le regarde, mon Dieu !
+                    voire volontiers. Y a il chose qu’vn tel ne puisse persuader ? Il esmeut
+                    les sens, il addoulcit les affections, &amp; chasse vne forte &amp; ferme
+                    cõscience d’vn bon cœur &amp; entendement. Et si vn tel galand n’a pas faulte
+                    d’authorité de quelque crime attrayant &amp; allichant, pour plus facilement
+                    apporter aux hommes quelque dommage. Ils representent Venus impudique, Mars
+                    adultere, &amp; leur Iupiter, non moins prince de vices, que du royaume, qui
+                    brusle d’amour des humains, auec ses fouldres : maintenant blanc comme vn
+                    cygne, maintenant descendant du ciel en forme de pluye d’or : maintenant
+                    par le ministere des oyseaux se lançant pour s’amouracher de <pb n="41" xml:id="p41"/>ieunes
+                    enfans &amp; les rauir. Demande maintenant, si celuy qui regarde tous ces beaux
+                    spectacles, peult estre entier, ou pudique. Ils inuitent leurs dieux, lesquels
+                    ils adorent : &amp; encores leur attribuent ils telz delitz, comme choses
+                    pieuses, les miserables qu’ils sont. O si tu estois sur ceste haulte sentinelle,
+                    &amp; que tu peusses penettrer les secrets, &amp; ouurir les serures fermees des
+                    cabinets &amp; chambrettes, &amp; paruenir iusqu’à la conscience, &amp; à la
+                    plus secrette &amp; occulte pensee des humains ! Tu voirois que les
+                    impudiques font des cas, que nulle personne pudique ne pourroit regarder. Tu
+                    voirois que c’est mesine malfait de les contempler : tu uoirois qu’il y a
+                    de si meschans &amp; si endurcis en leurs forfaits, qu’ils nierõt auoir commis,
+                    ce qu’ils se hastent de cõmettre de rechef. Et tout est tant desbordé, que les
+                    masles s’amourachent des masles. On commet des crimes, qui desplaisent mesmes à
+                    ceux qui les font. Le veuil estre reputé menteur, si celuy qui est tel, ne
+                    blasme &amp; ne reprent les autres. Vn putier diffame les autres, putiers, &amp;
+                    quoy qu’il sçache bien, qu’il est coulpable aussi bien que les autres, si est-ce
+                    qu’il s’estime net &amp; pur, comme si sa conscience ne suffisoit pas pour
+                    l’accuser luy mesme. En public ils accusent les autres, &amp; en leurs
+                    consciences ils sont coulpables : ils sont contre eux mesmes &amp;
+                    censeurs, &amp; forfaiteurs. Ils condãnent dehors ce qu’ils commettent dedans.
+                    Ils font volontiers des choses, lesquelles quand ils ont faites, ils les
+                    blasment. On offense tout plainement &amp; tout hardimẽt : &amp; auec ce
+                    impudẽce &amp; lubricité ne mãque point aux impudiques. Ie ne veuil pas q̃ tu
+                    t’esmerueilles de ce qu’ils disent de leur bouche impudique. C’est le moindre
+                    forfait ce qui sort de leur bouche.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>

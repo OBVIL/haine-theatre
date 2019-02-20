@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sermon sur les spectacles. Pour le Jeudi de la III. Semaine de Caresme
+					[Sermons pour le Carême]</title>
+				<author key="Clément, Denis-Xavier (1706-1771)"
+					ref="https://data.bnf.fr/fr/12389076/denis-xavier_clement/">Denis-Xavier
+					Clément</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>OBVIL</edition>
+				<respStmt>
+					<name>Infoscribe</name>
+					<resp>saisie, XML-TEI</resp>
+				</respStmt>
+				<respStmt>
+					<name>Anne-Laure Huet</name>
+					<resp>contributeur</resp>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Sorbonne Université, LABEX OBVIL</publisher>
+				<date when="2019"/>
+				<idno>http://obvil.sorbonne-universite.site/corpus/haine-theatre/clement_sermon-spectacles_1772</idno>
+				<availability status="restricted">
+					<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+						<p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+							d’Excellence « Observatoire de la vie littéraire » (ci-après
+							dénommé OBVIL).</p>
+						<p>Cette ressource électronique protégée par le code de la propriété
+							intellectuelle sur les bases de données (L341-1) est mise à disposition
+							de la communauté scientifique internationale par l’OBVIL, selon les
+							termes de la licence Creative Commons : « Attribution – Pas
+							d’Utilisation Commerciale – Pas de Modification 3.0 France (CCBY-NC-ND
+							3.0 FR) ».</p>
+						<p>Attribution : afin de référencer la source, toute utilisation ou
+							publication dérivée de cette ressource électroniques comportera le nom
+							de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+						<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+							scientifique, toute utilisation commerciale est interdite.</p>
+						<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger
+							cette ressource électronique, notamment en intégrant toutes les
+							contributions extérieures, la diffusion de versions modifiées de cette
+							ressource n’est pas souhaitable.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Denis-Xavier Clément, « Sermon sur les spectacles. Pour le
+					Jeudi de la III. Semaine de Caresme », in <hi rend="i">Sermons pour le Carême, par
+						M. l’Abbé Clément, Abbé de Macheroux, Confesseur de Mesdames, Aumônier
+						ordinaire du feu Roi de Pologne, Duc de Lorraine</hi>,
+						<pubPlace>Paris</pubPlace>, <publisher>Desaint</publisher>,
+						<date>1772</date>, tome II, p. 174-217. PDF : <ref
+						target="http://books.google.fr/books?id=nhZWsj8sWPIC">Google</ref>.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1772"/>
+			</creation>
+			<langUsage>
+				<language ident="fre"/>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 type="chapter">
+				<pb n="174" xml:id="p174"/>
+				<head>Sermon <hi rend="i">sur les</hi> spectacles</head>
+				<head type="sub"><hi rend="sc">Pour le Jeudi de la III. Semaine de
+					Caresme</hi>.</head>
+				<epigraph>
+					<p rend="i">Socrus Simonis tenebatur magnis Febribus, &amp; rogaverunt illum
+							pro eâ, &amp; stans super illam imperavit febri, &amp; dimisit
+							illam.</p>
+				<p>La belle-mere de Simon avoit une fievre violente, on pria Jesus de la
+						secourir ; s’approchant d’elle, il commanda à la fievre, &amp; la fievre
+						la quitta.</p>
+					<bibl><hi rend="i">Luc. 4.</hi></bibl>
+				</epigraph>
+				<p><hi rend="big">L</hi>A belle-mère de Pierre brûlée des ardeurs d’une fievre
+					violente, c’etoit, dit Saint Ambroise, la figure de notre nature agitée par les
+					transports des passions. Hélas ! mes Freres, qu’est-ce <pb n="175"
+						xml:id="p175"/>même que l’incendie, qu’une fievre la plus ardente allume
+					dans un corps, en comparaison des feux dont la bouillante cupidité brûle nos
+					cœurs ? Feux d’autant plus dangereux que nous ne voulons point les
+					éteindre. Coupables frénétiques, nous ne cessons de repousser la main charitable
+					qui voudroit nous guérir ; &amp; bien loin de recevoir le remede qu’elle
+					nous offre, nous saisissons avec fureur, nous buvons à longs traits avec délices
+					le poison subtil qui nous donne la mort. Eh ! comment voudroit-on s’en
+					défier &amp; le craindre ? On s’obstine toujours à le méconnoître.
+					Peut-être même en vain en le nommerai-je aujourd’hui, en vain en découvrirai-je
+					le danger. Esprit-Saint, donnez force &amp; efficace à mon Discours ! Vos
+					théâtres, mes Freres, vos théâtres, c’est-là le funeste foyer où s’allume,
+					s’attise &amp; se nourrit habituellement le feu des passions qui vous dévorent.
+					Honorez-moi, je vous supplie, de votre attention ; &amp; vous détachant de
+					tout préjugé, comme je proteste de m’en détacher moi-même, raisonnons ensemble
+					de bonne foi, guidés par le seul amour de la vérité &amp; de notre salut.</p>
+				<p>Saint Jean Chrysostome commençant <pb n="176" xml:id="p176"/>à traiter
+					expressément ce sujet, disoit à son Peuple : Je pense, mes Freres, que
+					plusieurs de ceux qui sont aujourd’hui présents en ce lieu assisterent ces jours
+					derniers aux spectacles. (Messieurs, crainte que vous ne me soupçonniez
+					d’exagérer la pensée du S. Docteur, permettez que je cite ici ses propres
+					expressions : ) <quote><hi rend="i">Equidem arbitror multos ex iis qui ad
+						spectacula discesserant bodie prasentes esse.</hi></quote> Je voudrois les
+					connoître, ajoutoit-il : <quote><hi rend="i">Optarim autem istas qui sint palam
+						nosse.</hi></quote> Si je les eusse connus, je les eusse connus, je les aurois
+					empêché d’entrer dans l’Eglise : <quote><hi rend="i">Ut eos à sacris vestibulis
+						arceam</hi></quote> ; non pas cependant pour les en tenir toujours
+					exclus ; mais pour leur faire sentir la griéveté de leur faute, les faire
+					rentrer en eux-mêmes, &amp; les recevoir ensuite, après qu’ils se seront
+					corrigés : <quote><hi rend="i">Non ut perpetuò soris maneant, sed tu correcti
+						denuò redeant.</hi></quote></p>
+				<p>Avouez, Messieurs, que ce zele austere vous étonne. Ah ! c’est qu’en effet
+					vous ne connoissez le théâtre que par l’idée qu’un préjugé trop soutenu de vos
+					passions vous en donne. Examinons donc aujourd’hui ce que le monde pense
+					ordinairement des spectacles. Il les regarde comme un amusement indifférent en
+					foi, <pb n="177" xml:id="p177"/>honnête même par le motif qu’on s’y propose,
+					&amp; qui tout au plus deviendroit criminel par le danger qu’on pourroit y
+					courir ; mais danger à présent, dit-on, chimérique, le théâtre étant épuré
+					comme il l’est de nos jours.</p>
+				<p>Là-dessus, Messieurs, je forme le plan de ce Discours, en proposant simplement
+					deux questions. Le théâtre est-il, comme on le prétend, indifférent en
+					foi ? Je l’examinerai dans la premiere Partie. Et quand même on pourroit le
+					regarder comme indifférent en lui-même, est-il vrai que l’innocence n’y court
+					aucun risque ? Nous le verrons dans la seconde Partie. <hi rend="i">Ave,
+						Maria.</hi></p>
+				<div2 type="section">
+					<head><hi rend="i">Premiere partie.</hi></head>
+					<p><hi rend="big">P</hi>Our qu’une chose puisse être regardée comme indifférente
+						en elle-même, il faut, Messieurs, en premier lieu, qu’elle ne soit défendue
+						par aucune loi ; secondement qu’on puisse, en lui donnant un motif
+						honnête, la déterminer à quelque espece de vertu. C’est la regle que donnoit
+						Saint Augustin, &amp; que suit après lui le torrent des Docteurs. Avant que
+						de décider sur les spectacles, il s’agit <pb n="178" xml:id="p178"/>donc,
+						d’examiner ; 1°. Si aucune loi ne les défend ; 2°. S’ils peuvent
+						être rapportés à quelque fin véritablement honnête. Aussi est-ce bien là ce
+						que prétend le monde.</p>
+					<p>Une loi qui défende les spectacles ! Où est-elle, nous dit-on, cette
+						loi ? Est-ce dans l’Ecriture ancienne ou dans la nouvelle ? Est-ce
+						dans les saints Peres ou dans les Conciles ? Oui, Messieurs, c’est dans
+						les Conciles, c’est dans les saints Docteurs ; qui tous ont prétendu
+						qu’ils étoient véritablement condamnés dans l’Ecriture.</p>
+					<p>Mais je sais que vous opposez d’abord à tous les traits d’autorité un
+						bouclier que vous croyez impénétrable : c’est la différence prétendue,
+						que vous affectez d’exagérer, entre les spectacles anciens &amp; les
+						spectacles de nos jours. Autrefois, dites-vous… Oui, j’avoue qu’il étoit
+						autrefois des spectacles infames par eux-même, spectacles même d’une infamie
+						groffrere, spectacles qui eussent fait rougir les fronts les plus endurcis
+						au crime, spectacles crimes plutôt eux-mêmes que représentations de
+						crimes ; les ai-je peint de couleurs assez noires ? Mais vous
+						pensez que ce n’étoit que <pb n="179" xml:id="p179"/>contre ces abominations
+						grossieres que les saints Peres déclamoient. Ces abominations grossieres, ce
+						n’étoit pas apparemment ce que les Chrétiens d’Antioche regardoient comme
+						des divertissements permis ; car vous supposerez bien, sans doute, ces
+						Chrétiens d’Antioche aussi réservés, aussi chastes qu’on peut l’être dans
+						notre siecle ; or ce sont ces divertissements, qu’ils croyoient permis,
+						que S. Jean Chrysostôme assure &amp; prouve être péchés. Ces abominations
+						grossieres, ce n’étoient pas, sans doute, ces chef-d’œuvres de l’Antiquité,
+						dont notre siecle a emprunté ce qui a paru de plus merveilleux sur nos
+						théâtres ; &amp; ce sont ces chef-d’œuvres de l’antiquité, que
+						Tertullien, Saint Augustin, Saint Clément d’Alexandrie nomment dans le
+						détail, &amp; dont les représentations sont traitées par Tertullien
+						d’inventions diaboliques, auxquelles Saint Augustin s’accuse d’avoir
+						assisté, comme d’un des plus grands péchés &amp; de la source même de tous
+						les péchés de la jeunesse, &amp; que Saint Clément d’Alexandrie défend à
+						tout Chrétien sans réserve &amp; sans exception.</p>
+					<p><pb n="180" xml:id="p180"/>Sans doute, il étoit autrefois d’autres spectacles
+						que les abominations grossieres du Cirque &amp; de l’Arêne ; &amp;
+						jamais cependant les Docteurs &amp; les Conciles en ont-ils fait la
+						distinction, pour permettre les uns &amp; réprouver les autres ? Ce
+						sont tous les spectacles en général qui sont interdis aux Chrétiens par deux
+						Conciles d’Arles, &amp; plus récemment encore, presque de nos jours, par un
+						Concile de Milan sous Saint Charles. Ce sont tous les spectacles en général,
+						dont Saint Thomas décide qu’ils ne peuvent produire à ceux qui les
+						représentent qu’un gain honteux, illicite &amp; criminel. C’est, Messieurs,
+						que les raisons qui engagerent de tout temps les Conciles &amp; les Docteurs
+						à les proscrire avec tant de sévérité, conviennent à tous également &amp;
+						sans exception. Or ces raisons les voici : rien en général de plus
+						contraire que les spectacles à l’esprit du Christianisme, à la profession du
+						Christianisme, aux exercice du Christianisme.</p>
+					<p>L’esprit du Christianisme, en premier lieu, est un esprit de recueillement
+						&amp; de mortification, dit Saint Ambroise. Que mes yeux, s’écrioit le
+						Prophete, <pb n="181" xml:id="p181"/>se ferment à la vanité ! C’est-là,
+						poursuit Saint Amboise, la premiere devise du Chrétien : &amp; vous,
+						mes Freres, ajoutoit-il ensuite, refuserez-vous du moins à vos spectacles le
+						nom de vanité ? Le monde, en effet, a-t-il rien nulle part de plus
+						attrayant pour les sens par la pompe &amp; la magnificence qui les
+						décorent ? Le monde a-t-il rien nulle part de plus amusant pour
+						l’esprit par l’ordre &amp; l’économie qui les soutient ? Le monde
+						a-t-il rien nulle part de plus ébranlant pour le. cœur par le combat des
+						passions qui en fait l’ame ? Et ce sont des Chrétiens, concluoit Saint
+						Ambroise, des Chrétiens qui adorent un Dieu crucifié, crucifiant dans sa
+						chair tous les plaisirs du monde, ce sont des Chrétiens qui veulent les
+						accorder avec l’esprit de leur Religion. Or cette premiere preuve de S.
+						Ambroise convient-elle, Messieurs, aux spectacles de nos jours ?</p>
+					<p>L’esprit du Christianisme est un esprit de sainteté. Ah ! si les anciens
+						Apologistes de la Religion revivoient parmi nous, que diroient-ils à mes
+						Freres ? Un Saint Théophile, par exemple, qui prouvoit aux Payens la
+						pureté de <pb n="182" xml:id="p182"/>notre morale par l’horreur que les
+						Chrétiens avoient pour les spectales, que diroit-il de nous ?
+						Sommes-nous, disoit-il aux Idolâtres de son siecle, des ambitieux, des
+						séditieux, des avares, des ennemis irréconciliables, nous qui ne pouvons
+						souffrir, même sur vos théâtres, la seule représentation de ces vices ?
+						Le théâtre est-il donc changé de nos jours, reprenoit un Docteur plus
+						moderne ? Qu’y voit-on du moins que des haines forcenées, des jalousies
+						furieuses, des révoltes sanguinaires ; &amp; le plus souvent qu’y
+						entend-on dans nos Auteurs les plus célebres que des impiétés &amp; des
+						blasphêmes : sous ce prétexte si commun, mais aussi dangereux que
+						sophistique &amp; frivole, qu’on représente des scélérats &amp; des
+						impies ? Ah ! Messieurs, nos anciens Peres savoient ce que nous
+						affectons aujourd’hui de paroître ignorer : que la morale du
+						Christianisme est si austere qu’elle proscrit jusqu’à l’ombre du crime,
+						&amp; qu’en amuser volontairement son imagination seule, c’est en rendre son
+						cœur complice. Or cette seconde preuve encore tirée de Théophile
+						convient-elle, Messieurs, aux théatres de nos <pb n="183" xml:id="p183"
+						/>jours ? A les peindre avec les couleurs les plus adoucies, que
+						peut-on donc en dire autre chose, sinon ce qu’en disoit un grand Docteur,
+						que l’on y fait du moins un jeu du vice, &amp; un pur amusement de la
+						vertu ?</p>
+					<p>Mais la profession du Christianisme, en second lieu, s’accorde-t-elle avec
+						les spectacles ? Heureux Initiés, s’écrioit Saint Jean Chrysostome,
+						ignorez-vous à quelle condition le Seigneur vous adopta pour fils ?
+						Nous vous demandâmes, quand nous vous reçumes au saint Baptême :
+						renoncez-vous aux pompes de Satan ? Vous répondites : j’y renonce.
+						Or dites-vous quelles sont les pompes de Satan. Montrez-nous-en, si le
+						théâtre n’en est point une ; &amp; si vous osez nier qu’il en soit
+						une ; j’en appelle aux Idolâtres, reprend Tertullien. Je leur demande
+						s’il est permis aux Chrétiens d’assister aux spectacles ; ils sont
+						persuadés que vous y avez renoncé ; ils répondront en nous citant les
+						premiers écrits de nos Docteurs à leurs Césars. Nos peres y protestoient
+						qu’on les trouveroit par tout les premiers pour le service de l’Etat &amp;
+						de l’Empire : sur la terre, sur la mer, dans le commerce de la société,
+						sur les tribunaux, <pb n="184" xml:id="p184"/>dans les armées ; qu’il
+						n’y a que deux endroits où ils sont profession de ne jamais paroître ;
+						que, quoiqu’on fasse pour les y forcer, on ne les y verra jamais : dans
+						les temples des Idoles &amp; sur les théâtres. Remarquez, mes Freres,
+						continuoit Tertullien : les temples des Idoles &amp; les théâtres,
+						c’est donc pour les Chrétiens presque la même chose ; aussi toutes les
+						fois qu’on vous voit aux spectacles, on vous croit Apostats.</p>
+					<p>Et que cette pensée ne vous paroisse point outrée. Pourquoi, en effet, dans
+						les principes du monde même, cesser de fréquenter le théâtre, est-ce faire
+						profession d’une vie plus réguliere ? Pourquoi retourner au théâtre
+						après y avoir renoncé, est-ce un signe de retour au monde ? Pourquoi
+						aller au théâtre seroit-ce un scandale pour vous-mêmes dans des personnes de
+						certain état &amp; de certain rang ? Ah ! l’Evangile est le même
+						pour tous, mes Freres : &amp; tout l’Evangile concourt à démontrer que
+						dévotion, Christianisme &amp; sainteté, c’est même chose. Selon vous-mêmes,
+						ainsi que selon Tertullien, suivant la maniere de penser du monde
+						d’aujourd’hui, comme suivant celle des anciens Idolâtres, la fréquentation
+						du <pb n="185" xml:id="p185"/>théâtre est donc une espece d’apostasie pour
+						des Chrétiens.</p>
+					<p>Que dirai-je enfin des exercices du Christianisme ! Le premier, le
+						principal de tous, c’est la priere. Or dites-nous encore, reprenoit Saint
+						Jean Chrysostome, comment au sortir du théâtre vous vous trouvez disposés à
+						prier ? Hélas ! nous-mêmes, mes Freres, nous vous l’avouons,
+						poursuit ce sage Archevêque, au centre du recueillement où nous vivons, à
+						peine pouvons-nous captiver devant Dieu notre esprit, notre cœur &amp; nos
+						sens. Et vous, qui vous plaignez sans cesse de vos distractions, de vos
+						dégoûts, de vos froideurs dans la priere ; vous que les affaires les
+						plus indispensables troublent toujours dans ce saint exercice, comment vous
+						y appliquerez-vous ? Mais oserez-vous même venir vous présenter devant
+						Dieu ? Quoi, Chrétiens, reprend Tertullien de concert avec Saint Jean
+						Chrysostome, vous oserez lever au Ciel ces mains que vous venez de fatiquer
+						en applaudissant à un Acteur ? Vous oserez fixer sur l’auguste
+						Tabernacle, sur la Victime sans tache, ces yeux tout éblouis de la pompe du
+						spectacle, &amp; tout pleins peut-être de l’action <pb n="186" xml:id="p186"
+						/>d’un Déclamateur passionné ? Et ces oreilles, auxquelles retentit
+						encore l’accord enchanteur d’une symphonie molle &amp; séduisante, comment
+						écouteront-elles le chant modeste des Pseaumes ? Or ces deux preuves
+						enfin de Tertullien &amp; de S. Jean Chrysostome, conviennent-elles,
+						Messieurs, au théâtre de nos jours ?</p>
+					<p>Avouez donc du moins que ce sont tous les spectacles en général, ceux de nos
+						jours comme ceux de leur siecle, que condamnent les saints Docteurs ;
+						puisque les mêmes raisons, qui les ont engagés à condamner les uns,
+						conviennent également aux autres : &amp; puisqu’ils ont trouvé ceux de
+						leur siecle contraires à l’esprit, à la profession, aux exercices du
+						Christianisme, convenez que ceux-ci le sont encore.</p>
+					<p>Ne nous dites donc plus, poursuit Tertullien, que les spectacles ne sont
+						point défendus dans l’Ecriture. Non, répond ce Docteur, ils n’y sont pas
+						expressément nommés ; mais toute l’Ecriture ne tend-elle pas à les
+						défendre ?</p>
+					<p>Cependant ne raisonnons pas davantage, concluoit-il enfin. Voulez-vous
+						indépendamment de toute autorité, &amp; de celle de l’Ecriture même, une
+						preuve <pb n="187" xml:id="p187"/>sans réplique, que le théâtre est illicite
+						en soit : <hi rend="i">Argumentum mala rei</hi> ? C’est la maniere
+						dont on en a toujours regardé les Acteurs. Dans le Paganisme, demandez aux
+						Auteurs de Rome ce qu’on y pensoit d’eux. Vous trouverez une loi expresse de
+						ce sage Sénat qui note d’infamie tous ceux qui entretiendroient avec eux
+						aucun commerce : Loi qui fut véritablement abolie dans la suite par
+						l’usage ; mais remarquez que ce fut au temps de la décadence de
+						Rome : Loi que Charlemagne depuis renouvella le plus sévérement au
+						rétablissement du goût, des mœurs &amp; de l’Empire. Vous mêmes, Messieurs,
+						quel rang leur donnez-vous dans la société ? Nous le savons, à vos
+						amusements voluptueux, sur-tout à vos plaisirs secrets, vous ne les associez
+						que trop ; mais voudriez-vous les associer à vos affaires &amp; à vos
+						familles ? L’Eglise sur-tout enfin qu’en pense-t-elle ? L’Eglise
+						qui les rejette de son sein, qui, lors même qu’ils se convertissent, leur
+						laisse un lien qui les rend pour toujours incapables du Ministere
+						Sacré ; l’Eglise, qui, même après leur mort, les exclut de la
+						participation de ses prieres : hélas ! sans qu’aucune <pb n="188"
+							xml:id="p188"/>considération ait pu faire excepter de cette sévere loi
+						ce prodige du siecle dernier, dont pour faire en deux mots le portrait, on
+						pourroit dire ce que disoit un sage Payen d’un auteur tout semblable :
+						qu’étant presque le seul qui pût mériter d’être vu &amp; d’être écouté sur
+						le théâtre, il étoit, d’autre part, le seul de tous ceux qu’on y voit, qui
+						méritât de n’y jamais paroître : homme, en effet, qui, dans tout autre
+						état que celui où son génie l’avoit jetté, eût été non-seulement l’honneur
+						de sa patrie par la beauté de son esprit, non-seulement l’amour &amp; les
+						délices de la société par la bonté de son cœur, mais un modele de
+						Christianisme même par l’austere probité &amp; l’intégrité de ses mœurs. O
+						Ciel ! que lui servit &amp; que lui sert sur-tout à présent tant de
+						réputation &amp; tant de gloire ? Triste preuve que le théâtre est
+						illicite en soi : <hi rend="i">Argumentum mala rei</hi> !</p>
+					<p>Car enfin seroit-il innocent d’autoriser par sa présence des jeux si
+						solemnellement proscrits ? Seroit-il innocent d’entretenir dans un état
+						tellement abhorré par l’Eglise des ames rachetées du Sang de
+						Jesus-Christ ?</p>
+					<p>Vous dites cependant qu’on les <pb n="189" xml:id="p189"/>tolere. Eh
+						quoi ! répondoit Saint Thomas en traitant ce sujet même, tout ce qu’on
+						ne punit pas le tolere-t-on ; &amp; permet-on tout ce qu’on
+						tolere ? on les tolere, dites-vous cependant. O temps malheureux, ô
+						mœurs des Chrétiens ! Que n’est-on pas forcé de tolérer
+						aujourd’hui ? Mais c’est à l’Eglise, à ses Ministres d’imiter dans ces
+						circonstances les Augustins, les Chrysostomes &amp; les Ambroises, de
+						réclamer les droits de l’Evangile, de crier au scandale.</p>
+					<p>Par où donc enfin prétend-on se justifier ? C’est, dit-on, le motif qui
+						décide toujours de la nature d’une action morale.</p>
+					<p>Premiérement, Messieurs, il est certain, c’est un principe qui ne fut jamais
+						contesté, qu’aucun motif, quel qu’il soit, ne peut excuser une action qui
+						est mauvaise en soi. Mais j’abandonne tout l’avantage que je pourrois tirer
+						de ce principe, &amp; je veux bien examiner en eux-mêmes les motifs par où
+						l’on prétend rendre le théâtre licite. Ces motifs sont de se former l’esprit
+						en le délassant des occupations sérieuses, &amp; même de prendre, dit-on,
+						des leçons de vertu.</p>
+					<p><pb n="190" xml:id="p190"/>Le théâtre forme donc, il délasse l’esprit.
+						D’abord, j’en conviendrai, Messieurs, si c’est former l’esprit de le
+						repaître de vanité, de mensonge &amp; de fable, de remplir le cœur de
+						sentiments outrés qui sont de l’héroïsme une chimere, enflent les passions
+						jusqu’à rendre l’homme méconnoissable à l’homme même, &amp; défigurent
+						jusqu’à travestir en romans toute l’Histoire ; &amp; je défie que
+						personne méconnoisse le théâtre le plus châtié à ces traits.</p>
+					<p>Il forme cependant, il délasse l’esprit. Encore une fois, j’en conviendrai,
+						si c’est former &amp; délasser l’esprit de lui rendre insipide toute lecture
+						utile, de le distraire par je ne fais quel charme secret de toute occupation
+						grave &amp; sérieuse, de le dégoûter de la simplicité, en ne lui laissant de
+						goût que pour le merveilleux, de plaisir que dans les ébranlements violents
+						de l’ame ; &amp; je défie que personne méconnoisse le théâtre le plus
+						châtié à ces effets.</p>
+					<p>Il forme cependant, il délasse l’esprit. Oui, Messieur, enfin, j’en
+						conviendrai, si vous pouvez me citer, je ne dis pas un seul Docteur de
+						l’Eglise, mais <pb n="191" xml:id="p191"/>un seul Sage du Paganisme même,
+						qui veuille en convenir avec moi. Mais ce ne sera pas certainement ce grand
+						Législateur, qui regardoit la seule liberté de fiction autorisée sur le
+						théâtre comme une source intarissable de perfidie &amp; de mauvaise foi dans
+						la société ; ce ne sera pas cet illustre Philosophe qui, traçant le
+						plan d’une République parfaite, en excluoit non-seulement tout acteur, mais
+						aussi tout auteur de théâtre ; &amp; pourquoi ? Précisément, parce
+						que rien, dit-il, n’est plus contraire à l’honnêteté publique &amp;
+						particuliere que d’imiter, soit par représentation, soit par fiction, ce
+						qu’il ne peut jamais être permis de faire. Ce n’étoit donc pas que le
+						théâtre fût alors, comme vous voulez le supposer toujours, une école de
+						dissolution. Alors, les Magistrats de la Grece punissoient un auteur comme
+						un empoisonneur public pour avoir seulement altéré le caractere d’un héros
+						par une intrigue de passion ; alors on vit le plus célebre Auteur
+						d’Athènes condamné par un jugement solemnel pour avoir mis sur la scene un
+						personnage d’impie qui parloit avec trop peu de respect de la Religion. Je
+						ne demande pas si on agit aussi <pb n="192" xml:id="p192"/>sévérement ;
+						mais pense-t-on aussi chastement, aussi religieusement de nos jours ?
+						Ajoutons : si quelqu’un approuve le théâtre, ce ne sera pas ce fameux
+						Orateur de Rome, homme d’une prudence si profonde &amp; d’un discernement si
+						exquis, qui citant nommément les auteurs les plus graves de la Grece &amp;
+						leurs pieces les plus sérieuses, attribuoit au plaisir qu’on prenoit à les
+						voir représenter &amp; à les lire, tous les déréglements de l’esprit &amp;
+						tous les désordres du cœur.</p>
+					<p>Ainsi pensoient des Philosophes ; &amp; les Ministres de l’Evangile que
+						diront-ils ? Car après tout, former &amp; délasser l’esprit, est-ce là
+						précisément un motif qui doive conduire des Chrétiens ? Des Chrétiens
+						qui savent qu’un Juge exact &amp; rigoureux doit un jour leur demander
+						compte d’une action, d’un geste, d’un seul mot inutile ; des Chrétiens
+						qui savent que toutes leurs actions &amp; toutes leurs pensées, tous les
+						mouvements de leur cœur sont achetés par tout le Sang d’un Dieu.</p>
+					<p>Chrétiens, disoit à ce sujet le saint <pb n="193" xml:id="p193"/>&amp; savant
+						Prêtre de Marseille, réjouissez-vous, délassez-vous l’esprit à la bonne
+						heure. Mais quoi ? le divertissement innocent d’une joie pure &amp;
+						simple ne peut-il vous suffire ? Quelle fureur ! l’excès seul
+						a-t-il des charmes pour vous ? Oui, l’on ne trouve plus de plaisir
+						aujourd’hui nulle part, qu’où le Seigneur est offensé, que dans ce qui va
+						jusqu’au crime.</p>
+					<p>Dites donc, il faut le dire pour vous justifier, que si vous allez au
+						théâtre, c’est pour y prendre des leçons de vertu. Le théâtre une école de
+						vertu : le beau paradoxe, Messieurs ! Véritablement, il n’est pas
+						nouveau ; depuis que le théâtre est établi, on eut toujours grand soin
+						de nous le dire ; &amp; depuis qu’on le dit, on a répondu, je le
+						réponds encore, que si le théâtre purge les passions, forme les mœurs, c’est
+						dans la spéculation, non pas certainement dans la pratique ; c’est dans
+						les écrits de ceux qui nous en ont donné les regles, non pas dans les
+						ouvrages de ceux qui les ont prétendu suivre.</p>
+					<p>Depuis combien de temps, en effet, fréquentez-vous le théâtre ? Et
+						depuis ce temps, quel vice a-t-il corrigé en vous, <pb n="194" xml:id="p194"
+						/>quelle vertu y a-t-il formée, quelle passion réprimée ? Ce seroit, en
+						vérité, dans le Christianisme chose bien nouvelle, qu’on nous montrât les
+						auteurs, les acteurs &amp; les partisans du spectacle de venus les plus
+						vertueux &amp; les plus Chrétiens d’entre nous. Renversons à présent,
+						détruisons nos chaires, fermons nos Eglises, Ministres du Seigneur,
+						taisons-nous ! Dans un spectacle on trouve plus de profit à faire pour
+						la vertu que dans tous nos discours. Hélas ! mes Freres, combien de
+						fois n’ai-je pas eu la douleur de l’entendre dire ? J’en appelle à
+						vous, ô mon Dieu, je vous en prends pour Juge ! Quoi ? dans les
+						sentiments, dans les pensées d’un auteur tout profane que la passion seul
+						inspire, on puise plus de leçons de vertu que dans cette parole que vous
+						nous mettez à la bouche, que dans les sentiments &amp; les pensées des
+						Peres, que dans notre Evangile ! Quoi ? l’action d’un pur
+						déclamateur peut davantage pour imprimer la vertu dans les cœurs que le zele
+						saint qui nous enflamme ? On le prétend, on nous le dit ;
+						Seigneur, décidez entre nous.</p>
+					<p>Mais enfin, Messieurs, dites-moi donc, reprend un Saint Docteur, sur ce <pb
+							n="195" xml:id="p195"/>théâtre, où vous n’allez que pour vous former à
+						la vertu, voudriez-vous être subitement frappés de mort ? Ah !
+						j’en suis sûr, quelque disposés que vous fussiez d’ailleurs, vous craindriez
+						que la mort ne vous y surprît. Et un Chrétien, qui sait que le glaive
+						suspendu sur sa tête ne tient qu’à un fil, un simple fil prêt à se rompre,
+						un Chrétien qui sait que son Juge l’épie comme un voleur pour le surprendre,
+						ce Chrétien s’expose de sang froid sur un endroit où il craint de
+						mourir ! Seulement, que quelque accident imprévu vous y surprenne,
+						disoit encore Tertullien : qu’un coup de foudre, par exemple, vous y
+						avertisse des vengeances du Seigneur ; aussi-tôt on vous voit
+						effrayés ; vous vous empressez à porter la main sur votre front pour y
+						tracer le signe du salut. Ah ! que faites-vous, mes Freres, continue
+						Tertullien ? Ce signe de sainteté &amp; de recueillement, ce signe de
+						pénitence &amp; de mortification vous condamne ; certainement vous ne
+						seriez point là, si vous l’aviez dans votre cœur ce signe que vous osez
+						marquer sur votre front : Gestant in fronte unde discederent, si
+						haberent in corde.</p>
+					<p>Mais quelle rigidité de morale, me <pb n="196" xml:id="p196"/>direz-vous sans
+						doute ! Il faudra donc sur les même regles condamner de même &amp;
+						proscrire tous les amusements, tous les plaisirs du monde ?
+						Hélas ! il n’est peut-être que trop vrai de la plupart ; oui
+						jugez-les sur les mêmes regles. Pour moi, en condamnant aujourd’hui vos
+						spectacles, je ne prétends justifier ni la mollesse &amp; l’inutilité de
+						votre vie, ni la dissolution de vos cercles, ni le libertinage caché de vos
+						assemblées nocturnes, ni l’excès de vos jeux, ni la somptuosité pour ne pas
+						dire la débauche de vos tables. Quelle rigidité de morale ! J’en
+						conviens, elle est rigide cette morale. Aussi Tertullien supposoit-il, comme
+						un principe incontestable, que la Religion chrétienne est dure, difficile à
+						pratiquer, qu’elle contrarie en tout la mollesse &amp; la lâcheté de la
+						nature : <quote><hi rend="i">Ignava non est &amp; mollis nostra Religio.</hi></quote>
+						Aussi Jesus-Christ nous a-t-il expressément averti que, pour gagner le Ciel,
+						il faut se faire une grande violence. Toute austere que soit cette morale,
+						elle ne peut donc paroître outrée qu’à ceux qui ont oublié qu’être Chrétien
+						&amp; crucifier sa chair, mortifier tous ses sens ; être Chrétien &amp;
+						porter l’esprit de recueillement &amp; de retraite jusqu’au <pb n="197"
+							xml:id="p197"/>milieu du monde ; être Chrétien &amp; penser sans
+						cesse à l’éternité, soupirer jours &amp; nuit après le Ciel ; être
+						Chrétien &amp; conformer toute sa vie au modèle d’un Dieu crucifié, c’est
+						essentiellement la même chose.</p>
+					<p>Et c’est, Messieurs, sur cette notion même du Christianisme, que je décide
+						après tous les saints Docteurs que le théâtre est criminel en soi. J’ajoute
+						que quand même on pourrott le regarder comme indifférent en lui-même, encore
+						ne pourroit-on sans crime y assister, à raison seulement du risque où s’y
+						trouve toujours l’innocence. Renouvellez votre attention, Messieurs ;
+						la matiere devient plus intéressante, &amp; le préjugé plus difficile encore
+						à détruire.</p>
+				</div2>
+				<div2 type="section">
+					<head><hi rend="i">Seconde partie.</hi></head>
+					<p><hi rend="big">V</hi>Ous aimez le péril ; malheureux, vous y périrez.
+						L’oracle est ancien, confirmé mille fois par une triste expérience ;
+						&amp; cependant personne n’en convient. Je me trompe, on en convient en
+						général ; mais on ne croit plus trouver du danger nulle part ;
+						&amp; jusques sur le sein de sa cruelle Philistine Samson repose, il <pb
+							n="198" xml:id="p198"/>dort, &amp; croit dormir en fûreté. Ah !
+						Samson, le Philistin va te saisir ! Tu as brisé déjà trois fois ses
+						chaînes ; tu comptes sur son ancienne force ; &amp; c’est ta
+						sécurité présomptueuse qui va te perdre.</p>
+					<p>Voilà, Messieurs, une image fidele du Mondain dans les spectacles ; il
+						ne croit jamais y courir le moindre danger. J’enrasserois en vain autorités
+						sur autorités, pour le détromper. On prétexte toujours la modestie du
+						théâtre de nos jours ; &amp; moi, je dis, en premier lieu, que ce
+						spectacle si chaste, si honnête en apparence, est le plus sûr écueil de
+						l’innocence. On prétexte l’expérience commune, sa propre expérience ;
+						&amp; moi je dis, en second lieu, que l’expérience commune &amp; générale,
+						c’est que le théâtre a perdu de tout temps, &amp; perd encore aujourd’hui
+						toutes les mœurs.</p>
+					<p>Premiérement, le théâtre est le plus sûr écueil de l’innocence ; à
+						moins, Messieurs, que vous ne prétendiez que l’innocence peut compatir avec
+						la mollesse d’un cœur attendri, &amp; les égarements d’une imagination
+						corrompue. Mais si ce que nous nommons passion est véritablement un crime,
+						il faut avouer que, selon la belle expression de Salvien, <pb n="199"
+							xml:id="p199"/>sur le théâtre, tout est crime ; parce que tout y
+						tend à autoriser la passion, à insinuer agréablement, à imprimer fortement
+						la passion. Suivez-moi, Messieurs ; il ne faut ici que du détail.</p>
+					<p>Que voit-on maintenant sur le théâtre, qu’un héroïsme corrompu par les
+						égarements d’un fol amour, l’amour devenu la passion des belles ames ?
+						Et plût à Dieu que des plumes hardies &amp; téméraires n’eussent pas même
+						osé nous peindre la sainteté sous ces traits ; faire languir &amp;
+						soupirer (Seigneur, où étoit votre foudre ?) aux pieds d’une idole de
+						chair les destructeurs du Paganisme &amp; les Martyrs de la Religion !
+						En vérité, quelles impressions peuvent se faire dans des cœurs, quand ils
+						verront les inclinations les plus terrestres, les attaches les plus
+						Charnelles autorisées par tout ce que l’Antiquité a jamais eu de plus
+						fameux, &amp; la Religion même de plus saint ! Or ne sont-ce point là
+						cependant les mœurs de tout théâtre ?</p>
+					<p>Ensuite, quand vous entendrez les saintes Loix de l’Evangile, la pureté,
+						l’austérité de sa morale combattues par tout ce que les maximes du monde ont
+						de plus séducteur : vous entendrez ces <pb n="200" xml:id="p200"/>héros
+						de l’Antiquité, ces héros mêmes de la Religion traiter tout penchant de
+						nécessité, de destinée invincible ; nommer devoir, appeler vertu, le
+						désordre des sens &amp; l’yvresse d’une ame qui s’y livre ; ce que la
+						morale appelle crime, l’ériger en bonheur ! Or ne sont-ce pas là les
+						sentiments &amp; le langage de tout théâtre ?</p>
+					<p>Sur-tout, quand on vous fera remarquer la passion qui regle &amp; conduit
+						toutes les affaires ; vous la verrez représentée comme le principe de
+						toutes les vertus, l’ame de tous les événements, le ressort secret de toutes
+						les grandes actions, le mobile de toutes les fortunes ! Or n’est-ce pas
+						là l’intrigue de tout théâtre ?</p>
+					<p>Enfin, quand par mille sentiments divers &amp; mille mouvements contraires,
+						qu’on aura eu l’art d’exciter ; même malgré vous, dans votre cœur, on
+						aura su vous intéresser pour le héros le plus passionné ; sous prétexte
+						de punir le vice &amp; de récompenser la vertu, quand vous verrez enfin
+						couronner à vos yeux la passion la plus ardente &amp; la plus vive, rien de
+						puni que l’insensibilité &amp; le défaut d’ardeur ! Or n’est-ce pas là
+						le dénouement de tout théâtre ?</p>
+					<p><pb n="201" xml:id="p201"/>Ah ! concluoit Lactance, n’est-ce donc point
+						aussi un avertissement trop persuasif de ce que vous pouvez faire ? <hi
+							rend="i">Admonentur quid facere possint</hi> ; quand les exemples
+						des héros, leurs sentiments, leurs discours, leurs actions, leur bonheur,
+						jusqu’à leur infortune, tout autorise la passion : <quote><hi rend="i"
+							>Admonentur quid facere possint, &amp; inflammantur libidine.</hi></quote></p>
+					<p>Prétextez à présent encore la modestie &amp; la retenue du théâtre. Oh !
+						qu’il seroit à souhaiter qu’il fût, en effet, de nos jours ce que vous
+						pensez qu’il étoit autrefois ! Un siecle aussi délicat que le nôtre sur
+						les dehors en auroit de l’horreur, on n’y pourroit aller sans se flétrir.
+						Mais le malheur de notre siecle est d’avoir été trop habile à déguiser le
+						crime, en lui donnant un masque de vertu.</p>
+					<p>Il est vrai, comme vous le dites, que le théâtre aujourd’hui purifie l’amour
+						profane, &amp; ne forme que de légitimes nœuds. Mais, Messieurs, vous
+						tournerez, vous ornerez en vain la passion ; c’est toujours cette
+						malheureuse concupiscence, que Saint Jean défend de rendre aimable,
+						puisqu’il défend de l’aimer ; c’est toujours cette concupiscence, qui
+							<pb n="202" xml:id="p202"/>enflammée une fois ne souffre jamais ou
+						presque jamais de regle. Le théâtre qui l’enflamme, en la représentant
+						réglée, la regle-t-il en vous ? L’auteur, d’un trait de plume, modere,
+						arrête un héros à son gré ; mais le cœur une fois ému ne reconnoît pas
+						si aisément des bornes. Un objet grossier l’eût rebuté, l’eût arrêté
+						d’abord ; mais vous l’autorisez à s’échapper, il en profite :
+						ensuite vous lui présentez une barriere, elle l’irrite ; il est déjà
+						bien loin.</p>
+					<p>Hélas ! Messieurs, notre théâtre, supposé même qu’il soit plus châtié,
+						n’en est donc qu’un plus sûr écueil à l’innocence ; &amp; parce qu’il
+						autorise davantage, &amp; parce qu’il insinue plus agréablement, imprime
+						plus fortement la passion.</p>
+					<p>Oui, je consens, disoit Tertullien, que tout soit dans vos spectacles simple,
+						charmant, même honnête. Remarquez que les Peres ne déclamoient pas contre
+						des théâtres de dissolution &amp; d’infamie, comme vous vous obstinez
+						toujours à le prétendre &amp; à le dire ; <quote><hi rend="i">Sint dulcia
+							libebit &amp; grata, etiam honesta.</hi></quote> Mais, poursuit Tertullien,
+						celui qui veut préparer un breuvage ne détrempe pas le poison dans le fiel
+						&amp; l’absynthe ; c’est <pb n="203" xml:id="p203"/>sous la douceur du
+						miel qu’il cache persidement la mort. De-là tous ces agréments, que l’ennemi
+						de la pudeur a pris soin de répandre sur les spectacles.</p>
+					<p>De-là, comme remarque l’ingénieux Lactance, cette beauté, cette noblesse de
+						sentiments, cette vivacité, cette diversité d’images, pour faire trouver les
+						crimes plus charmants &amp; plus aimables ; de-là cette magnificence,
+						cette pompe de décorations, pour leur donner, plus d’appareil, un éclat plus
+						frappant ; de-là cette liberté de fiction, pour en dégager la
+						représentation de tout ce qu’ils eurent dans la réalité de rebutant &amp; de
+						hideux ; de-là cette exactitude de proportions &amp; de
+						vrai-semblances, pour exciter plus sûrement à l’imitation ; de-là cette
+						politesse de langage, ces vers nombreux composés avec art, pour aider à les
+						retenir plus aisément.</p>
+					<p>Que dirai-je de ces artifices étudiés d’un déclamateur d’autant plus propre à
+						porter dans les cœurs le trait de la volupté, qu’il fait mieux s’en feindre
+						blessé ? Et ces danses animées, ces symphonies molles &amp;
+						séduisantes : <quote><hi rend="i">His tripiduis Diabolus Saltat</hi></quote> ;
+						n’est-ce pas Satan lui-même, dit Saint Jérôme, qui vient danser à ces
+						accords ? Et quand il n’y auroit, <pb n="204" xml:id="p204"/>ajoute
+						Saint Augustin, que la rencontre de l’un &amp; de l’autre sexe, sans parler
+						de ces criminelles afféteries de femmes sans pudeur, qui par leurs airs
+						languissants, leurs voix pénétrantes, leur action empoisonnée ne cherchent,
+						selon l’expression de Saint Basile, qu’à vous percer, vous déchirer des
+						traits des passions qu’elles représentent : sans tout cela, dis-je,
+						quand il n’y auroit que la vue d’un sexe toujours dangereux, qui affecte de
+						venir y montrer une beauté relevée par-tout ce que le faste &amp; le luxe
+						ont imaginé de plus enchanteur : ah ! quelle vertu pourra se
+						sauver de tant d’écueils !</p>
+					<p>L’Eglise même, conclut Saint Jean Chrysostôme, après une description presque
+						semblable à celle-ci, l’Eglise n’est pas toujours un asyle assuré contre les
+						surprises &amp; les insultes de la concupiscence. Vous le dites vous-mêmes,
+						vous vous en plaignez tous les jours ; cependant tout y tend à calmer
+						les passions. Dans un lieu où tout les excite &amp; les enflamme, que
+						deviendront des cœurs amollis &amp; attendris au milieu des assauts violents
+						qu’ils auront à essuyer de toute part ?</p>
+					<p>En effet, n’est-ce pas là que l’on remue <pb n="205" xml:id="p205"/>tous les
+						plus grands ressorts de l’ame ; tantôt ces terreurs, qui préparent aux
+						joies inopinées ; tantôt ces suspensions dans l’attente des grands
+						événement ; tantôt ces tristesses que produisent les éclatants
+						revers ? Qu’est-ce que sensibilité, si tout cela ne rend pas
+						sensible ? Et tout cela sur-tout mis en usage pour intéresser le
+						spectateur à l’intrigue d’une passion, pour faire entrer dans l’ame du
+						spectateur la folle passion du héros prétendu que l’on feint enflammé ;
+						&amp; tout cela mis sous les yeux, celui de tous les sens qui fait toujours
+						les plus fortes impressions dans l’ame. Assailli de tant de côtés, tantôt
+						par adresse &amp; tantôt par force, je défie le cœur le plus dur de ne pas
+						se rendre à l’impression de la passion qui est représentée. C’est bien aussi
+						ce qu’on prétend. On réussit trop bien. Ici la joie éclate, ailleurs les
+						larmes coulent ; &amp; dans ces pieces qu’on nomme saintes, dans ces
+						pieces où l’on ne cherche qu’à s’édifier &amp; à s’instruire, Seigneur, vous
+						le savez, si ces pleurs sont pour vous !</p>
+					<p>Allez donc maintenant, Peres &amp; Meres, allez conduire vos enfants à cette
+						école prétendue de vertu, mais ne soyez <pb n="206" xml:id="p206"/>pas
+						surpris s’ils en rapportent dans le cœur une incendie qui n’éclatera
+						peut-être qu’à votre désespoir, à votre honte, &amp; quand il ne sera plus
+						temps de l’éteindre. Allez cependant leur faire apprendre, à cette école de
+						vertu, l’art de vous cacher les secrets de leur cœur, l’art de nourrir &amp;
+						d’entretenir une passion que toutes les bienséances condamnent. C’est là,
+						Messieurs, l’héroïsme du théâtre de nos jours, c’est la grande science qu’on
+						y enseigne, sous le beau prétexte de purger les passions &amp; de former les
+						mœurs. Ils en reviendront, dites-vous, plus propres à la société, pleins
+						d’horreur pour ces vices qui déshonorent l’homme, pleins d’amour pour ces
+						vertus qui font la douceur du commerce du monde. Je le souhaite, je souhaite
+						que tous les saints Peres se soient trompés ; car tous les saints Peres
+						assurent tous le contraire ; mais laissez-nous cependant déplorer la
+						corruption de leurs cœurs, le déshonneur de la Religion &amp; de l’Etat,
+						&amp; peut-être le déshonneur prochain de vos propres familles.</p>
+					<p>Allez à présent, sur-tout, allez dans <pb n="207" xml:id="p207"/>vos sociétés
+						particulieres les donner devant vous, &amp; pour peut-être vous donner
+						vous-mêmes devant eux en spectacle : amusement nouveau, nouvel artifice
+						mis à la mode dans notre siecle ; sans doute pour arracher tout-à-fait
+						un reste de répugnance qu’on avoit jusqu’à présent conservé pour le théâtre
+						&amp; ses acteurs ; mais sur-tout, infaillible moyen de rendre la
+						séduction plus certaine encore &amp; plus prompte, en imprimant plus
+						fortement des passions, dans lesquelles on est obligé de mieux entrer pour
+						les représenter soi-même ; en donnant plus de liberté &amp; de
+						hardiesse à parler le langage de la volupté ; en mettant dans
+						l’occasion la plus prochaine d’inspirer &amp; de prendre des sentiments,
+						mieux réglés peut-être dans leur objet, mais aussi déréglés dans leur
+						principe ; &amp; communément plus dangereux encore dans leurs
+						suites : désordre contre lequel nous ne voyons pas que se soient élevés
+						les saints Docteurs, sans doute parce que les Chrétiens de leur siecle en
+						étoient incapables ; mais désordre que nous avons la douleur de voir
+						déploré par des sages du Paganisme, comme le présage le plus certain <pb
+							n="208" xml:id="p208"/>de le prochaine &amp; de l’entiere décadence des
+						bonnes mœurs.</p>
+					<p>Mais c’est assez raisonner ; le monde ne se rend guere à de pareils
+						raisonnements ; sans rien répondre, il se retranche sur son expérience.
+						J’y consens, oui, paroissons au Tribunal où il nous cite. J’ai dit, en
+						second lieu, que l’expérience commune &amp; générale est que le théâtre a
+						perdu de tout temps, &amp; perd encore aujourd’hui toutes les mœurs.</p>
+					<p>Une preuve d’abord bien sensible, c’est, Messieurs l’expérience de toutes les
+						nations dans tous les siecles &amp; dans tous les pays de l’univers. C’est
+						un fait constant dans les histoires, un fait que les auteurs ont pris soin
+						de remarquer : que l’époque du libertinage, qui a perdu tous les
+						Empires, est l’établissement des spectacles, &amp; sur-tout le rafinement de
+						goût &amp; de somptuosité dans les spectacles.</p>
+					<p>Qu’est-ce qui perdit les florissantes Républiques de la Grece ?
+						Demandez-le à leurs Sages ; voici ce qu’en dit le plus éloquent de
+						leurs Orateurs : Les spectacles firent naître l’amour du merveilleux
+						&amp; dégoûterent de la modeste simplicité ; on se plaigoit alors que
+						les Magistrats <pb n="209" xml:id="p209"/>&amp; le peuple négligeoient le
+						soin des affaires publiques ; la jeunesse quitta ses anciens exercices
+						pour courir au théâtre ; l’oisiveté &amp; le mollesse d’un sexe
+						produisit la délicatesse &amp; la sensibilité dans l’autre. Bientôt la
+						débauche de la Grece passa en proverbe dans les histoires.</p>
+					<p>Rome fut long-temps vertueuse ; ce fut tant qu’elle ignora les
+						spectacles, selon la belle remarque de Saint Augustin : <quote><hi rend="i"
+							>Theatricas artes virtus Romana non noverat.</hi></quote> Mais, comme parle un
+						Auteur Romain même, dès que la Grece conquise lui eût fait présent de cet
+						art funeste, elle lui fit présent en même tems de tous ses vices. Ainsi
+						l’avoit prévu le plus sage des Romains. Il s’étoit fortement opposé à
+						l’établissement d’un théâtre fixe, assurant que ce seroit pour Rome une
+						Cartage plus redoutable que celle qu’on venoit de détruire. Il réussit alors
+						à le persuader ; malheureusement ce fut pour trop peu de temps ;
+						&amp; l’événement a fait voir si Caton s’étoit trompé. Voulez-vous donc,
+						Messieurs, soutenir encore que le théâtre n’est point la cause nécessaire de
+						la corruption des mœurs ? Effacez toutes les histoires, &amp; traitez
+						les Auteurs profanes, <pb n="210" xml:id="p210"/>ainsi que les saints Peres,
+						de gens austeres, ennemis des divertissements &amp; des plaisirs.</p>
+					<p>Des exemples généraux si je passe aux particuliers ; parmi les Auteurs
+						sacrés, j’entends un Augustin qui se cite lui-même en témoignage ;
+						&amp; avec cette noble franchise, si digne d’un vrai Pénitent, avoue que
+						c’est sur le théâtre qu’il respira par les oreilles &amp; par les yeux tout
+						le venin qui corrompit son cœur. Entre les Auteurs profanes même, j’entends
+						un Philosophe Payen qui, avouant, dit-il, sa foiblesse, reconnoît de bonne
+						foi qu’il est allé plusieurs fois au théâtre, &amp; que jamais il n’en est
+						revenu que moins homme de bien. Un Auteur plus moderne, Courtisan célebre,
+						l’un des plus beaux génies de son siecle, s’exprime à-peu-près dans les
+						mêmes termes ; &amp; que de mondains nous le disent encore tous les
+						jours au lit de la mort !</p>
+					<p>Mais voulez-vous que je remonte jusques aux premies siecles &amp; dans
+						l’Histoire Sainte ? Ah ! dites-nous, infortunée Dina, combien les
+						fêtes de Sichem coûterent de regrets &amp; de larmes à votre cœur, de honte
+						&amp; de crimes à votre famille, de sang à Sichem même.</p>
+					<p><pb n="211" xml:id="p211"/>Consultez encore les derniers Livres Saints, &amp;
+						recherchez quelle fut du temps des Machabées la cause &amp; l’origine de la
+						perversion presque générale du peuple Juif. Ce que toute la fureur, toutes
+						les persécutions des Rois de Syrie n’avoient pu faire, par quelle adresse un
+						Apostat sut-il y réussir ? Ce fut en introduisant à Jérusalem les jeux,
+						les fêtes &amp; les spectacles de la Grece.</p>
+					<p>Et vous, Messieurs, avant que de prétendre contre-balancer le poids de ces
+						exemples par l’expérience de notre siecle, commencez par me prouver que
+						notre siecle est innocent. Brûlez donc auparavant tous ces écrits
+						licentieux, sur-tout ces poésies libertines, tous ces ouvrages qui ne
+						respirent que l’irréligion &amp; l’athéïsme : opprobre (hélas !)
+						trop subsistant de notre patrie. Renversez ces lieux publiquement voués à la
+						prostitution ; alors je verrai si je vous recevrai en témoignage.</p>
+					<p>Car n’est-il pas étonnant que pour nous prouver que le théâtre n’est point
+						dangereux, on ose se donner pour exemple ? J’assiste à tous les
+						spectacles, dit-on, &amp; j’en sors toujours innocent. Qui parle donc
+						ainsi ? Est-ce un Chrétien, soit <pb n="212" xml:id="p212"/>de l’un
+						soit de l’autre sexe, qui vertueux sans affectation, pénétré de sa foi, fait
+						son unique affaire de se sanctifier par le recueillement, par la réception
+						fréquente des sacremens, par l’ordre qu’il établit dans sa famille ? On
+						en voit encore quelques-uns de ce caractere ; mais ce ne sont point eux
+						qui le diront : j’assiste tous les jours au spectacle &amp; j’en sors
+						toujours innocent. Non, non, ils n’y paroissent pas.</p>
+					<p>Qui parle donc ainsi ? C’est quelque-fois un jeune dissolu plongé dans
+						le désordre ; c’est un vieux Mondain qui va y rechercher l’image de ses
+						anciennes miseres &amp; tâcher d’y rallumer les étincelles du feu qui l’a
+						brûlé ; c’est une femme livrée aux plaisirs, esclave de ses sens,
+						idolâtre d’elle-même.</p>
+					<p>Qui parle ainsi ? Ce sont tous les prétendus honnêtes gens du
+						monde : bons peres, fideles amis, magistrats équitables, hommes de cœur
+						&amp; de parole ; mais qui, du reste, dans les passions ne savent rien
+						craindre que l’éclat, rien sauver que les dehors, se rien reprocher que la
+						consommation même du crime.</p>
+					<p>Je ne suis pas surpris qu’ils nous le disent : J’assiste tous les jours
+						au <pb n="213" xml:id="p213"/>spectacle, &amp; j’en sors toujours innocent.
+						Hélas ! mes Freres, permettez-moi de le dire, vous ne savez pas même ce
+						que c’est que l’innocence. L’intrigue n’est pour vous qu’un amusement ;
+						vous regardez les rendez-vous les plus concertés comme un délassement
+						d’esprit ; vous traitez la liberté, la licence des conversations de
+						gaiété, de sel &amp; d’enjouement aimable ; &amp; tout ce que les
+						saints Peres ont appellé voie du péché, occasion du péché, avant-coureur du
+						péché, tout cela passe parmi vous pour politesse, belles manieres ;
+						voilà votre innocence. On n’a pas le moindre scrupule sur les pensées ;
+						les soupirs ne se comptent pour rien. Je conçois maintenant comment vous
+						prétendez sortir innocent du spectacle.</p>
+					<p>J’assiste tous les jours au spectacle, &amp; j’en sors toujours innocent. Le
+						peuple de C. P. le disoit de même autrefois à son sage Archevêque ; que
+						répondoit le divin Chrysostôme ? Ah ! mes chers Freres, rendez
+						grace à Dieu, que vous êtes heureux ! La grande merveille ! Vous
+						marchez tous les jours sur le feu sans vous brûler. Tandis que nous par une
+						simple lecture de ce que vous voyez représenter, malgré toute la pureté de
+						nos <pb n="214" xml:id="p214"/>intentions, nous nous trouvons presque
+						toujours coupables ; tandis qu’une simple lecture encore plus innocente
+						fit trouver au grand Jérôme dans le fond de son cœur un sujet continuel de
+						regrets &amp; de larmes ; que vous, mes Freres, que vous êtes
+						heureux !</p>
+					<p>Mais que vous changerez un jour, au Tribunal de Jesus-Christ, de sentiment
+						&amp; de langage ! Et quand il seroit vrai, ce que vous dites à
+						présent, que vous êtes toujours sortis innocents du spectacle, encore
+						faudroit-il conclure avec un grand Docteur : Premiérement, qu’à raison
+						du scandale, autorisant par votre exemple des personnes qui peut-être y
+						périront, &amp; dont Dieu vous redemandera les ames ; secondement à
+						raison du danger auquel vous vous exposez, danger moindre si vous voulez,
+						pour vous que pour d’autres, mais toujours vrai danger pour vous, c’est
+						toujours un vrai péché, un péché grief pour vous, qui que vous soyez, d’y
+						assister.</p>
+					<p>Est-ce donc, Messieurs, une perte si légere que la perte de votre innocence,
+						pour que vous ne trembliez pas au plus petit danger ? La grace,
+						dites-vous, &amp; je veux le croire, vous l’a conservée <pb n="215"
+							xml:id="p215"/>jusqu’ici dans les lieux mêmes où elle couroit le plus de
+						risque. Quelle reconnoissance marquez-vous à Dieu de ses faveurs ;
+						quels motifs lui fournissez-vous pour l’engager à vous les continuer, que de
+						vous obstiner à en abuser ainsi ?</p>
+					<p>Ah ! Chrétiens, s’écrioit Tertullien, en finissant le beau traité qu’il
+						a écrit sur cette matiere, Chrétiens, si vous aimez les spectacles, si vous
+						ne pouvez vous en passer, nous en avons à vous donner. Regardez, Chrétiens,
+						le cours précipité des siecles, les temps qui s’écoulent ;
+						réveillez-vous à la pensée du Royaume de Dieu, il approche. Si le
+						merveilleux, l’extraordinaire vous plaît, les Mysteres de la Religion vous
+						en fournissent. Aimez-vous à être attendri, à voir des objets qui frappent,
+						des morts, du sang versé ? Ah ! voilà le Sang de Jesus-Christ qui
+						coule ; quel spectacle plus touchant &amp; plus beau pouvez-vous
+						desirer ! Quel amour ! Un Dieu en croix ! Quel amour a jamais
+						fourni une si surprenante scene ! Retour inopiné, dénouement
+						admirable ; le voilà triomphant dans les Cieux, il vous y montre votre
+						place, il vous appelle.</p>
+					<p><pb n="216" xml:id="p216"/>N’est-ce point assez de ce spectacle ? Nous
+						vous en montrerons d’autres encore. Ce monde, tout cet Univers enflammé,
+						réduit en poudre ; l’étonnement, l’effroi des nations ; un Juge
+						rayonnant de gloire, porté sur les nues, les Anges qui lui sont
+						cortege ! Dites-nous quelle place alors vous voulez occuper. Voilà
+						certainement le grand spectacle qui doit vous dégoûter de tous les
+						autres.</p>
+					<p>Le théâtre, poursuit Tertullien, est l’Empire de l’ennemi de Jesus-Christ,
+						mes Freres, &amp; vous quittez, vous désertez l’Eglise où Jesus regne, pour
+						courir au théâtre ! Savez-vous donc que celui qui quitte son Prince
+						pour s’attacher à son ennemi, doit se résoudre à périr avec lui ?
+						Malheureux ! Ah ! voulez-vous périr avec l’ennemi de
+						Jesus-Christ ?</p>
+					<p>Mais je raisonne en vain, je tâche en vain à émouvoir ; je suis presque
+						certain que je n’ai persuadé, changé personne. Du moins, mes Freres, je vous
+						prend à témoins devant Dieu, que je ne vous ai rien caché de tout ce qui
+						pouvoit vous inspirer de l’horreur des spectacles profanes. Allez donc à
+						présent, si vous êtes tout-à-fait obstinés à vous <pb n="217" xml:id="p217"
+						/>perdre, allez, courez encore au théâtre. Autel, Eglise, murs de ce Temple,
+						vous m’en serez témoins ! Et vous innocente Victime qui reposez sur cet
+						Autel, je vous atteste, recevez les serments &amp; la protestation que je
+						vous fais : je serai, je suis innocent de la perte de ces ames, vous ne
+						m’en demanderez point compte ?</p>
+					<p>Le théâtre est criminel en soi ; l’innocence y court toujours un
+						très-grand risque. Ames Chrétiennes qui vous souvenez que vous avez renoncé
+						au Démon &amp; à ses pompes, &amp; qui remplissez fidélement les conditions
+						de l’alliance que vous avez faite avec le Seigneur, vous du moins, vous nous
+						consolerez. Que ces deux réflexions vous animent à persévérer dans le bien
+						que vous avez commencé. Rien de commun entre vous &amp; le monde, si vous
+						voulez vivre en Jesus-Christ, pour régner un jour avec Jesus-Christ. C’est à
+						cette seule condition que nous pouvons vous promettre la vie éternelle, à
+						laquelle vous aspirez, &amp; que je vous souhaite. Ainsi soit-il.</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Remarques sur le Discours qui a pour titre : De l’Imitation par rapport à la
+                    Tragédie</title>
+                <author key="Aguesseau, Henri François d' (1698-1751)"
+                    ref="https://data.bnf.fr/fr/11888195/henri-francois_d__aguesseau/">Henri
+                    François d’Aguesseau</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/aguesseau_remarques-discours_1759/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Henri François d’Aguesseau, « Remarques sur le Discours qui a pour titre : De
+                    l’Imitation par rapport à la Tragédie », in <hi rend="i">Œuvres de M. le
+                        Chancelier d’Aguesseau</hi>, <pubPlace>Paris</pubPlace>,
+                        <publisher>Libraires associés</publisher>, <date>1759</date>, tome I,
+                    p. 350-387 PDF : <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k9600238d/f508"
+                    >Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1759"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter">
+                <pb n="350" xml:id="p350"/>
+                <head>Remarques<note n="*" place="bottom">Ces Remarques ont été faites par M. le
+                        Chancelier d’Aguesseau pendant son séjour à Fresnes, sur un Discours composé
+                        par M. de Valincour.</note> sur le discours qui a pour titre : <hi rend="i"
+                        >De l’Imitation par rapport à la Tragédie.</hi></head>
+                <p><hi rend="big">L</hi>’<hi rend="sc">Auteur</hi> y établit d’abord cette
+                    Proposition générale qui est le fondement de toute sa Dissertation, qu’<hi
+                        rend="i">il n’y a rien qui plaise tant ni si généralement à tous les hommes,
+                        que l’Imitation.</hi></p>
+                <p>Il semble par ces paroles, &amp; encore plus par la suite de l’Ouvrage, qu’on y
+                    veuille réduire tout ce qui nous charme dans la Tragédie, au seul plaisir que la
+                    justesse de l’Imitation fait naître dans notre ame. Aristote l’a dit ; mais il y
+                    a longtemps que ses opinions ont perdu le caractere d’infaillibilité que les
+                    Philosophes &amp; même des Théologiens leur avoient attribué.</p>
+                <quote>
+                    <l rend="i">  Nimium patienter utrique</l>
+                    <l rend="i">Ne dicam stultè.<note place="margin"><hi rend="i">Horat. de Arte
+                                Poet.</hi></note></l>
+                </quote>
+                <p>J’ai donc assez bonne opinion de l’Auteur du Discours, pour le croire destiné à
+                    faire voir aux hommes qu’on peut surpasser Aristote, même dans la Poëtique ;
+                    &amp; s’il a autant de courage pour l’entreprendre que je lui connois de talents
+                    pour l’exécuter, la premiere chose que je lui conseillerois de changer dans son
+                    Ouvrage, est le titre qu’il lui donne. Pourquoi se borner à la seule Imitation ?
+                    La matiere ne seroit-elle pas bien plus digne de lui, &amp; bien plus
+                    intéressante pour les Gens de Lettres, s’il se proposoit de traiter en général
+                        <hi rend="i">Des causes du plaisir qu’une Tragédie parfaite excite dans
+                        l’ame des Spectateurs</hi>.</p>
+                <p>Peut-on réduire toutes ces causes au seul goût que les hommes ont naturellement
+                    pour l’Imitation ? Je ne sçaurois croire <pb n="351" xml:id="p351"/>que ce soit
+                    là le vrai sentiment de l’Auteur ; &amp; Aristote même me fournit dans sa
+                    Poëtique dequoi combattre son opinion, par l’idée qu’il y donne de la Tragédie,
+                    &amp; des différentes parties qui n’en forment qu’un seul tout.</p>
+                <p>Quest-ce que la Tragédie selon ce Philosophe ? Semblable en ce point à tout autre
+                    genre de Poësie, c’est une Imitation de la nature. Mais, selon lui, on peut
+                    distinguer trois choses dans toute Imitation, de quelque espece qu’elle soit. Ce
+                    qu’on imite est la premiere ; la seconde est la maniere d’imiter ; &amp; la
+                    troisiéme consiste dans les secours ou dans les instruments de l’Imitation.</p>
+                <p>Ainsi, dans la Peinture, ce que le Peintre imite est en général tout ce qui est
+                    corporel &amp; sensible. La maniere d’imiter consiste dans l’art de former des
+                    traits &amp; des contours sur la toile, ou sur toute autre espece de table
+                    rase ; &amp; les instruments ou les secours de l’Imitation, sont les couleurs
+                    qu’il employe. De même dans la Tragédie, l’objet de l’Imitation, ou ce que le
+                    Poëte imite, est en général une action humaine, grave, illustre, intéressante ;
+                    la mesure &amp; l’harmonie des Vers, à quoi il faut joindre la force &amp; la
+                    grace de la déclamation, sont la maniere d’imiter ; la décoration ou l’appareil
+                    extérieur du Spectacle &amp; la Musique, lorsqu’elle y est jointe, sont les
+                    instruments ou les secours de l’Imitation. Si Aristote s’est servi heureusement
+                    de cette division pour expliquer les regles de la Tragédie, elle n’est pas moins
+                    utile, soit pour faire voir qu’elle excite dans le Spectateur d’autres plaisirs
+                    que celui qui naît de l’imitation, soit pour indiquer les véritables sources de
+                    ces plaisirs, que je voudrois voir rassemblées dans le Discours dont il s’agit,
+                    &amp; rendues sensibles au Lecteur, par ces images, ces graces, &amp; cette
+                    douceur de style qui sont si naturelles à l’Auteur.</p>
+                <p>Je m’attache d’abord à ce que le Poëte imite, ou à l’objet de son imitation, qui
+                    comprend trois choses, selon Aristote, le fait ou l’évenement consideré en
+                    lui-même, les mœurs ou le caractere des Personnages, leurs pensées ou leurs
+                    sentiments ; &amp; me mettant à la place du Spectateur, je <pb n="352"
+                    />m’interroge moi-même sur les divers mouvements qu’excite la représentation
+                    d’une belle Tragédie.</p>
+                <p>Quel est le premier &amp; peut-être le plus foible sentiment dont il est
+                    affecté ? C’est celui qu’Aristote attribue à l’imitation, quoiqu’il naisse
+                    beaucoup plus de l’action imitée. C’est donc le plaisir d’apprendre qui s’offre
+                    le premier. C’est la satisfaction de voir le spectacle d’un événement singulier
+                    &amp; d’une révolution surprenante. Le simple récit d’un fait de cette nature
+                    exciteroit agréablement mon attention, la représentation l’attache encore plus.
+                    Mais quelle est la cause de ce plaisir ? Vient-il seulement, comme l’Auteur du
+                    Discours le dit par rapport à l’imitation, de ce qu’un tel événement me présente
+                    une occasion de juger, ce que je ne fais jamais sans une secrete satisfaction ?
+                    Je conviens que cette raison peut y entrer pour quelque chose : mais n’y en
+                    a-t-il pas une plus simple, &amp; qui convient plus généralement au commun des
+                    hommes ? C’est que rien ne leur est plus agréable que ce qui satisfait leur
+                    curiosité &amp; qui fixe sans effort leur inquiétude naturelle.</p>
+                <p>Il en est à peu près de notre Esprit comme de notre corps ; Dieu a attaché un
+                    sentiment plus agréable au mouvement de l’un &amp; de l’autre qu’à leur repos :
+                    il étoit de sa sagesse d’en user ainsi, parce que le mouvement leur est bien
+                    plus utile pour leur perfection. Notre corps tombe dans une espece de langueur
+                    &amp; d’abbattement, nous ne le sentons presque plus, &amp; à peine croyons-nous
+                    vivre lorsqu’il demeure trop longtemps dans une entiere inaction : il en est de
+                    même à proportion pour notre ame &amp; encore plus que pour notre corps ; elle
+                    n’est par sa nature qu’une pensée &amp; une volonté toujours subsistante, &amp;
+                    par conséquent toujours agissante ; son repos n’est, à proprement parler, qu’un
+                    moindre mouvement. Notre corps peut subsister sans aucune action extérieure,
+                    mais l’action est tellement de l’essence de notre ame, qu’elle cesseroit
+                    absolument d’être, si elle cessoit d’agir. Lorsqu’il n’y a point de nouvel objet
+                    qui la frappe, elle se replie pour ainsi dire, sur elle-même ; &amp; elle se
+                    nourrit de sa propre substance. Mais <pb n="353" xml:id="p352"/>m’interroge
+                    moi-même sur les divers mouvements qu’excite la représentation d’une belle
+                    Tragédie.</p>
+                <p>Quel est le premier &amp; peut-être le plus foible sentiment dont il est
+                    affecté ? C’est celui qu’Aristote attribue à l’imitation, quoiqu’il naisse
+                    beaucoup plus de l’action imitée. C’est donc le plaisir d’apprendre qui s’offre
+                    le premier. C’est la satisfaction de voir le spectacle d’un événement singulier
+                    &amp; d’une révolution surprenante. Le simple récit d’un fait de cette nature
+                    exciteroit agréablement mon attention, la représentation l’attache encore plus.
+                    Mais quelle est la cause de ce plaisir ? Vient-il seulement, comme l’Auteur du
+                    Discours le dit par rapport à l’imitation, de ce qu’un tel événement me présente
+                    une occasion de juger, ce que je ne fais jamais sans une secrete satisfaction ?
+                    Je conviens que cette raison peut y entrer pour quelque chose : mais n’y en
+                    a-t-il pas une plus simple, &amp; qui convient plus généralement au commun des
+                    hommes ? C’est que rien ne leur est plus agréable que ce qui satisfait leur
+                    curiosité &amp; qui fixe sans effort leur inquiétude naturelle.</p>
+                <p>Il en est à peu près de notre Esprit comme de notre corps ; Dieu a attaché un
+                    sentiment plus agréable au mouvement de l’un &amp; de l’autre qu’à leur repos :
+                    il étoit de sa sagesse d’en user ainsi, parce que le mouvement leur est bien
+                    plus utile pour leur perfection. Notre corps tombe dans une espece de langueur
+                    &amp; d’abbattement, nous ne le sentons presque plus, &amp; à peine croyons-nous
+                    vivre lorsqu’il demeure trop longtemps dans une entiere inaction : il en est de
+                    même à proportion pour notre ame &amp; encore plus que pour notre corps ; elle
+                    n’est par sa nature qu’une pensée &amp; une volonté toujours subsistante, &amp;
+                    par conséquent toujours agissante ; son repos n’est, à proprement parler, qu’un
+                    moindre mouvement. Notre corps peut subsister sans aucune action extérieure,
+                    mais l’action est tellement de l’essence de notre ame, qu’elle cesseroit
+                    absolument d’être, si elle cessoit d’agir. Lorsqu’il n’y a point de nouvel objet
+                    qui la frappe, elle se replie pour ainsi dire, sur elle-même ; &amp; elle se
+                    nourrit de sa propre substance. Mais <pb n="353"/>comme elle n’aime pas à vivre
+                    à ses dépens, ou pour parler sans métaphore, comme elle se lasse bientôt de la
+                    multiplicité vague &amp; confuse de ses propres pensées qui l’épuise plutôt
+                    qu’elle ne la remplit, elle est avide de se répandre au dehors ; &amp; l’on
+                    diroit qu’elle soit toujours aux fenêtres pour y chercher un objet nouveau qui
+                    arrête &amp; qui détermine ses regards, ou pour y trouver au moins le plaisir de
+                    ne plus se voir elle-même.</p>
+                <quote>
+                    <l rend="i">Hoc se quisque modo semper fugit.</l>
+                </quote>
+                <p>Quand le Poete Tragique ne feroit que nous tirer de cette situation importune, il
+                    nous plairoit toujours, parce que la cessation d’un mal est un bien ; mais il y
+                    joint un plaisir plus réel &amp; plus positif par un objet nouveau dont le
+                    spectacle, flatteur pour notre curiosité, n’est pas moins agréable à notre
+                    paresse, parce qu’elle ne fait aucun effort pour en jouir. Il n’y a presque
+                    point de Tragédie qui ne satisfasse d’abord ces différentes dispositions de
+                    notre ame ; &amp; c’est peutêtre en partie par cette raison que l’on voit
+                    plusieurs pieces de Théâtre avoir un succès surprenant dans les premieres
+                    représentations, tomber bientôt après, &amp; échouer enfin dans l’opinion
+                    publique, parce que notre esprit n’étant plus soutenu par la nouveauté &amp; la
+                    singularité de l’évenement, remarque bien plus les défauts qui se trouvent, ou
+                    dans la conduite de la Piece, ou dans les mœurs, ou dans l’expression.</p>
+                <p>Après le plaisir d’apprendre &amp; d’amuser la curiosité &amp; l’inquiétude de
+                    notre esprit, sans allarmer sa paresse naturelle, se présente celui de sentir,
+                    ou pour parler avec plus de précision, celui d’éprouver une émotion douce &amp;
+                    agréable.</p>
+                <p>L’homme se plaît, il est vrai, à être occupé d’un objet qui ne lui fait acheter
+                    par aucune contention pénible l’agrément d’en jouir ; mais il aime infiniment
+                    plus ce qui excite dans son ame des passions séduisantes, dont l’impression le
+                    charme par un trouble passager qui se fait sentir sans se faire craindre. Nous
+                    voulons être parfaits, &amp; c’est ce qui forme en nous le desir d’apprendre,
+                    outre la satisfaction que nous trouvons à <pb n="354" xml:id="p354"/>fixer par
+                    un objet nouveau l’agitation de nos pensées ; mais nous désirons encore plus
+                    d’être heureux, &amp; nous regardons le plaisir du sentiment, comme ce qui nous
+                    met en possession d’une félicité présente &amp; d’un bonheur actuel. Je pourrois
+                    m’étendre beaucoup plus sur cette matiere ; mais on m’accuseroit peut-être de
+                    compiler ici les Ecrits du P. Malebranche, que l’Auteur du Discours appelleroit
+                    volontiers,</p>
+                <quote>
+                    <l rend="i">Crispini scrinia,<note n="*" place="margin"><hi rend="i">Horat.
+                                Sat.I.</hi></note></l>
+                </quote>
+                <p>si j’entreprenois d’expliquer à fond toutes les raisons qui font voir que le
+                    sentiment nous affecte bien plus que la simple perception ou la seule
+                    intelligence. Les Poëtes qui sont en ce point d’aussi bons Métaphysiciens que le
+                    P. Malebranche, ont sçû nous faire trouver de la volupté jusque dans la douleur.
+                    Saint Augustin se reproche les larmes trop agréables qu’il avoit versées au
+                    Théatre, ou en lisant dans Virgile la fin tragique de Didon ; &amp; il n’y a
+                    personne qui n’ait fait l’expérience de la douceur que l’on goûte à s’attendrir
+                    sur des malheurs qu’on pleure sans y être véritablement intéressé. Il en est de
+                    même des autres passions que l’action imitée par le Poëte Tragique, réveille
+                    dans notre ame ; &amp; sans en dire davantage sur un sujet si connu, il est
+                    certain qu’une passion vive &amp; agréable qui ne coûteroit rien à satisfaire,
+                    &amp; qui ne seroit suivie ni d’un mal réel, ni même d’aucun trouble importun,
+                    passeroit dans l’esprit du commun des hommes, si elle pouvoit être durable, pour
+                    l’état le plus heureux de cette vie. La Tragédie les met pour quelques heures
+                    dans une situation qui leur paroît si agréable ; son sujet en lui-même, les
+                    mœurs ou le caractere de ceux qu’elle met sur la Scène, leurs pensées, leurs
+                    sentiments, leurs expressions, tout conspire à réveiller ou à flatter les
+                    inclinations que nous avons tous pour la gloire, pour la grandeur, pour l’amour,
+                    pour la vengeance, qui sont les mobiles secrets du cœur humain ; &amp; plût à
+                    Dieu qu’ils ne le fussent que dans la Tragédie ! Les passions feintes que nous y
+                    voyons, nous plaisent par les mêmes raisons que les passions réelles ; parce
+                    qu’en effet elles en excitent de <pb n="355" xml:id="p355"/>réelles dans notre
+                    ame ; ou parce qu’elles nous rappellent le souvenir de celles que nous avons
+                    éprouvées. <quote><hi rend="i">Rapiebant me</hi></quote>, dit Saint Augustin,
+                        <hi rend="i">Spectacula Theatrica plena imaginibus miseriarum
+                        mearum</hi><note place="margin">Aug. Conf. Lib. III. Ch. I.</note> : ce sont
+                    ces miseres mêmes, qu’on aime à y voir &amp; à y sentir. Le jeune Racine n’a
+                    donc pas eu tort de dire dans son Epitre<note n="*" place="bottom">Epitre à M.
+                        de Valincour sur l’abus de la Poësie ; dans le Recueil des Poësies de M.
+                        Racine, de l’Académie des Belles-Lettres, imprimées en 1747, tom. 2<hi
+                            rend="sup">e</hi>.</note> à l’Auteur du Discours,</p>
+                <quote>
+                    <l>Le jeu des passions saisit le Spectateur :</l>
+                    <l>Il aime, il hait, il pleure, &amp; lui-même est Acteur.</l>
+                </quote>
+                <p>Mais il devoit aller plus loin, &amp; dire que non-seulement les passions feintes
+                    nous plaisent dans la Tragédie, par celles qu’elles allument ou qu’elles
+                    réveillent en nous ; mais qu’on y goûte encore la satisfaction de voir ses
+                    foiblesses justifiées, authorisées, ennoblies, soit par de grands exemples, soit
+                    par le tour ingénieux &amp; la morale séduisante dont le Poëte se sert souvent
+                    pour les déguiser, pour les colorer, pour les peindre en beau, &amp; les faire
+                    paroître au moins plus dignes de compassion que de censure. Le charme du
+                    spectacle, les actions qui y sont représentées, l’artifice de la Poësie, &amp;
+                    l’enchantement des paroles par lesquelles elle flatte la corruption du cœur,
+                    étouffent peu-à-peu les remords de la conscience, en appaisent les scrupules,
+                    &amp; effacent insensiblement cette pudeur importune, qui fait d’abord qu’on
+                    regarde le crime comme impossible ; on en voit non-seulement la possibilité,
+                    mais la facilité : on en apprend le chemin, on en étudie le langage, &amp;
+                    surtout on en retient les excuses. Quelle impression ne fait pas Phedre sur
+                    l’ame d’une jeune spectatrice lorsqu’elle charge Venus de toute la honte de sa
+                    passion, lorsqu’elle prend les Dieux à témoin :</p>
+                <quote>
+                    <l>Ces Dieux qui dans son flanc</l>
+                    <l>Ont allumé ce feu fatal à tout son sang,</l>
+                    <l>Ces Dieux qui se sont fait une gloire cruelle</l>
+                    <l>De séduire le cœur d’une foible mortelle.</l>
+                </quote>
+                <p><pb n="356" xml:id="p356"/>Il est vrai qu’on n’accuse plus les Dieux du
+                    déréglement de son cœur, &amp; qu’on ne cherche plus à l’authoriser par leur
+                    exemple, comme ceux dont S. Cyprien a dit : <quote><hi rend="i">Peccant exemplo
+                            Deorum</hi></quote> ; mais on l’attribue à l’étoile, à la destinée, à la
+                    nécessité d’un penchant invincible : on retrouve ses sentiments avec plaisir
+                    dans ceux qu’on appelle des Héros ; &amp; une passion qui nous est commune avec
+                    eux, ne paroît plus une foiblesse ; on se répete en secret ce qu’Œnone dit pour
+                    appaiser le trouble de sa Maîtresse : <quote><hi rend="i">Mortelle, subissez le
+                            sort d’une mortelle.</hi></quote> On s’étourdit au moins de ces pensées
+                    vagues &amp; confuses qu’on n’approfondit jamais. On sort du Théâtre, rassuré
+                    contre l’horreur naturelle du crime ; &amp; ce même plaisir y ramene souvent
+                    ceux qui l’ont une fois goûté. Ainsi, soit que le Spectacle ne cause qu’un
+                    trouble &amp; une émotion passagere qui paroît d’abord innocente, soit qu’il
+                    excite ou qu’il rappelle des passions plus durables que l’action &amp; le
+                    langage de la Tragédie authorisent &amp; justifient ; c’est sans doute dans ces
+                    deux effets que consiste principalement le grand plaisir que les hommes y
+                    prennent. Tel est le jugement qu’en ont porté tous ceux qui ont écrit contre
+                    cette espece de divertissement. En montrant combien il est dangereux, ils ont
+                    fait voir pourquoi il est agréable, parce qu’en effet ce qui en fait le plaisir
+                    est ce qui en fait le danger ; &amp; qu’on peut dire presque toujours, que la
+                    meilleure Piece en un sens est en un autre sens la plus mauvaise.</p>
+                <p>Mais ce n’est pas ici le lieu de faire la censure de la Tragédie ; il s’agit de
+                    découvrir l’origine du plaisir que nous y goûtons, &amp; non pas de réfuter ce
+                    que l’on dit pour justifier ce plaisir : je veux même essayer de me réconcilier
+                    en quelque maniere avec les Poëtes Tragiques ; &amp; pour épuiser tout ce qui
+                    regarde la satisfaction que notre ame trouve à être émûe par des sentiments
+                    intéressants, je conviendrai volontiers avec eux, que si la Tragédie nous plaît
+                    parce qu’elle excite en nous le mouvement des passions, elle nous plaît aussi,
+                    parce qu’elle y présente des images de vertu ; &amp; je découvrirai dans cette
+                    réflexion une nouvelle source du goût que l’on a pour ce genre de Poësie.</p>
+                <p><pb n="357" xml:id="p357"/>On n’a pas de peine à comprendre qu’il fasse par cet
+                    endroit une impression agréable sur des ames vertueuses ; mais pourquoi la
+                    peinture de la vertu a-t-elle des charmes pour le cœur même le plus déréglé !
+                    C’est un problême de Morale qui paroîtroit d’abord plus difficile à résoudre, si
+                    l’on n’en trouvoit le dénouement dans le caractere de la plûpart des hommes,
+                    &amp; dans la nature des vertus, que l’on peint ordinairement sur le Théâtre. Il
+                    y a peu de cœurs absolument mauvais, comme il y en a peu d’absolument bons ; un
+                    homme qui n’auroit que des vices sans aucune trace de vertu, seroit une espece
+                    de monstre dans la nature ; un homme qui n’auroit que des vertus, sans aucune
+                    ombre de défauts, seroit un véritable prodige ; mais le monstre &amp; le prodige
+                    sont également rares, ou plutôt on n’en trouve jamais de semblables dans le
+                    monde ; on remarque dans tous les hommes un mêlange de bien &amp; de mal, une
+                    inclination naturelle pour l’ordre, une pente encore plus forte pour le
+                    désordre : ceux mêmes qui s’y laissent le plus entraîner, ne le font pas
+                    toujours, &amp; à l’égard de toutes sortes d’objets : ils ont des intervalles de
+                    lumiere &amp; de raison, pendant lesquels ils ne sont pas insensibles aux
+                    attraits de la Vertu. Ils condamnent volontiers les vices qu’ils n’ont pas ; ils
+                    cherchent à excuser ou à se déguiser à eux-mêmes ceux qu’ils ont, pour étouffer
+                    les reproches de cette voix intérieure qui les rappelle toujours à l’ordre ;
+                    &amp; de-là vient que le Poëte les flatte si agréablement, comme je le disois
+                    tout à l’heure ; lorsque pour parler comme Racine, *<note place="margin"
+                        >Athalie.</note></p>
+                <quote>
+                    <l>Il prête à leurs fureurs des couleurs favorables.</l>
+                </quote>
+                <p>A ce caractere susceptible des impressions de la Vertu comme de celles du Vice,
+                    se joint celui des vertus que la Tragédie nous présente : elles allarment si peu
+                    les passions favorites du cœur humain, qu’il croit pouvoir les concilier
+                    aisément avec ces passions. Telles sont la valeur, la générosité, la grandeur
+                    d’ame, l’amour de la patrie, la haine de la violence &amp; de la cruauté,
+                    l’horreur de la servitude &amp; le goût de la liberté. On est charmé de voir que
+                    l’ambition, que le desir de <pb n="358" xml:id="p358"/>la vengeance, que les
+                    foiblesses de l’amour ne soient pas toujours incompatibles avec ces vertus, qui
+                    nous plaisent d’autant plus dans les héros du Théâtre, que nous les y trouvons
+                    souvent jointes à nos défauts. Que si le Poëte ose attaquer jusqu’à ces défauts,
+                    il ne cesse pas de nous intéresser par sa censure même. Nous nous plaisons
+                    souvent à voir la peinture de notre propre foiblesse, quand elle est du nombre
+                    de celles dont les spectacles nous apprennent à ne plus rougir. Nous trouvons
+                    même un plaisir secret à en gémir ; &amp; nous sommes quelquefois les premiers à
+                    les déplorer ; notre amour propre se flatte qu’il commence par-là à s’en guérir,
+                    &amp; comme il n’y a personne qui ne se repente dans certains moments de la
+                    servitude des passions, le Poëte possede l’art d’amener, si j’ose le dire, ces
+                    moments de repentir, de nous faire sentir la pesanteur de nos chaînes, la
+                    douceur de la liberté, &amp; de nous plaire ainsi par sa morale dans le temps
+                    même que sa morale nous condamne.</p>
+                <p>Ou s’il va encore plus loin, s’il veut nous effrayer, suivant le but &amp; les
+                    loix de la Tragédie, par une catastrophe qui nous montre sensiblement les
+                    funestes effets d’un amour criminel, ou d’une ambition démesurée, nous ne
+                    manquons guères d’attribuer le malheur du Héros à son imprudence plutôt qu’à sa
+                    passion ; nous nous flattons que nous serons plus sages ou plus heureux ;
+                    peut-être même toutes ces pensées sont-elles souvent bien éloignées de l’esprit
+                    du spectateur. Une révolution surprenante le frappe, il se livre entierement à
+                    l’émotion agréable qu’elle excite en lui ; &amp; il en sent tout le plaisir,
+                    sans chercher à en corrompre la douceur par des réflexions ameres qui ne
+                    serviroient qu’à l’affliger. Disons enfin, que si le spectacle d’une vertu
+                    éclatante plaît aux ames les moins vertueuses ; c’est parce qu’il agit sur elles
+                    par goût &amp; par sentiment, plutôt que par voye de lumiere &amp; de raison. Il
+                    n’est point de vertus sur le Théatre qui ne soient animées &amp; soutenues par
+                    quelque passion ; elles en empruntent le dehors, &amp; pour ainsi dire, le
+                    masque, afin de frapper plus fortement notre esprit. Tantôt c’est le désir de
+                    surpasser ses rivaux, &amp; de vaincre ses ennemis ; tantôt, &amp; presque
+                    toujours, c’est la soif de la <pb n="359" xml:id="p359"/>grandeur, ou l’amour de
+                    la Gloire qui lui prête le sien : ainsi soit par son éclat naturel, soit par
+                    tout ce qui l’accompagne, l’image de la Vertu affecte toujours l’ame du
+                    spectateur. Ce n’est plus la Vertu seule, c’est un mélange de vertu &amp; de
+                    passion qui l’émeut &amp; qui le touche. C’est par-là que la Tragédie suspend
+                    l’impression du vice qui le domine ; elle en interrompt le cours par un
+                    mouvement contraire ; il s’anime à la vûe de la gloire qui environne les Héros ;
+                    il aime à se laisser enflamer d’une noble émulation ; il s’applaudit en secret
+                    de ce sentiment, dont le cœur le plus corrompu est toujours agréablement flatté,
+                    &amp; peu s’en faut qu’il ne se croye vertueux, parce qu’il admire la Vertu.</p>
+                <p>C’est ainsi que le Poëte, maître de tous les ressorts du cœur humain, ne réussit
+                    dans son art que parce qu’il sçait, comme Despréaux l’a dit de Racine, <note
+                        n="*" place="margin">Despreaux, Epit. VII.</note></p>
+                <quote>
+                    <l>Emouvoir, étonner, ravir un Spectateur,</l>
+                </quote>
+                <p>soit par les passions, soit par ce qui devroit les corriger, &amp; qu’il trouve
+                    le moyen de nous faire jouir dans la même piece, des plaisirs du vice, &amp; de
+                    ceux de la vertu.</p>
+                <p>Mais pour suivre ici le progrès de nos pensées, &amp; chercher toujours la raison
+                    de la raison même, d’où vient que nous prenons tant de plaisir à admirer, nous
+                    qui en trouvons un si grand à mépriser ? C’est que l’homme réunit en soi des
+                    goûts qui paroissent opposés l’un à l’autre, mais qui ne le sont point en effet,
+                    parce qu’ils partent du même fonds d’amour propre, &amp; que par des routes
+                    différentes, ils tendent également à la même fin, c’est-à-dire, à satisfaire sa
+                    vanité.</p>
+                <p>La Comédie nous fait passer agréablement notre temps, lorsqu’elle peint de telle
+                    maniere les mœurs vicieuses de notre siécle, qu’elle nous les rend méprisables ;
+                    le spectateur qui se reconnoît rarement dans les portraits qu’il y voit, s’éleve
+                    dans son esprit, au-dessus de tous ceux qu’il croit que le Poëte a voulu
+                    peindre, &amp; il jouit du plaisir de leur appliquer ce qu’ils lui appliquent
+                    peut-être à leur tour, ainsi comme Despréaux l’a dit dans son Art Poëtique :</p>
+                <pb n="360" xml:id="p360"/>
+                <quote>
+                    <l>Chacun peint avec art dans ce nouveau miroir,</l>
+                    <l>S’y voit avec plaisir, ou croit ne s’y point voir.</l>
+                    <l>L’Avare des premiers rit du tableau fidele</l>
+                    <l>D’un Avare souvent tracé sur son modele,</l>
+                    <l>Et mille fois un Fat finement exprimé,</l>
+                    <l>Méconnoît le portrait sur lui-même formé.</l>
+                </quote>
+                <p>La Tragédie prend une autre route pour flatter notre amour propre, &amp; elle n’y
+                    réussit pas moins par l’admiration, que la Comédie par le mépris. Elle réveille
+                    en nous ces sentiments nobles &amp; généreux, qui sont comme endormis au fonds
+                    de notre ame. Nous croyons les reconnoître dans les Héros que le Poëte fait
+                    parler ; nous nous approprions leurs pensées, ou nous nous imaginons qu’ils
+                    empruntent ou qu’ils expriment les nôtres ; &amp; ces deux différents tours de
+                    notre amour propre réussissent également. Ainsi par des effets contraires, mais
+                    qui naissent de la même cause, la Comédie nous inspire l’estime de nous-mêmes
+                    par le mépris des défauts dont nous croyons être exempts, &amp; la Tragédie ne
+                    nous l’inspire pas moins par l’admiration des vertus que nous nous flattons de
+                    posséder, ou dont nous trouvons au moins les semences dans notre ame.</p>
+                <p>Indépendamment de ce retour sur nous-mêmes, tout ce qui est grand &amp; sublime,
+                    tout ce qui s’éleve au-dessus des sentiments &amp; des actions du commun des
+                    hommes, fait sur nous une impression aussi forte qu’agréable. Soit que nous nous
+                    flattions de croître en quelque maniere avec les objets qui occupent notre
+                    attention, ce qui fait que l’on aime à vivre avec les Grands, &amp; qu’un
+                    Sçavant mesure l’étendue de son esprit par la multitude des faits dont il a
+                    chargé sa mémoire, soit que notre ame née pour connoître &amp; pour posséder
+                    l’infini, se plaise à trouver toujours quelque chose de plus grand que les
+                    objets qui la frappent ordinairement ; comme si par-là elle faisoit un pas vers
+                    cette immensité de connoissance, &amp; cette plénitude de sentiment qui est le
+                    terme de ses desirs ; il est au moins certain que toute admiration, dont nous
+                    sommes saisis, nous intéresse par quelque endroit, puisqu’elle nous fait un si
+                        <pb n="361" xml:id="p361"/>grand plaisir, &amp; qu’il n’y en a guères qui
+                    nous touche davantage que celui de nous sentir enlevés &amp; comme transportés
+                    hors de nous-mêmes, soit par un discours sublime, soit par le spectacle d’une
+                    action qui nous paroît être au-dessus de l’humanité.</p>
+                <p>Je vais encore plus loin, &amp; il me semble que dans ce plaisir, je reconnois la
+                    main &amp; la bonté du Créateur qui a voulu que tout ce qui est parfait, ou qui
+                    approche de la perfection, répandit dans notre ame une satisfaction sensible
+                    pour nous en inspirer le respect, la vénération, l’amour, &amp; afin, si j’ose
+                    hazarder ici cette pensée, que nous pûssions connoître la Vertu par un sentiment
+                    d’admiration, comme nous découvrons la Vérité par ce repos d’esprit qui
+                    accompagne l’évidence. Tacite<note n="*" place="margin"><hi rend="i">De Moribus
+                            Germanorum.</hi></note> observe que chez les anciens Germains c’étoit le
+                    seul mérite qui faisoit les Chefs, <quote><hi rend="i">Duces ex
+                        virtute</hi>,</quote> &amp; qu’on leur obéissoit par admiration, <quote><hi
+                            rend="i">admiratione præsunt.</hi></quote> C’est ainsi que suivant
+                    l’institution de l’Auteur de la Nature, la Vertu devoit régner sur le cœur de
+                    l’Homme par l’admiration ; &amp; elle y régneroit encore, si les passions ne lui
+                    en disputoient l’empire par une autre espece de plaisir. Mais malgré leur
+                    révolte, la Vertu nous excite toujours à l’admirer dans le tems même que nous
+                    lui résistons. Nous le faisons encore plus, lorsqu’elle ne trouble point
+                    véritablement nos passions ; &amp; comme c’est presque toujours avec cette
+                    précaution que le Poëte nous la montre sur le Théâtre, il n’est pas surprenant
+                    qu’elle nous fasse éprouver alors ces mouvements naturels d’estime &amp;
+                    d’admiration, que des sentiments héroïques &amp; des actions magnanimes font
+                    naître dans notre ame. C’est le genre du plaisir qui domine le plus dans les
+                    Pieces de Corneille ; &amp; c’est par cet endroit qu’il a l’avantage sur Racine,
+                    son rival, qui lui est supérieur presque dans tout le reste. Despreaux<note
+                        n="*" place="margin">Lettre à M. Perrault.</note> ne se trompe donc pas
+                    lorsqu’il lui donne <quote><hi rend="i">la gloire d’avoir inventé un genre de
+                            Tragédie inconnu à Aristote, où, sans s’attacher uniquement comme les
+                            Poëtes de l’ancienne Tragédie, à émouvoir la Pitié &amp; la Terreur, il
+                            ne pense qu’à exciter dans l’ame des Spectateurs par la sublimité des
+                            pensées, <pb n="362" xml:id="p362"/>&amp; par la beauté des sentiments,
+                            une certaine admiration dont plusieurs personnes s’accommodent souvent
+                            beaucoup mieux que des véritables passions tragiques.</hi></quote></p>
+                <p>Mais le désir d’apprendre &amp; d’occuper notre esprit dont le Poëte charme
+                    l’inquiétude par la vûe d’un événement singulier &amp; merveilleux ; les
+                    passions déréglées que leur image fait naître, ou rappelle dans notre ame ; les
+                    impressions que le spectacle de la Vertu excite dans tous les cœurs, &amp;
+                    l’admiration qui en est une suite naturelle, ne sont pas les seules raisons qui
+                    attachent à la Tragédie. J’y découvre encore une nouvelle source d’un plaisir
+                    plus fin &amp; plus spirituel, qui n’est bien connu que des Spectateurs capables
+                    de réflexion, mais qui ne laisse pas de se faire sentir à ceux même qui
+                    réfléchissent le moins, &amp; qui les affecte toujours quoiqu’ils n’en sçachent
+                    peutêtre pas la cause ; je veux parler ici de ce qu’on appelle dans la Peinture
+                    l’effet du <hi rend="i">tout ensemble</hi>, ou de la composition &amp; de
+                    l’ordonnance du Tableau. J’entends par ces termes appliqués à la Tragédie, cet
+                    art du Poëte Tragique, par lequel il construit si habilement toutes les parties
+                    de son Poëme, qu’elles se tiennent comme par la main, &amp; que les divers
+                    événements qu’il y fait entrer, conspirent l’un avec l’autre, &amp; tendent tous
+                    à la même fin. J’entends encore ce tissu ingénieux, qui forme si adroitement le
+                    nœud de la Piece, que le Spectateur cherche avec inquiétude comment le Poëte
+                    pourra le dénouer, &amp; qui le dénoue ensuite si heureusement &amp; d’une
+                    maniere si convenable au reste de la Tragédie, que le dénouement paroît sortir
+                    du nœud même sans que le Poëte ait été obligé de l’aller chercher bien loin,
+                    d’emprunter des secours étrangers pour sortir de l’embarras où il s’est mis,
+                    &amp; de faire en quelque sorte une seconde Piece pour finir la premiere, comme
+                    il est arrivé à Corneille même dans les Horaces. J’entends enfin par le mérite
+                    &amp; l’artifice du <hi rend="i">tout ensemble</hi>, ce contraste &amp; en même
+                    temps cet assortiment dans les différents caracteres ; cette uniformité &amp;
+                    cette stabilité dans celui de chaque personnage qui nous donnent à peu près le
+                    même plaisir dans la Tragédie, que la <pb n="363" xml:id="p363"/>variété des
+                    ordres &amp; des ornements qui entre dans la structure d’un bel édifice, &amp;
+                    la perfection égale de chacune des parties semblables produisent dans
+                    l’Architecture.</p>
+                <p>Il résulte d’une Piece si bien ordonnée, une impression totale qui charme notre
+                    esprit par la satisfaction dont il jouit, lorsqu’il compare les différentes
+                    parties d’un Ouvrage, ou les unes avec les autres, ou avec le corps qu’elles
+                    composent ; lorsque frappé de la justesse de leurs rapports, il goûte le plaisir
+                    de voir, que chaque chose étant à sa place, elle fait en elle-même &amp; dans le
+                    tout qui en résulte, le véritable effet qu’on doit en attendre ; &amp; comme
+                    cette espece de plaisir vient du goût que nous avons naturellement pour les
+                    objets qui se présentent à nos yeux, ou à notre esprit, avec ces proportions
+                    exactes &amp; cette juste disposition, l’on peut appeller la satisfaction que
+                    nous en ressentons, le plaisir de l’ordre &amp; de l’harmonie. Mais pourquoi y
+                    trouvons-nous tant de charmes ?</p>
+                <p>C’est premierement parce que la beauté &amp; la régularité de l’ordonnance nous
+                    offrent une image plus claire &amp; plus distincte qui frappe aussi plus
+                    vivement notre attention, &amp; qui l’attache bien plus constamment ; c’est
+                    encore parce que cette image étant plus lumineuse, elle est aussi plus facile à
+                    saisir &amp; à embrasser toute entiere, ce qui plaît infiniment à notre esprit,
+                    aussi ennemi du travail qu’avide de connoissances ; de-là vient que ceux qui
+                    sont le moins instruits des régles de l’Art, goûtent le plaisir qui est attaché
+                    à l’observation de ces régles mêmes qu’ils ignorent. Leur imagination coule
+                    agréablement sur un objet qui ne l’arrête en aucun endroit, qui se développe
+                    insensiblement devant elle, sans embarras, sans confusion, sans obscurité, &amp;
+                    dont toutes les parties, se succedent l’une à l’autre, avec une liaison si
+                    vraisemblable, qu’on diroit que c’est la Nature plutôt que l’Art qui en a formé
+                    l’enchaînement.</p>
+                <p>C’est enfin, parce que rien ne nous charme davantage dans tout genre de plaisir,
+                    qu’un mêlange &amp; une combinaison parfaite de la variété avec l’unité ; une
+                    trop grande diversité <pb n="364" xml:id="p364"/>d’objets nous fatigue, une trop
+                    grande uniformité nous ennuye. La beauté de l’ordre &amp; des proportions nous
+                    enchante, parce qu’en amusant &amp; en occupant notre esprit par la diversité
+                    des objets qu’elle nous présente, elle ménage ses forces en même-tems par l’art
+                    avec lequel elle les rapporte tous au même but, &amp; réduit ainsi la variété à
+                    l’unité.</p>
+                <p>Outre cet avantage qui est commun à la Tragédie avec tous les ouvrages bien
+                    ordonnés, il y en a un qui lui est propre, ou qu’elle ne partage presque qu’avec
+                    la Comédie, &amp; le Poëme Epique ; c’est de préparer au Spectateur le plaisir
+                    de la surprise, en disposant de telle maniere la suite des événements, qu’il en
+                    naisse un étonnement &amp; une espece d’admiration différente de celle dont j’ai
+                    déja parlé, parce que c’est une grande révolution qui la produit, plûtôt qu’une
+                    grande vertu, quoiqu’il arrive souvent que l’une &amp; l’autre se réunissent
+                    &amp; fassent par leur concours une double impression sur notre esprit.</p>
+                <p>Cette réflexion est une nouvelle preuve de ce que je disois il n’y a pas
+                    long-temps, que l’homme a souvent des goûts contraires qui ont chacun leur genre
+                    de volupté, &amp; que l’adresse du Poëte consiste à les satisfaire tous
+                    également. Nous aimons à prévoir les événements qui doivent arriver, par le
+                    désir que nous avons de tout connoître, &amp; de satisfaire la curiosité de
+                    notre esprit. Nous aimons aussi à être surpris par un événement imprévû,
+                    lorsqu’il n’a rien qui nous afflige, ou qui nous menace personnellement, &amp;
+                    cette inclination est l’effet du goût que nous avons pour tout ce qui est
+                    nouveau ; non-seulement notre ame se plaît à être attentive, mais elle aime le
+                    changement dans les objets de son attention, la variété la délasse. Un objet
+                    nouveau trouve aussi une application toute neuve pour le recevoir à peu près
+                    comme le changement de mets réveille en nous un nouvel appetit. Que si l’objet
+                    n’est pas seulement nouveau, mais surprenant &amp; extraordinaire, nous le
+                    dévorons avidement comme un bien qui nous paroît d’autant plus grand qu’il étoit
+                    plus inespéré. Il finit d’ailleurs ce trouble, cette agitation, cette anxiété,
+                    qui <pb n="365" xml:id="p365"/>cause une douce torture à notre imagination par
+                    le nœud &amp; l’intrigue de la piece ; c’est une espece de délivrance qui
+                    succéde heureusement aux douleurs de ce travail, &amp;, si je l’ose dire, de cet
+                    enfantement d’esprit. Dirai-je enfin, qu’il y a je ne sçai quoi dans
+                    l’extraordinaire &amp; dans le merveilleux qui nous paroît étendre les bornes de
+                    notre intelligence, en lui découvrant ce qu’elle auroit cru impossible, si
+                    l’événement ne lui en montroit la réalité ? Mais je ne pourrois presque que
+                    répéter sur ce point ce que j’ai dit plus haut sur l’effet de l’admiration, en
+                    parlant de celle qui est excitée par l’image des Vertus. Quoi qu’il en soit, le
+                    Poëte dont toute la force consiste à bien connoître toute notre foiblesse,
+                    profite heureusement de ces dispositions, pour mieux assaisonner le plaisir de
+                    la surprise, &amp; faire ensorte que le commencement &amp; le nœud de la
+                    Tragédie servent comme d’ombre &amp; de contraste à l’événement imprévu par
+                    lequel il doit achever de nous charmer ; mais il n’oublie pas que si nous aimons
+                    la surprise, nous méprisons celle dont on veut nous frapper en violant toutes
+                    les regles de la vraisemblance : il évite donc de mettre le Spectateur en droit
+                    de lui dire,</p>
+                <quote>
+                    <l rend="i">Quodcumque ostendis mihi sic, incredulus odi.<note n="*"
+                            place="margin"><hi rend="i">Horat. de Arte Poetica.</hi></note></l>
+                </quote>
+                <p>Il ne change point Procné en hirondelle, ni Cadmus en serpent, c’est-à-dire,
+                    qu’il n’invente point un dénouement fabuleux, &amp; qui, suivant l’expression de
+                    Plutarque, <quote><hi rend="i">franchisse trop audacieusement les bornes du
+                            vraisemblable</hi></quote>. Il sçait concilier le goût que les hommes
+                    ont pour l’apparence même de la Vérité, avec le plaisir que la surprise leur
+                    cause, &amp; il tempére avec tant d’art le mêlange de ces deux sortes de
+                    satisfaction, qu’en trompant leur attente il ne révolte point leur raison ; la
+                    révolution de la fortune de ses Héros n’est ni lente ni précipitée, &amp; le
+                    passage de l’une à l’autre situation étant surprenant sans être incroyable, il
+                    fait sur nous une impression si vive par l’opposition de ces deux états, que
+                    nous croyons presque éprouver dans nous-mêmes une révolution semblable à celle
+                    que le Poëte nous présente.</p>
+                <p>Enfin le dernier effet de ce que j’ai appellé la beauté du <pb n="366"
+                        xml:id="p366"/><hi rend="i">tout ensemble</hi>, ou de l’ordre &amp; de la
+                    conduite qui régnent dans une Tragédie, est qu’elle nous met beaucoup plus en
+                    état d’y appercevoir &amp; d’en recueillir l’instruction morale qui, selon la
+                    remarque de plusieurs Auteurs, doit être comme le fruit &amp; la conclusion de
+                    cette espéce d’ouvrage.</p>
+                <p>Les anciens Philosophes, peut être plus severes que les nouveaux Casuistes, nous
+                    ont appris que la Tragédie, aussi bien que le Poëme Epique, ne devoit chercher à
+                    plaire que pour instruire : ils ont cru que l’une &amp; l’autre n’étoient
+                    véritablement qu’une Fable plus noble, à la vérité, plus étendue, plus ornée que
+                    celles d’Esope, mais du même genre &amp; qui avoit le même but, c’est-à-dire,
+                    d’employer le secours &amp; l’agrément de la fiction, pour faire entrer plus
+                    aisément dans l’esprit, &amp; pénétrer plus avant dans le cœur, une vérité
+                    morale qui en est l’ame, &amp; qui en doit animer tout le corps.</p>
+                <p>Si le Poëte Tragique entre bien dans l’esprit de son art, il faut que toute la
+                    conduite, toute l’œconomie de sa Piéce tende uniquement à établir, à développer,
+                    à mettre dans tout son jour le point de morale qui doit en être le véritable
+                    sujet, &amp; qu’en donnant par-là le plaisir de l’unité, il fasse goûter encore
+                    plus celui de la vérité, dont sa Tragédie doit être une preuve vivante, qui la
+                    démontre par les événements &amp; par cette espéce d’expérience que le
+                    Spectateur fait, suivant le proverbe Espagnol, <hi rend="i">sur la tête
+                        d’autrui</hi> ; par-là le Poëme Tragique renfermeroit une espéce de
+                    Philosophie, si les Poëtes pouvoient être vraiment Philosophes. Peindre les
+                    vices pour nous en montrer le péril, &amp; nous en faire craindre les suites
+                    malheureuses, émouvoir notre ame pour l’affermir, &amp; comme pour l’endurcir
+                    par cette émotion même, en lui donnant une trempe plus forte &amp; plus
+                    vigoureuse, c’est le moyen de rendre la Poësie utile. Un Poëte vertueux ne prend
+                    la route des sens que pour aller à la raison ; &amp; c’est par-là selon Horace,
+                    qu’il atteint à la perfection de son Art. <note n="*" place="margin"><hi
+                            rend="i">Horat. de Arte Poet.</hi></note></p>
+                <quote>
+                    <l rend="i"><note n="*" place="margin"><hi rend="i">Horat. de Arte
+                            Poet.</hi></note>Omne tulit punctum qui miscuit utile dulci,</l>
+                    <l rend="i">Lectorem delectando, pariterque monendo.</l>
+                </quote>
+                <p><pb n="367" xml:id="p367"/>Un Poëme où ces deux caracteres se trouvent dans un
+                    égal degré, charme aussi également toutes nos facultés. Il rassassie notre
+                    esprit en lui faisant goûter en même-temps le plaisir de la variété, de l’unité
+                    &amp; de la vérité. Il touche encore plus notre cœur par la beauté d’une morale
+                    qu’il rend sensible. Notre imagination n’est pas moins satisfaite d’entendre
+                    parler sa langue, non pour la séduire, mais pour la rendre plus attentive &amp;
+                    plus docile à la raison. Rien ne manque donc plus à la véritable gloire du
+                    Poëte, parce que joignant toujours ce qui plaît à ce qui touche, &amp; ce qui
+                    touche à ce qui instruit, il rassemble &amp; il réunit tout ce qui peut faire
+                    sur nous une impression aussi agréable qu’intéressante, &amp; aussi intéressante
+                    que solide.<note n="*" place="bottom">M. le Chancelier d’Aguesseau excitoit ceux
+                        qui avoient le talent de la Poësie à en faire cet usage, &amp; s’occupoit
+                        avec plaisir à revoir leurs Ouvrages. Ce fut à Fresnes que M. Racine mit la
+                        derniere main au Poëme de la Grace. M. le Cardinal de Polignac lui
+                        communiqua son beau Poëme de l’Anti-Lucrece, &amp; le retoucha après ses
+                        observations.</note></p>
+                <p>Jusqu’ici je n’ai encore parlé que du premier &amp; du principal Membre de la
+                    division d’Aristote, je veux dire, de ce que le Poëte imite, ou de l’objet de
+                    son imitation, &amp; j’ai tâché d’y découvrir les véritables causes de
+                    l’impression que fait la Tragédie ; j’y ai mêlé avec la fable ou l’action
+                    imitée, ce qui regarde les mœurs ou les caracteres, les pensées ou les
+                    sentimens, qui selon le même Philosophe, sont les deux dernieres choses que le
+                    Poëte doit imiter.</p>
+                <p>Il me reste maintenant à toucher beaucoup plus légerement les deux derniers
+                    points qu’Aristote distingue dans l’imitation du Poëte Tragique comme dans toute
+                    autre imitation ; l’un est la maniere d’imiter, l’autre consiste dans les
+                    secours ou dans les instruments de l’imitation, &amp; il me suffiroit presque
+                    d’observer ici en général, que ce qui plaît dans ces deux derniers points, nous
+                    émeut par les mêmes raisons que j’ai expliquées peutêtre avec trop d’étendue sur
+                    le premier.</p>
+                <p>Les paroles sont les couleurs, ou si l’on veut, le pinceau du Poëte, c’est par
+                    elles qu’il imite, &amp; qu’il peint dans notre ame tout ce qu’il entreprend de
+                    représenter ; mais 1°. Ce sont des paroles harmonieuses dont la mesure uniforme
+                    ou variée, <pb n="368" xml:id="p368"/>mais toujours assujettie à certaines
+                    regles, forme ce qu’on appelle des vers. C’est une espéce de Musique qui plaît
+                    naturellement à notre ame par les sons &amp; par leurs rapports, mais qui lui
+                    plaît encore parce qu’elle forme une espéce de Langue différente qui réveille
+                    bien plus notre attention que celle qui nous est plus familiere. Quoique parmi
+                    nous, la Langue Poëtique ne soit pas aussi éloignée du langage ordinaire qu’elle
+                    l’étoit chez les Grecs, &amp; que leurs Poëtes ayent eu par-là un grand avantage
+                    sur les nôtres, il reste néanmoins assez de différences même dans notre Langue,
+                    entre le style de la Poësie &amp; celui de la Prose, pour nous faire goûter le
+                    plaisir d’entendre un langage plus noble que celui qui nous est ordinaire.</p>
+                <p>2°. Ce n’est pas seulement par les nombres &amp; par la cadence que les Vers
+                    peuvent être regardés comme une espéce de Langue à part, qui nous attache
+                    beaucoup plus que la Prose. C’est encore plus par la noblesse des pensées, par
+                    la hardiesse de l’expression, par la vivacité des images, par la variété des
+                    figures, &amp; par la liberté des mouvements, que la Poësie s’éleve au-dessus du
+                    langage vulgaire, &amp; qu’elle fait sur nous des impressions si sensibles. Je
+                    n’ai pas besoin d’en expliquer ici la raison ; je l’ai marquée par avance,
+                    lorsque j’ai parlé en général du plaisir que notre imagination trouve à être
+                    remuée &amp; à éprouver une agitation douce &amp; agréable. L’application s’en
+                    fait d’elle-même au style Poëtique ; il nous plaît jusque dans la Prose,
+                    lorsqu’elle peut oser s’en permettre l’usage ; &amp; le Public en a fait
+                    l’experience dans Telemaque, dont la lecture a sçu l’intéresser pour le moins
+                    autant que celle de l’Odissée, malgré le grand avantage que les charmes du
+                    nombre &amp; de la mesure donnoient au Poëte Grec sur l’Auteur François.</p>
+                <p>3°. Enfin les expressions qui frappent dans la Tragédie, ne sont point des
+                    paroles froides, inanimées, &amp; pour ainsi dire, des paroles mortes, qu’on
+                    n’apprenne que par le récit du Poëte, comme dans le Poëme Epique ; ce sont, pour
+                    suivre la même image, des paroles sensibles, animées, des paroles vivantes. Ce
+                    n’est pas Corneille que nous entendons, c’est Cinna, c’est Emilie, c’est Maxime,
+                    c’est Auguste ; &amp; de-là <pb n="369" xml:id="p369"/>vient que ce genre
+                    d’imitation a un si grand avantage sur celle qui se fait dans l’Epopée. Il joint
+                    la lumiere &amp; les couleurs de la peinture, à la vérité &amp; au relief de la
+                    Sculpture ; il y ajoute le mouvement &amp; la vie qui manquent à l’une &amp; à
+                    l’autre. Oubliez pour un moment, que les Acteurs ne sont pas ceux qu’ils
+                    représentent, l’imitation deviendra la nature même, vous sentirez la même
+                    émotion que si vous entendiez parler ceux qui ont eu part à l’action
+                    représentée, &amp; les expressions qui paroissent sortir de leurs bouches mêmes,
+                    ne portent que trop réellement dans le cœur des Spectateurs leurs différentes
+                    passions.</p>
+                <p>Jugeons par ce qui se passe dans le Poëte lui-même, de l’effet que ses Vers font
+                    sur nous par le ton sur lequel la Poësie monte &amp; éleve notre ame.</p>
+                <p>Qu’est-ce qu’un Poëte selon Horace ?</p>
+                <quote>
+                    <l rend="i">Ingenium cui sit, cui mens divinior, atque os</l>
+                    <l rend="i">Magna sonaturum, des nominis hujus honorem. <note n="*"
+                            place="margin"><hi rend="i">Horat. Lib. I. Satyr. IV.</hi></note></l>
+                </quote>
+                <p>Aussi les premiers Poëtes ont-ils passé pour des hommes inspirés : leur
+                    enthousiasme a paru avoir quelque chose de plus qu’humain, &amp; leur langue a
+                    été appellée la langue des Dieux. On permet à Claudien<note n="*" place="margin"
+                            ><hi rend="i">Claud. de rapt. Proserp. Lib. I.</hi></note> même de
+                    dire :</p>
+                <quote>
+                    <l rend="i">          Gressus removete profani :</l>
+                    <l rend="i">Jam furor humanos nostro de pectore sensus</l>
+                    <l rend="i">Expulit, &amp; totum spirant prœcordia Phœbum.</l>
+                </quote>
+                <p>On diroit que le Poëte nous crie à haute voix comme la Sibille de l’Eneïde,</p>
+                <quote>
+                    <l rend="i">Deus, ecce Deus. <note n="*" place="margin"><hi rend="i">Virg.
+                                Æneid. Lib. VI.</hi></note></l>
+                </quote>
+                <p>Et l’on applique volontiers à Virgile ce qu’il dit de sa Prêtresse,</p>
+                <quote>
+                    <l rend="i">        …….. Majorque videtur</l>
+                    <l rend="i">Nec mortale sonans, afflatur numine quando</l>
+                    <l rend="i">Jam propiore Dei…….</l>
+                </quote>
+                <p>Mais la fureur des Poëtes est une passion contagieuse. Elle se communique, elle
+                    pénétre dans l’ame du Spectateur, <pb n="370" xml:id="p370"/>qui devient presque
+                    comme ces Peuples que le son de certains instruments fait danser malgré eux ;
+                    pour peu qu’il ait l’ame facile à émouvoir, il entre dans l’enthousiasme, &amp;
+                    il éprouve en lui les mêmes mouvements qui ont agité le Poëte dans la chaleur de
+                    la composition. Il sent dans son ame je ne sçai quoi de plus noble, de plus
+                    sublime : il croit être transporté dans une région supérieure.</p>
+                <quote>
+                    <l rend="i">Sub pedibusque videt nubes &amp; sidera. <note n="*" place="margin"
+                                ><hi rend="i">Virgil.</hi></note></l>
+                </quote>
+                <p>Il conçoit une plus haute idée de ses forces : il se flatte de penser avec plus
+                    d’élévation, &amp; c’est là sans doute une des plus grandes causes de cette
+                    espéce d’enchantement qui est attaché à la Poësie sublime &amp; héroïque.</p>
+                <p>La déclamation, le geste, le mouvement des Acteurs, augmentent cet enchantement,
+                    sur-tout quand ils sont soutenus de ce qu’Aristote appelle les secours ou les
+                    instruments de l’imitation, &amp; dont il fait la troisiéme partie de sa
+                    division générale ; je veux parler ici de la Musique &amp; de la Décoration qui
+                    tendent à la même fin que tout le reste, &amp; qui y tendent presque par les
+                    mêmes impressions.</p>
+                <p>La Musique excite &amp; attache notre attention comme la Poësie, par une espéce
+                    de langue qui lui est particuliere, &amp; qui ne nous parle que par les rapports
+                    des sons : elle nous affecte encore plus que la Poësie, même par la douceur du
+                    nombre &amp; de l’harmonie, qui n’a tant de charmes pour nous que parce qu’en
+                    ébranlant avec une justesse &amp; une convenance parfaite les cordes de cet
+                    instrument naturel qui y répond dans nos oreilles, elle cause dans notre ame une
+                    émotion aussi douce qu’agréable ; elle frappe, pour ainsi dire, les ressorts de
+                    toutes les passions par des accords qui les excitent ou les rappellent : elle
+                    les justifie aussi en un sens &amp; les authorise comme la Poësie dramatique,
+                    par la douceur qui est attachée aux dispositions qu’elle inspire dans l’ame, qui
+                    en s’y livrant a de la peine à croire que ce qui lui paroît si innocent &amp;
+                    qui est si agréable, puisse jamais lui être funeste, ni qu’un plaisir dont elle
+                    fait son bonheur actuel, soit capable de la rendre moins parfaite. La <pb
+                        n="371"/>Musique exprime même la majesté de la Vertu, &amp; semble lui
+                    prêter des graces &amp; des charmes, &amp; c’étoit la premiere destination du
+                    chant &amp; de la symphonie. Elle présente aussi à notre esprit ce mêlange,
+                    cette combinaison bien proportionnée de variété &amp; d’unité qui domine dans
+                    tous les Ouvrages dont il est justement touché ; elle le remplit d’admiration
+                    par des sons dont le rapport, &amp; encore plus le contraste, nous surprend
+                    &amp; nous ravit par le changement soudain qu’il produit dans notre ame. Elle a
+                    donc son sublime comme la Poësie, &amp; elle transporte l’Auditeur comme dans un
+                    séjour enchanté où il éprouve une espéce d’yvresse qui absorbe toute autre
+                    pensée. Elle excite, elle soutient ou elle anime les passions qui affectent
+                    l’ame dans la Tragédie, &amp; elle y mêle une plus grande diversité qui sert à
+                    délasser &amp; à renouveller l’attention. On en a vû l’effet dans les
+                    représentations d’Esther &amp; d’Athalie<note n="*" place="bottom">Racine a mis
+                        dans ces deux Pieces des Chœurs à l’imitation des Anciens. Il les composa
+                        pour être representées dans la Maison de Saint-Cyr, depuis la résolution
+                        qu’il avoit prise de ne plus travailler pour le Théâtre. Le Privilége pour
+                        l’impression d’Esther fut accordé en 1689 aux Dames de Saint-Cyr, avec
+                        défenses à touts Acteurs de la représenter, l’Auteur ayant supplié le Roi
+                        d’y insérer cette condition, <quote><hi rend="i">parce qu’il falloit des
+                                personnes innocentes pour chanter les malheurs de Sion</hi></quote>,
+                        comme dit Mad. de Sevigné, Lettre 533, Mem. sur la vie de J. Racine,
+                        pag. 229.</note> qui ont fait sentir combien ce mêlange de Vers &amp; de
+                    Musique donnoit d’avantage aux Tragédies Grecques &amp; Latines sur les
+                    nôtres.</p>
+                <p>La Décoration est trop peu de chose par rapport à tout le reste pour mériter que
+                    je m’arrête à observer que par son rapport &amp; sa convenance avec l’action
+                    représentée, elle rend la représentation plus vive &amp; plus animée, qu’elle en
+                    lie &amp; en unit toutes les parties, &amp; qu’elle y ajoute un nouvel
+                    ornement.</p>
+                <p>Tout ce que je viens de distinguer soit dans les parties principales de la
+                    Tragédie, soit dans celles qui appartiennent plus à l’ornement qu’à l’essence de
+                    cette espéce de Poëme, fait connoître les prémieres causes de l’impression
+                    qu’elle produit sur les Spectateurs en réveillant, en fortifiant, en authorisant
+                    leurs passions.</p>
+                <p><pb n="372" xml:id="p372"/>Après cela je consens très-volontiers que l’on y
+                    ajoute encore un plaisir d’un autre genre, qui est indépendant de la
+                    représentation, &amp; de la vûe d’un Spectacle : c’est celui que notre ame qui
+                    desire toujours la perfection, trouve naturellement à juger &amp; à connoître
+                    les rapports des objets qui lui sont présentés ; &amp; en effet, ce plaisir dont
+                    je parlerai bientôt plus à fond, doit être gardé pour le dernier, parce qu’il se
+                    mêle &amp; qu’il influe dans tous les autres, &amp; qu’il se fait sentir
+                    également par rapport à tous les Ouvrages de l’art.</p>
+                <p>Aristote a donc eu raison de dire que la Tragédie, comme tout autre Poëme, est
+                    une peinture. Il ne s’est pas trompé non plus lorsqu’il a remarqué que l’homme
+                    se plaît naturellement à l’imitation, soit qu’il imite lui-même, soit qu’il ne
+                    fasse que sentir l’effet de l’imitation faite par un autre. Mais Aristote
+                    resserre les charmes de la Poësie dans des bornes trop étroites, quand il les
+                    fait consister dans le seul plaisir que l’imitation cause à notre esprit. Je
+                    viens d’en indiquer un grand nombre d’une autre espece, &amp; j’y en ajouterois
+                    peutêtre de nouveaux, si la matiere méritoit d’être encore plus approfondie,
+                    &amp; si je n’avois à me reprocher de m’en être déja trop occupé.</p>
+                <p>En vain Aristote, ou ses partisans, voudroient-ils répondre que c’est par
+                    l’imitation même que le Poëte Tragique prépare ces différents genres de plaisir.
+                    Il est vrai que tout l’art &amp; toute la perfection de la Tragédie consiste en
+                    un sens dans une imitation sçavante &amp; fidele, ensorte que le Poëte qui imite
+                    le mieux, est aussi celui qui nous plaît davantage. Mais autre chose est le
+                    plaisir qui résulte de cette justesse d’imitation considérée comme telle, &amp;
+                    en tant que c’est une imitation dont nous comparons le rapport avec son
+                    original ; autre chose est l’impression agréable que fait sur nous l’action ou
+                    l’événement que le Poëte imite. L’un est le plaisir que l’Art, envisagé comme
+                    Art, excite dans notre esprit ; l’autre est le plaisir qui naît des choses mêmes
+                    que l’Art met devant nos yeux.</p>
+                <p>Qu’il me soit permis, pour en faire mieux sentir la différence, de comparer
+                    l’impression que fait sur moi un tableau <pb n="373" xml:id="p373"/>de Tesnieres
+                    qui me représente un cabaret ou une noce de Village, avec celle dont je suis
+                    frappé à la vûe d’un tableau de Raphaël, tel que celui de la Sainte Famille ou
+                    du Saint Michel que l’on voit à Versailles. L’Art est égal dans les deux
+                    Peintres ; l’imitation est parfaite de part &amp; d’autre : le Peintre Flamand
+                    auroit peutêtre même quelque avantage par cet endroit, sur le Romain ; sa
+                    peinture a je ne sçai quoi de plus vrai : son imitation est plus naïve ; on la
+                    prendroit presque pour la nature même : ainsi du côté du plaisir que j’ai
+                    appellé le plaisir de l’Art, je suis également satisfait de l’une &amp; de
+                    l’autre peinture. Mais quelle disproportion entre les sentiments dont je suis
+                    affecté par les différents objets qu’ils imitent tous deux avec la même
+                    perfection ? L’un me plaît par la grace, la naïveté que j’y observe : l’autre
+                    fait sur moi une impression plus sérieuse, plus forte, plus profonde par la
+                    grandeur, la noblesse, le sentiment que le Peintre a sçu jetter dans les
+                    caracteres qu’il a voulu exprimer. Je sens naître dans mon cœur des mouvements
+                    de respect &amp; d’admiration : ce n’est plus seulement l’Art qui me frappe,
+                    c’est l’objet même que l’Art me présente. Telle est la différence d’une belle
+                    Tragédie &amp; de la Farce la plus amusante : celle-ci peut être aussi parfaite
+                    en son genre que la Tragédie dans le sien : le mérite de l’imitation leur est
+                    commun, &amp; le plaisir doit être égal à cet égard. Mais l’une l’emporte sur
+                    l’autre, (&amp; il me suffit même qu’elle en differe) par le mérite ou par la
+                    nature de la chose imitée. Que fait donc l’imitation dans la Poësie comme dans
+                    la Peinture ? Je comparerois volontiers cette espece de prestige que l’une &amp;
+                    l’autre exercent sur nous, à l’artifice des Lunettes d’approche qui efface la
+                    distance des objets, &amp; qui me met en état d’en recevoir une impression si
+                    vive &amp; si distincte, que comme c’est par cette distinction &amp; cette
+                    vivacité que je juge de leur proximité, je crois voir la Lune au bout du
+                    Télescope au travers duquel je l’apperçois ; il ne fait que la placer à la
+                    portée de mes yeux, &amp; après cela c’est la Lune même que j’observe, c’est sa
+                    lumiere qui agit sur moi, &amp; quelquefois si fortement que j’en suis ébloui.
+                    Il en est de <pb n="374"/>même lorsque la Lunette appelle, pour ainsi dire, la
+                    façade d’un Palais éloigné, &amp; l’oblige à se présenter devant moi. Elle a
+                    fait par-là tout ce qui est de son ressort, &amp; c’est alors la beauté de
+                    l’objet, la régularité, les proportions &amp; les ornements de l’Architecture,
+                    qui causent par eux-mêmes l’impression du plaisir que je sens. Tel est à
+                    peu-près ce que j’ai nommé le prestige de l’imitation du Peintre ou du Poëte :
+                    il rapproche l’objet ; il le met tout entier, &amp; tel qu’il est sous mes yeux.
+                    C’est à quoi se termine toute l’industrie de l’imitateur : mais lorsqu’il a une
+                    fois achevé son ouvrage, ce n’est plus lui à proprement parler qui agit sur mon
+                    ame, c’est le sujet même, c’est l’union &amp; le concours de toutes les parties
+                    de l’événement, qui excitent en moi cette agitation &amp; cette espece de
+                    chaleur que j’éprouve. Ainsi, pour me servir encore d’une comparaison semblable,
+                    un miroir ardent ne sert qu’à réunir, comme dans un point, plusieurs rayons de
+                    lumiere, &amp; ce sont ensuite ces rayons, qui par leur propre chaleur allument
+                    &amp; embrasent tout ce que l’on place dans leur foyer.</p>
+                <p>Jugeons enfin, pour achever d’approfondir cette pensée, jugeons de l’Art par la
+                    nature, &amp; de la fiction par la Vérité. Une action, telle que celle qui fait
+                    le sujet de la Tragédie de Cinna, se passe réellement devant mes yeux ; j’entens
+                    les conversations de Cinna &amp; d’Emilie ; je vois leur entreprise sur le point
+                    d’éclater : j’assiste à la délibération d’Auguste sur l’abdication de l’Empire
+                    &amp; le rétablissement de la République ; je suis témoin de la trahison de
+                    Maxime : la conjuration est découverte. Auguste se trouble ; Livie le rassure,
+                    &amp; lui donne un conseil généreux. Il accable Cinna de reproches trop
+                    mérités ; il lui fait grace ensuite par une grandeur d’ame &amp; une clémence
+                    inouies. Je suis présent à tout, sans intérêt personnel, &amp; sans avoir rien à
+                    craindre ni à désirer pour moi-même. Certainement si cette supposition étoit une
+                    vérité, ce ne seroit pas alors le plaisir de l’imitation ou des rapports
+                    apperçus entre l’original &amp; la copie, qui se feroit sentir à mon ame,
+                    puisque l’action même se passeroit en ma présence ; mais je serois agité de tous
+                    les mouvements que la curiosité <pb n="375" xml:id="p374"/>même lorsque la
+                    Lunette appelle, pour ainsi dire, la façade d’un Palais éloigné, &amp; l’oblige
+                    à se présenter devant moi. Elle a fait par-là tout ce qui est de son ressort,
+                    &amp; c’est alors la beauté de l’objet, la régularité, les proportions &amp; les
+                    ornements de l’Architecture, qui causent par eux-mêmes l’impression du plaisir
+                    que je sens. Tel est à peu-près ce que j’ai nommé le prestige de l’imitation du
+                    Peintre ou du Poëte : il rapproche l’objet ; il le met tout entier, &amp; tel
+                    qu’il est sous mes yeux. C’est à quoi se termine toute l’industrie de
+                    l’imitateur : mais lorsqu’il a une fois achevé son ouvrage, ce n’est plus lui à
+                    proprement parler qui agit sur mon ame, c’est le sujet même, c’est l’union &amp;
+                    le concours de toutes les parties de l’événement, qui excitent en moi cette
+                    agitation &amp; cette espece de chaleur que j’éprouve. Ainsi, pour me servir
+                    encore d’une comparaison semblable, un miroir ardent ne sert qu’à réunir, comme
+                    dans un point, plusieurs rayons de lumiere, &amp; ce sont ensuite ces rayons,
+                    qui par leur propre chaleur allument &amp; embrasent tout ce que l’on place dans
+                    leur foyer.</p>
+                <p>Jugeons enfin, pour achever d’approfondir cette pensée, jugeons de l’Art par la
+                    nature, &amp; de la fiction par la Vérité. Une action, telle que celle qui fait
+                    le sujet de la Tragédie de Cinna, se passe réellement devant mes yeux ; j’entens
+                    les conversations de Cinna &amp; d’Emilie ; je vois leur entreprise sur le point
+                    d’éclater : j’assiste à la délibération d’Auguste sur l’abdication de l’Empire
+                    &amp; le rétablissement de la République ; je suis témoin de la trahison de
+                    Maxime : la conjuration est découverte. Auguste se trouble ; Livie le rassure,
+                    &amp; lui donne un conseil généreux. Il accable Cinna de reproches trop
+                    mérités ; il lui fait grace ensuite par une grandeur d’ame &amp; une clémence
+                    inouies. Je suis présent à tout, sans intérêt personnel, &amp; sans avoir rien à
+                    craindre ni à désirer pour moi-même. Certainement si cette supposition étoit une
+                    vérité, ce ne seroit pas alors le plaisir de l’imitation ou des rapports
+                    apperçus entre l’original &amp; la copie, qui se feroit sentir à mon ame,
+                    puisque l’action même se passeroit en ma présence ; mais je serois agité de tous
+                    les mouvements que la curiosité <pb n="375"/>naturelle, que l’attente inquiete
+                    de l’événement, que la grandeur des caracteres, la sublimité ou la violence des
+                    sentiments peuvent exciter dans mon cœur. Or ne sont-ce pas-là les mêmes
+                    impressions que la représentation de Cinna fait sur les Spectateurs, &amp;
+                    qu’elle a faites encore plus lorsqu’elle a paru pour la premiere fois ? C’est
+                    donc dans la beauté du sujet même &amp; de toutes ses circonstances, c’est dans
+                    la grandeur singuliere de l’événement, dans les caracteres des Héros de la
+                    piece, dans leurs sentiments, dans leurs expressions, en un mot, dans ce que le
+                    Poëte imite, qu’il faut chercher la principale source du plaisir qu’il fait
+                    goûter. Si ce plaisir differe beaucoup de celui que causeroit un grand événement
+                    dont nous serions témoins, c’est parce que la vérité nous frappe toujours plus
+                    que la plus parfaite peinture. Elle excite en nous des sentiments plus vrais,
+                    des passions plus originales, au lieu que celles qui naissent de l’imitation,
+                    tiennent toujours quelque chose de la copie ; &amp; que pour se servir ici d’un
+                    terme de Ciceron, elles sont <quote><hi rend="i">non expressa quidem sed
+                            adumbrata signa affectuum</hi></quote>. Mais le genre de l’impression
+                    est le même, si le degré en est différent, &amp; cette impression est un effet
+                    absolu que la chose même produit, &amp; non pas seulement un plaisir de
+                    comparaison, qui ne naisse que d’un rapport de conformité entre la
+                    représentation &amp; l’objet représenté.</p>
+                <p>J’ajoute encore que le plus grand mérite &amp; le plus haut degré de l’imitation
+                    quand elle est parfaite, est de se cacher elle-même, &amp; de rendre l’illusion
+                    si forte &amp; si dominante, que l’esprit tout occupé de l’objet imité n’ait pas
+                    le loisir de penser à l’art de l’imitation. La Poësie n’est, à la vérité, qu’une
+                    peinture ; mais cette peinture est bien froide, lorsqu’au premier moment qu’elle
+                    frappe notre vûe, elle nous laisse assez de sang froid pour faire des
+                    comparaisons ; &amp; pour bien juger de la fidélité du pinceau, il faut qu’elle
+                    nous tansporte dans le temps &amp; dans le lieu où l’action s’est passée
+                    véritablement, que l’on croie la voir de ses yeux, l’entendre de ses oreilles,
+                    &amp; il ne faut pas croire que notre ame refuse de se prêter à cette espece
+                    d’enchantement : elle s’y livre au <pb n="376" xml:id="p376"/>contraire avec
+                    d’autant plus de plaisir que l’illusion de la Poësie est plus parfaite. Elle
+                    réalise sans effort tout ce qui peut flatter ses passions en les remuant
+                    agréablement. Corneille vouloit que l’on eût l’indulgence pour les Poëtes
+                    Tragiques, d’admettre un lieu théatral, où, sans blesser la regle de l’unité, on
+                    voulût bien supposer que tous les événements de la piece auroient pû se passer
+                    avec vrai-semblance ; mais si son idée a quelque chose de bisarre, il ne l’est
+                    point de penser que la plûpart des hommes ont une imagination disposée à
+                    recevoir toutes les fictions &amp; les suppositions du Poëte, où chacune se
+                    place, &amp; où l’apparence fait presque la même impression que la vérité. On
+                    les écoute dans la résolution de s’y laisser tromper, &amp; c’est parce qu’on
+                    s’y trompe en effet, &amp; qu’on prend la copie pour l’original, que des
+                    malheurs seints excitent une compassion presque réelle, &amp; que l’image de la
+                    douleur y fait couler des larmes passageres, mais, en un sens véritables. Le
+                    commun des hommes aime mieux se laisser agiter, échauffer, attendrir, que
+                    d’examiner s’il a raison d’être touché : &amp; si le Poëte a sçu imiter
+                    parfaitement les actions, les sentiments, les pensées de ceux qu’il met sur la
+                    scène, les Spectateurs <quote><hi rend="i">se reposent sur lui</hi><seg
+                            type="exquote">, (comme Racine l’a fort bien dit)</seg>
+                        <hi rend="i">du soin d’éclaircir les difficultés de la Poëtique d’Aristote :
+                            ils se réservent le plaisir de pleurer &amp; d’être
+                        attendris</hi></quote>. Juger de l’exacte observation des regles de l’Art,
+                    c’est le plaisir du Philosophe &amp; du Connoisseur ; mais ce n’est pas celui du
+                    plus grand nombre des hommes : le Philosophe &amp; le Connoisseur même, s’ils
+                    ont l’ame sensible, ne le goûtent que par réflexion, &amp; leur plaisir direct
+                    est le même que celui du Peuple, je veux dire, le plaisir qui naît des
+                    mouvements excités dans leur ame par une action qu’ils veulent bien regarder
+                    pour un moment comme une action véritable.</p>
+                <p>Il en est de même à proportion du plaisir que la Musique nous fait ; une ame
+                    délicate &amp; sensible à l’harmonie, ne pense point d’abord à examiner si un
+                    air tendre &amp; touchant exprime bien le sentiment d’un cœur foible &amp;
+                    passionné : elle se livre naturellement &amp; presque machinalement à
+                    l’impression que <pb n="377" xml:id="p377"/>cet air fait sur elle ; elle devient
+                    elle-même ce cœur touché dont le Musicien a voulu faire sentir l’état par des
+                    modes propres à inspirer la tendresse &amp; la douleur ; le plaisir de comparer
+                    le rapport de ces modes avec la disposition de notre ame, qu’ils peignent, pour
+                    ainsi dire, par le son, ne vient qu’après-coup ; c’est un plaisir réflechi qui
+                    ne se fait sentir qu’en second. L’habile Musicien, qui s’est fait une longue
+                    habitude des regles de son Art, peut en être frappé plûtôt ; mais le commun des
+                    hommes jouit des sentiments que la Musique fait naître dans son ame, sans en
+                    rechercher la cause. Combien y en a-t’il qui passent leurs jours à entendre des
+                    Opéra &amp; des Concerts, &amp; qui n’ont pas encore fait réflexion, que le
+                    plaisir qu’ils y goûtent, vient de la fidélité de l’Imitation qui se fait par la
+                    Musique ? ou si leur esprit a quelques lueurs de cette vérité, elles sont si
+                    foibles, si obscures, si enveloppées dans le sentiment, qu’ils ne s’en
+                    apperçoivent presque pas eux-mêmes, &amp; l’on ne peut guères s’imaginer qu’une
+                    pensée à laquelle ils font si peu d’attention, soit néanmoins la véritable cause
+                    du plaisir qu’ils y trouvent. Ainsi, de même que les sons &amp; leurs accords
+                    nous charment par les mouvements qu’ils excitent en nous indépendamment de la
+                    réflexion que nous pouvons faire sur l’Art, avec lequel le Musicien a sçu
+                    exprimer ce qu’il imite, il y a aussi dans les impressions qu’un sujet rapproché
+                    par l’imitation du Poëte nous fait éprouver, un plaisir direct, qui prévient
+                    &amp; qui surpasse le plaisir plus abstrait &amp; plus refléchi que nous prenons
+                    à juger de la justesse &amp; de la fidélité de l’Imitation.</p>
+                <p>Il me semble donc que si l’Auteur du discours qui m’a fait naître toutes ces
+                    pensées, veut plaire &amp; instruire véritablement en traitant la matiere de
+                    l’Imitation par rapport à la Tragédie, il doit embrasser également les deux
+                    objets principaux auxquels on peut la réduire toute entiere ; je veux dire :</p>
+                <p>1°. Le plaisir de l’Imitation considérée comme Vérité, &amp; comme un événement
+                    réel qui se passeroit en notre présence.</p>
+                <p>2°. Le plaisir de l’Imitation considérée seulement comme <pb n="378"
+                        xml:id="p378"/>Imitation, &amp; comme un Ouvrage de l’Art, dont on examine
+                    le rapport &amp; la convenance avec l’objet qu’il imite.</p>
+                <p>Je n’ai fait ici qu’une ébauche grossiere de ce qui regarde le premier point, où
+                    j’ai jetté rapidement, &amp; peutêtre avec trop d’abondance, les premiers traits
+                    qui se sont présentés à mon esprit : les réflexions de l’Auteur, la fécondité de
+                    son génie &amp; la délicatesse de son goût y suppléront avantageusement par les
+                    nouvelles découvertes qu’il fera dans le cœur humain, &amp; par l’Art avec
+                    lequel il développera les ressorts des mouvements que je n’ai presque fait
+                    qu’indiquer ; il ne sçauroit au moins traiter cette matiere d’une maniere plus
+                    agréable ni plus intéressante pour ceux qui se plaisent à chercher dans la
+                    connoissance de l’homme le fondement des regles de la Poësie, comme de celles de
+                    la Rhétorique.</p>
+                <p>Après avoir épuisé ce premier point, la seconde face sous laquelle on peut
+                    envisager la Tragédie, en ne la considérant que comme une Imitation, lui
+                    fournira un sujet presque aussi riche, s’il s’attache à bien expliquer pourquoi
+                    toute Imitation nous plaît en tant qu’Imitation, &amp; pourquoi celle qui est
+                    l’ame de la Tragédie, fait de plus fortes impressions que toutes les autres.</p>
+                <p>L’Auteur paroît avoir voulu se réduire à traiter ces deux dernieres questions.
+                    Mais je ne sçai si dans cette vûe même, il n’y auroit pas plusieurs choses qu’il
+                    pourroit développer, ou même ajouter pour rendre sa Dissertation plus pleine
+                    &amp; plus parfaite. J’en indiquerai ici quelques-unes, puisque j’ai commencé à
+                    ne ménager ni ma paresse naturelle, ni la patience de l’Auteur.</p>
+                <div2 type="section">
+                    <head>I.</head>
+                    <p>Ne pourroit-on pas y distinguer davantage la satisfaction que nous avons à
+                        imiter nous-mêmes, &amp; celle que nous prenons à voir l’ouvrage que
+                        l’Imitation faite par un autre a produit ?</p>
+                    <p>Lorsque nous imitons nous-mêmes, nous goûtons plusieurs plaisirs qui ne
+                        dépendent point de celui d’appercevoir des rapports ; comme le plaisir
+                        d’agir qui nous fait sentir notre <pb n="379" xml:id="p379"/>force ; le
+                        plaisir de mépriser l’original, &amp; de le regarder comme étant fort
+                        au-dessous de nous, si nous ne l’imitons que pour le tourner en ridicule ;
+                        le plaisir contraire de jouter en quelque maniere contre notre modele, s’il
+                        nous paroît digne d’estime ou d’admiration, &amp; de nous flatter d’avoir
+                        remporté la victoire, &amp;c.</p>
+                    <p>Lorsque nous voyons l’effet de l’Imitation faite par un autre, ces plaisirs
+                        se changent en celui de comparer, de juger, d’exercer une espece de
+                        supériorité sur l’Ouvrage &amp; sur l’Auteur.</p>
+                </div2>
+                <div2 type="section">
+                    <head>II.</head>
+                    <p>De la différence qui est entre ces deux especes de plaisirs, ne pourroit-on
+                        pas conclure qui si les enfants aiment naturellement à imiter, ce n’est pas
+                        précisément par le plaisir de juger, à quoi l’Auteur attribue dans la suite
+                        de son discours le goût que nous avons pour l’Imitation ; c’est plûtôt par
+                        la satisfaction qu’ils trouvent dans le mouvement &amp; dans l’action, &amp;
+                        parce qu’ils sont déja sensibles au plaisir de jouir des perfections de leur
+                        être, c’est-à-dire, des forces de leur corps &amp; de celles de leur esprit.
+                        Mais pourquoi en veulent-ils jouir par l’Imitation ? c’est parce que leur
+                        raison n’étant encore ni assez développée, ni assez parfaite pour mettre en
+                        ordre leurs idées afin de produire quelque chose d’eux-mêmes, &amp; de faire
+                        de nouvelles découvertes, ils sont obligés de s’arrêter à ce qu’ils ont vû
+                        faire aux autres. Ainsi le plaisir qu’ils prennent à les contrefaire pour
+                        s’amuser &amp; pour s’exercer, pourroit bien venir autant de la foiblesse de
+                        leur esprit, que d’une pente naturelle à l’Imitation. L’on entretient
+                        d’ailleurs, &amp; l’on augmente ce goût dans les enfants, par les louanges
+                        qu’on leur donne lorsqu’ils ont réussi dans cette espece de Comédie qu’ils
+                        jouent naturellement. Leur vanité les porte donc à imiter encore plus que le
+                        plaisir même de l’Imitation. Et ces réflexions ne conviennent pas seulement
+                        aux enfants. Combien y a-t’il des personnes d’un âge mûr, &amp; même de
+                        beaux esprits, à qui l’on pourroit appliquer ce qu’un Prêtre Egyptien <pb
+                            n="380"/>disoit au Législateur d’Athenes, <quote><hi rend="i">O Solon,
+                                Solon, vous autres Grecs, vous êtes toujours enfants ?</hi></quote>
+                        On est frappé de ce que l’on voit, ou que l’on entend dire, &amp; l’on se
+                        plaît à l’imiter ; on se croit assuré de plaire en imitant ce qui est à la
+                        mode. L’esprit aime naturellement à agir : mais il préfére ce qui lui coûte
+                        moins de travail ; &amp; le succès, en donnant moins de peine, ne laisse pas
+                        d’attirer de grands applaudissements à l’Imitateur : on en voit aussi
+                        beaucoup plus que de véritables Auteurs ; &amp; ce n’est pas seulement dans
+                        la Peinture qu’il est vrai de dire qu’on trouve mille &amp; dix mille copies
+                        contre un seul original. Je serois donc bien tenté de croire, que d’un côté
+                        le desir d’agir, &amp; de l’autre la foiblesse ou la paresse de notre esprit
+                        jointes à sa vanité, ont souvent presque autant de part que les charmes de
+                        l’Imitation, au plaisir que nous prenons à tout imiter.</p>
+                </div2>
+                <div2 type="section">
+                    <head>III.</head>
+                    <p>Je consens très-volontiers qu’on regarde le goût que la plûpart des gens
+                        d’esprit ont pour la Peinture, pour la Sculpture, pour la Musique, pour les
+                        Fables, comme une des preuves du plaisir qu’ils prennent à l’Imitation,
+                        pourvu néanmoins qu’on y joigne toujours cette impression d’un ordre
+                        supérieur que les choses mêmes qui sont imitées font sur notre ame ; mais
+                        j’aurois plus de répugnance à mettre l’Histoire dans le même rang. Il n’y a
+                        personne qui ne sente que le plaisir qu’il trouve à la lire, à satisfaire
+                        ainsi la curiosité naturelle à notre esprit, à y étudier le cœur humain, à
+                        former son jugement &amp; ses mœurs par de grands exemples de Vice &amp; de
+                        Vertu, de Folie &amp; de Sagesse, de Foiblesse &amp; de Fermeté, n’a rien de
+                        commun avec le plaisir de l’Imitation renfermé dans ses véritables bornes.
+                        Si je parlois donc de l’Histoire en traitant cette matiere, il me semble que
+                        je n’appliquerois ce qui regarde le plaisir propre à l’Imitation, qu’aux
+                        ornements &amp; à ce qu’on peut appeller l’accessoire de la narration, je
+                        veux dire, à la beauté du style, aux harangues, aux descriptions, aux
+                        portraits, où l’Historien se donne la liberté <pb n="381" xml:id="p381"
+                        />d’entreprendre sur l’Art du Peintre, &amp; quelquefois sur celui du Poëte
+                        même, <quote><hi rend="i">Verba prope Poetarum</hi></quote>, comme Ciceron
+                        le dit des Orateurs.</p>
+                </div2>
+                <div2 type="section">
+                    <head>IV.</head>
+                    <p>L’Auteur observe avec beaucoup de raison, <quote><hi rend="i">qu’il n’est pas
+                                nécessaire que les objets que le Peintre a voulu représenter, soient
+                                parfaits en eux-mêmes, &amp; qu’on peut faire une représentation
+                                très-parfaite d’une chose très-imparfaite ; que celles mêmes dont la
+                                vûe fait horreur, nous sont rendues agréables par la Peinture, parce
+                                que ce n’est pas la perfection de l’objet qui nous plaît, mais celle
+                                de l’Imitation</hi></quote>. Je voudrois seulement qu’il y eût
+                        ajouté deux choses.</p>
+                    <p>L’une, que c’est véritablement en ce cas que nous goûtons le seul plaisir de
+                        l’Imitation. Comme les objets de cette espece sont bien éloignés d’avoir
+                        aucun attrait par eux-mêmes, &amp; que la nature n’y a rien mis du sien pour
+                        nous plaire, elle a laissé tout à faire au Peintre dont l’Art est la seule
+                        chose que l’on puisse admirer dans ces sortes d’images, parce qu’elles ne
+                        nous plaisent que par le seul rapport &amp; par la conformité parfaite de la
+                        copie avec l’original.</p>
+                    <p>L’autre, qu’il n’en est pas ainsi quand les objets, dont on nous présente la
+                        Peinture, ont une beauté naturelle qui nous frappe &amp; qui nous saisit par
+                        elle-même indépendamment de celle de l’Imitation ; il se forme alors dans
+                        notre ame un mêlange de sentiments dont les uns naissent de l’objet
+                        représenté, &amp; les autres de la représentation. J’ai déja assez développé
+                        l’effet de la premiere impression : je dirai donc seulement que si le
+                        plaisir de la seconde s’y joint, notre cœur agité de ces passions douces,
+                        que l’objet réveille par lui-même, &amp; notre esprit frappé de la justesse
+                        de l’Imitation, applaudissent également à l’Art du Poëte, &amp; goûtent
+                        ainsi deux plaisirs au lieu d’un. Le premier est plus mêlé de sensible : le
+                        second a quelque chose de plus spirituel. Mais tous deux joints &amp; réunis
+                        ensemble, forment par leur accord la plus grande satisfaction que l’Art
+                        puisse nous procurer. C’est par-là qu’il semble <pb n="382" xml:id="p382"
+                        />ajouter quelque chose à la nature, &amp; il la surpasseroit même, si la
+                        fiction pouvoit jamais faire sur nous autant d’impression que la Vérité.</p>
+                    <p>Je pourrois m’étendre ici sur les conséquences que je tirerois aisément de la
+                        distinction de ces deux différentes especes de plaisir ; &amp; c’est par-là
+                        que j’expliquerois sans peine pourquoi les Tableaux d’Histoire nous plaisent
+                        davantage que les Paysages, ou que la Peinture des choses mortes, ou
+                        inanimées ; pourquoi l’on voit avec plus d’admiration le portrait d’un grand
+                        homme que celui d’un homme du commun, quoique l’un &amp; l’autre portrait
+                        soient également parfaits ; enfin pour revenir à la matiere présente, par
+                        quelle raison la Tragédie fait des impressions plus profondes &amp; plus
+                        pénétrantes que la Comédie. Mais toutes ces conséquences me paroissent si
+                        clairement renfermées dans les principes dont je me suis servi pour établir
+                        la distinction des mouvements qui viennent de l’objet même &amp; de ceux qui
+                        naissent de la copie, que tout ce que j’ajouterois ici sur ce sujet, ne
+                        pourroit être qu’une répétition aussi inutile qu’ennuyeuse.</p>
+                </div2>
+                <div2 type="section">
+                    <head>V.</head>
+                    <p>Après avoir fait ces réflexions générales sur le goût que les hommes ont pour
+                        l’Imitation, il restera d’expliquer les véritables causes de cette derniere
+                        espece de plaisir dont l’Imitation nous affecte.</p>
+                    <p>L’Auteur a raison de trouver qu’Aristote ne nous donne qu’une idée
+                        très-imparfaite de ces causes, lorsqu’il semble les réduire au seul désir
+                        d’apprendre &amp; de s’instruire, qui est commun à tous les hommes. Le
+                        plaisir que nous sentons à satisfaire ce désir s’useroit bien-tôt, &amp; il
+                        y auroit peu de personnes qui voulussent revoir plusieurs fois la même
+                        piece, ou tout autre Ouvrage, puisqu’elles n’auroient plus rien de nouveau à
+                        y apprendre ; il n’y a personne d’ailleurs qui ne sente en soi-même quelque
+                        chose de plus que ce plaisir d’apprendre, quand il ne chercheroit dans une
+                        Tragédie ou <pb n="383" xml:id="p383"/>autre Poëme, que la justesse &amp; la
+                        vérité de l’Imitation. Enfin Aristote content de nous dire gravement que
+                        c’est le plaisir d’apprendre qui nous rend l’Imitation si agréable, sans
+                        remonter plus haut, &amp; nous expliquer en grand Philosophe, quelle est la
+                        source de ce plaisir même que nous prenons à nous instruire, a laissé dans
+                        la Poëtique comme dans la Physique, non pas dequoi glanner seulement, mais
+                        dequoi moissonner après lui. C’est cette moisson abondante qui est réservée
+                        à l’Auteur du Discours sur l’Imitation. Il commence à la faire, lorsqu’au
+                        plaisir d’apprendre, qui est le seul qu’Aristote ait touché, il joint celui
+                        de juger, que ce Philosophe n’a pas trouvé digne de son attention. Mais je
+                        voudrois aussi que remontant de cause en cause jusqu’à la premiere, il nous
+                        expliquât les raisons de ce plaisir que nous prenons à juger ; &amp; dans ce
+                        moment, il ne s’en présente que trois à mon esprit.</p>
+                    <p>L’une, que le jugement est l’acte le plus parfait de notre raison, ou plutôt,
+                        que notre raison même n’est qu’un jugement continuel ; &amp; comme c’est par
+                        la raison que nous estimons le plus notre nature, dont elle est en effet le
+                        plus précieux avantage, il y a aussi un plaisir secret attaché à l’usage que
+                        nous faisons de cette perfection de notre ame en prononçant un jugement.</p>
+                    <p>La seconde est que nous croyons exercer par-là un acte de supériorité, &amp;
+                        nous regardons notre critique comme une espece de tribunal auquel nous
+                        attribuons presque le privilége de l’infaillibilité. Nous considérons les
+                        Auteurs qui s’exposent à sa censure, comme autant de Clients de notre raison
+                        &amp; de notre goût, qui attendent avec une inquiétude flatteuse pour nous,
+                        l’arrêt par lequel nous allons décider de leur mérite. De là vient que les
+                        jugements que lon porte sur les Auteurs, &amp; en général sur le caractere,
+                        la conduite, les discours des autres hommes plaisent plus à l’amour propre
+                        que ceux qui n’ont pour objet que les idées des choses mêmes. On ne trouve
+                        dans les derniers que la satisfaction de sentir la perfection absolue de son
+                        esprit, au lieu que les premiers y font goûter une perfection rélative, ou
+                        une <pb n="384" xml:id="p384"/>perfection comparée à celle des autres, &amp;
+                        l’on ne manque guères de la croire supérieure. Quelque parfait que soit un
+                        Ouvrage, il s’y glisse toujours de ces taches légeres.</p>
+                    <quote>
+                        <l rend="i">            Quas aut incuria sudit,</l>
+                        <l rend="i">Aut humana parum cavit natura.<note n="*" place="margin"><hi
+                                    rend="i">Horat. de Art. Poëticâ.</hi></note></l>
+                    </quote>
+                    <p>Homere même sommeille quelquefois, selon Horace. Notre amour propre se repaît
+                        donc, pour parler ainsi, de la vûe de ces fautes qui échappent aux meilleurs
+                        Auteurs : nous nous flattons aisément que puisque nous les appercevons, nous
+                        les aurions évitées si nous avions eu à faire le même Ouvrage. Nous sommes à
+                        peu près comme un Juge, pour suivre la même image, qui se remercieroit sur
+                        son tribunal de n’avoir pas fait les injustices qu’il découvre &amp; qu’il
+                        condamne. C’est ainsi que pour avoir remarqué quelques fautes légeres qui
+                        sont inévitables à l’humanité, nous nous croyons supérieurs à ceux-mêmes
+                        dont nous ne pourrions approcher, si nous voulions prendre la peine de
+                        composer au lieu de jouir du plaisir facile de critiquer.</p>
+                    <p>Enfin, quand nous aurions le bonheur de nous mettre entierement au-dessus de
+                        ces retours de l’amour propre, nous éprouverions toujours en nous-mêmes que
+                        l’Auteur de notre être a attaché une secrette satisfaction à l’exercice des
+                        opérations de notre ame, qui nous sont aussi nécessaires que celles du
+                        jugement, &amp; du raisonnement, qui n’est qu’un jugement plus composé. Si
+                        ce plaisir n’est pas toujours le plus sensible, il est au moins le plus pur
+                        &amp; le plus digne d’une créature raisonnable ; c’est ce qui fait que
+                        l’évidence des vérités les plus séches &amp; les plus abstraites est d’une
+                        si grande douceur pour ceux qui s’attachent à les découvrir : ils sentent un
+                        repos, un calme intérieur, une espece de bonheur actuel qui pénétre le fond
+                        de leur ame, &amp; qui éteint en eux tout autre désir, au moins pendant ce
+                        moment de jouissance de la Vérité. C’est à cette situation que tendent tous
+                        nos jugements, &amp; l’espérance d’y parvenir nous en donne un goût &amp;
+                        comme une satisfaction anticipée qui nous <pb n="385" xml:id="p385"
+                        />soutient &amp; qui nous anime dans ceux-mêmes qui coûtent un plus grand
+                        effort à notre raison.</p>
+                </div2>
+                <div2 type="section">
+                    <head>VI.</head>
+                    <p>De tout ce qui sert de matiere à nos jugements, il n’y a rien qui nous plaise
+                        davantage que les rapports qui sont entre les choses que nous connoissons
+                        soit par idée ou par sentiment, &amp; il y en a plusieurs raisons. Je ne
+                        ferai que les indiquer ici pour tracer une image légere de ce que je
+                        voudrois voir exécuté par l’Auteur, à qui il en coutera moins pour achever
+                        l’Ouvrage, qu’à moi pour en former le premier trait.</p>
+                    <p>1°. Il est ordinairement plus aisé d’appercevoir des rapports entre des
+                        objets qui nous sont connus, que d’examiner à fonds les choses en
+                        elles-mêmes. La curiosité de notre esprit demande de l’occupation, comme je
+                        l’ai dit ailleurs, &amp; sa paresse la veut facile. Ainsi le goût qu’il
+                        trouve à juger des rapports est fondé en partie sur ce qu’il fait moins
+                        d’efforts dans cette espece de jugement.</p>
+                    <p>2°. L’esprit qui se plaît à agir, comme je l’ai déja observé, croit agir
+                        davantage quand il découvre des rapports, que quand il apperçoit les
+                        premieres idées des choses. Il ne se regarde à l’égard de ces notions que
+                        comme la toile qui reçoit l’impression des différentes couleurs ; mais pour
+                        les autres, il croit être le pinceau, ou plutôt le Peintre qui les
+                        distribue : &amp; en effet, plus un esprit a d’étendue &amp; de pénétration,
+                        plus il découvre de ces rapports ; &amp; comme rien n’en fait connoître un
+                        plus grand nombre que l’Imitation, il n’est pas surprenant qu’il prenne un
+                        plaisir singulier à juger des Ouvrages qu’elle produit.</p>
+                    <p>3°. Quoique nous aimions en général à remarquer &amp; à exprimer des
+                        rapports, ils ne nous plaisent pas tous également, &amp; cette différence
+                        vient de celle des objets entre lesquels nous les appercevons. Si ces objets
+                        sont purement intelligibles, leurs rapports le sont aussi ; ils sont par
+                        conséquent <pb n="386" xml:id="p386"/>moins agréables au commun des hommes
+                        que ceux qui sont sensibles, &amp; qui naissent de la comparaison que leur
+                        esprit fait de deux objets également sensibles. L’aversion qu’ils ont pour
+                        la contention &amp; le travail les éloigne des premiers, &amp; le goût
+                        qu’ils ont pour ce qui affecte les sens &amp; l’imagination les porte vers
+                        les derniers. Il suffit, pour les goûter, d’être capable de sentiment. Mais
+                        il faut une certaine force d’esprit, &amp; encore plus de persévérance dans
+                        une application pénible, pour sentir cette espece de volupté purement
+                        spirituelle que les premiers cachent aux yeux du vulgaire. Aussi l’Imitation
+                        qui se fait des rapports intelligibles par les nombres de l’Arithmétique,
+                        par les lettres de l’Algebre, ou même par les lignes de la Géométrie, trouve
+                        peu d’admirateurs, au lieu que la plûpart des hommes courent après celle des
+                        rapports sensibles qui se fait par la Peinture ou par la Poësie, parce que
+                        pour y exercer son jugement, il ne faut y porter que des yeux &amp; des
+                        oreilles, avec une imagination vive &amp; un cœur facile à émouvoir.</p>
+                    <p>4°. Que si outre le plaisir d’appercevoir des rapports sensibles entre les
+                        objets imités &amp; l’imitation du Poëte, ces objets ont par eux-mêmes une
+                        relation &amp; une convenance, je dirois presque une consonnance naturelle
+                        avec nos dispositions intérieures ; c’est alors que soutenus par le
+                        mouvement des passions, nous exerçons notre jugement avec un extrême
+                        plaisir, sur une Imitation qui nous paroît d’autant plus intéressante que
+                        c’est le sentiment qui en juge au dedans de nous, beaucoup plus que la
+                        raison, &amp; que les décisions de notre cœur nous plaisent infiniment
+                        davantage que celles de notre esprit.</p>
+                    <p>J’ajouterai ici (quand ce ne seroit que pour me réconcilier avec Aristote en
+                        finissant ce long discours, après m’être brouillé avec lui en le commençant)
+                        que si le plaisir de juger de l’Imitation n’est pas le premier dont on soit
+                        frappé à la représentation ou à la lecture d’une belle Tragédie, il a du
+                        moins l’avantage d’en faire le mérite le plus solide &amp; le plus durable,
+                        lorsque la premiere chaleur que la nouveauté allume dans <pb n="387"
+                            xml:id="p387"/>l’ame, commence à se refroidir. On en revient toujours à
+                        juger de sa vraie beauté par la justesse &amp; la fidélité de l’Imitation ;
+                        c’est ce qui fait que l’on y retourne ou qu’on la lit plusieurs fois avec un
+                        plaisir qui se renouvelle &amp; augmente, même à mesure qu’une plus grande
+                        attention, &amp; une espece de familiarité que l’on contracte avec
+                        l’ouvrage, y fait reconnoître de nouveaux rapports entre les objets imités
+                        &amp; l’imitation du Poëte : notre esprit plus serein &amp; plus tranquille
+                        en juge mieux alors, parce qu’il est bien moins offusqué de ces nuages que
+                        les passions élevent du fond de notre cœur : l’imagination seule avoit
+                        d’abord prononcé, &amp; comme elle décide promptement, elle est aussi
+                        inconstante dans ses décisions ; mais le dernier suffrage est celui de la
+                        raison qui n’étant pas sujette aux mêmes changements parce qu’elle juge avec
+                        plus de maturité, assure à l’Auteur la durée de sa gloire, &amp; lui donne
+                        droit d’espérer, comme dit Despreaux,</p>
+                    <quote>
+                        <l>Que ses vers à grands pas chez la postérité</l>
+                        <l>Iront marqués au coin de l’immortalité.</l>
+                    </quote>
+                    <p>Au reste je n’ai pas besoin d’observer après toutes ces réflexions qu’en
+                        découvrant les sources du plaisir qui naît &amp; de la chose imitée, &amp;
+                        de l’Imitation même, on découvre en même-temps l’origine &amp; la raison de
+                        toutes les regles du Poëme Tragique, &amp; même de l’Art Poëtique en
+                        général. Il me suffit d’en avoir donné des notions générales. Ce sera à
+                        l’Auteur de les méditer, de les digérer, de les perfectionner ; &amp; s’il
+                        veut en prendre la peine, ce qu’il y mettra du sien vaudra beaucoup mieux
+                        sans doute que tout ce que ma plume a tracé à la hâte &amp; presque au
+                        hasard sur le papier, pendant que je maudissois mille fois cette douce mais
+                        dangereuse rêverie, qui a tant abusé de mon oisiveté, que je rougis presque
+                        d’être devenu prodigue pour le Théâtre, d’un temps que je n’y avois jamais
+                        perdu.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

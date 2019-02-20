@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les spectacles [Querelles littéraires, II, 4]</title>
+                <author key="Irailh, Auguste-Simon (1718-1794)"
+                    ref="https://data.bnf.fr/fr/13013755/simon-augustin_irail/">Auguste-Simon
+                    Irailh</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/irailh_spectacles_1761</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Auguste-Simon Irailh, « Les spectacles », in <hi rend="i">Querelles
+                        littéraires, ou Mémoires pour servir à l’Histoire des Révolutions de la
+                        République des Lettres, depuis Homere jusqu’à nos jours</hi>,
+                        <pubPlace>Paris</pubPlace>, <publisher>Durand</publisher>,
+                    <date>1761</date>, tome II, section IV, « La poésie dramatique » (p. 354-441),
+                    p. 394-420. PDF : <ref
+                        target="http://dbooks.bodleian.ox.ac.uk/books/PDFs/555081059.pdf">Bodleian
+                        Library</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1761"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter">
+                <pb n="394" xml:id="p394"/>
+                <head>Les spectacles.</head>
+                <p><hi rend="big">S</hi><hi rend="sc">ont-ils</hi> bons ou mauvais de leur nature ?
+                    Question agitée dans tous les temps, &amp; sur laquelle on écrit encore pour
+                    &amp; contre. Les philosophes du siècle n’ont pu la faire terminer en leur
+                    faveur.</p>
+                <p>Pour être au fait de la contrariété des opinions sur ce point, il suffit de
+                    remonter à la fameuse lettre du père Caffaro, théatin. Cette lettre est une
+                    réponse au poëte Boursault, qui eut du scrupule d’avoir travaillé pour le
+                    théâtre, &amp; qui consulta ce religieux.</p>
+                <p>On sçait que Racine fut déchiré des mêmes remords, &amp;, qu’après s’être
+                    retranché à ne composer que des tragédies saintes, il abjura totalement le
+                    théâtre, &amp; se retira à Port-royal pour y expier, dans les larmes, l’abus
+                    qu’il croyoit avoir fait de ses talens. On sçait encore combien Quinault se
+                    repentit de n’avoir pas fait des siens un autre emploi que celui auquel il doit
+                    toute sa gloire. Si ces deux poëtes immortels, <pb n="395" xml:id="p395"/>d’une
+                    analogie si frappante pour le caractère de leur esprit &amp; la délicatesse de
+                    leur conscience, eussent déposé leurs scrupules dans le sein d’un casuiste, tel
+                    que le P. Caffaro, ils n’eussent jamais abandonné le théâtre.</p>
+                <p>Ce religieux en fait hautement l’apologie dans sa lettre. Il a le courage de
+                    s’élever au-dessus des préjugés de son état, &amp; de dire librement ce qu’il
+                    pense. Il parle de ce ton de force &amp; de véhémence qu’il n’appartient qu’aux
+                    gens persuadés d’avoir.</p>
+                <p>La proposition générale qu’il tâche d’établir est celle-ci : <quote>« Les
+                        comédies, de leur nature &amp; prises en elles-mêmes, indépendamment de
+                        toute circonstance bonne ou mauvaise, doivent être mises au nombre des
+                        choses indifférentes. »</quote> Il tire ses autorités, <num>i</num>°. des
+                    pères ; 2°. de l’écriture ; 3°. du raisonnement.</p>
+                <p>S. Thomas d’Aquin, sur la représentation d’une farce de quelques misérables
+                    histrions, sentit combien leur art pouvoit être utile, &amp; décida qu’il y
+                    avoit de l’injustice à le condamner sans restriction : S. François de Sales
+                    étoit du même avis. A Milan on jouoit <pb n="396" xml:id="p396"/>la comédie du
+                    temps de S. Charles Borromée, sans que ce digne archevêque s’en formalisât : il
+                    la permit par une ordonnance de 1583. La seule condition qu’il imposa, fut que
+                    les pièces seroient soumises à l’examen.</p>
+                <p>L’écriture est encore favorable au Théatin. Elle n’a rien tant en recommendation
+                    que les jeux, les danses, les spectacles. Elle fait un mérite à quelques-uns de
+                    ses plus saints personnages d’avoir dansé au son du tambour. Chez elle tout est
+                    fête, appareil, magnificence. Quand on veut comprendre les comédies dans les
+                    anathêmes qu’elle prononce contre le jeu, le vin, la table, la parure, les
+                    tableaux, le luxe, c’est qu’on ne réfléchit pas que ces anathêmes tombent moins
+                    sur ces choses là, que sur l’abus qu’on peut en faire. La décence de notre
+                    théâtre est mise en opposition avec le <hi rend="i">cynisme</hi>, auquel se sont
+                    livrés quelquefois les Romains sur le leur. Valère Maxime rapporte que des
+                    femmes nues jouèrent dans une pièce où l’infâme Héliogabale représentoit Vénus,
+                    &amp; dans laquelle il surpassa l’impudence du plus effronté satyre.</p>
+                <p><pb n="397" xml:id="p397"/>Le P. Caffaro passe au raisonnement. Aucun de ceux
+                    qu’on fait contre les spectacles ne lui paroît fondé. Le théâtre, dit-on, est
+                    défendu, &amp; sans doute qu’il mérite de l’être. Son but est d’exciter les
+                    passions, &amp; de jetter l’ame dans un état violent, &amp; les comédiens sont
+                    flétris.</p>
+                <p>La comédie est défendue ; mais, répond le Théatin, c’est précisément donner en
+                    preuve l’état de la question. La comédie n’est, ni ne sçauroit être prohibée par
+                    elle-même. On défend les choses parce qu’elles sont mauvaises, &amp; les choses
+                    ne sont point mauvaises en elles-mêmes, parce qu’elles sont défendues.</p>
+                <p>Le propre de la comédie est, dit-on, d’exciter les passions ; mais les
+                    excite-t-elle en effet ? Ceux qui la fréquentent sont ils pires que ceux qui ne
+                    la connoissent pas ? le P. Caffaro n’en croit rien. Il a remarqué au tribunal de
+                    la pénitence que ces derniers, que les pauvres étoient aussi sujets que les
+                    autres à la colère, à la vengeance, à l’ambition &amp; à la débauche : il n’est
+                    rien de si bon &amp; de si salutaire dont on ne puisse abuser. Promenades, <pb
+                        n="398" xml:id="p398"/>sociétés, festins, livres, bonnes œuvres, sermons,
+                    tout peut être une occasion de chute &amp; de crime. <quote>« Faut-il, disoit le
+                        sage Licurgue, arracher toutes les vignes, parce qu’il se trouve des hommes
+                        qui font des excès de vin ? »</quote> Les comédiens sont flétris. Mais, si
+                    du moment qu’on joue la comédie on doit être réputé infâme, tant de rois, tant
+                    de princes, tant de magistrats, tant de prêtres, tant de religieux qui l’ont
+                    jouée, ou qui la jouent le seront aussi. D’où vient en fait-on représenter aux
+                    jeunes gens dans plusieurs collèges ? On a vu des religieuses, à Rome, exécuter
+                    elles-mêmes la pièce de <hi rend="i">George Dandin</hi>, en présence de beaucoup
+                    de gens qui en furent très-satisfaits. La crainte d’encourir la peine d’infamie
+                    ne devroit-elle pas faire détester tout ce qui peut avoir rapport à un acteur ou
+                    une actrice ? car il n’importe pas qu’on joue par amusement ou pour gagner sa
+                    vie : si la chose est mauvaise en soi, elle l’est par rapport à tout le
+                    monde.</p>
+                <p>Les comédiens sont flétris ; mais dans quel temps l’ont-ils été ? Dans celui où
+                    ils jouoient réellement des pièces <pb n="399" xml:id="p399"/>infâmes, dans
+                    celui où il falloit si peu de chose pour être couvert d’opprobre, où un soldat
+                    l’étoit pour avoir manqué de bravoure, une veuve pour s’être remariée avant
+                    l’année de son veuvage, un marchand pour faire profession de vendre du vin, un
+                    médecin pour remplir les devoirs de son état. La médecine en corps a été réputée
+                    infâme, &amp; chassée de Rome. Qu’on sçache donc distinguer les temps &amp; les
+                    personnes ? d’indignes bateleurs avec d’honnêtes gens, dont la fonction exige,
+                    pour y exceller, de la figure, de la dignité, de la voix, de la mémoire, du
+                    geste, de l’ame, de l’esprit, de la connoissance des mœurs &amp; des
+                    caractères ; en un mot, un grand nombre de qualités que la nature réunit si
+                    rarement dans une même personne, qu’on compte plus d’excellens auteurs, que
+                    d’excellens comédiens.</p>
+                <p>Ils sont à plaindre sans doute d’avoir été traités durement par quelques-unes de
+                    nos loix, par les rituels, par les canons de quelques conciles. Les droits
+                    communs à tous les hommes devroient-ils être refusés à des hommes entretenus par
+                    le roi, dévoués à <pb n="400" xml:id="p400"/>l’amusement, à l’instruction, à la
+                    gloire de la nation, &amp; devenus même, par le luxe des riches, une ressource
+                    pour les pauvres ?</p>
+                <p>S’ils étoient aussi dangereux qu’on le prétend, inviteroit-on au coin des rues à
+                    les aller voir ? Qu’on affichât les mauvais lieux, avec quelle promptitude la
+                    police séviroit ! Mais ici les gens en place se taisent, ou approuvent &amp;
+                    autorisent, par leur exemple, la comédie ; princes, magistrats, évêques. Si ces
+                    derniers n’y vont pas à la ville, ils s’y trouvent du moins à la cour.</p>
+                <p>Tant de raisons persuadent au P. Caffaro que les spectacles n’ont rien que
+                    d’honnête, &amp; qu’il faut de la variété dans les amusemens, comme il y en a
+                    parmi les esprits &amp; les caractères.</p>
+                <p>Notre religieux philosophe veut seulement qu’on ait égard à trois choses, qui
+                    sont encore plus de bienséance que d’obligation, aux temps, aux lieux, aux
+                    personnes. Aux temps, pour qu’on ne joue pas toute l’année, &amp; à toute heure
+                    comme autrefois, &amp; qu’on aille seulement aux spectacles au sortir de <pb
+                        n="401" xml:id="p401"/>l’office divin ; attention toujours gardée par les
+                    comédiens, qui ne jouent qu’entre cinq ou six heures, &amp; qui donnent relâche
+                    au théâtre à la fin du carême, &amp; à toutes les grandes fêtes de l’année. Aux
+                    lieux, pour qu’on ne fasse pas de nos églises des salles de spectacle, comme il
+                    n’arrive que trop souvent dans de certaines maisons de religieux, &amp; de
+                    religieuses. Aux personnes, pour que celles qui sont constituées en dignité, ou
+                    d’une profession comptable au public de leurs momens, n’aillent pas tous les
+                    jours à la comédie.</p>
+                <p>Les étrangers, qui viennent à Paris, sont fort étonnés de voir des
+                    écclésiastiques à la comédie &amp; à l’opéra : ceux de Londres ne paroissent
+                    jamais aux spectacles. En récompense, ils passent leur vie au cabaret, à y boire
+                    de la biere, du ponche, ou de l’eau de vie : il y a même des vicaires de
+                    paroisse, en Angleterre, qui tiennent des guinguettes, &amp; qui y jouent du
+                    violon pour amuser les buveurs.</p>
+                <p>L’apologiste du théâtre termine sa lettre par cette réflexion : <quote>« D’autres
+                        que vous me feront peut-être un <pb n="402" xml:id="p402"/>crime d’avoir
+                        suivi l’opinion la plus favorable, &amp; m’appelleront casuiste relâché,
+                        parce qu’aujourd’hui c’est la mode d’enseigner une morale austère, &amp; de
+                        ne la pas pratiquer : mais je vous jure, monsieur, que je ne me suis pas
+                        arrêté à la douceur, ou à la rigueur de l’opinion, mais uniquement à la
+                        vérité. »</quote></p>
+                <p>Un prêtre, un religieux, qui entreprend de laver le théâtre de son ancien
+                    opprobre, étoit capable de rassurer bien des consciences : mais le P. Le Brun,
+                    de l’Oratoire, vint les allarmer ; il réfuta le P. Caffaro.</p>
+                <p>L’Oratorien traita le Théatin de faux frère, de prévaricateur, de ministre
+                    traître à son dieu &amp; aux hommes, auxquels il applanissoit le chemin de
+                    perdition.</p>
+                <p>Ce même P. Le Brun, si connu par son livre critique <hi rend="i">des Pratiques
+                        superstitieuses</hi>, livre où il se donne pour une ame peu commune, étoit
+                    superstitieux comme un autre : on a dit que c’étoit un médecin malade
+                    lui-même.</p>
+                <p>Tous ses raisonnemens contre la comédie tombent, selon ceux qui la défendent, sur
+                    celle d’autrefois. Il ne <pb n="403" xml:id="p403"/>rapproche point les
+                    anciennes pièces des nouvelles ; il n’examine point si ce qu’on dit des unes
+                    peut s’appliquer aux autres ; si les farces qu’on représentoit sous les
+                    empereurs payens, &amp; contre lesquelles les pères de l’église lançoient tant
+                    d’anathêmes, ont quelque chose de commun avec nos pièces régulières ; si les
+                    changemens arrivés à nos mœurs n’ont pas amené ceux du théâtre. Point de
+                    justesse ni d’exactitude dans cet écrivain ; point de réflexion lumineuse,
+                    aucune connoissance du monde, beaucoup d’érudition mais peu de philosophie.</p>
+                <p>Quand il porte une vue générale sur la comédie ancienne &amp; moderne, il trouve
+                    la différence à notre désavantage. Plaute, Térence, Aristophane, lui paroissent
+                    plus retenus qu’aucun de nos comiques. C’est qu’il ne se représente que de bas
+                    &amp; de pitoyables farceurs de parades. Il ne songe point à Molière, à Dancour,
+                    à Montfleuri, qui jouoient eux-mêmes leurs pièces, &amp; qui étoient aussi
+                    supérieurs la plume à la main, que sur le théâtre.</p>
+                <p>Il revient continuellement à la sévérité des loix impériales. Mais <pb n="404"
+                        xml:id="p404"/>l’empereur Justin ne s’en relâcha-t il point dans la suite ?
+                    Ne permit-il pas aux comédiens de s’allier avec d’honnêtes familles ? Ces loix,
+                    ainsi que celles de Charlemagne, peuvent-elles avoir la même force depuis la
+                    déclaration de Louis XIII, du 16 Avril 1641<note n="*" place="bottom"><p>Elle
+                            porte, qu’en cas que <quote>« les comédiens règlent tellement les
+                                actions du théâtre, qu’elles soient toujours exemptes d’impureté, il
+                                vouloit que leur exercice, qui peut innocemment divertir ses sujets
+                                de diverses occasions mauvaises, ne puisse leur être imputé à blâme,
+                                ni nuire à leur réputation dans le commerce public »</quote>.
+                            Puisque le théâtre des comédiens François subsiste depuis plus de cent
+                            ans, ils se sont apparemment conformés aux loix de l’honnêteté &amp; de
+                            la bienséance publique.</p>
+                        <p>Qu’ils les eussent bravées ces loix, ils auroient éprouvé le même
+                            traitement que les comediens Italiens, chassés de Paris en 1694, pour
+                            avoir joué des pièces licentieuses. Cette même déclaration de Louis XIII
+                            ne veut point que les comédiens du roi dérogent. Le comédien Floridor
+                            étoit gentilhomme, &amp; il obtint, le 10 septembre 1668, un arrêt du
+                            conseil, par lequel il fut maintenu dans sa qualité d’écuyer. Sans cet
+                            arrêt, Floridor se fût trouvé dans le cas de ce chevalier Romain qui,
+                            après avoir été forcé, par l’empereur, de paroître sur le théâtre, dit :
+                                <hi rend="i">J’y suis monté chevalier Romain, &amp; j’en descends
+                                Histrion.</hi></p></note>. Puisque le P. Le Brun s’établissoit juge
+                    du Procès des comédiens avec un certain public, il auroit bien fait de rapporter
+                    ce qui leur est favorable.</p>
+                <p><pb n="405" xml:id="p405"/>M. de Voltaire dit qu’un jour nos neveux, en voyant
+                    l’impertinent ouvrage de cet oratorien contre l’art des Sophocles &amp; les
+                    œuvres de nos grands hommes imprimés en même-temps, s’écrieront :
+                        <quote>« Est-il possible que les François aient pu ainsi se contredire,
+                        &amp; que la plus absurde barbarie ait levé si orgueilleusement la tête
+                        contre les plus belles productions de l’esprit humain ? »</quote></p>
+                <p>Quoi qu’il en soit, le P. Le Brun resta maître du champ de bataille. L’archevêque
+                    de Paris, Noailles, exigea du P. Caffaro une rétraction authentique.</p>
+                <p>Le prince de Conti, en 1666, avoit également attaqué les spectacles. Il discuta
+                    cette matière en théologien, &amp; les deux religieux l’ont traitée en gens de
+                    lettres. S’ils l’eussent envisagée autrement, je n’aurois point parlé d’eux. La
+                    théologie n’est pas de mon ressort. Je laisse aux Bossuet, aux Fénélon, le soin
+                    d’écraser sous les armes de la leur, sous le poids de leur autorité épiscopale,
+                    tous les sophismes en faveur des spectacles. Suivons le fil de la querelle.</p>
+                <p><pb n="406" xml:id="p406"/>Un abbé, peu connu, mais d’un zèle extrême, crut qu’il
+                    viendroit facilement à bout de la terminer. Dans cette idée, il donna au public
+                    les raisons qu’il avoit de condamner la comédie, &amp; de vouloir en dégoûter
+                    les autres : mais ces raisons étoient ridicules. Aussi fit-on sur lui cette
+                    épigramme :</p>
+                <quote>
+                    <l>      Messire Laurent P....tier</l>
+                    <l>      Qui ne put être bachelier,</l>
+                    <l>Parce qu’il fut trouvé rossignol d’Arcadie,</l>
+                    <l>      Ces jours passés, un livre a fait,</l>
+                    <l>      Qui condamne la comédie,</l>
+                    <l>      Dont il seroit un beau sujet.</l>
+                </quote>
+                <p>Riccoboni a traité son art plus mal encore que La Mothe n’a traité celui des
+                    vers. Le talent d’acteur &amp; d’auteur de comédie lui paroît celui d’un homme
+                    abominable. Il n’approuve que les drames de collège. <quote>« Ce ne sont pas,
+                        dit-il, les pièces de cette espèce que je propose de réformer, mais c’est, à
+                        l’exemple de celles-ci, que je voudrois qu’on réformât les autres. »</quote>
+                    Quelle idée ! quel goût ! Il dit, dans un autre endroit : <quote>« Je proteste
+                        que, depuis la première <pb n="407" xml:id="p407"/>année que j’ai monté sur
+                        le théâtre, il y a déjà plus de cinquante ans, je l’ai toujours envisagé du
+                        mauvais côté, &amp; que je n’ai jamais cessé de desirer l’occasion de
+                        pouvoir le quitter. »</quote></p>
+                <p>Le P. Porée, traitant la question des spectacles, soutient qu’ils pourroient être
+                    une école de vertu ; mais il ajoute en même-temps que, par notre faute, ils ne
+                    sont que l’école du vice.</p>
+                <p>Cet écrivain, moins recommandable encore par la supériorité de ses talens que par
+                    la pureté de ses mœurs, composoit, toutes les années, des tragédies &amp; des
+                    comédies pour les exercices accoutumés de sa classe. Il étoit quelquefois touché
+                    jusqu’aux larmes, en considérant le bien qu’on pourroit retirer du théâtre,
+                    &amp; les maux ordinaires qui en résultent.</p>
+                <p>L’auteur de <hi rend="i">Didon</hi> se déclare aussi pour le théâtre, mais pour
+                    un théâtre plus décent, plus réservé encore que le nôtre. Il trouve surtout
+                    qu’il y auroit une réforme à faire dans les comédies. Celles de Dancourt, de Le
+                    Grand, de Régnard &amp; de Molière, sont trop libres quelquefois, &amp; même
+                    obscènes. <pb n="408" xml:id="p408"/>Un écrivain Anglois, pour remédier à
+                    l’extrême licence des comiques de sa nation, est d’avis qu’on y établisse des
+                    censeurs éclairés &amp; vertueux qui repassent sur les pièces tant anciennes que
+                    nouvelles, &amp; n’y laissent rien de grossier, rien d’équivoque, rien qui
+                    puisse offenser la pudeur. Ce plan, dit M. Le Franc, proposé à Londres, devroit
+                    s’exécuter à Paris. C’est ainsi que cet auteur, qui posséde si bien son art,
+                    mais que son art n’aveugle point, sçait réunir les intérêts de l’homme de
+                    lettres, du philosophe &amp; du chrétien.</p>
+                <p>Le père du <hi rend="i">Méchant</hi> &amp; de <hi rend="i">Sidney</hi> ne veut
+                    point qu’il y ait, avec le ciel, de pareils accommodemens. Mais sa déclamation
+                    contre les spectacles a moins paru le langage du remords, que celui de
+                    l’amour-propre. Quelques-uns ont ri de cette démarche, &amp; d’autres en ont
+                    empoisonné le motif. Le plus grand nombre a trouvé trop de faste dans cette
+                    amende-honorable, faite à la religion. Le silence eut mieux convenu que tant
+                    d’éclat &amp; que cette abjuration solemnelle. Il est triste que M. Gresset
+                    prive la scène des caractères qu’on s’attendoit d’y voir, de la peinture vive
+                        <pb n="409" xml:id="p409"/>&amp; saillante, de plusieurs ridicules de la
+                    société.</p>
+                <p>M. de Voltaire, en parlant de la comédie &amp; des comédiens, n’a point traité
+                    pleinement le fond de la question ; il s’est étendu sur l’historique. Il a
+                    montré combien nous sommes inconséquens à leur égard. En France, ils sont
+                    excommuniés, &amp; la sépulture chrétienne leur est refusée, s’ils n’ont pas,
+                    avant la mort, renoncé à leur profession. A Rome, il n’en est pas de même.
+                    Alexandre, César, Brutus, Athalie, Zaïre &amp; Arlequin sont réprouvés chez
+                    nous ; &amp; les peintres, les statuaires ne le sont pas. La Vénus du Titien
+                    &amp; celle du Corrège, qui sont toutes nues, offensent-elles moins notre
+                    jeunesse modeste, que le jeu de nos acteurs ? On fait, sur eux, l’exemple qu’on
+                    faisoit autrefois sur les sorciers, sur beaucoup de rois &amp; d’empereurs. Le
+                    Flamen ne se doutoit pas que l’art de Térence fut celui de Locuste.</p>
+                <p>Après tous ces ridicules, jettés sur la nation, M. de Voltaire ajoute qu’elle
+                    s’en fût sauvée ; que le théâtre se seroit relevé de son premier état d’infamie,
+                    sans les déclamations éternelles des <pb n="410" xml:id="p410"/>Calvinistes
+                    &amp; des Jansénistes. Telle bourgade protestante, en Suisse, a été cent
+                    cinquante ans sans souffrir un violon chez elle. Tel directeur Janséniste veut
+                    que, pour danser, on substitue aux violons des castagnettes. Les catholiques, au
+                    contraire, ont toujours beaucoup aimé la comédie. Combien de prêtres eux-mêmes
+                    ont-ils travaillé pour elle ? Léon X est le restaurateur de la bonne comédie en
+                    Europe. Richelieu a fait bâtir la salle du palais royal ; Mazarin a eu les mêmes
+                    goûts. Il y avoit toujours aux spectacles de la cour, un banc qu’on nommoit le
+                    banc des évêques. Le cardinal de Fleuri, n’étant encore qu’évêque, fut pressé de
+                    faire revivre cette coutume. Rien n’est omis, dans les <hi rend="i">Réflexions
+                        sur la police des spectacles</hi>, de tout ce qui peut les mettre en
+                    honneur.</p>
+                <p>En 1756, un avocat, ou soit disant tel, a écrit contr’eux ; &amp; quelles raisons
+                    a-t-il de les condamner ? Pas d’autres que les suivantes. C’est qu’on va moins à
+                    la comédie, pour connoître une jolie pièce, que pour y voir de jolies actrices ;
+                    que, touché de leur beauté, on est nécessairement malheureux, tout <pb n="411"
+                        xml:id="p411"/>le monde ne pouvant pas être les premiers favoris de Mars ou
+                    de Plutus. C’est qu’on n’y puise que le persifflage, la dissipation &amp; la
+                    licence ; que les hommes apprennent à y devenir des sybarites ou des scélérats,
+                    &amp; les femmes de petites maitresses ou des mégères. C’est qu’on ne la souffre
+                    dans un état policé, que par le même esprit qu’on y tolère les lieux de
+                    débauche. C’est que, plus elle est licencieuse, plus aussi on la goûte ; témoin
+                    la préférence que tant de personnes donnent aux comédiens Italiens, ou même aux
+                    acteurs de l’opéra comique, sur les comédiens François. C’est qu’on n’a que
+                    faire de théâtre, pendant que le monde en est un assez grand lui-même, &amp;
+                    rempli de toutes sortes d’originaux. C’est que la règle<note n="*"
+                        place="bottom"><hi rend="i">Canone regitur ecclesia non exemplo.</hi></note>
+                    est au-dessus des mauvais exemples de quelques ecclésiastiques. Peu de ceux même
+                    qui vont à la comédie, signeroient qu’ils l’approuvent. Enfin, au lieu
+                    d’éteindre, elle fomente d’ordinaire les passions, <quote>« les agréables
+                        impostures de cette <pb n="412" xml:id="p412"/>partie animale &amp;
+                        déréglée, qui est la source de toutes nos foiblesses »</quote>, Quelle
+                    éloquence pour un avocat ! Mais son zèle est louable. Le dernier effort qu’un de
+                    ses confrères a fait en faveur de la comédie &amp; de la profession de comédien,
+                    à la sollicitation, dit-on, de mademoiselle Clai…, a été réprimé avec la plus
+                    grande rigueur. Cet accord des magistrats, avec tant de casuistes, peut donner
+                    lieu à des réflexions sérieuses. On a vu que l’état de comédien n’est pas plus
+                    autorisé en France, par la législation, que par la religion.</p>
+                <p>Mais passons sur tous ces écrits polémiques. Arrêtons-nous à un seul, dans lequel
+                    tout porte l’empreinte du génie de l’auteur. Le panégyriste de l’ignorance &amp;
+                    des brutes a du être le censeur de l’école de la politesse &amp; du goût. Il se
+                    plaint de n’être plus, de ne présenter que l’ombre de lui-même au lecteur : mais
+                    c’est toujours le même écrivain ; c’est toujours la même abondance, la même
+                    simplicité, la même vigueur, la même précision &amp; la même harmonie de stile.
+                    De tous les livres qu’il a donnés, celui-ci est <pb n="413" xml:id="p413"
+                    />presque le seul qui contienne des vérités utiles &amp; pratiques.</p>
+                <p>M. d’Alembert a proposé aux Génevois d’avoir un théâtre de comédie.
+                        <quote>« Voilà, dit M. Rousseau, le conseil le plus dangereux qu’on pût
+                        donner, du moins tel est mon sentiment, &amp; mes raisons sont dans cet
+                        écrit. »</quote></p>
+                <p>Quoique ces raisons semblent ne devoir convenir qu’à la constitution de Genève,
+                    elles sont pourtant exposées très-souvent d’une manière générale. On voit qu’il
+                    ne s’explique qu’à demi ; qu’il craint d’ajouter à la fermentation qu’il a déjà
+                    causée ; &amp; que, dans le fond de l’ame, il ne voudroit de théâtre nulle
+                    part.</p>
+                <p>Pour les sapper tous par les fondemens, il commence par invectiver contre la
+                    tragédie. Il se moque de la pitié &amp; de la terreur qui en sont les ressorts.
+                    Il ne conçoit pas qu’on doive purger les passions, en les excitant.
+                        <quote>« Seroit-ce que pour devenir tempérant &amp; sage, il faut commencer
+                        par être furieux &amp; fou. »</quote></p>
+                <p>Il voit plutôt le contraire : il voit que la peinture qu’on fait d’elles les <pb
+                        n="414" xml:id="p414"/>rend préférables à la vertu ; que les plus grands
+                    scélérats jouent sur le théâtre le plus beau rôle ; qu’ils y paroissent avec
+                    tous les avantages &amp; tout le coloris des exploits des héros ; que les
+                    Mahomet y éclipsent les Zopire, &amp; les Catilina les Cicéron ; que de
+                    semblables portraits ne sont propres qu’à faire revivre les originaux. Voilà ce
+                    qu’il pense des tragédies, même de celles où le crime est puni : en quoi, je le
+                    trouve d’accord avec La Mothe, qui dit : <quote>« Quelque sorte que soit la
+                        leçon que puisse présenter la catastrophe qui termine la pièce, le remède
+                        est trop foible &amp; vient trop tard. »</quote> Mais on a combattu l’idée
+                    de M. Rousseau. On lui a fait voir que l’objet du théâtre étoit mieux rempli,
+                    &amp; que le spectacle des suites affreuses d’une passion guérissoit de cette
+                    passion même. <quote>« A Sparte, pour préserver les enfans des excès du vin, on
+                        leur faisoit voir des esclaves dans l’ivresse. L’état honteux de ces
+                        esclaves inspiroit aux enfans la crainte ou la pitié, ou l’une &amp; l’autre
+                        en même temps ; &amp; ces passions étoient le préservatif du vice qui les
+                        avoit fait naître. »</quote></p>
+                <p><pb n="415" xml:id="p415"/>Les tragédies qui n’ont pas la ressource du dénoûment,
+                    sont encore plus rejettées de M. Rousseau. <hi rend="i">Atrée</hi> &amp; <hi
+                        rend="i">Mahomet</hi> ne périssent point, donc le crime est couronné. Mais
+                    M. Rousseau ne compte-t-il pour rien les remords, ces momens affreux de
+                    désespoir dont un bon poëte accompagne les actions des scélérats ? Cromwel, sans
+                    périr sur la scène, mais toujours tourmenté par sa propre conscience, toujours
+                    environné de spectres, toujours défiant &amp; livré à une agitation plus cruelle
+                    que la dissolution même de son être, ne seroit-il pas un sujet théâtral ?</p>
+                <p>Le citoyen de Genève appelle de ces principes au témoignage des spectateurs. Il
+                    prétend que, s’ils consultent leur cœur à la fin d’une tragédie, ils tomberont
+                    d’accord de ce qu’il avance. Je vois encore ici la marquise de Lambert favorable
+                    à ce frondeur déterminé : <quote>« On reçoit au théâtre de grandes leçons de
+                        vertu, &amp; l’on en remporte l’impression du vice »</quote> : <quote><hi
+                            rend="i">Telle femme y est entrée Pénélope, &amp; en est sortie
+                            Hélène</hi></quote><note n="*" place="bottom"><quote><hi rend="i"
+                                >Penelope venit, abiit Helene.</hi></quote></note>.</p>
+                <p><pb n="416" xml:id="p416"/>Mais cet appel de M. Rousseau n’a pas été mieux reçu
+                    que tout le reste. On lui a répondu que, de quelques cas particuliers, il ne
+                    pouvoit pas tirer une preuve générale en faveur de son sentiment.</p>
+                <p>Il ne persuade pas davantage dans ce qu’il dit des comédies. Les poëtes comiques,
+                    selon lui, s’attachent uniquement à tourner la bonté &amp; la simplicité en
+                    ridicule, à rendre les vieillards la dupe &amp; le jouet des jeunes gens. Ils
+                    intéressent au mensonge, à la ruse, aux fourberies : ils mettent l’honneur en
+                    parole &amp; le vice en action ; ils attirent tous les applaudissemens au
+                    personnage le plus adroit, &amp; rarement au plus estimable. Renard tombe encore
+                    plus dans cette faute que Molière, chez qui les friponneries sont communément
+                    punies.</p>
+                <p>On contredit encore, sur tous ces points, M. Rousseau. On soutient contre lui,
+                    que la comédie préserve de beaucoup de défauts &amp; même de vices. On répéte ce
+                    propos usé, <quote>« que Molière a plus corrigé de défauts à la cour, lui seul,
+                        que tous les prédicateurs ensemble »</quote>.</p>
+                <p><pb n="417" xml:id="p417"/>La profession des comédiens n’a pas échappé à
+                    M. Rousseau. Excommuniés ou non, il dit qu’ils sont partout méprisés, &amp; qu’à
+                    Paris même, où ils ont plus de décence &amp; de considération qu’ailleurs, un
+                    simple bourgeois n’oseroit fréquenter ces comédiens qu’on voit, tous les jours,
+                    à la table des grands seigneurs.</p>
+                <p>La Le Couvreur enterrée sur les bords de la Seine, &amp; L’Olfids à Westminster à
+                    côté de Newton &amp; des rois, forment un contraste singulier &amp;
+                    caractérisent le génie des deux nations. Mais celui qui connoit les Anglois, dit
+                    M. Rousseau, ne trouve à cela rien d’extraordinaire : ils ont voulu honorer,
+                    dans une actrice, non le métier, mais le talent. Les comédiens médiocres ou
+                    mauvais sont autant ou plus méprisés à Londres que partout ailleurs. Le portrait
+                    qu’il trace des acteurs &amp; des actrices les feroit bien rougir, s’il étoit
+                    ressemblant. Se reconnoissent-ils à cette peinture de leur dissipation, de leur
+                    luxe, de leurs hauteurs déplacées, de leurs intrigues, de leurs rivalités. Il ne
+                    les traite pas mieux que les habitans des caffés. Il appelle <pb n="418"
+                        xml:id="p418"/>ces asyles, <quote><hi rend="i">les refuges des fainéans
+                            &amp; fripons du pays</hi></quote>.</p>
+                <p>On étoit étonné de voir M. d’Alembert ne pas répondre à la satyre éloquente à
+                    laquelle il avoit donné sujet ; mais enfin il rompit le silence &amp; défendit
+                    son opinion. Si, sur le théâtre, on a voulu quelquefois, dit-il, intéresser pour
+                    des scélérats ; c’est la faute du poëte &amp; non du genre. Il est peu de
+                    tragédies où l’on ne trouve à s’instruire : dans <hi rend="i">Bérénice</hi>
+                    même, on apprend à vaincre la passion la plus violente. On dirigera l’amour vers
+                    une fin honnéte, lorsqu’on montrera <quote>« dans des exemples illustres, ses
+                        fureurs &amp; ses foiblesses, pour nous en défendre ou nous en
+                        guérir »</quote>.</p>
+                <p>La comédie a le même avantage. A l’exception de quelques pièces, le théâtre de
+                    Molière est le code de la bienséance, de l’honnéteté, des bonnes mœurs. Quel
+                    prédicateur que le <hi rend="i">Misantrope</hi> ! Il est ridicule de croire
+                        <quote>« que les valets, en s’exerçant à voler adroitement sur le théâtre,
+                        s’instruisent à voler dans les maisons &amp; dans les rues »</quote>. Les
+                    comédiennes sont peu retenues ; mais qu’on attache de <pb n="419" xml:id="p419"
+                    />la considération à leur état, &amp; elles auront de meilleures mœurs.</p>
+                <p>M. d’Alembert renouvelle aux Génevois la proposition qu’il leur a faite d’avoir
+                    un théâtre. Il leur garantit que cet établissement ne sçauroit nuire à la
+                    constitution ni au gouvernement de leur ville, ni à l’innocence de leurs mœurs.
+                        <quote>« Ils sont assez avancés, ou, si l’on aime mieux, assez pervertis,
+                        pour pouvoir entendre <hi rend="i">Brutus</hi> &amp; <hi rend="i">Rome
+                            sauvée</hi>, sans avoir à craindre d’en devenir pires. »</quote></p>
+                <p>Lequel croire de M. d’Alembert ou d’un citoyen qui veut sauver sa patrie de la
+                    corruption ; qui ne lui présage qu’abomination &amp; que malheurs, si l’on ne
+                    l’écoute ; qui eût pu s’appuyer de la raison que donne <hi rend="i">Cornelius
+                        Nepos</hi> pour marquer la différence des mœurs des Grecs &amp; des
+                    Romains : C’est que les comédiens étoient estimés des premiers, &amp; qu’ils
+                    étoient déshonorés chez les autres. Mais les Génevois semblent tous décidés. Ils
+                    sont très-peu reconnoissans du zèle de leur Démosthène : ils se plaignent qu’il
+                    les a mal peints, qu’il n’a crayonné que les mœurs de la populace. Tout ce <pb
+                        n="420" xml:id="p420"/>qui pense chez eux, la laisse s’enivrer &amp; fumer,
+                    &amp; se rend en foule à la comédie à Carouge.</p>
+                <p>Les enfans de Calvin se réconcilient avec elle. Notre premier acteur eut la
+                    gloire d’en faire pleurer quelques uns à <hi rend="i">Zaïre</hi>, à <hi rend="i"
+                        >Brutus</hi>, dans un voyage qu’il fit à Genève. On a, depuis, senti la
+                    barbarie de proscrire des larmes innocentes. Oui, si les spectacles sont
+                    criminels, s’ils sont les avant-coureurs de la chûte des petits états, c’est
+                    fait de ta patrie, ô vertueux Rousseau ! tout annonce qu’elle établira un
+                    théâtre chez elle. Lacédémone n’en vouloit pas, convaincue de tes principes. Si
+                    elle avoit vu seulement, à ses portes, des acteurs ; si elle y avoit vu les
+                    Sophocle &amp; les Ménandre, elle eût pris l’allarme &amp; cru voir déjà
+                    l’ennemi dans ses murs.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>

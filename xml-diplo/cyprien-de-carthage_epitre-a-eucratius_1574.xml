@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Livre premier. Epistre dixiesme. Cyprian à Eucratius son frere</title>
+                <author key="Cyprien de Carthage (02??-258 ; saint)" ref="https://data.bnf.fr/fr/11886041/cyprien/">Cyprien de Carthage</author>
+                <author key="Tigeou, Jacques (15..-16..). Traducteur" ref="https://data.bnf.fr/fr/14550886/jacques_tigeou/">Jacques Tigeou.
+                    Traducteur</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/cyprien-de-carthage_epitre-a-eucratius_1574</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Cyprien de Carthage, « Livre premier.
+                            Epistre dixiesme. Cyprian à Eucratius son frere », in <hi rend="i">Les Œuvres de
+                        sainct Cecile Cyprian, iadis evesque de Carthage, tres-victorievx martyr de
+                        Iesus Christ : avec quelques Annotations sur aucuns lieux obscurs et
+                        difficiles. Faictes Françoises, par M. Iaqves Tigeov Angevin, Docteur en
+                        Theologie, Chancelier et Chanoine en l’Eglise Cathedrale de Metz</hi>,
+                    <pubPlace>Paris</pubPlace>, <publisher>Nicolas Chesneau</publisher>,
+                        <date>1574</date>, p. 30-31. PDF : <ref
+                        target="http://books.google.fr/books?id=4-wMsnHKrnEC">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1574"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="letter">
+                <pb n="30" xml:id="p30"/>
+                <head>Epistre dixiesme.</head>
+                <argument>
+                    <label type="head"><hi rend="sc">L’argvment.</hi></label>
+                <p><hi rend="i">On peult coniecturer par ceste Epistre, en quelle detestation on
+                            auoit le temps pa&#x03B2;é les basteleurs, &amp;ioueurs de passe-passe,
+                            veu que par ceste epistre S. Cyprian admonneste Eucratius de retirer de
+                            ceste vilaine &amp; deshõneste maniere de viure, vn basteleur qui estoit
+                            parmy son peuple, pour suyure vn plus hõneste estat, &amp; mener vne vie
+                            d’innocence. Tertullian a fait vn liure des spectacles, &amp; S.Cyprian
+                            vne epistre au peuple qui est ferme en l’Euangile.</hi></p>
+                </argument>
+                <salute rend="center">Cyprian à Eucratius son frere,</salute>
+                <salute rend="center">Salut.</salute>
+                <p><hi rend="big">O</hi>ur la singuliere amitié, que tu me portes, &amp; pour
+                    l’acointance &amp; modestie, que nous auons l’vn enuers l’autre, trescher frere,
+                    tu t’es voulu enquerir de moy, quelle estoit mon opinion &amp; aduis, touchant
+                    vn basteleur, qui demeure entre vous, persistant tousiours<note n="1"
+                        place="margin">L’art de Bastelerie &amp; de ieux sur eschafaux est
+                        deshõneste, &amp; corrompt la Ieunesse.</note> en son art deshonneste, &amp;
+                    vilaine maniere de viure, &amp; comme maistre &amp; cõducteur d’enfans, non pour
+                    les enseigner, &amp; instruire quelque chose de bon, mais pour les perdre &amp;
+                    gaster, monstre aussi les autres, ce qu’il a autresfois appris à sa ruine &amp;
+                    damnation, assauoir si vn tel personnage doibt viure &amp; communiquer auec
+                    vous. Quant à moy, ie ne suys point d’aduis, qu’il soit seant à la majesté
+                    diuine, ny que ce soit suyure la forme de la discipline Ecclesiastique, que par
+                    vne si vilaine &amp; infame contagion, l’honnesteté &amp; la saincteté de
+                    l’Eglise soit souillee<note n="a" place="margin"><hi rend="i">Deuters.</hi>
+                        225.</note>. Car puis, qu’il est<note n="2" place="margin">La loy defend que
+                        les hõmes se desguisent en femmes, &amp; les femmes en hõmes.</note> defendu
+                    en la loy, que les hommes ne vestent point les habits de femme, &amp; que ceux
+                    qui le font sont maudicts&#xA0;: c’est bien plus grand crime, de non seulement
+                    prendre &amp; vestir les acoustremens des femmes, mais aussi auec ce,
+                    representer &amp; exprimer les gestes deshonnestes, &amp; effeminez des femmes,
+                    selon que cest art impudique l’enseigne. Et l’excuse est nulle, de dire qu’il ne
+                    monte plus sur eschaffaut &amp; theatre, s’il enseigne les autres à faire le
+                    semblable. Car on ne peult estimer que celuy la cesse de suyure vn tel estat,
+                    qui en constitue d’autres en sa place&#xA0;: &amp; qui au lieu de luy seul, en
+                    met plusieurs pour ses lieutenans, contre l’ordonnance de Dieu, enseignant,
+                    &amp; instruisant, comment le masle se desguisera en femelle, &amp; que le sexe
+                    soit chãgé par art, &amp; qu’on plaise au diable, qui souille la creature de
+                    Dieu, en offençant par tels desguisemens d’vn corps effeminé &amp; cõtrefait. Et
+                    si d’auãture il s’excuse de ce qu’il est pauure &amp; necessiteux, il pourra
+                    bien estre soulagé &amp; aidé en sa necessité, auec ceux qui sont entretenus
+                    &amp; nourris aux despens de l’eglise&#xA0;: pourueu qu’il se contente de si peu
+                    de viandes, que l’Eglise donne par raison, &amp; mesure, <pb n="31" xml:id="p31"/>sans exces.
+                    Et qu’il n’estime pas, qu’on luy doibue donner salaire, pour desister de ses
+                    offenses, veu que c’est à son dan, qu’il vit ainsi, &amp; non au nostre. Au
+                    reste qu’il cerche du gaing &amp; du prouffit de son art autant qu’il voudra.
+                    Mais quel peult estre le gaing, lequel non seulement retire les hommes du
+                    banquet d’Abraham, d’Isaac, &amp; de Iacob, ains aussi meine aux supplices d’vne
+                    faim &amp; soif eternelle ceux, qui ont esté engraissez au monde, à leur
+                    iugement &amp; condemnation&#xA0;? Et pourtant retire le, tant qu’il te sera
+                    possible, de sa meschante &amp; damnable condition de viure, pour le r’apeller
+                    au chemin d’innocence, &amp; à l’esperance de son salut, à ce qu’il se contente
+                    de la despence de l’Eglise, qui est petite, mais salutaire. Que si l’Eglise de
+                    pardela n’est pas suffisante, de nourrir &amp; sustenter ceux qui ont disette,
+                    il se pourra retirer vers nous, pour receuoir par deça ce qui luy sera
+                    necessaire, tant pour son viure, que pour s’entretenir&#xA0;: &amp; que hors de
+                    l’Eglise il n’enseigne plus les autres, ce qui est abominable, &amp; qui
+                    engendre la mort, mais que dedans l’Eglise il apprenne ce, qui est bon, &amp;
+                    qui appartient à son salut. Ie supplie Dieu, frere trescher, qu’il te tienne
+                    tousiours en sa saincte grace.</p>
+            <div2 type="notes">
+                <head><hi rend="sc">Annotation</hi>.</head>
+                <p><hi rend="big">E</hi><hi rend="sc"><hi rend="i">n</hi></hi>
+                    <hi rend="i">son art deshonneste &amp; vilaine maniere de viure.</hi>) Le temps
+                    passé on a eu en grande abomination telz spectacles, comme mesme Tertulien le
+                    monstre en son liure des Spectacles. Et de nostre temps tels personnages soubs
+                    pretexte de Comedies &amp; Moralitez, ou Farces ont semé plusieurs heresies,
+                    &amp; denigré l’estat Ecclesiastique, &amp; parce moyen estrangé plusieurs de
+                    l’vnion &amp; du troupeau de nostre Seigneur.</p>
+            </div2>
+        </div1>
+        </body>
+    </text>
+</TEI>

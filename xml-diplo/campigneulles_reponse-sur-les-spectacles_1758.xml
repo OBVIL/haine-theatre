@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Réponse pour M. le Chevalier de ***, à la lettre de M. des P. de B. sur les
+                    spectacles [Essais sur divers sujets par M. de C***]</title>
+                <author key="Campigneulles, Charles-Claude-Florent Thorel de (1737-1809)"
+                    ref="https://data.bnf.fr/fr/12001073/charles-claude-florent_thorel_de_campigneulles/"
+                    >Charles-Claude-Florent Thorel de Campigneulles</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/campigneulles_reponse-sur-les-spectacles_1758</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Charles-Claude-Florent Thorel de Campigneulles, « Réponse pour M. le Chevalier
+                    de ***, à la lettre de M. des P. de░B. sur les spectacles », in <hi rend="i"
+                        >Essais sur divers sujets par M. de C***. Garde du Corps du Roi, de
+                        l’Académie Royale des Sciences &amp; des Belles-Lettres de Villefranche,
+                        &amp; de la Société Littéraire-Militaire de Besançon</hi>,
+                        <pubPlace>Londres</pubPlace> ; <pubPlace>Paris</pubPlace>,
+                        <publisher>[s.n.]</publisher> ; <publisher>Lambert</publisher>,
+                        <date>1758</date>, p. 128-142 PDF : <ref
+                        target="http://books.google.fr/books?id=SQVYAAAAcAAJ">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1758"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="letter">
+                <pb n="128" xml:id="p128"/>
+                <head>Réponse pour M. le Chevalier de***, <hi rend="i">A la lettre de M. des P. de
+                        B. sur les spectacles</hi><note n="*" place="bottom">Cette lettre a paru en
+                        1757.</note>.</head>
+                <p><hi rend="big">E</hi><hi rend="sc">n</hi> combattant, Monsieur, votre injuste
+                    prévention ; zélé partisan du théâtre, je n’en dissimulerai pas les défauts. Il
+                    en est sans doute d’intolérables, que je n’entreprendrai point d’excuser : je
+                    les connois, non pas comme vous, sur la foi des autres, mais par l’expérience.
+                    Vous avez négligé cette voie, qui pouvoit seule vous apprendre la vérité ; un
+                    homme, dites-vous, ne doit pas s’exposer sur une rivière, &amp; dans un endroit
+                    où il court risque de se noyer, avant d’avoir fait une juste information ; mais
+                    que croyez-vous qu’il doive faire après s’être exactement informé ? S’il
+                    franchit le pas, la comparaison ne tourne plus à votre avantage ; s’il en <pb
+                        n="129" xml:id="p129"/>reste là, au contraire, il n’aura qu’une notion
+                    confuse du terrein &amp; de la nature du danger. C’est justement le cas où vous
+                    vous trouvez, Monsieur : il falloit examiner par vous-même ; on ne voit jamais
+                    bien par les yeux des autres ; on ne peut rapporter les choses que selon l’idée
+                    qu’on s’en forme, &amp; nos sensations sont toutes différentes : d’ailleurs, il
+                    est difficile de trouver un homme désintéressé : enfin vous deviez vous exposer
+                    au danger, si vous vouliez remporter une gloire solide &amp; méritée. Ne dites
+                    point avec saint Augustin, <quote><hi rend="i">qui amat periculum, in illo
+                            peribit</hi></quote> : car ce danger ne peut rien sur un homme sensé,
+                    qui, débarrassé du joug des passions, porte au spectacle un esprit vertueux ;
+                    souvenez-vous enfin,</p>
+                <quote>
+                    <l>Qu’à vaincre sans péril, on triomphe sans gloire.</l>
+                    <bibl><hi rend="i">Corneille.</hi></bibl>
+                </quote>
+                <p>Aviez-vous donc oublié l’utilité de l’expérience ? &amp; pouviez-vous penser que
+                    votre décision, sur une matière que vous ne connoissez pas, pourroit <pb n="130"
+                    />faire quelqu’impression sur les esprits sensés ? Non, Monsieur, ceux
+                    d’entr’eux qui liront votre brochure vous plaindront de négliger la partie la
+                    plus brillante de notre littérature, &amp; porteront au spectacle l’arrêt de
+                    votre condamnation : pour moi je fais plus, j’entreprends aujourd’hui de le
+                    justifier à vos yeux.</p>
+                <p>Je commence par examiner la nature des pièces qu’on représente au théâtre, &amp;
+                    je finirai par le jeu des acteurs : la première partie décidera de la seconde ;
+                    car la déclamation n’est que l’art de rendre au naturel les transports de l’ame.
+                    Or, si ces transports n’ont rien de criminel, la déclamation n’aura rien que
+                    d’innocent. Vous exceptez vous-même du nombre des mauvaises pièces Athalie &amp;
+                    Esther. Mais pourquoi oubliez-vous les Machabées, par M. de la Mothe ; le
+                    Poliante, de Pierre Corneille ; Cassius &amp; Victorinus, de M. de la Grange
+                    Chancel ; enfin l’Alzire de M. de Voltaire, pièce qui a réuni tous les
+                    suffrages, où les doutes mêmes d’Alzire font éclater la ferme croyance de
+                    Monthèse ? <pb n="131" xml:id="p131"/>Où trouver plus de douceur &amp;
+                    d’humanité que dans Alvarès ? plus de grandeur d’ame qu’en montre Gusman ? Quel
+                    modèle de fidélité que la tendre Alzire ! Déchirée par ces sentimens, si
+                    puissans sur les cœurs généreux, la religion, le devoir &amp; l’amour ; elle
+                    n’ose avouer</p>
+                <quote>
+                    <l>Ces foiblesses des sens que sa raison surmonte.</l>
+                    <bibl><hi rend="i">Corneille.</hi></bibl>
+                </quote>
+                <p>Zamor auroit son cœur, si Gusman n’avoit sa main. Dans ces instans cruels, elle
+                    adresse sa prière à l’Eternel :</p>
+                <quote>
+                    <l>Les vainqueurs, les vaincus, tous les foibles humains,</l>
+                    <l>Sont tous également l’ouvrage de tes mains.</l>
+                </quote>
+                <p>Qui ne seroit sensible au sort de cette infortunée, qui, loin d’éprouver la
+                    tranquillité qu’on lui avoit promise dans une nouvelle religion, est en proie
+                    aux plus grands des malheurs ? Son sort arrache des pleurs au cœur le plus
+                    indifférent, &amp; les pleurs honorent l’humanité. Tout, dans cette excellente
+                    pièce, contribue au triomphe de la vertu ; mais elle n’est pas la seule dans ce
+                        <pb n="132" xml:id="p132"/>genre, &amp; celles que je vous ai citées plus
+                    haut en font la preuve. J’aurois tort cependant d’en conclure que toutes sont
+                    bonnes ; car la partie ne doit point ici décider du tout. Je dois vous donner
+                    une notion générale ; &amp;, pour y mieux parvenir, voyons ce qui constitue
+                    l’essence de la tragédie. L’amour, l’ambition, la jalousie, la colère &amp; la
+                    haine, sont les passions les plus propres à émouvoir, &amp; les plus en usage au
+                    théâtre. L’amour, cet ennemi redoutable, à qui vous avez déclaré la guerre, y
+                    joue presque toujours le rôle principal ; mais ou il est innocent, comme dans
+                    Mithridate, Iphigénie, Inès, Didon, Pénélope, Héraclius, &amp; tant d’autres,
+                    &amp; pour lors il n’est point à craindre ; ou il est criminel, comme l’amour de
+                    Varus, pour Marianne ; de Phèdre, pour Hyppolite ; d’Œdipe, pour Jocaste ;
+                    alors, loin d’être peint avec ce coloris qui fait chérir la vertu, il paroît
+                    dans toute sa noirceur : Varus le déteste &amp; en triomphe : Phèdre succombe
+                    après avoir longtemps combattu ; mais, loin de se glorifier de sa défaite, elle
+                    trouve le poison trop lent <pb n="133" xml:id="p133"/>pour se délivrer d’une vie
+                    qu’elle a souillée par les plus noirs forfaits : enfin, Œdipe se prive pour
+                    jamais du jour, dès qu’il trouve une mère dans une épouse tendrement aimée. En
+                    vérité, Monsieur, un amour malheureux, puni par un supplice aussi cruel, loin
+                    d’applanir aux hommes le sentier du crime, est bien plutôt capable de les en
+                    détourner. En effet, supposons un amant qui, dans le feu des passions, a promis
+                    à sa maîtresse de la défaire d’un homme qu’elle aime, mais qu’elle croit devoir
+                    haïr depuis qu’il lui est infidèle : supposons, dis-je, qu’aveuglé par son amour
+                    il ait tout promis, &amp; que le hasard le conduise à la comédie le même jour
+                    qu’on y doit représenter Andromaque ; il écoute avec attention ; il voit dans
+                    Pyrrhus ce rival qui lui est odieux ; il est enflammé comme Oreste du plus
+                    ardent courroux ; Hermione est à ses yeux cette maîtresse chérie dont il attend
+                    sa félicité ; le sacrifice est ordonné ; Oreste tremble, recule, hésite, mais
+                    obéit ; il sort dans le dessein d’accomplir sa promesse, &amp; vient bientôt
+                    annoncer à sa maîtresse qu’il a rempli <pb n="134" xml:id="p134"/>ses
+                    engagemens : mais quel retour affreux ! Il est accablé des plus cruels
+                    reproches, &amp; son Hermione en fureur fuit pour jamais son aspect odieux. Si
+                    cet homme est capable de réflexions, s’il fait un juste parallele de sa
+                    situation &amp; de celle d’Oreste, ne craindra-t-il pas le même sort que lui ?
+                    &amp; cette seule crainte n’est-elle pas capable de lui faire ouvrir les yeux,
+                    &amp; de l’arrêter au bord du précipice où la passion l’alloit précipiter ?
+                    Voilà donc l’amour justifié ; car vous voyez que, s’il est innocent, il n’en
+                    doit résulter aucun mal, si ce n’est par un abus fatal. Hé ! dequoi n’abuse-t-on
+                    pas ? Et, s’il est coupable il est toujours puni. On peut en dire autant des
+                    autres passions que j’ai citées déjà. Le spectacle nous représente le tableau de
+                    la vie civile sous des noms empruntés.</p>
+                <quote>
+                    <l>Quid rides? mutato nomine, de te Fabula narratur.</l>
+                    <bibl><hi rend="i">Horat. Sat. I.</hi></bibl>
+                </quote>
+                <p>Si vous craignez de voir un homme furieux, si vous fuyez l’aspect du jaloux, si
+                    vous redoutez les tristes effets <pb n="135" xml:id="p135"/>de la haine,
+                    retirez-vous de la scène du monde où vous êtes sans cesse exposé à voir de
+                    pareils objets ; c’est au théâtre, à la vérité, qu’on vous en présente le
+                    spectacle le plus accompli ; mais c’est aussi là que vous voyez vos foiblesses
+                    au grand jour ; l’esprit apperçoit les défauts du cœur ; &amp; la connoissance
+                    des vices est le germe des vertus. Vous voyez donc, Monsieur, que Melpomène
+                    n’est pas si à craindre que vous vous l’imaginez. Examinons maintenant si son
+                    aimable sœur a plus de pouvoir qu’elle sur une personne susceptible.
+                    Premièrement, le jugement de ce philosophe, si cher à ces esprits dissous dans
+                    la volupté, me paroît ici un peu suspect. Bayle pouvoit juger d’un ouvrage
+                    d’esprit, ou d’une dissertation physique ; mais c’étoit à nos directeurs à nous
+                    apprendre le changement des mœurs. Cependant, je veux bien en croire le
+                    sceptique dont vous adoptez le témoignage : quand même Molière n’auroit corrigé
+                    que des petits-maîtres, des misantropes &amp; de faux dévots, n’estimez-vous pas
+                    assez la société, pour lui en avoir la plus grande obligation ? S’il <pb n="136"
+                        xml:id="p136"/>étoit prouvé qu’il n’eût pas fait de mal d’ailleurs,
+                    oseriez-vous dire qu’il n’a pas fait un grand bien ? Non, sans doute, &amp; je
+                    vous rends trop de justice pour vous en soupçonner. Je fais plus : je vous avoue
+                    même que plusieurs des pièces de ce grand Comique ne répondent point à la pureté
+                    du théâtre ; d’autres auteurs l’ont profané à son exemple. Les comédiens doivent
+                    contenter tous les spectateurs ; s’ils ne jouoient que des comédies telles que
+                    souhaiteroient les honnêtes gens, leur sale seroit souvent déserte ; avec
+                    d’excellentes pièces les meilleurs comédiens mourroient de faim. Mais le goût
+                    dépravé du libertin doit-il vous empêcher d’assister à ces chefs d’œuvres de
+                    l’art, où le ridicule du vice est seul capable de faire aimer la sagesse ? Le
+                    Misantrope, le Méchant, Esope à la cour, la Métromanie, la surprise de l’Amour,
+                    l’Enfant prodigue, le Préjugé vaincu, Mélanide, le Glorieux, Cénie, &amp; tant
+                    d’autres, dont les noms me sont échappés, sont toutes pièces où l’on ne
+                    rencontre point la moindre équivoque ; enfin, Monsieur, au <pb n="137"
+                        xml:id="p137"/>spectacle, comme partout ailleurs,</p>
+                <quote>
+                    <l>Pour être vertueux on n’a qu’à le vouloir.</l>
+                    <bibl><hi rend="i">Crébillon.</hi></bibl>
+                </quote>
+                <p>Je crois avoir suffisamment prouvé la bonté des poëmes, soit tragiques ou
+                    comiques ; mais je veux plus faire encore. Supposons qu’ils soient vicieux les
+                    uns &amp; les autres ; en ce cas je soutiens que la lecture doit en être plus
+                    funeste que la représentation. Vous avez du sentiment, les beaux morceaux
+                    doivent vous toucher ; le livre est sous vos yeux ; vous méditez, vous avalez à
+                    longs traits le venin que l’auteur a répandu dans les vers que vous admirez ;
+                    enfin, vous faites vous-même le rôle du comédien que vous condamnez si
+                    sévérement. Le danger que vous courez est donc bien plus grand à la lecture
+                    qu’au spectacle même ; car, quand même je vous accorderois qu’il pourroit faire
+                    plus d’impression sur vos sens, ce ne seroit tout au plus qu’une impression
+                    momentanée qui finit avec l’objet qui l’a fait naître ; mais la lecture produit
+                    un effet bien différent, elle vous présente sans cesse cette image séductrice :
+                    vous vous y <pb n="138" xml:id="p138"/>arrêtez : vous la revoyez à toute heure
+                    avec un nouveau plaisir. Enfin, si Corneille est coupable, il est plus à
+                    redouter dans la solitude d’un cabinet, que dans la cohue du théâtre. Vous le
+                    lisez cependant. Que de momens avez-vous à vous reprocher ! Quelle source
+                    intarissable de scrupules &amp; de remords ! Mais, non ; soyez tranquille ; le
+                    livre d’un honnête homme, où ses sentimens sont gravés, ne peut blesser la plus
+                    rigide vertu.</p>
+                <p>C’est maintenant le lieu de justifier le jeu de nos acteurs. L’immodestie des
+                    femmes est, sans doute, une des plus grandes objections que vous puissiez me
+                    faire ; je peux vous répondre, à la vérité, que vous êtes tous les jours exposé
+                    au même danger. Le beau sexe, aujourd’hui, ne se fait plus scrupule d’abandonner
+                    à nos regards ce qu’autrefois la pudeur l’obligeoit de cacher. Du reste tout y
+                    est dans la plus exacte décence, &amp; rien n’y choque les yeux. On n’est pas si
+                    réservé au foyer : mais vous êtes maître de n’y point aller ; cependant il ne
+                    s’y passe rien de grossier.</p>
+                <pb n="139" xml:id="p139"/>
+                <quote>
+                    <l>Amor non talia curat.</l>
+                    <bibl><hi rend="i">Virg.</hi></bibl>
+                </quote>
+                <p>Je crois en avoir assez dit pour vous faire revenir de votre prévention ; je
+                    pourrois encore ajouter quelques raisons pour achever de vous convaincre ; mais
+                    je les supprime : c’est à la réflexion à vous les présenter.</p>
+                <quote>
+                    <l>Verum animo satis hæc vestigia parva sagaci</l>
+                    <l>Sunt, per quæ possis cognoscere cætera tutè.</l>
+                    <bibl><hi rend="i">Lucret. de rer. nat.</hi></bibl>
+                </quote>
+                <p>Si, cependant, vous me demandiez si la comédie est propre à faire mourir en nous
+                    l’esprit du péché, &amp; à nous faire rentrer dans la voie du salut, je vous
+                    avouerai franchement que je la crois peu capable d’opérer ces miracles ; je la
+                    regarde comme un objet indifférent en soi qui peut servir de délassement aux
+                    personnes occupées, &amp; d’occupation aux personnes qui n’ont rien à faire ;
+                    mais vous auriez tort, je le répete encore, de vous imaginer que je regarde le
+                    théâtre comme une école de religion ;</p>
+                <pb n="140" xml:id="p140"/>
+                <quote>
+                    <l>Non, pour changer leurs mœurs &amp; régler leur raison,</l>
+                    <l>Les chrétiens ont l’Eglise &amp; non pas le théâtre.</l>
+                    <bibl><hi rend="i">Godeau.</hi></bibl>
+                </quote>
+                <p>Il falloit vous jetter, Monsieur, dans de profondes recherches sur la morale,
+                    pour prouver, par des citations, l’anathème prononcé contre les sectateurs du
+                    théâtre. J’aurois respecté votre soumission, &amp; je me serois fait gloire de
+                    n’y rien opposer<note n="*" place="bottom">Saint Charles Borromée examina
+                        lui-même les pièces que l’on jouoit à Milan. Léon X, le restaurateur des
+                        lettres en Europe, fit représenter des tragédies dans son palais. Il y
+                        avoit, sous le règne de Louis XIV, un banc à la comédie que l’on appelloit
+                        le banc des Evêques. Le grand Bossuet fit un livre en faveur de la comédie.
+                        Mais que servent ces autorités ? Si l’Eglise parle, rien ne peut nous
+                        dispenser d’obéir.</note>. Cependant j’ai peine à croire que les Pères de
+                    l’Eglise, qui condamnèrent les Troubadours, les Jongleurs, &amp; les pièces
+                    indécentes que représentoient ces grossiers personnages, proscrivissent si
+                    sévérement, s’ils vivoient de nos jours, ces chefs-d’œuvre du dernier siècle, où
+                    triomphent la décence, l’esprit &amp; le sentiment.</p>
+                <p><pb n="141" xml:id="p141"/>Il ne me reste plus qu’à vous faire sentir l’injustice
+                    de votre procédé envers M. de Voltaire ; car on n’ignore pas qu’il est l’auteur
+                    de l’épître que vous condamnez. Vous deviez réfléchir longtemps sur le choix
+                    d’une épithète ; &amp;, si vous l’aviez fait, vous n’auriez peut-être pas donné
+                    celle d’impie à l’épître en question. Elle est bien pardonnable au transport
+                    d’un poëte &amp; d’un amant, &amp; d’ailleurs les sentimens de l’auteur sont
+                    généralement connus. A l’égard de M. Bayle, que vous n’accusez pas avec moins
+                    d’injustice, je vous renvoie à l’examen critique des remarques de M. l’abbé
+                    d’Olivet sur la théologie des philosophes Grecs. Vous y trouverez les preuves
+                    les plus convaincantes qu’on puisse alléguer en sa faveur ; c’est-à-dire le
+                    nombre &amp; la qualité de ceux qui s’honorèrent de son amitié.</p>
+                <p>Vous serez peut-être surpris de ce que je n’ai pas pris la défense de l’opéra
+                    dans le cours de cette lettre ; ce n’est pas parce que je crois ce spectacle
+                    plus dangereux que les autres, mais c’est que les mêmes raisons que j’ai
+                    alléguées <pb n="142" xml:id="p142"/>ci-dessus, doivent servir à l’excuser. Si
+                    vous ne vous en contentez pas, prêtez l’oreille attentivement, quand vous
+                    entendez une agréable symphonie. L’oreille suffit pour justifier la musique. Je
+                    finis par un passage que me fournit M. Racine. Je sçais bien, dit-il, que S.
+                    Augustin s’accuse de s’être laissé attendrir à la comédie, &amp; d’avoir pleuré
+                    en lisant Virgile ; mais qu’est-ce que vous concluez de là ? Direz-vous qu’il ne
+                    faut plus lire Virgile, &amp; ne plus aller à la comédie ? Mais S. Augustin
+                    s’accuse aussi d’avoir trop pris de plaisir aux chants de l’église ; est-ce à
+                    dire qu’il ne faut plus aller à l’Eglise ?</p>
+                <p>Je suis, &amp;c.</p>
+                <trailer>FIN.</trailer>
+            </div1>
+        </body>
+    </text>
+</TEI>

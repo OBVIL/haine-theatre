@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Comédie [article de l’Abrégé du Dictionnaire des cas de conscience]</title>
+                <author key="Collet, Pierre (1693-1770)"
+                    ref="https://data.bnf.fr/fr/12490355/pierre_collet/">Pierre Collet</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/collet_comedie_1764</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Pierre Collet, « Comédie », in <hi rend="i">Abrégé du Dictionnaire des cas de
+                        conscience, de M. Pontas, Dans lequel on trouve un grand nombre de Remarques
+                        et de nouvelles Décisions ; On y a joint les Résolutions latines imprimées à
+                        Ferrare, avec la Critique ; Par M. Collet, prêtre de la Congrégation de la
+                        Mission et Docteur en Théologie</hi>, <pubPlace>Paris</pubPlace>, chez les
+                        <publisher>Libraires associés</publisher>, <date>1764</date>, tome I,
+                    col. 252-254. PDF : <ref target="http://books.google.fr/books?id=kik-AAAAcAAJ"
+                        >Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1764"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="article">
+                <cb n="252"/>
+                <head>Comédie.</head>
+                <p><hi rend="big">L</hi><hi rend="sc">a</hi>
+                    <hi rend="i">Comédie</hi> est un Poëme Dramatique qui représente une action, qui
+                    d’une maniere ingénieuse &amp; plaisante corrige les défauts des hommes, &amp;
+                    divertit par la <cb n="253"/>peinture naïve qu’elle fait de leurs différens
+                    caracteres. Desorte qu’on appelle <hi rend="i">Comédien ;</hi> celui qui monte
+                    sur un théâtre, &amp; qui par le rôle dont il s’est chargé, aide aux autres à y
+                    représenter publiquement quelque Piece Dramatique, afin de divertir le peuple,
+                    &amp; de gagner par-là de quoi subsister. Il n’est point ici question de son
+                    origine, qui sûrement vient des Payens : il s’agit uniquement de sçavoir ce
+                    qu’il en faut penser. On va le voir dans les cas suivans.</p>
+                <p/>
+                <p><hi rend="sc">Cas</hi> I. Un mari &amp; une femme, gens de qualité, vont à la
+                    Comédie. Le mari, parce qu’il se rendroit ridicule à ses amis, s’il refusoit d’y
+                    aller avec eux : la femme, parce que son mari veut qu’elle y aille. Tous deux,
+                    parce qu’ils ne font que s’y délasser, que les Comédies d’aujourd’hui sont fort
+                    châtiées, que c’est une coutume reçue dans les pays policés, &amp; même à Rome,
+                    qui est le centre de la Religion. Leur Confesseur ne peut-il pas leur passer cet
+                    article ?</p>
+                <p>R. Il ne le peut, 1°. Parce que tous les SS. Peres ont condamné les spectacles,
+                    &amp; ceux mêmes qui avoient été réformés, &amp; que S. Chrysostôme appelle des
+                    écoles d’adultere &amp; de libertinage. 2°. Parce que si un seul regard jetté
+                    sur une femme, même dans l’Église, est capable d’avoir des suites criminelles ;
+                    que doit-on penser de ceux qui se font avec une pleine liberté dans ces lieux,
+                    où l’immodestie triomphe impunément. 3°. Parce que l’Église qui après tout doit
+                    être la grande regle d’un Chrétien, condamne les spectacles, &amp; regarde comme
+                    ex-communiés ceux qui montent sur le théâtre. Que si on les souffre à Rome &amp;
+                    ailleurs, (quoiqu’ils y soient fort différens de ce qu’ils sont en France, soit
+                    pour les Acteurs, soit pour les Pieces, qui toutes subissent l’examen avant que
+                    d’être jouées,) ce n’est que comme on tolere un moindre mal pour en éviter de
+                    plus grands, selon ce mot de S. Augustin : <hi rend="i">Tolle meretrices, &amp;
+                        omnia replesti libidinibus.</hi></p>
+                <p>&#x261E; On peut lire sur cette matiere l’ouvrage de M. le Prince de Conty, de M.
+                    Bossuet, &amp; l’Écrit si connu de M. Rousseau de Genève, contre un article de
+                    l’Encyclopédie. De ces principes, j’ai conclu ailleurs qu’on ne peut pas même
+                    permettre d’assister à la premiere représentation d’une Comédie. 1°. Parce qu’il
+                    n’est jamais permis de coopérer à un exercice au moins très-dangereux. 2°. Parce
+                    que l’exemple d’un homme réglé, qu’on verroit au spectacle, autoriseroit une
+                    infinité de personnes d’une vertu plus que médiocre, à y assister. Voyez ma
+                    Morale, Tome VI, c. 3, art. 7.</p>
+                <p><hi rend="sc">Cas</hi> II. <hi rend="i">Licinius,</hi> Comédien, connu pour tel,
+                    s’étant présenté à Pâques à la Communion, a la vue de tout le monde, son Curé la
+                    lui a refusée. L’a-t-il pu en conscience ?</p>
+                <p>R. Puisque ce Comédien est connu publiquement pour tel, son Curé a dû lui refuser
+                    la Communion, après néanmoins lui avoir demandé publiquement s’il s’étoit
+                    confessé &amp; avoit renoncé pour toujours à sa profession. Car autrement, comme
+                    dit S. Cyprien en son Épître à Eucratius, c’est profaner la sainteté &amp; la
+                    gloire de l’Église, <cb n="254"/>&amp; violer les regles de l’Évangile, que de
+                    permettre qu’elles soient souillées par la communication de personnes aussi
+                    infâmes.</p>
+                <p><hi rend="sc">Cas</hi> III. <hi rend="i">Philométor,</hi> Comédien, étant au lit
+                    de la mort, &amp; n’ayant pas voulu promettre de renoncer à sa profession, est
+                    mort sans recevoir les Sacremens, &amp; a été privé de la sépulture
+                    Ecclésiastique. Le Curé qui a fait l’un &amp; l’autre, n’est-il point
+                    coupable ?</p>
+                <p>R. Puisque les Comédiens sont excommuniés, infames, attachés à une profession
+                    criminelle, le Curé de Philométor a fait son devoir en lui refusant les
+                    Sacremens, à cause de l’opiniâtreté où il étoit de vouloir persévérer dans sa
+                    profession, &amp; par conséquent il a dû refuser à son corps la sépulture
+                    Ecclésiastique ; puisqu’elle n’est dûe qu’à ceux qui meurent dans la Communion
+                    de l’Église, &amp; que le Rituel Romain défend de la donner aux pécheurs
+                    publics.</p>
+                <p>&#x261E; L’Auteur pense &amp; parle différement, v. <hi rend="sc">Pécheur
+                        public</hi>.</p>
+                <p><hi rend="sc">Cas</hi> IV. On demande si des Communautés Religieuses peuvent
+                    représenter en particulier des Pieces de théâtre sur des sujets de piété, avec
+                    les habits dont on se sert à la Comédie &amp; à l’Opéra, en n’y admettant point
+                    de personnes de dehors.</p>
+                <p>R. On ne peut excuser ce genre de récréation d’un péché grief, 1°. Parce que c’en
+                    est un de prendre d’autres habits que ceux de son sexe. 2°. Parce qu’il est
+                    défendu à un Religieux de quitter son habit, même pour un peu de temps. 3°.
+                    Parce qu’on ne peut emprunter des habits de théâtre, sans que bien des gens le
+                    sçachent, &amp; en soient scandalisés. * Ajoutez que pour apprendre une Piece,
+                    pour s’exercer à bien faire son rôle, &amp;c. il faut bien du temps, dont on
+                    peut assurément faire un meilleur usage. Au reste, on ne prétend pas ici blâmer
+                    les Tragédies qui se représentent dans plusieurs Colleges, 1°. Parce que ce ne
+                    sont pas des Religieux qui font les différens personnages ; mais des Écoliers
+                    séculiers. 2°. Parce que cet exercice est très-utile aux jeunes gens, tant pour
+                    fortifier leur mémoire que pour les rendre plus hardis à parler un jour en
+                    public, soit dans la Chaire ou au Barreau. 3°. Parce qu’on n’y voit point de
+                    garçons travestis en femmes, &amp; que tout s’y passe dans la modestie, &amp;
+                    sans que personne s’en scandalise.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>
