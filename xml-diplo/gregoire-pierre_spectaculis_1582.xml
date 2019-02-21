@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De spectaculis. Cap. 5. [Tertia ac postrema syntagmatis iuris vniversi pars,
+                    liber XXXIX]</title>
+                <author key="Grégoire, Pierre (1540?-1597)"
+                    ref="https://data.bnf.fr/fr/12200220/pierre_gregoire/">Pierre Grégoire</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/gregoire-pierre_spectaculis_1582</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Pierre Grégoire, « De spectaculis. Cap. 5. », in <hi rend="i">Tertia ac
+                        postrema syntagmatis iuris vniversi pars. In qua de negotiis, qua ex rebus
+                        et personis oriuntur, et quotidie controuertuntur agitur ; Iurisconsultis,
+                        in foro versantibus et magistratibus opus utilissimum ; legibus omnium ferè
+                        gentium, et praxi forensi illustratum. Authore Petro Gregorio Tholosano I.
+                        V. Doctore, et professore publico in Academia Tholosana</hi>,
+                        <pubPlace>Lugduni</pubPlace>, apud <publisher>Antonium Gryphium</publisher>,
+                        <date>1582</date>, Liber XXXIX, « De pluribus aliis privatis delictis »
+                    (p. 808-849), cap. 5, p. 818-825. PDF : <ref
+                        target="https://books.google.fr/books?id=PhgEz4iph4oC">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1582"/>
+            </creation>
+            <langUsage>
+                <language ident="lat"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter">
+                <pb n="818" xml:id="p818"/>
+                <head>De spectaculis. Cap. 5.</head>
+                <argument>
+                    <list type="toc">
+                        <item>1 Spectacula vitio dantur frequentare &amp; facere, infamesq́; in
+                            scenam prodeuntes, exceptis quibusdam. Et 3.</item>
+                        <item>2 Scena quid.</item>
+                        <item>3 Certamina sacra quæ honorem habeant. Et de quibusdam alÿs
+                            certaminibus, &amp; ludis. num. 5. 7. 8.</item>
+                        <item>4 Ludorum theatralium diuisio. Et 17.</item>
+                        <item>6 Spectaculorum fines virtus, &amp; voluptas, quæstus.</item>
+                        <item><pb n="819" xml:id="p819"/>9 Certamina sacra Græciæ, &amp; ubi
+                            fierent, &amp; præmia. num. 10. 11. 12. 13. 14. 15. &amp; 16. Vbi de
+                            Olympicis, Isthmÿs, Pythÿs, &amp; Nemeis certaminibus.</item>
+                        <item>18 Gladiatorum spectacula crudelia quis instituit. Et 29. 31. 32.
+                            33.</item>
+                        <item>19 Spectaculis probandis vel improbandis quæ inspicienda res. Et
+                            num. 20. 21. 24. Histrionum &amp; mimorum pœnæ. eod. Et 22. 23. 25. 26.
+                            27. 28.</item>
+                        <item>30 Venatorius ludus quis, &amp; de bestiarum pugna cum
+                            hominibus.</item>
+                        <item>34 Torneamenta prohibita &amp; duella, &amp; in ÿs decedentes non
+                            sepeliendi sacra sepultura.</item>
+                    </list>
+                </argument>
+                <p><hi rend="big">V</hi>I<hi rend="sc">tio</hi> &amp; crimini adseribit
+                        Iustinianus<note n="a" place="margin">in auth. interdicimus, de episco.
+                        &amp; cler. 5. interdicimus, in 2. de sanctiss. episco.</note>, interresse
+                    spectaculorum ludis. Et Vlpianus, in spectaculis nimiam esse corruptionem, vel
+                    deteriorem viuendi modum habere, tradit<note n="b" place="margin">Vip. in l. 1.
+                        §. fin. de ser. corrup. lib. 11. P. titu. 3.</note>. Et idem Iustinianus,
+                    mulieres scenicas, quæ in spectaculis illis se exhibent publicis, inhonestam
+                    conuersationem &amp; malam conditionem elegisse ait, infamesq́;<note n="c"
+                        place="margin">l. imperialis, l. 23. §. 1. 2. 3. de nupt. lib. 5.C.
+                        titu. 4.</note>. Sicuti &amp; Iulianus Iurisc<note n="d" place="margin"
+                        >Iulia. in l. 1. de ijs qui not. infa. lib. 3. P. titu. 2.
+                        Vlp. l. 4.eod.&amp; l. 2. §. fi. eo.</note> eos dicit infamia etiam notari,
+                    qui artis ludicræ pronuntiandiúe causa, in scenam prodierint. Scena autem est,
+                    vt Labeo definit<note n="e" place="margin">l. 2. § ait prętor, de ijs qui not.
+                        infa.</note>, quæ ludorum faciendorum causa, quolibet loco vbi quis
+                    consistat moueaturq́ue, spectaculum sui præbiturus, posita sit in publico
+                    priuatoúe loco, vel in vico : quo tamen loco passim homines spectandi causa
+                    admittũtur. Quod Aemilius Probus dixit<note n="f" place="margin">Aemil. Prob. in
+                        proœ. vitar. imperat.</note>, <quote><hi rend="i">Magnis,</hi> inquit, <hi
+                            rend="i">in laudibus tota fuit Græcia, victorem Olympiæ citari : in
+                            scenam verò prodire &amp; populo esse spectaculo, nemini in eisdem
+                            gentibus suit turpitudini. Quæ omnia apud nos,</hi><seg type="exquote">
+                            scilicet Romanos,</seg>
+                        <hi rend="i">infamia partem humilia, ac ab honestate remota
+                        ponuntur.</hi></quote> Verùm hæc non sunt absolutè intelligenda, sed cum
+                    temperamento : nam quædam sunt certamina publica, quæ non quæstus causa, sed
+                    virtutis exercentur, quorum athletæ non sunt infames. <quote><hi rend="i">Neque
+                            enim,</hi><seg type="exquote"> inquit Vlpia<note n="g" place="margin"
+                                >Vlp. in l. athletas, l. 4.de ijs qui not. infa Explicat hanc
+                                Alex.ab Alex.lib. 3. Genial. dier. c. 9.</note>.</seg>
+                        <hi rend="i">Thymelici, neque Xystici, neque agitatores, neque qui aquam
+                            equis spargunt, cæteraq́;, ministeria eorum, qui certaminibus sacris
+                            ignominiosi habentur, nec designatores, quos Græci Brauectas
+                            appellant.</hi></quote> Et Plato<note n="h" place="margin">Plato, in s.
+                        de iusto.</note>, <quote><hi rend="i">Nisi fortè quis,</hi><seg
+                            type="exquote"> inquit, </seg><hi rend="i">excellenti sit ingenio
+                            præditus, nunquam vir præclarus euadet, nisi à prima pueritia in ludis
+                            honestis versetur.</hi></quote> Budæus<note n="i" place="margin">Budæ,
+                        in annotat. prior. ad pand. in l. athletas.</note> ludos theatrales in
+                    Scenicos, &amp; Gymnicos diuidit : Scenicos, Agones &amp; Dionysiacos dici,
+                    &amp; musicos, in hisq́; esse hypocritas fabularum &amp; aliarum personarũ
+                    actores, tragædos, comædos, mimos, pantomimos, archimimos, ethologos, etopæos.
+                    Erãt cum his &amp; Thymelici, id est, citharœdi, psaltæ, lyristæ, tibicines,
+                    saltatores, Cheronomi, seu gesticulatores. In gymnicis ludis sunt artifices
+                    Athletæ, παλαισταὶ luctatores, δρομεῖ cursores, πυκταὶ pugiles, δισκοβόλοι
+                    discum in sublime iaculantes, ἁλτικοὶ saltus pernicitate contendentes. Et isti
+                    ludi palęstram probatam habent inter ingenuos Græcos apud Platonem passim,
+                        Ciceronem<note n="k" place="margin">Cic. l. de Orato. &amp; in
+                    Bruto.</note>, &amp; alios, ibi, <quote><hi rend="i">Exercebantur iuuenes cursu,
+                            lucta, hasta, disco, pugilatu, saltu.</hi></quote> Sed latius hæc
+                    perpendamus, vt prohibita spectacula nota sint. Spectacula exhibentur vel
+                    proponuntur publicè vel virtutis formandæ, vel ostentandæ seu comprobandæ causa,
+                    vel voluptatis, vel quæstus gratia. Formabant virtutem &amp; robur palęstræ
+                    ludi, vt diximus, &amp; robur modúmque pugnandi, &amp; exercitium parabant.
+                    Erant &amp; spectacula, in quibus formabantur ingenia ad virtutẽ literarum
+                    Academiæ, quę ideo Gymnasia dicta sunt. Erant &amp; ibi certamina illa palęstræ,
+                    in quibus vincenti præmium proponebatur oleum ex oliua, vt ait Lucianus libro de
+                    Gymnasiis. Edidit Cæsar Caligula Lugduni ludos miscellos, &amp; certamen græcæ
+                    latinæque facundiæ, quo certamine ferunt victos victoribus præmia contulisse,
+                    eorundem &amp; laudem componere coactos. Eos autem, qui maximè displicuissent,
+                    scripta sua, spongia, linguaúe delere iussos, nisi ferulis obiurgari, aut
+                    flumine proximo mergi voluissent, vt ait Suetonius<note n="l" place="margin"
+                        >Sueto. in Calig. c. 20.</note>. Vnde Iuuenalis, magnum timorem expressurus,
+                    meminit eius<note n="m" place="margin">Iuuenal. Saty. 1.</note>.</p>
+                <quote>
+                    <l rend="i">Palleat, vt nudis preßit qui calcibus anguem.</l>
+                    <l rend="i">Aut Lugdunensem rhetor dicturus ad aram.</l>
+                </quote>
+                <p><pb n="820" xml:id="p820"/>Et Tholosæ ex more mensis Maij principio, certamen
+                    poëtatum inductum à quadam Isaura optima matrona, vbi præstantiores accipiunt
+                    præmium flores aureum, argenteum &amp; hyacinthinum. Domitianus etiam Mineruæ
+                    deuotus, quinquatria magnificè celebrauit, in quibus certamina poëtarum,
+                    oratorum, gladiatorumq́;, singulis annis in Albano exhibebat, teste Xiphilino ex
+                        Dione<note n="a" place="margin">Xiphil. ex Dione, in Domitia.</note>.
+                    Artemisia quoq;, cùm manibus sacris Mausoli dicaret, agona, id est, certamen
+                    laudibus eius dicundis fecit, poniq́;, præmia pecuniæ, aliarumq́; rerum bonarum
+                    amplissima : ideo &amp; has laudes decertandas feruntur venisse viri nobiles
+                    ingenio, atq; lingua præstabili, Theopompum qui vicit Theodectem &amp;
+                    Naucritem, vt author Gellius<note n="b" place="margin">Gell. lib. 10.
+                        c. 19.</note>. Lex horum certaminum apud Platonẽ hæc<note n="c"
+                        place="margin">Plato, 12. de legib.</note>, <quote><hi rend="i">Si quis
+                            aliquem secum musica, vel gymnica, vel alia quauis facultate certaturum,
+                            in certamen descendere vi prohibuerit, quisquis velit, munerum
+                            declaratoribus id significet, qui procurent, vt quilibet liber certare
+                            poßit : id si facere non potuerint, munera prohibito dentur, si
+                            prohibitor vincet, &amp; ipsius tanquam victoris nomen in quibuscunque
+                            volet templis scribatur. Prohibenti verò nec nomen inscribere, nec
+                            victoriæ offerre insignia liceat : ac seu vincat certando, seu vincatur,
+                            illati damni crimine reus sit.</hi></quote> Spectacula, quæ ostendendæ
+                    virtutis causa erant, honorem præmium habebant, &amp; exiguum aliquid honoris
+                    symbolum. Apud Græcos potissimùm ex palestricis ludis celebrata quatuor in locis
+                    olim exhibita, summa laude consequẽte eum, qui in ijs vicisset, modico vel nullo
+                    commodo nummario coronam tantùm folliatam accipiebant, vnde dicti Stephanitæ,
+                    &amp; Phyllines, coronati &amp; folliati, vt author lulius Pollux<note n="d"
+                        place="margin">Iul. Poll. lib. 3. Onomast. c. fin.</note>, <quote>τοὺς μὲν
+                        οὖυ καλουμένους ἱεροὺς ἀγῶνας, ὧν τὰ ἀθλα ἐν στεφάνῳ μόνῳ, στεφανίτας
+                        ἐκάλεσαν καὶ φυλλίνας : τοὺς δʹ ὀνομαζομένους θεματικοὺς ἀργυρίτας</quote>,
+                    id est, <quote><hi rend="i">Eorum certaminum, quæ dicuntur sacra, quorum præmia
+                            in sola corona, Stephanitas vocant</hi></quote>, scilicet victores,
+                            <quote><hi rend="i">Et folliatos : eos autem, qui ad id aduocantur,
+                            argyritas</hi></quote>, id est, pecuniosos. Certamina illa : ad quæ
+                    confluebant populi vndique, sacra &amp; præmia sic exprimit epigramma
+                    græcum,</p>
+                <quote>
+                    <l>τέσσαρές εἰσιν ἀγῶνες ἀνʹ ἑλλάδα, τέσσαρες ἱροί,</l>
+                    <l>  οἱ δύο μὲν Θνητῶυ, οἱ δύο δʹ ἀθανάτων.</l>
+                    <l>ζηνὸς, λητοὶδαο, παλαίμονος, ἀρχεμόροιο</l>
+                    <l>  ἆθλα δὲ τῶν, κότινος, μῆλα σέλινα πίτυς. id.</l>
+                </quote>
+                <quote>
+                    <l rend="i">Quatuor exhibuit sacratos Græcia ludos,</l>
+                    <l rend="i">  Cœlicolis duos, terrigenisq́; duos.</l>
+                    <l rend="i">empe Ioui, Phœboq́;, Palemoniq́;, Archemoroq́;</l>
+                    <l rend="i">  Præmia sunt olea, &amp; mâla, apium, strobilus.</l>
+                </quote>
+                <p>Nomina horum Olympia, Isthmia, Pythia, Nemea. Quæ celebrauit Pindarus,
+                    explicauitq́ue eius scholiastes, &amp; Alex. Ab Alexandro Genialium dierum. 5.
+                    cap. 8. Leonicenus lib. 1. cap. 68. De olympicis in honorem Iouis introductis,
+                    sic Strabo loquitur<note n="e" place="margin">Simbo, lib. 2. Geog. 12. p</note>.
+                            <quote><hi rend="i">Est in agro Pyseno templum ab Elide stadÿs minus
+                            trecentis absens : ante illud verò lucus vestitus olea surgit, in quo
+                            stadium iacet, Alphæus autem alluit, ex Archadia labens, &amp;
+                            Triphyliacum intrans mare, inter occasum &amp; meridiem. Initio quidem
+                            ex Olympÿ Iouis oraculo ingentem sibi claritatem vindicauit, eoq́,
+                            deficiente, nihilominus tamen templi fama remansit : &amp; quantum ipsi
+                            nouimus adaucta est &amp; celebritatis gratia, &amp; ludorum Olympicorum
+                            causa quos sacros &amp; corona illustres, &amp; inter alios omnes, è
+                            quibus maximos arbitrantur. &amp;c.</hi></quote> Pisei primùm
+                    authoritatem cõdendi ludos hos sibi vsurparunt, quòd illis exitio fuit. Eleis
+                    sibi eosdem per Phidonem Argiuum aduocatum vsurpantibus, vt narrat
+                        Pausanias<note n="f" place="margin">Pausa. libr. 6. in Eliac. postremo
+                        scribit &amp; plura in Atticis.</note>. Scribit &amp; de stadio ab Hercule
+                    metato olympico sexcentorũ pedum Gellius<note n="g" place="margin">Gell. lib. 1.
+                        c. 1.</note>, post Plutarchum<note n="h" place="margin">Plut lib. quanta sit
+                        int. homi. corpo. &amp; ingenio. differen.</note>, &amp; Plinium<note n="i"
+                        place="margin">Plin lib. 1. 2. c. 23.</note>. Nicolaus Gerbellius<note n="k"
+                        place="margin">Nico. Gerbell. lib. 6. de Pelopon. in vebib. &amp; in
+                        Elide.</note>, ex Sophiano, Herodoto, Pausania, &amp; aliis tradit, hæc
+                    Olympica certamina per singulos quinq; annos renouari solita, cũ maximo Græcorum
+                    concursu : agiq́; folitos hos ludos semper plena Luna, ab 11. mensis vsque ad
+                    16. diem, <pb n="821" xml:id="p821"/>qua præmia &amp; corona victoribus
+                    concedebantur. Tantáq́; fuit Olympiorum veneratio, vt posteà per Olympiades
+                    lustrales cæperint anni numerari, ab anno à Troia capta à Græcis 406<note n="a"
+                        place="margin">Euseb. in Chroni.</note>. anno tertio regni Labdon regis
+                    Hebræorum, regnante apud Assyrios Tantane : apud Aegyptios, Thoo : expletis à
+                    mũdi principio quatuor millibus decem &amp; octo : à diluuio, 477. à natiuitate
+                    Nini regis Assyriorum, annis 85. à natiuitate Mosis, 305. vt author
+                        Eutropius<note n="b" place="margin">Eutrop, libr. 1. de gest.
+                    Romano.</note>. In hoc certamine lex erat, vt nemo coronaretur, nisi in
+                    quemcunque in medium prodenutem, sine discrimine &amp; electione congrederetur :
+                    non enim licebat eligere eum, cum quo victurus certaret, teste Plutarcho<note
+                        n="c" place="margin">Plut.libr. de tranquillit. animi.</note>. Tanta autem
+                    laus istius victoriæ &amp; coronæ oleagineæ, vt eam non dubitet Cicero æquare
+                    Romanis triumphis<note n="d" place="margin">Cic. pro Flacco, &amp; 2.
+                        Tusculan.</note>. Isthmia certamina, ab Isthmo, qui angusta portio terræ est
+                    inter Aegeum, &amp; Ionium mare, non longè à Corintho in Peloponesso ibi ludus
+                    hic primùm in honorem Neptuni celebratus, à Iasone primùm, cùm ex Colchi
+                    periculis in patriam remearet : quia ibi Neptunus fanum habebat præclarissimum,
+                    vt ait Pomponius Mela<note n="e" place="margin">Mela, lib. 2. in
+                        Macedonia.</note>, quòd erat luco pinearum arborum circumclusum, vt notat
+                        Strabo<note n="f" place="margin">Strabo, in 8.</note>. Fuit &amp; in honorem
+                    celebratus Melicertus, quem Polemonem nominarunt, de quibus latè Pausanias<note
+                        n="g" place="margin">Pausa. in Atticis.</note>, Hyginius<note n="h"
+                        place="margin">Hyginius, in Mythologis.</note>, Ouidius<note n="i"
+                        place="margin">Ouid. 6. Fasto.</note>, Scholiastes Apollonij<note n="k"
+                        place="margin">Schol. in 3. Apollo. Rhod. Argonaut.</note>. Etsi Plutarchus
+                    referat Isthmorum ludorum inuentionem ad Theseum, cosque ad æmulationem
+                    Herculis, qui Olympicos instituerat, primum introduxisse tradat<note n="l"
+                        place="margin">Plut. in Theseo.</note>. Scriptum &amp; ab aliis Sypolum
+                    Corinthiorum regem eos instituisse, cùm ibi Melicertem puerum eo loco deuectum à
+                    Delphine inuenisset, &amp; eum sepelisset. Quod &amp; tradit Statius<note n="m"
+                        place="margin">Stat. in princip. Thebaid.</note>, &amp; Pausanias<note n="n"
+                        place="margin">Pausa. in Atticis.</note>. Quod &amp; verum est. At quod de
+                    Theseo fertur, intelligi debet, Theseum ludos intermissos ob latronum pericula
+                    sublatis latronibus, redintegrasse. Num autem quinquennio renouarentur ludi
+                    isti, dubium est, id asserentibus Solino<note n="o" place="margin">Solin.
+                        c. 13.</note>, &amp; Pompo. Mela<note n="p" place="margin">Mela, vbi
+                        sup.</note> : Pindaro autem, tertio quoque anno tantùm, vocante &amp; eo
+                    trietericam illius anni victimam<note n="q" place="margin">Pind. Ode. 6. Neme or
+                        epo. 2. &amp; ibi annotat Ioã. Leouicerus.</note>. Illius certaminis
+                    præmium, corona primùm apij, deinceps ex pinu, propterea quòd infrugifera maris
+                    instar arbor sit, vt aiunt scholia Pindari. Certamina Pythia introducta in
+                    memoriam Apollinis, qui serpentem veneno maximè nocentem interemit, vt ait
+                        Ouidius<note n="r" place="margin">Ouid. 1. Metamor.</note>. Alij ab
+                    Eurilocho Thessalo, Amphyctionum duce, debellatis Cyrrhæis instituta ferunt, in
+                    honorem Apollinis<note n="s" place="margin">Ioan. Leouicer. In 1. Odem Pythio.
+                        Pinda.</note>. Principio nouem annotũ spatio agebantur Pythia, posteà ad
+                    quinquennale tempus redacta. Esculea primùm corona, deinde laurea<note n="t"
+                        place="margin">Ouid. d. lib. 1. Meta.</note>, pro præmio data Nemea
+                    certamina originem habuerunt à certamine funebri instituto per septem duces
+                    Argiuorum, in honorem Archemori filij sacerdotis Lycurgi, occisi à serpente. Hi
+                    enim pergentes in Lemnum Thraciæ, vt opem ferrent Polynici contra Thebanos, siti
+                    pressi petierunt ab Hypsiphyle Lemnia muliere, vt aquam in illa regione potui
+                    aptam ostenderet, quibus obsequens vt ostenderet, Archemorum puerum cuius nutrix
+                    erat, in quodam loco reposuit, donec rediret, quem mora pẽdente serpens quidã
+                    suffocauit : quo reperto occiso, proci in eius memoriã ludos instituerunt<note
+                        n="v" place="margin">Strabo, in 9. Pausan. in Corinthiis.</note>, in Nemea
+                    sylua, cõsolantes Hypsiphylem, quorũ præsides luctuosis vestibus induebãtur. Hos
+                    posteà tamẽ ludos, in meliorem statũ Hercules renouauit, deuicto leone Nemeo, vt
+                    notat scholiastes in Pindarũ. Renouabantur autẽ post très annos singulos. Erant
+                    alij ludi Romæ theatrales, Circenses, Equestres, seculares, in quibus
+                    exhibebãtur spectacula Comædiarũ, Tragædiarum, agitatorum equorũ, &amp; aliarũ
+                    rerum ad delectandũ populũ, vt decursio equorũ Troiæ, venatio Africana<note
+                        n="x" place="margin">Sueto. in Calig. c. 18.</note> : ad voluptatem, &amp;
+                    mimorũ, &amp; satyrorũ, &amp; meretricum floraliũ nudationes, &amp; alia id
+                    genus. Et ad voluptatẽ populi permissos fuisse ludos potissimùm gymnicos,
+                    testãtur adhuc leges<note n="y" place="margin">L. 1. &amp; 2. 3. de specta.
+                        lib. 11. C. titu. 40. &amp; l. vni. de expens. ludo. eo. lib. 12.
+                        titu. 41.</note>. Erant &amp; Megalenses qui &amp; Taurij, Compitalicij,
+                    Iuuenales, Honorarij<note n="z" place="margin">de quib. Alex. ab Alex. libr. 6.
+                        c. 19.</note>, Militares<note n="a" place="margin">de quibus Valturius,
+                        lib. 12. c. 32. de re milita.</note>, &amp; alij, de quibus Valer.
+                        Maximus<note n="b" place="margin">Valer Max. lib. 2. titu. 1. in mote
+                        ludor.</note>. <pb n="822" xml:id="p822"/>Exhibebantur &amp; gladiatoria
+                    munera, pugilum crudelia spectacula, ex quibus primùm at morum tractandorum
+                    meditationem à P. Rutilio consule C. Malli collega militibus traditã, scribit
+                    Valerius Maximus<note n="a" place="margin">idem lib. 2. c. 1. in P.
+                        Rutilio.</note>. Is enim ex ludo C. Aurelij Scauri, doctioribus gladiatorum
+                    accersitis, vitandi atque inferendi ictus, subtiliorum rationem legibus
+                    ingenerauit, virtutemq́ue arti, &amp; rursus artem virtuti miscuit : vt illa
+                    huius impetu fortior, hæc illius scientia cautior fieret. Horum distinctione
+                    habita, quid de prohibitione spectaculorũ traditũ sit audiamus, &amp;
+                    cõsideremus res ipsas propositas in spectaculis primùm, deinc personas, tertiò
+                    modum &amp; tempus. In primis turpia, ludicra, mimica, histrionica, derisoria,
+                    satyrica, ioculatoria, magica, præstigia, indigna sunt quæ ab homine sanæmentis
+                    fiant vel fieri inspiciantur : qui enim illis assistunt, videntur socij &amp;
+                    participes sceleris, authoresq́; quod comprobent. Proinde pœna eadem, &amp; nota
+                    digni. Histriones autem, qui artem illam exercent, vt potè impœnitentes, à
+                    sacrosancta corporis dominici communione pelluntur<note n="b" place="margin">ca.
+                        pro dilectione, de consec. dist. 3.</note>. Et filius qui se inter arenarios
+                    vel mimos sociauerit, &amp; in hac arte seu professione perseuerauerit inuitis
+                    parentibus, qui eius professionis non sunt, potest exhæredari<note n="c"
+                        place="margin">§. causas, vt cùm de appellat. cognosc. coll. 8.
+                        titu. 12.</note>. In Agathensi concilio<note n="d" place="margin">ca.
+                        presbyteri, 34. dist.</note>, præsbyteris, diaconibus, subdiaconibus, &amp;
+                    aliis clericis, quibus licentia ducendi vxores non est, interdicitur, ne aliarum
+                    nuptiarum cõuiuiis intersint, ne his cætibus misceantur, vbi amatoria cantãtur,
+                    &amp; turpia aut obscæni motus corporum, choreis &amp; saltibus efferuntur : ne
+                    auditus &amp; obtuitus sacris ministeriis deputati, turpium spectaculorum, atque
+                    verborum contagione polluantur. Et rursum in concilio Laodicensi<note n="e"
+                        place="margin">ca. non oportet, in 2. de pœnit. dist. 5.</note>, <quote><hi
+                            rend="i">Non oportet ministros altarus, vel quoslibet clericos
+                            spectaculis aliquibus, qui aut in nuptÿs aut in cœnis exhibentur
+                            interesse, sed antequam thymelici ingrediantur, surgere eos de conuiuio
+                            &amp; abire debere.</hi></quote> Nam &amp; illis ab omnibus spectaculis
+                    cauendum esse dicitur<note n="f" place="margin">ca. his igitur, 23 distin. &amp;
+                        sup dictum est.</note>. Quod &amp; reliquis Christianis obseruãdum vult
+                        D. Bernardus<note n="g" place="margin">D. Bernar. sermo. de conuersio. ad
+                        cleri. c. 12.</note>, <quote><hi rend="i">Caterùm,</hi><seg type="exquote">
+                            inquit, </seg><hi rend="i">vana spectacula rogo quid corpori præstant,
+                            qui dúe animæ conferre videntur ? aut certè nihil in homine, cui
+                            curiositas prosit, inuenies : friuola prorsus &amp; inanis &amp;
+                            nugatoria cõsolatio, &amp; nescio quid durius illi imprecer, quàm vt
+                            semper habeat quid requirat, qui inuidæ quietis pacẽ fugitans, curiosa
+                            inquietudine delectetur.</hi></quote> Et Basilius Magnus<note n="h"
+                        place="margin">D Basil. Mag. fermo. de legẽdis lib. gentil.</note>,
+                            <quote><hi rend="i">Oportet, nec oculos spectaculis, nec vanis
+                            præstigiatorum ostentaculis tradere, nec per aures corruptricem animarum
+                            melodiam audire. Hoc enim musica genus, seruitutis &amp; ignobilitatis
+                            fructus parere præterea libidinum aculeos acuere solet.</hi></quote>
+                    Meminit Plinius Iunior<note n="i" place="margin">Plin. lib. 4. epistol.</note>,
+                    iudicij in hac re obseruandi. <quote><hi rend="i">Gymnicus,</hi><seg
+                            type="exquote"> inquit, </seg><hi rend="i">agon apud Viennenses ex
+                            cuiusdam testamento celebrabatur, hũc Trebonius Rufinus in duumuiratu
+                            tollendũ abolendumúe curauerat : cúmq; negaretur ex authoritate publica
+                            fecisse, cumq́; restitui hæredes postulassent, egit ipse causam suam
+                            apud Traianum imperatorem, Cato Plinio</hi><seg type="exquote">
+                            (loquente)</seg>
+                        <hi rend="i">in consilium assumpto. Dicebat eas potißimùm liberalitates
+                            priuatorum hominum, esse omni reipub. valdè suspectas, quæ ciuitati
+                            nullum ornatum, nullam vtilitatem, plebi solam dumtaxat voluptatem ac
+                            delectationẽ adferant. Atque tandem, ne otio torpescerent Viẽnenses,
+                            placuit agona tolli.</hi></quote> D. Chrysostom abducit ab spectaculis,
+                    &amp; ea exprobat, tomo <num>i</num>. omilia de Dauide &amp; Saule, quæ incipit,
+                        <hi rend="i">Equidẽ arbitror multos. &amp;c.</hi><note n="k" place="margin"
+                        >&amp; in proœmio ad commen. sup. Esai. &amp; tomo 2. Omil. 38. in Math. ex
+                        c. 11. Matth.</note>. Multa quoq; in ea adfert Clemẽs Alexãdrinus<note n="l"
+                        place="margin">Clemens Alexan. lib. 3. Pædago. cap. 11.</note>, cuius &amp;
+                    hæc verba. <quote><hi rend="i">Prohibeantur spectacula &amp; acroamata,
+                            quænequitia, verbisq́; obscænis temerè profusis vana sunt. Quod enim
+                            turpe factũ nõ ostẽditur in theatris ? Quod aut impudens verbũ non
+                            proferunt qui risum mouens scurræ, &amp; histriones ? Qui autẽ ex vitio,
+                            quod in se est, delectationem aliquã acceperunt, euidẽtes domi imagines
+                            imprimunt : Contrà autẽ, qui his demulceri &amp; affici ne queũt, in
+                            ignauis voluptatibus minimè prolabentur. Si dixerint autẽ pro ludo
+                            recipi spectacula, ad recreandos animos, dicemus non sapere ciuitates,
+                            quibus ludus pro re seria habetur : neque enim ludi sunt inanis gloriæ
+                            cupiditates, quæ ad afficiendum morte adeo sunt immisericordes. Sed
+                            neque varia studia &amp; inconsiderate ambitiones, &amp; præteres suarum
+                            facultatum impensa, neq; verò quæ his de causis excitantur seditiones
+                            amplius ludi sunt : vano enim studio nunquam emendum est otium. Neque
+                            qui sapit id quod est incundum, ei quod est <pb n="823" xml:id="p823"
+                            />melius prætulerit. Neque te excuses, quòd non omnes philosophemur :
+                            cur omnes itaque Christiani, cur credidisti ? &amp;c.</hi></quote>
+                        Tertullianus<note n="a" place="margin">Tertul. lib, de coro. milit.</note>,
+                            <quote><hi rend="i">Itaque,</hi><seg type="exquote"> inquit,</seg>
+                        <hi rend="i">circa voluptates spectaculorum infamata conditio natura est, ab
+                            iis qui natura quidem omnia sentiunt, ex quibus spectacula instruuntur,
+                            scientia autem deficiunt. Illud quoque intellige, omnia à diabolo esse
+                            mutuata.</hi></quote> Et Plinius<note n="b" place="margin">Plin. lib. 7.
+                        6. 25.</note>, Christianè &amp; verè sensit dum ait, <quote><hi rend="i"
+                            >Spectacula edita effusasq́; opes, aut operum magnificentiam enumerare
+                            luxuriæ fanentis est.</hi></quote> Neque esse Christiani, interesse
+                    spectaculis, D. etiam Hieronymus docet<note n="c" place="margin">D. Hierony. in
+                        vita Hilario. tomo 1.</note>, de Hilarione loquens. <quote><hi rend="i"
+                            >Credens,</hi><seg type="exquote"> inquit,</seg>
+                        <hi rend="i">in dominum Iesum non circi furoribus, non arenæ sanguine, non
+                            theatri luxuria delectabatur, sed tota illi voluntas erat in
+                            congregatione ecclesiæ.</hi></quote> Neque quidem apud Lacedæmonas
+                    spectacula antiquitus permissa comœdiarum, vel tragœdiarum, nec mulieribus
+                    permissum eo pergere, dum fuerunt permissa, vt author Plutarchus<note n="d"
+                        place="margin">Plutar. in apophte.</note> : quamuis posteà degenerante in
+                    luxuriam natura permissum fuerit, nec esset Lacædæmone tam nobilis vidua, quæ
+                    non ad scenam iret mercede conducta. Quod abominabantur Romani, vt vtriusque
+                    testis Aemilius Probus<note n="e" place="margin">Aemil. Probus, in prœ. vita.
+                        imperat.</note>. Tanta fuit etiam disciplina Massiliensium, vt nullum aditum
+                    iuuentuti in scenam vel theatrum darent : quòd essent morum corruptela, ne per
+                    obscænos motus iuuenes impudicitia lasciuirent<note n="f" place="margin">Alex.
+                        ab Alex. lib. 5. c. 16.</note>. Docet &amp; spectacula esse nocentia moribus
+                    abundè Cœlius Rhodiginus<note n="g" place="margin">Cœl. Rhod. lib. 8.
+                        c. 7.</note>. Tiberius Cæsar histriones Roma exturbauit, arteq́; ea
+                    interdixit, quia &amp; mulieres ignominia afficerentur &amp; turbas darent<note
+                        n="h" place="margin">Dio Cass. lib. 57. histo.</note> : quos tamen in vrbem
+                    post mortem eius reuocauit Caius Caligula<note n="i" place="margin">idem,
+                        lib. 59.</note>. Inter iustas causas, ob quas vir vxorem repudiauerat, illa
+                    est, si circensibus vel theatralibus ludis vel arenarum spectaculis, in illis
+                    locis, in quibus hæc assolent celebrari, marito prohibente fuisset<note n="k"
+                        place="margin">Theod &amp; Valent. in l. consensu, l. 8. §. vix quoque, de
+                        repud. lib. 5. C. tit. 17.</note>. Sic P. Sempronius Sophus coniugem repudij
+                    nota affecit, nihil aliud, quàm se ignorante ludos ausam spectare<note n="l"
+                        place="margin">Val. Max. lib. 6. c. 5.</note>. Sicut &amp; Octauius Augustus
+                    tandem muliebrem sexum omnem ab spectaculis athletarum submouit<note n="m"
+                        place="margin">Sueto in Octauio, c. 44.</note>. D. Augustinus super Ioannem
+                    par. 2. donare histrionibus immane dicitur peccatum, quòd ea datione laudetur
+                    peccator in desideriis suis<note n="n" place="margin">ca. donare, 86.
+                        dist.</note>. In synodo Constantinopolitana sexta in Trullo<note n="o"
+                        place="margin">ca. 51.</note>, sic etiam statutum. <quote><hi rend="i"
+                            >Prohibet omnimo hac sancta synodus universalis eos, qui dicuntur,
+                            mimos, &amp; eorum spectacula. Deinde venationum quoque spectationes,
+                            easq́; quæ fiunt in scena saltationes perfici. Qui secus fecerit, si sit
+                            clericus, deponatur : si laicus, segregetur.</hi></quote> Sed dicet
+                    aliquis, cur tanta hîc in explicando iure ciuili conseris, quæ ad ecclesiastem
+                    potius pertinere videntur, quàm ad iurisconsultum ? Certè huic respondeo, ad
+                    politicos magistratus hæc maximè pertinere, &amp; vt ad corrigendos inueteratos
+                    corruptos mores moneantur, &amp; agnoscant è repub. esse, spectacula ista
+                    ioculatorum tolli, qui quæstuaria arte exhauriunt ciuitatum pecunias sensim,
+                    &amp; veluti à voluptate sopitis ciuibus extorquent, otia stabiliunt, infinita
+                    propè delicta inseminant : imò, quod valdè deflendum, cultum diuinum minuunt
+                    &amp; tollunt. Etenim festiuis diebus sua ludicra venditant, quo tempore sacris
+                    negotiis danda est opera. Audiant D. Chrysostomum<note n="p" place="margin"
+                        >D. Chrys. tomo 1 : Omil. 35. in Gesesim.</note> excaudescentem in populum,
+                    quòd tempore sacro ad spectacula, &amp; cursus equorum, &amp; tempore
+                    quadragesimalis ieiunij, iuisset. <quote><hi rend="i">Sed dices,</hi><seg
+                            type="exquote"> inquit,</seg>
+                        <hi rend="i">quale peccatum est videre equos currentes ? Si volueru omnia
+                            prudenter discere, qua ibi fiunt inuenies : inuenies nihil absque
+                            sathanica operatione fieri. Non enim videntur soli equi currentes, sed
+                            &amp; clamores, &amp; blasphemiæ, &amp; multi intempestini sermones
+                            audiuntur, mulieres prostitutæ in medium prodeunt &amp; spectantur,
+                            molles &amp; effœminati. Item aliud anima damnum, cùm inutilia, &amp; ea
+                            quæ anima nihil conducant, ibi conspiciuntur, &amp; mulieres impudica,
+                            tempus dilapidamus, &amp; quæ non oportet loqui, loquimur.
+                        &amp;c.</hi></quote> Statutum &amp; in concilio Carthaginensi 4<note n="q"
+                        place="margin">ca. qui die, de consec. dist. 1.</note>. <quote><hi rend="i"
+                            >Qui die solemni, prætermisso ecclesiæ conuentu, ad spectacula ierit,
+                            excommunicetur.</hi></quote> Hæc &amp; cura antiquitus Romanorum
+                    magistratuum, castigatio in histriones, vt <pb n="824" xml:id="p824"/>ex
+                    Suetonio constat<note n="a" place="margin">Sueto. in Augusto, c. 45.</note>.
+                        Marcellus<note n="b" place="margin">I. quædam delicta l. 14. de pœn.
+                        P.</note> quoque ex responsis Menandri tradit, militem qui attem ludicram
+                    fecisset, capite puniendum esse. Statuit &amp; Bonifacius 8<note n="c"
+                        place="margin">in c. vei. de vita &amp; honest. cler. in. sex.</note>.
+                    clericos mimos, quos vocant Galli ioculatores goliardos, &amp; Tusci bufones,
+                    per annum ignominiosam illam artem exercentes, vel breuiori tempore moniti si
+                    non resipuerint, carere omni priuilegio clericali. Multò magis gladiatoria illa
+                    crudelitatis plena abominanda sunt spectacula, quæ antiquitus voluptati erant,
+                    ad efferandos &amp; veluti ad concitandos in necem animos, pugnantibus in arena
+                    nudis athletis<note n="d" place="margin">Veget. lib. 6. de re milit.
+                        c. 43.</note>. Sicuti &amp; P. Dolabella censuit spectaculum gladiatorum per
+                    omnes annos celebrandũ, pecunia eorum, qui
+                    quæsturam adipiscerentur, authore Tacito<note n="e" place="margin">Cor. Tacit.
+                        lib. 12. Annal.</note>. Iulius quoque Capitolinus<note n="f" place="margin"
+                        >Iul. Capito. in Maximo &amp; Balbo.</note>, morem Romanorum fuisse tradit,
+                    vt munus gladiatorium &amp; venatus darent. Dicere autem multos hanc deuotionem
+                    contra hostes factam, vt ciuium sanguine litato, specie pugnarum, se Nemesis, id
+                    est, vis quædam fortunæ satiaret. Alios tamen literis tradidisse, ituros ad
+                    bellum Romanos, debuisse primùm pugnas videre &amp; vulnera, &amp; ferrum, &amp;
+                    nudas inter se cohortes, ne dimicantes in bello armatos hostes timerent, aut
+                    sanguinem perhorrescerent. Cruentum &amp; illud spectaculum, quod ludum
+                    venatorium exhibebat, quo cum bestiis depugnabatur<note n="g" place="margin">1.
+                        aut damnum, 1. 8. §. quicunque, de pœn. P.</note>, ad quem damnati serui
+                    pœnæ efficiebantur, &amp; damnabantur etiam, vt laniarentur â bestiis, ad
+                        bestias<note n="h" place="margin">l. ad bestias. l. 31. cod.</note>. Hæc
+                    Constantinus Cæsar sustulit<note n="j" place="margin">l. 8. de gladiato.
+                        lib. 12. C. tit. 43.</note>. Otho autem refert<note n="k" place="margin"
+                        >Othe, lib. 4 Chronico. c. 16. vide Alciat. lib. 2. Parerg. c. 45.</note>,
+                    Arcadio &amp; Honorio imperantibus, sedente Romæ Damaso summo pontifice, ab
+                    Oriente venisse Dirimachium quendam monachum, qui cùm spectaculo gladiatorio
+                    vidisset populum Romanum operam dare, &amp; huiusmodi lætitiæ genus, seu dirum
+                    inhumanumq́; abominaretur, Tribunitia
+                    quadam facundia pluribus verbis cum populo egisse, vt lanistas vrbe pelleret,
+                    &amp; ab eorum spectatione abstinerent : verùm nihil obtinuisse, &amp;
+                    intempestiuam sapientiuam illam populum non tulisse, sed lapidibus declamantem
+                    obtuisse. Qua de causa iratos Cæsares, in numerum diuorum relato Dirimachio,
+                    lege sanxerunt, ne gladiatores vsquam essent, &amp; corum cruenta spectacula
+                    penitus è repub. Tollerentur. Consentit historiæ narrationi Nicephorus
+                        Calistus<note n="l" place="margin">Nicepho. Cal. lib. 12. c. 1. tomo 2.
+                        oper.</note>, atque Theoderitus<note n="m" place="margin">Theoderit. lib.
+                        10. hist. Tripart. c. 2.</note> : attamen non Dirimachium, sed Thelemachum
+                    esse dicunt monachum, &amp; ab Honorio Romæ legem hanc conditam testantur.
+                    Scribunt quoque Nicephorus<note n="n" place="margin">idem Nicepho. lib. 7.
+                        c. 46</note>, &amp; Sozomenus<note n="o" place="margin">Sozomen. lib. 2.
+                        histor. Tripart. c. 9.</note> Constantinum Magnum deuicto Licinio,
+                    spectaculum singulari certamine decertantium gladiatorum Romæ
+                    frequentari solitum, prohibuisse. Exprobrat Græcis, &amp; maximè detestatur
+                        Tatianus<note n="p" place="margin">Tatian. Orat. con. Græcos.</note>,
+                    Iustini martyris discipulus, quòd pascerentur aspectu spectaculorum gladiatorum,
+                    quòdq́; ita mente essent anthropophagi,
+                    emerent nutrirentúe seruos vt occiderentur in spectaculo, coronarentur homicidæ
+                    athletæ ab agonotheta &amp; munerario. Nam lanistæ<note n="q" place="margin"
+                        >Beat. Rhena. in annotatio. in Tertulia. de corona milit.</note> familiam
+                    gladiatorum domi alebant, instruebantq́ue, ex
+                    mancipiis redemptis constantem : inter quas erant Rhetiarij, Secutores,
+                    Mirmillones, Hoppolomachi, Thraces, quorum aliquot interdum paria producebantur
+                    in spectaculis. Detestatur hoc spectaculum Petrarcha<note n="r" place="margin"
+                        >Petrar. lib. 5. Epistol. epist. 73.</note> se vidisse Neapoli, neque fidendum
+                    ei ciuitati admonet, in qua hominem innoxium hoc gladiatorio certamine, ludus
+                    est : versuq́; Virgilij vtitur,</p>
+                <quote>
+                    <l rend="i">Heu fuge crudeles terras, fugelitus auarum.</l>
+                </quote>
+                <p>Ad gladiatoria certamina &amp; spectacula pertinent monomachiæ, &amp; concursus
+                    hastatorum, quem vocant <hi rend="i">Ioustes</hi>, seu torneamenta, ex quibus
+                    cædes vt plerumque tragœdiam perficiunt. Vnde meritò &amp; hæc certamina &amp;
+                    spectacula sublata sunt, &amp; improbata à summis pontificibus, &amp; in his
+                    vulneratis, conceditur quidem pœnitentia, decedentibus autem in his, negatur <pb
+                        n="825" xml:id="p825"/>sepultura<note n="a" place="margin">c. 1. &amp; 2. de
+                        tornamen. lib. 5. Decret. tit. 13. ca. monomachiam, 2. q. 4.</note>. Et
+                    clericus in duello pugnans deponitur<note n="b" place="margin">c. 1. de cleri.
+                        pugni. in duello, lib. 5. Decret, tit. 14.</note>. Sed de duello, quod non
+                    voluptatis causa, sed vel purgationis seu iudicij causa committebatur, dicemus
+                    Deo fauente in iudiciis.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>

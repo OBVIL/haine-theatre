@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sixiéme discours. Des Comedies [Discours sur les sujets les plus ordinaires
+                    du monde. Premiere partie]</title>
+                <author key="Héliodore de Paris (16..-1690?)"
+                    ref="https://catalogue.bnf.fr/ark:/12148/cb106871851">Héliodore de
+                    Paris</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/heliodore-de-paris_discours-des-comedies_1684</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Héliodore de Paris, « Sixiéme discours. Des Comedies », in <hi rend="i"
+                        >Discours sur les sujets les plus ordinaires du monde. Ces discours sont
+                        partagez en Pratiques morales, prouvées par l’Escriture, les Conciles, les
+                        Peres, et la raison. Par le R. P. Heliodore de Paris, Predicateur Capucin.
+                        Premiere partie. Des Plaisirs</hi>, <pubPlace>Paris</pubPlace>,
+                        <publisher>Edme Couterot</publisher>, <date>1684</date>, p. 279-325. PDF :
+                        <ref target="https://books.google.fr/books?id=gFE_AAAAcAAJ"
+                    >Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1684"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter">
+                <pb n="279" xml:id="p279"/>
+                <head type="sur">Sixiéme Discours. </head>
+                <head type="main"><hi rend="i">Des Comedies.</hi></head>
+                <div2 type="section">
+                    <head><hi rend="sc">Exorde</hi><hi rend="i">. Des plaisirs communs au corps
+                            &amp; à l’esprit ; &amp; premierement de la Comedie</hi>.</head>
+                    <p><hi rend="big">I’</hi><hi rend="sc">ay</hi> traité jusqu’icy des plaisirs qui
+                        appartiennent aux sens plus qu’à l’esprit ; parlons des plaisirs qui sont
+                        communs au corps, &amp; à l’ame, &amp; en premier lieu de la Comedie, qui
+                        est un des plus agreables divertissemens de ces deux parties dont nous
+                        sommes composez. Les yeux s’y plaisent à voir la bonne grace &amp; les
+                        gestes des Acteurs, les décorations du theatre, &amp; les grandes
+                        assemblées. L’oreille y est charmée par la mesure, par la douceur, &amp; par
+                        la prononciation des vers ; le nombre &amp; l’accord des instrumens &amp;
+                        des voix semblent s’y disputer la gloire de la ravir. L’esprit est satisfait
+                        par le genie de la Piece, par la conduite, par l’élegance, &amp; par la
+                        pureté de la composition. Il a le contentement d’y considerer les tableaux
+                        de ses inclinations, les images des desirs, de l’amour, de la joye, de la
+                        haine, &amp; des autres passions : les applications de tous ces mouvemens à
+                        des sujets differens, un mélange si bien disposé, qu’il laisse de la passion
+                        pour le retour des mouvemens que les Acteurs suspendent pour un temps, afin
+                        de recréer par la nouveauté de ceux qu’ils font paroistre. Les foiblesses
+                        que <pb n="280" xml:id="p280"/>chacun reconnoist en soy semblent plus
+                        excusables dans la multitude des complices ; elles semblent legeres en
+                        comparaison de celles qui éclatent sur les theatres ; &amp; on apprend mesme
+                        à les contenter par les adresses qu’on y remarque, &amp; que leurs partisans
+                        veritables ou supposez mettent en usage pour arriver aux fins qu’ils se
+                        proposent. Ceux qui sont engagez dans le vice, &amp; ceux qui pratiquent la
+                        vertu, trouvent de la satisfaction dans les differentes Pieces que l’on y
+                        jouë ; de sorte que les Comedies &amp; leurs accompagnemens sont comme des
+                        corps &amp; des troupes de plaisirs, &amp; que Tertullien auroit pû nommer
+                        les theatres des camps de delices, comme il les appelle des camps de crimes.
+                        Il ne faut pas s’étonner si les hommes trouvent tant de satisfaction en des
+                        lieux où la douleur mesme donne de la joye ; où la compassion, où la misere
+                        la plus extrême, cause du contentement, &amp; où les malheurs &amp; les
+                        larmes sont agreables. Nous ne devons pas estre surpris de ce que ce gros
+                        enleve tant de personnes, de ce que les particuliers se laissent emporter
+                        par ce grand nombre de plaisirs ; il faut certainement un courage plusque
+                        mediocre, pour se défendre d’un gros qui nous attaque par autant d’endroits
+                        qu’ils nous trouvent de foibles. Cette matiere estant des plus délicates,
+                        des plus embarrassées, &amp; des plus agitées, je la traitera y avec tout ce
+                        qui me sera possible d’éclaircissement &amp; d’application. Et pour
+                        commencer :</p>
+                </div2>
+                <div2 type="section">
+                    <head><hi rend="sc">Partage</hi>. <hi rend="i">Distinction des
+                        Comedies.</hi></head>
+                    <p>Il faut convenir que les Pieces de theatre sont ou innocentes, ou
+                        criminelles, ou en partie innocentes, &amp; en partie criminelles. Si la
+                        poësie est bien nommée une peinture parlante, c’est sur le theatre que ce
+                        nom se verifie dans toute son <pb n="281" xml:id="p281"/>étenduë. Les
+                        peintures representent quelquefois des sujets conformes aux loix divines,
+                        quelquefois des sujets contraires, quelquefois des sujets en partie
+                        conformes, &amp; en partie contraires à ces loix. Nous pouvons remarquer la
+                        mesme difference dans les Pieces de theatre, dans ces peintures qui parlent
+                        par la bouche des Acteurs. Quelques-unes de ces Pieces sont des copies
+                        animées de l’innocence &amp; de la sainteté ; quelques-unes sont des
+                        tableaux vivants des passions les plus noires &amp; les plus criminelles ;
+                        quelques-unes tiennent le milieu de ces extremitez, &amp; sont des images
+                        éloquentes des vertus, &amp; des vices.</p>
+                    <p>Dans les premiers siecles de l’Eglise on ne representoit rien que de criminel
+                        sur les theatres du paganisme ; on n’y representoit rien qui ne fust capable
+                        de corrompre la plus pure integrité, rien qui ne peust inspirer le mépris
+                        des peres &amp; des meres, former les enfans &amp; les domestiques au larcin
+                        &amp; à l’impudicité ; allumer, ou nourrir la haine, la vengeance, la
+                        cruauté, entretenir l’idolâtrie, l’impieté, les autres crimes, par le récit
+                        des débauches, des violences, &amp; des autres vices des Dieux. Le saint
+                        Esprit arma le zele, la plume, &amp; la langue des plus anciens Peres de
+                        l’Eglise contre ce gros de crimes, contre ces conspirations déterminées à la
+                        ruine generale des vertus ; les foudres mesmes, qu’il a confié à l’Eglise
+                        ont esté employez par les inspirations de ce divin Esprit, pour défendre
+                        l’innocence contre les insultes &amp; les efforts de ces divinitez
+                        imaginaires. Les theatres se sont relevez de leurs ruines, ils renaissent,
+                        ils subsistent, ils triomphent aprés les coups &amp; malgré les coups de
+                        foudre, &amp; sur tout depuis que nous ne pouvons plus <pb n="282"
+                        />reprocher aux Fideles, qu’ils trahissent leur foy, &amp; qu’ils renoncent
+                        à leur religion, en allant avec les Payens ; &amp; en demeurant avec eux,
+                        afin de prendre des divertissemens établis aussi bien pour honorer leurs
+                        Dieux, que pour recréer les hommes.</p>
+                    <p><note place="margin"><bibl><hi rend="i">Cod. Theod. de pag. l. 2.
+                                    &amp; 3.</hi>.</bibl></note>Il est certain que l’Eglise n’a
+                        jamais condamné indifferemment les Pieces de theatre, elle n’a jamais eu
+                        dessein de lancer le foudre sur la Tragedie intitulée, <hi rend="sc"
+                            >Jesus-Christ</hi> souffrant, &amp; composée par saint Gregoire de
+                        Nazianze. Elle a trop de discretion &amp; de pieté pour frapper de ses
+                        foudres l’image de <hi rend="sc">Jesus-Christ</hi>. Plusieurs autres Pieces
+                        nous representent des Histoires saintes de l’ancien &amp; du nouveau
+                        Testament ; ces images parlantes de la sainteté ne sont pas plus dignes des
+                        foudres de l’Eglise, que les images muëtes, qui n’entretiennent que les
+                        yeux : &amp; ce seroit un caprice bien injuste de respecter les dernieres,
+                        &amp; de condamner les premieres ; l’Eglise n’est pas capable de cette
+                        conduite bizarre, &amp; opposée au respect qu’elle nous ordonne de rendre
+                        aux images de <hi rend="sc">Jesus-Christ</hi>, &amp; des Saints. Quand nous
+                        remarquerions quelques passions criminelles dans les plus religieuses
+                        Comedies, elles n’y paroissent que dans un état qui en fait concevoir de
+                        l’horreur : &amp; elles ne sont non plus contraires au respect que nous
+                        devons à ces images parlantes, que les bourreaux qui dans un tableau font
+                        mourir <hi rend="sc">Jesus-Christ</hi>, ou les Saints, ne sont pas opposez à
+                        la veneration que nous devons à cette representation de la Passion de <hi
+                            rend="sc">Jesus-Christ</hi>, &amp; du martyre des Saints. Ces bourreaux
+                        bien loin de diminuer le respect que nous devons à ces tableaux, en sont en
+                        partie, <pb n="283" xml:id="p283"/>les causes, &amp; nous honorons ces
+                        representations en partie, parceque nous y voyons crucifier <hi rend="sc"
+                            >Jesus-Christ</hi>, ou martyriser les Saints.</p>
+                    <p>Les Histoires profanes fournissent aussi plusieurs riches sujets aux
+                        theatres, les mœurs des siecles luy donnent d’amples matieres, &amp; si le
+                        tout est traité avec la bienseance qui est convenable à la Religion, &amp; à
+                        l’honesteté publique ; leur innocence est à couvert des foudres. Ces
+                        ingenieuses productions servent à former l’éloquence, à corriger les mœurs,
+                        à soulager l’esprit, &amp; n’estant pas criminelles d’elles-mesmes, &amp;
+                        estant si utiles au public, elles ne meritent pas le anathémes de
+                        l’Eglise.</p>
+                    <p>Les Pieces ambiguës ont besoin de reforme, il n’est pas permis de les joüer,
+                        de les entendre, ny mesme de les souffrir. Je parleray de la composition
+                        dans le Discours de la lecture ; je repete qu’il n’est pas permis de les
+                        souffrir qu’aprés qu’elles auront esté corrigées par des personnes de
+                        sçavoir, &amp; de pieté. Et comme cette matiere estant publique ne regarde
+                        pas moins les peres &amp; les meres, les Puissances ecclesiastiques &amp;
+                        seculieres, que les particuliers : Comme les Pieces de theatre sont ou
+                        entierement criminelles, ou en partie innocentes, en partie criminelles,
+                        &amp; qu’il n’y a point d’Auteur qui n’en puisse composer de criminelles,
+                        voyons le zele avec lequel il faut fuïr &amp; interdire les criminelles,
+                        reformer celles qui sont en partie innocentes, en partie criminelles ;
+                        empescher de paroistre celles qui peuvent estre criminelles ; ce sont les
+                        moyens d’arrester le mal qu’elles sont ou par elles-mesmes, ou par
+                        quelqu’une de leurs parties ; ce sont les moyens de prévenir le mal que les
+                        Pieces nouvelles pourroient faire.</p>
+                </div2>
+                <div2 type="section">
+                    <pb n="284" xml:id="p284"/>
+                    <head type="sur">Premier point.</head>
+                    <head type="main"><hi rend="i">Fuir &amp; interdire les Pieces
+                        criminelles.</hi></head>
+                    <p><hi rend="big">I</hi><hi rend="sc">l</hi> n’est jamais permis d’aller à la
+                        Comedie quand on sçait que les Pieces qu’on y jouëra sont contraires à la
+                        chasteté, à la pieté, au respect qu’on doit à Dieu, à l’Eglise, aux
+                        Magistrats, aux peres &amp; aux meres, ou qu’on est asseuré qu’elles peuvent
+                        corrompre l’innocence de ceux qui y assistent, &amp; celle du public. C’est
+                        un peché plus grand que plusieurs ne le croyent, de contribuer à l’entretien
+                        des Acteurs de ces méchantes Pieces, &amp; d’autoriser par sa presence, par
+                        sa bienveillance, &amp; par son appuy, des personnes dévoüées à corrompre
+                        les mœurs ; c’est trahir sa conscience, &amp; le salut public, que
+                        d’entretenir les plus dangereux ennemis de Dieu, que de nourrir &amp; de
+                        soûtenir les causes des plus grands maux que les hommes ayent à craindre.
+                        Ceux qui appuyeroient les auteurs des incendies &amp; des empoisonnemens
+                        pecheroient moins contre la charité publique, que ceux qui fomentent ces
+                        causes de la corruption generale des vertus, &amp; de la perte eternelle
+                        d’un si grand nombre de personnes.</p>
+                    <p>Les peres &amp; les meres sont obligez de défendre à leurs enfans d’aller à
+                        des Comedies si pernicieuses ; le crime s’insinuë dans l’esprit des jeunes
+                        gens avec le plaisir, &amp; il s’attache aisément à une matiere molle, &amp;
+                        plus disposée au vice qu’à la vertu. Ces premieres impressions ne s’effacent
+                        que difficilement ; il n’est pas aisé de rompre ces premieres liaisons, ces
+                        anciennes amours sont d’ordinaire <pb n="285" xml:id="p285"/>les plus
+                        fortes ; &amp; si les peres &amp; les meres ne doivent pas permettre à leurs
+                        enfans de commettre des actions contraires à ce que Dieu leur ordonne, ils
+                        sont obligez, à plus forte raison, d’empescher qu’ils n’aillent en des
+                        lieux, d’où ils reviendront avec de méchantes inclinations, qui seront des
+                        sources perpetuelles de mauvaises actions.</p>
+                    <p>Les Magistrats qui tiennent lieu de peres au public, les Superieurs
+                        ecclesiastiques &amp; seculiers sont obligez d’arrester ces scandales ;
+                        &amp; ils ne doivent pas douter qu’ils ne répondent à Dieu, &amp; de ses
+                        propres outrages, &amp; de la perte des ames, s’ils n’usent de toute leur
+                        autorité pour reprimer des insolences qui ne respectent ny le Ciel, ny la
+                        terre, &amp; qui ne sont pas moins injurieuses à Dieu, que funestes aux
+                        peuples.</p>
+                    <div3 type="section">
+                        <head>I. <hi rend="sc">Raison</hi>. <hi rend="i">Obligation de défendre les
+                                méchans livres.</hi></head>
+                        <p>Comme cette proposition est la principale de cette Partie, je la prouve
+                            en premier lieu par l’obligation de défendre les méchans livres. La
+                            défense des livres contraires à la pieté &amp; aux bonnes mœurs est un
+                            des devoirs des Puissances ecclesiastiques &amp; seculieres. Ceux qui
+                            sont chargez de ces dignitez sont obligez d’empescher l’impression,
+                            d’arrester le debit, d’interdire la lecture de ces livres : on ne peut
+                            permettre leur édition, leur cours, &amp; leur usage, sans se rendre
+                            coupables de tous les méchants effets que ces livres pernicieux
+                            produisent ; &amp; nous pouvons dire de ceux qui souffrent ces
+                            corruptions publiques ce que Tertullien disoit de la patience des Payens
+                            qui enduroient les desordres de leurs maisons : <note place="margin"
+                                        ><quote><p>Tanti boni nomen, fœdis operationibus
+                                        occupant.</p></quote></note>Ils deshonorent le nom d’une
+                            vertu en le faisant servir à des actions criminelles, &amp; cette
+                            patience inspirée par le Demon sera chastiée des mesmes peines que celuy
+                            dont elle <pb n="286" xml:id="p286"/>favorise les interests par sa
+                            mollesse, &amp; par sa negligence. <note place="margin"><quote><p>Docuit
+                                        suos propriam patientiam.</p></quote></note>Cette patience
+                            est toute à luy, puisqu’elle endure tout pour luy ; elle doit s’attendre
+                            à estre punie eternellement avec luy, puisqu’elle est cause des crimes
+                            comme luy, &amp; qu’en n’agissant pas pour les empescher, elle ne
+                            contribuë pas moins à les produire, qu’il y contribuë par les soins
+                            qu’il prend pour les faire commettre. <note place="margin"
+                                        ><quote><p>Patientiam propriam.</p></quote></note>Cette
+                            patience est à luy, parce qu’elle est à son service ; <note
+                                place="margin"><quote><p>Suam patientiam, patientia ignis
+                                        expectat.</p><bibl><hi rend="i">Tert. de Pat. cap.
+                                        ult.</hi></bibl></quote></note>elle est à luy, parce qu’elle
+                            luy demeurera pendant toute l’éternité, pour estre comme luy la
+                            malheureuse victime des flâmes eternelles.</p>
+                        <p>La patience des Magistrats qui souffrent les Comedies pernicieuses n’est
+                            pas plus innocente, que la patience de ceux qui permettent d’imprimer,
+                            de vendre, &amp; de lire les méchans livres ; les premiers sont d’autant
+                            plus coupables, que ces Comedies peuvent corrompre les mœurs par leur
+                            lecture, &amp; que leur representation est beaucoup plus dangereuse,
+                            &amp; attaque l’innocence avec une violence plus redoutable que leur
+                            lecture. Dans la lecture, l’impudicité, &amp; l’impieté ne nous
+                            sollicitent qu’avec des forces languissantes, &amp; sans action ; sur
+                            les theatres elles se servent de tous leurs artifices, de toute leur
+                            action, de toutes les machines qu’elles peuvent inventer pour nous
+                            attaquer ; les yeux, les démarches, les habits, les paroles, les gestes
+                            des Acteurs, leur silence mesme, aident ces ennemies à vaincre la vertu,
+                            elles en triomphent dans le moment mesme qu’elles les attaquent : les
+                            illuminations, la pompe, la joye, &amp; les acclamations des spectateurs
+                            ne sont-elles pas en effet des especes de triomphes ?</p>
+                        <p>Nostre esprit est si peu disposé à resister à un <pb n="287"
+                                xml:id="p287"/>plaisir qu’il vient chercher, &amp; où les sens ne
+                            sont pas moins interessez que luy, qu’il ne peut se resoudre de se
+                            défendre contre des sujets qu’il ne considere pas comme ses ennemis,
+                            parce qu’ils sont tout leur possible pour luy plaire. Que le Ciel parle
+                            pour retirer un homme d’un poste si dangereux, l’esprit est si partagé
+                            entre les yeux, les oreilles, &amp; soy-mesme, qu’il n’a point
+                            d’attention pour tout ce que la grace peut luy representer ; le plaisir
+                            tient les sens &amp; l’esprit tellement attaché, qu’il ne luy laisse ny
+                            la pensée, ny presque la liberté de se retirer, de se rendre à
+                            soy-mesme, &amp; de rentrer dans le devoir. Ce seroit une merveille bien
+                            surprenante, si la plus pure innocence sortoit, sans blessure, d’une
+                            meslée si effroyable ; les Peres n’ont pû le croire. Les Peres les plus
+                            éclairez dans la connoissance des ressorts qui gouvernent nos ames, ne
+                            croyent pas que la vertu qui se trouveroit par rencontre dans ces
+                            combats, pust s’exempter d’y recevoir des playes mortelles, elle ne
+                            pouroit par consequent se resoudre d’y aller sans perir, puisque la
+                            seule volonté de prendre des plaisirs criminels est la perte actuelle de
+                            l’innocence, &amp; des vertus. <note place="margin"><quote><p>Nemo in
+                                        castra hostium transit, nisi pactus perire.</p><bibl><hi
+                                            rend="i">Tert. cap. </hi>24. <hi rend="i">de
+                                        Spect.</hi></bibl></quote></note>Tertulien nous le declare
+                            dans le lieu où il nomme les theatres des camps établis pour faire la
+                            guerre à Dieu, &amp; aux vertus.</p>
+                        <p><note place="margin"><p><hi rend="i">Hist. de David &amp;
+                                Saül.</hi></p></note>David considere une Dame, David prend tant de
+                            feu par les yeux, dit saint Jean Chrysostome, que toute sa vertu cede à
+                            la violence de cette flâme impudique. Vos cœurs, ajoûte ce prodige
+                            d’éloquence, sont assiegez, ils sont attaquez, ils sont pressez de tous
+                            côtez par la representation de ces Pieces scandaleuses. <note
+                                place="margin"><quote><p>Vndique percutitur mens tua, &amp; cum
+                                        tantæ sint corruptelæ, tanta præcipitia, quomodo possum tibi
+                                        credere, quod à talibus bestiis vulneratus non sis ? nunquid
+                                        lapideus es, aut ferreus ? Pone lucernam in fœnum, si
+                                        poteris dicere quod nõ exuritur
+                            fœnum ?</p></quote></note>Votre esprit est battu de toutes parts, vos
+                            yeux, &amp; vos oreilles sont ou <pb n="288" xml:id="p288"/>verts à tous
+                            les traits que l’impudicité &amp; l’impieté lancent dans le plus intime
+                            de vos ames ; vous estes environné d’abysmes ; tous les Acteurs, toute
+                            l’assemblée s’efforcent de vous y précipiter, &amp; je pourois croire
+                            que vous n’estes point blessé, &amp; que vous ne tombez point ?
+                            Estes-vous de pierre, ou de fer ? Estes-vous plus invulnerable, plus
+                            courageux, plus ferme, qu’un si grand nombre d’autres qui succombent,
+                            &amp; qui perissent dans ces funestes occasions ? Je croirois que ces
+                            bestes surieuses ne vous auroient donné aucune atteinte ? Mettez un
+                            flambeau allumé dans la paille, si elle ne brûle point, j’avoueray qu’un
+                            cœur plus disposé à brûler que la paille peut estre penetré du feu,
+                            &amp; en prendre de tous côtez sans aucune brûlure.</p>
+                        <p><note place="margin"><quote><bibl><hi rend="i">Lact. cap.</hi> 20. <hi
+                                            rend="i">de vero cultu.</hi></bibl><p>Docent adulteria
+                                        dum fingunt, simulatis erudiunt ad
+                                            vera.</p></quote><quote><bibl><hi rend="i">Cypr. ad
+                                            Donatum.</hi></bibl><p>Probri blandientis
+                                        auctoritas.</p></quote><quote><bibl><hi rend="i">Tert.
+                                            c.</hi> 24.</bibl><p>Castra
+                                            hostium.</p></quote><quote><bibl><hi rend="i">Cypr.
+                                            l. cit.</hi></bibl><p>Alimenta
+                                            vitiorum.</p></quote><quote><bibl><hi rend="i">Lact.
+                                            l. cit.</hi></bibl><p>Irritamenta
+                                            vitiorum.</p></quote><quote><p><hi rend="i">Chrys.</hi>
+                                        <quote>Omnem virtutis pestem.</quote></p><bibl><hi rend="i"
+                                            >Hom.</hi> 33 <hi rend="i">in
+                                Matth.</hi></bibl></quote></note>Les Peres ne nomment pas seulement
+                            les theatres où l’on jouë ces Pieces criminelles des écoles publiques où
+                            l’on enseigne le vice, des trônes où on l’ordonne avec une autorité
+                            absoluë, des camps assemblez pour l’aider à défaire les vertus. Ils ne
+                            nomment pas seulement les Comedies les alimens &amp; les forces du
+                            peché, des pestes qui menacent toute la terre.</p>
+                        <p>Ces Oracles de l’Eglise nomment ces Comedies la ruine actuelle des bonnes
+                            œuvres ; ils les nomment des crimes communs à ceux qui joüent, &amp; à
+                            ceux qui les voyent, des <note place="margin"><quote><p>Homicidale
+                                        spectaculum.</p><bibl><hi rend="i">Iren. adv.
+                                        hær.</hi></bibl></quote></note>homicides effectifs, la
+                            corruption &amp; la perte des ames.</p>
+                        <p>Ces écoles n’enseignent pas seulement le peché, on ne commande pas
+                            seulement le peché sur ces trônes ; ces camps ne se contentent pas de
+                            nous presser de le commettre ; ces munitions, ces forces ne l’aident pas
+                            seulement à nous presser, ces pestes n’en demeurent pas à de simples
+                            menaces.</p>
+                        <p><pb n="289" xml:id="p289"/>Ces instructions, ces commandemens, ces
+                            attaques, ces secours nous font commettre en effet le peché, ces pestes
+                            nous corrompent en effet, elles tuent nos ames en effet, elles les font
+                            mourir en effet à la grace, &amp; à l’esperance du salut.</p>
+                        <p>L’impieté, l’impudicité, les autres crimes, dit <note place="margin"
+                                        ><quote><p>Spectaculora impuritates unum faciunt agentium
+                                        &amp; spectantium crimen.</p><bibl><hi rend="i">Lib.</hi> 6.
+                                            <hi rend="i">de Gub.</hi></bibl></quote></note>Salvien,
+                            passent de la bouche des Acteurs dans les cœurs &amp; dans les actions
+                            de ceux qui les entendent, &amp; qui les voyent. Le crime, representé
+                            par le recit &amp; par le geste des Acteurs, s’imprime dans le cœur
+                            &amp; dans les desirs de l’assemblée ; ils concourent tous au mesme
+                            crime par sa representation, par sa veuë, par sa persuasion, &amp; par
+                            son execution.</p>
+                        <p><note place="margin"><quote><p>Animarum pestem, probitatis, &amp;
+                                        honestatis eversionem.</p><bibl>I. <hi rend="i">C.</hi>
+                                        33.</bibl></quote></note>Saint Augustin en avoit parlé en
+                            termes aussi absolus, &amp; aussi veritables ; il les avoit nommez non
+                            seulement la peste des ames, mais la ruine generale de l’honnesteté,
+                            &amp; des vertus.</p>
+                        <p><note place="margin"><quote><p>Dum animas interficiunt, ludere se
+                                        opinantur.</p><bibl><hi rend="i">De vero cultu
+                                        cap.</hi> 20.</bibl></quote></note>Lactance les avoit déja
+                            qualifiez du nom infame de meurtriers des ames ; il s’étonne du peu de
+                            sentiment de ceux qui s’en faisoient un jeu.</p>
+                        <p><note place="margin"><quote><p>Non se putãt oculis
+                                            parricidas ?</p><bibl><hi rend="i">Ad
+                                        Donatum.</hi></bibl></quote></note>Saint Cyprien avoit dit
+                            la mesme chose en d’autres termes, il ne s’étonne pas moins que ceux qui
+                            regardent ces crimes, ne croyent pas les commettre par les yeux.</p>
+                        <p>Tertullien qu’il nommoit son maistre luy avoit appris que ces méchantes
+                            pieces commettent en effet dans le cœur, &amp; par les actions de ceux
+                            qui les voyent joüer, les crimes qu’elles representent sur les Theatres.
+                            Ces Pieces, dit ce <note place="margin"><quote><p>Cruentæ, lascivæ,
+                                        prodigæ scelerum auctrices.</p><bibl><hi rend="i">Tert.
+                                            cap.</hi> 18. <hi rend="i">de
+                                Spect.</hi></bibl></quote></note>Pere, sont des Actrices aussi
+                            cruelles que lascives &amp; prodigues, &amp; elles font tous les crimes
+                            qu’elles imitent, parce qu’elles en font commettre autant qu’elles en
+                            representent.</p>
+                        <p><pb n="290" xml:id="p290"/>Quand les choses n’en viendroient pas jusqu’à
+                            l’execution, la seule veuë, le seul recit de ces Pieces criminelles, est
+                            un peché considerable. <note place="margin"><quote><p>Cur liceat videre,
+                                        quod facere flagitiũ ? cur quæ ore prolata communicant
+                                        hominem, ea per oculos, &amp; aures admissa. non videntur
+                                        hominem cõmunicare ?</p><bibl><hi rend="i">Tert.</hi> 17.
+                                            <hi rend="i">de Spect.</hi></bibl></quote></note> Il
+                            n’est pas permis de voir, selon le sentiment de ce grand Personnage, ce
+                            que Dieu défend de faire ; on ne peut pas regarder avec innocence ce
+                            qu’on ne pourroit accomplir sans peché, &amp; ces ordures ne pouvant
+                            sortir de la bouche, qu’elles ne soüillent &amp; la langue, &amp; l’ame,
+                            de quelle maniere entreront-elles par les yeux &amp; par les oreilles
+                            sans infecter l’esprit, le cœur, &amp; les sens mesmes qui leur
+                            accordent le passage ?</p>
+                        <p>L’autorité publique ne peut se justifier par aucune raison, si elle
+                            permet ces outrages évidens contre la Majesté divine, ces conspirations
+                            visibles contre les bonnes mœurs, cette ruine manifeste des vertus,
+                            cette corruption &amp; cette perte des hommes.</p>
+                        <p>Que les Magistrats ne s’estiment pas innocens, parce qu’ils n’autorisent
+                            pas ces crimes par leur presence, leur seule dissimulation, leur seule
+                            foiblesse suffit pour les rendre coupables ; &amp; c’est consentir à ces
+                            conspirations, à ces desordres, à ces malheurs publics, que de ne les
+                            pas empecher quand on en est assuré, quand on le peut, &amp; qu’on le
+                            doit comme eux.</p>
+                    </div3>
+                    <div3 type="section">
+                        <head>II. <hi rend="sc">Raison</hi>. <hi rend="i">Dignité de
+                            l’ame.</hi></head>
+                        <p>Si les theatres n’attentoient qu’à la vie, s’ils ne menaçoient que la
+                            fortune ; si ces pestes, si ces homicides n’attaquoient que les corps ;
+                            si ces incendiaires ne s’attachoient qu’aux édifices, les Magistrats ne
+                            le pourroient pas souffrir en bonne conscience, c’est la suite de la
+                            premiere preuve, &amp; c’est la seconde de mes raisons.</p>
+                        <p>Les theatres portent le feu dans le cœur des <pb n="291" xml:id="p291"
+                            />hommes, les theatres empoisonnent &amp; tuent les ames. Les Magistrats
+                            ne peuvent estre innocens, s’ils sont assez insensibles, s’ils sont
+                            assez foibles, pour voir ces corruptions publiques sans émotion, s’ils
+                            n’usent de toute leur authorité, &amp; de toute leur vigueur pour y
+                            apporter tout ce qu’il leur sera possible de remede, &amp; pour arrester
+                            le cours de ces debordemens, quand ils les connoissent.</p>
+                        <p>Les particuliers sont coupables, s’ils ne s’opposent aux crimes
+                            particuliers qu’on commet en leur presence, &amp; s’ils ne s’efforcent
+                            de les empescher par des corrections animées par le zele, &amp; ménagées
+                            avec prudence. <note place="margin"><quote><p>Corripe amicum, ne fortè
+                                        non intellexerit, &amp; dicat non feci</p><bibl><hi rend="i"
+                                            >Eccl.</hi> 19.</bibl></quote><quote><p>Vade, &amp;
+                                        corripe.</p><bibl><hi rend="i"
+                                    >Matth.</hi> 18.</bibl></quote></note>Dieu le commande à chaque
+                            particulier. Reprenez vostre amy, avertissez-le, de peur qu’il n’ait
+                            manqué par ignorance, &amp; qu’il ne se persuade qu’il n’a pas
+                            peché.</p>
+                        <p>Les Magistrats sont obligez d’empescher les desordres publics ; les
+                            particuliers n’ont ny l’autorité ny la force d’en arrester le cours ;
+                            Dieu, qui en a donné le pouvoir aux Magistrats, les oblige sans doute de
+                            s’en servir pour remedier à des maux qui luy déplaisent d’autant plus,
+                            qu’ils sont plus pernicieux que les pechez particuliers, à des maux
+                            qu’il veut étouffer, &amp; qui sans miracle ne le peuvent estre que par
+                            la puissance qu’il a donnée aux Magistrats principalement pour ce
+                            sujet : &amp; s’il n’aura point de pitié des Magistrats qui pardonnent à
+                            un homicide, à un voleur qui n’a quelquefois commis qu’une méchante
+                            action, quelle misericorde en peuvent esperer ceux qui souffrent les
+                            sources d’un nombre presque infiny de crimes ?</p>
+                        <p>Les Puissances ecclesiastiques y ont apporté le remede, autant qu’il leur
+                            a esté possible. Salvien nous asseure qu’on ne recevoit personne au <pb
+                                n="292" xml:id="p292"/>Baptesme dans les Gaules s’il ne renonçoit à
+                            ces divertissemens, comme aux pompes du Diable. <note place="margin"
+                                            ><quote><bibl><hi rend="i">6. de Prov.</hi></bibl><p>Si
+                                        clericus est, deponatur, si laïcus est,
+                                            segregetur</p><bibl><hi rend="i">Trull.
+                                        cap. 5.</hi></bibl></quote></note>Le sixiéme Concile de
+                            Constantinople depose les Clercs, excommunie les laïques qui donnent ces
+                            divertissemens criminels au public. <note place="margin"><p><bibl><hi
+                                            rend="i">Arelat.</hi> 1. <hi rend="i"
+                                        >can.</hi> 5.</bibl></p><p><bibl><hi rend="i"
+                                        >Arelat.</hi> 2. <hi rend="i"
+                                >can.</hi> 20.</bibl></p></note>Deux Conciles d’Arles défendent de
+                            recevoir les Acteurs à la penitence, s’ils ne renoncent à une profession
+                            qui ne s’applique qu’à inspirer des crimes, &amp; qui est coupable de
+                            tous ceux qu’elle fait, &amp; qu’elle peut faire commettre. Ces justes
+                            rigueurs sont observées dans plusieurs Dioceses.</p>
+                        <p>Mais parce que les coups de ces foudres sont invisibles, parce qu’ils ne
+                            touchent ny le corps, ny la bourse, que plusieurs ne s’épouvantent pas
+                            pour un retranchement qu’ils devroient d’autant plus apprehender qu’ils
+                            ne le ressentent pas, &amp; que cette insensibilité ne peut venir que
+                            d’une corruption entiere &amp; certaine, les Puissances du monde ne sont
+                            pas excusables, si elles ne prêtent leur bras, &amp; leur forces à
+                            l’Eglise, pour reprimer ces ennemis declarez de Dieu, &amp; des vertus,
+                            pour étouffer ces conspirations publiques contre la majesté souveraine
+                            de Dieu, contre la sainteté des peuples, &amp; pour empescher qu’on ne
+                            represente sur les theatres quelque chose qui puisse offenser Dieu,
+                            &amp; corrompre les hommes.</p>
+                    </div3>
+                    <div3 type="section">
+                        <head>III. <hi rend="sc">Raison</hi>. <hi rend="i">Obligation de defendre
+                                des choses indifferentes d’elles-mesmes.</hi></head>
+                        <p>Les Magistrats sont obligez de défendre des actions indifferentes, &amp;
+                            quelquefois utiles d’elles-mesmes, quand elles peuvent porter quelque
+                            préjudice à l’Estat, &amp; quand ils ont quelque raison d’en apprehender
+                            les suites ; ils n’ont pas le soin &amp; la vigilance qu’ils sont
+                            obligez d’avoir pour les peuples, s’ils souffrent ce qui peut troubler
+                            leur repos, nuire à leur santé, leur causer de <pb n="293" xml:id="p293"
+                            />la disette, ou quelqu’autre misere.</p>
+                        <p>Plusieurs particuliers peuvent faire des dépenses considerables sans
+                            s’incommoder ; &amp; les Magistrats ne sont pas moins obligez de
+                            reformer les dépenses, quand le public en peut souffrir du prejudice. Le
+                            transport des bleds, des vins, des autres marchandises, n’est pas un
+                            peché ; les Magistrats ne sont pas moins obligez de le défendre, quand
+                            le public y est interessé, quand il est en danger de manquer luy-mesme
+                            des choses necessaires à la vie, &amp; d’en estre privé pour la
+                            commodité des étrangers. Le port des armes, l’usage des marchandises
+                            étrangeres, les divertissemens populaires, ne sont pas du rang des
+                            crimes ; les Magistrats ne feroient pas leur devoir, s’ils permettoient
+                            toutes ces choses, lorsqu’elles sont contraires à la seureté, à
+                            l’épargne, &amp; à la bienseance publique ; quand les campagnes sont
+                            pleines de voleurs, quand l’Estat est épuisé d’argent, ou affligé de
+                            quelque calamité publique. <note place="margin"><quote><p>Salus populi
+                                        suprema lex esto. Licita, pro illicitis habeantur ne obsint
+                                        fratri.</p><bibl><hi rend="i">In</hi> 1. <hi rend="i"
+                                            >Cor. c.</hi> 4.</bibl></quote></note> La charité doit
+                            obliger les Magistrats de regarder les choses permises comme si elles ne
+                            l’estoient pas, quand elles peuvent porter du préjudice au public ;
+                            &amp; Dieu veut qu’ils défendent ce qui est contraire à la premiere
+                            &amp; à la souveraine des loix, qui est le bien du peuple.</p>
+                    </div3>
+                    <div3 type="section">
+                        <head><hi rend="sc">Conclusion de ce Point</hi>.</head>
+                        <p>Un Magistrat souffriroit sans peché qu’on jouë des Comedies contraires
+                            aux bonnes mœurs, &amp; à la Religion ? Il souffriroit que la chasteté,
+                            que la pudeur, que la pieté, que la charité, que les autres vertus
+                            fussent baffoüées sur un theatre, qu’elles fussent étouffées dans les
+                            cœurs de tous ceux que la curiosité, le plaisir, ou l’oisiveté attirent
+                            dans ces lieux contagieux ? Pourquoy recevoir l’épée de la justice, si
+                            l’on ne s’en sert point contre ces <pb n="294" xml:id="p294"/>ennemis
+                            declarez du Ciel, &amp; de l’Estat ? L’on debitera les maximes des
+                            impies, l’on inspirera le mépris de Dieu, &amp; de toutes ses loix, l’on
+                            enseignera à l’impudicité, à la vengeance des moyens pour se satisfaire
+                            sans bruit, des adresses pour tromper un mary, pour débaucher une femme,
+                            pour se défaire d’un ennemy ; &amp; un Magistrat s’estimera aussi
+                            innocent, qu’il est en effet insensible, &amp; il negligera de remedier
+                            à des déreglemens qui ne peuvent estre arrestez que par une autorité
+                            qu’il a receuë de Dieu en partie pour y mettre ordre ? Ce Magistrat
+                            manque à une des principales parties de son devoir : c’est beaucoup,
+                            mais c’est peu en comparaison de ce que je ne puis dire qu’avec frayeur,
+                            qu’avec horreur. Ce Magistrat est coupable de tous les crimes que ces
+                            Pieces font, &amp; peuvent faire commettre. Les Acteurs en sont
+                            coupables, parce qu’ils agissent ; les Magistrats en sont coupables,
+                            parce qu’ils les souffrent ; les Acteurs les commettent par leurs
+                            paroles, les Magistrats les commettent par leur silence ; les Acteurs
+                            seront punis, parce qu’ils ont parlé ; les Magistrats seront punis,
+                            parce qu’ils se sont tus : les premiers seront châtiez, parce qu’ils ont
+                            soulevé les peuples contre Dieu ; il se vangera des seconds, parce
+                            qu’ils ne se sont pas opposez à cette persidie ; il leur fera souffrir
+                            des peines eternelles, parce qu’ils ont endure des offenses publiques,
+                            &amp; que par cette patience criminelle, ils sont cause de la perte de
+                            tous ceux qui les ont commises.</p>
+                        <p>Quand cette negligence seroit passée en une espece de coûtume, il n’y a
+                            point de prescription qui puisse justifier les Magistrats aux yeux de
+                            Dieu, &amp; les exempter des justes châtimens qu’ils meritent,
+                            puisqu’ils sont complices de tous les vices qui <pb n="295"
+                                xml:id="p295"/>naissent, qui s’entretiennent, qui se multiplient par
+                            leur negligence, &amp; par leur peu de zele, comme les méchantes herbes
+                            dans les allées &amp; dans les parterres, quand le Jardinier n’a pas
+                            soin de les nettoyer.</p>
+                        <p><note place="margin"><p><quote>Iudices terræ velut inane fecit.</quote>
+                                    <bibl><hi rend="i">Isa.</hi> 40</bibl></p></note>Le Prophete
+                            Isaye dit, que le Seigneur a fait les Magistrats ainsi que le neant. Ce
+                            Prophete n’a pas dessein de rendre les Magistrats méprisables, ny de les
+                            exposer à la derision &amp; à la mocquerie du peuple. Nous leur devons
+                            une partie du respect que nous rendons à celuy qui les éleve à la
+                            participation de son autorité, &amp; qui les honore mesme de son nom,
+                            comme les Cesars donnoient leur nom à ceux qu’ils associoient, &amp;
+                            quelquefois à ceux qu’ils destinoient à l’empire. <note place="margin"
+                                        ><p><quote>Ego dixi, Dii estis.</quote><bibl><hi rend="i"
+                                            >Ps.</hi> 81.</bibl></p></note>C’est moy qui vous ay
+                            fait part d’un titre si glorieux, je pretends que les peuples le
+                            respectent en vous, je veux qu’ils vous venerent par une espece de
+                            religion, que la religion, qui me doit des honneurs souverains, en rende
+                            une partie à mon autorité &amp; à mon nom dans vos personnes.</p>
+                        <p>Le sens de ce passage du Prophete Isaye est que les Magistrats n’ont pas
+                            plus coûté à faire à Dieu, qu’ils ne sont pas plus capables de resister
+                            à sa puissance infinie, qu’il n’aura pas plus de consideration pour eux
+                            que pour les personnes de neant, &amp; qu’il punira les uns &amp; les
+                            autres sans distinction, s’ils manquent également à leur devoir.</p>
+                        <p>Les Superieurs ecclesiastiques &amp; seculiers qui n’ont pas plus de
+                            sentiment, plus d’action, plus de parole, pour les interests de Dieu
+                            &amp; pour l’innocence des peuples, qu’un pur neant : les Magistrats qui
+                            n’ont pas plus de consideration pour la gloire de Dieu &amp; pour le
+                            salut des peuples, que si des <pb n="296" xml:id="p296"/>choses de cette
+                            importance estoient de purs neants, ne sont pas plus estimez de Dieu que
+                            s’ils estoient de purs neants ; il aura aussi peu de sentiment, aussi
+                            peu d’égard pour eux, que pour de purs neants ; il leur rendra avec
+                            justice les mépris qu’ils ont eu si injustement &amp; pour luy, &amp;
+                            pour le salut des peuples. Les personnes de neant ne pechent d’ordinaire
+                            que pour elles-mesmes, &amp; que par elles-mesmes ; leurs pechez n’ont
+                            pas souvent de grandes suites : les Grands pechent &amp; pour eux, &amp;
+                            par eux ; les Grands pechent pour les autres, &amp; par les autres. Dieu
+                            punira sans doute les Grands à proportion de l’étenduë &amp; du nombre
+                            des crimes qu’ils commettent, ou par leur propre action, ou par leur
+                            negligence, qui est une de ces causes, sans lesquelles les choses ne se
+                            feroient pas, &amp; que la Philosophie considere en effet comme des
+                            causes.</p>
+                        <p>Mais n’est-ce pas assez que les Magistrats seculiers veillent &amp;
+                            agissent pour le bien de l’Estat, pourquoy y ajoûter la surchage du
+                            spirituel, dont Dieu a donné le soin aux Ecclesiastiques ?</p>
+                        <p>Je sçay bien que tout ce qui concerne la conduite particuliere des ames
+                            appartient à l’Eglise avec une proprieté si entiere &amp; si absoluë,
+                            qu’elle n’en peut pas mesme commettre l’autorité aux Puissances
+                            seculieres. Mais les Magistrats ne peuvent pas se dispenser sans peché
+                            de luy prêter leur bras, &amp; de luy donner du secours quand elle en a
+                            besoin pour la défense de la Foy, &amp; de la sainteté. La faveur du
+                            Ciel est si necessaire pour la conservation, &amp; pour le bonheur mesme
+                            temporel des Estats, que les Magistrats pechent contre l’Estat, s’ils
+                            refusent leur protection à la Religion, &amp; aux autres vertus qui
+                            entretiennent l’union du Ciel &amp; des Estats, s’ils ne <pb n="297"
+                                xml:id="p297"/>suppriment par des Edits constants &amp; vigoureux,
+                            s’ils n’empeschent de representer sur les theatres ces Pieces
+                            criminelles qui corrompent les mœurs, &amp; qui deviennent enfin les
+                            calamitez generales des Estats, comme elles sont l’horreur du Ciel.</p>
+                        <p>Jerusalem est prise, saccagée, ruinée ; les pechez de cette Ville ingrate
+                            sont les premiers autheurs de ses malheurs, le Prophete Isaye ne nous
+                            permet pas d’en douter. <note place="margin"><p><quote>Ierusalem ruit,
+                                        &amp; Iudas concidit, væ animæ eorũ, quia redditæ sunt eis
+                                        mala.</quote><bibl><hi rend="i">Isaya</hi>
+                                3.</bibl></p></note>Jerusalem est tombée, le Royaume de Juda est
+                            détruit ; malheur à leurs ames, parce que Dieu leur a rendu une partie
+                            des maux qu’ils ont merité par leurs pechez, que par les mains d’un
+                            tyran il s’est vangé en partie de la revolte &amp; des outrages de ce
+                            peuple infidelle, &amp; qu’il reserve aux ames de ces perfides des
+                            châtimens plus cruels que ces desolations publiques, dont elles sont les
+                            principales causes par leurs pechez.</p>
+                        <p>L’Asie &amp; l’Afrique, plusieurs des plus belles parties de l’Europe
+                            sont devenuës la proye des Infidelles. Ces vastes Provinces acquises à
+                                <hi rend="sc">Jesus-Christ</hi>, &amp; sanctifiées par le sang des
+                            millions de Martyrs, éclairées par un si grand nombre de sçavans &amp;
+                            de saints Personnages ; par des lumieres aussi éclatantes, aussi pures,
+                            &amp; aussi incorruptibles que celles du Ciel, gouvernées par un si
+                            grand nombre de Pasteurs qui sont encore honorez aujourd’huy comme les
+                            oracles, comme les maistres, &amp; comme les modelles de l’Eglise,
+                            peuplées par un si grand nombre de Saints &amp; de sçavans Religieux,
+                            sujetes à des Empereurs dont plusieurs ont esté si vaillans, si justes,
+                            si Chrêtiens : ces vastes Pays, dis-je, soûpirent dans l’esclavage,
+                            gemissent sous la tyrannie &amp; sous <pb n="298" xml:id="p298"
+                            />l’infidelité des barbares, sont perdus par l’heresie. Si vous
+                            recherchez dans les écrits des Peres, &amp; dans les fidelles Historiens
+                            la source de ces effroyables disgraces, ils vous apprendront que la
+                            temperance des barbares a vaincu les delices criminelles de l’Asie ; que
+                            la chasteté des barbares a triomphé de l’impudicité des Africains ; que
+                            les vertus humaines &amp; imparfaites des barbares l’ont emporté sur les
+                            vices énormes de ceux qui avoient le front de se nommer Chretiens, &amp;
+                            que ces grandes parties du monde ne sont tombées sous un joug si pesant,
+                            que parce qu’elles ont secoüé le joug du Ciel, ce joug qui ne les
+                            chargeoit que pour les élever à la joüissance d’un bon-heur eternel,
+                            comme les pompes ne pressent l’eau que pour la faire monter.</p>
+                        <p>Une partie de l’Europe, la Grece, la Macedoine, plusieurs des plus belles
+                            Parties du Septentrion ne sont tombées dans le mesme malheur, que pour
+                            avoir suivy la mesme route. Et qui peut douter que Dieu ne nous
+                            abandonnast aux mesmes extremitez, si nous le quittions avec la mesme
+                            perfidie ?</p>
+                        <p>Dieu condamne Jerusalem à souffrir tous ces malheurs, parce que Jerusalem
+                            a commis tous ces crimes. <note place="margin"><quote><p>In præceptis
+                                        meis nõ ambulastis, dabo re in desertũ gentibus, &amp; eris
+                                        blasphemia, exẽplum, &amp; stupor in gentibus, cum fecero in
+                                        te judicia in furore</p><bibl><hi rend="i">Ezech. </hi>
+                                        5.</bibl></quote></note> Peuple criminel, vous n’avez pas
+                            observé mes Commandemens, je vous abandonneray aux Infidelles comme une
+                            terre ingrate ; vous serez un sujet d’execration &amp; de frayeur à tout
+                            l’Univers, quand j’exerceray sur vous les justes arrests de ma
+                            fureur.</p>
+                        <p>Ces arrests n’ont-ils pas esté prononcez contre l’Asie, contre l’Afrique,
+                            contre l’Europe, contre toute la terre, comme contre Jerusalem, <pb
+                                n="299" xml:id="p299"/>n’ont-ils pas esté executez sur plusieurs de
+                            ces grandes Provinces, comme sur Jerusalem ; &amp; si nos crimes nous
+                            rendoient dignes d’estre condamnez avec ces miserables Provinces,
+                            pourquoy cette Sentence ne seroit-elle pas prononcée contre nous comme
+                            contre ces Provinces, executée sur nous comme sur ces malheureuses
+                            Provinces ?</p>
+                        <p>Nous avons de puissantes armées, &amp; de grands Chefs, plusieurs de ces
+                            Provinces ont esté défenduës par les plus vaillantes armées, par les
+                            plus grands Capitaines de l’Empire Romain ; nous avons des Pasteurs
+                            &amp; des Religieux qui veillent, &amp; qui prient pour nous ; ils ne
+                            sont pas en plus grand nombre, ils ne sont pas plus Saints, ils ne
+                            seroient pas plus exaucez que ceux qui ont veillé, que ceux qui ont prié
+                            pour ces infortunées Provinces ; &amp; quels crimes sont plus capables
+                            de fermer les mains, le cœur, les oreilles de Dieu, que ceux qui
+                            corrompent l’innocence des peuples ; &amp; qui font une profession
+                            publique &amp; constante de deshonorer &amp; de mépriser Dieu ? Quels
+                            crimes sont plus capables d’attirer les foudres, &amp; les plus
+                            redoutables fleaux de Dieu, que ceux que saint Chrysostome considere
+                            comme des supplices commencez, comme les premiers effets des justes
+                            ressentimens de Dieu ? <note place="margin"><quote><p>Quod ille agitur
+                                        non delectatio, sed pernities, sed pœna, sed
+                                            supplicium.</p><bibl><hi rend="i">hom. de Saule, &amp;
+                                            David.</hi></bibl></quote></note> Ne commettons point de
+                            crimes. Puissances de l’Eglise &amp; du monde, ne souffrez point qu’on
+                            en commette ; ne commettez point vous-mesme par le defaut de vigilance,
+                            de courage, &amp; de soin, des crimes qui affoiblissent les plus braves
+                            soldats, qui font perdre la conduite &amp; le cœur aux plus grands
+                            Capitaines, qui rendent inutiles la science, le zele &amp; les soins des
+                            Pasteurs, &amp; qui font que les prieres les plus saintes sont <pb
+                                n="300" xml:id="p300"/>incapables d’appaiser la colere de Dieu. Si
+                            vous entendez parler de ces Pieces condamnées avec tant de justice par
+                            les Peres, ayez autant de courage pour les empescher de paroistre, que
+                            vous en avez pour défendre les choses les plus indifferentes quand
+                            l’estat peut en recevoir du prejudice ; étouffez ces semences de la
+                            corruption &amp; de la ruine des Estats, c’est un des meilleurs offices
+                            que vous soyez obligez de leur rendre ; faites reformer aussi celles qui
+                            doivent estre suspectes, c’est une partie considerable de cette
+                            obligation.</p>
+                    </div3>
+                </div2>
+                <div2 type="section">
+                    <head type="sur">Second point.</head>
+                    <head type="main"><hi rend="i">Reformer les dangereuses &amp; les
+                            suspectes.</hi></head>
+                    <p><hi rend="big">L’</hi>Impudence du crime ne luy est pas toujours favorable,
+                        &amp; les Autheurs des Pieces de théatre, qui ne sont pas apprentifs dans
+                        l’art de déguiser, sçachans bien que le crime est odieux de luy-mesme, ne le
+                        font d’ordinaire paroistre que sous le masque ; ils ne font parler
+                        l’impudicité, l’impieté, les autres crimes, qu’en termes conformes à leur
+                        déguisement ; ils cherchent, ils étudient des façons de parler qui ne
+                        blessent en apparence ny l’honesteté, ny la foy, ny aucune autre vertu. Ils
+                        ne manquent pas d’aposter des domestiques, des confidens, des Conseillers,
+                        qui semblent détourner les principaux personnages des crimes qu’ils sont
+                        disposez de commettre ; la passion est si forte qu’elle surmonte tous les
+                        obstacles, elle trouve des conseils &amp; des secours pour se satisfaire, ou
+                        par adresse, ou par force ; ces passions violentes font sans doute quelque
+                        impression dans <pb n="301" xml:id="p301"/>l’esprit des spectateurs ; elles
+                        leur apprennent à refuter les remontrances des amis &amp; des parens, à
+                        s’opiniâtrer dans de méchans desseins, à trouver les moyens de les
+                        accomplir, &amp; de se contenter.</p>
+                    <p>Les Auteurs des Pieces de theatre suivent en cecy les vestiges de cet ancien
+                        ennemy de la Grace, dont saint Augustin a triomphé avec tant de gloire pour
+                        luy, avec tant d’avantage pour l’Eglise, avec tant de satisfaction, de
+                        reconnoissance, &amp; d’honneur pour l’auteur d’un bien-fait si necessaire
+                        aux hommes. Pelage voyant qu’il ne pouvoit plus disputer contre la necessité
+                        de la Grace, sans estre condamné d’heresie, se servit de plusieurs
+                        subtilitez pour faire accroire à toute la terre qu’il n’enseignoit point ce
+                        que ses ennemis luy imputoient, qu’il reconnoissoit la necessité des
+                        Puissances naturelles, &amp; des lumieres de l’Evangile pour s’abstenir du
+                        mal, &amp; pour pratiquer le bien, que la raison &amp; la liberté ne
+                        pouvoient estre effacées du nombre des graces, qu’il faudroit n’estre pas
+                        moins infidelle &amp; superbe qu’ingrat pour ne pas reconnoistre les
+                        instructions, les exemples, &amp; la Passion de Nostre Seigneur pour des
+                        graces necessaires, qu’il estoit bien éloigné mesme de nier que les bons
+                        mouvemens que ses ennemis mettoient au nombre des graces necessaires, le
+                        fussent en effet pour agir avec plus de facilité &amp; avec plus de
+                        perfection, que tous les mouvemens qui venoient des lumieres &amp; des
+                        exemples de <hi rend="sc">Jesus-Christ</hi>, ne pouvoient estre que
+                        tres-bons. C’est ainsi que ce Serpent d’Angleterre, c’est S. Prosper qui luy
+                        donne ce nom, sauva quelque temps sa teste des foudres de l’Eglise, &amp; du
+                        mépris de ses disciples. Quand il craignoit les foudres, il <pb n="302"
+                            xml:id="p302"/>parloit comme un des plus zelez défenseurs de la Grace ;
+                        quand il craignoit que ses paroles ne détrompassent ses disciples, il leur
+                        expliquoit ses sentimens. Il gagnoit les Catholiques par ces artifices, en
+                        leur faisant croire que sa doctrine estoit conforme à celle de l’Eglise ; il
+                        entretenoit ses disciples par ces artifices, en leur découvrant qu’il ne
+                        dissimuloit ses sentimens que pour les persuader avec plus de succés. Il
+                        faisoit plus de tort à la verité par ces artifices, que s’il l’eust attaquée
+                        à découvert ; &amp; ce ne fut qu’après des progrés bien funestes, qu’il fut
+                        retranché du corps des Fidelles par l’Eglise, comme un membre qui n’y estoit
+                        plus attaché que par une apparence plus dangereuse, que ce retranchement
+                        public.</p>
+                    <p>Je me suis peut-estre trop éloigné de mon sujet, mais il me semble que je ne
+                        pouvois rien expliquer qui fist mieux connoistre le danger, &amp; les
+                        mauvais effets des crimes déguisez par les Auteurs des Pieces de theatre.
+                        Ces habiles hommes sçavent bien que les crimes sont odieux d’eux-mesmes,
+                        &amp; que les personnes les plus corrompuës ne peuvent pas s’empescher d’en
+                        témoigner de l’horreur, à moins que de renoncer à l’honneur, &amp; à la
+                        bien-séance, &amp; de ne se mettre plus en peine d’estre en execration à
+                        tout ce qu’il y a de raisonnable dans le monde. Ils composent leurs pieces
+                        avec tant d’artifice, que les plus méchans y trouvent suffisamment dequoy se
+                        contenter, &amp; que les bons, à moins d’estre bien éclairez, ont de la
+                        peine à y découvrir ce qui merite la censure, &amp; sont presque contraints
+                        de suspendre leur jugement, &amp; de dire comme ces anciens Senateurs, la
+                        chose n’est pas constante : <hi rend="i">Non liquet</hi>, nous ne pouvons
+                            <pb n="303" xml:id="p303"/>pas justifier ces Pieces comme innocentes,
+                        parce qu’elles prennent le party du vice en apparence ; on ne peut pas les
+                        condamner comme mauvaises, parce qu’elles semblent soûtenir &amp; relever la
+                        vertu : elles se mettent à couvert de la censure des bons par cette
+                        apparence d’innocence, elles évitent le mépris des méchans par cette
+                        apparence de malice : l’apparence du mal couvre l’apparence de l’innocence,
+                        celle de l’innocence couvre celle du mal, ce mélange continuel ne laisse pas
+                        le temps de reconnoistre lequel l’emporte ou du bien ou du mal ; &amp; ce
+                        venin, comme celuy de Pelage, ne s’apperçoit qu’aprés qu’il a eu le temps
+                        d’agir avec toute sa force, &amp; qu’il a tout perdu.</p>
+                    <div3 type="section">
+                        <head><hi rend="i">Des particuliers.</hi></head>
+                        <p>C’est ce qui oblige les particuliers de ne point aller à ces especes de
+                            Comedies, les peres de défendre à leurs enfans d’y aller, les Magistrats
+                            d’empescher qu’on ne joüe des Pieces si dangereuses.</p>
+                        <p>Dieu nous ordonne de fuïr le peché comme <note place="margin"
+                                        ><quote><p>Quasi à facie colubri fuge peccata, dentes
+                                        leonis, dentes ejus, plagæ illius non est
+                                            sanitas.</p><bibl><hi rend="i"
+                                    >Eccl.</hi> 21.</bibl></quote></note>l’abord d’un serpent
+                            monstrueux, qui a des dents de lion, &amp; qui ne fait que des playes
+                            incurables : c’est la description &amp; la défense qu’il en fait au 21.
+                            chapitre de l’Ecclesiastique. On n’obeït pas à ce commandement, si l’on
+                            ne fuit aussi bien les Comedies suspectes, que celles dont on ne peut
+                            pas ignorer le venin.</p>
+                        <p>L’horreur que la nature nous a imprimée des serpens &amp; des bestes
+                            feroces nous détourne des lieux où nous craignons de les trouver. Un
+                            homme desarmé ne se retire pas seulement à l’abord d’un lion, ou d’un
+                            tygre, il évite mesme la caverne qui sert de retraite &amp; de gîte à
+                            ces bestes sanguinaires ; &amp; quoy qu’il ne soit pas asseuré de les
+                            trouver dans <pb n="304" xml:id="p304"/>ce repaire, &amp; qu’il y ait
+                            mesme quelque apparence qu’elles sont en queste, il ne hazarde pas
+                            d’entrer dans un lieu si suspect, il s’en éloigne au contraire avec le
+                            plus de silence &amp; de vitesse qu’il luy est possible.</p>
+                        <p>Un homme, qui ne craint point de voir joüer une Piece dangereuse, ne fuit
+                            pas le peché avec la mesme horreur. La Piece est peut-estre innocente,
+                            elle est peut-estre criminelle ; le peché est peut-estre en embuscade
+                            sous ces beaux vers, il n’y est peut-estre pas ; on entre sans frayeur
+                            dans un lieu si redoutable. On ne craint pas sans doute le peché autant
+                            que Dieu le commande, on n’en a pas toute l’horreur qu’il merite, &amp;
+                            qu’on auroit d’un serpent, d’un tygre, ou d’un lion, puisqu’on
+                            n’apprehendre pas d’entrer dans un lieu où l’on a raison de craindre
+                            qu’on ne le trouve.</p>
+                        <p>Ces Pieces produisent d’ordinaire dans les esprits des dispositions
+                            semblables à ce qu’elles sont : ces Pieces sont des composez de bien
+                            &amp; de mal, un mélange de ce qui peut maintenir la vertu, &amp; de ce
+                            qui est capable de la corrompre ; &amp; il est quelque-fois
+                            tres-difficile de juger de la qualité qui l’emporte dans ce mélange. Ces
+                            Pieces produisent dans les esprits des dispositions aussi ambiguës
+                            qu’elles-mesmes. Un homme qui voit representer ces Pieces ressent en
+                            luy-mesme des mouvemens pour la vertu, &amp; pour le vice selon les
+                            roles differens : il flote entre la vertu &amp; le vice, quand les
+                            Acteurs recitent quelque chose d’indifferent. La suite de la Piece le
+                            porte à la vertu &amp; au vice par des vers &amp; par des gestes
+                            semblables aux precedens : ces mouvemens ne l’attachent ny à la vertu,
+                            ny au vice ; &amp; il n’auroit pas moins de peine à se <pb n="305"
+                                xml:id="p305"/>reconnoistre luy-mesme, s’il avoit le loisir de
+                            s’examiner, qu’à bien juger de la qualité de la Piece. La verité est
+                            qu’il n’est ny entierement porté à la vertu, ny entierement porté au
+                            vice, la verité est que ces deux mouvemens sont imparfaits, la verité
+                            est qu’ils sont tous deux desagreables à Dieu qui veut que nous soyons
+                            totalement attachez à la vertu, &amp; que nous ayons un entier
+                            éloignement du vice. Il est certain que nous n’allons pas droit, puisque
+                            nous boitons des deux costez ; nous n’allons pas à la vertu avec la
+                            fermeté que Dieu desire, &amp; nous ne pouvons aller au vice avec tant
+                            de foiblesse, que nous ne desobeïssions aux ordres qu’il nous donne de
+                            le fuïr comme un monstre.</p>
+                        <p>Faisons la justice à Tertullien de croire que c’est ce qu’il pretend
+                            remontrer aux Fidelles, quand il leur represente <note place="margin"
+                                        ><quote><p>Præcedit Spiritum sanctũ pro naturæ fuæ bono
+                                        delicatum lenitate, &amp; pace tractare. Huic quomodo
+                                        poterit cum spectaculis convenire ? spectaculum sine
+                                        concussione spiritus non est.</p><bibl>15 <hi rend="i">de
+                                            Spect.</hi></bibl></quote></note> la delicatesse du
+                            saint Esprit, si j’ose avec luy me servir de ce terme, &amp; qu’il ne
+                            leur est pas permis d’aller à la Comedie, parce que les agitations
+                            differentes que les ames y ressentent, pourroient blesser ce divin
+                            Esprit, l’obliger de se retirer d’un lieu où son repos seroit troublé,
+                            où il ne seroit pas luy-mesme en assurance, de les abandonner par une
+                            retraite dont ils seroient la cause, pour n’avoir pas eu la
+                            consideration &amp; le respect qu’ils luy devoient, dit ce grand
+                            Personnage. Il ne faut pas faire le tort à un homme si éclairé de croire
+                            qu’il condamnast toutes les passions, &amp; qu’il jugeast que ce fussent
+                            autant de crimes. Il sçavoit bien que plusieurs de ces mouvemens
+                            n’attendent pas les ordres de nostre liberté, &amp; que par consequent
+                            ils ne sont pas des pechez, quand ils panchent du côté du crime, comme
+                            ils ne sont pas des vertus, quand ils panchent du côté de l’innocence,
+                            si la volonté <pb n="306" xml:id="p306"/>ne se laisse aller où ils
+                            l’attirent, ou si elles n’y vont à sa suite, &amp; qu’elle ne les y
+                            entraîne.</p>
+                        <p>Tertullien veut seulement enseigner aux Fidelles qu’il est tres-difficile
+                            que dans la multitude des mouvemens que les Comedies ont coûtume de
+                            causer, il n’y en ait de criminels ; que le saint Esprit, blessé par des
+                            agitations si differentes, n’abandonne ceux qui n’ont pas assez de soin
+                            de le garder, qu’après avoir esté nous-mesmes agitez par des mouvemens
+                            dont la qualité est si difficile à reconnoistre, nous ne tombions où
+                            nostre méchante inclination nous pousse, comme les pailles &amp; les
+                            autres matieres legeres, qui ayans esté quelque temps balancées par les
+                            vents, tombent enfin, parce qu’elles ont assez de pesanteur pour ne
+                            pouvoir pas se soûtenir elles-mesmes : pourveu que ce ne soit pas déja
+                            une lourde chutte de s’estre exposé à tomber en venant en des lieux où
+                            l’on sçavoit bien que l’innocence seroit en grand danger, &amp; en
+                            faisant moins d’estat du salut que de la vie &amp; de la fortune, qu’on
+                            ne voudroit pas exposer pour ces especes de plaisirs.</p>
+                    </div3>
+                    <div3 type="section">
+                        <head><hi rend="i">Des peres, &amp; meres, &amp; des Magistrats : Ils sont
+                                obligez de les défendre.</hi></head>
+                        <p>Les peres &amp; les meres n’ont pas assez de charité pour leurs enfans,
+                            s’ils souffrent qu’ils s’engagent en ces dangers où ils ne pourroient en
+                            conscience leur permettre de s’exposer, s’il ne s’agissoit que de la
+                            fortune &amp; de la vie.</p>
+                        <p>Et quand les Magistrats sçavent qu’on jouë de ces fortes de Pieces, ils
+                            ne peuvent pas en conscience permettre que l’on continuë, jusqu’à ce
+                            qu’ils les ayent fait examiner, &amp; corriger ; ils ne doivent pas
+                            avoir moins soin des peuples, en tout ce qui regarde le bien public, que
+                            les peres &amp; les meres doivent en avoir de leurs enfans : Dieu
+                            établit en effet les <pb n="307" xml:id="p307"/>Magistrats pour estre
+                            les curateurs &amp; les tuteurs des peuples, &amp; pour leur servir de
+                            peres.</p>
+                    </div3>
+                    <div3 type="section">
+                        <head>I. <hi rend="sc">Raison</hi>. <hi rend="i">Leurs autres
+                                obligations.</hi></head>
+                        <p>Si les Magistrats doutoient de la pureté des monnoyes, ce doute suffiroit
+                            pour les obliger d’en ordonner l’épreuve ; &amp; si elles estoient
+                            falsifiées, d’en arrester le cours. S’ils doutoient de la santé d’un
+                            voyageur dans un temps de contagion, ils seroient obligez de le faire
+                            retenir jusqu’à une entiere assurance qu’on peut le laisser entrer dans
+                            le Royaume ou dans une Ville sans danger ; ils sont obligez de faire
+                            jurer, ou signer les personnes mesmes les moins suspectes pour soûlager
+                            les particuliers de l’apprehension &amp; du danger d’estre trompez. Ils
+                            ne peuvent pas en conscience permettre qu’on jouë des Pieces si
+                            dangereuses, supposé qu’ils en soient avertis, sans les faire examiner,
+                            &amp; reformer, à moins qu’ils ne croyent que la vertu merite moins leur
+                            soin que la santé, que le bien, que le repos, à moins qu’ils ne croyent
+                            que l’Estat est moins interessé dans la conservation de l’innocence, que
+                            dans la sureté de la fortune, &amp; de la vie. Ce ne peut pas estre le
+                            sentiment d’un Magistrat Chrestien, il a plus de déference pour un Dieu,
+                            qui nous ordonne de preferer le salut à la fortune, à la vie, à toutes
+                            les autres choses, &amp; qui a preferé en effet nostre salut à sa propre
+                            vie.</p>
+                    </div3>
+                    <div3 type="section">
+                        <head>II. <hi rend="sc">Raison</hi>. <hi rend="i">Ces Pieces sont souvent
+                                plus funestes que les méchantes.</hi></head>
+                        <p>Ces especes de Comedies entretiennent &amp; augmentent les desordres des
+                            personnes corrompuës ; elles corrompent celles qui ont quelque
+                            disposition au vice, &amp; il n’y a que trop de venin dans ces Pieces
+                            pour ruiner une santé foible &amp; chancelante. Mais ce qui est le
+                            comble du malheur, c’est que les bons sont souvent perdus pour avoir osé
+                            les voir jouër.</p>
+                        <p><pb n="308" xml:id="p308"/>Les personnes de vertu ne voudroient pas aller
+                            aux Comedies que tout le monde connoist pour impudiques &amp; pour
+                            impies, elles fuyent le theatre où on les represente comme un échaffaut
+                            où les vertus sont sacrifiées par des paroles plus funestes pour
+                            l’innocence que les épées ; puisque les épées bien loin de la faire
+                            perir, assurent au contraire ses triomphes, &amp; que ces paroles la
+                            dépoüillent de tous ses droits, &amp; la détruisent elle-mesme. Ces
+                            personnes n’ont pas toûjours la mesme apprehension pour des Pieces
+                            déguisées, &amp; où le mal ne paroist pas assez pour les diffamer. Les
+                            méchans se fortifient dans leurs attaches pour les Pieces criminelles,
+                            par la créance qu’ils ont que les bons cherchent les mesmes
+                            satisfactions qu’eux dans les Pieces ambiguës, &amp; ils se défendent
+                            par ces exemples contre ceux qui les détournent d’aller aux Comedies
+                            criminelles.</p>
+                        <p>Les bons prennent quelquefois le goût du mal en voyant representer ces
+                            Pieces ambiguës, le mal s’insinuë jusques dans leur cœur, à la faveur de
+                            ces belles apparences, sans qu’ils s’en soient presque apperçus : Des
+                            ennemis déguisez sont quelquefois dans le cœur de la ville, sans que
+                            personne les ait vû entrer ; &amp; comme on ne reconnoist que ce sont
+                            les ennemis, que quand ils commencent à tuer, à brûler, à piller, ces
+                            personnes ne remarquent les méchantes qualitez de ces Pieces, que quand
+                            leur cœur est pris, &amp; qu’il est passé de la vertu à l’indifference,
+                            de l’indifference au peché, du peché quelquefois à la coûtume, à
+                            l’insensibilité, à l’impudence. <note place="margin"><quote><p>Tradens
+                                        me periculo, &amp; morti.</p><bibl><hi rend="i">Esther.</hi>
+                                        4.</bibl></quote></note>Ester se plaint qu’Aman l’avoit
+                            engagée dans le danger, &amp; livrée à la mort. Elle fut, à la verité,
+                            en danger de mourir, mais Dieu la preserva, <pb n="309" xml:id="p309"
+                            />&amp; le perfide Aman fut la seule victime du feu qu’il avoit allumé
+                            dans l’esprit d’Assuerus. Ces Pieces ambiguës sont des perils, ces
+                            Pieces ambiguës sont tres-souvent des morts pour les personnes
+                            vertueuses qui se trouvent les victimes du monstre, parce qu’elles n’ont
+                            pas apprehendé d’entrer dans la caverne où elles ne le voyoient pas,
+                            &amp; d’où la crainte de scandaliser les hommes, d’offenser Dieu, &amp;
+                            de se perdre, les auroit obligées de se retirer, si elles en avoient eu
+                            la défiance que Dieu leur ordonnoit d’en avoir.</p>
+                    </div3>
+                    <div3 type="section">
+                        <head><hi rend="sc">Conclusion de ce point.</hi></head>
+                        <p>Les Magistrats ne doivent pas moins craindre les foudres de la Justice
+                            divine s’ils ne donnent des ordres pour reformer ces Pieces, que s’il
+                            n’ont pas soin d’empescher qu’on n’en jouë de criminelles ; &amp;
+                            puisque ces Pieces ambiguës entretiennent les méchans dans le mal, &amp;
+                            y attirent tres-souvent les plus vertueux mesmes, que les Magistrats
+                            n’esperent point de demeurer impunis, s’ils ne sont reformer des Pieces
+                            qui rendent le mal ou incurable, ou plus difficile à guerir, &amp; qui
+                            ruinent le bien qui se seroit défendu des Pieces criminelles par la
+                            retraite, &amp; par l’apprehension que les bons auroient eu de se
+                            diffamer, de corrompre le prochain, de déplaire à Dieu, &amp; d’en estre
+                            punis.</p>
+                        <p>Dieu declare luy-mesme aux Puissances de l’Eglise, &amp; du monde, qu’il
+                            ne leur pardonnera point une complaisance si contraire à leur devoir, au
+                            bien public, &amp; à sa propre gloire. <note place="margin"
+                                        ><quote><p>Inventi sunt in populo meo impii insidiantes
+                                        quasi aucupes, laqueos ponentes. Sacerdotes applaudebãt
+                                        manibus, optimates confregerunt jugum, quid fiet in
+                                        novissimo ? super quo propitius esse potero ? Nunquid in
+                                        gente tali nô ulciscetur anima mea ?</p><bibl><hi rend="i"
+                                            >Ierem.</hi> 5.</bibl></quote></note>Il s’est trouvé
+                            dans mon peuple des impies qui tendoient des pieges aux ames comme des
+                            oiseleurs, les Prestres frappoient des mains pour applaudir, les
+                            Magistrats n’ont pas remedié à ces dangers publics, comme je l’avois
+                            commandé, que feray-je à la fin des <pb n="310" xml:id="p310"/>temps ? A
+                            qui pourray-je pardonner ? Au peuple corrompu ? Aux Acteurs impies ? Aux
+                            Pasteurs complices ? aux Magistrats rebelles ? C’est Dieu mesme qui
+                            parle. Et remarquez qu’il ne dit point à qui pardonneray-je ? Mais à qui
+                            pourray-je pardonner ; Peut-estre qu’il n’est pas maistre de luy-mesme ?
+                            qu’il ne dispose pas des recompenses &amp; des châtimens avec un pouvoir
+                            absolu ; qu’il ne peut pas accorder des graces aux plus scelerats des
+                            criminels ? Ce seroit le méconnoistre, que de concevoir quelque défiance
+                            de son autorité. Il ne peut pardonner, parce qu’il ne peut changer la
+                            resolution qu’il a prise de les punir ; il ne peut pardonner, parce
+                            qu’il n’a promis de pardonner qu’aux penitens, &amp; qu’il est presque
+                            impossible que ces coupables fassent penitence d’un peché qu’ils ne
+                            remarquent pas ; il ne peut pardonner, parce que les maux qui procedent
+                            de ces déguisemens, les maux multipliez par cette mollesse, &amp; par
+                            cette complaisance, ne sont presque jamais reparez, jamais ils ne sont
+                            égalez par ce qu’on prend pour une veritable penitence ?</p>
+                        <p>Escoûtez la conclusion, ne me vangeray-je pas &amp; du peuple, &amp; des
+                            Acteurs, &amp; des Pasteurs, &amp; des Magistrats, &amp; de tous ceux
+                            qui approuvent, qui fomentent, ou qui souffrent ces débauches
+                            publiques ?</p>
+                        <p>Puissances du monde, les personnes vertueuses ne sont pas seulement la
+                            gloire &amp; l’exemple de l’Estat, elles en sont encore l’appuy ; leurs
+                            jeûnes, leurs veilles, leurs aumônes, leurs prieres, leurs Communions
+                            arrestent les fleaux que Dieu déchargeroit, &amp; retiennent les foudres
+                            qu’il lanceroit sur les Estats ; il n’en est presque pas le maître ; <pb
+                                n="311" xml:id="p311"/>ils tiennent son bras avec une violence qui
+                            luy est si agreable, qu’il ne peut se resoudre de luy rien refuser, ny
+                            de déplaïre à une contrainte dont il reçoit tant de satisfaction.
+                            Puissances du monde, vous n’avez pas assez de zele pour l’Estat, si vous
+                            souffrez des entreprises qui ruinent, ou qui menacent ceux qui en sont
+                            l’appuy : vostre salut n’y est pas moins interessé que l’Estat ? Dieu
+                            vous assure que non seulement il ne vous pardonnera pas, mais qu’il ne
+                            pourra pas vous pardonner, si vous negligez d’y apporter le remede qu’il
+                            vous ordonne. Vostre negligence seroit cause que l’Estat perdroit ceux
+                            qui ne laissoient pas à Dieu la liberté de le punir ; vostre negligence
+                            osteroit à Dieu la liberté de vous pardonner, &amp; le ressentiment de
+                            n’estre plus contraint de faire misericorde au peuple le contraindroit
+                            de n’avoir aucune pitié de vous. C’est Dieu luy-mesme qui se sert de ces
+                            termes ; vous ne doutez point de sa sincerité. Prevenez ces dangers,
+                            &amp; ces malheurs, avec les précautions que j’explique dans cette
+                            derniere Partie de ce Discours.</p>
+                    </div3>
+                </div2>
+                <div2 type="section">
+                    <head type="sur">Troisiéme point.</head>
+                    <head type="main"><hi rend="i">Prévenir le mal qui peut arriver des
+                            Comedies.</hi></head>
+                    <p><hi rend="big">L</hi><hi rend="sc">es</hi> Comedies innocentes sont si rares,
+                        que les Peres ont condamné les Comedies sans distinction, non pas qu’ils ne
+                        sçeussent qu’on pouvoit en trouver quelques-unes d’innocentes, mais parce
+                        qu’ils sçavoient que la plus grande partie estoit contraire à la Religion,
+                        &amp; aux bonnes mœurs, &amp; <pb n="312" xml:id="p312"/>que le petit nombre
+                        de celles qui estoient innocentes ne pouvoit pas empescher qu’on ne peust
+                        dire que les Comedies ne valoient rien, &amp; le dire avec autant de verité,
+                        que le Prophete Roy dit de son temps qu’il n’y avoit personne qui observast
+                        la Loy de Dieu, parce que les personnes vertueuses estoient si rares, que le
+                        S. Esprit pouvoit se plaindre <note place="margin"><quote><p>Non est usque
+                                    ad unũ.</p><bibl><hi rend="i">Psal.</hi>
+                                    13.</bibl></quote><quote><p>Non est unum.</p><bibl><hi rend="i"
+                                        >Hebr.</hi></bibl></quote></note>qu’il n’y avoit point
+                        d’homme qui ne fust corrompu. C’est en ce sens qu’il faut expliquer les
+                        défenses generales de nos Peres.</p>
+                    <div3 type="section">
+                        <head><hi rend="i">Nos Peres ne permettoient point d’aller à la Comedie ;
+                                &amp; pourquoy.</hi></head>
+                        <p>Quelques-uns des Fideles ayant de la peine à se priver de ces
+                            divertissements demandoient aux Peres, en quel lieu de l’Escriture Dieu
+                            défend d’aller aux Comedies. Tertullien avouë qu’il n’y a point de lieu
+                            dans l’Escriture où la Comedie soit défenduë sous ce nom. Mais qu’elle
+                            est assez interdite par cet verset du premier Pseaume : Heureux celuy
+                            qui n’a pas cherché le conseil des impies, qui ne s’est point opiniâtré
+                            dans le chemin des pecheurs ; qui ne s’est point assis dans la chaire de
+                            pestilence. Ce sont les épiteres que le saint Esprit attribuë aux
+                            theatres, selon le sentiment de Tertullien, de saint Clement
+                            d’Alexandrie, &amp; de plusieurs autres Peres. Il n’est par consequent
+                            pas plus permis d’aller à la Comedie, que de demander de méchans
+                            conseils, que de suivre le mauvais exemple, que de le donner soy-mesme,
+                            que le donner des leçons du crime, que de le commander, estant sur un
+                            siege, qui est &amp; une chaire de Docteur, &amp; comme une espece de
+                            trône, parce qu’on n’y enseigne pas seulement à offenser Dieu, mais
+                            qu’il semble qu’on l’ordonne. Saint Jean Chrysostome ne pouvoit
+                            l’exprimer avec plus de force qu’en nommant ces assemblées des <note
+                                place="margin"><quote><p>Diabolica Concilia.</p><bibl><hi rend="i"
+                                            >Ho. 6. in Gen.</hi></bibl></quote></note>Conciles du
+                            Diable.</p>
+                        <p><pb n="313" xml:id="p313"/><note place="margin"><quote><bibl><hi rend="i"
+                                            >Tertull.</hi></bibl><p>Non invenimus exerte definitum,
+                                        non ibis in Circum, nec in theatrum, sed invenimus fœlix qui
+                                        non abiit in concilio impiorum. <hi rend="i"
+                                        >&amp;c.</hi></p></quote><quote><p>Non inconcinnè cathedram
+                                        pestilentiæ vocaverit, nam hic quoque celestum est concilium
+                                        adversus justum.</p><bibl><hi rend="i">Clemens Al. in hac
+                                            locum.</hi></bibl></quote><quote><p>Spectaculo omnes
+                                        laici prohibeantur ; semper enim hoc Christianis omnibus
+                                        interdictum.</p><bibl><hi rend="i">Cart.</hi> 3. <hi rend="i">c.</hi>
+                                        11.</bibl></quote><quote><p>Opus diaboli.</p><bibl>6.
+                                            <hi rend="i">de Guber.</hi></bibl></quote></note>Les
+                            Conciles de Dieu sont composez des Pasteurs qu’il a establis pour nous
+                            conduire au Ciel. Les Conciles du Diable sont des assemblées qui
+                            conspirent, &amp; qui agissent pour nous en détourner, &amp; pour nous
+                            perdre. Les Conciles de Dieu soustiennent la verité, reforment les
+                            mœurs, condamnent &amp; punissent les erreurs &amp; les vices. Les
+                            Conciles du Diable debitent le mensonge, corrompent l’innocence,
+                            entretiennent les extravagances &amp; les crimes.</p>
+                        <p>Les Conciles, qui défendent aux laïques d’aller aux Comedies, alleguent
+                            pour raison que ces divertissemens n’ont jamais esté permis aux
+                            Chrêtiens ; &amp; les Constitutions du Diocese de Milans ordonnent
+                            d’exhorter les Magistrats à faire démolir ces sorteresses du Demon,
+                            &amp; à bannir ceux qui l’aident à corrompre les mœurs dans ces
+                            Colleges, &amp; dans ces forts d’iniquité.</p>
+                        <p>Salvien nomme ces assemblées &amp; leurs suites l’ouvrage du Diable,
+                            parce que ce n’est qu’erreur, que peché, que corruption, &amp; que
+                            malheur.</p>
+                        <p>Les partisans de ces fortes de divertissemens répondoient à nos Peres. Hé
+                            quoy ! la Foy nous oblige donc à un divorce perpetuel avec les plaisirs
+                            de ce siecle ? Les Peres ne se connoissoient point à flatter cette
+                            passion, ils tranchoient nettement que la foy nous y oblige : que la
+                            profession de Chrestien engage à une imitation continuelle de <hi
+                                rend="sc">Jesus-Christ</hi> crucifié, à une participation constante
+                            de ses souffrances, &amp; de sa mort ; qu’il n’a promis que de la
+                            tristesse &amp; des travaux en cette vie à ceux que par cette
+                            communication de ses douleurs il prepare à <note place="margin"
+                                        ><quote><p>Mundus gaudebit, vos vero
+                                            contristabimini.</p><bibl><hi rend="i">Joan.</hi>
+                                        16.</bibl></quote></note>la joüissance du bonheur eternel
+                            dont il s’est acquis une partie en les souffrant.</p>
+                        <p><pb n="314" xml:id="p314"/>Tertullien explique ce passage par ces belles
+                            paroles : <note place="margin"><quote><p>Saginentur eiusmodi dulcibus
+                                        cõvivæ sui, nostræ cœnæ, nostræ nuptiæ nondum sunt, non
+                                        possumus discumbere cum illis, quia nec illi nobiscum.
+                                        Lugeamus dum gaudẽt, ut cum lugere cœperint, gaudeamus, ne
+                                        pariter nunc gaudentes, tunc pariter lugeamus.</p><bibl><hi
+                                            rend="i">Cap. </hi> 28. <hi rend="i">de
+                                        Spect.</hi></bibl></quote></note>Que les conviez du monde
+                            s’engraissent de ses douceurs, le temps de nos festins, &amp; de nos
+                            nopces n’est pas venu, nous ne pouvons nous mettre à table avec eux, non
+                            plus qu’eux avec nous ; pleurons lors qu’ils se réjoüissent, afin que
+                            nous nous réjoüissions quand ils commenceront à pleurer ; de peur que si
+                            nous nous réjoüissions à present avec eux, nous ne pleurions alors avec
+                            eux, &amp; qu’une société passagere de plaisir ne soit suivie d’une
+                            communauté eternelle de malheur.</p>
+                        <p>C’est du saint Esprit, que Tertullien &amp; tous les Peres tiennent cette
+                            réponse. <note place="margin"><quote><p>Extrema gaudii luctus
+                                        occupat.</p><bibl><hi rend="i"
+                                >Prov.</hi> 4.</bibl></quote></note>La fin du plaisir est le
+                            commencement de la douleur, la glose ajoûte, eternelle. Le déplaisir
+                            eternel succede aux derniers momens des joyes du monde.</p>
+                        <p>Mais le moyen, dira quelqu’un, de vivre sans plaisir ? <note
+                                place="margin"><quote><p>Luctus perpetuus.</p><p>Dicas velim non
+                                        possum vivere sine voluptate, qui mori cũ voluptate
+                                        debeamus. Quæ major voluptas, quam fastidium voluptatis,
+                                        quam conscientia integra, mortis metus nullus ? Hæ
+                                        voluptates Christianorum. Hæc spectacula Sancta, perpetua,
+                                        gratuita.</p><bibl><hi rend="i">c.</hi> 28 <hi rend="i"
+                                            >&amp;</hi> 29.</bibl></quote></note>Vous dites, c’est
+                            la replique de Tertullien, que vous ne pouvez pas vivre sans plaisir,
+                            vous qui devez mourir avec satisfaction. Mais quelles delices plus
+                            agreables que le mépris mesme des delices, que la pureté de la
+                            conscience, que l’affranchissement des frayeurs de la mort ? ce sont les
+                            satisfactions du Chretien, ce sont des spectacles saints, perpetuels
+                            &amp; gratuits.</p>
+                        <p>Les plaisirs du monde sont des perfides. S’ils estoient de vrais
+                            plaisirs, nous causeroient-ils tant de chagrins secrets ; nous
+                            causeroient-ils ces peines que nous avons à nous souffrir nous-mesmes,
+                            ces méchantes humeurs qui nous rendent insupportables aux autres, cette
+                            necessité indispensable d’estre purifiez par les rigueurs de la
+                            penitence, ou d’estre condamnez à des peines eternelles ?</p>
+                        <p>Les plaisirs du Chrestien sont des plaisirs <pb n="315" xml:id="p315"
+                            />sinceres, des plaisirs agreables &amp; seconds, des plaisirs presens,
+                                <note place="margin"><quote><p>Veras &amp; profuturas voluptates
+                                        habet Christianus.</p><bibl><hi rend="i">Cypr. de
+                                            spect.</hi></bibl></quote></note>mais qui en produisent
+                            d’eternels, plus charmans sans comparaison que tout ce qui peut estre,
+                            que tout ce que nous pouvons nous imaginer de plus agreable sur la
+                            terre.</p>
+                        <p><note place="margin"><quote><p>Cur tam in gratus es, ut tot, &amp; tales
+                                        voluptates a Deo contributas non satis habeas, neque
+                                        recognoscas ?</p><bibl>29. <hi rend="i">de spect.
+                                        Tert.</hi></bibl></quote></note>Mais pourquoy serons-nous
+                            assez ingrats pour ne nous pas contenter de cette multitude surprenante,
+                            &amp; presque iufinie de plaisirs que Dieu prodigue &amp; à nos sens
+                            &amp; à nostre esprit, &amp; pour ne pas rendre aumoins à ce
+                            bien-faicteur la reconnoissance dont nous sommes capables ?</p>
+                        <p>Quelque raison que nous alleguions, on nous demande des Comedies, on ne
+                            peut se resoudre de signer la condamnation des divertissemens que des
+                            personnes de sçavoir &amp; de pieté font donner quelquefois au public
+                            dans les maisons les plus fameuses, où on éleve la jeunesse aux lettres
+                            &amp; aux vertus. Si tous les theatres estoient dressez avec les
+                            intentions, conduits par les soins, &amp; avec les precautions de ces
+                            hommes également scavans &amp; vertueux, il n’y auroit point de censure
+                            à craindre ; mais la difference de ces Comedies, &amp; de la pluspart de
+                            celles qu’on represente dans le monde, est si evidente, qu’on ne peut
+                            les traiter de la mesme maniere, que par la plus injuste &amp; la plus
+                            dangereuse des confusions. Quelle mesure donc dans un débordement si
+                            agreable, si commun, &amp; si authorisé ? Les Payens mesmes nous l’ont
+                            appris, &amp; nous ne pouvons pas nous excuser, si nous ne suivons leur
+                            exemple dans un sujet dont nous ne pouvons pas ignorer l’importance.</p>
+                    </div3>
+                    <div3 type="section">
+                        <head>I. <hi rend="sc">Raison</hi>. <hi rend="i">Zele des Payens, &amp; de
+                                quelques heretiques.</hi></head>
+                        <p>Un Caton, un Scipion, plusieurs autres Magistrats Romains, ne vouloient
+                            pas souffrir qu’on bâtist des theatres, parce qu’ils les consideroient
+                                <pb n="316" xml:id="p316"/>comme des machines dressées contre
+                            l’honesteté publique, comme des orages qui s’élevoient contre la pureté
+                            des mœurs, comme des sources impures qui s’ouvroient pour corrompre les
+                            yeux, les oreilles, les esprits, &amp; les cœurs du premier peuple de
+                            l’univers. <note place="margin"><quote><p>Sæpe censores nascentia
+                                        destruebant, moribus cõsulentes.</p><bibl>10. <hi rend="i"
+                                            >de Spect Tert. Aug.</hi> 1. <hi rend="i">de Civ.
+                                            c.</hi> 33. <hi rend="i">Sidon. Apol. lib.</hi> 3. <hi
+                                            rend="i"
+                            >Epist.</hi> 13.</bibl></quote></note>Quelques-uns firent démolir ce que
+                            leurs predecesseurs avoient fait bâtir, pour donner ce plaisir à un
+                            peuple qui aimoit son divertissement preferablement à la vertu.</p>
+                        <p>La corruption du peuple l’ayant emporté sur la resistance des plus sages
+                            Magistrats, Pompée se trouvant engagé par une complaisance ambitieuse à
+                            bâtir un theatre, fit edifier un temple à Venus au dessus de ce lieu
+                            nommé par Tertullien<note place="margin"><quote><p>Impudicitiæ consortium, ubi
+                                nihil probatur, nisi quod alibi non probatur.</p><bibl>17. <hi rend="i">de
+                                    Spect. Tert. &amp; c.</hi> 10.</bibl></quote><quote><p>Arcem turpitudinum, veritus
+                                        memoriæ suæ censoriam animadversionem. Veneris ædem superposuit :
+                                damnatum, est damnandum opus ; templi titulo, &amp; disciplinã
+                                superstitione delusit.</p></quote></note> un Consistoire d’impudicité, où l’on
+                            n’approuve rien que ce qu’on blâme ailleurs. Pompée craignoit que son
+                            nom ne fust noté d’une marque eternelle d’infamie, &amp; il fit
+                            construire ce temple afin de consacrer la honte &amp; le crime d’un
+                            ouvrage digne de la condamnation de tous les siecles, afin de se mocquer
+                            de la discipline par ce titre, &amp; par cette apparence de religion. Il
+                            se croyoit à l’abry des censures du ciel &amp; de la terre sous ce voile
+                            de pieté ; il s’estimoit à couvert de l’indignation du Ciel sous le
+                            sanctuaire d’une Déesse prostituée à tout ce qu’on pouvoir representer
+                            d’impur sur le theatre, se garentir des reproches de la terre par le
+                            temple d’une Déesse qui authorisoit par sa conduite &amp; par sa
+                            complaisance tout ce qu’on pouvoit representer de plus infame dans cet
+                            abominable lieu. Cet edifice sembloit dire au Ciel, qu’il ne pouvoit
+                            condamner la representation des vices qu’il couronnoit dans une de ses
+                            Déesses les plus considerées ; il sembloit dire aux plus sages du Senat,
+                            &amp; de toute la terre, <pb n="317"/>qu’ils ne pouvoient censurer sans
+                            injustice, sans inégalité, sans quelque espece d’impieté, la
+                            representation de ce qu’ils reveroient dans une de leurs plus puissantes
+                            divinitez qu’ils reconnoissoient pour l’origine, &amp; pour la plus
+                            favorable protectrice de l’Empire.</p>
+                        <p>L’honesteté publique ne pouvant plus supporter ces infamies que les loix
+                            precedentes n’avoient pû abolir, les Empereurs Payens établirent des
+                            Prefets du plaisir, ou plutost détacherent cette partie la plus negligée
+                            de l’office des Ediles ; &amp; ces Prefets estoient chargez du soin
+                            d’examiner &amp; de corriger les Pieces de theatre, d’interdire ou de
+                            reformer celles qui pouvoient blesser l’innocence &amp; l’honesteté
+                                publique. <note place="margin"><bibl>Suetonius. <hi rend="i">Cap. </hi> 42.
+                                    <hi rend="i">v. Tib.</hi></bibl></note>L’Empereur Tybere, quoy
+                            qu’assez déreglé &amp; assez inconstant, fit observer ce reglement avec
+                            fermeté. Les Empereurs plus moderez, &amp; plus retenus que luy, ne
+                            furent pas moins exacts à maintenir &amp; à faire garder cette
+                            Ordonnance. L’Empereur Theodose estoit trop Chrestien pour dégenerer de
+                            la vigilance &amp; des soins de ses predecesseurs ou Payens, ou
+                            Chrestiens. Le Roy Theodoric, quoy qu’infecté de l’heresie Arienne,
+                            auroit crû deshonorer le nom de Chrêtien, s’il avoit eu moins de zele
+                            pour la pudeur &amp; pour l’integrité, que quelques-uns des Empereurs
+                            Payens.</p>
+                        <p>Il renouvelle leurs Ordonnances, il commet à des personnes de sçavoir, de
+                            pieté, d’autorité, le soin de revoir, d’approuver, de défendre, de
+                            corriger les Pieces qui devoient paroistre sur les theatres. Son
+                            illustre Secretaire Cassiodore l’exprime avec ces termes dans les
+                            lettres qu’il donna de la part de ce Prince pour le rétablissement de
+                            cette charge.</p>
+                        <p><pb n="318" xml:id="p318"/><note place="margin"><quote><p>Dignum fuit moderatorem
+                                suscipere, qui se nesciunt juridicâ moderatione tractare. Locus tuus
+                                his gregibus hominum veluti quidam tutor est positus, ne quod ad
+                                lætitiam constat in ventum, ad culpas videatur fuisse transmissum.
+                                Honestus imperet inhonestis.</p><bibl><hi rend="i">&amp;c. lib.</hi> 7.
+                                    <hi rend="i">Epist.</hi> 10.</bibl></quote></note>La raison veut que ceux qui ne sçavent
+                            pas se conduire avec la moderation prescrite par les loix, soient
+                            gouvernez eux-mesmes par un homme qui puisse les moderer. La dignité où
+                            je vous éleve est comme une tutrice que j’establis pour conduire ceux
+                            qui s’égarent souvent, afin que ce qui a esté inventé pour recréer le
+                            peuple, ne semble pas avoir esté permis pour le corrompre, &amp; que
+                            l’honeste homme ait le pouvoir de commander à ceux qui s’émancipent
+                            d’ordinaire des loix de l’honesteté. Ne souffrez point que les Comediens
+                            inspirent au public ce que vous ne pouvez supporter dans vos personnes,
+                            ny qu’ils s’efforcent de ruïner ce que vous estimez avec le plus de
+                            raison &amp; de justice.</p>
+                    </div3>
+                    <div3 type="section">
+                        <head>II. <hi rend="sc">Raison</hi>. <hi rend="i">Facilité de ses
+                                précautions.</hi></head>
+                        <p>Je ne vois pas que ces precautions soient plus difficiles en ce siecle,
+                            que dans celuy de ces grands Princes, &amp; qu’un Monarque qui les
+                            surpasse en tant d’avantages extraordinaires, ne les imitast dans le
+                            soin de l’innocence publique, si ce qui la blesse avoit l’insolence de
+                            paroistre devant sa Majesté, &amp; si elle estoit informée de ces
+                            desordres ; ce soin ne causeroit pas plus de peines aux Magistrats, que
+                            celuy que les loix leur donnent de l’impression des Livres qui traitent
+                            des choses les plus saintes.</p>
+                        <p><note place="margin"><bibl><hi rend="i">Lact. sub Leo.</hi> 10. <hi rend="i">sess</hi> 10. <hi rend="i">de
+                                    Imp.</hi></bibl></note>Le Concile de Latran défend d’imprimer les
+                            Livres qui traitent des choses saintes, s’ils ne sont examinez &amp;
+                            approuvez par les ordinaires, ou par leurs deputez, il excommunie &amp;
+                            les Auteurs &amp; les Imprimeurs qui entreprennent, ceux mesmes qui
+                            debitent &amp; qui lisent les Livres qui ne sont pas approuvez. Le
+                            Concile de Trente renouvelle cette Ordonnance dans la Session 4. où il
+                            traite de l’edition &amp; de l’usage des Livres sacrez. Les Magistrats y
+                            tiennent la main, ils sont observer cette <pb n="319" xml:id="p319"
+                            />Ordonnance, quoy que les Auteurs ne puissent estre suspects que ce
+                            soit saint Augustin, que ce soit mesme l’Escriture sainte, parce que les
+                            Heretiques y peuvent avoir inseré quelque erreur, qu’ils peuvent en
+                            avoir retranché quelque verité, qu’il s’y est peut-estre glissé quelque
+                            faute par la negligence des editions precedentes. L’Auteur est
+                            peut-estre vivant, reconnu de toute la terre pour Saint, pour
+                            orthodoxe ; ses ouvrages precedens ne respirent, &amp; ne sont capables
+                            d’inspirer que la plus saine doctrine, &amp; que la plus pure pieté.
+                            Mais qui répondra qu’il ne luy soit échappé quelque faute, &amp; qu’il
+                            ne se soit laissé aveugler par l’amour des productions de son esprit ?
+                            Il n’y a point de privilege, point d’exemption ; il est défendu
+                            d’imprimer aucun de ces Livres qui n’ait passé par la censure, qui ne
+                            soit autorisé par une legitime approbation ; &amp; les Magistrats font
+                            observer ces Decrets de l’Eglise leur Mere ; ils punissent par
+                            confiscations &amp; par amendes ceux qui contreviennent à ses
+                            ordres.</p>
+                        <p>Les Pieces de theatre n’approchent pas du nombre de ces Livres, les
+                            Pieces de theatre sont courtes en comparaison de la plus grande partie
+                            de ces Livres ; les Pieces de theatre ne demandent pas une application
+                            si forte &amp; si génante que ces Livres, elles sont plus dangereuses
+                            que les méchans Livres ; leur representation agit souvent avec plus de
+                            force sur le cœur, que le sujet mesme ne le pourroit faire, parce que
+                            l’artifice donne des perfections à la copie, qui ne se rencontrent pas
+                            toujours dans l’original.</p>
+                        <p>Il n’y a point de raison qui doive détourner les Magistrats d’ordonner
+                            que ces Pieces seront examinées, point de raison qui doive les détourner
+                            de <pb n="320" xml:id="p320"/>défendre qu’on les jouë, &amp; qu’on les
+                            imprime avant cet examen. L’Auteur est un homme de probité. Est-il plus
+                            ortodoxe &amp; plus saint que les Peres de l’Eglise dont les Conciles
+                            ordonnent de revoir &amp; de confronter les ouvrages ? L’Auteur ne
+                            traite le sujet que par divertissement. Les Peres ne nous apprennent-ils
+                            pas que le poison est plus dangereux &amp; plus redoutable, quand il est
+                            mêlé avec le plaisir qui le déguise, &amp; qui en oste la défiance ?</p>
+                        <p>Par quelle raison donc les exempter de l’examen ? Sera-ce à cause de
+                            l’innocence du sujet ? On n’en peut pas estre assuré sans l’avoir leu ;
+                            à cause de la maniere de la composition ? Les vers penetrent plus dans
+                            l’esprit que la prose. Nous fierons-nous à la probité des auditeurs ?
+                            Nous n’en pouvons pas juger à leur avantage, s’ils s’exposent sans
+                            consideration à la representation d’une Piece inconnuë. Ce ne peut estre
+                            qu’une inadvertance, &amp; je n’en voudrois pas accuser une negligence
+                            &amp; une facilité, que la probité &amp; la bien-seance n’ont pas
+                            permises aux Magistrats heretiques ou payens.</p>
+                    </div3>
+                    <div3 type="section">
+                        <head>III. <hi rend="sc">Raison</hi>. <hi rend="i">Zele des Magistrats pour
+                                des choses de moindre consequence.</hi></head>
+                        <p>Les Magistrats défendent de joüer la Comedie dans le temps des Offices
+                            divins, ils ne souffrent pas qu’on joüe les jours de Feste, qu’aprés que
+                            le divin Service est achevé.</p>
+                        <p>Que ce zele est loüable, mais que n’est-il égal. On craint &amp; avec
+                            raison de détourner les fidelles d’une bonne action, quoy que plusieurs
+                            raisons permettent aux fidelles de s’en dispenser quelque-fois. On
+                            n’apprehende point que la Comedie ne les débauche de la fidelité qu’ils
+                            doivent à Dieu, qu’elle ne les souleve contre ses ordres, qu’elle
+                            n’inspire aux peuples l’impudicité, la vengeance, l’impieté, les autres
+                            crimes, &amp; qu’ils ne desobeïssent à des <pb n="321" xml:id="p321"
+                            />défenses qu’il n’est jamais permis de violer. Puissances du monde
+                            oubliez-vous vostre zele, ne vous souvenez-vous plus de vostre pieté ?
+                            Ne croyez-vous pas, ne craignez-vous pas que Dieu soit plus offensé par
+                            des desobeïssances formelles à ses commandemens, que par le danger de
+                            violer une des loix, ou de ne pas observer un des conseils de son
+                            Eglise ?</p>
+                        <p>Non, Messieurs, non, Dieu n’est pas seulement offensé par les crimes que
+                            le theatre inspire quelquefois ; on l’offense en effet quand on vient à
+                            la Comedie, sans sçavoir si la Piece qu’on doit joüer est innocente ou
+                            criminelle, ou mesme dangereuse, &amp; on ne peut pas exposer sa
+                            conscience &amp; son salut à ce hazard, sans offenser celuy qui nous
+                            défend une indiscretion si contraire à la crainte que nous devons avoir
+                            de luy déplaire, &amp; de le perdre.</p>
+                        <p><note place="margin"><bibl><hi rend="i">Theod. &amp; Valent. in l. consensu</hi> 8.
+                                    5. <hi rend="i">vir quoq. de repudiato.</hi></bibl></note>Les Romains permettoient
+                            aux maris de repudier leurs femmes quand elles avoient esté au theatre à
+                            leur insçû. Ils avoient raison de juger qu’elles n’estoient pas assez
+                            chastes, quand elles ne craignoient pas de voir &amp; d’entendre ce qui
+                            estoit capable de les corrompre.</p>
+                        <p>Dieu est trop pur, Dieu aime trop la chasteté, &amp; toutes les vertus,
+                            pour ne se pas separer d’avec une ame, qui ne considere ny les ordres,
+                            ny la satisfaction de son divin Espoux, puisqu’elle ne craint ny de luy
+                            desobeïr, ny d’estre répudiée. Il n’est que trop offensé par ce mépris,
+                            &amp; par le peu d’estime qu’elle fait du plaisir, de l’amour, &amp; de
+                            la possession de ce divin Espoux.</p>
+                        <p>Messieurs, si les Comedies offensoient la majesté du Prince, si elles
+                            estoient assez insolentes pour décrier sa personne, &amp; sa conduite,
+                            assez <pb n="322" xml:id="p322"/>temeraires pour exciter les peuples à
+                            la revolte, vous concevriez de justes indignations contre ces
+                            attentats : Vous puniriez les Auteurs &amp; les Acteurs ; &amp; vous ne
+                            laisseriez pas mesme l’assemblée impunie, si elle avoit applaudy à cette
+                            profanation de la majesté du Prince, &amp; à ces soûlevemens du peuple.
+                            Personne ne doute que vous n’employassiez tout vostre zele, &amp; toute
+                            vostre autorité pour reprimer, pour châtier une audace si impie, &amp;
+                            pour vanger l’outrage fait à une Majesté que vous défendriez, s’il
+                            estoit necessaire, aux dépens de vos biens, de vostre sang, &amp; de
+                            vostre vie.</p>
+                    </div3>
+                    <div3 type="section">
+                        <head><hi rend="sc">Conclusion du Discours</hi>.</head>
+                        <p>Vous reconnoissez sans doute un Dieu pour vôtre Souverain ; vous ne
+                            doutez point que la majesté des Rois ne soit un rayon &amp; une
+                            dépendence de cette souveraineté infinie de qui le neant mesme reçoit,
+                            respecte, &amp; accomplit les ordres. Vous sçavez avec quelle insolence
+                            Dieu est tres-souvent outragé par plusieurs Comedies : Vous sçavez avec
+                            quelle audace, &amp; avec quel malheureux succés plusieurs de ces Pieces
+                            travaillent pour soûlever son peuple. Vous sçavez que ces revoltes sont
+                            en partie les sources des calamitez qui affligent les familles, qui
+                            desolent les Estats, &amp; qu’il n’y a rien de plus odieux à Dieu, &amp;
+                            de plus pernicieux aux hommes que les pechez publics. Armez tout vostre
+                            zele pour arrester, &amp; pour prévenir des attentats si criminels &amp;
+                            si funestes. Considerez ce que vous devez au souverain des Rois qui vous
+                            a honorez d’une partie de son autorité, afin que vous en usiez pour sa
+                            défense, pour sa sureté, pour le bien de son peuple. Considerez ce que
+                            vous devez à l’innocence, à l’honneur, à la conservation de l’Estat,
+                            &amp; que vous ne pouvez vous exempter de ces soins sans <pb n="323"
+                                xml:id="p323"/>manquer à une des principales obligations dont la
+                            Providence divine vous a chargez en vous donnant la conduite des
+                            peuples.</p>
+                        <p>Les Empereurs Payens s’éleveront au jour épouvantable du Jugement contre
+                            les Magistrats qui n’agissent pas en cecy avec ce qu’ils doivent de
+                            vigilance &amp; de courage.</p>
+                        <p>Nous ne sçavions-pas que les vertus estoient si considerées de Dieu ;
+                            nous ne sçavions pas que l’innocence estoit la production du sang &amp;
+                            du cœur d’un Dieu incarné, &amp; qu’elle deust regner avec luy dans le
+                            Ciel, aprés luy avoir rendu des services si agreables sur la terre. La
+                            seule consideration de l’honesteté publique nous a portez à corriger
+                            &amp; à prévenir la corruption &amp; l’infamie que les Comedies peuvent
+                            causer à l’Estat. Avec quel zele, avec quel soin, n’eussions-nous pas
+                            travaillé à la reforme, &amp; au reglement de ces desordres, si nous
+                            eussions esté instruits comme vous du respect que Dieu merite, &amp; de
+                            la consideration qui est deuë à l’innocence.</p>
+                        <p>Ne cedez point en zele, Messieurs, à ceux que vous surmontez en religion
+                            &amp; en vertu. Vous estes plus redevables à un Dieu de qui vous avez
+                            reçû plus de lumiere, autant d’autorité, &amp; dont vous avez beaucoup
+                            plus à esperer, &amp; à craindre ; que la connoissance, que les
+                            commandemens, que les bienfaits, j’ay peine d’ajoûter que les promesses,
+                            que les menaces d’un Dieu si digne d’estre servy pour le seul honneur de
+                            luy plaire, obtiennent de vous les soins &amp; les reglemens que la
+                            seule raison a obtenu des Payens. Rendez à la reputation de l’Estat, à
+                            la vostre, à la prosperité, au salut des peuples, à vostre prosperité, à
+                            vostre salut, à la <pb n="324" xml:id="p324"/>satisfaction, à la gloire
+                            de Dieu, ce que plusieurs Payens n’ont pû refuser à la seule honesteré
+                            publique.</p>
+                        <p>Que le nom de Catholique ne soit pas moins puissant sur vos esprits, que
+                            celuy de Chrestien l’a esté sur l’esprit de Théodoric, &amp; de
+                            plusieurs autres Princes heretiques. Et puisque vous avez l’avantage
+                            d’estre les enfans de l’Eglise, n’ayez pas moins de respect pour un Dieu
+                            qui est son Espoux, &amp; vostre Pere : n’ayez pas moins de charité pour
+                            les Fidelles qui sont leurs enfans, &amp; vos freres.</p>
+                        <p>Je ne suis que l’écho d’un des plus laborieux, &amp; des plus illustres
+                            Jurisconsultes de ce siecle, c’est le sçavant Petrus Gregorius. Ce grand
+                            homme aprés avoir representé les desordres qui naissent des Comedies,
+                            rapporté les sentimens des Conciles &amp; des Peres sur cet important
+                            sujet, écry avec tout ce qu’il a pû de force contre ces débauches
+                            publiques, dit qu’il ne faut pas l’accuser de sortir de ses limites,
+                            &amp; d’entreprendre sur les fonctions des Pasteurs, &amp; des
+                            Predicateurs, parce que la reforme de ces abus est un devoir commun à
+                            ceux que la Providence a établis pour gouverner les ames, &amp; pour
+                            aider à la conduite des Estats.</p>
+                        <p><note place="margin"><quote><p>Agnoscant Magistratus è republica esse ista tolli.
+                                Otia stabiliunt, infinita delicta inseminant, &amp; quod valde
+                                deflendum, cultum divinũ minuunt, &amp; tollunt.</p><bibl><hi rend="i">Lib.</hi>
+                                    39. <hi rend="i">c.</hi> 5. <hi rend="i">Synt. juris.</hi></bibl></quote></note>Que les
+                            Magistrats sçachent, ce sont les termes de ce fameux écrivain, que ces
+                            précautions sont necessaires à l’Estat, que ces abus ne peuvent
+                            subsister sans fomenter l’oisiveté, sans multiplier les crimes. Et ce
+                            qui est tres-digne d’estre déploré, sans diminuer notablement le culte
+                            divin, sans l’empescher. Nous pouvons ajoûter que les Puissances ne
+                            peuvent les souffrir sans desobeïr à Dieu, sans éloigner ses graces,
+                            sans manquer à l’Estat, sans <pb n="325" xml:id="p325"/>se rendre
+                            responsables à Dieu de ses propres outrages, du deshonneur &amp; de la
+                            corruption de l’Estat, &amp; des malheurs qu’on a sujet d’en
+                            craindre.</p>
+                        <p>Que je serois heureux si ce Discours arrivoit jusqu’aux personnes
+                            capables d’apporter quelque ordre à ces abus, ou par leur autorité, ou
+                            par leurs remontrances. Que je serois heureux, si je contribuois par ce
+                            Discours à une reforme, &amp; à un établissement, pour qui je
+                            n’épargnerois pas mon propre sang.</p>
+                        <p>Plusieurs Comediens m’ont témoigné bien de la passion pour cét
+                            établissement : ce qu’ils entendent dire dans les chaires contre leur
+                            profession, &amp; les difficultez que l’on fait de les absoudre leur
+                            donnent un juste sujet de s’étonner de ce que les Puissances de
+                            l’Eglise, &amp; du monde ne conviennent pas pour un établissement aussi
+                            necessaire à leur salut, qu’à celuy des Acteurs, &amp; du peuple, &amp;
+                            qu’au bien public dont elles sont responsables.</p>
+                        <p>Il n’est pas plus difficile d’établir pour ce sujet des Censeurs en ce
+                            siecle, qu’il ne l’a esté dans les siecles des Payens, &amp; des
+                            Heretiques. Ce siecle qui surpasse les precedens dans la Religion, &amp;
+                            dans les armes, qui triomphe des ennemis de l’Eglise, &amp; de l’Estat
+                            avec un succés si glorieux, égaleroit sans peine les precedens par un
+                            établissement si raisonnable, si chrestien, si avantageux, si
+                            necessaire, &amp; si aisé. Ce seroit aux siecles futurs à prendre le
+                            soin de l’entretenir ; ce seroit nostre gloire &amp; nostre bonheur,
+                            comme nostre devoir de le faire.</p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
