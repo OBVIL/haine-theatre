@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Spectacles [article du Dictionnaire des sciences ecclésiastiques]</title>
+                <author key="Richard, Charles-Louis (1711-1794)"
+                    ref="https://data.bnf.fr/fr/12043818/charles-louis_richard/">Charles-Louis
+                    Richard</author>
+                <author key="Giraud, Jean-Joseph (1720-17..)"
+                    ref="https://data.bnf.fr/fr/17063666/jean-joseph_giraud/">Jean-Joseph
+                    Giraud</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/richard-et-giraud_spectacles_1772</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Charles-Louis Richard et Jean-Joseph Giraud, « Spectacles », in <hi rend="i"
+                        >Dictionnaire universel, dogmatique, canonique, historique, géographique et
+                        chronologique, des sciences ecclésiastiques […]. Par le R. P. Richard, et
+                        autres Religieux Dominicains des Couvents du Fauxbourg Saint-Germain, et de
+                        la rue Saint-Honoré</hi>, <pubPlace>Paris</pubPlace>, <publisher>Jacques
+                        Rollin</publisher>, <publisher>Charles-Antoine Jombert</publisher>,
+                        <publisher>Jean-Baptiste-Claude Bauche</publisher>, <date>1772</date>,
+                    tome V, p. 150-153. PDF : <ref
+                        target="http://books.google.fr/books?id=eNRoLCr8utkC">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1772"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="article">
+                <pb n="150" xml:id="p150"/>
+                <head>Spectacles.</head>
+                <p>Dans l’usage ordinaire, on entend par le mot de <hi rend="i">spectacles</hi> tous
+                    les divertissemens que l’on donne au public, &amp; plus particulierement les
+                    représentations du théâtre, opéra, comédie, tragédie, tragi-comédie, pastorale,
+                    ballets, &amp;c. Quelques-uns attribuent l’origine des spectacles à la politique
+                    des Grecs, qui les inventerent, disent-ils, pour amuser les gens oisifs, &amp;
+                    les empêcher de former des cabales contre l’état. D’autres prétendent que les
+                    spectacles doivent leur origine à la lie du paganisme, &amp; que la premiere
+                    comédie commença par des danses &amp; des chansons, qui se faisoient dans
+                    Icarie, bourg d’Athenes, autour d’un bouc qu’Icare avoit tué dans une vigne de
+                    Bacchus, dont il gâtoit les fruits. Quoi qu’il en soit, le but, le propre objet
+                    des spectacles, n’est autre que d’exciter, de nourrir &amp; d’enflammer les
+                    passions, l’orgueil, l’ambition, la haine, la colere, la vengeance, &amp;
+                    sur-tout l’amour profane qui paroît sur le théâtre comme une noble foiblesse,
+                    &amp; avec tous les agrémens les plus capables de l’inspirer. Sur le théâtre
+                    paroissent encore des Acteurs &amp; des Actrices, dont tout l’art consiste à
+                    transporter aux spectateurs les mouvemens vicieux qu’ils éprouvent, par des
+                    discours séduisans, une musique lascive, des chants mous &amp; efféminés à la
+                    louange des Dieux &amp; des demi-Dieux des Payens, des gestes expressifs, des
+                    peintures naïves, des portraits parlans &amp; animés, des parures riches,
+                    pompeuses, immodestes &amp; plus ou moins indécentes, suivant que l’exige la
+                    scene. Voilà ce qui se voit sur le théâtre, &amp; ce qui l’a fait condamner
+                    comme une source de mille désordres, non-seulement par les Conciles &amp; les
+                    Peres de l’Eglise, mais aussi par les Payens, &amp; par ses propres partisans
+                    revenus à eux-mêmes.</p>
+                <p>L’an 400, après la fondation de Rome, les Censeurs ayant proposé au Sénat de
+                    faire construire un théâtre de pierre, le grand Scipion représenta que les
+                    spectacles corromproient infailliblement les Romains ; &amp; sur sa remontrance
+                    qui ne se vérifia que trop dans la suite, le Sénat fit vendre aussi-tôt les
+                    matériaux préparés pour la construction du théâtre.</p>
+                <p>Ovide, dans sa fameuse apologie adressée à l’Empereur Auguste, avoue que les jeux
+                    sont des semences de corruption, &amp; il exhorte ce Prince à supprimer les
+                    théâtres. <quote><hi rend="i">Ut tamen hoc fatear : ludi quoque semina prabeant
+                            nequitia : tolli tota theatra jube.</hi></quote> Trist. <hi rend="i"
+                        >l.</hi> 2.</p>
+                <p>Seneque, <hi rend="i">epist.</hi> 7, soutient que rien n’est plus contraire aux
+                    bonnes mœurs que d’assister à quelque spectacle ; que l’ame s’y trouvant séduite
+                    par le plaisir, reçoit aisément les méchantes impressions du vice ; &amp; tout
+                    Stoïcien qu’il étoit, il avoue qu’il en sortoit plus avare, plus ambitieux, plus
+                    porté au <pb n="151" xml:id="p151"/>plaisir &amp; au luxe. <quote><hi rend="i"
+                            >Nihil verò tàm damnosum quàm in aliquo spectaculo desidere : tunc enim
+                            per voluptatem faciliùs vitia surrepunt. Quid me existimas dicere ?
+                            avarior redeo, ambitiosior, luxuriosior.</hi></quote></p>
+                <p>Tacite, rapporte dans ses annales, <hi rend="i">liv.</hi> 4, <hi rend="i"
+                        >ch.</hi> 8, les plaintes que faisoient les plus sages d’entre les Romains,
+                    lorsqu’on alla chercher en Grece des Comédiens pour les amener à Rome.
+                            <quote><hi rend="i">On va achever de ruiner</hi><seg type="exquote">,
+                            disoient-ils,</seg>
+                        <hi rend="i">ce qui nous reste encore des bonnes mœurs de nos ancêtres, qui
+                            sont si fort altérées.</hi></quote></p>
+                <p>Solon, ce célebre Législateur d’Athenes, s’opposa à l’établissement des
+                    spectacles, en disant que si on les toléroit, on les verroit bientôt contredire
+                    les loix &amp; corrompre les mœurs ; &amp; Plutarque attribue la corruption
+                    &amp; la perte de cette république à sa fureur pour les spectacles. Ils
+                    n’étoient point soufferts à Lacédémone, &amp; ils ne le sont point encore
+                    aujourd’hui à Geneve ; les Comédiens qui oseroient s’y établir, en seroient
+                    chassés comme des corrupteurs. Tacite assigne l’opposition des Germains pour les
+                    spectacles, comme l’une des causes de la pureté de leurs mœurs : <quote><hi
+                            rend="i">nullis spectaculorum illecebris corrupti</hi></quote>. Tacite,
+                        <hi rend="i">lib. de more German.</hi></p>
+                <p>L’illustre Prince de Conti, M. le Duc de la Rochefoucault, Bussy-Rabutin, la
+                    Bruyere, Racine, &amp; beaucoup d’autres qui en avoient fait l’expérience, ont
+                    tous écrit que les spectacles sont dangereux, séduisans, corrupteurs, &amp;
+                    qu’il est impossible d’aimer la comédie &amp; l’opéra, si on n’a jamais eu
+                    d’amour ni d’autre passion. Le fameux Riccoboni, qui avoit monté cinquante ans
+                    sur le théâtre, le regardoit comme l’école des mauvaises mœurs &amp; de la
+                    corruption, &amp; ne pouvoit s’empêcher d’avouer que rien ne seroit plus utile
+                    que la suppression entiere des spectacles.</p>
+                <p>Mais, dit-on, l’Ecriture ne défend point les spectacles. Les saints Peres ne les
+                    condamnent que par rapport à l’idolâtrie, aux superstitions &amp; aux impuretés
+                    grossieres qui y régnoient de leur tems. Le théâtre moderne est pur &amp;
+                    modeste. Il est même une école de vertu, dont on fait l’éloge avec la censure du
+                    vice. On va aux spectacles sans mauvais dessein, &amp; sans mauvais effet. Les
+                    puissances ecclésiastiques &amp; séculieres permettent les spectacles. Ils sont
+                    permis surtout en Espagne &amp; en Italie, de l’aveu &amp; sous les yeux des
+                    souverains Pontifes. Telles sont les frivoles raisons qu’on allegue communément
+                    pour justifier les spectacles.</p>
+                <p><hi rend="i">L’Ecriture</hi>, dit-on, <hi rend="i">ne défend point les
+                        spectacles.</hi> Il est vrai que l’Ecriture ne condamne point formellement
+                        <hi rend="i">la comédie, l’opéra</hi>, ni les autres semblables spectacles,
+                    parce qu’elle ne les nomme point expressément. Mais l’on peut dire avec vérité
+                    que l’Ecriture toute entiere est une condamnation implicite &amp; continuelle
+                    des spectacles, puisqu’elle condamne jusqu’à un geste, un clin-d’œil, une parole
+                    inutile, &amp; qu’elle ne parle par-tout que de gêne, de contrainte, de
+                    violence, de renoncement au monde &amp; à toutes les choses du monde, de
+                    sacrifices, de pénitence, de mort à soi-même, de modestie, de recueillement, de
+                    retraite, de silence, de suite des occasions du péché &amp; des passions. Quoi
+                    donc ! l’Apôtre saint Jean, <hi rend="i">ép.</hi> 1, <hi rend="i">ch.</hi> 11,
+                        <hi rend="i">v.</hi> 15 &amp; 16, ne condamne-t-il pas les vains plaisirs du
+                    théâtre, lorsqu’il défend aux Chrétiens l’amour du monde comme incompatible avec
+                    celui de Dieu ; parce que tout ce qu’il y a dans le monde n’est que
+                    concupiscence de la chair, concupiscence des yeux, &amp; orgueil de la vie ? où
+                    voit-on cette triple concupiscence plus triomphante qu’au théâtre ? l’Apôtre
+                    saint Paul, <hi rend="i">Ephes.</hi> 4, 5, ne défend-il pas les théâtres,
+                    lorsqu’il interdit aux Chrétiens jusqu’à la moindre parole indécente ou
+                    boufonne ? Voici un trait dans l’Ecriture qui regarde encore les spectacles le
+                    plus près. Nous lisons, <hi rend="i">au ch.</hi> 4 <hi rend="i">du second livre
+                        des Machabées</hi>, que Jason qui s’étoit emparé du souverain pontificat,
+                    voulant pervertir entierement le peuple juif, ne trouva pas de moyen plus
+                    efficace pour réussir, comme il ne fit que trop dans son malheureux dessein, que
+                    d’établir à Jérusalem les spectacles de la Grece.</p>
+                <p><hi rend="i">Les saints Peres ne condamnent les spectacles que par rapport à
+                        l’idolâtrie, aux superstitions &amp; aux impuretés grossieres qui y
+                        régnoient de leur tems.</hi> Les saints Peres condamnent les spectacles
+                    non-seulement par rapport à l’idolâtrie, aux superstitions &amp; aux impuretés
+                    grossieres, mais encore par la raison générale que les spectacles mêmes où il
+                    n’y a ni idolâtrie, ni superstition, ni impureté grossiere, sont néanmoins
+                    très-dangereux ; qu’ils excitent les passions, &amp; qu’ils portent à la
+                    corruption des mœurs. <quote><hi rend="i">Laissons-là l’idolâtrie</hi><seg
+                            type="exquote">, disoit Tertullien, <hi rend="i">lib. de spectac.
+                                cap.</hi> 14</seg>, … <hi rend="i">examinons–en la question par
+                            d’autres raisons comme de surcroît.</hi></quote> Après cet examen,
+                    Tertullien conclud à la condamnation des spectacles, parce qu’ils excitent les
+                    passions, qu’ils sont contraires aux dons du Saint-Esprit, incompatibles avec
+                    les engagemens contractés dans le baptême, &amp; à l’obligation qu’ont tous les
+                    Chrétiens de rapporter à Dieu toutes leurs actions, &amp; de vivre dans une
+                    disposition continuelle de priere, d’attention, de vigilance &amp; de pénitence.
+                    Les autres Peres, &amp; sur-tout Salvien, <hi rend="i">l.</hi> 6, <hi rend="i"
+                        >de Provid.</hi> qui vivoit dans un pays où l’idolâtrie ne régnoit plus,
+                    employent les mêmes raisons &amp; d’autres semblables pour condamner les
+                    spectacles. On sait comment saint Augustin déplore dans ses confessions le
+                    penchant funeste qu’il avoit eu pour les spectacles mêmes où il n’y avoit ni
+                    idolâtrie, ni obscénité.</p>
+                <p><hi rend="i">Le théâtre moderne est pur &amp; modeste.</hi> Ceux qui ont comparé
+                    le théâtre de Racine, des deux Corneilles, de Moliere, &amp;c. avec celui
+                    d’Euripide, de Sophocle, de Ménandre, de Séneque, de Plaute, de Terence, &amp;c.
+                    conviennent que le premier l’emporte sur le dernier pour le danger, &amp; le
+                    trouvent plus propre à corrompre le cœur. La pureté prétendue qu’on attribue au
+                    théâtre moderne, n’est donc tout au plus qu’une pureté, apparente, qui n’adoucit
+                    les images du vice que pour le faire recevoir avec plus de facilité, en le
+                    rendant moins affreux, &amp; par conséquent moins haïssable. C’est une gaze
+                    légere qui laisse appercevoir d’une maniere plus piquante, ce qui présenté trop
+                    à découvert, ne manqueroit point d’allarmer &amp; de choquer. C’est une coupe
+                    d’or, dit saint Augustin, dans laquelle des Docteurs ivres font boire avec
+                    plaisir le vin empoisonné de leurs dissolutions. En un mot, le théâtre le plus
+                    épuré n’est autre chose que l’art réduit en pratique de farder les passions,
+                    pour les inspirer plus sûrement, &amp; les faire triompher avec moins de peine
+                    des résistances de la pudeur. C’est le langage même, c’est la peinture des
+                    passions, mais peinture fine, naïve, pathétique, animée, &amp; dont les traits
+                    délicats n’en sont que plus dangereux. Tout ce qu’on y voit, &amp; tout ce qu’on
+                    y entend, parures, décorations, gestes, attitudes, mouvemens, discours,
+                    entretiens, chants, larmes, soupirs, privautés, déclarations, intrigues, liens
+                    rompus &amp; renoués, tout ne tend qu’à plaire, à toucher, à ravir, à charmer, à
+                    transporter. Quand tous les autres désordres seroient bannis des spectacles, le
+                    systême fabuleux qui y regne, &amp; les termes sacrileges de divinités,
+                    d’hommages, de culte, d’encens, de vœux, d’adoration, qu’on y prodigue à
+                    d’infames créatures ; cet abus suffiroit seul pour les faire condamner
+                    absolument ; ce n’est pas moins qu’une idolâtrie spirituelle, qui met la
+                    créature à la place du Créateur par le plus monstrueux de tous les
+                    attentats.</p>
+                <p><hi rend="i">Le théâtre est une école de vertu.</hi>
+                    <quote>« Oh, la belle école, en effet, <seg type="exquote">s’écrie Ciceron (<hi
+                                rend="i">Tuscul. l.</hi> 4.) </seg>que la comédie &amp; la
+                        tragédie ! si on en ôtoit tout ce <pb n="152" xml:id="p152"/>qu’elle offre
+                        de vicieux, il n’y auroit plus de spectateurs. »</quote> <quote><hi rend="i"
+                            >Je n’ai jamais entendu</hi><seg type="exquote">, dit M. de Fontenelle à
+                            ce sujet,</seg>
+                        <hi rend="i">la purgation des passions par le moyen des passions
+                        mêmes.</hi></quote> Voici l’aveu public qu’a fait sur le même sujet M. de la
+                    Motte dans son discours sur la tragédie : <quote><hi rend="i">Nous ne nous
+                            proposons pas d’éclairer l’esprit sur le vice &amp; la vertu en les
+                            peignant de leurs vraies couleurs. Nous ne songeons qu’à émouvoir les
+                            passions par le mêlange de l’un &amp; de l’autre ; &amp; les hommages
+                            que nous rendons quelquefois à la raison, ne détruisent pas l’effet des
+                            passions que nous avons flattées. Nous instruisons un moment, mais nous
+                            avons long-tems séduit ; &amp; quelque forte que soit la leçon de morale
+                            que puisse présenter la catastrophe qui termine la piece, le remede est
+                            trop foible &amp; vient trop tard.</hi></quote> Bayle, cet écrivain si
+                    fameux par les indécences &amp; les impiétés répandues dans ses ouvrages, &amp;
+                    si cher aux libertins par ces endroits, Bayle lui-même se moque de ceux qui
+                    disent fort sérieusement que Moliere a plus corrigé de défauts à la cour, lui
+                    seul, que tous les Prédicateurs ensemble ; &amp; il assure qu’il ne croit
+                    nullement que la comédie soit propre à corriger les crimes &amp; les vices de la
+                    galanterie criminelle, de l’envie, de la fourberie, de l’avarice, de la vanité,
+                    de la vengeance, de l’ambition, &amp;c. Le théâtre, quelque épuré qu’on le
+                    suppose, est donc la véritable école des vices &amp; des passions ; &amp; la
+                    censure du vice, jointe à l’éloge de la vertu qu’on voit à la fin de quelques
+                    comédies, est un foible antidote contre le poison qu’on a bu avec délices durant
+                    toute une piece dans une délicate &amp; séduisante peinture. Quels sont les
+                    héros des pieces mêmes où l’amour profane ne regne pas perpétuellement ? un
+                    usurpateur, un tyran, un fanatique, un rebelle, un emporté, un furieux, un
+                    vindicatif, dont on présente les sentimens poussés à leur dernier période, comme
+                    des effets de la grandeur d’ame. Voilà les leçons de vertu qu’offre aux
+                    spectateurs avides le plus chaste &amp; le plus épuré théâtre.</p>
+                <p><hi rend="i">On va aux spectacles sans mauvais dessein &amp; sans mauvais
+                        effet.</hi> Quand cela seroit, on feroit toujours mal d’y aller, parce qu’en
+                    y allant on viole les loix de Dieu &amp; de l’Eglise, &amp; qu’on s’expose au
+                    danger sans raison ; ce qui est toujours mal. Mais d’où vient l’insensibilité de
+                    ceux qui disent qu’ils n’éprouvent rien de mauvais aux spectacles ? n’est-ce pas
+                    de ce qu’ils ont des passions plus fortes que celles qu’on y représente, &amp;
+                    qu’ils sont si corrompus, que les spectacles ne trouvent plus rien à faire en
+                    eux ?</p>
+                <p>Mais est-il bien vrai qu’on va aux spectacles sans en ressentir aucun mauvais
+                    effet ? eh ! que sont donc ces émotions, ces troubles, ces attendrissemens, tant
+                    d’autres impressions également vives &amp; touchantes, tant d’autres mouvemens
+                    que le cœur éprouve dans le cours d’un spectacle, &amp; qui continuent, &amp;
+                    qui reviennent si souvent long-tems après la piece ? Ecoutons l’auteur des <hi
+                        rend="i">réflexions sur les principales vérités de la religion</hi>,
+                    imprimées à Paris chez Charles-Maurice d’Houry, en 1726, <hi rend="i"
+                    >in</hi>-12. <quote>« Je vous conjure<seg type="exquote">, dit cet auteur,</seg>
+                        d’éviter les spectacles, &amp; d’en éloigner tous ceux pour qui vous vous
+                        intéressez. Tout ce qui s’y fait est la mort de l’ame ; ce ne sont point des
+                        divertissemens, ce sont des meurtres, ce sont des sources de crimes &amp; de
+                        remords, avant-coureurs de l’enfer. Les passions humaines débitent sur le
+                        théâtre les maximes du démon. On prend le cothurne, on se pare avec des
+                        habits magnifiques, pour retracer dans l’esprit des hommes la mémoire des
+                        crimes passés. On y représente des incestes &amp; des parricides qui
+                        devroient être ensevelis dans un éternel oubli. Il semble qu’on craint que
+                        les hommes venant à oublier ces forfaits ne fussent plus tentés de les
+                        commettre. Ces crimes ne sont plus ; mais on veut qu’ils puissent encore
+                        servir de modeles : on prend plaisir à voir ces spectacles impurs, parce que
+                        l’on aime à voir ce que l’on a fait &amp; à apprendre ce que l’on peut
+                        faire. On y fait des leçons publiques d’impureté. Une femme y étoit entrée
+                        vertueuse, elle en sort le crime &amp; l’adultere dans le cœur. Et n’est-ce
+                        pas de-là que naissent tant de désordres dans les familles, tant de
+                        divisions &amp; de querelles, tant de guerres intestines ? on rentre chez
+                        soi avec un cœur blessé, qui porte encore le trait empoisonné ; on a perdu
+                        le goût de la vertu &amp; de la pudeur ; les plaisirs légitimes deviennent
+                        insipides ; le crime devient un assaisonnement nécessaire pour les rendre
+                        agréables &amp; piquans ; on méprise tout ce qui ne porte pas écrit sur le
+                        front le caractere du vice, tout ce qui n’est pas marqué au sceau du démon.
+                        On n’ose découvrir ses propres sentimens ; on n’ose montrer ses plaies, mais
+                        on affecte une indifférence extrême ; on cherche divers prétextes pour
+                        s’éloigner de ce qui est permis ; on prête une oreille attentive à la voix
+                        de la volupté qui semble encore se faire entendre ».</quote></p>
+                <p><hi rend="i">Les puissances ecclésiastiques &amp; séculieres permettent les
+                        spectacles.</hi> Non, les puissances ecclésiastiques &amp; séculieres ne
+                    permettent point les spectacles ; elles les tolerent seulement, comme elles
+                    tolerent les femmes perdues d’honneur, &amp; une infinité d’autres maux qu’elles
+                    ne peuvent empêcher. <quote><hi rend="i">Aaron</hi><seg type="exquote">, dit S.
+                            Augustin, (<hi rend="i">ep.</hi> 43, <hi rend="i">ad Glorium, Eleusium,
+                                nov. edit.</hi>)</seg>
+                        <hi rend="i">ne tolera-t-il pas la multitude qui s’oublia jusqu’au point de
+                            demander une idole, de la fabriquer &amp; de l’adorer ? Moyse ne
+                            toléra-t-il pas ce grand nombre d’Israélites qui murmuroient contre
+                            Dieu ?… Samuel ne toléra-t-il pas les enfans d’Heli, quelque corrompus
+                            qu’ils fussent, &amp; les siens mêmes, qui ne l’étoient pas moins ?
+                            Isaïe n’a-t-il point toléré ceux à qui il fait tant de reproches ?…
+                            Jesus-Christ même a toléré Judas</hi>, c’est-à-dire, <hi rend="i">un
+                            démon, un voleur, un traître… Les Apôtres ont toléré les faux Apôtres.
+                            Enfin Dieu même loue le Pasteur d’une Eglise de ce qu’encore qu’il fût
+                            plein de haine pour les méchans, il les supportoit pour le nom de
+                            Jesus-Christ.</hi></quote></p>
+                <p><hi rend="i">Les spectacles sont permis sur-tout en Espagne &amp; en Italie, de
+                        l’aveu &amp; sous les yeux des souverains Pontifes.</hi> Les spectacles ne
+                    sont pas plus permis en Espagne &amp; en Italie que par-tout ailleurs. Le
+                    Cardinal d’Aguirre, qui fut long-tems Professeur en Théologie à Salamanque,
+                    parle avec force contre les spectacles dans sa grande collection des Conciles
+                    d’Espagne, &amp; cite un grand nombre de Docteurs espagnols, qui les condamnent.
+                    Tels sont entr’autres Mariana, <hi rend="i">de spect. cap</hi> 12. Gonzalès, <hi
+                        rend="i">dans son commentaire sur les decretales.</hi> Bulenger, <hi
+                        rend="i">liv.</hi> 1 <hi rend="i">de circo, cap.</hi> 52. Amaya, <hi
+                        rend="i">de lege unic. cap. de venat. ferarum.</hi> Mendoza, <hi rend="i"
+                        >quæst. 9 quodlib.</hi> &amp;c. Escobar, qui écrivoit aussi en Espagne,
+                    porte l’horreur des comedies jusqu’à ne point approuver qu’on en souffre dans un
+                    état. Pour ce qui est de l’Italie, nous ne pouvons produire un monument ni plus
+                    récent, ni plus fort, ni plus certain, des sentimens des souverains Pontifes
+                    touchant les théâtres, que le traité latin des spectacles, imprimé à Rome en
+                    1752, par le célebre Pere Concina, Dominicain. Ce savant Religieux nous apprend
+                    trois choses dans cet excellent traité. La premiere, qu’il l’a composé à la
+                    persuasion du Pape Benoît XIV. dont les lumieres sont connues de toute
+                    l’Europe ; la seconde, que le même Pape a donné le premier janvier de l’an 1748,
+                    une déclaration authentique, par laquelle il proteste à tout le monde qu’il ne
+                    tolere les spectacles qu’à regret ; la troisieme, que le même Pape encore combat
+                    les spectacles dans ses différens ouvrages. Nous apprenons d’ailleurs que le
+                    même Pape a diminué le nombre des théâtres à Rome.</p>
+                <p>Il faut conclure de tout ce que nous avons dit, qu’aller aux spectacles est un
+                    péché mortel de sa nature, &amp; qu’on peche en effet mortellement lorsqu’on <pb
+                        n="153" xml:id="p153"/>y va de son propre mouvement, &amp; sans nécessité,
+                    par goût, par inclination, par choix.</p>
+                <p>Lorsque les spectacles sont une occasion prochaine de péché mortel, quoiqu’on ne
+                    s’y trouve qu’à regret &amp; par nécessité : c’est, dis-je, un péché mortel dans
+                    ce premier cas, 1°. parce qu’on autorise les acteurs par sa présence ; 2°. parce
+                    que l’on contribue à leur entretien, &amp; que l’on coopere par conséquent au
+                    péché qu’ils commettent en représentant : s’il n’y avoit point de spectateur, il
+                    n’y auroit point d’acteur ; 3°. à cause du scandale ; 4°. à cause de la perte du
+                    tems ; 5°. par rapport au mauvais emploi de l’argent, qui est dû aux pauvres,
+                    s’il est superflu, ou aux autres besoins, s’il est nécessaire ; 6°. parce qu’on
+                    s’y expose presque toujours à l’occasion prochaine, &amp; au danger
+                    presqu’inévitable d’offenser Dieu ; 7°. parce qu’en s’exposant ainsi à
+                    l’occasion prochaine de pecher, on tente Dieu ; 8°. parce qu’on fait une action
+                    que l’on ne peut rapporter à Dieu, &amp; qui est directement contraire à
+                    l’esprit du christianisme, qui est un esprit de vigilance, de priere, de
+                    recueillement, de pénitence ; 9°. parce qu’on viole les loix de l’Eglise, qui
+                    condamnent les spectacles &amp; ceux qui les représentent. C’est aussi un péché
+                    mortel d’aller aux spectacles, quoiqu’on y aille à regret &amp; par nécessité,
+                    lorsqu’ils sont pour ceux qui les fréquentent une occasion prochaine de péché
+                    mortel, parce qu’il n’est jamais permis de s’exposer à ces sortes d’occasions.
+                    Mais lorsqu’on ne va aux spectacles que par pure nécessité, &amp; par
+                    l’engagement indispensable de son état ; qu’on n’y commet aucun mal, &amp; que
+                    l’on ne s’expose pas même à l’occasion prochaine d’en commettre aucun, il n’y a
+                    point de péché, ou il n’y a tout au plus qu’un péché véniel, selon plusieurs
+                    Théologiens, quoique fort rigides d’ailleurs. Tels sont entr’autres l’auteur de
+                    la morale sur l’oraison dominicale, (<hi rend="i">liv.</hi> 1, <hi rend="i"
+                        >pag.</hi> 155.) &amp; M. Arnauld, qui dit expressément qu’il ne voudroit
+                    pas condamner de péché mortel les personnes qui n’auroient été aux spectacles
+                    que par la nécessité &amp; dans les circonstances dont nous parlons ici. Tels
+                    sont les Officiers d’un Prince, &amp; les autres personnes qui sont obligés de
+                    suivre leurs Maîtres ou Maîtresses ou de mener leurs enfans aux spectacles. <hi
+                        rend="i">Voyez</hi> la réponse de ce Docteur à la consultation que lui fit
+                    sur ce sujet &amp; sur quelques autres difficultés, M. <hi rend="i">Treuvé</hi>,
+                    le 24 août 1684. <hi rend="i">Voyez aussi</hi> saint Charles Borromée, <hi
+                        rend="i">dans ses instructions pour les Confesseurs</hi> ; M. Bossuet, <hi
+                        rend="i">traité de la comédie</hi> ; M. Nicole, <hi rend="i">traité de la
+                        comédie</hi> ; Mgr. le Prince de Conti, <hi rend="i">traité de la
+                        comédie</hi> ; Le Pere le Brun, de l’Oratoire, <hi rend="i">traité de la
+                        comédie</hi> ; M. Dupin, <hi rend="i">biblioth. eccl. dix-septieme siecle,
+                        part.</hi> 6, <hi rend="i">pag. 367 &amp; suiv.</hi> La théorie &amp;
+                    pratique des Sacremens, <hi rend="i">tom.</hi> 2, <hi rend="i">pag.</hi> 421 <hi
+                        rend="i">&amp; suiv.</hi> MM. Pontas, de Lamet &amp; Fromageau, <hi rend="i"
+                        >au mot</hi> Comédie ; le Pere Concina, <hi rend="i">traité latin des
+                        spectacles</hi> ; lettre de M. DES P. DEB. Avocat au Parlement, à M. le
+                    Chevalier DE… sur les spectacles, imprimée à Paris chez la veuve Lottin, &amp;
+                    J. H. Butard, rue S. Jacques, à Paris 1756 ; la lettre de M. <hi rend="i"
+                        >Bordelon</hi>, où il fait voir que l’aumône exigée pour l’Hôpital général,
+                    de ceux qui vont aux spectacles, ne les justifie point ; <hi rend="i">réfutation
+                        d’un écrit favorisant la comédie, in</hi>-12. à Paris, chez Edme Couterot
+                    1694 ; lettre d’un Docteur de Sorbonne à une personne de qualité, au sujet de la
+                    comédie, <hi rend="i">in</hi>-12. à Paris, chez Claude Mazuel, 1694 ; <hi
+                        rend="i">sentimens de l’Eglise &amp; des saints Peres sur la comédie &amp;
+                        les comédiens</hi> ; le mandement donné <hi rend="i">par M. l’Evêque
+                        d’Arras</hi>, (Gui I. de Seve de Rochechouart) contre la comédie, par lequel
+                    il défend, sous peine d’excommunication, à tous les Fideles soumis à sa
+                    conduite, d’aller à la comédie, <hi rend="i">in</hi>-12. à Paris, chez Pierre
+                    Ballard, 1696 ; <hi rend="i">histoire &amp; abrégé des ouvrages latins, italiens
+                        &amp; françois pour &amp; contre la comédie &amp; l’opéra….</hi> où l’on
+                    conclud qu’on ne peut aller à la comédie sans pécher, <hi rend="i">in</hi>-12. à
+                    Orléans, 1697 ; l’écrit de M. Rousseau de Geneve, intitulé, <hi rend="i">J. J.
+                        Rousseau, citoyen de Geneve, à M. Dalembert, sur son article</hi> Geneve,
+                        <hi rend="i">dans le septieme volume de l’Encyclopédie, &amp;
+                        particulierement sur le projet d’établir un théâtre de comédie en cette
+                        ville</hi>, à Amsterdam, chez Marc-Michel Rey, 1758. <hi rend="i">Voyez
+                        aussi</hi> l’article 17, pag. 233, <hi rend="i">des maximes pour se conduire
+                        chrétiennement dans le monde</hi>, par M. l’Abbé <hi rend="i">Clément</hi>,
+                    Aumônier &amp; Prédicateur ordinaire du Roi de Pologne, Duc de Lorraine &amp; de
+                    Bar, Prédicateur du Roi, &amp; Doyen de l’église collégiale de Ligny, imprimées
+                    à Paris en 1753, chez Hyppolite-Louis Guerin &amp; Louis-François Delatour. Ce
+                    célebre Orateur, après avoir prouvé qu’il n’est point permis d’aller aux
+                    spectacles, &amp; qu’il n’y pas un Philosophe ancien, soit grec, soit romain,
+                    qui n’ait regardé les spectacles, comme la source de tous les désordres,
+                    rapporte ce beau trait d’une illustre Princesse, dont toute la France a pleuré
+                    &amp; pleurera long-tems la mort prématurée, (Madame Anne-Henriette de France.)
+                        <quote>« Cette auguste Princesse<seg type="exquote">, dit M. l’Abbé
+                            Clément,</seg> disoit un jour à une personne qu’elle honoroit de quelque
+                        confiance, qu’elle ne concevoit pas comment on pouvoit goûter quelque
+                        plaisir aux représentations du théâtre, que pour elle c’étoit un vrai
+                        supplice. La personne, à qui elle parloit ainsi, ne put s’empêcher d’en
+                        marquer de l’étonnement, &amp; prit la liberté de lui en demander la raison.
+                        Je vous avoue, répondit la Princesse, que quelque gaie que je sois en allant
+                        à la comédie, si-tôt que je vois les premiers acteurs paroître sur la scene,
+                        je tombe tout-à-coup dans la plus profonde tristesse ».</quote>
+                    <hi rend="i">Voilà</hi>, me dis-je à moi-même, <hi rend="i">des hommes qui se
+                        damnent de propos délibéré pour me divertir. Cette réflexion m’occupe &amp;
+                        m’absorbe toute entiere pendant le spectacle. Quel plaisir pourrois-je y
+                        goûter ?</hi></p>
+                <p>Que ces sentimens sont beaux, &amp; qu’ils peignent admirablement la religion de
+                    la pieuse Princesse qui les exprime ! qu’ils sont dignes de la fille du Roi
+                    très-Chrétien &amp; de l’auguste Reine, qui honore bien davantage, par le lustre
+                    de ses vertus, le premier trône de l’univers sur lequel elle est assise, qu’elle
+                    n’en reçoit d’honneur par l’éclat qui l’environne.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De spectaculis Theatralibus [Praelectiones in Cap. XX Exodi]</title>
+                <author key="Rivet, André (1573?-1651)"
+                    ref="https://data.bnf.fr/fr/12086369/andre_rivet/">André Rivet</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/rivet_spectaculis-theatralibus_1632</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>André Rivet, « De spectaculis Theatralibus », in <hi rend="i">Andreae Riveti
+                        Pictavi, S. S. Theol. Doctoris, et sacrarum Literarum in Academia Batavorum
+                        Professoris, Praelectiones in Cap. XX Exodi. In quibus ita explicatur
+                        Decalogus, ut Casus Conscientiae, quos vocant, ex eo suborientes, ac
+                        pleraeque controversiae magni momenti, quae circa legem moralem solent
+                        agitati, fusè et accuratè discutantur. Opus, ut varietate jucundum, sic, non
+                        solum sacra, sed etiam politica tractantibus profuturum</hi>,
+                        <pubPlace>Lugduni Batavorum</pubPlace>, apud <publisher>Franciscum
+                        Hegerum</publisher>, <date>1632</date>, p. 339-351. PDF : <ref
+                        target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb11231309-1"
+                        >Bayerische Staasbibliothek</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1632"/>
+            </creation>
+            <langUsage>
+                <language ident="lat"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter">
+                <pb n="339" xml:id="p339"/>
+                <head><hi rend="i">De spectaculis Theatralibus.</hi></head>
+                <p>Altera quæstio, quæ etiam ad hoc <pb n="340" xml:id="p340"/>nostrum institutum
+                    pertinet, &amp; quæ hoc tempore maximè ventilari debet, est de eo fomento
+                    libidinis, quod ex gestibus &amp; spectaculis publicè exhibetur, &amp; vel
+                    toleratur à Magistratibus, vel etiam aliquando instituitur, ejusque actores
+                    præmiis donantur. Non ingrediemur disputationem de omnibus spectaculis in
+                    genere, tam veteribus quam novis : sed de ea tantum specie quæ adversus hoc
+                    præceptum impingit, &amp; quam diximus esse inflammatricem libidinis. Quæritur
+                    ergo an scenici ludi comicorum, quales hoc tempore ubiq; obtinent, bona cum
+                    conscientia ab homine Christiano agi, vel ab aliis acti, spectari possint, &amp;
+                    audiri ?</p>
+                <p>Vt huic quæstioni fiat satis, quædam sunt præmittenda, de fine talium ludorum,
+                    quem sibi tam actores, quam spectatores proponunt ; quem ad voluptatem &amp;
+                    delectationem accommodatum esse nemo negabit. Voluptatem autem vel delectationem
+                    non eam quæri, quæ intellectum afficit, ex cognitione vel contemplatione
+                    divinarum &amp; humanarum rerum, &amp;c. sed eam quæ ad sensus pertinet, &amp;
+                    per eos prius affectos, ad animam pervadit. Inter quos tactus præcipuè
+                    voluptatibus iis inservit, quæ vel ex libidine fluunt, vel ad eam irritant.
+                    Eædem tamen, oculis etiam &amp; auribus ita ingeruntur, verbis &amp; gestibus,
+                    ut sint ut plurimum, præludia ad actus impudicos sequentes ; &amp; præcedentium
+                    indicia &amp; notæ. Itaque castitatem, etiam in verbis &amp; gestibus contineri
+                    diximus ; ut contra libidinem etiam in talibus consistere, sive privatim fiant,
+                    sive publicè ; sed hoc maximè, ubi pluribus imminet periculum, &amp; quo plures
+                    sunt spectatores, eo plus artis impenditur.</p>
+                <p>Voluptatum omnium, etiam quæ sensus immediatè afficiunt, usum homini detrahere,
+                    eorum est qui hominem exuerunt. Nomen illud etsi absolutè sumptum sæpe in vitio
+                    ponatur, tamen generale est ad licitas &amp; illicitas. In illis opus est
+                    moderatione, quia excessus omnis in vitio est. In his, rejectione &amp; fuga,
+                    quia nisi quis caveat, animi &amp; corporis partes omnes expugnant, virtutes
+                    enervant, ipsamque arcem, mentem nempe in sublimi constitutam, evertunt, atque
+                    in omne genus vitiorum dant præcipitem. Vnde est quod Plato, à voluptate etiam
+                    excelsi animi homines reddicereos, affirmavit, ut instar mollis ceræ vitiis
+                    cedant, &amp; ab iis se superari sinant ; &amp; eandem omnium malorum
+                    nutrimentum asseruit. Omnis ergo voluptas suspecta esse debet, quia blanditie
+                    sua ita allicit, ut qui ea afficitur, vix modum teneat. Sed quia Philosophus eos
+                    tantum incontinentes vocari ait, qui tactus aut gustus voluptate superantur, qui
+                    vel immodicè, vel illicitè utuntur re venerea, aut cibi &amp; potus luxum
+                    consectantur ; vix est qui eos inter intemperantes collocet, qui aut vana, aut
+                    stulta, aut etiam obscœna, vel audire vel spectare gaudent, nec in videndo aut
+                    audiendo modum tenent. Solent enim homines tantum probro dare abusum voluptatum
+                    quas cum reliquis animantibus habemus communes, &amp; quibus velut in
+                    similitudinẽ brutorum degeneramus. Certum est tamen, aurium &amp; oculorum
+                    voluptates ex aspectu ludorum, vocum &amp; cantuum suavitate susceptas, non
+                    minus vitiosas esse, nec minus exitiales, quam aliæ oblectationes, quæ tactum
+                    &amp; gustum afficiunt. Nec certè luxuriosi maculam eluere potest, qui totos
+                    dies desidet in theatris, aut scenicas artes &amp; cœmedos <pb n="341"
+                        xml:id="p341"/>prosequitur, ejus voluptatis studio victus. Proptere à totius
+                    oculorum &amp; aurium regimen nobis scriptura commendat, quia per eas partes
+                    insinuant se vitia, &amp; ex auditis &amp; visis commoventur homines ad ea, de
+                    quibus aliàs fortasse non cogitarent. <quote><hi rend="i">Vt vidi</hi><seg
+                            type="exquote">, inquiebat ille</seg>, <hi rend="i">ut
+                        perii.</hi></quote> Iob. 31. vers. 1. <quote><hi rend="i">Fœdus pepigeram
+                            cum oculis meis, &amp; quid advertissem animum ad
+                        virginem ?</hi></quote> Vnde David, Psalm. 119. vers. 37. <quote><hi
+                            rend="i">Averte oculos meos ne videant vanum.</hi></quote> Et Salomon
+                    hæc duo conjungit, Prov. 23. vers. 33. <quote><hi rend="i">Oculi tui respicient
+                            alienas, &amp; animus tuus eloquetur perversitates.</hi></quote> Non
+                    minus est periculum ab auribus, nisi quemadmodum <quote><hi rend="i">palatum
+                            cibi gustum assumit sibi</hi><seg type="exquote">, ita</seg>
+                        <hi rend="i">auris verba probet</hi></quote>, Iob. 12. vers. 11. Alioqui
+                    vitium est, <quote><hi rend="i">Cum homines pruriunt auribus, &amp; ipsi
+                            secundum suas cupiditates coacervant Doctores</hi></quote>, 2 Tim. 4.
+                    v. 3.</p>
+                <p>Sunt autem ludi scenici ad id maximè instituti, ut voluptatibus duos illos sensus
+                    afficiant, iis spectaculis vel dicteriis, quæ ad luxuriam inclinent &amp;
+                    invitent. In scena enim familiare est, totam turpitudinem auribus atque oculis
+                    haurire. Ibi enim quæstuosa hominum arte, in unum locum omnia voluptatum
+                    instrumenta congesta sunt, quæ existimant, &amp; quidem meritò, magnamvim habere
+                    singula, ad detinendos ac suspendendos hominum animos. Finguntur mores hominum,
+                    omnis generis, conditionis, ætatis, voce, gestu, habitu, lenonis, meretricis,
+                    parasiti, juvenum fenumque. Neque referuntur tantùm verbis, sed ipsis
+                    subjiciuntur oculis, quod multo majorem vim habet. Sales jocique adhibentur ad
+                    risum multitudinis excitandum. Postremo, quæ major est illecebra, adolescentes,
+                    aut quæ major pestis, fœminæ aut puellæ, in theatrum producuntur, quæ non solùm
+                    petulantis multitudinis, sed etiam hominum alioqui prudentum oculos detinere
+                    possunt. Quid si hæc omnia ut fit plurimùm, ad turpitudinem referantur ? Nam hæc
+                    est illa oblectatio, quæ maximè devincit homines, cum objiciuntur menti
+                    irritabiles formæ, suggeruntur vitiorum fomenta, &amp; ex rerum imaginibus ac
+                    commemoratione cupiditas excitatur, ita ut simulatis amoribus, quasi veris inter
+                    essent, turpi voluptate spectatores ingurgitentur, quasi in sentina volutati. Id
+                    autem, an vitandum sit necne, mirum est quod in controversiam apud Christianos
+                    vocetur.</p>
+                <p>Vetus comœdia &amp; institutio scenicorum ludorum, etsi ad voluptatem fuerit
+                    aptata ; consistebat tamen ut plurimùm in scommatis &amp; dicteriis, præsertim
+                    cum incœperunt ingenia urbana aliorum mores taxando se exercere, non modo
+                    compositis ad id versibus ; sed etiam cum prodeuntes in scenam tam spectatores,
+                    quam absentes carpebant satyræ amaritudine, magno eorum qui notabantur
+                    nonnunquam dolore. In eo cum sæpe privatis affectibus servirent, &amp; auditores
+                    asperis facetiis elusi jurgia concitarent, lege cautum fuit, ne quem nominatim
+                    liceret in scena notare. Sublata igitur hae ratione in publico ludendi, cum ne
+                    id quidem placeret rectoribus populorum, ut obliquis dicteriis tacitisque
+                    nominibus aliquem perstringerent comici ; alia comœdiæ ratio successit, qua de
+                    virginum stupris, de juvenum nuptiis, &amp; de meretricum fraudibus agebatur,
+                    nullo nominatim, ne obliquè quidem perstricto ab histrionibus, qui etiam ut
+                    August. notat, lib. 2. de civit Dei, cap. 8. in multa quamvis rerum turpitudine,
+                    ab obscœnitate verborum abstinebant. Vbi tamen dum diligenter cavebant ne <pb
+                        n="342" xml:id="p342"/>hominibus apertè illuderent, non abstinebant à
+                    convitiis in Deos suos, quorum probra evulgabant. Vnde illud Arnobii lib. 4.
+                    adversus gentes ; sub finem. <quote><hi rend="i">Quin &amp; ille in fabulis ipse
+                            regnator poli, sine ulla numinis majestatisque formidine, adulterorum
+                            agere inducitur partes ; atque ut fallere castitatem alienarum possit
+                            familias matrum, ora immutare fallacia, &amp; in species corporum
+                            subdititii corporis simulatione succedere.</hi></quote> Id quidem inter
+                    Christianos non fit, ut quis impunè in scenicis ludis Deo maledicat, aut ea
+                    proferat in sanctos viros, quæ ab eorum conditione &amp; statu sunt aliena ;
+                    Nihilominus multa fiunt, &amp; olim facta sunt in papatu, quæ etsi directè non
+                    videantur religionem impetere, reipsa tamen eam polluunt, indignis modis. Ne
+                    quid enim relinquerent ab Ethnicis in Deorum suorum honorem institutum ; quod
+                    non accommodarent Christianis sacris, etiam scenicos ludos introduxerunt, quibus
+                    festis diebus ; etiam alicubi in templis ipsis, comœdias actitarent. Id
+                    sapientissimi inter Ethnicos tanquam inconcinnum rejecerunt, unde &amp;
+                    Aristides Sophista id Smyrnensibus dissuadere conatus est, asserens Deorum
+                    festis comœdias non convenire, quia in festis semper dicenda sunt honesta &amp;
+                    optima, etiam voce præconis iis qui aderãt εὐφημεῖν, hoc est benedicere,
+                    denunciaretur, ergo non convenire ad divinos honores turpissima verba usurpare.
+                    Prætereà cum in sacrificiis offerre quæ lege sunt vetita, impium fuerit, rectè
+                    judicavit non honorari <hi rend="sc">Deos</hi> eorum opere &amp; arte quibus
+                    nulla pars probitatis inest, quales sunt histriones, qui talium sunt actores.
+                    Excusationem autem quam solent afferre, in comœdiis vitæ humanæ varios casus
+                    exprimi, retegi fraudes, documenta tradi quibus juvenes cautiores redduntur, sic
+                    aptissimè retundebat, Ebriorum non esse sobrietatem suadere, neque turpissimum
+                    quemque ad probitatem docendam præceptorem idoneum esse, qui ad virtutem à
+                    vitio, ad rationem à furore, ab immanitate ad humanitem publicè auditores
+                    revocet. Histriones enim &amp; omnes illos fabularum actores erant homines
+                    nequam &amp; infames, quales etiamnum habentur qui talibus exercentur. Vnde non
+                    immeritò August. lib. 2. de civitate Dei, veteres Romanos sugillat, quod iisdem
+                    histrionibus quos notabant infamia, Deos suos honorandos putarent. <quote><hi
+                            rend="i">Quisquis</hi><seg type="exquote">, inquit,</seg>
+                        <hi rend="i">civium Romanorum esse scenicus elegisset, non solum ei nullus
+                            ad honorem dabatur locus, verum etiam censoris nota, tribum tenere
+                            propriam minimè sinebatur.</hi></quote> Subjungit post laudatam hanc
+                    legem, <quote><hi rend="i">Sed respondeatur mihi qua consentanea ratione homines
+                            Scenici ab omni honore pelluntur, &amp; ludi Scenici Deorum honoribus
+                            admiscentur ? Illas theatricas artes diu virtus Romana non noverat : quæ
+                            etsi ad oblectamentum voluptatis humanæ quærerentur, &amp; vitio morum
+                            irreperent humanorum, dii eas sibi exhiberi petiverunt. Quomodo ergo
+                            abjicitur scenicus, per quem colitur Deus ? Et theatricæ illius
+                            turpitudinis qua fronte notatur actor, si adoratur
+                        exactor ?</hi></quote> In eo autem Græcos multo prudentiores Romanis fuisse
+                    ait, <quote><hi rend="i">Qui putarunt rectè se honorare homines scenicos, cum
+                            colant ludorum scenicorum flagitatores Deos.</hi></quote> Etsi tandem
+                    Romani eo usque sapuerint, ut histriones Templis prohibuerint, quasi Deorum
+                    cultui non convenientes ; quod Tacitus lib. 14. his verbis testatur ; <quote><hi
+                            rend="i">Quanquam</hi><seg type="exquote">, inquit,</seg>
+                        <hi rend="i">redditi scenæ Pantomimi, certaminibus sacris
+                            prohibebantur.</hi></quote></p>
+                <p>Cum igitur Satan vix potuerit apud ipsos Gentiles id obtinere sine controversia,
+                    ut in superstitionibus suis tales admiscerent ludos ; mirum est tantùm potuisse
+                    apud eos qui se Christianos <pb n="343" xml:id="p343"/>dicunt, apud quos
+                    obtinuit ut in ipsis Templis excerceretur histrionia. Dicent fortasse non in
+                    turpibus argumentis ibi versari, sed sacras historias referre, aut ex divinis
+                    libris petitas, ex sanctorum historiis. Sed fatetur Mariana in libro <hi
+                        rend="i">de spectaculis</hi>, eos ad movendum populi risum obscenissima
+                    quæque actitare. <quote><hi rend="i">Acerbissimum est</hi><seg type="exquote">,
+                            inquit,</seg>
+                        <hi rend="i">negare non posse, quod sit turpissimum confiteri. Scimus sæpè
+                            sanctissimis templis, præsertim inter fabulæ actus chori ad instar,
+                            adulterorum furta, amores turpes recitari, ut honestissimus quisque ea
+                            spectacula vitare debeat, si decori &amp; pudori consultum
+                        velit.</hi></quote> Vbi recte <hi rend="i">putat</hi>, hos omnes ludos quasi
+                    sordes &amp; ludibria religionis à sanctissimis templis esse exterminandos ;
+                    nisi quod nimis jejunè loquitur, dum id non audet affirmare sed tantùm se <hi
+                        rend="i">putare</hi> dicit, quia ut præfatus erat, metuebat, <quote><hi
+                            rend="i">ne existimaretur divorum cultum velle hac disputatione
+                            imminuere non sine aliqua impietatis suspicione</hi></quote>. Nam ita se
+                    res habet in papatu, ut si quis vel adversus crassissimos abusus, mutire ausit,
+                    ilico impietatis arcessitur. Quid si tamẽ actores illi intra modestiæ fines
+                    contineantur, &amp; in sacris locis, sacras tantum referant historias ?
+                    Respondet idem, et quidem optimè, non minus eum morem religionis sanctitati fore
+                    exitialem, neque minus dedecus Reipublicæ allaturum. Quid ita ? Rationem hanc
+                    affert, <quote><hi rend="i">quia non convenit ab hominibus turpibus Divorum res
+                            gestas referri</hi></quote>. Itaque merito detestatur quod se scire
+                    dicit, à judice in quadam histrionum societate unam quampiam ex hoc grege, quæ
+                    Magdalenæ personam sustinebat, deprehensam turpi consuetudine junctam esse cum
+                    eo histrione, qui Christum Dei silium, voce, gestu, &amp; habitu repræsentabat.
+                            <quote><hi rend="i">Insignem</hi><seg type="exquote"> ait</seg>, <hi
+                            rend="i">fœditatem, atque eo majorem, quod magno populiplausu
+                            audiebantur, sæpeque spectatoribus excutiebant lacrymas.</hi></quote> Et
+                    hoc quidem aliquid est ; sed de ipsa re non respondet ; nempe an si personæ non
+                    sint infames &amp; fœdissimis moribus corruptæ, in templis etiam ab honestis
+                    alioqui personis, sacræ historiæ scenico more representari debeant, &amp;
+                    personæ effingi, quæ in Theatro Christum &amp; Apostolos, sanctam virginem &amp;
+                    alias mulieres sanctas referant ? Dicimus igitur id à majestate religionis
+                    alienissimum esse, &amp; sacro Ministerio quod Deus instituit ut per illud fides
+                    nostra ædificetur, injurium ; nec verbum Dei ad Ludos &amp; sensuum voluptatem
+                    esse inflectendum, cum in Ecclesia Dei omnia ad pietatem &amp; modestiam
+                    cõparata esse debeant, ut animus excitetur ad religionem, &amp; rerum divinarum
+                    contemplationem : Id risus, plausus, &amp; clamores non efficiunt, multo minus
+                    sacræ historiæ ita deformatæ ut in profanas fabulas convertantur, &amp;
+                    religionem Christianam exponant ludibrio. Talia enim erant, quæ olim, cum
+                    Euangelii face non prælucente, tenebrarum suarum nondum pudebat papistas, ut jam
+                    ab ipsis non sine horrore legi vel audiri possint. Certè ne longè abeamus, habeo
+                    penes me volumen spissum, in quo omnes Novi Testam. Historiæ, in fabulas comicas
+                    &amp; Tragicas conversæ sunt, adeò blasphemè in nonnullis, adeo ridiculè in
+                    plerisque, ut mirari subeat quid istis hominibus potuerit in mentem venire. Ibi
+                    personas fingunt de quibus nihil unquam auditum, quibus talia affingunt dicta de
+                    quibus in tota historia sacra ne verbum quidem reperitur, &amp; adeò insulsè
+                    &amp; putidè, ut videantur voluisse Deo &amp; hominibus illudere. Sunt
+                    nihilominus ea quę agebantur magno <pb n="344" xml:id="p344"/>apparatu,
+                    cõcurrentibus ex tota Gallia spectatoribus, ad sacrum illud, quod in festo
+                    corporis Christi, Andegavi magna solemnitate celebratur. Quid vero possit apud
+                    homines inveterata consuetudo, ex eo liquet, quod etiamsi Pontif. Romanus
+                    Innocentius III. id prohibuerit lata lege, prævaluit tamen mos inveteratus, qui
+                    legem elusit, cujus hæc sunt verba, cap. <hi rend="i">Cum Decorem</hi>, de vita
+                    &amp; honestate Clericorum. <quote><hi rend="i">Interdum</hi><seg type="exquote"
+                            >, inquit,</seg> <hi rend="i">ludifiunt in Ecclesiis theatrales, &amp;
+                            non solùm ad ludibrium spectaculi, introducuntur in eis monstra
+                            larvarum, verum, etiam in aliquibus festivitatibus, Diaconi, Presbyteri
+                            ac Subdiaconi, insaniæ suæ ludibria exercere præsumũt.</hi></quote> Quæ
+                    utraq; ibidem fieri prohibet. Sed illud interpretantur de profanis spectaculis,
+                    ne consuetudinem reprobare cogantur quæ adhuc apud multos perdurat, comœdias de
+                    sacris argumentis in Templis agendi. Lex tamen non excipit, neque ulla ratio est
+                    cur excipiat, cum gravius peccetur ubi sacra impurè tractantur &amp; indigno
+                    modo, quam ubi profana, profanè geruntur.</p>
+                <p>Sed cum multos etiam Pontificios hujus rei pudeat, nec, Deo gratia, hæc
+                    profanatio adhuc inter nos obtinuerit, ut in locis sacristalia fiant, quod
+                    maximè in dubium vocatur, &amp; in quo ubique peccatur, id jam excutiendum est,
+                    nempe, an extra loca sacra, scena qualis nunc est, histrionum nempe &amp;
+                    comœdorum publici illi actus, tolerari debeant aut permitti, &amp; an bona
+                    conscientia fidelis talia quæ ibi fiunt &amp; dicuntur, videre vel audire
+                    possit ? Cui quæstioni ita positæ negativè respondemus. Rationes hæ nobis sunt,
+                    1. Apost. Ephes. 5. v. 3. prohibet, <quote><hi rend="i">scortationem &amp; omnem
+                            impuritatem &amp; avaritiam, vel in nobis nominari, sicut decet
+                            sanctos</hi></quote>. Quomodo igitur sanctos decebit, adesse
+                    repræsentationi vitiorum &amp; scelerum, quæ non solum fit verbis, sed etiam
+                    adhibitis gestibus indecentibus, ad quos studio affectato se componunt actores,
+                    ut spectatores moveant ?</p>
+                <p>2. Cum à Deo percemur, ne nos inducat in tentationẽ, excusari non possunt qui se
+                    in eam spontè conijiciunt, &amp; ea frequentant loca, ex quibus sani egredi vix
+                    possunt. Nam multorum etiam modestorum ruinam spectaculis talibus procurari,
+                    docet experientia, &amp; res ipsa loquitur. quis enim in tantis flammis non
+                    uratur ! ornatus, gestus, carmina, sententiæ, tibiæ, ad turpitudinem &amp;
+                    libidinem inflammandam cuncta sunt aptata. Itaque spectatores vix unquam crimine
+                    liberi esse possunt ; saltem non possunt non esse manifesti periculi rei in quod
+                    se conjiciunt, inflammandi cupiditatem venereæ voluptatis. Nam si quis
+                    respondeat, se constanter velle, certoq; præjudicatum habere consensum in
+                    voluptatem repudiare, non hoc modo elabitur. Nam si quis tam ferreo sit pectore
+                    qui non moveatur, quales pauci admodum reperiuntur, is considerare debet, quod
+                    benè Hieronymus monuit, <quote><hi rend="i">ferrea ingenia igne luxuriæ
+                            domari</hi></quote>.</p>
+                <p>3. Si quis posset sine proprio suo periculo hinc elabi, non tamen proptereà
+                    immunis esset à peccato, saltem scandali dati ; aliis nempe suo exemplo ad
+                    periculum &amp; peccatum pertractis ; cui peccato magis obnoxii sunt viri
+                    autoritate præstantes, &amp; alioqui graves ; quantumvis enim coram se nihil
+                    obscœnum tractari causarentur, populus tamen, ducum suorum exemplo ad communia
+                    theatra rapitur, nullo discrimine honesti turpisve, qui genus obsequii non
+                    ultimum putat, studia principum imitari ; notum est enim in <pb n="345"
+                        xml:id="p345"/>omni vitæ parte, magis exempla quam verba movere.</p>
+                <p>4. Producuntur in theatrum mulieres cultu meretricio, vocem etiam ad movendos
+                    auditores componentes &amp; inflectentes. Mulierem in Ecclesia docere, Paulus
+                    vetat, 1 Tim. 2. vers. 12. cujus rei hanc rationem esse volunt veteres quidam
+                    interpretes, ne vox ejus audientes moveat ad libidinem. Quis igitur ab eo
+                    periculo sibi securitatem polliceri possit, ubi mulier introducitur non sancta
+                    sed vana proferens, non habitu modesto &amp; velata facie ; sed impudico gestu,
+                    &amp; nudato ferè corpore ? Davidem Prophetam alioqui sanctissimum, aspectus
+                    fœminæ in multa mala præcipitem dedit ; nemo igitur se satis tutum præsumere
+                    debet. Mulier in platea obvia, curiosius intuentem sæpè capit ; quid iis igitur
+                    non potest contingere, qui tanto studio mulieres scenicas spectandi ad theatra
+                    currunt ?</p>
+                <p>5. Cum publica judicia tam civilia quam Ecclesiastica infamia notaverint
+                    histriones, præjudicarunt eorum artem honestam non esse, quod si verum sit, quo
+                    loco possunt haberi Christiani, qui artes inhonestas fovent, earumque
+                    professoribus subministrant ea, sine quibus ab arte infami cessarent ? Quod
+                    autem diximus constat ex lege 1. ff. de iis qui notantur infamia, cujus hæc sunt
+                    verba, Infamia notatur <quote><hi rend="i">qui artis ludioræ pronunciandive
+                            causæ in scenam prodierit</hi></quote>. Id etiam Augustinus de Romanis
+                    anteà testatus est. Infamis autem dicitur, cujus vita &amp; mores reprobantur ;
+                    tales itaque gravissimo peccato teneri constat ; ex quo factum est, ut talibus
+                    olim interdictum sit ad sacros ordines assumi, <hi rend="i">c. maritum.</hi>
+                    d. 33. Et Canon. 18. Apostolis attributus, à sacris ordinibus repellit eum, qui
+                    duxerit mulierem publicis spectaculis mancipatam. A mysteriis autem sacraque
+                    Eucharistia arcendos esse, quamvis ex dictis consequatur, id etiam docet
+                    Cyprianus, cujus sententia habetur, de consecr. dist. 2. ab Eucratio enim
+                    rogatus, an histrio qui nostris sacris imbutus artem eam, qua masculus
+                    frangebatur in fœminam sexu arte mutato, pueros docebat, tametsi ipse à theatro
+                    cessaverat, esset à communione fidelium repellendus ? Respondit Epist. 61. nec
+                    Majestati divinæ, nec Euangelicæ disciplinæ congruere, ut pudor Ecclesiæ tam
+                    turpi contagione fœdaretur.</p>
+                <p>6. Nihil publicè debet permitti aut foveri, quo opifices &amp; rustici, relicto
+                    opere quotidiano, cum familiæ calamitate, à labore ad otium vitiosum vocentur ;
+                    quo famuli à debito herorum obsequio distrahantur : tales autem esse publicos
+                    hosce ludos, &amp; res ipsa loquitur, &amp; testatur experientia, quotidiana.
+                    Ergo permittendi non sunt.</p>
+                <p>7. Accedit sumptus inutilis, magnam enim pecuniæ vim id genus homines à quibus
+                    minime oportet, variis artibus corradunt, qui talium artium peritia valent,
+                    omnesque vias norunt redigendæ pecuniæ, &amp; pecuniæ causa omnia faciunt.
+                    Magnos in hisce fieri sumtus, &amp; cum multorum detrimento, constat, &amp;
+                    impensas profundi quibus multi pauperes sustentarentur.</p>
+                <p>Veterum patrum adversus ludos scenicos testimonia penè sunt innumera. Sed ad
+                    quædam capita possunt revocari, pro ratione vitiorum quæ in talibus merito
+                    culpabant. Erant autem tria, 1. Quod diis quos <pb n="346" xml:id="p346"
+                    />colebant in comicis suis ludis ea affingebant scelera &amp; probra, quæ nemo
+                    honestus sine pudore audiret. 2. Quod tales ludi Deorum nomine consecrati, in
+                    partem divini cultus veniebant. 3. Quod rerum &amp; verborum turpitudine ad
+                    pravas cupiditates incitabant &amp; scelera, &amp; fictis criminibus, ad vera
+                    inflammabant ; oculis &amp; auribus, quæ pestis certissima est, pravitatem
+                    insinuantes. Hæc etsi inter se differant habent tamen aliquid commune, quod in
+                    omnibus postremum illud de turpitudine immiscebatur : &amp; dum ea quæ inhonesta
+                    sunt diis suis affingebant, ea magis auribus &amp; animis inculcabant. Omnia
+                    autem ad nos pertinent, sive indirectè, sive directè. Nam, 1. Christianorum
+                    hominum auribus indignum est, ut quos Ethnici pro diis habebant, eos audiant ita
+                    à suis cultoribus lacerari : quia etsi inde adversus ipsos Ethnicos validum sumi
+                    possit argumentum, ut eos Deos esse non credant, quos ita describunt ;
+                    periculosum est tamen assuescere talibus, præsertim si qui sint infirmi, quales
+                    semper multi reperiuntur : ne paulatim impietas &amp; atheismus surrepat.
+                    Secundum autem non minus nos afficere debet, quod tales ludi originem habuerunt
+                    ab Idololatria &amp; Superstitione : cui si nuntium remisimus, nihil deinceps
+                    nobis cum Idololatria debet esse commune. Tertium autem caput, de turpitudine,
+                    magis ad nos pertinet, &amp; magis obstringit, quia professio Christiana majorem
+                    exigit morum sanctitatem. De singulis pauca, sed perspicua seligemus
+                    testimonia.</p>
+                <p>Ad primum caput sequentia referuntur. Tertul. Apol. cap. 15. <quote><hi rend="i"
+                            >Cætera</hi><seg type="exquote">, inquit,</seg>
+                        <hi rend="i">lasciuis ingenia, etiam voluptatibus vestris per Deorum dedecus
+                            operantur. Dispice Lentulorum &amp; Hostiliorum venustates, utrum Mimos
+                            an Deos vestros in jocis &amp; strophis ridearis. Mœchum Anubim, &amp;
+                            masculum Lunam, &amp; Dianam flagellatam &amp; Iovis mortui testamentum
+                            recitatum, &amp; tres Hercules famelicos irrisos.</hi></quote> Clarius
+                    adhuc Cyprianus Epist. 2. <quote><hi rend="i">Exprimunt impudicam Venerem,
+                            adulterum Martem, Iovem illum suum non magis regno quam vitiis principem
+                            in terrenos amores, cum ipsis suis fulminibus ardentem, nunc in plumas
+                            oloris albescere nunc in aureo imbre defluere, nunc in puerorum
+                            pubescentium raptus ministris avibus posilire. Quare jam nunc, an posset
+                            esse qui spectat integer vel pudicus, Deos suos quos venerantur,
+                            imitantur, fiunt miseris &amp; religioses delicta.</hi></quote> August.
+                    etiam lib. 2 de Civit. Dei cap. 3. quantum nocerent moriqus prava Deorum
+                    exempla, in scena recitata sic explicat. <quote><hi rend="i">Quis in agenda
+                            vita, non ea sibi potius sectanda arbitraretur, quæ actit antur ludis
+                            divina autoritate institutis, quam, ea quæ dictitantur legibus humano
+                            consilio promulgatis ? adulterum Iovem si poëtæ fallaciter prodiderunt,
+                            dii hi utique, quia casti, quibus tantum nefas per humanos ludos
+                            confictum est, irasci ac vindicare debuerunt.</hi></quote> Hinc est quod
+                    adolescens ille apud Terentium in Eunucho, sic se ad vitium animabat. Postquàm
+                    enim vidisset in tabula depictum Iovem, <quote><hi rend="i">quopacto Danas
+                            misisse ajunt quondam in gremium imbrem aureum</hi></quote>, infert,</p>
+                <quote>
+                    <l rend="i">———————— Qui templa cœli summa concutit,</l>
+                    <l rend="i">Ego homuncio id non facerem ? Ego illud verò ita feci lubens.</l>
+                </quote>
+                <p>Ad secundum caput sequentia pertinent, quæ magis nos tangunt Tert. Apolog.
+                    cap. 38. <quote><hi rend="i">Æquè</hi><seg type="exquote">, inquit,</seg>
+                        <hi rend="i">spectaculis vestris in tantum renunciamus, in quantum
+                            originibus eorum, quas scimus de superstitione conceptas cum ipsis
+                            rebus, de quibus exiguntur præterimus. Nihil est nobis dictu, visu,
+                            auditu, cum insania Circi, cum impudicitia Theatri, cum <pb n="347"
+                                xml:id="p347"/>atrocitate arenæ, cum Xisti vanitate.</hi></quote> Et
+                    c. 4. lib. de spectaculis. <quote><hi rend="i">Igitur si ex Idololatria
+                            universam spectaculorum paraturam constare constiterit, indubitate piè
+                            judicatum erit, etiam ad spectacula pertinere renunciationis nostræ
+                            testimonium in lavacro, quæ Diabolo, &amp; pompa, &amp; Angelis ejus
+                            sunt mancipata, scilicet per Idololatriam.</hi></quote> Idem argumentum
+                    persequitur Lactantius lib. 6. Divin. Institut. c. 20. extremo. <quote><hi
+                            rend="i">Vitanda</hi><seg type="exquote">, inquit,</seg>
+                        <hi rend="i">spectacula omnia, non solùm ne quid vitiorum pectoribus
+                            infideat, quæ sedata &amp; pacifica esse debent, sed us cujus voluptatis
+                            consuetudo deliniat, &amp; à Deo, atque à bonis operibus avertat. Nam
+                            ludorum celebritates Deorum festa sunt, siquidem ob Natales eorum, vel
+                            templorum novorum dedicationes sunt constituti</hi>, &amp;c.</quote>
+                    Eadem habet in Epit. divin. decret. cap. de spectaculis. Chrysostomus similiter,
+                    Homil. 31. in cap. 4. Matth. sub finem. <quote><hi rend="i">Dæmonum sunt non
+                            hominum secularia spectacula. Quare vos hortor ut à Satanæ festis
+                            abstineatis.</hi></quote> Salvianus itidem, de provid. <quote><hi
+                            rend="i">Dubium enim non est quod lædunt Deum, utpote Idolis consecratæ
+                            superstitiones, namque honoratur Minerva in Gymnasiis, Venus in
+                            theatris, Neptunus in circis, Mars in arenis</hi></quote>, &amp;c. Eadem
+                    habent alii, quorum argumentatio huc redit :</p>
+                <quote>
+                    <p>Indignum est Christiano homini agere vel frequentare ea quæ à superstitione
+                        Ethnica ortum habent, &amp; Idololatriæ inservierunt.</p>
+                    <p>Talia sunt spectacula varii generis’ in quibus &amp; ludi Scenici : Ergo ab
+                        iis Christiani abhorrere debent.</p>
+                </quote>
+                <p>Regerent fortasse nonnulli, periculum hoc sublatum esse ex quo superstitio
+                    Ethnicorum abolita fuit, nec hoc tempore in honorem Idolorum tales ludos
+                    institui, sed tantum ad oblectamentum &amp; voluptatem spectatorum. Neque
+                    argumenta jam tractari de natalitiis Deorum, aut de templorum dedicatione, nec
+                    ad ea referri quæ fiunt ; proinde, quæ adversus ludos à gentilibus institutos
+                    pugnabant, &amp; Christianos merito ab iis arcebant, hoc tempore eos non ferire,
+                    qui neque spectacula Ethnicorum frequentant : neque sua ad eundem scopum
+                    dirigunt. Nihilominus manet vis argumenti. Quia etsi alii sint actores, &amp;
+                    alieni sint ab Ethnica Idololatria : quia tamen ad imitationem scenæ Ethnicæ
+                    introducta est quæ nunc locum habet, merito etiam hoc argumento Christiani
+                    moveri debent, quod ea quæ tam impia habuerunt principia, imitari, etsi mutatis
+                    quibusdam, Christianis non liceat.</p>
+                <p>Sed tertium caput quod sequitur, omnem præscindit defensionem, quia quæ culpantur
+                    à patribus communia sunt scenæ veteri &amp; hodiernæ : quæ enim in eam rem
+                    dicunt, ita quadrant moribus horum temporum in talibus, ut opus non sit in eorum
+                    verbis aliquid mutare, ut ad spectacula hodierna referri possint. Accusant
+                    igitur histriones &amp; ludos scenicos, tanquam perniciosos &amp; exitiales, à
+                    turpitudine. Clemens Alexand. lib. 3. Pædag. cap. 11. inter alia quæ hominibus
+                    Christianis non convenire probat, amovendaque præcipit : <quote><hi rend="i"
+                            >Prohibeantur</hi><seg type="exquote">, inquit,</seg>
+                        <hi rend="i">spectacula &amp; acroamenta quæ nequitia, verbisque obscœnis
+                            &amp; vanis temere profusis plena sunt. Quod enim turpe factum non
+                            ostenditur in Theatris ! quod autem verbum impudens non proferunt qui
+                            risum movent scurræ &amp; histriones !</hi></quote> Tertul. lib. de
+                    spectac. c. 10. <quote><hi rend="i">Theatrum</hi><seg type="exquote">,
+                            inquit,</seg>
+                        <hi rend="i">propriè sacrarium Veneris est.</hi></quote> Et cap. 17.
+                            <quote><hi rend="i">Hoc mode etiam à Theatre separamus quod est privatum
+                            consistorium impudicitiæ, ubi nihil probatur, quam quod alibi non
+                            probatur. <pb n="348" xml:id="p348"/>Ita summa gratia ejus de spurcitia
+                            plurimum concinnata est, quam minus etiam per mulieres rpræsentat, sexum
+                            pudoris exterminans, ut facilius domi quam in scena
+                        crubescant.</hi></quote> Cyprianus Epist. 2. <quote><hi rend="i">In theatris
+                            conspicies quod tibi dolori sit &amp; pudori ; Cothurnus est tragicus
+                            prisca facinora carmine recensere de parricidis &amp; incestis : horror
+                            antiquus expressæ ad imaginem veritatis actione replicatur, ne seculis
+                            transeuntibus exolescat, quod aliquando commissum est. Admonetur omnis
+                            ætas auditu, fieri posse quod factù est. nunquam ævi senio delicta
+                            moriuntur, nunquam crimen temporibus obruitur.</hi> &amp;c.</quote>
+                    Paulò post de Mimis &amp; Comicis. <quote><hi rend="i">Adulterium dicitur cum
+                            videtur : &amp; Lenocinante ad vitia publicæ autoritatis malo, quæ
+                            pudica fortasse ad spectaculum matrona processerat, de spectaculo
+                            revertitur impudica. Adhuc deinde morum quanta labes, quæ probrorum
+                            fomenta, quæ alimenta vitiorum histrionicis gestibus inquinari ?</hi>
+                        &amp;c.</quote> Lactantius lib. 6. divin. Instit. cap. 20 <quote><hi
+                            rend="i">In scenis quoque nescio an sit corruptela vitiosior. Nam &amp;
+                            comicæ fabulæ de stupris virginum loquuntur, aut amoribus meretricum
+                            &amp; quo magis sunt eloquentes qui flagitia illa finxerunt, eo magis
+                            sententiarum elegantia persuadent, &amp; facilius inhærent audientium
+                            memoriæ versus numerosi &amp; ornati. Item Tragicæ historiæ subjiciunt
+                            ocules parricidia &amp; incesta Regum malorum, &amp; cothurnata scelera
+                            demonstrant. Histrionum quoque impudicissimi motus, quid aliud nisi
+                            libidines docent &amp; instigant ?</hi></quote> Reliqua ibi fusius
+                    persequitur quæ longum esset repetere. Basilius Orat. de legendis Gentil.
+                    scriptis. <quote><hi rend="i">Oportet</hi><seg type="exquote">, inquit,</seg>
+                        <hi rend="i">nec oculos spectaculis, nec vanis præstigiatorum ostentaculis
+                            tradere, nec per aures corruptrices, animarum melodiam
+                        audire.</hi></quote> August. autem, lib. 1. de consensu Euan. c. 33. theatra
+                    vocat <quote><hi rend="i">caveas turpitudinum, &amp; publicas professiones.
+                            flagitiorum</hi></quote>. Salvianus lib. 6. de provid. argumentum hoc
+                    multis persequitur, dum enumerat peccata quibus Christiani Deum ad iram
+                    provocaverant, qui idcirco tantas immiferat calamitates, permiseratq; Ecclesias
+                    ubiq; dissipari. Inter reliqua autem hoc habet dignum maxime notatu. <quote><hi
+                            rend="i">Alia</hi><seg type="exquote">, inquit,</seg>
+                        <hi rend="i">crimina, singulas sibi ferme in nobis vindicant portiones, ut
+                            cogitationes sordidæ animũ, ut impudici aspectus oculos, ut auditus
+                            improbi aures, ita ut his unum aliquid erraverit, reliqua possint
+                            carcere ex peccatis, in theatris verò nihil horum reatis vacat, quia
+                            concupiscentiis animus &amp; auditu aures, &amp; aspectu oculi
+                            polluuntur, quæ quidem omnia tam flagitiosa sunt, ut etiam explicare ea
+                            quispiam atque eloqui, salvo pudore non valeat. Quis enim integro
+                            verecundis status dicere queat illasrerum turpium imitationes, illas
+                            vocum ac verborum obscuritates, illas motuum turpitudines, illas gestuum
+                            fœditates ?</hi></quote> Chrysostomus in talium accusatione ita frequens
+                    est, ut ex ejus dictis longa contexi posset oratio. Legatur Homilia tertia de
+                    Davide &amp; Saule, quam in spectaculis consectandis totam consumit. Ibi negat
+                    eos qui hesterna die spectaculis interfuerant, sacræ mensæ participes esse
+                    posse, affirmatque qui accedunt ad spectacula mulierum cupiditate semper
+                    incendi. Homil. 6. in cap. 2. Matth. ait à Diabolo in urbibus constructa fuisse
+                    theatra ad corrumpendos homines. Homil. 69. in cap. 21. ejusdem, <quote><hi
+                            rend="i">theatralem chorum malorum omnium fontem, scaturiginem &amp;
+                            fomitem</hi></quote>, Homil. 15. ad populum Antioch. <quote><hi rend="i"
+                            >theatra, fornicationem petulantiam &amp; omnem incontinentiam
+                            peperisse</hi></quote>. Homil. 8. de pœnitentia, theatra <quote><hi
+                            rend="i">pestilentiæ cathedram, incontinentiæ gymnasium, luxuriæ
+                            officinam, impudicitiæ orchestram, Babylonicam fornacem</hi></quote>,
+                    appellat. Sed Homil. 42. in Acta Apostolorum omnia superiora comprehendit, &amp;
+                    paucis aperit, quicquid de scenicorum ludorum malis &amp; periculis sentiendum.
+                            <quote><hi rend="i">In theatro</hi><seg type="exquote">, inquit,</seg>
+                        <hi rend="i">risus, turpitudo, pompa diabolica, effusio, <pb n="349"
+                                xml:id="p349"/>insumptio temporis, &amp; expensio dierum inutilis,
+                            concupiscentiæ absurda præparatio, adulterii, meditatio, scortationis
+                            Gymnasium, intemperantiæ schola, adhortatio turpitudinis, occasio risus,
+                            turpitudinis exempla.</hi></quote> Hæc ille.</p>
+                <p>Ex his omnibus tale deducitur argumentum. Christiani alieni esse debent ab
+                    omnibus illecebris libidinis, &amp; ab omni turpitudine &amp; vanitate. At in
+                    ludis scenicis hæc omnia reperiuntur : Ergo ab his fideles abstinere debent.
+                    Accedit quod legibus civilibus &amp; sanctionibus Ecclesiasticis notati fuerint
+                    vel qui histriones agerent, vel qui eoruin actibus interessent. De illis dictum
+                    fuit anteà. De spectatoribus, etsi non in omnes fuerit animadversum, tamen inter
+                    justas causas ob quas uxorem vir repudiare poterat, illa una erat, si
+                    circensibus vel theatralibus ludis, vel arenarum spectaculis in illis locis, in
+                    quibus hæc solent celebrati marito prohibente fuisset. Lege Consensu, § vir
+                    quoque. C. de repud. Ideò P. Sempronius Sophus, teste Valer. Maximo lib. 6.
+                    cap. 5. uxori libellum repudii dedit, nullam aliam ob causam, quam quod se
+                    ignorante, ludos spectare ausa suisset. Constat prærereà histriones à Tiberio
+                    Cæsare Roma exturbatos fuisse, arteque ea edicto publico fuisse interdictum,
+                    quia &amp; mulieres ignominia afficerentur, &amp; turbæ concitarentur : quos
+                    post Tiberii mortem revocavit Caligula, nempe pestis Reipub. certam morum
+                    pestem, ut legitur apud Dionem Cass. lib. 57. &amp; 59. Nam ab omni hominum
+                    memoria tales habuerunt theatra fautores, homines coruptissimos, ignavos
+                    Principes aut Magistratus.</p>
+                <p>Quod vero spectat Ecclesiastica statuta ; August. tractatu 10. ad cap. 16. Ioan.
+                    actoribus scenicis aliquid dare, flagitium esse affirmat. Quod si donare ipsis
+                    aliquid non licet, multo minus ipsis favere, totosque dies in illis spectandis
+                    aut audiendis insumere. Concilium Agathense cap. 39. severe prohibet ne Clerici
+                    talibus intersint. Sed Canon 51. Constantinopolitani VI. in Trullo, <quote><hi
+                            rend="i">Omnino prohibet illos qui dicuntur, mimos &amp; eorum
+                            spectacula :</hi><seg type="exquote"> additque,</seg>
+                        <hi rend="i">Qui secus fecerit si sit clericus, deponatur ; si laïcus,
+                            segregetur.</hi></quote> Epiphanius in <hi rend="i">compendiaria
+                        doctrina</hi>, inter notas Ecclesiæ quibus ab aliis sectis
+                    discernebatur, ponit prohibitionem theatrorum &amp; aliorum spectaculorum. <quote><hi
+                        rend="i">Ecclesia</hi><seg type="exquote">, inquit,</seg> <hi rend="i">prohibet theatra, &amp; ludos
+                        Equestres</hi></quote>, id est Circenses : quos jungit cum illicitis aliis artibus,
+                    &amp; exploratis peccatis. Dixerat enim, <quote><hi rend="i">Reprobat omnes
+                        scortationes &amp; adulteria, &amp; petulantiam</hi>, &amp;c.</quote> Quid, quod
+                    populi quidam aut Reipub. bene moratæ priusquam degenerarent, scenicos ludos
+                    plane repudiarint ? Lacedæmones nulla permisisse spectacula Comœdiarum aut
+                    Tragœdiarum, Plutarchus in Apophteg. autor est. De Massiliensibus memorat
+                    Valerius Maximus, lib. 1. cap. 6. eos <quote><hi rend="i">nullum aditum in scenam mimis
+                        dedisse, quorum argumenta majore ex parte superorum continebant actus, ne
+                        talia spectandi consuetudo, etiam imitandi licentiam sumeret</hi></quote>. Romani
+                    quidam Imperatores sæpe histriones, quasi morum pestem &amp; urbe &amp; arte
+                    prohibuisse notum est. Ex his omnibus constare debet, Theatricos &amp; scenicos
+                    ludos à Christiana disciplina esse alienissimos.</p>
+                <p>Quidam agnoscunt hæc quidem mala esse, sed ad majora vitanda mala, esse
+                    permittanda. Etsi ergo vani &amp; turpes sint ludi, tolerari tamen posse à
+                    Magistratu ad oblectandam multitudinem, ut tali spectaculo soluti cura, majori
+                    animo labores repetant quibus respub sustinetur ; artifices, fabri, agricolæ,
+                    quemadmodum lupanaria <pb n="350" xml:id="p350"/>infimæ conditionis hominibus,
+                    ne majora flagitia aggrediantur, passim conconceduntur. Respondimus jam, ubi de
+                    lupanaribus actum, non esse facienda aut permittenda mala, ut eveniant bona.
+                    Addimus nunc alia esse oblectamenta honesta &amp; innoxia quæ populis concedi
+                    possunt ; sed Theatrica inperniciem Reip. &amp; populorum vergere. Histriones
+                    enim &amp; scenici, quæstuaria arte exhauriunt pecunias, &amp; veluti sopitis
+                    voluptate sensibus latenter extorquent, quas non minori turpitudine insumant.
+                    Efficiunt ut cives otio &amp; desidia torpeant, quæ omnium vitiorum radix est.
+                    vitiis omnibus &amp; fraudibus viam muniunt, libidini maximè quæ auribus &amp;
+                    oculis suscipitur. Dominicis diebus cultum Dei &amp; sanctas meditationes
+                    impediunt, allecto ad se populo : &amp; alia multa, quæ magis sentimus, quam
+                    recensere possumus, in vehunt mala.</p>
+                <p>Alii ergo victi argumentis allatis, mala illa &amp; incommoda esse tollenda
+                    ex scenicis ludis judicant, nec tolerandum esse, ut obscœna, inhonesta, aut alia
+                    ibi dicantur aut fiant, quæ possint mores spectatorum corrumpere : sed modum
+                    actoribus ponendum esse, &amp; certas leges dandas aut limites præscribendos,
+                    quos non excedant impunè. <hi rend="i">Respondemus</hi>, si semel permittatur
+                    quæstuaria histrionum ars, nec pretio venales scenici penitus removeantur,
+                    impossibile esse furorem hunc satis frænari. <quote><hi rend="i">O here</hi><seg type="exquote">, inquiebat
+                    Poëta</seg>, <hi rend="i">quæres nec modum habet nec consilium, ratione modoque
+                            tractari non vult</hi></quote>. Quis continebit homines assuetos
+                    scurrilibus dictis, &amp; obscœnis ; addictos gestibus impudicis, si semel iis
+                    liceat theatrum conscendere ? Concludimus igitur, corruptos holce mores debere à
+                    Magistratibus corrigi, qui agnoscere debent, è re publica esse, spectacula ista
+                    plane tolli, hominum qui quæstuaria arte sensim exhauriunt pecunias, &amp;
+                    veluti à voluptate sopitis civibus extorquent, otia stabiliunt, infinita propè
+                    delicta inseminant, &amp; quod valde deflendum, cultùm divinam imminunt. Addimus
+                    Cœlij Rhodigini ex Seneca Philosopho gravem considerationem, Antiquar. lect.
+                    lib. 8. cap. 7. <quote><hi rend="i">Cæterum</hi>, inquit, <hi rend="i">quacumque ex
+                        causa fuerint producti primò, nihil esse perniciofius morum integritati
+                        putat Seneca. Quippe turba omnis utique animo gravis &amp; noxia. Nec enim
+                        quos extulisti mores unquam refers. Nemo non rubiginis aliquid, aut
+                        imprimit, aut spectantibus allinit. Itaque nihil omnino damnosius quam
+                        spectaculis assidere, quando per voluptatem facilius ac proclivius obrepunt
+                        vitia. Quid me, inquis, existimas dicere ? avarior redeo, ambitiosior,
+                        luxuriosior, imò vero crudelior, &amp; in humanior, quiæ inter homines
+                        fui.</hi></quote> Hæc ille.</p>
+                <p>Quæ tamen ita volumus intelligi, non ut planè definiamus nulla ratione licere,
+                    sub ulla conditione, Drama aliquod instituere, aut aliquando honestæ
+                    oblectationis causa, &amp; exercitii gratia, adolescentes aliquos producere, qui
+                    argumentum, quod bonis moribus conveniat, arte aliqua elaboratum, pluribus
+                    spectantibus inter se tractent, &amp; hac ratione se ad dicendum informent ;
+                    scimus enim viros graves aliquando in talibus argumentis versatos fuisse ; non
+                    quæ mimis, histrionibus, &amp; quæstuariis istis nebulonibus, qui omnia etiam
+                    sacra profanant, actitanda darent ; sed quæ pueri ingenui, exercitii honesti
+                    gratia, peragerent ; qua de re in disciplina Ecclesiastica Ecclesiarum
+                    Reformatarum Galliæ constitutio habetur, quam hic apponemus, &amp; quæstionem
+                    hanc finiemus. Sic autem habet. <quote><hi rend="i">Non licebit fidelibus
+                            interesse Comœdiis, Tragœdiis, mimis, <pb n="351" xml:id="p351"
+                            />moralitatibus aut similibus ludis, actis publicè vel privatim ; cum
+                            omni tempore id inter Christianos prohibitum fuerit, tanquam bonis
+                            moribus noxium. In primis vero cum profanatur scriptura. Si tamen
+                            aliquando in collegio aliquo, utile judicetur ut juventus aliquam
+                            historiam repræsentet, tolerari poterit : dummodo ex scriptura non
+                            desumatur, quæ non ludis sed prædicatione inculcari debet ; ea etiam
+                            conditione, ut id raro fiat, &amp; adhibito consilio classis
+                            Ecclesiasticæ, cui primum compositio communicabitur.</hi></quote> In his
+                    quæ aliquando cum aliis constitui &amp; probavi, nunc acquiesco, &amp; ad alia
+                    transeo.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>

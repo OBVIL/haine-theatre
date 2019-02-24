@@ -1,0 +1,1490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Comédie contraire aux principes de la morale chrétienne</title>
+                <author key="Mahy, Abbé" ref="https://catalogue.bnf.fr/ark:/12148/cb102030723">Abbé
+                    Mahy</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/mahy_comedie-contraire_1754</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Abbé Mahy, <hi rend="i">La Comédie contraire aux principes de la morale
+                        chrétienne ; Ouvrage extrait des Saints Peres, et de MM. Bossuet et Nicole.
+                        On y a joint le Mandement du Chapitre d’Auxerre contre la Comédie, et un
+                        Extrait important du Journal de Trévoux</hi>, <edition/>,
+                        <pubPlace>Auxerre</pubPlace>, impr. de <publisher>F. Fournier</publisher>,
+                        <date>1754</date>, in-12, 72 p. PDF : <ref
+                        target="https://books.google.fr/books?id=Gnke57EaIBsC">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1754"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="book">
+                <pb n="3" xml:id="p3"/>
+                <head>La comédie <hi rend="i">contraire aux Principes de la Morale
+                    Chétienne.</hi></head>
+                <p><hi rend="big">O</hi>ur porter un jugement sain sur la Comédie, il faut prendre
+                    en main l’Evangile, &amp; décider tous ses doutes sur cette régle invariable.
+                    Tout autre moyen ne peut que jetter dans l’illusion &amp; dans l’erreur. Si la
+                    Comédie est conforme aux principes de l’Evangile, elle n’a pas besoin d’autre
+                    apologie ; il faut déclarer qu’elle est légitime. Si elle y est directement
+                    opposée, on ne doit point hésiter à la proscrire, quelque réclamation qu’il y
+                    ait de la part du monde &amp; de ses partisans. Ces principes ne peuvent être
+                    désavoués par des Chrétiens, qui font profession par état de n’approuver que ce
+                    que <pb n="4" xml:id="p4"/>l’Evangile approuve, &amp; de rejetter toutce qu’il
+                    condamne. Or nous prétendons que le Théâtre heurte de front les maximes
+                    fondamentales du Christianisme, &amp; les leçons que J. C. a données aux hommes
+                    pendant sa vie mortelle ; qu’il ne tend à rien moins qu’à rendre les souffrances
+                    &amp; la mort de J. C. inutiles ; en un mot qu’il attaque directement le but de
+                    l’Incarnation. Cette Proposition paroîtra forte ; elle l’est sans doute contre
+                    les Spectacles. Mais il n’est pas difficile de la démontrer : pour cela
+                    rappellons les premiers élémens de la Religion.</p>
+                <div2 type="chapter">
+                    <head type="sur">I.</head>
+                    <head type="main">Fin principale de l’Incarnation du Verbe.</head>
+                    <p>Le but que la Sagesse incarnée s’est proposé, est incontestablement de
+                        réconcilier les hommes avec Dieu, &amp; d’en faire des saints. L’Apôtre veut
+                        qu’on annonce hautement que cette divine Sagesse ne s’est livrée elle-même
+                        pour nous, qu’<note place="margin"><hi rend="i">Ep. à Tite. c.</hi> 2. <hi
+                                rend="i">v.</hi> 14 &amp; 15.</note><quote><hi rend="i">afin de nous
+                                racheter de toute iniquité, &amp; de nous purifier, pour se faire un
+                                peuple particuliérement consacré à son service, &amp; servent dans
+                                les bonnes œuvres</hi></quote>. On ne peut être associé à ce peuple
+                        heureux, qu’<note place="margin"><hi rend="i">v.</hi> 12</note><quote><hi
+                                rend="i">en renonçant à l’impiété &amp; aux passions
+                            mondaines</hi></quote> ; qu’<note place="margin"><hi rend="i">v.</hi>
+                            13</note><quote><hi rend="i">en vivant dans le siécle présent avec
+                                tempérance, avec <pb n="5" xml:id="p5"/>justice &amp; avec piété,
+                                étant toujours dans l’attente de la béatitude que nous espérons,
+                                &amp; de l’avénement du grand Dieu &amp; notre Sauveur
+                                Jesus-Christ</hi></quote>. Développons ces importantes vérités.</p>
+                    <p>Un vrai Chrétien est donc un homme qui n’est occupé qu’à bénir la main
+                        toute-puissante qui l’a arraché à l’Enfer ; qui a abbatu le mur de
+                        séparation, que ses infidélités avoient élevé entre le Seigneur &amp; lui,
+                        &amp; qui a fait sa paix avec Dieu. Le souvenir seul d’avoir été son ennemi,
+                        &amp; d’avoir porté le joug du démon, le fait frémir. Il ne craint rien tant
+                        que d’être chassé de cette nation sainte qui est la conquête de
+                        Jesus-Christ, &amp; de rentrer dans les fers de l’Ange superbe. Il tremble à
+                        la vue du péché, dont cet affreux état est la juste punition. Il vit dans
+                        une attente continuelle de la gloire des enfans de Dieu. L’incertitude du
+                        moment où il en doit être mis en possession, ne fait que redoubler sa
+                        vigilance &amp; son courage.</p>
+                    <p>Telle est l’idée que les saintes Ecritures nous donnent d’un Juste : &amp;
+                        qu’on n’oublie pas qu’il faut l’être dans un degré plus ou moins grand, pour
+                        entrer <pb n="6" xml:id="p6"/>dans le Royaume des cieux. Voilà ce que
+                        Jesus-Christ est venu faire dans le monde ; embrâser les cœurs du feu de la
+                        charité, former des justes ; voilà l’unique but des mystéres qu’il a opéré
+                        sur la terre.</p>
+                    <p>Mais un Chrétien qui désire sincérement de conserver ou de recouvrer la
+                        justice, a-t-il des combats à essuyer, a-t-il des combats à essuyer, a-t-il
+                        des obstacles à vaincre ? Qui peut en douter ? Tout conspire pour le faire
+                        sortir de la voie étroite qui conduit à la vie, ou pour lui en fermer
+                        l’entrée. Les Démons, le monde, les passions se liguent ensemble pour
+                        s’opposer à l’œuvre de Jesus-Christ dans son cœur.</p>
+                    <p>C’est pour le faire triompher d’ennemis si formidables, que les Livres saints
+                        lui découvrent avec tant de soin les ruses, les profondeurs de Satan, &amp;
+                        les moyens de s’en garantir. C’est dans la même vue qu’ils lui remettent si
+                        souvent devant les yeux la corruption de son cœur, qui renferme le germe de
+                        tous les crimes ; qu’ils lui indiquent les remédes-propres à la guérir ;
+                        &amp; qu’ils lui prescrivent si expressément de renoncer au siécle, à ses
+                        vains désirs, &amp; aux passions mondaines, <quote><hi rend="i">abnegantes
+                                impietatem, &amp; secularia desideria</hi></quote>.</p>
+                </div2>
+                <div2 type="chapter">
+                    <pb n="7" xml:id="p7"/>
+                    <head type="sur">II.</head>
+                    <head type="main">Ce qui rend à irriter la concupiscence combat directement
+                        cette fin.</head>
+                    <p>De-là il s’ensuit nécessairement que tout ce qui donne des armes au pere du
+                        mensonge, que tout ce qui réveille la concupiscence, dont la malignité,
+                        (selon la doctrine de Saint Augustin) <note place="margin"><hi rend="i"
+                                >Contra Jul. c.</hi> 4. <hi rend="i">n.</hi> 4.</note>se répand dans
+                        l’homme tout entier, &amp; coule, pour ainsi parler, dans toutes les veines,
+                        pénétre jusqu’à la moëlle des os ; que tout ce qui rend le monde plus
+                        redoutable ou plus séduisant ; qui accrédite ses maximes, &amp; donne plus
+                        d’éclat à ses pompes ; que tout cela, dis-je, attaque de front l’Evangile,
+                        &amp; ne tend qu’à éteindre le feu que Jesus-Christ est venu jetter sur la
+                        terre.</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">III.</head>
+                    <head type="main">Et c’est l’effet propre de la Comédie.</head>
+                    <p>Ces principes posés, il s’agit à présent de prouver que la Comédie fournit au
+                        monde de nouveaux attraits ; qu’elle affermit ou établit même l’empire du
+                        Prince des ténébres ; qu’elle souléve les passions ; qu’elle les porte à la
+                        révolte ; &amp; que parconséquent elle est directement opposée au but que
+                        Jesus-Christ s’est proposé de dompter les passions, &amp; de substituer à
+                        l’amour de la Créature &amp; de sa loi.</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">IV.</head>
+                    <head type="main">La Comédie considérée <hi rend="sc">en elle-mesme</hi>.</head>
+                    <p>Pour mettre quelque ordre dans ces preuves, considérons la Comédie en
+                        elle-même, dans ses Acteurs &amp; dans ses <pb n="8" xml:id="p8"
+                        />Spectateurs, &amp; on verra clairement que de quelque côté qu’on
+                        l’envisage, elle n’est propre qu’à produire ces pernicieux effets.</p>
+                    <p>Dès le premier coup d’œil qu’on jette sur les piéces réprésentées sur le
+                        Théâtre, on s’apperçoit sans peine qu’elles ne tendent qu’à accréditer le
+                        vice &amp; le mettre en honneur. Sur le Théâtre, on dépouille le vice de sa
+                        laideur &amp; de sa difformité ; on lui prodigue les couleurs les plus
+                        brillantes, les plus capables de lui concilier les cœurs. En un mot il y
+                        paroît toujours excusé, toujours aimable. La vertu au contraire ne s’y
+                        montre qu’en tremblant, sous les dehors les plus sombres, &amp; toujours
+                        couverte de ridicule. Cette vue seule ne devroit-elle pas décider pour
+                        toujours contre les Spectacles, les disciples d’un Maître qui ne couronne
+                        que la piété, &amp; ne prononce que des malédictions &amp; des anathêmes
+                        contre le crime ?</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">V.</head>
+                    <head type="main">La Comédie donne des leçons de l’amour impur.</head>
+                    <p>Portons nos regards plus avant sur le Théâtre, &amp; bientôt nous
+                        découvrirons le <hi rend="i">Sanctuaire de l’impureté</hi>. (C’est ainsi que
+                        Tertullien appelle les Spectacles) Ce vice le plus honteux &amp; le plus
+                        dangereux de <pb n="9" xml:id="p9"/>tous, ne devroit pas même, selon saint
+                        Paul, être nommé parmi des Chrétiens. Quel crime n’eut-ce pas été aux yeux
+                        de cet Apôtre, d’en donner des leçons publiques ?</p>
+                    <p>Tout cependant dans la Comédie annonce ce pernicieux dessein. Seroit-il
+                        possible de se le dissimuler ? La pudeur y est toujours outragée, souvent
+                        par les expressions les plus lascives, ou auxquelles on ne donne que les
+                        voiles les plus transparents. Son ennemi s’y montre avec une confiance &amp;
+                        une liberté qui ne sied qu’à elle. On lui ôte toute deffense. On léve toutes
+                        ses barriéres, en faisant paroître au grand jour &amp; avec applaudissement
+                        ce que les principes d’une bonne éducation ne permettent pas même
+                        d’envisager sans peine dans le secret. Les piéces de Théâtre ne respirent
+                        pour la plûpart que le feu impur. Ce n’est point ici une accusation hasardée
+                        ni exagérée par un vain scrupule ; c’est leur objet direct, c’est le but
+                        formel de leurs auteurs.</p>
+                    <p><note place="margin"><hi rend="i">Œuvres tom.</hi> 7. <hi rend="i"
+                                >Paris.</hi> 1748. <hi rend="i">Refl. sur la Comédie, pp.</hi> 611.
+                            &amp; 612.</note>« <quote>Que veut<seg type="exquote">, disoit le grand
+                                Bossuet à un Apologiste de la Comédie,</seg> que veut un Corneille
+                            dans son Cid ? sinon qu’on aime Chiméne ; qu’on l’adore avec Rodrigue ;
+                            qu’on <pb n="10" xml:id="p10"/>tremble avec lui lorsqu’il est dans la
+                            crainte de la perdre, &amp; qu’avec lui on s’estime heureux lorsqu’il
+                            espére de la posséder.</quote> »</p>
+                    <p>En vain lui diroit on que la réprésentation de ces passions trop amies de la
+                        corruption du cœur ne les excite qu’indirectement ; il prétend que le
+                        soutenir, c’est combattre les régles des grands maîtres. « <quote>Le premier
+                                principe<seg type="exquote">, ajoûte-t-il ;</seg> sur lequel
+                            agissent les Poëtes tragiques &amp; comiques, c’est qu’il faut
+                            intéresser le Spectateur ; &amp; si l’Auteur ou l’Acteur d’une Tragédie
+                            ne sait pas l’émouvoir &amp; le transporter de la passion qu’il veut
+                            exprimer, où tombe-t-il ? si ce n’est dans le froid, dans l’ennuyeux,
+                            dans le ridicule, suivant les régles des Maîtres de l’art. Ainsi tout le
+                            dessein d’un Poëte, tout son travail, c’est qu’on soit comme son héros,
+                            épris des belles personnes ; qu’on les serve comme des divinités ; en un
+                            mot qu’on leur sacrifie tout, si ce n’est peut-être la gloire, dont
+                            l’amour est plus dangereux que celui de la beauté même. Qu’on vante sur
+                            ce point tant qu’on voudra la pureté du Théâtre moderne.</quote> » Il ne
+                        nous convient pas &amp; il est <pb n="11" xml:id="p11"/>inutile d’examiner
+                        ici s’il est aussi châtié qu’on le prétend. Quoiqu’il en soit, il est
+                        constant qu’il instruit de l’art criminel d’aimer &amp; d’être aimé ; il
+                        apprend le langage de l’amour profane ; il enseigne les moyens de se dérober
+                        aux yeux des surveillans. Par-là il ouvre la porte à cette foule de
+                        désordres qui font le sujet de nos larmes. Et cela ne nous suffit-il pas
+                        pour le déclarer hautement l’ennemi irréconciliable du Dieu qui précipite
+                        les impudiques dans l’étang de feu &amp; de souffre ?</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">VI.</head>
+                    <head type="main">Elle le donne pour une foiblesse : mais on veut qu’il y
+                        régne.</head>
+                    <p>Mais, dira quelqu’un des partisans de la Comédie, ne grossit-on pas ici les
+                        objets ? La Comédie ne donne-t-elle pas elle-même la passion de l’amour
+                        comme une foiblesse ? Grand Dieu ! quelle expression ! qu’elle est
+                        étranger ! Un crime n’est qu’une foiblesse ? « <quote>Je le veux<seg
+                                type="exquote">, reprend l’illustre Evêque de Meaux</seg>. Mais
+                            l’amour ne paroît sur la scène, que comme une belle, comme une noble
+                            foiblesse ; comme la foiblesse des Héros, des Héroïnes ; enfin comme une
+                            foiblesse si artificieusement changée en vertu, qu’on l’admire ; qu’on
+                            lui applaudit sur tous les Théâtres ; &amp; qu’elle doit faire une
+                            partie si essentielle des plaisirs <pb n="12" xml:id="p12"/>publics,
+                            qu’on ne peut souffrir de Spectacles où non-seulement elle ne soit, mais
+                            encore où elle ne régne &amp; où elle n’anime toute
+                        l’action.</quote> »</p>
+                    <p>Prétendroit on que tout cet appareil ne seroit pas capable de réveiller le
+                        feu de la concupiscence, toujours si prêt à s’embrâser, &amp; d’en augmenter
+                        l’ardeur ? A qui en imposeroit on ? Le feu s’éteint-il par les alimens qu’on
+                        lui fournit ? Il seroit sans doute plus court, pour justifier le Théâtre, de
+                        soutenir que la concupiscence, cette racine envenimée qui étend ses branches
+                        par tous les sens, n’est point mauvaise ; qu’il n’y a rien de contraire au
+                        Christianisme &amp; aux bonnes mœurs dans le soin qu’on prend pour
+                        l’entretenir. Mais si on n’oseroit faire un tel aveu ; si on sent le coup
+                        qu’il porteroit à la Religion ; qu’on juge de là au moins dans quel embarras
+                        on se met, quand on veut plaider une si mauvaise cause.</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">VII.</head>
+                    <head type="main">Le mariage dans les Comédies n’est que le voile de ce
+                        vice.</head>
+                    <p>On convient, répliquera peut-être quelqu’un, (car il faut être de bonne foi)
+                        on convient que la concupiscence est mauvaise ; que loin de l’entretenir, il
+                        en faut réprimer les faillies ; que la réprésentation des passions
+                        illégitimes ne peut que les exciter ; mais qu’est-ce <pb n="13" xml:id="p13"
+                        />que cela conclut contre le Théâtre ? &amp; de quoi peut-on se plaindre sur
+                        ce point ? Le Théâtre dépouille ces passions de tous ce qu’elles ont de
+                        grossier ; il ne fait paroître que celles qui ont une fin honnête, &amp; qui
+                        ont le mariage pour but. Tel est le dernier retranchement des deffenseurs de
+                        la passion de l’amour dans les Spectacles, mais il ne sera pas difficile de
+                        les y forcer.</p>
+                    <p>Rappellons ici un principe déja établi &amp; avoué par les plus grands
+                        maîtres de l’art, que la passion qui charme, qui transporte le spectateur,
+                        est l’objet direct de la Piéce ; &amp; que tout ce qui ne l’intéresse que
+                        foiblement, ne s’y trouve que pour la forme. Examinons à présent si dans une
+                        Comédie c’est le mariage qui meut, qui ravit les spectateurs. Si cela est,
+                        plus l’union conjugale sera formée par des motifs purs &amp; saints, plus
+                        les applaudissemens doivent lui être prodigués ; plus elle s’écartera de ces
+                        maximes si religieuses, plus les suffrages doivent être contre elle. Sans
+                        cela l’honnêteté nuptiale qu’on allégue ne remédieroit à rien. Il n’est pas
+                        possible, ce semble, de se refuser à ces conséquences.</p>
+                    <p><pb n="14" xml:id="p14"/>Or est-ce ainsi que l’expérience nous apprend qu’on
+                        en juge au Théâtre ? Non sans doute. Des mariages où la passion ne domine
+                        pas, en sont bannis. Quel froid n’y répandroit pas celui du jeune Tobie,
+                        &amp; de la jeune Sara ? Avec quelle indifférence n’écouteroit-on pas ces
+                        paroles si dignes d’époux chrétiens : <note place="margin"><hi rend="i"
+                                >Tob.</hi> 8. 5.</note><quote><hi rend="i">Nous sommes les enfants
+                                des Saints, s’il ne nous est pas permis de nous unir comme les
+                                Gentils.</hi></quote> On cherche donc autre chose au Spectacle que
+                        le nœud conjugal ? Il n’y est donc que pour la forme ?</p>
+                    <p>Mais qu’y cherche-t’on ? Disons-le hardiment. On y cherche tout ce qui rend
+                        aimable la concupiscence, que S. Jean deffend d’aimer. On y cherche ces
+                        expressions tendres, ces intrigues ingénieuses, ce jeu des passions d’autant
+                        plus séduisant qu’il paroîtra plus épuré. On y cherche ces larmes qu’arrache
+                        l’image de ses passions si vivement réveillées ; toute cette illusion que S.
+                        Augustin appelle une <note place="margin"><hi rend="i">Conf. L.</hi> 3. <hi
+                                rend="i">C.</hi> 12.</note><quote><hi rend="i">misérable
+                            folie</hi></quote>. On y cherche enfin tout ce qui favorise la révolte
+                        des sens, contre laquelle il faudroit armer le Chrétien, &amp; parconséquent
+                        tout ce qui donne la mort à l’ame.</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">VIII.</head>
+                    <head type="main">Les intrigues sont la vraie fin de la comédie.</head>
+                    <p>Mais accordons qu’on ne cherche au <pb n="15" xml:id="p15"/>Théâtre que
+                        l’union conjugale. Les intrigues qui la précédent, seroient-elles conformes
+                        à la prudence chrétienne ? N’en auroit-on rien à craindre ? Croit-on que le
+                        feu qu’elles auroient jetté dans un cœur deja trop disposé par lui-même à
+                        aimer en quelque maniére que ce soit, s’éteindroit par l’idée seule de
+                        l’honnêteté nuptiale ? Ce seroit se tromper grossiérement. La passion a
+                        saisi son objet. On a commencé à se livrer aux impressions de l’amour. Le
+                        mal est fait, &amp; s’est insinué d’autant plus profondément, qu’il se
+                        présentoit sous un voile plus honnête. Le reméde de l’union conjugale vient
+                        trop tard.</p>
+                    <p>Ecoutons M. Bossuet développer ces importantes vérités. Il le fait de la
+                        maniére la plus précise &amp; la plus lumineuse.</p>
+                    <quote>
+                        <p><note place="margin"><hi rend="i">Pag.</hi> 616.</note>« Le Mariage,
+                            dit-il, présuppose la concupiscence, qui, selon les régles de la foi,
+                            est un mal auquel il faut résister. <note place="margin"><hi rend="i">De
+                                    Nupt. &amp; Concup. L.</hi> 4. 11.21. <hi rend="i">contra
+                                    Jul.</hi> 111. 21.</note><quote><hi rend="i">C’est un mal</hi>,
+                                dit S. Augustin, <hi rend="i">dont l’impureté use mal ; dont le
+                                    mariage use bien ; &amp; dont la virginité &amp; la continence
+                                    font mieux de ne pas user du tout</hi></quote>.</p>
+                        <p>« Qui étale, bien que ce soit pour le mariage, cette impression de <pb
+                                n="16" xml:id="p16"/>beauté sensible qui force à aimer &amp; qui
+                            tâche de la rendre agréable, veut rendre agréable la concupiscence &amp;
+                            la révolte des sens. Car c’en est une manifeste que de ne pouvoir ni ne
+                            vouloir résister à cet ascendant auquel on assujettit dans la Comédie
+                            les ames qu’on appelle grandes. Ces doux &amp; invincibles penchans de
+                            l’inclination, ainsi qu’on les réprésente, c’est ce qu’on veut faire
+                            sentir &amp; ce qu’on veut rendre aimable : c’est-à-dire, qu’on veut
+                            rendre aimable une servitude qui est l’effet <note place="margin"><hi
+                                    rend="i">Pag.</hi> 617.</note>du péché, qui porte au péché. On
+                            flatte une passion qu’on ne peut mettre sous le joug, que par des
+                            combats qui font gémir les fidéles mêmes au milieu des remédes.</p>
+                        <p>« Aussi que les mariages des Théâtres sont sensuels, &amp; qu’ils
+                            paroissent scandaleux aux vrais Chrétiens ! Ce qu’on y veut, c’en est le
+                            mal. Ce qu’on appelle les belles passions, sont la honte de la nature
+                            raisonnable, l’empire d’une fragile &amp; fausse beauté ; &amp; cette
+                            tyrannie qu’on y étale sous les plus belles couleurs, flatte la vanité
+                            d’un sexe, dégrade la dignité de l’autre, &amp; asservit l’un &amp;
+                            l’autre au régne des sens.</p>
+                    </quote>
+                    <p><pb n="17" xml:id="p17"/>Peut-on après cela s’étonner assez de la sécurité de
+                        ces hommes qui se présentent aux Spectacles aussi hardiment que s’ils
+                        etoient de bronze &amp; d’airain. <note place="margin"><hi rend="i"
+                                >Serm.</hi> 37. <hi rend="i">Sur S. Matth.</hi></note><quote><hi
+                                rend="i">Quoi</hi><seg type="exquote">, s’écrie
+                            S. Chrisostome</seg>, <hi rend="i">si lors même qu’on est le plus
+                                eloigné de tout ce qui peut blesser la pudeur, il en coûte tant pour
+                                se conserver dans la pureté que Dieu exige de nous ; comment notre
+                                ame pourra t-elle demeurer chaste, quand elle se plaîra à entendre
+                                des choses si dangereuses ? Ignorez-vous donc quelle est la pente
+                                qui nous entraîne au mal ? Lors donc qu’à cette inclination
+                                naturelle nous ajoûtons l’art &amp; l’étude, devons-nous être
+                                surpris si nous tombons dans l’enfer, puisque nous nous bâtons de
+                                nous y précipiter ?</hi></quote></p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">IX.</head>
+                    <head type="main">La Comédie donne des leçons de toutes les passions.</head>
+                    <p>Les assauts que livre la Comédie à la pudeur, ne sont pas le seul reproche
+                        qu’on ait à lui faire. Quand elle banniroit du Théâtre tout ce qui peut
+                        blesser cette précieuse vertu, elle n’en seroit pas plus innocente aux yeux
+                        de la vraie piété, elle n’en seroit pas moins son ennemie. La haine que la
+                        vertu a pour le vice ne se borne pas à un seul, elle s’étend à tous. Le
+                        Spectacle a d’autres torts, qui ne sont ni moins graves ni moins pernicieux.
+                        Il ne cesse de réprésenter des objets propres à révolter <pb n="18"
+                            xml:id="p18"/>les sens, que pour en peindre d’autres aussi criminels
+                        &amp; presque aussi contagieux.</p>
+                    <p>Quelle idée des disciples d’un Dieu humilié, d’un Dieu anéanti se
+                        formeroient-ils de l’orgueil ? Si on en juge par les portraits qu’il en
+                        trace, rien de plus noble que ce vice, également réprouvé par la Raison
+                        &amp; par la Religion. Il est la source, selon lui, du vrai courage ; c’est
+                        lui qui fait les vrais héros ; c’est à lui qu’ils doivent l’élévation de
+                        leurs sentimens. Le Théâtre exige qu’on lui donne des éloges, qui ne sont
+                        dûs qu’à la véritable grandeur. Il veut qu’on accorde son admiration à ceux
+                        en qui ce vice domine. Reconnoît-on sous ce masque ces hommes dont Dieu
+                                <quote><hi rend="i">brisera les os, &amp;c dans le sang desquels il
+                                lavera ses mains</hi></quote> ?</p>
+                    <p>L’Orgueil ainsi travesti est si essentiel au Théâtre, que quand il introduit
+                        des Saints &amp; des Saintes sur la scéne, il est forcé de les y faire
+                        paroître avec cette fierté, qu’il lui plaît d’appeler générosité &amp;
+                        grandeur d’ame. Il leur met dans la bouche des discours indignes des héros
+                        du Christianisme, qui ne sont bien caractérisés que par l’humilité, &amp;
+                        qui ne conviennent qu’à ces <pb n="19" xml:id="p19"/>prétendus grands hommes
+                        de l’Antiquité payenne. Quels ravages de tels sentimens, s’ils sont reçus
+                        dans le cœur déja trop porté à l’enflure, ne doivent-ils pas produire ? Et
+                        peuvent-ils n’y point avoir accès, puisqu’ils sont écoutés avec
+                        plaisir ?</p>
+                    <quote>
+                        <p><note place="margin"><hi rend="i">M. Nicole, Tr. de la Com.
+                                ch.</hi> 6.</note>« Toutes ces piéces de Théâtre, dit un célébre
+                            Auteur, ne sont que de vives représentations de passions, d’orgueil,
+                            d’ambition, de jalousie, de vengeance, &amp; principalement de cette
+                            vertu Romaine, qui n’est autre chose qu’un furieux amour de soi-même.
+                            Plus leurs Auteurs colorent ces vices d’une image de grandeur &amp; de
+                            générosité, plus ils les rendent dangereux &amp; capables d’entrer dans
+                            les ames les mieux nées ; &amp; l’imitation de ces passions ne nous
+                            plaît que parce que le fond de notre corruption excite en même tems un
+                            mouvement tout semblable qui nous transforme en quelque sorte, &amp;
+                            nous fait entrer dans la passion qui nous est représentée.</p>
+                    </quote>
+                    <p>Quels reproches d’après les principes de ce grand homme, n’aurions-nous point
+                        encore à faire à la Comédie sur les couleurs brillantes qu’elle prête <pb
+                            n="20" xml:id="p20"/>à la jalousie &amp; à la vengeance ? Est-il permis
+                        de dissimuler aux yeux des Chrétiens la laideur, la difformité de ces
+                        vices ? Pourroient-ils les concilier avec les leçons de charité &amp; de
+                        douceur que leur donne leur maître ? Quel crime n’est-ce donc pas d’embellir
+                        ces vices cruels qui portent par tout le fer &amp; le feu, qui vont jusqu’à
+                        faire répandre le sang de ses concitoyens, &amp; souvent celui de ses
+                        proches ? Quel crime n’est ce pas de changer en vertu, ce qui produit depuis
+                        si longtems une fureur brutale dans la Noblesse françoise ?</p>
+                    <p>Qu’on ne dise point qu’on ne va au Spectacle que pour s’y divertir, &amp; non
+                        pas pour prendre des leçons de morale, &amp; que par conséquent celles qu’on
+                        y reçoit ne font aucune impression.</p>
+                    <p>Auroit-on oublié combien sont profondes les racines que les passions ont
+                        jettées dans le cœur ? Ignoreroit-t-on que ces passions sont excitées par
+                        les maximes, ainsi que par les objets ; que les principes du Théâtre ne font
+                        que fortifier ceux qui sont si accrédités dans le monde ? Si on le sait,
+                        comment peut-on croire que les leçons qu’on y donne ne laissent aucune
+                        trace, &amp; que la vue seule du divertissement étouffe tout autre
+                        sentiment ?</p>
+                    <p><pb n="21" xml:id="p21"/>Un éxemple va éclaircir &amp; rendre plus sensible
+                        ce raisonnement, qui frappe également sur toutes les autres passions
+                        représentées au Théâtre, &amp; dans le détail desquelles les bornes étroites
+                        que nous nous sommes prescrites ne nous permettent pas d’entrer. Un homme
+                        assiste à la Comédie ; il est témoin de l’oprobre dont on couvre la patience
+                        qui supporte les injures. Il entend les applaudissement qu’on donne à la
+                        fausse bravoure qui ne les sait point pardonner. Il sort plein de ces images
+                        si conformes à ses penchans, &amp; de l’yvresse qu’elles lui causent. A la
+                        porte il est insulté. Qui se persuadera qu’il ne sentira pas plus vivement
+                        dans cet instant, que dans tout autre, l’outrage qui lui est fait, &amp;
+                        qu’il ne se portera pas plus aisément à s’en venger ?</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">X.</head>
+                    <head type="main">Ses impressions sont réelles, quoique non apperçues.</head>
+                    <p>Il est donc vrai que les leçons qu’on prend au Théâtre font des impressions
+                        réelles, quoiqu’elles ne soient pas toujours apperçues. L’empressement avec
+                        lequel on y court, l’avidité avec laquelle on reçoit ces leçons,
+                        l’approbation qu’on leur donne, le plaisir qu’on goûte à les entendre ;
+                        toutes ces choses ne le disent-elles pas assez clairement ? On ne voit point
+                        avec joie l’image d’un vice qu’on haït sincérement. <note place="margin"><hi
+                                rend="i">Serm.</hi> 37. <hi rend="i">sur S.
+                                Matth.</hi></note><quote><hi rend="i">Quand <pb n="22" xml:id="p22"
+                                />vous entendez</hi><seg type="exquote">, disoit S. Chrysostome à
+                                son peuple,</seg>
+                            <hi rend="i">des personnes qui blasphêment, vous n’y prenez pas de
+                                plaisir ; vous frémissez au contraire, &amp;c vous vous bouchez les
+                                oreilles. D’où vient cela ? C’est que vous n’êtes pas des
+                                blasphêmateurs. Conduisez vous donc de même à l’égard des choses qui
+                                blessent la pudeur ; &amp; si vous voulez que nous croyions que vous
+                                en êtes ennemis, n’aimez pas à les écouter.</hi></quote></p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">XI.</head>
+                    <head type="main">Son opposition à l’Evangile.</head>
+                    <p>Est-il possible après ce qui vient d’être dit sur la Comédie considérée en
+                        elle-même, est-il possible de se dissimuler à soi-même l’opposition décidée
+                        de ses maximes à celles de l’Evangile ? Ici tout est mis en œuvre pour
+                        effacer les traits du vieil homme, l’attacher à la croix, &amp; lui
+                        substituer l’image du nouveau : là tout est employé pour défigurer le nouvel
+                        Adam, &amp; faire revivre l’ancien. Le but de celui-là est de subjuguer la
+                        triple concupiscence &amp; de fermer toute avenue au vice dont elle est la
+                        source : le dessein de celle-ci est de l’affranchir de tout joug, &amp; de
+                        lui donner toute liberté. Au jugement de l’un, l’orgueil est en abomination
+                        aux yeux de Dieu, l’impureté un crime si horrible qu’il ne veut pas même
+                        qu’il soit nommé, la passion pour les richesses une véritable idolatrie, le
+                        faux <pb n="23" xml:id="p23"/>point d’honneur une injustice criante qui
+                        entreprend même sur les droits du Très-haut, qui s’est réservé la
+                        vengeance : au jugement de l’autre l’humilité est une bassesse, la patience
+                        une lâcheté, la mortification une folie, la pauvreté presqu’un crime,
+                        l’affliction un tourment, l’humiliation un supplice, &amp; la modestie un
+                        vain scrupule.</p>
+                    <p>N’est-ce pas-là attaquer de front Dieu lui-même ? N’est-ce pas braver le
+                        Tout-puissant ? N’est-ce pas le piquer de jalousie, lui qui ne cédera pas sa
+                        gloire à d’autres ? De quelles malédictions ne charge-t’il point cette
+                        malheureuse Cité qu’on oppose à celle de ses enfans qu’on veut égorger ?
+                        Quand nous ne les prononcerions point en son nom, la pierre même du Téâtre,
+                        le bois même qui le compose, crieroit malheur à <note place="margin"><hi
+                                rend="i">Habac.</hi> 2. 11. 12.</note>celui qui bâtit une ville de
+                        sang, &amp; qui la fonde dans l’iniquité.</p>
+                    <p>En imposerons-nous encore après cela, quand nous dirons d’après S. Augustin,
+                        qu’un bon chrétien ne se trouve pas au Théatre, <note place="margin"><hi
+                                rend="i">Serm.</hi> 28. <hi rend="i">de verb.
+                                Math.</hi></note><quote><hi rend="i">non vult bonus christianus ire
+                                spectare</hi></quote> ; que l’amour des spectacles dépouille des
+                        richesses précieuses de la justice, <note place="margin"><hi rend="i"
+                                >Tom.</hi> 4. 3. 1655.</note><quote><hi rend="i">istorum pectus
+                                justitiæ divitiis expoliatur</hi></quote> ; qu’il est un encens
+                        agréable aux démons, &amp; que <pb n="24" xml:id="p24"/>c’est le brûler en
+                        quelque sorte sur leurs autels, que de se plaire aux spectacles. <note
+                            place="margin"><hi rend="i">Serm.</hi> 196.</note><hi rend="i">Ista
+                            facientes quasi thura ponunt dæmoniis de cordibus suis.</hi></p>
+                    <p>Devra-t’on être surpris d’entendre S. Charles mettre toujours ces malheureux
+                        divertissemens au rang <note place="margin"><hi rend="i">Act.</hi>
+                            p. 40.</note><quote><hi rend="i">des attraits &amp; des pepiniéres du
+                                vice</hi></quote> ; les faire <note place="margin"><hi rend="i"
+                                >Conc. Prov.</hi> I. <hi rend="i">pag.</hi> 86.</note><quote><hi
+                                rend="i">détester comme les sources des calamités publiques &amp;
+                                des vengeances divines</hi></quote> ; <note place="margin"><hi
+                                rend="i">Conc. III. pag.</hi> 316.</note><quote><hi rend="i"
+                                >exhorter les Princes &amp; les Magistrats à chasser les Comédiens,
+                                les Baladins, les Joueurs de Farces &amp; autres pestes publiques,
+                                comme gens perdus &amp; corrupteurs des bonnes mœurs, <note
+                                    place="margin"><hi rend="i">Conc. IV. &amp;c.</hi></note>&amp; à
+                                punir ceux qui les logent dans les Hôtelleries ?</hi></quote></p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">XII.</head>
+                    <head type="main">Son opposition aux vœux du Batême.</head>
+                    <p>Sera-t’on enfin étonné d’entendre tous les saints Docteurs de l’Eglise
+                        reprocher aux chrétiens leur assistance aux Spectacles comme contraires aux
+                        engagemens solemnels qu’ils ont contractés dans leur Batême ? Qu’y a-t’on
+                        promis en effet, sinon de détester tout ce que le Théâtre chérit, &amp; de
+                        n’aimer que ce qu’il hait ? <note place="margin"><hi rend="i">I. Pier.</hi>
+                            2. 11.</note>On a juré sur les Fonds sacrés de fuir l’impureté, les
+                        dissolutions, l’orgueil &amp; la vengeance. <note place="margin"><hi
+                                rend="i">II. Tess.</hi> 5. 2a.</note>On a juré de réprimer les
+                        désirs charnels qui combattent contre l’ame ; de s’abtenir de l’apparence
+                        même du mal ; de <pb n="25" xml:id="p25"/>haïr les péchés qui paroissent les
+                        plus légers, qui sans tuer d’un seul coup, ne laissent pas d’affoiblir &amp;
+                        de préparer souvent aux chutes les plus déplorables.</p>
+                    <p>On a juré de porter la coignée à la racine de l’arbre ; d’ôter à la
+                        concupiscence l’empire, puisqu’on ne peut lui ôter la vie ; de l’attaquer
+                        jusques dans ses retranchemens ; de la poursuivre dans tous les endroits qui
+                        lui servent de retraite ; de réduire en servitude son propre corps, qui
+                        paroît être son complice &amp; d’intelligence avec elle ; &amp; de le forcer
+                        de lui désobéir &amp; de lui refuser son ministére : voilà ce qu’on a
+                        promis. Qui oseroit dire que le Théatre n’est point un obstacle à
+                        l’accomplissement de ces grands vœux, ne sauroit guéres ce que c’est que la
+                        Comédie. Continuons d’en développer le crime. Montrons-le <hi rend="sc">dans
+                            ses Acteurs</hi>.</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">XIII.</head>
+                    <head type="main">La Comédie considérée dans les Acteurs.</head>
+                    <p>L’idée la plus juste qu’on puisse donner d’un Acteur, est celle d’un homme
+                        qui s’empoisonne lui-même &amp; qui empoisonne les autres. Quel spectacle
+                        aux yeux de la foi ! qu’il est horrible ! Que faut-il qu’il fasse pour jouer
+                        naturellement une passion, &amp; pour l’exciter dans les spectateurs ? Il
+                        faut qu’il rappelle, autant qu’il est en lui, celles qu’il a <pb n="26"
+                            xml:id="p26"/>ressenties, &amp; que, s’il étoit chrétien, il auroit
+                        tellement noyées dans les larmes de la pénitence, qu’elles ne reviendroient
+                        jamais à son esprit, ou qu’elles n’y reviendroient point sans horreur ;
+                        &amp; il faut qu’elles lui reviennent avec leurs graces &amp; leurs agrémens
+                        meurtriers.</p>
+                    <p>Quel crime dans un enfant de Dieu de se tuer ainsi de ses propres mains, de
+                        se dégrader lui-même &amp; de devenir entre les mains du démon un instrument
+                        dont il se sert pour perdre les ames ! Quels tourmens la justice inéxorable
+                        du Très-haut ne réserve t’elle pas à de tels hommes ? La Comédie n’est donc
+                        autre chose qu’une école, qu’un éxercice de vices, puisqu’elle oblige
+                        nécessairement ses Acteurs à réveiller sans cesse des passions
+                        vicieuses.</p>
+                    <p>Quelle horreur cette raison seule ne devroit-elle pas inspirer du Théatre ?
+                        On y voit ses freres être le jouer du démon. Il les remue, il en dispose à
+                        son gré, ils sont ses esclaves. On les voit s’enfoncer eux-mêmes le poignard
+                        dans le sein. Ce n’est pas assez dire ; on le leur plonge soi-même ; on est
+                        homicide par sa présence ; on les anime par ses applaudissemens à braver les
+                        foudres du ciel ; &amp; de la terre ; &amp; on ne frémit pas ! Où est donc
+                        la foi ? Où est la charité ? <pb n="27" xml:id="p27"/>Est-ce être enfant du
+                        Pere céleste ? Est-ce être celui de l’Eglise ? Est-ce connoître le prix du
+                        sang qui a été répandu pour nous ?</p>
+                    <p>De tels motifs ne devroient-ils pas être plus pesés qu’ils ne le sont
+                        communément par des chrétiens ? Le tître de mere qu’ils donnent à l’Eglise
+                        n’est donc qu’un vain nom ? Ne le diroit-on pas, à voir l’empressement avec
+                        lequel ils courent après ces hommes qu’elle charge de tous les anathêmes ?
+                        N’est-ce donc que par pure cérémonie, ou par coutume qu’ils appellent Dieu
+                        leur pere ? Peut-on le penser autrement quand on est témoin de leur
+                        insensibilité à la vue des ouvrages qui lui sont faits ? N’est-ce pas à eux
+                        qu’il faut adresser le reproche que <hi rend="i">le Seigneur des armées</hi>
+                        faisoit aux Juifs : <note place="margin"><hi rend="i">Malach. c.</hi> i. <hi
+                                rend="i">v.</hi> 18.</note>« <quote>Le fils honore son pere, &amp;
+                            le serviteur révére son seigneur. Si donc je suis votre pere, où est
+                            l’honneur que vous me rendez ? Et si je suis votre Seigneur, où est la
+                            crainte respectueuse que vous me devez ?</quote> »</p>
+                    <p>Que dirons-nous de ces malheureuses chrétiennes, si elles peuvent porter
+                        encore ce nom, que le Théatre arme de<note place="margin"><hi rend="i"
+                                >Prov.</hi> 7. 25.</note><quote><hi rend="i">ces fléches qui percent
+                                les cœurs</hi></quote>, &amp; qu’il <note place="margin"><hi
+                                rend="i">Pag.</hi> 618.</note>« <quote>immole<seg type="exquote">,
+                                (selon M. Bossuet),</seg> à <pb n="28" xml:id="p28"/>l’incontinence
+                            publique, d’une maniére plus dangereuse qu’on ne feroit dans des lieux
+                            qu’on n’ose nommer ? Qui ne les regarde pas, ajoûte-t’il, comme des
+                            Esclaves exposées, en qui la pudeur est éteinte, quand ce ne seroit que
+                            par tant de regards qu’elles attirent ? Elles, que leur sexe avoit
+                            consacrées à la modestie, &amp; dont l’infirmité naturelle demandoit la
+                            sûre retraite d’une maison bien réglée. Et voilà qu’elles s’étalent
+                            elles-mêmes en plein Théâtre, avec tout l’attirail de la vanité, comme
+                            ces <hi rend="i">Syrénes</hi> dont parle Isaïe, qui font leur demeure
+                            dans <note place="margin"><hi rend="i">Ch.</hi> 13. <hi rend="i">v.</hi>
+                                22.</note><hi rend="i">les temples de la volupté</hi>, dont les
+                            regards sont mortels, &amp; qui reçoivent de tous côtés par les
+                            applaudissemens qu’on leur renvoie, le poison qu’elles répandent par
+                            leur chant.</quote> »</p>
+                    <p>Ce portrait n’est pas flatteur, sans doute, mais il est ressemblant. Celui
+                        que saint Chrysostome fait de ces Comédiennes, n’est ni moins vrai, ni moins
+                        chargé de couleurs odieuses, <note place="margin"><hi rend="i">Serm.</hi>
+                            37. <hi rend="i">sur S. Matth.</hi></note>« <quote>Que dirai-je, s’écrie
+                            ce Pere, de ces réprésentations, de ces habits que le démon seul a
+                            inventés ?… On y voit des femmes qui ont essuyé toute honte ; qui
+                            paroissent hardiment sur <pb n="29" xml:id="p29"/>un Théâtre devant tout
+                            un peuple ; qui ont fait une étude de l’impudence ; qui par leurs
+                            regards &amp; par leurs paroles, répandent le poison de l’impudicité
+                            dans les yeux, dans les oreilles de tous ceux qui les voient, qui les
+                            entendent ; &amp; qui semblent conspirer par tout cet appareil qui les
+                            environne, à détruire la chasteré, à deshonnorer la nature, &amp; à se
+                            rendre les organes visibles du démon. Enfin tout ce qui se fait dans ces
+                            réprésentations malheureuses, ne porte qu’au mal. Les paroles, les
+                            habits, le marcher, la voix, le chant, les regards des yeux, les
+                            mouvements du corps, le son des instrumens, les sujets mêmes &amp; les
+                            intrigues des Comédies, tout y est plein de poison, tout y respire
+                            l’impureté.</quote> »</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">XIV.</head>
+                    <head type="main">La comédie considérée <hi rend="sc">dans ses
+                        Spectateurs</hi>.</head>
+                    <p>Le mal de la Comédie, qu’on ne s’y trompe pas, ne se renferme pas dans le
+                        cercle étroit des Acteurs &amp; des Actrices. Il va bien au-de-là : il passe
+                        bientôt dans les <hi rend="sc">Spectateurs</hi>. Et n’en est-ce pas déja un
+                        grand de leur part, que d’autoriser de tels hommes par leurs éloges à
+                        continuer une profession que les loix même payennes ont déclarée infâme,
+                            <note place="margin"><hi rend="i">S. Aug de Civit. Dei, c.</hi>
+                            13.</note>&amp; de les enhardir dans <pb n="30" xml:id="p30"/>leur
+                        révolte contre l’Eglise ? N’en est-ce pas un autre non moins digne d’être
+                        expié par la pénitence, que de contribuer à entretenir leur corruption, leur
+                        luxe &amp; leur vanité par des sommes immenses<note n="*" place="margin"
+                            >Voyez la Note à la fin de cet Ecrit.</note>, qui suffiroient &amp;
+                        seroient nécessaires aux besoins des pauvres de toute une ville ? Dans quel
+                        siécle vivons-nous ? Les membres de Jesus-Christ mourront de faim ; des
+                        hommes réprouvés par son épouse vivront dans les délices, &amp; on se croira
+                        innocent !</p>
+                    <p>N’est-ce donc rien pour les Spectateurs que de former ces assemblées où se
+                        réunit tout ce qu’il y a de plus léger, de plus mondain, de plus oisif, de
+                        plus irrégulier dans l’un &amp; l’autre séxe ; ces assemblées où dominent le
+                        luxe des modes, la vanité de la parure, le désir de voir &amp; d’être vû ;
+                        ces assemblées enfin où le vice paroît à visage découvert, où la vertu
+                        n’entre pas sans scrupule &amp; sans péril, &amp; d’où elle ne sort point
+                        sans atteinte !</p>
+                    <p><note place="margin"><hi rend="i">Prov. ch.</hi> 7. <hi rend="i">v.</hi> 20.
+                            21.</note>Les Spectateurs sont-ils innocens, lorsqu’ils ferment les
+                        oreilles au précepte du Sage qui leur prescrit de fuir les femmes dont la
+                        parure porte à la licence, qui enlévent les cœurs des jeunes gens, qui les
+                        engagent par la <pb n="31" xml:id="p31"/>douceur de leurs lèvres, <quote><hi
+                                rend="i">par leur chant, par leur habileté à peindre les passions, à
+                                se jetter dans leurs lacets</hi></quote>, comme un oiseau dans les
+                        filets qu’on lui rend ?</p>
+                    <p>Tels sont les péchés qui sont la suite inséparable de l’assistance au
+                        Spectacle. N’eût-on pris aucune part aux passions dangéreuses qui y sont
+                        réprésentées, on est coupable de ces péchés. La présence seule les fait
+                        commettre. Mais voyons si pour l’ordinaire on est inaccessible aux objets
+                        que la Comédie réprésente.</p>
+                    <p>C’est un principe constant &amp; puisé dans la nature du cœur, qu’on ne goûte
+                        de plaisir au Spectacle, qu’autant qu’il émeur, qu’il touche, &amp; qu’il
+                        cause une espéce d’yvresse. Sans cela il devient insipide &amp; ennuyeux. Or
+                        selon S. Augustin, il ne touche, il n’enchante que parce qu’on voit, qu’on
+                        sent dans la passion réprésenté <note place="margin"><hi rend="i">Conf.
+                                L.</hi> 3. <hi rend="i">ch.</hi> 2.</note><quote><hi rend="i"
+                                >l’image, l’attrait, la pâture de la sienne propre</hi></quote>. On
+                        se voit dans ceux qui nous paroissent transportés par de semblables objets.
+                        Il y a donc dans le cœur des Spectateurs un Théâtre secret, où chacun est
+                        Acteur &amp; joue sa propre passion ; &amp; c’est ce qui donne le vif &amp;
+                        le piquant au Spectacle ; c’est ce qui y porte avec tant d’ardeur.</p>
+                    <p><pb n="32" xml:id="p32"/>Or quelles sont les passions qu’on réprésente à la
+                        Comédie ? On l’a déjà dit : Ce font les plus dangéreuses, les plus amies de
+                        la corruption du cœur de l’homme. Ce sont ces passions qu’il plaît au monde
+                        d’appeler délicates, mais qui dans le fond sont si grossiéres. Ainsi plus la
+                        Piéce sera travaillée, plus les Acteurs seront habiles dans leur art, &amp;
+                        plus ces passions plairont, plus leur impression sera vive. On les jouera
+                        donc sur le Théâtre secret de son cœur ; on éprouvera donc les atteintes du
+                        feu impur ; &amp; cela peut-il être autrement dans le sein de la volupté ?
+                        On en ressent quelquefois l’ardeur, au mileiu même des larmes de la
+                        pénitence.</p>
+                    <p>Chercheroit-on à justifier des excès si visibles, si on connoissoit d’après
+                        M. Bossuet, <note place="margin"><hi rend="i"
+                            >Pag.</hi> 619.</note>« <quote>ce que c’est en l’homme qu’un certain
+                            fond de joie sensuelle, &amp; on ne sait quelle disposition inquiéte
+                            &amp; vague aux plaisirs des sens, qui ne tend à rien, &amp; qui tend à
+                            tout. C’est, ajoute-t-il, ce que sentoit <note place="margin"><hi
+                                    rend="i">Conf. L.</hi> 3. <hi rend="i">ch.</hi>
+                            2.</note>S. Augustin au commencement de sa jeunesse emportée, lorsqu’il
+                            disoit <quote><hi rend="i">Je n’aimois pas encore, mais j’aimois à
+                                    aimer</hi></quote>. Il cherchoit<seg type="exquote">, <pb n="33"
+                                    xml:id="p33"/>continue-t-il,</seg> quelque piége où il prît,
+                            &amp; où il fût pris : &amp; il trouvoit ennuyeuse &amp; insuportable
+                            une vie où il n’y eût point <hi rend="i">de ces lacets</hi> ; <hi
+                                rend="sc">VIAM SINE MUSCIPULA</hi>. Tout en est semé dans le monde.
+                            Il fut pris selon son souhait ; &amp; c’est alors qu’il fut enyvré du
+                            plaisir de la Comédie, où il trouvoit <note place="margin"><hi rend="i"
+                                    >Ibid. ch.</hi> 26</note><quote><hi rend="i">l’image de ses
+                                    miséres, l’amorce &amp; la nourriture de son feu</hi></quote>.
+                            Son exemple &amp; sa doctrine nous apprennent à quoi est propre la
+                            Comédie : combien elle sert à entretenir ces secretes dispositions du
+                            cœur humain, soit qu’il ait déjà enfanté l’amour sensuel, soit que ce
+                            mauvais fruit ne soit point encore éclos.</quote> »</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">XV.</head>
+                    <head type="main">Devoir des parens &amp; des maîtres.</head>
+                    <p>Que les Peres &amp; les Meres sont donc coupables, s’ils permettent à leurs
+                        enfans d’aller aux Spectacles ! Qu’ils sont criminels, s’ils les y
+                        conduisent eux-mêmes ! Les effets de la concupiscence dans ces jeunes &amp;
+                        tendres plantes sont-ils donc trop lents à leur gré ? Ce torrent impétueux
+                        a-t-il trop de digues ? Faut-il qu’ils précipitent son cours ? Le feu de
+                        l’impureté qui fait des ravages si affreux dans la jeunesse leur paroît-il
+                        trop foible ? Faut-il qu’ils en augmentent l’activité partout ce qu’il y a
+                        de plus propre à <pb n="34" xml:id="p34"/>l’embrâser ? Tranchons le mot.
+                        Leur tarde-t-il de voir le cœur de leurs enfans en proie à des flammes si
+                        honteuses &amp; si criminelles ? Est-ce ainsi qu’ils leur apprennent à
+                        connoître J. C. &amp; sa morale ? Est-ce ainsi qu’ils l’ont appris
+                        eux-mêmes ?</p>
+                    <p>Quoi ! il suffit à une mere d’avoir quelques sentimens pour arracher d’entre
+                        les mains de sa fille des Romans ou d’autre mauvais livres, pour lui
+                        interdire toute parole deshonnête, &amp; l’empêcher de fixer ses regards sur
+                        des Tableaux indécens : &amp; des meres qui se disent chrétiennes
+                        laisseroient aller, ou conduiroient elle mêmes leurs filles au Théâtre, où
+                        elles trouveroient les mêmes écueils, mais tout autrement dangéreux ! Le
+                        Spectacle saisit les yeux &amp; les oreilles ; tout y paroît réel. Ce ne
+                        sont point des traits morts, des couleurs séches qui agissent ; ce sont des
+                        personnages vivans, de vrais yeux animés de la passion, de vraies larmes
+                        dans les Acteurs, qui en font couler d’aussi véritables dans ceux qui les
+                        écoutent. Quel aveuglement dans de telles meres ! N’auroient elles donc
+                        donné à leurs filles la vie du corps, que pour leur en ôter une autre
+                        infiniment plus précieuse ? Se <pb n="35" xml:id="p35"/>repentiroient-elles
+                        de les avoir consacrées à Dieu sur les Fonts sacrés ? Voudroient-elles les
+                        immoler au démon ? <quote><hi rend="i">Immolaverunt filios suos &amp;c
+                                filias suas dæmoniis.</hi></quote></p>
+                    <p>Mais n’outrons nous point les choses ? N’en est-il point parmi les
+                        Spectateurs qui n’aye pas éprouvé ces funestes effets du Théatre ? Sans
+                        doute que ses partisans l’attesteront. Il y a longtems qu’ils cherchent à se
+                        couvrir de ce faux prétexte. Qu’il est à craindre que de tels hommes ne
+                        soient insensibles aux plaies que leur fait le Spectacle, que parce qu’ils
+                        sont tout cangrenés ? Qu’il est à appréhender qu’ils ne sentent plus le
+                        poids de l’eau, parce qu’ils y sont entiérement plongés ? Connoit-on toute
+                        l’impétuosité d’un fleuve, quand on se laisse aller à son cours ?</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">XVI.</head>
+                    <head type="main">Efficace de la séduction des Spectacles.</head>
+                    <p>Que de tels hommes seroient privilégiés si leur corruption ou leur amour
+                        propre ne leur cachoient pas leurs maux ! Que leur sort seroit à envier !
+                            <note place="margin"><hi rend="i">I. Cor.</hi> 9. 27.</note>S. Paul
+                        châtie son corps, le dompte, le réduit en servitude, &amp; malgré ces
+                        préservatifs, il éprouve la révolte des sens ; <note place="margin"><hi
+                                rend="i">II. Cor.</hi> 17. 12.</note>&amp; eux formés d’un même
+                        limon, y sont inaccessibles dans le temple même de la Volupté ! Le feu impur
+                        perce jusques dans les <pb n="36" xml:id="p36"/>déserts ; sa chaleur se fait
+                        sentir dans les retraites les plus profondes ; &amp; eux nouveaux prodiges,
+                        au milieu de la licence du Spectacle, ouvrant leurs oreilles &amp; leurs
+                        yeux à des paroles, à des objets qui blessent la pudeur, n’en reçoivent pas
+                        la moindre impression ! Qui pourra les en croire ?</p>
+                    <p>D’ailleurs le venin de la Comédie ne vient pas toujours à grands flots. Il
+                        s’insinue quelque fois comme goute à goute. Les chûtes de l’ame sont
+                        longues, elles ont des préparations &amp; des progrès. On ne devient pas
+                        tout à coup méchant. On a le mal dans le sang &amp; dans les entrailles,
+                        avant qu’il se déclare par la fiévre. En l’affoiblissant peu à peu, on se
+                        met dans un danger évident de tomber, &amp; ce grand affoiblissement est
+                        lui-même un commencement de chûte.</p>
+                    <quote>
+                        <p><note place="margin"><hi rend="i">Tr. de la Comédie, ch.</hi>
+                            1.</note>« La parole de Dieu, dit M. Nicole, qui est la semence de la
+                            vie, &amp; la parole du diable qui est la semence de la mort, ont cela
+                            de commun qu’elles demeurent souvent longtems cachées dans le cœur sans
+                            produire aucun effet sensible… Le diable se contente quelquefois de
+                            remplir la mémoire des images (du spectacle) sans passer plus avant,
+                            &amp; sans en former encore aucune <pb n="37" xml:id="p37"/>tentation
+                            sensible : mais ensuite après un long tems, il les excite &amp; les
+                            réveille sans même qu’on se souvienne comment elles y sont entrées, afin
+                            de leur faire porter des fruits dignes de mort, <note place="margin"><hi
+                                    rend="i">Rom.</hi> 7. 5.</note><quote><hi rend="i">ut
+                                    fructificent morti.</hi></quote>.</p>
+                        <p>« On peut donc dire à ceux qui se vantent que la Comédie &amp; les
+                            Romans, (tout ce qui a été dit jusqu’à présent de l’une, peur
+                            s’appliquer aux autres,) n’excitent pas en eux la moindre mauvaise
+                            pensée, qu’ils attendent un peu, le diable saura bien prendre son tems,
+                            quand il en trouvera l’occasion favorable. Peut-être que les tenant
+                            attachés par d’autre liens, il néglige de se servir de ceux-là qui sont
+                            plus visibles : mais s’il en a besoin pour les perdre, il ne manquera
+                            pas de les employer.</p>
+                    </quote>
+                    <p>Quelle foule de motifs plus décisifs les uns que les autres pour convaincre
+                        les partisans du Théâtre qu’ils ne sont point inaccessibles à la vapeur
+                        empoisonnée qui s’exhale de la sçène ! Mais supposons-le pour un moment,
+                        seront-ils pour cela innocens ? N’y a-t’il pas d’autres maux dont ils sont
+                        coupables ?</p>
+                    <quote>
+                        <p><note place="margin"><hi rend="i">Serm.</hi> 37. <hi rend="i">sur S.
+                                    Matth.</hi></note>« N’est-ce pas un assez grand mal, leur crie
+                            S. Chrisostôme, que d’employer si inutilement un si longtems, <pb n="38"
+                                xml:id="p38"/>d’être aux autres un sujet de scandale ? quand vous ne
+                            seriez pas blessé de ces représentations infâmes, n’est-ce rien que d’y
+                            attirer les autres par votre exemple ? Comment donc êtes-vous innocens,
+                            puisque vous êtes coupables du crime des autres ? Tous les désordres que
+                            causent parmi le peuple ces hommes corrompus, ces femmes prostituées
+                            &amp; toute cette troupe diabolique qui monte sur le théatre, tous ces
+                            désordres, dis-je, retombent sur vous : car s’il n’y avoir point de
+                            spectateurs, il n’y auroit point de Spectacles ni de Comédie. Ainsi tant
+                            ceux qui les représentent, que ceux qui les voyent, s’exposent au feu
+                            éternel. C’est pourquoi quand même vous seriez assez chastes pour n’être
+                            point blessés par la contagion de ces lieux, ce que je crois impossible,
+                            vous ne laisserez pas d’être sévérement puni de Dieu, comme étant
+                            coupables de la perte de ceux qu vont voir ces folies, &amp; de ceux qui
+                            les représentent sur le Théâtre.</p>
+                    </quote>
+                    <p>Une telle autorité, des motifs aussi pressans sembleroient devoir réduire
+                        pour toujours au silence les deffenseurs du Théâtre. Que pourroient-ils <pb
+                            n="39" xml:id="p39"/>répliquer qui ne soit réfuté d’avance ? Ils
+                        prendroient sans doute ce parti, si leurs passions ne s’y trouvoient point
+                        intéressées. Mais dès qu’il s’agit, dit S. Cyprien, de perdre quelque chose
+                        des intérêts &amp; des plaisirs du siécle, quelque ignorant qu’on soit, on
+                        est toujours assez habile à trouver des raisons pour s’en deffendre.
+                        Ecoutons donc leurs difficultés, il ne sera pas difficile de les lever.</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">XVII.</head>
+                    <head type="main">On y risque tout par une seule assistance.</head>
+                    <p>Ces principes, commencent-ils à dire, condamnent avec justice ceux en qui
+                        l’assistance aux Spectacles a dégénéré en habitude ; mais ils n’ont point
+                        d’application à ceux qui n’y vont que rarement, une fois en passant, &amp;
+                        par pure complaisance. Où est leur crime ?</p>
+                    <p>Ce seroit indubitablement porter les choses à l’excès, que de les juger aussi
+                        coupables les uns que les autres. Il est évident qu’il n’y a pas le même
+                        degré de passion pour le Théatre. Mais les derniers sont-ils innocens ?
+                        C’est ce qu’il ne nous paroît pas raisonnable de demander.</p>
+                    <p>Quoi ! des Chretiens autorisent par leur présence une profession réprouvée
+                        par l’Eglise ! Ils deviennent un sujet de chûte pour leurs freres encore
+                        foibles ! <pb n="40" xml:id="p40"/>Ils étouffent des remords trop fondés par
+                        leur exemple, qui sera d’autant plus contagieux que leur vertu sera regardée
+                        dans le monde comme plus pure, contre l’ordre exprès de J. C. <note
+                            place="margin"><hi rend="i">Matth. c.</hi> 5. <hi rend="i">v.</hi> 29.
+                            30.</note>qui leur prescrit de couper une main, d’arracher un œil qui
+                        leur sont une occasion de scandale. Ils se trouvent dans celles qui sont les
+                        plus propres à leur porter les coups les plus mortels ; à rouvrir des plaies
+                        qui avoient été longtems à se fermer, &amp; on demande froidement s’ils sont
+                        coupables !</p>
+                    <p>Leur est-il donc permis de se jetter eux-mêmes dans un danger si évident ?
+                        Leur est-il permis d’ignorer qu’<note place="margin"><hi rend="i">Prov.</hi>
+                            6. 28.</note><quote><hi rend="i">on ne marche point sur des charbons
+                                ardens sans se brûler la plante des pieds</hi></quote> ; &amp; que
+                            <note place="margin"><hi rend="i">Eccli.</hi> 3. 27.</note><quote><hi
+                                rend="i">celui qui aime le péril y périra</hi></quote> ? L’exemple
+                        seul d’Alipe ne doit-il pas instruire &amp; faire frémir ces chrétiens trop
+                        complaisans, s’ils ont quelqu’amour pour leur salut ?</p>
+                    <quote>
+                        <p><note place="margin"><hi rend="i">Conf. L.</hi> 6. <hi rend="i">c.</hi>
+                                3.</note>« Entrainé par ses amis à l’amphitéatre Vous pouvez<seg
+                                type="exquote">, leur dit Alipe,</seg> faire violence à mon corps
+                            &amp; me placer parmi vous ; mais vous ne disposerez pas de mon esprit
+                            ni de mes yeux, qui ne prendront assurément aucune part au spectacle.
+                            Ainsi j’y serai comme n’y étant point, &amp; par ce moyen <pb n="41"
+                                xml:id="p41"/> je me mettrai tout à la fois au-dessus de la violence
+                            que vous me faites, &amp; de la passion qui vous posséde.</p>
+                    </quote>
+                    <p>Les dispositions de nos chrétiens si complaisans ne sont assurément ni si
+                        grandes ni si généreuses. Qu’arriva-t’il cependant ? On plaça Alipe à
+                        l’Amphithéâtre ; il défend à son cœur de prendre part à ces plaisirs
+                        criminels. Il se tient les yeux fermés. Un grand cri se fait entendre &amp;
+                        frappe ses oreilles ; la curiosité l’emporte ; il ne veut que voir ce qui se
+                        passe ; il se persuade que, quoi que puisse être, il s’en détournera &amp;
+                        le méprisera : <note place="margin"><hi rend="i"
+                            >Ibid.</hi></note><quote>« il ouvre donc les yeux, dit S. Augustin dont
+                            ce récit est tiré, &amp; c’en fut assez pour faire à son cœur une plaie
+                            bien plus mortelle que celle qu’un des combattans venoit de recevoir….
+                            Ce fut par-là que son cœur, où il y avoit bien plus de présomption que
+                            de force, &amp; qui étoit d’autant plus foible, qu’il avoit compté sur
+                            lui-même, au lieu de ne rien attendre que de vous, ô mon Dieu, se trouva
+                            blessé tout d’un coup. La cruauté s’y glissa dans le même moment que le
+                            sang qu’on venoit de répandre frappa ses yeux. Bien loin de les
+                            détourner de ce qui <pb n="42" xml:id="p42"/>se passoit, il les y tint
+                            attachés ; buvant la fureur à longs traits, sans s’en appercevoir, &amp;
+                            se laissant emporter à ce plaisir barbare &amp; criminel. Ce n’est plus
+                            le même homme, continue ce Pere, qu’on avoit traîné par la force : c’est
+                            un homme de même trempe que tous ceux qui faisoient la foule dans
+                            l’Amphitheâtre, &amp; un digne compagnon de ceux qui l’y avoient mené.
+                            Le voila attaché au Spectacle comme les autres ; mêlant ses cris avec
+                            les leurs ; s’échauffant &amp; s’intéressant comme eux à ce qui se
+                            passoit. Enfin il sortit de là avec une telle ardeur pour les
+                            Spectacles, qu’il ne respiroit plus autre chose ; &amp; non seulement il
+                            étoit prêt d’y retourner avec ceux qui l’y avoient amené, mais qu’il en
+                            étoit plus entêté qu’aucun, &amp; qu’il y menoit les
+                        autres. »</quote></p>
+                    <p>Que ne dit point un tel exemple à quiconque craint sérieusement d’offenser
+                        Dieu, &amp; de donner la mort à son ame ? Regardera t-on désormais comme
+                        l’effet d’un zele outré les descriptions vives que nous avons faites de
+                        cette foule de dangers qu’on court aux Spectacles ? Nos allarmes
+                        étoient-elles vaines ? Le cœur est-il impénétrable <pb n="43" xml:id="p43"
+                        />aux attraits empoisonnés qui partent du Théâtre ? Qui s’y croira en sureté
+                        en voyant tomber sous ses yeux un homme que ses dispositions sembloient
+                        devoir garantir de toute chûte ? Eh ! qu’on ne dise point ici que les
+                        Spectacles anciens étoient bien différens des nôtres ; Que ceux-ci sont
+                        aussi humains &amp; décens, que ceux-là étoient cruels &amp; sanguinaires.
+                        Cela est vrai : mais l’exemple proposé n’en est que plus frappant. Quoi !
+                        Alype tombe à la vue d’un Spectacle qui ne présente rien que d’affreux &amp;
+                        de révoltant ; &amp; on prétendroit ne pas même chanceler au milieu de
+                        Spectacles qui n’offrent rien que de séduisant, &amp; ce qu’il y a de plus
+                        capable d’irriter les penchans d’une nature corrompue ?</p>
+                    <p>L’argument est pressant. Nous en convenons, diront les partisans de la
+                        Comédie. Il faut cependant qu’il ne soit pas si décisif que vous le
+                        prétendez, puisque les loix autorisent les Spectacles. S’ils étoient si
+                        mauvais, elles ne les toléreroient pas. Nous ne répondrons pas nous-mêmes à
+                        cet objection. Il faut leur opposer une autorité universellement respectée.
+                        C’est celle du célébre Evêque de Meaux, dont <pb n="44" xml:id="p44"/>nous
+                        avons déja fait tant d’usage contre eux.</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">XVIII.</head>
+                    <head type="main">Autorité des loix.</head>
+                    <quote>
+                        <p><note place="margin">2.<hi rend="i">9.</hi> 3.<hi rend="i">d.</hi> 3. <hi
+                                    rend="i">ad</hi> 3. <hi rend="i">q</hi>. 96. 2. <hi rend="i"
+                                    >c.</hi>
+                                <hi rend="i">Pag.</hi>
+                                <hi rend="i">622.</hi></note>« S. Thomas, répond ce grand homme, a
+                            décidé que les loix humaines ne sont pas tenues à réprimer tous les
+                            maux, mais seulement ceux qui attaquent directement la société <note
+                                place="margin"><hi rend="i">Ep. ad Aur.</hi> 22. <hi rend="i"
+                                    >N.</hi> 5.</note><quote><hi rend="i">L’Eglise</hi><seg
+                                    type="exquote">, dit S. Augustin,</seg>
+                                <hi rend="i">n’éxerce la sévérité de ses censures que sur les
+                                    pécheurs dont le nombre n’est pas grand.</hi> <hi rend="sc"
+                                    >Severitas exercenda estin peccata paucorum.</hi></quote> C’est
+                            pourquoi elle condamne les Comédiens, &amp; croit par-là déffendre assez
+                            la Comédie. La décision en est précise dans les Rituels ; la pratique en
+                            est constante. On prive des Sacremens &amp; à la vie &amp; à la mort
+                            ceux qui jouent la Comédie, s’ils ne renoncent à leur art. On les passe
+                            à la sainte Table comme des pécheurs publics : on les exclud des ordres
+                            sacrés comme des persones infâmes : par une suite infaillible la
+                            sépulture Ecclésiastique leur est déniée.</p>
+                        <p>« Quant à ceux qui fréquentent les Comédies, comme il y en a de moins
+                            coupables les uns que les autres, &amp; peut-être quelques-uns qu’il
+                            faut plutôt instruire que blâmer, ils ne sont pas répréhensibles en même
+                            dégré, &amp; <pb n="45" xml:id="p45"/>il ne faut pas fulminer également
+                            contre tous : mais de-là il ne s’ensuit pas qu’il faille autoriser les
+                            périls publics. Si les hommes ne les apperçoivent pas, c’est aux Prêtres
+                            à les instruire, &amp; non pas à les flatter.</p>
+                        <p>« Dès le tems de S. Chrisostôme les deffenseurs des Spectacles <note
+                                place="margin"><hi rend="i">Hom.</hi> 38. <hi rend="i">in
+                                    Matth.</hi></note><quote><hi rend="i">crioient que les
+                                    renverser, c’étoit renverser les loix</hi></quote>. Mais ce Pere
+                            sans s’émouvoir, disoit au contraire que l’esprit des loix étoit opposé
+                            aux Théâtres. Nous avons maintenant à leur opposer quelque chose de plus
+                            fort, puisqu’il y a tant de Décrets publics contre la Comédie, que
+                            d’autres que moi ont rapportés. Si la coutume l’emporte, si l’abus
+                            prévaut, ce qu’on en pourra conclurre, c’est que la Comédie doit être
+                            rangée parmi les maux dont un célébre Historien a dit, qu’on les deffend
+                            toujours, &amp; qu’on les a toujours.</p>
+                        <p>« Mais après tout, quand les loix civiles autoriseroient la Comédie ;
+                            quand au lieu de flétrir comme elles ont toujours fait, les Comédiens,
+                            elles leur auroient été favorables : tout ce que nous sommes de Prêtres,
+                            nous devrions imiter l’exemple des Chrisostôme<note place="margin"><hi
+                                    rend="i">Chrysost. Hom.</hi> 17. <hi rend="i">in
+                                Matth.</hi></note> &amp; des Augustin<note place="margin"><hi
+                                    rend="i">Aug. Ep.</hi> 24. <hi rend="i">ad Maced.</hi></note>.
+                            Pendant que <pb n="46" xml:id="p46"/>les loix du siécle qui ne peuvent
+                            pas déraciner tous les maux, permettoient l’usure &amp; le divorce, ces
+                            grands hommes disoient hautement, que si le monde permettoit ces crimes,
+                            ils n’en étoient pas moins réprouvés par la loi de l’Evangile ; que
+                            l’usure qu’on appelloit légitime, parce qu’elle étoit autorisée par les
+                            loix Romaines, ne l’étoit pas selon celles de J. C. &amp; que les loix
+                            de la Cité sainte &amp; celles du monde étoient différentes.</p>
+                    </quote>
+                    <p>Un texte si précis doit déconcerter les apologistes de la Comédie. Il leur
+                        enleve leur ressource favorite. Il les dépouille de la protection si vantée
+                        des loix de l’Etat, pour les livrer à la sévérité de celles de l’Eglise,
+                        &amp; les engager par-là à renoncer à des divertissemens si criminels. Et
+                        comment les loix civiles pourroient elles autoriser le Théatre qui jette le
+                        trouble par tout, souffle le feu de l’impureté dans les jeunes gens, &amp;
+                        le réveille dans les vieillards ? L’opprobre des familles, la discorde dans
+                        les maisons, les larcins, les jalousies, les meutres ne sont-ils pas les
+                        suites funestes des passions qu’il excite ? Mais tirons le rideau sur ces
+                        infamies ; &amp; qu’il nous suffise d’avoir dit que ce fut <pb n="47"
+                            xml:id="p47"/>pour ces raisons que S. Louis chassa les Comédiens de son
+                        Royaume.</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">XIX.</head>
+                    <head type="main">Prétexte frivole du délassement.</head>
+                    <p>Voudroit-on encore faire un dernier effort pour soutenir le Théâtre, &amp;
+                        prétendre que la nécessité où nous sommes de prendre quelque délassement le
+                        rend permis ? Il faut que la cause des Spectacles soit bien désespérée,
+                        puisqu’on a recours à de tels moyens pour la deffendre. Qui doute qu’il ne
+                        soit nécessaire de détendre quelquefois son esprit ; qu’il n’y ait des
+                        plaisirs, des jeux innocens ? Mais de-là faut-il conclure, que la Comédie,
+                        qui est un amusement criminel, est permise ? Quelle conséquence ! Qu’elle
+                        est étrange ! N’est-il pas visible que les passions seules l’ont dictée !
+                        Que ne dit-on aussi : il est permis de manger, donc il est permis de
+                        s’empoisonner ; la conséquence sera aussi juste.</p>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">XX.</head>
+                    <head type="main">Exemples de pratique.</head>
+                    <p>Qu’elle honte pour des disciples de J. C. de mettre au rang des
+                        divertissemens permis, des plaisirs qui ont été réprouvés par des payens
+                        mêmes ! Les Spectacles n’ont pû pénétrer chez les Romains, dans les heureux
+                        tems de la République <note place="margin"><hi rend="i">S. Aug. de Civ. Dei,
+                                cap.</hi> 13.</note><quote><hi rend="i">Illas theatricas artes diù
+                                virtus Romana non noverat.</hi></quote> Platon les condamne
+                        hautement. <note place="margin"><hi rend="i">De Republ. Lib.</hi>
+                            2.3.</note><quote><hi rend="i">Nous ne recevons point</hi><seg
+                                type="exquote">, dit-il,</seg>
+                            <hi rend="i">la Tragédie, ni la <pb n="48" xml:id="p48"/>Comédie dans
+                                notre ville.</hi></quote> Il arrache au Théâtre ses Acteurs. Il
+                        craint que l’<hi rend="i">imitation</hi> des passions qu’ils réprésentent
+                                <quote><hi rend="i">ne les améne insensiblement à la même
+                            chose</hi></quote>. Il en chasse les Spectateurs, en les avertissant,
+                        que <note place="margin"><hi rend="i">ibid</hi></note><quote><hi rend="i">ce
+                                genre de Poësie voluptueuse est seul capable de corrompre les plus
+                                gens de bien ; parce que n’excitant que la colére ou l’amour, ou
+                                quelqu’autre passion, elle arrose de mauvaises herbes, qu’il falloit
+                                laisser entiérement dessécher</hi></quote>. Est-ce un Payen qui
+                        parle ici ? &amp; sont-ce des Chrétiens qui veulent qu’on mette au nombre
+                        des plaisirs permis un amusement que ce Philosophe leur démontre être si
+                        criminel ?</p>
+                    <p>Mais puisqu’il leur faut des Spectacles, il est juste de leur en présenter.
+                            <note place="margin"><hi rend="i">S. Aug. de Civit. Dei c.</hi>
+                            31.</note>Montrons-leur la République Romaine abattant de ses propres
+                        mains, sur les représentations fortes &amp; pressantes de Scipion Nasica, le
+                        Théâtre qu’elle avoit fait construire. Montrons-leur de nos jours les
+                        Magistrats de Burgos<note n="*" place="margin">Ville d’Espagne</note>,
+                        touchés par un excellent Ouvrage contre les Spectacles, &amp; ordonnant la
+                        destruction de leur Théâtre qui avoit coûté vingt mille Ducats<note n="*"
+                            place="margin">Le Ducat d’or vaut environ dix livres dix sols de notre
+                            monnoie.</note>. Montrons-leur enfin les Quinault &amp; les Racine
+                        pleurants leurs Opera &amp; leurs Tragédies, &amp; déplorant <pb n="49"
+                            xml:id="p49"/>des égaremens dont ils auroient voulu qu’il ne restât pas
+                        la moindre trace. Le renversement des Théâtres, la pénitence de ses freres,
+                        la destruction de l’empire du démon, &amp; l’établissement de celui de J. C.
+                        voilà les plaisirs, voilà les Spectacles des Chrétiens.</p>
+                    <p><note place="margin">Conclusion</note>Que nous nous estimerions heureux, s’il
+                        plaisoit à Dieu de répandre sur ce petit Ecrit, la bénédiction qu’il a donné
+                        à l’ouvrage de Dom Ramire-Cayorcy Fonséca, qui a fait une impression si vive
+                        sur la ville de Burgos. Le zéle seul pour le salut de nos concitoyens, nous
+                        l’a fait entreprendre. Connoissant leur respect pour l’Evangile, &amp; leur
+                        amour pour J. C. nous avons crû que pour les engager à abandonner les
+                        Spectacles, il n’y avoit point de moyen plus sûr que de leur faire voir
+                        l’opposition décidée entre les maximes de la Comédie &amp; celles de leur
+                        Libérateur ; qu’elle réveille, nourrit, &amp; porte à la révolte des
+                        passions qu’il est venu dompter. Que n’avons-nous point à attendre de leur
+                        amour pour le bien ? Leur piété une fois éclairée leur permettra-t-elle
+                        d’hésiter dans le choix entre le Théâtre &amp; l’Evangile ? C’est ce que
+                        nous ne pouvons croire, &amp; c’est la faveur précieuse <pb n="50"
+                            xml:id="p50"/>que nous ne cesserons de demander au Pere des lumieres, de
+                            <note place="margin"><hi rend="i">Ep. de S. Jacq. Chap.</hi> 1. <hi
+                                rend="i">v.</hi> 17.</note><quote><hi rend="i">qui toute grace
+                                excellente &amp; tout don parfait descend</hi></quote>.</p>
+                    <p/>
+                    <p><hi rend="i">Nota pour la page 30</hi>. On convient assez que chaque
+                        Représentation produit aux Comédiens aux environs de 150 livres, ce qui fait
+                        près de 600. livres par semaine, &amp; 2400. livres par mois ; de façon que
+                        s’ils restent ici un an, ils emporteront aux environs de dix mille écus :
+                        somme exorbitante pour la ville. Auroit-elle besoin de quelque chose de plus
+                        pour nourrir tous ses pauvres ? De là il est aisé de juger quelles sont les
+                        sommes que ces hommes <hi rend="i">infâmes</hi> gagnent dans les grandes
+                        Villes du Royaume, &amp; si on a tort de dire qu’elles sont <hi rend="i"
+                            >immenses</hi>.</p>
+                    <trailer rend="i">FIN</trailer>
+                </div2>
+            </div1>
+            <div1 type="privilege">
+                <head>APPROBATION</head>
+                <p><hi rend="big">N</hi><hi rend="sc">ous</hi> soussignés Docteurs de la Maison
+                    &amp; Société de Sorbonne, avons lû le présent Ecrit sur la Comédie, dans lequel
+                    nous n’avons rien trouvé que de conforme à la foi de l’Eglise &amp; aux régles
+                    de la Morale Chrétienne. Nous le jugeons propre à édifier les Fidéles, &amp; à
+                    les détourner des Spectacles. Fait à Auxerre ce cinq Décembre 1754.</p>
+                <signed>CHEVALLIER, Chanoine &amp; Pénitencier de l’Eglise d’Auxerre.</signed>
+                <signed>TOUVENOT, Chanoine &amp; Théologal d’Auxerre.</signed>
+                <dateline><hi rend="i">Permis d’imprimer à Auxerre, ce cinq Décembre 1754.
+                        BAUDESSON.</hi></dateline>
+            </div1>
+            <div1 type="appendix">
+                <pb n="51" xml:id="p51"/>
+                <head>MANDEMENT <hi rend="sc"> du Chapitre d’Auxerre, Touchant la
+                    Comédie.</hi></head>
+                <p><hi rend="big">L</hi><hi rend="sc">es</hi> Chanoines &amp; Chapitre de l’Eglise
+                    d’Auxerre, au Clergé Séculier &amp; Régulier, &amp; à tous les Fidéles de la
+                    Ville &amp; Faux-bourgs d’Auxerre, <hi rend="sc"> Salut. </hi></p>
+                <p>Nous apprenons, N. T. C. F. avec la plus vive douleur, le scandale qui vient de
+                    paroître dans cette Ville, par le séjour d’une Troupe de Comédiens ; de ces
+                    hommes pervers, qui n’emploient leurs talens qu’à corrompre les cœurs, &amp; à
+                    répandre le poison dont ils sont infectés. Ils n’ont pas même respecté les
+                    portes de nos Eglises. Ils ont osé y afficher le jour &amp; l’heure de leurs
+                    criminels Spectacles.</p>
+                <p>L’Eglise qui les regarde comme la plus funeste yvraie, que l’homme ennemi ait
+                    jettée dans le champ du Pere de famille, n’attend pas le tems de la moisson,
+                    pour les séparer de sa Communion. Dans les instructions qu’elle vous adresse au
+                    milieu de la célébration des Saints Mystéres, elle les déclare <pb n="52"
+                        xml:id="p52"/>exclus de tous ses biens spirituels, de ses priéres &amp; de
+                    ses Sacremens. C’est ce que porte expressément le Rituel de ce Diocèse. Après
+                    avoir associé les Farceurs, Bateleurs &amp; Comédiens, aux Magiciens, aux
+                    Devins, aux Usuriers publics, aux Simoniaques, aux Hérétiques dénoncés, &amp;
+                    aux Schismatiques ; il ajoute : <quote><hi rend="i">Toutes ces personnes
+                            demeureront excommuniées, jusqu’à ce qu’elles rentrent en elles-mêmes,
+                            &amp; qu’elles reconnoissent l’énormité de leurs crimes, &amp; qu’elles
+                            en demandent l’absolution à l’Eglise.</hi></quote></p>
+                <p>La fermeté avec laquelle feu M. de Caylus s’étoit opposé à leurs entreprises, les
+                    avoit constament banni de sa Ville épiscopale. Quelques tentatives qu’ils aient
+                    employées, l’autorité de son ministére sacré, &amp; son crédit auprès des
+                    Puissances, furent toujours une barriére que tous leurs efforts ne pûrent
+                    franchir. Il semble aujourd’hui qu’ils veulent profiter de nos malheurs. Ils
+                    saisissent le tems où notre Eglise dans le deuil pleure la perte d’un pere
+                    également tendre &amp; vigilant ; &amp; la voyant encore dans la viduité, ils se
+                    hâtent de prévenir ce qu’ils auroient à craindre du zéle &amp; de la piété de
+                    son Successeur.</p>
+                <p>Pour nous, N. T. C. F. dépositaires <pb n="53" xml:id="p53"/>de la même autorité,
+                    nous ne devons point nous borner à gémir dans le secret. Nous devons élever
+                    notre voix, &amp; faire tous nos efforts pour réprimer ces désordres. De quelle
+                    confusion ne ferions-nous pas couverts à la face de cette Eglise, &amp; aux yeux
+                    de l’illustre Pontife que nous attendons, si l’on pouvoit reprocher à notre
+                    gouvernement un silence si criminel ? Nos prédécesseurs en pareille circonstance
+                    ont refusé de faire une Procession générale, jusqu’à ce que le théatre fut
+                    renversé &amp; les Comédiens chassés.</p>
+                <p>Nous n’entrerons pas dans le détail de tous les motifs, qui doivent vous inspirer
+                    une sainte horreur des spectacles &amp; en particulier de la Comédie. Ils ont
+                    été développés non-seulement par les Théologiens les plus sages &amp; les plus
+                        éclairés<note n="*" place="margin">MM. Bossuet Evêq. de Meaux, Nicole,
+                        &amp;c.</note> ; mais encore par un Prince aussi grand par sa piété &amp;
+                    ses vertus, que par son auguste naissance<note n="**" place="margin">M. le
+                        Prince de Conty.</note>. Nous nous reposons avec une entiére confiance sur
+                    la vigilance de vos Pasteurs. Soyez assidus à vos paroisses, &amp; vous y
+                    recevrez toutes les instructions, dont vous avez besoin sur une matiére, qui
+                    devient l’objet de leur zéle. Ils vous découvriront les piéges que l’on tend par
+                        <pb n="54" xml:id="p54"/>les Spectacles aux chrétiens imprudens. Ils
+                    léveront le masque séducteur, sous lequel les vices prétendent cacher leur
+                    difformité. Ils prouveront que le but de cet art funeste est de faire naître
+                    &amp; d’émouvoir les passions dans les ames innocentes ; &amp; d’excuser le
+                    crime dans ceux qui y sont livrés : en un mot d’autoriser, &amp; même de
+                    canoniser tout ce qui est condamné par l’Evangile. Ces dignes Pasteurs
+                    détruiront tous les prétextes, par lesquels on prétend justifier ces prophanes
+                    amusemens. Ils feront voir que les spectateurs ne s’y intéressent qu’autant
+                    qu’ils ressentent &amp; qu’ils éprouvent en quelque sorte les passions
+                    criminelles qui leur sont représentées. Enfin joignant le poids de l’autorité à
+                    la solidité des raisonnemens, ils vous démontreront que ces sortes de
+                    représentations ont été regardées par tous les Saints Peres comme un reste de
+                    Paganisme, le levain d’un culte sacrilége, &amp; une école d’impureté.</p>
+                <p>Souvenez-vous, N. T. C. F. des vœux solemnels, que vous avez faits à Dieu dans
+                    votre batême. Vous avez promis à la face des saints Autels de renoncer au démon
+                    &amp; à ses pompes, &amp; de vous attacher à J. C. C’est par-là <pb n="55"/>que
+                    vous êtes Chrétiens. L’assistance aux spectacles n’est-elle pas un désaveu de
+                    vos engagemens ? Oseroit-on la rapporter à Dieu ? &amp; si dans l’yvresse des
+                    amusemens &amp; des plaisirs on étouffe tous les remords de la conscience, ne
+                    doit-on pas craindre qu’ils ne se réveillent &amp; qu’ils ne deviennent plus
+                    cuisans, mais trop tard, à l’heure de la mort ? La Comédie est un des moyens que
+                    le Démon emploie avec plus de succès pour retenir ses esclaves &amp; en former
+                    de nouveaux. Le théatre est une chaire pestilencielle que cet esprit superbe a
+                    toujours opposé à la chaire de vérité. Cest là qu’il a établi son empire. Il a
+                    été forcé d’en convenir lui-même au tems de Tertullien. Une femme chrétienne
+                    étant allée au théatre, en revint possedée du démon. L’Exorciste lui demanda
+                    comment il avoit osé attaquer une Fidélle. Il répondit hardiment : J’ai eu
+                    raison, je l’ai trouvée chez moi. <quote><hi rend="i">In meo
+                        inveni.</hi></quote><note n="*" place="margin">Tertul. de Spect.
+                        cap. 26.</note>.</p>
+                <p>Nous vous dirons encore avec la liberté d’un saint Prophéte, &amp; plaise au ciel
+                    que ce soit avec le même succès : Vous ne pouvez servir deux maîtres. <quote><hi
+                            rend="i">Jusqu’à quand serez vous comme un homme qui boite des deux
+                            côtés</hi></quote><note n="**" place="margin">3. <hi rend="i">Reg</hi>
+                        18. 21.</note> ; adorant <pb n="56" xml:id="p56"/>tantôt le Seigneur, &amp;
+                    tantôt l’idole de la volupté ? Choisissez auquel des deux vous voulez
+                    appartenir. Si c’est au démon, allez vous mêler dans la foule de ses adorateurs.
+                    Il a son temple ouvert : ce sont les théatres, où il a élevé son thrône. Mais si
+                    c’est Dieu que vous avez choisi pour votre partage : si vous vous écriez avec
+                    Israël touché, converti : <hi rend="i">C’est le Seigneur, qui est le seul vrai
+                        Dieu</hi>, fuyez les assemblées d’iniquité, dont sa sainteté est offensée.
+                    Allez répandre votre ame en la présence de J. C. par de nouvelles protestations
+                    de consécration &amp; d’amour. Demandez-lui avec larmes qu’il ouvre les yeux de
+                    ces malheureuses victimes de Satan sur l’horreur de leur état. Forcez les,
+                    N. T. C. F. en défertant leurs spectacles impies, d’abandonner une profession,
+                    qui les met dans un état perpétuel de péché ; afin que frustrés des gains
+                    injustes, qu’ils se promettoient, ils travaillent pour subvenir à leurs besoins
+                    par des voies légitimes.</p>
+                <p>Enfin, N. T. C. F. ne prodiguez pas pour la perte de vos ames le superflu de vos
+                    biens, qui est le patrimoine des pauvres. Leurs besoins sont si pressans, leur
+                    nombre est si prodigieusement <pb n="57" xml:id="p57"/>multiplié, qu’il devroit
+                    vous engager jusqu’au sacrifice d’une partie de votre nécessaire. Dans une
+                    année, où la main de Dieu vient de s’appesantir sur nous, en nous ôtant la
+                    récolte qui fait la principale ressource du païs : dans un tems de calamité, où
+                    nous ne devrions penser qu’à fléchir sa colére par des œuvres de pénitence,
+                    n’attirez pas par de nouveaux crimes, de nouveaux traits de vengeance.</p>
+                <p/>
+                <p>A ces causes, en nous conformant au Rituel, &amp; aux Ordonnaces Synodales de ce
+                    Diocèse, Nous ordonnons aux Curés, Confesseurs &amp; Prédicateurs de la Ville
+                    &amp; Faux-bourgs d’Auxerre, d’instruire en public &amp; en particulier, tous
+                    les Fidéles de l’un &amp; de l’autre sexe, de l’obligation où ils sont de
+                    s’abstenir de divertissemens si préjudiciables à leur salut ; &amp; de n’avoir
+                    aucune société avec des gens, que les loix ecclésiastiques &amp; civiles ont
+                    toujours regardés comme infâmes. Exhortons les ames pieuses de faire à Dieu,
+                    conjointement avec Nous, des priéres particuliéres, pour détourner sa colére,
+                    que ces sortes de scandales attirent ordinairement sur les villes. Et fera notre
+                    présent <pb n="58" xml:id="p58"/>Mandement lû aux Prônes des Messes de
+                    Paroisses, &amp; affiché par tout où besoin fera.</p>
+                <dateline>Donné à Auxerre en notre Chapitre le 15 Novembre 1754.</dateline>
+                <signed>HUET, Président du Chapitre.</signed>
+                <p/>
+                <p><hi rend="i">Par Ordonnance de mesdits sieurs</hi>,</p>
+                <signed><hi rend="i"><hi rend="sc">Pelart</hi> Chan. Secret.</hi></signed>
+            </div1>
+            <div1 type="appendix">
+                <pb n="59" xml:id="p59"/>
+                <head><hi rend="i">EXTRAIT</hi><hi rend="i"><hi rend="sc">Du Journal de
+                        Trevoux</hi> ;</hi> Mois d’Avril 1753. Art. XXXIX.</head>
+                <argument>
+                    <p><hi rend="sc">Triumpho sagrado de la Concientia</hi>. Ciencia divina del
+                        humano regocijo &amp;c. C’est-à-dire, <hi rend="i">Le triomphe sacré de la
+                            conscience, la science divine de se récréer, le bonheur des Peuples, des
+                            Villes, &amp; des Royaumes, marqué dans ces paroles célestes du Pseaume
+                            88. &amp;.</hi> 16. Beatus populus, qui scit jubilationem. <hi rend="i"
+                            >Ouvrage très-utile pour le bien des ames &amp; la direction sûre des
+                            consciences, composé par D. Ramir Cayorcy Fonseca Prêtre : imprimé à
+                            Salamanque l’an</hi> 1751. <hi rend="i">vol. in</hi> 4°. <hi rend="i"
+                            >p.</hi> 384.</p>
+                </argument>
+                <p/>
+                <p><hi rend="big">C</hi><hi rend="sc">e</hi> traité n’est que la réponse d’un
+                    Théologien à trois questions, qui font tout le plan de son Ouvrage. Tout y est
+                    rélatif à la Comédie considérée dans l’état où elle est aujourd’hui en Espagne.
+                    Dans ce genre de Spectacle qu’y a-t’il en soi de liçite ? 2°. Peut-on
+                    l’autoriser ? 3°. Quelle confiance peut-on prendre dans le suffrage du Docteur,
+                    dont on a inséré l’approbation dans une Edition des Œuvres de D. P. Calderon de
+                    la Barca ? Voilà les trois questions dont il s’agit.</p>
+                <p>Le but de l’Auteur dans cette controverse est de réfuter quelques décisions trop
+                    favorables à la Comédie : ainsi c’est un Docteur sévére, qui attaque des
+                    Docteurs rélâchés, ou <pb n="60" xml:id="p60"/>plûtot leur doctrine : car sa
+                    censure n’est point une satyre ; il est leur adversaire sans être leur ennemi ;
+                    en ruinant leur sentiment, il ne touche ni à leur personne, ni à leur
+                    intention.</p>
+                <p>Pour établir d’abord l’état de la question, D. Ramire distingue dans la Comédie
+                    son essence, &amp; ses accidens : dans son essence, rien d’absolument vicieux ;
+                    tout peut y être conforme aux régles de la plus exacte honnêteté, &amp; il n’est
+                    pas impossible que la composition &amp; la représentation d’une Comédie, n’ayent
+                    rien qui blesse la pudeur Chrétienne &amp; la morale Evangélique. Les accidens
+                    de la Comédie en sont l’appareil &amp; les accompagnemens, c’est à-dire, les
+                    Intermèdes, les Farces, les Danses, la Musique, l’air &amp; le jeu des Acteurs,
+                    le concours &amp; la disposition des Spectateurs. Ainsi la Comédie dans son
+                    essence, c’est la Comédie telle qu’elle devroit être, &amp; qu’elle ne fut
+                    jamais ; la Comédie avec ses accidens, c’est la Comédie telle qu’elle ne devroit
+                    pas être, &amp; telle qu’elle est toujours : car ce n’est que dans ces accidens,
+                    dans ces circonstances, qui accompagnent la Comédie, que notre Docteur trouve
+                    des vices, qui la lui font absolument réprouver lors même que le sujet &amp; la
+                    forme de la Piéce n’ont rien que de très-innocent.</p>
+                <p>Comme l’Auteur, non plus que ses adversaires, n’a pu se décider sur sa propre
+                    expérience, il leur offre de s’en rapporter à des témoins, qui ne peuvent leur
+                    être suspects, à ces ames timorées &amp; désabusées qui ont renoncé aux vanités
+                    &amp; aux pompes mondaines. Or tous ces témoins s’accordent à déposer contre la
+                    Comédie, tous la regardent comme une peste, au moins pour la jeunesse,
+                            <quote><hi rend="i">como peste por le <pb n="61" xml:id="p61"/>menos de
+                            la juventud</hi></quote>. D. Ramire se prévaut ici de l’approbation même
+                    qu’il réfute ; le Docteur qui l’a donnée, y fait des vœux pour obtenir aux
+                    Auteurs, aux Acteurs, &amp; aux Spectateurs une retenuë &amp; une décence, qui
+                    empêche d’interdire dans le Christianisme une recréation si <quote><hi rend="i"
+                            >indifferente</hi>,<seg type="exquote"> selon lui,</seg>
+                        <hi rend="i">aux Fidèles, si nécessaire aux Citoyens, &amp; si instructive
+                            pour tout le monde</hi></quote>. Une priére si fervente n’est-elle pas
+                    un aveu formel des abus, qui régnent dans les Spectacles qu’on protége ?</p>
+                <p>Pour prouver que la Comédie ne sçauroit être un spectacle aussi innocent que le
+                    prétendent ses défenseurs, D. Ramire remonte à son origine : ce qu’il en dit est
+                    trop connu pour nous y arrêter. Passons aux accidens, qui en font le vice &amp;
+                    le crime.</p>
+                <p>1°. Le concours des assistans. Ce ne sont pas les sages, qui y font la foule,
+                    c’est tout ce qu’il y a de plus vain, de plus frivole, de plus oisif, de plus
+                    libre dans les deux sexes. Est-ce-là une assemblée où l’on puisse se confondre
+                    sans scrupule &amp; sans péril ? N’est-ce pas plutôt un Théatre, où la vanité
+                    &amp; la galanterie étalent le luxe des modes profanes, &amp; déployent les
+                    ressorts de la coquetterie mondaine ? Point de <hi rend="i">riche taille</hi>,
+                    point de <hi rend="i">jeunes attraits</hi>, qui n’y viennent mesurer ou montrer
+                    leurs avantages avec une complaisance de mauvais augure.</p>
+                <quote>
+                    <l rend="i">Spectatum veniunt : veniunt spectentur ut ipsæ :</l>
+                    <l rend="i">       Iste locus casti damna pudoris habet.</l>
+                </quote>
+                <p>2°. Les Acteurs &amp; les Actrices. Leur vertu n’est rien moins que rigide. Leur
+                    parure n’est guères plus honnête que leur intention. Leur air n’annonce que trop
+                    leur caractère &amp; leur profession.</p>
+                <p><pb n="62" xml:id="p62"/>3°. Le sujet. C’est toujours quelque intrigue galante ou
+                    honteuse. Tout y tend à la séduction, messages secrets, billets furtifs, presens
+                    &amp;c. Rien n’est oublié pour tromper la vigilance des époux, des mères &amp;
+                    des domestiques.</p>
+                <p>4°. La representation. Sur la Scène on ne parle que de prison, de chaînes, de
+                    captivité ; on ne vit que de soupirs &amp; de larmes ; le Soleil, les astres,
+                    les fleurs les plus brillantes fournissent à peine des métaphores assez nobles ;
+                    on divinise son objet pour l’adorer, on encense ses Autels, &amp; on s’immole
+                    dans son Temple. Envie, jalousie, soupçons, haine, vengeance, dépit, rage,
+                    fureur, désespoir &amp;c. en un mot toutes les passions s’emparent du Théâtre.
+                    Pour se peindre, elles empruntent des couleurs allégoriques ; à l’ombre des
+                    allusions ingénieuses, sous le voile des équivoques fines, elles exhalent une
+                    contagion pestilente, elles canonisent jusqu’à leurs désordres. <quote><hi
+                            rend="i">Venena non dantur, nisi melle circumlita, &amp; vitia non
+                            decipiunt nisi sub specie, umbraque virtutum</hi></quote>, dit
+                        S. Jerôme<note n="*" place="margin"><hi rend="i">Ad Lat.</hi></note>.</p>
+                <p>Le Docteur Espagnol peint &amp; déplore ces scandales &amp; leurs ravages avec
+                    les couleurs &amp; les larmes de tous les SS. Peres : son zèle, comme le leur,
+                    se fonde sur l’Ecriture, qui nous ordonne de fermer les yeux dès qu’une femme
+                    folâtre paroît, de peur de tomber dans ses filets, &amp; qui nous avertit que
+                    les artifices d’une Actrice ou d’une Danseuse sont encore plus puissants pour
+                    nous perdre<note n="*" place="bottom"><quote>Ne respicias mulierem multivolam,
+                            ne forte incidas in laqueum illius. Cum Saltatrice ne assiduus sis, vel
+                            audias illam, ne pereas in efficaciâ ejus.</quote>
+                        <hi rend="i">Ecli. IX. 3.</hi></note>.</p>
+                <p>Nous ne faisons ici qu’éfleurer les raisons &amp; les autorités théologiques, que
+                    D. Ramire <pb n="63" xml:id="p63"/>accumule pour prouver sa thèse. En les
+                    développant, il se livre à un zéle dont les expressions sont plus simples
+                    qu’élégantes, les images plus vraies que délicates : c’est un Ecrivain qui songe
+                    plus à réformer des abus qu’à se faire une réputation. Il est naturel &amp;
+                    sincère dans son style comme dans la morale ; il cherche plus à persuader ses
+                    Lecteurs, qu’à les charmer. C’est pourquoi après l’essor qu’il permet à son
+                    zéle, il ne manque jamais de reprendre la méthode scholastique. Ainsi sa thèse
+                    prouvée, il se propose des objections, &amp; les résout. La premiére avec sa
+                    solution, est tirée de S. Chrisostome.</p>
+                <p>Les partisans des Spectacles disoient à ce Père : nous y assistons, sans en
+                    recevoir aucune impression : <quote><hi rend="i">Spectamus quidem sed nil
+                            movemur</hi></quote>, Ah ! reprenoit le S. Docteur, vous croyez-vous
+                    donc invulnérable, <quote><hi rend="i">Et tu putas non posse lædi ?</hi></quote>
+                    Etes-vous donc un rocher, <quote><hi rend="i">Numquid lapideus es ?</hi></quote>
+                    Vous êtes donc plus privilégié que Paul qui étoit toujours armé pour châtier
+                    &amp; dompter son corps ? Quoi ! les grottes de la Thébaïde n’ont pas toujours
+                    été pour l’innocence, des azyles inviolables ; &amp; vous au sein de la licence
+                    théatrale, vous seriez inacessible à la tentation ou impénétrable à cette vapeur
+                    empoisonnée, qui s’exhale de la Scène ?</p>
+                <p>Mais ce n’est pas à mauvaise intention qu’on va aux Spectacles : on n’y cherche
+                    qu’une honnête récréation. Pour montrer la fausseté de cette excuse, notre
+                    Théologien se sert des moyens &amp; des raisons les plus sensibles. Retranchons,
+                        <hi rend="i">dit-il</hi>, du Spectacle tout ce qui en fait le péril,
+                    aura-t’il alors les mêmes charmes pour récréer ? Si les Dames n’y trouvoient que
+                    des Acteurs &amp; des Spectateurs de leur sexe <pb n="64" xml:id="p64"
+                    />auroient-elles le même empressement à s’y rendre<note n="*" place="bottom"
+                                ><quote><hi rend="i">Si fueran tales las Companias, que solo hubiera
+                                Farsas de Mugeres para solas Mugeres sin que se permittera en ellas
+                                la mezela de estos dos sexos &amp;c.</hi></quote></note> &amp;c.
+                    Pour ne prendre qu’un honnête délassement à une Scène dont le jeu réunit tant
+                    d’objets si capables de faire des impressions contraires à l’honnêteté, quelle
+                    violence ne faut-il pas faire à ses sens &amp; à son imagination ! Quel plaisir
+                    peut-on donc trouver à se contraindre si fortement !</p>
+                <p>On a beau dire qu’on en sort sans blessure, on ne le persuadera jamais à
+                    S. Jérome qui proteste qu’il n’ajoute point foi à quiconque se porte pour
+                    n’avoir point été blessé de ces Spectacles : <quote><hi rend="i">Se nulli credere viro,
+                        si dicat se illasum evasisse à Spectaculis talium.</hi></quote> Dès qu’il s’agit,
+                    dit S. Cyprien, de perdre quelque chose des intérêts &amp; des plaisirs du
+                    Siécle, quelque ignorant qu’on soit, on est toujours assez habile à trouver des
+                    raisons &amp; des argumens pour s’en défendre : <quote><hi rend="i">quàm sapiens
+                        argumentatrix ignorantia humana, cùm aliquid ejusmodi de gaudiis &amp;
+                        fructibus saculi meruit amittere</hi></quote>. Tertullien va plus loin : quelque
+                    gracieux, <hi rend="i">dit-il</hi>, quelque simples, quelque honnêtes que
+                    paroissent ces accords, ces jeux de Théâtre, les impressions agréables qui en
+                    dérivent ne sont que les goutes d’un miel qui coule d’une liqueur
+                        empoisonnée<note n="*" place="bottom"><quote>Sint dulcia licet &amp; grata &amp;
+                        simplicia, &amp; etiam honesta, seu sonora, seu canora, seu subtilia,
+                        perindè habe ut stillicidia mellis de libaculo venenato.</quote></note>.</p>
+                <p>Nous ne croyons pas que la plûpart des Chrétiens assidus aux spectacles, puissent
+                    lire sans se sentir troublés &amp; allarmés, tout ce qu’un <pb n="65"
+                        xml:id="p65"/>zèle éclairé &amp; véhément dicte au Théologien Espagnol
+                    contre leur fausse sécurité. L’Ecriture &amp; les Peres lui fournissent toujours
+                    ses couleurs les plus vives, &amp; ses traits les plus pathétiques : il emprunte
+                    jusqu’au langage des Payens, pour faire sentir le danger aux Chrétiens qui s’y
+                    exposent. Le théâtre, leur dit-il, est un champ perfide ; pour être douces, les
+                    blessures qu’on y reçoit, n’en sont pas moins meurtriéres, <quote><hi rend="i"
+                        >pernicies delicata, &amp;c.</hi></quote> La vuë en eût-elle été innocente ; le
+                    souvenir ne le sera pas. N’y fît-on que perdre son tems, c’est toujours perdre
+                    le seul bien dont-il soit permis d’être avare : <quote><hi rend="i">Sola temporis
+                        avaritia laudabilis est.</hi></quote> Quel désordre ne porte pas dans une Ville
+                    l’arrivée &amp; le séjour d’une Troupe de Comédiens ! On en trouve ici de vives
+                    peintures tracées d’après les plus graves Auteurs. On ne revient point du
+                    Spectacle comme on y étoit allé ; l’innocence n’en sort point sans tache, ni le
+                    vice sans crime : <quote><hi rend="i">quos attulisti mores, numquam referes &amp;c.</hi></quote>
+                    Cel. Rod. 1. 8. c. 7.</p>
+                <p>Après avoir fait éclater son zéle en Orateur Chrétien, notre Auteur reprend le
+                    ton d’un profond moraliste, &amp; examine encore de plus près la nature de la
+                    Comédie : il recueille sur cette matiére les définitions des Docteurs les moins
+                    accusés de rigorisme, &amp; il en conclut que, si on ouvroit une école, dont
+                    l’affiche annonçât les leçons qu’on donne &amp; qu’on prend au théâtre, tous les
+                    Magistrats, &amp; tous les Citoyens jaloux des moeurs publiques, s’uniroient
+                    pour la fermer, &amp; pour en proscrire les maîtres pernicieux. L’Evangile &amp;
+                    le Théâtre opposés, leurs maximes contraires forment ici un contraste frappant,
+                    dont l’Auteur profite pour rappeller aux Chrétiens la sainteté de leur
+                    profession, &amp; surtout l’obligation où sont les pères &amp; mères d’instruire
+                    leurs enfans dans la <pb n="66" xml:id="p66"/>foi, de les former à la piété, de
+                    veiller sur leur innocence, &amp; d’en écarter tout ce qui peut la séduire &amp;
+                    la corrompre, soit en affoiblissant les attraits vertueux par le ridicule qu’on
+                    y attache ; soit en fortifiant les penchants vicieux par l’honneur qu’on en
+                    tire. Conduire ses fils &amp; ses filles aux spectacles, c’est les conduire aux
+                    autels des démons &amp; les y immoler : <quote><hi rend="i">immolaverunt filios suos
+                        &amp; filias suas damoniis.</hi></quote></p>
+                <p>Les défenseurs des Spectacles opposent à leurs adversaires l’autorité de S.
+                    Thomas, &amp; de quelques autres Docteurs très-respectables : c’est-là le plus
+                    fort de leurs retranchemens. D. Ramire le renverse sans peine &amp; il y trouve
+                    des armes, dont il se sert contre ses ennemis, avec le plus grand avantage. En
+                    effet ces Docteurs n’ont jamais permis que des spectacles, où la pudeur &amp; la
+                    décence Chrétienne ne peuvent rien apercevoir qui les allarme : ils ont
+                    anathématisé tout Théâtre, toute assemblée, qui pouroit donner la plus légère
+                    atteinte aux bonnes mœurs. Leurs textes, qu’on nous rapporte, sont si formels,
+                    qu’on ne conçoit pas comment on ose les citer en faveur des Spectacles. Ils
+                    n’approuvent donc la Comédie <hi rend="i">dans son essence</hi>, que pour la
+                    réprouver <hi rend="i">dans ses individus</hi>.</p>
+                <p>Ici le Théologien Espagnol reprend de nouvelles forces, il se met à la tête d’une
+                    légion innombrable de Docteurs ; il s’arme de canons &amp; de loix ; de Decrets
+                    pontificaux, &amp; d’Edits impériaux ; il s’en sert pour foudroyer les Partisans
+                    de la Comédie. A la vuë de tant de décisions, de censures, &amp; d’anathèmes,
+                    contre ce Spectacle, on ne peut s’empêcher de gémir sur l’endurcissement, ou
+                    l’aveuglement des Chrétiens, qui le fréquentent.</p>
+                <p>Pour rendre ces autorités aussi efficaces que <pb n="67" xml:id="p67"
+                    />convaincantes, D.R. y joint encore de ces grands traits d’éloquence, qui ont
+                    signalé le zéle des Basiles &amp; des Chrysostomes. C’est, nous disent-ils,
+                    c’est du Théâtre que la volupté assiége tous les sens du corps &amp; toutes les
+                    facultés de l’ame. De-là, elle soufle la licence parmi la jeunesse, elle
+                    réveille l’impudicité dans la vieillesse, elle jette le trouble dans les
+                    maisons, elle seme l’opprobre dans les familles. De-là, tant de séduction,
+                    d’adultères, de divorces, de brigandages, de larcins, de dépenses ruineuses
+                    &amp;c. S. Chrysostome en est si frappé, qu’il déclare, qu’il aimeroit mieux
+                    voir un Chrétien enfermé dans un cachot, qu’asfis au spectacle. Dans une prison,
+                    dit-il, il pourra faire des réflexions salutaires ; au théâtre, il ne peut lui
+                    venir que des pensées damnables &amp;c.</p>
+                <p>Mais après tout, si le désordre &amp; le scandale étoient aussi énormes, que le
+                    Docteur Espagnol le prétend, comment les colère-t-on ? Comment ont-ils passé en
+                    coutume ? Comment des Ecclésiastiques osent-ils y paroître ? A cela il répond,
+                    1°. Que ces Ecclésiastiques en sont plus coupables, &amp; que les spectacles
+                    n’en sont pas plus innocents. Il ne craint point d’avancer, que ces Abbés, qui
+                    suivent les spectacles, ne sont rien moins que la bonne odeur du Clergé, &amp;
+                    qu’ils n’ont aucun droit aux récréations les plus innocentes, en vertu de leurs
+                    fatigues apostoliques, ou de leurs occupations ascétiques. <quote><hi rend="i">Audite
+                        hoc Sacerdotes…Quia vobis judicium est, quoniam laqueus facti estis…&amp;
+                        rete expansum super Thabor.</hi></quote> 2°. Quant à la tolérance, il avertit,
+                    qu’elle ne rend pas licite la chose tolérée, qu’elle n’ôte pas aux raisons
+                    tirées de la règle des mœurs &amp; de l’Evangile, la <pb n="68" xml:id="p68"
+                    />force qu’on ne peut y méconnoître, quand on est de bonne foi 3°. Pour la
+                    coutume, il dit que dans le monde elle prévaut souvent sur les préceptes de J.
+                    C. &amp; que c’est ce qui en fait une excuse si foible &amp; si peu recevable.
+                    Toute cette doctrine est ici solidement &amp; formellement appuiée sur
+                    l’autorité des Peres, des Docteurs, &amp; des Conciles.</p>
+                <p>Mais n’est-ce pas aux vices, que la Comédie fait la guerre ? On répond que les
+                    Comédiens n’en sont pas assez exempts pour les corriger. Ce n’est pas de pareils
+                    organes qui doivent nous prêcher la justice. Jamais ils n’ont converti
+                    personne ; combien en ont-ils pervertis ? Dans les sujets les plus édifians ;
+                    dans leurs scènes les plus religieuses, le Pécheur s’attendrit sans se
+                    repentir ; on sent le plaisir de la compassion, sans sentir l’amertume de la
+                    componction ; ce n’est pas une pluie qui tombe du Ciel ; c’est une rosée qui
+                    s’élève de la terre ; elle ne nourrit que des feuilles maudites ; à l’ombre de
+                    l’arbre qu’elle rafraichit, le vice s’engraisse &amp; la vertu se dessèche.</p>
+                <p>Sans nous arrêter avec D.R. à détruire les autres prétextes qu’employent les
+                    partisans de la Comédie ; passons à la seconde question : <hi rend="i">peut-on
+                        autoriser ce Spectacle</hi>. On peut aisément deviner la réponse qu’y fait
+                    notre Docteur : des principes qu’il vient de nous exposer, il conclut qu’on ne
+                    peut ni permettre ni favoriser aucun Spectacle indécent ; qu’aucune raison de
+                    bien, même plus grand, ne peut l’autoriser ; &amp; qu’on est obligé de s’y
+                    opposer de tout son pouvoir : en un mot le Théologien Espagnol met ces
+                    Spectacles au rang des poisons dont on doit empêcher le débit. Pour persuader le
+                    Lecteur, son zèle joint toujours à <pb n="69" xml:id="p69"/>ses exhortations la
+                    même abondance de doctrine.</p>
+                <p>L’Auteur entre dans la troisième question par une exposition de la doctrine qu’on
+                    lui oppose, sçavoir 1°. que dans le Christianisme la Comédie est un spectacle
+                    indifférent, où les simples ne risquent rien, les sages gagnent, &amp; les fols
+                    sont les seuls à perdre. 2°. Qu’il est nécessaire comme un remède contre
+                    l’oisiveté de la jeunesse &amp; ses dangers. Des principes si relâchés forment
+                    une trop foible défense pour résister à la force des raisons &amp; des grandes
+                    maximes que leur oppose D. Ramire ; il y ajoute une reflexion dont la vérité
+                    &amp; la simplicité doit frapper ses adversaires : c’est qu’en plaidant pour les
+                    Spectacles ils en montrent le danger, leur langage favorise trop les passions
+                    pour ne pas trahir leur cause : le Spectacle est pour la jeunesse, ce qu’est un
+                    peu d’eau pour un brâsier ardent, elle ne suspend d’abord l’activité du feu que
+                    pour la rendre bientôt plus vive.</p>
+                <p>Mais enfin, dit-on, les Peres n’ont éclaté avec tant de force contre l’ancienne
+                    Comédie qu’à cause de l’idolâtrie &amp; de l’obscénité qui régnoit alors sur son
+                    Théâtre : or entre ces Spectacles &amp; les nôtres, il y a autant d’opposition
+                    qu’entre le jour &amp; la nuit. Si nos Comédies, replique D. Ramire, étoient
+                    aussi dévotes que les Méditations de S. Bernard, ou aussi Apostoliques que les
+                    Sermons de S. Vincent Ferrier, on n’en parleroit pas plus avantageusement.
+                    Ensuite il prouve que la plupart des anciens anathêmes lancés contre la Comédie,
+                    portent sur des raisons communes &amp; <hi rend="i">transcendantes</hi>, qui
+                    sont que toute Comédie est une occasion de chûte &amp; une école de libertinage,
+                    &amp; il soutient avec Lactance que l’élégance &amp; la politesse qui <pb n="70"
+                        xml:id="p70"/>régne aujourd’hui sur les Théâtres, ne fait que rendre plus
+                    aigus &amp; plus pénétrans les traits qu’on y enfonce dans l’ame de
+                    spectateurs.</p>
+                <p>On nous assure que cet Ouvrage, fruit d’un zèle &amp; d’une science Apostolique,
+                    a suffi pour engager les Magistrats de Burgos à abatre le beau Théâtre de leur
+                    Ville, qui avoit couté vingt mille ducats.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>

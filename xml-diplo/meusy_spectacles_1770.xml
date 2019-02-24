@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Des Spectacles [Code de la religion et des mœurs, II]</title>
+				<author key="Meusy, Nicolas (Abbé)"
+					ref="https://catalogue.bnf.fr/ark:/12148/cb10531269d">Nicolas Meusy</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>OBVIL</edition>
+				<respStmt>
+					<name>Infoscribe</name>
+					<resp>saisie, XML-TEI</resp>
+				</respStmt>
+				<respStmt>
+					<name>Eric Thiébaud</name>
+					<resp>contributeur</resp>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Sorbonne Université, LABEX OBVIL</publisher>
+				<date when="2019"/>
+				<idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/meusy_spectacles_1770</idno>
+				<availability status="restricted">
+					<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+						<p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+							d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+							OBVIL).</p>
+						<p>Cette ressource électronique protégée par le code de la propriété
+							intellectuelle sur les bases de données (L341-1) est mise à disposition
+							de la communauté scientifique internationale par l’OBVIL, selon les
+							termes de la licence Creative Commons : « Attribution – Pas
+							d’Utilisation Commerciale – Pas de Modification 3.0 France (CCBY-NC-ND
+							3.0 FR) ».</p>
+						<p>Attribution : afin de référencer la source, toute utilisation ou
+							publication dérivée de cette ressource électroniques comportera le nom
+							de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+						<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+							scientifique, toute utilisation commerciale est interdite.</p>
+						<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+							ressource électronique, notamment en intégrant toutes les contributions
+							extérieures, la diffusion de versions modifiées de cette ressource n’est
+							pas souhaitable.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Nicolas Meusy, « Des Spectacles », in <hi rend="i">Code de la Religion et des
+						mœurs ou Recueil des principales Ordonnances depuis l’établissement de la
+						Monarchie Françoise, concernant la Religion &amp; les Mœurs, par M. l’Abbé
+						Meusy, Prêtre du Diocèse de Besançon</hi>, <pubPlace>Paris</pubPlace>,
+						<publisher>Humblot</publisher>, <date>1770</date>, tome II, titre XXVIII,
+					p. 368-381. PDF : <ref target="http://books.google.fr/books?id=oHaZh7fki8MC"
+						>Google</ref>.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1770"/>
+			</creation>
+			<langUsage>
+				<language ident="fre"/>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 type="chapter">
+				<pb n="368" xml:id="p368"/>
+				<head type="sur">Titre XXVIII.</head>
+				<head type="main"><hi rend="i">Des Spectacles.</hi></head>
+				<p><hi rend="sc">I</hi>L est plus d’une manière dans la société d’instruire les
+					hommes, de corriger les abus, de détourner du vice. Les préceptes peuvent
+					diriger, les récompenses encourager, les menaces intimider, les peines arrêter ;
+					mais un exercice qui, éclairant l’esprit, le formeroit ; qui, touchant le cœur,
+					le corrigeroit ; qui, faisant connoître la vertu, la rendroit aimable ; qui,
+					montrant le vice, en découvriroit la laideur, seroit le plus beau présent qu’on
+					pût faire au public. Pourquoi desirer un bien que nous possédions ? Dans nos
+					représentations antiques &amp; grossières, l’esprit à la vérité ne brilloit pas,
+					mais le cœur y gagnoit ; nos pères s’y délassoient ; ils en sortoient
+						meilleurs<note place="bottom" n="a"><p>Cela ne dura guères ; il s’y étoit
+							déja glissé tant d’abus que le Procureur-Général du Roi fit des
+							remontrances en 1541 pour les faire défendre. <quote>« Le commun peuple,
+								disoit-il au Parlement, dès huit à neuf heures du matin délaissoit
+								la Messe Paroissiale, Sermon &amp; Vêpres pour aller esdits jeux
+								garder sa place, &amp; y être jusqu’à cinq heures du soir, eut cessé
+								les prédications ; car n’eussent eu les Prédicateurs qui les eust
+								écouté : &amp; retournant desdits jeux, se mocquoient hautement
+								&amp; publiquement par les rues desdits jeux &amp; des joueurs,
+								contrefaisans quelques langages impropres qu’ils avoient ouis
+								desdits jeux, ou autres choses malfaites, criant par dérision que le
+								Saint-Esprit n’avoit point voulu descendre, &amp; par d’autres
+								mocqueries ; &amp; le plus souvent les Prêtres des Paroisses, pour
+								avoir leurs passe-temps d’aller esdits jeux, ont délaissé dire
+								Vespres les jours de Festes, &amp; les ont dites tout seuls dès
+								l’heure de midi, heure non accoutumée ; &amp; même les Chantres ou
+								Chapelains de la Sainte-Chapelle de ce Palais, tant que lesdits jeux
+								ont duré (six ou sept mois) ont dit Vespres les jours de Festes à
+								heure de midi, &amp; encore les disoient en poste pour aller esdits
+								jeux ».</quote> Voyez les Œuvres de Saint-Evremond, <hi rend="i"
+								>tome</hi> 3, <hi rend="i">p.</hi> 151, édit. de 1740, dans une note
+							de Desmaiseaux. <quote>« Le temps où nos bons aïeux, comme dit l’Abbé
+								des Fontaines, pleuroient à nos vieilles comédies, étoit déja
+								passé ».</quote></p></note>. On n’offroit à leurs yeux <pb n="369"
+						xml:id="p369"/>que des Acteurs modestes : leurs oreilles n’entendoient que
+					des leçons de vertu : le cœur en recevoir l’empreinte, elle s’étendoit sur
+					toutes les actions. Aujourd’hui tout est renversé dans les spectacles qu’on nous
+					offre ; si l’esprit paroît y gagner, le cœur à coup sûr y perd, ou plutôt le
+					cœur &amp; l’esprit y perdent. Eh ! quelles funestes impressions ne font pas des
+					Actrices métamorphosées, l’indécence devenue à la mode, le vice paré de tous les
+					agrémens qu’on lui prête ? Le sujet des piéces, les Acteurs, leurs voix, leurs
+					gestes, tout effémine, tout amollit, tout séduit, tout corrompt. Sont-ce-là des
+					leçons pour rendre les hommes meilleurs ? Qu’on nous donne des piéces que les
+					oreilles chrétiennes puissent entendre : qu’on les représente avec la décence
+					qui convient à des chrétiens : que la vertu y soit peinte avec les graces, le
+					vice avec les traits qui leur sont propres ; on ramenera les <pb n="370"
+						xml:id="p370"/>spectacles à la fin de leur première institution, &amp; les
+					Loix n’auront plus à condamner des abus qui deshonorent notre siècle, qui font
+					gémir la Religion &amp; la pudeur.</p>
+				<p>Charlemagne déclara infâmes les histrions &amp; les farceurs, par une Loi portée
+					l’an 789. <hi rend="i">Capitul. Reg. Francor. tome</hi> <num>i</num>, <hi
+						rend="i">col.</hi> 229, <hi rend="i">art.</hi> 44. Il leur défendit de
+					former aucune accusation en Justice. Pour se conserver l’ame pure de tous vices,
+					dit-il, <hi rend="i">add.</hi> 3, il faut éviter de voir ou d’entendre les
+					insolences de ces jeux sales &amp; honteux. <quote><hi rend="i">Histrionum
+							turpium &amp; obscœnorum insolentias Jocorum.</hi></quote></p>
+				<p>L’Ordonnance du Prévôt de Paris du 14 Septembre 1395, défend aux Jongleurs de ne
+					rien dire, représenter ou chanter dans les places publiques, ou ailleurs qui
+					puisse causer quelque scandale, à peine d’amende arbitraire &amp; de deux mois
+					de prison au pain &amp; à l’eau. Si la disposition de cette sage Ordonnance
+					étoit observée à l’égard de nos Comédiens modernes, il y en auroit beaucoup
+					parmi eux qui observeroient un Carême continuel.</p>
+				<p>Le Parlement de Paris permit, par Arrêt du 9 Novembre 1543, aux Confrères de la
+						Passion<note place="bottom" n="a"><p>L’on est tout étonné d’apprendre, dit
+							l’Auteur du <hi rend="i">Dictionnaire du Droit Canonique</hi>, que nos
+							Comédiens François d’aujourd’hui n’ont succédé qu’à des farceurs, qui au
+							commencement du dernier siècle représentoient toujours des scènes
+							pieuses, telles que la passion de Jesus-Christ, sa naissance, &amp;c.
+								<quote>« On voit encore aujourd’hui au lieu même où subsiste la
+								Comédie Italienne, au-dessus de la porte qui donne dans la rue
+								Françoise, les attributs de la Passion représentés en relief ;
+								emblême, dit Villaret, de la piété des premiers Instituteurs de ce
+								théâtre. Cette maison appartient aux anciens Confrères de la
+								Passion ».</quote></p></note>
+					<pb n="371" xml:id="p371"/>(c’étoient nos premiers Comédiens) de s’établir dans
+					l’ancien Hôtel des Ducs de Bourgogne qu’ils avoient acheté, &amp; d’y avoir un
+					théâtre, à condition de n’y jouer que des sujets profanes, <hi rend="i">licites
+						&amp; honnêtes</hi>, &amp; leur fit de très-expresses défenses d’y
+					représenter aucun mystère de la Passion, ni autres mystères sacrés. <hi rend="i"
+						>Dictionnaire de Trévoux</hi>, verbo <hi rend="i">Comédie</hi>.</p>
+				<p>Les abus qui s’introduisirent dans la représentation des mystères mêmes donnèrent
+					lieu à cette défense.</p>
+				<p>En 1609, une Ordonnance de Police défendit aux Comédiens de représenter aucunes
+					comédies ou farces, qu’ils ne les eussent communiqué au Procureur du Roi. <hi
+						rend="i">Recherches de Pasquier, liv. 7, ch 5</hi> ; Naudé, dans son <hi
+						rend="i">Mascurat, pag.</hi> 214 &amp; 215.</p>
+				<quote>
+					<label type="head"><hi rend="sc">Déclaration de Louis XIII</hi>, <lb/><hi
+							rend="i">Concernant les pièces jouées par les Comédiens</hi>, <lb/>Du
+						4 Avril 1641.</label>
+					<p>LOUIS, &amp;c. Les continuelles bénédictions qu’il plaît à Dieu épandre sur
+						notre règne, nous obligeant de plus en plus à faire tout ce qui dépend de
+						nous pour retrancher tous les déréglemens par lesquels il peut être
+						offensé ; la crainte que nous avons que les comédies qui se représentent
+						utilement pour le divertissement des peuples soient quelquefois accompagnées
+						de représentations peu honnêtes, qui laissent de mauvaises impressions dans
+						les esprits, fait que nous sommes résolus de donner des ordres <pb n="372"
+							xml:id="p372"/>précis pour éviter de tels inconvéniens. A ces causes….
+						faisons… défenses… à tous Comédiens de représenter aucunes actions
+						malhonnêtes, ni d’user d’aucunes paroles lascives ou à double-entente, qui
+						puissent blesser l’honnêteté publique, &amp; sur peines d’être déclarés
+						infâmes, &amp; autres peines qu’il écheoira : enjoignons à nos Juges, chacun
+						en son district, de tenir la main à ce que notre volonté soit religieusement
+						exécutée ; &amp; en cas que lesdits Comédiens contreviennent à notre
+						présente Déclaration, nous voulons &amp; entendons que nosdits Juges leur
+						interdisent le théâtre<note place="bottom" n="a"><p>Qu’on observe cette Loi,
+								il n’y aura pas peut-être un seul théâtre de Comédiens dans le
+								Royaume.</p></note>, &amp; procédent contr’eux par telles voies
+						qu’ils aviseront à propos, selon la qualité de l’action, sans néanmoins
+						qu’ils puissent ordonner plus grandes peines que l’amende ou le
+						bannissement : &amp; en cas que lesdits Comédiens règlent tellement les
+						actions du théâtre qu’elles soient du tout exemptes d’impureté, nous voulons
+						que leur exercice, qui peut innocemment divertir nos peuples de diverses
+						occupations mauvaises, ne puisse leur être imputé à blâme, ni préjudicier à
+						leur réputation dans le commerce public ; ce que nous faisons afin que le
+						desir qu’ils auront d’éviter le reproche qu’on leur a fait jusqu’ici, leur
+						donne autant de sujet de se contenir dans les termes de leur devoir des
+						représentations publiques qu’ils feront, que la crainte des peines qui leur
+						seroient inévitables, s’ils contrevenoient à la présente Déclaration.</p>
+				</quote>
+				<p><pb n="373" xml:id="p373"/>J’ai remarqué au Titre du respect dû aux Eglises, que
+					l’Ordonnance du 24 Juillet 1728 défend d’afficher aux portes des Eglises des
+					pièces de théâtre, à peine de destitution.</p>
+				<p>Les Comédiens Italiens jouissoient autrefois du privilége exclusif de jouer
+					pendant la semaine du Carême, dite de la Passion. Les Directeurs de l’Opéra
+					&amp; les Comédiens François, fâchés de perdre cette semaine, se sont avisés de
+					solliciter à la Cour la même faveur ; mais le Roi, loin de répondre
+					favorablement à leur requête, vient de donner une nouvelle preuve de son zèle
+					pour la Religion, &amp; sur-tout dans ce saint temps, en interdisant, même aux
+					Comédiens Italiens, toute représentation pendant ladite semaine. Cette défense
+					est du mois de Mars 1765. Les Règlemens defendent les spectacles à certains
+					jours de l’année, de même que dans les temps d’une affliction ou calamité
+					publique.</p>
+				<p>J’ai dit sous le titre de farceurs &amp; bâteleurs, que les Ordonnances leur
+					défendoient (de même à tous autres Comédiens) de se servir d’habits
+					Ecclésiastiques. Cette défense n’est pas nouvelle ; un Capitulaire rapporté par
+					M. Baluze, tom. <num>i</num>, p. 96, l’avoit déja fait, à peine de punition
+					corporelle &amp; d’exil : <quote><hi rend="i">Si quis ex Scenicis vestem
+							sacerdotalem aut monasticam, vel mulieris Religiosæ, vel qualicumque
+							Ecclesiastico statui similem indutus fuerit, corporali pœnæ subsistat
+							&amp; exilio tradatur.</hi></quote></p>
+				<p>L’Impératrice-Reine défendit en 1754 les Comédies, Opéras, Concerts, &amp; autres
+					Spectacles <pb n="374" xml:id="p374"/>publics ; 1°. tous les vendredis de
+					l’année ; 2°. dans l’Avent, à commencer au 14 Décembre ; 3°. le jour de Noël,
+					tout le Carême, le jour de Pâques, les jours des Rogations ; 4°. les jours de la
+					Pentecôte, Trinité, Octave de la Fête-Dieu ; 5°. les Fêtes de la Sainte-Vierge
+					&amp; leurs veilles, quand même ces dernières ne seroient point fêtées ; 6°. les
+					jours des Quatre-Temps, de la Toussaint &amp; la veille des Trépassés, des
+					Rois ; 7°. le premier Octobre &amp; le 14 Novembre, jours anniversaires de la
+					naissance &amp; du nom de l’Empereur Charles VI ; le 28 Août &amp; 19 Novembre,
+					jours de la naissance &amp; du nom de l’Impératrice Elisabeth ; &amp; le
+					20 Octobre, jour de la mort de l’Empereur Charles VI.</p>
+				<p>Les Empereurs Romains n’avoient pas un fort grand respect pour les Comédiens ; en
+					quoi ils furent très-différens du stupide Néron. Tillemont, tom. <num>i</num>,
+					dit qu’ils furent chassés de Rome sous Tibère.</p>
+				<p>Valère Maxime ne vouloit pas que les femmes assistassent à la représentation des
+					Pièces galantes. La Novell. 117 permet au mari le divorce, en cas que la femme
+					aille auxdits Spectacles malgré lui. Si cette Loi avoit encore lieu, il y auroit
+					plus d’un divorce en France. Julien défendoit aux Sacrificateurs de ses faux
+					Dieux d’y assister, de même que d’aller aux cabarets. Epist. 49. En un mot, les
+					Romains avoient tant de mépris pour les Acteurs que les Citoyens, qui montoient
+					sur le Théâtre, étoient chassés de leur Tribu ; ce qui étoit la peine la plus
+					infamante dont les Censeurs punissoient les <pb n="375" xml:id="p375"
+					/>Citoyens : <quote><hi rend="i">Cùm artem ludicram scenamque totam probro
+							ducerent genus id hominum, non modò honore Civium reliquorum carere, sed
+							etiam Tribu moveri notatione Censoriâ voluerunt.</hi></quote> Cicero
+					lib. 4 de Republ. apud S. Aug. lib. 2 de Civit Dei, cap. 9 &amp; 13.</p>
+				<p>Valentinien, Valens &amp; Gratien ne leur furent pas favorables. On peut voir la
+					Loi qu’ils portèrent en 372, <hi rend="i">lib.</hi> 1. <hi rend="i">Magist. Cod.
+						Theod. de Spectacul.</hi> Théodose, Gratien &amp; Valentinien, défendirent
+					par une Loi du 19 Mai 386, à tous Juges de se trouver aux jeux publics, soit du
+					Théâtre, soit du Cirque, à l’exception des jours de la naissance &amp; de
+					l’avénement des Empereurs : leur défendent même dans ces jours d’y assister
+					l’après-dîner. Les mêmes Empereurs ne veulent pas qu’on donne des spectacles les
+					jours de Dimanches, pour ne pas confondre, disent-ils, une solemnité toute
+					divine avec des spectacles profanes. <hi rend="i">Cod. Theod. lib. 2 nullus de
+						Spectacul.</hi> Théodose le jeune &amp; Valentinien défendent de représenter
+					aucuns jeux, soit du Théâtre, soit du Cirque, les Dimanches, les jours de Noël,
+					Epiphanie, Pâques, &amp; les cinquante jours jusqu’à la Pentecôte ; les Fêtes
+					des Apôtres, afin, dit la Loi, que le peuple n’étant point distrait dans ces
+					saints jours par des plaisirs profanes, puisse appliquer tout son esprit au
+					service de Dieu : ils soumettent à cette Loi les Payens &amp; les Juifs. <hi
+						rend="i">Lib. ult. de Spectacul. Cod. Theod.</hi></p>
+				<p>Personne n’ignore que les plus anciens Conciles <pb n="376" xml:id="p376"
+					/>prononcent l’excommunication contre tous Farceurs, Sauteurs &amp; Comédiens,
+					tant qu’ils exercent cette odieuse profession. On peut voir le 4<hi rend="sup"
+						>e</hi> &amp; le 5<hi rend="sup">e</hi> Canon du premier Concile d’Arles ;
+					le Can. 88 du quatrième Concile de Carthage de l’an 398. Il est vrai que les
+					Comédiens d’aujourd’hui sont différens de ces anciens Farceurs ; mais l’Eglise
+					n’a point encore fait de distinction en leur faveur, &amp; l’usage assez général
+					est de regarder les Comédiens comme excommuniés.</p>
+				<p>Les spectacles sont défendus aux Clercs : <quote><hi rend="i">Non oportet
+							ministros altaris, vel quoslibet Clericos spectaculis aliquibus…
+							interesse.</hi></quote> C. 37, dist. 5 de consecr. C. Presbyteri,
+					dist. 34, &amp;c. <note place="bottom" n="a"><p>Les Comédiens ne peuvent
+							représenter sur leurs théâtres ni les Ecclésiastiques ni les Religieux.
+							Voyez <hi rend="i">Encyclopédie</hi>, verbo <hi rend="i"
+							>Comédien</hi>.</p></note>.</p>
+				<p>Ils sont défendus dans les Eglises : <quote><hi rend="i">Mandamus quatenùs ne per
+							hujusmodi turpitudinem Ecclesiæ inquinetur honestas, prælibatam
+							ludibriorum consuetudinem, vel potiùs corruptelam curetis à vestris
+							Ecclesiis extirpare.</hi></quote> C. Cùm decorem <hi rend="i">de vit.
+						&amp; honest. Cleric.</hi> Je ne crois pas que cette défense regarde des
+					représentations honnêtes, mais seulement des jeux de théâtre obscènes &amp;
+					indécens. La suite du texte le fait assez connoître. <quote><hi rend="i"
+							>Interdùm</hi><seg type="exquote">, y est-il dit,</seg>
+						<hi rend="i">ludi fiunt in Ecclesiis theatrales, &amp; non solùm ad
+							ludibriorum spectacula introducuntur in eis monstra larvarum, verùm
+							etiam in aliquibus festivitatibus, Diaconi, Presbyteri ac Subdiaconi
+							insaniæ suæ <pb n="377" xml:id="p377"/>ludibria exercere
+						præsumunt.</hi></quote>
+					<quote><hi>Non tamen hic prohibetur</hi><seg type="exquote">, dit la
+							Glose,</seg>
+						<hi rend="i">repræsentare præsepe Domini, Herodem, Magos, &amp; qualiter
+							Rachel plorabat filios suos, &amp; cætera quæ tangunt festivitates
+							illas, de quibus hic fit mentio ; cùm talia potiùs inducant homines ad
+							compunctionem, quàm ad lasciviam vel voluptatem, sicut in Pascha,
+							Sepulchrum, Domini, &amp; alia repræsentantur ad devotionem excitandam,
+							&amp; quod hoc possit fieri.</hi></quote> Arg. de consecr. dist. 2.
+						C. <hi rend="i">Semel.</hi> Ces spectacles mêmes devinrent des abus souvent
+					fort ridicules.</p>
+				<p>Cet usage se conserva jusqu’au Concile de Bâle, qui en fit un point de Réforme
+					adopté par la Pragmatique au Titre <hi rend="i">de spectaculis in Ecclesiâ non
+						faciendis</hi>. Les derniers Conciles de Rouen 1581, de Tours 1583, de
+					Bourges 1584, défendent les spectacles aux jours de Dimanches &amp; de
+					Fêtes.</p>
+				<p>Ceux de Mayence, Tours, Rheims, Châlons-sur-Saône, tenus en 813, défendent aux
+					Evêques, Prêtres &amp; autres Clercs, à peine de suspense &amp; d’être mis en
+					pénitence, d’assister à aucuns spectacles. Charlemagne autorisa ces
+					Conciles.</p>
+				<p>Je ne puis, en finissant ce Titre, me refuser au plaisir de transcrire un trait
+					de la Réponse de <hi rend="i">Rousseau</hi> à <hi rend="i">d’Alembert</hi>, qui
+					souhaitoit l’établissement d’un théâtre à Genève. Voici ce que lui écrit cet
+					homme singulier, qui dans cette occasion sçait parfaitement réfuter ce qu’on
+					pourroit dire de plus spécieux en faveur du Théâtre. <quote>« Je vois en
+						général, dit-il, que l’état de Comédien est un état de <pb n="378"
+							xml:id="p378"/>licence &amp; de mauvaises mœurs ; que les hommes y sont
+						livrés au desordre ; que les femmes y mènent une vie scandaleuse. Je
+						pourrois imputer ces préjugés aux déclamations des Prêtres, si je ne les
+						trouvois établis chez les Romains avant la naissance du Christianisme, &amp;
+						non-seulement courans vaguement dans l’esprit du peuple, mais autorisés par
+						des Loix expresses, qui déclaroient les Acteurs infâmes, leur ôtoient le
+						titre &amp; le droit de Citoyen Romain, &amp; mettoient les Actrices au rang
+						des prostituées…… Loin de distinguer entre les Comédiens, Histrions &amp;
+						Farceurs, ni entre les Acteurs des Tragédies &amp; ceux des Comédies, la Loi
+						couvre indistinctement du même opprobre tous ceux qui montent sur le
+						Théâtre, <quote><hi rend="i">quisquis in scenam prodierit, ait Prætor,
+								infamis est</hi></quote><note place="bottom" n="a"><quote><p>(<hi
+										rend="i">Notatur infamiâ</hi>) <hi rend="i">qui antis
+										lubricæ, prometiandivè causâ in sienam
+								prodierit.</hi></p></quote></note>. Tout en est mauvais &amp;
+						pernicieux ; tout tire à conséquence pour les spectateurs ; &amp; le plaisir
+						même du Comique étant fondé sur un vice du cœur humain, c’est une suite de
+						ce principe, que plus la Comédie est agréable &amp; parfaite, plus son effet
+						est funeste aux mœurs ».</quote> Où est le Prêtre, dont Rousseau voudroit
+					badiner en passant, qui en diroit davantage ?</p>
+				<p>Les Apologistes du Théâtre ne font pas honneur à leur esprit (peut-être même à
+					leurs mœurs), quànd ils en prennent la défense. Ils conviennent eux-mêmes de la
+					nécessité de réformer le Théâtre, <pb n="379" xml:id="p379"/>&amp; conséquemment
+					ils le condamnent ; &amp; il sera condamnable tant qu’il demeurera dans l’état
+					actuel. <hi rend="i">Fagan</hi> dans ses <hi rend="i">nouvelles Observations sur
+						les Comédiens</hi>, Paris 1751, souhaite qu’on réforme la Comédie,
+						1°. <quote>« du côté de la politique, à se rendre de plus en plus sevère sur
+						le choix des Sujets ; 2°. du côté de la conscience, à maintenir les
+						Règlemens déja établis, lesquels consistent à ne point permettre de Pièces
+						tirées des Ecritures-Saintes<note place="bottom" n="a"><p>J’excepterois
+								Athalie, Esther, &amp;c. représentées avec décence.</p></note>,
+						ainsi que plusieurs Magistrats s’en sont déja déclaré ; 3°. à mettre ordre à
+						la conduite des Acteurs &amp; des Actrices, qui éclateroit trop, comme on en
+						a vû plusieurs exemples ; à recommander enfin aux Censeurs de redoubler
+						d’exactitude, pour ne souffrir dans les Pièces, ni impiétés, ni satyres
+						personnelles, ni obscénités. Eh ! que demandons-nous autre chose<note
+							place="bottom" n="b"><quote><p>« Quoi de plus odieux à la société, dit
+									un Auteur moderne, que de voir tous les jours des citoyens
+									consacrer leurs plus beaux jours à des filles de théâtre nées
+									dans le libertinage ? De quelle peine ne devroit-on pas punir
+									les insultes qu’elles font à la vertu, en ne daignant pas même
+									sauver les apparences du desordre ! Quel malheureux privilége
+									que celui de leur état !
+						&amp;c. »</p></quote></note> ? »</quote></p>
+				<p>Marmontel, dans son Apologie du Théâtre, convient que <quote>« à l’égard des
+						tentations auxquelles une Actrice est exposée, il en est qui dans la
+						situation actuelle des choses, semblent comme inévitables<note
+							place="bottom" n="c"><p>Ce sont sans doute ces crimes inévitables,
+								non-seulement pour les Actrices, mais encore pour les spectateurs,
+								qui ont causé ces repentirs amers des Racine, des Corneille, des la
+								Fontaine, des Quinault, des Greffet, &amp;c. d’avoir travaillé pour
+								le théâtre. La lettre de ce dernier qui lui fait tant d’honneur est
+								du 14 Mai 1759.</p></note> ; on ne doit pas s’attendre<seg
+							type="exquote">, ajoute-t-il,</seg> de <pb n="380" xml:id="p380"/>voir
+						des mœurs pures au Théâtre, tant que le fruit du travail &amp; du talent ne
+						pourra suffire aux dépenses attachées à cette Profession ».</quote></p>
+				<p>Sans doute M. Marmontel voudroit qu’on donnât de grosses pensions aux
+					Comédiennes ; mais les personnes sensées, les véritables Citoyens, qui estiment
+					peu le dangereux &amp; le frivole, ne penseront jamais comme lui. Le plaisir de
+					gens sans mœurs qui fréquentent d’ordinaire le Théâtre, doit-il se payer par le
+					fruit des sueurs &amp; des travaux du laboureur tombant sous le faix ; du
+					Citoyen religieux, qui compte pour peu le Théâtre ? Qu’il pese tout dans la
+					balance de la raison ; qu’il examine le plus grand bien de l’Etat (la religion
+					même &amp; les mœurs à part), &amp; il nous donnera ensuite le fruit de ses
+					réflexions.</p>
+				<p>Quant au Comédien Laval, je crois qu’il n’a voulu que plaisanter en prenant le
+					parti du Théâtre dans sa Réfutation de la Lettre de Rousseau. Il n’a pas
+					prétendu sans doute prouver dans une Réponse <hi rend="i">brusquée en dix-sept
+						jours</hi>, qu’un Comédien est un homme digne de toute l’estime du Public ;
+					un homme qui en seroit persuadé, y mettroit plus de temps &amp; plus de
+					raison.</p>
+				<p>Voyez sur cette matière S. Augustin, Sermon 198 ; l’Apologétique de Tertullien
+					sur les abominations des anciens Théâtres. V. sur ceux de France <pb n="381"
+						xml:id="p381"/>le Traité de l’Opinion, liv. I, part. 1, chap. 5 de la
+					Poésie ; le Mandement de M. de la Rochechouart, Evêque d’Arras, de l’an
+					1696.</p>
+				<p>On peut consulter encore le Projet de d’Aubignac pour la Réforme du Théâtre.
+					M. l’Abbé de Besplas dans ses <hi rend="i">Causes du bonheur public</hi>,
+					pag. 367 ; dans ses Observations sur la nécessité de la Réforme du Théâtre ; la
+					Lettre de l’immortel Fénélon à l’Académie Françoise ; Riccoboni sur la
+					Réformation du Théâtre ; les Maximes &amp; Réflexions sur la Comédie dans les
+					Opuscules du grand Bossuet, tom. 2 <hi rend="i">in</hi>-12. où il réfute la
+					Lettre en faveur des Théâtres, attribuée au P. Caffaro, Théatin, &amp; désavouée
+					par ce Religieux. L’Auteur des querelles littéraires auroit dû dire quelque
+					chose de ce désaveu. Le quatrième Traité des Essais de morale de Nicole ; le
+					P. le Brun, dans son Discours sur la Comédie.</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

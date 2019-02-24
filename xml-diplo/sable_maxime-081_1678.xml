@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maxime LXXXI</title>
+                <author key="Sablé, Madeleine de Souvré (1598-1678 ; marquise de)"
+                    ref="https://data.bnf.fr/fr/12532431/madeleine_de_souvre_sable/">Madame de
+                    Sablé</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/sable_maxime-081_1678</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Madame de Sablé, « Maxime LXXXI »,
+                            in <hi rend="i">Maximes et pensées diverses</hi>, <pubPlace>Paris</pubPlace>,
+                        <publisher>Sébastien Mabre-Cramoisy</publisher>, <date>1678</date>,
+                        p. 39-41. PDF : <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k62612915/f59.image"
+                        >Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1678"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="article">
+                <pb n="39" xml:id="p39"/>
+                <head>LXXXI</head>
+                <p>Tous les grands divertissemens sont dangereux pour la vie chrétienne&#xA0;; mais
+                    entre tous ceux que le monde a inventez, il n’y en a point qui soit plus à
+                    craindre que la Comedie. C’est une peinture si <pb n="40" xml:id="p40"/>naturelle &amp; si
+                    délicate des passions, qu’elle les anime, &amp; les fait naître dans nôtre cœur,
+                    &amp; sur tout celle de l’Amour, principalement lors qu’on se represente qu’il
+                    est chaste &amp; fort honneste&#xA0;: car plus il paroît innocent aux ames
+                    innocentes, &amp; plus elles sont capables d’en estre touchées. On se fait en
+                    mesme temps une conscience fondée sur l’honnesteté de ces sentimens&#xA0;; &amp;
+                    on s’imagine que ce n’est pas blesser la pureté, que d’aimer d’un amour si sage.
+                    Ainsi on sort de la Comedie le cœur si rempli de toutes les douceurs de l’amour,
+                    &amp; l’esprit si persuadé de son innocence, qu’on est tout préparé à recevoir
+                    ses <pb n="41" xml:id="p41"/>premieres impressions, ou plûtost à chercher l’occasion de les
+                    faire naître dans le cœur de quelqu’un, pour recevoir les mesmes plaisirs &amp;
+                    les mesmes sacrifices que l’on a veûs si bien representez sur le theatre.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>

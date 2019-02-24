@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sentimens de Monseigneur Jean Joseph Languet Evéque de Soissons, et de
+                    quelques autres Savans et Pieux Ecrivains de la Compagnie de Jesus, sur le faux
+                    bonheur et la vanité des plaisirs mondains. Premiere partie</title>
+                <author key="Languet de Gergy, Jean-Joseph (1677-1753)"
+                    ref="https://data.bnf.fr/fr/12105401/jean-joseph_languet_de_gergy/">Jean-Joseph
+                    Languet de Gergy</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/languet-de-gergy_sentimens_1738</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Jean-Joseph Languet de Gergy, <hi rend="i">Sentimens de Monseigneur Jean
+                        Joseph Languet Evéque de Soissons, et de quelques autres Savans et Pieux
+                        Ecrivains de la Compagnie de Jesus, sur le faux bonheur et la vanité des
+                        plaisirs mondains, specialement des bals, des comedies et autres amusemens
+                        dangereux. Nouvellement recueïllis par Jean Baptiste Vermeersch, Curé de S.
+                        Michel à Gand</hi>, <pubPlace>Gand</pubPlace>, <publisher>Michel de
+                        Goesin</publisher>, <date>1738</date>, in-16, 288 p., première partie,
+                    p. 7-79. PDF : <ref target="https://books.google.fr/books?id=yDkVAAAAQAAJ"
+                        >Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1738"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="book">
+                <pb n="7" xml:id="p7"/>
+                <head>Sentimens de quelques ecrivains De la Compagnie de Jesus, <hi rend="i"
+                        >Touchant les Bals &amp; Comedies.</hi>
+                </head>
+                <head>Premiere Partie.</head>
+                <div2 type="chapter">
+                    <head type="sur">Entretien premier.</head>
+                    <head type="main"><hi rend="i">Sentiment du reverend Pere</hi> Bourdaloue <hi
+                            rend="i">de la Compagnie de Jesus, touchant les Bals &amp; les Comedies
+                            en general.</hi></head>
+                    <p><hi rend="big">T</hi><hi rend="i">Ertulien</hi> fait une reflexion bien vraye
+                        dans le Traité qu’il a composé des Spectacles. Il dit que l’ignorance de
+                        l’esprit de l’homme n’est jamais plus presomptueuse, il ne pretend jamais
+                        mieux philosopher, &amp; raisonner, que quand on lui veut interdire l’usage
+                        de quelques divertissemens, &amp; de quelque plaisir, dont elle est en
+                        possession, &amp; qu’elle se croit legitimement permis. Car c’est alors
+                        qu’elle se met en defense, qu’elle devient subtile, &amp; ingenieuse,
+                        qu’elle <pb n="8" xml:id="p8"/>s’imagine mille pretextes pour appuyer son
+                        droit, &amp; que dans la crainte d’être privée de ce qui la flate, elle
+                        vient enfin a bout de se persuader, que ce qu’elle desire est honnête &amp;
+                        innocent, quoi qu’au fond il soit criminel, &amp; contre la loi de Dieu. *
+                                <quote><hi rend="i">Mirum quippe quam sapiens sibi videtur
+                                ignorantia humana, cum aliquid de hujusmodi gaudiis ac fructibus
+                                veretur omittere.</hi></quote> Et en effet, c’est de ce principe que
+                        naissent tous les jours les relachemens dans la Morale chrétienne. Une chose
+                        est agreable, ou le paroit ; &amp; parce qu’elle est agreable on l’aime,
+                        &amp; parce qu’on l’aime, on se figure qu’elle est bonne, &amp; a force de
+                        se le figurer, on s’en fait une espece de conviction, en vertu de la quelle
+                        on agit au prejudice de la conscience, &amp; malgré les plus pures lumieres
+                        de la grace. Or appliquons cette maxime generale aux points particuliers,
+                        sur tout à celui que je traite. Je prétens qu’ils y a de divertissemens dans
+                        le monde qui passent pour legitimes, &amp; que l’opinion commune des gens du
+                        siécle authorise ; mais que le Christianisme condamne, &amp; qui ne peuvent
+                        s’accorder avec l’integrité, &amp; la pureté des mœurs. Expliquons nous
+                        encore plus en détail ; car sans cela peut-être auriez vous de la peine à
+                        bien concevoir ma proposition, &amp; peut-être dans la pratique, tout ce que
+                        je dirois ne produiroit-il aucun fruit. Raisonnons donc sur certains sujets
+                        plus ordinaires, plus connus, &amp; qui sont a peu près les mêmes que ceux
+                        dont a parlé <hi rend="i">Tertulien</hi>. Ainsi, par exemple, ces
+                        representations profanes, ces spectacles ou assistent tant des mondains
+                        oisifs &amp; voluptueux, ces <pb n="9" xml:id="p9"/>assemblées publiques
+                        &amp; de pur plaisir, ou sont reçûs tous ceux qui amene, soit l’envie de
+                        paroître, soit l’envie de voir, en deux mots, pour me faire toûjours mieux
+                        entendre, Comedies &amp; Bals, sont-ce des Divertissemens permis ou
+                        défendus ? Les uns éclairez de la veritable sagesse, qui est la sagesse de
+                        l’Evangile, les reprouvent ; les autres trompez par les fausses lumieres
+                        d’une prudence charnelle les justifient, ou s’efforcent de les justifier.
+                        Chacun prononce selon ses vûës, &amp; donne ses décisions. Pour moi, si je
+                        n’étois déja d’une profession, qui par elle même m’interdit de pareils
+                        amusemens, &amp; que j’eusse comme vous à prendre parti la-dessus, &amp; à
+                        me résoudre, il me semble d’abord que pour m’y faire renoncer, il ne
+                        faudroit rien davantage que cette diversité de sentimens. Car pourquoi,
+                        dirois-je, mettre ma conscience au hazard dans une chose aussi vaine que
+                        cella-la, &amp; dont je puis si aisement me passer ? d’une part on m’assure
+                        que ces sortes de Divertissemens sont criminels : d’autre part on soûtient
+                        qu’ils sont exemts de peché. Ce qui doit résulter delà, c’est qu’ils sont au
+                        moins suspects, &amp; puisque ceux qui soûtiennent, que l’innocence y est
+                        blessée sont du reste les plus réglez dans leur conduite, &amp; plus
+                        attachez à leurs devoirs, les plus versez dans la science des voyes de Dieu,
+                        n’est-il pas plus sûr &amp; plus sage que je m’en raporte à eux, &amp; que
+                        je ne risque pas si legerement mon salut ? Voilà comment je concluërois ;
+                        &amp; ce seroit sans doute la conclusion la plus raisonnable &amp; la plus
+                        sensée.</p>
+                    <p>Mais ce n’est pas la que je me voudrois <pb n="10" xml:id="p10"/>arrêter,
+                        &amp; il y a encore de plus fortes considerations qui me determineroient.
+                        Que ferois-je ? suivant le conseil du Saint Esprit, j’interrogerois ceux que
+                        Dieu m’a donnez pour Maîtres, ce sont les Peres de l’Eglise <quote><hi
+                                rend="b"><hi rend="i">Interroga Patrem tuum, &amp; annuntiabit tibi,
+                                    majores tuos, &amp; dicent tibi</hi> :</hi></quote> &amp; après
+                        les avoir consultez, il seroit difficile, s’il me restoit quelque
+                        delicatesse de conscience, que je ne fusse pas absolument convaincu sur
+                        cette matiere. Car ils m’aprendroient des veritez capables non seulement de
+                        me determiner, mais de m’inspirer pour ces sortes de divertissemens une
+                        espece d’horreur.</p>
+                    <p>Ils m’aprendroient que les païens mêmes les ont proscrits comme
+                        préjudiciables &amp; contagieux : il n’y a qu’à lire ce que saint Augustin
+                        en a remarqué dans les livres de la Cité de Dieu, &amp; les belles
+                        Ordonnances qu’il raporte à la confusion de ceux qui pretendroient maintenir
+                        dans le Christianisme ce que le paganisme a rejetté. Ils m’aprendroient que
+                        d’abandonner ces Spectacles &amp; ces Assemblées dans les premiers siécles
+                        de l’Eglise, c’estoit une marque de religion, mais une marque authentique ;
+                        &amp; qu’en particulier ils ne blamoient pas seulement le Theatre parce que
+                        de leur temps il servoit à l’idolatrie &amp; à la superstition, mais parce
+                        que c’estoit une école d’impureté. Or, vous savez s’il ne l’est pas encore
+                        aujourd’hui, &amp; si la contagion de l’impureté n’y est pas autant plus à
+                        craindre, qu’elle y est plus deguisée, &amp; plus raffinée. Il est vrai le
+                        langage en est plus pur, plus étudié, plus chatié ; mais vous savez si ce
+                        langage en ternit moins l’esprit, s’il en corrompt <pb n="11" xml:id="p11"
+                        />moins le cœur, &amp; s’il peut-être il ne vaudroit pas mieux entendre les
+                        adultéres d’un Jupiter, &amp; des autres divinitez, dont les excés exprimez
+                        ouvertement &amp; sans reserve, blessant les oreilles feroient moins
+                        d’impression sur l’ame. Ils m’aprendroient que dans l’estime commune des
+                        fideles on ne croyoit pas pouvoir garder le serment &amp; la promesse de son
+                        Baptême, tandis qu’on demeuroit attaché à ces frivoles passe-temps du
+                        siecle. Car c’est vous jouër de Dieu même, mon Frere, écrivoit saint
+                        Cyprien, d’avoir dit anathême au demon, comme vous l’avez fait en reçevant
+                        sur les Sacrez fonts la grace de <hi rend="sc">Jesus-Christ</hi>, &amp; de
+                        rechercher maintenant les fausses joïes qu’il vous presente dans une
+                        Assemblée ou dans un spectacle de vanité. Ils m’aprendroient que sur cela,
+                        l’Eglise usoit d’une severité extrême dans sa discipline, &amp; que cette
+                        severité alla même à un tel point, que ce fut quelquefois un obstacle à la
+                        conversion des infideles. Jusques la, dit <hi rend="i">Tertulien</hi>, que
+                        l’on en voyoit presque plus s’éloigner de nôtre sainte Foi par la crainte
+                        d’être privez de ces divertissemens qu’elle condamnoit, que par la crainte
+                        du Martyre, &amp; de la mort, dont les tyrans les menaçoient.</p>
+                    <p>Voila ce que m’aprendroient ces saints Docteurs, &amp; ce qu’ils vous
+                        aprennent. Voilà leur morale ; prenez garde, je ne dis que ç’a ésté la
+                        Morale d’un de ces grands Hommes, mais de tous : tellement que tous d’un
+                        consentement unanime sont convenus de ce point ; qu’ils n’ont eu tous les
+                        mêmes expressions. Je ne dit pas que ç’a été leur Morale dans un tems, &amp;
+                            <pb n="12" xml:id="p12"/>qu’elle a changé dans un autre : de siécle en
+                        siécle, ils se sont succédez ; &amp; dans tous les siécles, ils ont
+                        renouvellé les mêmes defenses, debité les mêmes maximes, prononcé les mêmes
+                        arrêts. Je ne dis pas que ç’a été la Morale des gens foibles &amp; peu
+                        instruits, bornez dans leurs vuës, &amp; timides ou précipitez dans leurs
+                        decisions : outre leur sainteté qui nous les rend venerables, nous savons
+                        que c’étoient les premiers genies du monde ; nous avons en main leurs
+                        écrits, &amp; nous y voyons la sublimité de leur sagesse, la penetration de
+                        leur esprit, la profondeur &amp; l’étendüé de leur érudition. Je ne dis pas
+                        que ç’a été une Morale de perfection seulement &amp; de pur conseil : il n’y
+                        a qu’a peser leurs termes &amp; qu’a les prendre dans le sens le plus
+                        naturel &amp; le plus commun : sur quel autre sujet se sont-ils expliquez
+                        avec plus de rigeur ? De quoi nous ont-ils plus fait craindre les funestes
+                        consequences, &amp; à quoi ont-ils plus attribué les suites fatales, &amp;
+                        plus donné la force du precepte ? Je ne dis pas que ç’a été une Morale fondé
+                        sur des raisons propres &amp; particulieres : je vous l’ai déja fait
+                        remarquer, &amp; je le répête, ils n’employoient point d’autres raisons que
+                        nous, ils n’en avoient point d’autres ; ce qu’ils disoient contre le Théatre
+                        &amp; contre ces Assemblées mondaines d’ou nous tachons à vous retirer,
+                        c’est ce que nous vous disons ; &amp; tout ce qu’ils disoient, c’est ce que
+                        nous avons le même droit qu’eux de vous dire. Enfin, je ne dis pas que ç’a
+                        été une Morale qu’ils n’ayent adressée qu’à certains états, qu’à certains
+                        caractéres, &amp; à certains esprits. Ils n’ont distingué ni <pb n="13"
+                            xml:id="p13"/>qualitéz, ni conditions, ni tempéramens, ni dispositions
+                        du cœur. Ils parloient à tous Chrétiens comme vous, &amp; ils leur parloient
+                        a tous. Enfin tel ou tel leur répondoit ce qu’on nous répond encor tous les
+                        jours, &amp; ce qu’a si bien remarqué Saint <hi rend="i">Chrysostome</hi> :
+                        tout ce que je vois, &amp; tout ce que j’entend, me divertit &amp; rien de
+                        plus ; du reste, je n’en ressens aucune impression, &amp; je n’en suis
+                        nullement touché. Vaine excuse qu’ils traitoient, ou de déguisement &amp; de
+                        mauvaise foi, ou d’erreur au moins &amp; d’illusion : de déguisement &amp;
+                        de mauvaise foi, parce qu’ils n’ignoroient pas que c’est un pretexte, dont
+                        veulent quelquefois se prevaloir les plus corrompus, cachant les desordres
+                        secrets de leur cœur, afin de justifier en apparence leur conduite, d’erreur
+                        au moins &amp; d’illusion, parce qu’ils savoient combien on aime à
+                        s’aveugler soi-même, &amp; combien la passion fait de progrès, qu’on
+                        n’aperçoit pas d’abord &amp; qu’on ne veut pas apercevoir, mais qui ne
+                        diviennent ensuite que trop sensibles.</p>
+                    <p>Que peuvent opposer à des témoignages si exprés, si averez, si respectables,
+                        les partisans du monde ? Qui en croiront-ils, s’ils ne se rendent pas à des
+                        semblables authoritez ? Et ne seroit-ce pas une temerité insoutenable, &amp;
+                        ou nul Chrétien de bon sens ne tombera jamais, de prétendre que ces hommes
+                        de Dieu se soient tous égarez, qu’ils ayent tous porté trop loin les choses,
+                        &amp; que dans le siécle ou nous vivons, nous soyons plus éclairez qu’ils ne
+                        l’étoïent ? Cependant vous en verrez, qui, sans hesiter, appellent de tout
+                        cela à leur propre <pb n="14" xml:id="p14"/>jugement, &amp; qui ne se feront
+                        pas le moindre scrupule de ce que tous les Peres de l’Eglise ont crû devoir
+                        hautement qualifier de peché. Car voilà jusqu’ou est allée la presumption de
+                        nôtre siecle. Comprenez la, s’il vous plait, toute entiere. Il s’agit de la
+                        conscience &amp; du salut, &amp; tout ce qu’il a eu jusqu’à present sur ces
+                        sortes de matieres, de juges competens, de juges reconnus, &amp; autorisez,
+                        ont decidé : mais ce n’est point ainsi qu’en jugent quelques mondains, &amp;
+                        ce n’est qu’à eux-mêmes qu’ils veulent s’en raporter. Observez bien ce que
+                        je dis, quelques mondains. Car du moins si c’étoient les Pasteurs des ames,
+                        si c’étoient les Maîtres de la Morale, si c’étoient les Ministres des
+                        Autels, les Directeurs, les Predicateurs de la Parole de Dieu, qui
+                        maintenant &amp; parmi nous eussent sur la question, que je traite, des
+                        principes moins séveres que ceux de toute l’antiquité ; &amp; si ces
+                        principes étoient generalement &amp; constamment suivi par la plus saine
+                        partie des Chrétiens peut-être seroit-il plus supportable alors d’examiner,
+                        de déliberer, de disputer. Mais vous le savez : Predicateurs dans la chaire,
+                        Directeurs dans le tribunal de la penitence, Docteurs dans les Ecoles,
+                        Pasteurs des Ames, Ministres des Autels tiennent tous encore le même
+                        langage, &amp; se trouvent apuyez de tout ce que l’Eglise a de vraïs Enfans,
+                        &amp; de vraïs Fidéles. Que reste-t’il donc ? je l’ai dit : quelques
+                        mondains, c’est-a-dire, un certain nombre des gens libertins, amateurs
+                        d’eux-mêmes ; &amp; idolátres de leurs plaisirs ; de gens sans étude, sans
+                        connoissance, sans attention à leur Salut, <pb n="15" xml:id="p15"/>de
+                        femmes vaines, dont toute la science se reduit à une parure, dont tout le
+                        desir est de paroître, &amp; de se faire remarquer, dont tout le soin est de
+                        charmer le tems, &amp; de se tenir en garde contre l’ennemi qui les
+                        surprend, dès que l’amusement leur manque, &amp; qu’elles sont hors de la
+                        bagatelle ; mais ce qu’il y a souvent de plus déplorable, dont la passion
+                        cherche a se nourir &amp; a s’allumer, lorsqu’il faudroit tout mettre en
+                        œuvre pour l’amortir &amp; pour l’éteindre. Voila les oracles qui veulent se
+                        faire écouter, &amp; que l’on n’écoute en effet que trop ; voila les
+                        Docteurs &amp; les Maîtres, dont les lumieres effacent toutes les autres,
+                        &amp; dont les resolutions sont absoluës &amp; sans replique ; voila les
+                        guides dont les voyes sont les plus droites, &amp; les garants sur qui l’on
+                        peut se reposer de sa conscience, de son ame, de son éternité. Serm. 9. pour
+                        le troisième Dimanche aprés Pâques.</p>
+                    <div3 type="privilege">
+                        <head>Approbation.</head>
+                        <p><hi rend="big">J</hi>’Ai lû par ordre de Monseigneur le Chancelier, <hi
+                                rend="i">Les Sermons pour les Dimanches de l’Année prechez par le R.
+                                P. Bourdaloue de la Compagnie de Jesus</hi>, dans lesquelles je n’ai
+                            rien trouvé que de très conforme à la pureté de la Foi &amp; de la
+                            Morale Chrétienne. A Paris ce 3. Avril 1716.</p>
+                        <byline>TOURNELY.</byline>
+                    </div3>
+                    <div3 type="privilege">
+                        <head>Permission du R. P. Provincial.</head>
+                        <p><hi rend="big">J</hi>E soussigné Provincial de la Compagnie de <hi
+                                rend="i">Jesus,</hi> dans la province de France, permet au Pere <hi
+                                rend="i">François Bretonneau</hi> de la même Compagnie, de faire
+                            imprimer un Livre qu’il <pb n="16" xml:id="p16"/>revû, &amp; qu’il a
+                            pour Tître <hi rend="i">Sermons du Pere Bourdaloue de la Compagnie de
+                                Jesus, pour les Dimanches,</hi> lequel Livre a été vû &amp; approuvé
+                            par trois Theologiens de nôtre Compagnie, en foi de quoi j’ai signé la
+                            presente Permission. A Paris ce 16. Avril 1716.</p>
+                        <byline>ISAAC MARTINEAU.</byline>
+                    </div3>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sur">Entretien second</head>
+                    <head type="main"><hi rend="i">De la vanité des Bals &amp; Comedies en general
+                            tiré des Sermons du R. Pere</hi> Claude la Colombiere <hi rend="i">de la
+                            Compagnie de Jesus.</hi></head>
+                    <p><hi rend="big">I</hi>L est permis à tout le monde de se divertir, mais toutes
+                        sortes de divertissemens ne sient pas bien à toutes sortes de personnes. Un
+                        vieillard déja venerable par son âge, ne peut avec bienseance reprendre les
+                        jeux, qui ont servi d’amusement à ses premieres années, ni méme se permettre
+                        certaines libertez, qu’on pardonnoit autrefois à sa jeunesse. Un grand
+                        Magistrat, lors méme qu’il se relâche, est obligé de garder son Caractere,
+                        &amp; de choisir des divertissemens, qui soient conformes au rang, qu’il
+                        tient parmi les hommes ; ainsi Chrêtiens, lors même que vous vous
+                        divertissez, vous devez le faire en Chrêtien.</p>
+                    <p>Que diroit-on d’un Prince, ou d’un grand <pb n="17" xml:id="p17"/>Seigneur,
+                        qui n’auroit de commerce qu’avec la lie du Peuple, qu’on verroit aller de
+                        bouchon en bouchon, &amp; chanter au milieu des ruës avec des porteurs de
+                        chaizes &amp; de laquais ? Mais ne faut-il pas que cét homme là se
+                        divertisse ? Qu’il se divertisse à la bonne-heure, mais qu’il se divertisse
+                        en homme de qualité, qu’il se divertisse en Prince. Que diriez-vous, mais
+                        que ne dittes vous point tous les jours de ces Ecclesiastiques, qu’on a tant
+                        de peine à distinguer des personnes les plus prophanes, qui affectent une
+                        propreté si mondaine, des habits si vains, des ajustemens si ridicules, des
+                        maniéres si peu seantes à leur êtat ? mais quoi ? trouvez-vous mauvais
+                        qu’ils s’habillent, &amp; qu’ils soient propres, qu’ils soient honnêtes,
+                        &amp; qu’ils sachent vivre ? Nullement, vous ne seriez pas raisonnable de
+                        condanner en eux ce, qui est un effet de la necessité ? ou ce qui peut-être
+                        même une vertu. Qu’ils s’habillent doncques dittes-vous, qu’ils s’habillent
+                        même proprement, qu’ils voïent les honnêtes gens, &amp; qu’ils vivent
+                        honnêtement avec eux : Mais qu’ils s’habillent en gens d’Eglise, que leur
+                        propreté soit conforme à leur profession, &amp; que leur vie fasse respecter
+                        leur caractere de tous ceux, qui seront témoins de leurs actions. Quel
+                        scandale, &amp; quel est l’homme quelque libertin qu’il pût être, qui n’en
+                        auroit pas horreur ? Si quelcun de ces solitaires, qui se sont
+                        volontairement condannez à passer leur vie en jeûnes &amp; en priéres,
+                        venoit aujourd’hui se montrer dans vos assemblées, s’inviter lui même à vos
+                        plus-celebres repas, vouloir être de toutes vos parties, &amp; ce qu’on ne
+                        peût même <pb n="18" xml:id="p18"/>penser sans fremir, marcher en masque par
+                        les ruës de vôtre Ville ? Quel desordre, s’ecrieroit-on ? Quelle indignité,
+                        Quelle abomination ! Quel monstre dans une ville Chrêtienne ! Un Religieux
+                        paroître en une posture si extravagante, si scandaleuse ! Mais si je vous
+                        disois que ce Religieux est homme aussi bien que vous, &amp; qu’aprés une
+                        année entiere de Retraite &amp; de Penitence, il est bien juste qu’il se
+                        divertisse durant quelques jours, pour se disposer à rentrer dans ses
+                        premiers exercices. Pourriez-vous seulement souffrir ce discours ? Ne me
+                        traitteriez-vous pas moi-même d’extravagant &amp; d’insensé ? Sont-ce là des
+                        divertissemens de Religieux ? Ne sçauroit-il se divertir sans scandaliser
+                        toute la terre ? s’il veut prendre part à nos plaisirs &amp; à nos
+                        débauches, qu’il renonce à ses vœux, &amp; à sa profession ? Voilà
+                        Messieurs, quels sont vos sentimens sur la conduite des autres ; mais d’ou
+                        vient que vous ne vous appliquez point des regles si justes &amp; si
+                        raisonnables.</p>
+                    <p>Hé quoi, Messieurs, le Christianisme n’est-il donc qu’un fantôme &amp; une
+                        chimere ? Le nom de <hi rend="sc">Jesus-Christ</hi>, que nous portons, &amp;
+                        qui lui à coûté tant de sang, est-ce un nom si vil &amp; si méprisable,
+                        qu’il ne puisse être deshonoré par aucune action quelque folle &amp; quelque
+                        indecente qu’elle puisse être ? Est-il possible qu’il n’y ait nulle
+                        bien-seance à garder dans un êtat, qui nous éleve jusqu’à la divinité, qui
+                        nous fait enfans de Dieu par adoption ? Un Prince n’oseroit faire le
+                        Comedien, un simple Bourgeois croit qu’il y a des divertissemens indignes de
+                        sa condition, un Religieux se rendroit infame en <pb n="19" xml:id="p19"/>se
+                        divertissant comme la plus grande partie des Chrêtiens ; &amp; un Chrêtien
+                        se persuade qu’il n’y a rien de meseant à un si grand Nom, il n’a point de
+                        honte de se divertir en Païen.</p>
+                    <p>Quoi, mes Dames, mettre cinq ou six heures de tems a se parer &amp; à se
+                        peindre le visage, pour aller ensuite dans une assemblée tendre des pieges à
+                        la chasteté des hommes, &amp; servir de flambeau au demon, pour allumer par
+                        tout le feu de l’impudicité, demeurer les nuits entieres exposées au yeux
+                        &amp; à la cajollerie des jeunes fous, &amp; de tout ce qu’il y a de
+                        libertins dans une ville, emploïer tout ce que l’art &amp; la nature ont de
+                        plus dangereux pour attirer leurs regars, &amp; pour leur renverser
+                        l’esprit, deguiser vos personnes &amp; vôtre sexe, pour n’avoir plus honte
+                        de rien, &amp; pour ôter à la grace ce petit secours, qu’elle trouve dans la
+                        pudeur, qui vous est si naturelle. Rouler de quartier en quartier sous un
+                        habit de teatre, &amp; avec une impudence de Comediennes, pour être vûës de
+                        tous les yeux, &amp; pour voir dans un jour tous les visages d’une ville.
+                        Joindre aux excez de luxe &amp; de galanterie des excez de bouche &amp;
+                        d’intemperance, ne se pas contenter des discours, qui nourcissent le
+                        prochain, se relâcher jusqu’à dire des paroles, qui le scandalisent ; En un
+                        mot ajoûter aux vices des femmes tous les vices &amp; tous les desordres des
+                        hommes, en verité sont-ce là des divertissemens de Chrêtiennes ?</p>
+                    <p>Depuis quand est-ce, que ces festins licentieux, que ces bals, que ces danses
+                        molles &amp; lascives, que les premiers Chrêtiens reprochoient aux Idolâtres
+                        comme des marques toutes visibles de <pb n="20" xml:id="p20"/>la corruption
+                        de leurs mœurs, de la fausseté même de leur religion ? Depuis quand, dis-je,
+                        sont elles devenuës des divertissemens honnêtes, des divertissemens de
+                        Chrêtien ?</p>
+                    <p>Je fai bien que vous me direz que c’est être trop rigoureux que de vouloir
+                        vous retrancher ces sortes de divertissemens, je l’ai crû longtems
+                        aussi-bien que vous, je me suis reproché plus d’une fois à moi-même d’avoir
+                        sur ce point des sentimens trop severes, &amp; je vous avouë que j’ai
+                        cherché des temperamens pour sauver le Christianisme sans troubler vos
+                        delices &amp; vos plaisirs, mais enfin il m’a été impossible d’accorder ces
+                        vanitez &amp; ces dissolutions, avec la qualité sainte &amp; venerable de
+                        membre de <hi rend="sc">Jesus-Christ</hi>. Des Chrêtiens, qui doivent être
+                        le sel &amp; la lumiére du monde, qui doivent être revêtus de <hi rend="sc"
+                            >Jesus-Christ</hi>, &amp; exprimer dans toute leur vie la vie de ce Chef
+                        humilié &amp; chargé d’épines.</p>
+                    <p>Les enfans de ces premiers enfans de l’Eglise, auxquels les Païens n’avoient
+                        point d’autres reproches à faire, si ce n’est qu’ils ne paroissoient point
+                        dans le Cirque, qu’ils fuïoient le teatre &amp; les spectacles publics,
+                        qu’on ne les voïoit ni couronnez des fleurs, ni vêtus de pourpre, qu’ils
+                        aimoient la pauvreté, &amp; qu’ils avoient horreur des charges &amp; des
+                        honneurs ! Car enfin, c’étoient là les crimes, dont on les chargeoit &amp;
+                        nous avons encore les eloquentes Apologies, qu’ils publioient pour répondre
+                        à ces glorieuses accusations. En verité avons-nous la même foi, osons-nous
+                        bien attendre le même Paradis que ces hommes dont Tertullien fait l’éloge
+                        dans <pb n="21" xml:id="p21"/>son Apologetique, lesquels se glorifient de ne
+                        savoir ce que c’est l’Amphitéatre, de ne prendre nulle part à ces profanes
+                        divertissemens, de n’oser en faire le sujet de leur entretien, de ne pas
+                        même endurer qu’on leur en parle. <quote><hi rend="i">Nihil est nobis dictu,
+                                visu, auditu.</hi></quote> Voiez s’il vous plait si ces mots ne
+                        disent pas tout ce, que je viens de dire en les expliquant. <quote><hi
+                                rend="i">Nihil est nobis dictu, visu, auditu cum insania circi, cum
+                                impudicitiâ Theatri, cum attrocitate Arenarum, Xisti
+                            vanitate.</hi></quote></p>
+                    <p>De tous ces eloges, que ces grands Saints donnoient à ces premiers imitateurs
+                        de <hi rend="sc">Jesus-Christ</hi> ; y en a-t-il un seul, qui convienne aux
+                        Chrétiens de nôtre tems, au contraire de tous les reproches, qu’ils
+                        faisoient aux infidelles, y en a-t-il quelcun qu’on ne ne nous puisse faire
+                        avec justice ? Dites-moi, Chrêtiens pouvons-nous aujourd’hui opposer nos
+                        divertissemens aux festes de Turcs &amp; des Indiens, &amp; aprés leur avoir
+                        reproché les excez de leurs tables &amp; la legereté de leurs danses,
+                        oserions-nous leur proposer pour modele nos bals, nos mascarades &amp; nos
+                        festins ? Que sert-il de le dissimuler ? Il n’y a gueres moins difference
+                        entre ces premiers Chrêtiens &amp; ceux, qui portent aujourd’hui ce nom
+                        qu’il y en avoit alors entre ces mêmes Chrêtiens &amp; ces Idolatres de leur
+                        tems.</p>
+                    <p>Aussi ceux-là ont attiré toute la terre à <hi rend="sc">Jesus-Christ</hi> par
+                        l’odeur de leur sainteté, &amp; ont fait avoüër aux plus-opiniâtres d’entre
+                        les Gentils, qu’il n’y avoit point d’apparence, que l’erreur pût se trouver,
+                        où brilloit tant de vertu ; au-lieu que nos dereglemens servent de pretexte
+                        aux heretiques pour se separer de l’Eglise, &amp; <pb n="22" xml:id="p22"
+                        />persuadent aux ames simples &amp; peu êclairées, que la verité ne se peut
+                        rencontrer, où regnent tant de desordres ?</p>
+                    <p>Combien pensez-vous qu’il y ait en effect d’heretiques, lesquels, pour me
+                        servir des termes du même Pere, amassent des charbons de feu sur nôtre
+                        teste, c’est-à-dire, qui se fortifient tous les jours dans leurs erreurs à
+                        la vûë de nos debauches, &amp; qui par un aveuglement étrange, à la verité,
+                        mais que nous prenons plaisir de rendre tous les jours plus incurable,
+                        rendent peut-être graces à Dieu de les avoir fait naître hors d’un
+                        Christianisme si corrompu ?</p>
+                    <p>Et ne me dites pas ce que quelques libertins opposerent autrefois à saint
+                        Ciprien, que l’Evangile, que l’Ecriture Sainte ne defend nulle part ni les
+                        bals, ni les comedies, ni les mascarades, l’Ecriture (répond ce grand Saint)
+                        a plus dit en se taisant, que si elle s’êtoit expliquée par des defenses
+                        expresses ; elle a eu honte de faire un precepte pour des choses, qui
+                        êtoient si visiblement indignes du Chrêtien, qu’elle formoit. Quel sentiment
+                        auroit-elle eû des fidelles, si elle avoit jugé necessaire de leur interdire
+                        positivement ces vanitez ? <quote><hi rend="i">Verecundiam passa plus
+                                interdixit, quia tacuit ; veritas si ad hæc usque descenderet,
+                                pessimè de fidelibus suis sensisset.</hi></quote> La raison nous
+                        parle au defaut de l’Ecriture, nous n’avons qu’à nous consulter nous-mêmes,
+                        &amp; à faire un peu de reflexion sur nôtre état, pour nous éloigner de ces
+                        jeux, qui le deshonorent. <quote><hi rend="i">Ratio loquitur, quæ scriptura
+                                conticuit : secum tantum unusquisque deliberet, &amp; cum persona
+                                professionis suæ loquatur ; nihil nuquam indecorum <pb n="23"
+                                    xml:id="p23"/>geret.</hi></quote> Elle a condamné les dances
+                        &amp; les spectacles en détruisant l’Idolatrie, qui les avoit enfanté, &amp;
+                        qui a mis au jour tous ces monstres de vanité &amp; de dissolution.
+                                <quote><hi rend="i">Omnia ista spectaculorum genera damnavit, quando
+                                Idololatriam sustulit, ludorum omnium Matrem : unde hæc vanitatis
+                                &amp; levitatis monstra venerunt.</hi></quote></p>
+                    <p>Mal-heureuses Méres, Méres cruelles &amp; parricides, qui parez vos filles
+                        comme on faisoit autrefois les victimes, qu’on destinoit à la mort ; qui les
+                        parez, dis-je, avec tant de soin, pour les aller sacrifier de vôtre propre
+                        main à l’idole du monde &amp; de l’impudicité. Je ne parle point du crime,
+                        que vous commettez en preparant ainsi le poison, que vous présentez ensuite
+                        a toute la terre, je ne parle point des pechez des autres, dont on doit
+                        neanmoins vous redemander un compte si rigoureux. Mais qu’el est vôtre
+                        desespoir de porter ainsi le poignard dans le sein de vos enfans ?
+                        N’avez-vous soûhaitté d’en avoir que pour les corrompre ? Ne les avez-vous
+                        mis au monde que pour les danner ? Je sai bien ce que vous avez à me
+                        répondre, pour colorer un si étrange dereglement. Qui penseroit à elles,
+                        dites-vous, si elles n’êtoient vûës de personne, si elles ne tâchoient de
+                        paroître belles &amp; agréables ? Qui y penseroit, Chrétiens, Dieu en tout
+                        cas y penseroit au defaut des hommes ? Mais est-il possible que les
+                        desseins, que le ciel a sur vôtre famile, ne se puissent executer que par
+                        des voïes si abominables ? Quoi si cette fille n’est vaine &amp; ne voit ce
+                        monde, elle ne sauroit rencontrer ce, que Dieu lui a destiné avant tous les
+                        siecles, &amp; les decrets éternels de sa <pb n="24"/>Providence ne seront
+                        jamais accomplis en elle, si elle ne paroit à tout les bals &amp; à toutes
+                        les fétes d’une Ville : Prenez garde au contraire que le dessein, qu’il
+                        avoit de vous sauver avec elle, ne soit traversé par une conduite si peu
+                        Chrétienne. Je ne vous blâme pas du desir que vous avez de la rendre
+                        heureuse dés cette vie : mais vous êtes bien miserable, si vous pensez qu’il
+                        faille hazarder &amp; son salut &amp; le vôtre, &amp; son éternité &amp; la
+                        vôtre, pour une felicité si vaine si chimerique, pour une felicité qui ne
+                        doit durer qu’un moment.</p>
+                    <p>On peut ajoûter à ce danger d’étre seduits par le demon, le peril où nous
+                        vivons continuellement d’étre surpris par la mort. Le Sauveur nous a averti
+                        plus d’une fois que la mort doit venir dans le tems, que nous y penserons le
+                        moins. <quote><hi rend="i">Quâ horâ non putatis.</hi></quote> Or, il est tout visible,
+                        qu’il n’est point de tems, où vous pensiez moins à mourir que lors-que vous
+                        oubliez méme de vivre en Chrétiens, &amp; par consequent si <hi rend="sc"
+                            >Jesus-Christ</hi> ne nous a point donné un faux avis, s’il ne nous a
+                        point trompé lui-méme, il n’est point de tems, où vous aïez plus de sujet de
+                        craindre la mort ; <quote><hi rend="i">Quâ horâ non putatis, filius hominis
+                            veniet.</hi></quote> Seriez-vous le premier qu’on auroit trouvé mort sous un
+                        masque ? Qui auroit expiré subitement le premier jour de Caresme, aprés
+                        avoir dançe toute la nuit precedente, qu’on auroit emporté le Mardi Gras du
+                        festin dans le cercueïl ? O Dieu ! quelle mort pour un Chrétien ! finir ses
+                        jours par un excé d’intemperance ? aller, s’il m’est permis de parler de la
+                        sorte, aller en dançant au Tribunal de <pb n="25" xml:id="p25"/><hi
+                            rend="sc">Jesus-Christ</hi>, &amp; paroître en masque devant un Juge si
+                        redoutable.</p>
+                    <div3 type="privilege">
+                        <head>Approbation.</head>
+                        <p><hi rend="big">J</hi>E soussigné Prêtre Docteur en Theologie, Curé du
+                            Bourg de Guilloriere les Lion, &amp; Promoteur General de l’Archevêché
+                            dudit Lion, ai lû avec plaisir de l’ordre de Monseigneur le Chancelier,
+                                <hi rend="i">Les Sermons composéz &amp; prechéz par le R. P.</hi>
+                            <hi rend="sc">Claude de Colombiere</hi><hi rend="i"> de la Compagnie de </hi><hi rend="sc">Jesus</hi> : non seulement parce que je n’y ai rien trouvé
+                            qui ne soit trés conforme aux veritéz Evangeliques, mais encor parce que
+                            tous les Sujets y sont traitéz d’une maniere solide &amp; édifiante,
+                            &amp; que l’on y remarque le caractere de la Pieté &amp; du zele de leur
+                            Auteur, qui ne s’est pas moins rendu recommandable par la regularité de
+                            sa vie, que par les Travaux Apostoliques, dans lesquelles il n’a pas
+                            manqué au Martire si le Martire lui a manqué. En foy de quoi j’ai signé
+                            à Lyon ce 22. December 1681.</p>
+                        <byline>VUILLEMOT.</byline>
+                    </div3>
+                    <div3 type="privilege">
+                        <head>Permission du R. P. Provincial.</head>
+                        <p><hi rend="big">J</hi>E soussigué Provincial de la Compagnie de <hi
+                                rend="i">Jesus,</hi> en la Province de Lion, suivant le Privilege,
+                            qui nous a été Octroyé par les Rois très-chrétiens, permets de faire
+                            imprimer &amp; debiter les <hi rend="i">Sermons composez &amp; prêchez
+                                par le R. P.</hi>
+                            <hi rend="sc">Claude la Colombiere</hi> Religieux de la même Compagnie.
+                            Le tout ayant été vû &amp; approuvé par quatre Theologiens de nôtre
+                            Compagnie. Fait à Lion ce 15. May 1683.</p>
+                        <byline>GEORGE GALIEN.</byline>
+                    </div3>
+                </div2>
+                <div2 type="chapter">
+                    <pb n="26" xml:id="p26"/>
+                    <head type="sur">Entretien troisieme</head>
+                    <head type="main"><hi rend="i">Le danger des Bals &amp; Comedies découvert par
+                            l’Auteur des Sermons sur tous les sujets de la morale Chrétienne de la
+                            Compagnie de </hi><hi rend="sc">Jesus</hi>.</head>
+                    <epigraph>
+                        <p>Domine ut videam. <hi rend="i">Seigneur faites que je voye</hi>.</p>
+                        <bibl>S. Luc. chap. 18.</bibl>
+                    </epigraph>
+                    <p><hi rend="big">C</hi>’Est la demande qu’un pauvre Aveugle fait au Sauveur du
+                        monde dans l’Evangile ; Fils de David, soit que vous soyez un Prophete, ou
+                        le Messie que nous attendons, soit que, comme un autre Moyse, vous ayez reçû
+                        la puissance de faire des prodiges, voicy un objet digne de vôtre
+                        compassion, accordez-moy par pitié, ce que la nature m’a refusé en me
+                        donnant la vie, &amp; qui, par ce refus, m’a privé de toutes les joyes que
+                        l’on peut avoir en ce monde ; ouvrez mes yeux qui ne sont ouverts qu’aux
+                        larmes, étant fermez à la lumiere du jour. Faites-moy voir, puisque vous
+                        avez la bonté de me demander ce que je souhaite que vous fassiez en ma
+                        faveur. Cette demande, étoit sans doute bien juste ; &amp; si rien ne nous
+                        est plus cher dans la vie, que nos yeux, je ne vois pas ce que cet homme,
+                        dans l’état où il étoit reduit, pouvoit demander qui lui fût plus
+                        necessaire, <quote><hi rend="i">Domine ut videam</hi></quote>.</p>
+                    <p><pb n="27" xml:id="p27"/>Mais aprés tout, pour grand que soit le bien que
+                        nous avons reçû de la nature, par la faculté de voir les objets qui frapent
+                        nos yeux ; je ne sçay si en ce tems les Chrétiens ne devroient point faire à
+                        Dieu une priere toute contraire, &amp; dire avec le S. Roi Prophete, * <quote><hi
+                            rend="i">Averte oculos meos ne videant vanitatem,</hi></quote> détournez,
+                        Seigneur, mes yeux de ces spectacles, où la vanité, la pompe, la
+                        magnificence, &amp; tout ce que le monde a de plus attrayant, se fait voir
+                        avec plus d’éclat. Car que voit on en ce tems autre chose, que des objets
+                        capables de nous seduire, &amp; de nous inspirer l’amour de la vanité ? Que
+                        si les mondains s’appliquent particulierement en ce tems, à satisfaire tous
+                        leurs sens, par les objets qui leurs sont propres, l’on peut dire qu’un de
+                        leur plus agreables divertissemens, celui qu’ils recherchent avec plus de
+                        passion, &amp; qui les occupe le plus agreablement, est la Comedie, le Bal,
+                        les Danses, &amp; les autres spectacles, qui sont souvent criminels, &amp;
+                        toûjours dangereux ; spectacles opposez à l’esprit du Christianisme, &amp; à
+                        la profession que nous avons faite si solemnellement de renoncer aux pompes
+                        &amp; aux magnificences du monde, puisque c’est s’y r’engager publiquement,
+                        que de courir avec tant d’ardeur aux spectacles publics, jusque-là que
+                        c’étoit autrefois une marque d’apostasie de la Foi, &amp; de sa Religion,
+                        comme assûre l’éloquent Salvien, <quote><hi rend="i">Est quædam in spectaculis
+                            apostatatio fidei</hi></quote>.</p>
+                    <p>Je me donnerai de garde, de rien avancer dans le sujet que je traite, qui ne
+                        soit conforme à la plus saine doctrine, &amp; à la plus exacte <pb n="28"
+                        />verité : je suis trop convaincu, que toute exaggeration en matiere de
+                        Morale, soit en representant l’énormité d’un crime, soit en exposant le
+                        danger qu’il y a de commettre, que toute exaggeration, dis-je, bien loin de
+                        remedier aux excez &amp; aux abus, ne sert souvent qu’à les augmenter ;
+                        puisqu’on donne par-là le moyen de justifier, en quelque maniere, les
+                        desordres, par les responces qu’on donne lieu de faire aux censures outrées,
+                        &amp; aux invectives excessives ; &amp; aprés qu’on s’est efforcé de donner
+                        de l’horreur d’un vice, ou de la crainte de le commettre ; tout le fruit que
+                        les Auditeurs en retirent, est de se persuader, qu’on les a voulu allarmer
+                        pour peu de chose, en faisant le mal, ou le danger plus grand qu’il n’est,
+                        de sorte que lorsqu’un Predicateur a excedé en quelque point, il ne sera
+                        plus crû quand il dira la verité toute pure dans une autre matiere, &amp;
+                        qu’il s’efforcera de la mettre devant les yeux.</p>
+                    <p>Je veux donc ici, sans cependant passer pour prévaricateur d’une si bonne
+                        cause, vous avoüer de bonne foi, que ces spectacles, dont je pretends vous
+                        détourner, ne sont pas, à beaucoup prés, si criminels que ceux des Anciens,
+                        contre lesquels presque tous les Peres de l’Eglise, &amp; entre-autre
+                        Tertulien, S. Cyprien, &amp; S. Augustin, se sont déchaînez avec juste
+                        raison, &amp; ont employé toute la force de leur éloquence à les décrier ;
+                        pendant que l’Eglise les a condamnez par ses Canons, &amp; prononcé Anathême
+                        contre les Spectateurs. Ces spectacles dont il parlent, &amp; contre
+                        lesquels ils invectivent avec tant de zele, étoient en partie sanguinaires
+                            <pb n="29" xml:id="p29"/>&amp; cruels, &amp; en partie infames &amp;
+                        honteux ; en sorte que les personnes qui avoient quelque sentiment
+                        d’humanité, ou de pudeur, en avoient elles-mêmes de l’horreur. Car comme ils
+                        avoient tiré leur origine du Paganisme, ils en avoient retenu le genie. On
+                        voyoit dans les amphitheâtres, des hommes combatre contre des Lions, des
+                        Ours, &amp; des Taureaux, dont ils étoient souvent inhumainement déchirez,
+                        pendant que le peuple se recrioit aux tours d’adresse, que ces miserables
+                        victimes faisoient, pour se défendre des grifes, &amp; des dens de ces
+                        animaux furieux : &amp; l’un des plus ordinaires plaisirs de ce tems-là,
+                        étoit de voir des Gladiateurs à outrance, qui exposoient leur vie, ou bien
+                        des Esclaves, qu’on sacrifioit à ce divertissement inhumain. D’autrefois
+                        c’étoient des tournois &amp; des combats qui devenoient de veritables
+                        Tragedies, par les funestes catastrophes qui en faisoient l’issuë. Le plus
+                        souvent c’étoit des jeux mêlez de sacrifices qui se faisoient aux Idoles,
+                        &amp; ou la musique la plus molle, les habits les plus immodestes, les
+                        danses les plus lascives, les postures les plus indécentes, &amp; les
+                        representations les plus infames, ne pouvoient produire qu’un horrible
+                        scandale, &amp; un desordre universel. Il ne faut donc pas s’étonner, si les
+                        Peres de l’Eglise ont rempli leurs écrits d’invectives les plus sanglantes,
+                        &amp; d’expressions les plus fortes &amp; les plus capables d’en donner de
+                        l’horreur aux Chrétiens, qui couroient alors aux Theâtres avec une passion,
+                        qu’ils avoient bien de la peine à reprimer.</p>
+                    <p>Je vous avoüe donc, que les spectacles que <pb n="30" xml:id="p30"/>j’attaque
+                        aujourd’hui, ne sont pas, à beaucoup prés, de ce caractere ; la Religion
+                        Chrètienne en detruisant l’idolâtrie, en a banni la cruauté, l’impudence,
+                        &amp; l’impieté, qui en êtoient alors comme inseparables, &amp; le zele des
+                        Magistrats ne souffriroit pas aujourd’hui ce scandale public. Je suis même
+                        d’accord qu’on a épuré le Theâtre de toutes les obscenitez, qui vont à
+                        corrompre les mœurs, que l’on a soin dans les bals &amp; dans les danses,
+                        que l’immodestie, &amp; les libertez scandaleuses en soient bannies ; que
+                        les paroles, les gestes, les actions ne blessent point ouvertement la
+                        bienseance &amp; la pudeur, quoique je ne tombe pas d’accord que toutes ces
+                        regles y soient toûjours si exactement observées. C’est pourquoi je
+                        n’attaquerai point des vices imaginaires, &amp; si je me sers des paroles
+                        &amp; des expressions des Saints Peres, pour condamner les spectacles
+                        d’aujourd’hui, tels qu’ils sont, ce ne sera que dans ce qu’ils ont de commun
+                        avec ceux des Anciens. Mais aprés vous avoir avoüé que ceux de nôtre tems
+                        sont moins criminels que les leurs, je n’avoüerai pas pour cela, qu’ils
+                        soient toûjours innocens ; &amp; je veux vous faire voir, que quelque soin
+                        qu’on ait apporté à en ôter le scandale, &amp; à les rendre moins suspects
+                        &amp; plus honnêtes, ils sont encore assez criminels, pour animer le zele
+                        des Predicateurs, &amp; pour inferer que plusieurs n’y peuvent assister sans
+                        peché ; nous le verrons dans mon premier point ; &amp; le second, qu’étant
+                        toûjours dangereux à l’égard de tout le monde, il est rare &amp; bien
+                        difficile d’en retourner aussi innocent que l’on y est venu ; ce sera tout
+                        le <pb n="31" xml:id="p31"/>partage de ce discours. Un peu d’attention s’il
+                        vous plaît.</p>
+                    <p>Je commence par ce qu’il y a de plus important, &amp; de plus difficile à
+                        décider sur cette maniere, savoir, si c’est un peché grief de se trouver au
+                        Bal, d’assister à la comedie, &amp; aux autres spectacles publics, &amp;
+                        enfin de se trouver dans ces Assemblées du beau monde, pour contribuer au
+                        divertissement les uns des autres. Comme la passion qu’on a pour ces sortes
+                        de choses est naturelle &amp; violente, on s’efforce aussi de la justifier
+                        par toutes les raisons, que l’amour propre ne manque pas de suggerer,
+                        jusque-là qu’à moins de rendre absolument criminels tous les divertissemens,
+                        de quelque nature qu’ils puissent être, on croira toûjours que ceux-cy
+                        doivent étre comptez entre les plus innocens. C’est pourquoy l’on insiste
+                        ordinairement à demander, s’il y a peché mortel d’assister au Bal &amp; à la
+                        Comedie, qui sont maintenant les deux sortes de spectacles qui sont le plus
+                        en usage, &amp; où l’on fait le moins de scrupule de se trouver. L’on
+                        demande une réponse precise ; mais comme j’ai apporté toute la precaution
+                        que j’ai jugée necessaire pour ne pas exaggerer le desordre qui s’y trouve,
+                        je n’en apporterai pas moins à vous répondre sur ce chapitre ; car je dis
+                        qu’il n’en est pas de ces sortes de choses, comme des actions qui sont
+                        expressement contre la Loy de Dieu, où il est facile de prononcer
+                        définitivement ; mais pour celles qui ne sont défenduës qu’a de certaines
+                        personnes, &amp; dans de certaines occasions, cela dépend des suites, &amp;
+                        des circonstances, où elles sont plus ou moins <pb n="32" xml:id="p32"
+                        />criminelles, ou dangereuses. Il en faut donc juger par l’Issuë, par
+                        l’experience, par l’intention, &amp; souvent par rapport à la conscience de
+                        ceux qui se trouvent dans ces Assemblées, ou dans ces divertissemens.</p>
+                    <p>Je pretends donc satisfaire suffisamment à vôtre demande, en vous répondant
+                        que c’est peché, &amp; même peché mortel à l’égard de plusieurs ; &amp;
+                        puisque c’est des circonstances que dépend la décision que vous me pressez
+                        de vous donner, sur une chose qui vous tient au cœur ; je vous donne trois
+                        ou quatre regles, par lesquelles vous conclurez vous-méme, a quels
+                        spectacles il vous est défendu de vous trouver, &amp; quelles sont de
+                        personnes qui ne peuvent s’y trouver, sans commettre un grand peché.
+                        Premierement la disposition de ceux qui y assistent, lorsque par leur
+                        foiblesse, ils sont susceptibles de toutes les impressions, que ces
+                        spectacles sont capables de faire sur leurs esprits ; c’est ce qu’on appelle
+                        s’exposer à l’occasion du peché. Ensuite le mal que ceux qui y assistent,
+                        causent aux autres, en authorisant ces divertissemens dangereux par leur
+                        exemple, ce qui fait un peché de scandale, &amp; qui les rend coupables de
+                        la perte des autres, &amp; de tous les pechez qu’ils y commettent ; &amp;
+                        enfin les circonstances particulieres qui se trouvent en de certaines
+                        personnes, qui ne peuvent employer leur tems &amp; leur argent à ces sortes
+                        de divertissemens, sans un notable prejudice de leurs affaires, ou de leurs
+                        devoirs plus importans. Appliquez-vous, je vous prie, à bien penetrer cecy,
+                        qui reglera la conduite &amp; le party que vous devez prendre sur ce
+                        sujet.</p>
+                    <p><pb n="33" xml:id="p33"/>Je dis premierement, pour la résolution de cette
+                        question si delicate, &amp; qui n’est pas sans difficulté qu’il faut
+                        consulter la situation de vôtre cœur, &amp; que c’est mal raisonner de la
+                        grandeur du peril où l’on s’expose, que d’en juger par la nature, ou par
+                        l’institution de ces spectacles, ou par la fin qu’ont eû ceux qui les ont
+                        inventez les premiers ; au lieu de les considerer dans l’usage qu’on en
+                        fait, ou dans la maniere ordinaire qu’ils se passent ; &amp; j’adjoûte que
+                        le peu de soin que la plûpart des gens du monde apportent à éviter
+                        l’occasion du peché, me donne un juste sujet de craindre que le peché mortel
+                        ne soit pas capable d’arrêter leur curiosité, ni la passion qu’ils ont pour
+                        une chose, où il est facile d’y tomber. Quand les saints Peres vouloient
+                        détourner les prémiers Chrétiens de ces spectacles, la plus forte raison
+                        qu’ils leur en apportoient, étoit, que cela étoit contraire à leur
+                        profession, &amp; qu’ils devoient se souvenir qu’ils étoient Chrétiens ; ils
+                        ne s’amusoient pas à leur prouver si c’étoit un peché mortel, ni à leur
+                        expliquer ce qu’ils pouvoient faire en sûrêté de conscience, ou ce qu’ils ne
+                        pouvoient pas ; c’étoit assez de leur faire entendre, que le nom &amp; la
+                        qualité de Chrétiens, qui les obligeoit à mener une vie retirée, &amp;
+                        éloignée de ces divertissemens mondains, y étoient interessez ; ils s’en
+                        tenoient là, sans disputer avec leurs Directeurs sur la qualité du peché, au
+                        lieu qu’aujourd’huy s’il n’y va du salut, &amp; si le peché qu’ils
+                        commettent n’est d’une nature à leur attirer la damnation éternelle, rien ne
+                        peut être un motif suffisant pour reprimer cette ardente passion.</p>
+                    <p><pb n="34" xml:id="p34"/>Je vous diray donc, encore une fois, que quoyque ces
+                        spectacles, dont on est si passionné, ne soient plus cruels, ni si infâmes
+                        qu’ils l’étoient en ces premiers tems, ils ne sont pourtant guere moins
+                        dangereux, &amp; qu’eû égard à la disposition de plusieurs, c’est à dire de
+                        ceux qui connoissent leur foiblesse, &amp; qui n’en ont déja que trop
+                        d’experience sur ce point, c’est sans contredit un peché mortel ; quoyqu’il
+                        ne leur soit pas évident qu’ils donneront consentement à toutes les pensées,
+                        &amp; à tous les desirs criminels que ces objets pourront faire naître. En
+                        voulez-vous savoir la raison ? Elle se prend de maximes incontestables,
+                        &amp; de cette décision reçûë de tous les Docteurs, que c’est déja un peché
+                        grief, que de s’exposer volontairement &amp; de gayeté de cœur, à commettre
+                        un peché. Je ne m’arrêteray pas même à vous convaincre de la veritê de ce
+                        principe, que personne ne peut contester, aprés l’Oracle du Saint Esprit,
+                        que quiconque cherche le peril, y perira immanquablement, &amp; aprés le
+                        sentiment de tous les Docteurs, que de rechercher une occasion, où l’on
+                        commet ordinairement le crime, c’est être dans le dessein de le commettre.
+                        Or ces spectacles ausquels vous courez, sont de cette nature, eû égard à
+                        vôtre âge, &amp; à vôtre naturel susceptibles des passions les plus
+                        dangereuses ; vous commettez donc un peché mortel. Prenez bien, je vous
+                        prie, ma pensée ; car je ne parle point des dangers imprévûs, involontaires,
+                        &amp; où le hazard nous a jettez ; je parle de ceux que l’on recherche, où
+                        l’on s’expose, &amp; que l’on connoît. C’est pourquoy j’ay ajoûté, eû égard
+                        à nôtre <pb n="35" xml:id="p35"/>foiblesse &amp; à nôtre experience ; parce
+                        que quoyque la corruption du cœur soit commune à tous les hommes, &amp; que
+                        le panchant soit une des suites du peché avec lequel nous naissons tous ; ce
+                        panchant neanmoins n’est pas également violent dans tous les hommes, &amp;
+                        cette foiblesse n’est pas également à craindre dans tout âge, dans tout
+                        sexe, &amp; dans toutes sortes d’états ; ainsi ceux à qui une funeste
+                        experience n’a que trop appris, qu’ils ne se trouvent jamais dans ces
+                        assemblées libres &amp; enjoüées, à ces bals, qui ne sont faits que pour
+                        entretenir la galanterie, a ces balets &amp; à ces danses, où l’on ne
+                        s’étudie qu’à exprimer par geste, la passion dont on est possedé, ceux qui
+                        écoutent avec un singulier plaisir ces airs languissans &amp; passionnez,
+                        ces concerts de voix &amp; d’instrumens, où tout ce que la musique a de plus
+                        animé, porte jusqu’au cœur les sentimens les plus tendres ; ceux qui sont
+                        charmez de ces comedies, où des hommes &amp; des femmes paroissent sur un
+                        Theâtre, pour exprimer les plus naturellement &amp; le plus vivement qu’il
+                        leur est possible, la plus dangereuse de toutes les passions ; ces
+                        personnes, dis-je, me demandent, s’il y a peché grief de voir &amp;
+                        d’entendre ce qui excite, &amp; ce qui allume cette passion, à quoy elles
+                        n’ont que trop de panchant ; n’est-ce pas demander s’il y a du peché à
+                        chercher l’occasion du peché, &amp; à s’exposer au danger de le commettre ?
+                        ou bien, n’est-ce pas mettre en question, si les pensées volontaires, &amp;
+                        les desirs que ces objets font naître, &amp; que l’on entretient ensuite,
+                        sont défendus par la Loy Chrétienne, qui pour nous obliger à la pureté, se
+                            <pb n="36" xml:id="p36"/>sert des termes les plus forts, &amp; qui
+                        tiennent davantage de l’exaggeration, savoir, de nous arracher les yeux,
+                        s’il nous sont une occasion de scandale, &amp; où l’Autheur de cette Loy met
+                        au rang des crimes le plus énormes, les regards que l’on jette sur une femme
+                        à mauvais dessein : <quote><hi rend="i">Qui viderit mulierem ad concupiscendum eam,
+                            jam mœchatus est eam in corde suo.</hi></quote> Quoy ! vous portez dans
+                        vous-mêmes un feu que vous avez tant de peine à éteindre, &amp; vous
+                        demandez, si l’on peut chercher de quoy l’embraser ? Vous avez un Ennemy
+                        domestique, dont vous ne pouvez, sans le secours d’une grace particuliere,
+                        soûtenir les attaques, &amp; vous le fortifiez contre vous-même ? Vous
+                        l’allez chercher là où il a tout l’avantage possible sur vous, &amp; tous
+                        les moyens de vous vaincre. Qu’appellez-vous s’exposer à l’occasion du
+                        peché, si ce n’est la rechercher, &amp; se precipiter dans le danger ?</p>
+                    <p>Non, me direz-vous, car la précaution que vous avez prise, vous ôte tout
+                        sujet de croire, que ce soit une occasion prochaine, ou bien un danger
+                        évident ; puisque ces spectacles sont tout autres que ceux des Anciens ;
+                        qu’on ne peut souffrir qu’on y represente le vice avec cette impudence, qui
+                        faisoit rougir alors les personnes qui avoient quelque reste de pudeur ; que
+                        dans les comedies mêmes les plus boufonnes, ou les plus enjoüées, on n’y
+                        peut supporter les paroles libres &amp; équivoques ; que l’effronterie &amp;
+                        l’immodestie ne se souffrent pas dans les bals &amp; dans les assemblêes,
+                        &amp; quoyque ces assemblées soient composées de personnes de different
+                        sexe, il est rare qu’on y voye rien qui soit ouvertement <pb n="37"
+                            xml:id="p37"/>contre la bienseance ; &amp; pour ce qui est des comedies,
+                        contre lesquelles les personnes zelées se déclarent le plus hautement, ne
+                        donne-t-on pas cette loüange à nôtre siecle, d’avoir purgé le Theâtre, de
+                        tout ce qui pourroit soüiller l’imagination, soit dans les paroles, soit
+                        dans les actions, soit même dans les sujets que l’on accommode au goût &amp;
+                        aux mœurs de ce tems ? C’est, Messieurs, un pretexte, je l’avoüe, dont on
+                        flatte la passion que l’on a pour ces sortes de spectacles ; mais cela
+                        n’excuse pas de peché, ceux qui, dans l’experience qu’ils ont de leur
+                        foiblesse, ne peuvent ignorer le danger où ils s’exposent : car si ces
+                        spectacles, tels qu’ils sont aujourd’huy, leur sont une occasion de
+                        scandale, c’est à dire, s’ils sont capables de les porter au mal, c’est une
+                        occasion de peche, qu’ils sont obligez d’éviter, sous peine de se rendre
+                        coupables du peché même.</p>
+                    <p>Nous sommes, à la verité, dans un siecle, où l’on garde des mesures de
+                        bienseance plus que jamais ; jamais les dehors ni les apparences de la vertu
+                        &amp; de la probité n’ont été menagez avec plus de soin ; &amp; comme l’on
+                        apporte toutes les précautions que l’on peut, pour conserver sa reputation,
+                        on témoigne de l’indignation contre les vices grossiers, &amp; contre tout
+                        ce qui choque l’honnêteté ; mais comme les mœurs sont aussi corrompuës
+                        qu’elles l’ont jamais été, cette horreur que l’on marque pour tout ce qui
+                        blesse la pudeur, ou qui enseigne ouvertement le crime, est plûtost un effet
+                        de la politesse du siecle, que de sa probité ; de maniere que les spectacles
+                        de ce tems sont d’autant plus dangereux, que le <pb n="38" xml:id="p38"/>mal
+                        y est plus caché, &amp; plus subtilement déguisé. Le poison pour être
+                        preparé avec plus d’artifice, n’en est pas moins present &amp; mortel, &amp;
+                        l’art qu’on y apporte, fait seulement qu’on s’en défie moins, &amp; qu’il
+                        s’insinuë plus facilement. Je veux dire que ces spectacles épurez de ce
+                        qu’ils avoient de plus scandaleux autrefois, ne laissent pas de faire la
+                        même impression sur un esprit déja disposé, &amp; d’y causer les mêmes
+                        desordres, qu’on ne peut excuser de peché mortel. En effet, que voit-on
+                        autre chose dans un bal, que des personnes qui cherchent à plaire en dansant
+                        de bonne grace, &amp; parées de tous les ajustemens, dont l’art peut
+                        enrichir la nature, pour en augmenter la beauté ? les cajoleries, les
+                        complimens, les têtes à têtes, &amp; tout ce que la galanterie a de plus
+                        fin, n’y est-il pas mis en usage ? Dans les concerts qui entrent souvent
+                        dans ces divertissemens, si ce que l’on chante n’est passionné, &amp;
+                        n’amollit le cœur, peut-on seulement les écouter ? ne sont-ce pas les
+                        personnes dont l’âge est le plus susceptible de vice, qui composent ces
+                        assemblées ? La modestie qu’on pretend ménager dans tout le reste,
+                        s’observe-t-elle toûjours dans les habits ? En un mot, ce que l’on voit,
+                        &amp; tout ce qu’on entend dans ces cercles si galants &amp; si enjouez,
+                        n’est-il pas capable d’inspirer une passion, que l’on cache avec tant de
+                        soin, &amp; que l’on déguise sous des noms specieux, pour en cacher la
+                        honte ?</p>
+                    <p>Et pour nous arrêter à la Comedie, qu’on prétend être la plus honnête, aprés
+                        qu’on en a banni tout ce qui l’a tant décriée dans les siecles passez ; je
+                        maintiens qu’elle est encore un piege, <pb n="39" xml:id="p39"/>&amp; une
+                        occasion prochaine de peché pour ceux qui ont quelque disposition à recevoir
+                        le poison qui est si bien déguisé. Car comme il n’y a guere de
+                        divertissement, ni de spectacle plus agreable aux gens du monde, quelque
+                        soin qu’on ait prit de la rendre plus honnête, n’y voit-on pas encore le
+                        plaisir le plus criminel paré de tous ses attraits ? Ce qui en fait le
+                        sujet, n’est-ce pas toûjours une passion d’amour, conduite par une intrigue
+                        ingenieuse, qui tient l’esprit attentif par divers incidens, dont le
+                        dénouëment se termine par la conquête &amp; la possession de l’objet, que
+                        l’on a poursuivi avec tant d’ardeur, &amp; tout risqué pour l’obtenir ? Ne
+                        faut-il pas que ceux qui la representent, s’ils veulent plaire &amp; être
+                        écoutez avec applaudissement, expriment cette passion vivement ? &amp; pour
+                        cela, qu’ils l’impriment eux-mêmes dans leur cœur, afin de l’exprimer par
+                        leurs gestes, &amp; par leurs paroles ? Ce qui fait que l’employ de ceux qui
+                        les representent, a toûjours été flétri de quelque marque d’infamie par
+                        toutes les loys, comme n’étant propre qu’a corrompre les mœurs. Si donc,
+                        ceux qui ne ressentent déja que trop les atteintes de cette passion,
+                        cherchent encore à l’exciter par les yeux &amp; par les oreilles, si au lieu
+                        de fuir les objets, qui peuvent rallumer un feu qui n’a jamais été bien
+                        amorti, ils les recherchent, &amp; passent les deux ou trois heures, à voir
+                        &amp; à entendre ce qu’il y a de plus capable de l’enflamer ; qui peut
+                        douter que ces personnes ne soient dans l’occasion prochaine du peché, &amp;
+                        par consequent ne pechent effectivement de la rechercher ?</p>
+                    <p><pb n="40" xml:id="p40"/>Mais à la bonne heure, me direz-vous, que ceux qui
+                        connoissent leur foible, s’en éloignent, en cherchant dans une vie retirée,
+                        un asile à leur innocence, &amp; qu’ils ne chargent point les autres du soin
+                        de leur salut ; mais ceux qui n’on rien à craindre de ce côté là, ne
+                        peuvent-ils pas y assister sans s’en faire un point de conscience ? Non,
+                        Messieurs, car je dis en second lieu, que les personnes les plus regulieres,
+                        qui sont dans une réputation de probité la mieux établie, ou qui a raison du
+                        rang qu’elles tiennent, sont obligées de donner exemple aux autres, pechent
+                        grievement lorsqu’elles authorisent ces sortes de spectacles par leur
+                        presence, &amp; quelles y portent les autres, qui se reglent sur leur
+                        conduite ; car c’est proprement donner occasion de scandale, dont on ne peut
+                        être cause dans une chose même indifferente, &amp; assez innocente
+                        d’elle-même, sans commettre un grand peché ; parce que c’est contribuer au
+                        peché ; &amp; à la perte des autres, dont nous sommes responsables devant
+                        Dieu ; ce que l’on peut inferer du precepte &amp; de l’exemple de saint
+                        Paul, dans une question qui étoit agitée de son tems, savoir si l’on pouvoit
+                        manger des viandes, qui avoient été offertes &amp; immolées aux Idoles,
+                        parce qu’il sembloit que c’étoit par-là se soüiller du crime de l’idolâtrie.
+                        Voicy la dêcision de ce grand Apôtre : Manger des viandes, quoyqu’elles ayent
+                        été sacrifiées aux fausses divinitez, est du nombre de ces choses qu’on
+                        appelle indifferentes, &amp; je ne vous conseille pas de vous informer
+                        scrupuleusement, si celles que vous achetez pour vôtre usage, sont soüillées
+                        par cette profanation, ni de vous en abstenir pour cela ; cependant si cela
+                        est capable de scandaliser vôtre frere, qui est plus <pb n="41" xml:id="p41"
+                        />foible que vous, s’il prend occasion de-là, de retourner à son ancienne
+                        idolâtrie, il faut absolument vous en abstenir ; parce que cette
+                        circonstance en rend l’usage criminel, &amp; il n’est pas juste de perdre
+                        l’ame de vôtre frere, que le Sauveur a rachetée au prix de son Sang, pour la
+                        nourriture de vôtre corps, ou pour vôtre plaisir.</p>
+                    <p>Cette décision de S. Paul, peut servir de resolution au cas de conscience que
+                        vous me proposez ; car je veux que le bal, la comedie, &amp; les autres
+                        spectacles de cette nature, soient comptés entre les choses indifferentes,
+                        ou qu’ils passent pour tels à l’égard de ceux qui ne courent aucun hazard
+                        d’y commettre le peché ; si neanmoins par-là l’on donne occasion aux autres,
+                        qui n’ont pas la même force, ni une vertu à l’épreuve, de s’exposer au
+                        danger d’en commettre, ne devenez-vous pas coupable du scandale que vous
+                        leur donnez, &amp; n’êtes-vous pas responsables des pechez qu’ils y feront ?
+                        Or, qui sont ceux qui causent le scandale ? il est évident que ce sont ceux,
+                        qui à raison de leur dignité, &amp; du rang qu’ils tiennent parmy les
+                        autres, sont obligez de leur donner exemple, &amp; qui doivent prudemment
+                        juger, que leur presence authorisera ces divertissemens, dont on a tout
+                        sujet de se défier, &amp; qui par-là, leveront tout scrupule à ceux qui ne
+                        sont pas obligez d’avoir les mémes ménagemens, parce que leur exemple ne
+                        fait point de consequence ; ainsi un Ecclesiastique, un Magistrat, une
+                        personne considerable pour sa Charge, pour son Employ, ou pour l’opinion
+                        qu’on a conçuë de sa probité ; qu’une personne, dis-je, de ce caractere
+                        distingué, se permette ces divertissemens, &amp; contribuë à y porter les
+                        autres, &amp; à les faire passer pour des choses absolument permises &amp;
+                        indifferentes, c’est un <pb n="42" xml:id="p42"/>scandale, &amp; plus ces
+                        personnes sont reglées dans toutes leurs autres actions, plus ils donnent de
+                        hardiesse de les imiter en celle-cy. Car pourquoy, dira-t-on, se seroit-on
+                        un point de conscience d’assister à ces spectacles, puisque les gens d’une
+                        vertu plus reguliere, &amp; d’une probité plus reconnuë, ne font point de
+                        scrupule de s’y trouver ? de maniere, que si l’on n’y fait point de mal, par
+                        soy-même, l’on contribuë au mal que les autres y font. Les personnes
+                        mondaines, sur qui l’on ne prend point exemple, ne sont coupables que de
+                        leurs propres pechez ; mais ceux qui ont quelque reputation de vertu, ou qui
+                        ont quelque rang, &amp; quelque authorité, servent par leur exemple de
+                        pretexte aux autres, qui pechent sur leur compte, en s’authorisant de leur
+                        nom.</p>
+                    <p>Et bien, me direz-vous, il est à propos que ces personnes sacrifient leur
+                        plaisir &amp; leur divertissement à l’interêt public, &amp; au salut de
+                        leurs freres. Mais que feront tant d’autres gens, qui n’ont ni la foiblesse
+                        des premiers, ni l’obligation des seconds, &amp; qui n’ont à repondre que
+                        d’eux-mêmes ? Je dis, Messieurs, que parmy ceux-là, il y en a encore un
+                        grand nombre, qui ne peuvent, sans grand peché, frequenter ces spectacles, à
+                        cause de la perte du tems &amp; de l’argent qu’ils y employent, comme ceux
+                        qui pour ces divertissemens frivoles &amp; mondains, negligent leurs
+                        affaires les plus importantes, &amp; leurs devoirs le plus essentiels, ou
+                        bien qui y dépensent ce qui seroit necessaire à l’entretien de leur famille.
+                        Car, qui peut douter qu’on ne peche en abandonnant le soin de ses affaires,
+                        &amp; les <pb n="43" xml:id="p43"/>obligations de sa Charge, pour donner son
+                        tems à ces amusemens ? Si l’oisivité est condamnée dans l’Evangile, &amp; si
+                        ce fut un suffisant motif, pour obliger le Fils de Dieu à faire le procés à
+                        un serviteur inutile ; que doit-on penser de tant de personnes de l’un &amp;
+                        de l’autre sexe, qui passent les nuits dans une sale de bal, &amp; la plus
+                        grande partie du jour dans les assemblées du beau monde, qui se trouvent à
+                        toutes les comedies, à tous les jeux publics, &amp; à tous les spectacles,
+                        &amp; qui ne seroient pas contens d’eux-mêmes, s’ils n’avoient part à toutes
+                        ces sortes de divertissemens ? Qui peut excuser d’un grand peché ceux qui se
+                        font une occupation de ces folies, ou bien qui y donnent le tems qui seroit
+                        necessaire à leurs affaires, &amp; au soin de leur domestique ? Deplus,
+                        comme ces spectacles ne se font pas sans grands frais, &amp; qu’on n’en
+                        jouit point sans quelque dépense, peut-on seulement revoquer en doute, que
+                        l’argent considerable qu’on y employe, pendant qu’on neglige le precepte de
+                        l’aumône, qu’on manque de quoy fournir à l’entretien de sa famille, qu’on
+                        differe ou qu’on se dispense de payer ses dettes, &amp; qu’on viole les
+                        premiers devoirs de la justice ; que cet argent, dis-je, si mal employé, est
+                        un peché ?</p>
+                    <p>De tout cela, Messieurs, je conclus, qu’il y a bien des gens, qui ne peuvent
+                        sans peché frequenter ces spectacles, quelque innocens qu’on les fasse ;
+                        puisqu’ils sont pour quelques-uns une occasion prochaine d’y tomber, pour
+                        les autres un juste sujet de scandale qu’ils donnent au prochain, &amp; pour
+                        les autres enfin, une perte de tems &amp; d’argent qu’ils sont obligez
+                        d’employer <pb n="44" xml:id="p44"/>à des choses plus necessaires &amp; plus
+                        importantes. Mais enfin, il me semble que j’entend quelqu’un qui me dit, que
+                        toutes ces raisons ne le regardent point, qu’il se connoît assez pour ne
+                        point apprehender les mauvaises impressions que cela peut faire, qu’il luy
+                        reste encore assez de tems aprés avoir vaqué à ses devoirs &amp; à ses
+                        affaires, pour le donner à quelque divertissement, &amp; qu’il n’est pas
+                        d’un rang si distingué, que son exemple puisse authoriser les desordres que
+                        les autres y peuvent commettre ; &amp; pourquoy donc, dira-t-il, m’interdire
+                        un divertissement que nous ne voyons pas défendu par les Lois ni divines, ni
+                        humaines ? C’est la seconde demande, Messieurs, à quoy j’ay dessein de
+                        satisfaire en ma seconde partie, où j’ay à vous faire voir, que ces
+                        spectacles qui sont criminels à l’égard de plusieurs, sont encore dangereux
+                        à l’égard de tout le monde. Renouvellez, s’il vous plaît, vôtre
+                        attention.</p>
+                    <p>Si l’on ne peut dire absolument, que les spectacles dont nous avons parlé,
+                        soient criminels, mais seulement par rapport aux personnes &amp; aux
+                        circonstances, qui font que bien des gens ne peuvent les frequenter sans
+                        peché ; je n’useray pas, Messieurs, de tant de restrictions, pour vous
+                        convaincre qu’ils sont du moins dangereux, &amp; à l’égard de toutes sortes
+                        de personnes. Je vous avertiray seulement, que je ne comprends point entre
+                        ces spectacles dangereux &amp; préjudiciables à l’innocence des spectateurs,
+                        ces réjoüissances publiques qui se font aux Entrées des Souverains, ou par
+                        l’ordre des <pb n="45" xml:id="p45"/>Magistrats, pour les heureux succez de
+                        l’Etat, ni les marques de magnificences, que les Princes donnent quelquefois
+                        au public ; telles que sont les courses de Bague, Carrousels,
+                        representations de combats, feux d’artifice, triomphes, ni tous les autres
+                        dont la vûë n’a rien qui puisse porter au crime, &amp; dont méme les
+                        personnes de pieté ont pris occasion d’élever leur esprit à Dieu, &amp; de
+                        penser aux joyes que Dieu leur avoit preparées dans le Ciel, <quote><hi rend="i">Si
+                            talis est Roma terrestris, quid erit Jerusalem cœlestis ?</hi></quote> comme
+                        disoit un grand Saint. Je continuë donc de parler de ceux que la seule
+                        passion du plaisir a inventez, qui sont les mêmes qui deviennent criminels à
+                        l’égard de certaines personnes, &amp; qui ne sont jamais sans danger à
+                        l’égard des autres, tels que sont les bals, comedies, balets, &amp; les
+                        autres de cette nature, qui sont en usage dans ce siecle, &amp; qui font
+                        presque l’unique occupation des gens de qualité en ce tems de
+                        divertissement ; &amp; je soutiens encore une fois, qu’ils sont dangereux à
+                        l’égard de tout le monde ; c’est-a-dire que s’ils ne sont pas une occupation
+                        prochaine de peché à l’égard de tous, le danger est toûjours assez grand,
+                        pour porter tous ceux qui craignoit l’offense de Dieu, à les fuir ; vû que
+                        d’ailleurs il est bien rare que la bienseance, ou leur devoir leur impose
+                        une espece d’obligation d’y assister. Je fonde, Messieurs, ce danger sur ce
+                        que ces spectacles nous mettant devant les yeux tout ce que le monde a de
+                        plus contagieux, il est toûjours à craindre que ceux qui y trouvent tant de
+                        plaisir, ne se conforment enfin à cet esprit du siecle &amp; du monde, que
+                        Saint Paul <pb n="46" xml:id="p46"/>juge si pernicieux aux Chrétiens, qui y
+                        ont si solemnellement renoncé : <quote><hi rend="i">Nolite conformari huic
+                            sæculo.</hi></quote> Or cet esprit consiste dans l’estime que l’on fait de ses
+                        pompes &amp; de ses vanitez, ensuite dans les sentimens que l’on y prend,
+                        &amp; qui sont opposez a la Morale Chrétienne, &amp; enfin dans un
+                        refroidissement de la pieté, &amp; dans l’éloignement de tous les exercices
+                        qui l’entretiennent. Je ne fais que parcourir cecy, qui suffira pour vous
+                        faire concevoir, que ces spectacles tels qu’ils sont aujourd’huy, &amp; avec
+                        toute la moderation qu’on a tâché d’y apporter, pour les rendre plus
+                        honnêtes &amp; moins odieux, ne sont pas si innocens que se le persuadent
+                        ceux qui prétendent les justifier.</p>
+                    <p>Car premierement, quelque apparence d’honnéteté qu’on leur donne, &amp;
+                        quelque retranchement qu’on y ait fait de ce qu’il y avoit autrefois de plus
+                        scandaleux, l’on n’en a point retranché la pompe, l’appareil, &amp; l’éclat
+                        qui fait l’esprit &amp; la vanité du monde, puisque c’est par-là qu’ils
+                        plaisent, &amp; qu’ils attirent, &amp; pour cela qu’on les recherche avec
+                        ardeur. Or, comment les aimer, s’y plaire, les rechercher avec passion, sans
+                        reprendre ce qu’on a quitté, &amp; à quoy l’on s’est engagé de renoncer pour
+                        jamais ? <quote><hi rend="i">Quid tibi cum pompis diaboli, adversus quas in
+                            signaculo fidei jurasti</hi> ?</quote> dit Tertullien. Comment cherchez-vous la
+                        pompe, vous qui y avez si publiquement renoncé, &amp; par une promesse si
+                        autentique ? Or dites-moy, où est-ce que le monde brille davantage, &amp;
+                        donne plus dans les yeux ? Où est-ce qu’il étale davantage tout ce qu’il a
+                        de vanité ? Où est-ce qu’il a plus de charmes, &amp; <pb n="47" xml:id="p47"
+                        />plus capables de seduire, que dans ces assemblées, dans ces cercles, dans
+                        ces spectacles, qui ne sont faits que pour plaire ; &amp; où le monde se
+                        fait voir par l’endroit qu’il est le plus riant, par ce qu’il a de plus
+                        agreable &amp; de plus divertissant. Si donc c’est un crime &amp; une espece
+                        d’Apostasie, comme nous avons dêja dit, d’aimer &amp; de rechercher les
+                        vanitez de ce monde, n’est-ce pas un sujet de craindre qu’on ne les aime,
+                        &amp; qu’on ne s’y attache, que de s’y plaire, d’y courir avec ardeur, &amp;
+                        d’en faire son plus grand divertissement ? Vous me direz qu’au Baptême on
+                        n’a renoncé qu’à l’affection &amp; à l’attachement qu’on pourroit avoir aux
+                        pompes &amp; aux vanitez du monde ; parce que s’en separer absolument, c’est
+                        un état de perfection à quoy Dieu n’oblige pas toutes sortes de personnes :
+                        cela est vray ; mais c’est un précepte de s’en separer du moins de cœur
+                        &amp; de volonté, d’estime &amp; de desir ; or dites moy, si vous ne voyez
+                        point de danger d’y attacher vôtre affection, en y assistant si volontiers,
+                        &amp; en y prenant tant de plaisir ? N’est-ce pas plûtôt déja une marque
+                        qu’on y est fortement attaché, que d’y demeurer avec plaisir, d’y courir
+                        avec empressement, d’y passer les jours &amp; les nuits, &amp; de n’avoir
+                        point de plus grand divertissement ? Car enfin, qu’est-ce qu’aimer le
+                        monde ? (ce qu’on ne peut douter qui ne soit en état de damnation, aprés
+                        l’oracle de la verité même qui nous en assure,) sinon aimer les joyes du
+                        monde, l’éclat, la pompe, la vanité, &amp; les divertissemens mondains ? que
+                        S. Paul appelle la figure, &amp; le dehors éclatant du monde, qui ne paroit
+                        jamais avec plus de <pb n="48" xml:id="p48"/>charmes, que dans ces
+                        spectacles dont nous parlons ? Que si l’on regarde la condition des Grands
+                        de la terre comme dangereuse au salut, parce qu’ils sont nez dans l’éclat,
+                        que le monde se presente à leurs yeux avec tout ce qu’il a de plus
+                        engageant, &amp; qu’il leur faut faire de continuels efforts sur eux-mêmes,
+                        pour en détacher leur cœur ; que doit-on croire, ou penser de ceux qui le
+                        recherchent au lieu de le fuir ? Peut-on se figurer que leur cœur en soit
+                        fort dégagé, lorsqu’il marque y avoir tant de passion ? ou du moins n’y
+                        a-t-il point de danger que leur cœur ne s’y corrompe par le plaisir même
+                        qu’ils ont a le voir ?</p>
+                    <p>Que si ces spectacles nous mettent ainsi en danger de prendre l’esprit du
+                        monde, il n’y a pas moins de sujet de craindre qu’il ne nous en imprime les
+                        sentimens, &amp; les maximes, sur lesquelles ensuite l’on regle sa vie &amp;
+                        sa conduite ; puisque ces spectacles sont comme une école, où l’on enseigne
+                        une Morale toute contraire à l’Evangile, &amp; à la Religion. Cela n’est
+                        point outré, Messieurs, &amp; je vous tiendray ma parole de ne rien avancer
+                        de trop fort. Car je veux que les comedies, ausquelles je m’arrête plus
+                        particulierement, en parlant des spectacles, que les comedies, dis-je, de ce
+                        tems, soient plus honnêtes qu’elles n’ont jamais été, cependant, ceux qui
+                        examinent les choses de plus prés, &amp; à qui les autres vertus chrétiennes
+                        ne sont pas moins cheres que l’honnêteté, trouvent étrange qu’on les appelle
+                        innocentes, vû que le plus honnêtes ne contiennent autre chose que des
+                        passions d’ambition, de jalousie, de <pb n="49" xml:id="p49"/>vengeance, de
+                        fausse generosité, &amp; des autres vices, qui étant colorez d’une idée de
+                        grandeur d’ame, entrent facilement dans l’esprit, &amp; ruinent tous les
+                        principes du Christianisme. En dis-je trop ? non, encore une fois ; car
+                        comme la plûpart des veritables vertus, qui sont celles de l’Evangile, n’y
+                        peuvent trouver de place, &amp; que ce seroit un Heros d’un caractere bien
+                        nouveau, d’y representer un homme patient, humble, insensible aux injures,
+                        &amp; en un mot, un veritable Chrétien ; on a substitué de fausses vertus,
+                        pour exprimer, &amp; pour exciter ces sentimens que le monde appelle nobles
+                        &amp; genereux ; le point d’honneur, pour lequel on expose sa vie dans un
+                        combat singulier, la passion de dominer, &amp; de s’élever par toutes sortes
+                        de voyes, des fourberies, des trahisons, des perfidies, des amitiez qui
+                        engagent dans le crime pour servir un amy ; on y voit enfin couronner le
+                        vice, authoriser l’injustice par d’illustres exemples, &amp; les maximes les
+                        plus contraires à la Religion, passer pour de grandes vertus, &amp; pour des
+                        exploits signalez, sans quoy le Theâtre languiroit ; il faut donc pour
+                        l’animer, y representer des choses conformes au goût &amp; aux inclinations
+                        des spectateurs.</p>
+                    <p>Que si l’on s’est quelquefois avisé de faire paroître sur la scene des
+                        Martyrs ; au lieu de leur donner des sentimens Chrétiens, on les a rendus
+                        profanes, en y mêlant tant d’intrigues d’amour, tant de sentiment
+                        d’ambition, tant de fierté &amp; d’orgueil, qu’on pourroit dire que ce sont
+                        des Martyrs qui parlent en Payens. Ainsi comme l’on tient un livre pour
+                        dangereux, lorsqu’à la <pb n="50" xml:id="p50"/>faveur de quelques sentimens
+                        Orthodoxes, qui y sont bien touchez &amp; répandus çà &amp; là, on en fait
+                        couler d’autres qui sont impies ou suspects ; parce qu’on juge avec raison,
+                        que c’est un serpent caché sous des fleurs, &amp; que le venin, sans cet
+                        artifice, en seroit sans effet ; pourquoy n’en diroit on pas le même de ces
+                        Tragedies, où le profane est confondu avec le sacré, &amp; où les maximes
+                        les plus opposées au Christianisme sont mises en la bouche de ces Chrétiens
+                        de Theâtre, qui soutiennent si mal le personnage qu’ils representent ? Or,
+                        s’il y a du danger de s’accoûtumer à entendre des sentimens &amp; des
+                        maximes contraires à la Religion que nous professons, si l’Eglise même
+                        employe son authorité, pour défendre la lecture des livres suspects, si la
+                        compagnie des personnes qui ont toûjours ces maximes à la bouche, ou qui
+                        reglent leur vie selon ces sentimens ; est dangereuse, parce qu’ils les
+                        inspirent à ceux qui les frequentent ; y aura-t-il moins de danger à les
+                        voir exprimer, representer, approuver, écouter les applaudissemens que l’on
+                        donne à ceux qui les font le mieux sentir, &amp; qui les font entendre dans
+                        l’esprit par la beauté des vers, &amp; des pensées si noblement exprimées ?
+                        Certes si vous en jugez autrement, c’est la passion que vous avez pour ces
+                        sortes de spectacles, qui vous fait fermer les yeux au danger present ;
+                        &amp; je ne doute point que vous n’en portassiez tout un autre sentiment, si
+                        je pouvois vous découvrir un autre spectacle, plus triste, &amp; plus
+                        lugubre, qui est ce qui se passe dans le cœur de ceux qui sortent de ces
+                        assemblées, l’esprit rempli de ce qu’ils ont vû &amp; entendu, <pb n="51"
+                            xml:id="p51"/>qui approuvent la vengeance, qu’on leur a fait paroître si
+                        juste, qui entrent dans les sentimens d’orgueil &amp; d’ambition, qu’on leur
+                        a fait passer pour une grandeur d’ame, &amp; sur tout, qui sont touchez des
+                        disgraces d’un Amant maltraité d’une personne fiere, qui n’a pas répondu aux
+                        vœux ni aux soins de celuy qui luy a marqué une fidelité, &amp; un
+                        attachement si inviolable, ainsi que Saint Augustin le témoigne de
+                        luy-même ; on donne des larmes à son infortune, &amp; une feinte passion
+                        vivement representée, ne manque guere d’en inspirer une veritable.</p>
+                    <p>Ne me dites point, que vôtre âge, vôtre profession &amp; vôtre état vous
+                        mettent à couvert de ce danger ; car cela même est le plus dangereux ecueïl
+                        où vous puissiez donner, de croire contre le sentiment de tous les Saints,
+                        &amp; contre l’experience de tous les hommes, que vous n’avez rien à
+                        craindre des surprises d’une passion, que les Solitaires mêmes, aprés avoir
+                        blanchi dans les austeritez de la penitence, ont crû si redoutable, &amp;
+                        qui n’ont pû trouver d’autre moyen de s’en défendre, que la fuite des
+                        occasions, &amp; des objets capables de l’exciter. Il n’est pas moins
+                        inutile d’ajoûter, que quoyque l’on ne voye guere de pieces de Theâtre sans
+                        amour, &amp; que pour l’y faire entrer, on n’a pas même égard à la verité de
+                        l’Histoire, pourvû qu’on ne sorte point de la vray-semblance ; neanmoins on
+                        n’y represente que des passions legitimes, qui ont pour fin le Mariage, que
+                        Dieu même a authorisé, &amp; institué le premier ; parce que l’esprit de
+                        ceux qui les voyent representer, ne s’attache qu’à ce qui lui plaît, &amp;
+                        fait abstraction des <pb n="52" xml:id="p52"/>circonstances qui les peuvent
+                        justifier ; car ce n’est pas une chose que les Acteurs puissent regler dans
+                        ceux qui écoutent, ni arrêter dans les limites qui sont permises, comme fait
+                        le Poëte dans ses Vers ; au contraire les spectateurs n’en reçoivent souvent
+                        que ce qu’elles ont de criminel ; &amp; elles agissent ensuite selon la
+                        difference des dispositions qu’elles rencontrent ; &amp; l’on peut dire, que
+                        souvent la representation d’une passion couverte de ce voile d’honnêteté, a
+                        plus infailliblement son effet, que les autres les plus illegitimes, parce
+                        qu’on est moins sur ses gardes, qu’on s’en défie, &amp; qu’on s’en défend le
+                        moins ; aussi agit-elle plus à coup sûr, &amp; sans qu’on se précautionne
+                        des remedes qui pourroient en empêcher l’impression : d’où il s’ensuit que
+                        ces spectacles sont toûjours dangereux pour tout le monde, &amp; qu’un
+                        Chrétien ne doit jamais se fier à sa propre vertu.</p>
+                    <p>Enfin, Messieurs, ces sortes de spectacles sont d’eux-mêmes contraires à
+                        l’esprit du Christianisme, &amp; ensuite dangereux pour toutes sortes de
+                        personnes ; parce que ce sont des obstacles aux devoirs les plus essentiels
+                        d’un Chrétien, comme sont la priere, la vigilance, &amp; l’application qu’il
+                        doit apporter aux choses de son salut ; puisqu’il est évident que ces
+                        divertissemens nous détournent de nos plus pressantes obligations, &amp;
+                        qu’étant tout à fait mondains, ils sont incompatibles, avec la pieté, la
+                        dévotion, &amp; les bonnes œuvres ausquelles un veritable Chrétien doit
+                        s’appliquer. Or c’est ce que nos spectacles, tout innocens qu’on les croit,
+                        ont de commun avec ceux des premiers tems, contre lesquels les saints Peres
+                            <pb n="53" xml:id="p53"/>se sont récriez avec tant de force ; aussi
+                        pressoient-ils cette raison, quand on leur alleguoit que tous les spectacles
+                        n’étoient pas criminels, qu’il y avoit des yeux, des combats de Lions contre
+                        d’autres bêtes feroces, des courses de chevaux, &amp; des Tournois qui
+                        étoient plus innocens que nos bals &amp; nos comedies : ces Peres
+                        répondoient, qu’ils étoient toûjours dangereux à un Chrétien, qui y
+                        reprenoit insensiblement l’esprit du siecle, qu’on ne revenoit pas si
+                        facilement de la dissipation d’esprit où l’on s’étoit jetté, en se
+                        prrmettant ces divertissemens trop mondains, &amp; que les personnes de
+                        pieté devoient s’en éloigner comme d’un écueïl funeste à la devotion. Ce qui
+                        fait que le saint Roy Prophete demandoit instamment à Dieu, qu’il luy fit la
+                        grace de détourner ses yeux, pour ne pas s’arrêter à considerer les vanitez
+                        du monde : <quote><hi rend="i">Averte oculos meos ne videant vanitatem.</hi></quote> Il
+                        sçavoit bien que pour s’attacher fortement au service de Dieu, il falloit
+                        mépriser les choses de la terre ; &amp; que rien ne nous détourne davantage
+                        de penser aux biens solides &amp; éternels, que de s’occuper de ces sortes
+                        d’amusemens, qui ne nous laissent qu’un dêgoût étrange des veritez
+                        chrétiennes, &amp; de toutes les choses de l’autre vie. En effet, quelle
+                        priere peut faire à Dieu une ame remplie des folies, &amp; des vanitez du
+                        siecle ? Les images qu’elle en a si souvent devant les yeux, ne
+                        representent-elles pas à son esprit, à la moindre application qu’elle voudra
+                        faire aux choses de son salut ? Une personne ne devient-elle pas même
+                        incapable des occupations les plus serieuses, par l’habitude qu’elle a prise
+                        à ces <pb n="54"/>divertissemens ? &amp; comme parle S. Augustin, étant si
+                        souvent hors d’elle-même, il luy sera difficile d’y rentrer, lorsqu’il en
+                        sera absolutment necessaire. Quand donc ces spectacles ne causeroient point
+                        d’autre mal, que de dissiper l’esprit, ne seroient-ils pas toûjours
+                        criminels ?</p>
+                    <p>Ce qui fait conclure avec le même Prophete Royal, <quote><hi rend="i">Beatus homo
+                            qui non respexit in vanitates, &amp; insanias falsas</hi> !</quote> Heureux
+                        celuy qui n’a point ouvert les yeux pour s’arrêter à voir les vanitez &amp;
+                        les folies du monde ! Car c’est le nom que le Saint-Esprit donne à tous ces
+                        spectacles, &amp; à tous ces divertissemens ; puisque le moins qu’on en
+                        puisse dire, est, qu’ils nous exposent toûjours au danger du peché : <quote><hi
+                            rend="i">Beatus homo qui non respexit</hi></quote> ; heureux celuy qui ne les
+                        regarde pas, parce que plus il s’en éloigne, plus il s’éloigne de l’occasion
+                        du crime, laquelle aprés le crime même, doit être regardée comme le plus
+                        grand de tous les maux ; car je veux que cette occasion qui est prochaine à
+                        l’égard de quelques-uns, comme nous avons dit, ne soit qu’éloignée pour les
+                        autres ; cela doit suffire, pour être convaincu, qu’ils sont dangereux pour
+                        tout le monde ; parce que personne ne se doit fier sur sa vertu, dans les
+                        rencontres où les objets sont capables d’en porter d’autres au peché. Qui ne
+                        sçait qu’il y a des rencontres, que l’on n’a pas même prevûës, où les plus
+                        fermes &amp; les plus constans sont ébranlez ? qu’il y a des objets qui
+                        peuvent frapper si vivement nos sens, &amp; faire telle impression sur nôtre
+                        esprit, qu’on a besoin des plus puissans secours de la grace pour s’en
+                        défendre ? &amp; ce n’est pas le moyen de les attirer, que de rechercher <pb
+                            n="55" xml:id="p55"/>ces occasions, &amp; de s’y exposer volontairement,
+                        &amp; sans necessité ? Et ne me dites point que vôtre conscience ne vous
+                        reproche rien sur ce chapitre, &amp; que vôtre experience ne vous a point
+                        encore fait connoître qu’il y eût du danger pour vous, &amp; qu’ainsi vous
+                        ne regardez pas ces spectacles comme des occasions de peché, mais comme des
+                        divertissemens honnêtes &amp; innocens : car ne sçavez-vous pas que comme il
+                        y a des poisons lents, qui n’ont leur effet qu’aprés un long tems, de même
+                        que peut-être vôtre esprit occupé presentement d’autres soins, ces passions
+                        dangereuses ne se font point sentir, ou que vous êtes comme Samson, qui
+                        croyoit qu’il se déferoit de ses liens, quand il voudroit ; mais il s’y
+                        trouva pris &amp; arrêté, lorsqu’il s’y attendoit le moins. Qui vous
+                        répondra que le poison que vous avez pris sans y penser, ne vous donnera
+                        point un jour la mort ? Que sçavez-vous si ces objets, qui ne font point
+                        maintenant d’impression sur vôtre esprit, n’y laisseront point des traces,
+                        qui s’y renouvelleront un jour, &amp; qui exciteront ces fortes passions que
+                        vous apprehendez si peu ? Heureux donc encore une fois, celuy qui n’ouvre
+                        point les yeux à ces spectacles &amp; à ces vanitez : <quote><hi rend="i">Beatus
+                            qui non respexit in vanitates &amp; insanias falsas</hi> !</quote> parce qu’en
+                        évitant l’occasion du peché, il marque par-là qu’il en a horreur, &amp;
+                        qu’il le deteste, &amp; ainsi en meritant une protection toute particuliere
+                        du ciel pour l’éviter, il s’assûre l’êternité bienheureuse, que je vous
+                        souhaite,</p>
+                    <div3 type="privilege">
+                        <pb n="56" xml:id="p56"/>
+                        <head><hi rend="i">Approbation de Monsieur l’Abbé Dumas, ‘Docteur de la
+                                Maison &amp; societé de Sorbonne.</hi></head>
+                        <p><hi rend="big">J</hi>’Ay lû par l’ordre de Monseigneur le Chancelier, <hi
+                                rend="i">les Sermons du R. P. ** de la Compagnie de Jesus, sur les
+                                sujets particuliers.</hi></p>
+                        <byline>DUMAS.</byline>
+                    </div3>
+                    <div3 type="privilege">
+                        <head><hi rend="i">Permission du R. P. Provincial.</hi></head>
+                        <p><hi rend="big">J</hi>E soussigné Provincial de la Compagnie de Jesus, en
+                            la Province de France, suivant le pouvoir que j’ay reçû de notre R. P.
+                            General, permets, au Pere ** de faire imprimer un livre intitulé, <hi
+                                rend="i">Sermons sur tous les sujets de la Morale Chrétienne,
+                                cinquiéme partie contenant les sujets particuliers, tome second, les
+                                principaux desordres du Siecle,</hi> qui a esté vû &amp; approuvé
+                            par trois Theologiens de nôtre Compagnie. En foy de quoy j’ay signé la
+                            présente. Fait à Paris ce 20. Septembre 1700.</p>
+                        <byline>J. D E Z.</byline>
+                    </div3>
+                </div2>
+                <div2 type="chapter">
+                    <pb n="57" xml:id="p57"/>
+                    <head type="sur">Entretien quatrieme</head>
+                    <head type="main"><hi rend="i">Sur la vanité &amp; le danger des Bals, &amp; des
+                            Danses en particulier, </hi>
+                        <lb/>Tiré de la Bibliotheque des Predicateurs, composé par le Reverend Pere
+                            <hi rend="i">Vincent Houdry</hi> de la Compagnie de <hi rend="i"
+                            >Jesus.</hi></head>
+                    <p><hi rend="big">L</hi>Es Motifs, qui portent les Personnes du Monde a aller au
+                        Bal, a la Comedie, &amp; a se trouver a des semblables divertissemens sont
+                        ordinairement mauvais ; c’est pour satisfaire leur curiosité, leur vanité ;
+                        c’est pour y voir, &amp; pour être vû, &amp; nul bon Motif ne peut justifier
+                        la coûtume, que l’on prend d’y assister. Ce qu’on y voit, &amp; ce qu’on y
+                        attend porte au mal. Ce qu’on en rapporte est la perte de l’innocence, une
+                        mauvaise impression, que les passions, qu’on a naîvement representées, &amp;
+                        les personnes, qu’on a vûës peuvent faire.</p>
+                    <p>On croit que le Bal en particulier est un divertissement innocent dans la
+                        speculation, mais a le considerer dans la pratique. 1. Voyez les pechez qui
+                        se commettent avant que d’y aller, &amp; seulement pour se disposer à
+                        paroître dans ces Assemblées. La vanité dans le desir de se montrer, de
+                        paroître, &amp; de se faire remarquer par son addresse, par sa bonne mine,
+                        ou par quelque autre qualité. 2. Dans le Bal, quand <pb n="58" xml:id="p58"
+                        />on est dans l’Assemblée, les libertez messéantes, les caresses, les
+                        cajoleries, les têtes-a-têtes &amp;c. 3. Après le Bal, un esprit mondain,
+                        mille pensées des objets, qui ont frappé les yeux, des attachemens le plus
+                        souvent criminels…</p>
+                    <p>Le Bal &amp; les Danses, tels qu’ils se pratiquent en ce tems sont criminels,
+                        parce qu’ils sont contraires à la profession du christianisme étant défendus
+                        par les Conciles, &amp; par la Doctrine de l’Eglise, &amp; une occasion de
+                        plusieurs pechez, &amp; qu’il est rare, qu’on s’en retourne aussi pur, &amp;
+                        aussi innocent qu’on y est allé…</p>
+                    <p>On ne peut nier que les Saints de l’ancien Testament, n’ayent quelque-fois
+                        témoigné leur joye par une espece de danse, mais c’estoit pour rendre graces
+                        à Dieu de quelque heureux succés, ou de quelque signalée faveur, qu’ils en
+                        avoient reçuë, &amp; ces marques de rejoüissance étoient accompagnées d’un
+                        culte religieux, qu’ils rendoient au Seigneur. Ainsi <hi rend="i">Marie</hi>
+                        Sœur de <hi rend="i">Moïse</hi> commença la Danse, ou plutôt le Triumphe de
+                        la délivrance de la servitude de l’Egypte, &amp; de <hi rend="i"
+                            >Pharaon</hi> submergé dans les flots de la mer.</p>
+                    <p><hi rend="i">David</hi> en fit autant devant l’Arche, lors qu’elle fut
+                        recouvrée des mains des Philistins ; mais ces danses, ces chants se
+                        faisoient, par des motifs, &amp; pour des sujets bien differens de ceux des
+                        mondains, que l’Eglise a souvent condamnez avec juste raison : c’estoit
+                        alors chanter les Victoires que Dieu remportoit sur les ennemis ; c’estoit
+                        pour marquer la joye qu’ils avoient de voir le Seigneur exalté, &amp;
+                        glorifié, au lieu que les mondains y cherchent leur plaisir, &amp; leur <pb
+                            n="59" xml:id="p59"/>divertissement, &amp; que la vanité, l’immodestie,
+                        la licence, &amp; l’impureté sont presque inseparables des bals, des danses,
+                        &amp; des cercles de compagnies enjoüées. C’est pour pourquoi on ne peut
+                        authoriser, ni justifier les danses profanes de ce tems par l’exemple de
+                        celles que rapporte l’Ecriture…</p>
+                    <p>Nous voyons dans l’Evangile de Saint Matthieu chap. 14. que la danse a fait
+                        perdre la vie au saint Précurseur du Fils de Dieu, &amp; que la tête de
+                        saint Jean-Baptiste, qui pouvoit, dit saint Chrysostome, convertir tout le
+                        monde, a été le prix d’une baladine. Le demon ne trouve point de moyen plus
+                        puissant pour obtenir d’Herode la mort de ce grand Hommé, qui faisoit
+                        l’admiration de la Judée, que de faire danser devant le Roi une fille
+                        mondaine, bien parée, &amp; fort adroite à cet exercice. Seroit-il possible
+                        qu’on n’eut pas en execration une chose qui a causé un tel malheur, &amp; un
+                        si grand crime, quand il n’y auroit autre chose à objecter contre la
+                        danse ?</p>
+                    <p>Le Fils de Dieu s’est assez ouvertement declaré contre les jeux, &amp; les
+                        danses dans le Miracle, dont il est parlé dans l’Evangile, en resuscitant la
+                        fille du Prince de la Synagogue ; Miracle, qu’il ne voûlut pas operer tandis
+                        que les danseurs, &amp; les joueurs d’instrumens seroient dans la maison ;
+                        c’est pourquoi il les fit chasser avant que d’y entrer…</p>
+                    <p>Saint Jerome parlant des Danseurs, dit, que c’est le demon qui danse dans
+                        leurs personnes, &amp; qu’il se sert de ses laches Ministres pour seduir,
+                        &amp; tromper les hommes… En effet tout ce <pb n="60" xml:id="p60"/>que la
+                        volupté, est capable d’employer d’artifice est attaché au bal, à la danse,
+                        &amp; à la comedie. Si je demande à une Dame du monde quel dessein avez
+                        vous, quand vous vous preparez au bal ? vous faites tout ce que vous pouvez
+                        pour vous parer, vous employez tous les artifices imaginables, vous ajoutez
+                        autant que vous pouvez à la beauté, que la nature vous a donnée, mais quel
+                        est vôtre dessein ? c’est pour vous faire voir, c’est pour vous rendre
+                        agreable. Et qu’est-ce qu’il en arrive ? une fille chrétienne, qui aura vecu
+                        dans la modestie, croyant qu’il lui est permi de prendre quelque chose
+                        extraordinaire se met au hazard de se perdre. Voilà le premier pas du démon,
+                        c’est par l’ornement que vous apportez au bal, qu’il commence à vous gagner,
+                        &amp; qu’il debauche vôtre cœur. Mais quand vous y êtes, qu’y faites vous ?
+                        tout ce qu’il vous est possible pour paroitre agreable, charmante, &amp;
+                        pour être du nombre de celles, a qui on vient rendre des hommages, comme à
+                        des divinitez visibles, &amp; n’est-ce pas la donner une étrange atteinte à
+                        la pudeur ?……</p>
+                    <p>Qui sont ceux qui sont avides de ces plaisirs, qui y courent avec fureur ? ne
+                        sont-ce pas les jeunes petsonnes ? circonstance qui prouve ce que j’ai
+                        avancé : car outre qu’à cet âge l’imagination est vive, l’esprit dissipé, le
+                        cœur volage, les sens ouverts &amp; subtils, dispositions fatales, &amp;
+                        propres à donner entré au peché, c’est qu’on est sans experience, sans
+                        crainte, sans défiance, sans preservatifs ; faute d’experience tout plaît,
+                        tout touche, toute attache : faute de crainte on ne sçait ce que c’est que
+                        de se menager, <pb n="61" xml:id="p61"/>que de s’arrêter a propos, que de
+                        reculer ; on envisage avec joye le precipice, où l’on va se perdre, on
+                        cherche même a se perdre : faute de défiance loin de tenir sur ses gardes,
+                        &amp; de se mettre en disposition de repousser l’ennemi du salut, on se
+                        dépouille (si j’ose parler de la sorte) de ses armes, &amp; sent-on la
+                        tentation, on est hors d’état de se defendre. Ce n’est que foiblesse, que
+                        misere, que lâcheté, qu’épaisses tenebres, qu’irresolutions, l’on n’est
+                        point fortifié par ces secours extraordinaires, par ces graces singulieres,
+                        &amp; favorites, que l’on obtient du ciel, quand on s’en rend dignes. Que
+                        conclure de la, sinon que leur chute est inevitable dans ses sortes
+                        d’assemblées, &amp; de divertissemens ?…</p>
+                    <p>Mon âge, me répondez vous, mon rang, ma dignité m’obligent d’avoir une
+                        retenué, &amp; une gravité qui me met à couvert de ces defauts ; oüi, mais
+                        le cœur est-il immobile, &amp; insensible, &amp; l’esprit est-il dans sa
+                        situation ordinaire ? quoi, vous avez trouvé le secret d’imposer silence à
+                        vos passions, &amp; de joüir d’une paix profonde, lors même que vous êtes
+                        environné de ce qui peut le plus les irriter ?…</p>
+                    <p>La danse, dit Petrarque, est une action indigne d’un honnête homme, &amp; de
+                        laquelle on ne peut remporter que de la honte, c’est en effet un spectacle
+                        aussi honteux qu’inutile ; c’est une assemblée d’intemperance ; ces
+                        branlements des mains, &amp; des pieds, cette évagation, &amp; cette
+                        impudence des yeux ; tous ces gestes aussi indecens que risibles, montrent
+                        qu’il y a quelque chose dans l’interieur, qui répond au dereglement
+                        exterieur. Veritablement, si <pb n="62"/>l’extravagance ne s’étoit
+                        naturalisée dans nos mœurs, nous nommerions folie ce qu’on appelle
+                        gentilesse. On a raison d’appeller des joueurs dans ces assemblées, afin que
+                        l’ame étant occupée par l’oreille, les yeux ne s’offensent pas de tant de
+                        mouvement irreguliers : cela veut dire, qu’une folie en couvre une autre.
+                        Mais ouvrez un peu les yeux, &amp; ne regardez pas les choses selon la
+                        coutume, mais selon qu’elles sont en elles-mêmes. N’est-ce pas une folie,
+                        mais une folie du premier ordre, de sauter, de remuer le corps par bond, de
+                        se tourner, d’aller, de venir de côté, &amp; d’autre ? en bonne foi, si vous
+                        n’aviez jamais vû cela, que diriez-vous la premiere fois que vous le
+                        verriez, ne diriez-vous pas, que ces personnes ont perdu l’esprit où n’en
+                        ont jamais eu ?…</p>
+                    <p>Si c’est une chose si dangereuse que la danse, vous pouvez facilement inferer
+                        en qu’elle conscience sont ceux, qui donnent le bal, &amp; ceux qui prêtent
+                        leur maison à un usage si pernicieux : &amp; ainsi, comme vous voyez un même
+                        peché sera imputé à plusieurs, qui en repondront tous. Par exemple, un desir
+                        criminel conçû dans le bal, sera imputé à celui, qu’il a formé, à celle qui
+                        par son peu de modestie y aura donné occasion, au pere, &amp; à la mere de
+                        cette fille, qui lui ont permis d’aller au bal ; à celui qui donne le bal,
+                        &amp; qui est responsable de tous les pechez, qui s’y commettent… O mon
+                        Dieu, s’écrie saint Ambroise combien un seul peché fait-il des
+                        coupables !…</p>
+                    <p>Si je demande à une personne du monde, qui n’a pas encore étouffé tous les
+                        sentimens de <pb n="63" xml:id="p63"/>pieté, &amp; de crainte des jugemens
+                        de Dieu, mais qui a peine a souffrir qu’on lui dise qu’il y a peché d’aller
+                        au bal, ou de se trouver dans ces assemblées de danses ; n’est-il pas vrai,
+                        que vous sentez un reproche interieur quand vous rentrez dans vous même, qui
+                        vous dit, que vous ne faites pas bien, que vous vous exposez au peché, &amp;
+                        qu’il-y a à craindre, que cela ne soit la cause de vôtre perte ?</p>
+                    <p>Et pour vous en convaincre encore davantage, n’est-il pas vrai que vous ne
+                        voudriez pas mourir au sortir du Bal, quand vous seriez assuré de n’avoir
+                        point d’autre peché, que celui d’y avoir assisté ? vous trouverez ce méme
+                        reproche dans toutes les ames un peu timorées : &amp; si vous voulez le
+                        demander à toutes celles, qui ont autrefois été dans le monde, &amp; qui
+                        s’en sont retirées ou d’effet, où d’affection seulement, elles vous diront,
+                        que dans les confessions generales, qu’elles ont faites, elles se sont
+                        accusées, &amp; repenties d’avoir été autrefois au bal : demandez à ces
+                        danseurs, quand ils sont à l’article de la mort, où l’on voit alors
+                        clairement toutes choses, &amp; non plus par le faux jour de nos passions,
+                        s’il ne se repentent pas, &amp; s’il ne craignent pas d’en rendre compte au
+                        jugement de Dieu ; vous-mêmes ne vous en accusez vous pas au tribunal de
+                        penitence, ne pouvant étouffer le reproche de vôtre conscience, qui vous en
+                        reprend ? Vous voyez donc clairement par vous-mêmes, pourvû que vous vouliez
+                        ouvrir les yeux, que ce n’est pas une chose indifferente d’aller au bal,
+                        puisqu’on ne se confesse pas d’une chose indifferente, &amp; qui l’on <pb
+                            n="64" xml:id="p64"/>ne craint pas de paroître au jugement de Dieu après
+                        une action, qui n’est pas mauvaise, &amp; que nous jugeons absolument n’être
+                        point contre la loi de Dieu. Nôtre conscience est donc nôtre juge en cette
+                        matiere, &amp; nous ne pouvons recuser ce juge incorruptible, &amp; ce
+                        fidele témoin, lorsqu’il y va de nôtre salut : … ceux qui aiment le jeux,
+                        le bal, la comedie, les spectacles, &amp; qui suivent le luxe, &amp; la
+                        vanité du siecle, ne veulent point eutendre chrétiennement ces matieres,
+                        afin de pecher plus librement, &amp; sans inquietude. On a beau leur dire,
+                        qu’il y a des jeux defendus, des spectacles, &amp; des assemblées ; ils s’en
+                        moquent, ferment les jeux, &amp; se bouchent les oreilles pour ne point
+                        voir, ni entendre toutes ces choses, qui leur déplaisent. Je scai avec saint
+                        Gregoire, qu’il y a des divertissemens permis, &amp; que l’on peut prendre
+                        comme on prend une medicine pour purger le corps de ses mauvaises humeurs,
+                        &amp; le rendre plus propre au travail. Mais nous entendons parler ici des
+                        divertissemens defendus, comme sont les bals, les comedies, &amp; autres
+                        spectacles de cette nature, qui sont dangereux, &amp; corrompent les bonnes
+                        mœurs.</p>
+                    <p>La danse chez les Romains n’étoit pas permise aux honnêtes gens : ce qui a
+                        fait dire au plus éloquent de leurs Orateurs, que c’estoit une espece
+                        d’yvresse defendûë aux personnes, qui font profession de vertu, &amp; c’est
+                        peut-être dans cette pensée, qu’un savant Ecrivain de nôtre siécle l’appelle
+                        une folie, qui passe de la tête jusqu’au pied. Neanmoins on peut dire à la
+                        honte de plusieurs Meres chrétiennes, que leurs filles <pb n="65"
+                            xml:id="p65"/>sçavent plûtôt un pas de danse, que les principes de leur
+                        religion, tant elles ont soin de les rendre agréables au monde. Qu’est-ce
+                        que les personnes du monde voyent dans le bal ? une assemblée de personnes
+                        agréables, bien parées, qui ne songent qu’à se divertir a prendre leurs
+                        plaisirs ; ils y voyent des femmes, &amp; des filles, qui font tout ce qui
+                        peuvent pour se faire admirer &amp; pour plaire ; &amp; des hommes, qui font
+                        tout ce qu’ils peuvent pour leur temoigner qu’ils les admirent, &amp; qu’ils
+                        les aiment. Ils voyent un spectacle, qui flate les sens, qui remplit leur
+                        esprit de vanité, qui amollit leur cœur par le son des instrumens. Ainsi
+                        l’amour du monde, &amp; des creatures se glisse imperceptiblement dans le
+                        cœur de ceux qui se trouvent à un bal. Dites aux personnes mondaines, que le
+                        bal est defendu, parce qu’il est presque toûjours l’écueil de l’innocence,
+                        le tombeau de la pudeur, le theatre de toutes les vanitez mondaines, &amp;
+                        le triomphe de toutes les passions : que c’est un assemblage de tous les
+                        dangers du salut : que tout y est écueil, que tout y est poison : danses,
+                        instrumens, objets, entretiens, assemblées ; que tout y concourt à étouffer
+                        les sentimens de pieté, à seduire &amp; l’esprit, &amp; le cœur : que rien
+                        n’est plus opposé que le bal à l’esprit du christianisme : avec quel mépris
+                        serez-vous écouté ? que de fades plaisanteries sur le prétendu reformateur ?
+                        que des gloses sur la morale outrée ? le tems viendra, que ces jeunes
+                        personnes, ces libertins, ces gens du monde condamneront avec indignation
+                        contre eux-mêmes avec une espece d’horreur de tous ces profanes
+                        divertissemens, mais en sera-t’il tems ?…</p>
+                    <p><pb n="66" xml:id="p66"/>Ainsi je crois, que les directeurs feroient leur
+                        devoir, s’ils exigoient de ceux, dont il gouvernent les consciences, qu’ils
+                        n’y allassent jamais.</p>
+                    <div3 type="privilege">
+                        <head>Permission.</head>
+                        <p><hi rend="big">J</hi>E soussigné Provincial de la Compagnie de <hi
+                                rend="i">Jesus</hi> dans la Province de France, suivant le pouvoir
+                            que j’ai reçû de nôtre Reverend Pere General, permets au Pere <hi
+                                rend="i">Vincent Houdry,</hi> de la même Compagnie, de faire
+                            imprimer l’ouvrage qu’il a composé, qui a pour Tître, <hi rend="i">la
+                                Bibliotheque des Predicateurs,</hi> lequel a été revü par trois
+                            Theologiens de nôtre Compagnie, en foi de quoi j’ai signé la presente
+                            Permission. A Paris le premier jour de l’an 1709.</p>
+                        <byline>MICHEL DE TELLIER.</byline>
+                    </div3>
+                    <div3 type="privilege">
+                        <head>Approbation.</head>
+                        <p><hi rend="big">J</hi>’Ai lû par ordre de Monseigneur le Chancelier un
+                            Manuscrit qui a pour Tître <hi rend="i">La Bibliotheque des Predicateurs
+                                par le P. Vincent Houdry</hi> ; les Personnes qui s’appliquent au
+                            Sacrè Ministere de la parole y trouveront ce tresor du Pere de famille,
+                            dont il est parlé dans l’Evangile, d’où ils pourront tirer des richesses
+                            anciennes &amp; nouvelles pour les repandre avec abondance, &amp; avec
+                            fruits sur les fideles, en les instruisant pleinement des veritez du
+                            salut, &amp; en les portant efficacement à la pratique des vertus
+                            necessaires pour acquerir les veritables biens de l’éternité. A Paris le
+                            28. Janvier 1711.</p>
+                        <byline>REGERY.</byline>
+                    </div3>
+                </div2>
+                <div2 type="chapter">
+                    <pb n="67" xml:id="p67"/>
+                    <head type="sur">Entretien cinquieme</head>
+                    <head type="main"><hi rend="i">Le danger de la Comedie en particulier, decouvert
+                            par le R. P. F.</hi> Guilloré <hi rend="i">de la Compagnie de</hi>
+                        Jesus.</head>
+                    <p><hi rend="big">L</hi>E grand usage de ce divertissement qui est si agreable à
+                        la veuë, &amp; à l’esprit, fera peut-être, qu’il ne me sera pas facile de
+                        desabuser les personnes, qui se voyent autorisées de l’exemple de tant de
+                        gens, &amp; favorisées de l’inclination de la nature corrompuë : Mais
+                        peut-être aussi, quand j’auray ôté le bandeau de dessus leurs yeux, ne
+                        verront-elles pas moins le danger du Theatre, qu’elles en ont trouvé jusques
+                        icy les spectacles charmans.</p>
+                    <p>Il y a tant de choses, lesquelles condamnent l’usage, qui s’en fait, que, de
+                        quelque côté que l’on se tourne, l’on n’entend que des voix, qui crient
+                        contre ce divertissement, autant préjudiciable à l’ame, qu’il est agreable
+                        aux sens.</p>
+                    <p>l’Eglise, la conscience, &amp; les frequens naufrages de l’innocence, sont
+                        ces voix, qui disent, que de tous les moyens, qu’à le Demon pour perdre bien
+                        des ames, la comedie en est le plus doux, le plus fort, &amp; le plus
+                        caché.</p>
+                    <p>Il ne faut donc que les entendre, pour sortir de l’aveuglement, pourveu qu’on
+                        les entende sans préoccupation, &amp; sans apporter un esprit rebelle contre
+                        des veritez, aussi claires, que celles, que je va mettre en avant.</p>
+                    <p><pb n="68" xml:id="p68"/>Premierement, c’est une chose très-constante, que
+                        tous les Peres de l’Eglise ont declamé contre la comedie, qui se faisoit de
+                        leur tems, comme contre un spectacle, qui alloit de lui-même à la grande
+                        corruption des mœurs : Il ne faut qu’en lire les invectives, pour voir de
+                        quel zele ils estoient portez contre un divertissement, qui en deshonorant
+                        le Christianisme, en corrompoit aussi les maximes, &amp; la pureté.</p>
+                    <p>Aprés les Apôtres, faut-il jamais des personnes, que l’on puisse dire avoir
+                        été inspirées, comme eux, du S. Esprit ? Ils en ont été les organes, &amp;
+                        les interprétes, pour dire plus clairement à tous les Chrétiens, ce que les
+                        saintes Ecritures n’ont dit souvent, que soüs des ombres ; c’est donc eux,
+                        qu’il faut écouter, quand il est question de bien faire le discernement des
+                        choses douteuses ; Et c’est eux aprés l’Evangile, que Dieu nous a donnez,
+                        pour être la juste regle de nos actions.</p>
+                    <p>Si cela ne peut être contredit, n’est-on pas obligé de condamner, ce qu’ils
+                        condamnent ? N’est-on pas donc obligé de regarder au moins la comedie, comme
+                        un divertissement dangereux, puis qu’ils ont parlé de cette sorte de
+                        spectacle, comme d’une chose, capable de corrompre les mœurs les plus
+                        innocentes ? Et des Dames Chrétiennes peuvent-elles y assister, aprés ce
+                        qu’ils en ont dit, sans montrer, ou que l’on fait peu d’estime de leur
+                        autorité, ou que l’on croit, que Dieu ne les a pas établis dans son Eglise,
+                        pour être les oracles des peuples ?</p>
+                    <p>C’est à vous de voir si en bonne conscience l’on peut faire contre les
+                        sentimens &amp; les <pb n="69" xml:id="p69"/>décisions de ceux, que Dieu a
+                        donné à l’Eglise, pour ses Docteurs.</p>
+                    <p>Il suffiroit de dire, que, suivant simplement les pensées de ces grands
+                        hommes, le divertissement de la comedie n’est pas tout-à-fait innocent ;
+                        néanmoins, sans faire le Casuire, pour conclure, si la comedie prise en
+                        elle-même est peché, je maintiens, qu’on n’y peut gueres aller sans pecher,
+                        &amp; je n’ay pour cét effet à alleguer, que des raisons plausibles,
+                        conformes au bon sens, &amp; convaincantes.</p>
+                    <p>Je le prens d’un concours de diverses choses, qui toutes favorisent la
+                        concupiscence, &amp; qui, non pas necessairement, mais presque
+                        infailliblement font tomber dans quelque déreglement.</p>
+                    <p>Les matieres, qui s’y traitent, ne sont ordinairement, que d’amour, &amp; de
+                        ses intrigues, car le theatre ne plairoit plus, si cette passion n’en
+                        faisoit l’ame : L’expression, qu’on en fait, est par la declamation la plus
+                        douce, la plus animée, &amp; la plus transportée : L’ajustement d’une
+                        Comedienne n’a rien, qui ne respire je ne sçay quoy d’impur, par la nudité
+                        de sa gorge, par son geste mol, &amp; affecté, &amp; par son action
+                        effeminée.</p>
+                    <p>Tout cela, ne sont-ce pas autant de fortes attaques, données par les yeux,
+                        &amp; par les oreilles, au cœur des personnes, qui écoutent ce qui se
+                        declame, &amp; qui voyent le spectacle d’une comedie, pour y porter des
+                        impressions d’amour, en leur amolissant la volonté ; en leur gravant dans
+                        l’imagination des images, &amp; des representations moins honnétes ; &amp;
+                        en leur laissant dans la memoire des idées, qui ont toûjours quelque chose
+                        de sensuel ?</p>
+                    <p><pb n="70" xml:id="p70"/>Ajoûtez la disposition ordinaire, qu’on apporte à la
+                        comedie, où l’on ne va, que pour recevoir avec plaisir &amp; douceur tous
+                        les charmes du theatre.</p>
+                    <p>Je demande si cette disposition de l’esprit, &amp; du cœur secondant
+                        elle-même les sollicitations molles &amp; douces de ces objets, il est
+                        possible, qu’on s’en defende, sans s’y laisser aller fort sensuellement ? La
+                        vertu la plus severe ne s’en pourroit presque pas garantir, &amp; vous
+                        voulez, que des gens, qui ne respirent que les plaisirs des sens, puissent
+                        être avec innocence parmi tant de dangereux apas, où ils se jettent encore,
+                        &amp; se plaisent ?</p>
+                    <p>Ce seroit, ou ne pas sçavoir la force de ces objets, ou ignorer la foiblesse
+                        de nôtre nature, ou se faire une vertu chimerique, ou, par une vaine
+                        présomption, vouloir trouver sa seureté au milieu des écueils.</p>
+                    <p>C’est une principe universellement receu de l’Ecole, que, quand quelque chose
+                        de sa nature porte au peché, l’on ne peut pas en user librement, sans
+                        pecher ; cela parle de soy, sans autre preuve, à un esprit, qui a seulement
+                        un petit rayon d’intelligence : Remontez maintenant à ce que je viens de
+                        dire de la comedie, dont toutes les circonstances n’ont rien, qui de
+                        soy-même ne donne quelque penchant au peché.</p>
+                    <p>Si ce principe donc, que j’ay avancé, est recevable, l’application en étant
+                        faite à la comedie, je vous laisse le jugement du peché, qui se peut
+                        commettre en y allant, l’effet, qui part d’un principe, tenant toûjours de
+                        la nature de son principe.</p>
+                    <p><pb n="71" xml:id="p71"/>Mais la preuve de ce que je dis se fortifie
+                        beaucoup, par la nature de plusieurs pieces de theatre, qui font aujourd’huy
+                        le plus agreable divertissement des auditeurs ; car souvent, où elles sont
+                        toutes bouffonnes, ou elles peuvent passer pour impies, étant une chose trop
+                        connuë, qu’on en a vû, qui tournoient toute la devotion, &amp; la pieté en
+                        ridicule.</p>
+                    <p>Quoy ? cela seul ne suffit-il pas, pour fuïr le theatre, où l’on apprend tant
+                        de leçons de railleries, &amp; d’impieté ? Mais aujourd’huy, comme je vous
+                        l’ay marqué tout au long dans l’Entretien du cercle, presque tout le monde
+                        aime à railler, &amp; à rire, aux dépens des bonnes mœurs, de la pureté,
+                        &amp; de la Religion ; c’est l’esprit empoisonné du temps, qui se répand,
+                        &amp; se glisse par tout ; on l’aime en soy, on l’aime dans les autres,
+                        &amp; ceux qui sçavent mieux s’en acquitter, sont les plus applaudis.</p>
+                    <p>C’est aussi pour cela, que l’on court volontiers au theatre, où l’on voit si
+                        bien faire ce personnage, &amp; d’où l’on tire de si belles leçons : Theatre
+                        mal-heureux, sur lequel on a vû naître de nos jours, quelque chose de pis,
+                        que ce qu’avoit celuy des Romains, où la pieté n’étoit pas tant décriée par
+                        les infidéles qui l’ignoroient, qu’on la veuë l’être aujourd’huy par des
+                        Chrétiens, qui la connoissant, en ont fait leur fable &amp; leur
+                        divertissement !</p>
+                    <p>Et puis, Madame, vous penserez aprés cela, que le theatre peut-être bien
+                        innocent ?</p>
+                    <p>Mais comme vous pourriez vous retrancher, en me disant deux choses, &amp; que
+                        ces pieces ne se joüent pas tous les jours, pour soüiller <pb n="72"
+                            xml:id="p72"/>toûjours le theatre, &amp; que toutes les personnes qui
+                        ont plus de Christianisme, ont coûtume de s’en abstenir ; je vous l’accorde,
+                        quoy que cela se pourroit assez disputer :</p>
+                    <p>Laissons donc ce theatre infame &amp; libertin, pour vous mettre hors de
+                        combat : Mais revenons aussi à ce theatre, dont j’ay tantôt parlé, qui ne
+                        respire que l’air de l’amour, qui en enseigne si delicatement tous les
+                        leçons, &amp; que vous voudriez bien justifier, disant que des bouffonneries
+                        impies ne s’y voyent point ; or sachez, que celuy-cy n’est gueres moins
+                        dangereux que l’autre.</p>
+                    <p>Car n’est-ce pas là, que trop souvent la jeunesse fait les premiers naufrages
+                        de son innocence ? Elle, qui sans cela peut-être n’auroit jamais sçeu ce que
+                        c’est que du mal, &amp; qui n’en avoit, ny la pensée, ny les idées, le
+                        voyant alors si bien dépeint sur le theatre avec toutes les couleurs, de la
+                        parole, d’une expression douce, &amp; de la declamation ; Elle, dis-je,
+                        commence à sortir de la sainte ignorance, où elle étoit, &amp; ce que la
+                        nature ne luy avoit pas encore appris, des Comediens, &amp; des Comediennes
+                        le luy apprennent, comme les nouveaux maîtres de son premier mal-heur.</p>
+                    <p>Ce métier, appris à une si mechante école, étant secondé par les inclinations
+                        naturelles, &amp; ne laissant que les idées d’une douceur effeminée, ce
+                        jeune homme &amp; cette jeune fille, commencent à mettre en pratique, ce
+                        qu’on leur a si bien enseigné sur le theatre : L’innocence est attaquée,
+                        l’on aime sa foiblesse dans l’attaque, &amp; ensuite arrivent les grandes
+                        chûtes, à qui la Comedie a donné les commencemens.</p>
+                    <p><pb n="73" xml:id="p73"/>Elle n’est pas seulement à la jeunesse l’occasion de
+                        la perte de son ame ; mais il se peut dire, qu’elle est à presque tout le
+                        monde l’écueil le plus dangereux de la chasteté : il en est comme d’un
+                        vaisseau, qui étant déja tout fracassé, par la tempête, est rejetté encore
+                        parmi les bancs, &amp; les rochers, pour achever davantage de se briser, en
+                        achevant son naufrage.</p>
+                    <p>C’est ainsi que la chasteté étant d’ailleurs tant interessée en toute
+                        maniere, par de frequens débris, trouve à la comedie, comme son dernier
+                        écueil, où elle acheve de corrompre &amp; de perdre, ce qui pouvoit encore
+                        n’être pas corrompu entierement, &amp; où elle assûre &amp; confirme dans sa
+                        corruption ce qui l’estoit déjà depuis longtems.</p>
+                    <p>Car de penser que parmi tant de charmes pour les yeux, &amp; pour les
+                        oreilles, que presente le theatre, l’on puisse y être avec un cœur
+                        invulnerable, &amp; une pureté toûjours exacte &amp; delicate, c’est une
+                        idée, &amp; tout ensemble une temerité, qui merite que l’on perde ce que
+                        l’on pretend conserver.</p>
+                    <p>Et quoy que je vous accordasse, que tous les inconveniens que j’ay alleguez
+                        jusques icy, se pourroient contredire, en voicy néanmoins deux
+                        tres-considerables, qui de vôtre aveu ne pourront pas asseurement se
+                        disputer.</p>
+                    <p>Le premier est, que toutes les personnes qui frequentent ces sortes de
+                        spectacles, ne peuvent avoir d’ordinaire aucun sentiment de pieté ; car ces
+                        bons sentimens, dont une ame peut être touchée ne viennent, que des saintes
+                        pensées, dont auparavant elle a été remplie ; &amp; encore le cœur <pb
+                            n="74" xml:id="p74"/>a-t’il bien de la peine à goûter les choses
+                        divines, quelque plenitude de connoissance, qui ait pû préceder ; c’est sa
+                        dureté naturelle, c’est son fond de corruption, c’est son opposition à la
+                        pieté qui fait tout cela.</p>
+                    <p>Comment donc une personne qui frequente le theatre, sera-t’elle capable
+                        d’aucun sentiment Chrétien, ne raportant de-là, qu’une tête pleine d’idées
+                        douces &amp; charmantes, &amp; de toutes les passions folles &amp;
+                        imaginaires, que la declamation d’une Comedien luy a pû presenter.</p>
+                    <p>Toutes ces choses au contraire desseichent infiniment le cœur, &amp; le
+                        rendent incapable de tous les mouvemens que la grace y pourroit insinuer :
+                        Vous n’en pouvez pas douter, Madame, si jamais vous avez aimé la comedie,
+                        comme vôtre ame alors a éte éloignée de la devotion, pour laquelle vous
+                        n’aviez qu’un extrême dégoût, parce que vous estiez toute penetrée du dégoùt
+                        de la comedie.</p>
+                    <p>Or n’y eût-il que ce seul mal, n’est-il pas assez grand pour renoncer au
+                        theatre, de ce voir comme rejettée de Dieu, par une insensibilité à tous les
+                        mouvemens d’une dévotion Chrétienne ?</p>
+                    <p>Mais le second inconvenient, qui ne souffre non plus de difficulté, est bien
+                        plus grand ; je vous prie d’y faire attention.</p>
+                    <p>Je ne diray pas, que c’est pecher mortellement, d’aller à la comedie : mais
+                        je diray qu’à plusieurs c’est peché mortel, d’y aller : La verité de cette
+                        proposition ne se prend pas simplement du spectacle, mais encore des
+                        dispositions particulieres de la personne.</p>
+                    <p><pb n="75" xml:id="p75"/>Elle est, par exemple, d’un temperament doux &amp;
+                        tres-sensible ; elle a un cœur, qui prend aussi-tôt feu ; l’imagination en
+                        est vive &amp; forte, pour conserver la molesse, &amp; l’impureté des
+                        images ; la volonté en est naturellement foible, &amp; facile, pour se
+                        laisser aller à toutes ces representations ; elle a l’experience de ces
+                        desordres secrets, qu’elle a plûtôt aimez, qu’elle n’a combattus.</p>
+                    <p>Je dis là-dessus, qu’avec un tel fond de disposition, il est difficile, que
+                        cette personne aille à la comedie, sans pecher mortellement : Et combien en
+                        est-il de celles, qu’on y voit ; qui n’ayent une disposition semblable, ou
+                        naturelle, ou acquise ? Et ainsi, combien en est-il, à qui il est difficile
+                        d’aller à la comedie, qu’elles ne fassent des pechez mortels ? Les
+                        tempéramens gâtez, par la corruption du libertinage, prouvent assez, que
+                        cette disposition ne peut être que trop commune.</p>
+                    <p>Jugez sur ce pied, Madame, où vous en pourrez venir, si vous aimez le
+                        divertissement de la comedie.</p>
+                    <p>Et aprés tout cela, n’est-il pas étonnant, que pour se jetter dans le danger
+                        de son salut, que pour perdre souvent son innocence, que pour pecher souvent
+                        mortellement, l’on aille à la comedie avec autant de chaleur &amp; de
+                        passion, qu’aux plus fameux Predicateurs ; qu’on y trouve même plus de goût,
+                        &amp; que l’on coure comme au feu, à la nouveauté de quelque piece ?</p>
+                    <p>Ne se peut-il pas dire, que c’est le deshonneur de nôtre Religion, de voir,
+                        que tres-souvent le theatre de la comedie soit plus suivi, que la <pb n="76"
+                            xml:id="p76"/>chaire de verité ? Que tandis que ces Predicateurs de
+                        l’Evangile seront abandonnez, les Comediens cependant ne manquent pas
+                        d’auditeurs, qui y vont en foule ? Et que la folie, &amp; le mensonge soient
+                        plus écoutez, que la parole eternelle ? Estes-vous de ces aveugles
+                        Madame ?</p>
+                    <p>Ce qui fait mieux voir encore l’indignité de ce grand desordre, c’est que
+                        l’on donnera plus d’argent une seule fois, pour une place, &amp; pour une
+                        loge à la comedie, qu’on n’en donnera toute une année, pour avoir place au
+                        Sermon.</p>
+                    <p>Cela est-il Chrétien ? Se souvient-on de son caractere ? N’est-ce pas montrer
+                        le peu d’estime, qu’on fait de la parole de Dieu, en comparaison d’un
+                        theatre profane ? N’est-ce pas en quelque maniere donner l’avantage à un
+                        Comedien, pardessus les Députez, &amp; les Ambassadeurs du Ciel ? Et
+                        n’est-ce pas comme acheter à pris d’argent, ce qui est souvent le sujet,
+                        &amp; la matiere de sa perte ?</p>
+                    <p>Et à vous, Madame, vous puis-je demander, si vous n’avez pas ainsi
+                        quelquefois épargné le vôtre, pour les Sermons, sans l’épargner aucunement,
+                        afin de vous contenter du divertissement de la comedie, si préjudiciable à
+                        vôtre ame ? Vous le savez.</p>
+                    <p>Me direz-vous maintenant, que l’on voit des personnes de bonne vie, &amp; des
+                        bonnes mœurs, qui sans tant de façon vont à la comedie, comme les autres,
+                        &amp; qu’ainsi l’on est fort justifié, quand on agit sur leur exemple ?</p>
+                    <p>Ne vous fortifiez pas, Madame, de ce côté-là, car l’appuy, que vous prennez,
+                        est tres-foible Il faut plûtôt dire, que ces personnes, que <pb n="77"/>l’on
+                        dit être personnes de pieté, sont en cela même scandaleuses, de se servir
+                        ainsi de la sainte profession, qu’elles font, pour autoriser le libertinage
+                        de leur divertissement.</p>
+                    <p>Ce sont ces devotes, &amp; ces devots, qui ne se veulent géner en rien, &amp;
+                        qui se veulent contenter en tout ; qui sont avec les mondains aux pieds du
+                        theatre, &amp; avec les plus saintes ames au pied du Crucifix ; &amp; qui
+                        ont coùtume de se tourner, selon toutes les rencontres, bonnes &amp;
+                        mauvaises.</p>
+                    <p>Dites donc plûtôt, qu’elles vous sont un exemple de scandale, pour les fuïr,
+                        &amp; non pas un exemple d’édification, pour les suivre, &amp; les
+                        imiter.</p>
+                    <p>Me direz-vous encore, qu’on en voit, qui étant consacrez à Dieu, ne font
+                        aucune difficulté de se trouver avec les seculiers, pour prendre le
+                        divertissement de la Comedie ?</p>
+                    <p>Hé ! mon Dieu, Madame, laissons là, je vous prie, cette partie si delicate de
+                        l’Eglise, sans la toucher rudement : Ces gens portent alors avec eux leur
+                        condamnation, sans que nous soyons obligez de parler ; nous ne devons avoir,
+                        que le silence, &amp; le gemissement, respectant toûjours leur caractere ;
+                        nous n’avons qu’à baisser les yeux de honte, pour celle, qu’ils ne prennent
+                        pas, comme pour nous persuader, que nos yeux ne voyent pas, ce qu’ils voyent
+                        en effet ; &amp; je m’assûre, que vous même, ayant l’esprit un peu Chrêtien,
+                        vous ne tirerez pas avantage d’un exemple, qui passe le scandale ordinaire,
+                        pour aller plus librement à la comedie.</p>
+                    <p>Il me semble, qu’il ne vous reste plus rien à <pb n="78" xml:id="p78"
+                        />m’objecter sur cette matiere, si ce n’est qu’aujourd’huy, le Theatre est
+                        plus innocent, qu’il ne fût jamais, &amp; que les pieces, qu’on y jouë,
+                        n’ont rien de cette indecence, qu’elles avoient autrefois.</p>
+                    <p>C’est là justement, où je vous attendois ; Et moy je vous dis, Madame,
+                        qu’elles sont en quelque façon plus dangereuses a l’innocence, qu’elles
+                        n’étoint ; car autrefois l’innocence n’avoit garde d’en être interessée,
+                        puis que les personnes, qui avoient un peu de conscience, fuyoient le
+                        Theatre, comme un lieu de scandale, &amp; de peché, &amp; qu’on n’y voyoit,
+                        que celles, qui avoient perdu la conscience, &amp; la pudeur.</p>
+                    <p>Mais aujourd’huy, soûs ce pretexte trompeur, que le Theatre n’a plus rien,
+                        qui blesse ouvertement l’honnêteté, bien des ames innocentes y sont
+                        attirées, comme les autres, ne pensant qu’à se donner simplement le
+                        divertissement d’un spectacle, que l’on dit être maintenant innocent.</p>
+                    <p>C’est à dire, Madame, que le poison est presenté avec bien de la douceur,
+                        &amp; dans un vase d’or, &amp; que ce qui avoit coûtume d’offenser les yeux
+                        &amp; les oreilles, par une liberté trop effrontée, ayant été banny du
+                        Theatre, on y a laissé l’air le plus doux, &amp; le plus empoisonné de
+                        l’amour.</p>
+                    <p>C’est l’apas, où sont pris ceux, qui au reste veulent le bien, mais qui
+                        veulent aussi avoir part aux plus agreables divertissemens du siecle ; Et
+                        c’est ainsi, que cette mal-heureuse reformation, engage plusieurs personnes
+                        de pieté dans un desordre, où l’on ne voyoit auparavant que celles, qui
+                        avoient renoncé à la vertu.</p>
+                    <p><pb n="79" xml:id="p79"/>Cela veut dire enfin, que ce n’étoit pas assez au
+                        Demon, que les gens d’une conscience toute perduë fussent à luy, par la
+                        scandale d’un Theatre infame ; si ceux, que quelque pieté rend
+                        recommandables, n’en étoient faits encore les victimes, par le poison
+                        inspiré de l’amour, qu’un nouveau Theatre apprend aujourd’huy, plus
+                        modestement, mais aussi plus malicieusement, qu’il ne fît jamais.</p>
+                    <trailer>Fin de la premiere Partie.</trailer>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

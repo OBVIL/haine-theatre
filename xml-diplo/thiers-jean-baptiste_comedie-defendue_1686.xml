@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Comédie défendue aux chrétiens pour diverses raisons [Traité des jeux et
+                    des divertissemens]</title>
+                <author key="Thiers, Jean-Baptiste (1636-1703)"
+                    ref="https://data.bnf.fr/fr/12001969/jean-baptiste_thiers/">Jean-Baptiste
+                    Thiers</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/thiers-jean-baptiste_comedie-defendue_1686</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Jean-Baptiste Thiers, « La Comédie défendue aux chrétiens pour diverses
+                    raisons. Elle l’est encore plus aux Ecclésiastiques. Sentimens des Conciles et
+                    des Pères sur l’Opéra. Qu’il n’est pas permis aux Ecclésiastiques d’y aller, non
+                    plus que d’assister aux farces, bouffonneries et autres Marionnettes […] », in
+                        <hi rend="i">Traité des jeux et des divertissemens ; qui peuvent être
+                        permis, ou qui doivent être défendus aux Chrériens selon les Regles de
+                        l’Eglise et le sentiment des Peres. Par M. Jean Baptiste Thiers, Docteur en
+                        Theologie, et Curé de Champrond</hi>, <pubPlace>Paris</pubPlace>,
+                        <publisher>Antoine Dezallier</publisher>, <date>1686</date>, chap. XXV,
+                    p. 299-346. PDF : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k110525j"
+                        >Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1686"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter">
+                <pb n="299" xml:id="p299"/>
+                <head><hi rend="sc">Chapitre</hi> XXV</head>
+                <argument>
+                    <p>La Comédie défenduë à tous les Chrêtiens pour diverses raisons. Elle l’est
+                        encore plus particulierement aux Ecclesiastiques. Sentimens des Conciles
+                        &amp; des Peres sur l’Opera. Qu’il n’est pas permis aux Ecclesiastiques d’y
+                        aller, non plus que d’assister aux farces, aux boufonneries &amp; aux
+                        Marionnettes. Origine des Mascarades. Depuis quel temps les Dames portent
+                        des masques en France ? Certaines Mascarades défenduës par les Ordonnances
+                        Roïaux &amp; par les Arrests des Parlemens. Des Mascara des du Carnaval
+                        &amp; de quelques autres temps, Les Conciles &amp; les Peres défendent aux
+                        Laïques de se masquer. Les Conciles &amp; les Evêques le défendent surtout
+                        aux Ecclesiastiques. La danse n’est point un divertissement indifferent. Les
+                        Conciles &amp; les Peres la défendent à tous les Fidéles. Elle est
+                        particulierement défenduë aux Ecclesiastiques.</p>
+                </argument>
+                <div2 type="section">
+                    <head>VIII.</head>
+                    <p><hi rend="big">C</hi>E que saint Charles Borromée<note n="a" place="bottom"
+                            >Traité contre les Danses &amp; les Comédies.</note>, le Pere Guzman,
+                        &amp; le Pere <pb n="300" xml:id="p300"/>Comitolus, Jésuites<note n="a"
+                            place="bottom">Des biens de l’honnête travail, en Espagnol, Discours
+                            6.</note>, Monsieur le Prince de Conti<note n="b" place="bottom"
+                            >Respons. Moral. l. 5. q. 11.</note>, Monsieur de Voisin<note n="c"
+                            place="bottom">Traité de la Comédie &amp; des Spectacles.</note>, le
+                        Pere Quillebeuf de l’Oratoire<note n="d" place="bottom">Défence de ce
+                            Traité.</note>, Monsieur Nicole<note n="e" place="bottom">Traité de la
+                            Comédie.</note>, &amp; plusieurs autres sçavans hommes<note n="f"
+                            place="bottom">Traité de la Comédie.</note> ont écrit contre tout ce
+                        qu’on appelle Comédie, est plus que suffisant pour faire voir que ce
+                        divertissement est interdit aux Chrêtiens en l’état qu’il est presentement.
+                        En voici les raisons en peu de paroles.</p>
+                    <p>La premiere, parce que les Païens mêmes l’ont condamné. Plutarque<note n="g"
+                            place="bottom"><hi rend="i">In Solon vit.</hi></note> rapporte que Solon
+                        condamna les Tragédies dés leur naissance ; Que les Athéniens<note n="h"
+                            place="bottom"><hi rend="i">De gloria Athen.</hi></note> estimoient que
+                        les Poëmes Dramatiques estoient des choses si indécentes &amp; si
+                        insupportables, qu’il y avoit une Loi parmi eux qui défendoit aux
+                        Areopagites de faire des Comedies ; &amp; que les Lacedemoniens<note n="i"
+                            place="bottom"><hi rend="i">De instit. Lacon.</hi></note> ne souffroient
+                        point qu’on joüât dans leur Ville de Comédies, ni de Tragédies, de crainte
+                        d’écoûter, même en se joüant, ceux qui representoient des choses contraires
+                        à leurs Loix. Platon<note n="l" place="bottom"><hi rend="i">Diogen. Laert.
+                                in vit. Plato.</hi></note> jetta ses Comédies au feu à la persuasion
+                        de Socrate. Et Aristote<note n="m" place="bottom"><hi rend="i">L.</hi> 7.
+                                <hi rend="i">Polit. c.</hi> 17.</note> ne veut pas que les
+                        Legislateurs permettent aux enfans d’aller aux Comédies, ni aux
+                        Tragédies.</p>
+                    <p>La seconde, parce l’Edit<note n="n" place="bottom"><hi rend="i">L. Si
+                                fratres. Cod. Ex quibus can. Irrog. infamia.</hi></note> du Préteur
+                        &amp; les <pb n="301" xml:id="p301"/>Loix Romaines ont noté d’infamies<note
+                            n="a" place="bottom"><hi rend="i">L. Signa &amp; L. Si qua Cod. de
+                                Spectacul. L. Imperialis Cod. de nuptiis. L. Julia &amp; L.
+                                Senatoris, ff. de rit. nupt. Et L. Quædam ff. de pœnis.</hi></note>
+                        les Comédiens, &amp; qu’Emilius Probus<note n="b" place="bottom"><hi
+                                rend="i">Præfæt. de vit. Illustr. Imperat.</hi></note> témoigne
+                        qu’ils estoient infames parmi les Romains.</p>
+                    <p>La troisiéme<note n="c" place="bottom"><hi rend="i">C.</hi> 14. <hi rend="i"
+                                >art.</hi> 28.</note>, parce que la <hi rend="i">Discipline des
+                            Eglises Reformées de France</hi> défend positivement d’aller à la
+                        Comédie &amp; à la Tragédie : Nous rapporterons son Réglement cy aprés, en
+                        parlant des farces<note n="d" place="bottom"><hi rend="i"
+                        >n.</hi> 10.</note>, des boufonneries &amp; des marionnettes.</p>
+                    <p>La quatriéme, parce que, comme remarque Tertullien<note n="e" place="bottom"
+                                ><hi rend="i">L. de spectac. c.</hi> 4. 15. 16. &amp; 17.</note>,
+                        l’Ecriture condamne la Comédie &amp; les Spectacles dans les passages qui
+                        nous défendent de suivre les desirs deréglez de la convoitise &amp; de
+                        satisfaire nos passions ; dans ceux qui nous obligent de tendre toûjours à
+                        la perfection, laquelle consiste dans l’assujetissement des passions à la
+                        grace, ce qui ne se peut acquerir qu’en éloignant de l’esprit tout ce qui
+                        peut servir à les fortifier &amp; à les y entretenir ; Et dans ceux qui nous
+                        défendent les moindres impuretez &amp; les moindres paroles deshonnêtes ou
+                        frivoles.</p>
+                    <p>La cinquiéme, parce que le Concile d’Elvire<note n="f" place="bottom"><hi
+                                rend="i">C.</hi> 67</note> en 305. défend aux femmes &amp; aux
+                        filles Chrétiennes d’épouser des Comédiens sous peine d’excommunication ;
+                        que le premier<note n="g" place="bottom"><hi rend="i">Can.</hi> 5.</note>
+                        &amp; le second Concile d’Arles<note n="h" place="bottom"><hi rend="i"
+                                >Can.</hi> 20.</note> en 314. &amp; en 451, excommunient les
+                        Comédiens ; &amp; que le Concile du Dôme de Constantinople<note n="i"
+                            place="bottom"><hi rend="i">Can.</hi> 62.</note> en 692. défend <pb
+                            n="302" xml:id="p302"/>aux Laiques, sous peine d’excommunication, de se
+                        déguiser ni en Comédiens, ni en Satyres, ni en Tragédiens.</p>
+                    <p>La sixiéme, parce que les Peres de l’Eglise condamnent ou les Spectacles en
+                        general ou les Comédies en particulier.</p>
+                    <p>Theophile Patriarche d’Alexandrie<note n="a" place="bottom"><hi rend="i">L. 3
+                                ad Antolic. advers. calumn. Relig. Christ.</hi></note>, parce que
+                        les Spectacles sont contraires à la discipline des Chrêtiens ; Minutius
+                            Felix<note n="b" place="bottom"><hi rend="i">In Octavio.</hi></note>,
+                        parce qu’ils sont mauvais ; Tatien<note n="c" place="bottom"><hi rend="i"
+                                >Tract. advers. Gracos</hi>.</note>, parce que les Comédies sont
+                        pleines de choses frivoles &amp; inutiles ; Tertulien<note n="d"
+                            place="bottom"><hi rend="i">L. de Spect. c.</hi> 22. 23. 24. 25. 27.
+                            &amp; 29.</note>, par le jugement que les hommes font de ceux qui les
+                        representent &amp; qui passent dans leur esprit pour des gens infames ; par
+                        le jugement que Dieu même en porte, n’y aïant rien dans les Spectacles qu’il
+                        ne condamne ; parce que les Spectacles sont du nombre des pompes du diable,
+                        ausquelles nous avons renoncé dans nôtre Baptême ; parce que les Païens
+                        mêmes jugeoient qu’un homme estoit devenu Chrêtien à cause qu’il s’en
+                        abstenoit, reconnoissant que l’instinct de la pieté Chrêtienne éloignoit du
+                        theâtre ceux qui en faisoient profession ; parce qu’il est impossible d’y
+                        conserver les sentimens de pieté qu’un Chrêtien doit toûjours avoir dans le
+                        cœur ; parce que tous les objets qui s’y presentent à lui, ne sont propres
+                        qu’à le détourner de Dieu &amp; à l’attacher à la creature ; parce qu’il est
+                        ridicule de pretendre en pouvoir faire un bon usage &amp; les rapporter à
+                        Dieu ; parce que supposé qu’il y en eût d’honnêtes, les Chrêtiens ne doivent
+                        toûjours <pb n="303" xml:id="p303"/>les regarder que comme un miel envenimé,
+                        dont ils ne peuvent goûter sans danger de se donner la mort ; enfin, parce
+                        que l’état d’un Chrêtien en cette vie est de fuïr toutes sortes de plaisirs,
+                        &amp; de faire consister toute sa joïe dans les larmes de la penitence, dans
+                        le pardon de ses pechez dans la connoissance de la verité &amp; dans le
+                        mépris même des plaisirs les plus innocens &amp; les plus legitimes.</p>
+                    <p>Saint Cyprien<note n="a" place="bottom"><hi rend="i">Epist. ad
+                            Donat.</hi></note> condamne les Tragédies parce qu’elles donnent de
+                        mauvais exemples par les crimes qu’elles representent ; saint Clement
+                            d’Alexandrie<note n="b" place="bottom"><hi rend="i">L.</hi> 3. <hi
+                                rend="i">Pædag. c.</hi> 11.</note> condamne les Comédiens tant parce
+                        que Jesus-Christ ne nous y conduit pas, qu’à cause que le theâtre où elles
+                        se joüent est une chaire de pestilence, &amp; qu’on ne doit jamais préferer
+                        ce qui est agreable à ce qui est plus honnête &amp; plus avantageux. Saint
+                        Cyrille Patriarche de Jerusalem<note n="c" place="bottom"><hi rend="i"
+                                >Catech.</hi> 1. <hi rend="i">Mystag.</hi></note>, saint Salvien
+                        Evêque de Marseille<note n="d" place="bottom"><hi rend="i">L.</hi> 6. <hi
+                                rend="i">de Provid.</hi></note> &amp; saint Isidore Evêque de
+                            Seville<note n="e" place="bottom"><hi rend="i">L.</hi> 18. <hi rend="i"
+                                >orig. c.</hi> 17. <hi rend="i">L.</hi> 6. <hi rend="i">Instit.
+                                divin. c.</hi> 20.</note>, parce que nous y avons renoncé dans le
+                        Baptême ; Lactance Firmien<note n="f" place="bottom"><hi rend="i">L. de fug.
+                                sæcul. &amp; in vers.</hi> 37. <hi rend="i">Psal.</hi> 118.</note>,
+                        parce qu’étant des occasions de vices &amp; ne servant qu’à corrompre les
+                        mœurs, elles sont non seulement inutiles pour nous conduire à la vie
+                        bienheureuse, mais elles sont même extrémement nuisibles ; saint
+                            Ambroise<note n="g" place="bottom"><hi rend="i">In Psal.</hi> 32. <hi
+                                rend="i">v.</hi>1.</note>, parce qu’elles sont vaines ; saint
+                            Jerôme<note n="h" place="bottom"><hi rend="i">Homil.</hi> 7. <hi
+                                rend="i">in c.</hi> 2. <hi rend="i">Epist.</hi> 1. <hi rend="i">ad.
+                                Corinth.</hi></note>, parce que nous ne devons pas mettre nostre
+                        joïe dans les plaisirs du monde. Saint Jean Chrysostome, parce qu’elles <pb
+                            n="304" xml:id="p304"/>sont des obstacles à la conversion des ames &amp;
+                        à leur salut ; saint Augustin<note n="a" place="bottom"><hi rend="i"
+                                >Tract.</hi> 100. <hi rend="i">in c.</hi> 16. <hi rend="i">Johan.
+                                L.</hi> 1. <hi rend="i">de consens. Evang. c.</hi> 33. <hi rend="i"
+                                >L.</hi> 2. <hi rend="i">de Civit. Dei c.</hi> 9.</note>, parce que
+                        c’est un crime énorme que de donner son bien aux Comédiens qui sont des gens
+                        infames, que plus un homme est vertueux &amp; plus il doit s’éloigner du
+                        theâtre ; &amp; que l’on n’eût jamais approuvé les Comédies &amp; les crimes
+                        qu’elles representent sur le theâtre, si les mœurs des hommes qui estoient
+                        soüillez des mesmes vices ne l’eussent soufferte ; saint Isidore de
+                            Damiéte<note n="b" place="bottom"><hi rend="i">L.</hi> 3. <hi rend="i"
+                                >Epist.</hi> 336.</note>, parce que les Comédies d’elles-mêmes &amp;
+                        de leur nature, ne peuvent estre que pernicieuses &amp; nuisibles ; saint
+                            Bernard<note n="c" place="bottom"><hi rend="i">Tract. de convers. ad
+                                Cleric. c.</hi> 11.</note>, parce qu’elles ne sont que vanité ;
+                        enfin Jean de Salisberi Evêque de Chartres<note n="d" place="bottom"><hi
+                                rend="i">L.</hi> 1. <hi rend="i">Polycrat. c.</hi> 8.</note>, parce
+                        qu’elles sont propres à entretenir les vices, &amp; sur tout l’oisiveté, qui
+                        est l’ennemie de l’ame &amp; qui la dépoüille de toutes ses inclinations
+                        vertueuses, &amp; qu’en y assistant on participe aux crimes des Comédiens, à
+                        qui l’Eglise a interdit la sacrée Communion.</p>
+                    <p>Les Ecclesiastiques ne peuvent pas douter que toutes ces raisons ne les
+                        regardent, puisqu’elles regardent tous les Chrêtiens, &amp; qu’ils ont
+                        l’honneur d’en estre du nombre, &amp; d’en faire la plus illustre partie.
+                        Mais ils doivent sçavoir outre cela, que la Comédie leur est tres
+                        expressément défenduë par les Loix de l’Eglise. Car voici de quelle maniere
+                        s’en expliquent</p>
+                    <p>Les Statuts Synodaux du Diocese de Troïes<note n="e" place="bottom"><hi
+                                rend="i">Tit. de vit. &amp; honest. Presb.</hi></note> en 1529.
+                            <quote>« Il ne faut pas que les Prêtres, ni <pb n="305" xml:id="p305"
+                            />les autres Ecclesiastiques assistent aux Spectacles des boufons, des
+                            farceurs, ou des Comédiens. »</quote></p>
+                    <p>Le premier Concile Provincial de Milan<note n="a" place="bottom"><hi rend="i"
+                                >Constit. p.</hi> 2. <hi rend="i">tit.</hi> 25.</note> en 1565.
+                            <quote>« Les Ecclesiastiques n’assisteront point aux Fables, aux
+                            Comedies, aux Joütes ; aux Tournois, ni aux autres Spectacles vains
+                            &amp; profanes, de peur que leurs oreilles &amp; leurs yeux, qui sont
+                            consacrez au culte de Dieu, ne soient soüillez par des actions &amp; par
+                            des paroles badines &amp; impures. »</quote></p>
+                    <p>Les Statuts Synodaux du Cardinal de Tournon Archevêque de Lyon<note n="b"
+                            place="bottom"><hi rend="i">Tit. de vit. &amp; honest.
+                            Cleric.</hi></note> en 1566. <quote>« Que les Ecclesiastiques ne joüent
+                            jamais de Comédies ; qu’ils n’assistent jamais aux Spectacles ; &amp;
+                            qu’ils n’en representent jamais eux-mêmes. »</quote></p>
+                    <p>Les Statuts &amp; Ordonnances Synodales de l’Eglise de Lyon<note n="c"
+                            place="bottom"><hi rend="i">C.</hi> 18.</note> en 1577. <quote>« Les
+                            Ecclesiastiques fuiront les danses, masques bâteleries, Spectacles &amp;
+                            Comédies des Bâteleurs &amp; Farceurs, là où il y a dissolution,
+                            impudicité &amp; plaisanterie vaine. »</quote></p>
+                    <p>Le Concile Provincial de Bourdeaux<note n="d" place="bottom"><hi rend="i"
+                                >Tit.</hi> 21.</note> en 1583. <quote>« Que les Ecclesiastiques
+                            n’assistent jamais aux Comédies aux Fables, aux Danses, ni autres
+                            divertissemens que les Comédiens donnent, de peur que leurs yeux, qui
+                            sont consacrez au service de Dieu, ne soient soüillez par la contagion
+                            des Spectacles deshonnêtes ; Qu’ils n’en representent aussi jamais
+                            eux-mêmes. »</quote></p>
+                    <p>Le Concile Provincial de Bourges<note n="e" place="bottom"><hi rend="i"
+                                >Tit.</hi> 2. <hi rend="i">Can.</hi> 6.</note> en 1585. <quote>« Que
+                            les Ecclesiastiques s’abstiennent des <pb n="306" xml:id="p306"
+                            />Comédies, boufonneries &amp; des danses, &amp; qu’ils n’en soient
+                            jamais les spectateurs. »</quote></p>
+                    <p>Le Concile Provincial d’Aix<note n="a" place="bottom"><hi rend="i">Tit. de
+                                vit. &amp; honest. Cleric.</hi></note> en 1585. <quote>« Que les
+                            Ecclesiastiques ne joüent jamais de Comédies, &amp; qu’ils n’y assistent
+                            jamais, non plus qu’aux danses, ni aux autres spectacles
+                            profanes. »</quote></p>
+                    <p>Le Concile Provincial d’Avignon<note n="b" place="bottom"><hi rend="i"
+                                >C.</hi> 32.</note> en 1594. <quote>« Que les Ecclesiastiques
+                            n’assistent jamais aux danses, aux Comédies, ni aux autres spectacles
+                            profanes. »</quote></p>
+                    <p>Le Concile Provincial de Narbonne<note n="c" place="bottom"><hi rend="i"
+                                >C.</hi> 41.</note> en 1609. <quote>« Nous défendons aux
+                            Ecclesiastiques d’assister aux Comédies, aux fables, ni aux autres
+                            spectacles que les Comédiens &amp; les Boufons representent, de peur que
+                            la pureté du Sacerdoce ne soit soüillée par la vûë des choses vaines
+                            &amp; malhonnêtes. »</quote></p>
+                    <p>Les Statuts &amp; Réglemens du Diocese d’Evreux en 1644<note n="d"
+                            place="bottom"><hi rend="i">C.</hi> 1.</note>. <quote>« Les Curez ne se
+                            trouveront, non plus que les autres Ecclesiastiques, aux Jeux &amp;
+                            Comédies publiques, avec des Laïques. »</quote></p>
+                    <p>« Le Synode d’Aix<note n="e" place="bottom">Tit. des habits, des mœurs
+                            &amp;c.</note> en 1658. <quote>« Défendons à tous Ecclesiastiques de
+                            nostre Diocese &amp; résidans en icelui, de frequenter les Comédies,
+                            Bals &amp; autres lieux indécens à la condition
+                            Ecclesiastique. »</quote></p>
+                    <p>Le Synode d’Orleans<note n="f" place="bottom"><hi rend="i">Tit.</hi> 12. <hi
+                                rend="i">n.</hi> 3.</note> en 1664. <quote>« Nous défendons aux
+                            Prêtres &amp; aux autres Ecclesiastiques qui sont dans les Ordres sacrez
+                            d’assister aux Comédies, ni aux autres spectacles vains &amp; profanes,
+                            de crainte que leurs oreilles &amp; leurs <pb n="307" xml:id="p307"
+                            />yeux, qui sont destinez au service de Dieu, ne soient distraits &amp;
+                            soüillez par quelques actions deshonnêtes, ou par quelques sales
+                            discours. »</quote></p>
+                    <p>Les Constitutions &amp; Ordonnances Synodales de saint François de Sales,
+                        &amp; de Monsieur d’Arenton d’Alés, Evêques de Geneve<note n="a"
+                            place="bottom"><hi rend="i">P.</hi> 3. <hi rend="i">tit.</hi> 4. <hi
+                                rend="i">n.</hi> 1.</note> : <quote>« Nous défendons à tous Prêtres,
+                            sous peine de suspension, d’assister à la Comédie, Bals publics &amp;
+                            particuliers, &amp; autres spectacles profanes, de peur de soüiller
+                            leurs yeux &amp; leurs oreilles, qui ne sont destinez que pour les
+                            mysteres sacrez. »</quote></p>
+                    <p>Par les Statuts Synodaux du Diocese d’Agen<note n="b" place="bottom"><hi
+                                rend="i">Tit.</hi> 6. <hi rend="i">n.</hi> 1.</note> depuis 1666,
+                        jusqu’en 1673. <quote>« Nous interdisons aux Ecclesiastiques tous spectacles
+                            publics, danses, bals, comédies, farces, mascarades &amp; toutes sortes
+                            de boufonneries. »</quote></p>
+                    <p>Le Synode d’Aix<note n="c" place="bottom">Titre de la convers. &amp; mœurs
+                            des Eccles.</note> en 1672. <quote>« Défendons à toutes les personnes
+                            Ecclesiastiques d’assister aux danses, à la comédie, aux jeux publics
+                            &amp; aux representations des Bâteleurs. »</quote></p>
+                    <p>Les Statuts du Diocese d’Alet<note n="d" place="bottom"><hi rend="i"
+                                >Tit.</hi> 1. <hi rend="i">c.</hi> 6. <hi rend="i">n.</hi> 3.</note>
+                        depuis 1640. jusqu’en 1654. <quote>« Les Ecclesiastiques s’abstiendront de
+                            tous spectacles, comédies, farces, danses, mascarades,
+                            boufonneries. »</quote></p>
+                    <p>Les Statuts du Diocese de Seez<note n="e" place="bottom"><hi rend="i"
+                            >C.</hi> 6. <hi rend="i">n.</hi> 3.</note> en 1674. <quote>« Tout jeux
+                            publics, danses, comédies, &amp; autres spectacles, sont prohibez aux
+                            Ecclesiastiques par les saints Canons. »</quote></p>
+                    <p>Et les Statuts Synodaux du Diocese de Bezançon<note n="f" place="bottom"><hi
+                                rend="i">Tit.</hi> 2. <hi rend="i">Stat.</hi> 23.</note> en 1676.
+                            <quote>« La Scene &amp; le Theâtre des Farceurs &amp; des Comédiens
+                            aïant esté <pb n="308" xml:id="p308"/>condamnez dés il y a long-temps
+                            par les sentimens des Saints Peres, par les Decrets des Conciles, &amp;
+                            par les Statuts de nos predecesseurs ; &amp; les Chrêtiens ne pouvant y
+                            assister sans exposer leur salut à un tres-grand danger, dans le desir
+                            que nous avons de détourner nôtre Clergé d’un si pernicieux scandale,
+                            Nous défendons sous de tres-grandes peines à tous les Ecclesiastiques,
+                            qui sont obligez ou à cause de leurs Ordres, ou à cause de leurs
+                            Benefices, de porter la soutane, d’assister aux Comédies, ni aux autres
+                            spectacles. »</quote></p>
+                </div2>
+                <div2 type="section">
+                    <head>IX.</head>
+                    <p>L’Opera seroit un divertissement assez honnête &amp; assez innocent pour les
+                        Chrêtiens, s’il n’avoit rien de contraire à leur profession. Mais c’est ce
+                        qui ne paroît pas quand on examine les choses de prés. Car enfin le but de
+                        l’Opera est d’émouvoir les passions : &amp; le but de la Religion Chrêtienne
+                        au contraire est de les calmer, de les abattre &amp; de les détruire autant
+                        qu’il est possible en cette vie. C’est pour cela que le saint homme Job nous
+                            apprend<note n="a" place="bottom"><hi rend="i">C.</hi> 7. <hi rend="i"
+                                >v.</hi> 1.</note>, <quote>« Que la vie de l’homme sur la terre est
+                            un combat continuel »</quote>, parce qu’il n’a pas plûtôt terrassé un
+                        ennemi, que cette défaite en fait naître un autre en lui même, &amp;
+                        qu’ainsi sa victoire n’est pas moins à craindre pour lui que ses pertes.</p>
+                    <p>Ainsi on ne peut estre parfait Chrêtien, que le corps du peché ne soit
+                        détruit, comme parle l’Apôtre<note n="b" place="bottom"><hi rend="i"
+                                >Rom.</hi> 6. 6.</note>, que l’homme celeste ne régne, &amp; que le
+                        vieil homme ne soit crucifié avec ses<note n="c" place="bottom"><hi rend="i"
+                                >Galat.</hi> 5. 24.</note> passions &amp; ses desirs déréglez. Voilà
+                        quelle doit estre l’application des Chrêtiens ; voilà quelle est <pb n="309"
+                            xml:id="p309"/>leur Religion ; voilà quelle est la doctrine du saint
+                        Esprit ; &amp; voilà ce qu’on ne pratique point à l’Opera. On y chante des
+                        airs qui ne tendent pour l’ordinaire qu’à allumer un feu qui ne brûle déja
+                        que trop, &amp; que la foi nous oblige d’éteindre ; les jeunes gens de l’un
+                        &amp; de l’autre sexe s’y assemblent &amp; s’y placent confusément ; les
+                        filles &amp; les femmes y vont pour voir &amp; pour estre vûës ; les
+                        Chantres n’y sont pas des mieux réglez dans leurs mœurs, ni les Chanteuses
+                        des plus modestes dans leurs habits ; on y passe un temps considerable qu’on
+                        pourroit emploïer plus utilement ; enfin on n’y cherche que le plaisir pour
+                        le plaisir &amp; que le divertissement pour le divertissement. Et c’est ce
+                        qui fait qu’il n’arrive gueres qu’on en sorte avec la même pureté d’ame
+                        qu’on y est entré. Ainsi les Chrêtiens seroient fort bien de s’en
+                        abstenir.</p>
+                    <p>Premierement, parce que l’Opera est une Comédie en musique avec des machines,
+                        &amp; que la Comédie &amp; les spectacles sont interdits aux Chrêtiens,
+                        comme nous le venons de montrer.</p>
+                    <p>Secondement, parce que le plaisir &amp; le divertissement que l’on y prend ne
+                        s’accorde nullement avec ces paroles de Tertullien<note n="a" place="bottom"
+                                ><hi rend="i">L. de Spect.</hi> c. 28.</note> : C’est une grande
+                        sensualité à des Chrêtiens <quote>« de chercher leurs plaisirs en ce monde,
+                            ou plûtôt c’est une étrange manie de considerer comme un véritable
+                            plaisir les voluptez de ce siecle. Quelques Philosophes ont donné ce nom
+                            au repos &amp; à la tranquillité ; ils en ont fait l’objet de leur joïe,
+                            de leur application &amp; de leur gloire ; Et vous, <pb n="310"
+                                xml:id="p310"/>Chrêtiens, vous ne soûpirez qu’après les Comédies ?
+                            Nous sommes si éloignez de pouvoir vivre sans plaisir, que même nous
+                            devons trouver du plaisir dans la mort. Car nôtre plus grand desir doit
+                            estre, à l’imitation de l’Apôtre, de sortir de cette vie, &amp; de
+                            souhaiter d’estre unis à Dieu. Or nous devons trouver nos delices dans
+                            l’accomplissement de nos desirs<note n="a" place="bottom">C. 29</note>
+                            Vous voulez passer toute vôtre vie dans les délices ? C’est une grande
+                            ingratitude de n’estimer pas autant qu’il le faut, de ne vouloir pas
+                            même connoître les abondantes &amp; precieuses delices que Dieu nous a
+                            préparées. Qu’y a-t-il de plus aimable &amp; de plus propre à nous
+                            donner une extréme joïe, que d’estre reconciliez avec Dieu ; que d’estre
+                            éclairez de sa verité ; que de connoître les erreurs qui lui sont
+                            opposées ; que d’estre assûrez du pardon de tant de crimes que l’on a
+                            commis ? Quelle plus grande volupté peut-on sentir, que celle qui nous
+                            dégoûte de toutes les autres voluptez ; qui nous fait mépriser le
+                            siécle ; qui nous établit dans une veritable liberté ; qui conserve la
+                            pureté de nostre conscience ; qui nous rend satisfaits de nostre
+                            condition presente, qui fait que nous n’avons aucune crainte de la
+                            mort ; qui nous fait fouler aux pieds les idoles des païens ; qui nous
+                            rend victorieux des demons ; qui fait que nous ne vivons que pour Dieu ?
+                            Ce sont là les voluptez des Chrêtiens ; ce sont-là leurs spectacles,
+                            spectacles saints, éternels, &amp; qui leur sont donnez
+                            gratuitement ».</quote></p>
+                    <p>Troisiémement, parce que saint Macaire l’ancien<note n="b" place="bottom"><hi
+                                rend="i">Homil.</hi> 27.</note> le condamne par ces mots :
+                            <quote>« Si par <pb n="311" xml:id="p311"/>l’oüie toute seule on pouvoit
+                            entrer dans le Roïaume du Ciel &amp; dans la vie éternelle sans peine
+                            &amp; sans travail, ceux qui se divertissent aux spectacles du theatre,
+                            &amp; ceux qui menent une vie impudique, y auroient bonne part. Mais on
+                            ne va au Ciel que par des travaux &amp; par des combats, parce que le
+                            chemin qui y conduit est étroit, pénible &amp; fâcheux. C’est dans ce
+                            chemin rude qu’il faut marcher, &amp; souffrir beaucoup de peines &amp;
+                            d’afflictions pour entrer dans la vie éternelle. »</quote></p>
+                    <p>Il y a cependant des Ecclesiastiques qui ne font point de scrupule d’aller à
+                        l’Opera, &amp; ceux mêmes d’entre eux qui croïent que la Comedie, les
+                        farces, les bousonneries &amp; les autres spectacles vains &amp; profanes
+                        leur sont défendus, s’imaginent que celui-ci leur est permis. Mais c’est une
+                        illusion toute pure.</p>
+                    <p>1. Par les trois raisons que nous venons d’expliquer &amp; qui regardent tous
+                        les Chrêtiens en general.</p>
+                    <p>2. Par ce que dit ainsi le second Concile de Châlon sur Sône en 813. <note
+                            n="a" place="bottom"><hi rend="i">Can.</hi> 9.</note><quote>« Les
+                            Prêtres doivent s’éloigner de tous les objets qui ne font que charmer
+                            les oreilles &amp; surprendre les yeux par des apparences vaines &amp;
+                            pernicieuses, &amp; ils ne doivent pas seulement rejetter &amp; fuir les
+                            comédiens, les farceurs, &amp; les jeux deshonnêtes, mais ils doivent
+                            encore representer aux Fidéles l’obligation où ils sont de les rejetter
+                            &amp; de les fuir. »</quote></p>
+                    <p>3. Parce que le troisiéme Concile de Tours en la même année<note n="b"
+                            place="bottom"><hi rend="i">Can.</hi> 7</note>, veut que les
+                        Ecclesiastiques s’abstennent de tout ce qui peut <pb n="312" xml:id="p312"
+                        />charmer les oreilles &amp; les yeux, &amp; amollir l’esprit, à cause que
+                        les oreilles &amp; les yeux sont les portes par lesquelles les pechez
+                        trouvent aisément entrée dans l’esprit : <quote><hi rend="i">Ab omnibus
+                                quæcumque ad aurium &amp; ad oculorum pertinent illecebras, unde
+                                vigor animi emolliri posse credatur, Dei Sacerdotes abstinere
+                                debent, quia per aurium, oculorumque illecebras vitiorum surba ad
+                                animum ingredi solet.</hi></quote></p>
+                    <p>4. Parce que l’Opera est veritablement un de ces vains spectacles que les
+                        Conciles &amp; les Prelats de l’Eglise défendent aux Ecclesiastiques par
+                        tous les passages que nous venons de rapporter, &amp; qu’il n’est pas
+                        necessaire de repeter ici.</p>
+                </div2>
+                <div2 type="section">
+                    <head>X.</head>
+                    <p>On ne doit pas trouver étrange que les farces, les boufonneries, les
+                        marionnettes, &amp; tous les vains amusemens de cette nature, soient
+                        interdits aux veritables Fidéles qui sont profession de la Religion
+                        Catholique, puisqu’ils le sont même aux heretiques que nous appellons <hi
+                            rend="i">Pretendus Reformez</hi>. Car voici ce que porte en termes
+                        exprez un des articles de leur discipline. <note n="a" place="bottom">C. 14.
+                                <hi rend="i">art.</hi> 28</note><quote>« Les Momeries &amp;
+                            Bastelleries ne seront point souffertes ? ni faire le Roi boit, ni le
+                            mardi-gras ; semblablement les joüeurs de passe-passe, tours de
+                            souplesses, marionnettes. Et les Magistrats Chrêtiens exhortez de ne les
+                            souffrir, dautant que cela entretient la curiosité, &amp; apporte de la
+                            dépense &amp; perte de temps. Ne sera aussi loisible aux Fidéles
+                            d’assister aux comedies, tragedies, farces, moralitez, &amp; autres jeux
+                            joüez en public ou en particulier, vû que de tout temps cela a été <pb
+                                n="313" xml:id="p313"/>défendu entre les Chrêtiens, comme apportant
+                            corruption de bonnes mœurs, mais surtout quand l’Ecriture Sainte y est
+                            profanée. »</quote></p>
+                    <p>Ils le sont encore plus particulierement aux Ecclesiastiques.</p>
+                    <p>1. Parce que ce sont des jeux &amp; des divertissemens publics, ausquels nous
+                        avons fait voir qu’ils ne doivent pas se trouver.</p>
+                    <p>2. Parce qu’ils sont moins honnêtes que la comédie, à laquelle il ne leur est
+                        pas permis d’aller.</p>
+                    <p>3. Par ces paroles</p>
+                    <p>Du quatriéme Concile General de Latran sous Innocent III. en 1215<note n="a"
+                            place="bottom">C. 16.</note>. des Statuts Synodaux de Michel Loyseau
+                        Evêque d’Angers vers l’an 1240. ou 1255. de ceux de Pierre de Colmieu
+                        Archevêque de Roüen en 1245<note n="b" place="bottom">C. 8.</note>. de deux
+                        Conciles de Cologne<note n="c" place="bottom">C. 6.</note>, l’un vers l’an
+                        1280. &amp; l’autre en 1310. du Synode d’Angers en 1493<note n="d"
+                            place="bottom">8. <hi rend="i">Præcepto, Tit. de vit. &amp; honest.
+                                Presbyt. loco</hi> 3.</note>. &amp; des Statuts Synodaux de Troïes
+                        en 1529. <quote>« Il ne faut pas que les Ecclesiastiques se trouvent avec
+                            les boufons, les farceurs ou les jongleurs, ni qu’ils assistent à leurs
+                            representations. »</quote></p>
+                    <p>Du Synode de Sens en 1524<note n="e" place="bottom"><hi rend="i">Tit. de vit
+                                morib. &amp; conversat. Cleric.</hi></note>. <quote>« Nous défendons
+                            aux Ecclesiastiques les jeux de theatre, &amp; generalement tous les
+                            autres jeux qui sont contre la bienseance de leur
+                        profession. »</quote></p>
+                    <p>Du Concile Provincial de Narbonne en 1551<note n="f" place="bottom"
+                            >Can. 19.</note>. <quote>« Que les Ecclesiastiques ne perdent point le
+                            temps à écouter, ni à regarder les farceurs, les bâteleurs, ni les
+                            boufons, sous peine <pb n="314" xml:id="p314"/>de prison &amp; autre
+                            peine arbitraire. »</quote></p>
+                    <p>Des Statuts &amp; Ordonnances Synodales de l’Eglise de Lion en 1577<note
+                            n="a" place="bottom">C. 18.</note>. <quote>« Les Ecclesiastiques fuïront
+                            les basteleries, spectacles &amp; comedies des basteleurs &amp;
+                            farceurs, là où il y a dissolution, impudicité &amp; plainsanterie
+                            vaine. »</quote></p>
+                    <p>Du Concile Provincial de Bourdeaux en 1583<note n="b" place="bottom"><hi
+                                rend="i">Tit.</hi> 21.</note>. <quote>« Les Ecclesiastiques
+                            n’assisteront jamais aux comedies, ni à aucun des spectacles que les
+                            boufons representent. »</quote></p>
+                    <p>Du Concile Provincial de Bourges en 1584<note n="c" place="bottom"><hi
+                                rend="i">Tit.</hi> 2. <hi rend="i">Can.</hi> 6.</note>. <quote>« Que
+                            les Ecclesiastiques ne fassent point les baladins, &amp; qu’ils
+                            n’assistent jamais aux boufonneries. »</quote></p>
+                    <p>Du Concile Provincial de Narbonne en 1609<note n="d" place="bottom"
+                            >C. 41.</note>. <quote>« Nous défendons aux Ecclesiastiques sous peine
+                            de prison &amp; autre peine arbitraire, de se trouver aux
+                            representations de theatre, de faire les plaisans, &amp; d’assister aux
+                            farces des basteleurs. »</quote></p>
+                    <p>Des Status du Diocese d’Evreux en 1664<note n="e" place="bottom"><hi rend="i"
+                                >Art.</hi> 9.</note>. <quote>« Conformement aux Saintes Loix des
+                            Conciles, Nous défendons à tous Ecclesiastiques les spectacles, farces,
+                            boufonneries, comme aussi d’assister à toutes ces choses. »</quote></p>
+                    <p>Des Statuts du Diocese d’Agen depuis 1666. jusqu’en 1673<note n="f"
+                            place="bottom"><hi rend="i">Tit.</hi> 6. <hi rend="i"
+                            >art.</hi> 1.</note>. <quote>« Nous interdisons à tous Ecclesiastiques
+                            tous spectacles publics, farces &amp; toute sorte de
+                            boufonnerie. »</quote></p>
+                    <p>Du Synode d’Aix en 1672<note n="g" place="bottom">Tit. de la conversat.
+                            &amp;c. des Eccles.</note>. <quote>« Défendons à toutes les personnes
+                            Ecclesiastiques d’assister aux representations des
+                        basteleurs. »</quote></p>
+                    <p><pb n="315" xml:id="p315"/>Et des Statuts Synodaux du Diocese d’Alet depuis
+                        1640. jusqu’en 1674<note n="a" place="bottom"><hi rend="i">Tit.</hi> 1.<hi
+                                rend="i">c.</hi> 6. <hi rend="i">n.</hi> 3.</note>. <quote>« Les
+                            Ecclesiastiques s’abstiendront de toutes farces &amp;
+                            boufonneries. »</quote></p>
+                </div2>
+                <div2 type="section">
+                    <head>XI.</head>
+                    <p>La coûtume des Romains étoit pendant la fête de Saturne, que les valets
+                        prissent les habits de leurs Maîtres, &amp; pendant celle de la mere des
+                        Dieux, que chacun fît le foû &amp; se déguisât. Polydore Virgile<note n="b"
+                            place="bottom"><hi rend="i">L.</hi> 5. <hi rend="i">Invent. ter.
+                            c.</hi> 2.</note>, Rosinus<note n="c" place="bottom"><hi rend="i"
+                                >L.</hi> 4 <hi rend="i">antiquit. Rom. c.</hi> 7</note>. Pierre
+                        Gregoire de Toulouse<note n="d" place="bottom"><hi rend="i">L.</hi> 39. <hi
+                                rend="i">Syntag. Jur. uni. c.</hi> 11.</note>, &amp; Rodolfe
+                            Hospinien<note n="e" place="bottom"><hi rend="i">L de origine &amp;c.
+                                festorum die Christ. in januar. P.</hi> 32.</note> en rapportent des
+                        preuves convaincantes. Et voilà justement l’origine des mascarades, qui sont
+                        constamment un reste du Paganisme.</p>
+                    <p>Les Dames, ainsi que l’assûre Brantôme<note n="f" place="bottom">Dames
+                            galantes.</note>, ont commencé en France sur la fin du dernier siecle à
+                        porter des masques. Les plus sages neanmoins n’en portoient pas. Car
+                        j’apprens de Bouchel, que <quote>« la Reine Elizabeth<note n="g"
+                                place="bottom">Biblioth. du Droit François sur le mot
+                                Masques.</note>, fem- du Roi Charles IX. n’étoit jamais masquée, ni
+                            elle, ni ses Damoiselles ; reprouvant en cela la mauvaise coûtume de
+                            France »</quote>. Je ne décide point ici s’il y a du peché aux Dames de
+                        porter des masques, ou s’il n’y en a pas. Mais ce que je puis dire, c’est
+                        qu’elles ne peuvent paroître en cet état dans les Eglises &amp; aux pieds
+                        des Autels, sans commettre une grande irreverence, ne le pouvant faire sans
+                        incivilité dans la chambre d’une personne à qui elles doivent quelque
+                        respect.</p>
+                    <p>Saint Thomas croit que les hommes &amp; les <pb n="316" xml:id="p316"/>femmes
+                        peuvent quelquefois se déguiser sans peché<note n="a" place="bottom">2.2.<hi
+                                rend="i">q.</hi> 169. <hi rend="i">art.</hi> 2. <hi rend="i"
+                                >ad.</hi> 3.</note>, lorsque la necessité les y oblige, ou pour se
+                        dérober de leurs ennemis, ou faute d’habits qui leur soient convenables, ou
+                        pour quelqu’autre semblable raison.</p>
+                    <p>Les Ordonnances Roïaux, &amp; les Arrests des Parlemens défendent tres
+                        expressement les masques, dont certaines gens abuseroient pour commettre
+                        plus aisément &amp; plus impunément de méchantes actions.</p>
+                    <p>François I. y est formel dans l’Ordonnance de Chastillon sur Loing en
+                            1539.<note n="b" place="bottom"><hi rend="i">Art.</hi> 1.</note> le
+                        9. Mai. <quote>« Défendons <seg type="exquote">(dit-il) </seg>à toutes
+                            personnes de quelque état qu’ils soient, d’aller par Villes, Citez,
+                            Forêts, Bois, Bourgs &amp; chemins armez de harnois secrets, ou
+                            apparens, seuls ni en compagnie, masquez, ne déguisez, sous quelque
+                            cause que ce soit, sur peine de confiscation de corps &amp; de biens,
+                            sans aucune exception de personnes. »</quote></p>
+                    <quote>
+                        <p>« Défendons à toutes personnes de recevoir, loger<note n="c"
+                                place="bottom"><hi rend="i">Art.</hi> 2.</note>, ne receler telle
+                            maniere de gens, soit par forme de logis &amp; hosteleries, en leurs
+                            maisons privées, sur les autres peines : ainsi nous le viennent dire, ou
+                            à nos Lieutenans, Gouverneurs, Justiciers &amp; Officiers plus prochains
+                            des lieux, où ils auront été trouvez, sur peine d’être dits complices
+                            &amp; fauteurs &amp; punis de pareille peine. »</p>
+                    </quote>
+                    <quote>
+                        <p>« Voulons que la moitié des confiscations soit donnée aux
+                                dénonciateurs<note n="d" place="bottom"><hi rend="i"
+                                >Art.</hi> 3.</note> sans autre declaration ne don adjugée. »</p>
+                    </quote>
+                    <quote>
+                        <p>« Donnons pouvoir à tous ceux qui trouverront tels personnages armez
+                            &amp; déguisez, les prendre, arrêter &amp; saisir au corps ; &amp; s’ils
+                            se mettent en défense, assembler par tocquesin ou autrement les Peuples
+                            &amp; Communautez, &amp; leur courir <pb n="317" xml:id="p317"/>fus en
+                            maniere qu’ils puissent être puns &amp; apprehendez, &amp; mis
+                            prisonniers en justice. »</p>
+                    </quote>
+                    <quote>
+                        <p>« Et si par leur rebellion, défense<note n="a" place="bottom"><hi
+                                    rend="i">Art.</hi> 5.</note>, desobéïssance, aucuns étoient à la
+                            caption tuez &amp; occic, voulons que de ce ne soit aucune chose
+                            improperée à ceux qui auront ce fait, ne qu’ils encourent aucune peine
+                            corporelle ou pecuniaire, d’obtenir grace, remission ou pardon
+                            consequemment reprins ni aprehendez en Justice. »</p>
+                    </quote>
+                    <quote>
+                        <p>« Défendons <seg type="exquote">(dit Charles IX. dans une Ordonnance du
+                                5. Février 1561.) </seg>à toutes personnes de quelque état, qualité,
+                            &amp; condition qu’ils soient, de ne plus faire des masques &amp;
+                            momeries de jour &amp; de nuit dedans la ville de Lyon ni Fauxbourgs
+                            d’icelle, sur peine à chacun des delinquans, ensemble de ceux qui les
+                            retireront en leurs maisons de cent écus d’amende pour la premiere
+                            fois : &amp; pour la seconde, de punition corporelle &amp; de deux cens
+                            écus pour chacun des delinquans, applicables aux pauvres de la grande
+                            aumône de Lyon, sinon que pour autre occasion ils eussent de nous
+                            permission. »</p>
+                    </quote>
+                    <quote>
+                        <p>« Et parce que<seg type="exquote">, dit Henri III. dans les Etats de
+                                Blois en 1679.<note n="b" place="bottom"><hi rend="i"
+                                    >Art.</hi> 198.</note></seg> Nous avons été avertis que
+                            plusieurs voleries, meurtres, &amp; assassinats se commettent par les
+                            champs par personnes masquées : Nous voulons qu’il leur soit courusus
+                            par autorité de Justice &amp; avec les Officiers d’icelle, en toute voïe
+                            d’hostilité, &amp; à son de toxin : &amp; qu’étant apprehendez ils
+                            soient punis par les Juges des lieux sans dissimulation. »</p>
+                    </quote>
+                    <quote>
+                        <p>« Par arrest de Paris<seg type="exquote"> (dit Bouchel) du
+                                    25. Avril 1514<note n="c" place="bottom">Dans l’endroit
+                                    ci-devant cité.</note></seg> il a été défendu à tous Marchands
+                                <pb n="318" xml:id="p318"/>de plus vendre ou tenir masques, &amp;
+                            même à Paris ou au Palais. »</p>
+                    </quote>
+                    <quote>
+                        <p>« Par Arrest de la Cour de Roüen du 28. Mars 1508. il est défendu à
+                            toutes personnes de porter, vendre ou acheter aucuns faux visages,
+                            masques, nez, ou barbes feintes, &amp; autres choses déguisantes, sous
+                            peine de cent livres. Et le 7. Juin 1513. cet Arrest fut derechef
+                            publié. »</p>
+                    </quote>
+                    <p>Ce n’est pas de ces sortes de mascarades dont je veux parler, mais de celles
+                        qui se font en bien des lieux au temps du Carnaval &amp; en quelques autres
+                        occasions, pour le pur divertissement, ou pour avoir plus de liberté d’aller
+                        joüer, ou danser, dans les maisons &amp; dans les assemblées.</p>
+                    <p>Les Chrêtiens peu instruits de la pureté &amp; de la verité de leur sainte
+                        Religion, les regardent comme des divertissemens innocens, ou tout au plus,
+                        indifferens. Mais l’Ecriture, les Conciles, &amp; les Saints Peres en jugent
+                        bien d’une autre maniere.</p>
+                    <p>L’Ecriture maudit les hommes qui se déguisent en femmes, &amp; les femmes qui
+                        se déguisent en hommes. <note n="a" place="bottom"><hi rend="i"
+                                >Deuteronom.</hi> 22 5.</note><quote>« Que les femmes<seg
+                                type="exquote">, dit la Loi de Dieu,</seg> ne s’habillent point en
+                            hommes, ni les hommes en femmes ; car quiconque le fait, est abominable
+                            devant Dieu. »</quote> Sur quoi saint Ambroise fait cette belle
+                            reflexion<note n="b" place="bottom"><hi rend="i">S. Ambros. Irenæ in
+                                calce Annot. ad c.</hi> 22. <hi rend="i">Deuteron.</hi></note> :
+                            <quote>« Si vous considerez avec attention <seg type="exquote">(dit ce
+                                saint Prelat) </seg>ce qui est défendu par ce precepte du
+                            Deuteronome, vous verrez que ce déguisement est un dereglement étrange,
+                            que la nature même <pb n="319" xml:id="p319"/>ne peut souffrir. Car
+                            pourquoi, ô homme, ne voulez-vous pas paroître tel que vous estes par
+                            vôtre naissance ? Pourquoi prenez-vous une autre figure ? Pourquoi vous
+                            déguisez-vous en femme, &amp; vous femme, pourquoi vous déguisez-vous en
+                            homme ? La nature a revêtu chaque sexe d’habillemens qui leur sont
+                            propres. »</quote></p>
+                    <p>Ce déguisement a paru aussi tellement étrange à Saint Augustin, qu’il a crû
+                        que ceux qui le faisoient étoient infames, &amp; incapables de faire des
+                        Testamens &amp; de servir de temoins en justice. <note n="a" place="bottom"
+                                ><hi rend="i">L. 2. Soliloq. c. 16.</hi></note><quote>« Je croi <seg
+                                type="exquote">(dit-il) </seg>que ceux qui s’habillent en femmes
+                            publiquement, sont infames selon le droit, &amp; incapables de faire
+                            testament &amp; de servir de témoins en Justice ; &amp; je ne sçai si je
+                            les dois appeller ou de fausses femmes, ou de faux hommes ; mais il est
+                            sans doute que nous les pouvons nommer des farceurs &amp; de vrais
+                            infames. »</quote></p>
+                    <p>Le Concile du Dôme de Constantinople en 692<note n="b" place="bottom"><hi
+                                rend="i">Can.</hi> 62.</note>. les a excommuniez en ces termes.
+                            <quote>« Nous ordonnons <seg type="exquote">(dit-il) </seg>qu’à l’avenir
+                            nul homme ne s’habillera en femme, &amp; que nulle femme ne shabillera
+                            en homme. Sitôt que les Prelats auront connoissance que quelqu’un aura
+                            commis ce crime, si c’est un Ecclesiastique, qu’ils le déposent ; si
+                            c’est un Laïque, qu’ils l’excommunient.</quote></p>
+                    <p>S. Thomas dit que c’est une chose mauvaise de foi, <note n="c" place="bottom"
+                            >Supr.</note><quote>« qu’une femme s’habille en homme, ou qu’un homme
+                            s’habille en femme » : <hi rend="i">De se vitiosum est quòd mulier
+                                utatur veste virili, aut è converso</hi> ; principalement parce que
+                            cela peut donner lieu à l’impureté, &amp; que cela est défendu par la
+                            Loi en termes exprés, à <pb n="320" xml:id="p320"/>cause que les Païens
+                            se servoient de ce changement d’habits pour la superstition de leur
+                            idolatrie »</quote>.</p>
+                    <p>Enfin Burchard Evêque de Vvormes<note n="a" place="bottom"><hi rend="i"
+                                >Lib.</hi> 10. <hi rend="i">Decret. c.</hi> 39. <hi rend="i">in
+                                decret.</hi> l. 11. <hi rend="i">c.</hi> 64.</note>, &amp; Ives
+                        Evêque de Chartres, citent un Concile de Brague, qui ordonne <quote>« que
+                            les hommes qui se déguiseront en femmes, &amp; que les femmes qui se
+                            déguiseront en hommes, après avoir promis de ne plus tomber dans ce
+                            crime, seront obligez de faire penitence durant trois ans »</quote>.</p>
+                    <p>Autrefois les Païens se travestissoient en cerfs, en chevres, ou en genisses.
+                        C’étoit-là une des superstitions qu’ils observoient le premier jour de
+                        Janvier, &amp; contre lesquelles les Conciles &amp; les Peres se sont
+                        declarez ouvertement. Saint Augustin en parle en ces termes : <quote>« Nous
+                            offrons <seg type="exquote">(dit-il) </seg>un Sacrifice tres-agreable
+                            aux démons<note n="b" place="bottom"><hi rend="i">Serm. 2. de Cal.
+                                    Januar.</hi></note>, lorsque nous disons ou faisons quelque
+                            chose qui blesse &amp; qui bannit l’honnêteté, qui est l’ame de la
+                            Justice. Y-a-t-ïl une folie pareille à celle qui porte les hommes à
+                            s’habiller en femmes par un honteux déguisement, à défigurer leurs
+                            visages par des masques, qui sont capables de faire peur aux démons ; ou
+                            enfin à mettre impudemment son plaisir à chanter les loüanges des vices,
+                            avec des vers lâcifs, &amp; avec des postures tout-à-fait ridicules
+                            &amp; impertinentes ? Y a t-il de plus grande folie que de se déguiser
+                            en bêtes, de se rendre semblable à une chevre, ou à un cerf ; afin que
+                            l’homme qui a été formé à l’image &amp; à la ressemblance de Dieu,
+                            devienne le sacrifice &amp; <pb n="321" xml:id="p321"/>la victime du
+                            demon ! C’est par là que cet ouvrier d’iniquité s’insinuë &amp;
+                            s’introduit, afin qu’aïant gagné insensiblement les esprits des hommes
+                            sous les apparences des divertissemens, il établisse sa domination sur
+                            eux &amp;c. Vous donc qui estes Peres de famille, avertissez vos
+                            domestiques de ne point suivre ces coûtumes sacrileges des miserables
+                            Païens. »</quote></p>
+                    <p>Saint Pierre Chrysologue s’en explique encore d’une maniere plus forte que
+                        Saint Augustin. <note n="a" place="bottom"><hi rend="i"
+                            >Serm.</hi> 155</note>Voici comme il parle : <quote>« Qui pourroit assez
+                            déplorer <seg type="exquote">(dit-il) </seg>ceux qui se déguisent en
+                            idoles ? N’ont-ils pas effacé en eux-mêmes l’image de Dieu ? N’ont-ils
+                            pas perdu la ressemblance de Jesus-Christ ? Ne se sont-ils pas
+                            dépoüillez de la grace dont il les avoit revêtus ? Mais quelqu’un me
+                            dira ; Ce ne sont point des exercices sacrileges ; ce sont des jeux
+                            &amp; des divertissemens ; c’est une nouvelle maniere de se réjoüir,
+                            &amp; non pas une erreur de l’antiquité, ni une superstition des Païens.
+                            Vous vous trompez qui que vous soïez : ce ne sont point des jeux, ce
+                            sont des crimes. Peut-on faire un divertissement d’un sacrilege ? Qui
+                            peut dire qu’un crime soit un sujet de réjoüissance ? Celui qui a ce
+                            sentiment se trompe fort. C’est estre tyran que d’être habillé en tyran.
+                            Celui qui se déguise en idole, ne veut point porter l’image de Dieu.
+                            Celui qui se veut divertir avec le diable, ne pourra pas se réjoüir avec
+                            Jesus-Christ. Personne ne se joüe sans danger avec un serpent ; personne
+                            ne se divertit impunement avec le diable. »</quote></p>
+                    <p><pb n="322" xml:id="p322"/>C’est dans cette vûë que le Concile d’Auxerre<note
+                            n="a" place="bottom"><hi rend="i">Can.</hi> 1.</note> en 578. &amp;
+                        Saint Eloi Evêque de Noïon<note n="b" place="bottom"><hi rend="i">Serm. ad
+                                omnem plebem</hi>, <hi rend="i">to.</hi> 9. <hi rend="i"
+                            >tract.</hi> 20. <hi rend="i">oper. S. Augustini.</hi></note>, défendent
+                        aux Fidéles de se déguiser en cerfs ou en genisses. <quote><hi rend="i">Non
+                                licet</hi><seg type="exquote">, dit ce Concile,</seg>
+                            <hi rend="i">Calendis Januariis vetula aut cervolo facere.</hi> Et Saint
+                            Eloi ; <hi rend="i">Nemo in Calendis januariis nefanda aut ridiculosa,
+                                vetulas aut cervolos, vel jocticos faciat.</hi></quote></p>
+                    <p>Burchard<note n="c" place="bottom"><hi rend="i">L.</hi> 19. <hi rend="i"
+                                >Decret. c.</hi> 5. <hi rend="i">dist.</hi> 98.</note> témoigne que
+                        la penitence de ceux qui avoient commis ce peché, estoit un jeûne de trente
+                        jours au pain &amp; à l’eau. <quote>« Avez vous fait<seg type="exquote">,
+                                dit-il,</seg> quelque chose semblable à ce qu’ont fait, &amp; ce que
+                            font encore les païens aux premiers jours de Janvier, vous déguisant en
+                            cerf ou en genisse ? Si vous l’avez-fait, faites en penitence durant
+                            trente jours au pain &amp; à l’eau. »</quote></p>
+                    <p>Mais il ne faut pas que les hommes qui ne se déguisent pas en femmes, les
+                        femmes qui ne se déguisent pas en hommes, ni les hommes &amp; les femmes qui
+                        ne se déguisent pas en cerfs, en chévres, ou en genisses, mais qui se
+                        déguisent de quelqu’autre maniere, pretendent le pouvoir faire sans peché,
+                        parce que l’Ecriture, les Conciles &amp; les Peres que nous venons de
+                        rapporter ne les condamne pas expressément Car ils doivent sçavoir qu’une
+                        des raisons pour lesquelles Tertullien blâme les spectacles, c’est à cause
+                        des déguisemens qui s’y faisoient. <quote>« Je demande maintenant<note n="d"
+                                place="bottom"><hi rend="i">L. de Spect. c.</hi> 23.</note>
+                            <seg type="exquote">(dit ce sçavant homme) </seg>si les masques plaisent
+                            à Dieu ; puisqu’en defendant de faire aucune figure, il défend à plus
+                            forte raison de faire des figures de son image. Lui qui est <pb n="323"
+                                xml:id="p323"/>l’auteur de la verité, il n’aime point la fausseté :
+                            il regarde toute sorte de déguisemens, comme une alteration, comme une
+                            falcification. C’est pourquoi condamnant toute sorte de feinte, il
+                            n’approuvera point qu’on déguise sa voix, son sexe, son âge, ni qu’on
+                            represente des amours, qu’on exprime des passions, qu’on feigne des
+                            gemissemens. »</quote></p>
+                    <p>C’est aussi ce que Saint Jean Chrysostome condamne par ces mots<note n="a"
+                            place="bottom"><hi rend="i">Homil.</hi> 38. <hi rend="i">in c.</hi> 11.
+                                <hi rend="i">Matth.</hi></note> : <quote>« Que dirai-je du bruit
+                            &amp; du tumulte de ces spectacles ? de ces cris &amp; de ces
+                            applaudissements diaboliques ? de ces habits qu’il n’y a que le demon
+                            qui ait inventez ? On y voit un jeune homme, qui aïant rejetté tous ses
+                            cheveux derriere la tête prend une coëffure étrangere, dément ce qu’il
+                            est, &amp; s’étudie à paroître une fille dans ses habits, dans son
+                            marcher, dans ses regards &amp; dans sa parole. On y voit un vieillard,
+                            qui aïant quitté toute la honte avec ses cheveux qu’il a fait couper, se
+                            ceint d’une ceinture, s’expose à toutes sortes d’insultes, &amp; est
+                            prest à tout dire, à tout faire &amp; à tout souffrir. »</quote></p>
+                    <p>Je ne dois pas omettre ici ce que Jean Loüis Vivez dit des mascarades<note
+                            n="b" place="bottom"><hi rend="i">L. I. de Instit. Christ. Fœmin. Tit.
+                                de saltationibus</hi>.</note> : Voici ses termes. <quote>« Il s’est
+                            introduit depuis quelque temps parmi nous une étrange coûtume. Les
+                            hommes &amp; les femmes se masquent &amp; courent les Villes en cet
+                            état, dansant dans les maisons des Grands &amp; des riches, où ils
+                            sçavent qu’il y a bonne compagnie. Il se trouvera des gens qui se
+                            plaisent si fort à cela, qu’ils ne croïent pas qu’il y ait au monde un
+                            plus grand divertissement que de courir <pb n="324" xml:id="p324"/>ainsi
+                            masquez par les maisons. Ils voïent &amp; ils connoissent tout le monde,
+                            sans estre vûs ni connus de personne ; semblables en cela aux petits
+                            enfans qui se sont une grande joïe de s’imaginer, quand ils se cachent
+                            le visage de leurs mains, qu’on ne les voit point, &amp; que cependant
+                            on les cherche. Mais il y a bien des crimes cachez sous ces masques. On
+                            y remarque d’abord une curiosité surprenante, qui fait que les femmes
+                            veulent sçavoir tout ce qui se passe ; qui sont ceux qui sont du
+                            régale ; quel rang ils y tiennent ; comment ils sont vêtus ; si leurs
+                            habits sont magnifiques Et tout cela cause en elles des jalousies, des
+                            caquets, des médisances, des diffamations. Tel croit recevoir chez soi
+                            un ami caché sous un masque, qui n’y reçoit qu’un ennemi &amp; un ennemi
+                            mortel qui n’y va que pour observer tout ce qui s’y fait, afin d’en
+                            tirer avantage ou de nuire. On en exclut les ennemis que l’on connoît,
+                            &amp; on y admet ceux que l’on ne connoît pas. Et qu’arrive-t-il de
+                            toutes ces mascarades, je vous prie ? L’impudence des femmes n’a plus de
+                            bornes. Celles qui auroient honte d’aller en compagnie &amp; d’y danser
+                            sans masque, le font sans scrupule à la faveur d’un masque. Elles n’ont
+                            nul égard à l’âge, à la qualité, au bien, à la reputation. Non seulement
+                            elles écoutent des saletez &amp; des choses indignes d’elles, mais elles
+                            ne font point de difficulté de dire ce qu’elles n’oseroient pas même
+                            penser si elles estoient connuës. Le masque qui les cache rend tout égal
+                            aux yeux de ceux qui les considerent, comme si c’estoit un nuage obscur
+                            qui les couvrît de toutes parts. Ainsi elles s’accoûtument peu à peu à
+                            l’impudence, &amp; elles s’apperçoivent fort bien quand elles sont
+                            démasquées, du préjudice qu’elles <pb n="325" xml:id="p325"/>ont fait à
+                            leur pudeur estant masquées. Voilà les principaux crimes qui
+                            accompagnent ordinairement les mascarades en France, en Allemagne &amp;
+                            en Angleterre, où les peuples vivent plus simplement, &amp; n’y
+                            entendent pas tant de finesses. Mais il est à craindre que ces sortes de
+                            divertissemens ne donnent lieu à quantité de crimes énormes, en Espagne,
+                            en Italie &amp; dans les autres païs, où les gens sont plus adroits
+                            &amp; plus rusez, à cause de la subtilité des esprits. A la verité les
+                            desordres qui en sont déjà arrivez ne sont pas en grand nombre, parce
+                            que la chose n’est pas encore bien vieille, ni fort en usage. Mais il
+                            est plus à propos de les taire que de les dire, de peur qu’il ne semble
+                            qu’on en avertit plûtôt, qu’on ne les corrige. »</quote></p>
+                    <p>Ce que cet Auteur suppose, qu’on se masque en Angleterre, ne s’accorde pas à
+                        ce que rapporte Polydore-Virgile, qui en a écrit l’histoire. Car il dit
+                        positivement qu’en Angleterre il est défendu sous peine de la vie de se
+                            masquer<note n="a" place="bottom"><hi rend="i">L.</hi> 5. <hi rend="i"
+                                >de invent. rer. c.</hi> 2.</note>, <quote><hi rend="i">Una omnium
+                                Regionum Anglia</hi><seg type="exquote">, dit-il,</seg>
+                            <hi rend="i">personatas belluas hactenus non vidit, nes quidem vult
+                                videre : quando apud Anglos, in re hac præ aliis certè sapient ores,
+                                lex est, ut capitale sit, si quis personas induerit.</hi></quote>
+                        Mais comme ces deux Ecrivains ont esté du même temps, que Vivez a vêcu en
+                        Espagne, &amp; Polydore-Virgile en Angleterre, où il nous assure lui-même
+                        qu’il a fait la charge de Questeur ou Collecteur du Pape<note n="b"
+                            place="bottom"><hi rend="i">L.</hi> 5. <hi rend="i">Hist.
+                            Anglic.</hi></note>, &amp; qu’il a esté Archidiacre de Vvelles ou de
+                        Bathe, on en doit bien plûtôt croire ce dernier que non pas Vivez. Quoi
+                        qu’il en soit, voici le <pb n="326" xml:id="p326"/>jugement que
+                        Polydore-Virgile fait des mascarades. <quote>« Les Chrêtiens<seg
+                                type="exquote">, dit-il<note n="a" place="bottom"><hi rend="i"
+                                        >L.</hi> 5. <hi rend="i">de invent. rer.
+                                c.</hi> 2.</note>,</seg> ont pris des anciens Romains la folle
+                            coûtume de se masquer non pas un ou deux jours seulement comme eux, mais
+                            deux mois entiers avant le Carême, non pour honorer quelque fête, ainsi
+                            qu’il se pratiquoit autrefois à Rome, mais par le seule passion de faire
+                            les foüs. Il se commet tous les jours une infinité de crimes à la faveur
+                            de cette coûtume, &amp; cela impunément ; comme s’il estoit permis à
+                            tout le monde d’estre méchant avec un masque, &amp; que les hommes
+                            estans déguisez &amp; travestis, fussent incapables de mal faire. Au
+                            lieu qu’ils doivent estre persuadez que Dieu les connoît parfaitement en
+                            quelque état qu’ils soient, qu’il jugera leurs bonnes &amp; leurs
+                            mauvaises actions, qu’il châtiera les méchans, &amp; qu’il recompensera
+                            les bons. »</quote></p>
+                    <p>Pierre Gregoire de Toulouse<note n="b" place="bottom"><hi rend="i"
+                            >L.</hi> 39. <hi rend="i">Syntagma Juris uni. c.</hi> 11. <hi rend="i"
+                                >n.</hi> 1. <hi rend="i">&amp;</hi> 2.</note> parle des masques à
+                        peu prés dans le même sens. <quote>« C’est un desordre<seg type="exquote">,
+                                dit il,</seg> assez ordinaire parmi les François, d’aller masquez
+                            dans les maisons d’autrui, ne voulant pas estre connus, leur conscience
+                            leur marquant qu’ils n’ont nul dessein de bien faire en cette posture.
+                            Ces mascarades sont la source féconde d’une infinité de crimes, qu’on ne
+                            sçait que trop, sans qu’il soit besoin de les expliquer davantage. Car
+                            ceux qui sont mal, haïssent la lumiere &amp; ne veulent point estre
+                            connus. Ils déguisent souvent leur visage &amp; leur sexe, à la façon
+                            des voleurs, des personnes débauchées &amp; des <pb n="327"
+                                xml:id="p327"/>malfaicteurs. Le Parlement de Toulouse a souvent
+                            défendu par ses Arrests à toutes sortes de pernes de vendre ni porter
+                            des masques. Elle a renouvellé ces défenses à chaque Carnaval, mais
+                            inutilement, parce que les Magistrats qui les devroient garder
+                            inviolablement sont, les premiers à les enfreindre. qui est un mal qu’on
+                            ne sçauroit assez déplorer. »</quote></p>
+                    <p>Il y a encore un autre desordre qui se commet en certains lieux au sujet des
+                        mascarades, non pas du Carnaval mais du Mercredi des Cendres &amp; de
+                        quelques autres jours du Carême. Les Ordonnances du Diocese d’Alet<note
+                            n="a" place="bottom"><hi rend="i">Art.</hi> 56.</note> depuis 1640.
+                        jusqu’en 1659 l’ont ainsi condamné : <quote>« Sur les plaintes qui nous ont
+                            esté faites par plusieurs Recteurs de nostre Diocese, qu’outre les
+                            débauches qui se commettent és jours de Carnaval, qui font honte au
+                            Christianisme, plusieurs libertins portent leurs dissolutions jusques
+                            dans le saint temps de Carême, qui doit estre passé en larmes &amp; en
+                            penitence, &amp; font des mascarades le jour des Cendres, avec tambour
+                            &amp; autres instrumens, avec des crieries &amp; hurlemens, &amp;
+                            plusieurs insolences qui vont au mépris des Ceremonies de l’Eglise par
+                            certaines funerailles &amp; sepultures, qu’ils appellent de Carnaval.
+                            Nous défendons sous peine d’excommunication, de plus faire tels &amp;
+                            semblables desordres, &amp; surtout dans le saint temps de Carême, &amp;
+                            enjoignons à tous les Recteurs &amp; Vicaires d’informer contre les
+                            coupables, leur donnant pouvoir de ce faire, &amp; nous envoïer les
+                            informations clauses &amp; cachetées. Et afin que nul n’en pretende
+                            cause d’ignorance, nous <pb n="328" xml:id="p328"/>enjoignons
+                            pareillement ausdits Recteurs &amp; Vicaires de publier la presente
+                            Ordonnance chacun an par trois Dimanches, à commencer par celui de la
+                            Septuagesime. »</quote></p>
+                    <p>La même chose avoit esté condamnée longtemps auparavant par le cinquiéme
+                        Concile Provincial de Milan<note n="a" place="bottom"><hi rend="i">Constit.
+                                p</hi> 1. <hi rend="i">tit.</hi> 3.</note> en 1579.</p>
+                    <p>Enfin une des plus criminelles mascarades, est celle où l’on prend des habits
+                        de Religieux ou de Religieuses. Elle est condamnée expressément par la Loi
+                            <hi rend="i">Mimæ</hi><note n="b" place="bottom"><hi rend="i">L.</hi> 1.
+                                <hi rend="i">Cod. tit.</hi> 4 <hi rend="i">de
+                            Episcaudient.</hi></note>, &amp; par la Nouvelle 123. de l’Empereur
+                            Justinien<note n="c" place="bottom"><hi rend="i">C.</hi> 44.</note>. On
+                        en peut dire autant des habits des Ecclesiastiques, qui ne sont pas moins
+                        dignes de veneration, que ceux des Religieux ou Religieuses, &amp; de ceux
+                        des Magistrats &amp; de toutes les autres personnes qui meritent d’estre
+                        respectées.</p>
+                    <p>Les Ecclesiastiques au reste peuvent déja comprendre qu’il ne leur est
+                        nullement permis de se masquer, puisque cela est interdit à tous les
+                        Chrêtiens sans aucune exception. Mais ils le comprendront encore mieux s’ils
+                        font attention à ce que les Loix de l’Eglise leur ordonnent sur ce point.
+                        Voici ce qu’en disent</p>
+                    <p>Le Synode de Langres<note n="d" place="bottom"><hi rend="i">Tit. de Lud.
+                                prohib.</hi></note> en 1404. <quote>« Que les Ecclesiastiques
+                            n’assistent &amp; ne joüent point au jeu appellé <hi rend="i"
+                                >Charevari</hi>, où l’on porte des masques qui ont des figures de
+                            demons. Car non seulement nous leur défendons ce jeu, mais nous le
+                            défendons aussi à tous les Fidéles de nôtre Diocese sous peine
+                            d’excommunication &amp; de dix livres d’amende applicable à
+                            nous. »</quote></p>
+                    <p>Le Synode de Sens<note n="e" place="bottom"><hi rend="i">De vit. &amp; morib.
+                                Cleric.</hi></note> en 1524. <quote>« Nous défendons <pb n="329"
+                                xml:id="p329"/>aux Ecclesiastiques les mascarades &amp; les autres
+                            divertissemens de même nature, qui des honorent l’Eglise. »</quote></p>
+                    <p>Le Concile Provincial de Narbonne<note n="a" place="bottom"><hi rend="i"
+                                >Can.</hi> 19</note> en 1551. <quote>« Que les Ecclesiastiques ne
+                            portent jamais de masques, &amp; qu’ils n’accompagnent jamais ceux qui
+                            en portent. »</quote></p>
+                    <p>Le premier Concile Provincial de Milan<note n="b" place="bottom"><hi rend="i"
+                                >Constit. part.</hi> 2. <hi rend="i">tit.</hi> 25.</note> en 1565.
+                            <quote>« Les Ecclesiastiques n’iront jamais en masque. »</quote></p>
+                    <p>Les Statuts Synodaux du Cardinal de Tournon Archevêque de Lyon<note n="c"
+                            place="bottom"><hi rend="i">Tit. de vit. &amp; honest.
+                            Cleric</hi></note> en 1566. <quote>« Que les Ecclesiastiques n’aillent
+                            point en masque. »</quote></p>
+                    <p>Les Statuts &amp; Ordonnances Synodales du même Diocese<note n="d"
+                            place="bottom"><hi rend="i">C.</hi> 18</note> en 1577. <quote>« Les
+                            Ecclesiastiques fuïront toutes danses, masques, bâtelleries
+                            &amp;c. »</quote></p>
+                    <p>Le Concile Provincial de Bourdeaux <note n="e" place="bottom"><hi rend="i"
+                                >Tit.</hi> 21.</note> en 1583. <quote>« Nous défendons aux
+                            Ecclesiastiques de jamais paroître masquez. »</quote></p>
+                    <p>Le Concile Provincial de Bourges<note n="f" place="bottom"><hi rend="i"
+                                >Tit.</hi> 2. <hi rend="i">can.</hi> 6.</note> en 1584. <quote>« Les
+                            Ecclesiastiques ne se masqueront jamais. »</quote></p>
+                    <p>« Le Concile Provincial d’Aix <note n="g" place="bottom"><hi rend="i">Tit. de
+                                vit. &amp; honest Cleric.</hi></note> en 1585. <quote>« Nous
+                            défendons aux Ecclesiastiques de se masquer. »</quote></p>
+                    <p>Le Concile Provincial de Narbonne<note n="h" place="bottom"><hi rend="i"
+                                >C.</hi> 41. i <hi rend="i">Art.</hi> 12</note> en 1609.
+                            <quote>« Nous ne voulons pas que les Ecclesiastiques se masquent, ni
+                            qu’ils suivent les personnes masquées. »</quote></p>
+                    <p>Les Statuts Synodaux du Diocese de saint Malo<note n="i" place="bottom"><hi
+                                rend="i">Art.</hi> 12.</note> en 1618. <quote>« Les Loix
+                            Ecclesiastiques défendent aux Prêtres d’aller en mascarades, <pb n="330"
+                                xml:id="p330"/>representer aucun personnage aux farces, jeux ou
+                            spectacles publics. »</quote></p>
+                    <p>Les Statuts du Diocese de Limoges<note n="a" place="bottom">1. <hi rend="i"
+                                >P. c.</hi> 3. <hi rend="i">n.</hi> 7</note> en 1619. <quote>« Nous
+                            défendons tres expressément aux Ecclesiastiques de se masquer de nuit ou
+                            de jour, à peine d’estre châtiez selon la severité des saints
+                            Canons. »</quote></p>
+                    <p>Les Constitutions &amp; Instructions Synodales de Saint François de Sales
+                        &amp; de Monsieur d’Arenton d’Alez, Evêques de Geneve<note n="b"
+                            place="bottom">3. <hi rend="i">P. tit.</hi> 4. <hi rend="i"
+                            >n.</hi> 2</note>. <quote>« S’il y avoit des Clercs si extravagans que
+                            de se masquer, ils encoureront l’excommunication <hi rend="i">ipso
+                                facto</hi>, dont nous nous reservons l’absolution. »</quote></p>
+                    <p>Les Ordonnances du Diocese d’Alet, depuis 1640. jusqu’en 1659.<note n="c"
+                            place="bottom"><hi rend="i">Art.</hi> 10</note>
+                        <quote>« Nous défendons aux Ecclesiastiques tous divertissemens scandaleux,
+                            comme sont les danses, les mascarades, les bals &amp; semblables, qui
+                            scandalisent le peuple &amp; avilissent la dignité de leur caractere,
+                            &amp; même d’y estre presens, à peine d’estre punis selon la rigueur du
+                            Droit. »</quote></p>
+                    <p>Les Statuts Synodaux de Sens<note n="d" place="bottom"><hi rend="i"
+                            >Tit.</hi> 1. <hi rend="i">art.</hi> 4.</note> en 1658. <quote>« Nous
+                            défendons aux Ecclesiastiques tous spectacles, boufonneries, masques
+                            &amp;c. »</quote></p>
+                    <p>Les Ordonnances &amp; Instructions Synodales de Monsieur Godeau Evêque de
+                            Vence<note n="e" place="bottom"><hi rend="i">Tit.</hi> 1. <hi rend="i"
+                                >c.</hi> 4. <hi rend="i">n.</hi> 3.</note> : <quote>« Les
+                            Ecclesiastiques qui iront en masque encoureront l’excommunication <hi
+                                rend="i">ipso facto</hi>, dont nous reservons l’absolutions à Nous
+                            seuls. »</quote></p>
+                    <p>Les Statuts du Diocese d’Evreux<note n="f" place="bottom"><hi rend="i"
+                                >Art.</hi> 9.</note> en 1664. <quote>« Conformément aux saintes Loix
+                            des Conciles, nous défendons à tous Ecclesiastiques les spectacles, <pb
+                                n="331" xml:id="p331"/>boufonneries, masques, bals
+                        &amp;c. »</quote></p>
+                    <p>Les Statuts Synodaux du Diocese d’Agen, depuis 1666. jusqu’en 1673.<note
+                            n="a" place="bottom"><hi rend="i">Tit.</hi> 6. <hi rend="i"
+                            >art.</hi> 1.</note>
+                        <quote>« Nous interdisons aux Ecclesiastiques tous spectacles publics,
+                            farces, mascarades &amp; toute sorte de boufonnerie. »</quote></p>
+                    <p>Et les Statuts Synodaux du Diocese d’Alet, depuis 1640. jusqu’en 1674.<note
+                            n="b" place="bottom"><hi rend="i">Tit.</hi> 1. <hi rend="i">c.</hi> 6.
+                                <hi rend="i">n.</hi> 3.</note>
+                        <quote>« Les Ecclesiastiques s’abstiendront de tous spectacles,
+                            mascararades, boufonneries &amp;c. »</quote></p>
+                </div2>
+                <div2 type="section">
+                    <head>XII.</head>
+                    <p>Ceux qui usent moderément de la danse &amp; du bal, se croient fort en
+                        seurcté du côté de la conscience, à cause de ce que S François de Sales a
+                        écrit de ces sortes de récréations<note n="c" place="bottom">Introd. à la
+                            vie devote p. 3. c. 33.</note>. Mais s’ils veulent se donner la peine
+                        d’examiner de bonne foi &amp; sans aucune prevention les paroles de ce S.
+                        Evêque, ils reconnoîtront facilement qu’il est toujours ou presque toujours
+                        dangereux aux Chrêtiens de baler &amp; danser. Ce qui doit suffire pour les
+                        en détourner, puisque l’Ecriture nous apprend<note n="d" place="bottom"><hi
+                                rend="i">Eccli.</hi> 3. 27</note> que celui qui aime le danger
+                        perira dans le danger. <quote>« Car enfin<seg type="exquote">, dit
+                                admirablement saint Jean Chrysostome<note n="e" place="bottom"><hi
+                                        rend="i">Homil.</hi> 15. <hi rend="i">ad popul.
+                                        Antioch.</hi></note></seg>, nous ne sommes pas seulement
+                            obligez d’éviter les pechez, mais nous devons encore fuir les choses
+                            mêmes qui nous paroissent indifferentes, &amp; qui portent neanmoins
+                            insensiblement au peché. Car comme celui qui marche sur le bord d’un
+                            precipice quoi qu’il n’y tombe pas, ne laisse pas d’estre toûjours dans
+                            la crainte ; &amp; il arrive souvent que la crainte le trouble, &amp; le
+                            fait tomber dans le precipice : de même celui qui <pb n="332"
+                                xml:id="p332"/>ne s’éloigne pas du peché, mais qui en est proche,
+                            doit vivre dans l’apprehension, car il arrive souvent qu’il y
+                            tombe. »</quote></p>
+                    <p>Mais si saint François de Sales a donné quelque sorte de protection au bal
+                        &amp; aux danses, les Conciles &amp; les Peres ne leur ont pas esté si
+                        favorables.</p>
+                    <p>Le Concile de Laodicée sous le Pape Saint Silvestre<note n="a" place="bottom"
+                                ><hi rend="i">Can.</hi> 53.</note>, ne veut pas même que l’on danse
+                        aux nopces des Fidéles : <quote><hi rend="i">Quòd non oportet Christianos ad
+                                nuptias euntes balare, vel saltare</hi></quote>. Et le Concile du
+                        Dôme de Constantinople<note n="b" place="bottom"><hi rend="i"
+                            >Can.</hi> 62.</note> en 692. défend les danses publiques &amp;
+                        particulieres, non seulement aux Ecclesiastiques, mais mêmes aux
+                        laïques.</p>
+                    <p>Aussi les Peres ont-ils regardé les danses comme des divertissemens qui
+                        blessent l’honnêteté. Et certes c’est là que l’impureté triomphe souvent
+                        d’une maniere plus ingenieuse &amp; plus subtile que par tout ailleurs sous
+                        le nom specieux d’honnête liberté, de belle humeur, de galanterie &amp;
+                        d’enjoûment. <quote>« L’art, qui régle les gestes <seg type="exquote">dit
+                                    Tertullien<note n="c" place="bottom"><hi rend="i">L. de spectac.
+                                        c.</hi> 10.</note></seg>, &amp; les differentes postures du
+                            corps est consacré à la mollesse de Venus &amp; de Bacchus, qui sont
+                            deux demons également dissolus, l’un en ce qui regarde le sexe, &amp;
+                            l’autre en ce qui concerne le luxe &amp; la débauche. »</quote></p>
+                    <p>Saint Basile parlant du theâtre où se faisoient autrefois les spectacles<note
+                            n="d" place="bottom"><hi rend="i">Homil.</hi> 4. <hi rend="i">in Hexaem.
+                                fere init.</hi></note>, dont la danse faisoit une des principales
+                        parties, l’appelle une école publique de toute sorte d’impureté : <quote><hi
+                                rend="i">Communis <pb n="333" xml:id="p333"/>&amp; publica est
+                                discenda omnis incontinentia officina</hi></quote>.</p>
+                    <p>Saint Ephrem assûre que ce n’est ni Saint Pierre, ni Saint Jean<note n="a"
+                            place="bottom"><hi rend="i">L. Interrog. &amp; respons.
+                            resp.</hi> 2.</note>, ni aucun autre Apôtre de Jesus-Christ, qui a
+                        enseigné aux Chrêtiens à danser ; mais que c’est l’ancien serpent qui est un
+                        grand maître de toute sorte d’incontinence.</p>
+                    <p>Saint Ambroise<note n="b" place="bottom"><hi rend="i">L.</hi> 2. <hi rend="i"
+                                >de Pœnit. c.</hi> 6. <hi rend="i">&amp; 1.</hi> 4. <hi rend="i"
+                                >Epist.</hi> 30.</note> dit que la danse est la compagne des
+                        plaisirs déréglez &amp; de l’impureté : <quote><hi rend="i">Deliciarum comes
+                                atque luxuria saltatio</hi></quote>. C’est pourquoi il veut <note
+                            n="c" place="bottom"><hi rend="i">L.</hi> 3 <hi rend="i">de
+                            Virgin.</hi></note> que les Vierges Chrêtiennes s’en éloignent
+                        entierement : <quote><hi rend="i">Ab hac Virgines Dei procul esse
+                                desidero</hi></quote>. Et adressant ensuite sa parole aux meres de
+                        famille, il dit que celles qui sont des impudiques &amp; des adulteres,
+                        peuvent bien permettre à leur filles de danser ; mais que celles qui sont
+                        honnêtes &amp; chastes, leur doivent apprendre à servir Dieu &amp; non pas à
+                        danser : <quote><hi rend="i">Saltet, sed adultera filia. Quæ verò pudica,
+                                quæ casta est, filias suas Religionem doceat, non
+                            saltationem.</hi></quote></p>
+                    <p>Saint Jean Chrysostome<note n="d" place="bottom"><hi rend="i">Homil.</hi> 48.
+                                <hi rend="i">in Matth.</hi></note> ne parle pas avec moins de force
+                        contre les danses. <quote>« Le diable<seg type="exquote">, dit-il,</seg> se
+                            trouve assûrément par tout où l’on danse d’une maniere peu honnête. Dieu
+                            ne nous a pas donné des pieds pour danser, mais pour marcher
+                            modestement. Il ne nous en a pas donné pour sauter avec impudence comme
+                            des chameaux : car ce ne sont pas seulement les femmes qui sautent d’une
+                            maniere honteuse, les chameaux le font aussi ; mais il nous en a donné
+                            pour nous tenir ferme dans les Cœurs <pb n="334" xml:id="p334"/>des
+                            Anges. Que si nostre corps devient difforme en sautant ainsi, combien
+                            nostre ame le devient-elle davantage. C’est le diable qui danse avec les
+                            danseurs. C’est par ce moïen que les ministres de cet esprit de tenebres
+                            trompent &amp; séduisent les hommes. »</quote></p>
+                    <p>Voilà ce qui a fait dire à Conradus Clingius, sçavant Theologien &amp;
+                        celebre Predicateur de l’Ordre de saint François<note n="a" place="bottom"
+                                ><hi rend="i">In Cathechis. Catholic. l.</hi> 4. <hi rend="i"
+                                >c.</hi> 12.</note>, que la danse n’est autre chose qu’un cercle
+                        dont le diable est le centre, &amp; les démons la circonference ; &amp; par
+                        consequent qu’il arrive rarement, ou plûtôt qu’il n’arrive jamais, qu’on
+                        danse sans peché : <quote><hi rend="i">Chorea mundana est circulus, cujus
+                                centrum est diabolus, &amp; circumferentia Angeli ejus
+                                circumstantes ; &amp; ideo rarò aut numquam sine peccato
+                            fit.</hi></quote></p>
+                    <p>Saint Charles Borromé estoit animé de l’esprit des Peres de l’Eglise,
+                        lorsqu’il a ordonné aux Predicateurs de son Diocese<note n="b"
+                            place="bottom"><hi rend="i">Synod.</hi> 3. <hi rend="i">Mediolan.
+                                an.</hi> 1572. 2. <hi rend="i">p. Actor. Eccles. Mediol. c. de
+                                Concionat. &amp;c.</hi></note>
+                        <quote>« de prêcher souvent &amp; fortement contre les danses &amp; le bal,
+                            qui excitent les passions les plus dangereuses »</quote>. Et c’est ce
+                        qui l’obligea de publier un traité exprés qu’il composa lui-même <hi
+                            rend="i">Contre les danses &amp; les Comedies</hi>, dans lequel il fait
+                        voir le danger, la vanité &amp; l’illusion de ces divertissemens.</p>
+                    <p>Mais afin qu’on ne s’imagine pas que les sentimens des saints Peres soient
+                        outrez &amp; trop severes, je veux bien rapporter ici le témoignage de deux
+                        grands hommes ; dont l’un a vêcu assez long-temps dans le beau monde, &amp;
+                        l’autre <pb n="335" xml:id="p335"/>a esté marié &amp; a passé plusieurs
+                        années à la Cour, &amp; qui par consequent méritent bien qu’on le croïe fut
+                        ce sujet.</p>
+                    <p>Le premier est François Petrarque Archidiacre de Parme &amp; Chanoine de
+                        Padoüc, qui parle ainsi de la danse<note n="a" place="bottom"><hi rend="i"
+                                >Dialog.</hi> 24.</note> : <quote>« La danse<seg type="exquote">,
+                                dit-il,</seg> est une action indigne d’un honnête homme, &amp; de
+                            laquelle on ne peut remporter que de la honte ; c’est un spectacle
+                            également infame &amp; inutile ; c’est une assemblée d’intemperance. Ce
+                            mouvement des mains &amp; des pieds, cet égarement &amp; cette impudence
+                            des yeux, tous ces gestes compassez montrent qu’il y a quelque chose
+                            dans l’interieur qui répond au déréglement exterieur. Ceux qui font cas
+                            de la modestie, fuïent toutes ces occasions de dissolution. Car enfin
+                            quel plaisir peut on se faire d’un divertissement qui fatigue plus qu’il
+                            ne soulage, &amp; qui n’est pas moins ridicule qu’il est honteux ?
+                            Veritablement si l’extravagance ne s’estoit comme naturalisée avec nos
+                            mœurs, nous appellerions folie, ce qu’on appelle gentillesse. On a
+                            raison d’inviter des joüeurs à ces assemblées, afin que l’ame estant
+                            occupée par les oreilles, les yeux ne s’offensent pas tant des mouvemens
+                            irréguliers des danseurs. Cela veut dire, qu’une sotise en couvre une
+                            autre. Ce qu’on appelle une école de divertissement, est un
+                            apprentissage d’impudicité : Les filles vont au bal &amp; à la danse
+                            pour s’y faire connoître &amp; estimer, à ce qu’elles croient ; mais
+                            c’est en effet pour y recevoir de l’infamie. C’est en ces occasions que
+                            les yeux se trouvent aussi libres que les mains ; qu’on se sert de
+                            paroles équivoques <pb n="336" xml:id="p336"/>&amp; à double entente ;
+                            que la foule des assistans excuse quantité de choses que la pudeur ne
+                            pourroit souffrir ailleurs. Les attouchemens que l’on croit illicites en
+                            d’autres rencontres, semblent devenir permis au bal. La multitude
+                            favorise l’effronterie des plus mal-intentionnez. D’ailleurs la nuit
+                            qu’on choisit ordinairement pour les danses, estant l’ennemie de la
+                            pudeur &amp; la confidente des crimes, anime les plus timides pour
+                            executer hardiment leurs plus pernicieux desseins. C’est ainsi qu’on
+                            donne une nouvelle carriere au libertinage, &amp; qu’on se fait un
+                            divertissement du peché. Les filles sont ravies de joïe, de voir que la
+                            legereté de leur corps seconde celle de leur esprit, &amp; elles croïent
+                            estre plus parfaites de sçavoir bien danser, que de sçavoir bien
+                            vivre. »</quote></p>
+                    <p>Le second est Jean-Loüis Vivez<note n="a" place="bottom"><hi rend="i"
+                            >L.</hi> 1. <hi rend="i">de Instit. Fœmin. Christ. Tit. de
+                                Saltationibus.</hi></note>, que nous avons déja tant de fois cité,
+                        &amp; qui a esté Précepteur de l’Empereur Charle-quint. Voici ses
+                        paroles :</p>
+                    <quote>
+                        <p>« Les plus graves d’entre les Romains, &amp; les plus honnêtes d’entre
+                            les Grecs, ont eu une extrême aversion pour la danse. L’Orateur
+                            Demosthéne invectivant contre les gens de la suite de Philippe Roi de
+                            Macédoine devant le peuple d’Athenes, ne leur fait point de plus grand
+                            reproche que de dire, qu’après avoir bien bû, ils ne firent nul scrupule
+                            de danser, &amp; qu’ils chasserent de leur compagnie les personnes de
+                            probité qui y estoient, parce qu’elles ne pouvoient souffrir la danse.
+                            Jamais on n’a vû danser aucune Dame Romaine qui fût en réputation de
+                            chasteté. Saluste rapporte que <pb n="337" xml:id="p337"/>Sempronia
+                            sçavoit mieux chanter &amp; danser, que ne devoit faire une honnête
+                            femme. Ciceron plaidant pour Muréna, dit que Caton lui reprocha d’avoir
+                            dansé en Asie ; Et ce reproche estoit si sanglant que Ciceron n’osa l’en
+                            défendre autrement qu’en niant absolument que cela fût. On n’a gueres
+                            vû, dit il, danser d’homme sobre, soit en particulier, soit en un festin
+                            réglé &amp; honnête, à moins qu’il ne fut foü » : <quote><hi rend="i"
+                                    >Nemo ferè saltat sobrius, nisi forté insanit, neque in
+                                    solitudine, ne que in convivio moderato atque
+                                honesto.</hi></quote> « Quand on se trouve dans un régale
+                            extraordinaire &amp; hors de saison, dans un lieu de divertissement
+                            &amp; de plaisir, la derniere chose dont s’avise c’est de danser. Ainsi
+                            la danse est comme le comble de tous les desordres.</p>
+                        <p>« Il est donc bien honteux aux Chrêtiens d’avoir des écoles de danse.
+                            Mais cela ne se rencontre gueres que dans les Villes où il y a des lieux
+                            destinez à l’incontinence publique. Les Païens estoient bien plus réglez
+                            que nous dans leurs mœurs. Ils ne sçavoient point cette maniere molle
+                            &amp; effeminée de danser qui se pratique parmi nous, qui allume le feu
+                            de l’amour impur, &amp; qui est accompagnée d’attouchemens &amp; de
+                            baisers deshonnêtes. A quoi bon tous ces fauts que les garçons font
+                            faire aux filles en les tenant par dessous les bras afin de les élever
+                            plus haut ? Les filles dansent toute une aprés-dinée &amp; jusqu’à
+                            minuit sans se lasser, &amp; elles ne pourroient aller autrement qu’à
+                            cheval ou en carosse dans une Eglise voisine. J’ai oüi dire autrefois de
+                            certains peuples de l’extrémité de l’Asie, qu’estans venus en ces
+                            quartiers &amp; aïans vû danser des femmes, ils s’enfuirent tout
+                            épouvantez, disans qu’elles estoient <pb n="338" xml:id="p338"/>saisies
+                            d’une fureur nouvelle &amp; extraordinaire. En effet qui ne croit que
+                            les femmes sont furieuses lorsqu’elles dansent, si l’on n’en avoit
+                            jamais vû danser ? Qui ne croiroit qu’elles sont folles de remuer en
+                            cadence, comme elles font, les mains, la tête &amp; tout le corps au son
+                            d’un violon ou de quelqu’autre instrument ? Considerez celles qui les
+                            regardent danser, comme elles sont assises par ordre, &amp; examinez les
+                            gestes, les démarches, la régularité &amp; le faste de celles qui
+                            dansent. Leur folie est d’autant plus insigne qu’elles s’étudient à
+                            faire sagement une chose ridicule. Tout leur esprit est à leurs pieds,
+                            où il leur est plus necessaire qu’à la tête quand elles dansent.</p>
+                        <p>« Où a-t-on jamais lû qu’aucune Sainte ait dansé ? Les filles &amp; les
+                            femmes prudes &amp; graves font semblant de ne le pas sçavoir, elles
+                            refusent même de le faire lorsqu’on les en prie, &amp; elles croïent que
+                            c’est leur faire injure que de les en prier. Si elles estoient
+                            persuadées qu’il n’y eût point de folie en cela, elles le feroient fort
+                            volontiers. Elles se trouvent rarement au bal, à moins qu’elles n’y
+                            soient necessaires ; Et quand elles y restent, il semble qu’on les y
+                            retient malgré elles, &amp; elles témoignent assez à leur mine qu’elles
+                            n’y sont pas de leur bon gré. A quel danger la chasteté n’est-elle point
+                            exposée dans ces sortes d’assemblées ? Il est bien difficile que les
+                            femmes &amp; les filles l’y conservent à la vûë de tant d’hommes &amp;
+                            de tant de garçons, &amp; l’esprit estant si puissamment attaqué du côté
+                            des yeux par les ruses de nôtre ennemi, qui est si subtil. »</p>
+                    </quote>
+                    <p>Il n’est pas mal aisé de juger par tout ce que nous avons dit jusques ici,
+                        que la danse ne peut gueres passer pour un divertissement legitime <pb
+                            n="339" xml:id="p339"/>&amp; innocent. J’avouë qu’elle n’est pas
+                        toûjours criminelle, &amp; que toutes les personnes qui s’y exercent, ne
+                        pechent pas toûjours contre la pureté. Mais, à dire le vrai, combien peu y
+                        en a t-il de ce nombre ? Combien peu y en a t il qui en dansant, ou en
+                        voïant danser les autres, ne se portent à quelque pensée deshonnête, ne
+                        jettent quelque regard impudique, ne fassent quelque posture indécente, ne
+                        disent quelque parole libre, enfin ne forment quelque desir de la chair,
+                        comme parle le saint Apôtre<note n="a" place="bottom"><hi rend="i"
+                                >Galat.</hi> 516.</note> ? On danse en compagnie &amp; devant le
+                        monde, je le veux ; mais si cette circonstance empêche les desordres publics
+                        &amp; éclatans, elle n’empêche nullement les desordres du cœur, contre
+                        lesquels les Chrêtiens ne doivent pas moins se précautionner &amp; se
+                        fortifier que contre les pechez exterieurs. Si bien que de la maniere que la
+                        danse se pratique aujourd’hui, on risque sa pudeur presqu’autant de fois que
+                        l’on danse ou que l’on regarde danser les autres. Et par consequent c’est
+                        toûjours bien fait que d’éviter un divertissement si dangereux.</p>
+                    <p>Il y a bien d’autres raisons que celles que je viens d’expliquer, qui
+                        condamnent la danse ; mais je serois trop long, si je les voulois toucher
+                        toutes. Cependant je ne puis me dispenser d’observer à la honte des
+                        Catholiques que la danse est défenduë avec beaucoup de rigueur par la
+                        discipline des Eglises pretenduës Reformées de France, ainsi qu’il se voit
+                        par ce Réglement<note n="b" place="bottom"><hi rend="i">C.</hi> 14. <hi
+                                rend="i">art.</hi> 27.</note> : <quote>« Les danses seront
+                            reprimées, &amp; ceux qui font état de danser ou assister aux danses,
+                            aprés <pb n="340" xml:id="p340"/>avoir esté admonestez plusieurs fois,
+                            seront excommuniez quand il y aura pertinacité &amp; rebellion. Si sont
+                            chargez les Consistoires de bien pratiquer cet article, en faire lecture
+                            publique au nom de Dieu, en l’autorité des Synodes. Et les Collegues
+                            exhortez de bien prendre garde aux Consistoires qui ne feront devoir, de
+                            les censurer. »</quote></p>
+                    <p>Ces nouveaux Reformateurs ne nous marquent pas la raison qu’ils ont euë de
+                        faire cette défense ; mais il y a toutes les apparences du monde qu’ils ne
+                        l’ont faite principalement qu’en vûë des pechez qui se commettent
+                        ordinairement dans la danse contre la vertu de la chasteté, puisque dans un
+                        de leur Synode, qui est celui de la Rochelle en 1581. &amp; dont ce
+                        Règlement est tiré en partie, ils mettent les danses au nombre des
+                        dissolutions. Voici les propres termes de ce Synode<note n="a"
+                            place="bottom">Observat. sur la discipline des Eglises P. R. de France,
+                            p. 240.</note> : <quote>« A cause des danses &amp; dissolutions qui
+                            croissent &amp; pullulent par toutes les Eglises, a esté avisé que les
+                            Consistoires seront exhortez au nom de Dieu de bien pratiquer l’article
+                            du Synode de Figeac, &amp; d’en faire lecture publiquement au nom de
+                            Dieu &amp; en l’autorité de cette Compagnie, &amp; les Colloques &amp;
+                            Synodes chargez de censurer les Consistoires qui n’y auront fait, &amp;
+                            n’y feront leur devoir. »</quote></p>
+                    <p>Le Synode de Figeac, dont il est ici parlé, fut tenu en 1579. Et voici ce
+                        qu’il porte<note n="b" place="bottom"><hi rend="i">Ibid.
+                        p.</hi> 239.</note> : <quote>« Pour le regard des danses, les Ministres
+                            &amp; Consisto res seront avertis qu’ils aïent à faire observer, autant
+                            étroitement qu’ils pourront, l’article <pb n="341" xml:id="p341"
+                            />vingt-sept des avertissemens pour les réglemens des particuliers,
+                            lequel défend de danser, distinguant prudemment entre ceux qui se
+                            montreront rebelles à cette sainte admonition, &amp; ceux qui montreront
+                            par leur discontinuation avoir profité des admonitions qu’on leur aura
+                            faites de ne point danser. »</quote></p>
+                    <p>Mais en voilà assez pour les Laïques. Faisons voir maintenant aux
+                        Ecclesiastiques que la danse leur est encore plus particulierement défenduë,
+                        &amp; qu’il ne leur est pas même permis d’y assister. C’est ce que nous
+                        pouvons remarquer dans ces paroles</p>
+                    <p>Des Statuts Synodaux d’Eudes de Sully Evêque de Paris, qui mourut en
+                            1208<note n="a" place="bottom"><hi rend="i">In Synod.
+                            posterior.</hi></note>. <quote>« Il est absolument défendu aux
+                            Ecclesiastiques de se trouver dans les lieux où l’on
+                        danse. »</quote></p>
+                    <p>Du Synode de Vvorcester<note n="b" place="bottom"><hi rend="i"
+                            >C.</hi> 38.</note> en 1240. <quote>« Nous défendons aux Ecclesiastiques
+                            d’assister aux jeux deshonnêtes, ni aux danses. »</quote></p>
+                    <p>Des Statuts Synodaux de Pierre de Colmieu Archevêque de Roüen<note n="c"
+                            place="bottom"><hi rend="i">In novis præcep.</hi></note> en 1245.
+                            <quote>« Comme les Ecclesiastiques, les Curez &amp; les Prêtres doivent
+                            servir d’exemple aux Laïques, nous leur défendons sous de grandes peines
+                            de lutter, ni de danser. »</quote></p>
+                    <p>Des Statuts Synodaux de Milon Evêque d’Orleans<note n="d" place="bottom"><hi
+                                rend="i">Cap. de Interragiis.</hi></note> en 1314. <quote>« Nous
+                            défendons expressément aux Prêtres d’assister aux spectacles ni aux
+                            danses. »</quote></p>
+                    <p>« Du Synode de Langres <note n="e" place="bottom"><hi rend="i">Tit. de ludis
+                                prohib.</hi></note> en 1404. <quote>« Nous défendons aux
+                            Ecclesiastiques, à ceux qui sont <pb n="342" xml:id="p342"/>dans les
+                            Ordres sacrez, &amp; principalement aux Prêtres, de sauter ni
+                            danser. »</quote></p>
+                    <p>Du Synode de Sens<note n="a" place="bottom"><hi rend="i">Tit. de vit. &amp;c.
+                                Cleric.</hi></note> en 1514. <quote>« Nous défendons aux
+                            Ecclesiastiques, les danses &amp; tous les autres jeux qui deshonnorent
+                            l’Eglise. »</quote></p>
+                    <p>Des Statuts Synodaux de Valentin Evêque d’Heildesheim<note n="b"
+                            place="bottom"><hi rend="i">C.</hi> 14.</note> en 1539. <quote>« Afin
+                            que la vie des Ecclesiastiques, &amp; sur tout des Beneficiers, soit
+                            exemplaire &amp; édifiante pour tout le monde, nous leur défendons
+                            expressément d’assister aux danses, aux joûtes, aux tournois, ni aux
+                            autres spectacles publics &amp; défendus. »</quote></p>
+                    <p>Du Concile de Trente<note n="c" place="bottom"><hi rend="i">Sess.</hi> 22.
+                                <hi rend="i">de refor. c.</hi> 1.</note> en 1562. du Concile
+                        Provincial de Reims<note n="d" place="bottom"><hi rend="i"
+                            >Statut.</hi> 17.</note> en 1564. &amp; de celui de Malines<note n="e"
+                            place="bottom"><hi rend="i">Tit.</hi> 18. <hi rend="i">c.</hi> 9.</note>
+                        en 1607 qui ont renouvellé les défenses que les Papes &amp; les Conciles ont
+                        faites aux Ecclesiastiques de danser.</p>
+                    <p>Du premier Concile Provincial de Milan<note n="f" place="bottom"><hi rend="i"
+                                >Constit. p.</hi> 2. <hi rend="i">tit.</hi> 25.</note> en 1565.
+                            <quote>« Nous défendons aux Ecclesiastiques toutes sortes de
+                            danses. »</quote></p>
+                    <p>Des Statuts Synodaux du Cardinal de Tournon Archevêque de Lyon<note n="g"
+                            place="bottom"><hi rend="i">Tit. de vit. &amp;. Cler.</hi></note> en
+                        1566. <quote>« Que les Ecclesiastiques n’assistent point aux danses, ni aux
+                            bals. »</quote></p>
+                    <p>Des Statuts &amp; Ordonnances Synodales de l’Eglise de Lyon<note n="h"
+                            place="bottom"><hi rend="i">C.</hi> 18.</note> en 1577. <quote>« Les
+                            Ecclesiastiques fuïront toutes danses, masques, bâteleries, spectacles
+                            &amp; comédies. »</quote></p>
+                    <p>Du Concile Provincial de Bourdeaux<note n="i" place="bottom"><hi rend="i"
+                                >Tit.</hi> 21.</note> en 1583. de celui de Bourges<note n="l"
+                            place="bottom"><hi rend="i">Tit.</hi> 2.<hi rend="i">can.</hi> 2.</note>
+                        en 1584. &amp; de celui d’Aix<note n="m" place="bottom"><hi rend="i">Tit. de
+                                vit. &amp; hon. Cler.</hi></note> en 1585. «<quote> Que les
+                            Ecclesiastiques ne <pb n="343" xml:id="p343"/>dansent jamais, ni ne
+                            voïent jamais danser les autres. »</quote></p>
+                    <p>Du Concile Provincial de Toulouse<note n="a" place="bottom"><hi rend="i"
+                                >P.</hi> 1. <hi rend="i">c.</hi> 4. <hi rend="i">n.</hi> 7.</note>
+                        en 1590. <quote>« Nous interdisons &amp; défendons absolument aux
+                            Ecclesiastiques les danses &amp; les jeux publics. »</quote></p>
+                    <p>Du Concile Provincial d’Avignon<note n="b" place="bottom"><hi rend="i"
+                                >C.</hi> 32.</note> en 1594. <quote>« Il ne faut pas que les
+                            Ecclesiastiques assistent aux danses, aux comédies ; ni aux autres
+                            spectacles profanes. »</quote></p>
+                    <p>Du Concile Provincial de Narbonne<note n="c" place="bottom"><hi rend="i"
+                                >C.</hi> 41.</note> en 1509. <quote>« Nous exhortons les Laïques,
+                            &amp; nous enjoignons expressément aux Ecclesiastiques de ne point
+                            danser, sous quelque pretexte que ce soit, &amp; même de ne point
+                            assister aux danses. »</quote></p>
+                    <p>« Du Synode d’Anvers<note n="d" place="bottom"><hi rend="i">Tit.</hi> 17. <hi
+                                rend="i">c.</hi> 9.</note> en 1610. <quote>« Que les Ecclesiastiques
+                            ne dansent jamais. »</quote></p>
+                    <p>Des Statuts Synodaux du Diocese de S. Malo<note n="e" place="bottom"><hi
+                                rend="i">Art.</hi> 12.</note> en 1618. <quote>« Les Loix
+                            Ecclesiastiques défendent aux Prêtres de hanter les danses, soulles ou
+                            brelans. »</quote></p>
+                    <p>Des Statuts Synodaux du Diocese de Limoges<note n="f" place="bottom">1. <hi
+                                rend="i">p. c.</hi> 3. <hi rend="i">n.</hi> 7.</note> en 1619.
+                            <quote>« Nous défendons très-expressément aux Ecclesiastiques les
+                            tavernes, les danses, à peine d’estre châtiez selon la severité des
+                            saints Canons. »</quote></p>
+                    <p>Des Ordonnances du Diocese d’Alet, depuis 1640 jusqu’en 1659.<note n="g"
+                            place="bottom"><hi rend="i">Art.</hi> 10.</note>
+                        <quote>« Nous défendons aux Ecclesiastiques tous divertissemens scandaleux,
+                            comme sont les danses &amp; semblables, qui scandalisent le peuple &amp;
+                            avilissent la dignité de leur caractere, &amp; même d’y estre presens, à
+                            peine d’estre punis selon la rigueur du Droit. »</quote></p>
+                    <p><pb n="344" xml:id="p344"/>Des Statuts &amp; Réglemens du Diocese
+                            d’Evreux<note n="a" place="bottom"><hi rend="i">C.</hi> 1.</note> en
+                        1644. <quote>« Les Curez ne se trouveront, son plus que tous les autres
+                            Ecclesiastiques aux danses, lesquelles ne se doivent permettre, sur tout
+                            aux premieres Messes. »</quote></p>
+                    <p>Des Canons Synodaux du Diocese de Clermont<note n="b" place="bottom"><hi
+                                rend="i">Art.</hi> 3. <hi rend="i">c.</hi> 1. <hi rend="i">§.</hi>
+                            16.</note> en 1653. <quote>« Les Ecclesiastiques s’abstiendront des
+                            recreations indécentes à leur condition, comme bals, danses
+                            &amp;c. »</quote></p>
+                    <p>Des Ordonnances du Diocese de Châlon sur Marne<note n="c" place="bottom"><hi
+                                rend="i">Art.</hi> 3.</note> en 1657. <quote>« Défendons aux
+                            Ecclesiastiques de nôtre Diocese de se trouver aux jeux &amp; danses
+                            publiques, ou autres assemblées de débauches. »</quote></p>
+                    <p>Du Synode d’Aix<note n="d" place="bottom">Tit. des habits &amp;c. des
+                            Eccl.</note> en 1658. <quote>« Défendons à tous Ecclesiastiques de nôtre
+                            Diocese &amp; residans en icelui de fréquenter les bals
+                            &amp;c. »</quote></p>
+                    <p>Des Statuts Synodaux de Sens<note n="e" place="bottom"><hi rend="i"
+                            >Tit.</hi> 1. <hi rend="i">art.</hi> 4.</note> en la même année :
+                            <quote>« Nous défendons aux Ecclesiastiques tous spectacles, farces,
+                            danses &amp;c. »</quote></p>
+                    <p>Des Ordonnances &amp; Instructions Synodales de Monsieur Godeau Evêque de
+                            Vence<note n="f" place="bottom"><hi rend="i">Tit.</hi> 1. <hi rend="i"
+                                >c.</hi> 4. <hi rend="i">n.</hi> 3.</note> : <quote>« Nous défendons
+                            aux Ecclesiastiques, sous peine d’amende, applicable à œuvres pies,
+                            d’assister aux bals publics &amp; particuliers &amp; d’y danser, sous
+                            peine de prison. »</quote></p>
+                    <p>Du Synode d’Orleans<note n="g" place="bottom"><hi rend="i">Tit.</hi> 12. <hi
+                                rend="i">n.</hi> 3.</note> en 1664. <quote>« Nous enjoignons aux
+                            Prêtres &amp; à tous les autres Ecclesiastiques qui sont dans les Ordres
+                            sacrez de s’abstenir de toutes sortes de danses &amp;c. »</quote></p>
+                    <p>Des Statuts Synodaux du Diocese d’Evreux aussi en 1664. <quote>« Conformément
+                            aux saintes <pb n="345" xml:id="p345"/>Loix des Conciles, nous défendons
+                            à tous Ecclesiastiques les spectacles, bals, comme aussi d’assister à
+                            toutes ces choses. »</quote></p>
+                    <p>Des Ordonnances du Diocese d’Autun<note n="a" place="bottom">Tit. de l’habit
+                            &amp;c. des Eccles. p. 35</note> en 1669. <quote>« Défendons à tous les
+                            Ecclesiastiques de se trouver aux jeux &amp; danses publiques, &amp;
+                            autres divertissemens illicites. »</quote></p>
+                    <p>Des Statuts Synodaux du Diocese d’Agen, depuis 1666. jusqu’en 1673.<note
+                            n="b" place="bottom"><hi rend="i">Tit.</hi> 6. <hi rend="i"
+                            >art.</hi> 1.</note>. <quote>« Nous interdisons aux Ecclesiastiques tous
+                            spectacles publics, danses, bals &amp;c. »</quote></p>
+                    <p>Du Synode d’Aix<note n="c" place="bottom">Tit. de la conversat. &amp;c des
+                            Eccles.</note> en 1672. <quote>« Défendons à toutes les personnes
+                            Ecclesiastiques d’assister aux danses &amp;c. »</quote></p>
+                    <p>Des Constitutions &amp; Instructions Synodales de S. François de Sales &amp;
+                        de M. d’Arenton d’Alez, Evêques de Genéve<note n="d" place="bottom"><hi
+                                rend="i">P.</hi> 3. <hi rend="i">tit.</hi> 4. <hi rend="i"
+                            >n.</hi> 2.</note> : <quote>« Nous faisons défense à tous Prêtres, sous
+                            peine de prison, de danser en quel temps, quel lieu, &amp; quelle
+                            conjecture que ce soit. »</quote></p>
+                    <p>Et enfin des Statuts Synodaux du Diocese d’Alet, depuis 1640. jusqu’en
+                            1674.<note n="e" place="bottom"><hi rend="i">Tit.</hi> 1. <hi rend="i"
+                                >c.</hi> 6. <hi rend="i">n.</hi> 3.</note>
+                        <quote>« Les Ecclesiastiques s’abstiendront de tous spectacles, danses,
+                            mascarades &amp;c. »</quote></p>
+                    <p>Je ne fais pas de doute, après tous ces témoignages, que ce que nous lisons
+                        dans l’Histoire du Cardinal d’Amboise<note n="f" place="bottom"><hi rend="i"
+                                >Pag.</hi> 185.</note>, ne mérite plus de blâme que de loüange, que
+                        le Roi Loüis XII. estant au bal à Milan, les Cardinaux de Narbonne &amp; de
+                        Saint Severin y danserent devant sa Majesté.</p>
+                    <p><pb n="346" xml:id="p346"/>Je n’ai point marqué en particulier qu’il fût
+                        défendu aux Religieux &amp; aux Religieuses de danser ; &amp; même
+                        d’assister aux danses &amp; aux bals ; parce que cela s’infere assez
+                        naturellement de ce que je viens de dire des Laïques &amp; des
+                        Ecclesiastiques ; &amp; on doit porter le même jugement des autres
+                        recreations que j’ai fait voir n’estre pas séantes ou permises ni aux
+                        Laïques ni aux Ecclesiastiques.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

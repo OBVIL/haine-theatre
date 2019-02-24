@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dissertation épistolaire sur la Comedie</title>
+                <author key="Schynckele, Henricus (1708-1785)">Henricus Schynckele</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/schynckele_dissertation_1744</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Henricus Schynckele, <hi rend="i">Dissertation épistolaire sur la Comedie. Par
+                        un Ecclésiastique</hi>, <pubPlace>Bruges</pubPlace>, <publisher>Pierre vande
+                        Cappelle</publisher>, s.d. [<date>1744</date>], 42 p. PDF : <ref
+                        target="https://books.google.fr/books?id=cgIUAAAAQAAJ">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1744"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="preface">
+                <pb n="n.p."/>
+                <head>Approbation qui peut servir de Preface.</head>
+                <p><hi rend="big">J’</hi>Ai lû un Ecrit, qui a pour Titre <hi rend="i">Dissertation
+                        Epistolaire sur la Comedie par un Ecclesiastique</hi>. L’Auteur y suit le
+                    précepte de saint Charles Borromée, &amp; il allegue à la premiere lettre les
+                    Péres de l’Eglise, que Dieu nous a donnés après l’Evangile pour être la juste
+                    regle de nos actions : il en rapporte les dicisions contre la Comedie de leur
+                    tems, dont la censure convient fort au Theatre de nos jours. Comme tout
+                    relachement ne manque jamais de patron ; on trouve à la seconde lettre les
+                    raisons, par lesquelles l’esprit du monde veut justifier ce divertissement :
+                    mais la troisiéme lettre doit convaincre l’esprit du veritable Chrêtien, que
+                    toutes ces raisons portent â <pb n="n.p."/>faux : puisque l’Auteur y demontre,
+                    que le nom de <hi rend="i">Jesus-Christ</hi> que nous portons, &amp; qui lui a
+                    coûté tant de sang, est deshonoré par ceux qui assistent à la Comedie ; que ces
+                    spectacles otent tout sentiment de pieté ; qu’ils sont dangereux à l’égard de
+                    tout le monde ; &amp; que plusieurs n’y peuvent assister sans pêché mortel. Que
+                    tout Chrêtien lise donc cette <hi rend="i">Dissertation Epistolaire</hi> : rien
+                    n’y est contraire à la Foi, ni aux bonnes mœurs ; elle sera utile à toutes les
+                    ames, qui aiment leur salut, puisqu’elle leur fera connoître les maximes du
+                    Christianisme à l’égard de ces sortes de divertissemens. Tel est mon sentiment,
+                    &amp; celui de plusieurs Theologiens, de cette Dissertation. A Bruges le
+                    1. December 1744.</p>
+                <byline>A. VAN VYVE <lb/><hi rend="sc">Archpretr. de Bruges</hi></byline>
+            </div1>
+            <div1 type="book">
+                <pb n="5" xml:id="p5"/>
+                <head>Dissertation Epistolaire <hi rend="sc">sur la</hi> Comedie.</head>
+                <div2 type="letter">
+                    <head><hi rend="i">Reponse à la Lettre d’une Dame de la Ville de *** au sujet de
+                            la Comedie</hi>.</head>
+                    <salute>MADAME,</salute>
+                    <p><hi rend="big">B</hi>Enit soit le Seigneur, qui vous a donné assés de
+                        generosité pour surmonter la peine, que l’amour propre, &amp; l’estime de
+                        soi-même font souvent sentir aux personnes de vôtre rang, lorsqu’il s’agit
+                        de calmer la conscience.</p>
+                    <p>Telles sont les pernicieuses maximes du monde, qu’une Dame craint, qu’elle ne
+                            <pb n="6" xml:id="p6"/>passe pour une imbecille, une sotte devote, si
+                        elle doute, qu’il ne lui soit permis de faire, ce que l’exemple des autres
+                        paroît autoriser. On aime plutôt de risquer son salut, en agissant dans les
+                        doutes avec incertitude, sans demander jamais conseil, que de se voir exposé
+                        à la risée des insensés. C’est ainsi que le monde remplit les ames d’une
+                        negligence si dangereuse, qu’elles font voir par là, que leur salut n’est
+                        pas leur affaire capitale ; negligence, que le Saint Esprit condamne dans
+                        les saintes Ecritures, quand il dit : <note place="margin"><bibl>Proverb. 3.
+                                v. 5.</bibl></note><quote>« Ne soiez point sage à vos propres
+                            yeux… »</quote> &amp; <note place="margin"><bibl>Ad Rom. 12.
+                                v. 19.</bibl></note><quote>« ne vous fiez point à vos propres
+                            lumières ».</quote></p>
+                    <p>Vous ne vous y êtes pas fiée, Madame : mais vous me demandez quels sont mes
+                        sentimens sur la Comedie, que représentent à present les Comediens, &amp; si
+                        je crois qu’il vous est permis de la frequenter. Je prevois déja, Madame, la
+                        suite que peut avoir ma reponse. La Comedie est un divertissement, qui
+                        flatte les sens ; on y passe agréablement quelques heures, elle fait
+                        succeder la joye &amp; les ris aux soins épineux &amp; desagréables qu’on
+                        trouve chez lui ; &amp; on s’y delasse de la fatigue, qui incommode dans le
+                        menage. Si j’entreprens de vous en dissuader la frequentation, vous ne me
+                        sçauriez voir de bon œil, &amp; ma morale ne flattera pas vos oreilles,
+                        puisqu’elle devra tendre à ne vous pas permettre, ce qui est si agréable à
+                        l’ouïe : &amp; peut être l’esprit &amp; le cœur s’y revolteront, puisque je
+                        serai <pb n="7" xml:id="p7"/>obligé de les piquer en ce qu’ils aiment, &amp;
+                        le Sage m’apprend, <note place="margin"><bibl>Ecclesiastici 22.
+                                v. 24.</bibl></note><quote>« que celui, qui pique l’œil, en tire des
+                            larmes, &amp; que celui, qui pique le cœur, y excite un sentiment de
+                            haine &amp; de colere, qu’il verra bientôt éclater contre
+                        lui »</quote>.</p>
+                    <p>Cependant j’ai lieu d’esperer, que vous me ferez justice, quand vous verrez,
+                        Madame, que je suiverai moi-même la maxime du Saint Esprit, qui vous a
+                        portée à me demander du conseil. Je ne me fierai pas à mes lumieres, elles
+                        sont trop foibles, pour vous faire voir, ce que les sens vous couvrent. Je
+                        ne vous alleguerai que les Peres de l’Eglise, que nous devons regarder comme
+                        les organes du Saint Esprit : pour nous apprendre ce que les saintes
+                        Ecritures n’ont dit souvent que sous des ombres.</p>
+                    <p><note place="margin"><bibl>Parte 3. q. 80. A. 6. in
+                        corp.</bibl></note>S. Thomas d’Aquin cet Ange de l’Ecole nous apprend, que
+                        les Comediens, &amp; les Comediennes ne peuvent pas recevoir la S.
+                        Communion, tandis qu’ils perseverent en cet emploi. Il cite en confirmation
+                        de son sentiment un beau passage de S. Cyprien : <quote>« Vous m’avez <seg
+                                type="exquote">(dit ce Saint du troisiéme siécle) </seg>demandé mes
+                            sentimens sur les Comediens… si on peut accorder à ces gens la sainte
+                            Eucharistie. Je crois qu’il ne convient pas ni à la Majesté Divine, ni
+                            aux maximes de l’Evangile, que la pudeur, &amp; l’honneur de l’Eglise
+                            soient souillés par cette contagion si honteuse, &amp; si
+                            infame. »</quote>
+                        <note place="margin"><quote><p>De Theatricis, &amp; ipsos plac1uit, quamdiu
+                                    agunt, à Communione separari.</p><bibl>Conc. Arel. A. 314
+                                    Can. 4.</bibl></quote></note>Tel fut aussi le sentiment de tous
+                        les Peres du quatriéme siécle, qui se trouverent l’an 314. <pb n="8"
+                            xml:id="p8"/>au Concile d’Arles : ils declarerent excommuniez ces sortes
+                        de gens.</p>
+                    <p>Les Comediens donc &amp; les Comediennes sont des enfans de douleur à nôtre
+                        Mere la sainte Eglise, ils la font rougir, &amp; la deshonorent. Hé, Madame,
+                        si vous aviez le malheur qu’un de vos chers enfans par des saillies indignes
+                        de sa naissance vous fût un objet d’opprobre, permettriez-vous, que vos
+                        autres enfans approuvassent ses manieres, &amp; qu’ils agissent de concert
+                        avec lui pour vous marquer d’infamie ? Comment donc osez-vous par vôtre
+                        presence animer ces indignes enfans de l’Eglise, qu’ils continuent à faire
+                        gémir leur sainte Mere ? Vous, Madame, qui par une louable coûtume
+                        participez si souvent au Corps &amp; au Sang de Jesus-Christ le cher Epoux
+                        de cette Mere ? C’est une grace bien particuliere, que le Seigneur a
+                        repandüe dans les cœurs des Dames de la Ville ***, qu’elles frequentent si
+                        souvent la sainte Eucharistie : ce seroit une marque peu équivoque que ce
+                        Dieu de bonté voudroit les priver de cette consolation, s’il permettoit, que
+                        ces Dames prîsent goût dans la Comedie, ou qu’elles s’y trouvassent : car,
+                            <note place="margin"><bibl>S. Chrysosthom. 1. in cap. 6.
+                            Isaiæ.</bibl></note>au dire de saint Chrysostome, qui écrivit à la fin
+                        du quatriéme siécle, ou il faut se retirer des spectacles de la Comedie, ou
+                        il faut s’abstiner de la sainte Communion. Et ce Saint trouve ce precepte
+                        dans les paroles du saint Apôtre : <note place="margin"><quote><p>Non
+                                    potestis Mensæ Domini participes esse, &amp;
+                                    dœmoniorum.</p><bibl>1. ad. Cor. 10.
+                            v. 21.</bibl></quote></note>Vous ne pouvez pas participer à la Table du
+                        Seigneur &amp; à la table des démons. Ainsi retirez-vous de la <pb n="9"
+                            xml:id="p9"/>Table Eucharistique, vous tous, qui vous trouvez aux
+                        pernicieux spectacles du Theatre. De quel front allez-vous au matin à la
+                        sainte Table, vous qui allez voir aux après dinées les Pantomimes &amp; les
+                        Comediens : prennez garde à ce que dit l’Apôtre, poursuit le S. Docteur de
+                        l’Eglise, <quote><hi rend="i">Non potestis</hi></quote>, il ne vous est pas
+                        permis.</p>
+                    <p>Par quel principe de morale vôtre Confesseur oseroit-il vous permettre, que
+                        vous alliassiez l’usage de la sainte Communion avec le divertissement de la
+                        Comedie ; lors qu’il sçait que Salvien ce grand Prêtre de Marseille se
+                        servît de toute son eloquence à faire des invectives aux Chrétiens du
+                        cinquiéme siécle ; lesquels firent par une bizarre reconnoissance
+                        representer à l’honneur de Jesus-Christ les spectacles du Cirque &amp; du
+                        Theatre ? <note place="margin"><bibl>Salv. Lib. VI. de prov.
+                            cap. 3.</bibl></note><quote>« C’est donc à Nôtre Seigneur, s’écrie ce
+                            digne Ecrivain, c’est à Jesus-Christ que nous offrons les jeux du
+                            cirque, &amp; les representations des Comediens ? &amp; c’est lors
+                            principalement, que le ciel nous à favorisé de ses graces ? ô étrange
+                            folie ! Et que faisons nous par là, que ce, que feroit un homme qui
+                            rendroit une injure à celui qui l’oblige par des bienfaits, ou qui
+                            paieroit d’un affront les caresses de son ami ? »</quote></p>
+                    <p>Auriez-vous jamais crû, Madame, qu’on ne pouvoit pas se trouver à la Comedie
+                        sans injurier la Majesté divine ? C’est cependant ce que nous apprend le
+                        même Docteur : <note place="margin"><bibl>Salv. lib. VI. de prov.
+                                cap. 4.</bibl></note><quote>« Oui c’est une injure <seg
+                                type="exquote">(dit-il) </seg>&amp; d’assister <pb n="10"
+                                xml:id="p10"/>aux spectacles c’est en aucune façon une apostasie de
+                            la foi. »</quote> Et pourquoi une apostasie ? Parce que c’est se donner
+                        aux attraits du démon, auquel nous avons renoncé dans le baptême. Les
+                        Partisans de la Comedie me repliqueront peutêtre, que tous ces spectacles,
+                        dont parle ici le Docteur, faisoient partie du culte des faux Dieux ; &amp;
+                        que c’étoit assés pour en inspirer de l’horreur aux Chrêtiens, &amp; pour
+                        les condamner.</p>
+                    <p>Rien n’est plus vrai, que les paiens en representant ces spectacles
+                        prétendoient d’honorer les fausses Divinités<note place="margin"><bibl>Salv.
+                                cap. 8.</bibl></note><quote>« &amp; s’imaginerent que leurs Idoles
+                            en firent leurs delices »</quote>. Ainsi comme Minerve la deesse étoit
+                        honorée dans l’Academie, Venus fut adorée dans le Theatre, &amp; Neptune
+                        dans le Cirque. Mais ce ne fut pas cette intention des Idolatres, qui excita
+                        ici le zele de Salvien : il parla aux Chrêtiens, qui rapporterent ces
+                        spectacles à l’honneur de <hi rend="i">Jesus-Christ</hi>, bien loin qu’ils
+                        voulussent faire des sacrifices à Neptune, à Venus, ou à leurs passions. Ces
+                        Chrêtiens du cinquiéme siécle se plaiserent aux spectacles que les paiens
+                        avoient inventés ; mais ils eurent soin de rectifier leur intention, &amp;
+                        d’y assister à la Chrêtienne ; cependant le zelé Prêtre les traita encore
+                        comme des Apostats de la Foi : &amp; en les traittant de la sorte, il nous
+                        fit connoître, que les spectacles de la Comedie ne peuvent jamais être
+                        rectifiés par l’intention la plus pure : non, Madame, aucune intention ne
+                        leur otera la malice, qui <pb n="11" xml:id="p11"/>leur est propre ; &amp;
+                        ce sera toûjours une injure à Dieu, que d’y assister.</p>
+                    <p>Les autres vous diront peutêtre, que les spectacles modernes ne sont pas si
+                        infames &amp; si libertins comme du tems de ces saints Oracles de l’Eglise ;
+                        ou que les piéces, qu’on joue au Theatre, n’ont rien de cette indecence,
+                        qu’elles avoient autrefois. C’est ainsi que quelques uns s’efforcent
+                        d’eluder les passages que nous alleguons, &amp; de justifier les Comedies de
+                        ce tems. Mais la supposition n’est pas veritable ; &amp; il n’y a qu’une
+                        fausse lumiere d’une prudence charnelle, qui fait voir dans les Peres ce
+                        qu’ils ne disent pas. Quelle impureté pouvoit a voir le jeu du Cirque ; ils
+                        ne s’y firent que les courses des chariots ? &amp; vous venez de lire,
+                        Madame, que Salvien nous dit, que c’étoit une étrange folie &amp; une
+                        injure, qu’on fit à Dieu, que de s’y trouver.</p>
+                    <p><note place="margin"><bibl>S. August lib. 6 conf. cap. 7.</bibl></note>Saint
+                        Augustin avant sa conversion declama si adroitement à Cartage contre le
+                        Cirque, que son cher Alipe s’en degoûta ; &amp; lorsque ce Saint éclairé de
+                        la veritable sagesse, qui est la sagesse de l’Evangile, écrivit les livres
+                        de ses Confessions, il s’y crût obligé de rendre gloire à la misericorde
+                        divine, &amp; d’avouer, que cette horreur pour les spectacles, qu’il avoit
+                        autrefois inspiré à son ami, en fût un témoignage,</p>
+                    <p>Les jeux donc du Cirque, qui nous paroissent innocens, furent detestés par
+                        les Peres, non pas pour les dissolutions, qui s’y meloient, comme ou nous le
+                        veut faire <pb n="12" xml:id="p12"/>accroire ; <note place="margin"
+                                ><bibl>Clem. 3. Pædag. 11.</bibl></note>mais comme dit S. Clement, à
+                        cause, qu’ils étoient capables de fomenter les passions. Et voilà, Madame,
+                        aussi la plus solide raison, que les mêmes Saints blamerent si fortement les
+                        Comedies. Il y eût du peril, qu’on fomentât une passion, dont le cœur de
+                        l’homme n’est que trop susceptible : &amp; ce danger suffisoit, qu’ils s’y
+                        opposassent de tout leur zele. C’est mauvaise foi, que de nous dire, que le
+                        Theatre de leur tems étoit beaucoup plus libertin, que dans ce siécle-ci :
+                        les Empereurs en avoient déjà avant S. Chrysostome fait retrancher, ce qu’il
+                        y avoit de plus dissolu &amp; de plus honteux : mais quelque reforme, qu’on
+                        y eut fait, le même Saint ne laisse pas de les appeler <quote>« des écoles
+                            d’impuretés &amp; de libertinage »</quote> : non pas qu’on y representât
+                        des actions sales sur le Theatre, ce que les pieux Empereurs n’auroient pas
+                        souffert ; mais parce que les Comediens de l’un &amp; de l’autre sexe ne
+                        s’étudioient, qu’à se servir de paroles équivoques, &amp; de gestes
+                        affectés, qui n’étoient propres, qu’à remplir l’esprit d’idées impures,
+                        &amp; le cœur de mauvais desirs. Et c’est justement ce qui se passe encore
+                        aujourd’hui dans les Comedies qu’on represente à la Ville. On n’y voit les
+                        Comediens &amp; les Comediennes monter sur le Theatre, que pour y parler
+                        d’intrigues de mariage &amp; d’amourétes, &amp; representer les passions les
+                        plus dangereuses. Il est des Autheurs des Comedies d’aujourd’hui, comme il a
+                        été de tout tems ; ils ont souvent <pb n="13" xml:id="p13"/>recours à des
+                        saletés, parce qu’ils ne sçauroient plaire autrement : car comme l’interieur
+                        de la plûpart de ceux, qui s’y trouvent aujourd’hui, est aussi sensuel que
+                        dans les siécles de ces Peres, aussi voit-on, qu’aujourd’hui les Autheurs de
+                        ces piéces viennent à ce qu’ils ont de commun avec leur auditoire, &amp;
+                        qu’ils en flattent la sensualité par des discours, qui passent d’ordinaire
+                        sous le titre d’expressions vives, parce que ces expressions allument un feu
+                        dangereux, &amp; qui ne peut jamais être assez amorti. Si lediscours de
+                        l’Auteur est quelque part languissant, il est soûtenu par une posture
+                        indecente ; &amp; lors qu’il est trop bas pour être relevé par ce molen,
+                        l’insipidité est assaisonnée par des équivoques. Ce n’est pas moi, qui vous
+                        en suis témoin, Madame : car vous sçavez, que je suis d’un état qui par
+                        lui-même m’interdit de pareils spectacles : mais ce sont des personnes de
+                        vôtre rang qui ont eu le malheur de s’y trouver : ce sont des personnes de
+                        vertu &amp; de probité, à qui une curiosité indigne de leur âge &amp; de
+                        leur emploi avoit persuadé d’assister aux Comedies qu’on represente chez
+                        vous, qui avouent tous d’un consentement unanime, que le nouveau Theatre est
+                        un ecueil contre lequel échoue la chasteté chrétienne, que ces Comedies
+                        sont, principalement pour les jeunes gens, une école de libertinage, &amp;
+                        que la contagion d’impureté est d’autant plus à craindre, qu’elle y est plus
+                        deguisée &amp; plus rafinée. C’est justement par le même <pb n="14"
+                            xml:id="p14"/>endroit du danger que les Peres de l’Eglise ont jugé que
+                        les Chrêtiens faisoient une injure à la Majesté de Dieu quand ils oserent
+                        frequenter la Comedie. Leur morale s’addressa à tous états, à tous esprits,
+                        &amp; à toutes sortes de caracteres : car ils ne distinguerent ni qualité,
+                        ni conditions, ni temperamens, ni dispositions du cœur.</p>
+                    <p>Ainsi donc, puisque je ne suis que leur organe, j’ai le même droit qu’eux, de
+                        vous dire que vous pechez, si vous y allez. Ce seroit donner dans la
+                        presomption de nôtre siécle, que de me dire, que ce divertissement peut être
+                        mis aux choses indifferentes puisque ces Saints, qui en sont les juges
+                        competens, ont decidé qu’on ne le pouvoir rectifier par quelque intention
+                        que ce fût, &amp; Pont hautement qualifié de peché. Tel est aussi le
+                        sentiment des Predicateurs dans la Chaire, &amp; des Directeurs dans le
+                        Tribunal de la Penitence. Je vous pourrois en citer quelques-uns, que j’ai
+                        l’honneur de connaître, je sçai ce qu’ils jugent en ce point : &amp; mon
+                        sentiment ne sçauroit qu’y être conforme. Je me croirois coupable, si je ne
+                        vous dissuadois pas avec eux la frequentation de la Comedie ; &amp; si je ne
+                        vous priois pas, que vous écoutiez les Saints Peres, &amp; que vous
+                        condamniez ce que les Interpretes du Saint Esprit ont condamné. Vous
+                        trouverez peutêtre un certain nombre de gens libertins, amateurs
+                        d’eux-mêmes, &amp; Idolatres de leurs plaisirs, qui ne suivront pas la
+                        morale, que les Saints nous enseignent : <pb n="15" xml:id="p15"/>mais je
+                        vous donne des guides dont les voies sont droites, &amp; des garans, fur qui
+                        seuls vous pouvez vous reposer de vôtre conscience, de vôtre ame, &amp; de
+                        vôtre éternité. Pesez donc, Madame, leurs maximes dans la presence de Dieu,
+                        qui vous jugera un jour selon les regles, que ses organes vous donnent. Et
+                        lorsque vous ferez dans la presence de la Majesté Divine, Madame, aiez la
+                        charité de prier Dieu, qu’il fasse misericorde à vôtre très-humble Serviteur
+                        en nôtre Seigneur.</p>
+                </div2>
+                <div2 type="letter">
+                    <head><hi rend="i">Reponse à la Lettre précedente</hi>.</head>
+                    <salute>MONSIEUR,</salute>
+                    <p><hi rend="big">J’</hi>Ai reçû la Lettre, dont vous m’avez honorée : vous m’y
+                        invitez à benir le Seigneur : je m’addresserai à lui, pour le remercier,
+                        qu’il vous a inspiré à prendre ce soin pour mon salut : &amp; puisque vous
+                        m’avez souvent marqué, que vous vous comptiez bien recompensé de vos travaux
+                        spirituels, quand ils étoient utiles au prochain ; j’ai le plaisir de vous
+                        annoncer, que vôtre Lettre à eu bon effét : j’ai pris la liberté, de la
+                        faire voir à mes amies Mesdames *** elles se croient toutes obligées avec
+                        moi, de regarder au moins la Comedie comme un divertissement dangereux ; <pb
+                            n="16" xml:id="p16"/>puisque les saints Peres ont parlé de cette sorte
+                        de spectacles comme d’une chose capable de corrompre les mœurs les plus
+                        innocentes.</p>
+                    <p>Cependant quelques-unes furent étonnées, que vous n’avez pas allegué un seul
+                        passage de la sainte Ecriture, qui defendit expressement la Comedie.</p>
+                    <p>Vous connoissez Madame *** elle a de l’esprit, &amp; elle s’en pique, quand,
+                        disoit-elle, quelque chose de la nature porte au peché, on ne peut pas en
+                        user librement sans peché ; cela parle de soi sans autre preuve à un esprit,
+                        qui a seulement un petit raion d’intelligence : est-ce que la Comedie, qu’on
+                        represente ici, donne de soi-même quelque penchant au peché ? Nous avons la
+                        consolation, de voir dans la Ville, qu’il y a des Dames d’une vertu solide,
+                        qui nous édifient très-souvent, &amp; qui sont si assidues aux devoirs de la
+                        Religion, qu’on les voit frequemment qu’elles s’approchent de la sainte
+                        Table : peutêtre il y a de ce nombre quelques-unes, qui pourroient dire ;
+                        tout ce que nous voions, tout ce que nous entendons, quand nous allons à la
+                        Comedie, nous divertit, &amp; rien de plus ; du reste nous n’en ressentons
+                        aucune impression, &amp; n’en sommes nullement touchées. L’Auteur de la
+                        lettre nous auroit obligées, s’il eut pris la peine de nous dire, si les
+                        personnes, tels qu’ils soient, qui ont cet heureux charactére, pecheroient,
+                        quand ils useroient moderément ce divertissement.</p>
+                    <p><pb n="17" xml:id="p17"/>Je me trouvai l’autre jour chez vôtre ami
+                        Monsieur *** Nous parlâmes sur le fatal present de la Comedie qu’on a fait à
+                        la ville : cependant, me dît-il, les fauteurs de la Comedie soûtiennent, que
+                        saint Thomas leur est favorable, en ce qu’il semble dire, que la profession
+                        des Comediens n’est pas mauvaise de sa nature, &amp; que l’on peut même
+                        contribuer à leur subsistance, pourvû que ce soit d’une maniere moderée :
+                        j’aurois souhaité, que nôtre cher ami nous eût donné la solution à cette
+                        objection ; car quoique je sois convaincu, que cet Ange de l’Ecole n’a
+                        jamais approuvé les Comedies, telles qu’on les représente aujourd’hui ;
+                        cependant il faut le montrer à ces gens, qui se saisissent de toute couleur
+                        pour couvrir leur passion.</p>
+                    <p>Au même temps il entra une jeune Demoiselle de 24. ans, fille de condition :
+                        je lui donnai vôtre lettre. Après qu’elle en avoit fait la lecture ; hé mon
+                        Dieu, s’écria-t-elle, en soûriant d’un ris malin &amp; dedaigneux, cet
+                        Auteur nous veut faire peur d’une ombre ! est-il quelque part directeur des
+                        devotes, qu’il leur prêche sa morale outrée : elles se sont retirées du
+                        monde, qu’elles s’abstiennent de ce divertissement : pour moi je ne me sens
+                        pas appellée à la vie retirée : &amp; puisque je suis dans le monde, il faut
+                        bien que j’use innocemment ce que font tant d’autres de mes égales. En tout
+                        cas les Souverains la permettent : &amp; ici, mon Pere m’y amene, ou ma
+                        Parente Madame <pb n="18" xml:id="p18"/>de *** que l’Auteur lui-même, s’il
+                        la connoissoit, n’oseroit condamner d’une vie peu Chrêtienne : aussi n’y
+                        peut-il pas être grand mal ; car je ne vois nulle part dans la lettre, que
+                        la Comedie soit qualifiée de pêché mortel. Elle n’eut pas le temps
+                        d’attendre nôtre réponse sur ce qu’elle avança, on la vint chercher : mais
+                        elle nous prêta : l’occasion de vous prier un mot de réponse sur toutes ces
+                        difficultés : vous ferez une œuvre de charité, &amp; vous obligerez,
+                        Monsieur, vôtre très-humble &amp; trés-obéïssante Servante.</p>
+                </div2>
+                <div2 type="letter">
+                    <head><hi rend="i">Reponse à la Lettre précedente</hi>.</head>
+                    <salute>MADAME,</salute>
+                    <p><hi rend="big">J’</hi>Avois bien prévû, lorsque je voulois interdire l’usage
+                        de la Comedie, qu’on se seroit mis en defensé. Les Dames, auxquelles vous
+                        avez montré ma Lettre, craignent d’être privées de ce qui les flâte ; elles
+                        voudroient bien vénir à bout de me persuader, que ce, qu’elles desirent, est
+                        honnête &amp; innocent. Je le voudrois aussi pour ces Dames : car elles
+                        auront bien de la peine de surmonter le respét humain pour satisfaire à leur
+                        conscience. Je vous avouë pour cette raison, que j’ai cherché moi-même des
+                        temperamens <pb n="19" xml:id="p19"/>pour sauver ce qu’on doit à
+                        Jesus-Christ, sans exposer ces Dames à la raillerie des insensés, &amp; sans
+                        troubler les delices des autres. Mais enfin il m’a été impossible d’accorder
+                        la Comedie avec la morale de Jesus-Christ. Il est vrai, l’Ecriture sainte ne
+                        la defend pas expressément ; &amp; ce fût ce prétexte, dont on se servoit du
+                        tems de saint Cyprien, pour authoriser le divertissement du theatre : mais
+                        ce ne fût qu’un faux prétexte : car l’Ecriture, répond ce grand Saint, <note
+                            place="margin"><quote>Verecundiam passa plus interdixit, qui tacuit ;
+                                veritas, si ad hæc usque descenderet, pessimè de fidelibus suis
+                                sensisset.</quote></note><quote><hi rend="i">a plus dit en se
+                                taisant, que si elle s’étoit expliquée par des defenses
+                                expresses</hi> : « Elle a eu honte de faire un précepte pour des
+                            choses, qui étoient si visiblement indignes du Chrêtien, qu’elle
+                            instruisoit. »</quote> Mais non : la sainte Ecriture ne s’en tait point
+                        absolument : elle nous dit, que tout Chrêtien a la qualité sainte &amp;
+                        venerable de Membre de Jesus-Christ, qu’il doit exprimer dans la conduite de
+                        sa vie, la vie de ce Chef humilié ; &amp; comment accorder cette qualité,
+                        &amp; ces devoirs avec les vanités, &amp; les dissolutions, qui se
+                        rencontrent dans la Comedie ? On en doûte dans le monde ; puisque chez la
+                        plûpart ce divertissement passe pour legitime. En ce doûte j’ai suivi le
+                        conseil du saint Esprit, j’ai <note place="margin"><quote><p>Interroga
+                                    majores tuos, &amp; dicent tibi.</p><bibl>Deuteron. 32.
+                                    v. 7.</bibl></quote></note><quote>« interrogé ceux que Dieu nous
+                            a donnés pour Maîtres »</quote> ce sont les Peres de l’Eglise : j’ai
+                        rapporté leurs termes, je les ai pésés : ils nous disent d’un consentement
+                        digne des organes de la verité éternelle, que la Comedie est un
+                        divertissement <pb n="20" xml:id="p20"/>indigne du Chrêtien. Qu’on ne me
+                        dise plus, que l’application de la Comedie du tems de ces Peres à celle qui
+                        se représente aujourd’hui, ne soit pas juste : car en outre que j’en ai
+                        montré la justesse, les personnes, qui ont eu le malheur de frequenter la
+                        Comedie moderne, l’appellent aussi bien <quote>« une école de libertinage
+                            &amp; de vanité »</quote>, que ces Saints l’appellerent de leur tems.
+                        Saint Charles Borromée, qui vivoit à la fin du seiziéme siécle, eût le même
+                        sentiment de celle qu’on représenta alors ; &amp; nous dit :
+                            <quote>« Qu’entre les entretiens publics de corruption étoient les
+                            spectacles de la Comedie, &amp; que tout ceci étoit contraire à la
+                            morale chrétienne. »</quote> Personne ne nous prouvera, que le Theatre
+                        du dixseptiéme, ou du dixhuitiéme siécle soit plus chaste que dans le siécle
+                        de ce Saint : je suis donc en droit de pouvoir suivre le commandement du
+                        même Saint, qui veut, que ceux qui ont quelque charge des ames, en inspirent
+                        de l’horreur à celles que Dieu leur a confiées ; qu’ils leur montrent, que
+                        ces spectacles sont les malheureuses sources des calamités publiques, qui
+                        accablent le peuple chrétien ; &amp; qu’ils alleguent à cet effét l’autorité
+                        des Saints Chrysostome, &amp; Cyprien, &amp; du grand Salvien. Quoique les
+                        fauteurs de la Comedie prétendent, que l’Ange de l’Ecole permet de donner
+                        quelque chose aux Comediens, ils ne me montreront jamais, qu’il parle des
+                        Comedies qu’on représente aujourd’hui sur le theatre public &amp;
+                        mercenaire. Non, <pb n="21" xml:id="p21"/>Madame, il ne les approuve pas :
+                        il nous dit en termes formels, que <note place="margin"><quote><p>Superflute
+                                    in ludo accipitur quod excedit regulam rationis ; quod potest
+                                    esse… uno modo ex ipsa specie actionum… quando scilicet utitur
+                                    aliquis causa ludi turpibus verbis vel factis, vel etiam his quæ
+                                    vergunt in proximi nocumentum, quæ de se sunt
+                                    peccata.</p><bibl>S. Th. 2. q. 168.
+                            a 3. O.</bibl></quote></note><quote>« Toute représentation est par sa
+                            nature criminelle &amp; peché, où les représentans se servent des
+                            paroles, ou font des gestes contraires à la pureté, ou des choses, qui
+                            puissent nuire au prochain. »</quote> Ce seroit ne pas connoître le
+                        genie du theatre moderne, que de soûrenir qu’on n’y dit jamais de ces
+                        paroles équivoques, qui fassent rougir la pudeur : &amp; qu’on n’y voit
+                        jamais des gestes que l’honnéreté chrétienne ne souffre pas, &amp; que
+                        cependant l’Ange de l’Ecole veut qu’on bannisse de tout divertissement. On
+                        peut le soûtenir de bouche, &amp; par là imposer aux Confesseurs ; mais ils
+                        ne tromperont pas celui, qui decouvrira un jour les sentimens les plus
+                        cachés.</p>
+                    <p>Mais il y en a, qui vont à la Comedie sans aucune impression, &amp; sans y
+                        être touchés. Madame, cette excuse, que l’amour dereglé pour le
+                        divertissement suggere, est une erreur, une illusion. Erreur : car <note
+                            place="margin"><quote><p>Qui amat periculum peribit in
+                                    illo.</p><bibl>Eccles 3. v. 27.</bibl></quote></note><quote>« On
+                            ne peut pas aimer le peril, &amp; n’y pas périr. »</quote> C’est une
+                        illusion : car c’est se trop flâter, que de s’imaginer, qu’étant dans un
+                        lieu glissant sur le bord d’un precipice on se soûtiendra, lorsque tout ce
+                        qui nous environne, nous pousse. Hé par quelles forces se soûtiendra la
+                        personne d’un caractere tel que vous m’étalez ? par ses propres forces ?
+                        c’est orgueil, c’est présumption, qui causera infalliblement sa chute. Par
+                        la vertu d’enhaut ? &amp; comment Dieu, qui est <pb n="22" xml:id="p22"
+                        />avec ses dons <note place="margin"><quote><p>Ubi sunt duo vel tres
+                                    congregati in Nomine meo, ibi sum in medio
+                                    eorum.</p><bibl>Matt 18. v. 20.</bibl></quote></note>en tel
+                        lieu, où se trouvent des personnes assemblées au nom de Jesus,
+                            <quote>« tendera ses bras tout puissans pour la soûtenir au milieu d’un
+                            cercle, où il y a tant de voluptueux qui l’offensent »</quote> ? C’est
+                        la demande de l’eloquent Salvien, qui y ajoute : <quote>« Si Dieu daigne
+                            vous regarder quand vous vous trouvez à la Comedie, il doit par une
+                            suite necessaire se plaire aux choses qui s’y passent : mais puisqu’il
+                            en detourne les yeux, il les detournera aussi de vous. »</quote> Mais je
+                        veux qu’une personne soit de bronse ; &amp; qu’au milieu du feu elle n’en
+                        sente aucune affection, aucun mouvement qui l’amollisse : cependant c’est
+                        cette prétenduë insensibilité qui est la plus vaine illusion, &amp; en quoi
+                        consiste son mal : car la vanité, cette dangereuse passion, qui s’attache
+                        aux plaisirs du monde, fera du progrés, qu’elle n’appercevera pas d’abord,
+                        mais qui ne deviendra ensuite que trop sensible par l’insensibilité, qu’elle
+                        aura bientôt à tous les mouvemens d’une devotion chrétienne. Nôtre cœur, tel
+                        qu’il soit, a une dureté naturelle, un fond de corruption, une opposition à
+                        la pieté : de là vient cette grande peine, qu’il a à goûter les choses
+                        divines. Quelle esperance pourra avoir cette personne, que le raison de la
+                        celeste lumiere éclairera son esprit dans l’oraison, &amp; que la dureté de
+                        son cœur sera amollie par l’operation du Saint Esprit, tandis qu’elle ne
+                        remporte de la Comedie qu’une tête pleine de douces &amp; charmantes idées,
+                        remplie de toutes les passions folles &amp; imaginaires, <pb n="23"
+                            xml:id="p23"/>que la declamation d’un Comedien folâtre lui a pû
+                        représenter ? Qu’on dise donc tant qu’on veut, que la Comedie n’est pas
+                        toûjours un écueil, contre lequel l’innocence chrétienne se brise : on
+                        m’accordera du moins, qu’elle desseche le cœur, &amp; le rend incapable des
+                        tous les mouvemens que la grace y pourroit insinuer. Ainsi donc, Madame, il
+                        faut, ou que cette personne se voie comme rejettée du Seigneur par un degoût
+                        continuel pour la devotion, qui est la nourriture de l’ame ; ou qu’elle
+                        renonce au theatre. Mais non : cette personne est le phénix de ce siécle, le
+                        goût pour la Comedie ne l’éloigne pas de la devotion. Saint Jerome au milieu
+                        de la Terre Sainte, où tout inspira de la pieté, sentit toute la peine du
+                        monde pour se recueillir ; &amp; il avoue lui même, que l’importune
+                        imagination emporta souvent son esprit au milieu des divertissemens de
+                        Rome : &amp; cette personne, plus heureuse que saint Jerome, ne souffre
+                        rien, quoi qu’elle se trouve présente à ce dangereux divertissement : quand
+                        elle veut prier le soir, elle sçait faire revénir, &amp; se fixer
+                        l’imagination pour l’attacher à Dieu, laquelle n’étoit occupée, il y a peu
+                        d’heures, que de tout ce qui flattoit les sens. Je vous avouë ingenument,
+                        Madame, que je n’ai pas eu jusqu’ici le bonheur de rencontrer un caractére
+                        si heureux, &amp; une ame aussi extraordinairement favorisée du ciel. Je ne
+                        cesserai pas d’admirer la misericorde <pb n="24" xml:id="p24"/>divine, si
+                        jamais elle me fait voir en cette mer de dangers un cœur, qui a la fermeté
+                        des citoiens de la Jerusalem celeste : mais si cette personne me demande,
+                        s’il lui est permis d’assister à la Comedie, je suspecterai sa devotion ;
+                        &amp; si par un miracle je la trouve solide, je lui dirai nettement, qu’elle
+                        ne peut pas aller à la Comedie, sans s’en faire encore un point de
+                        conscience. Non, Madame ; &amp; pour vous en convaincre, je dis, que les
+                        personnes les plus reguliéres, qui font dans une reputation de probité la
+                        mieux établie, ou qui à raison du frequent usage qu’elles font de la sainte
+                        Communion, ou du rang qu’elles tiennent, sont obligées de donner exemple aux
+                        autres, péchent, lors qu’elles authorisent le divertissement de la Comedie
+                        par leur présence, &amp; qu’elles y portent les autres, qui se reglent sur
+                        leur conduite : car c’est proprement donner du scandale, dont on ne peut pas
+                        être cause dans une chose même indifferente, &amp; assez innocente
+                        d’elle-même, sans commettre un peché : parce que c’est contribuer au peché
+                        &amp; à la perte des autres, dont nous sommes redevables devant Dieu.
+                        J’infere cela du précepte &amp; de l’exemple de saint Paul. On agita de son
+                        tems la question, si on pouvoit manger la viande que les Idolatres avoient
+                        offertes &amp; immolées aux fausses divinités. Quelques-uns étoient dans la
+                        pensée, que les viandes contractoient quelque soüillure par cette oblation,
+                        &amp; que par conséquent ceux, qui les mangeoient, se <pb n="25"
+                            xml:id="p25"/>seroient par là foüillés du crime d’Idolatrie. Voici la
+                        decision de ce grand Apôtre : <note place="margin"><bibl>1 Ad Cor.
+                            8.</bibl></note><quote><hi rend="i">Quant aux viandes qui ont été
+                                immolées aux Idoles, nous n’ignorons pas que nous avons… sur ce
+                                sujét <hi rend="i">asséz</hi> de science</hi></quote>, nous sçavons
+                        asséz, qu’elles ne contractent par cette immolation aucune foüillure, qui
+                        les rende immondes, &amp; qui en interdise l’usage : <quote><hi rend="i"
+                                >mais la science enfle, &amp; la charité édifie</hi></quote> : ainsi
+                        il ne faut pas écouter seulement nôtre science, &amp; faire tout ce, qu’elle
+                        nous assure être permis ; mais il faut encore consulter la charité, &amp;
+                        voir ce qu’elle demande de nous… <quote><hi rend="i">Quant à ce qui est donc
+                                de manger des viandes immolées aux Idoles</hi></quote>, cela n’est
+                        pas mauvais en soi : … ne vous faites donc pas une peine de ne pouvoir user
+                        de la liberté que vous avez de manger de tout : <quote><hi rend="i">Mais
+                                prennez garde, que cette liberté, que vous avez, ne soit aux foibles
+                                une occasion de chute</hi></quote>, comme elle le pourroit être, si
+                        vous vous en serviez en leur présence ; <quote><hi rend="i">car si l’un
+                                d’eux en voit un de ceux qui sont plus sçavans</hi></quote> &amp;
+                        mieux instruits de la liberté que lui donne l’Evangile, <quote><hi rend="i"
+                                >assis à table dans un lieu consacréaux Idoles, ne sera-t-il pas
+                                porté lui, qui est encore foible, à manger aussi de ces viandes
+                                sacrifiées</hi></quote>, &amp; ainsi <quote><hi rend="i">vous
+                                perdrez par vôtre science</hi></quote>, &amp; par l’usage que vous
+                        en faites, vôtre <quote><hi rend="i">Frere, qui est</hi> encore <hi rend="i"
+                                >foible, pour qui</hi> Jesus-Christ <hi rend="i">est mort. Or
+                                péchant de la sorte contre vos Freres, &amp; blessant leur
+                                conscience qui est foible, vous pechez contre
+                            Jesus-Christ</hi></quote> même, qui les a rachetés par son <pb n="26"
+                        />Sang, &amp; à qui ils appartiennent.</p>
+                    <p>Cette decision de saint Paul peut servir de resolution au doute, que
+                        Madame *** proposa : car je veux pour un moment, que la Comedie dont je
+                        parle, soit comtée entre les choses indifferentes, ou qu’elle passe pour
+                        telle à l’égard des personnes, qui ne courent aucun danger d’y commettre le
+                        peché : je veux même, pour pousser le parallele plus loin, que la Comedie
+                        soit pour des ames, qui ont une vertu à l’épreuve, ce que les viandes
+                        immolées aux Idoles étoient pour ceux qui étoient instruits de la liberté
+                        des enfans de l’Eglise : mais on m’avouera, comme les Corinthiens, quand ils
+                        donnerent occasion aux autres, qui n’étoient pas si bien instruits,
+                        devinrent coupables du scandale qu’ils leur donnoient ; que ceux-ci, quand
+                        par leur exemple ils authorisent les autres, qui n’ont pas la même force, ni
+                        une vertu qui se peut exposer au danger de commettre le peché, sont aussi
+                        responsables de tout le mal, que les foibles y feront. Or ce sont les
+                        personnes en question, qui doivent prudemment juger, que leur présence
+                        authorisera ce divertissement, dont on a au moins tout sujét de se defier.
+                        Ce sont ces personnes qui levent tout scrupule à ceux, qui ne doivent pas
+                        avoir les mêmes menagemens. Telles sont enfin vos Dames considerables par
+                        l’opinion qu’on a conçûë de leur probité. Si elles prennent les
+                        divertissemens de la Comedie, elles contribuent à y porter les autres, &amp;
+                        à les faire passer <pb n="27" xml:id="p27"/>pour des choses absolument
+                        permises &amp; indifferentes. C’est un scandale ; &amp; plus ces Dames sont
+                        reglées dans toutes leurs autres actions, plus la plaie, qu’elles font, est
+                        profonde, parce qu’elles donnent plus de hardiesse de les imiter en
+                        celle-ci. Une jeune Demoiselle n’a pas encore éteint toutes les étincelles
+                        de la devotion, elle se flâte même qu’elle n’est pas enivrée des plaisirs du
+                        monde : cependant elle a une terrible demangeaison pour la Comedie : mais le
+                        remors salutaire de la conscience contre-balance ce desir : que dit-elle
+                        pour en étouffer les justes cris Madame *** est d’une probité reconnuë,
+                        &amp; elle y va bien : je ne prétens pas à une vie plus reglée : on la voit
+                        si souvent qu’elle s’approche de la Sainte Table : elle est d’une devotion
+                        exemplaire : il n’est pas croiable, que son Confesseur lui permettroit la
+                        Comedie, s’il jugeoit, qu’elle y pechoit en s’y trouvant : ainsi donc,
+                        resoud cette jeune Theologienne, je m’y trouverai aussi, &amp; je ferai
+                        comme je vois faire aux autres, dont l’âge &amp; la vertu me peuvent être
+                        une juste regle. Vous conclûrez donc, Madame, que ces Dames, qui vous
+                        édifient si souvent, &amp; qui sont assidües aux devoirs de la Religion,
+                        qu’on les voie si souvent à la Table du celeste Epoux, si elles ne feront
+                        point de mal à la Comedie par elles-mêmes ; elles contribueront au mal, que
+                        les autres y commettront. Qu’une Dame, dont la malheureuse tâche est de se
+                        faire aimer jusqu’à la passion, qui <pb n="28" xml:id="p28"/>n’est pas
+                        honteuse de permettre cent legéres libertés ; qu’une Dame, dont les yeux,
+                        les paroles, les habits, l’air vain &amp; coquet cinquante fois par jour
+                        étudié au miroir montrent, qu’elle n’a aucun soin de son salut, aille à la
+                        Comedie : elle ne sera coupable que de ses propres pechés : mais celles, que
+                        vous me peignez en vôtre lettre, ont assez de reputation de vertu, pour
+                        servir par leur exemple de prétexte aux autres, qui s’exposent évidemment au
+                        peché : &amp; par consequent on ne peut plus doûter qu’elles ne pechent,
+                        quand elles vont à la Comedie ; &amp; que les Anges Gardiens des personnes,
+                        auxquelles elles auront été une occasion de chute, n’en demandent un jour
+                        vengeance à la Justice Divine. Mais c’est en vain, que vôtre Demoiselle de
+                        condition s’excuse sur leurs exemples : celles, qui donnent du scandale,
+                        seront punies ; &amp; les personnes qui en prennent, n’échaperont pas à la
+                        glaive d’un Dieu vengeur des ames innocentes. Que cette Demoiselle imite les
+                        autres en leur devotion ; mais qu’elle ne les suive point dans leurs
+                        égaremens. Aussi-je dois vous avouer, que cette Fille de condition, qui
+                        survint, quand vous étiez chez nôtre cher Ami, me fait pitié. Oserois-je le
+                        dire, Madame, à vous, qui l’aimez tant pour sa douceur &amp; pour sa
+                        politesse ? Je crains tout pour elle : &amp;, si elle n’a pas les marques
+                        d’une reprobation éternelle, du moins elle ne porte pas celles, qui nous
+                        font juger, qu’elle est dans la voie de son salut.</p>
+                    <p><pb n="29" xml:id="p29"/>Vous vous étonnez, Madame, de mon jugement : mais en
+                        puis-je juger autrement ? La Vérité éternelle ne nous dit-elle pas : <note
+                            place="margin"><bibl>Matt. 7. v. 13. &amp; seq.</bibl></note><quote>« Le
+                            chemin qui conduit à la vie est étroit ; &amp; la voie, qui conduit à la
+                            perdition, est large, &amp; celle, que presque tout le monde
+                            suit</quote> : <quote>le royaume des cieux <seg type="exquote">(dit
+                                Jesus-Christ ailleurs) </seg>se prend par force, &amp; ceux, qui
+                            employent la force, le ravissent »</quote> : <note place="margin"
+                                ><bibl>Matt. 11. v. 12.</bibl></note><quote><hi rend="i">&amp;
+                                violenti rapiunt illud</hi></quote>, c’est à dire, qu’il faut se
+                        faire violence, contrarier sans cesse ses inclinations, mortifier les sens,
+                        son amour propre, dompter ses passions, porter chaque jour sa croix ; de
+                        forte, que la vie chrétienne, &amp; qui méne au salut, doit être une vie
+                        mortifiée, contrarier aux inclinations &amp; aux sens : cependant cette
+                        Demoiselle trop commode ne veut rien moins que se faire violence. Je sçai,
+                        qu’elle ne m’avouera pas cela : mais qu’elle fasse un peu de reflexion sur
+                        son portrait, que je vai tracer ici, &amp; le parallele que je ferai de sa
+                        vie, &amp; des maximes de l’Evangile. Je suppose, qu’elle ne méne pas une
+                        vie libertine ; la raison lui donne trop de lumiere, pour qu’une telle vie
+                        ne lui fasse horreur. Je m’apperçois en elle par vôtre lettre sous un
+                        certain dehors une prétenduë regularité. Je veux la supposer telle, qu’elle
+                        se pique d’être : point d’attachemens, point d’intrigues : elle a des
+                        amitiés innocentes, liaisons honnêtes : j’en conviens : mais pour cela elle
+                        n’est pas dans le chemin du salut : elle s’en peut flâter tant qu’elle
+                        voudra ; je <pb n="30" xml:id="p30"/>suis persuadé du contraire, &amp; je
+                        vais le lui montrer. Il est de la foi, qu’une vie purement naturelle ne nous
+                        conduira jamais au salut : une fin surnaturelle ne s’acquiert, que par des
+                        moiens, qui visent plus haut que la nature. Or la vie de cette Demoiselle
+                        n’est-elle pas toute naturelle, &amp; rien davantage ? Elle est par
+                        consequent une vie inutile au salut. Ce ne sont pas les seules de votes,
+                        dont elle se raille, qui doivent faire des actions surnaturelles pour être
+                        dans la voie du salut : on ne se sauvera nulle part, &amp; en nul état, si
+                        on n’y pratique des œuvres meritoires. Or les actions, pour être
+                        surnaturelles, c’est à dire, saintes &amp; chrétiennes, doivent être faites
+                        par le mouvement de la grace de Jesus-Christ, &amp; sur les maximes de
+                        l’Evangile : en sorte que les actions d’une vie prédestinée doivent avoir la
+                        grace de Jesus-Christ : pour principe, &amp; la doctrine de l’Evangile pour
+                        regle. Que cette Demoiselle donc, avec tant d’autres qui lui ressemblent,
+                        rentre en elle-même, qu’elle y sonde si la grace de Jesus Christ est le
+                        principe de sa vie ordinaire, &amp; si sa vie ordinaire répond aux maximes
+                        de Jesus Christ. Qu’elle me dise, mais qu’elle fasse reflexion à ce qu’elle
+                        dira, si c’est par la grace de Jesus-Christ, &amp; pour se conformer à sa
+                        vie, qu’elle est de toutes les compagnies, &amp; de tous les divertissemens
+                        du monde. La grace de Jesus-Christ produit dans les prédestinés une aversion
+                        pour toute vanité, &amp; pour les spectacles de la Comedie : Saint Luc au
+                            <pb n="31" xml:id="p31"/>livre des Actes des Apôtres parle des premiers
+                        Chrétiens comme des gens livrés &amp; devoués à la grace ; &amp; ces gens ne
+                        paroissoient jamais aux spectacles de la Comedie : ou s’il y en paroissoit
+                        quelqu’un, on le regardoit délors comme un Apostat &amp; un Infidéle. La
+                        grace de Jesus-Christ porte les ames, sur lesquelles elle agit, à
+                        s’addresser souvent à Dieu leur Createur par l’Oraison. <note place="margin"
+                                ><bibl>Act. 2. v. 41.</bibl></note>Il est dit des Chrétiens, dont je
+                        viens de parler, qu’ils <quote><hi rend="i">perseveroient dans les
+                                priéres</hi></quote>. Jesus Christ exhorta ses Apôtres, qu’ils
+                        eussent à prier, pour ne pas tomber dans la tentation.</p>
+                    <p>Quiconque agit par l’influence de la grace de Jesus-Christ, pratique sans
+                        cesse au moins par une intention virtuelle &amp; implicite ce que l’Apôtre
+                        dit aux Fideles : <note place="margin"><bibl>1. ad Cor. 10.
+                            v. 31.</bibl></note><quote>« Soit que vous mangiez, soit que vous
+                            buviez, &amp; quelque chose que vous fassiez, faites tout pour la gloire
+                            de Dieu. »</quote> Voila donc entre autres choses où porte la grace ;
+                        voila les maximes de vivre qu’elle inspire à toute ame, qui en veut suivre
+                        les mouvemens. Est-ce ainsi que Mademoiselle vit ? sçait-elle ce que c’est
+                        qu’oraison ? A-t-elle soin de prier Dieu le matin &amp; le soir ? Dieu par
+                        sa grace se trouve auprés d’elle les matins pour entendre de sa bouche
+                        quelque sacrifice, &amp; être le depositaire des premiers soins de chaque
+                        jour : tourne-t-elle aussi le cœur vers lui pour l’offrir au Créateur ?
+                        Helas ! quelles sont ordinairement ses premieres pensées, &amp; son premier
+                        soin ? De quelle <pb n="32" xml:id="p32"/>maniere elle se fera coeffer ;
+                        quel habit &amp; quelle garniture elle prendra ; à quoi elle passera la
+                        journée ; s’il y a lieu d’esperer de la bonne compagnie. S’il arrive par
+                        hazard, qu’elle n’oublie point d’offrir le matin à Dieu les actions qu’elle
+                        fèra ; ne se prend-elle pas de la maniere qui suit, du moins par une
+                        intention implicite qui se manifeste par les œuvres de la journée ? Mon
+                        Dieu, pour l’amour de vous &amp; pour vôtre gloire je donnerai aujourd’hui
+                        tous au monde, &amp; je ne penserai point à vous, si ce n’est que j’irai à
+                        la Messe. Et à quelle Messe ? A la plus courte, de peur de m’y ennuier ;
+                        &amp; à la plus belle, <hi rend="i">c’est</hi> à dire, où il se trouve plus
+                        de compagnie, pour y voir &amp; être vûe. Pour l’amour de vous, Seigneur, je
+                        m’habillerai à la mode, d’une maniere molle, qui fait baisser les yeux à des
+                        ames innocentes ; &amp; d’une maniere superbe, pour m’attirer les yeux. Je
+                        mangerai à table tout ce que je desire ; &amp; pour ne pas vous déplaire, je
+                        ne m’y mortifierai en aucune chose. Je passerai l’aprésdinée dans
+                        l’oisivité, à recevoir visite, ou en donner : Là, je n’y parlerai que du
+                        prochain, &amp; j’y critiquerai telles, &amp; telles personnes, pour qui je
+                        sens de l’aversion. J’irai sur le soir à la Comedie, pour y apprendre à vous
+                        plaire, ô mon Seigneur. Oui, mon Seigneur, je dois vous obéir, &amp; c’est
+                        pour vous obéir que je veux aller aujourd’hui à la Comedie : ce sera vôtre
+                        Esprit qui m’y conduira : ce sera vous qui <pb n="33" xml:id="p33"/>serez le
+                        principe de cette action, c’est par vôtre Croix que vous me l’avez meritée.
+                        Je vous prie, mon Dieu, que tout cela soit pour vôtre gloire : je vous
+                        l’offre avec les merites de la vie, &amp; de la mort de Jesus-Christ… Que
+                        vous semble-t-il, Madame, de la belle offrande, que cette pieuse Demoiselle
+                        fait au Seigneur ? Ai-je tort de dire, que j’ai tout à craindre pour son
+                        salut ? Non, Madame, elle n’est pas dans le chemin du salut ; &amp; elle ne
+                        vit que pour son malheur. Une vie comme celle là, c’est à dire, une vie qui
+                        se passe dans les plaisirs du monde, n’est point une vie, c’est une mort
+                        spirituelle, c’est l’ombre de la mort éternelle ; &amp; l’ombre n’est pas
+                        plus proche du corps qu’elle suit, que cette sorte de vie est proche de
+                        l’enfer. Une Fille qui vit dans les delices, est déjà morte : elle est
+                        vivante en apparence, &amp; morte en effet : vivante aux yeux des hommes,
+                        morte devant Dieu : elle a la vie des sens, mais elle n’a point la vie de la
+                        grace, elle n’aura jamais la vie de la gloire. J’espere que cette Demoiselle
+                        ne prendra pas ce raisonnement comme la prédiction d’un malheur, où je
+                        souhaite qu’elle tombe ; mais comme un avertissement de ce qu’elle a à
+                        apprehender, &amp; comme le meilleur office que lui puisse rendre un
+                        admoniteur prévoiant &amp; zelé, qui s’interesse à son salut, &amp; qui
+                        apprehende tout pour elle, &amp; qui ne commencera à esperer, que quand elle
+                        commencera elle-même à se défier de sa vie, <pb n="34" xml:id="p34"/>&amp; à
+                        croire que la Comedie est contraire aux maximes de l’Evangile. Le Seigneur
+                        nous dit : « Malheur à vous, qui passez vos jours dans la joie &amp; dans
+                        les divertissemens. » C’est Jesus Christ lui même qui parle : doit-il être
+                        crû ? Si la Verité éternelle dit vrai, qu’est ce qui assure les personnes
+                        sur qui tombent ces arréts foudroians ? Si la Demoiselle craint cette
+                        effraiante verité, comment peut elle être tranquille ?</p>
+                    <p>Mais elle n’a point du goût pour la vie retirée. A Dieu ne plaise, que je lui
+                        veuille inspirer un état plutôt que l’autre : il n’appartient qu’à Dieu de
+                        lui marquer la route où elle doit entrer : &amp; ce doit être l’effét de la
+                        vocation du ciel, &amp; non point du conseil des hommes. On trouve des élus
+                        en toutes sortes d’états : mais on n’en trouve jamais, s’ils ne s’opposent
+                        aux maximes du monde, &amp; s’ils n’agissent pas par le mouvement de la
+                        grace. Qu’elle ait donc pris son parti : je n’examine point si ce choix a
+                        été uniquement fait pour Dieu, &amp; si c’est pour y mieux faire son salut,
+                        qu’elle s’est determinée de s’établir dans le monde. Mais en renonçant au
+                        devotisme, elle n’a pas renoncé à la Religion ; &amp; voulant être
+                        chrétienne, elle ne doit pas rougir de porter les marques du Christianisme
+                        qu’elle professe. Or les saints Peres m’apprennent, que d’abandonner les
+                        spectacles de la Comedie c’étoit une marque de Religion, &amp; une marque
+                        bien autentique dans l’estime commune des premiers chrétiens, qui <pb n="35"
+                            xml:id="p35"/>jugeoient selon la morale de Jesus-Christ. On ne croioit
+                        pas pouvoir garder le serment &amp; la promesse de son Batéme, tandis qu’on
+                        ne se detachoit pas de ces frivoles &amp; dangereux passetems du siécle.
+                            <quote>« C’est vous joüer, mon frere, écrivoit saint Cyprien, d’avoir
+                            dit anatheme au demon, comme vous avez fait recevant sur les Fonts la
+                            grace de Jesus-Christ, &amp; de rechercher maintenant les fausses joies,
+                            qu’il vous présente dans ce spectacle de vanité. »</quote> Elle a raison
+                        la Demoiselle, que du moins les Devotes s’en doivent absténir : &amp; ce
+                        seroit à juste titre qu’elle se scandaliseroit, si quelqu’une de ces
+                        Demoiselles, qui se sont volontairement engagées à passer leur vie en
+                        priéres &amp; en œuvres de charité, venoit se montrer dant la Comedie ; si
+                        elle veut prendre, diroit elle fort bien, part à nos plaisirs &amp; à nos
+                        passetems, qu’elle renonce à sa vie retirée &amp; à la profession : voila,
+                        Madame, quels seroient les justes sentimens de cette fille sur la conduite
+                        des Devotes : mais pourquoi ne s’applique-t-elle pas des regles si justes
+                        &amp; si raisonnables ? Hé quoi ? N’est-elle pas enfant : de Jesus Christ
+                        par le Batême ? N’est-elle pas fille de l’Eglise, qui pleure &amp; gemit sur
+                        les Comediens &amp; les Comediennes ? La devote fait quelque chose indigne
+                        de sa profession, si elle assiste à la Comedie ; &amp; une fille de
+                        Jesus-Christ se persuade, qu’il n’y a rien de messéant à un si grand nom de
+                        se trouver au Theatre ?</p>
+                    <p><pb n="36" xml:id="p36"/>Mais, Madame, sa vertueuse parente l’y méne. Hé
+                        bien, si Madame sa parente lui vouloit persuader, qu’elle montât le Theatre,
+                        &amp; y fît la Comedienne, suivroit-elle ce conseil ? Non : pourquoi ? Parce
+                        qu’elle conçoit bien, que la profession de Comedienne est indigne de sa
+                        naissance. Hé bien une fille de condition se rendroit infame en voulant
+                        faire la Comedienne, &amp; une fille de Jesus-Christ se conservera l’honneur
+                        de son adoption en se divertissant en paienne ? Ainsi elle n’y peut pas
+                        suivre sa patente, &amp; si cette Dame est veritablement vertueuse, je suis
+                        bien assuré qu’elle ne menera pas sa cousine, où l’innocence peut être
+                        blessée.</p>
+                    <p>Mais elle n’y va que par le commandement de Monsieur son Pere. Je crains
+                        beaucoup qu’elle n’ait extorqué ce commandement pour calmer sa conscience.
+                        Quoi qu’il en soit, un pere, qui commande cela à sa fille, ne doit, ni ne
+                        peut pas vouloir qu’elle lui obéisse. C’est un Pere cruel, qui méne sa fille
+                        comme Darius fit aller autrefois son cher Daniel à la fosse des Lions : quel
+                        est son desespoir de porter lui-même sa fille au bucher pour qu’elle soit la
+                        victime de ses passions naissantes ? Mais afin que ce Pere n’attire pas sur
+                        lui &amp; sur sa Fille les malheurs, que Dieu répand ordinairement sur les
+                        Peres, qui par leurs exemples, &amp; par le mauvais usage de leur empire
+                        perdent les doux fruits d’un saint Sacrament ; je supplie ce Pere qu’il <pb
+                            n="37" xml:id="p37"/>se souvienne, que la providence Divine ne lui a pas
+                        donné cette Fille pour lui, mais pour elle-même ; que, si cette fille est le
+                        gage de l’amitié de Madame son Epouse, elle est aussi le fruit du Sang de
+                        Jesus-Christ ; que, si elle est noble par sa naissance, elle est Chrêtienne
+                        par son Batême ; que cette seconde qualité lui est plus avantageuse, plus
+                        necessaire, &amp; plus glorieuse que la prémiere, &amp; qu’ainsi il n’est
+                        pas seulement obligé de l’élever en Fille de condition, mais qu’il est
+                        encore plus obligé de l’élever en Chrêtienne, &amp; qu’il doit plus
+                        travailler à lui inspirer l’esprit de l’Evangile, que l’air, &amp; les
+                        manieres du monde.</p>
+                    <p>Si un Pere ne remplit pas les dévoirs d’un Pere Chrêtien, lorsqu’il n’éloigne
+                        pas d’auprès de ses enfans les livres dangereux ; à combien plus forte
+                        raison lui est-il defendu de donner des préceptes à sa Fille, qu’elle
+                        s’expose à faire les prémiers naufrages de son innocence ? Le Pere l’envoie,
+                        où l’on ne respire que l’air de l’amour, &amp; où l’on en enseigne si
+                        delicatement toutes les leçons ; qu’en arrivera-t-il ?</p>
+                    <p>Après avoir vû cette passion si bien depeinte sur le Theatre avec toutes les
+                        couleurs de la parole, d’une expression douce, &amp; de la declamation ;
+                        cette Fille commence à sortir de la sainte ignorance où elle éroit, &amp; ce
+                        que la nature ne lui avoit pas encore appris, des Comediens &amp; des
+                        Comediennes le lui apprennent comme les nouveaux maîtres de son prémier
+                        malheur, Ce <pb n="38" xml:id="p38"/>métier apris à une si mechante école
+                        est secondé par les inclinations naturelles, &amp; il ne laisse que les
+                        idées d’une douce passion ; ces idées lui reviennent souvent, &amp; elles
+                        attaquent son innocence : il faut un miracle de la droite du Seigneur pour
+                        qu’il ne lui arrivent de grandes chûtes, qui, quoiqu’elles ne se commettent
+                        qu’interieurement, déviennent presque incurables, &amp; entrainent la
+                        plûpart, qui les font, à la damnation éternelle.</p>
+                    <p>Je frémis, Madame, quand j’y pense : d’autant plus, qu’il n’y a pas de doute,
+                        que la Comedie ne soit une occasion prochaine à ces fortes de pechés. Car
+                        que pourroit-on qualifier du nom d’occasion prochaine, quand on doute, si on
+                        doit ténir pour telle « Un concours de diverses choses, qui toutes
+                        favorisent la concupiscence, &amp; qui non pas necessairement, mais presque
+                        infailliblement font, que plusieurs tombent dans le dereglement. » La
+                        passion la plus facile à allumer en est ordinairement la matiere :
+                        l’expression en est la plus douce, la plus animée, &amp; la plus
+                        transportée : l’ajustement des Acteurs &amp; des Actrices, n’a rien, qui ne
+                        respire, je ne sçai quoi d’impur, par tout ce qui est mol &amp; effeminé.
+                        Tout concourt à fournir un fond inépuisable des reflexions toutes également
+                        criminelles, objéts corrupteurs ; recits pleins de tendresse, Poësies
+                        lascives, maximes d’amours ingenieusement exprimées, airs languissans,
+                        spectateurs <pb n="39" xml:id="p39"/>repetant les plus malignes paroles, les
+                        appliquants ; Concerts harmonieux, voix penetrantes, danses passionées,
+                        actions animées, diaboliques enchantemens, &amp; le Chef d’œuvre de l’enfer.
+                        Tout cela ne sont-ce pas toutes de fortes attaques à des ames qui ne peuvent
+                        s’y soûténir, puisqu’elles y sont sans crainte, sans défiance, sans
+                        préservatifs ? Faute de crainte, on n’a point d’idée du malheur qui peut
+                        arriver à l’ame, &amp; par consequent point de mouvement d’aversion pour le
+                        mal : faute de défiance, loin de se ténir sur ses gardes, &amp; de se mettre
+                        en disposition de repousser l’ennemi du salut, on y apporte une imagination
+                        vive, un esprit dissipé, un cœur volage, des sens ouverts &amp; subtils,
+                        dispositions fatales &amp; propres à donner de l’entrée au peché. Si après
+                        cela on sent la tentation, on est hors d’état de se défendre : ce n’est que
+                        foiblesse, que misere, que lacheté, qu’épaisses tenébres, qu’irresolutions.
+                        L’on n’est point fortifié par ces secours extraordinaires, par ces graces
+                        singulieres, que l’on obtient du Ciel, quand on s’en rend digne. Que
+                        conclûre de tout cela, si non que la chute y est presque infaillible ; &amp;
+                        que ce seroit, ou ne pas sçavoir la force de ces objéts, ou ignorer la
+                        foiblesse de nôtre nature, ou se faire une vertu chimerique, ou par une
+                        vaine présomption vouloir trouver sa sureté au milieu des écueils, que de ne
+                        pas juger, que toutes les circonstances de la Comedie <pb n="40"
+                            xml:id="p40"/>n’aient rien, qui de soi-même ne donne quelque penchant au
+                        peché ?</p>
+                    <p>Qu’on applique donc à présent le principe que personne ne peut contester
+                        après l’oracle du Saint Esprit, que <note place="margin"><bibl>Eccles. 3.
+                                v. 27.</bibl></note><quote>« quiconque cherche le péril, y
+                            perira »</quote>, &amp; qu’on y ajoute le sentiment de tous les
+                        Docteurs, que de rechercher une occasion où l’on commet ordinairement le
+                        crime, c’est être dans le dessein de le commettre : &amp; quelle sera la
+                        personne si heureuse, pour qui ces spectacles ne sont pas des pechés, &amp;
+                        des pêchés griefs, &amp; des pechés dignes de la reprobation éternelle ? Si
+                        c’est une chose si criminelle que la Comedie, vous avez trop de penetration,
+                        Madame, pour ne pas sentir le malheur des personnes, qui par leur exemple
+                        ont contribué aux foibles à s’y porter. Oui, Madame, les pechés, qui s’y
+                        feront, feront imputés à plusieurs, qui en répondront tous à Jesus-Christ,
+                        auquel ces ames pecheresses ont couté tant de Sang. Par exemple une pensée
+                        volontaire contre la pureté, un desir deliberé, que l’objét de la pensée
+                        fait naître, conçu dans la Comedie, sera imputé à celui qui l’a formé, aux
+                        Comediens, qui par leur peu de modestie y auront donné occasion ; aux
+                        personnes, qui par leurs exemples ont approuvé la funeste fource de ce
+                        malheur ; au Pere &amp; à la Mere des enfans, qui les y ont menés…
+                            <quote>« O ! mon Dieu, s’écrie saint Ambroise, combien un seul pêché
+                            fait-il des coupables ! »</quote> Après celà on allegue en vain, que les
+                            <pb n="41" xml:id="p41"/>Souverains permettent la Comedie. De tous les
+                        prétextes, il n’y a pas de plus frivole. Quoi, les Souverains la
+                        permettent ? Où sont les Edits par lesquels ils donnent cette permission ?
+                        Où est l’Arrêt en France, qui met au néant l’Edit, par lequel saint Louis
+                        chassa tous les Comediens, &amp; toutes les Comediennes, qui se trouverent
+                        alors dans son Roiaume ? Et par quel Placard trouvera-t-on cette permission
+                        dans tout le Païs-bas ? Tout se reduit donc à une simple tolerance, dont il
+                        n’appartient pas à des suiéts de vouloir approfondir les secretes raisons.
+                        Mais qu’est-ce qu’une tolerance ? C’est conniver à un moindre mal, afin
+                        qu’il n’arrive pas de plus grand. Une tolerance donc suppose toujours un
+                        mal : c’est ainsi qu’on souffre dans quelques Roiaumes, aussi bien qu’à Rome
+                        &amp; ailleurs des maux, dont les personnes, qui nous objectent ceci, ne
+                        voudront pas assurement nous donner exemple, &amp; dont toute ame, qui a de
+                        la pudeur, sent de l’horreur &amp; de l’aversion. Je finis, Madame, &amp;
+                        s’il y a encore quelqu’un qui a peine à souffrir, qu’on lui dise, qu’il ne
+                        lui est pas permis de frequenter la Comedie, qu’il me donne la liberté de
+                        demander, s’il voudroit mourir au sortir de la Comedie. Non me repondront
+                        les ames un peu timorées. Qu’on abandonne donc dés à présent ce, dont on se
+                        repentira certainement à l’article de la mort, où l’on voit clairement
+                        toutes choses, &amp; non plus par le faux jour de ses <pb n="42"
+                            xml:id="p42"/>passions. Tel est mon souhait, Madame, &amp; je prie le
+                        Seigneur, que ma Lettre inspire à tout le monde l’horreur, que merite la
+                        Comedie : aidez moi à l’obténir du Ciel ; &amp; soiez assurée, que je suis
+                        toujours avec le même zele</p>
+                    <salute>MADAME,</salute>
+                    <signed>Vôtre Très-humble Serviteur en <hi rend="sc">Jesus-Christ</hi>.</signed>
+                </div2>
+            </div1>
+            <div1 type="appendix">
+                <head>Fautes.</head>
+                <p>Comme l’Autheur est dans une Ville nouvellement prise par la France ; quelques
+                    fautes se sont glissées dans l’impression : dont voici les plus grossiéres.</p>
+                <p>Pag. 6. ligne 6. <hi rend="i">aiez</hi> lisez <hi rend="i">aviez.</hi></p>
+                <p>Pag. 10. l. 26 <hi rend="i">inventé</hi> lisez <hi rend="i">inventés.</hi></p>
+                <p>Pag. 11. l. 21 <hi rend="i">declara</hi> lisez <hi rend="i">declama.</hi></p>
+                <p>Pag. 13. l. 14 <hi rend="i">personne</hi> lisez <hi rend="i">posture.</hi></p>
+                <p>Pag. 14. l. 30 <hi rend="i">condamnés</hi> lisez <hi rend="i">condamné.</hi></p>
+                <p>l. 33 <hi rend="i">suiveront</hi> lisez <hi rend="i">suivront.</hi></p>
+                <p>Pag. 29. l. 2. <hi rend="i">peus je</hi> lisez <hi rend="i">puis je.</hi></p>
+                <p>Le charitable Lecteur aura la bonté de pardonner &amp; de corriger les
+                    autres.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>

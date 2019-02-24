@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De l’Imitation théatrale ; essai tiré des dialogues de Platon : par M. J. J.
+                    Rousseau, de Genéve</title>
+                <author key="Rousseau, Jean-Jacques (1712-1778)"
+                    ref="https://data.bnf.fr/fr/11922879/jean-jacques_rousseau/">Jean-Jacques
+                    Rousseau</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name/>
+                    <resp/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/rousseau-jean-jacques_imitation-theatrale_1764</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Jean-Jacques Rousseau, <title>De l’Imitation théatrale ; essai tiré des
+                        dialogues de Platon : par M. J. J. Rousseau, de Genéve</title>,
+                        <pubPlace>Amsterdam</pubPlace>, <publisher>Marc-Michel Rey</publisher>,
+                        <date>1764</date>, in-8, 47 p. PDF : <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k10400824">Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1764"/>
+            </creation>
+            <langUsage>
+                <language ident="fre">fre</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="preface">
+                <pb n="n.p." xml:id="pn.p."/>
+                <head>Avertissement.</head>
+                <p rend="i"><hi rend="big">C</hi>E petit écrit n’est qu’une espèce d’extrait de
+                    divers endroits où Platon traite de l’Imitation théâtrale. Je n’y ai gueres
+                    d’autre part que de les avoir rassemblés &amp; liés dans la forme d’un discours
+                    suivi, au lieu de celle du Dialogue qu’ils ont dans l’original. L’occasion de ce
+                    travail fut la Lettre à M. d’Alembert sur les Spectacles ; mais n’ayant pu
+                    commodément l’y faire entrer, je le mis à part pour être employé ailleurs, ou
+                    tout-à-fait supprimé. <pb n="4" xml:id="p4"/>Depuis lors, cet écrit étant sorti de mes
+                    mains, se trouva compris, je ne sçais comment, dans un marché qui ne me
+                    regardoit pas. Le Manuscrit m’est revenu : mais le Libraire l’a réclamé
+                    comme acquis par lui de bonne foi, &amp; je n’en veux pas dédire celui qui le
+                    lui a cédé. Voilà comment cette bagatelle passe aujourd’hui à l’Impression.</p>
+            </div1>
+            <div1 type="book">
+                <pb n="5" xml:id="p5"/>
+                <head>De l’imitation <hi rend="i">théâtrale.</hi></head>
+                <p><hi rend="big">P</hi><hi rend="sc">Lus</hi> je songe à l’établissement de notre
+                    République imaginaire, plus il me semble que nous lui avons prescrit des loix
+                    utiles &amp; appropriées à la nature de l’homme. Je trouve, sur-tout, qu’il
+                    importoit de donner, comme nous avons fait, des bornes à la licence des Poëtes,
+                    &amp; de leur interdire toutes les parties de leur art qui se rapportent à
+                    l’imitation. Nous reprendrons même, si vous voulez, ce sujet, à présent que les
+                    choses plus importantes sont examinées ; &amp;, dans l’espoir que vous ne
+                    me <pb n="6" xml:id="p6"/>dénoncerez pas à ces dangereux ennemis, je vous avouerai que je
+                    regarde tous les Auteurs dramatiques, comme les corrupteurs du peuple, ou de
+                    quiconque, se laissant amuser par leurs images, n’est pas capable de les
+                    considérer sous leur vrai point de vue, ni de donner à ces fables le correctif
+                    dont elles ont besoin. Quelque respect que j’aye pour Homère, leur modèle &amp;
+                    leur premier maître, je ne crois pas lui devoir plus qu’à la vérité ; &amp;
+                    pour commencer par m’assurer d’elle, je vais d’abord rechercher ce que c’est
+                    qu’imitation.</p>
+                <p><hi rend="sc">Pour</hi> imiter une chose, il faut en avoir l’idée. Cette idée est
+                    abstraite, absolue, unique &amp; indépendante du nombre d’éxemplaires de cette
+                    chose qui peuvent exister dans la Nature. Cette idée est toujours antérieure à
+                    son exécution : car l’Architecte qui construit un Palais, a l’idée d’un
+                    Palais avant que de commencer <pb n="7" xml:id="p7"/>le sien. Il n’en fabrique pas le
+                    modèle, il le suit, &amp; ce modèle est d’avance dans son esprit.</p>
+                <p><hi rend="sc">Borné</hi> par son art à ce seul objet, cet Artiste ne sçait faire
+                    que son Palais ou d’autres Palais semblables : mais il y en a de bien plus
+                    universels, qui font tout ce que peut exécuter au monde quelque ouvrier que ce
+                    soit, tout ce que produit la Nature, tout ce que peuvent faire de visible au
+                    ciel, sur la terre, aux enfers, les Dieux mêmes. Vous comprenez bien que ces
+                    Artistes si merveilleux sont des Peintres, &amp; même le plus ignorant des
+                    hommes en peut faire autant avec un miroir. Vous me direz que le Peintre ne fait
+                    pas ces choses, mais leurs images : autant en fait l’ouvrier qui les
+                    fabrique réellement, puisqu’il copie un modèle qui existoit avant elles.</p>
+                <p><hi rend="sc">Je</hi> vois là trois Palais bien distincts. <pb n="8" xml:id="p8"
+                    />Premierement le modèle ou l’idée originale qui existe dans l’entendement de
+                    l’Architecte, dans la Nature, ou tout au moins dans son Auteur avec toutes les
+                    idées possibles dont il est la source : en second lieu, le Palais de
+                    l’Architecte, qui est l’image de ce modèle ; &amp; enfin le Palais du
+                    Peintre, qui est l’image de celui de l’Architecte. Ainsi, Dieu, l’Architecte
+                    &amp; le Peintre sont les auteurs de ces trois Palais. Le premier Palais est
+                    l’idée originale, existante par elle-même ; le second en est l’image ;
+                    le troisième est l’image de l’image, ou ce que nous appellons proprement
+                    imitation. D’où il suit que l’imitation ne tient pas, comme on croit, le second
+                    rang, mais le troisième dans l’ordre des êtres, &amp; que, nulle image n’étant
+                    exacte &amp; parfaite, l’imitation est toujours d’un degré plus loin de la
+                    vérité qu’on ne pense.</p>
+                <p>L’<hi rend="sc">Architecte</hi> peut faire plusieurs <pb n="9" xml:id="p9"/>Palais sur le
+                    même modèle, le Peintre, plusieurs tableaux du même Palais : mais quant au
+                    type ou modèle original, il est unique ; car si l’on supposoit qu’il y en
+                    eût deux semblables, ils ne seroient plus originaux ; ils auroient un
+                    modèle original, commun à l’un &amp; à l’autre ; &amp; c’est celui-là seul
+                    qui seroit le vrai. Tout ce que je dis ici de la peinture est applicable à
+                    l’imitation théâtrale : mais avant d’en venir là, examinons plus en détail
+                    les imitations du Peintre.</p>
+                <p><hi rend="sc">Non</hi>-seulement il n’imite dans ses tableaux que les images des
+                    choses ; sçavoir, les productions sensibles de la Nature, &amp; les
+                    ouvrages des Artistes ; il ne cherche pas même à rendre exactement la
+                    vérité de l’objet, mais l’apparence : il le peint tel qu’il paroît être,
+                    &amp; non pas tel qu’il est. Il le peint sous un seul point de vue, &amp;
+                    choisissant ce point de vue à sa volonté, il rend, selon qu’il lui convient, <pb
+                        n="10"/>le même objet agréable ou difforme aux yeux des spectateurs. Ainsi
+                    jamais il ne dépend d’eux de juger de la chose imitée en elle-même ; mais
+                    ils sont forcés d’en juger sur une certaine apparence, &amp; comme il plaît à
+                    l’imitateur : souvent même ils n’en jugent que par habitude, &amp; il entre
+                    de l’arbitraire jusques dans l’imitation<note n="*" place="bottom">L’expérience
+                        nous apprend que la belle harmonie ne flatte point une oreille non prévenue,
+                        qu’il n’y a que la seule habitude qui nous rende agréables les consonances,
+                        &amp; nous les fasse distinguer des intervalles les plus discordans. Quant à
+                        la simplicité des rapports sur laquelle on a voulu fonder le plaisir de
+                        l’harmonie, j’ai fait voir dans l’Encyclopédie au mot <hi rend="i"
+                            >Consonance</hi>, que ce principe est insoutenable, &amp; je crois
+                        facile à prouver que toute notre harmonie est une invention barbare &amp;
+                        gothique qui n’est devenue que par trait de tems, un art d’imitation. Un
+                        Magistrat studieux qui, dans ses momens de loisir, au lieu d’aller entendre
+                        de la musique, s’amuse à en approfondir les systêmes, a trouvé que le
+                        rapport de la quinte n’est de deux à trois que par approximation, &amp; que
+                        ce rapport est rigoureusement incommensurable. Personne au moins ne sçauroit
+                        nier qu’il ne soit tel sur nos clavecins en vertu du tempérament ; ce
+                        qui n’empêche pas ces quintes ainsi tempérées de nous paroître agréables. Or
+                        où est, en pareil cas, la simplicité du rapport qui devroit nous les rendre
+                        telles ? Nous ne sçavons point encore si notre systême de musique n’est
+                        pas fondé sur de pures conventions ; nous ne sçavons point si les
+                        principes n’en sont pas tout-à-fait arbitraires, &amp; si tout autre
+                        systême, substitué à celui-là, ne parviendroit pas, par l’habitude, à nous
+                        plaire également. C’est une question discutée ailleurs. Par une analogie
+                        assez naturelle, ces réflexions pourroient en exciter d’autres au sujet de
+                        la peinture sur le ton d’un tableau, sur l’accord des couleurs, sur
+                        certaines parties du dessein où il entre peut-être plus d’arbitraire qu’on
+                        ne pense, &amp; où l’imitation même peut avoir des regles de convention.
+                        Pourquoi les Peintres n’osent-ils entreprendre des imitations nouvelles, qui
+                        n’ont contr’elles que leur nouveauté, &amp; paroissent d’ailleurs
+                        tout-à-fait du ressort de l’art ? Par exemple, c’est un jeu pour eux de
+                        faire paroître en relief une surface plane : pourquoi donc nul
+                        d’entr’eux n’a-t-il tenté de donner l’apparence d’une surface plane à un
+                        relief ? S’ils font qu’un plafond paroisse une voûte, pourquoi ne
+                        font-ils pas qu’une voûte paroisse un plafond ? Les ombres diront-ils,
+                        changent d’apparence à divers points de vue ; ce qui n’arrive pas de
+                        même aux surfaces planes. Levons cette difficulté, &amp; prions un Peintre
+                        de peindre &amp; colorier une statue de maniere qu’elle paroisse plate,
+                        rase, &amp; de la même couleur, sans aucun dessein, dans un seul jour &amp;
+                        sous un seul point de vue. Ces nouvelles considérations ne seroient
+                        peut-être pas indignes d’être examinées par l’amateur éclairé qui a si bien
+                        philosophé sur cet art.</note>.</p>
+                <p><pb n="11" xml:id="p11"/>L’<hi rend="sc">Art</hi> de représenter les objets est fort différent
+                    de celui de les faire connoître. Le premier plaît sans instruire ; le
+                    second instruit sans plaire. L’Artiste qui leve un <pb n="12" xml:id="p12"/>plan &amp; prend
+                    des dimensions exactes, ne fait rien de fort agréable à la vue ; aussi son
+                    ouvrage n’est-il recherché que par les <pb n="13" xml:id="p13"/>gens de l’art. Mais celui qui
+                    trace une perspective, flatte le peuple &amp; les ignorans, parce qu’il ne leur
+                    fait rien connoître, &amp; leur offre seulement l’apparence de ce qu’ils
+                    connoissoient déjà. Ajoûtez que la mesure, nous donnant successivement une
+                    dimension &amp; puis l’autre, nous instruit lentement de la vérité des
+                    choses ; au lieu que l’apparence nous offre le tout à la fois, &amp;, sous
+                    l’opinion d’une plus grande capacité d’esprit, flatte le sens en séduisant
+                    l’amour-propre.</p>
+                <p><hi rend="sc">Les</hi> représentations du Peintre, dépourvues de toute réalité,
+                    ne produisent même cette apparence, qu’à l’aide de quelques vaines ombres &amp;
+                    de quelques légers simulacres qu’il fait prendre pour la chose même. S’il y
+                    avoit quelque mélange de vérité dans ses imitations, il faudroit qu’il connût
+                    les objets qu’il imite ; il seroit Naturaliste, Ouvrier, Physicien, avant
+                    d’être Peintre. Mais au contraire, l’étendue de <pb n="14" xml:id="p14"/>son art n’est fondé
+                    que sur son ignorance ; &amp; il ne peint tout, que parce qu’il n’a besoin
+                    de rien connoître. Quand il nous offre un Philosophe en méditation, un Astronome
+                    observant les astres, un Géometre traçant des figures, un Tourneur dans son
+                    attelier, sçait-il pour cela tourner, calculer, méditer, observer les
+                    astres ? Point du tout ; il ne sçait que peindre. Hors d’état de
+                    rendre raison d’aucune des choses qui sont dans son tableau, il nous abuse
+                    doublement par ses imitations, soit en nous offrant une apparence vague &amp;
+                    trompeuse, dont ni lui ni nous ne sçaurions distinguer l’erreur ; soit en
+                    employant des mesures fausses pour produire cette apparence, c’est-à-dire, en
+                    altérant toutes les véritables dimensions selon les loix de la
+                    perspective : de sorte que, si le sens du spectateur ne prend pas le change
+                    &amp; se borne à voir le tableau tel qu’il est, il se trompera sur tous les
+                    rapports des choses qu’on lui présente, ou les <pb n="15" xml:id="p15"/>trouvera tous faux.
+                    Cependant l’illusion sera elle que les simples &amp; les enfans s’y méprendront,
+                    qu’ils croiront voir des objets que le Peintre lui-même ne connoît pas, &amp;
+                    des ouvriers à l’art desquels il n’entend rien.</p>
+                <p><hi rend="sc">Apprenons</hi> par cet exemple à nous défier de ces gens
+                    universels, habiles dans tous les arts, versés dans toutes les sciences, qui
+                    sçavent tout, qui raisonnent de tout, &amp; semblent réunir à eux seuls les
+                    talens de tous les mortels. Si quelqu’un nous dit connoître un de ces hommes
+                    merveilleux, assurons-le, sans hésiter, qu’il est la dupe des prestiges d’un
+                    charlatan, &amp; que tout le sçavoir de ce grand Philosophe n’est fondé que sur
+                    l’ignorance de ses admirateurs, qui ne sçavent point distinguer l’erreur d’avec
+                    la vérité, ni l’imitation d’avec la chose imitée.</p>
+                <p><hi rend="sc">Ceci</hi> nous mène à l’examen des <pb n="16" xml:id="p16"/>Auteurs tragiques
+                    &amp; d’Homere leur chef<note n="*" place="bottom">C’étoit le sentiment commun
+                        des Anciens, que tous leurs Auteurs tragiques n’étoient que les copistes
+                        &amp; les imitateurs d’Homère. Quelqu’un disoit des Tragédies
+                        d’Euripide : <quote><hi rend="i">Ce sont les restes des festins d’Homère,
+                            qu’un convive emporte chez lui.</hi></quote></note>. Car plusieurs assurent
+                    qu’il faut qu’un Poëte tragique sçache tout ; qu’il connoisse à fond les
+                    vertus &amp; les vices, la politique &amp; la morale, les loix divines &amp;
+                    humaines, &amp; qu’il doit avoir la science de toutes les choses qu’il traite,
+                    ou qu’il ne fera jamais rien de bon. Cherchons donc si ceux qui relevent la
+                    Poësie à ce point de sublimité ne s’en laissent point imposer aussi par l’art
+                    imitateur des Poëtes ; si leur admiration pour ces immortels ouvrages ne
+                    les empêche point de voir combien ils sont loin du vrai, de sentir que ce sont
+                    des couleurs sans consistance, de <pb n="17" xml:id="p17"/>vains fantômes, des ombres ;
+                    &amp; que, pour tracer de pareilles images, il n’y a rien de moins nécessaire
+                    que la connoissance de la vérité : ou bien, s’il y a dans tout cela quelque
+                    utilité réelle, &amp; si les Poëtes sçavent en effet cette multitude de choses
+                    dont le Vulgaire trouve qu’ils parlent si bien.</p>
+                <p><hi rend="sc">Dites-moi</hi>, mes amis, si quelqu’un pouvoit avoir à son choix le
+                    portrait de sa maitresse ou l’original, lequel penseriez-vous qu’il
+                    choisît ? Si quelque Artiste pouvoit faire également la chose imitée ou son
+                    simulacre, donneroit-il la préférence au dernier, en objets de quelque prix,
+                    &amp; se contenteroit-il d’une maison en peinture, quand il pourroit s’en faire
+                    une en effet ? Si donc l’Auteur tragique sçavoit réellement les choses
+                    qu’il prétend peindre, qu’il eût les qualités qu’il décrit, qu’il sçût faire
+                    lui-même tout ce qu’il fait faire à ses personnages, n’exerceroit-il pas <pb
+                        n="18" xml:id="p18"/>leurs talens ? Ne pratiqueroit-il pas leurs vertus ?
+                    N’éleveroit-il pas des monumens à sa gloire plutôt qu’à la leur ? &amp;
+                    n’aimeroit-il pas mieux faire lui-même des actions louables, que se borner à
+                    louer celles d’autrui ? Certainement le mérite en seroit tout autre ;
+                    &amp; il n’y a pas de raison pourquoi, pouvant le plus, il se borneroit au
+                    moins. Mais que penser de celui qui nous veut enseigner ce qu’il n’a pas pu
+                    apprendre ? Et qui ne riroit de voir une troupe imbécille aller admirer
+                    tous les ressorts de la politique &amp; du cœur humain mis en jeu par un étourdi
+                    de vingt ans, à qui le moins sensé de l’assemblée ne voudroit pas confier la
+                    moindre de ses affaires ?</p>
+                <p><hi rend="sc">Laissons</hi> ce qui regarde les talens &amp; les arts. Quand
+                    Homere parle si bien du sçavoir de Machaon, ne lui demandons point compte du
+                    sien sur la même matiere. Ne nous informons point des <pb n="19" xml:id="p19"/>malades qu’il
+                    a guéris, des élèves qu’il a faits en médecine, des chefs-d’œuvre de gravure
+                    &amp; d’orfévrerie qu’il a finis, des ouvriers qu’il a formés, des monumens de
+                    son industrie. Souffrons qu’il nous enseigne tout cela, sans sçavoir s’il en est
+                    instruit. Mais quand il nous entretient de la guerre, du gouvernement, des loix,
+                    des sciences qui demandent la plus longue étude &amp; qui importent le plus au
+                    bonheur des hommes, osons l’interrompre un moment &amp; l’interroger
+                    ainsi : O divin Homere ! nous admirons vos leçons ; &amp; nous
+                    n’attendons, pour les suivre, que de voir comment vous les pratiquez
+                    vous-même ; si vous êtes réellement ce que vous vous efforcez de
+                    paroître ; si vos imitations n’ont pas le troisiéme rang, mais le second
+                    après la vérité, voyons en vous le modèle que vous nous peignez dans vos
+                    ouvrages ; montrez-nous le Capitaine, le Législateur &amp; le Sage, dont
+                    vous nous offrez si hardiment le <pb n="20" xml:id="p20"/>portrait. La Grece &amp; le Monde
+                    entier célebrent les bienfaits des grands hommes qui posséderent ces arts
+                    sublimes dont les préceptes vous coûtent si peu. Lycurgue donna des loix à
+                    Sparte, Charondas à la Sicile &amp; à l’Italie, Minos aux Crétois, Solon à nous.
+                    S’agit-il des devoirs de la vie, du sage gouvernement de la maison, de la
+                    conduite d’un citoyen dans tous les états ? Thalès de Milet &amp; le Scythe
+                    Anacharsis donnerent à la fois l’exemple &amp; les préceptes. Faut-il apprendre
+                    à d’autres ces mêmes devoirs, &amp; instituer des Philosophes &amp; des Sages
+                    qui pratiquent ce qu’on leur a enseigné ? Ainsi fit Zoroastre aux Mages,
+                    Pythagore à ses disciples, Lycurgue à ses concitoyens. Mais vous, Homere, s’il
+                    est vrai que vous ayez excellé en tant de parties ; s’il est vrai que vous
+                    puissiez instruire les hommes &amp; les rendre meilleurs ; s’il est vrai
+                    qu’à l’imitation vous ayez joint l’intelligence &amp; le sçavoir aux
+                    discours ; voyons <pb n="21" xml:id="p21"/>les travaux qui prouvent votre habileté, les
+                    États que vous avez institués, les vertus qui vous honorent, les disciples que
+                    vous avez faits, les batailles que vous avez gagnées, les richesses que vous
+                    avez acquises. Que ne vous êtes-vous concilié des foules d’amis, que ne vous
+                    êtes-vous fait aimer &amp; honorer de tout le monde ? Comment se peut-il
+                    que vous n’ayez attiré près de vous que le seul Cléophile ? encore n’en
+                    fites-vous qu’un ingrat. Quoi ! un Protagore d’Abdère, un Prodicus de Chio,
+                    sans sortir d’une vie simple &amp; privée, ont attroupé leurs contemporains
+                    autour d’eux, leur ont persuadé d’apprendre d’eux seuls l’art de gouverner son
+                    pays, sa famille &amp; soi-même ; &amp; ces hommes si merveilleux, un
+                    Hésiode, un Homere, qui sçavoient tout, qui pouvoient tout apprendre aux hommes
+                    de leur tems, en ont été négligés au point d’aller errans, mendiant par tout
+                    l’univers ; &amp; chantant leurs vers de ville en ville, <pb n="22" xml:id="p22"/>comme
+                    de vils Baladins ! Dans ces siecles grossiers, où le poids de l’ignorance
+                    commençoit à se faire sentir, où le besoin &amp; l’avidité de sçavoir
+                    concouroient à rendre utile &amp; respectable tout homme un peu plus instruit
+                    que les autres, si ceux-ci eussent été aussi sçavans qu’ils sembloient l’être,
+                    s’ils avoient eu toutes les qualités qu’ils faisoient briller avec tant de
+                    pompe, ils eussent passé pour des prodiges ; ils auroient été recherchés de
+                    tous ; chacun se seroit empressé pour les avoir, les posséder, les retenir
+                    chez soi ; &amp; ceux qui n’auroient pu les fixer avec eux, les auroient
+                    plutôt suivis par toute la terre, que de perdre une occasion si rare de
+                    s’instruire &amp; de devenir des Héros pareils à ceux qu’on leur faisoit
+                        admirer<note n="*" place="bottom">Platon ne veut pas dire qu’un homme
+                        entendu pour ses intérêts &amp; versé dans les affaires lucratives, ne
+                        puisse, en trafiquant de la Poësie ou par d’autres moyens, parvenir à une
+                        grande fortune. Mais il est fort différent de s’enrichir &amp; s’illustrer
+                        par le métier de Poëte, ou de s’enrichir &amp; s’illustrer par les talens
+                        que le Poëte prétend enseigner. Il est vrai qu’on pouvoit alléguer à Platon
+                        l’exemple de Tirtée ; mais il se fût tiré d’affaire avec une
+                        distinction, en le considérant plutôt comme Orateur que comme
+                    Poëte.</note>.</p>
+                <p><pb n="23" xml:id="p23"/><hi rend="sc">Convenons</hi> donc que tous les Poëtes, à commencer
+                    par Homere, nous représentent dans leurs tableaux, non le modèle des vertus, des
+                    talens, des qualités de l’ame, ni les autres objets de l’entendement &amp; des
+                    sens qu’ils n’ont pas en eux-mêmes, mais les images de tous ces objets tirées
+                    d’objets étrangers ; &amp; qu’ils ne sont pas plus près en cela de la
+                    vérité, quand ils nous offrent les traits d’un Héros ou d’un Capitaine, qu’un
+                    Peintre qui, nous peignant un Géometre ou un Ouvrier, ne regarde point à l’art
+                    où il n’entend rien, mais seulement aux couleurs &amp; à la figure. Ainsi font
+                    illusion les noms <pb n="24" xml:id="p24"/>&amp; les mots à ceux qui, sensibles au rithme
+                    &amp; à l’harmonie, se laissent charmer à l’art enchanteur du Poëte, &amp; se
+                    livrent à la séduction par l’attrait du plaisir ; en sorte qu’ils prennent
+                    les images d’objets qui ne sont connus, ni d’eux, ni des auteurs, pour les
+                    objets mêmes, &amp; craignent d’être détrompés d’une erreur qui les flatte, soit
+                    en donnant le change à leur ignorance, soit par les sensations agréables dont
+                    cette erreur est accompagnée.</p>
+                <p><hi rend="sc">En</hi> effet, ôtez au plus brillant de ces tableaux le charme des
+                    vers &amp; les ornemens étrangers qui l’embellissent ; dépouillez-le du
+                    coloris de la Poësie ou du style, &amp; n’y laissez que le dessein, vous aurez
+                    peine à le reconnoître : ou, s’il est reconnoissable, il ne plaira
+                    plus ; semblable à ces enfans plutôt jolis que beaux, qui, parés de leur
+                    seule fleur de jeunesse, perdent avec elle toutes leurs graces, sans avoir rien
+                    perdu de leurs traits.</p>
+                <p><pb n="25" xml:id="p25"/><hi rend="sc">Non</hi>-seulement l’imitateur ou l’auteur du simulacre
+                    ne connoît que l’apparence de la chose imitée, mais la véritable intelligence de
+                    cette chose n’appartient pas même à celui qui l’a faite. Je vois dans ce tableau
+                    des chevaux attelés au char d’Hector ; ces chevaux ont des harnois, des
+                    mords, des rênes ; l’Orfevre, le Forgeron, le Sellier ont fait ces diverses
+                    choses, le Peintre les a représentées ; mais, ni l’Ouvrier qui les fait, ni
+                    le Peintre qui les dessine ne sçavent ce qu’elles doivent être : c’est à
+                    l’Ecuyer ou au Conducteur qui s’en sert à déterminer leur forme sur leur
+                    usage ; c’est à lui seul de juger si elles sont bien ou mal, &amp; d’en
+                    corriger les défauts. Ainsi dans tout instrument possible, il y a trois objets
+                    de pratique à considérer, sçavoir l’usage, la fabrique &amp; l’imitation. Ces
+                    deux derniers arts dépendent manifestement du premier, &amp; il n’y a rien
+                    d’imitable dans la nature à quoi l’on ne puisse appliquer les mêmes
+                    distinctions.</p>
+                <p><pb n="26" xml:id="p26"/><hi rend="sc">Si</hi> l’utilité, la bonté, la beauté d’un instrument,
+                    d’un animal, d’une action se rapportent à l’usage qu’on en tire ; s’il
+                    n’appartient qu’à celui qui les met en œuvre d’en donner le modèle &amp; de
+                    juger si ce modèle est fidelement exécuté : loin que l’imitateur soit en
+                    état de prononcer sur les qualités des choses qu’il imite, cette décision
+                    n’appartient pas même à celui qui les a faites. L’imitateur suit l’ouvrier dont
+                    il copie l’ouvrage, l’Ouvrier suit l’Artiste qui sçait s’en servir, &amp; ce
+                    dernier seul apprécie également la chose &amp; son imitation ; ce qui
+                    confirme que les tableaux du Poëte &amp; du Peintre n’occupent que la troisième
+                    place après le premier modèle ou la vérité.</p>
+                <p><hi rend="sc">Mais</hi> le Poëte, qui n’a pour juge qu’un peuple ignorant auquel
+                    il cherche à plaire, comment ne défigurera-t-il pas, pour le flatter, les objets
+                    qu’il lui présente ? Il imitera ce qui paroît beau à la multitude, <pb
+                        n="27" xml:id="p27"/>sans se soucier s’il l’est en effet. S’il peint la valeur, aura-t-il
+                    Achille pour juge ? S’il peint la ruse, Ulysse le reprendra-t-il ?
+                    Tout au contraire Achille &amp; Ulysse seront ses personnages ; Thersite
+                    &amp; Dolon ses spectateurs.</p>
+                <p><hi rend="sc">Vous</hi> m’objecterez que le Philosophe ne sçait pas non plus
+                    lui-même tous les arts dont il parle, &amp; qu’il étend souvent ses idées aussi
+                    loin que le Poëte étend ses images. J’en conviens : mais le Philosophe ne
+                    se donne pas pour sçavoir la vérité, il la cherche ; il examine, il
+                    discute, il étend nos vues, il nous instruit même en se trompant ; il
+                    propose ses doutes pour des doutes, ses conjectures pour des conjectures, &amp;
+                    n’affirme que ce qu’il sçait. Le Philosophe qui raisonne, soumet ses raisons à
+                    notre jugement ; le Poëte &amp; l’imitateur se fait juge lui-même. En nous
+                    offrant ses images, il les affirme conformes à la vérité : <pb n="28" xml:id="p28"/>il
+                    est donc obligé de la connoître, si son art a quelque réalité ; en peignant
+                    tout, il se donne pour tout sçavoir. Le Poëte est le Peintre qui fait
+                    l’image ; le Philosophe est l’Architecte qui leve le plan : l’un ne
+                    daigne pas même approcher de l’objet pour le peindre ; l’autre mesure avant
+                    de tracer.</p>
+                <p><hi rend="sc">Mais</hi> de peur de nous abuser par de fausses analogies, tâchons
+                    de voir plus distinctement à quelle partie, à quelle faculté de notre ame se
+                    rapportent les imitations du Poëte, &amp; considérons d’abord d’où vient
+                    l’illusion de celles du Peintre. Les mêmes corps vus à diverses distances ne
+                    paroissent pas de même grandeur, ni leurs figures également sensibles, ni leurs
+                    couleurs de la même vivacité. Vus dans l’eau, ils changent d’apparence ; ce
+                    qui étoit droit, paroît brisé ; l’objet paroît flotter avec l’onde. A
+                    travers un verre sphérique ou creux tous les rapports des <pb n="29" xml:id="p29"/>traits
+                    sont changé ; à l’aide du clair &amp; des ombres, une surface plane se
+                    releve ou se creuse au gré du Peintre ; son pinceau grave des traits aussi
+                    profonds que le ciseau du Sculpteur, &amp; dans les reliefs qu’il sçait tracer
+                    sur la toile, le toucher démenti par la vue, laisse à douter auquel des deux on
+                    doit se fier. Toutes ces erreurs sont évidemment dans les jugemens précipités de
+                    l’esprit. C’est cette foiblesse de l’entendement humain, toujours pressé de
+                    juger sans connoître, qui donne prise à tous ces prestiges de magie par lesquels
+                    l’Optique &amp; la Mécanique abusent nos sens. Nous concluons, sur la seule
+                    apparence, de ce que nous connoissons à ce que nous ne connoissons pas, &amp;
+                    nos inductions fausses sont la source de mille illusions.</p>
+                <p><hi rend="sc">Quelles</hi> ressources nous sont offertes contre ces
+                    erreurs ? Celles de l’examen &amp; de l’analyse. La suspension de l’esprit,
+                        <pb n="30" xml:id="p30"/>l’art de mesurer, de peser, de compter, sont les secours que
+                    l’homme a pour vérifier les rapports des sens, afin qu’il ne juge pas de ce qui
+                    est grand ou petit, rond ou quarré, rare ou compacte, éloigné ou proche, par ce
+                    qui paroît l’être, mais par ce que le nombre, la mesure &amp; le poids lui
+                    donnent pour tel. La comparaison, le jugement des rapports trouvés par ces
+                    diverses opérations, appartiennent incontestablement à la faculté raisonnante,
+                    &amp; ce jugement est souvent en contradiction avec celui que l’apparence des
+                    choses nous fait porter. Or nous avons vû ci-devant que ce ne sçauroit être par
+                    la même faculté de l’ame, qu’elle porte des jugemens contraires des mêmes choses
+                    considérées sous les mêmes relations. D’où il suit que ce n’est point la plus
+                    noble de nos facultés, sçavoir la raison ; mais une faculté différente
+                    &amp; inférieure, qui juge sur l’apparence, &amp; se livre au charme de
+                    l’imitation. C’est ce que je voulois exprimer <pb n="31" xml:id="p31"/>ci-devant, en disant
+                    que la Peinture, &amp; généralement l’art d’imiter, exerce ses opérations loin
+                    de la vérité des choses, en s’unissant à une partie de notre ame dépourvue de
+                    prudence &amp; de raison, &amp; incapable de rien connoître par elle-même de
+                    réel &amp; de vrai<note n="*" place="bottom">Il ne faut pas prendre ici ce mot
+                        de <hi rend="i">partie</hi> dans un sens exact, comme si Platon supposoit
+                        l’ame réellement divisible ou composée. La division qu’il suppose &amp; qui
+                        lui fait employer le mot de <hi rend="i">parties</hi>, ne tombe que sur les
+                        divers genres d’opérations par lesquelles l’ame se modifie, &amp; qu’on
+                        appelle autrement <hi rend="i">facultés</hi>.</note>. Ainsi l’art d’imiter,
+                    vil par sa nature &amp; par la faculté de l’ame sur laquelle il agit, ne peut
+                    que l’être encore par ses productions, du moins quant au sens matériel qui nous
+                    fait juger des tableaux du Peintre. Considérons maintenant le même art appliqué
+                    par les imitations du Poëte immédiatement au sens interne, c’est-à-dire, à
+                    l’entendement.</p>
+                <p><pb n="32" xml:id="p32"/><hi rend="sc">La</hi> scène représente les hommes agissant
+                    volontairement ou par force, estimant leurs actions bonnes ou mauvaises, selon
+                    le bien ou le mal qu’ils pensent leur en revenir, &amp; diversement affectés, à
+                    cause d’elles, de douleur ou de volupté. Or, par les raisons que nous avons déjà
+                    discutées, il est impossible que l’homme, ainsi présenté, soit jamais d’accord
+                    avec lui-même ; &amp; comme l’apparence &amp; la réalité des objets
+                    sensibles lui en donnent des opinions contraires, de même il apprécie
+                    différemment les objets de ses actions, selon qu’ils sont éloignés ou proches,
+                    conformes ou opposés à ses passions ; &amp; ses jugemens, mobiles comme
+                    elles, mettent sans cesse en contradiction ses desirs, sa raison, sa volonté
+                    &amp; toutes les puissances de son ame.</p>
+                <p><hi rend="sc">La</hi> scène représente donc tous les hommes, &amp; même ceux
+                    qu’on nous donne pour modèles, comme affectés autrement <pb n="33" xml:id="p33"/>qu’ils ne
+                    doivent l’être pour se maintenir dans l’état de modération qui leur convient.
+                    Qu’un homme sage &amp; courageux perde son fils, son ami, sa maitresse, enfin
+                    l’objet le plus cher à son cœur ; on ne le verra point s’abandonner à une
+                    douleur excessive &amp; déraisonnable ; &amp; si la foiblesse humaine ne
+                    lui permet pas de surmonter tout-à-fait son affliction, il la tempérera par la
+                    constance ; une juste honte lui fera renfermer en lui-même une partie de
+                    ses peines ; &amp;, contraint de paroître aux yeux des hommes, il rougiroit
+                    de dire &amp; faire en leur présence plusieurs choses qu’il dit &amp; fait étant
+                    seul. Ne pouvant être en lui tel qu’il veut, il tâche au moins de s’offrir aux
+                    autres tel qu’il doit être. Ce qui le trouble &amp; l’agite, c’est la douleur
+                    &amp; la passion ; ce qui l’arrête &amp; le contient, c’est la raison &amp;
+                    la loi ; &amp; dans ces mouvemens opposés, sa volonté se déclare toujours
+                    pour la derniere.</p>
+                <p><pb n="34" xml:id="p34"/><hi rend="sc">En</hi> effet, la raison veut qu’on supporte patiemment
+                    l’adversité, qu’on n’en aggrave pas le poids par des plaintes inutiles, qu’on
+                    n’estime pas les choses humaines au-delà de leur prix, qu’on n’épuise pas, à
+                    pleurer ses maux, les forces qu’on a pour les adoucir, &amp; qu’enfin l’on songe
+                    quelquefois qu’il est impossible à l’homme de prévoir l’avenir, &amp; de se
+                    connoître assez lui-même pour sçavoir si ce qui lui arrive est un bien ou un mal
+                    pour lui.</p>
+                <p><hi rend="sc">Ainsi</hi> se comportera l’homme judicieux &amp; tempérant, en
+                    proie à la mauvaise fortune. Il tâchera de mettre à profit ses revers mêmes,
+                    comme un joueur prudent cherche à tirer parti d’un mauvais point que le hazard
+                    lui amene ; &amp;, sans se lamenter comme un enfant qui tombe &amp; pleure
+                    auprès de la pierre qui l’a frappé, il sçaura porter, s’il le faut, un fer
+                    salutaire à sa blessure, &amp; la faire saigner pour la guérir. Nous dirons donc
+                    que la <pb n="35" xml:id="p35"/>constance &amp; la fermeté dans les disgraces sont l’ouvrage
+                    de la raison, &amp; que le deuil, les larmes, le désespoir, les gémissemens
+                    appartiennent à une partie de l’ame opposée à l’autre, plus débile, plus lâche,
+                    &amp; beaucoup inférieure en dignité.</p>
+                <p><hi rend="sc">Or</hi> c’est de cette partie sensible &amp; foible que se tirent
+                    les imitations touchantes &amp; variées qu’on voit sur la scène. L’homme ferme,
+                    prudent, toujours semblable à lui-même, n’est pas si facile à imiter ;
+                    &amp;, quand il le seroit, l’imitation, moins variée, n’en seroit pas si
+                    agréable au Vulgaire ; il s’intéresseroit difficilement à une image qui
+                    n’est pas la sienne, &amp; dans laquelle il ne reconnoîtroit ni ses mœurs, ni
+                    ses passions : jamais le cœur humain ne s’identifie avec des objets qu’il
+                    sent lui être absolument étrangers. Aussi l’habile Poëte, le Poëte qui sçait
+                    l’art de réussir, cherchant à plaire au Peuple &amp; aux hommes vulgaires, se
+                    garde bien de leur offrir <pb n="36" xml:id="p36"/>la sublime image d’un cœur maître de lui,
+                    qui n’écoute que la voix de la sagesse ; mais il charme les spectateurs par
+                    des caracteres toujours en contradiction, qui veulent &amp; ne veulent pas, qui
+                    font retenir le Théâtre de cris &amp; de gémissemens, qui nous forcent à les
+                    plaindre, lors même qu’ils font leur devoir, &amp; à penser que c’est une triste
+                    chose que la vertu, puisqu’elle rend ses amis si misérables. C’est par ce moyen,
+                    qu’avec des imitations plus faciles &amp; plus diverses, le Poëte emeut &amp;
+                    flatte davantage les spectateurs.</p>
+                <p><hi rend="sc">Cette</hi> habitude de soumettre à leurs passions les gens qu’on
+                    nous fait aimer, altère &amp; change tellement nos jugemens sur les choses
+                    louables, que nous nous accoutumons à honorer la foiblesse d’ame sous le nom de
+                    sensibilité, &amp; à traiter d’hommes durs &amp; sans sentimens ceux en qui la
+                    sévérité du devoir l’emporte, <pb n="37" xml:id="p37"/>en toute occasion, sur les affections
+                    naturelles. Au contraire, nous estimons comme gens d’un bon naturel ceux qui,
+                    vivement affectés de tout, sont l’éternel jouet des évenemens ; ceux qui
+                    pleurent comme des femmes la perte de ce qui leur fut cher ; ceux qu’une
+                    amitié désordonnée rend injustes pour servir leurs amis ; ceux qui ne
+                    connoissent d’autre regle que l’aveugle penchant de leur cœur ; ceux qui,
+                    toujours loués du sexe qui les subjugue &amp; qu’ils imitent, n’ont d’autres
+                    vertus que leurs passions, ni d’autre mérite que leur foiblesse. Ainsi
+                    l’égalité, la force, la constance, l’amour de la justice, l’empire de la raison,
+                    deviennent insensiblement des qualités haïssables, des vices que l’on
+                    décrie ; les hommes se font honorer par tout ce qui les rend dignes de
+                    mépris ; &amp; ce renversement des saines opinions est l’infaillible effet
+                    des leçons qu’on va prendre au Théâtre.</p>
+                <p><pb n="38" xml:id="p38"/><hi rend="sc">C’est</hi> donc avec raison que nous blâmions les
+                    imitations du Poëte &amp; que nous les mettions au même rang que celles du
+                    Peintre, soit pour être également éloignées de la vérité, soit parce que l’un
+                    &amp; l’autre flattant également la partie sensible de l’ame, &amp; négligeant
+                    la rationnelle, renversent l’ordre de nos facultés, &amp; nous font subordonner
+                    le meilleur au pire. Comme celui qui s’occuperoit dans la République à soumettre
+                    les bons aux méchans, &amp; les vrais chefs aux rebelles, seroit ennemi de la
+                    Patrie, &amp; traître à l’État ; ainsi le Poëte imitateur porte les
+                    dissensions &amp; la mort dans la République de l’ame, en élevant &amp;
+                    nourrissant les plus viles facultés aux dépens des plus nobles, en épuisant
+                    &amp; usant ses forces sur les choses les moins dignes de l’occuper, en
+                    confondant par de vains simulacres le vrai beau avec l’attrait mensonger qui
+                    plaît à la multitude &amp; la grandeur apparente avec la véritable grandeur.</p>
+                <p><pb n="39" xml:id="p39"/><hi rend="sc">Quelles</hi> ames fortes oseront se croire à l’épreuve
+                    du soin que prend le Poëte de les corrompre ou de les décourager ? Quand
+                    Homère ou quelque Auteur tragique nous montre un Héros surchargé d’affliction,
+                    criant, lamentant, se frappant la poitrine : un Achille, fils d’une Déesse,
+                    tantôt étendu par terre &amp; répandant des deux mains du sable ardent sur sa
+                    tête ; tantôt errant comme un forcené sur le rivage, &amp; mêlant au bruit
+                    des vagues ses hurlemens effrayans : un Priam, vénérable par sa dignité,
+                    par son grand âge, par tant d’illustres enfans, se roulant dans la fange,
+                    souillant ses cheveux blancs, faisant retentir l’air de ses imprécations, &amp;
+                    apostrophant les Dieux &amp; les hommes ; qui de nous, insensible à ces
+                    plaintes, ne s’y livre pas avec une sorte de plaisir ? Qui ne sent pas
+                    naître en soi-même le sentiment qu’on nous représente ? Qui ne loue pas
+                    sérieusement l’art de l’Auteur, &amp; ne le regarde pas comme un grand <pb
+                        n="40"/>Poëte, à cause de l’expression qu’il donne à ses tableaux, &amp; des
+                    affections qu’il nous communique ? Et cependant lorsqu’une affliction
+                    domestique &amp; réelle nous atteint nous-mêmes, nous nous glorifions de la
+                    supporter modérément, de ne nous en point laisser accabler jusqu’aux
+                    larmes ; nous regardons alors le courage que nous nous efforçons d’avoir
+                    comme une vertu d’homme, &amp; nous nous croirions aussi lâches que des femmes,
+                    de pleurer &amp; gémir comme ces Héros qui nous ont touchés sur la scène. Ne
+                    sont-ce pas de fort utiles Spectacles que ceux qui nous font admirer des
+                    exemples que nous rougirions d’imiter, &amp; où l’on nous intéresse à des
+                    foiblesses dont nous avons tant de peine à nous garantir de nos propres
+                    calamités ? La plus noble faculté de l’ame, perdant ainsi l’usage &amp;
+                    l’empire d’elle-même, s’accoutume à fléchir sous la loi des passions ; elle
+                    ne réprime plus nos pleurs &amp; nos cris ; elle nous livre à <pb n="41" xml:id="p41"
+                    />notre attendrissement pour des objets qui nous sont étrangers ; &amp;
+                    sous prétexte de commisération pour des malheurs chimériques, loin de s’indigner
+                    qu’un homme vertueux s’abandonne à des douleurs excessives, loin de nous
+                    empêcher de l’applaudir dans son avilissement, elle nous laisse applaudir
+                    nous-mêmes de la pitié qu’il nous inspire ; c’est un plaisir que nous
+                    croyons avoir gagné sans foiblesse, &amp; que nous goûtons sans remords.</p>
+                <p><hi rend="sc">Mais</hi> en nous laissant ainsi subjuguer aux douleurs d’autrui,
+                    comment résisterons-nous aux nôtres ; &amp; comment supporterons-nous plus
+                    courageusement nos propres maux que ceux dont nous n’appercevons qu’une vaine
+                    image ? Quoi ! serons-nous les seuls qui n’aurons point de prise sur
+                    notre sensibilité ? Qui est-ce qui ne s’appropriera pas dans l’occasion ces
+                    mouvemens auxquels il se prête si volontiers ? Qui est-ce qui sçaura
+                    refuser à <pb n="42" xml:id="p42"/>ses propres malheurs les larmes qu’il prodigue à ceux d’un
+                    autre ? J’en dis autant de la Comédie, du rire indécent qu’elle nous
+                    arrache, de l’habitude qu’on y prend de tourner tout en ridicule, même les
+                    objets les plus sérieux &amp; les plus graves, &amp; de l’effet presque
+                    inévitable par lequel elle change en bouffons &amp; plaisans de Théâtre, les
+                    plus respectables des Citoyens. J’en dis autant de l’amour, de la colère, &amp;
+                    de toutes les autres passions, auxquelles devenant de jour en jour plus
+                    sensibles par amusement &amp; par jeu, nous perdons toute force pour leur
+                    résister, quand elles nous assaillent tout de bon. Enfin, de quelque sens qu’on
+                    envisage le Théâtre &amp; ses imitations, on voit toujours, qu’animant &amp;
+                    fomentant en nous les dispositions qu’il faudroit contenir &amp; réprimer, il
+                    fait dominer ce qui devroit obéir ; loin de nous rendre meilleurs &amp;
+                    plus heureux, il nous rend pires &amp; plus malheureux encore, &amp; nous fait
+                    payer aux dépens de <pb n="43" xml:id="p43"/>nous-mêmes le soin qu’on y prend de nous plaire
+                    &amp; de nous flatter.</p>
+                <p><hi rend="sc">Quand</hi> donc, ami Glaucus, vous rencontrerez des enthousiastes
+                    d’Homère ; quand ils vous diront qu’Homère est l’instituteur de la Grèce
+                    &amp; le maître de tous les arts ; que le gouvernement des États, la
+                    discipline civile, l’éducation des hommes &amp; tout l’ordre de la vie humaine
+                    sont enseignés dans ses écrits ; honorez leur zèle ; aimez &amp;
+                    supportez-les, comme des hommes doués de qualités exquises ; admirez avec
+                    eux les merveilles de ce beau génie ; accordez-leur avec plaisir qu’Homère
+                    est le Poëte par excellence, le modèle &amp; le chef de tous les Auteurs
+                    tragiques. Mais songez toujours que les Hymnes en l’honneur des Dieux, &amp; les
+                    louanges des grands hommes, sont la seule espèce de Poësie qu’il faut admettre
+                    dans la République ; &amp; que, si l’on y souffre une fois cette Muse <pb
+                        n="44" xml:id="p44"/>imitative qui nous charme &amp; nous trompe par la douceur de ses
+                    accens, bientôt les actions des hommes n’auront plus pour objet, ni la loi, ni
+                    les choses bonnes &amp; belles, mais la douleur &amp; la volupté : les
+                    passions excitées domineront au lieu de la raison. Les Citoyens ne seront plus
+                    des hommes vertueux &amp; justes, toujours soumis au devoir &amp; à l’équité,
+                    mais des hommes sensibles &amp; foibles qui feront le bien ou le mal
+                    indifféremment, selon qu’ils seront entraînés par leur penchant. Enfin,
+                    n’oubliez jamais qu’en bannissant de notre État les Drames &amp; Pieces de
+                    Théâtre, nous ne suivons point un entêtement barbare, &amp; ne méprisons point
+                    les beautés de l’art ; mais nous leur préferons les beautés immortelles qui
+                    résultent de l’harmonie de l’ame, &amp; de l’accord de ses facultés.</p>
+                <p><hi rend="sc">Faisons</hi> plus encore. Pour nous garantir de toute partialité,
+                    &amp; ne rien <pb n="45" xml:id="p45"/>donner à cette antique discorde qui regne entre les
+                    Philosophes &amp; les Poëtes, n’ôtons rien à la Poësie &amp; à l’imitation de ce
+                    qu’elles peuvent alléguer pour leur défense, ni à nous des plaisirs innocens
+                    qu’elles peuvent nous procurer. Rendons cet honneur à la vérité d’en respecter
+                    jusqu’à l’image, &amp; de laisser la liberté de se faire entendre à tout ce qui
+                    se renomme d’elle. En imposant silence aux Poëtes, accordons à leurs amis la
+                    liberté de les défendre &amp; de nous montrer, s’ils peuvent, que l’art condamné
+                    par nous comme nuisible, n’est pas seulement agréable, mais utile à la
+                    République &amp; aux Citoyens. Écoutons leurs raisons d’une oreille impartiale,
+                    &amp; convenons de bon cœur que nous aurons beaucoup gagné pour nous-mêmes,
+                    s’ils prouvent qu’on peut se livrer sans risque à de si douces impressions.
+                    Autrement, mon cher Glaucus, comme un homme sage, épris des charmes d’une
+                    maitresse, voyant <pb n="46" xml:id="p46"/>sa vertu prête à l’abandonner, rompt ;
+                    quoiqu’à regret, une si douce chaîne, &amp; sacrifie l’amour au devoir &amp; à
+                    la raison ; ainsi, livrés dès notre enfance aux attraits séducteurs de la
+                    Poësie, &amp; trop sensibles peut-être à ses beautés, nous nous munirons
+                    pourtant de force &amp; de raison contre ses prestiges : si nous osons
+                    donner quelque chose au goût qui nous attire, nous craindrons au moins de nous
+                    livrer à nos premieres amours : nous nous dirons toujours qu’il n’y a rien
+                    de sérieux ni d’utile dans tout cet appareil dramatique : en prêtant
+                    quelquefois nos oreilles à la Poësie, nous garantirons nos cœurs d’être abusés
+                    par elle, &amp; nous ne souffrirons point qu’elle trouble l’ordre &amp; la
+                    liberté, ni dans la République intérieure de l’ame, ni dans celle de la société
+                    humaine. Ce n’est pas une légere alternative que de se rendre meilleur ou pire,
+                    &amp; l’on ne sçauroit peser avec trop de soin la délibération qui nous y
+                    conduit. O mes amis ! c’est, je <pb n="47" xml:id="p47"/>l’avoue, une douce chose de se
+                    livrer aux charmes d’un talent enchanteur, d’acquérir par lui des biens, des
+                    honneurs, du pouvoir, de la gloire : mais la puissance, &amp; la gloire,
+                    &amp; la richesse, &amp; les plaisirs, tout s’éclipse &amp; disparoît comme une
+                    ombre, auprès de la justice &amp; de la vertu.</p>
+                <trailer rend="i">FIN</trailer>
+            </div1>
+        </body>
+    </text>
+</TEI>
