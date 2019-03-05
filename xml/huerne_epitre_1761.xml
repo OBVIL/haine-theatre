@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>Epître sur les spectacles</title>
-          <author>Huerne de La Mothe, Charles</author>
+          <author>Huerne de La Mothe, François-Charles</author>
           <editor key="Abel, Valentin (1996-)">Valentin Abel</editor>
         </titleStmt>
         <editionStmt>
@@ -22,10 +22,11 @@
         </editionStmt>
         <publicationStmt>
           <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
-          <date when="2016"/>
+          <date when="2019"/>
+          <idno>http://obvil.paris-sorbonne.fr/corpus/haine-theatre/huerne_epitre_1761/</idno>
           <availability status="restricted">
             <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-              <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+              <p>Copyright © 2019 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
               <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
               <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
               <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
@@ -35,10 +36,10 @@
         </publicationStmt>
         <sourceDesc>
           <bibl>
-            <title>Epitre sur les spectacles</title>
-            <author>Huerne de La Mothe, Charles</author>
-            <biblScope>p. 3-14</biblScope>
-            <date>1761</date>
+            <author>Huerne de La Mothe, François-Charles</author>,
+            <title>Epître sur les spectacles, ou Mon retour à Paris</title>,
+            <pubPlace>Genève</pubPlace>,
+            <date>1761</date>.
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -79,8 +80,8 @@
               <l>Etourdi par les cris, le bruit et les injures,</l>
               <l>Je traverse au milieu de six rangs de voitures,</l>
               <l>Pour demander quel est ce Spectacle nouveau :</l>
-              <l>J’entends crier : <hi rend="i">Entrez, c’est ici Ramponeau<note resp="editor" place="bottom">Jean Ramponeau ou Ramponneau (1724 - 1802), carabetier célèbre de Paris. </note>,</hi></l>
-              <l><hi rend="i">Monseigneur ; Ramponeau :</hi> voyons : <hi rend="i">entrez, mon Prince ;</hi></l>
+              <l>J’entends crier : <hi rend="i">Entrez, c’est ici Ramponeaux<note resp="editor" place="bottom">Jean Ramponeaux, Ramponeau ou Ramponneau (1724 - 1802), cabaretier célèbre de Paris. </note>,</hi></l>
+              <l><hi rend="i">Monseigneur ; Ramponeaux :</hi> voyons : <hi rend="i">entrez, mon Prince ;</hi></l>
               <l>Me dit le harangueur : arrivant de Province</l>
               <l>Je crus tout bonnement que quelque rareté,</l>
               <l>Excitant du Public la curiosité,</l>
@@ -90,16 +91,16 @@
               <l>Figurait sur un banc la Marmotte <hi rend="i">Fanchon<note resp="editor" place="bottom">Chanson écrite par Gabriel-Charles de Lattaignant (1697 - 1779).</note> ;</hi></l>
               <l>La Fille d’Opéra coudoyait la Duchesse,</l>
               <l>Et <hi rend="i">Damis<note resp="editor" place="bottom"> PAS CA FINALEMENT Damis, personnage de Tartuffe, enfant d'Orgon </note></hi> séparait sa femme et sa maîtresse :</l>
-              <l>Mais on lève la toile, et <hi rend="i">Ramponeau</hi> paraît.</l>
+              <l>Mais on lève la toile, et <hi rend="i">Ramponeaux</hi> paraît.</l>
               <l>Un Manant ridicule est le plaisant objet</l>
               <l>Qui rassemble Paris : honteux je me retire,</l>
-              <l>Et laisse mes Badeaux qui se pâmaient de rire.</l>
+              <l>Et laisse mes Badauds qui se pâmaient de rire.</l>
               <l> Du plus beau lieu du monde, aimables Citoyens,</l>
-              <l>Vous verra-t on toujours occupés de <hi rend="i">Pantins ;</hi></l>
+              <l>Vous verra-t-on toujours occupés de <hi rend="i">Pantins ;</hi></l>
               <l>Déserter les <hi rend="i">Français</hi><note resp="author" place="bottom"><p>La Comédie Française.</p></note> pour courir les Parades ?</l>
               <l>Quel plaisir trouvez-vous à ces turlupinades,</l>
               <l>A ces fades discours, à ces sales propos,</l>
-              <l>Que débite un <hi rend="i">Pasquin<note resp="editor" place="bottom"> Pasquin, personnage type de valet au théâtre.</note></hi> monté sur deux traiteaux ?</l>
+              <l>Que débite un <hi rend="i">Pasquin<note resp="editor" place="bottom"> Pasquin, personnage type de valet au théâtre.</note></hi> monté sur deux tréteaux ?</l>
               <l>De <hi rend="i">Vadé<note resp="editor" place="bottom"> Jean-Joseph Vadé (1719/1720 - 1757), chansonnier et dramaturge français, notamment inventeur du genre poissard. </note></hi> voulez-vous enrichissant la plume,</l>
               <l><pb n="5"/>Des proverbes de Halle<note resp="editor" place="bottom"> PAS CA FINALEMENT Adam de la Halle (XIIème - XIIIème siècle), trouvère de langue picarde.</note> augmenter le volume ?</l>
               <l>Que <hi rend="i">Lise<note resp="editor" place="bottom"> PAS CA FINALEMENT Personnage de servante au théâtre.</note></hi> chaque soir, au sortir de son lit,</l>
