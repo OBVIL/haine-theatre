@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dissertation sur les Spectacles, Suivie de Déjanire, Opéra en trois actes,
+                    par M. Rabelleau</title>
+                <author key="Rabelleau (17..-17..)" ref="https://data.bnf.fr/fr/12243083/rabelleau/"
+                    >Rabelleau</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.site/corpus/haine-theatre/rabelleau_dissertation_1769</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Rabelleau, <hi rend="i">Dissertation sur les Spectacles, Suivie de Déjanire,
+                        Opéra en trois actes, par M. Rabelleau</hi>,
+                    <pubPlace>Amsterdam</pubPlace> ; et se trouve à <pubPlace>Lyon</pubPlace> ; et à
+                        <pubPlace>Paris</pubPlace>, <publisher>Marc-Michel Rey</publisher> ;
+                        <publisher>Pierre Cellier</publisher> ; <publisher>Dufour</publisher>,
+                        <date>1769</date>, parties en 1 vol. in-8°, planche. PDF : <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k318902k">Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1769"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1>
+                <pb n="n.p."/>
+                <head>[Gravure]</head>
+                <figure>
+                    <graphic url="http://obvil.github.io/haine-theatre/images/rabelleau_dissertation_1769_img01.jpg"/>
+                    <desc>LOUIS XIV.</desc>
+                    <desc><hi rend="i">Au Camp devant Lille donnant aux Comediens François la
+                            permission de jouer le Tartuffe à Paris.</hi></desc>
+                </figure>
+            </div1>
+            <div1 type="book">
+                <pb n="1" xml:id="p1"/>
+                <head>Dissertation <hi rend="i">Spectacles</hi>.</head>
+                <p><hi rend="big">L</hi>’<hi rend="sc">opinion</hi> &amp; le préjugé sur les
+                    Spectacles, tous deux contradictoires, ont enfin également triomphé. On court en
+                    foule à la Comédie &amp; à l’Opera, mais <hi rend="i">incognito</hi> : la
+                    mode d’y aller pour s’y montrer est passée ; les loges de distinction y
+                    sont cachées, basses, élevées, coupées &amp; grillées ; celles du rang des
+                    premières sont désertes, &amp; jettent sur la scéne un air froid &amp; inanimé,
+                    qui dissipe le prestige &amp; détruit l’illusion. La loge du Roi n’en a plus que
+                    le nom, &amp; la Nation se voit privée plus que jamais de l’espoir du bonheur
+                    d’y contempler quelquefois son Maître.</p>
+                <p>L’opinion qui veut avec raison trouver <pb n="2" xml:id="p2"/>un plaisir innocent
+                    &amp; pur aux belles représentations du Cid &amp; de Cinna, &amp; le préjugé
+                    qui condamne avec non moins de fondement la fréquentation &amp; l’usage habituel
+                    des Spectacles de toute espece, sont-ils donc deux choses adsolument impossibles
+                    à concilier ?</p>
+                <p>Cette importante question fait le sujet d’une prétendue <hi rend="i"
+                        >conversation</hi><note n="(*)" place="bottom" resp="author">Cette <hi rend="i"
+                            >conversation</hi> qui a beaucoup couru manuscrite, est le dernier de
+                        tous les ouvrages qui ont paru pour &amp; contre les Spectacles, qui n’ont
+                        point décidé la question.</note> supposée entre un de Messieurs les
+                    Intendans des menus &amp; l’Abbé G*** Vicaire de S. S. ingénieuse &amp;
+                    séduisante, mais qui par malheur ne prouve rien.</p>
+                <p>Mais avant de rien prononcer sur cette matiere tant discutée, parcourons un
+                    moment l’histoire du Théâtre ; consultons les faits, examinons s’ils se
+                    sont démentis en aucuns tems, &amp; voyons si les sentimens ont réellement
+                    varié, ou bien s’ils ont toujours été les mêmes. La connoissance de cette vérité
+                    pourra peut-être fixer notre incertitude.</p>
+                <p><pb n="3" xml:id="p3"/>Nous remarquons d’abord que la Tragédie tire son origine
+                    chez les Grecs, des fêtes &amp; des cérémonies en l’honneur d’un de leurs Dieux.
+                    L’histoire rapporte qu’Iscarias, d’une contrée de l’Attique, qui avoit appris de
+                    Bacchus l’art de cultiver la vigne, ayant rencontré un bouc dans celles qui lui
+                    appartenoient, l’immola aussitôt à son bienfaiteur, tandis que d’autres, témoins
+                    de ce sacrifice, se mirent à danser autour de la victime, en chantant les
+                    louanges de Bacchus. Ce divertissement devint annuel, ensuite sacrifice public,
+                    cérémonie &amp; spectacle.</p>
+                <p>Les peuples de cette contrée qui donnerent le nom d’Icarie à la montagne &amp; à
+                    la ville qu’ils habitoient, furent les premiers qui immolerent un bouc en
+                    mémoire de celui qui avoit ravagé les vignes d’Iscarias.</p>
+                <p>Vers l’an 3530, la Tragédie, ou <hi rend="i">chanson du bouc ou des
+                        vendanges</hi>, se jouoit encore par une troupe de Musiciens &amp; de
+                    Danseurs, qui chantoient seulement des hymnes à la louange de Bacchus. Thespis
+                    fut le Poëte grec qui inventa le <pb n="4" xml:id="p4"/>premier le Monologue,
+                    &amp; introduisit un personnage, qui récitoit entre deux chants du chœur, un
+                    discours relatif au sujet qui fut appellé <hi rend="i">Episode</hi>.</p>
+                <p>Eschile vint ensuite : il joignit un interlocuteur au personnage de Thespis,
+                    &amp; imagina le dialogue. Sophocle &amp; Euripide, après lui, coururent la même
+                    carriere, &amp; en peu de tems la Tragédie est arrivée au point de perfection où
+                    les Grecs nous l’ont laissée.</p>
+                <p>Phrynicus, Cherilus, Eschylus, &amp; ceux qui composerent dans le goût de
+                    Thespis, ne parlerent plus de Bacchus ; la Tragedie s’écarta de son but,
+                        <hi rend="i">dit Plutarque</hi>, &amp; passa des honneurs rendus à Bacchus,
+                    à des sujets de toute espece. <hi rend="i">Cela est beau</hi>, disoit le peuple,
+                        <hi rend="i">mais on n’y voit rien de Bacchus.</hi></p>
+                <p>Voilà les premiers commencemens de la Tragédie, qu’il ne faut pas confondre avec
+                    les Tragédies satyriques, inventées par Thésée pour amuser les Grecs, dont les
+                    acteurs barbouillés de lie, pour être plus semblables à des Satyres, étoient
+                    promenés dans des chariots, d’où ils <pb n="5" xml:id="p5"/>récitoient des
+                    passages tirés de l’Odissée, ou de l’Illiade d’Homere, ou de son Margites.</p>
+                <p>Eschyle fut le premier qui fit construire un Théâtre solide orné de décorations.
+                    Il masqua le visage des acteurs, il les haussa sur le cothurne, &amp; les
+                    revêtit de robes traînantes, pour leur donner plus de majesté. Sophocle, après
+                    lui, perfectionna les décorations, augmenta les chœurs &amp; inventa la
+                    chaussure blanche pour les danseurs.</p>
+                <p>Alors on vit s’élever à Athènes ces superbes &amp; vastes Théâtres, qui ne
+                    rendoient le son de la voix aux spectateurs, qu’à l’aide des vases d’airain
+                    placés dans les intervalles des amphithéâtres : Théâtres dont nous n’avons
+                    qu’une idée aussi imparfaite que de la musique que les chœurs y exécutoient.</p>
+                <p>Nous savons seulement que rien n’y étoit épargné pour la commodité des
+                    spectateurs. Des voiles d’une étoffe précieuse étendus sur des cordages de soie,
+                    les garantissoient des ardeurs du soleil &amp; du mauvais tems, tandis qu’une
+                    infinité de <pb n="6" xml:id="p6"/>canaux pratiqués dans les statues qui
+                    faisoient le couronnement de l’édifice, répandoient sans cesse une rosée d’eau
+                    parfumée.</p>
+                <p>La perspective des décorations étoit immense &amp; en proportion de l’étendue
+                    réelle du théâtre. Dans l’Œdipe de Sophocle, la scène représente une place
+                    publique, un palais, un autel, des enfans &amp; des vieillards prosternés, &amp;
+                    plus loin, on apperçoit un peuple qui paroît environner les deux temples de
+                    Pallas &amp; l’autel d’Apollon. Dans Electre du même auteur, le Gouverneur
+                    d’Oreste, en arrivant avec lui sur le scène, l’explique en même tems au
+                    spectateur en ces termes : <quote>« Illustre rejetton de ce Prince qui
+                        conduisit l’armée grecque à Troye, fils d’Agamemnon, il vous est donc permis
+                        de revoir l’objet de vos desirs. Vous voyez à droite l’antique ville
+                        d’Argos, le bois de la fille d’Inachus &amp; le Lycée consacré à Apollon. A
+                        gauche c’est le célèbre temple de Junon ; la ville où vous arrivez,
+                        c’est Mycène ; &amp; ce palais, témoin de tant <pb n="7" xml:id="p7"
+                        />de sanglantes aventures, est le palais des descendans de
+                        Pélops »</quote>.</p>
+                <p>Les frais de ces spectacles pompeux étoient toujours faits par l’Etat, qui
+                    pouvoit seul les entreprendre. Ces représentations brillantes étoient données au
+                    peuple, &amp; elles formoient le sujet ou l’occasion d’une fête &amp; d’une
+                    réjouissance publique ; &amp; lorsque l’argent manquoit quelquefois, on
+                    prenoit celui déposé dans le temple de Delphes, &amp; destiné aux dépenses de la
+                    guerre.</p>
+                <p>Les auteurs y représentoient eux-mêmes, &amp; ils n’étoient rien moins que les
+                    derniers de leur nation. Eschyle étoit à la fameufe bataille de marathon, qui
+                    répandit une terreur si grande chez les Perses, qui causa l’étonnement de la
+                    Grece elle-même, &amp; inspira aux Athéniens ces sentimens de grandeur &amp; de
+                    fierté dont Eschyle a rempli toutes ses pieces, &amp; particulierement sa piece
+                        <hi rend="i">des Perses</hi>, qu’il donna sous l’Archonte Menon, huit ans
+                    après le fameux combat naval de Salamines, où commandoit Léonidas à la tète des
+                    Lacédémoniens, secondés des <pb n="8" xml:id="p8"/>Athéniens, sous la conduite
+                    de Thémistocle : combat qui fut suivi des journées célèbres de Platée &amp;
+                    de Mycale, qui délivrerent entierement les Grecs de l’inondation des Perses.
+                    Après la mort d’Eschyle, l’estime des Athéniens fut si grande, qu’elle alla
+                    jusqu’à rendre un decret par lequel l’Etat s’engageoit à fournir le chœur,
+                    c’est-à-dire, les frais des spectacles, toutes les fois que quelqu’un voudroit
+                    représenter une des soixante &amp; dix pieces qu’il a composées. Des
+                    particuliers en firent aussi la dépense. Thémistocle l’entreprit une fois pour
+                    Phrynicus.</p>
+                <p>Sophocle fils d’un Maître de forges de Colone, bourg de l’Attique, éleve
+                    d’Eschyle, étant devenu un citoyen considérable d’Athènes &amp; grand guerrier,
+                    commanda les armées avec Périclès ; &amp; il ne composa ses cent dix sept
+                    pieces, que lorsqu’il voulut se reposer &amp; se délasser des fatigues de la
+                    guerre. Il avoit près de cent ans, lorsqu’il célébra sa patrie par sa derniere
+                    piece d’Œdipe à Colone. Ses enfans l’ayant traduit en Justice <pb n="9"
+                        xml:id="p9"/>comme un vieillard incapable d’administrer ses biens, il
+                    produisit cette piece pour toute réponse. Il joua rarement dans ses pieces, à
+                    cause de son peu de voix : Il fut couronné, dit l’histoire, vingt fois.
+                    L’Etat alors décernoit des couronnes aux Poëtes qui réussissoient le mieux dans
+                    ces compositions.</p>
+                <p>Euripide né à Salamines dans le tems que les Athéniens y célébroient leurs
+                    éclattantes victoires sur les Perses, par des trophées &amp; des hymnes, que
+                    Sophocle, jeune encore, chanta à la tête de la jeunesse Athénienne ;
+                    d’abord disciple du Philosophe Anaxagoras, &amp; ensuite le meilleur des Poëtes
+                    de l’antiquité, fut longtems le confident &amp; le favori d’Archélaüs Roi de
+                    Macédoine. Il remporta quinze victoires tragiques. Après sa mort, les
+                    Macédoniens refuserent son corps aux Athéniens &amp; lui firent élever un
+                    tombeau magnifique.</p>
+                <p>Enfin Aristodème, un des premiers acteurs grecs, fut envoyé en ambassade à
+                    Philippe.</p>
+                <p>Ces auteurs &amp; ces acteurs ne <pb n="10" xml:id="p10"/>composoient point,
+                    &amp; ne jouoient point toujours, puisqu’ils exerçoient des emplois distingués
+                    dans la République : c’est pourquoi c’est mal s’exprimer, que de dire que
+                    l’état de Comédien ait jamais été honoré en Grece ; c’est la même chose que
+                    si l’on disoit qu’il fût un tems où cette profession fut respectée à Rome, parce
+                    que l’Empereur Néron monta sur le théâtre, les cheveux chargés de poudre d’or,
+                    pour ressembler à Apollon, y joua de la lyre &amp; récita des vers de sa
+                    composition, que ses soldats faisoient applaudir à coups d’épée.</p>
+                <quote><p><quote><hi rend="i">Les Comédiens</hi><seg type="exquote">, dit M. Rousseau,</seg><note n="(*)"
+                            place="bottom" resp="author">Lettre à M. Dalembert.</note>
+                        <hi rend="i">étoient chargés de certaines fonctions publiques, soit dans
+                            l’Etat, soit en ambassade… Ils ne comptoient point du coin de l’œil les
+                            gens qu’ils voyoient passer la porte, pour être sûrs de leur soupé,
+                            &amp;c.</hi></quote></p></quote>
+                <p> Et il tire delà la conséquence que la <hi rend="i">profession</hi> de Comédien
+                    étoit un <hi rend="i">métier</hi> honoré à Athènes : rien n’est plus
+                    inconséquent. On exerce quelquefois divers talens, on <pb n="11" xml:id="p11"
+                    />remplit différentes fonctions, mais jamais deux <hi rend="i">métiers</hi>, ni
+                    deux <hi rend="i">professions</hi> en même tems. De même en parlant des
+                    Spectacles des Romains, <quote><hi rend="i">la jeunesse de Rome</hi><seg type="exquote">, dit-il </seg><hi
+                            rend="i">représentoit publiquement à la fin des grandes pieces les
+                            Attellanes ou exodes sans déshonneur ; l’opprobre tomboit moins sur
+                            la représentation même, que sur l’état où l’on en faisoit
+                            métier</hi></quote>. Il falloit dire que <hi rend="i">l’opprobre</hi>
+                    tomboit seulement sur l’état &amp; sur l’occupation habituelle du Comédien,
+                    &amp; point du tout sur l’exercice d’un moment de la jeunesse. Mais quand on a
+                    une fois avancé un systême, il faut bien le suivre, &amp; pour soutenir que les
+                    Spectacles sont absolument mauvais en eux-mêmes, dans leur essence &amp; dans
+                    leur principe, il faut le démontrer, bien ou ou mal.</p>
+                <p>Passons maintenant dans cette superbe ville de Rome, &amp; voyons pourquoi les
+                    Comédiens y furent meprisés.</p>
+                <p>Les Romains ne connurent que très-tard les pieces de théâtre ; ce ne fut que
+                    du tems d’Auguste que la Tragédie parut avec éclat. Occupés d’abord de leurs <pb
+                        n="12" xml:id="p12"/>premieres conquêtes sur les Carthaginois, &amp; de
+                    leurs dissentions domestiques, les Romains n’aimoient alors que les fêtes où ils
+                    célébroient leurs triomphes par des jeux où le sang des hommes &amp; des animaux
+                    étoit répandu ; &amp; leurs mœurs ne devinrent plus douces, qu’après que,
+                    vainqueurs des Perses &amp; des Grecs, ils firent passer dans Rome toutes les
+                    richesses de l’Asie. La scène ne fut plus ensanglantée, &amp; l’on y put rire
+                    sans crime. On construisit des Spectacles sur le modele de ceux des Grecs.
+                    Plaute &amp; Térence parurent, &amp; donnerent les premiers des Comédies
+                    régulieres tirées de celles des auteurs grecs, d’Aristophane &amp; de Ménandre.
+                    Ils furent aussi les derniers Poëtes comiques connus. Sous Auguste l’Empire
+                    devenu tranquille, produisit des chefs-d’œuvres de poésie, mais d’un genre
+                    étranger à la représentation. Roscius, acteur célèbre dont Cicéron fait l’éloge,
+                    trouvoit ses rôles dans Plaute &amp; dans Térence. Esope, acteur tragique,
+                    jouoit dans Œdipe de Jules-César, dans Médée par Ovide, &amp; dans Ajax par
+                    Auguste, <pb n="13" xml:id="p13"/>les trois seules pieces connues, celles de
+                    Seneque n’ayant jamais été jouées.</p>
+                <p>Ces pieces n’étoient données au peuple, que dans des jours de fêtes publiques,
+                    ainsi que leurs titres l’annoncent. Les intermedes étoient remplis par des
+                    flûtes, &amp; la Musique étoit vive ou sérieuse, légere ou grave, &amp; relative
+                    non seulement au sujet, mais encore aux jours de représentation.</p>
+                <p>La Comédie des Adelphes de Térence traduite de Ménandre, fut représentée aux Jeux
+                    funébres de L. Emilius Paulus, avec les flûtes Lydiennes ; flûtes qui
+                    avoient le son grave.</p>
+                <p>Les flûtes Tyriennes avoient le son aigu, &amp; étoient réservées pour les jours
+                    de réjouissance.</p>
+                <p>Le Phormion &amp; l’Hécire furent jouées aux Fêtes Romaines, l’Andrienne fut
+                    donnée aux Jeux de la grande Déesse, la Déesse Cybele, l’an de la fondation de
+                    Rome 587, par ordre des Ediles Fulvie &amp; Gabion chargés du soin des villes,
+                    des vivres &amp; des jeux solemnels, par la <pb n="14" xml:id="p14"/>troupe de
+                    L. Ambivius Turpio &amp; de L. Attilius de Preneste.</p>
+                <p>On voit pourquoi ceux qui montoient sur le théâtre à Rome, étoient tenus pour
+                    infames ; c’étoient des troupes d’esclaves gagés par différens maîtres, aux
+                    ordres des Ediles. Les Auteurs eux-mêmes faisoient corps avec eux, ainsi qu’on
+                    le remarque dans les prologues de chaque piece qui sont destinés à demander
+                    l’indulgence du public pour la piece nouvelle, &amp; à justifier l’auteur des
+                    critiques des autres. Ils composoient à prix d’argent, &amp; vendoient leurs
+                    pieces aux Ediles ; Térence vendit sa comédie de l’<hi rend="i"
+                        >Eunuque</hi> 8000 pieces.</p>
+                <p>Laberinus, Chevalier Romain, ayant été engagé par César à monter sur le théâtre à
+                    l’âge de soixante ans, pour y réciter ses mimes, se plaignit ensuite de son
+                    malheur amérement. <quote>« Après avoir passé soixante ans<seg type="exquote">, <hi rend="i"
+                            >dit-il</hi>,</seg> sans aucune tache, je suis sorti de ma maison Chevalier
+                        Romain, &amp; j’y rentrerai Comédien ; j’ai vécu trop d’un
+                        jour »</quote>.</p>
+                <p>Les Comédies grecques &amp; latines, <pb n="15" xml:id="p15"/>bien plus que
+                    l’histoire, nous donnent une connoissance plus exacte des mœurs &amp; des usages
+                    des Anciens. Dans presque toutes ces Comédies les amans font présent à leurs
+                    maîtresses d’une esclave qui fait chanter &amp; jouer de différens
+                    instrumens : c’est ainsi que de tous tems les malheureux, du sein de la
+                    misere, ont cherché par des divertissemens à dissiper les ennuis souvent
+                    attachés aux plus grandes richesses, &amp; à mériter les faveurs de ceux dont
+                    ils attendoient des secours.</p>
+                <p>Il est encore à remarquer que ce n’étoit point précisément l’Etat entier, comme
+                    chez les Grecs, qui faisoit la dépense des Spectacles ; mais seulement la
+                    Ville, qui en donnoit le soin aux Ediles. C’est sans doute aussi la raison
+                    pourquoi ils n’étoient point exécutés avec la même magnificence. Ce n’étoit pas
+                    cependant que l’Etat ne pût subvenir à ces dépenses, ni que de simples
+                    particuliers, comme chez les Grecs, ne pussent les entreprendre ; &amp;
+                    Cicéron, en se plaignant de l’extrême inégalité des richesses de son <pb n="16"
+                        xml:id="p16"/>tems<note n="(a)" place="bottom" resp="author"><p><quote><hi rend="i"
+                                    >Patimur multos jam annos &amp; silemus, cùm videamus ad paucos
+                                    homines omnes omnium nationum pecunias pervenisse, quod eò magis
+                                    ferre æquo animo atque concedere videmur, quia nemo istorum
+                                    dissimulat, nemo laborat, ut obscura sua cupiditas esse
+                                    videatur.,.. Ubi pecunias exterarum nationum esse arbitramini,
+                                    quibus nunc omnes egent ; cùm Athenas, Pergamum, Cyzicum,
+                                    Miletum, Chium, Samum ; totam denique Asiam, Achaiam,
+                                    Græciam, Siciliam, jam in paucis villis inclusas esse
+                                    videatis.</hi> <bibl>(Cic.)</bibl></quote></p></note>, ne permet pas d’en douter.</p>
+                <p>Sous le regne de Néron, les choses changerent encore de face en dégénérant. On ne
+                    vit plus que meurtres &amp; brigandages dans les mœurs, &amp; le tableau ne fut
+                    plus de nature à pouvoir être imité sur le théâtre. Les Romains passerent en peu
+                    de tems d’une vertu cruelle à des crimes féroces. Les peuples du nord
+                    profiterent des dissentions civiles ; ils subjuguerent l’Europe &amp;
+                    l’Affrique, &amp; acheverent d’étouffer les lettres &amp; les arts.</p>
+                <p>Constantin devenu chrétien, ayant transporté ensuite le siege de l’Empire à <pb
+                        n="17" xml:id="p17"/>Bisance, aujourd’hui Constantinople, &amp; laissé le
+                    Pape seul dans Rome, cette ville fameuse ne se trouva plus composée alors que
+                    d’un peuple toûjours avide d’amusemens, mais qui n’avoit plus qu’un foible
+                    souvenir des jeux du Cirque, &amp; couroit avec empressement aux farces de
+                    Genest, converti à la foi, en contrefaisant les cérémonies du batême ;
+                    &amp; aux représentations de quelques mauvaises pantomimes au coin des rues,
+                    contre lesquelles les Peres &amp; les Conciles s’éleverent, &amp; implorerent
+                    l’autorité des Souverains.</p>
+                <p>Les Poëtes Provençaux, ces célèbres Trouvers ou Troubadours, qui coururent
+                    d’abord les Provinces en chantant<note n="(a)" place="bottom" resp="author">Ces chants alors
+                        devoient être fort peu de chose, puisque ce ne fut que vers l’année 1026,
+                        qu’un Moine d’Arezzo, nommé <hi rend="i">Gui</hi>, inventa l’harmonie &amp;
+                        la Musique à plusieurs parties : avant lui on ne
+                        connoissoit que la mélodie ou le chant. Ce fut lui qui imagina les lignes,
+                        la gamme &amp; les six syllabes <hi rend="i">ut, re, mi, fa, sol,
+                        la</hi> ; qu’il prit de l’Hymne de S. Jean, <hi rend="i">Ut queant
+                            laxis</hi>. Le <hi rend="i">si</hi>, ne fut ajouté qu’après, par un
+                        François nommé <hi rend="i">Lemaire</hi>.</note> les Cantiques spirituels
+                    des Pélérins <pb n="18" xml:id="p18"/>de Jérusalem, de S. Jacques, de S. Remi,
+                    &amp; du mont S. Michel, furent ceux qui se sentirent moins de la barbarie
+                    générale.</p>
+                <p>Les plus connus sont Arnauld Daniel de Tarascon, qui vivoit en 1189 ;
+                    Anselme Faydit fils d’un Bourgeois d’Avignon, pensionné du Légat, &amp; ensuite
+                    attaché au service de Richard Cœur-de-lion Duc de Normandie, en 1199 ;
+                    Brunet, Gentilhomme de la ville de Rhodez, pensionné du Roi d’Arragon &amp; du
+                    Dauphin d’Auvergne, en 1223 ; Usez &amp; ses freres Seigneurs du lieu de
+                    leur nom, aux gages de Reynauld Vicomte d’Albuson, l’an 1230 ; Perdigon,
+                    Gentilhomme du Gevaudan, au service du Dauphin d’Auvergne, &amp; ensuite au
+                    Comte de Provence, en 1269 ; &amp; Bourneilh, gagé par différens Princes,
+                    en 1278.</p>
+                <p>On met aussi au rang des Poëtes Provençaux, l’Empereur Fréderic Barberousse,
+                    connu par les vers qu’il fit en 1162, <pb n="19" xml:id="p19"/>lorsque Raymond
+                    Berenger, dit le jeune, vint à Turin lui rendre hommage des Comtés de Provence
+                    &amp; de Forcalquier, suivi d’une Cour nombreuse de Gentilshommes &amp; de beaux
+                    esprits, auxquels il distribua la récompense des Poëtes de ce tems, qui
+                    consistoit en armes &amp; en chevaux. On compte encore Philippe V, dit le Long,
+                    Roi de France, dont tous les Officiers, à l’exemple du Prince, étoient
+                    Poëtes.</p>
+                <p>Les anciens Poëtes Provençaux sont ceux qui ont amené la Poésie en France.
+                    Jodelle vint ensuite, &amp; fut le premier Poëte François qui inventa la mesure
+                    des vers ; &amp; un autre après, le Poëte Leon, imagina la rime.</p>
+                <p>Nos vers servirent d’abord aux anciens Tournois &amp; Carousels<note n="(a)"
+                        place="bottom" resp="author"><quote><p>« Les Tournois &amp; Carousels ont succédé aux
+                                    <hi rend="i">Cours plenieres</hi> de nos anciens Rois. C’est
+                                ainsi qu’on appelloit ces fameuses assemblées, où, sur l’invitation
+                                du Roi,<note n="*" place="bottom" resp="author">Ann. 768.</note> tous les
+                                Seigneurs étoient obligés de se trouver. On les tenoit deux fois
+                                l’an, à Noël &amp; à Pâques. Le sujet étoit, pour l’ordinaire, un
+                                mariage ou quelques grandes réjouissances ; la durée, une
+                                semaine, le lieu, tantôt le Palais du Prince, tantôt une Ville
+                                célebre, quelquefois une pleine campagne, toujours un endroit vaste
+                                &amp; capable de loger commodément toute la Noblesse du Royaume. La
+                                cérémonie ouvroit par une Messe solemnelle. Le Célébrant, avant
+                                l’Epitre, mettoit la couronne sur la tête du Roi, qui ne la quittoit
+                                qu’en se couchant.<note n="*" place="bottom" resp="author">Ducange,
+                                    Dissert. 4. sur le regne de S. Louis.</note> Le Monarque,
+                                durant tout le tems de la fête, ne mangeoit qu’en public. Les
+                                Evêques &amp; les Ducs les plus distingués avoient l’honneur d’être
+                                assis à sa table. Il y en avoit une seconde pour les Abbés, les
+                                Comtes &amp; autres Seigneurs. La profusion plus que la délicatesse
+                                régnoit sur l’une &amp; sur l’autre. Chaque service étoit relevé au
+                                son des flûtes &amp; des hautbois. Lorsqu’on servoit l’entremets,
+                                vingt Hérauts d’armes tenant chacun à la main une riche coupe,
+                                crioient trois fois <hi rend="i">Largesse du plus puissant des
+                                    Rois</hi>, &amp; semoient l’or &amp; l’argent, que le peuple
+                                ramassoit avec de grandes acclamations. Mille fanfares annonçoient
+                                &amp; célébroient cette distribution.</p>
+                            <p>» Les divertissemens de l’après-dîner étoient la pêche, le jeu, la
+                                chasse, les danseurs de corde, les plaisantains ou farceurs, les
+                                jongleurs ou vielleurs, &amp; les pantomimes. Ces derniers sur-tout
+                                excelloient dans leur art. Ils avoient un talent admirable pour
+                                instruire des chiens, des ours &amp; des singes. Ils les formoient à
+                                imiter toutes sortes de gestes, d’actions, de postures, &amp; leur
+                                faisoient jouer une partie de leurs pièces.</p>
+                            <p>» Ces Spectacles, toujours très-coûteux pour le Prince, n’étoient pas
+                                un des moindres amusemens de ces assemblées. La fête, sans eux, eût
+                                paru peu agréable. Tel étoit le goût du tems. On peut dire que le
+                                regne des Carlovingiens fut celui des Cours Plénieres. Elles étoient
+                                magnifiques sous Charlemagne. On y voyoit arriver de toute la vaste
+                                étendue de son Empire, des Ducs &amp; des Comtes, qui eux-mêmes
+                                étoient suivis d’une Cour brillante, &amp; faisoient une dépense
+                                égale à celle des Rois.</p>
+                            <p>» Cette magnificence alla toujours en décroissant, depuis Charles le
+                                Simple. Louis d’Outremer son fils, &amp; Lothaire son petit-fils
+                                avoient si peu de revenu, qu’ils ne se trouverent pas en etat de
+                                donner ces superbes fêtes. Hugues Capet les rétablit ; Robert
+                                les continua ; S. Louis, tout modeste qu’il étoit, y portoit la
+                                somptuosité jusqu’à une espèce d’excès ; Charles VII les
+                                abolit. Les guerres contre les Anglois lui servirent de
+                                prétexte : la vraie raison fut qu’elles étoient extrêmement à
+                                charge à l’Etat. La Noblesse s’y ruinoit au jeu ; le Monarque y
+                                épuisoit ses trésors. Chaque fois il étoit obligé d’habiller ses
+                                Officiers, ceux de la Reine &amp; des Princes. De-là est venu le
+                                mot, <hi rend="i">livrée</hi>, parce qu’on <hi rend="i">livroit</hi>
+                                ces habits aux frais du Roi…. Il y eut cependant toujours des fêtes
+                                à la Cour ; mais avec plus de galanteries, de politesse &amp;
+                                de goût : on n’y retrouva ni cette grandeur, ni cette majesté
+                                qui éclattoient dans les anciennes Cours
+                            plénieres ».</p></quote>
+                        <p>(<bibl><hi rend="i">Histoire de France de l’Abbé Velly, seconde race,
+                                    Pepin</hi>.</bibl>)</p></note> ; &amp; ensuite, après le
+                    dernier en 1560, à Orléans, à <pb n="20" xml:id="p20"/>l’avénement de
+                    Charles IX. au Trône, où le Prince de la Roche-sur-Yon fut tué, <pb n="21"
+                        xml:id="p21"/>on ne les employa plus qu’aux fêtes &amp; aux bals qui les
+                    suivirent.</p>
+                <p>On vit en 1564, par ordre de la Reine, <pb n="22" xml:id="p22"/>à Fontainebleau,
+                    le Spectacle d’une Comédie de laquelle étoient le Duc d’Anjou, Marguerite de
+                    France, le Prince de Condé, le Duc de Guise, la Duchesse de Nevers, la Duchesse
+                    d’Usez, le Duc de Retz, Villequier, Castelnau, &amp; <pb n="23" xml:id="p23"
+                    />autres Seigneurs ; après laquelle Castelnau récita devant le Roi des vers
+                    de Ronsard, sur le fruit qu’on peut tirer des Tragédies.</p>
+                <p>En 1573, à l’occasion de l’élection du Duc d’Anjou à la Couronne de Pologne, ou
+                    vit aux Thuilleries un banquet donné par la Reine mere, avec des appareils de
+                    grands frais de théâtres, salles, décorations &amp; divertissemens de toute
+                    espèce.</p>
+                <p>Sous Henri III en 1581, les nôces du Duc de Joyeuse &amp; de Marguerite de
+                    Lorraine belle-sœur du Roi, furent célébrées par des fêtes, festins, mascarades,
+                    courses, combats en armes, tant à la barriere comme en lice, &amp; des ballets à
+                    pied &amp; à cheval ; les paroles composées par Ronsard, &amp; la Musique
+                    de Baïf. On donna dans le Louvre le ballet de Circé, dont la Musique est de
+                    Beaulieu musicien de la Reine, &amp; les paroles de M. Daubigné : la Reine,
+                    la Princesse de Lorraine, les Duchesses de Mercœur, de Guise, de Nevers &amp;
+                    d’Aumale, y danserent sous la figure des Nayades.</p>
+                <p>Sous Henri IV, on exécuta devant le <pb n="24" xml:id="p24"/>Roi deux
+                    magnifiques ballets, les 15 Janvier &amp; 12 Février 1595 jour
+                    des Brandons ; tous deux dansés par Madame, sœur du Roi. En 1599, à
+                    l’occasion du mariage de cette Princesse avec le Duc de Lorraine, fut exécuté un
+                    grand ballet divisé en six entrées, où danserent le Prince de Rohan, le Marquis
+                    de Cœuvre, le Duc de Nemours &amp; le Comte d’Auvergne. En 1610 on vit celui du
+                    combat de la barriere, dansé à l’arsenal devant le Roi, le jour de Ste. Barbe,
+                    par le Prince de Rohan, le Marquis de Rosny, M<hi rend="sup">rs</hi>. de Termes,
+                    Marcillac &amp; autres Seigneurs.</p>
+                <p>Sous Louis XIII, on vit en 1614 le ballet de Dreux dansé par les petits
+                    Seigneurs, lors auprès du Roi jeune encore : en 1515, le triomphe de
+                    Minerve, ballet dansé par Madame sœur aînée du Roi, dans la grande salle de
+                    Bourbon, avant son départ pour l’Espagne ; dans lequel Malherbe a composé
+                    le récit de berger, <hi rend="i">houlette de Louis</hi>, &amp; les paroles de
+                    l’air, <hi rend="i">cette Anne si belle, &amp;c.</hi> En 1618, le grand ballet
+                    du Roi, dansé par S. M. à seize entrées : en 1619, celui dansé en la salle
+                        <pb n="25" xml:id="p25"/>du Louvre, sur l’aventure de Tancrede en la forêt
+                    enchantée ; &amp; en 1625, celui des Fées des forêts de S. Germain, dansé
+                    par le Roi dans la salle du Louvre.</p>
+                <p>Enfin on vit sous Louis XIV en 1646, le ballet dansé à Essaune le
+                    18 août, dans la maison du Sr. Hesselin, Maitre de la chambre aux deniers
+                    du Roi, à la réception de la Reine d’Angleterre, du Prince de Galles son fils,
+                    &amp; du Prince Robert son neveu : en 1651, le ballet de Cassandre, le
+                    premier où le Roi dansa au Palais Cardinal : en 1654, le ballet des noces
+                    de Thétis &amp; Pélée, Comédie Italienne dansée par le Roi : en 1656, le
+                    ballet de Psiché à vingt-quatre entrées, dansé par le Roi, dont les paroles sont
+                    de Benserade : en 1659, la Pastorale de l’Abbé Perrin mise en musique par
+                    Lambert, Surintendant de la musique de la Reine mere ; premier Opéra
+                    françois, d’abord joué à Issi &amp; ensuite à Vincennes, par ordre du Cardinal,
+                    devant le Roi, &amp; dans lequel on entendit pour la premiere fois depuis les
+                    Grecs &amp; les Romains, un concert de flûtes : en 1663, <pb n="26"
+                        xml:id="p26"/>le ballet des arts : en 1664, le mariage forcé, comédie,
+                    ballet dansé par le Roi au Louvre : en 1665, le ballet royal de la
+                    naissance de Vénus, dansé par le Roi au Palais Royal : en 1666, le ballet
+                    des Muses dansé par le Roi à S. Germain ; les paroles de Benserade, à la
+                    fin duquel on représenta les deux premiers actes de Mélicerte &amp; le Sicilien,
+                    ou l’amour peintre : en 1669, le ballet de Flore de Benserade, la Princesse
+                    d’Elide &amp; Pourceaugnac : en 1670, le divertissement royal ou les amans
+                    magnifiques, le bourgeois gentilhomme, la Bérenice de Racine, dont le sujet lui
+                    fut donné par Madame Henriette d’Angleterre : en 1671, Psiché
+                    tragi-comédie, composée par ordre du Roi par Moliere, Corneille, Quinault &amp;
+                    Lulli, exécutée dans la salle des Thuilleries construite exprès : en 1672,
+                    Bajazet de Racine, &amp;c.</p>
+                <p>Ce sont ces Fêtes que l’on doit regarder comme les véritables Spectacles qui ont
+                    succédé en France à ceux des Grecs &amp; des Romains, &amp; non les Spectacles
+                    particuliers qui s’établirent à Paris sous <pb n="27" xml:id="p27"/>differentes
+                    formes en éprouvant divers changemens, &amp; qui forment aujourd’hui le sujet de
+                    tant de disputes littéraires.</p>
+                <p>Des bourgeois de Paris ayant choisi le bourg de S. Maur en 1398, pour y
+                    représenter les mysteres de la Passion, le Prévôt de Paris leur fit aussitôt
+                    défenses de jouer sans le congé du Roi, &amp; sous peine de forfaire contre
+                    lui ; mais s’étant pourvûs à la Cour, Charles V voulut voir leur
+                    Spectacle, &amp; le 4 Décembre 1402, il leur donna des Lettres
+                    Patentes pour leur établissement à Paris, à l’hôtel de la Trinité. Ils érigerent
+                    leur Société en Confrérie : ils jouerent les Fêtes &amp; Dimanches
+                    seulement, &amp; l’heure des Vêpres fut avancée. En 1548, sous François I.
+                    le Parlement par arrêt du 19 Novembre, leur fit défenses de représenter
+                    aucuns mysteres, &amp; de ne plus donner que des sujets profanes licites &amp;
+                    honnêtes : alors deux maîtres maçons, un courtiers de chevaux, un maître
+                    paveur &amp; trois Huissiers étoient les maîtres &amp; gouverneurs de la
+                    Confrérie de la Passion, &amp; propriétaires de l’hôtel de Bourgogne. <pb n="28"
+                        xml:id="p28"/>Ils se retirerent &amp; louerent leur privilège &amp; leur
+                    hôtel à une troupe de Comédiens, qui se forma sous le titre des <hi rend="i"
+                        >Enfans sans souci</hi> ; nom qu’ils prirent d’une autre Société, qui,
+                    sous Charles VI, jouoit aux halles dans le même tems que les Clercs de la
+                    basoche représentoient au Palais, jusqu’à ce qu’il leur en fut fait défenses par
+                    le Parlement sous peine de la hart. Ces Enfans sans souci donnerent, à l’exemple
+                    de ceux dont ils avoient pris le nom, des pièces &amp; moralités, la plupart
+                    tirées du livre du <hi rend="i">Jardin de plaisance &amp; fleurs de Rhétorique,
+                        imprimé à Paris en 1547, contenant la doléance de Megere, le fief ou châtel
+                        de joyeuse destinée, le débat du cœur &amp; de l’œil, le débat de l’amoureux
+                        &amp; de la dame, le Parlement d’amour, la complainte d’un prisonnier
+                        d’amour, l’amoureux au purgatoire d’amour, l’amant entrant en la forêt de
+                        tristesse, &amp; la mort &amp; résurrection d’amour, par Marguerite de
+                        Valois, &amp;c.</hi> En 1559, sous Henri II. Jodelle &amp; ceux qui le
+                    suivirent firent jouer leurs pieces sur le théâtre dressé dans les collèges de
+                    Rheims &amp; de <pb n="29" xml:id="p29"/>Boncours ; ensuite ils jouerent à
+                    l’hôtel de Cluni, rue des Mathurins, à lancien Palais de Julien l’Apostat, &amp;
+                    à la Foire S. Germain, jusqu’au 6 Octobre 1584, que le Parlement leur
+                    fit défenses de jouer en quelque lieu que ce soit.</p>
+                <p>En 1600 il s’éleva un nouveau théâtre à l’hôtel d’Argens au Marais, formé d’un
+                    démembrement de l’hôtel de Bourgogne, sous Henri IV, &amp; ensuite sous
+                    Louis XIII. avec le titre de comédiens de l’Elite Royale.</p>
+                <p>En 1608, Louis XIII. ayant révoqué le privilège des Confrères de la Passion,
+                    les Comédiens de l’hôtel de Bourgogne ne payerent plus le droit accoutumé aux
+                    maîtres &amp; gouverneurs de la Confrérie, &amp; prirent le titre de Troupe
+                    royale. Le Poëte Hardi ; le premier protecteur des talens du grand
+                    Corneille, étoit de cette troupe. Comme il étoit pauvre, il s’engagea par un
+                    acte de sociétè de fournir à sa troupe autant de pieces qu’elle en auroit
+                    besoin, &amp; leur tint parole. Il nous reste de lui quarante &amp; une pieces
+                    de sept cent qu’il a composées. Il étoit contemporain de Rotrou <pb n="30"
+                        xml:id="p30"/>son éleve, que Corneille appelloit son <hi rend="i">pere</hi>,
+                    &amp; qui fut ensuite un des cinq Auteurs qui travailloient sous les ordres du
+                    Cardinal de Richelieu. Ce fut alors que l’on commença à voir les chefs-d’œuvres
+                    dramatiques qui ont illustré leurs auteurs.</p>
+                <p>En 1629, Corneille donna sa Mélite, piece qui fut présentée à la troupe par
+                    Hardi, qui ne fut reçue que sur son témoignage &amp; à sa sollicitation, &amp;
+                    dont le succès fut si grand, contre l’attente des Comédiens, qu’ils se
+                    séparerent de nouveau &amp; établirent la troupe du Marais.</p>
+                <p>En 1632, Corneille donna sa tragédie de Clitandre, sa seconde piece &amp; la
+                    premiere où il n’y a rien de licencieux.</p>
+                <p>En 1641, il fit jouer sa tragédie de Polieucte, à l’occasion de laquelle
+                    Louis XIII se détermina à accorder aux Comédiens la déclaration du
+                    16 Avril, où après leur avoir été fait défenses de représenter aucune
+                    action malhonnête, ni d’user d’aucune parole à double entente qui puisse blesser
+                    l’honnêteté publique, sur peine d’être déclarés infâmes, il est ordonné que dans
+                    le cas où les <pb n="31" xml:id="p31"/>Comédiens régleront tellement les actions
+                    du théâtre, qu’elles soient exemtes d’impureté, leur exercice qui peut
+                    innocemment divertir les peuples de diverses occupations mauvaises, ne puisse
+                    leur être imputé à blâme, ni préjudice à leur réputation dans le commerce
+                    public, &amp;c.</p>
+                <p>Mais bientôt les Comédiens se plaignirent qu’ils ne gagnoient point autant
+                    d’argent depuis les pieces de Corneille qu’auparavant, quand ils donnoient des
+                    nouveautés moins bonnes, mais plus fréquentes, &amp; dont le public se
+                    contentoit. Ils redonnerent les comédies burlesques de Scaron, dans lesquelles
+                    brilla le fameux acteur Jodelet.</p>
+                <p>Sur la fin de cette année, il se fit un changement dans les deux troupes. Six
+                    acteurs de la troupe du Marais se joignirent, par ordre du Roi, à celle de
+                    Bellerose, acteur célèbre qui servit d’original à Corneille pour le rôle de
+                    Cinna, &amp; à qui le Cardinal de Richelieu fit présent d’un habit magnifique,
+                    pour jouer le Menteur.</p>
+                <p>Ces troupes de Comédiens <pb n="32" xml:id="p32"/>augmenterent successivement,
+                    &amp; en 1661 on en comptoit cinq, celle de l’hôtel de Bourgogne, celle du
+                    Marais, la troupe de Monsieur, au Palais Royal où jouoit Moliere, les Comédiens
+                    Espagnols &amp; ceux de Mademoiselle, rue des quatre vents. Il y avoit encore la
+                    salle du jeu de paulme du bel air, rue de Vaugirard près le Luxembourg, où l’on
+                    commençoit à jouer les Opéra de Quinault &amp; de Lulli.</p>
+                <p>En 1673, Louis XIV voulut qu’il n’y eut plus que deux troupes de Comédiens
+                    François, ceux de l’hôtel de Bourgogne, &amp; ceux du jeu de paulme de la
+                    Bouteille, rue Guénégaud. La salle du Marais fut démolie, &amp; l’Opéra dont
+                    Lulli avoit obtenu le privilège, fut etabli au Palais Royal.</p>
+                <p>En 1680, le théâtre de la rue Guénégaud fut réuni à la troupe de l’hôtel de
+                    Bourgogne par ordre du Roi, &amp; la troupe de Comédiens Italiens qu’ils
+                    s’étoient associés, &amp; qui jouoit alternativement sur leur théâtre, se trouva
+                    seule en possession de l’hôtel de Bourgogne, où ils continuerent leurs
+                    représentations <pb n="33" xml:id="p33"/>jusqu’en 1697, que leur théâtre fut
+                    fermé, &amp; ne fut r’ouvert qu’en 1616, en faveur de la troupe de M. le Duc
+                    d’Orléans Régent, qui porta d’abord son nom, &amp; qui est celle qui subsiste
+                    aujourd’hui.</p>
+                <p>En 1685, Madame la Dauphine, de l’agrément du Roi, fit faire elle-même le
+                    réglement de la troupe des Comédiens François : leur contrat de réunion,
+                    leurs pensions, le nombre de leurs parts, le droit que chacun y auroit, enfin
+                    tout ce qui les intéresse, est arrêté par ce réglement, &amp; les premiers
+                    Gentilshommes, comme auparavant, sont nommés pour leur faire savoir les ordres
+                    du Roi, par les Intendans des Menus &amp; Contrôleurs de l’argenterie en
+                    exercice, en la maniere accoutumée.</p>
+                <p>Enfin le 20 Juin 1687, le Lieutenant de Police, de l’ordre du Roi, leur
+                    ayant fait dire de quitter dans trois mois leur théâtre &amp; de s’établir
+                    ailleurs, à cause de la proximité du College Mazarin ; après différentes
+                    acquisitions dans tous les quartiers de la ville, &amp; un arrêt du <pb n="34"
+                        xml:id="p34"/>Conseil qui les déchargea de leurs divers engagemens, ils
+                    s’établirent en 1689 au jeu de paulme de l’étoile, rue des fossés S.
+                    Germain-des-prés, où ils sont. Telle est en peu de mots l’histoire de nos
+                    théâtres.</p>
+                <p>Il y a donc toujours eu de tout tems, comme on vient de le voir, des Spectacles
+                    chez tous les peuples, mais sous des formes différentes. Ce sont ces formes qui
+                    doivent en constituer la nature.</p>
+                <p>La nature est une dans son principe ; les différentes modifications seules
+                    la diversifient &amp; donnent une nature particuliere à chaque espèce
+                    différente ; &amp; cela est vrai au figuré comme au physique, &amp; peut
+                    s’appliquer aux différens genres de Spectacles.</p>
+                <p>Les Grecs ont eu des Spectacles, où ceux qui représentoient étoient les
+                    personnages mêmes de la nation : ils ont dû y être honorés. A Rome, au
+                    contraire, les Comédiens étoient des troupes d’esclaves, aux gages de différens
+                    maîtres eux-mêmes gagés par les Ediles. La condition de cette classe d’hommes,
+                    qui dans <pb n="35" xml:id="p35"/>les fêtes ne prenoient part à la douleur
+                    commune ou à l’allégresse publique, qu’à proportion du lucre particulier qu’ils
+                    en retiroient, ne pouvoit avoir rien que de vil. En France c’est encore une
+                    question de savoir si nous avons eu réellement des Spectacles &amp; des
+                    fêtes.</p>
+                <p>La Bruiere a dit que dans quelques siecles, lorsque la postérité entendra parler
+                    d’une ville dans laquelle il n’y avoit ni jeux, ni cirques, ni places
+                    publiques ; où les hommes couroient dans les rues comme en s’évitant, &amp;
+                    alloient en tems de paix dans les temples &amp; dans les cercles de femmes avec
+                    une arme offensive à leur côté, on croira que nous avons toujours été barbares.
+                    Nous sommes en effet encore bien éloignés de l’ancienne urbanité des Grecs &amp;
+                    des Romains, &amp; nos salles n’ont rien moins que l’éclat brillant qu’entraîne
+                    avec soi l’idée d’un Spectacle. Il n’y a aucun écrivain, aucun auteur, aucun
+                    etranger qui ne se soit récrié sur la petitesse de nos salles ; mais on n’a
+                    rien fait de plus.</p>
+                <p>On s’amuse à de vaines dissertations <pb n="36" xml:id="p36"/>dans tous les
+                    genres de littérature, Romans, Histoires, Comédies, Opera même ; tout est
+                    dissertation, &amp; voilà tout. Il semble que plus on s’éloigne des premiers
+                    tems &amp; de leur premiere simplicité, &amp; plus on ne disserte sur la nature,
+                    le principe &amp; l’origine de chaque chose, que parce qu’on en a perdu l’idée
+                    primitive.</p>
+                <p>C’est par une suite de la foiblesse de l’esprit humain, que dès que quelques
+                    hommes ont fait un pas en avant dans la carriere, les autres aussitôt se sont
+                    occupés à les considérer &amp; à voir s’ils n’ont point voulu indiquer quelques
+                    routes nouvelles. Souvent la critique &amp; l’envie ont cherché à le
+                    persuader ; mais après bien du tems perdu en observations, on est tout
+                    surpris de voir qu’il n’est question que de reprendre la route tracée, &amp; de
+                    marcher quelquefois bien loin sur les pas de ceux qui nous ont précédé.</p>
+                <p>Un voyageur qui veut arriver promptement au terme de sa course, ne s’amuse point
+                    à considérer le chemin qu’il <pb n="37" xml:id="p37"/>a parcouru, il ne regarde
+                    point en arriere, il n’est occupé que de son but, il l’a sans cesse présent à
+                    ses yeux ; &amp; lorsqu’il est prêt à l’atteindre, il en fait encore
+                    l’objet de ses desirs &amp; de ses craintes. C’est ainsi qu’il faut marcher à
+                    grands pas dans le chemin de la vérité.</p>
+                <p>En considérant les Spectacles dans leur principe, on voit qu’ils ont deux
+                    origines. La premiere est celle qui remonte à la poésie elle-même, qui a pour
+                    objet les hymnes, les cantiques, la religion &amp; les fêtes publiques. Nos
+                    Chantres dans nos Eglises se promenent encore au chœur pendant l’Office, parce
+                    qu’anciennement, non seulement on y chantoit, mais encore on y dansoit. L’autre
+                    origine est celle de la profession de Comédien, qui tient au commerce &amp; a
+                    commencé avec lui. Les premiers Marchands ont dû être ceux connus aujourd’hui
+                    sous le nom de Charlatans, Joueurs de Gobelets &amp; de Marionnettes dans les
+                    places publiques. Les seconds sont les Marchands forains, qui ont avec eux les
+                    Farceurs, Bateleurs &amp; Gladiateurs. Enfin les villes devenues <pb n="38"
+                        xml:id="p38"/>considérables, &amp; les Marchands détaillans de toutes
+                    espèces ayant été réunis en corps, des troupes de Comédiens ont commencé à être
+                    sédentaires comme eux. On voit dans l’histoire, que S. Louis ayant établi un
+                    droit de péage à l’entrée de Paris sous le petit Châtelet, un des articles du
+                    tarif portoit que le marchand qui apporteroit un singe payeroit quatre deniers,
+                    &amp; que si c’étoit un Jongleur, il seroit quitte en jouant devant le
+                    péager ; d’où est venu le proverbe, <hi rend="i">payer en monnoie de
+                        singe</hi>.</p>
+                <p>L’Auteur de la prétendue conversation entre M. l’Intendant des menus &amp; l’Abbé
+                    G*** demande sur le ton de l’ironie, ce qui résulteroit d’un <hi rend="i"
+                        >impôt</hi> qui seroit établi <hi rend="i">sous le nom de menus plaisirs du
+                        Roi</hi>, &amp; qui serviroit à <hi rend="i">payer les frais des
+                            Spectacles</hi> ? En plaisantant &amp; sans s’en douter, il a trouvé le
+                    moyen de parvenir à concilier l’opinion &amp; le préjugé.</p>
+                <p>Des salles somptueuses dans lesquelles la jeunesse de la Nation de l’un &amp; de
+                    l’autre sexe, appellée par sa naissance ou par des dispositions naturelles &amp;
+                    des talens <pb n="39" xml:id="p39"/>supérieurs, à des emplois publics, ou
+                    destinée à paroître à la Cour, viendroit à la sortie des classes &amp; des
+                    couvents, apprendre à s’énoncer avec décence &amp; avec graces, &amp;
+                    représenter des jours mémorables choisis dans l’histoire, devant une multitude
+                    de spectateurs qui n’auroient acheté le droit d’y entrer, que pour contribuer
+                    aux sommes immenses que produiroit ce droit, seroit peut-être le projet le plus
+                    beau que l’on pourroit exécuter, pour la renaissance des lettres qui ont
+                    dégénéré, pour l’éducation de la jeunesse encore imparfaite, &amp; pour le bien
+                    &amp; l’avantage général de la Nation.</p>
+                <p>Que les lettres ayent dégénéré, cela n’est que trop vrai &amp; personne n’en
+                    doute. Est-ce, comme on le prétend, parce que les sujets sont épuisés ?
+                    tout est-il dit ? &amp; n’a-t-on plus rien à dire ? On cessera de le
+                    croire, quand on verra ce raisonnement démenti par l’expérience. La Bruiere a
+                    dit que depuis cent ans les Auteurs qui nous ont prédédé ont moissonné dans le
+                    champ où nous ne faisons plus que <pb n="40" xml:id="p40"/>glaner ; mais le
+                    fait a dèmontré depuis cent ans combien cet illustre Ecrivain, qui n’est pas
+                    exemt d’erreur, s’est trompé dans cette remarque. Le champ à moissonner sera
+                    toujours fertile, lorsque le Souvérain échauffera du feu de ses regards les
+                    germes du talent &amp; du génie prêts à éclore. <quote>« Les Princes &amp;
+                        les Ministres<seg type="exquote">, <hi rend="i">dit M. de Fontenelle en parlant de Corneille
+                            &amp; de sa tragédie du Cid</hi>,</seg> n’ont qu’à commander qu’il se
+                        forme des Poëtes &amp; des Peintres, tout ce qu’ils voudront, &amp; il s’en
+                        formera. Il y a une infinité de génies qui n’attendent, pour se déclarer,
+                        que leurs ordres &amp; leurs graces »</quote>. On pourroit répondre à
+                    cela que les graces ne sont pas toujours aussi faciles à répandre, qu’on
+                    pourroit se l’imaginer, &amp; que c’est dans la bonté de leurs cœurs que les
+                    Souvérains éprouvent combien la puissance des Rois n’est pas sans bornes ;
+                    mais il suffit au moins de cette vérité, pour détruire l’observation de la
+                    Bruiere.</p>
+                <p><quote>« Il n’y a rien qu’on ne puisse dire aujourd’hui, qui n’ait été dit
+                            <pb n="41" xml:id="p41"/>autrefois »</quote>,<note n="(a)"
+                        place="bottom" resp="author"><p><quote><hi rend="i">Nullum est jam dictum, quod non sit
+                                    dictum priùs.</hi></quote> (<bibl>Prologue de
+                            l’Eunuque</bibl>.)</p></note> disoit jadis Térence, en répondant aux
+                    reproches qu’on lui faisoit de ne représenter dans ses pieces rien d’absolument
+                    nouveau, &amp; qu’on n’eût déjà vû. En effet on ne peut jamais que peindre la
+                    nature, les mœurs, les caracteres &amp; les passions, &amp; offrir aux
+                    spectateurs des imitations dont il doit connoître les modeles. C’est celui qui
+                    peint le mieux, qui est toujours nouveau.</p>
+                <p>Les Lettres ont dégénéré, &amp; cependant nous sommes encore bien loin d’avoir
+                    imité les Anciens, du moins dans les grandes parties. Les tragédies de nos
+                    grands Maîtres ont des beautés qui leur sont propres, &amp; ne ressemblent point
+                    à celles des Grecs. Ils ne connoissoient point la division des actes : ils
+                    avoient des chœurs qui prolongeoient &amp; continuoient la marche de l’action,
+                    &amp; qui en faisoient une partie inséparable, loin de la suspendre comme nos
+                    entre-actes, <pb n="42" xml:id="p42"/>qui ne sont imités que des comédies
+                    anciennes, &amp; encore très-mal, puisque la musique y étoit toujours analogue
+                    au sujet. Dans Œdipe de Sophocle, on remarque deux personnages qui sont deux
+                    bergers, dont un gardoit les troupeaux de Laïus, &amp; dans Iphigénie en
+                    Tauride, d’Euripide, Oreste &amp; Pylade sont arrêtés par des bergers. Les
+                    premiers Rois de l’histoire sont ainsi représentés comme les premiers Pasteurs
+                    du monde. La parfaite illusion du théâtre, sans doute, loin de faire trouver ces
+                    personnages ridicules, leur donnoit au contraire l’expression de vérité &amp; le
+                    charme du prestige, d’autant plus séduisans, qu’ils étoient pris dans la nature.
+                    Le sujet de ces pièces étoit simple : de même qu’il falloit à Térence deux
+                    comédies de Ménandre pour composer une des siennes, deux tragédies des anciens
+                    auroient composé une des nôtres. Elles ressembloient plutôt à un de nos opéra, à
+                    l’égard desquels il s’en faut de beaucoup que l’on puisse dire que les sujets
+                    sont épuisés.</p>
+                <p>Notre scène lyrique, encore dans <pb n="43" xml:id="p43"/>l’enfance du
+                        théâtre<note n="(a)" place="bottom" resp="author">Une preuve incontestable de cette
+                        vérité, est le dernier opéra nouveau, <hi rend="i">l’opéra d’Ernelinde</hi>,
+                        où l’on voit une prison vaste &amp; superbe succéder à une forteresse, dont
+                        les murailles ne sont guères plus hautes que les hommes, &amp; un temple
+                        tout resplendissant de l’éclat des métaux les plus précieux, pour lequel on
+                        tremble beaucoup plus que pour les soldats qui viennent s’égorger jusqu’aux
+                        pieds des autels, dans cet asile sacré, &amp; cela dans un tems où les Rois
+                        de la Norvege sont encore portés sur des faisceaux d’armes, comme au premier
+                        acte, &amp; dans lequel il n’est fait aucune mention de l’allégorie &amp; de
+                        l’illusion de la fable. On entend aussi, dans cet opéra, chanter sur la
+                        breche de la forteresse que l’on vient d’emporter d’assaut, un air
+                        commençant par ces mots : <quote><hi rend="i">Dans ces asiles doux &amp;
+                            tranquilles, &amp;c.</hi></quote></note>, semble s’être ressentie plus que les
+                    autres de la contradiction entre le systême de l’opinion &amp; le sentiment du
+                    préjugé, quoiqu’avec beaucoup moins de fondement, &amp; l’on diroit que l’on n’a
+                    point encore eu jusqu’à présent une juste idée de ce genre.</p>
+                <p>Des divinités célestes ou infernales, <pb n="44" xml:id="p44"/>suspendues par des
+                    cordes, ou poussées par des trapes comme des statues ; des rois très-peu
+                    majestueux &amp; des confidens ridicules, qui viennent tous froidement converser
+                    en musique, dans un lieu où l’on ne devroit voir que des héros &amp; des
+                    bergers, &amp; des intrigues de comédies, dignes de la composition de nos
+                    premiers théâtres, forment tout le canevas de ce spectacle, &amp; l’on finit par
+                    attribuer au genre tous les défauts du poëme &amp; de la musique.</p>
+                <p>Ce spectacle cependant considéré en lui-même, peut être aussi naturel &amp; aussi
+                    conforme à la vraisemblance, que les autres. Il n’y a pas moins d’illusion à
+                    entendre parler en chantant, qu’en déclamant des vers déja cadencés par les
+                    regles de la poésie. Depuis l’enfant au berceau qui répand des larmes, ou sourit
+                    au plaisir &amp; s’exprime par des accens de douleur ou de joie, jusqu’au soldat
+                    qui marche aux combats &amp; court à la victoire ou à la mort au son des
+                    instrumens, tout est musique &amp; harmonie dans la nature. La belle musique est
+                    celle qui <pb n="49" xml:id="p49"/>est de tous les pays, &amp; peut s’adapter à
+                    toutes les langues. Les mots convenus, arrangés avec plus ou moins d’art,
+                    peuvent servir à communiquer avec plus ou moins de force &amp; d’énergie, les
+                    pensées &amp; les sentimens, &amp; les différens mouvemens de la passion. La
+                    musique fait plus ; sa nature est d’exprimer jusqu’aux transports de
+                    l’ame : tout parle en elle jusqu’à son silence, &amp; la scène lyrique la
+                    plus vraisemblable, celle qui fait plus d’illusion, est un monologue.</p>
+                <p>Ceux qui nous ont précédé &amp; qui ont imaginé ce genre de spectacle, semblent
+                    l’avoir mieux connu. C’est d’eux que nous tenons l’usage, à chaque reprise des
+                    différens opéra, de faire imprimer les paroles pour le spectateur qui doit les
+                    avoir à la main, non pour aider à la prononciation de l’acteur, qui, si elle
+                    n’est pas toujours distincte, ne doit point être supposée telle, mais pour
+                    expliquer la scène, le lieu où elle se passe, les noms des personnages &amp; le
+                    sujet qui les amene.</p>
+                <p>Un opéra est un poëme qui doit tenir le milieu entre notre scène dramatique <pb
+                        n="50" xml:id="p50"/>&amp; la pantomime<note n="(a)" place="bottom" resp="author">On doit
+                        entendre ici la belle pantomime, dans le genre du Spectacle de Servandoni,
+                        donné aux Thuilleries il y a quelques années.</note>. L’une représente une
+                    intrigue conduite à sa fin par toutes les nuances, les finesses &amp; l’art du
+                    dialogue : l’autre, en s’exprimant dans un degré d’éloignement qui suppose
+                    dans le spectateur l’impossibilité d’entendre les interlocuteurs, ne lui devient
+                    intelligible que par les situations &amp; par des intérêts assez grands &amp;
+                    assez vifs, pour que les gestes puissent suppléer au défaut des paroles. Le
+                    poëme lyrique doit être l’image rapide de différens événemens imprévus d’une
+                    action principale exprimée par des chants, &amp; dont toutes les parties
+                    accessoires sont supplées par le jeu de la pantomime. Les personnages ne doivent
+                    entrer sur la scène, y rester &amp; en sortir qu’animés &amp; transportés des
+                    sentimens les plus grands, les plus vifs &amp; les plus délicats : alors
+                    les interlocutions du dialogue deviennent peu de chose, toutes les scènes ne
+                    sont plus qu’un composé <pb n="51" xml:id="p51"/>de monologues enchaînés avec
+                    art l’un à l’autre ; la fin de chaque acte amene naturellement des fêtes
+                    &amp; des danses, &amp; l’ensemble de ce spectacle doit former une illusion
+                    d’autant plus parfaite, qu’il joint à la cadence des vers &amp; aux charmes de
+                    la poésie, la mélodie du chant, l’harmonie des accords, &amp; tout
+                    l’enchantement de la Musique, soutenu par l’éclat brillant &amp; le prestige de
+                    la peinture.</p>
+                <p>A ce Spectacle, l’unité de lieu peut renfermer un espace aussi étendu &amp;
+                    changé dans ses différentes parties aux yeux du spectateur, autant de fois que
+                    l’unité d’action &amp; de tems le permet &amp; l’exige, lorsque rien ne peut ni
+                    ne doit se passer en récit.</p>
+                <p>Il n’en est pas de même des autres Spectacles, où un changement de la scène
+                    souvent inattendu, &amp; encore moins desiré, coupe la vivacité du dialogue,
+                    &amp; arrête &amp; suspend l’attention du spectateur, qui veut être toujours
+                    également intéressé. Il revient encore plus désagréablement sur ses pas,
+                    lorsqu’on le ramene au même lieu qu’il vient de quitter, <pb n="52" xml:id="p52"
+                    />comme dans plusieurs de nos pièces modernes.</p>
+                <p>Mais tandis qu’il paroît qu’on n’a pas encore été d’accord sur les regles
+                    constantes &amp; certaines du poëme lyrique, il semble que l’on s’efforce
+                    d’oublier &amp; de mépriser les regles des autres théâtres, reconnues depuis
+                    tant de siecles. On ne fait plus que des dialogues en Musique, &amp; l’on
+                    renvoie les changemens de décorations à la comédie. On confond ainsi tous les
+                    genres.</p>
+                <p>Les Lettres, après avoir été portées à un degré de gloire aussi étonnant que
+                    rapide dans le dernier siecle, ne jettent plus de nos jours que de foibles
+                    rayons sans force, sans chaleur &amp; sans vie. Les Auteurs que nous devons nous
+                    proposer pour modeles, que nous devons consulter, de la lecture desquels nous
+                    devons nous occuper, ne sont plus ; ils ont vécu ; leurs écrits
+                    immortels seuls nous restent. Pourquoi un si grand changement ? Quelles en
+                    sont les causes ! On peut les réduire à trois. La premiere est le progrès
+                    même des Lettres. La seconde la <pb n="53" xml:id="p53"/>corruption du goût
+                    &amp; des mœurs ; &amp; la troisieme est l’esprit d’indépendance &amp;
+                    d’une vaine Philosophie, qui affecte de fouler aux pieds toute espece d’ordre
+                    &amp; de regle, &amp; qui semble caractériser l’esprit de notre siecle.</p>
+                <p>Le progrès même des Lettres y a contribué, en ce que depuis le premier Ecrivain
+                    du siecle, qui, pour avoir voulu embrasser tous les genres de littérature, n’a
+                    été le premier dans aucun, jusqu’à celui qui a le moins de dispositions à
+                    l’étude &amp; à la culture des Lettres, &amp; à la pratique des arts &amp; des
+                    sciences, il n’est personne qui n’ait l’ambition de vouloir raisonner
+                    profondément sur tout. On veut être universel, &amp; l’on n’est que
+                    superficiel.</p>
+                <p>La corruption du goût, celle des mœurs, &amp; le desir de jouir de ces mêmes arts
+                    sans peine, a éloigné de l’amour de l’étude &amp; du travail nécessaires pour
+                    les approfondir &amp; les perfectionner.</p>
+                <p>Le désœuvrement, le luxe &amp; l’ennui, plus que l’attrait du plaisir &amp; de la
+                    nouveauté, conduisent aux deux salles de <pb n="54" xml:id="p54"/>Comédies, trop
+                    peu suffisantes pour la Capitale du Royaume ; &amp; les acteurs, contens
+                    d’une recette &amp; d’un gain considérable, sans autre peine que celle de
+                    débiter toujours les mêmes rôles de quelques pièces, une ou deux fois la
+                    semaine, plusieurs années de suite, n’ont plus l’émulation de leur état.</p>
+                <p>Enfin l’esprit d’indépendance, les opinions particulieres &amp; à foi, les écrits
+                    contre les Loix, contre les Lettres &amp; les Arts eux-mêmes, &amp; la désunion
+                    dans les assemblees, y ont porté les derniers coups. Les Auteurs du dernier
+                    siecle ne s’assembloient point seulement à l’Académie ; Moliere les
+                    réunissoit à Auteuil. Ils se voyoient à la société du Marais ; ils ne
+                    vivoient pas loin de leur patrie.</p>
+                <p>Un obstacle plus grand encore, c’est la contradiction entre la gloire de la
+                    composition des pièces de théâtre, &amp; la sorte de déshonneur attachée aux
+                    représentations de ces mêmes pièces ; c’est la diversité de sentimens &amp;
+                    d’opinions sur cette matiere.</p>
+                <p>Les premieres Tragédies de Racine <pb n="55" xml:id="p55"/>l’ayant brouillé avec
+                    Messieurs de Port-Royal, il composa deux lettres ; une qu’il fit imprimer,
+                    &amp; la seconde qu’il voulut montrer avant à Boileau, &amp; dans laquelle,
+                    ainsi que dans la premiere, il soutenoit le parti du théâtre.
+                        <quote>« Votre lettre<seg type="exquote">, <hi rend="i">lui dit Despréaux</hi>,</seg> est
+                        très-bien écrite ; mais vous soutenez une mauvaise
+                    cause »</quote>. Racine déchira cette lettre qui ne vit point le jour,
+                    &amp; ne composa plus que pour St. Cyr, &amp; encore par ordre de la Cour. Il
+                    est étonnant qu’on n’ait point encore pu parvenir à concilier ces différens
+                    sentimens.</p>
+                <p>C’est ici le lieu de réfuter l’Auteur Dramatique, qui a le plus fortement écrit
+                    contre le Théâtre, je veux dire, M. Rousseau de Genève. Je le réfuterai par
+                    lui-même.</p>
+                <p><quote><hi rend="i">Les sciences &amp; les arts</hi><seg type="exquote">, dit-il,</seg> <hi rend="i">sont
+                            l’appui des trônes, les sources de l’urbanité &amp; des mœurs…</hi> mais
+                            <hi rend="i">les hymnes en l’honneur des Dieux &amp; les louanges des
+                            grands hommes, sont la poésie qu’il faut admettre.</hi></quote><note
+                        n="(a)" place="bottom" resp="author"><p><bibl>De l’Imitation théâtrale</bibl>.</p></note>
+                    Si l’on admet les hymnes, <pb n="56" xml:id="p56"/>pourquoi ne point admettre
+                    aussi les cantiques &amp; les chants, les récitatifs &amp; les chœurs ;
+                    enfin si l’on admet le monologue, pourquoi ne point admettre des interlocuteurs
+                    &amp; le dialogue. <quote><hi rend="i">Si l’on souffre</hi><seg type="exquote">, dit-il,</seg> <hi
+                            rend="i">la Muse imitative, qui nous charme &amp; nous trompe par la
+                            douceur de ses accens, bientôt les hommes n’auront plus pour objet ni la
+                            loi, ni les choses bonnes &amp; belles, mais la douleur &amp; la
+                            volupté.</hi></quote> Cette conséquence est encore fausse. Pourquoi
+                    cette prétendue Muse seroit-elle plus dangereuse que les autres ? Quelle
+                    prodigieuse différence y a-t-il entre le sacrifice d’Iphigénie représenté sur
+                    une toile où il ne manque aux personnages que le geste &amp; la parole, le récit
+                    de cette aventure fait par un Historien, &amp; le drame d’un Poëte soutenu de
+                    l’illusion des décorations, &amp; qui offre à la fois aux yeux &amp; à
+                    l’entendement des spectateurs, ces choses séparées entre la peinture &amp;
+                    l’histoire. Quel danger peut-il y avoir d’un côté plus que de l’autre ?
+                    aucun. S’il doit résulter quelque mal d’une de ces choses, les autres <pb n="57"
+                        xml:id="p57"/>peuvent produire les mêmes effets.</p>
+                <p>Il est possible que des hommes aient le cœur sensible, sans avoir le cœur dtoit,
+                    &amp; qu’ils se laissent entraîner à la volupté de la douleur ou du plaisir,
+                    sans goût &amp; sans regle : mais cela est absolument étranger à la
+                    distinction d’un genre de poésie à l’autre, &amp; à la différence qu’il y a
+                    entre une hymne seule, &amp; cette même hymne accompagnée de chants &amp; de
+                    chœurs.</p>
+                <p><quote>« <hi rend="i">C’est par la fureur du théâtre qu’Athènes a
+                        péri</hi> »</quote>, dit M. Rousseau<note n="(a)" place="bottom" resp="author"
+                                ><p><bibl>Lettre à M. Dalembert</bibl>.</p></note>. Il se trompe
+                    encore. Athènes a péri par la fureur de Lacédémone<note n="(b)" place="bottom" resp="author"
+                        >Pour avoir une juste idée de cette ville fameuse, voyez la dissertation sur
+                        les causes &amp; les degrés de la décadence des loix de Lycurgue, par M.
+                        Mathon de la Cour, qui a remporté le prix de l’Académie &amp; Inscriptions
+                        de belles lettres de Dijon, le 28 Avril 1767.</note>, par sa
+                    trahison envers sa patrie, &amp; son traité d’alliance avec les Perses :
+                    trahison digne d’une ville qui peu après donna dans ses <pb n="58" xml:id="p58"
+                    />murs le premier exemple de l’infidélité publique<note n="(a)" place="bottom" resp="author"
+                        >Agis, Roi de Sparte, ayant voulu renouveller l’ancien partage des terres de
+                        Lycurgue, commença par abolir les dettes. Il prit les contrats &amp; les
+                        obligations des créanciers, les fit porter à la place publique, &amp; y fit
+                        mettre le feu. Agésilas qui avoit beaucoup de dettes, &amp; qui avoit été le
+                        premier à en donner le conseil, dit que de sa vie il n’avoit vû un feu si
+                        clair &amp; si beau.</note>.</p>
+                <p>Il n’y avoit point de Spectacles à Sparte, mais il y avoit les danses nues des
+                    Lacédémoniennes. <quote><hi rend="i">Elles étoient couvertes de l’honnêtete
+                            publique</hi>,</quote>, dit M. Rousseau. Cette honnêteté n’est pas trop
+                    facile à concevoir.</p>
+                <p><quote><hi rend="i">Quoi ? ne faut-il donc aucun Spectacle dans une
+                    République ?</hi><seg type="exquote"> se demande-t-il ensuite à lui-même :</seg> <hi
+                            rend="i">au contraire, il en faut beaucoup ; c’est dans les
+                            Républiques qu’ils sont nés, c’est dans leur sein qu’on les voit briller
+                            avec un air de fête. Mais quels seront enfin les objets de ces
+                            Spectacles ? qu’y montrera-t-on ? Rien, si l’on veut. Plantez
+                            au milieu d’une place un piquet couronné de fleurs, &amp; rassemblez-y
+                                <pb n="59" xml:id="p59"/>le peuple.</hi></quote> On peut avoir aussi
+                        <hi rend="i">tous les ans des rois de l’arquebuse.</hi> Quels
+                    raisonnemens ! &amp; combien l’esprit de systême entraîne
+                    d’inconséquences !</p>
+                <p><hi rend="i">Je n’ai jamais conçu</hi><seg type="exquote">, dit-il peu après,</seg> <hi rend="i">pourquoi
+                        l’on s’effarouche si fort de la danse &amp; des assemblées qu’elle
+                        occasionne, comme s’il y avoit plus de mal à danser qu’à chanter.</hi> Il
+                    n’y a aucun mal à danser ni à chanter, mais il y en a à déclamer : quelle
+                    contradiction !</p>
+                <p>Il y a du mal à toutes ces choses, &amp; il n’y en a aucun ; elles sont
+                    bonnes en elles-mêmes, l’abus seul en est dangereux, il peut même être
+                    ridicule.</p>
+                <p>Il est ridicule qu’à des assemblées où chacun se rassemble sans se connoître,
+                    &amp; en achetant seulement le droit de s’y rendre, des gens qui ne se sont
+                    point encore vûs &amp; qui ne se reverront peut-être jamais, se livrent aux
+                    transports de la joie, dont la danse est l’expression. Cette joie n’est bientôt
+                    plus que celle de la volupté ; &amp; l’honneur y est en grand danger,
+                    malgré la présence de quelques <pb n="60" xml:id="p60"/>parens &amp; celle du
+                    Magistrat, que M. Rousseau propose.</p>
+                <p>Rien ne seroit plus beau, sans doute, que des assemblées de plusieurs familles,
+                    où la jeunesse, sous les yeux de ses parens réunis, non seulement craindroit de
+                    leur déplaire, mais où chacun chercheroit encore à mériter par ses soins
+                    l’affection &amp; l’estime de ceux parmi lesquels il rencontreroit l’objet de
+                    son amour. Quel doux commerce de sentimens, quelle volupté pure, quelle harmonie
+                    divine résulteroient de ces accords mutuels de tendresse ! Quelle seroit
+                    l’union de plusieurs familles qui chercheroient ainsi à n’en former plus qu’une,
+                    s’il étoit possible ! Mais où trouver sur la terre un si touchant
+                    spectacle.</p>
+                <p>On peut faire le même paralelle au sujet du Théâtre.</p>
+                <p>Une troupe d’hommes faisant métier de renoncer à tous parens, à toute patrie,
+                    &amp; de courir de ville en ville, jouant la comédie pour de l’argent, tous les
+                    jours indistinctement, devant des gens que le désœuvrement, la dissipation &amp;
+                    le <pb n="61" xml:id="p61"/>hazard y conduisent ; ces Comédiens ne
+                    jouassent-ils d’abord que des pieces les plus épurées, entraîneront
+                    nécessairement avec eux le désordre, la licence, &amp; le relâchement des mœurs
+                    qui regne toujours au milieu de la multitude. En vain les Souverains rendront
+                    des Edits en leur faveur, ils n’en profiteront point. Pour plaire à cette
+                    multitude, semblables à une courtisanne qui ne vend le plus souvent ses faveurs
+                    qu’avec répugnance &amp; dégoût pour celui qui les achete, ils sacrifieront
+                    d’abord leur goût, toutes les fois qu’ils y seront interessés, jusqu’à ce que ce
+                    même goût une fois corrompu, ne leur laisse plus aucun sacrifice à faire.</p>
+                <p>C’est à ce goût dépravé de la multitude, que l’on doit attribuer le mauvais
+                    succès, dans sa nouveauté du chef d’œuvre de Moliere, le Misantrope, qui ne
+                    passa qu’à la faveur de la farce du Médecin malgré lui. Il ne sallut pas moins à
+                    Moliere que tout l’intérêt que Louis XIV prenoit à lui, pour qu’il parvint
+                    à mériter la gloire qu’il s’est <pb n="62" xml:id="p62"/>acquise. Louis XIV
+                    l’encourageoit, le caressoit, le consoloit &amp; le soutenoit seul contre les
+                    cabales sourdes de la Cour &amp; de la ville ; souvent il se faisoit une
+                    affaire du jeu de ses pieces. Au milieu de ses brillantes campagnes en Flandres,
+                    au camp devant l’Isle, il lui signa de sa main la permission d’aller faire jouer
+                    le Tartusse à Paris. Malgré cela, le jugement &amp; le goût de Moliere ne furent
+                    pas toujours exemts d’erreur ; quelquefois il fut au-dessous de lui-même,
+                    &amp; le Comédien corrompit l’Auteur.</p>
+                <p>Supposés au contraire une société formée de jeunes éleves, venant déployer les
+                    graces naturelles de la jeunesse, devant le corps entier de la nation
+                    rassemblée ; le goût le plus sûr alors éclairera les talens ; les
+                    jugemens seront unanimes &amp; sans contradiction ; l’émulation deviendra
+                    générale ; &amp; le préjugé, d’accord enfin avec l’opinion, ne retiendra
+                    plus les productions du génie.</p>
+                <p>Cet exercice, dans les instans précieux de la jeunesse, servira encore à
+                    perfectionner son éducation. Les jeunes gens, <pb n="63" xml:id="p63"/>en
+                    sortant des humanités, instruits de l’Histoire d’Alexandre &amp; de César,
+                    n’ignoreront plus jusqu’aux noms des Rois de leur patrie, après Pindare &amp;
+                    Horace ils apprendront à connoître les Poëtes François qui ont illustré les
+                    Lettres, ils connoîtront l’Histoire &amp; la Poësie de la nation, &amp; à
+                    l’exemple des Grecs, nos Piéces nouvelles pourront n’être plus tirées que de
+                    notre propre Histoire. Nous avons vu avec quelle fureur le Public s’est porté
+                    aux représentations du siége de Calais, Piéce qui n’a mérité son succès passager
+                    que par l’heureux choix de son sujet. Les Comédies seront prises dans les mœurs
+                    honnêtes &amp; décentes de la nation, le vice y sera représenté sous les
+                    véritables couleurs &amp; la vertu dans tout son jour.</p>
+                <p>Telles étoient les Piéces Grecques, telle est Iphigénie d’Euripide où Achille
+                    d’abord surpris à la premiere rencontre de Clytemnestre, à la vue de l’époux
+                    d’Agamemnon, au milieu d’un camp &amp; de tous les appareils de la guerre, lui
+                    demande s’il doit l’éviter, &amp; lorsqu’au <pb n="64" xml:id="p64"/>cinquieme
+                    Acte Iphigénie veut se sauver à la présence d’Achile, Clytemnestre la retient
+                    &amp; lui ordonne de rester devant celui qu’elle peut regarder comme son
+                    époux ; &amp; dans quel tems ? <quote>« Dans le tems où l’impiété
+                        est en crédit &amp; va tête levée tandis que la vertu est foulée aux
+                            pieds<note n="(a)" place="bottom" resp="author"><bibl>Chœur du quatrieme Acte.
+                                Epode.</bibl></note> »</quote></p>
+                <p>Le fameux Acteur Baron fut si offensé des termes de l’ordonnance de sa
+                        pension<note n="(b)" place="bottom" resp="author">Garde de mon trésor Royal, payés
+                        comprant au nommé Michel Boyron, dit Baron, l’un de mes Comédiens.</note>,
+                    qu’il balança pour se décider à l’aller recevoir : Baron disoit qu’un
+                    Acteur, pour devenir parfait, devroit être élevé sur les genoux des Reines, <quote><hi
+                        rend="i">expression peu mesurée, mais bien sentie</hi></quote>, dit un des Auteurs
+                    de l’immense Dictionnaire de l’Encyclopédie. Cette expression ne prouve rien
+                    pour l’Acteur, il seroit ridicule de penser qu’il fût possible que l’héritier
+                    présomptif d’une couronne n’eût d’autre exercice que l’emploi de Comédien ;
+                    mais avec quels applaudissemens, avec quelle <pb n="65" xml:id="p65"
+                    />satisfaction, avec quels transports de joie les spectateurs verroient des
+                    jeunes élèves de l’Ecole Militaire &amp; de S. Cyr, encore sous les yeux du
+                    Ministere chargé du soin de leur éducation, venir représenter sur ce théâtre
+                    avec toutes les graces naturelles de la jeunesse, soutenues de la noblesse de
+                    leur naissance. Ces transports pour les jeunes Militaires, seroient l’heureux
+                    présage des victoires signalées qu’ils remporteroient un jour dans les armées
+                    sur les ennemis de leur pays.</p>
+                <p>Quelle seroit la recette pour le début de tels acteurs ! Le produit excédant
+                    de beaucoup les frais du Spectacle, le surplus alors pourroit être employé au
+                    soulagement du malheureux contribuable des campagnes, &amp; à l’extinction de la
+                    dette nationale, tandis que d’un autre côté, les pièces ramenées à la pureté de
+                    l’ancien Théâtre des Grecs, &amp; la comédie devenue réellement l’école du
+                    monde, l’amour, peint alors avec les traits du plus pur sentiment, remettroit en
+                    honneur le mariage un peu déchu de son ancienne considération : &amp; c’est
+                    ainsi que <pb n="66" xml:id="p66"/>l’exécution de ce projet serviroit au bien
+                    &amp; à l’avantage général de la Nation.</p>
+                <p>L’extrême inégalité des fortunes entre les citoyens d’une même classe, fondée non
+                    sur la mérite &amp; les talens, mais sur les fonds d’avance, les crédits, &amp;
+                    les intérêts des retards toujours cumulés avec les bénéfices ordinaires du
+                    commerce, fait que d’un côté le mariage aujourd’hui confond plus souvent les
+                    rangs par les mésalliances, loin de servir à les distinguer ; tandis que
+                    d’un autre côté des obstacles sans nombre éloignent de cet engagement, &amp;
+                    entraînent avec eux le relâchement &amp; la corruption des mœurs, suites
+                    nécessaires du luxe &amp; de la misere.</p>
+                <p>Le luxe a gagné les campagnes : ce n’est pas le luxe des villes qui enleve
+                    les hommes à la culture de la terre, mais le luxe même des campagnes. Un
+                    Laboureur, ou un Vigneron possesseur de toute l’espèce représentative de son
+                    pays, y tient toutes les fermes à loïer ; &amp; le reste, malheureux,
+                    craint de former son semblable.</p>
+                <p><pb n="67" xml:id="p67"/><hi rend="i">Luxe</hi>, est un de ces grands mots sur
+                    lesquels les Philosophes ont beaucoup disserté sans les avoir encore
+                    parfaitement défini. Ce qui n’est qu’ornement dans la royauté, éclat &amp;
+                    majesté pour le trône, splendeur &amp; magnificence pour un grand, est <hi
+                        rend="i">luxe</hi> pour un particulier. Dans ce sens le luxe ne consiste pas
+                    précisément dans les richesses, mais dans la distribution de ces mêmes
+                    richesses. C’est une chose de luxe, quand un simple particulier a chez lui une
+                    chapelle &amp; une comédie, un chapelain &amp; des acteurs à ses gages. Le luxe
+                    des villes a toujours été commun, le luxe des Cours &amp; des Rois est
+                    rare : pour en voir des exemples, il faut remonter aux anciens Rois de
+                    Perse, &amp; à quelques-uns de la premiere &amp; de la seconde race de nos Rois.
+                    Une Nation peut être fort pauvre &amp; plongée dans le luxe ; une autre, au
+                    contraire, très-opulente peut ignorer les abus qui en résultent.</p>
+                <p>La cause de l’inégalité des fortunes, a pour premier principe les emprunts
+                    publics, &amp; particulierement ceux qui ne <pb n="68" xml:id="p68"/>sont point
+                    établis sur des branches de commerce national, &amp; qui sont seulement créés
+                    pour subvenir aux dépenses d’administration. La partie de l’Etat qui prête, fait
+                    nécessairement retomber tout le poids de l’impôt sur celle qui n’a pas eu les
+                    facultés nécessaires pour pouvoir en faire l’avance, &amp; ôte en même tems à
+                    cette dernière, dans le commerce, la ressource de ces mêmes emprunts. De-là les
+                    immenses fortunes de quelques-uns, qui accumulent l’espece, &amp; font la loi au
+                    plus grand nombre. De-là dans les campagnes les biens fonds sans valeur, &amp;
+                    dans les villes les choses de luxe à vil prix ; tandis que les denrées
+                    communes &amp; de nécessité sont à un prix fort haut, &amp; relatif à la rareté
+                    de l’espèce : de-là les emprunts de toute nature &amp; toujours onéreux. Le
+                    dérangement de la fortune publique entraîne nécessairement avec lui celles des
+                    particuliers ; &amp; il n’est pas plus nécessaire, comme quelques-uns le
+                    prétendent, qu’un Etat se doive à lui-même, qu’il ne l’est qu’un pere de famille
+                    soit le débiteur de ses enfans.</p>
+                <p><pb n="69" xml:id="p69"/>En Russie le gouvernement despotique est assez heureux,
+                    &amp; quelquefois assez malheureux dans les momens d’un besoin pressant, pour
+                    que son despotisme fasse qu’il n’ait aucun crédit pour emprunter des sujets de
+                    l’Empire. On n’y connoît point encore les créations de charges &amp; de
+                    finances ; la Justice y est administrée à peu de frais, &amp; les impôts
+                    sont perçûs par commission par les Seigneurs des terres &amp; les Gouverneurs
+                    des Provinces, &amp; déposés ensuite à la chambre des <hi rend="i">rentes</hi>.
+                        <hi rend="i">Rente</hi> y est encore le mot générique &amp; le synonime de <hi rend="i"
+                        >revenu</hi>.</p>
+                <p>L’espèce représentative est aux choses de commerce, comme un est à cent ; ce
+                    n’est précisément que la balance de l’échange. Cette balance une fois emportée
+                    par le poids des emprunts, alors tout est rompu.</p>
+                <p>Mais la dette nationale une fois éteinte, aussitôt des masses d’or &amp; d’argent
+                    seront refluées dans le commerce, &amp; y reporteront dans ses différentes
+                    branches la circulation, le crédit, l’abondance &amp; l’égalité : <pb
+                        n="70" xml:id="p70"/>bientôt renaîtront les beaux jours de la France ;
+                    &amp; l’on verra, pour la premiere fois, une Nation soudoyer ses armées avec le
+                    produit de ses fêtes &amp; de ses jeux.</p>
+                <p>L’établissement de ce spectacle national seroit d’une éxécution facile, si, loin
+                    qu’il ait rien de méprisable, il peut servir au contraire à conduire aux
+                    honneurs &amp; aux dignités, &amp; s’il est ordonné que nul ne pourra être admis
+                    à aucune place publique à la Cour, dans le Ministère, ou dans la Robe, sans
+                    avoir donné des preuves de ses talens dans les premieres années de sa jeunesse,
+                    sur ce Théâtre de la Nation.</p>
+                <p>Ainsi après bien des siecles, nous commencerons pour la premiere fois à tenter
+                    d’imiter &amp; de surpasser nos modèles, les Grecs &amp; les Romains, qui eurent
+                    de tout tems des Spectacles entretenus aux dépens de l’Etat.</p>
+                <p>Nous voyons dans notre histoire, que l’Empereur Justinien<note n="(a)"
+                        place="bottom" resp="author">L’an 540.</note> voulant rechercher l’amitié des François,
+                    fit proposer <pb n="71" xml:id="p71"/>aux fils de Clovis, Childebert Roi de
+                    Paris, &amp; Clotaire Roi de Soissons, d’accepter le droit de venir présider,
+                    comme les Empereurs, aux jeux qui se célébroient dans l’Amphithéâtre de la ville
+                    d’Arles.</p>
+                <p>Quel spectacle seroit plus intéressant, que celui de toute une Nation
+                    réunie ! Là un pere diroit à son fils, « Vois au milieu de cette
+                    auguste assemblée, le meilleur des maîtres &amp; le plus humain des rois. Au
+                    sein des batailles, &amp; volant de conquêtes en conquêtes, il arrosa de pleurs
+                    plus d’une fois les lauriers de sa victoire. Plus grand lorsqu’il éprouva les
+                    revers, il vit la mort lui enlever les objets de sa tendresse sans en être
+                    abattu ». Ici une jeune beauté en secret, se diroit à elle-même,
+                    « Voilà celui qui regne avec tant d’empire sur les cœurs, &amp; qui par
+                    conséquent a encore bien plus de pouvoir que n’en avoit le Cardinal de
+                    Richelieu, lorsque le Lieutenant Général d’Andeli refusoit d’accorder sa fille
+                    au grand Corneille ».</p>
+                <trailer>Fin de la Dissertation.</trailer>
+            </div1>
+        </body>
+    </text>
+</TEI>
