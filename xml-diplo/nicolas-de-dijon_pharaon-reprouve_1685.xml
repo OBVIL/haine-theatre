@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dixiéme sermon. Troisiéme obstacle du salut. Les spectacles publiques
+                    [Pharaon reprouvé]</title>
+                <author key="Nicolas de Dijon (capucin, 16..-1696)"
+                    ref="https://data.bnf.fr/fr/10741723/nicolas_de_dijon/">Nicolas de
+                    Dijon</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.site/corpus/haine-theatre/nicolas-de-dijon_pharaon-reprouve_1685</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Nicolas de Dijon, « Dixiéme sermon. Troisiéme obstacle du salut. Les
+                    spectacles publiques », in <hi rend="i">Pharaon reprouvé, ou l’Avocat de la
+                        Providence de Dieu sur la reprobation des pecheurs. Avent prêché par le R.
+                        P. Nicolas de Dijon Ex-Provincial des Capucins de la Province de Lyon</hi>,
+                        <pubPlace>Lyon</pubPlace>, <publisher>Claude Muguet</publisher>,
+                        <date>1685</date>, p. 286-325. PDF : <ref
+                        target="http://books.google.fr/books?id=ksHCaEoqx1AC">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1685"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter">
+                <pb n="286" xml:id="p286"/>
+                <head type="main">La volonté patiente de Dieu envers Pharaon rebelle. <lb/>Dixiéme
+                    sermon.</head>
+                <head type="sub"><hi rend="i">Troisiéme obstacle du salut. <lb/>Les spectacles
+                        publiques.</hi></head>
+                <p><quote><hi rend="i">Vocavit Pharao sapientes, &amp; maleficos, &amp; fecerunt
+                            ipsis per incantationes Ægyptiacas &amp; arcana quadam similiter.</hi>
+                        <bibl>Exod. c 7.</bibl></quote></p>
+                <p><quote>Pharaon appella les Sages &amp; les Magiciens d’Egypte, qui par leurs
+                        charmes &amp; leurs enchantemens, firent quelques merveilles semblables aux
+                        miracles de Moyse. <bibl><hi rend="i">Dans l’Exode
+                        chap. 7.</hi></bibl></quote></p>
+                <p/>
+                <p><hi rend="big">E</hi><hi rend="sc">Ntre</hi> les diverses inclinations qui
+                    emportent &amp; qui agitent le cœur de l’homme, il y en a une certaine si cachée
+                    dans son origine, &amp; si bizarre dans ses effets, qu’on a peine d’en découvrir
+                    la cause, &amp; d’en reformer les dereglemens, c’est que la nature luy a donné
+                    un si furieux penchant, &amp; une si grande facilité à imiter tout ce qu’il voit
+                    faire aux autres, que comme s’il étoit incapable de se determiner de luy-même au
+                    vice ou à la vertu, toute sa vie se passe <pb n="287" xml:id="p287"/>à
+                    considerer les actions des autres, &amp; à se les proposer comme des originaux
+                    dont il s’efforce de faire des copies, &amp; à se rendre bon ou méchant par
+                    imitation. C’est pourquoy il me semble qu’Aristote n’a pas mal rencontré à ce
+                    propos, lors qu’il a defini l’homme, non seulement un animal raisonnable, mais
+                    encore <quote><hi rend="i">animal imitativum</hi></quote>, un animal qui est un
+                    parfait copiste, &amp; un fidele imitateur de tout ce qu’il voit faire en sa
+                    presence. Voilà M. le doux poison de la vie civile &amp; la maladie contagieuse
+                    qui corrompt les meilleurs naturels, lors qu’ils imitent plutôt les vices
+                    d’autruy qui nous entraînent par une force agreable, &amp; qui flatte la nature,
+                    que les vertus qui nous attirent par un charme contraire, qui choque ses
+                    inclinations : &amp; c’est si je ne me trompe cette pernicieuse inclination
+                    d’imiter tout ce qui se passe dans le monde, qui a donné le commencement à la
+                    comedie, &amp; la naissance aux Comediens. Lors que des hommes inutiles &amp;
+                    dangereux à l’Etat &amp; à la Religion, n’ayans point d’autres métiers pour
+                    vivre que celuy de divertir le genre humain, ont faits des spectacles publiques
+                    pour representer la vie &amp; les plus memorables actions des Heros &amp; des
+                    Heroines de l’antiquité payenne, non pas tant pour reformer les mœurs des
+                    peuples, que pour tromper &amp; divertir les faineans. C’est M. la remarque que
+                    je fais dans nôtre Histoire Sainte, où nous lisons que Moyse ayant fait quelques
+                    miracles en presence de Pharaon, pour le convaincre que sa mission &amp; que le
+                    commandement qu’il luy faisoit de donner la liberté aux Enfans d’Israël, venoit
+                    de Dieu ; ce Prince rebelle à la grace des miracles, aussi bien qu’au
+                    commandement de Dieu, appella promtement à son secours les plus fameux Magiciens
+                    d’Egypte, lesquels <quote><hi rend="i">per incantationes Ægyptiacas, &amp;
+                            arcana quadam similiter fecerunt</hi></quote>, par la force de la magie,
+                    &amp; par l’operation du demon, luy firent un spectacle de divertissement par
+                    une fausse imitation des miracles de Moyse, afin que son esprit seduit par ce
+                    plaisir enchanté, resista toûjours à la puissance de Dieu, retint son peuple
+                    dans l’esclavage, &amp; mit un nouvel obstacle à son salut. Vous comprenez bien
+                    M. que j’entre aujourd’huy dans une grande carriere, &amp; qu’en attaquant le
+                    plaisir enchanté qu’on trouve dans les spectacles publiques, &amp; sur tout dans
+                    celuy de la Comedie, je m’attire un grand nombre d’ennemis sur les bras ?
+                    j’espere pourtant <pb n="288" xml:id="p288"/>d’en faire mes meilleurs amis, soit
+                    par la justice de ma cause, soit par l’équité de leurs jugemens. Ce sera aprés
+                    avoir demandé les lumieres du Saint Esprit pour les desabuser, &amp; pour les
+                    instruire. <hi rend="i">Ave Maria.</hi></p>
+                <p/>
+                <p><hi rend="big">C</hi>Omme l’esprit de l’homme semble estre infini dans ses
+                    pensées, puis qu’il ne forme des projets que pour tous les siecles, &amp; des
+                    entreprises que pour l’eternité, il semble aussi qu’il affecte par une vaine
+                    imitation de l’immensité de Dieu, de se rendre present dans tous les lieux du
+                    monde, pour y estre le censeur de tous les hommes, &amp; le spectateur de tous
+                    les evenemens. Voilà pourquoy non content de rappeller dans sa memoire
+                    l’histoire de tous les siecles passés, il veut encore par une espece de magie
+                    que la comedie a inventée, tirer les morts de leurs tombeaux par une fausse
+                    resurrection, &amp; les faire paroître sur le theatre sous des visages inconnus,
+                    sous des figures étrangeres, &amp; avec des habits empruntés.</p>
+                <p>Il est vray que les sages du paganisme avoient fait du theatre une école
+                    publique, pour inspirer avec plaisir l’horreur du vice, &amp; l’amour de la
+                    vertu : &amp; que les Poëtes qui étoient les Theologiens des Gentils avoient
+                    inventés les pieces comiques &amp; tragiques pour une bonne fin ; en effet, ceux
+                    qui ont étés les juges plus favorables de leur intention, ont voulu nous
+                    persuader que ces autheurs n’avoient pretendus autre chose, sinon de purger la
+                    volonté de ses passions dereglées, par la representation de la tragedie, dans
+                    laquelle le theatre étoit toûjours ensanglaté par la mort des vicieux, &amp; par
+                    le châtiment des coupables ; &amp; de purger l’esprit des opinions erronnées,
+                    par la representation des comedies, dans lesquelles on tournoit en ridicule les
+                    autheurs de la fausse doctrine, &amp; les maîtres des méchantes opinions : mais
+                    comme la poësie qui a été employée à ces sortes d’ouvrages s’est corrompuë parmi
+                    les Payens, elle a donné plus de force au vice pour le faire suivre, que de
+                    charme à la vertu pour la faire imiter. Voilà M. ce qui a foüillé le theatre de
+                    mille crimes, ce qui a rendu la comedie coupable de mille dereglemens, ce qui a
+                    corrompu les bonnes mœurs des peuples, ce qui a armé de zele de tous les Peres
+                    de l’Eglise contre ces spectacles publiques, &amp; ce <pb n="289" xml:id="p289"
+                    />qui a attiré toute la severité des loix divines &amp; humaines, contre ces
+                    sortes de plaisirs enchantés : mais avant que de prononcer un arrest de
+                    condamnation contre eux, l’ordre de la justice demande que nous informions du
+                    fait à charge &amp; à décharge, &amp; que nous examinions au poids du
+                    sanctuaire, si les plaintes qu’on fait contre la comedie sont legitimes, &amp;
+                    si les crimes dont on l’accuse sont veritables. Or je remarque que ceux qui se
+                    sont declarés ouvertement ses parties, pretendent qu’elle est coupable de trois
+                    grands crimes<note place="margin"><hi rend="sc">Division</hi>.</note> : Sçavoir
+                    de profanation, d’infidelité &amp; de libertinage ; de profanation, puisque la
+                    sainteté de la Religion y est deshonnorée ; d’infidelité, puisque les vœux du
+                    Baptême y sont violés ; &amp; de libertinage, puisque la pureté des mœurs y est
+                    corrompuë. Voilà M. ce que je vais examiner dans ce Discours, en forme de
+                    dissertation pour instruire l’esprit, aussi bien qu’en forme de Sermon pour
+                    regler la volonté.</p>
+                <p/>
+                <p><note place="margin"><hi rend="sc">I. Point.</hi></note><hi rend="big">L</hi>E
+                    premier crime dont la comedie est censée coupable, c’est de profaner la sainteté
+                    de la Religion ; pour établir ce fait, il faut remonter plus haut, &amp;
+                    supposer que le principal dessein du demon ayant été de corrompre le culte de
+                    Dieu &amp; la sainteté de la Religion, il a executé son entreprise en
+                    introduisant l’idolatrie dans le monde, en se faisant bâtir des temples, dresser
+                    des autels, offrir des sacrifices, &amp; rendre les honneurs divins dans les
+                    fabuleuses divinités des Gentils : mais voyant que dans la suite des tems
+                    l’Evangile avoit rétabli le culte du vray Dieu, qu’il avoit renversé les idoles,
+                    banni l’idolatrie &amp; la superstition de tout l’univers ; il a tâché de se
+                    consoler de cette perte en substituant les Comediens aux Idolatres, &amp; la
+                    comedie au Paganisme, pour s’en faire une espece de religion. Ce n’est point ma
+                    pensée, c’est celle de Tertullien<note place="margin">Tertull. I. de spectac.
+                        cap. 5.</note>, qui parlant des Lydiens qui furent les premiers entre tous
+                    les peuples qui instituerent des festes &amp; des spectacles en forme de
+                    Religion, dit fort à propos que, <quote><hi rend="i">inter cæteros ritus
+                            superstitionum suarum, spectacula quoque religionis nomine
+                            instituunt</hi></quote>, entre les superstitueuses ceremonies de leur
+                    culte, ils instituerent des spectacles publiques en forme de Religion. Ces
+                    Idolatres pouvoient-ils mieux deshonorer la Religion, qu’en faisant de ces
+                    ceremonies des spectacles de divertissement ? en effet <pb n="290" xml:id="p290"
+                    />M. si vous voulés estre des juges équitables, &amp; vous defaire de toutes
+                    sortes de preventions, vous tomberés d’accord avec moy, que la comedie est un
+                    dangereux reste de l’idolatrie abbatuë, &amp; du paganisme agonisant, de quelque
+                    côté que vous la puissiez considerer ; soit du côté de son invention &amp; de
+                    son origine, soit du côté de sa fin &amp; de ses representations, soit du côté
+                    de ses Acteurs &amp; de ses personnages. Oüy M. ne vous flatez point, j’estime
+                    &amp; je soûtiens que la comedie est un reste du paganisme dans son origine
+                    &amp; dans son établissemet, puis qu’elle n’a eu que les mêmes maîtres, &amp;
+                    que les mêmes autheurs que l’idolatrie, qui sont les demons. La raison est que
+                    cõme l’idolatrie est une ombre &amp; une fausse image de religion, par laquelle
+                    on rend les honneurs divins à des idoles de bois &amp; de pierre : de même la
+                    comedie est une espece de religion payenne, par laquelle on rend aussi les
+                    honneurs divins à des idoles de chair &amp; de sang, c’est à dire, à des hommes
+                    vicieux, &amp; à des femmes débauchées, qui ont estés erigés en dieux &amp; en
+                    deesses, sous les noms de Jupiter &amp; de Saturne, de Mars, &amp; d’Apollon, de
+                    Junon &amp; de Venus : &amp; comme tous les ouvrages portent ordinairement le
+                    caractere de l’esprit &amp; du genie de leur autheur, n’y a-t-il pas raison de
+                    dire que la comedie est un veritable reste du paganisme, puisqu’elle n’a eu que
+                    les mêmes maîtres, &amp; les mêmes autheurs que l’idolatrie, sçavoir les
+                    demons.</p>
+                <p>Consultons là dessus, je vous prie les sentimens des premiers Peres de l’Eglise,
+                    &amp; vous verrés quels sont ceux qu’ils ont tâchés d’inspirer aux Fideles du
+                    christianisme naissant.<note place="margin">Tertull. I. de spect.</note>
+                    Tertullien considerant que les premiers Chrétiens dont la foy étoit encore
+                    tendre &amp; delicate, se laissoient entraîner au plaisirs des spectacles
+                    publiques, par l’exemple des Gentils, a employé toute la force de ses raisons
+                    pour les en détourner, en leur faisant voir que les divertissemens du theatre
+                    n’étoient proprement qu’un reste de superstition &amp; d’idolatrie, qui
+                    perseveroit encore dans le christianisme, à la honte des Chrétiens ; &amp; que
+                    toutes les choses qui se representoient dans ces fortes de spectacles, n’étoient
+                    dans le fond qu’une idolatrie deguisée, &amp; qu’un paganisme travesty, dont le
+                    demon étoit l’autheur ; je ne sçay pas ce que vous en pensés, mais voicy ce
+                    qu’il en a dit : <quote><hi rend="i">dæmones ab initio prospicientes
+                        sibi</hi></quote>. <pb n="291" xml:id="p291"/>Les demons depuis le
+                    commencement du monde ayant bien pris toutes leurs mesures pour élever leur
+                    religion &amp; leur empire sur les ruines du culte de Dieu, <quote><hi rend="i"
+                            >inter cætera idolatriæ etiam spectaculorum inquinamenta quibus hominem
+                            à Deo avocarent ; &amp; suo honori obligarens ejusmodi artium ingenia
+                            inspirarunt</hi></quote>. Et, considerans que l’institution des
+                    spectacles publiques, leur seroit d’un grand secours pour débaucher l’homme du
+                    service de Dieu, &amp; le consacrer à leur culte, ont inspirez aux Payens ces
+                    sacrileges inventions de leur art, dans lesquelles toute la religion est
+                    profanée. Or jugez maintenant des qualitez de cet art, par l’esprit de
+                    l’artisan, &amp; de la nature de l’ouvrage par le genie de son autheur. Et
+                    confessez que la comedie qui a été substituée aux anciens spectacles des Payens,
+                    étant un reste d’idolatrie, on fait en quelque maniere autant d’honneur au
+                    diable &amp; de deshonneur à la religion, en l’approuvant par leur presence,
+                    qu’en brûlant un grain d’encens au pied d’une idole, ou qu’en assistant aux
+                    sacrifices des Gentils. La raison est, que si dans la pensée de ce même Pere, il
+                    y a une secrette idolatrie renfermée dans chaque peché mortel, parce que le
+                    pecheur établissant sa derniere fin dans la creature, luy rend un honneur qui
+                    n’est dû qu’au Createur, <quote><hi rend="i">idololatriam admittit, quicumque
+                                delinquit<note place="margin">Tertull. I. de
+                        idololat.</note></hi></quote>. L’on peut dire aussi que celuy qui assiste à
+                    la comedie, commet une espece d’idolatrie, parce qu’il se rend coupable par sa
+                    presence de toutes les profanations qu’on y fait du Christianisme &amp; de la
+                    Religion.</p>
+                <p>Et pour vous convaincre encore plus parfaitement que la comedie est une invention
+                    de l’Enfer, &amp; un ouvrage des demons plûtôt que des Poëtes ; d’où vient à
+                    vôtre avis le mot de comedie, sinon d’un certain <hi rend="i">Comus</hi>, que
+                    les idolatres ont autrefois adorez comme le Dieu qui presidoit aux festins, à la
+                    débauche &amp; à l’impudicité, c’est à dire en bon François, le demon <hi
+                        rend="i">Asmodée</hi>, selon le tableau<note place="margin">Philost. 3.
+                        tabl.</note> que Philostrate en a fait. Et comme il n’y avoit point
+                    autrefois de Dieu particulier qui n’eût aussi son culte &amp; ses sacrifices
+                    particuliers, les débauchez qui étoient les sacrificateurs de ce <hi rend="i"
+                        >Comus</hi>, composoient des Odes &amp; des Elegies, qu’ils chantoient à son
+                    honneur, comme des Hymnes &amp; des Cantiques aux jours de ses principales
+                    Fêtes, &amp; de ses plus grandes solemnitez. D’où j’infere que la comedie étant
+                    si infame dans son autheur &amp; dans son origine, un Chrétien ne fait pas un
+                    moindre crime d’y assister, que celuy qu’il <pb n="292" xml:id="p292"
+                    />commetroit en assistant aux fêtes des Bacanalles, &amp; des Orgies des
+                    anciens, où allant au Sabat avec les Sorciers, puisque le demon étant l’autheur
+                    &amp; l’instituteur des uns &amp; des autres, il y reçoit un pareil honneur de
+                    tous les assistans. Or demandez au plus indulgent de tous les Casuistes, mon
+                    Pere est-ce un grand peché d’aller au Sabat, d’assister à toutes les
+                    abominations qui s’y commettent, &amp; d’applaudir à tous les honneurs qu’on y
+                    rend au demon. Il vous répondra sans hesiter, que c’est au moins un peché mortel
+                    contre le premier commandement, &amp; une abjuration secrette de vôtre religion.
+                    Demandez maintenant au saint &amp; sçavant Evêque de Marseille Salvien, qui a
+                    été nôtre veritable Jeremie, qui a declamé contre les desordres, &amp; pleuré
+                    sur les malheurs de la France, comme le Prophete Ieremie pleura autrefois sur
+                    ceux de Iudée. Demandez-luy, dis-je, si c’est un grand mal d’aller au bal &amp;
+                    à la comedie, &amp; il vous répondra hardiment que c’est<note place="margin"
+                        >Salu. 1. 6. De Guber.</note>, <quote><hi rend="i">fidei
+                        apostatatio</hi></quote>, une abjuration &amp; une apostasie de la foy ;
+                    comme s’il vouloit dire que le crime d’un Chrétien qui va à la comedie, est
+                    semblable en quelque maniere à celuy ou d’un Sorcier qui va au sabat, ou d’un
+                    Renegat qui renonce au nom de Chrétien pour se faire Mahometan, qui quite
+                    l’Eglise pour aller dans une Mosquée, &amp; qui renonce à l’Evangile pour suivre
+                    l’Alcoran ; <hi rend="i">fidei apostatatio</hi>, voilà une abjuration de la foy
+                    de <hi rend="sc">Jesus-Christ</hi> de part &amp; d’autre ; disons donc que la
+                    comedie est une veritable profanation de la sainteté de la Religion, puis
+                    qu’elle est un ruisseau empoisonné d’une source corrompuë, <quote><hi rend="i"
+                            >nam &amp; rivulus tenuis ex suo fontè, &amp; surculus modicus ex sua
+                            fronde qualitatem originis continet<note place="margin">I. de spect.
+                                c. 7.</note></hi></quote>, dit Tertullien ; c’est à dire qu’elle est
+                    un reste du Paganisme, qui en a retenu tout le venin &amp; toute la corruption,
+                    non seulement dans son institution &amp; dans son autheur, mais encore dans sa
+                    nature &amp; dans ses circonstances, dans sa fin &amp; dans ses
+                    representations.</p>
+                <p>Ne nous arrêtons point icy M. à la decoration exterieure du theatre, qui ne
+                    represente rien que de profane aux yeux ; examinons la comedie dans son fond,
+                    &amp; faisons une espece de dissection anathomique de sa nature, de ses
+                    circonstances &amp; de ses representations. Car, dites-moy, qu’est-ce que
+                    comedie ; je répons qu’elle n’est proprement que cette apotheose tant vantée
+                    parmy les Payens, par laquelle un Prince, un Conquerant, un Heros, qui s’étoit
+                    signalé pendant sa vie, ou dans le gouvernement de l’Empire, ou dans la <pb
+                        n="293" xml:id="p293"/>defense de la patrie, ou par la defaite des ennemis,
+                    étoit admis au rang des dieux, aprés plusieurs religieuses ceremonies, &amp; sur
+                    tout avec l’approbation &amp; le consentement du Senat ; cette approbation du
+                    Senat a paru si extravagante à Tertullien, que ce Pere voulant tourner en
+                    ridicule cette apotheose des Romains, leur dit en se moquant d’eux ; <hi
+                        rend="i">de humano arbitratu divinitas apud vos pensitatur</hi>, la divinité
+                    parmy vous dépend du jugement humain, elle est une espece de present qui vient
+                    de la liberalité des Consuls &amp; du peuple ; en sorte que, <quote><hi rend="i"
+                            >nisi homini placuerit, Deus non erit<note place="margin">Tertull.
+                                apolog.</note></hi></quote>, il n’y aura point de Dieu s’il ne plaît
+                    pas aux hommes. Or je vous demande, qu’est-ce que cette apotheose, sinon une
+                    profane, une sacrilege &amp; injurieuse representation, ou imitation de la
+                    canonization de nos Saints, que le demon a introduite sur le theatre au mépris
+                    de l’Eglise, &amp; au deshonneur de la Religion.</p>
+                <p>En effet, comme la canonization des Saints est une ceremonie sacrée par laquelle
+                    l’Eglise sur des témoignages authentiques de miracles &amp; de vertus, declare
+                    qu’un tel homme ou qu’une telle femme est morte en état de grace, &amp; en odeur
+                    de sainteté, &amp; permet qu’on luy rende un culte public, qu’on fasse ses
+                    images &amp; ses portraits, qu’on fasse son éloge &amp; son panegyrique, &amp;
+                    qu’on luy adresse des prieres &amp; des vœux : de même la comedie étant une
+                    espece d’apotheose, ou de canonization de ces illustres Payens, tant vantez dans
+                    la mitologie, &amp; dans les metamorphoses, dans les fables &amp; dans les
+                    romans, &amp; qui se sont rendus plus fameux par leurs vices que par leurs
+                    vertus. Qui est l’homme de bon sens qui ne s’aperçoit pas que ces
+                    representations comiques ou tragiques qui se font sur le theatre, sont une
+                    ingenieuse &amp; subtile invention du diable pour deshonorer les ceremonies de
+                    l’Eglise, &amp; se moquer de la canonization de nos Saints. Et c’est par cette
+                    raison particuliere que les spectacles des Gentils étoient defendus aux premiers
+                    Chrétiens, parce qu’ils y representoient quelques mysteres de nôtre religion ;
+                    pour d’un sujet de pieté en faire une matiere de plaisanterie, &amp; rendre tout
+                    le Christianisme odieux ou impertinent.</p>
+                <p>Mais je ne m’en étonne pas, c’étoit un artifice des puissances du monde &amp; de
+                    l’Enfer : car comme elles craignoient que la fureur &amp; la tempête de la
+                    persecution ne pût pas ébranler la fermeté de la religion Chrétienne, elles ont
+                    eu recours à la superstition &amp; à la <pb n="294" xml:id="p294"/>comedie pour
+                    en alterer au moins la pureté ; &amp; c’est pour reussir dans cette entreprise
+                    que le demon qui est, dit Tertullien, le rival de Dieu, &amp; le copiste de <hi
+                        rend="sc">Jesus-Christ</hi>, a imité &amp; contrefait les mysteres de la
+                    religion, &amp; les Sacremens de l’Eglise, pour opposer Eglise contre Eglise,
+                    &amp; Religion contre Religion, &amp; partager ainsi avec luy les adorations
+                    &amp; les sacrifices. Le succez de l’entreprise ne luy a pas été tout-à-fait
+                    malheureux, car il a son baptême pour ses enfans, <quote><hi rend="i">tingit
+                            &amp; ipse quosdam</hi></quote>, dit ce docte Africain ; il a sa
+                    confirmation pour ses soldats, il a sa Cene pour ses initiés, il a son Evangile
+                    pour ses predicateurs, &amp; enfin il a la comedie qui est la canonization de
+                    ses bons serviteurs &amp; de ses fideles servantes ; la tragedie est pour ses
+                    martyrs, &amp; la comedie pour ses confesseurs.</p>
+                <p>Et pour vous faire voir que je n’outre pas la matiere, &amp; que je ne vous
+                    impose point, ç’a tirés ce rideau &amp; levés cette tapisserie, qui voyés-vous
+                    paroître sur le theatre, sinon les faux dieux, &amp; les ridicules deesses de
+                    l’antiquité, c’est à dire des hommes vicieux &amp; des femmes prostituées, qui
+                    ont étés érigés en divinités par les Gentils, ou bien on y voit paroître un
+                    illustre Payen, un Prince malheureux, ou un amant infortuné, dont le Poëte fait
+                    le Heros de la piece, qu’il resuscite par une espece de negromantie, &amp;
+                    auquel il fait rendre plus de culte, &amp; brûler plus d’encens qu’à tous les
+                    saints canonizés de l’Eglise, écrits dans nôtre martyrologe, &amp; invoqués par
+                    les Fideles.</p>
+                <p>Mais vous me direz peut-estre, mon Pere, les Muses Françoises sont bien plus
+                    chastes que les Muses Grecques &amp; Romaines, elles n’ont point l’humeur
+                    cõquête, ny lascive de l’ancienne Thalie, le theatre est maintenant purifié de
+                    toutes les ordures qu’il avoit tiré des Payens ; &amp; nos Poëtes qui font
+                    profession du Christianisme ne nous donnent plus que des pieces saintes &amp;
+                    honnêtes, dans lesquelles on voit toûjours la vertu triomphante, &amp; le vice
+                    abbattu. Ah ! poison deguisé ! dangereux artifice, pour tromper les pecheurs,
+                    &amp; pour deshonorer les Saints : Quoy ? donc l’on verra des Saints &amp; des
+                    Saintes que toute l’Eglise revere comme ses veritables Heros, &amp; ses
+                    veritables Heroïnes, representés avec un air lacif, par des hommes infames &amp;
+                    par des femmes impudiques ? Quoy, l’on verra l’histoire de leurs <pb n="295"
+                        xml:id="p295"/>vies mêlée d’intrigues d’amour &amp; d’incidens de
+                    galanteries, &amp; representée par des vers qui expriment &amp; émeuvent les
+                    passions d’une maniere si forte &amp; si douce, qu’en faisant les portraits de
+                    ces saints &amp; de ces saintes, ils font paroître avec éclat leurs petites
+                    foiblesses, &amp; obscurcissent leurs plus grandes vertus. D’où il arrive que
+                    ces vers qui décrivent si finement &amp; si spirituellement ces petites
+                    foiblesses, étans prononcés d’une maniere touchante &amp; d’un ton languissant,
+                    &amp; accompagnés du geste, de la voix &amp; des autres graces du visage &amp;
+                    de l’habit, font bien plus d’impression sur les cœurs, que le stile fade &amp;
+                    insipide avec lequel on décrit leurs vertus : &amp; c’est ce qui me conduit
+                    insensiblement à ma derniere preuve que je tire des Acteurs, c’est à dire des
+                    Comediens, pour vous convaincre que la comedie est effectivement un reste du
+                    paganisme, ou si vous aimez mieux, le paganisme pretendu reformé.</p>
+                <p>Etudiés, je vous prie, la religion &amp; la condition de ces honnêtes gens qui
+                    sont sur le theatre, qui joüent les grands rôles, &amp; qui font les personnages
+                    des Dieux ou des Empereurs, des Deesses ou des Reines, qui sont-ils, ce ne sont
+                    pas à la verité des idolatres ny des Payens, je l’avoüë, qui donc, helas ! ny
+                    vous ny moy, n’oserions le dire, pour l’honneur de nôtre sainte Religion ; ils
+                    ont pourtant l’éfronterie de le dire eux-mêmes, &amp; de le faire sçavoir à tous
+                    ceux à qui il appartiendra, qu’ils sont Chrétiens. Ah M. voilà ce qui fait ma
+                    douleur &amp; l’opprobre du Christianisme ; ils sont donc Chrétiens disent-ils ;
+                    mais helas quels Chrétiens, qui sont de la même profession que ceux contre
+                    lesquels l’Empereur Tybere rendit un arrest de bannissement pour consacrer la
+                    septiéme année de son Empire ; quels Chrétiens qui font le métier de ceux que
+                    l’Empereur Theodose condamne par les loix de son Code à estre exposés à la
+                    fureur des tygres &amp; des leopards, comme étant la corruption des peuples
+                    &amp; la peste des Etats ; quels Chrétiens qui sont declarés infames par les
+                    saints-Canons, comme on le peut voir dans le troisiéme Concile de Carthage ;
+                    quel Chrétiens que S. Cyprien appelle, <quote><hi rend="i">magistros &amp;
+                            doctores non erudiendorum, sed perdendorum puerorum</hi></quote>, des
+                    Maîtres &amp; des Docteurs plus propres à perdre &amp; à corrompre la jeunesse
+                    qu’à l’instruire &amp; à la bien élever ; quels Chrétiens contre lesquels
+                    l’Ordonnance de Charles IX. <pb n="296" xml:id="p296"/>aux Etats d’Orleans,
+                    &amp; celles de Henry III. aux Etats de Blois, ont faits plusieurs articles qui
+                    sont autant de carreaux de foudre qui exterminent dans tout le Royaume ces
+                    ennemis secrets de l’Etat aussi bien que de la Religion ; quels Chrétiens
+                    ausquels les saints Canons ôtent tous les moyens de vivre &amp; de continuër
+                    dans cét exercice, en defendant qu’aucun ne soit si hardi de contribuer à leur
+                    subsistance, &amp; declarant que c’étoit un très-grand peché de leur donner de
+                    l’argent, ou quelque autre chose, <quote><hi rend="i">donareres suas
+                            histrionibus vitium est immane<note place="margin">I. p. dist 86.
+                                can. 7.</note></hi></quote>. Quels Chrétiens, que le premier Concile
+                    d’Arles celebré l’an 314. sous le Pape S. Silvestre, &amp; sous l’Empereur
+                    Constantin, defend de recevoir à la sainte Communion, <quote><hi rend="i">de
+                            theatricis &amp; ipsos placuit quamdiu agunt, à communione
+                        separari</hi></quote>, c’est à dire, qu’il les prive de la participation du
+                    Corps &amp; du Sang de <hi rend="sc">Jesus-Christ</hi>, s’ils ne renoncent au
+                    theatre : quels Chrétiens enfin sur lesquels S. Cyprien étant consulte par
+                    Everatius, s’il falloit les recevoir dans l’Eglise &amp; dans les assemblées des
+                    Fideles, répond que non, &amp; voicy l’admirable raison qu’il en donne,
+                            <quote><hi rend="i">quod ego puto ; nec majestati divina, nec Evangelicæ
+                            disciplinæ congruere, ut pudor &amp; honor Ecclesiæ, tam turpi, &amp;
+                            infami contagione fœdetur<note place="margin">L. I. Epist. epist.
+                                10.</note></hi></quote> ; parce que j’estime qu’il n’est point
+                    convenable ny à la majesté de Dieu, ny à la discipline de l’Evangile, que
+                    l’honneur de l’Eglise soit ainsi offencé, &amp; sa pureté fletrie par la
+                    communication avec des gens dont la profession est si infame &amp; le métier si
+                    contagieux. Cette réponse de S. Cyprien a été si venerable à toute l’Eglise,
+                    qu’elle en a formé un Canon exprés<note place="margin">Can.95. de consecrat.
+                        dest. 3.</note>.</p>
+                <p>Aprés cela que vous en semble Messieurs &amp; mes Dames, je vous fais juges &amp;
+                    arbitres de ce different qui est entre <hi rend="sc">Jesus-Christ</hi> &amp; les
+                    Comediens, vous avez vû &amp; examiné les preuves que j’ay apportées pour vous
+                    faire comprendre que la comedie est effectivement atteinte &amp; convaincuë du
+                    premier crime dont elle est accusée, sçavoir de profaner la sainteté de la
+                    Religion. Prononcés maintenant arrest d’absolution ou de condamnation contre
+                    elle ? Ah ! M. s’il vous reste encore dans le cœur quelques sentimens de pieté
+                    &amp; de Christianisme, ne laissés point corrompre vôtre jugement par le mauvais
+                    goût du siecle, &amp; que le plaisir de la comedie (que j’appelle un plaisir
+                    enchanté, parce qu’il vous trompe &amp; entraîne par des prestiges secrets,
+                    &amp; par une <pb n="297" xml:id="p297"/>fascination dangereuse, <quote><hi
+                            rend="i">fascinatio nugacitatis</hi></quote>, l’appelle le Sage) que ce
+                    plaisir dis-je ne suborne point vôtre raison, cõtre vôtre conscience ; mais que
+                    tout le monde connoisse que vous ne cachés point les restes du paganisme, sous
+                    la profession apparente de Chrétien. Car il faut M. de deux choses l’une, ou
+                    renoncer à la comedie, ou renoncer à l’Evangile, ou renoncer aux Comediens, ou
+                    renoncer à <hi rend="sc">Jesus-Christ</hi> ou renõcer au theatre, ou renõcer aux
+                    autels : car pretendre de les pouvoir accorder ensemble, &amp; de partager son
+                    cœur &amp; son affection entre les deux, c’est une presomption teméraire &amp;
+                    ridicule : comme nous verrons demain. Disons donc que ce plaisir de la comedie
+                    qui enchante l’esprit &amp; les sens, a paru toûjours si criminel aux veritables
+                    devots, aussi bien qu’aux veritables doctes, qu’ils ont jugés que non seulement
+                    la sainteté de la Religion étoit profanée dans ces sortes de divertissemens,
+                    mais que de plus les vœux du Baptême y étoient violés. C’est le second crime
+                    dont on accuse la comedie, qu’il faut examiner dans la seconde Partie de ce
+                    Discours.</p>
+                <p/>
+                <p><note place="margin"><hi rend="sc">II. Point</hi></note><hi rend="big">I</hi>E ne
+                    puis mieux commencer cette seconde partie qu’en distinguant avec S. Cyprien
+                    trois sortes de bonneur dans l’homme, <quote><hi rend="i">primus fœlicitatis
+                            gradus est, non delinquere</hi></quote>, son premier bonheur, ou le
+                    premier degré de sa veritable felicité en ce monde, consiste à ne point pecher :
+                            <quote><hi rend="i">secundus, delicta cognoscere</hi></quote> : le
+                    second degré consiste à connoître ses pechés : <quote><hi rend="i">tertius,
+                            commissa diluere</hi></quote>, &amp; le troisiéme consiste à expier ses
+                    pechés : pour moy M. je m’estimeray aujourd’huy bien heureux, si je puis vous
+                    faire renoncer pour jamais à la comedie, parce que je vous auray mis en
+                    possession de ces trois degrés de felicité, qui sont de ne plus pecher en y
+                    assistant, de bien connoître les pechés qu’on y commet, &amp; de bien expier les
+                    pechés qu’on y a commis : mais pour proceder avec ordre, &amp; pour vous faire
+                    comprendre une verité que vous n’avez peut-être jamais bien penetrée, &amp; à
+                    laquelle pourtant vôtre salut eternel est attaché ; il faut sçavoir quelle est
+                    la grace que nous recevons dans le Baptême ; quels sont les vœux que nous y
+                    faisons, &amp; quelles sont les obligations qu’ils nous imposent, la grace que
+                    nous y recevons est feconde, les vœux que nous y faisons sont solemnels, &amp;
+                    les obligations qu’ils nous imposent sont indispensables.</p>
+                <p><pb n="298" xml:id="p298"/>Comme le Baptême est appellé par S. Paul, <quote><hi
+                            rend="i">lavacrum regenerationis, &amp; renovationis Spiritus
+                                sancti<note place="margin">Epist. ad tit. c. 3.</note></hi></quote>,
+                    l’eau de la renaissance &amp; du renouvellement du S. Esprit ; la grace que nous
+                    y recevons est si seconde qu’elle produit plusieurs grands &amp; admirables
+                    effets : car premierement elle rend le Chrétien enfant adoptif de Dieu ; elle
+                    luy imprime le caractere invisible de cette adoption dans l’ame, &amp; le signe
+                    visible sur le front, qui est le signe de la Croix. D’où vient que Tertullien
+                    appelle le Baptême <quote><hi rend="i">Sacramentum signaculi</hi></quote>, le
+                    Sacrement du signe ou du caractere. Secondement, elle le fait membre du corps
+                    mystique de l’Eglise, en l’unissant à son Chef par la foy, en le sanctifiant par
+                    la grace, &amp; en l’animant de son esprit ; enfin elle rend le nouveau Chrétien
+                    capable de participer à tous les autres mysteres &amp; Sacremens de
+                    l’Eglise.</p>
+                <p>Mais afin que le Cathecumene que Tertullien appelle <quote><hi rend="i"
+                            >æternitatis candidatus</hi></quote>, pretendant à l’eternité, se rendre
+                    digne de toutes ces graces qui luy sont preparées &amp; distribuées par le
+                    Baptême, il doit faire de certains vœux solemnels, qui sont des abjurations
+                    publiques de toutes les choses qui sont des empêchemens &amp; des obstacles à la
+                    grace de sa regeneration. Or quels sont ces vœux, les voicy en peu de mots :
+                    c’est de renoncer au diable &amp; à ces œuvres, au monde &amp; à toutes ses
+                    pompes : La raison est que comme la grace du Baptême nous doit faire enfans
+                    adoptifs de Dieu, il faut necessairement renoncer au diable, parce qu’on ne peut
+                    estre enfant de deux peres, ny serviteur de deux maîtres. Troisiémement, comme
+                    la grace du Baptême nous fait membres du corps mystique de l’Eglise, il faut
+                    necessairement renoncer au monde, parce qu’on ne peut estre en même temps membre
+                    de l’Eglise, qui est l’assemblée des Fidèles, &amp; le Corps mystique de <hi
+                        rend="sc">Jesus-Christ</hi>, &amp; estre membre du monde, qui est
+                    l’assemblée des reprouvés, &amp; la synagogue de Satan. <quote><hi rend="i"
+                            >Synagogam satanæ<note place="margin">Apocal. 2.</note></hi></quote>,
+                    l’appelle S. Jean. Enfin comme la grace du Baptême nous rend capables de
+                    participer à tous les autres mysteres &amp; Sacremens de l’Eglise, il faut
+                    renoncer absolument aux pompes du monde &amp; aux œuvres de Satan, parce que
+                    nous ne pouvons pas estre initiés tout ensemble aux mysteres de sainteté, &amp;
+                    aux mysteres d’iniquité. Or comme ces vœux du Baptême sont des promesses
+                    solemnelles que nous faisons à Dieu à la face de l’Eglise, &amp; en presence des
+                    Anges &amp; des hommes, <pb n="299" xml:id="p299"/>elles nous imposent une
+                    obligation indispensable de les accomplir, à moins que de passer pour infideles
+                    &amp; pour parjures, <quote><hi rend="i">displicet enim Deo, infidelis, &amp;
+                            stulta promißio<note place="margin">Ecclî. c. 5.</note></hi></quote> :
+                    car il n’y a rien qui déplaise plus souverainement à Dieu qu’une promesse fole
+                    &amp; infidele, c’est à dire qui n’est point accomplie.</p>
+                <p>Sur ces principes ainsi établis comme incontestables, voicy comme j’argumente. Le
+                    vœu suppose une matiere certaine &amp; determinée, &amp; non pas vague,
+                    incertaine &amp; indeterminée ; quelles sont donc ces pompes particulieres du
+                    diable &amp; du monde, ausquelles nous avons renoncez par les vœux du Baptême ;
+                    je repons &amp; soûtiens avec Tertullien &amp; S. Cyprien, le Maître &amp; le
+                    Disciple, que c’est l’ancienne creance de l’Eglise universelle, que lors que par
+                    les vœux du Baptême nous avons renoncez au diable &amp; à ses œuvres, au monde
+                    &amp; à toutes ses pompes, nous avons encore renoncez en même tems à tous les
+                    spectacles, bals &amp; comedies, <quote><hi rend="i">ad spectacula
+                            quoque</hi><seg type="exquote">, dit ce docte Africain,</seg>
+                        <hi rend="i">pertinet renuntiationis nostra testimonium in
+                        lavacro</hi></quote>. La renonciation que nous avons faite dans les
+                    ceremonies solemnelles de nôtre Baptême, au diable &amp; à ses œuvres, au monde
+                    &amp; à ses pompes, comprend encore tous les spectacles publiques, &amp; tous
+                    les divertissemens criminels du theatre &amp; de la comedie, &amp; voicy la
+                    sçavante raison qu’il en donne ; <quote><hi rend="i">quia diabolo, &amp; pompa
+                            &amp; Angelis ejus sunt mancipata per idololatriam</hi></quote>, parce
+                    que toutes ces sortes de spectacles &amp; de representations se rapportent aux
+                    pompes du diable, &amp; sont consacrées par l’idolatrie à ses Anges apostats.
+                    D’où il faut inferer par une suite necessaire que ceux qui vont à la comedie
+                    &amp; au bal, violent impunément les vœux solemnels qu’ils ont faits à Dieu au
+                    Sacrement de Baptême.</p>
+                <p>Oüy M. ils violent premierement le vœu qu’ils ont fait de renoncer au diable,
+                    puis qu’ils s’engagent à son service, &amp; abandonnent celuy de Dieu, qui est
+                    un crime d’infidelité, de desertion &amp; de perfidie, c’est le solide
+                    raisonnement dont se sert Tertullien pour détourner les premiers Chrétiens des
+                    spectacles des Gentils, &amp; qu’il tire de la discipline militaire. <quote><hi
+                            rend="i">Nemo enim in castra hostium transit, nisi projectis armis suis,
+                            nisi destitutis signis, &amp; sacramentis principis sui<note
+                                place="margin">L. de spect. c. 24.</note></hi></quote>, comme un
+                    soldat est censé deserteur de milice, perfide à l’état, &amp; traître à son
+                    Prince, qui passe dans le camp des ennemis, aprés avoir quitté son baudrier
+                    &amp; ses armes, aprés avoir abandonné <pb n="300" xml:id="p300"/>son drapeau
+                    &amp; son étendart, &amp; aprés avoit violé le serment de fidelité qu’il avoit
+                    prêté à son Capitaine ; de même le Chrétien est coupable d’une pareille trahison
+                    qui va à la comedie : car si l’Eglise est semblable à une armée rangée en
+                    bataille, <quote><hi rend="i">ut castrorum acies ordinata<note place="margin"
+                                >Cantic. 6.</note></hi></quote>, le Chrétien en est un soldat,
+                            <quote><hi rend="i">Christi suis militem<note place="margin">I. de
+                                resur. car.</note></hi></quote>, l’appelle Tertullien, il prête
+                    serment de fidelité à Dieu dans les Sacremens de Baptême &amp; de Confirmation.
+                    Serment de fidelité qui a été si venerable même aux Payens, qu’ils ont crû qu’on
+                    ne pouvoit le violer sans sacrilege. C’est ainsi que Seneque en a parlé,
+                            <quote><hi rend="i">maximum vinculum ad bonam mentem, promisisti virum
+                            bonum, sacramento ligatus es<note place="margin">Senec.
+                                epist. 37.</note></hi></quote>, le serment est le plus grand lien
+                    qui puisse obliger une bonne ame, vous avez promis d’être homme de bien, dit ce
+                    Philosophe, souvenez-vous que vous étes lié par serment, &amp; que vous ne
+                    pouvez sans sacrilege manquer à vôtre parole. Cependant que fait le Chrétien qui
+                    va à la comedie, il se rend deserteur de la milice du Dieu vivant, il se range
+                    sous l’étendart de son ennemy, qui est le diable, il s’engage à son service,
+                    &amp; viole par une lâche perfidie le serment de fidelité qu’il avoit prêté à
+                        <hi rend="sc">Jesus-Christ</hi> dans le Baptême. Ainsi la promesse qu’il
+                    avoit fait de renoncer au diable n’est autre chose, dit Gregoire de Tours,
+                    sinon, <quote><hi rend="i">Sacramentum mendax prolatum à perfidis</hi></quote>,
+                    un faux serment prêté par des traîtres &amp; par des perfides, qui sont sans foy
+                    &amp; sans religion.</p>
+                <p>En second lieu il viole le vœu qu’il a fait au Baptême de renoncer au monde, pour
+                    vous bien faire comprendre la nature de cette promesse &amp; de cet engagement,
+                    il faut distinguer deux sortes de mondes bien contraires &amp; opposez ; l’un
+                    est le monde de <hi rend="sc">Jesus-Christ</hi>, l’autre est le monde du diable.
+                    Le monde de <hi rend="sc">Jesus-Christ</hi> est l’assemblée des élûs ; le monde
+                    du diable est l’assemblée des reprouvez. Or il y a tant d’antipathie entre ces
+                    deux mondes, qu’ils ne peuvent se souffrir, &amp; qu’ils tâchent mutuellement de
+                    se détruire. Le monde de <hi rend="sc">Jesus-Christ</hi> est continuellement
+                    dans les larmes, dans les souffrances &amp; dans la douleur ; &amp; le monde du
+                    diable est continuellement dans le plaisir, dans la débauche &amp; dans le
+                    divertissement, <quote><hi rend="i">mundus gaudebit, vos vero
+                                contristabimini<note place="margin">Joan. 16.</note></hi></quote>,
+                    dit le Fils de Dieu. Le monde de <hi rend="sc">Jesus-Christ</hi> est toûjours
+                    éclairé de la lumiere de verité ; d’où vient que les élûs qui sont les habitans
+                    de ce monde sont appellez, <quote><hi rend="i">filii lucis</hi></quote>, enfans
+                    de lumiere. Le monde du <pb n="301" xml:id="p301"/>diable est toûjours ensevely
+                    dans les tenebres de l’ignorance &amp; du mensonge. D’où vient que les reprouvez
+                    qui sont les habitans de ce monde sont appellez enfans de tenebres : &amp; c’est
+                    aussi pour cette raison que ce monde aveugle &amp; ignorant, ne connoit point
+                    Dieu, <quote><hi rend="i">mundus cum non cognovit<note place="margin">Joan.
+                                I.</note></hi></quote>, &amp; que selon le témoignage de S. Jean, il
+                    est tout gâté &amp; corrompu de malice &amp; de peché, <quote><hi rend="i"
+                            >mundus totus in maligno positus est<note place="margin">Epist. I. Joan.
+                                c. 5.</note></hi></quote>. Aprés cela se faut-il étonner si <hi
+                        rend="sc">Jesus-Christ</hi> s’est declaré si hautement contre luy, qu’il a
+                    fait des protestations publiques. En premier lieu, qu’il n’étoit point de ce
+                    monde, <quote><hi rend="i">non sum de hoc mundo<note place="margin"
+                                >Joan. 17.</note></hi></quote>. En second lieu, qu’il ne prioit
+                    point pour ce monde, <quote><hi rend="i">non pro mundo rogo</hi></quote>. En
+                    troisiéme lieu, que son Royaume n’étoit point de ce monde, <quote><hi rend="i"
+                            >regnum meum non est de hoc mundo<note place="margin"
+                            >Joan. 17.</note></hi></quote>. En quatriéme lieu, que ce monde étoit si
+                    abominable, qu’il ne pouvoit recevoir son S. Esprit, <quote><hi rend="i">quem
+                            mundus non potest accipere<note place="margin">Idem.
+                        18.</note></hi></quote>. En cinquiéme lieu, que ce monde luy étoit si
+                    insupportable, qu’il n’y pouvoit plus demeurer, mais qu’il s’en retournoit à son
+                    Pere qu’il avoit envoyé, <quote><hi rend="i">iterum relinquo mundum &amp; vado
+                            ad Patrem<note place="margin">Idem. c. 14.</note></hi></quote>.
+                    Remarquez cette parole, <quote><hi rend="i">iterum relinquo<note place="margin"
+                                >Idem. c. 16.</note></hi></quote>, je quite &amp; j’abandonne
+                    derechef ce monde ; pour nous apprendre qu’il a abandonné deux fois le monde ;
+                    la premiere fois à sa naissance ; &amp; la seconde fois à sa mort ; dés le
+                    moment de sa naissance il commença de quiter le monde en se separant de luy, de
+                    ses maximes &amp; de ses coûtumes, par la saintete de sa vie, &amp; par un
+                    dégagement de cœur &amp; d’affection, <hi rend="i">&amp; iterum relinquo</hi>,
+                    &amp; à sa mort il se separa tout à fait de luy, de sa presence visible &amp;
+                    corporelle, &amp; par un abandon de cœur &amp; d’esprit ; &amp; afin d’inspirer
+                    son esprit à ses Apôtres &amp; à ses élûs, &amp; les obliger à suivre son
+                    exemple, voicy la belle leçon qu’il leur fit avant que de mourir. Mes Apôtres,
+                    leur dit cet aimable Sauveur, ne vous étonnez pas, <quote><hi rend="i">si mundus
+                            vos odit</hi></quote>, si le monde a de la haine &amp; de l’aversion
+                    pour vous : car, <quote><hi rend="i">scitote quia me priorem vobis odio
+                                habuit<note place="margin">Idem. c. 15.</note></hi></quote>, sçachez
+                    que sa haine est encore plus ancienne contre moy. Il est vray que, <quote><hi
+                            rend="i">si de mundo fuissetis, mundus quod suum erat
+                        diligeret</hi></quote>, si vous étiez du monde, le monde aimeroit ce qui
+                    seroit à luy, <quote><hi rend="i">quia vero de mundo non estis, sed ego elegi
+                            vos de mundo, propterea odit vos mundus</hi></quote> ; Mais parce que
+                    vous n’étes point du monde, &amp; que je vous ay choisis &amp; separez du monde,
+                    c’est pour cela que le monde vous méprisera &amp; vous persecutera, <quote><hi
+                            rend="i">in mundo pressuram habebitis</hi></quote>, ne <pb n="302"
+                        xml:id="p302"/>laissez pas pourtant abbatre vôtre courage par crainte ou par lâcheté,<quote>
+                        <hi rend="i">confidite ego vici mundum</hi></quote>, ayez au contraire
+                    grande confiance en mon esprit &amp; en ma grace, j’ay déjà vaincu le monde en
+                    moy, j’en triompheray encore en vous.</p>
+                <p>Voilà M. le portrait au naturel que <hi rend="sc">Jesus-Christ</hi> a fait de ce
+                    monde auquel vous avez renoncez par le vœu de vôtre Baptême ; cependant que fait
+                    le Chrétien qui a tant d’amour pour les spectacles &amp; les comedies, je dis
+                    que c’est un transfuge &amp; un deserteur, qui au prejudice de son vœu &amp; de
+                    ses promesses, passe du monde de <hi rend="sc">Jesus-Christ</hi>, qui est
+                    l’assemblée des fideles, dans le monde du diable, qui est l’assemblée des
+                    reprouvez. En effet, dites-moy je vous prie, comme appellez-vous ces sales, ces
+                    tripots, ces lieux publics, ou l’on joüe les comedies, sinon les synagogues de
+                    Satan, ou ses ministres s’assemblent pour y honorer le demon par des recits
+                    &amp; par des symphonies, comme nos Eglises sont des lieux sacrez où les fideles
+                    s’assemblent pour y adorer Dieu en esprit &amp; en verité. <quote><hi rend="i"
+                            >Quale est ergo</hi><seg type="exquote">, s’écrie Tertullien à ce
+                            propos,</seg>
+                        <hi rend="i">de Ecclesia Dei tendere in Ecclesiam diaboli, de cœlo in
+                                cœnum<note place="margin">L. de spect c. 25.</note>.</hi></quote>
+                    Quelle fausse demarche est-ce icy, quelle horrible apostasie, &amp; quelle
+                    honteuse desertion du Christianisme. Quoy ? de l’Eglise de Dieu passer à
+                    l’Eglise du diable, du Ciel en Enfer, &amp; du pied des autels au pied d’un
+                    theatre. Comment appellez-vous ce passage, sinon un violement du vœu que vous
+                    avez fait de renoncer au monde ; puisqu’il est vray que ces lieux destinez à ces
+                    sortes de divertissemens &amp; de spectacles, se peuvent appeller en bon
+                    François, le Sabat des honnêtes gens. Cette parole ne vous doit point
+                    scandaliser, nous avons appris cette verité d’un certain autheur qui ne vous
+                    doit point être suspect de mensonge &amp; de fausseté, en ce point, quoy qu’il
+                    en soit le pere, c’est du demon : car Tertullien nous raconte que le diable
+                    étant un jour interrogé &amp; pressé par un exorciste, de dire la raison pour
+                    laquelle il étoit entré dans le corps d’une femme, ne fit point d’autre réponse
+                    que celle-cy, <quote><hi rend="i">in meo eam inveni<note place="margin">L. de
+                                Spect. c. 26.</note></hi></quote>. Prêtres, Exorcistes, Ministres du
+                    Dieu vivant, ne me reprochez point d’avoir fait usurpation d’une femme qui
+                    appartint à vôtre <hi rend="sc">Jesus-Christ</hi> ; non elle n’étoit point à
+                    luy, elle n’étoit point de ses sujettes, ny de son royaume, je l’ay trouvée dans
+                    ma maison, je l’ay trouvée sur mes terres, je l’ay trouvée dans mon Eglise &amp;
+                    dans l’assemblée de mes <pb n="303" xml:id="p303"/>bons serviteurs, &amp; de mes
+                    fideles servantes, j’ay usé de mon droit, j’en ay pris prossession, personne ne
+                    me la doit disputer, elle m’appartient de bonne guerre, <quote><hi rend="i">in
+                            meo eam inveni</hi></quote>, je ne l’ay point été prendre dans sa
+                    maison, ny dans vos Eglises, je l’ay rencontrée dans un lieu qui est à moy, je
+                    m’en suis rendu le maître, je ne la quitteray point. Ah, M. si Dieu donnoit
+                    aujourd’huy le même pouvoir au diable que de possedez &amp; de possedées ne
+                    verroit-on point par tout le monde ; puis qu’helas ! tout le monde est remply de
+                    Chrétiens infideles à Dieu ; qui aprés avoir renoncez solemnellement au diable
+                    &amp; au monde, ne peuvent se resoudre à renoncer aux œuvres &amp; aux pompes de
+                    l’un &amp; de l’autre.</p>
+                <p>Voicy M. si je ne me trompe, ce qui va paroître de plus facheux &amp; de plus
+                    incroyable aux sages du monde ; sçavoir, de les convaincre que les bals &amp;
+                    les comedies sont veritablement ces œuvres de Satan, &amp; ces pompes du monde
+                    ausquelles ils ont renoncez solemnellement par les vœux du Baptême ; cependant
+                    il me semble que pour peu qu’ils veulent entendre raison, &amp; écouter les
+                    maximes de religion &amp; de conscience, nous serons bien-tôt d’accord. Car
+                    n’est-il pas veritable que comme ces belles statuës qui nous restent des debris
+                    de l’antiquité, sont appellées avec justice des ouvrages de Phidias &amp; de
+                    Praxitele, lors qu’on sçait que ce sont ces fameux Sculpteurs qui en sont les
+                    autheurs, qui les ont taillées eux-mêmes, &amp; qui en ont fait les
+                    chef-d’œuvres de leur art. Ainsi je puis dire avec verité, que les bals &amp;
+                    les comedies sont les ouvrages du diable, puisque c’est luy qui en est
+                    l’autheur, comme je vous l’ay fait voir dans ma premiere Partie, &amp; par
+                    consequent, <quote><hi rend="i">oderis Christiane, quarum authores non potes no
+                                odiisse<note place="margin">L. de spect. c. 10.</note></hi></quote>,
+                    conclud Tertullien. Il faut donc ô Chrétien, que vous detestiez necessairement
+                    tous ces ouvrages, puisque vous en detestez les autheurs, &amp; ne faut pas
+                    m’alleguer icy pour excuse, que ce sont des poëtes Chrétiens, &amp; de fort
+                    honnêtes gens, qui sont les autheurs de ces pieces, &amp; qui en ont composez
+                    les vers ; je ne veux point répondre à cette objection, mais je veux que
+                    S. Augustin répondre pour moy, toute l’Eglise reçoit son authorité &amp; son
+                    témoignage avec veneration sur des matieres plus importantes, vous ne le
+                    recuserés pas en celle-cy, <quote><hi rend="i">Qua ratione rectum est, ut
+                            Poëticorum figmentorum, &amp; ignominiosurum deorum, infamentur actores,
+                            honorentur authores<note place="margin">S. Aug. I, 2. de civit.
+                                c. 14.</note>.</hi></quote> Je ne puis <pb n="304" xml:id="p304"
+                    />comprendre par quelle juste raison on pretend que les Comediens qui sont les
+                    Acteurs qui representent ces faux Dieux sur le theatre, soient marquês
+                    d’infamie, &amp; que les Poëtes qui sont les autheurs qui inventent &amp; qui
+                    composent ces comedies, soient traités avec honneur, non dit ce Pere, je ne
+                    comprens point la raison de cette distinction, comme je ne vois point de
+                    difference entre leurs professions, je n’en vois point aussi entre leurs
+                    personnes, ainsi il me semble que les loix, selon la veritable intention des
+                    Legislateurs, ne sont pas plus favorables aux uns qu’aux autres, mais qu’elles
+                    les condamnent également tous deux. Tertullien passe plus avant, car voyant que
+                    les derniers avoient déguisés les profanations du theatre, par l’assaisonnement
+                    du plaisir, <quote><hi rend="i">impietatem voluptate adumbrant<note
+                                place="margin">L. de Spect. cap. 12.</note></hi></quote>, dit-il, il
+                    defendoit toutes sortes de commerces &amp; de communications avec eux.
+                            <quote><hi rend="i">In sæculo cum illis moramur</hi></quote>, ajoûte-il
+                    en parlant aux Chrétiens, il est vray que nous sommes mêlés avec eux dans le
+                    monde, <quote><hi rend="i">sed tamen in sæcularibus separamur<note
+                                place="margin">L. de spect. c. 15.</note></hi></quote>, nous en
+                    sommes neanmoins separés par l’usage des choses du monde, <quote><hi rend="i"
+                            >quia sæculum Dei est, sæcularia autem diaboli</hi></quote>, &amp; parce
+                    que le monde appartient à Dieu qui en est l’autheur, &amp; les choses du monde
+                    appartiennent au diable qui en est le corrupteur. Tellement que de quelque côté
+                    que vous consideriés le plaisir enchanté de la comedie, vous trouverés qu’il est
+                    au rang des œuvres &amp; des inventions du diable, ausquelles vous avez renoncés
+                    par vôtre Baptême.</p>
+                <p>Les pompes du monde ne sont pas plus privilegiées, &amp; vous y avez renoncés
+                    aussi bien qu’aux œuvres de satan, mais je crois que vous n’avez peut-être
+                    jamais bien compris quelles sont ces pompes contre lesquelles vous avez
+                    prononcés vôtre grand <hi rend="i">abrenuntio</hi> ; il est de mon devoir de
+                    vous l’expliquer, &amp; de vôtre de le bien comprendre. La pompe n’est autre
+                    chose sinon un certain spectacle, ou ceremonie publique, accompagnée de joye, de
+                    jeux, de musique &amp; de réjoüissance : voicy comme un Poëte en a parlé.</p>
+                <quote>
+                    <l rend="i">Sed jam pompa venit, linguis, animisque favete,</l>
+                    <l rend="i">Tempus ad est plausus, aurea pompa venit<note place="margin">Ovid.
+                            lib. I. amo.</note>.</l>
+                </quote>
+                <p>Or les Anciens distinguoient de deux sortes de pompes, selon l’observation de
+                    Tertullien, <quote><hi rend="i">sacra &amp; funebres</hi></quote>, les sacrées
+                    &amp; les funebres : les premieres étoient dediées aux Dieux, <quote><hi
+                            rend="i">pompa ordinum, <pb n="305" xml:id="p305"/>&amp;
+                        hostiarum</hi></quote>, dans lesquelles on portoit leurs statuës, &amp; on
+                    conduisoit comme en triomphe les victimes qu’on devoit sacrifier en leur
+                    honneur : les secondes étoient destinées pour les morts, dans lesquelles on
+                    portoit leurs corps ou leurs cendres pour les enterrer avec ceremonies, ou pour
+                    les bruler avec solemnité, <quote><hi rend="i">clarißimam paterno funeri pompam
+                                celebravit<note place="margin">L. I. de Bel. Iud.
+                        c. 9.</note></hi></quote>, dit Iosephe, les premieres avoient été instituées
+                    à la gloire des Dieux, &amp; les secondes à la memoire des morts.</p>
+                <p>Voilà M. les pompes du monde qui étoient en veneration parmi les Gentils, mais
+                    quelles sont celles qui sont en estime parmi les Chrétiens, je répons que si
+                    elles ne sont pas les mêmes, elles sont au moins les restes des payennes, qui
+                    ont été toutes deux ingenieusement renfermées dans les bals &amp; dans les
+                    comedies ; on danse &amp; l’on fait de magnifiques colations &amp; de superbes
+                    festins dans les bals &amp; dans les opera, comme faisoient autrefois les Payens
+                    dans les pompes funebres &amp; dans les enterremens des morts ; il y a même
+                    apparence que cette coûtume avoit passé parmi les Iuifs, puisque l’Evangile<note
+                        place="margin">Matth. c. 9.</note> remarque que le Fils de Dieu entrant dans
+                    la maison de Iaire Prince de la Synagogue, pour resusciter sa fille qui étoit
+                    morte, il y trouva des joüeurs de flute, &amp; une troupe de personnes qui
+                    faisoient grand bruit, &amp; qui se preparoient à honorer la pompe funebre de la
+                    jeune defuncte, au son de leurs instrumens, mais <hi rend="sc">Jesus-Christ</hi>
+                    rompit cette feste lugubre, &amp; chassa ces musiciens importuns.</p>
+                <p>Et que fait-on autre chose dans la comedie, sinon de renouveller les anciennes
+                    pompes qui étoient instituées en l’honneur des faux Dieux, puisque comme je l’ay
+                    déjà remarqué, on ne voit representer sur le theatre que les histoires de ces
+                    fabuleuses divinités. Or M. ne vous flatez point, je soûtiens que ce sont là les
+                    veritables pompes du monde ausquelles vous avez renoncés par les vœux du
+                    Baptême : car pour moy je n’en connois point d’autres, ou qui soient du moins si
+                    dangereuses que celles-là. Ecoutés comme un saint Evêque de nôtre France en a
+                    parlé aux Chrétiens de son siecle. <quote><hi rend="i">Spectacula</hi><seg
+                            type="exquote">, dit-il,</seg>
+                        <hi rend="i">etiam juxta professionem nostram opera sunt diaboli<note
+                                place="margin">Salvian. l. 6. de gubern.</note></hi></quote>, tous
+                    les spectacles publiques, selon toutes les maximes de nôtre Religion, sont
+                    censés les œuvres du diable, <quote><hi rend="i">quomodo ergo, ô Christiane
+                            spectacula post baptismum sequeris</hi></quote>, avec <pb n="306"
+                        xml:id="p306"/>quelle hardiesse donc ô Chrétiens, oserés vous courir à ces
+                    divertissemens aprés vôtre Baptême, <quote><hi rend="i">qui opus esse diaboli
+                            confiteris</hi></quote>, vous qui avoüés qu’ils sont les œuvres de
+                    Satan. Or souvenés-vous, mon frere, qui que vous soyés, que, <quote><hi rend="i"
+                            >renuntiasti semel diabolo, semel &amp; spectaculis ejus</hi></quote>,
+                    vous avez renoncé une fois pour toûjours, au demon &amp; à ses spectacles,
+                            <quote><hi rend="i">ac perinde necesse est prudens, &amp; sciens, dum ad
+                            spectaculum remeas, ad diabolum te redire cognoscas</hi></quote> ; &amp;
+                    par consequent il est necessaire que vous sçachiés une bonne fois en vôtre vie,
+                    qu’étans instruis autant que vous le devez estre des verités de la Religion,
+                    &amp; des obligations de vôtre Baptême, vous n’allés jamais à ces sortes de
+                    spectacles, que vous ne retourniés en même temps au demon, &amp; que contre la
+                    foy donnée, vous ne renonciés à <hi rend="sc">Jesus-Christ</hi>.</p>
+                <p>Mais il me semble qu’il y a long-tems que vous murmurés tous bas, que vous portés
+                    avec impatience de voir la comedie si mal traittée, &amp; que vous me voulés
+                    dire qu’elle n’est point si criminelle que je la fais, puis qu’elle est bien
+                    differente des spectacles des Gentils, contre lesquels seuls les Peres de
+                    l’Eglise ont declamés. Bon, voilà toucher la veritable difficulté, mais il faut
+                    expliquer &amp; la resoudre : Il me semble donc, si j’ay bien penetré vôtre
+                    pensée, que vous ne pouvez m’apporter rien de plus fort pour excuser la comedie
+                    des Chrétiens, que ce que les Gnostiques ont allegués autrefois pour justifier
+                    les spectacles des Gentils. Ces Heretiques qui étoient les sectateurs des
+                    anciens Nicolaïtes, &amp; qui étoient si dereglés &amp; si voluptueux, qu’ils
+                    auroient mieux aimés renoncer à la vie, qu’au plaisirs, soûtenoient qu’il n’y
+                    avoit rien de mauvais dans tous les spectacles des Gentils qui put offencer la
+                    Religion chrétienne ; &amp; voicy la raison qu’ils en donnoient, au rapport de
+                    Tertullien. <quote><hi rend="i">Omnia à Deo instituta, &amp; homini attributa,
+                            &amp; utique bona, ut omnia boni authoris<note place="margin">L. de
+                                spect. c. 2.</note></hi></quote> : voicy la forme de leur argument,
+                    vous jugerés de sa force. Toutes les choses qui sont au monde sont creées de
+                    Dieu, &amp; toutes ces choses ont étés destinées pour le service de l’homme,
+                    &amp; elles sont toutes bonnes, parce qu’elles viennent d’un bon principe.
+                    Toutes ces propositions ne font que la majeure de leur argument, venons à la
+                    mineure. <quote><hi rend="i">Inter hæc</hi><seg type="exquote">,
+                            disent-ils,</seg>
+                        <hi rend="i">deputantur universa ista, ex quibus spectacula
+                            instruuntur.</hi></quote> Or tout ce qui sert à la pompe des <pb n="307"
+                        xml:id="p307"/>spectacles, est dans le rang de ces bonnes choses qui sont
+                    crées par la puissance de Dieu, &amp; qui sont destinées pour le service de
+                    l’homme, donc concluoient-ils en méchans Philosophes, &amp; en plus méchans
+                    Chrétiens, il n’y a rien dans les spectacles des Gentils, qui soit mauvais ny
+                    illicite aux Catholiques. Et comme ils croyoient qu’il y avoit plus de
+                    difficulté dans la mineure de leur argument que dans la majeure, voicy comme ils
+                    pretendoient la prouver. Il y a quatre sortes de spectacles parmy les Gentils.
+                    Sçavoit, premierement ceux du Cirque qui se faisoient par les courses des
+                    chevaux. En second lieu, ceux de l’amphiteatre qui se faisoient par le combat
+                    des bêtes farouches. En troisiéme lieu, ceux de l’arenne ou de la carriere, qui
+                    se faisoient par la joute des hommes. Enfin ceux du theatre, qui se faisoient
+                    par des symphonies &amp; par des concerts de voix &amp; d’instrumens. Or
+                    examinez toutes choses, disoient-ils, &amp; vous tomberez d’accord, <quote><hi
+                            rend="i">neque alienum videri posse, neque inimicum Deo, quod de
+                            conditione constet ipsius</hi></quote>, qu’il n’entre rien dans tout
+                    l’appareil de ces spectacles qui soit étranger, ou qui puisse même être ennemy
+                    de Dieu, puisque tout cela est son ouvrage, &amp; luy appartient par titre de
+                    creation comme à l’autheur de toutes choses, <quote><hi rend="i">neque culpa
+                            deputandum, quod Dei non sit inimicum</hi></quote>, &amp; par consequent
+                    il n’y peut avoir de crime en tout ce qui n’est ny étranger, ny ennemy de Dieu.
+                    Voilà comme ces mauvais Philosophes argumentoient en faveur des spectacles,
+                    &amp; comme les Chrétiens du tems raisonnent aussi en faveur de la comedie ;
+                    mais voicy comme Tertullien répond aux méchans argumens des premiers, &amp;
+                    confond les faux raisonnemens des seconds. <quote><hi rend="i">Quam sapiens
+                            argumentatrix sibi videtur ignorantia humana, præsertim cum aliquid
+                            hujusmodi de gaudiis, &amp; fructibus sæculi metuit
+                        amittere.</hi></quote> Que l’ignorance humaine toute stupide &amp; grossiere
+                    qu’elle est, se montre neanmoins sçavante &amp; ingenieuse, sur tout quand il
+                    faut trouver des raisons pour justifier l’usage des plaisirs de la vie, &amp;
+                    pour s’empêcher d’y renoncer ; mais arriere tous ces argumens frivoles &amp;
+                    toutes ces fausses raisons, le mensonge appuyé de tout le secours de la
+                    Philosophie, ne peut rien contre la verité.</p>
+                <p>J’avoüe bien que tout ce qui entre dans l’appareil des spectacles, &amp; dans la
+                    representation des comedies, appartient à Dieu, &amp; qu’il en est le Createur ;
+                    les chevaux du Cirque, les lions de <pb n="308" xml:id="p308"/>l’Amphitheatre,
+                    les Gladiateurs des arennes, les voix &amp; les instrumens du theatre, viennent
+                    de luy comme du principe de toutes choses, <quote><hi rend="i">nemo enim negat
+                            Deum esse universitatis conditorem eamque universitatem, tam bonam, quam
+                            homini mancipatam</hi></quote> : car personne ne nie que Dieu ne soit le
+                    Createur de tout l’Univers, que tout l’Univers ne soit composé de bonnes
+                    creatures, par l’approbation même qu’elles ont receüe du Createur, &amp; que
+                    toutes ces creatures n’ayent été destinées au service de l’homme par la
+                    disposition de leur autheur. Mais il faut sçavoir que, <quote><hi rend="i"
+                            >multum interest inter corruptelam, &amp; integritatem, quia multum est
+                            inter institutorem, &amp; interpolatorem</hi></quote> ; qu’il y a une
+                    aussi grande difference entre l’integrité de ces creatures &amp; leur
+                    depravation, qu’entre leur Createur &amp; leur corrupteur. Comme Dieu qui en est
+                    le Createur, est infiniment bon, il leur a fait part de sa bonté, en les tirant
+                    du neant pour leur communiquer l’être ; &amp; comme le diable qui est leur
+                    corrupteur, est extrêmement méchant, il leur a fait part de sa malice, en les
+                    tirant de leur état naturel, pour les faire servir, non pas à l’utilité &amp; au
+                    salut de l’homme, selon le dessein que Dieu en avoit eu, mais à sa damnation
+                    &amp; à sa perte, selon le projet qu’il en a formé. D’où ce sçavant Africain
+                    conclud que, <quote><hi rend="i">tota ratio damnationis, perversa est
+                            administratio conditionis</hi></quote> ; que tout ce qu’il y a de
+                    vicieux &amp; de condamnable dans les creatures, vient de l’injuste &amp; du
+                    mauvais usage qu’on en fait.</p>
+                <p>En effet, s’il étoit permis d’user indifferemment de toutes choses par cette
+                    seule raison, que Dieu en est le principe &amp; l’autheur, il s’ensuivroit que
+                    l’homicide, par exemple, ny l’idolatrie, ne seroient pas des actions, ny
+                    mauvaises ny criminelles, parce que c’est Dieu qui a creé le fer &amp; les
+                    poisons dont on tuë les hommes, &amp; qui a aussi produit le bois &amp; la
+                    pierre dont on taille les idoles. Disons donc que les choses qui entrent dans
+                    les spectacles &amp; dans les comedies ne sont point mauvaises d’elles-mêmes,
+                    mais qu’elles deviennent illicites &amp; defenduës par le mauvais usage qu’on en
+                    fait. Et comme les spectacles des Gentils étoient criminels par leur mauvais
+                    usage, en ce qu’ils étoient instituez à l’honneur des faux dieux, de même les
+                    comedies sont encore mauvaises par leur usage, parce qu’elles sont inventées
+                    pour y étaler toutes les pompes du monde. Oüy, M. c’est dans la comedie ou le
+                    monde a renfermé tout ce qu’il a de plus agreable, de plus charmant, de plus
+                    beau, &amp; <pb n="309" xml:id="p309"/>de plus pompeux, pour nous ébloüir, &amp;
+                    pour se faire aimer, comme vous verrez dans ma derniere Partie. Ne vous y
+                    trompez donc pas, le monde n’est pas un ennemy moins redoutable que le diable
+                    &amp; que la chair. Chacun nous sollicite au peché par des voyes differentes, le
+                    diable nous y pousse par la force de ses tentations, la chair nous y attire par
+                    l’amorce de la volupté, &amp; le monde nous y engage par le plaisir de ses
+                    pompes. Et comme la comedie en est la plus agreable, &amp; son plaisir le plus
+                    enchanté, je soûtiens que vous étes autant obligez de renoncer à cette pompe du
+                    monde, que vous étes obligez de renoncer aux voluptez de la chair, &amp; de
+                    resister aux tentations du diable, puisque toutes ces sortes de plaisirs vous
+                    sont également defendus, &amp; que vous y avez pareillement renoncez par les
+                    vœux du Baptême,<note place="margin">Tertull. ibid. c. 24.</note>
+                    <quote><hi rend="i">hoc erit pompa diaboli adversus quam in signaculo fidei
+                            ejeramus</hi></quote>. Oüy, M. je le repete encore une fois tous ces
+                    spectacles publiques, ces divertissemens, ces bals &amp; ces comedies sont les
+                    œuvres de Satan &amp; les pompes du monde, ausquelles vous avez renoncez dans le
+                    Sacrement de vôtre regeneration, <quote><hi rend="i">quod, autem ejeramus, neque
+                            facto, neque visu participare debemus</hi></quote>. Or il est certain,
+                    selon toutes les loix de la bonne justice, qu’il ne vous est plus permis de
+                    participer par la veüe ny par l’oüye à toutes les choses ausquelles vous avez
+                    renoncez de cœur &amp; d’affection.</p>
+                <p>J’ay dis, M. que les loix de la Iustice nous defendent cette participation : car
+                    ce seroit vouloir participer en même tems aux mysteres de sainteté, &amp; aux
+                    mysteres d’iniquité, ce qui est impossible. C’est par cette raison que l’Apôtre
+                    prouve aux Corinthiens, qu’il ne leur étoit pas permis de manger des viandes qui
+                    avoient été sacrifiées aux Idoles : considerez, leur dit-il<note place="margin"
+                        >I. Conc. 10.</note>, les Israëlites selon la chair, ceux qui mangent parmy
+                    eux de la victime immolée, participent à l’autel. Ce n’est pas que je veüille
+                    dire que l’Idole soit quelque chose, ou qu’une viande ait receu quelque
+                    impression pour avoir été immolée aux Idoles ; non, mais je veux dire, que ce
+                    que les Payens immolent, ils l’immolent aux demons, &amp; non pas à Dieu,
+                            <quote><hi rend="i">Nolo autem vos fieri socios dæmoniorum</hi></quote>.
+                    Or je desire que vous n’ayez aucune part, ny communication avec les demons,
+                            <quote><hi rend="i">non potestis calicem Domini bibere, &amp; calicem
+                            dæmoniorum</hi></quote>, vous ne pouvez pas boire le calice du Seigneur,
+                    &amp; le calice des demons, <quote><hi rend="i">non potestis mensa, Domini
+                            participes esse, &amp; mensa dæmoniorum</hi></quote>, vous ne pouvez pas
+                        <pb n="310" xml:id="p310"/>participer à la table du Seigneur &amp; à la
+                    table des demons ; cependant c’étoit l’injuste pretention de quelques Chrétiens
+                    de Corinthe ; ils se persuadoient qu’il leur étoit permis de manger des viandes
+                    immolées aux Idoles, &amp; de manger en suite le pain celeste à la table du
+                    Seigneur : il me semble que ce procedé vous paroit si contraire à la foy &amp; à
+                    la raison, que vous le condamnez déjà dans vôtre cœur ; &amp; moy je vous dis
+                    que le vôtre n’est ny plus Chrêtien, ny plus raisonnable, de vouloir assister
+                    aux pompes du monde &amp; aux ceremonies de l’Eglise, de vouloir passer du pied
+                    de l’Autel, au pied du theatre, <quote><hi rend="i">à Dei munere, ad dæmoniorum
+                                officia<note place="margin">Tertull. l. de Spect.
+                        c. 9.</note></hi></quote>, de vouloir aller d’un sacrifice qu’on vient
+                    d’offrir à Dieu, au sacrifice qu’on va offrir au diable. Et de la même bouche
+                    dont on fait ses prieres, reciter les vers d’une comedie, &amp; applaudir à des
+                    Comediens. Ah ! Chrétiens, s’écrie S. Augustin, <quote><hi rend="i">quid tibi
+                            cum pompis sæculi quibus renuntiasti<note place="margin">L.4. de simb.ad
+                                Cathec.c.I.</note></hi></quote>. Qu’avez-vous encore de commun avec
+                    les pompes du siecle ausquelles vous avez renoncez ? Quoy, faut-il pour un petit
+                    plaisir, violer les vœux du Baptême, &amp; renoncer à la foy.</p>
+                <p>Cette parole, M. vous doit paroître dure, mais à la verité, elle vous doit faire
+                    trembler : car si selon la doctrine de S. Paul, un Chrétien qui n’a pas soin de
+                    ses domestiques, <quote><hi rend="i">fidem negavit, &amp; est infideli
+                                deterior<note place="margin">I. ad Timot. c. 5.</note></hi></quote>,
+                    a renoncé à la foy, &amp; est pire qu’un infidele ; n’avois-je pas aussi raison
+                    de dire tantôt, selon la pensée de Salvian, que celuy qui n’a point de soin de
+                    soy-même, ny de zele de son salut, allant impunément à la comedie, a renoncé à
+                    sa religion &amp; à son Baptême, a abandonné le service de Dieu pour s’engager à
+                    celuy du diable, &amp; se rend par cette action plus criminel qu’un Payen. Car
+                    les Payens considerans autrefois les ceremonies de l’Eglise, &amp; le sacrifice
+                    des Chrétiens, comme des sacrileges &amp; des abominations, ont été si religieux
+                    à les éviter, qu’ils n’ont jamais voulu approcher nos Temples ny nos Autels,
+                    crainte d’irriter leurs Dieux, &amp; d’offenser leurs Idoles. Et cependant on
+                    voit des Chrétiens biens moins scrupuleux, qui sans crainte de l’outrage qu’ils
+                    font à Dieu, frequentent les theatres &amp; les comedies, quoy qu’elles soient
+                    les restes prophanes de l’idolatrie &amp; de la gentilité. Que reste-t-il donc à
+                    faire &amp; à dire pour conclure cette seconde Partie, sinon de recourir à Dieu,
+                    avec S. Augustin, <quote><hi rend="i">deprecanda est misericordia Dei</hi><seg
+                            type="exquote">, dit ce Pere,</seg>
+                        <hi rend="i">ut donet intellectum ad ista damnanda, affectum ad fugienda,
+                            misericordiam ad <pb n="311" xml:id="p311"/>dignoscenda</hi></quote>, il
+                    faut prier la misericorde du Seigneur qu’il vous donne un esprit droit pour vous
+                    faire condamner ces fortes de divertissemens, un cœur bien degagé pour les fuïr,
+                    &amp; une grande misericorde pour vous pardonner. Oüy M. vous avez besoin d’un
+                    grand pardon &amp; d’une grande misericorde, puisque les crimes qu’on commet à
+                    la comedie, sont plus grands que vous ne pensés ; la sainteté de la Religion y
+                    est profanée, les vœux du Baptême y sont violés, &amp; pour comble d’iniquité,
+                    l’innocence des mœurs y est corrompuë. C’est le troisiéme crime dont la comedie
+                    est accusée, &amp; qui me reste à examiner dans la troisiéme Partie de ce
+                    Discours.</p>
+                <p><note place="margin"><hi rend="sc">III. point.</hi></note><hi rend="big"
+                    >Q</hi>Vand je considere l’état d’un Chrétien je trouve que tout ce qu’il y a de
+                    plus grand &amp; de plus inviolable dans sa profession, l’oblige à une parfaite
+                    innocence de vie, &amp; à une eminente sainteté de mœurs. Premierement, il est
+                    obligé à la sainteté, parce qu’il est membre du corps mystique de l’Eglise, dont
+                    la sainteté est le propre caractere, <hi rend="i">sancta Ecclesia</hi>. En
+                    second lieu, parce que <hi rend="sc">Jesus-Christ</hi> qui en est le Chef, est
+                    appellé le Saint des Saints, <quote><hi rend="i">quod ex te nascetur sanctum
+                                vocabitur<note place="margin">Luc. 1.</note></hi></quote>, dit
+                    l’Ange Gabriel à la sainte Vierge. Troisiémement, parce que l’esprit qui anime
+                    &amp; qui gouverne tout ce corps de l’Eglise, est un esprit de sainteté &amp; de
+                    sanctification, <quote><hi rend="i">Deus cujus spiritu totum corpus Ecclesia
+                            Santificatur &amp; regitur<note place="margin">Epist. ad Ephes.
+                                1.</note></hi></quote>, chante-t-elle elle même. Quatriémement,
+                    parce que la sainteté est la fin de nôtre predestination, <quote><hi rend="i"
+                            >elogit nos ante mundi constitutionem ut essemus sancti</hi></quote>.
+                    Cinquiémement, parce que les Sacremens de l’Eglise sont institués pour donner la
+                    sainteté au Chrétien s’il ne l’a pas, ou pour la luy conserver, s’il l’a déja
+                    receuë par la grace, ou pour la luy restituer s’il l’a perduë par le peché. En
+                    sixiéme lieu, parce que c’est l’intention &amp; la volonté de Dieu que nous
+                    soyons tous Saints, <quote><hi rend="i">hæc est voluntas Dei sanctificatio
+                                vestra<note place="margin">1. Thess. 4.</note></hi></quote>. En
+                    septiéme lieu, parce que nous sommes creés pour joüir de Dieu qui est la source
+                    &amp; le principe de toute sainteté, <quote><hi rend="i">sancti eritis quoniam
+                            ego sanctus sum<note place="margin">1. Petr. 1.</note></hi></quote>.
+                    Enfin parce que nous devons estre les citoyens immortels de la Jerusalem celeste
+                    qui est appellée la sainte Cité, <quote><hi rend="i">civitatem sanctam</hi><note
+                            place="margin">Apocal. 21.</note></quote>, &amp; que ses habitans sont
+                    tous, <quote><hi rend="i">Cives Sanctorum, &amp; domestici Dei<note
+                                place="margin">Epist. ad Ephes. 2.</note></hi></quote>, les citoyens
+                    des Saints &amp; les domestiques de Dieu. Tellement donc que Dieu ne s’estant
+                    proposé pour fin des plus <pb n="312" xml:id="p312"/>grands ouvrages qu’il a
+                    fait hors de luy-même, que nôtre sainteté, aussi bien que sa gloire, il a
+                    employé tous les moyens que sa sagesse a pû inventer, &amp; que sa bonté nous a
+                    pû fournir pour reussir dans ce dessein.</p>
+                <p>Cependant M. d’où vient qu’il y a si peu de sainteté dans le monde, &amp; si peu
+                    de Saints parmi les Chrétiens, qui sont neanmoins cette nation sainte dont parle
+                    le Prince des Apôtres, <quote><hi rend="i">gens sancta<note place="margin"
+                                >Epist. can. 1. Petr. 2.</note></hi></quote>, en voicy la raison, si
+                    je ne me trompe : C’est que comme Dieu ne nous a appellés, dit S. Paul, qu’à un
+                    état de sainteté &amp; d’innocence, <quote><hi rend="i">non enim vocavit nos
+                            Deus in immunditiam, sed in sanctificationem<note place="margin">Epist.
+                                ad Thess. c. 4.</note></hi></quote>. Il ne nous conduit aussi, &amp;
+                    ne nous conserve dans cét état que par l’esprit de penitence &amp; de
+                    mortification, qui fait mourir le vieil homme avec toutes ses passions, &amp;
+                    qui crucifie la chair avec toutes ses concupiscences : mais comme l’homme a une
+                    aversion naturelle pour tout ce qui gene sa liberté, &amp; qui fait violence à
+                    la nature, &amp; que d’ailleurs il a un furieux panchant pour tout ce qui peut
+                    flater ses inclinations corrompuës, &amp; luy donner du plaisir : que fait le
+                    demon, il se met entre deux, &amp; prend une conduite qui contrarie les desseins
+                    de Dieu, &amp; qui flate les passions de l’homme : &amp; afin d’empêcher, ou de
+                    corrompre cette sainteté à laquelle nôtre profession nous oblige, il nous attire
+                    si fortement à luy par l’amorce des plaisirs de la vie, qui sont les veritables
+                    poisons de la sainteté, que Tertullien nous assure que dans la naissance de
+                    l’Eglise plusieurs furent detournés de se faire Chrétiens plutôt par la crainte
+                    de renoncer au plaisir, que de perdre la vie, <quote><hi rend="i">plures
+                            invenias quos magis periculum voluptatis, quam vitæ avocet ab hac
+                                secta<note place="margin">L. de spect. c. 2.</note></hi></quote>. Et
+                    comme entre tous les plaisirs du monde ceux du theatre &amp; de la comedie ont
+                    des charmes contre lesquels on a souvent ou moins de force pour combattre, ou
+                    moins de volonté pour y resister. Voilà la raison pour laquelle on trouve
+                    aujourd’huy si peu de sainteté dans le monde, &amp; si peu de Saints parmy les
+                    Chrétiens : en effet, M. je soûtiens aprés y avoir bien pensé, &amp; m’en être
+                    bien convaincu, qu’il n’y a rien entre toutes les vanités du siecle &amp; tous
+                    les plaisirs de la vie, qui soit plus propre à corrompre la pureté du
+                    christianisme, &amp; l’innocence des mœurs des Chrétiens, que les divertissemens
+                    du theatre &amp; de la comedie. Venons aux preuves.</p>
+                <p><pb n="313" xml:id="p313"/>Il y a eu autrefois un grand schisme entre les
+                    Philosophes touchant le sentiment qu’il falloit avoir du plaisir<note
+                        place="margin">Aulu. Gelle 1. 9. c. 5.</note> ; Epicure en a fait le
+                    souverain bien de l’homme ; Antistene en a fait le souverain mal ; Zenon n’en a
+                    fait ny un bien ny un mal. Ces Messieurs ont eu chacun leurs raisons, mais ce
+                    n’est point maintenant mon affaire, je remarque seulement, que les Gentils &amp;
+                    les Chrétiens dans le commencement de l’Eglise, furent autant divisés sur le
+                    point de la volupté, que sur celuy de la religion : les Gentils admettoient
+                    toutes sortes de plaisirs : les Chrétiens n’en recevoient aucun ; ceux-là en
+                    prenoient dans tous les spectacles, dans cette pensée que, <quote><hi rend="i"
+                            >nihil obstrepere religioni, tanta solatia extrinsecus oculorum, vel
+                            aurium, nec Deum offendi oblectatione hominis<note place="margin"
+                                >Tertull. 1. de spect.</note></hi></quote>, que la Religion n’étoit
+                    point deshonorée par les plaisirs des sens, ny Dieu offencé par les
+                    divertissemens des homes : mais cõme les Chrétiens avoient des cõnoissances plus
+                    épurées, ils avoient aussi des sentimens plus religieux, ils regardoiẽt tous les
+                    plaisirs des spectacles publiques cõme autant d’injures &amp; d’outrages faits à
+                    Dieu &amp; à la Religion ; voilà pourquoy ils s’en privoient si absolument,
+                    &amp; avec une si grande severité de discipline, que les Payens surpris de cette
+                    austerité, <quote><hi rend="i">existimabant Christianos expeditum morti genus,
+                            ad hanc obstinationem, abdicatione voluptatum erudiri, quo facilius
+                            vitam contemnant, amputatis quasi retinaculis ejus<note place="margin"
+                                >Idem. ibid.</note></hi></quote>, se persuadoient que les Chrétiens
+                    étoient une nation toûjours preparée à la mort, &amp; qui s’entretenoit dans la
+                    volonté obstinée de mourir, &amp; dans le mépris qu’elle faisoit de la vie par
+                    le retranchement de toutes sortes de plaisirs, qui les pouvoient attacher au
+                    monde ; ils avoient bien raison ces genereux &amp; ces veritables Chrétiens de
+                    renoncer à tous les plaisirs &amp; divertissemens publiques, puisque éclairés
+                    des lumieres de la foy, &amp; penetrés de la sainteté de leur profession, ils
+                    étoient convaincus qu’ils étoient le plus dangereux poison des bonnes mœurs, qui
+                    portoit la corruption dans tous les sens du corps, &amp; le dereglement dans
+                    toutes les passions de l’ame.</p>
+                <p>Je crois M. que tout ce que je vais vous dire là dessus se trouvera plus
+                    fortement appuyé sur vôtre experience, que sur mes raisonnemens ; c’est pourquoy
+                    afin de vous bien representer ce qui se passe au dedans de vous-même, il faut
+                    remarquer qu’il y a cette difference entre les Anges &amp; les hommes, en ce que
+                    les Anges <pb n="314" xml:id="p314"/>étans de purs esprits dégagez de corps
+                    &amp; de matiere, ils n’ont pas besoin de recevoir les especes sensibles des
+                    objets exterieurs pour les connoître. Mais l’homme ayant un corps materiel comme
+                    celuy des bêtes, &amp; son ame quoy que spirituelle comme l’Ange, y étant
+                    renfermée comme une belle captive dans une prison, elle ne peut connoître toutes
+                    les choses qui sont dans le monde que par les especes sensibles qui entrent par
+                    les sens, comme par les fenêtres de la prison. Or comme il y a de bons &amp; de
+                    mauvais objets, les organes des sens restent affectez de leurs bonnes ou de
+                    leurs mauvaises qualitez par le passage de leurs especes, &amp; répandent en
+                    même tems dans l’esprit &amp; dans le cœur, la bonté des uns, &amp; la malice
+                    des autres. D’où il arrive que la mort &amp; la vie entrent dans l’ame par les
+                    fenêtres, c’est à dire par les sens du corps. Mais ô étrange corruption de la
+                    nature, ô rigoureux châtiment du peché. L’experience nous apprend que comme les
+                    especes du vice frappent les gens d’une maniere plus douce &amp; plus agreable,
+                    &amp; qu’elles sont de plus fortes impressions dans l’ame que toutes les images
+                    de la vertu, ce n’est pas merveille si le cœur en est plûtôt corrompu, &amp; si
+                    toutes les passions en sont plus promtement déreglées.</p>
+                <p>Ça, M. c’est icy où je vous appelle au pied du theatre, pour y renouveller dans
+                    vôtre esprit, non pas un souvenir criminel, mais un souvenir innocent de tous
+                    les divers objets qui y ont frappez vos sens, &amp; de tous les divers mouvemens
+                    qui y ont agitez vôtre ame. N’est-il pas veritable que c’est dans la comedie où
+                    le monde a ramassé tous les charmes &amp; tout l’éclat de ses autres pompes,
+                    pour ébloüir vos yeux, pour enchanter vos oreilles, &amp; pour fasciner tous vos
+                    autres sens. N’est-ce pas là, où la decoration du theatre, la bonne grace d’un
+                    Comedien &amp; d’une Comedienne, le luxe des habits, la nudité des bras &amp;
+                    des gorges, la beauté des vers, la douceur de la simphonie, les concerts de voix
+                    &amp; d’instrumens, en un mot tout ce que l’Ecriture sainte appelle, <quote><hi
+                            rend="i">mundum muliebrem</hi></quote>, tous les ornemens du monde
+                    feminin, ont conspirez ensemble, pour remplir vôtre veüe &amp; vôtre oüie de
+                    mille especes lascives, pour soûlever en suite les passions de l’ame, &amp;
+                    corrompre toutes les vertus, par les semences des vices, &amp; par le poison du
+                    plaisir.</p>
+                <p>Je me souviens à ce propos d’avoir lû quelque chose d’assez curieux &amp;
+                    remarquable dans les livres de la Cité de Dieu, composez <pb n="315"
+                        xml:id="p315"/>par S. Augustin<note place="margin"><p>L. 5. de civit.
+                            c. 20.</p><p>Et Cicero. 2. de finib.</p></note>. Ce grand Docteur y
+                    raconte que les Stoïciens voulant tourner en ridicules les Epicuriens, &amp; les
+                    charger de la haine publique, pour avoir voulu établir le souverain bien de
+                    l’homme dans les plaisirs du corps, avoient depeint dans un grand tableau, la
+                    volupté assise sur un trône fort élevé, donnant la loy &amp; les ordres à toutes
+                    les vertus qui étoient prosternées à ses pieds, comme de viles esclaves toûjours
+                    disposées à luy obeïr aveuglement, <quote><hi rend="i">virtutes famula
+                            subjiciuntur, observantes ejus nutum, ut faciant quod illa
+                            imperaverit</hi></quote>. Et voicy en effet comme cette molle &amp;
+                    delicate Reine, <quote><hi rend="i">delicata Regina</hi></quote>, l’appelle S.
+                    Augustin, se servoit de son authorité &amp; de son empire ; elle commandoit à la
+                    prudence, <quote><hi rend="i">ut vigilanter inquirat quomodo voluptas regnet,
+                            &amp; salva sit</hi></quote>, de rechercher avec soin &amp; application
+                    tous les moyens necessaires pour rendre heureux &amp; tranquille le regne de
+                    cette voluptueuse Princesse ; elle commandoit à la Iustice, <quote><hi rend="i"
+                            >ut nulli faciat injuriam</hi></quote>, de ne faire tort à personne,
+                            <quote><hi rend="i">ne offensis legibus, voluptas vivere secura non
+                            poßit</hi></quote>, crainte que les loix étans violées, elles ne
+                    vinssent troubler son repos ; elle commandoit à la force d’éloigner de son trône
+                    &amp; de son palais, les douleurs, la tristesse &amp; les chagrins, ou du moins
+                    d’adoucir ses petits déplaisirs presens, par le souvenir de ses delices passées,
+                            <quote><hi rend="i">ut per pristinarum deliciarum suarum recordationem,
+                            mitiget præsentis doloris aculeos</hi></quote>. Enfin elle commandoit à
+                    la temperance de si bien regler tout ce qu’on luy devoit servir à table, qu’elle
+                    conserva toûjours sa santé &amp; son embonpoint, sans être jamais, ny travaillée
+                    de la faim, ny accablée de degoût, <quote><hi rend="i">ita virtutes cum tota sua
+                            gloria dignitate, tanquam imperiosa cuidam, &amp; inhonesta, muliercula
+                            serviunt voluptati</hi></quote>. Et voilà comme les vertus, avec toute
+                    leur noblesse, leur dignité, &amp; leur gloire, obeïssent comme des esclaves à
+                    une fiere &amp; imperieuse servante qui s’est érigée en maîtresse, &amp; qui
+                    n’est autre que la volupté, <quote><hi rend="i">nihil hac pictura
+                            ignominiosius</hi></quote>, il n’y a rien de plus ignominieux que cette
+                    peinture.</p>
+                <p>Que vous en semble, M. S. Augustin ne nous auroit-il pas fait le portrait de la
+                    comedie, en nous copiant celuy que les Stoïciens avoient faits de la volupté,
+                    pour rendre la Philosophie d’Epicure odieuse. Je ne sçay pas quel jugement vous
+                    en faites ; mais pour moy j’avoüe que je n’ay rien remarqué dans ce tableau que
+                    ce qui se passe tous les jours sur le theatre. Car de bonne foy, <pb n="316"
+                        xml:id="p316"/>pouvez-vous nier qu’une comedie representée sur un theatre ne
+                    soit pas veritablement cette, <hi rend="i">mollis &amp; delicata Regina</hi>,
+                    cette Reine molle &amp; delicate, assise sur son trône ; &amp; pouvez-vous
+                    encore desavoüer que toutes les vertus ne soient prosternées au pied du trône de
+                    cette voluptueuse Princesse, pour en recevoir la loy, &amp; pour obeïr à ses
+                    commandemens. Mais non, M. je me trompe, &amp; je me suis equivoqué en donnant à
+                    la comedie tant d’illustres suivantes, &amp; un si noble cortege que celuy des
+                    vertus. Oüy, je me suis trompé, les vertus ne se trouvent point à la comedie, on
+                    les fait toutes mourir dans le cœur, on les sacrifie toutes à son plaisir,
+                    prudence, force, justice, pudeur, innocence, vous ne vous rencontrez point à ces
+                    spectacles, ny à ces divertissemens ; la prudence ne vous y accompagne pas
+                    puisque vous choisissez le plus mauvais party : vôtre force vous a abandonné,
+                    puisque vous n’avez pû resister à l’amorce d’un dangereux plaisir ; vous y étes
+                    sans justice, puisque vous n’avez pas rendu ny à Dieu l’honneur qui luy
+                    appartient, ny à vôtre salut, le soin que vous loy devez ; vôtre pudeur est
+                    perduë, puisque vous paroissez sans rougir dans un lieu qui est appellé,
+                            <quote><hi rend="i">veneris sacrarium<note place="margin">Tertull. l. de
+                                spect. c. 10.</note></hi></quote>, le Temple de Venus, d’où
+                    d’honnêteté est bannie. Enfin l’innocence de vos mœurs y est corrompuë par vos
+                    pechez, ou par ceux d’autruy, puisque vous étes aussi coupables des crimes que
+                    vous faites commettre aux autres, que de ceux que vous commettez vous-même. Et
+                    c’est pour cette raison que S. Irenée appelle ce spectacle du nom d’homicide
+                    &amp; de meurtrier, <quote><hi rend="i">homicidale spectaculum<note
+                                place="margin">L. 1. advers. hæres. c. 1.</note></hi></quote>, non
+                    pas par la mort cruelle &amp; sanglante des corps des gladiateurs, mais par la
+                    mort spirituelle &amp; invisible des ames des spectateurs.</p>
+                <p>Helas, M. l’auriez-vous jamais crû, que dans l’état present du Christianisme,
+                    &amp; que dans des villes bien policées on eût ouvert des écoles publiques pour
+                    y enseigner le vice, &amp; pour y corrompre les bonnes mœurs ; comme si la
+                    nature gâtée comme elle est, jusques dans son fond, n’étoit pas une assez
+                    sçavante maîtresse pour enseigner toutes sortes de vices aux enfans ; cependant
+                    c’est ce qui se pratique tous les jours dans la comedie, où l’on enseigne non
+                    seulement l’art d’aimer, qui fit bannir autrefois un Poëte de Rome, mais encore
+                    l’art de commettre le peché avec esprit, &amp; de conduire une intrigue avec
+                    adresse ; d’où il arrive que le poison de l’amour, aussi bien que celuy du
+                    plaisir, qu’Arnobe appelle, <quote><hi rend="i">lenocinia
+                        voluptatum</hi></quote>, venant à couler par les yeux &amp; par les oreilles
+                    de ce jeune <pb n="317" xml:id="p317"/>homme, &amp; de cette jeune fille, il
+                    s’insinuera si avant dans leurs ames &amp; dans leurs cœurs, qu’ils se rendront
+                    les veritables Acteurs de la piece, qu’ils ont vû representer par les Comediens,
+                    &amp; feront qu’on verra dans le parterre ou dans la ville la scene de ce qui
+                    s’est joüé sur le theatre. Et par consequent si <hi rend="sc">Iesus-Christ</hi>
+                    nous commande d’arracher nos yeux lors qu’ils nous scandalisent, c’est à dire
+                    lors qu’ils nous sont occasion de peché par leurs mauvais regards ? Quoy
+                    Messieurs, &amp; mes Dames, ne devez-vous pas de deux choses l’une, ou renoncer
+                    à l’Evangile, ou vous arracher les yeux, puisque tout ce qu’ils voyent sur le
+                    theatre &amp; à la comedie, leur est une pierre de scandale, &amp; une occasion
+                    de peché.</p>
+                <p>Oüy, M. je l’ay dit, &amp; je le soûtiens encore, que la comedie est une occasion
+                    prochaine au peché ; puisque par elle-même elle corrompt les sens, elle échauffe
+                    la concupiscence, &amp; soûleve toutes les passions, l’amour, la haine, la
+                    vengeance, la cruauté, les desirs illicites, &amp; tous les appetits déreglez
+                    s’excitent avec plaisir, parce que les objets émeuvent les puissances avec
+                    force ; &amp; qu’une delectation morose qui est déja criminelle d’elle-même, est
+                    bientôt suivie du consentement de la volonté &amp; de l’acte du crime. Outre
+                    qu’il est incontestable dans les principes de la pure morale Chrétienne, que
+                    tout plaisir que nous ne pouvons rapporter à la gloire de Dieu, &amp; qui au
+                    contraire nous détourne de luy &amp; de son service, est un plaisir criminel
+                    &amp; defendu. Or pouvez-vous avec tout l’art &amp; la science de bien dresser
+                    vôtre intention, rapporter le plaisir de la comedie à la gloire de Dieu ;
+                    oserez-vous luy dire, Seigneur, c’est pour l’amour de vous, à vôtre honneur
+                    &amp; gloire, que je vais voir joüer &amp; danser les Comediens ; en verité, M.
+                    ce seroit là faire à Dieu un beau sacrifice, il n’appartient qu’aux Payens d’en
+                    offrir de semblables à leurs Idoles &amp; à leurs Dieux. Consultez là-dessus vos
+                    confesseurs &amp; vos Casuistes, il y va de leurs conscience de vous dire leurs
+                    pensées, aussi bien que de la mienne de ne vous point déguiser mes sentimens ;
+                    je ne sçais pas si elle est scrupuleuse cette conscience, mais du moins il me
+                    paroit qu’elle est assez bien reglée selon la droite raison. Car, dites-moy je
+                    vous prie, voicy comme argumentoit autrefois Tertullien, contre quelques
+                    Chrétiens relâchez de son temps, s’il ne vous est pas permis de soüiller vôtre
+                    goût &amp; vôtre ventre, en mangeant des viandes qui <pb n="318" xml:id="p318"/>
+                    sont sacrifiées aux Idoles, <quote><hi rend="i">si ventrem &amp; gulam ab
+                            inquinamentis liberamus, quanto magis oculos, &amp; aures ab
+                            idolothitis, &amp; necrothitis voluptatibus abstinemus<note
+                                place="margin">L. de spect. cap. 24.</note></hi></quote>. Il nous
+                    sera encore moins permis de soüiller nos yeux, &amp; nos oreilles en assistant à
+                    des spectacles qui sont institués pour honorer, non pas les Dieux de la
+                    gentilité, mais l’idole du monde ; car le sens du goût n’étant pas plus
+                    privilegié que celuy de la vûë &amp; de l’oüie, il n’y a pas un moindre crime à
+                    assister aux pompes du monde, qu’à manger des idolotites, puisque l’un &amp;
+                    l’autre est defendu, &amp; que vous avez renoncés à tous les deux. <quote><hi
+                            rend="i">Recordare ergo tyrocinii tui diem</hi>, disoit S. Jerôme à
+                        Heliodore, <hi rend="i">quo Christo in baptismate consepultus in sacramenti
+                            verba jurasti<note place="margin">Epist. ad.
+                    Heliod.</note></hi></quote>, souvenés-vous donc du jour de vôtre Novitiat dans
+                    le christianisme, &amp; n’oubliés jamais que c’est dans ce bienheureux jour
+                    auquel étant ensevely avec <hi rend="sc">Jesus-Christ</hi> dans le Baptême, vous
+                    avez juré un divorce eternel avec le monde, &amp; avez prêté un serment de
+                    fidelité à Dieu.</p>
+                <p>Mais ne nous arrestons point en si beau chemin, ne dissimulons point les
+                    desordres de la comedie, &amp; ne l’épargnons point, puis qu’elle n’épargne
+                    rien, &amp; qu’elle porte la corruption dans les puissances de l’ame, aussi bien
+                    que dans les sens du corps ; n’est-t-il pas veritable que l’esprit s’y remplit
+                    des foles &amp; dangereuses idées de tout ce que l’on a vû &amp; oüy, &amp; que
+                    ces idées que S. Augustin appelle <quote><hi rend="i">simulachra vitiorum<note
+                                place="margin">L. 2. de civit. cap. 26.</note></hi></quote>, les
+                    images des vices, étans agreables au goût du siecle, elles banissent toutes les
+                    pensées de salut &amp; de penitence, qui sont facheuses à la chair &amp; au
+                    sang. N’est-t-il pas veritable que l’imagination s’imprime de mille phantômes
+                    impurs, qui passans continuellement comme en reveuë, vous font des spectacles
+                    secrets &amp; invisibles, qui attachent vôtre cœur, &amp; qui blessent vôtre
+                    conscience ? N’est-il pas veritable enfin que vôtre volonté se trouve comme
+                    abandonnée au pillage de mille appetits dereglés, &amp; de mille desirs
+                    illicites, qui comme autant de tyrans domestiques, ne luy laissent plus la
+                    liberté de se donner à Dieu, ny la force de rompre ses fers, ny le courage de
+                    renoncer au monde ; en sorte que tel qui a été à la comedie chaste, devot,
+                    penitent, en revient impenitent, indevot, &amp; impudique : témoin Seneque qui
+                    parlant de luy-même a fait cette confession sincere que, <quote><hi rend="i"
+                            >redeo crudelior</hi></quote>, que quoy que mon humeur ne soit point
+                    portée au sang &amp; <pb n="319" xml:id="p319"/>au carnage, disoit-il, je
+                    n’assiste neanmoins jamais au combat des Gladiateurs, que je ne sorte de
+                    l’amphiteatre plus cruel &amp; plus inhumain que je n’y suis entré, parce que
+                    mes yeux venant insensiblement à apprivoiser mon esprit aux meurtres &amp; au
+                    carnage, il n’a plus tant d’honneur de ces spectacles sanglans.</p>
+                <p>Si le témoignage d’un Payen vous est suspect, celuy d’un illustre Chrétien vous
+                    sera peut-estre venerable, c’est celuy du bon amy de S. Augustin, confident de
+                    ses debauches &amp; de son libertinage, mais ensuite compagnon de sa penitence,
+                    &amp; de sa conversion : Ce grand Docteur raconte luy-même<note place="margin"
+                        >S. August. 1.6. confess. c. 8.</note> cette avanture, &amp; dit que cét amy
+                    étant allé à Rome pour étudier au Droit, il fut un jour meiné &amp; traîné comme
+                    par force au spectacle du combat des Gladiateurs, <quote><hi rend="i">recusantem
+                            vehementer, &amp; resistentem familiari violentiâ, duxerunt in
+                            amphitheatrum</hi></quote>. Le voilà donc dans l’amphitheatre en depit
+                    de luy, &amp; malgré toutes ses resistances, car disoit-il à ses amis, vous
+                    pouvés m’y retenir de corps, mais vous ne serés pas les maîtres pour y retenir
+                    mon esprit, &amp; pour me faire ouvrir les yeux, <quote><hi rend="i">adero
+                            itaque absens, &amp; sic, &amp; vos, &amp; illa superabo</hi></quote>,
+                    j’y assisteray donc puisque vous m’y forcés, mais j’y seray comme absent, car je
+                    n’y appliqueray ny mes regards, ny mes pensées, &amp; par cét innocent artifice,
+                    je triompheray en même tems &amp; du plaisir de ce spectacle, &amp; de
+                    l’injustice de vôtre amitié. Peut-on aller à la comedie avec de plus saintes
+                    dispositions qu’Alipius alla à l’amphitheatre ; cependant muny de tous ces bons
+                    propos, armé de tout son courage, &amp; assisté de toute sa vertu,
+                    l’amphitheatre ayant retenty en un moment par un grand éclat de voix qui se fit
+                    par la chute d’un des Gladiateurs, que fit nôtre brave Athlete, nôtre intrepide
+                    Alipius : helas ! il ne fut plus ce même Alipius, il ne fut pas le maître de ses
+                    yeux, ny de sa curiosité, <quote><hi rend="i">spectavit, clamavit,
+                        exarsit</hi></quote>, il regarda, il cria, &amp; s’emporta comme tous les
+                    autres ; <quote><hi rend="i">audax potius, quam fortis animus</hi></quote>,
+                    marque qu’il y avoit eu plus de presomption dans son bon propos, que de
+                    confiance en Dieu, &amp; que de force dans son esprit ; mais quel grand mal pour
+                    le pauvre Alipius d’avoir regardé le Gladiateur vaincu, &amp; d’avoir applaudi
+                    au vainqueur, le voicy ; c’est dit S. Augustin, que <quote><hi rend="i"
+                            >percussus est graviore vulnere in anima, quam ille in
+                        corpore</hi></quote>, la blessure qu’Alipius receut dans l’ame, fut plus
+                    mortelle que celle <pb n="320" xml:id="p320"/>que le Gladiateur receut dans le
+                    corps. Allez aprés cela Chrétiens temeraires qui faites les esprits forts, dire
+                    que les spectacles publiques ne font point de mauvaises impressions dans vos
+                    cœurs ; pour moy j’estime que la comedie est un spectacle plus dangereux que
+                    celuy des Gladiateurs, le sang qui se répandoit dans celuy-cy n’étoit propre
+                    qu’à donner de l’horreur ; mais le poison qu’on avale en celle-là, n’est propre
+                    qu’à donner la mort avec le plaisir : Car helas ! <hi rend="i">in omni
+                        spectaculo nullum majus scandalum occurret quam ille ipse mulierum &amp;
+                        virorum accuratior cultus<note place="margin">Tertull. ibid
+                        c. 25.</note></hi>, on ne verra point de plus grand scandale dans tous ces
+                    spectacles que cette mutuelle emulation des hommes &amp; des femmes, pour y
+                    paroître parés, habillez, frisez &amp; fardés avec un air aussi pompeux, lascif
+                    &amp; effeminé, que les Comediens &amp; les Comediennes, &amp; cela ne se fait
+                    pas innocemment.</p>
+                <p>Mais c’est assez entendre Saint Augustin parler des autres, écoutons, je vous
+                    prie, ce qu’il a à nous dire de luy-même à ce propos ; rien de plus touchant, M.
+                    rien de plus fort que ce qu’un cœur contrit &amp; humilié a fait dire à ce grand
+                    Penitent, à ce grand Docteur, à ce grand Evêque &amp; à ce grand Saint ; &amp;
+                    je crois qu’il n’y a ny Saint, ny Evêque, ny Docteur, ny Penitent qui n’entre
+                    dans ses sentimens, ou qui ose dire le contraire, <quote><hi rend="i">rapiebant
+                            me spectacula theatrica plena imaginibus miseriarum mearum, &amp;
+                            fomitibus ignis mei<note place="margin">L. 3. confess.
+                        c. 1.</note></hi></quote>. C’est la confession qu’il fait de ce qui se
+                    passoit dans son interieur, par rapport à ce qui se passoit sur le theatre :
+                    helas ! je me laissois entraîner au plaisir des spectacles publiques, parce que
+                    je voyois le theatre toûjours rempli des images de mes secrettes miseres, &amp;
+                    toûjours embrasé des feux de mon amour lascif. Cét illustre Penitent ne parloit
+                    point là à mon sens, des spectacles sanglans, dans lesquels un gladiateur, ou un
+                    lyon étoit la victime sacrifiée au divertissement du peuple, la mort ny le
+                    carnage ne faisoit point le plaisir d’Augustin, son cœur étoit occupé d’une
+                    passion plus douce &amp; plus tendre, <quote><hi rend="i">amare &amp; amari mihi
+                            dulce erat<note place="margin">Idem c. 2.</note></hi></quote>, non
+                    dit-il, rien ne me paroissoit plus doux dans la vie, que d’aimer &amp; d’estre
+                    aimé ; &amp; c’est pour cela, ajoûte-t-il, que <quote><hi rend="i">tunc in
+                            theatricis congaudebam amantibus</hi></quote> ; je me réjoüissois avec
+                    ces heureux &amp; fortunés amans de theatre &amp; de comedie, <quote><hi
+                            rend="i">cum sese fruebantur per flagitia</hi></quote>, sur tout lors
+                    qu’ils pouvoient acheter au <pb n="321" xml:id="p321"/>prix de plusieurs crimes,
+                    le fruit de leur amour ; <quote><hi rend="i">quamvis hæc imaginarie gererentur
+                            in ludo spectaculi</hi></quote>, je ne laissois pas de gouter un
+                    veritable plaisir dans ces avantures imaginaires. Je crois M. que si vous faites
+                    une serieuse reflexion sur ces paroles de S. Augustin, vous jugerés qu’en nous
+                    décrivant les pieces qu’on joüoit de son tems sur le theatre, il nous a fait le
+                    portrait des comedies qui se joüent dans le nôtre ; &amp; vous confesserés aussi
+                    que les mouvemens dereglés qu’il sentoit dans son cœur à la vuë de ces
+                    spectacles, ce sont les mêmes que vous ressentés encore dans les vôtres à la
+                    representation d’une comedie.</p>
+                <p>Cependant cét homme de qualité se feroit un crime contre l’honnesteté de n’y pas
+                    mener cette Dame, &amp; cette Dame se feroit un plus grand scrupule d’honneur
+                    que de conscience, de refuser la civilité du galant-homme, &amp; de se refuser à
+                    elle-même ce plaisir, ils y vont donc de compagnie, &amp; en traînent plusieurs
+                    à leur imitation : d’où il arrive que cét exemple forme une espece de loy dans
+                    une ville, l’Artisan &amp; le Bourgeois y voudront aller aussi bien que le
+                    Gentilhomme &amp; le Magistrat, &amp; alors on verra dans tous les quartiers,
+                    &amp; dans toutes les assemblées, ce qu’a prevû, &amp; predit S. Cyprien,
+                            <quote><hi rend="i">fiunt &amp; miseris religiosa delicta, &amp; cœpit
+                            licitum esse quod publicum est<note place="margin">S. Cypri. Epist. ad
+                                donat.</note></hi></quote>, les crimes sont consacrés par les
+                    exemples des grands, ils deviennent religieux &amp; venerables aux peuples,
+                    quand ils sont commis par des personnes distinguées par leur naissance, &amp;
+                    par leur condition, &amp; vous diriés qu’une chose est devenuë permise, si-tôt
+                    qu’elle s’est renduë publique : c’est pour cela que la sale de la comedie est
+                    toûjours remplie de monde, pendant que nos Eglises sont desertes, &amp;
+                    ressemblent à des solitudes, &amp; que le Comedien verra plus d’auditeurs au
+                    pied de son theatre, que tous les Predicateurs aux pieds de leurs chaires. Ainsi
+                    le service divin est abandonné, la Religion est deshonorée, les Sacremens sont
+                    profanés, il faut que Dieu sorte d’une ville, si-tôt que les Comediens y seront
+                    entrés, &amp; il faudra desormais fermer toutes les Eglises où l’on celebre nos
+                    mysteres, &amp; toutes les écoles où on enseigne la vertu, sitôt qu’on ouvrira
+                    la sale de la comedie, parce qu’elle est, <quote><hi rend="i">privatum
+                            consistorium impudicitiæ</hi></quote>, le serrail privé où l’on donne
+                    des leçons du crime, &amp; la Synagogue du diable où on celebre des mysteres
+                    d’iniquité. Car n’est-il pas veritable que tandis qu’un <pb n="322"
+                        xml:id="p322"/>Comedien, ou qu’une Comedienne exprime sur son visage, dans
+                    ses yeux, dans son geste, dans sa parole &amp; dans sa voix, une passion feinte,
+                    d’amour ou de colere, il en fait naître de veritables dans l’ame de ses
+                        auditeurs<note place="margin">L. 6. div. iustit. c. 20.</note>, parce que la
+                    presence des objets a la force de les émouvoir dans les cœurs les plus
+                    tranquiles, &amp; dans les esprits moins emportez. D’où vient que lactance
+                    appelle ces divertissemens du theatre, <quote><hi rend="i">maxima vitiorum
+                            irritamenta</hi></quote>, les amorces du peché.</p>
+                <p>Ah ! Chrétiens, où est donc l’honneur du Christianisme ? quoy, faut-il que je
+                    vous appelle à l’école des Payens pour vous y faire des leçons de vertu &amp; de
+                    sagesse. Ne sçavons-nous pas qu’un Philosophe repudia autrefois sa femme pour
+                    avoir assisté un jour à un spectacle publique, comme si elle y eût perdu
+                    l’honneur &amp; violé la fidelité ; &amp; les Empereurs même ont permis le
+                    divorce pour une pareille cause ; ce fut pour ce même sujet qu’Octave Auguste
+                    defendit aux femmes d’y assister<note place="margin">Suëton. in Octa.
+                        c. 44.</note> ; &amp; l’un des Scipions fit une si puissante harangue dans
+                    le Senat contre ces spectacles publiques, qu’il fit abbatre &amp; ruiner
+                    theatres, amphitheatres, cirques &amp; arennes, &amp; tous les autres lieux
+                    destinez à ces infames divertissemens. Et un autheur remarque qu’il se fit un
+                    jour une grande conjuration pour assassiner l’Empereur Galien, &amp; voicy la
+                    raison qu’il donne de cet attentat, <quote><hi rend="i">ne diutius theatro,
+                            &amp; circo addicta Respublica, per voluptatum deperiret illecebras<note
+                                place="margin">Tribell. in Gallien.</note></hi></quote> ; crainte
+                    que la Republique qui avoit déja beaucoup perdu de sa vigueur sous le regne de
+                    ce Prince voluptueux par les divertissemens du theatre &amp; du cirque, n’acheva
+                    de se perdre tout à fait dans la mollesse &amp; dans la volupté. Enfin Platon au
+                    rapport de saint Augustin<note place="margin"><p>L. 2.de civit.
+                            c. 14.</p><p>Plato. 2. de Repub.</p></note> chassa les Poëtes de sa
+                    Republique, comme les corrupteurs de la jeunesse, &amp; les ennemis de
+                    l’honnêteté, <quote><hi rend="i">tanquam adversarios civitatis Poëtas as censuit
+                            urbe pellendas</hi></quote>.</p>
+                <p>Voilà, M. les exemples que les Payens nous ont donnez ; voilà les leçons de pieté
+                    &amp; de religion qu’ils nous ont laissez ; jugez aprés cela si je n’ay pas
+                    sujet de m’emporter avec Tertullien, &amp; de m’en prendre à toutes les
+                    puissances de la terre comme il a fait, voyant la comedie tolerée dans le monde
+                    au prejudice de la religion.
+                   <quote> <hi rend="i">Erubescat Senatus, erubescant ordines omnes<note place="margin">Tertull. l. de
+                        spect. c. 17.</note></hi></quote>, dit-il, que le
+                    Senat rougisse de ce qu’il ne retranche pas ce desordre par la severité de ses
+                    Arrests ; que tous les ordres du Royaume rougissent de ce qu’ils ne s’y <pb
+                        n="323" xml:id="p323"/>opposent pas pour l’interest de l’Etat, &amp; pour le
+                    bien de l’Eglise ; Que le Clergé, que les Prêtres, les Confesseurs, que les
+                    Predicateurs, <hi rend="i">erubescat</hi> ; rougissent d’authoriser une telle
+                    licence par leur complaisance, ou par leur lâcheté ; Que la noblesse rougisse,
+                        <hi rend="i">erubescant</hi>, de quiter les exercices, où l’honneur &amp; la
+                    naissance les appellent pour venir au pied d’un theatre applaudir à un Comedien,
+                    ou badiner avec une coquette. Que les Dames rougissent, <hi rend="i"
+                        >erubescant</hi>, de renoncer à l’honneur &amp; à la modestie de leur sexe,
+                    &amp; de venir dans une Sale que S. Cyprien appelle,
+                    <quote><hi rend="i">publici pudoris lupanarium<note place="margin">L. de
+                        spect.</note></hi></quote>, le lieu de la pudeur prostituée ;
+                    que tous les Chrétiens rougissent, <hi rend="i">erubescant</hi>, de donner vingt
+                    &amp; trente sols pour assister à une comedie, &amp; de refuser cinq sols aux
+                    pauvres pour racheter leurs pechez. Enfin, <hi rend="i">erubescant ordines
+                        omnes</hi>, que tous ceux qui font profession de pieté &amp; de
+                    Christianisme, rougissent de ce que des yeux qui ne devroient contempler que le
+                    Ciel, ou pleurer leurs crimes, s’ouvrent pour contempler de foles &amp;
+                    dangereuses representations, qui leur font commettre de nouveaux crimes. De ce
+                    que des oreilles sont attentives trois ou quatre heures à entendre des vers
+                    empoisonnez, &amp; cependant elles se lassent d’entendre pendant une heure la
+                    parole de Dieu ; de ce que des bouches qui ont été teintes du Sang de <hi
+                        rend="sc">Iesus-Christ</hi> par le Sacrement de l’Eucharistie, sont
+                    profanées à applaudir à des crimes commis avec adresse, &amp; representez avec
+                    esprit, de ce qu’un tems qui est si precieux, &amp; qui nous est donné pour être
+                    employé au salut &amp; à la penitence, est miserablement perdu dans des
+                    divertissemens criminels. Ah, M. que ces sortes de divertissemens doivent être
+                    odieux à une ame bien pure, bien chaste &amp; bien Chrétienne ? Quoy, donc ?
+                    sommes-nous retournez dans les abominations du Paganisme &amp; dans les siecles
+                    de la gentilité. Quoy ? <hi rend="sc">Jesus-Christ</hi> n’a-t-il pas encore
+                    publié son Evangile dans le monde ; &amp; les Apôtres n’ont-ils pas encore banny
+                    la superstition &amp; l’idolatrie de tout l’Univers. Quoy ? faut-il pour
+                    divertir desormais les Chrétiens, qu’on rebatisse les Cirques &amp; les
+                    Amphitheatres, qu’on rétablisse les jeux olympiques, &amp; qu’on recommence les
+                    combats des Gladiateurs ? Ah ! non, Chrétiens, l’Eglise nous propose bien
+                    d’autres spectacles à voir : car aprés tout, s’il faut des spectacles pour vous
+                    divertir, elle vous en offre de toutes les manieres. Si vous voulez des
+                    spectacles de <pb n="324" xml:id="p324"/>terreur, considerez l’horreur du
+                    dernier Iugement, &amp; voyez-y tous ces Poëtes avec tous leurs Heros,
+                    <quote><hi rend="i">non ad Radamanti aut ad Minois sed ad Christi tribunal
+                        palpitantes<note
+                            place="margin">Tertull. L. de spect. c. ulti.</note></hi></quote>, tous pâles &amp; fremissans de crainte, non pas devant le
+                    tribunal de Minos, ou de Radamante, mais devant celuy de <hi rend="sc"
+                        >Jesus-Christ</hi>, Juge souverain, &amp; inflexible des vivans &amp; des
+                    morts ; autre spectacle de terreur, décendez en esprit dans les Enfers, &amp;
+                    contemplez-y, <quote><hi rend="i">Reges qui in cœlum recepti nuntiabantur cum ipso
+                        jove, præsides, &amp; persecutores dominici nominis, sapientes Philosophos
+                        cum discipulis suis una conflagrantibus congemiscentes, liquescentes,
+                        erubescentes</hi></quote>. Ces Rois qui avoient été mis au rang des dieux, ces
+                    tyrans qui ont persecutez si cruellement l’Eglise, &amp; tous ces sages de
+                    l’antiquité qui se sont attirez tant d’admirateurs &amp; de disciples ; oüy,
+                    considerez-les ensevelis dans des flâmes, pleurans, gemissans, &amp; brûlans
+                    sans esperance de voir jamais finir leur supplice, ny éteindre le feu.
+                    Voulez-vous des spectacles de pompe &amp; de gloire, considerez l’état de
+                    l’Eglise triomphante, les chœurs des Anges, la joye des Saints enyvrez d’un
+                    torrent de delices &amp; de voluptez eternelles. <quote><hi rend="i">Quæ illa exultatio
+                        Angelorum, quæ gloria resurgentium sanctorum, quale regnum justorum, qualis
+                        civitas nova Ierusalem.</hi></quote> Voulez-vous des spectacles de pieté &amp; de
+                    devotion, considerez les ceremonies de l’Eglise, la majesté de l’Office divin,
+                    la sainteté de nos sacrifices, la vertu de nos Sacremens, la revelation de la
+                    verité, la condamnation des heresies, &amp; le pardon des pechez, <quote><hi rend="i"
+                        >quid jocundius quam revelatio veritatis, quam errorum recognitio, quam
+                        tantorum retro criminum venia</hi></quote>. Enfin, <quote><hi rend="i">qua major voluptas
+                        quam fastidium ipsius voluptatis quam vera libertas, quam conscientia
+                        integra</hi></quote> ; quel plus grand plaisir que le mépris du plaisir, que la
+                    veritable liberté, &amp; que la pureté de la conscience.</p>
+                <p>Voulez-vous des spectacles tragiques, meditez la mort des Martyrs, &amp; toute
+                    l’histoire de la Passion de <hi rend="sc">Iesus-Christ</hi>, qui est la plus
+                    sanglante &amp; la plus sainte tragedie du Christianisme. Voulez-vous voir les
+                    combats, les victoires, &amp; les triomphes des vertus sur les vices, entrez
+                    dans les Seminaires des Ecclesiastiques &amp; dans les Cloîtres des Religieux,
+                        <quote><hi rend="i"> &amp; aspice impudicitiam dejectam à castitate, perfidiam
+                        casam à fide, sævitiam à misericordia contusam</hi></quote>, c’est là où vous verrez
+                    avec une extrême consolation, la luxure domtée par la chasteté, la perfidie
+                    abbatuë par la bonne foy, la cruauté vaincuë par <pb n="325" xml:id="p325"/>la
+                    misericorde, &amp; la vengeance étouffée par le pardon des ennemies. <quote><hi
+                        rend="i">Hæ voluptates, hæc spectacula Christianorum sancta, perpetua,
+                        gratuita</hi></quote>, voilà les innocentes voluptez &amp; les agreables spectacles
+                    des Chrétiens, mais spectacles saints, perpetuels, &amp; libres ; Saints,
+                    puisque la sainteté s’y perfectionne, &amp; que la vertu s’y purifie ;
+                    perpetuels, puis que la scene est par tout, &amp; que par tout on y voit de
+                    rares exemples de piété &amp; de religion ; libres, puisque les portes des
+                    Eglises sont toûjours ouvertes, que l’entrée n’est point venale, &amp; qu’il est
+                    permis à tout le monde d’assister à la celebration de ses mysteres, sans donner
+                    ny or ny argent. Aprés cela que Monsieur alle à la comedie, que Madame y coure,
+                    que toutes les puissances de la terre &amp; de l’enfer me sollicitent pour m’y
+                    attirer ; non, dira une ame veritablement Chrétienne, <quote><hi rend="i">malo
+                        voluptate periclitari, quam salute</hi></quote>, j’ayme mieux renoncer à mon
+                    plaisir, que d’hazarder mon salut ; &amp; pour m’affermir dans ma resolution, je
+                    renouvelle le grand <hi rend="i">abrenuntio</hi> que j’ay dit dans mon Baptême
+                    contre les pompes du monde, &amp; contre les œuvres de Satan, &amp; je le
+                    prononce contre le bal &amp; la comedie, puisque la sainteté de la Religion y
+                    est deshonorée, que les vœux du Baptême y sont violez, &amp; que l’innocence des
+                    mœurs y est corrompuë : Mais ce ne peut être ô Seigneur qu’un ouvrage de vôtre
+                    amour, de nous faire jurer un divorce eternel avec ce plaisir enchanté, afin que
+                    nos cœurs soient mieux disposez à goûter les chastes plaisirs &amp; les
+                    ineffables delices que vous preparez dans le Ciel, à ceux qui vous auront aymez
+                    &amp; servis fidelement sur la terre. <hi rend="i">Amen</hi>.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>
