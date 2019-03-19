@@ -1,0 +1,1776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’un ancien officier de la reine à tous les François sur les
+                    spectacles. Avec un Postcriptum à toutes les Nations</title>
+                <author key="Trébuchet d’Auxerre (ancien officier de la reine, 17..-17..)"
+                    ref="https://data.bnf.fr/fr/12286399/trebuchet_d_auxerre/">Trébuchet
+                    d’Auxerre</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/trebuchet_lettre_1759</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Trébuchet d’Auxerre, <hi rend="i">Lettre d’un ancien officier de la reine à
+                        tous les François sur les spectacles. Avec un Postcriptum à toutes les
+                        Nations</hi>, <pubPlace>[s.l.]</pubPlace>, <publisher>[s.n.]</publisher>,
+                        <date>1759</date>, in-12, 84 p. PDF : <ref
+                        target="https://gallica.bnf.fr/ark:/12148/bpt6k96152832"
+                    >Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1759"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="book">
+                <pb n="3" xml:id="p3"/>
+                <head><hi rend="i">Lettre</hi>
+                    <hi rend="sc">sur</hi> les spectacles. <lb/>(P. 25.)<note n="*" place="bottom"
+                        >Les chiffres précédés d’un P, marquent les pages des Arrêts du Parlement de
+                        Paris des 23 Janvier &amp; 9 Février 1759, portant condamnation du Livre <hi
+                            rend="i">de l’Esprit</hi>, du Dictionnaire <hi rend="i"
+                            >Encyclopédique</hi>, &amp; autres ouvrages imprimés.</note></head>
+                <epigraph>
+                    <l rend="i">Tantum series juncturaque pollet.</l>
+                </epigraph>
+                <salute>CHERS FRANÇOIS,</salute>
+                <p><hi rend="big">I</hi>L est du devoir de tout Chrétien, de tout Citoyen, de
+                    déférer au tribunal de la Justice toute manœuvre sourde &amp; secrette, dès que
+                    venant à sa connoissance elle lui paroît tendre au détriment de la Religion
+                    &amp; de l’Etat. C’est ce devoir que des Magistrats plus Chrétiens encore que
+                    Citoyens, ont rempli il y a aujourd’hui trois mois, en <pb n="4" xml:id="p4"
+                    />dénonçant à la Cour nombre d’Ecrits dangereux, entr’autres le Livre <hi
+                        rend="i">de l’Esprit</hi>, &amp; le Dictionnaire <hi rend="i"
+                        >Encyclopédique</hi>, &amp; en dévoilant à ses yeux une partie du venin
+                    caché dans ces ouvrages, qu’on nous annonçoit comme devant servir à éclairer le
+                    monde, &amp; qui sont démontrés n’être que l’œuvre du Pere du mensonge &amp; de
+                    l’esprit de ténèbres.</p>
+                <p>Le rapport qu’ils en ont fait d’une manière si digne de la plume des Princes de
+                    l’Eglise, ne peut qu’être un sujet de triomphe pour tous ceux en qui il reste
+                    encore quelque amour pour la Religion dont le flambeau leur a servi de guide :
+                    Mais le dirai-je ? le plaisir extrême que je trouve à sa lecture, depuis six
+                    semaines qu’il m’est tombé entre les mains, n’est si grand pour moi que parce
+                    qu’il m’en promet un autre plus grand cent fois que celui de voir brûler des
+                    Livres, c’est celui de voir dans peu renverser tous nos Théâtres : la cognée me
+                    semble déjà mise à la racine de l’arbre : quel nouveau sujet de triomphe se
+                    prépare pour Nous, François, qui depuis si long-temps… Vous doutez, la chose ne
+                    vous paroît-elle pas croyable ? Me ferois-je donc illusion ? &amp; trouverois-je
+                    mon plus grand <pb n="5" xml:id="p5"/>plaisir à ne me repaître que d’un
+                    phantôme ? Quoi ! vous voyez qu’on nous arrache d’entre les mains des Livres qui
+                    nous donnent <hi rend="i">sourdement</hi> des leçons d’irréligion &amp;
+                    d’indépendance, &amp; vous prétendez qu’on nous laissera des spectacles qui nous
+                    donnent <hi rend="i">publiquement</hi> des leçons d’irréligion &amp;
+                    d’indépendance ? <quote><hi rend="i">Quirites</hi>
+                        <seg type="exquote">(P. 26.)</seg>
+                        <hi rend="i">hoc, puto, non justum est.</hi></quote></p>
+                <p>Pour <hi rend="i">fortifier</hi> (P. 17.) ma pensée, <quote><hi rend="i"
+                            >entrelaçons la branche au tronc, &amp; donnons au tout cette unité si
+                            favorable à l’établissement de la vérité &amp; à la persuasion, opposons
+                            les notions, saisons contraster les principes, attaquons, ébranlons,
+                            renversons un tas d’opinions ridicules qu’on ose établir
+                            ouvertement</hi></quote>.</p>
+                <p>Ennemis de toute partialité, <quote><hi rend="i">ayons la double</hi>
+                        <seg type="exquote">satisfaction</seg>
+                        <hi rend="i">de confirmer &amp; de réfuter…</hi></quote></p>
+                <p><quote><seg type="exquote">Par</seg>
+                        <hi rend="i">respect</hi> pour un goût <hi rend="i">national, exposons-le
+                            respectueusement &amp; avec tout son cortège de séduction ; mais
+                            renversons l’édifice de fange, dissipons un vain amas de poussière, en
+                            renvoyant</hi> à <seg type="exquote">des sources pures &amp;
+                            irréprochables,</seg>
+                        <hi rend="i">où des principes solides servent de base aux vérités
+                            opposées</hi>
+                        <seg type="exquote">à ce goût dépravé.</seg>
+                        <hi rend="i">Cette manière de détromper les hommes opère <pb n="6"
+                                xml:id="p6"/>très-promptement sur les bons esprits, &amp; elle opère
+                            infailliblement &amp; sans aucune</hi>
+                        <seg type="exquote">(P. 18.)</seg>
+                        <hi rend="i">fâcheuse conséquence, secrettement &amp; sans éclat sur tous
+                            les esprits… Si ces renvois de confirmation &amp; de réfutation sont
+                            prévûs de loin &amp; préparés avec adresse, ils donneront</hi>
+                        <seg type="exquote">à cette Lettre que j’ai l’honneur de vous adresser,
+                            chers Compatriotes,</seg>
+                        <hi rend="i">le caractère qu’elle doit avoir pour changer la façon commune
+                            de penser…</hi></quote> Elle aura des défauts d’exécution, j’y consens ;
+                    mais le plan &amp; le fonds en seront excellens ; <quote><hi rend="i">nous en
+                            déduirons</hi>, <seg type="exquote">sinon ouvertement, du moins</seg>
+                        <hi rend="i">tacitement, la conséquence la plus forte</hi></quote> contre
+                    nos théâtres, puisque nous serons forcés de conclure qu’après avoir jetté la
+                    branche au feu, il y faut encore jetter le tronc : Telle est la force des
+                    renvois.</p>
+                <quote>
+                    <l rend="i">    Tantum series juncturaque pollet,</l>
+                    <l rend="i">Tantum de medio sumptis accedit honoris !</l>
+                    <bibl>Horat. Art. Poet. Vers. 243.</bibl>
+                </quote>
+                <p>L’esprit de force &amp; de vérité qui étoit hier pour confondre &amp; faire taire
+                    (P. 22.) <quote><hi rend="i">des oracles de l’impiété, qui livrés à leur
+                            imagination</hi></quote>, sous le manteau d’Hommes de Lettres,
+                            <quote><hi rend="i">induisoient en erreur leurs Concitoyens, &amp;
+                            pervertissoient le monde en refusant de subordonner la science des mœurs
+                            à celle de la Religion</hi></quote>, est encore aujourd’hui pour
+                    confondre <pb n="7" xml:id="p7"/>&amp; faire taire des Oracles de l’impiété, qui
+                    livrés à leur imagination, <quote><hi rend="i">sous le masque d’hommes de
+                            théâtres</hi></quote>, induisent en erreur leurs Concitoyens, &amp;
+                    pervertissent le monde, en refusant de subordonner la science des mœurs à celle
+                    de la Religion : donc ils vont se taire ces anciens oracles de l’impiété, depuis
+                    si longtems confondus ; donc le renversement des théâtres, cet avenir que je ne
+                    vois qu’à la faveur du flambeau qui m’est présenté par Thémis même, ne peut être
+                    ni incertain ni éloigné.</p>
+                <p>Le principe est vrai, <quote><hi rend="i">il est sacré</hi></quote> : (<hi
+                        rend="i">aux Heb. 13. v. 8.</hi>) la conséquence est juste ; <quote><hi
+                            rend="i">deux poids &amp; deux balances</hi></quote>, (<hi rend="i"
+                        >Prov. 20. v. 10.</hi>) <quote><hi rend="i">sont en abomination aux yeux de
+                            la Justice</hi></quote>. Mais ne consultons que la raison ; elle nous
+                    dit qu’en vain d’un bras cette Justice chasseroit du milieu de nous (<hi
+                        rend="i">p. 2.</hi>) <quote><hi rend="i">une société formée pour soutenir le
+                            Matérialisme, pour détruire la Religion, pour inspirer l’indépendance
+                            &amp; nourrir la corruption des mœurs…</hi></quote> (<hi rend="i">p. 16.
+                        17.</hi>) <quote><hi rend="i">des Ecrivains dangereux, des hommes sans
+                            pudeur, ennemis de l’autorité &amp; du Christianisme, dont ils ont
+                            vainement juré la perte</hi></quote>, si de l’autre elle ne chasse du
+                    milieu de nous <quote><hi rend="i">une troupe</hi>
+                        <seg type="exquote">formée pour</seg>
+                        <hi rend="i">entretenir</hi></quote>
+                    <pb n="8" xml:id="p8"/>le Matérialisme, pour détruire la Religion, pour inspirer
+                    l’indépendance &amp; nourrir la corruption des mœurs… des <hi rend="i"
+                        >déclamateurs</hi> dangereux ; des hommes sans pudeur, ennemis de l’autorité
+                    &amp; du Christianisme dont ils <quote><hi rend="i">n’ont que trop
+                            efficacement</hi></quote> juré la perte.</p>
+                <p>En effet qu’importe-t-il au Christianisme que la plume de ceux-là ne puisse plus
+                    nous apprendre (<hi rend="i">p. 13. 14.</hi>) que <quote><hi rend="i">la maniere
+                            d’adorer le vrai Dieu ne doit jamais s’écarter de la raison, parce que
+                            Dieu est l’auteur de la raison, &amp; qu’il a voulu qu’on s’en servît
+                            même dans les jugemens de ce qu’il convient de faire ou ne pas faire à
+                            son égard ;… langage du Déiste, ennemi de la révélation</hi></quote> :
+                    qu’elle ne puisse plus nous dépeindre (<hi rend="i">P. 6.</hi>) les Ministres de
+                    la Religion, comme des Pedans épris d’une fausse idée de perfection, des
+                    Moralistes déclamateurs &amp; sans esprit, dangereux dans un Etat, des Prêtres
+                    de Moloch… des Fanatiques… qui veulent qu’on tienne les Peuples prosternés
+                    devant les préjugés reçus comme devant les Crocodiles sacrés de Memphis, ni
+                    enfin nous enseigner qu’il <quote><hi rend="i">faut d’une main hardie briser le
+                            talisman d’imbécillité auquel est attachée la puissance de ces génies
+                            malfaisans</hi></quote> : Si la bouche de ceux-ci peut s’ouvrir encore
+                    pour traiter par celle <pb n="9" xml:id="p9"/>d’Hypermnestre (<hi rend="i"
+                        >édition 1759</hi>) ces mêmes Ministres <quote><hi rend="i">de fourbes dont
+                            la langue au mensonge vendue, veut en prenant sur nous un funeste
+                            ascendant, paroître nous servir en nous intimidant</hi></quote>, &amp;
+                    pour nous dire que <quote><hi rend="i">quand un Prêtre a parlé</hi><seg
+                            type="exquote"> d’un avenir,</seg>
+                        <hi rend="i">c’est foiblesse de trembler sur sa foi</hi><seg type="exquote"
+                            >, à moins qu’on ait</seg>
+                        <hi rend="i">vû sur lui la vérité descendre ?</hi></quote></p>
+                <p>Un poison étant d’autant plus malin qu’il est plus caché, quelle est la malignité
+                    de celui qu’on nous présente ici sous le voile de la fiction ? L’Auteur a-t-il
+                    voulu nous faire naître un doute impie sur la certitude de la révélation ? Je
+                    n’en sçais rien ; mais l’Actrice ne réussit que trop à le faire passer dans tous
+                    ses Spectateurs : les acclamations &amp; les applaudissemens qui l’interrompent,
+                    lui sont garands de son succès : <hi rend="i">Severe</hi> ne réussiroit pas
+                    mieux, quand il nous diroit encore.</p>
+                <quote>
+                    <l>Peut-être qu’après tous ces croyances publiques</l>
+                    <l>Ne sont qu’inventions, de sages politiques</l>
+                    <l>Pour contenir le Peuple ou bien pour l’émouvoir,</l>
+                    <l>Et dessus sa foiblesse affermir leur pouvoir<note n="*" place="bottom">Ces
+                            quatre vers qui se trouvent dans la premiere Edition de Polieucte ont
+                            été supprimés depuis par M. Corneille.</note>.</l>
+                </quote>
+                <p>L’Incrédule triomphe également à <pb n="10" xml:id="p10"/>l’école d’une femme ou
+                    d’un Payen, à l’ombre de la Fable ou d’un peut-être, quand il peut applaudir
+                    impunément &amp; en public à son incrédulité. Qu’on ne dise pas que ces
+                    applaudissemens se rapportent plus au jeu de notre Melpomène qu’à ses paroles :
+                    les hommes d’aujourd’hui rougiroient de passer pour être moins impies
+                    qu’automates ; ils auroient honte de paroître se laisser plus transporter par
+                            <quote><hi rend="i">ces cheveux hérissés d’horreur… ces regards égarés,
+                            ces sons de voix plus lents</hi></quote>, par ce jeu de l’Actrice ; en
+                    un mot, que sentir tout le beau de la question, <hi rend="i">d’où le
+                        sçait-il ?</hi> Convenons-en plutôt, à la honte éternelle de nos
+                    déclamateurs ; ce sont là de ces beautés qui pourroient échapper à la lecture,
+                    mais qu’on ne peut s’empêcher de sentir aux théâtres.</p>
+                <p>Théâtres, écoles publiques d’irréligion, où, si l’on ne regarde pas <quote><hi
+                            rend="i">l’existence de Dieu</hi>
+                        <seg type="exquote">(P. 14.)</seg>
+                        <hi rend="i">comme problématique</hi></quote>, on tourne en ridicule (<hi
+                        rend="i">Festin de Pierre</hi>) les preuves qu’on en a.</p>
+                <p>Où, si <quote><hi rend="i">les moralités</hi></quote> de l’Evangile sont
+                    annoncées, c’est d’une manière à les rendre méprisables.</p>
+                <p>Où, si <quote><hi rend="i">le dogme des peines d’une autre vie</hi></quote>,
+                    n’est pas combattu, on se fait un jeu des foudres du Ciel &amp; des feux de
+                    l’enfer.</p>
+                <p><pb n="11" xml:id="p11"/>Où, si l’on ne se met point en peine <quote><hi rend="i"
+                            >de nous prouver la nécessité de travailler aux jours de
+                        Dimanche</hi></quote>, non plus que celle de supprimer nombre de Fêtes, ni
+                            <quote><hi rend="i">de supputer la perte que fait le commerce par
+                            l’inaction des Ouvriers</hi></quote>, des Ouvriers d’iniquité, semblent
+                    redoubler d’action en ces saints jours pour nous les faire profaner &amp;
+                    assurer par cela seul, autant qu’il est en eux, la perte de nos ames.</p>
+                <p>Où, <quote><hi rend="i">si l’on n’imprime pas</hi>
+                        <seg type="exquote">(p. 9.)</seg>
+                        <hi rend="i">la note de méchanceté à ceux qui se consacrent aux devoirs
+                            &amp; aux conseils de la Religion</hi></quote>, on nous met dans une
+                    espéce de nécessité de devenir méchant par celle qu’on nous impose de
+                    transgresser les préceptes.</p>
+                <p>Où, si l’on ne nous dit pas en termes formels (<hi rend="i">p. 5.</hi>) qu’il n’y
+                    a <quote><hi rend="i">point de véritable liberté dans l’homme, &amp; qu’on ne
+                            peut se former aucune idée de ce mot appliqué à la volonté</hi></quote>,
+                        <hi rend="i">Phédre</hi> &amp; <hi rend="i">Oedipe</hi> nous apprennent que
+                    le Ciel punit l’homme des péchés qu’il lui fait commettre.</p>
+                <p>Où si l’on n’a pas encore prouvé, (<hi rend="i">p. 7.</hi>) <quote><hi rend="i"
+                            >que l’espoir ou la crainte des peines ou des plaisirs temporels, sont
+                            propres à former des hommes vertueux</hi></quote>, l’ancien <hi rend="i"
+                        >Venceslas</hi> récompensoit le vice &amp; punissoit la vertu : le Moderne
+                    fera-til grace ce vice choquant ?</p>
+                <p><pb n="12" xml:id="p12"/>Où, si de graves Magisters paroissent de temps en temps
+                    sur la Scène, (<hi rend="i">Athalie</hi>) <quote><hi rend="i">pénétrés de la
+                            plus grande confiance en celui qui met un frein à la fureur des flots
+                            contre les complots des méchans, soumis avec respect à sa volonté
+                            sainte, craindre Dieu, &amp; ne craindre que lui</hi></quote> ; en un
+                    mot, (<hi rend="i">p. 20.</hi>) <quote><hi rend="i">respecter quelquefois la
+                            vérité, ce n’est que pour mieux pallier l’iniquité de leur systême,
+                            &amp; peut-être même pour fournir en leur faveur des prétextes à ceux
+                            qui sont assez foibles ou assez téméraires pour oser encore les
+                            justifier</hi></quote>.</p>
+                <p>Enfin écoles d’irréligion, ou, si l’on ne soutient pas <hi rend="i">ex
+                        professo</hi> le matérialisme, c’est que le croyant bien établi, on pense
+                    n’avoir qu’à l’entretenir : &amp; voici comment on y réussit.</p>
+                <p>L’Oracle de la vérité nous apprend, (<hi rend="i">Luc 12. v. 4. 5.</hi>)
+                            <quote><hi rend="i">à craindre ceux qui peuvent tuer nos ames, &amp; non
+                            ceux qui ne peuvent que nous ôter la vie du corps</hi></quote>.</p>
+                <p>Pleins de ces salutaires instructions qui doivent nous être toujours présentes,
+                    même dans la recherche de nos plaisirs, nous entrons dans une salle de
+                    spectacle, qu’y voyons-nous ? nombre de satellites préposés par une sage police
+                    pour nous contenir dans l’ordre, la paix &amp; la tranquillité ; au coup de
+                    sifflet la toile se lève, paroissent de <pb n="13" xml:id="p13"/>nouveaux
+                    satellites en plus grand nombre encore, préposés par le diable, pour jetter dans
+                    nos cœurs le trouble, la confusion &amp; le désordre, suites inévitables des
+                    passions qu’ils font naître ou qu’ils fortifient.</p>
+                <p>Satellites politiques, on vous craint, &amp; vous êtes moins pour menacer nos
+                    vies, que pour nous ménager nos bourses ! Satellites diaboliques, on ne vous
+                    craint pas, &amp; vous ne sçavez que nous frayer cette voie large &amp;
+                    spacieuse qui mène à la mort éternelle ! Ce n’est pas tout : comme pour nous
+                    enhardir à vous voir, à vous entendre sans effroi, un homme à rabat nous épaule
+                    au Parterre, dans les Lôges &amp; jusques sur le Théâtre. Est-ce donc là ce
+                    fourbe que vous venez de nous dépeindre comme nous annonçant un avenir qu’il ne
+                    croit pas ? O, supôt de satan, tout à la fois le scandale des Fidèles &amp;
+                    l’opprobre de l’Eglise, combien d’entre nous qui, n’étant entrés à ce spectacle
+                    qu’à ton exemple, peut être qu’à tes instances, n’en sortiront que pour prêcher
+                    avec toi, (<hi rend="i">p. 20.</hi>) <quote><hi rend="i">la Religion naturelle,
+                            le Matérialisme, le Déisme ou l’Athéisme !</hi></quote> &amp; comment ne
+                    pas savoir gré <hi rend="i">à l’esprit</hi> qui à ce coup d’œil imagina (p. 9.)
+                            <quote><hi rend="i">des vertus de <pb n="14" xml:id="p14"/>préjugé… une
+                            corruption religieuse &amp; politique</hi></quote>, de ce qu’au lieu de
+                    nous avoir parlé de <hi rend="i">vraies vertus</hi>, il ne nous a pas dit que
+                    tout meure avec nous.</p>
+                <p>Religion sainte, si nos Peres vous ont joué sur leurs théâtres, leur simplicité
+                    semble les mettre à l’abri de tout reproche : mais comment nos enfans nous
+                    justifieront-ils des combats que nous vous livrons sur les nôtres dans un siécle
+                    où, sans parler de nos <quote><hi rend="i">esprits forts</hi></quote>, (<hi
+                        rend="i">p. 3.</hi>) <quote><hi rend="i">de nos prétendus
+                        Philosophes</hi></quote>, (<hi rend="i">p. 20.</hi>) ils ne pourront
+                    s’empêcher de reconnoître qu’il y aura eu dans tous les genres (p. 20.)
+                            <quote><hi rend="i">des génies du premier ordre, la gloire de la Nation,
+                            les restaurateurs de la vraie science, &amp; les bienfaiteurs de
+                            l’humanité</hi></quote>.</p>
+                <p>J’ajoute écoles d’indépendance : nos Ecrivains nous en donnent-ils des leçons
+                    plus fortes que nos déclamateurs ? Voyons les uns, écoutons les autres.</p>
+                <p><quote><hi rend="i">Toute liberté est si précieuse à ceux-là</hi><seg
+                            type="exquote">, que selon eux, (p. 15.)</seg>
+                        <hi rend="i">aucun homme n’a reçu de la Nature le droit de commander aux
+                            autres.. Que si la Nature a établi quelqu’autorité, c’est la puissance
+                            paternelle.</hi></quote> Cela est vrai, malheureusement ils ajoutent
+                    que, <quote><hi rend="i">toute autre autorité a pour origine… ou la force &amp;
+                            la violence de celui <pb n="15" xml:id="p15"/> qui s’en est emparé, ou
+                            le consentement de ceux qui s’y sont soumis par un contrat fait ou
+                            supposé entr’eux &amp; celui à qui ils ont déféré
+                        l’autorité</hi></quote>. Et voilà ce qui les rend coupables.</p>
+                <p>Ceux-ci nous disent dans l’Orphelin de la Chine,</p>
+                <quote>
+                    <l>Va, le nom de Sujet n’est pas plus grand pour nous,</l>
+                    <l>Que ces noms si sacrés &amp; de Pere &amp; d’Epoux.</l>
+                </quote>
+                <p>Cela est vrai, aussi n’est ce pas ce qu’ils veulent nous dire, ces peres du
+                    mensonge, mais plutôt :</p>
+                <quote>
+                    <l>Va, le nom de Sujet n’est pas <hi rend="i">si</hi> grand pour nous</l>
+                    <l>Que ces noms <hi rend="i">plus</hi> sacrés &amp; de Pere &amp; d’Epoux.</l>
+                </quote>
+                <p>Car ils ajoutent aussitôt :</p>
+                <quote>
+                    <l>La nature &amp; l’hymen, voilà les loix premieres,</l>
+                    <l>Les devoirs, les liens des Nations entieres,</l>
+                    <l>Ces loix viennent des Dieux : le reste est des humains.</l>
+                </quote>
+                <p>Mêmes <quote><hi rend="i">conséquences</hi>
+                        <seg type="exquote">(<hi rend="i">p. 15.</hi>)</seg>
+                        <hi rend="i">se présentent ici d’elles-mêmes</hi> : <seg type="exquote"
+                            >partout</seg>
+                        <hi rend="i">maximes bien différentes</hi>
+                        <seg type="exquote">(<hi rend="i">p. 16.</hi>)</seg>
+                        <hi rend="i">de celles de l’Apôtre, qui nous apprend qu’il n’y a point de
+                            puissance qui ne vienne de Dieu, &amp; que c’est lui qui a établi toutes
+                            celles qui sont sur la terre</hi></quote>.</p>
+                <p><pb n="16" xml:id="p16"/>Mais tant que celles-ci seront débitées avec de si
+                    grands applaudissemens, quel fruit les Princes de l’Eglise pourront-ils attendre
+                    de leurs exemples &amp; de leurs instructions ? Ils auront beau regarder les
+                    Rois de la Terre comme les dépositaires de l’autorité de Dieu même, comme des
+                    Divinités sensibles, ils enseigneront en vain <quote><hi rend="i">qu’il est donc
+                            nécessaire de s’y soumettre non seulement par la crainte du châtiment,
+                            mais aussi par un devoir de conscience. doctrine seule véritable &amp;
+                            qui affermit le bonheur des Rois &amp; des Peuples</hi></quote>.</p>
+                <p>Est-ce un esprit de fanatisme ou de révolte qui a placé cette maxime, <quote><hi
+                            rend="i">le reste est des humains</hi></quote> dans l’Encyclopédie à
+                    l’Article <hi rend="i">Fanatisme</hi> ? Je n’en sçais rien. Quelles impressions
+                    a-t-elle faites sur ceux qui l’y ont vue ? Je n’en sçais rien encore : à en
+                    juger par moi, elle n’a causé qu’un mouvement d’indignation contre celui qui le
+                    premier l’a mise au jour ; mais j’ai été témoin avec un étonnement qui dure
+                    encore, du frénétique enthousiasme qui s’empare de la multitude au débit qui
+                    s’en fait sur le Théâtre. Est-ce donc là une de ces <quote><hi rend="i"
+                            >beautés</hi></quote> (<hi rend="i">Lettre de M. Rousseau de Genève à M.
+                        de Voltaire, dans le Mercure de <pb n="17" xml:id="p17"/>Novembre 1755,
+                        pag. 66.</hi>) que nous devions applaudir dans <hi rend="i">l’Orphelin</hi>,
+                    à peine de passer pour <hi rend="i">grimaud</hi> ? Non, non, <quote><hi rend="i"
+                            >justice &amp; vérité ; voilà les premiers devoirs de
+                        l’homme</hi></quote>. (<hi rend="i">Lettre du même à M. Dalembert sur son
+                        Article</hi> Genève, <hi rend="i">dans l’Encyclopédie</hi>, Préface, page
+                    3.)</p>
+                <p>A tant de battemens &amp; des piés &amp; des mains prodigués à l’erreur &amp; au
+                    mensonge, on voit assez triompher le sentiment de cette liberté si précieuse
+                    &amp; tant vantée ; mais comment y reconnoître cet amour gravé dans tous nos
+                    cœurs pour un Souverain, pour un Pere à qui nous avons donné le titre de <hi
+                        rend="i">Bien-aimé</hi> ?</p>
+                <p>Accès de frénésie qui troublez les théâtres, pourquoi me forcez-vous de rappeller
+                    ici ces accès de rage qui troublent les Etats, qui ébranlent les trônes, &amp;
+                    renouvellent (P. 11.) <quote><hi rend="i">tant d’anecdotes scandaleuses capables
+                            de faire frémir tout Citoyen fidèle &amp; tout sujet
+                    soumis</hi></quote> ? Que de graces à rendre au Ciel s’ils ne sont pas plus
+                    communs de nos jours, ces monstres, dont les noms serviront à jamais pour
+                    désigner les cœurs pervers ! La justice humaine &amp; ses tortures ne pourroient
+                    rien contre les puissances de l’enfer qui se liguent pour les faire naître, si
+                    le malheureux germe n’en <pb n="18" xml:id="p18"/>étoit étouffé par le
+                    Tout-puissant, dont le bras est toujours levé pour défendre ses oingts, jamais
+                    sa protection ne fut plus visiblement marquée ; puisse t-elle n’être pas mise à
+                    de nouvelles épreuves ! Peut être ne faut-il pour cela que le renversement des
+                    théâtres : la Religion &amp; l’Etat ne sont pas les seuls qui le demandent ; la
+                    société le veut encore.</p>
+                <p>Y auroit-il en effet plus (p. 11.) <quote><hi rend="i">d’écarts raison, de
+                            décence, d’amour de la société</hi></quote> à méconnoître les vrais
+                    fondemens de l’amitié, &amp; à substituer en leur place (p. 12.) <quote><hi
+                            rend="i">des hypothèses chimériques &amp; indécentes</hi></quote> en
+                    nous donnant (p. 11.) <quote><hi rend="i">le besoin pour la mesure du
+                            sentiment</hi></quote>, &amp; par une suite toute naturelle, <quote><hi
+                            rend="i">des amis de plaisirs, d’argent, d’intrigues d’esprit &amp; de
+                            malheurs</hi></quote>, qu’à nous inspirer la haine &amp; la vengeance au
+                    mépris des loix divines &amp; humaines ? Eh ! quoi ! comme si pour nous animer à
+                    répandre le sang, ce n’étoit point assez de nous dire, (<hi rend="i">le
+                    Cid</hi>) dans un langage ordinaire : <hi rend="i">meurs ou tue</hi>. J’entends
+                    une voix meurtrière nous dire encore au son des instrumens, dans l’Opéra de <hi
+                        rend="i">Pyrame &amp; Thysbé</hi>,</p>
+                <quote>
+                    <l> Qui craint de se venger mérite qu’on l’outrage.</l>
+                </quote>
+                <p><pb n="19" xml:id="p19"/>Une autre encore nous en a dit à peu-près autant dans
+                    l’acte d’Alphée &amp; d’Aréthuse.</p>
+                <p>Quelle fureur sur nos théâtres à pervertir les meilleures choses ! Par quel
+                    affreux revers la Musique, ce présent des Dieux accordé aux hommes pour écarter
+                    le triste souvenir de leurs maux, en leur inspirant &amp; la tendresse &amp; la
+                    gaîté, est-elle employée de nos jours à leur faire naître à chaque instant des
+                    sentimens de fureur &amp; de rage, en rendant ineffaçables en eux le souvenir
+                    d’une injure ? Quel besoin est-il donc de leur donner en tant de différentes
+                    manières &amp; sous des formes si séduisantes des leçons de la force, desquelles
+                    ils ne sont déjà que trop instruits (<hi rend="i">p. 12.</hi>) <quote><hi
+                            rend="i">par l’amour-propre, qui est dans le cœur de tous les
+                            hommes</hi></quote> ?</p>
+                <p>Le bel amusement ! auroit dit <hi rend="i">le Prince des Orateurs</hi>, qui le
+                    premier porta le titre plus glorieux encore de Pere de la Patrie, si ce genre de
+                    plaisir n’eût pas été réservé pour nous. <quote><hi rend="i">La belle
+                            Philosophie</hi> ! <seg type="exquote">disoit-il, (p. 12.)</seg>
+                        <hi rend="i">retrancher l’amitié de la vie, c’est ôter la lumière du monde.
+                            Oracle du Sénat Romain !</hi></quote> qu’est-ce donc d’y perpétuer
+                    l’inimitié, sinon (<hi rend="i">p. 7.</hi>) <quote><hi rend="i">nous montrer la
+                                terre<pb n="20" xml:id="p20"/>n’offrant de toutes parts que le
+                            vaste, le dégoutant &amp; l’horrible charnier du
+                        ressentiment</hi></quote> ?</p>
+                <p>Pour nous épargner la vûe d’un tel spectacle, ne suffiroit-il pas <quote><hi
+                            rend="i">de nous aimer</hi> (p. 12.) <hi rend="i">comme on aime les
+                            troupeaux à proportion du profit qu’on en retire</hi></quote> ? Mais de
+                    quelle amitié sont capables des hommes <quote><hi rend="i">dont la langue est un
+                            glaive tranchant</hi></quote> (Ps. 56. v. 6.) <quote><hi rend="i">dont
+                            le gozier est un sépulcre ouvert</hi></quote> ; (Ps. 13. v. 5.) qui…
+                            <quote><hi rend="i">avec un cœur de bête</hi>
+                        <seg type="exquote">(Dan. 4. v. 13.)</seg>
+                        <hi rend="i">dévorent tout un peuple dont ils se font un pain de chaque
+                            jour</hi></quote>, (Ps. 13. v. 8.) <quote><hi rend="i">ne sçachant que
+                            s’engraisser de sa substance pour prix de sa grande bonté, qui les tire
+                            du sein de la poussière pour les plonger dans l’abondance &amp; les
+                            délices</hi></quote>. (2. Esdras, 9. v. 5.)</p>
+                <p>Plus que jamais (p. 4.) <quote><hi rend="i">ils déchirent le sein de
+                            l’Eglise</hi></quote>, sans doute pour se venger d’elle de ce qu’elle
+                    les a retranchés du nombre de ses enfans, &amp; <quote><hi rend="i">comme si
+                            l’Etat étoit coupable à leurs yeux parce qu’il est
+                    Chrétien</hi></quote>, ou qu’il les souffre, <quote><hi rend="i">ils conjurent
+                            la perte de l’une &amp; de l’autre, &amp; cherchent à les sapper par le
+                            fondement</hi></quote>.</p>
+                <p>Si tant que ce retranchement subsistera, ils n’ont point de pardon à attendre,
+                    qu’ils nous laissent <quote><hi rend="i">espérer le nôtre</hi>, <pb n="21"
+                            xml:id="p21"/><seg type="exquote">(Matt. 6. v. 12.)</seg>
+                        <hi rend="i">selon la mesure de celui que nous accorderons à nos frères…
+                            S’ils ne veulent pas jouir</hi> (p. 5.) <hi rend="i">avec nous des
+                            lumières de la vérité, qu’ils nous laissent en possession de notre
+                            créance ; qu’ils voyent</hi>
+                        <seg type="exquote">parmi les ours</seg>
+                        <hi rend="i">à trouver des caractères analogues à leur manière de penser…
+                            &amp; à leurs maximes capables de troubler l’ordre de la
+                        société</hi></quote>. Veulent-ils faire de nous un peuple de gladiateurs,
+                    ces hommes qui ne respirent que le sang &amp; le carnage ? Qu’ils s’entretuent
+                    plutôt eux-mêmes ! Nous nous passerons de leurs maximes, que nous ne pourrions
+                    prendre pour règles de notre conduite, sans manquer à la majesté du trône :
+                    notre religieux Monarque avant que d’y monter, a fait un vœu spécial d’employer
+                    toute sa puissance pour arrêter la fureur des duels, &amp; par-là nous a intimé
+                    ses volontés, ou plutôt celles de Dieu même, qui ne s’est reservé qu’à lui seul
+                    le droit de la vengeance, <quote><hi rend="i">mihi vindicta</hi></quote>,
+                    (Rom. 12. v. 19.) Quelle est donc <quote><hi rend="i">la mission</hi></quote> de
+                    ces hommes de néant ? (<hi rend="i">p. 21.</hi>) <quote><hi rend="i">Quel est
+                            leur caractère, pour s’ériger en réformateurs publics de la Religion
+                            &amp; de l’Etat</hi> ? <seg type="exquote">pour oser nous apprendre
+                            (p. 22.)</seg>
+                        <hi rend="i">à nous délivrer du joug de toute autorité</hi></quote> : n’en
+                    connoissent-ils aucune ? <pb n="22" xml:id="p22"/>Meurs ou tue ! Grand Dieu !
+                    &amp; que veux-tu faire de la chair de l’occis ? Bête féroce ! la veux-tu
+                    manger ? Tais-toi, voix sépulcrale ; Chrétiens &amp; Citoyens, nous croyons que
+                    le sang ne doit couler que pour la Religion &amp; la Patrie.</p>
+                <p><quote><hi rend="i">Mais ce n’est pas assez</hi> : <seg type="exquote"
+                            >(p. 2.)</seg>
+                        <hi rend="i">O dementiam hominum omnibus lacrimis, gemitibusque
+                            deplorandam ! Peut-on se dissimuler qu’il n’y ait un projet conçu</hi>
+                        <seg type="exquote">par cette troupe d’hommes corrompus &amp;
+                            corrupteurs</seg>
+                        <hi rend="i">pour nourrir la corruption des mœurs ?</hi></quote> Et
+                            <quote><hi rend="i">quand ils supplieroient très-humblement</hi>
+                        <seg type="exquote">(p. 30.)</seg>
+                        <hi rend="i">de vouloir bien considérer que leurs excès ont pour principe
+                            l’égarement de leurs esprits plutôt que celui de leurs
+                        cœurs</hi></quote>, c’est tout au plus parmi les Turcs ou les Chinois
+                    matérialistes qu’ils trouveroient des Juges assez indulgens pour leur donner
+                    acte d’une pareille supplication, &amp; y avoir égard.</p>
+                <p>Qui de nous ne sçait pas qu’il est une école parmi eux où l’art dévance la nature
+                    pour leur apprendre &amp; leur faire apprendre aux autres celui (<hi rend="i"
+                        >p. 22.</hi>) <quote><hi rend="i">de bannir toutes les vertus, &amp;
+                            d’établir le règne des passions</hi></quote> ? Par un excès d’indécence
+                    aussi criant que ridicule, ne les <pb n="23" xml:id="p23"/>voyons-nous pas
+                    encore exercer cet art damnable, lors même que la nature ne parle plus en eux,
+                    &amp; qu’ils ne sont plus bons que, ce qu’on appelle, pour le conseil ? Ainsi
+                    donc leurs cœurs dépravés passent de l’enfance à la vieillesse &amp; descendent
+                    avec eux dans le tombeau, ayant toujours voulu ce qu’ils ont voulu d’abord :
+                            <quote><hi rend="i">nourrir la corruption des mœurs</hi></quote>.</p>
+                <p>Projet infame que les théâtres d’Athênes &amp; de Rome payenne, avec toutes leurs
+                    obscénités, n’ont jamais mieux rempli que les notres avec ce vernis d’honnêteté
+                    dont on prétend qu’ils sont couverts : que la couche en est légére, puisqu’il se
+                    fait si peu sentir ! Où est-il, en effet, ce vernis, qui n’est si vanté que par
+                    ceux qui seroient bien fâchés qu’il y fût ? A quelle sorte de spectacle nous
+                    faut-il aller pour le trouver ? Est-ce à Tragédie, Comédie, Opéra petit ou
+                    grand, Bal ou Ballet ? Par-tout (il n’y a que du plus ou du moins) je vois avec
+                    l’élégant Solitaire de Bretagne, (<hi rend="i">Mercure d’Août 1758.</hi>)
+                            <quote><hi rend="i">le cinisme de la licence ombrager la tête de la
+                            galanterie de son pennage orgueilleux ; la hardiesse, mere du vice
+                            regner dans des yeux impudens, comme dans ceux des Bacchantes
+                            échevelées, quand un thyrse à la main, elles<pb n="24" xml:id="p24"
+                            />fouloient aux pieds les sages loix de la pudeur ; des demi-robes
+                            parsemées des couleurs de la débauche &amp; semblables à celles des
+                            Filles de Sparte, quand presque nuës elles alloient disputer le prix des
+                            exercices gymmiques ; le feu des peintures dangereuses vomi par cent
+                            bouches impures, comme les flammes de l’Etna pour le malheur de ceux qui
+                            l’environnent ; une jeunesse novice portant d’une main la torche ardente
+                            de la passion aveugle, &amp; de l’autre le frêle roseau de
+                            l’inexpérience, aller en foule porter dans le gouffre de la corruption
+                            les tendres fruits de l’éducation, les racines déliées de la vertu &amp;
+                            les fleurs délicates de la santé</hi></quote>.</p>
+                <p>Quelle touche ! que le pinceau en est délicat ! quel coloris ! que les couleurs
+                    en sont naïves ! Pour ne pas reconnoître l’original de ce portrait dans nos
+                    spectacles, quel aveuglement dans l’esprit faut-il avoir ! quelle corruption
+                    dans le cœur ! Disons mieux, quelle mauvaise foi ! <quote><hi rend="i">quel
+                            delire</hi></quote> ! (<hi rend="i">p. 22.</hi>) <quote><hi rend="i"
+                            >c’est marcher en plein jour comme des aveugles au milieu des
+                            ténèbres</hi></quote>.</p>
+                <p>A moins que d’être du nombre de ces aveugles volontaires, qui n’y reconnoîtra
+                    sur-tout cet inimitable Prothée qui se transforme à nos yeux tantôt comme <pb
+                        n="25" xml:id="p25"/><hi rend="i">un sultan généreux</hi> au milieu de son
+                    serrail qui malgré nous, nous transporte à Constantinople, &amp; tantôt comme
+                        <hi rend="i">un heros avanturier</hi> ; (<hi rend="i">deux Balets Pantomimes
+                        du Théâtre Italien.)</hi> qui fait paroître au milieu de nous cette isle
+                    enchanteresse de Calypso, qu’aucun Géographe ne sçavoit encore où placer.</p>
+                <p>De quelle trempe es tu ? Mentor, au milieu du brasier de ton Télémaque, tu es
+                    froid comme glace, &amp; notre Paradis même est tout en feu.</p>
+                <p>C’est sous le double point de vuë que nous présentent cette isle &amp; ce
+                    serrail, qu’il ne manque rien au tableau ; je me trompe, il est au-dessous de
+                    l’original.</p>
+                <p>Ce seroit trop peu pour cet infame sauteur de nous montrer <quote><hi rend="i">le
+                            feu des peintures dangereuses, vomi par cent bouches
+                        impures</hi></quote>, il nous le fait voir étincellant dans deux cens yeux
+                    lascifs. Quel embrasement se prépare sur ses pas forcenés ! <quote><hi rend="i"
+                            >Les fleurs délicates de la santé</hi></quote> pourront-elles echapper
+                    aux flammes ? <quote><hi rend="i">Quel homme puissant en inquité</hi></quote> !
+                        (<hi rend="i">Ps. 51 v. 13.</hi>) un pas, une œillade de chacune de ses
+                    infames complices, porte une étincelle seule capable d’allumer deux mille
+                            <quote><hi rend="i">torches ardentes de la passion aveugle pour le
+                            malheur</hi></quote> de tous ses Spectateurs : Qui <pb n="26"
+                        xml:id="p26"/>pourra donc calculer le nombre de ses forfaits ? Quelle
+                    horreur me saisit ! au milieu de ces sultanes &amp; de ces nymphes, de tant de
+                    beautés molles, de tant de langueurs passionnées, de ces flambeaux ardens, de
+                    ces fléches aiguës, de ces dagues tranchantes, c’est là sans doute un ministre
+                    de Satan vomi par l’enfer, pour nous faire arborer le turban, &amp; introduire
+                    parmi nous (<hi rend="i">p. 10.</hi>) <quote><hi rend="i">le culte des temples
+                            de Venus &amp; d’Astarté</hi></quote>. Terre, vous ne vous entrouvrez
+                    pas sous nos pieds ! Ciel, vous ne lancez pas vos foudres sur nos têtes ! Ciel
+                    &amp; terre, suspendez les effets d’un juste courroux ; déja le Philosophe qui
+                    nous a prêché ce culte (<hi rend="i">p. 11.</hi>) comme <quote><hi rend="i">un
+                            objet digne de notre adoration &amp; capable de nous consoler du malheur
+                            d’être</hi></quote>, subit la peine de sa témérité ; le pantalon qui
+                    l’exerce &amp; le réalise à nos yeux, échapperoit-il au glaive de la Justice ?
+                    le Ministre trouveroit-il encore un sujet de triomphe dans ce qui couvre
+                    l’Apôtre de confusion &amp; d’opprobre ? Disons plutôt, son sort peut-il être
+                    autre que celui de <quote><hi rend="i">ces Auteurs</hi>
+                        <seg type="exquote">(p. 23.)</seg>
+                        <hi rend="i">qui pour avoir composé des vers contre l’honneur de Dieu, son
+                            Eglise &amp; l’honnéteté publique, ont été condamnés aux supplices les
+                            plus affreux, comme criminels de lèze Majesté Divine</hi></quote>.</p>
+                <p><pb n="27" xml:id="p27"/>O temps ! ô mœurs ! <quote><hi rend="i">quelle
+                            fureur</hi>
+                        <seg type="exquote">(<hi rend="i">p. 20.</hi>) sur nos théâtres</seg>
+                        <hi rend="i">à enflammer nos desirs</hi></quote> ! Qui nous consolera du
+                    malheur d’être dans ces jours malheureux, où <quote><hi rend="i">un délire
+                            cynique</hi></quote> met tout en œuvre, Tragique, Comique, Dramatique,
+                    art déclamatoire &amp; Pantomime, pour porter le fer &amp; le feu dans nos
+                    Villes &amp; nos campagnes ? Serons-nous donc forcés, en déplorant notre
+                    condition, de desirer d’avoir des pattes ?</p>
+                <p>Sans avoir <quote><hi rend="i">vû</hi>
+                        <seg type="exquote">(p. 27.)</seg>
+                        <hi rend="i">dans le Livre de l’Esprit</hi></quote>, <quote><hi rend="i"
+                            >Unde animi constet natura</hi></quote>, ne peut-on pas dire de la
+                    faculté d’aimer, (de cet amour bien entendu dont il est ici question) ce qu’il
+                    n’est pas permis de dire de <quote><hi rend="i">la faculté de
+                        penser</hi></quote> ? (<hi rend="i">p. 5.</hi>) N’est-ce pas-là <quote><hi
+                            rend="i">cette puissance passive</hi>, <seg type="exquote">cette</seg>
+                        <hi rend="i">sensibilité physique qui nous est commune avec les
+                        animaux</hi></quote> ? Pour établir qu’elle a dans nous quelque <hi rend="i"
+                        >infériorité</hi>, aura-t-on recours <quote><hi rend="i">à la difference du
+                            physique</hi></quote> ? Dira-t-on : <quote><hi rend="i">ceux-ci ont des
+                            pattes, &amp; l’homme a des mains</hi></quote> ? Qu’il seroit <quote><hi
+                            rend="i">ridicule… Le principe de cette infériorité</hi></quote> !</p>
+                <p>Puis donc que la Nature, par des raisons aussi proportionnées à la sagesse du
+                    Créateur qu’au bonheur de la créature, a mis dans l’individu de chaque <pb
+                        n="28" xml:id="p28"/>espèce d’animaux, soit à mains soit à pattes, un égal
+                    penchant à s’unir au sexe pour lequel il est fait, à quoi bon vouloir tant nous
+                    l’apprendre, &amp; employer pour cela tant d’art inconnu chez les bêtes ? sinon
+                    pour nous mettre au dessous d’elles en nourrissant parmi nous (<hi rend="i"
+                        >p. 9.</hi>) <quote><hi rend="i">une corruption religieuse, toute espèce de
+                            libertinage</hi></quote> qu’elles ne connoissent pas, &amp; <quote><hi
+                            rend="i">principalement celui des hommes avec les
+                    femmes</hi></quote>.</p>
+                <p>Tel est le genre <quote><hi rend="i">de services</hi>
+                        <seg type="exquote">(p. 10.)</seg>
+                        <hi rend="i">plus importants que ceux des plus sévères Anachorettes… rendus
+                            à la Patrie</hi>
+                        <seg type="exquote">par nos héros &amp; héroïnes de théâtre, tous</seg>
+                        <hi rend="i">tachés de cette espèce de corruption de mœurs</hi>
+                        <seg type="exquote">qu’ils sçavent</seg>
+                        <hi rend="i">allier</hi>
+                        <seg type="exquote">toujours</seg>
+                        <hi rend="i">à la magnanimité, à la grandeur d’ame, à la sagesse, aux
+                            talens, enfin à toutes les qualités qui forment les grands
+                        hommes</hi></quote> parmi eux. Avoueroient-ils bien (p. 9.) <quote><hi
+                            rend="i">que cette espèce de corruption…… est sans doute criminelle,
+                            puisqu’elle offense Dieu,… qu’elle est sans doute criminelle en France
+                            puisqu’elle blesse les loix du pays</hi></quote> ; Ils aimeroient bien
+                    mieux pouvoir nous démontrer <quote><hi rend="i">qu’elle n’est point
+                            incompatible avec le bonheur d’une Nation</hi></quote>, eux qui ne se
+                    contentent pas <quote><hi rend="i">de nous fournir un moyen absurde</hi>
+                        <seg type="exquote">pour nous faire</seg>
+                        <hi rend="i">un jeu de ce crime</hi></quote>, mais qui en <pb n="29"
+                        xml:id="p29"/><hi rend="i">Apologistes</hi> infatigables se font sous toutes
+                    sortes de formes un honneur, une étude, un capital de nous en fournir tous les
+                    jours de nouveaux moyens.</p>
+                <p>Moyens aujourd’hui si multipliés qu’il est surprenant, suivant la pensée d’un
+                    Auteur Comédien, (<hi rend="i">Louis Riccoboni</hi>, dans son Livre de la
+                    Réformation du Théâtre, pag. 34. qui écrivoit en 1740, &amp; dont le témoignage
+                    ne peut manquer d’être ici d’une grande autorité sur tous les esprits). Qu’il
+                    n’arrive pas au Théâtre moderne ce qui arriva au Théâtre d’Athênes, où les
+                    Spectateurs ennuyés d’entendre depuis longtemps des chansons Dyonisiannes,
+                    crierent tous unanimement : <quote><hi rend="i">plus de Bacchus, plus de
+                            Bacchus</hi></quote> ; &amp; que notre parterre ne se mette pas à
+                    crier : <hi rend="i">plus d’amour, plus d’amour</hi>. En effet n’est-il pas
+                    ridicule qu’en allant au Théâtre on soit forcé d’entendre toujours des Amans
+                    épancher leur cœur en fades expressions de tendresse, ou se lamenter &amp; se
+                    désespérer de ne pouvoir surmonter les obstacles qui les arrêtent ? Y a-t-il
+                    rien de plus ennuyeux que de voir toujours des rivaux de commande pour les
+                    traverser dans leurs passions ? des valets &amp; des <pb n="30" xml:id="p30"
+                    />suivantes pour les aider dans leurs extravagances ? toujours même chose ! Eh,
+                    que l’on crie donc à la fin : <hi rend="i">plus d’amour, plus d’amour !</hi></p>
+                <p>Pourquoi donc la voix d’un tel homme n’a-t-elle encore pû se faire entendre parmi
+                    nous ? Seroit-ce parce qu’il semble avoir adressé la parole aux Russes en
+                    dédiant son Livre à leur Impératrice ? Ah ! chers François, plût à Dieu que pour
+                    me faire entendre à vous il ne me fallût qu’adresser cette Epître à notre
+                    auguste Reine ! De quelle joie son cœur seroit-il transporté à la vûe du nouveau
+                    triomphe qu’elle vous verroit préparer à une Religion qu’elle aime tant, &amp; à
+                    la quelle elle est si chere !</p>
+                <p>De quelle joie serois-je transporté moi même dans une circonstance aussi propre à
+                    lui faire agréer un hommage public de mon respect, moi qui ai l’honneur d’être
+                    attaché à son service ! Mais n’est-ce pas plutôt, comme le dit encore le même
+                    Auteur, (<hi rend="i">p. 106.</hi>) parce que sentant toute la grandeur de la
+                    maladie, nous craignons qu’en y appliquant les remèdes proportionnés qu’il nous
+                    propose, le malade ne périsse dans l’opération ?</p>
+                <p>Enfans ingrats &amp; rebelles, (pag. 22.) méconnoîtrons-nous toujours <quote><hi
+                            rend="i">l’Auteur de tous les dons, &amp; semblables à ces <pb n="31"
+                                xml:id="p31"/>insensés dont parle un Ecrivain sacré</hi></quote>,
+                    dirons-nous toujours : <quote><hi rend="i">retirez-vous de nous, nous n’avons
+                            pas besoin de vos lumières ?</hi></quote>
+                    <quote><hi rend="i">O insensés !</hi></quote> s’écrie l’Apôtre, (<hi rend="i"
+                        >Gal. 3. v. 1.</hi>) qui vous a fasciné le cœur au point de ne pas vous
+                    rendre à la vérité ? Son flambeau en est-il moins lumineux pour être porté par
+                    un homme qui dans sa Préface dit n’être ni sçavant ni homme de Lettres ? ou son
+                    tonnerre n’a-t-il de force qu’autant qu’il part du troisième Ciel ? Ecoutez
+                    donc, (<hi rend="i">Eph. 5. v. 4. 6.</hi>) <quote><hi rend="i">Qu’on n’entende
+                            point parmi vous de paroles deshonnêtes ni de folles, ni de bouffonnes,
+                            ce qui ne convient pas à votre vocation… Que personne ne vous séduise
+                            par de vains discours, car c’est pour ces choses que la colere de Dieu
+                            tombe sur les hommes rebelles à la vérité.</hi></quote> Quels coups de
+                    foudre capables d’écraser nos Théâtres sur lesquels (p. 3.) <quote><hi rend="i"
+                            >selon les principes d’une science mondaine, qui n’ont pour fondemens
+                            que la sagesse humaine &amp; les impressions des sens</hi></quote>, le
+                    moindre des crimes est de nous entretenir des choses mêmes qui nous sont ici
+                    défendues !</p>
+                <p>Qu’ils soient donc déracinés ces arbres maudits qui ne nous présentent qu’un
+                    fruit justement défendu, puisque le meilleur n’en vaut rien : oui, quand <pb
+                        n="32" xml:id="p32"/>nous n’aurons plus à verser des larmes sur un faux
+                    Joas, nous n’en serons que plus disposés à nous laisser efficacement attendrir
+                    sur une infinité de véritables Lazares en faveur desquels de vils animaux
+                    semblent nous reprocher une insensibilité qu’ils n’ont pas : quand, à l’ombre de
+                    ces arbres de la science du mal, une Précieuse, un Petit-Maître n’apprendront
+                    plus à se corriger d’un ridicule, eux &amp; deux mille avec eux, n’y apprendront
+                    plus à commettre tous les vices.</p>
+                <p><quote><hi rend="i">Qu’elle tombe</hi>
+                        <seg type="exquote">pour ne jamais se relever (<hi rend="i">Apocal. 18.
+                                v. 2. 3. 4.</hi>)</seg>
+                        <hi rend="i">cette grande Babylone, la demeure des démons, la retraite de
+                            tout esprit impur qui fait boire aux Grands de la terre, qui nous fait
+                            boire à tous le vin de sa prostitution ! Entendrons-nous toujours une
+                            voix du Ciel nous dire : Sortez du milieu d’elle, Mon Peuple, de peur
+                            qu’ayant pris part à ses iniquités, vous ne partagiez ses
+                        châtimens</hi> ?</quote> Et où irons-nous ? Grand Dieu ! Faut-il nous
+                    expatrier ? Cette hydre à cent têtes occupe cent de nos villes, &amp; son
+                    haleine empestée pullulant à chaque souffle, fait que la France notre mere
+                            <quote><hi rend="i">n’est qu’une playe depuis la tête jusqu’aux
+                            pieds</hi></quote>. (Job. 2. v. 7.) O France ma patrie, aussi loin de
+                    l’ourse que de la <pb n="33" xml:id="p33"/>canicule, à quoi tient-il que tu ne
+                    fois pour nous un Paradis terrestre ? Que dis-je, hélas ! Quand nous n’aurions
+                    pas à combattre tous ces ennemis étrangers, n’aurions-nous pas encore <quote><hi
+                            rend="i">cet Ange de Satan</hi></quote> (Cor. 12. v. 7.) qui jamais
+                    n’entra dans ce lieu de délices &amp; qui poursuit les Jéromes jusques dans les
+                    déserts ? N’aurions-nous pas encore <quote><hi rend="i">ce lion
+                        rugissant</hi></quote> (1. Pier. 5. v. 8.) <quote><hi rend="i">qui toujours
+                            rodant autour de nous pour nous dévorer</hi></quote>, fera toujours de
+                    cette terre une vallée de larmes où <quote><hi rend="i">nous ne pouvons</hi>
+                        <seg type="exquote">(Phil. 2. v. 12.)</seg>
+                        <hi rend="i">opérer notre salut qu’avec crainte &amp;
+                        tremblement</hi></quote> ? Est-ce donc pour multiplier nos allarmes &amp;
+                    les trophées du diable, que nous voyons tous les jours se multiplier parmi nous
+                        <hi rend="i">ces Géans fameux</hi>, (Gen. 6. v. 4.) <quote><hi rend="i">ces
+                            hommes puissans</hi>, <seg type="exquote">qui (<hi rend="i"
+                            >p. 6.</hi>)</seg>
+                        <hi rend="i">jaloux</hi>
+                        <seg type="exquote">d’étendre</seg>
+                        <hi rend="i">la domination</hi>
+                        <seg type="exquote">de cet ennemi du genre humain,</seg>
+                        <hi rend="i">veulent abrutir les Peuples pour les tyranniser</hi></quote>,
+                    sous l’empire de leurs passions ?</p>
+                <p>Sans eux, Paris, en serois-tu moins Paris, le séjour des Muses, le temple des
+                    Arts, la Mere des Sciences ? En aurois-tu moins dans l’enceinte de tes remparts
+                    des lycées des Aréopages ? Centre des plaisirs purs &amp; innocens, <pb n="34"
+                        xml:id="p34"/>tu ne serois plus Babylone, &amp; peut-être serois-tu bientôt
+                    Jérusalem. Alors, <quote><hi rend="i">alors</hi>
+                        <seg type="exquote">(p. 5.)</seg>
+                        <hi rend="i">quelle douceur dans les mœurs, quelle cordialité dans le
+                            commerce de la société, quelle règle, quelle honnêteté, quelle justice
+                            dans toutes nos actions !…</hi></quote> Seigneur, (<hi rend="sc"
+                        >Luc</hi>. 10. v. 18.) <quote><hi rend="i">ne verriez-vous pas encore tomber
+                            Satan comme un éclair</hi></quote> ?</p>
+                <p>Périsse donc enfin ce malade qu’il faudroit étouffer par pitié pour lui-même, son
+                    mal étant comme incurable ! Mais dès-là qu’il est épidémique, combien plus par
+                    intérêt pour nous-mêmes nous le faut-il exterminer ! Fût-ce là <quote><hi
+                            rend="i">cet œil</hi>
+                        <seg type="exquote">(Matth. 5. v. 18.)</seg>
+                        <hi rend="i">qu’il fallût nous arracher, ce bras qu’il fallût nous
+                            couper ?</hi></quote> Arrachez, coupez, devons-nous nous écrier,
+                    puisqu’il y va de l’intérêt de la Religion, de l’Etat, de la Société, de
+                    l’humanité ! Et quoi ! aurions-nous ici un plus grand sacrifice à faire que
+                    celui que nous avons déja fait ? Plus esclaves de nos plaisirs que jaloux de nos
+                    connoissances, regretterions-nous plus des Histrions faits seulement pour nous
+                    divertir, que des Sçavans qui pour nous instruire <quote><hi rend="i">ont
+                            rassemblé</hi>
+                        <seg type="exquote">(p. 13.)</seg>
+                        <hi rend="i">une infinité de notions utiles &amp; curieuses sur les Arts
+                            &amp; sur les Sciences ?</hi></quote> Non, non, &amp; puisque les uns
+                    &amp; les autres ont été assez téméraires <pb n="35" xml:id="p35"/>pour exposer
+                    à nos yeux (<hi rend="i">p. 13.</hi>) <quote><hi rend="i">dans le jour le plus
+                            frappant toutes les absurdités, toutes les impiétés répandues dans tous
+                            les auteurs</hi></quote> ; Chrétiens, Sujets, Citoyens, hommes, nous les
+                    réprouvons également : <quote><hi rend="i">la Religion</hi>
+                        <seg type="exquote">(p. 5.)</seg>
+                        <hi rend="i">toujours tendre pour ses enfans, les verra sans doute avec
+                            douleur s’éloigner d’elle</hi></quote> de plus en plus ; <quote><hi
+                            rend="i">mais la patrie se réjouira de leur retraite, &amp; croira faire
+                            un gain en ne les comptant plus parmi ses membres</hi></quote>.
+                            <quote><hi rend="i">Qu’ils sortent du milieu de nous</hi></quote>, ces
+                    Hommes de Lettres &amp; ces Hommes de Théatres également coupables ! Que
+                    dis-je ? également coupables : les poisons de la nature de ceux dont il est ici
+                    question, ne pouvant être mauvais qu’à proportion qu’ils sont apperçus, jugeons
+                    des hommes par le cortege de séduction de leur coupe empoisonnée ; un poison qui
+                    distillé goute à goute, est transmis par des canaux comme imperceptibles avec un
+                    art qui les dérobe aux trois quarts &amp; demi des esprits de ceux qui
+                    l’avalent, peut-il faire autant de ravage que celui qui coulant à grands flots
+                    capables de renverser des cédres, a le secret enchanteur de se faire gouter,
+                    savourer, &amp; d’ennyvrer par le charme des yeux &amp; des oreilles
+                    généralement tous les cœurs de tout âge, de tout sexe, de toute condition ? Des
+                    hommes <pb n="36" xml:id="p36"/>qui nous présentent des poisons si différens par
+                    leur vivacité, quoique les mêmes par leur nature, doivent-ils nous paroître
+                    également coupables ? (p. 28.)<quote><hi rend="i">Quirites, hoc, puto, non
+                            justum est</hi></quote> : Et <quote><hi rend="i">si l’on
+                            mettoit</hi> <seg type="exquote">(p. 7.)</seg> <hi rend="i">dans les
+                            deux bassins d’une balance</hi> ou d’un trebuchet, <seg type="exquote"
+                            >pour plus d’exactitude,</seg> <hi rend="i">le mal que les uns</hi>
+                        &amp; les autres <hi rend="i">ont fait</hi><seg type="exquote">, disons
+                            hardiment sans crainte de nous tromper, que</seg> <hi rend="i">le
+                            mal</hi> <seg type="exquote">de ceux-ci</seg> <hi rend="i"
+                            >l’emporteroit</hi></quote> de vingt-trois carats.</p>
+                <p>Qui pourroit donc encore les retenir par préférence ? <quote><hi rend="i"
+                            >L’intolérance</hi> <seg type="exquote">à leur égard peut-elle</seg> <hi
+                            rend="i">être chrétiennement &amp; politiquement un
+                    mal ?</hi></quote></p>
+                <p>Oui, dit-on, il est également du bien de la Religion &amp; de l’Etat de souffrir
+                    de moindres maux pour en empêcher de plus grands.</p>
+                <p>Que veut-on dire ? qu’il faut souffrir les vols pour empêcher les meurtres ?
+                    Combien d’hommes, il faut l’avouer vivroient encore, si ceux qui les ont tués,
+                    plus avides de leur argent que de leur sang, avoient sçu pouvoir les voler
+                    impunément, sans craindre leur dénonciation !</p>
+                <p>Mais (<hi rend="i">p. 10.</hi>) <quote><hi rend="i">quel affreux principe ! Que
+                            les conséquences en seroient funestes !</hi></quote>
+                    <pb n="37" xml:id="p37"/><quote><hi rend="i">Qu’ils paroissent à ma vue, ces
+                            oracles menteurs</hi> <seg type="exquote">qui osent les mettre
+                            en</seg> <hi rend="i">crédit, &amp; je les confondrai</hi></quote> avec
+                    les paroles mêmes d’Hypermnestre. <quote><hi rend="i">Quel droit ont ils de nous
+                            en imposer &amp; de prendre sur nous un si funeste ascendant,…. ces
+                            fourbes dont la langue est vendue au mensonge</hi></quote> ? Avons-nous
+                            <quote><hi rend="i">vu sur eux la vérité descendre</hi></quote> ? S’il
+                    n’y avoit pas de Spectacles, disent-ils, il se commettroit de plus grands maux.
+                            <quote><hi rend="i">D’où le sçavent-ils ?</hi></quote> puis-je demander
+                    sans craindre de sapper la révélation ? <quote><hi rend="i">L’avenir est-il à
+                            eux ?</hi></quote> Ces prophetes de malheurs <quote><hi rend="i"
+                            >créeront-ils l’évenement pour la prédiction</hi></quote> ? Dans ce cas
+                    ils ne seront pas, j’en suis sûr, <quote><hi rend="i">le plus grand
+                        nombre</hi></quote> ; &amp; dès-lors quand (<hi rend="i">p. 8</hi>) nous
+                            <quote><hi rend="i">n’aurions encore que la morale de l’enfance du
+                            monde</hi></quote>, si on avoit à <quote><hi rend="i">la
+                            perfectionner</hi></quote>, on n’auroit point à consulter leur
+                            <quote><hi rend="i">intérêt</hi></quote>. D’ailleurs, quels sont donc
+                    ces plus grands maux qu’empêchent nos Spectacles ? J’entends une voix qui me dit
+                        (<hi rend="i">Eph. 5. v. 3.</hi>) qu’<quote><hi rend="i">il n’est pas permis
+                            de le nommer parmi les Chrétiens</hi></quote> : Grand Dieu ! Vous nous
+                    défendez de les nommer, &amp; l’on nous apprend à les commettre. Qui de nous
+                    alors <quote><hi rend="i">est sûr de son cœur</hi></quote> ? Hypermnestre nous
+                    dit bien que <quote><hi rend="i">vous ne forcez pas notre ame à devenir <pb
+                                n="38" xml:id="p38"/>coupable….. que la vertu n’est pas un don mal
+                            assuré…..</hi></quote> Mais la notre est-elle <quote><hi rend="i">la
+                            vertu de Lyncée ? inébranlable</hi></quote>. Hélas ! Combien de nous qui
+                    tout en venant d’entendre tant de leçons de débauche, de voir tant d’objets de
+                    luxure, pour ne pas <quote><hi rend="i">vivre en frémissant dans l’attente du
+                            crime</hi></quote>, courent au devant, ne sachant plus éteindre leur
+                    flamme <quote><hi rend="i">qu’en avalant</hi></quote> (Job 15. v. 16.)
+                            <quote><hi rend="i">l’iniquité comme l’eau</hi></quote> ! Convenons,
+                    convenons qu’il y auroit moins de victimes immolées à l’impudicité publique
+                    &amp; particuliere, si les Spectacles n’allumoient pas dans nous le feu qui les
+                    dévore : aussi est-ce pour en suspendre au moins l’activité, qu’ils ont été
+                    interrompus pendant la derniere quinzaine : ou dira-t-on que les plus grands
+                    crimes sont réservés pour les plus saints jours ? Quelle imposture ! Quelle
+                    horreur !</p>
+                <p>Mais qu’entends-je dans ces jours de relâche au Théatre ? Ce Concert est-il fait
+                    pour réjouir les Anges &amp; les Démons tous ensemble ? Des voix profanes, &amp;
+                    des paroles sacrées ! Sont-ce des prieres ou des blasphêmes ? C’est à vous que
+                    je m’adresse ici, Prédicateur Apostolique, qui vous appuyant sur la Sainte
+                    Ecriture, nous disiez il y a douze jours <pb n="39" xml:id="p39"/>que la priere
+                    d’un pécheur qui dans le secret de son cœur conserve quelque attache pour son
+                    péché, est une priere exécrable : Comment donc faut-il appeller ces invitations,
+                            <quote><hi rend="i">venite justi, exultemus</hi></quote>, qui nous sont
+                    faites de la part de ces pécheurs publics qui s’affichent tout le reste de
+                    l’année pour nous inviter à leurs assemblées criminelles ? Que direz-vous de ces
+                    protestations, <quote><hi rend="i">Diligam te, Domine</hi></quote>, faites par
+                    ces cœurs vendus au démon de l’impureté, avec qui ils ont fait une espece de
+                    pacte d’en ravir à Dieu le plus qu’ils peuvent ? Je ne vous avance rien ici qui
+                    ne soit au sçu du Public, &amp; qui ne fasse la matiere des entretiens du
+                    Parterre &amp; des Loges en attendant le coup de sifflet. Que direz-vous de ces
+                    aspirations, <quote><hi rend="i">Quam dilecta tabernacula tua</hi></quote>,
+                    faites par ces ames qui, séparées par état de ces sacrés tabernacles, ou en
+                    tiennent éloignés tous leurs partisans multipliés presqu’à l’infini en une
+                    infinité de manieres, ou en font autant de sacrileges profanateurs ? Que
+                    direz-vous….. Hola ! me dites-vous, cela ne peut s’appeller que l’abomination de
+                    la désolation…. Quelle morale ! Révérend Pere ; ces misérables créatures ne
+                    feront-elles un <pb n="40" xml:id="p40"/>pas que pour tomber dans un abîme ?
+                    &amp; chaque instant de leur vie sera-t-il marqué par un forfait ? <quote><hi
+                            rend="i">Nos esprits forts</hi></quote> (<hi rend="i">p. 28.</hi>)
+                    sçauront bien dire : <quote><hi rend="i">Hic piscis non est omnium.</hi></quote>
+                    Pour moi, je dis :</p>
+                <quote>
+                    <l>    Que l’Eternel entende nos concerts<note n="*" place="bottom"><hi rend="i"
+                                >Les fureurs de Saül : Poëme sacré, mises en musique par M. de
+                                Mondonville, &amp; chanté au Concert-Spirituel.</hi></note>.</l>
+                    <l>……………………………………………………………</l>
+                    <l>Tout l’Univers peint le Seigneur.</l>
+                    <l>Qu’il soit l’objet de nos hommages.</l>
+                    <l>Jusques dans ses moindres ouvrages</l>
+                    <l>Ce Dieu fait briller sa grandeur.</l>
+                    <l>Quels sons !</l>
+                    <l>Par ses bienfaits il nous attire.</l>
+                    <l>L’ordre des Cieux, l’éclat du jour,</l>
+                    <l>L’air du Printemps que l’on respire,</l>
+                    <l>Tout nous annonce son amour.</l>
+                    <l>C’est lui qui commande à l’Aurore</l>
+                    <l>De former l’émail de nos fleurs.</l>
+                    <l>Nos yeux impriment dans nos cœurs</l>
+                    <l>Les traits du Dieu que l’on adore.</l>
+                </quote>
+                <p>Par quel art nos oreilles en font-elles autant, cher David, (<hi rend="i"
+                        >M. Godard.</hi>) aux accens de ta voix, comme aux coups de ton archer,
+                    divin Orphée de la <pb n="41" xml:id="p41"/>Romance, (<hi rend="i">Air de violon
+                        joué par M. Gavinier.</hi>) quand l’un &amp; l’autre vous tenez en suspens
+                    tous nos esprits ? Qu’avons-nous donc besoin de Spectacles ? Seigneur, ne
+                    t’es-tu réservé que cette quinzaine de jours ? ou parce que</p>
+                <quote>
+                    <l>  Ton tonnerre prêt à partir</l>
+                    <l>Est arrêté par ta clémence,</l>
+                </quote>
+                <p>t’outragerons – nous tout le reste de l’année ? Et sans égard pour Fêtes ni
+                    Dimanches, prévaudront-ils toujours contre toi, ces hommes qui (<hi rend="i"
+                        >Ps. 73. v. 9.</hi>) ont dit tous ensemble au fond de leurs cœurs : faisons
+                    cesser de dessus la terre tous les jours de fêtes consacrés à Dieu… (v. 23.)
+                            <quote><hi rend="i">Exurge, Deus ; judica causam tuam.</hi></quote>
+                    Déploye, s’il le faut, toute la force de ton bras, &amp; qu’elle <quote><hi
+                            rend="i">retombe dans les enfers l’affreuse tyrannie</hi></quote> de nos
+                    fêtes profanes ! sans ses <quote><hi rend="i">fureurs</hi></quote> nous
+                    éprouverions avec Saül <quote><hi rend="i">le calme de la vie</hi></quote>,
+                    &amp; nous aurions dans nos concerts les chœurs des Anges.</p>
+                <p>L’excès des ravissemens qu’ils nous causent à tous, ne peut que rendre plus
+                    insoutenable le principe maudit que l’on veut faire servir de base à nos
+                    Théatres ; j’y reviens donc, &amp; je demande encore, que veut-il dire ? que
+                    pendant les <pb n="42" xml:id="p42"/>quatre à cinq heures que l’on passe dans
+                    une Loge ou au Parterre, on ne fait pas tant de mal que si on étoit ailleurs à
+                    faire pis ? Eh bien, soit.</p>
+                <p><quote><hi rend="i">Avec quelle facilité</hi> <seg type="exquote">(p. 8.) ne
+                            pourroit-on pas</seg>
+                        <hi rend="i">composer sur ce principe ainsi entendu, un cathéchisme de
+                            probité, dont les maximes simples, vraies, &amp; à la portée de tous les
+                            esprits, apprendroient aux peuples que la vertu invariable dans l’objet
+                            qu’elle se propose, ne l’est pas dans les moyens propres à remplir cet
+                            objet ?</hi></quote> Mais de quel droit, demanderois-je alors,
+                            <quote><hi rend="i">le Législateur supprimeroit-il</hi></quote> les
+                    mauvais livres ? Ils auront beau être mauvais, on m’accordera sans peine que
+                    dans le tems que je les lis renfermé dans mon cabinet ou couché sur la fougere,
+                    je ne fais pas tant de mal que si j’étois ailleurs à faire pis.</p>
+                <p>O profondeurs de Satan ! Nature corrompue ! que ne sçais-tu pas dire pour
+                    autoriser tes penchans ! J’entendois, il y a cinq jours, un de nos préposés à la
+                    Police nous dire en s’applaudissant d’après ce même principe, qu’il lui falloit
+                    fermer les yeux pour ne pas voir ces bustes à tête mouvante, ces statues à coude
+                    mobile qui s’affichent le jour aux fenêtres &amp; le soir au coin des rues ; que
+                        <pb n="43" xml:id="p43"/>pour empêcher de plus grands maux, il doit les
+                    laisser en paisible possession d’arrêter les passans, &amp; que tant qu’on ne
+                    crie point au guet, son ministere ne l’oblige à rien.</p>
+                <p>A rien ! A quoi donc bon tant d’Ordonnances, Arrêts &amp; Réglemens à ce
+                    contraires, dont la manutention lui est confiée ? <quote>Est-ce <hi rend="i"
+                            >que</hi>
+                        <seg type="exquote">(p. 8.)</seg>
+                        <hi rend="i">dès que l’infraction des Loix est générale, dès-lors elles sont
+                            nulles &amp; cessent d’être Loix ?</hi></quote> Ou bien, n’est-ce pas
+                    plutôt <quote>
+                        <hi rend="i">que l’infraction d’un traité</hi><seg type="exquote">, d’un
+                            serment</seg>
+                        <hi rend="i">qu’il est avantageux de violer, est une clause tacite de tous
+                            les traités</hi></quote>, de tous les sermens ? Quel homme versé dans la
+                            <quote><hi rend="i">connoissance de l’intérêt public</hi></quote>, pour
+                    savoir ainsi <quote><hi rend="i">fixer l’instant où chaque action cesse d’être
+                            vertueuse &amp; devient vicieuse</hi></quote> !</p>
+                <p>Fermer les yeux ! que ne te les arraches tu plutôt, infame mercenaire, qui ne
+                    sçais les ouvrir que pour compter l’argent que te valent des ames rachetées par
+                    le sang d’un Dieu, &amp; que tu vends à la brutalité des hommes ? Tu n’aurois
+                    pas à compter au grand jour des vengeances, de toutes les infamies qui se
+                    commettent dans ton quartier : que peux tu donc imaginer de pis ? Tais-toi… Mon
+                    Dieu ! qu’il y auroit peu <pb n="44" xml:id="p44"/>de Jezabels, s’il n’y avoit
+                    point de Balaam !</p>
+                <p>Tout affreux qu’est ce principe si accrédité, on ne peut s’empêcher d’y
+                    reconnoître du bon, c’est l’aveu implicite que l’on y fait, que les Spectacles
+                    sont des maux. Partons de là pour le battre en ruine par lui-même. Le Paganisme
+                    nous apprend par Platon le Juif : (<hi rend="i">De Special. Leg.</hi>)
+                            <quote><hi rend="i">Nec est alienus à crimine, cujus consensu, licet non
+                            à se admissum crimen tamen publicè legitur.</hi></quote> Le
+                    Christianisme nous dit par l’Apôtre des Gentils (<hi rend="i">aux Rom. 1.
+                        v. 32.</hi>) <quote><hi rend="i">Digni sunt morte non solum qui faciunt ea,
+                            sed etiam qui consentiunt facientibus.</hi></quote> Il nous enseigne
+                    encore au ch. 3. v. 8. <quote><hi rend="i">que nous ne devons pas faire des
+                            maux</hi><seg type="exquote">, quelque petits qu’ils soient,</seg>
+                        <hi rend="i">pour qu’il en arrive des biens</hi></quote>, quelque grands
+                    qu’ils puissent être.</p>
+                <p>A quelle école ont donc étudié nos oracles ? Dans quelle source ont-ils puisé un
+                    principe si diamétralement opposé à ces maximes, &amp; comment ne voyent-ils pas
+                    qu’en le citant avec tant de confiance, ils rendent comptables de ces moindres
+                    maux &amp; l’Etat &amp; la Religion ? Il est clair que l’esprit qui les inspire
+                    ne parle qu’en leur propre &amp; <pb n="45" xml:id="p45"/>privé nom, &amp;
+                    qu’ils ne sont les interprêtes ni d’un Etat ni d’une Religion, qui se réunissent
+                        (<hi rend="i">voyez ci-après page..</hi>) pour ne nous permettre pas même
+                    une parole à double entente. Eh ! quels moindres maux que ceux qui sont les
+                    sources de tous les maux ! Qu’on peut bien dire ici que l’iniquité se trahit
+                    elle-même ! <quote><hi rend="i">mentita est iniquitas sibi.</hi></quote></p>
+                <p>Qu’elle se taise donc <quote><hi rend="i">cette raison humaine</hi>, <seg
+                            type="exquote">(p. 4.)</seg>
+                        <hi rend="i">qui livrée à elle-même &amp; méprisant la révélation qui doit
+                            être son guide, devient la source des erreurs qui affligent l’Eglise,
+                            &amp; des opinions extravagantes qui deshonorent l’esprit
+                        humain</hi></quote> ! De quel front ose-t elle nous dire cette raison
+                    aliénée, que le Théatre de nos jours sert à corriger les mœurs : <quote><hi
+                            rend="i">Ridendo castigat mores</hi></quote> ?</p>
+                <p><quote><hi rend="i">Voyez</hi><seg type="exquote">, Chers François,</seg>
+                        <hi rend="i">ces Sçavans d’Athènes assemblés sous les porches fameux des
+                            Stoïciens, ou dans l’académie de Platon, ou dans le lycée d’Aristote.
+                            Après avoir disputé longtems chacun pour fonder son sistême &amp;
+                            renverser celui d’un autre, à peine trouve-t-on qu’ils aient exactement
+                            établi quelque vérité morale…</hi></quote> loin d’avoir pu (p. 21.)
+                            <quote><hi rend="i">remédier à la corruption de l’homme, ni former le
+                            lien d’une Société fondée sur la justice</hi></quote>. Combien moins le
+                        <pb n="46" xml:id="p46"/>pourront <quote><hi rend="i">cette portion
+                            malheureuse d’incrédules</hi></quote> (p. 22.) <quote><hi rend="i">cette
+                            secte de faux sages qui ne font que renouveller sous différentes formes
+                            tous les systêmes</hi> <seg type="exquote">(p. 10.)</seg>
+                        <hi rend="i">de prostitution adoptés par les peuples du Paganisme livrés à
+                            la corruption de leurs cœurs</hi></quote>.</p>
+                <p>Arlequin Sauvage (piece du Théatre Italien,) quoique sans loix &amp; tout au
+                    milieu de ses singeries, pourroit, il est vrai, si nous le prenions pour maître,
+                    supprimer parmi nous bien des abus qui sont autant d’écarts de raison, de
+                    décence &amp; d’amour de la Société ; mais de bonne foi, de quoi peuvent nous
+                    corriger tous ces vrais fous qui, loin de vouloir établir une seule vérité
+                    morale, ont formé une sorte de ligue <quote><hi rend="i">pour déprimer</hi>,
+                            <seg type="exquote">(p. 10.)</seg>
+                        <hi rend="i">pour détruire toutes les vertus morales…. &amp; pour faire
+                            disparoître du milieu de nous jusqu’à l’ombre même de la
+                        pudeur</hi></quote>.</p>
+                <p>Beau Sexe, à qui nous avons assigné cette pudeur pour appanage, que venez-vous
+                    faire dans ces lieux où des fronts d’airain foulent aux pieds cette vertu ? Sexe
+                    charmant, à qui la nature a donné sur nous un si grand empire, venez-vous gémir
+                    de le voir s’étendre encore à la faveur de cette manœuvre diabolique ? En voyant
+                    ce luxe qui surpasse <pb n="47" xml:id="p47"/>le vôtre, ces rivieres de diamans
+                    qui effacent tout l’éclat de vos parures, apprendrez-vous bien à les mépriser ?
+                    A la vue de ces cercles de Laïs toutes idolatres d’elles-mêmes, apprendrez-vous
+                    bien à vous hair ? Tous les systêmes de coquetterie, tous les rôles amoureux de
+                    nos Thalies &amp; de nos Melpomènes feront-ils pour vous autant de leçons de
+                    vertu ? Venez-vous prendre de l’éloignement pour les bals &amp; la danse à
+                    l’école de nos Terpsychores, de nos Sultanes &amp; de nos Nymphes ? <quote><hi
+                            rend="i">L’esprit</hi> chez vous est donc bien persuadé <seg
+                            type="exquote">(<hi rend="i">p. 10.</hi>)</seg>
+                        <hi rend="i">que l’on approche d’autant plus de la perfection &amp; que l’on
+                            mérite d’autant plus le nom de vertueux, qu’il faut pour nous déterminer
+                            à une action malhonnête ou criminelle un motif</hi> <seg type="exquote"
+                            >&amp; des objets</seg>
+                        <hi rend="i">plus capables d’enflammer nos désirs.</hi></quote> Si cela est,
+                    Mesdames, à qui tient-il que le cœur chez vous n’arrive au comble de la
+                    perfection, &amp; que vous ne soyez des prodiges de sainteté ? A vous, François,
+                    vous entends-je nous dire : Eh mais ! que voulez-vous donc que nous soyons ?
+                            <quote><hi rend="i">Turcs</hi>, <seg type="exquote">(p. 7.)</seg>
+                        <hi rend="i">Chinois matérialistes, Sadducéens, qui nient l’immortalité de
+                            l’ame, Gynnophistes toujours accusés d’Athéisme</hi></quote> ? Quels <hi
+                        rend="i">exemples</hi> inimitables nous <hi rend="i">citez-</hi>vous là !
+                            <quote><hi rend="i">L’espoir des <pb n="48" xml:id="p48"/>plaisirs
+                            temporels sert à les rendre vertueux</hi></quote>, apparemment parce
+                    qu’ils sont tout esprit. Pour nous, pauvres François, tout enveloppés que nous
+                    sommes dans la matière, la jouissance de nos plaisirs théatraux, jointe à votre
+                    ascendant naturel, Dames Françoises, ne servira jamais qu’à faire de nous des
+                    heureux à bonne fortune, que vous croirez vous-mêmes avoir un droit acquis sur
+                    la plus belle portion de votre appanage.</p>
+                <quote>
+                    <l rend="i">Heu ! male tum mites defendit pampinus uvas.</l>
+                </quote>
+                <p>Aussi combien de vous, pour avoir assisté à nos Bals, à nos Spectacles,
+                    pourroient chanter avec l’aimable Cendrillon :</p>
+                <quote>
+                    <l>Je ne l’ai pas donné, mais je l’ai laissé prendre !</l>
+                </quote>
+                <p>J’en atteste sa marreine qui, pour la consoler de la perte d’une de ses mules
+                    qu’elle a faite au Bal, lui dit :</p>
+                <quote>
+                    <l>Que de beautés sortant du bal</l>
+                    <l>Ont souvent perdu davantage.</l>
+                </quote>
+                <p>Quelles sont donc les notions communes de nos hommes de Théâtres ? Parce qu’ils
+                    nous font la grace de ne plus médire, ils prennent pour devise : <quote><hi
+                            rend="i">sublato jure nocendi</hi></quote>, comme si la réputation <pb
+                        n="49" xml:id="p49"/>étoit le seul bien que nous eussions à ménager ; &amp;
+                    comme si la pudeur n’étoit rien, ils ne cessent de s’acharner contr’elle. C’est
+                    trop long-temps nous abuser : Horace de qui ils ont emprunté leur devise, disoit
+                    en parlant de leurs semblables pour la défense de cette vertu :</p>
+                <quote>
+                    <l><hi rend="i">Sylvis deducti caveant, me judice, fauni !</hi></l>
+                    <l>……………………………………………………………………………………………………</l>
+                    <l><hi rend="i">Offenduntur enim quibus est equus &amp; pater &amp;
+                        res.</hi></l>
+                    <bibl>Art. Poet. Vers. 244. 248.</bibl>
+                </quote>
+                <p>Comment n’en dirons-nous pas autant d’eux ? <quote><hi rend="i">Nous lisons</hi>
+                        <seg type="exquote">(p. 10.)</seg>
+                        <hi rend="i">dans les ouvrages des Payens, attentifs à consulter les
+                            lumieres de la seule raison, qu’ils ont toujours respecté cette vertu,
+                            qu’ils punissoient avec sévérité ce qui l’offensoit</hi></quote> ; &amp;
+                    nous verrions encore impunis parmi nous des hommes <quote><hi rend="i">qui osent
+                            donner publiquement des leçons de débauche, qui prononcent
+                            hardiment</hi></quote> en mille manieres <quote><hi rend="i">que la
+                            morale n’est qu’une science frivole…. que la pudeur est une invention de
+                            l’amour &amp; de la volupté rafinée, qui proposent d’en débarrasser le
+                            sexe</hi></quote>, &amp; qui l’en débarrassent ? Non, non, <quote><hi
+                            rend="i">le contraste</hi> <seg type="exquote">(p. 11.)</seg>
+                        <hi rend="i">seroit d’autant plus frappant qu’il nous <pb n="50"
+                                xml:id="p50"/>mettroit en opposition avec les sages Philosophes de
+                            Rome payenne</hi></quote>.</p>
+                <p><quote><hi rend="i">O préjugé barbare</hi> <seg type="exquote">(Encyclopédie, au
+                            mot : Geneve.)</seg>
+                        <hi rend="i">contre la profession des Comédiens</hi></quote>, que tu es
+                    légitime ! mais que tu serois <quote><hi rend="i">vertueux</hi></quote>, (<hi
+                        rend="i">p. 9.</hi>) &amp; pourrois seul <quote><hi rend="i">contribuer au
+                            bonheur public</hi></quote>, si nous étions moins inconséquens ! On ne
+                    nous verroit pas courir en foule à leurs farces &amp; nous battre à qui les
+                    verra ; <quote><hi rend="i">on ne les verroit pas</hi> <seg type="exquote">(au
+                            mot : Geneve.)</seg>
+                        <hi rend="i">d’un côté pensionnés par le Gouvernement, &amp; de l’autre un
+                            objet d’anathême.</hi></quote> Prodige dont je demanderois l’explication
+                    à tous les Sçavans, si je n’étois forcé de croire que bientôt nous ne le verrons
+                    plus.</p>
+                <p>Déja nous avons <quote><hi rend="i">vu</hi> (<seg type="exquote">Discours en tête
+                            du 3 vol. de la Collection Academ.)</seg>
+                        <hi rend="i">des Philosophes trop hardis, qui ayant à peine jetté un coup
+                            d’œil rapide sur les choses, ont pris tout à coup leur essor dans la
+                            région des idées, pour y bâtir sur des nuages legers des hypothèses
+                            chancelantes</hi></quote> ; nous les avons vus, dis-je, arrêtés,
+                    confondus au milieu de leur course, l’histoire toute récente de leur défaite se
+                    lit encore à nos portes ; à côté de cet arc de triomphe élevé à la Religion,
+                    nous ne <pb n="51" xml:id="p51"/>verrons plus quatre affiches se renouveller
+                    tous les jours pour lui disputer ses lauriers ; &amp; ne voyant plus autel
+                    contre autel, le libertin &amp; l’impie n’auront plus à nous insulter en nous
+                    disant : (<hi rend="i">Ps. 54. v. 9.</hi>) <quote><hi rend="i">Vidi iniquitatem
+                            &amp; contradictionem in civitate.</hi></quote></p>
+                <p>Non, le contraste ne peut subsister, le bras de nos Magistrats Chrétiens n’est
+                    pas raccourci : Combien de fois, sans égard pour des têtes respectables
+                    d’ailleurs qui sembloient demander grace, ne s’est-il pas appésanti déja sur ces
+                    hommes audacieux qui (<hi rend="i">Arrêt de 1541.</hi>) <quote><hi rend="i"
+                            >mêlent ordinairement à leurs jeux des farces &amp; comédies dérisoires,
+                            qui sont choses défendues par les Saints Canons, dont les assemblées
+                            donnent lieu à des parties ou assignations d’adultère &amp; de
+                            fornication, &amp; qui font dépenser de l’argent mal-à-propos aux
+                            Bourgeois &amp; aux Artisans de la Ville</hi></quote>.</p>
+                <p>Dans tous les tems (p. 2.) <quote><hi rend="i">Défenseurs des Loix &amp;
+                            Protecteurs de la Religion, ils ont pris le glaive en main, &amp; frappé
+                            sans distinction ces sacrileges &amp; ces séditieux que la Religion
+                            condamne &amp; que</hi>
+                        <seg type="exquote">le bien de</seg>
+                        <hi rend="i">la patrie désavoue</hi>.</quote></p>
+                <p>Quand vers le milieu du dernier <pb n="52" xml:id="p52"/>siécle, à la
+                    sollicitation d’un Ministre que la Pourpre Romaine n’empêchoit pas d’aimer le
+                    Théatre, fut levé le voile d’infamie qui l’avoit couvert jusqu’alors, ce fut
+                    sous la condition expresse <quote><hi rend="i">qu’il ne s’y passeroit rien qui
+                            pût blesser l’honnêté publique, &amp; qu’on n’y diroit pas même une
+                            parole à double entente</hi></quote>. Ce sont les termes de la
+                    Déclaration du 16 Avril 1641, enregistrée le 24. Termes dictés par l’Apôtre au
+                    Roi, qui par sa docilité à la voix de la Religion, a mérité le surnom de Juste :
+                    C’est sous la même condition qu’au commencement du quatorzieme siecle un autre
+                    Cardinal acheta l’Hôtel de Bourgogne pour les Comédiens. Etant de notoriété
+                    publique que la condition si recommandée n’a jamais été remplie, on peut croire
+                    raisonnablement que jamais elle ne le sera : nos <hi rend="i">grands hommes</hi>
+                    en seront-ils quittes pour rester toujours infames comme ils l’ont toujours
+                    été ? Vraiment ils y consentiront volontiers, <hi rend="i">leur grandeur
+                        d’ame</hi> va jusques-là ; mais heureusement pour eux &amp; pour nous la
+                    Déclaration va plus loin, puisqu’elle <quote><hi rend="i">enjoint aux Juges,
+                            chacun dans son district, de tenir la main à ce que la volonté du Prince
+                                <pb n="53" xml:id="p53"/>soit religieusement exécutée, &amp;
+                            d’interdire le Théatre aux contrevenans, pour procéder contr’eux par
+                            telles voyes que de droit</hi></quote>.</p>
+                <p>Si depuis plus d’un siecle le glaive n’a paru que suspendu, <quote><hi rend="i"
+                            >la modération</hi> <seg type="exquote">(p. 23.)</seg>
+                        <hi rend="i">dont ils ont cru devoir user dans cette occasion, a dû annoncer
+                            à ceux qui ont eu la témérité de se rendre coupables des mêmes
+                            excès</hi>, <seg type="exquote">déja proscrits en 1541,</seg>
+                        <hi rend="i">qu’ils éprouveroient toute la rigueur des
+                    loix</hi></quote>.</p>
+                <p>Ils vont donc frapper enfin dans <quote><hi rend="i">toute la sévérité de la
+                            puissance que le Prince leur confie</hi>, <seg type="exquote">ainsi
+                            que</seg>
+                        <hi rend="i">le bien de la Religion l’exige de l’attachement de tous les
+                            Magistrats à ses dogmes &amp; à sa morale</hi></quote>. Un dernier coup
+                    ne peut être qu’un coup de grace &amp; de faveur, dont les heureux effets seront
+                    bientôt sensibles.</p>
+                <p>Ici pourtant, je l’avoue, je me trouve en suspens ; je vois bien le bras levé,
+                    mais je ne vois pas si le dernier coup qu’il va porter ira jusqu’à la racine, ou
+                    s’il ne fera qu’élaguer le tronc. J’ai d’abord condamné le tout au feu, il en
+                    est digne ; cela est prouvé il y a beau jour : donc il faut l’y jetter ;
+                    c’est-là cette conséquence la plus forte, que (d’après le plan &amp; le fond de
+                    cette Lettre, bien ou mal exécutée, n’importe.) <pb n="54" xml:id="p54"/>ne
+                    peuvent s’empêcher de déduire ouvertement ou tacitement tous esprits bons ou
+                    mauvais. Mais qui suis-je ? Qui sommes nous tous, François, pour prononcer ici ?
+                    Après tout, qu’importe-t-il à la Religion, à l’Etat, que nous allions au
+                    Théatre, pourvu qu’on ne nous y donne pas des leçons d’irréligion,
+                    d’indépendance, de barbarie, de mauvaises mœurs ? Il est donc réservé à la
+                    Justice de juger s’il n’est pas plus expédient de châtier simplement cet enfant
+                    qui nous est si cher, que de l’écraser tout-à-fait. Son jugement ne peut que
+                    nous être le plus avantageux : quant à l’exécution, l’un ou l’autre lui est
+                    également facile ; point d’obstacle qui ne soit un ombre, un phantôme ; pour le
+                    dissiper, il ne sera pas nécessaire d’employer le fer, &amp; l’on ne dira pas :
+                    (p. 28.) <quote><hi rend="i">Ferro diverberat umbras.</hi></quote></p>
+                <p>Que j’aime à voir l’Auteur Comédien que j’ai déja cité, mais que je ne citerai
+                    jamais assez, <quote><hi rend="i">désavouer de lui-même</hi> <seg type="exquote"
+                            >(p. 23.)</seg>
+                        <hi rend="i">sans équivoque ni restriction tout ce que</hi> <seg
+                            type="exquote">le Théatre</seg>
+                        <hi rend="i">a de repréhensible</hi></quote> ! <quote><hi rend="i">Il
+                            déclare</hi> <seg type="exquote">dans la préface de son livre (p. 15,
+                            17.)</seg>
+                        <hi rend="i">de la manière la plus précise &amp; la plus autentique….. que
+                            pendant quarante ans <pb n="55" xml:id="p55"/>qu’il a exercé la
+                            profession de Comédien…. il a toujours senti dans toute son étendue le
+                            grand bien que produiroit la suppression entiere du Théatre…. &amp;
+                            qu’il n’a jamais cessé de désirer l’occasion de pouvoir le
+                        quitter.</hi></quote>
+                    <quote><hi rend="i">Son ame</hi> <seg type="exquote">(p. 4.)</seg>
+                        <hi rend="i">naturellement Chrétienne, a donc déposé toujours malgré lui en
+                            faveur de la vérité.</hi></quote> Combien d’autres de sa profession en
+                    déposeroient encore autant ! Que dis-je ? Tous ont des ames naturellement
+                    chrétiennes, &amp; par conséquent ne peuvent s’empêcher au moins de penser de
+                    même.</p>
+                <p>Je te le demande, ame encore chere à ton Dieu, quand tu lui disois hier :
+                            <quote><hi rend="i">Usquequo, Domine<note n="*" place="bottom">Motet
+                                chanté par Mademoiselle Dubois au Concert Spirituel, au jour de
+                                Quasimodo.</note>, oblivisceris me in finem ? Usquequo avertes
+                            faciem tuam à me ?.. Usquequo exaltabitur inimicus meus super me ?
+                            Respice &amp; exaudi me Domine Deus meus, exultabit cor meum, in
+                            salutari tuo : cantabo Domino qui bona tribuit mihi &amp; psallam nomini
+                            Domini altissimi.</hi></quote> Ton cœur n’étoit-il pas d’accord avec ta
+                    bouche ? Oui, &amp; c’est cet accord parfait que nous y trouvions <pb n="56"
+                        xml:id="p56"/>tous qui, autant que ta voix angélique, enlevoit nos
+                    applaudissemens. <quote><hi rend="i">Jusqu’à quand donc, Seigneur,
+                            détournerez-vous votre visage de dessus cette ame infortunée ?
+                            L’oublierez-vous jusqu’à la fin ?</hi></quote> Le démon de l’Opéra,
+                            <quote><hi rend="i">ce vrai ennemi</hi></quote> de son salut &amp; du
+                    nôtre, <quote><hi rend="i">s’applaudira-t-il toujours de la compter parmi ses
+                            suppôts ? plutôt, Seigneur mon Dieu, que sa priere perce les
+                        cieux</hi></quote>, comme elle a percé nos cœurs ! <quote><hi rend="i"
+                            >puisse-t-elle n’avoir plus qu’à se réjouir dans son Sauveur &amp; à
+                            chanter ses bienfaits</hi></quote>, comme elle nous a paru le désirer !
+                    Que ne puis-je me dissimuler qu’Arethuse (<hi rend="i">dans l’Opéra de
+                        Proserpine</hi>) vendredi prochain, elle nous chantera encore ses amours
+                    avec Alphée, &amp; que pour conclusion de l’enlevement de Proserpine, nous
+                    chantant le triomphe de l’amour profane, cette Calliope toujours victorieuse
+                    nous enlevera, comme hier, nos applaudissemens !</p>
+                <p>Toi de Saül <quote><hi rend="i">la fille la plus tendre &amp; qui</hi> <seg
+                            type="exquote">nous est</seg>
+                        <hi rend="i">si chere</hi></quote>, quand hier, aussi implorant le ciel pour
+                    ton pere, tu disois : <quote><hi rend="i">Seigneur exauce</hi></quote> ma
+                    priere, avois tu pour nous plus ou moins de charmes que jorsqu’un moment
+                    auparavant tu nous chantois : <quote><hi rend="i">Bonum est confiteri Domino<pb
+                                n="57" xml:id="p57"/><note n="*" place="bottom">Motets chantés par
+                                Mademoiselle Lemierre, qui fit Michol dans les fureurs de Saül au
+                                même Concert.</note> &amp; psallere nomini tuo, altissime, ad
+                            annuntiandum mane misericordiam tuam… in decachordo psalterio cum
+                            cantico in citharâ ?</hi></quote></p>
+                <p>Non, toujours les mêmes, les accens de ta voix plus qu’humaine, nous ravissoient
+                    toujours : mais le charme de nos oreilles ne nous empêchoit pas d’appercevoir en
+                    toi les traits d’une ame naturellement Chrétienne, <quote><hi rend="i">qui
+                            voudroit n’avoir plus qu’à publier les miséricordes du
+                        Très-haut</hi></quote>.</p>
+                <p>Par quel prestige se fait-il donc qu’hier Michol, tu seras demain Collette ? (<hi
+                        rend="i">dans l’Opéra du Devin du Village.</hi>) Et par quel enchantement se
+                    fait-il, charmante Erato, que nous t’applaudirons encore ? Ne diroit-on pas que
+                    tous tant que nous sommes, nous voyons du même œil &amp; le Ciel &amp; l’Enfer ?
+                    Hier Michol, de concert avec David, nous approchoit autant des Cieux, que demain
+                    Collette, d’intelligence avec Colin, nous approchera des Enfers : mais &amp;
+                    David &amp; Michol, &amp; Collette &amp; Colin sont également sûrs de nos
+                    suffrages ; <pb n="58" xml:id="p58"/>tous nous sont bons, tous nous enchantent,
+                    &amp; nous applaudissons jusqu’à Bastienne notre Thalie, quand elle chante :
+                            <quote><hi rend="i">Fac me vere tecum flere</hi></quote><note n="*"
+                        place="bottom">Madame Favart, la joie du Théatre Italien, a chanté le <hi
+                            rend="i">Stabat</hi> au Concert du Vendredi-Saint.</note>. O abîme
+                    incompréhensible du cœur humain, pour qui est une même chose &amp; le profane
+                    &amp; le sacré !</p>
+                <p>Nous l’avouons pourtant, Seigneur, vous voulez que ce cœur se retrouve toujours
+                    au milieu de ce chaos immense : <quote><hi rend="i">la lumiere de votre
+                            visage</hi>
+                        <seg type="exquote">(p. 4.)</seg>
+                        <hi rend="i">est gravée sur nous, &amp; portant nous mêmes les caractères
+                            ineffaçables de votre divinité</hi></quote>. Acteurs &amp; Spectateurs,
+                    à la fin du spectacle le plus bruyant, nous rentrons dans un vuide affreux ;
+                    &amp; toutes nos ames naturellement Chrétiennes, sont forcées de dire avec S.
+                    Augustin <quote><hi rend="i">que les larmes des pénitens doivent avoir pour eux
+                            plus de douceurs que les joyes des Théatres n’en ont pour les
+                            mondains</hi></quote>. Il n’est pas même jusqu’aux Auteurs qui,
+                    travaillant pour le Théatre, ne désavouent leur propre ouvrage, j’en atteste le
+                    grand Racine qui interrompoit le sien pour s’écrier :</p>
+                <pb n="59" xml:id="p59"/>
+                <quote>
+                    <l>« Hélas ! en guerre avec moi-même</l>
+                    <l>Où pourrai-je trouver la paix ?</l>
+                    <l>Je veux &amp; n’accomplis jamais ;</l>
+                    <l>Je veux, mais ô misere extrême !</l>
+                    <l>Je ne fais pas le bien que j’aime</l>
+                    <l>Et je fais le mal que je hais. »</l>
+                </quote>
+                <p>J’en appelle encore à témoin ce héros citoyen, qui semble ne vivre parmi nous que
+                    pour s’élever en témoignage contre nous. Quelle forte Egide fabriqua l’an passé
+                    ta Minerve, docte Enfant de Genève, pour parer les coups que l’on vouloit porter
+                    sur ta Mere ! Mais en même tems quel désaveu solemnel &amp; de ta fille Collette
+                    &amp; de ta petite fille Bastienne ! Pourquoi donc, pere tendre, quand tu leur
+                    donnas la naissance, ne mis tu pas en elles ce germe de <quote><hi rend="i"
+                            >justice &amp; de vérité</hi></quote>, que tu sçais si bien être (<hi
+                        rend="i">Lettre de M. Rousseau de Genève à M. d’Alembert</hi>) <quote><hi
+                            rend="i">les premiers devoirs de l’homme</hi></quote> ? J’ai beau ne le
+                    pas vouloir, je n’y vois presque que des <hi rend="i">affections</hi>
+                    secondaires &amp; déréglées de l’<hi rend="i">humanité</hi> de ma <hi rend="i"
+                        >patrie</hi> : &amp; pour un pere qu’elles perdent en toi, je vois mes
+                    concitoyens par milliers comme autant d’adorateurs, leur encens….. mais en
+                    t’appellant <pb n="60" xml:id="p60"/>en témoignage, me sied-t-il de te citer à
+                    mon tribunal ? Qui suis-je pour te reprocher les péchés de ta jeunesse ? Pardon,
+                    Génie heureux &amp; bienfaisant, <quote><hi rend="i">si la crainte</hi> <seg
+                            type="exquote">(pag. 264.)</seg>
+                        <hi rend="i">d’un malheur imaginaire qui menaçoit ta patrie…… a pu causer
+                            tes allarmes</hi></quote>, (p. <num>x</num>.) ensemble t’avoir fait
+                    naître ce reproche ; combien plus la vue des maux réels qui dévastent la mienne,
+                    a-t-elle pu me le dicter ! <quote><hi rend="i">Aveugles que nous sommes au
+                            milieu de tant de lumieres</hi></quote> que tu répands sur nous (<hi
+                        rend="i">p. 40.</hi>) du fond de ta cabane obscure ! <quote><hi rend="i"
+                            >victimes de nos applaudissemens insensés !</hi> <seg type="exquote"
+                            >m’écrirai-je bien volontiers avec toi,</seg>
+                        <hi rend="i">n’apprendrons-nous jamais combien mérite de mépris &amp; de
+                            haine tout homme qui abuse pour le malheur du genre humain, du génie
+                            &amp; des talens que lui donna la nature ?</hi></quote></p>
+                <p><quote><hi rend="i">Ami de toute Religion paisible</hi> <seg type="exquote"
+                            >(pag. 4, 5.)</seg> <hi rend="i">où l’on sert l’Etre éternel selon la
+                            raison qu’il nous a donnée</hi></quote>, que <quote><hi rend="i"
+                            >faut-il</hi> <seg type="exquote">(p. 6.)</seg> <hi rend="i">pour que
+                            nous brisions</hi> <seg type="exquote">contre l’Egide que tu nous
+                            présentes à l’aide de cette seule raison,</seg> <hi rend="i">le talisman
+                            d’imbécillité auquel est attachée la puissance de ces génies
+                            malfaisans</hi></quote>, nous ennemis déclarés de toute autre Religion
+                    que de la nôtre, laquelle est précisément celle qui ordonne de <pb n="61"
+                        xml:id="p61"/>réduire en poudre ce talisman ? Que faut-il enfin pour
+                    qu’Auteurs, Acteurs &amp; Spectateurs nous cessions d’être les victimes
+                    infortunées d’un gout si universellement désavoué par nous tous ? Une
+                    Ordonnance, un Jugement suffit, soit pour la suppression, soit pour la
+                    réformation du Théatre, sans qu’il y ait à craindre la moindre opposition :
+                    C’est la remarque de notre Auteur Comédien, qui l’appuye (<hi rend="i"
+                        >pag. 79.</hi>) sur des exemples dont il n’avoit pas besoin pour se faire
+                    croire. <quote><hi rend="i">La vérité qu’il n’a pu retenir captive dans
+                            l’injustice</hi></quote>, (Rom. 1. V. 18.) a parlé par sa bouche en
+                    cette occasion, comme quand il a dit (<hi rend="i">p. 96.</hi>) <quote><hi
+                            rend="i">que le Théatre, pour mériter la protection du Souverain &amp;
+                            des Magistrats, doit être tel que les honnêtes gens &amp; les Chrétiens
+                            puissent y assister sans avoir rien à se reprocher</hi></quote>.</p>
+                <p>Ici a murmuré un certain préjugé de Cour ; mais que ne peut-il être exterminé du
+                    milieu de nous, ce plus grand ennemi des Rois &amp; de tout le genre humain !
+                    Pourquoi donc la pure vérité se tairoit-elle sous le regne d’un Prince autant
+                    l’Ami de la vérité que le Pere de son peuple, &amp; sous des Magistrats <pb
+                        n="62" xml:id="p62"/>également défenseurs de l’une &amp; de l’autre ? Que
+                    tout est bon dans vos mains, Grand Dieu, qui avez choisi l’organe d’un homme de
+                    Théatre pour nous donner la décision d’un Docteur de Sorbonne !</p>
+                <p>D’un côté l’étude de nos obligations lui a appris que le Chrétien, soit homme,
+                    soit Philosophe, doit <quote><hi rend="i">terminer</hi>
+                        <seg type="exquote">ses plaisirs comme</seg>
+                        <hi rend="i">ses spéculations</hi>
+                        <seg type="exquote">(p. 22.)</seg>
+                        <hi rend="i">par des accroissemens de sainteté &amp; d’amour envers l’Etre
+                            Suprême</hi></quote> ; &amp; de l’autre la connoissance du cœur humain,
+                    jointe à la pratique du Théatre, l’a convaincu qu’on y porte &amp; qu’on y
+                    rapporte le remord, qu’on n’en sort &amp; qu’on n’en peut sortir qu’<quote><hi
+                            rend="i">avec un accroissement de présomption</hi> <seg type="exquote"
+                            >(p. 23.)</seg> <hi rend="i">&amp; d’ignorance….. que plus vain, plus
+                            superbe &amp; plus aveugle qu’on ne l’étoit</hi></quote> en y
+                    entrant.</p>
+                <p>C’est pour nous mettre d’accord avec nous-mêmes que ce véritable ami des hommes a
+                    dressé son plan de réformation du Théatre : si jusqu’ici l’exécution n’en a pas
+                    été tentée, c’est que peut-être ce plan ne remplit son objet que trop peu. Mais
+                    comme c’est au Conseil dont il demande l’établissement, qu’il appartient d’en
+                    décider &amp; de remplir ce même objet dans toute son étendue : <pb n="63"
+                        xml:id="p63"/>pourquoi, Chers François, ne croirons nous pas que ce Conseil
+                    plus important mille fois que toutes nos Académies, va enfin être établi ?
+                    Puisse l’illustre Genevois n’avoir plus à nous dire : (<hi rend="i">Lettre de M.
+                        Rousseau à M. d’Alembert, p. 40.</hi>) <quote><hi rend="i">telles sont les
+                            mœurs d’un siecle instruit : le sçavoir, l’esprit, le courage ont seuls
+                            notre admiration ; &amp; toi, douce &amp; modeste vertu, tu restes
+                            toujours sans honneur !</hi></quote></p>
+                <p>A la voix de ces deux Aristarques, <quote><hi rend="i">c’est la patrie</hi> <seg
+                            type="exquote">(Journal de Trévoux, premier vol. Avril 1759.)</seg> <hi
+                            rend="i">qui venge les bonnes mœurs sacrifiées aux licences de la
+                            Scène ; c’est la Philosophie austère de Sparte qui emprunte la
+                            Littérature d’Athènes pour foudroyer Sophocle, Euripide Aristophane,
+                            &amp; tous leurs descendans : ce coup est formidable, il ressemble à
+                            l’attaque brusque &amp; impétueuse de ces guerriers d’Homère, qui
+                            terrassoient quiconque osoit paroître sur le champ de
+                        bataille</hi></quote>.</p>
+                <p>Qu’opposes-tu, <quote><hi rend="i">siecle fécond en ressources, bonnes ou
+                            mauvaises, réelles &amp; prétendues</hi></quote> ; qu’opposes-tu
+                            <quote><hi rend="i">à ces vrais armés des traits de
+                        l’eloquence</hi></quote> ? Beaucoup <quote><hi rend="i">d’art, de subtilité,
+                            d’attention, de finesse dans le raisonnement, d’industrie dans la
+                            manière <pb n="64" xml:id="p64"/>d’éluder des coups redoutables, de
+                            sagacité à saisir des défauts apparens…</hi></quote> <quote><hi rend="i"
+                            >En armant ainsi l’erreur &amp; la passion</hi>
+                        <seg type="exquote">de mille</seg> <hi rend="i">ingénieux sophismes</hi>,
+                        prétends-tu nous <seg type="exquote">empêcher</seg> <hi rend="i">de
+                            reconnoître ce qu’il faut croire, tenir, décider,
+                        pratiquer ?</hi></quote> Penses-tu bonnement que la vérité ne perce pas à
+                    travers ces foibles nuages ? Il faudroit que son Soleil n’eût jamais lui pour
+                    toi ; quoiqu’il en soit, <quote><hi rend="i">vaine ressource</hi> <seg
+                            type="exquote">(p. 20.)</seg> <hi rend="i">toujours impuissante au
+                            jugement de la raison, &amp; qui ne peut en imposer aux yeux perçans de
+                            la justice</hi></quote>, mais seulement lui apprendre que la cause de
+                    nos Spectacles ne peut pas être rendue bonne, puisque vainement en sa faveur
+                    tout l’art est épuisé…… Que dis-je ? lui apprendre ; a-t-elle jamais pu en
+                    ignorer ? Ecoutons-la (<hi rend="i">p. 3.</hi>)</p>
+                <quote>
+                    <p rend="i">Un esprit véritablement fort, est un esprit éclairé par la lumière
+                        supérieure, &amp; qui connoît la vérité par des principes certains. Soutenu
+                        au dehors par des témoignages qu’on ne peut recuser, jamais le déréglement
+                        des passions ne l’affecte, ni n’influe sur ses connoissances &amp; sur ses
+                        jugemens. Le fidèle seul posséde cette force d’esprit ; l’erreur &amp;
+                        l’aveuglement sont le partage de l’incrédule, guidé par son sens particulier
+                        &amp; par sa foible raison.</p>
+                </quote>
+                <p><pb n="65" xml:id="p65"/>Hélas ! tout méchant que je suis, quelle seroit
+                    l’étendue de mes lumières s’il ne me falloit que voir la profondeur des playes
+                    qui excitent encore aujourd’hui (p. 1. 2.) <quote><hi rend="i">les plaintes de
+                            la société, de l’Etat &amp; de la Religion… leurs droits sont violés ;
+                            leurs loix sont méconnues ; l’impiété qui marche le front levé, paroît
+                            en les offensant promettre l’impunité à la licence qui s’accrédite de
+                            jour en jour</hi></quote>.</p>
+                <p><quote><hi rend="i">L’humanité frémit, le Citoyen est allarmé ; on entend de tous
+                            côtés les Ministres de l’Eglise gémir à la vûe de tant</hi> <seg
+                            type="exquote">d’excès</seg> <hi rend="i">qu’on ne peut affecter de
+                            multiplier que pour ébranler s’il étoit possible les fondemens de notre
+                            Religion.</hi></quote> En vain ces Pasteurs charitables nous crient sans
+                    cesse : <quote><hi rend="i">Gardez vous de ces faux Prophêtes</hi> <seg
+                            type="exquote">(Matt. 7. v. 15.)</seg> <hi rend="i">qui viennent à vous
+                            couverts de la peau de brebis, &amp; qui au dedans sont des loups
+                            ravissans.</hi></quote> En vain cette tendre mere, pour sauver le reste
+                    du troupeau, les a-t-elle chassés du bercail : en vain toutes les Loix
+                    ecclésiastiques &amp; civiles les déclarent infames ; tout odieux qu’ils sont
+                    sous l’anathême &amp; l’infamie, nous avons <seg><hi rend="i">le courage d’aimer
+                            ces hommes</hi></seg> (p. 21.) ; disons mieux, c’est foiblesse,
+                    puisqu’encore enfans dans <pb n="66" xml:id="p66"/>la morale, nous n’avons pas
+                            <quote><hi rend="i">la prudence de les fuïr</hi></quote>.</p>
+                <p><quote><hi rend="i">O</hi> <seg type="exquote">(p. 10.)</seg> <hi rend="i">que de
+                            tous les dons que le Ciel peut verser sur une nation, le don de tous, le
+                            plus</hi> <seg type="exquote">céleste</seg> <hi rend="i"
+                            >seroit</hi> <seg type="exquote">bien</seg> <hi rend="i">la prudence, si
+                            le Ciel la rendoit commune à tous les Citoyens</hi></quote> ! Que ne
+                    sommes-nous tous autant d’Ulysses ! Les théâtres de nos jours ne seroient plus
+                    pour nous ces rochers harmonieux habités par des monstres charmans, contre
+                    lesquels, voyageurs flottans sur une mer orageuse, au gré de nos passions, nous
+                    allons échouer sans regret &amp; expirer dans l’enchantement au milieu des
+                    plaisirs : <quote><hi rend="i">Dulce malum pelago siren.</hi></quote></p>
+                <p>Que d’écueils ! que de naufrages ! on n’y voit que des morts ou des mourans ;
+                            <quote><hi rend="i">&amp; Rama</hi> <seg type="exquote">(Jer. 31.
+                            v. 15.)</seg> <hi rend="i">au milieu des gémissemens &amp; des cris,
+                            demeure inconsolable de la perte de ses enfans…</hi></quote>
+                    <quote><hi rend="i">Sans que personne</hi> <seg type="exquote">(Thren. 1.
+                            v. 9.)</seg> <hi rend="i">se mette en peine de la
+                        consoler….</hi></quote></p>
+                <p>Il me semble entendre un de ces morts s’écrier du fond de son tombeau : quelle
+                    est la mission de ce Jérémie, de ce Job ? Quel est son caractère pour s’ériger
+                    en réformateur public de nos amusemens qu’une tradition plus que centenaire <pb
+                        n="67" xml:id="p67"/>nous a transmis, pour attaquer… détruire un sentiment
+                    que la Nature a gravé dans nos cœurs, &amp; que le théâtre d’aujourd’hui ne fait
+                    que développer &amp; perfectionner ? Que n’ajoute-t-il <hi rend="i">&amp;
+                        sanctifier</hi> ?</p>
+                <p>Ce pauvre défunt n’eût pas <quote><hi rend="i">été desiré</hi> <seg
+                            type="exquote">(p. 19.)</seg> <hi rend="i">pour Auteur
+                            Encyclopediste</hi></quote>. Il peut bien n’être <quote><hi rend="i"
+                            >d’aucun Pays, d’aucune secte, d’aucun état</hi></quote> : il peut
+                    encore être <quote><hi rend="i">ferme, instruit, honnête</hi></quote> à sa
+                    manière ; mais sûrement il lui manque une des qualités requises, celle d’être
+                        <hi rend="i">véridique</hi> : me tromperois-je ? &amp; ne désavoue-t-il pas
+                    intérieurement les plaisirs du théâtre d’aujourd’hui ? Quel est donc ce prodige
+                    à forme humaine, qui n’est ni homme ni démon, puisqu’il n’a le ver rongeur ni de
+                    l’un ni de l’autre ? En bonne conscience on ne dira jamais de lui ce qu’<hi
+                        rend="i">Horace</hi> disoit à <hi rend="i">Virgile</hi> sur la mort de <hi
+                        rend="i">Quintilien</hi> leur ami commun :</p>
+                <quote>
+                    <l rend="i">        Cui pudor &amp; justitiæ soror,</l>
+                    <l rend="i">Incorrupta fides nudaque veritas</l>
+                    <l rend="i">        Quando ullum inveniet parem ?</l>
+                </quote>
+                <p>Et que veux-tu faire, Monstre, avec le développement de ta nature ? Ma mission !
+                    Apprends qu’<quote><hi rend="i">il suffiroit d’être homme<pb n="68" xml:id="p68"
+                            /> &amp; Citoyen pour être sensible à tous les maux</hi></quote> (p. 2.)
+                    que nous cause ton théâtre d’aujourd’hui, &amp; par conséquent pour desirer d’en
+                    voir la fin : que seroit-ce si on les envisageoit des yeux de la foi ? A lueur
+                    de son flambeau, Guerre, Peste &amp; la Famine réunies ensemble, le charnier de
+                    vos corps morts n’auroit rien de si horrible.</p>
+                <p>A la seule idée d’un si touchant spectacle, qui n’est que trop réel, nous
+                    permettrez-vous de nous plaindre, Ecrivains prophanes, dont les plumes trempées
+                    dans le filtre préparé par <hi rend="i">Sagane</hi> &amp; par <hi rend="i"
+                        >Veïa</hi>, servent d’étais à nos théâtres contre les coups de nos béliers ?
+                    Permis ou non, chiens du quartier de Subure ameutés par la magicienne Canidie,
+                    tous vos hurlemens n’étoufferont pas nos clameurs, &amp; <quote><hi rend="i">les
+                            pierres crieront</hi></quote> avec nous (<hi rend="i">Luc 19. v.
+                        40.</hi>) si ce n’est pas assez pour vous d’hurler, déchirez-nous à pleines
+                    dents, victimes pour la Patrie, nous trouverons un gain dans la mort même,
+                    heureux de ne pas emporter le regret d’avoir été pour vous des chiens muets,
+                            <quote><hi rend="i">canes muti non valentes latrare</hi></quote>. (Isaïe
+                    56. v. 10.)</p>
+                <p>Quel nouveau spectacle s’offre à ma vue ? Consolez-vous, Rama, il est encore<pb
+                        n="69" xml:id="p69"/> sept mille de vos enfans qui ne fléchissent pas le
+                    genou devant Baal.</p>
+                <p>N’est-ce pas pour vous dérober à ce déluge de maux, habitans des Cloîtres, que
+                    vous vous tenez cachés dans le secret du Tabernacle ?</p>
+                <p><quote><hi rend="i">O</hi> <seg type="exquote">(p. 9.)</seg> <hi rend="i"
+                            >caracteres propres à vous priver de nos plaisirs</hi>, <seg
+                            type="exquote">que nous ne vous voyons pas partager avec nous,</seg> <hi
+                            rend="i">&amp; à saisir</hi> <seg type="exquote">sans nous</seg> <hi
+                            rend="i">les pratiques austères de la dévotion</hi></quote>, que vous
+                    êtes heureux ! &amp; que vous êtes bons, <quote><hi rend="i">si
+                            l’homme</hi> <seg type="exquote">n’est</seg> <hi rend="i"
+                            >méchant</hi> <seg type="exquote">qu’à proportion qu’il est</seg> <hi
+                            rend="i">malheureux</hi></quote> !</p>
+                <p>Placés sur le haut de la montagne sainte, de quel œil voyez-vous les assauts
+                    téméraires que le théâtre, ce fort armé, livre journellement à la Religion ?
+                    Hélas ! comptant ses victoires par ses attaques, vous voudriez avoir des larmes
+                    de sang à opposer au torrent d’iniquités qu’il fait couler de toutes parts,
+                    &amp; je vois vos mains toujours élevées vers le Ciel pour arrêter la foudre
+                    toujours prête à partir. Comment donc a-t-on pu nommer <quote><hi rend="i">vos
+                            vertus des vertus de préjugé dont l’observation exacte ne contribue en
+                            rien au bonheur public</hi></quote> ?</p>
+                <p>Pour faire taire ce langage de l’homme<pb n="70" xml:id="p70"/> sans foi trop
+                    commun parmi nous, puissiez vous, portion chérie du troupeau de Jesus Christ,
+                    par un renouvellement de serveur, de concert avec (p. 10.) <quote><hi rend="i"
+                            >nos plus austères anachorettes</hi></quote> &amp; toutes nos chastes
+                    colombes, faire une sainte violence au Ciel, &amp; nous mériter de voir tarir
+                    jusques dans sa source ce débordement de vices ! Quels <quote><hi rend="i">plus
+                            importans services</hi>
+                        <seg type="exquote">auroient jamais</seg>
+                        <hi rend="i">été rendus à la Patrie</hi></quote>, à l’Eglise !</p>
+                <p>Les playes de l’une &amp; de l’autre sont également profondes, &amp; les remèdes
+                    propres à les guérir ne peuvent se prendre que dans <quote><hi rend="i">les Loix
+                            de la Religion</hi>, <seg type="exquote">(p. 21.)</seg> <hi rend="i"
+                            >l’ouvrage de l’Etre suprême, qui seul a droit d’en imposer à l’homme,
+                            parce que lui seul l’a formé, &amp; peut lui proposer pour le terme de
+                            son bonheur un objet digne de lui</hi></quote>.</p>
+                <p>Sera-ce donc <quote><hi rend="i">en vain</hi></quote> (p. 21.) que tant de
+                    sources sacrées couleront autour de nous, que tant de vives lumières brilleront
+                    à nos yeux ? Oui portion privilégiée de <hi rend="i">l’Univers Chrétien</hi>,
+                    Enfans chéris du Fils aîné de l’Eglise, <quote><hi rend="i">envain</hi> <seg type="exquote">pour nous</seg> <hi
+                        rend="i">tant de millions de Martyrs de tout âge, de tout sexe, de toutes
+                        conditions auront scellé de leur sang les vérités <pb n="71" xml:id="p71"
+                        />que nous croyons</hi>, <seg type="exquote">si nous ne</seg> <hi rend="i">pratiquons</hi> <seg type="exquote">celles que
+                            nous</seg> <hi rend="i">enseignent</hi> <seg type="exquote">tant d’Orateurs fameux,</seg> <hi rend="i">tant
+                        d’Ecrivains célèbres, tant de génies du premier ordre respectables par leurs
+                        talens &amp; par leurs mœurs</hi></quote>, quand ils nous disent : <quote><hi rend="i"
+                        >rendez droites les voies du Seigneur…</hi></quote> (<hi rend="i">Jean 1.
+                        v. 23.</hi>).. <quote><hi rend="i">Otez la pierre.</hi></quote> (1. v. 39.) Que dis-je ?
+                        <hi rend="i">en vain</hi> : nos Villes trop semblables à Bethsaïde &amp; à
+                    Corrozaïn, mériteront leurs anathêmes, &amp; ce sera pour notre plus grande
+                    condamnation que <quote><hi rend="i">la vérité</hi> <seg type="exquote">(p. 21.)</seg> <hi rend="i">nous aura
+                        ouvert son sanctuaire</hi></quote>, si la pratique ne nous y fait entrer. Mais
+                    comment y entrerons-nous, si (Isaïe 57. v. 14.) <quote><hi rend="i">ces pierres
+                            d’achoppement &amp; de scandale nous en ferment l’entrée…</hi></quote>
+                    Et si (Luc 17. v. 2.) <quote><hi rend="i">pour rendre leur sort moins à
+                            plaindre, elles ne sont jettées à la mer</hi></quote> ? Plutôt, Seigneur
+                    mon Dieu, puissent-elles devenir des pierres vivantes, &amp; puissions-nous tous
+                    entrer avec elles dans l’édifice de la céleste Sion !</p>
+                <p>Vérité, guide de la Justice, Justice, appui de la vérité, votre concours nous
+                    fut-il jamais &amp; peut-il jamais nous être plus nécessaire ? Non sans doute :
+                    aussi déjà, Vérité sainte, vous me semblez avoir dit qu’il ne faut que polir ces
+                        <pb n="72" xml:id="p72"/>pierres brutes, &amp; déjà je crois voir le cizeau
+                    sacré de la Religion dans la main de la Justice.</p>
+                <p>Justice, qu’allez-vous faire ? Nous donner la paix ? Dans quels transports
+                    dirons-nous donc : <quote><hi rend="i">la Justice &amp; la paix se sont
+                            embrassées</hi></quote>. (Ps. 84. v. 11.)</p>
+                <quote>
+                    <l>« Que l’Eternel entende nos concerts.<note n="*" place="bottom"><hi rend="i"
+                                >Poëme des fureurs de Saül.</hi></note></l>
+                    <l>Il a devant nos pas fait voler la victoire.</l>
+                    <l>L’Amalécite ennemi de sa gloire</l>
+                    <l>Est effacé de l’Univers. »</l>
+                </quote>
+                <p>Doutez vous encore, François, pardon, Peuple Chrétien, c’est vous demander si
+                    vous doutez que l’esprit de force &amp; de vérité qui étoit hier, soi encore
+                    aujourd’hui. Vous voilà donc enfin aussi persuadés que moi de la défaite du
+                    théâtre de nos jours, ce vrai Amalécite ennemi de la gloire de notre Dieu…
+                    Pardon, Génie François, avez-vous pû ne le pas être ainsi que moi dès l’instant
+                    que vous avez vu confondus nos Bayles, nos Spinosas, nos Epicures ? Cette époque
+                    toute glorieuse qu’elle est, ne peut être pour nous tous que l’aurore d’un jour
+                    prochain où nous verrons foudroyés nos <pb n="73" xml:id="p73"/>Aristophanes,
+                    nos Euripides, nos Sophocles. En voyant donc un si beau jour dans un avenir si
+                    marqué, nous devons bien plus songer à nous réjouir par avance du renouvellement
+                    universel qu’il opérera parmi nous, que prétendre à la qualité de Prophétes.</p>
+                <p>Pour moi j’y renonce : tant au sujet de ce que j’ai dit, que de ce qui me reste à
+                    dire, je le déclare avec Pierre de Blois : <quote><hi rend="i">Nihil de spiritu
+                            meo propheto, sed colligo micas quæ ceciderunt de mensâ dominorum
+                            meorum.</hi></quote></p>
+                <p>Quelle seroit ma surprise si pour avoir ramassé ces miettes tombées de la table
+                    de mes maîtres, j’avois le malheur de paroître coupable à leurs yeux ! Quelle
+                    seroit ma sincérité en les priant de reconnoître que la faute, s’il y en a,
+                            <quote><hi rend="i">est</hi> <seg type="exquote">(p. 23.)</seg> <hi
+                            rend="i">plutôt une erreur de mon esprit que de mon cœur</hi></quote> !
+                    Et que n’aurois je pas à attendre de leur indulgence en leur disant avec Saint
+                    Augustin : <quote><hi rend="i">Reconnoissez ce qui est de vous, &amp; pardonnez
+                            à ce qui est de moi !</hi></quote></p>
+                <p>Mais nous défendre (p. 29.) <quote><hi rend="i">d’écrire, sous quelque
+                            dénomination que ce soit, contre la Religion, l’Etat &amp; les bonnes
+                            mœurs</hi></quote>, ce n’est pas nous ôter <pb n="74" xml:id="p74"
+                            /><quote><hi rend="i">la liberté de penser</hi>
+                        <seg type="exquote">(p. 15.) que la justice travaille à nous donner</seg>
+                        <hi rend="i">un moyen d’accorder</hi>
+                        <seg type="exquote">nos plaisirs publics avec</seg>
+                        <hi rend="i">le respect que nous devons à notre croyance &amp; à notre
+                            culte</hi></quote> : moyen qui est si fort à souhaiter, puisqu’il est
+                    unique <quote><hi rend="i">pour la découverte</hi>
+                        <seg type="exquote">&amp; le triomphe</seg>
+                        <hi rend="i">de la vérité</hi>, <seg type="exquote">&amp; pour</seg> <hi
+                            rend="i">la tranquillité publique, sans laquelle il n’y a point de
+                            bonheur ni pour le Philosophe, ni pour le Peuple</hi></quote> : moyen
+                    qui est tellement du ressort de cette justice, que nous ne pouvons le tenir que
+                    de sa main, (quelque soit le Tribunal à qui il appartient d’en connoître ; ceci
+                    soit dit, Chers François, pour vous fournir de quoi fermer la bouche à tout
+                    iroquois qui se donnera la liberté de dire en votre présence que je fais ici
+                    quelqu’attribution de Juridiction.) Pourrois-je donc paroître repréhensible pour
+                    n’avoir fait que mettre par écrit <hi rend="i">en langue vulgaire</hi> une
+                    pensée que les circonstances présentes nous font naître si naturellement, moi
+                    qui aurois pû écrire <hi rend="i">en langue sçavante</hi>, bien sûr que mes
+                    Traducteurs n’auroient jamais été <hi rend="i">poursuivis</hi>. Il est écrit au
+                    Ps. 121 : <quote><hi rend="i">parce qu’il y a ici des trônes de la justice pour
+                            le bien de la Maison de David, demandez <pb n="75" xml:id="p75"/>la paix
+                            de Jérusalem</hi></quote> : c’est pourquoi, terre des François,
+                            <quote><hi rend="i">à cause que tes habitans sont mes freres &amp; mes
+                            amis, j’ai parlé pour ton bonheur ; &amp; parce que la Maison du
+                            Seigneur notre Dieu est dans ton enceinte, j’ai demandé ton bien ;
+                            quæsivi bona tibi</hi></quote>.</p>
+                <p>Loin de moi donc des réflexions aussi accablantes pour mon cœur, qu’injurieuses à
+                    mes Dieux ! <quote><hi rend="i">Rempli pour eux</hi> du plus profond <hi
+                            rend="i">respect</hi>
+                        <seg type="exquote">(p. 24.)</seg>
+                        <hi rend="i">&amp; de la soumission</hi></quote> la plus grande pour toutes
+                            <quote><hi rend="i">les vérités</hi> <seg type="exquote"
+                            >(p. 23.)</seg> <hi rend="i">qui appartenant à la politique, à la morale
+                            &amp; à la Religion Catholique, ont toujours été, sont &amp; seront
+                            toujours l’objet de ma persuasion &amp; de ma croyance</hi></quote>, que
+                    n’ai-je pu écrire de mon sang les paroles que j’ai empruntées d’eux, &amp; qui
+                    comme autant de traits de feu, <quote><hi rend="i">me pénètrent</hi> <seg
+                            type="exquote">(p. 24.)</seg> <hi rend="i">plus que jamais de ces mêmes
+                            vérités qui ont excité leur zèle</hi></quote> !</p>
+                <p>Placés que je les vois les uns sur les degrés du Temple de la Justice, les autres
+                    au fond du Sanctuaire, tous pour entendre les cris des malheureux &amp; essuyer
+                    leurs larmes, avec quel empressement n’irois-je pas de tribunaux en tribunaux
+                    l’Evangile d’une main, leur <pb n="76" xml:id="p76"/>présenter de l’autre ce
+                    tableau de nos malheurs, s’ils pouvoient leur être inconnus, &amp; si la
+                    manœuvre qui en est la source, étoit sourde &amp; secrette ! mon zèle alors
+                    n’écouteroit que mon devoir : Mais montrez-moi, Chrétiens, dans quelque endroit
+                    de la Loi, l’obligation de dénoncer ce qui a tous les caractères de la
+                    publicité.</p>
+                <p>Qu’ai-je dit qui ne soit prêché sur les toits ? Justice &amp; vérité. Quel est
+                    mon cri qui ne soit le cri général des consciences ? O temps ! ô mœurs ! Quels
+                    sont mes vœux enfin pour Paris &amp; le Royaume Chrétien dont il est la
+                    Capitale, qui ne soient ceux de nos Sçavans mêmes pour Geneve &amp; sa
+                    République Socinienne ? <quote><hi rend="i">Des Spectacles &amp; des
+                        mœurs.</hi></quote> (<hi rend="i">Encyclopédie, au mot</hi> Geneve.)</p>
+                <p>Sans donc autre dénonciation que celle de la voix publique, (en peut-il être une
+                    plus forte ?) avec quelle confiance ne devons-nous pas nous attendre à voir
+                    encore dans peu (<hi rend="i">Ps. 84. v. 11.</hi>) <quote><hi rend="i">la
+                            miséricorde &amp; la vérité se rencontrer</hi></quote> par le ministère
+                    de la Justice, comme nous l’avons vû il y a trois mois pour une cause qui duroit
+                    à peine depuis six ans ? Celle qui se présente <pb n="77" xml:id="p77"
+                    />aujourd’hui dure depuis cent dix-huit ans &amp; sept jours ; aussi jamais
+                    procès ne fut mieux instruit &amp; plus en état d’être jugé.</p>
+                <p>Innombrable <quote><hi rend="i">nombre de personnes</hi> <seg type="exquote"
+                            >(p. 24.)</seg> <hi rend="i">dont les lumières, l’exactitude,
+                            l’attachement &amp; la fidélité aux principes de la Religion, aux
+                            maximes de sa morale &amp; au bien de l’Etat</hi>, <seg type="exquote"
+                            >sont à l’abri de tout soupçon &amp; d’une autorité irréfragable, en ont
+                            fait</seg> <hi rend="i">un examen aussi attentif que solide… leur avis a été
+                            communiqué</hi></quote> en mille manières, de vive voix &amp; par
+                    écrit : il n’y a donc plus qu’à <quote><hi rend="i">prendre telles
+                            conclusions….</hi> (<seg type="exquote">Au mot <hi rend="i"
+                            >Geneve</hi>)</seg>
+                        <hi rend="i">des loix séveres &amp; bien exécutées sur la conduite des
+                            Comédiens</hi></quote> comme sur leur morale, sur leurs actions comme
+                    sur leurs paroles, aux termes de la Déclaration du 16 Avril 1641.</p>
+                <p><quote><hi rend="i">Par ce moyen</hi></quote>, Religion sainte, ces enfans infortunés qui sont
+                    nos freres, &amp; dont la cause nous est commune à tant d’égards, cesseront
+                    d’être <quote><hi rend="i">un objet d’anathéme</hi></quote> à vos yeux, &amp; vous les
+                    remettrez dans votre sein avec autant de joie que vous les en avez arrachés avec
+                    douleur.</p>
+                <p><quote><hi rend="i">Prêtres, qui les excommuniez</hi></quote> <pb n="78" xml:id="p78"
+                    />(Encyclopédie, au mot <hi rend="i">Geneve</hi>) de bouche &amp; qui les
+                    dévorez des yeux, nous vous verrons sans scandale venir <quote><hi rend="i"
+                            >former votre goût à leurs représentations</hi></quote>, y prendre
+                            <quote><hi rend="i">une finesse de tact, une délicatesse de sentiment
+                            très-difficiles d’acquérir sans leur secours</hi></quote>, bien entendu
+                    cette finesse, cette délicatesse qui consistent à bien tourner &amp; retourner
+                    les feuillets d’un Livre : que je serois émerveillé si vous m’assuriez de
+                    bonnefoi que c’est là tout ce que vous avez appris jusqu’à présent dans nos
+                    écôles. De quelle trempe êtes-vous donc ? vous demanderois-je, comme à
+                    Mentor ?</p>
+                <p>Nos Magisters n’ayant plus, selon toute apparence, tant de dépense à faire, sage
+                        <hi rend="i">Gouvernement</hi>, vous diminuerez <hi rend="i">leurs
+                        pensions</hi>.</p>
+                <p>Et vous, <quote><hi rend="i">Bourgeois, vous perdrez l’habitude de regarder avec mépris
+                        des hommes doublement respectables… Contenus d’abord par des Réglemens
+                        sages, protégés ensuite &amp; même considérés dès qu’ils en seront dignes,
+                        enfin absolument placés sur la même ligne que les autres Citoyens</hi></quote>, nos
+                    Villes <quote><hi rend="i">auront bientôt l’avantage de posséder ce qu’on croit si
+                        rare, &amp; qu’il ne l’est que par notre faute : une troupe de Comédiens
+                        estimables…</hi></quote> Que sçai-je si <pb n="79" xml:id="p79"/><quote><hi rend="i">ne
+                        craignant plus de vous deshonorer parmi nous, en vous livrant au
+                        théâtre</hi></quote>, il ne vous prendra pas à tous envie d’y monter, d’y endosser
+                    un habit à la Romaine, (<hi rend="i">Encyclopédie, au mot Genève</hi>,) <quote><hi
+                        rend="i">&amp; d’y cultiver non seulement sans honte, mais même avec estime,
+                        le talent si agréable &amp; si peu commun</hi></quote> de nous divertir ? Au moins
+                    est-il certain que nos Cités qui gémissent sous la tyrannie de nos fêtes
+                    prophanes, <quote><hi rend="i">deviendront alors le séjour des plaisirs honnêtes…</hi></quote>
+                    &amp; que <quote><hi rend="i">les étrangers ne seront plus surpris de voir que dans
+                        un</hi></quote> Royaume où l’on fait profession de la morale évangelique, &amp; où
+                    l’on se pique <quote><hi rend="i">de finesse de tact &amp; de délicatesse de sentimens,
+                        on permette des spectacles</hi> <seg type="exquote">indécens &amp; irréguliers,</seg> <hi rend="i">des
+                        farces grossières &amp; sans esprit, aussi contraires au bon goût qu’aux
+                        bonnes mœurs. Ce n’est pas tout : l’exemple des Comédiens François, la
+                        régularité de leur conduite, &amp; la considération dont nous les ferons
+                        jouir, serviront de modèle aux Comédiens des autres nations</hi></quote>.</p>
+                <p>Quelle <quote><hi rend="i">gloire pour toi</hi><seg type="exquote">, ô France ma Patrie</seg> <hi rend="i">d’avoir
+                    reformé l’Europe sur un point plus important peut-être qu’on ne pense</hi></quote> !
+                    Comment <hi rend="i">peut-être</hi> ! En peut-il être un plus important ?</p>
+                <p><pb n="80" xml:id="p80"/>Ces enfans ainsi châtiés, comme ils le méritent, ne
+                    seront plus les Peres de cette race corrompue, de cette engeance vermineuse qui
+                    de leurs foyers se répand dans nos maisons, &amp; fourmille jusques dans les
+                    Palais des Grands : ils ne seront plus ces oracles de l’impiété, qui jusqu’ici
+                    en ont engendré tant d’autres, (<hi rend="i">p. 3.</hi>) <quote><hi rend="i">tous ces
+                        faux Sçavans du siècle… tous ces prétendus Philosophes, qui pour dégrader
+                        l’humanité, imaginent le projet insensé de détruire les premières vérités
+                        gravées dans nos cœurs par la main du Créateur, d’abolir son culte &amp; ses
+                        Ministres, d’établir enfin le Déisme &amp; le Matérialisme</hi></quote>.</p>
+                <p>O temps heureux, où ne faisant plus de nous ni les uns ni les autres, un peuple
+                    de prévaricateurs, nous dirons : qu’ils restent au milieu de nous ces hommes de
+                    Lettres &amp; ces hommes de Théâtres, les uns <quote><hi rend="i">si propres</hi> <seg type="exquote">(p. 13.)</seg> <hi rend="i">à faire honneur au génie de la nation</hi></quote> par l’étendue
+                    de leurs connoissances, &amp; si capables de servir la Patrie par la
+                    multiplicité de leurs découvertes, comme par <quote><hi rend="i">une infinité de
+                        notions utiles sur les arts &amp; sur les sciences</hi></quote> : les autres (<hi
+                        rend="i">au mot</hi> Geneve :) <quote><hi rend="i">si nécessaires au progrès &amp;
+                            <pb n="81" xml:id="p81"/>au soutien des arts</hi></quote> par le soulagement
+                    dont ils seront pour les esprits occupés, &amp; plus nécessaires encore par
+                    l’occupation décente qu’ils procureront aux desœuvrés.</p>
+                <p>Alors, alors, chers Concitoyens, sans cesser d’être Auteurs ou Lecteurs, Acteurs
+                    ou Spectateurs, puissions-nous (p. 7.) <quote><hi rend="i">donner à la vertu des
+                        fondemens sur lesquels</hi><seg type="exquote">, tous Chrétiens,</seg> <hi rend="i">nous bâtissions
+                        également en l’édifiant sur la base de l’intérêt personnel</hi></quote> pour le
+                    temps &amp; pour l’Éternité. <hi rend="i">Amen.</hi></p>
+            <p/>
+                <p>Cum Approbatione Doctorum &amp; indoctorum utriusque sexûs, cum voto proborum
+                    &amp; improborum conditionis omnimodæ explicito vel implicito omnium denique
+                    pace. Nono Calendas Maii M. DCC. LIX.</p>
+            </div1>
+            <div1 type="postface">
+                <head><hi rend="i">Postscriptum.</hi></head>
+                <p><hi rend="big">J</hi>’Ai trop cité l’Article <hi rend="i">Geneve</hi> de
+                    l’Encyclopédie pour pouvoir me dissimuler de l’avoir lû dans son entier : encore
+                    moins puis-je m’empêcher de <pb n="82" xml:id="p82"/>désavouer un trait d’autant
+                    plus deshonorant pour la Nation, qu’il part d’une main qui d’ailleurs l’honore
+                    davantage : le voici. » Le Traitant qui insulte à l’indigence publique &amp; qui
+                    s’en nourrit, le Courtisan qui rampe &amp; qui ne paye point ses dettes ; voilà
+                    l’espéce d’hommes que nous honorons le plus.</p>
+                <p>O <quote><hi rend="i">préjugé barbare</hi> <seg type="exquote">pour</seg> <hi rend="i">la profession de
+                        Comédien</hi></quote> ! En voulant nous reprocher une injustice prétendue,
+                    falloit-il nous faire le plus sanglant outrage à la face de toutes les nations ?
+                    Quoi donc ! faisons-nous profession de croire (<hi rend="i">p. 8.</hi>) <quote><hi
+                        rend="i">que les conquêtes injustes deshonorent</hi> <seg type="exquote">plus</seg> <hi rend="i">une
+                        nation, que les vols n’avilissent un particulier</hi></quote> ? Non, non, toute
+                    injustice nous est également odieuse. Ecoutez, Nations entières, puissiez-vous
+                    m’entendre &amp; m’en croire ! Je parle encore ici au nom de tous mes
+                    Concitoyens, je n’en excepte que ceux qui composant cette espèce d’hommes, ne
+                    méritent pas d’être comptés parmi nous ; mais je leur déclare en même-temps que
+                        (<hi rend="i">p. 6.</hi>) <quote><hi rend="i">le sentiment de l’amour d’eux-mêmes,
+                            leur intérét personnel</hi>, <seg type="exquote">&amp; le desir</seg> <hi rend="i">de jetter</hi> <seg type="exquote">dans
+                                eux tous,</seg> <hi rend="i">les fondemens d’une morale utile</hi>, <seg type="exquote">servent</seg> <hi
+                        rend="i">de base</hi></quote> aux <pb n="83" xml:id="p83"/>vœux sincères qu’il me
+                    reste à faire pour aucuns d’eux.</p>
+                <quote><l>« Se peut-il volerie aussi haute ?</l>
+                    <l>De l’or &amp; des honneurs je ne demande pas,</l>
+                    <l>Juste Ciel, seulement fais qu’avant mon trépas</l>
+                    <l>Je puisse de mes yeux voir trois de ces Corsaires</l>
+                    <l>Ornant superbement trois bois patibulaires,</l>
+                    <l>Pour prix de leurs larcins en Public élevés,</l>
+                    <l>Danser la sarabande à deux pieds des pavés.</l>
+                    <bibl><hi rend="sc">Regnard</hi>.</bibl></quote>
+                <p>Je n’ai plus qu’un mot à vous dire, Nations entieres : Quand vous lisez en tête
+                    du cinquiéme volume de l’Encyclopédie dans l’éloge de M. de Montesquieu qu’il
+                    renonça à une premiere Place de Magistrature, <quote><hi rend="i">parce qu’il sentoit
+                        qu’il y avoit des objets plus dignes d’occuper ses talens</hi></quote>, ne croyez
+                    pas que le Panégyriste ait voulu parler ici à la louange de son héros : il n’est
+                    personne d’entre nous qui ne regarde cette pensée du <hi rend="i">Démocrite
+                        François</hi> comme une tache pour sa mémoire ; sans doute il a voulu
+                    qu’elle demeurât toujours cachée ; peut-être même ne l’a-t-il jamais
+                    communiquée ; mais il n’en a pas moins fallu la mettre au grand jour, &amp; pour
+                    la mettre à la portée du plus grand nombre, qui n’est <pb n="84" xml:id="p84"
+                    />pas celui des Souscripteurs de l’Encyclopédie, notre Mercure de Nov. 1755 lui
+                    a donné place parmi ses galanteries. Tel est sur nous l’empire des vérités ;
+                    tout affligeantes qu’elles sont pour nous, toutes flétrissantes qu’elles sont
+                    pour nos héros, nous ne pouvons les taire.</p>
+                <quote>
+                    <l rend="i">Tantum series juncturaque pollet ?</l>
+                    <l rend="i">Tantum de medio sumptis accedit honoris.</l>
+                </quote>
+                <p>FIN.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>

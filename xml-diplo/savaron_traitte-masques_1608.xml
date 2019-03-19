@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Traitté contre les masques</title>
+                <author key="Savaron, Jean (1566-1622)"
+                    ref="https://data.bnf.fr/fr/12459756/jean_savaron/">Jean Savaron</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>Contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/savaron_traitte-masques_1608</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Jean Savaron, <hi rend="i">Traitté contre les masques. Par M. Iean Savaron
+                        sieur de Villars, Conseiller du Roy, President et Lieutenant general en la
+                        Seneschaulcee d’Auuergne et Siege Presidial de Clairmont, Maistre des
+                        Requestes de Royne Marguerite</hi>, <pubPlace>Paris</pubPlace>,
+                        <publisher>Pierre Chevalier</publisher>, <date>1608</date>, in-8, 36 p.
+                    PDF : <ref target="https://books.google.fr/books?id=_dVFAAAAcAAJ"
+                    >Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1608"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="book">
+                <pb n="3" xml:id="p3"/>
+                <head><hi rend="i">Traitté contre</hi> les masqves.</head>
+                <p><hi rend="big">A</hi><hi rend="sc">riston</hi> disoit ainsi, ne vne estuue, ne vn
+                    discours ne sert de rien s’il ne nettoye : celuy cy des masques nuëment
+                    representé &amp; sans masques pourra nettoyer vne vieille tache qui saillit
+                    ceste ville de Clairmont &amp; plusieurs autres, en monstrant que le Diable est
+                    l’autheur des masques, que masquer est vne Idolatrie, vne heresie, condamnee par
+                    les Peres, par les Conciles &amp; saincts Decrets, qu’il est defendu par les
+                    ordonnances des Roys &amp; Arrests des Cours souueraines, &amp; est contre les
+                    bonnes mœurs &amp; honnesteté publique.</p>
+                <p><note place="margin"><hi rend="i">Le Diable est autheur des Masques. Perionius.
+                            Nicotius. Paul. in. li. 5 de S. Martino notæ ibid. Ca.</hi> 10. <hi
+                            rend="i">Burchardus l.</hi> 2. <hi rend="i">c.</hi> 161.</note> La
+                    preuue que le Diable est autheur des masques &amp; mommeries se tire de la
+                    proprieté &amp; origine de ces mots de Mommon, &amp; de Masque <hi rend="i"
+                        >Mommo</hi> en Grec, <hi rend="i">Masca</hi>, en Toscan &amp; Lombard, &amp;
+                    en Latin <hi rend="i">Larua</hi>, signifient vn Demon &amp; vn masque, &amp;
+                    ainsi l’a bien interpreté le Cõcile de Nantes, <quote><hi rend="i">Les
+                            faux-visages des Demons que les Italiens appellent
+                    masques</hi></quote> ? Doncques les masques sont dicts faux-visages de Demons à
+                    cause de leur autheur qui est le Demon aussi appellé <hi rend="i">Larua</hi>.
+                        <note place="margin"><hi rend="i">Homel.</hi> 10.</note>. Pour ceste raison
+                    S. Maxime Euesque <pb n="4" xml:id="p4"/>de Turin leur donne le nom de
+                            <quote><hi rend="i">simulacres &amp; vanitez diaboliques</hi></quote>,
+                        <note place="margin"><hi rend="i">Epist. aduersus Andromachum.
+                        li.c.</hi>193.</note> Gelase Pape <quote><hi rend="i">de
+                        prodiges</hi></quote>, &amp; Charlemaigne <quote><hi rend="i">de Phantosmes
+                            diaboliques</hi></quote>, <note place="margin"><hi rend="i">S. Paulus,
+                            &amp; Philastrius hæres.</hi> 26.</note>car si le Diable ne se masquoit
+                    &amp; transformoit en Ange de lumiere, si les faux Prophetes, Idolatres,
+                    heretiques, hypocrites, sorciers, &amp; ses autres sectateurs n’estoient
+                    trauestis &amp; affublez d’vne robe d’innocence, ils n’attireroient tant de
+                    peuples à leur cordele, &amp; si on leuoit le masque on ne vit iamais rien de si
+                    hideux &amp; espouuantable soubs ces apparences exterieures : sans le masque,
+                    tout ainsi que les Attelains, ils ne ioüeroient pas bien leur personnage &amp;
+                    n’auroient l’asseurance de se faire voir à descouuert. S’il est besoin
+                    d’affermir ceste verité d’auctoritez, <note place="margin"><hi rend="i">Homel.
+                            de Lazaro.</hi></note>S. Iean Chrysostome escrit que ceux qui masquent
+                            <quote><hi rend="i">font la feste de Satan</hi></quote> : S. Maxime de
+                    Turin, <quote><hi rend="i">qu’ils sont ministres du Diable</hi></quote>. <note
+                        place="margin"><hi rend="i">Homel.</hi> 10. <hi rend="i">Serm.</hi> 155. 44.
+                            <hi rend="i">dist. c.</hi> 7. <hi rend="i">&amp; de consec. dist. s. c.
+                            nullus.</hi></note>S. Pierre de Rauenne, <quote><hi rend="i">que le
+                            Diable est inuenteur des masques</hi></quote>, &amp; le Canon par deux
+                    fois enjoinct aux clercs <quote><hi rend="i">de ne permettre que l’on porte
+                            masques en leur presence d’autant que c’est chose
+                        diabolique</hi></quote> : demeurant resolu que le Diable est autheur des
+                    masques par la relation qu’il y a du pere à la fille, &amp; par consequent du
+                    Diable à l’Idolatrie sa fille aisnee, cela me releue de faire preuue que masquer
+                    est idolatrer.</p>
+                <p><note place="margin"><hi rend="i">Masquer est idolatrer. Glossar.
+                        Vet.</hi></note>Si ne veux-je pourtant laisser de le prouuer par abondance
+                    de droit, <hi rend="i">Larua &amp; Eidolon</hi>, sont synonimes qui signifient
+                    vne mesme chose, l’vn est Grec &amp; l’autre est Latin : ceux qui sont versez en
+                    l’antiquité Payenne sçauent que l’on masquoit aux festes instituées en l’honneur
+                    des <pb n="5" xml:id="p5"/>Idoles dictes<note place="margin"><hi rend="i"
+                            >Festus, Tertull. Herodian. lib.</hi> 1. <hi rend="i">Concil.
+                            Constantin</hi> 6. <hi rend="i">c.</hi> 6. <hi rend="i">Liuius
+                            decad.</hi> 2. <hi rend="i">Inst. lib.</hi> 43. <hi rend="i">Macrobius.
+                            Herodianus lib.</hi> 1.</note>
+                    <hi rend="i">Matronalia</hi>, <hi rend="i">Sacra Deæ Magnæ</hi>, <hi rend="i"
+                        >Brumalia</hi>, <hi rend="i">Oscilla</hi>, <hi rend="i">Lupercalia</hi>, <hi
+                        rend="i">Saturnalia</hi>, &amp; qu’il estoit loisible en aucunes de ces
+                    festes de s’habiller à sa guise, &amp; de prendre tel personnage que l’on
+                    vouloit : par le rapport de l’vne d’icelles à nos masquarades nous verrons que
+                    ce n’est qu’vne mesme chose : sur la fin de l’annee &amp; au mois de Feburier
+                    (l’annee commençant lors au mois de Mars) les Luperques à demy-nuds &amp; a
+                    demy-ceincts de peaux en l’honneur du Dieu Lupercus, <note place="margin"><hi
+                            rend="i">Gelasius ibid.</hi></note>&amp; en la memoire de la natiuité de
+                    Rhemus &amp; Romulus masquez couroient les ruës, <note place="margin"><hi
+                            rend="i">Festus lib.</hi> 3. <hi rend="i">in Crepi.</hi></note> &amp;
+                    tenant en leurs mains des masses de peau de chieure frappoient les femmes qui se
+                    presentoient à eux a demy-nuës, croyant par ce moyen les rendre habiles à
+                    conçeuoir &amp; plus faciles à enfanter sans tranchees &amp; douleurs. Nos
+                    masques sur la fin de l’an courent les ruës masquez &amp; deguisez en fols, en
+                    l’honneur de la natiuité du fils de Dieu tenant des masses à la main farcies de
+                    paille ou de bourre en forme de brayete, frappent hommes &amp; femmes en quoy
+                    visiblement ils idolatrent : le sçauant Tertulien &amp; Iurisconsulte donne
+                    place aux masques à la rubrique de l’Idolatrie, tous les Peres &amp; les
+                    Conciles les rangent là, il n’en faut point mandier vn plus ample tesmoignage
+                    puis qu’il demeure constãt que les Payens se masquoiẽt en l’adoration de leurs
+                    idoles, &amp; c’est la cause pour laquelle nous lisons aux liures des Peres,
+                    &amp; entre autres <note place="margin"><p><hi rend="i">To</hi> 1. <hi rend="i"
+                                >Epist. decret.</hi></p>
+                        <p><hi rend="i">To.</hi> 2. <hi rend="i">Epist. decret.</hi></p></note> en
+                    l’Epistre de S. Gelase 1. contre Andromache, &amp; de S. Boniface Archeuesque de
+                    Maience au Pape Zacarie, &amp; aux <note place="margin"><hi rend="i">Surius
+                            to.</hi> 3. <hi rend="i">Non Iun. lib.</hi>6.<hi rend="i"
+                        >c.</hi> 193.</note><pb n="6" xml:id="p6"/>Capitulaires de S. Charlemaigne,
+                    que ceste maniere de masquer est deriuee du Paganisme &amp; insensiblement
+                    escoulee aux esprits des Chrestiens qui les a en fin renduz insensez (face Dieu
+                    que non insensibles &amp; endurcis en leur mal sans espoir de guarison.)</p>
+                <p><note place="margin"><hi rend="i">Masquer est heresie.</hi></note> Pour monstrer
+                    que c’est heresie de masquer à Noel &amp; autres festes, voire à vray dire vn
+                    acueil d’heresies. <note place="margin"><hi rend="i">S. Irenæus, Epiphani.
+                            Philastrius. Augustin. Geruas. Tilleber. m. s. l.</hi> 1. <hi rend="i"
+                            >c.</hi> 2. <hi rend="i">Alanus de quadri part. doctr. lib.</hi> 1. <hi
+                            rend="i">c.</hi> 2.3.4.<hi rend="i">m. s.</hi> 2. <hi rend="i"
+                            >Corinth.</hi> 2.4.16.</note> Il est certain que les sectes des Caïens,
+                    Sethiens, Carpocrasiens, Cerdoniens, Manicheens, Patriciens, Symachiens, des
+                    Albigeois &amp; Vaudois, sont tombées en cest erreur qu’il y auoit deux vertus
+                    &amp; deux puissances supremes, Dieu &amp; le Diable, que Dieu creoit l’homme
+                    interieur qui est l’ame, &amp; le Diable creoit l’homme exterieur qui est le
+                    corps, que egalement ils exerçent leurs puissances sur leurs creatures, <note
+                        place="margin"><hi rend="i">Burchard. lib.</hi> 5. <hi rend="i">c.</hi> 19.
+                            <hi rend="i">de consecr. dist.</hi> 2. <hi rend="i">c.</hi> 21.</note>
+                    en sorte que l’ame touchee du doigt de son Createur lors qu’elle se dispose aux
+                    saincts iours suiuant les constitutions de l’Eglise à bien faire, à viure
+                    reglément &amp; à se repaistre de ce banquet mystique &amp; incomprehensible,
+                    pour au iour natal de nostre Sauueur renaistre auec luy : a donc le Diable faict
+                    roidir le corps contre l’ame pour la diuertir &amp; faire descheoir de l’estat
+                    de grace, seigneuriant sa creature la barboüille, la masque, &amp; luy faict
+                    courir les ruës auec des gestes deshõnestes &amp; desbordés, ceux qui masquent
+                    se precipitẽt en ces heresies abominables &amp; font hommage au Diable :
+                            <quote><note place="margin"><hi rend="i">Tertullian. contra Gnostic.
+                                Irenæus, Epiphani. Philastri hæresit</hi> 73.</note><hi rend="i">Les
+                            Gnotisques &amp; Borboriens du tout adonnez à leurs sensualitez, sans
+                            espoir de salut &amp; sans crainte du iugement, se veautroient dans <pb
+                                n="7" xml:id="p7"/>des bourbiers, se plastroient &amp; embourboient
+                            leurs visages, difformoient leurs corps, &amp; auec ceste difformité
+                            vagabondoient blasphemant contre Dieu le Createur &amp; sa creature,
+                            qu’ils preschoient vile &amp; abiecte &amp; comme telle blasmable de
+                            toutes personnes.</hi></quote> Les masques ne font ils pas reuiure ceste
+                    heresie quand ils trãsforment le visage moulé &amp; embelly de la main ouuriere
+                    de Dieu &amp; à sa semblance, en vn hideux spectre, &amp; en vne forme du tout
+                    difforme <quote><note place="margin"><hi rend="i">Homel.</hi> 10.</note>
+                        <hi rend="i">&amp; d’vne bastarde saleté le des-honnorent</hi></quote>,
+                    comme dit S. Maxime Euesque de Turin : n’est ce pas accuser l’ouurage de Dieu ?
+                    desfaire ce qu’il a faict ? couurir ce qu’il veut estre nue ? deguiser ce qu’il
+                    commande estre sans fard &amp; deguisement ? <note place="margin"><hi rend="i"
+                            >SS. Iren. Epiphan. Phil. Augustin.</hi></note>Les heresies de Marcus,
+                    de Cerdon, &amp; autres, estoient que le fils de Dieu eternel n’auoit pris qu’vn
+                    corps vmbratil, imaginaire &amp; phantastic : n’est ce pas auctoriser ceste
+                    doctrine quand on se transmuë en phantosmes le iour de sa natiuité ? ceux qui
+                    masquent ne sont-ils pas vrays phantosmes partisans de ces heresiarques &amp; de
+                    leur creance ? laquelle ils representent se metamorphosans de ceste forte, &amp;
+                    choppent contre le mystere de l’incarnation &amp; la foy constante de l’Eglise
+                    catholique : <note place="margin"><hi rend="i">Iidem qui supra Gennad.
+                        c.</hi> 32. <hi rend="i">D. Hieron. contra Heluidium</hi>.</note>Carpocras,
+                    Heluidius, &amp; leurs sectateurs déroboient a Iesus Christ l’honneur d’estre
+                    fils de Dieu &amp; à la vierge la gloire de sa pudicité sans macule, laquelle
+                    nous est chantee &amp; rechantee par l’Eglise qui separe à ce iour d’ornemens
+                    blancs pour tesmoigner la pureté de la Vierge, <note place="margin"><hi rend="i"
+                            >Tertull. de spect. D. Cypria. de Virginib. Artemidor. Lib.</hi> 2. <hi
+                            rend="i">c.</hi> 3.</note> &amp; ceux qui masquent se vestent
+                    d’habillemẽs de diuerses couleurs hieroglifiques de corruptelle &amp; <pb n="8"
+                        xml:id="p8"/>d’impureté, en quoy ils choient en l’heresie des Carpocrasiens
+                    &amp; Heluidiens, &amp; enueloppent le fils de Dieu tout sainct, tout-pur &amp;
+                    tout-net, dans des drapeaux sales, vergoigneux &amp; impures.</p>
+                <p>Tout ainsi que ces heresies ont esté condamnees &amp; ana thematisees par les
+                    saincts Peres &amp; Conciles, de mesmes aussi les masques. <note place="margin"
+                            ><hi rend="i">S. Pascianus in Parænesi de pœnit.</hi></note>S. Paccien
+                    Euesque de Barcelonne prit la peine d’en escrire elegamment vn liure entier
+                    intitulé <hi rend="i">de Ceruolo</hi>, pour la raison que nous en rendrons :
+                        <note place="margin"><hi rend="i">Homel. de Kalendis Ianuar. &amp; de
+                            Lazaro.</hi></note>S. Iean Chrysostome a desployé les forces de son
+                    eloquẽce pour abolir ceste coustume la depignant des viues couleurs du
+                    Paganisme : <note place="margin"><hi rend="i">Sermo</hi> 17. <hi rend="i"
+                            >to.</hi> 10. <hi rend="i">Edit Louan Durandus Mimaten lib.</hi> 6. <hi
+                            rend="i">tit.</hi> 15. <hi rend="i">Pioch hist. Lombard. c.</hi> 16. <hi
+                            rend="i">Homel.</hi> 10.</note>S. Ambroise la bannit de Milan &amp; de
+                    son diocese : S. Aug. ne l’a en rien espargnee la portrayãt descharnee auec de
+                    beaux traits de plume, ausquels ie renuoye le lecteur, pour venir à ceux qui
+                    sont moins cogneuz &amp; maniez : S. Maxime Euesque de Turin, qui viuoit en l’an
+                    400. de nostre salut faict foy que long temps auant luy les saincts Peres
+                    auoient ahané pour tollir &amp; aneantir les masques, &amp; qu’il estoit
+                    contrainct de reprendre leurs brisees, à fin de poursuiure &amp; cõbatre ces
+                    monstres des masquarades. <quote><hi rend="i">Ie croy estre necessaire &amp; non
+                            superflu si par vn sainct aduertissement ie reitere les sermons des
+                            Peres qui m’ont devancé, &amp; de verité il ne sera ni pesant ni
+                            ennuyeux pour l’aduencement de nostre salut de dire souuent &amp; souuẽt
+                            ouyr choses vtiles &amp; agreables à Dieu : Partant mestres chers
+                            freres, vous retenans dans la foy &amp; deuotion acoustumee, tenans la
+                            voye de religion &amp; chemin de verité, fuyez les destours des erreurs
+                            et mesprisez les masques diaboliques : car l’ame fidelle qui souhaitte
+                            la compagnie des Anges nee <pb n="9" xml:id="p9"/>doit se plaire aux
+                            illusions des demons, &amp; entre les seruiteurs de Dieu il n’y a nulle
+                            participation de la lumiere auec les tenebres, de la verité auec le
+                            mensonge, &amp; de l’honneur auec le deshonneur, comme nous instruict le
+                            docteur des Eglises, disant, quel accord y a il de Iesus Christ auec
+                            Belial ? &amp; quelle conuenance du temple de Dieu auec les Idoles ?
+                            Quiconque donc des croyans est le temple de Dieu ou desire l’estre, que
+                            soigneusement il se garde qu’en ensuyuant les choses vaines &amp; mortes
+                            il ne soit le manoir des tenebres &amp; le monumẽt du
+                        Diable.</hi></quote> Peu aprés il adiouste, <quote><hi rend="i">la maladie
+                            de ceux-là est grãde &amp; incurable qui espriz de fureur des
+                            superstitions, apaz &amp; attraitz des ieux soubs ombre de sagesse
+                            folient, cela ne surpasse-il point toute folie quand ils enlaidissent
+                            &amp; barboüillent la beauté du visage humain formé de la main de Dieu
+                            &amp; perfectionné à merueilles ?</hi></quote> Là se voyent les masques
+                    naïuement descrits aussi bien qu’en l’Homelie de S. Pierre Euesque de Rauenne,
+                    qui ne dement point son nom de parole doree. <quote><hi rend="i">Lors que nostre
+                            Seigneur est ne pour nostre salut à l’instant de Diable a introduit
+                            contre l’honneur de Dieu infiniz pernicieux monstres de masquarades,
+                            pour rendre nostre religion ridicule, pour tourner la saincteté en
+                            sacrilege, &amp; de l’honneur de Dieu faire iniure à Dieu
+                        mesmes.</hi></quote>
+                    <note place="margin"><hi rend="i">Tom.</hi> 1. <hi rend="i">Epist.
+                        decret.</hi></note>S. Gelase permier de ce nom en l’epistre contre
+                    Andromache Senateur qui vouloit renouueler les masquarades escrit, <quote><hi
+                            rend="i">Comment celuy n’est-il pas sacrilege qui ayant abiuré &amp;
+                            renié la puissance &amp; prouidence d’un seul Dieu qu’il a professees au
+                            Baptesme, se laisse emporter &amp; seduire à quelques prodigieuses
+                            superstitions &amp; feintes vanitez ?</hi></quote> par aprés. <quote><hi
+                            rend="i">Nès-tu pas crimineux &amp; coulpable qui après ta profeßion de
+                            foy retournes aux masquarades <pb n="10" xml:id="p10"/>peruerses,
+                            deprauees, prophanes &amp; diaboliques ausquelles tu as renoncé ? Pour
+                            ceste occasion on te doit du tout interdire la communion du sacrement,
+                            car tu ne peux participer à la table du Seigneur &amp; à la table des
+                            Demons, ne boire le calice du Seigneur &amp; le calice des Demons, ni ne
+                            peux estre le temple de Dieu &amp; le temple du Diable, la lumiere &amp;
+                            les tenebres ne peuuent conuenir ensemble</hi></quote>, &amp; ce que
+                    s’ensuit escrit d’vn stile releué. Ie finiray par S. Boniface Euesque de Majence
+                    &amp; Legat de sa Saincteté qui se plainct au Pape Zacarie de ce que ayant
+                    publiquemẽt &amp; ouuertement combatu l’idolatrie &amp; deffendu les masques
+                    comme illicites, les Allemãs, ceux de Bauieres &amp; les François derogoient à
+                    la foy &amp; creance de ses predications, les croyans licites pour les auoir
+                    veuz pratiquer à Rome, aux Calendes de Ianuier en l’honneur de Ianus<note
+                        place="margin"><hi rend="i">De diuin. offi c.</hi> 4. <hi rend="i">hist.
+                            Lombard. cap.</hi> 16.</note> : <quote><hi rend="i">les Idiotz</hi><seg
+                            type="exquote">, ainsi que remarque Alcuin precepteur de
+                            Charlemaigne</seg>, <hi rend="i">reuerants Ianus comme Dieu ont consacré
+                            son iour à plusieurs vilainies, quelques vns d’entr’eux se
+                            transformoient en monstres &amp; transfiguroient en formes de bestes
+                            sauuages &amp; d’animaux, les autres s’abilloient en femmes, &amp; en
+                            ceste maniere saultoient &amp; vagabondoient parmy les
+                    rues</hi></quote>, à la suitte de ceste remarque il adiouste, parlant de son
+                    temps, <quote><hi rend="i">mais d’autant que par la grace de Dieu les fidelles
+                            n’en tiennent compte iaçoit que quelques ressemblances restent encores
+                            parmy les rustiques &amp; mal instruicts, lesquelles toutesfois il faut
+                            de tout nostre poßible prohiber &amp; oster</hi><note place="margin"><hi
+                                rend="i">Alcuin. ibid. &amp; martyrogia Kal.
+                        Ian.</hi></note></quote> : bref S. Almache martir repandit librement son
+                    sang pour estancher la cruauté des gladiateurs, &amp; arrester le desordre &amp;
+                    superstition des masquarades, &amp; <pb n="11" xml:id="p11"/>par la sentence de
+                    mort de l’impie &amp; impiteux Alipius Prefect de Rome consacra son martire à ce
+                    iour de Ianuier : par ceste entresuite des saincts Peres de l’Eglise, on voit
+                    comme ils ont employé toutes les forces de leur entendemẽt pour arracher des
+                    esprits des Catholiques, ces superstitieuses &amp; idolatres masquarades, les
+                    Conciles y ont trauaillé à l’enuy : <note place="margin"><hi rend="i">Cap.</hi>
+                        5. <hi rend="i">Burchard. to.</hi> 33. <hi rend="i">Iuo.</hi> 11.58.11. <hi
+                            rend="i">c.</hi> 18. <hi rend="i">Burchard.</hi> 10.17.<hi rend="i"
+                            >c.</hi> 10 <hi rend="i">c.</hi> 62. <hi rend="i">can.</hi> 16. <hi
+                            rend="i">Can. c.</hi> 80. <hi rend="i">cap.</hi> 74. <hi rend="i"
+                            >lib.</hi> 10 <hi rend="i">&amp;</hi> 19. <hi rend="i">parij.
+                            pannorm.</hi> 26. <hi rend="i">q. vlt. li.</hi> 12. <hi rend="i"
+                            >tit.</hi> 23. <hi rend="i">Ti,.</hi> 7. <hi rend="i">ca.</hi> 1. <hi
+                            rend="i">c.</hi> 24.</note>ceux de nostre France à sçauoir ceux d’Arles,
+                    de Tours, d’Auxerre, de Roüen, de Nantes, &amp; ceux de Constantinople 6. &amp;
+                    8. de Rome tenus soubs le Pape Zacarie, de Bragara &amp; Martin Euesque de ce
+                    mesme lieu de Bragara en sa collection des Canons y a contribué, &amp; à son
+                    exemple Burcard, Yues Euesque de Chartres, Hildebert du Mans, Gratian &amp;
+                    Anthoine Augustin en leurs decrets, les Penitenciers de Rome &amp; de Raban
+                    Archeuesque de Majance, indisent de grieues peines à ceux qui masquent &amp;
+                    idolatrent, <note place="margin"><hi rend="i">Balsamo synodi Trullensis c.</hi>
+                        62.</note>&amp; les Peres s’estans apperçeuz que ce mal estoit incurable
+                    &amp; que les remedes l’empiroient au lieu de le guerir, s’aduiserent de
+                    diuertir l’vsage des masques que l’on faisoit en habit de fols, de Satyres,
+                    Comediens &amp; Trajediens, ou en forme d’animaux, d’idoles &amp; de monstres,
+                    &amp; en leur place de representer la natiuité du fils de Dieu, le reueil de
+                    l’Ange aux Pastres, la Circoncision, l’estoille les trois Roys &amp; semblables
+                    histoires. <note place="margin"><hi rend="i">Glossa, Innocent. &amp; Panormit.
+                            in cap. cum decorem de vita &amp; honest. cleric.</hi></note>Ce
+                    neantmoins ayants par ceste diuersion abrogé l’vsage des masques que
+                    ressantoient le Paganisme : Ils n’ont laissé par apres de retrancher ces
+                    representations des histoires sacrees, preuoyant bien qu’il <pb n="12"
+                        xml:id="p12"/>arriueroit ce qui est depuis aduenu, c’est qu’elles feroient
+                    reprendre ces vieilles erres &amp; eronnees superstitions : de sorte que
+                    Innocent 3. s’escrie <quote><note place="margin"><hi rend="i">Collec.</hi> 3.
+                                <hi rend="i">decret. lib.</hi> 3 <hi rend="i">tit.</hi> 1. <hi
+                                rend="i">c.</hi> 4.</note><hi rend="i">de ce qu’on faict des ieux de
+                            theatre dans les Eglises, &amp; non seulement des bastelleries, mais on
+                            introduict des mommeries, &amp; qu’aux trois festes apres le iour de
+                            Noel les soubs-Diacres, Diacres &amp; Prestres exerceans leurs farceries
+                            &amp; folies par des gestes honteux, raualent &amp; auillissent
+                            l’honneur du Clericat au grand scandale du peuple, qu’ils deuroient
+                            plustost instruire par leurs predications. Doncques arrachez de vos
+                            Eglises ceste mauvaise coustume, ou à mieux dire ceste
+                        corruptele</hi></quote>, <note place="margin"><hi rend="i">Synod. Trullensis
+                            c.</hi> 62.</note>le Patriarche Balsamõ la blasme <note place="margin"
+                            ><hi rend="i">Can.</hi> 16.</note>ores que le Patriarche Theophilacte
+                    fils de l’Empereur Romanus Lucapenns l’eust instituée en l’Eglise de
+                    Constantinople : <note place="margin"><hi rend="i">Can.</hi> 25. <hi rend="i">De
+                            decretis morii, c.</hi> 16. <hi rend="i">&amp; de Cathedralib. Eccles.
+                            c.</hi> 26. <hi rend="i">Can. ad hæc quidam. cano. c.</hi> 9. <hi
+                            rend="i">&amp;</hi> 11. <hi rend="i">Acta capit. anno Chr.</hi>
+                        1450.</note>le Concile 8. de Constantinople deffend auec vne aigre piqueure
+                    ces ieux, danses &amp; masquarades : le Concile de Basle, la Pragmatique
+                    Sanction, le Concile de Coloigne, les Synodes de Salisburg &amp; de Tournay
+                    conspirẽt &amp; d’vn commun accord condemnent les festes des fats &amp; des fols
+                    que l’on celebroit aux festes de Noel : &amp; le venerable Chapitre de l’Eglise
+                    Cathedrale de ceste ville de Clairmont composé de graues personnages, par acte
+                    solemnel du 5. de Decembre 1450. les bannit à perpetuel de l’Eglise &amp; de son
+                    diocese, &amp; auec regretie suis contrainct de dire que quelques Eglises
+                    exemptes les retiennẽt encores au grand desauantage de l’estat Ecclesiastique.
+                    Voila les masques condamnez par les Conciles &amp; Synodes, par les decrets
+                    &amp; decretales, &amp; par les autheurs des penitenciels.</p>
+                <p><pb n="13" xml:id="p13"/><note place="margin"><hi rend="i">Lib.</hi> 6. <hi
+                            rend="i">c.</hi> 193.</note> Venons aux Edicts &amp; ordonnances de nos
+                    Roys, &amp; voyons s’ils sont plus indulgens : Charlemagne ordonne que toutes
+                    façons Payennes soyent chassees de son empire signamment les masquarades,
+                    François <hi rend="sc">i</hi>. en l’an 1539. Charles <hi rend="sc">ix</hi>.
+                    1561. Henry 3. 1579. 1580. ont faict de belles ordonnances contre les masques
+                    pour les inconueniens, volleries &amp; assacinats commis par personnes masquez
+                        <note place="margin"><p><hi rend="i">Legis Longobard. tit.</hi> 12. §. 1.
+                                <hi rend="i">du</hi> 25.<hi rend="i">d’Auril</hi>, 1514. <hi
+                                rend="i">Papon. l’an</hi> 1548. <hi rend="i">Carondas.</hi></p>
+                        <p><hi rend="i">Du</hi> 25. <hi rend="i">de Iuillet</hi>, 1551. <hi rend="i"
+                                >Terrien l.</hi> 4. <hi rend="i">c.</hi> 24. <hi rend="i">Gregor. in
+                                Syntagma. Iuris Ciuil.</hi></p></note>que le Roy Rotarit appelle <hi
+                        rend="i">VValapaus</hi> : par Arrest du Parlement fut deffedu à tous
+                    marchans de Paris de vendre &amp; tenir masques, &amp; trois hommes vils trouuez
+                    masquez furent condamnez à estre fustigez de verges au preau de la Conciergerie
+                    &amp; banniz pour quelque temps : Bref par autre Arrest subsequent fut deffendu
+                    de porter &amp; vẽdre masques &amp; par plusieurs Arrests des Cours souueraines,
+                    &amp; speciallement en ceste ville par les ordonnãces de mes predecesseurs y à
+                    presque cent ans long temps auant ces ordonnances &amp; Arrests.</p>
+                <p><note place="margin"><hi rend="i">Masquer est contre les bonnes
+                        mœurs.</hi></note> Que masquer ne soit contre les bonnes moeurs mesmes entre
+                    les Payens, prenons en à tesmoin Plutarque, lequel discourant des enfans perdus
+                    &amp; desbordez parle ainsi<note place="margin"><hi rend="i">Au traitté comment
+                            il faut nourrir les enfans.</hi></note> : <quote><hi rend="i">Les vns
+                            cõsument tout en despẽce de bouche, les autres à iouër aux dez &amp; à
+                            faire masques &amp; mommeries</hi></quote> : le mesmes, <quote><hi
+                            rend="i">les pechez des ieunes gens en leur adolescence bien souuent
+                            sont enormes, comme vne yurongnerie, vne gourmandise, larrecin d’argent
+                            de leurs peres, ieux de dez, masques &amp; mommeries, amours de filles,
+                            adulteres de femmes mariees</hi></quote> : Prenez garde ie vous prie
+                    comme il met les masques entre les choses infames, à quoy s’accorde le
+                    Iurisconsulte <pb n="14" xml:id="p14"/> Paul, <quote><note place="margin"><hi
+                                rend="i">Lib.</hi> 3. <hi rend="i">tit.</hi> 3. §.2.</note><hi
+                            rend="i">les conditions apposees contre les Loix &amp; constitutions des
+                            Empereurs &amp; contre les bonnes mœurs sont de nulle force &amp;
+                            valeur : par exemple, si tu ne prens point de femme, si tu n’as point
+                            d’enfans, si tu homicides, si tu vas masqué, &amp; autres
+                            semblables.</hi></quote> Masquer est doncques par vne illation
+                    necessaire coutre les bonnes moeurs &amp; contre l’hõnesteté publique, mesmes
+                    entre les Payens, à plus forts termes entre les Chrestiens &amp; fideles qui les
+                    doiuent surpasser en modestie &amp; honnesteté de moeurs : <note place="margin"
+                            ><hi rend="i">Genes. c.</hi> 28.</note>Thamar n’eust iamais violé
+                    l’honneur de son vefuage &amp; commis inceste auec Iudas son beaupere, si elle
+                    ne se fut masquee : C’est ceste mort pourpree qui tyranniquement a rauy la vie,
+                    &amp; la chasteté à infinies vierges, assassiné innumerables personnes, cõme
+                    deplore S. Clement Alexandrin<note place="margin">2. <hi rend="i">Pædag.
+                            cap.</hi> 10.</note>, iamais on n’eust sentencié à mort le parangon de
+                    toute sagesse humaine Socrates<note place="margin"><hi rend="i">Eunapius in
+                            Ædesio.</hi></note> si artistement Aristophane n’eust soubs le masque de
+                    la Comedie fait creuer les nuës &amp; pleuuoir sur luy toutes sortes d’iniures,
+                    donnant de mauuaises impressions aux spectateurs, &amp; les armant &amp; animant
+                    contre l’innocence de ce Philosophe. <note place="margin"><hi rend="i">Herodian.
+                            lib.</hi> 1.</note>Materne desguisé aux festes de la Déesse Pesinonce
+                    mere des Dieux soubs l’habit &amp; masque d’vn des garde-corps de l’Empereur
+                    attenta à la vie de Commodus : Combien de voleries, d’assassinats, de
+                    parricides, de meurtres, de rauissemẽs, d’adulteres, de larrecins ont esté
+                    commis par les masques ; Ie renuoy le lecteur aux histoires &amp; exemples
+                    ordinaires. Ie passe soubz silẽce la masquarade ardẽte qui faillit de brusler vn
+                    de <pb n="15" xml:id="p15"/>nos Roys<note place="margin"><hi rend="i">Anno
+                            Chr.</hi> 1394. <hi rend="i">Guag. Serres.</hi></note> : Ie laisse à
+                    part les blasphemes, paroles diffamatoires &amp; iniurieuses proferees contre
+                    l’hõneur de Dieu &amp; de ses SS contre les Potentats, contre les gens de bien,
+                    par les Comediens &amp; Satyriques masquez. <note place="margin"><hi rend="i"
+                            >Roman. antiq. lib.</hi></note>La Déesse des Comediens Polyhynnia se
+                    void esleuee en bosse à Rome tenãt vn masque à sa dextre, la Comedie de mesmes,
+                    &amp; aux deux coings du sepulchre de Terence y auoit deux masques en sculpture,
+                        <note place="margin"><hi rend="i">Petron. in Saty. &amp; ex eo Ioan. Salib.
+                            Sueton. in Augusto. Vet. Interpr. Iuuenal.</hi></note>non seulement pour
+                    ioüer diuers personnages, mais aussi pour monstrer que ceste vie est vn theatre
+                    sur lequel toutes sortes de personnes de quelque estat &amp; qualité qu’ils
+                    soient ioüent leurs personnages, la Satyre est aussi masquee portant en main vn
+                    flambeau pour esclairer les peruerses actions des hommes.</p>
+                <p><note place="margin"><hi rend="i">Aristanet. Epist.</hi> 26.</note>Que ce traité
+                    qui porte au front vn masque te soit la Déesse Polyhynnia qui te represente les
+                    masques, te soit le flambeau de la Satyre qui t’esclaire pour te faire voir
+                    combien les masques sont hideux &amp; horribles Souuienne toy que <hi rend="i"
+                        >Masque</hi> est vne iniure atroce qu’est autant à dire qu’vne sorciere, non
+                    seulement en nostre langue, mais aussi<note place="margin"><hi rend="i">Legis
+                            Longob. tit.</hi> 76. §. 1. <hi rend="i">&amp; tit.</hi> 116. §. 1. <hi
+                            rend="i">Ocier. Impe. lib.</hi> 3. <hi rend="i">c.</hi> 87. <hi rend="i"
+                            >vbi supra. C. cum decorem de vitæ &amp; honest. Cleric.</hi></note> en
+                    Lombard, Toscan, &amp; Anglois Geruais de Tilleberie <hi rend="i">sorcieres que
+                        le vulgaire nõme masques, &amp; en langaige François striges</hi> : qu’il te
+                    souuienne que SS. Maxime. Pierre Chrisologue, Gelase &amp; Alcuin les appellent
+                        <hi rend="i">prodiges</hi>, Innocent 3. <hi rend="i">monstres</hi>, les
+                    mesmes <hi rend="i">spectres diaboliques</hi> : tout ainsi qu’vne mere nourrice
+                    pour regler la fougue des petits enfans &amp; venir à bous d’eux, les menace de
+                    les faire deuorer par le Barbauld qu’est vn espouuentaire &amp; vn pourtraict
+                        <pb n="16" xml:id="p16"/>masqué, <note place="margin"><hi rend="i">Cœl,
+                            Aurel. Chron lib.</hi> 1. <hi rend="i">c.</hi> 4. <hi rend="i">Guillel.
+                            Aruernus. Paris. Episc. de morib.</hi> P. 99. <hi rend="i">&amp;</hi>
+                        107.</note>aussi nostre commune mere l’Eglise pour te ranger à ton deuoir
+                    &amp; te faire ploier à ses ordonnances &amp; employer les saincts iours en
+                    prieres &amp; bonnes oeuures, te r’amener au chemin de salut, duquel ces folies
+                    te forlignent par les homelistes &amp; saincts docteurs, tes peres nourriciers
+                    te represente les masques dautant plus horribles &amp; espouuẽtables qu’ils sont
+                    reuestuz de robes de sorciers, d’heretiques &amp; idolatres. Les gaudisseurs
+                    &amp; libertins repartiront, &amp; ceux qui sont plustot portez à masquer par
+                    vne facilité, par l’exemple de leurs peres &amp; par coustume inueteree qui les
+                    violente, que par vn mauuais naturel &amp; propension de malfaire, mettans les
+                    masques entre les choses indifferentes, repartiront dis-ie que les SS. Peres
+                    &amp; les Conciles ont declamé contre les gentils qui masquoient en l’honneur
+                    des idoles, qu’ils condemnẽt l’idolatrie auec eux, pour leur regard qu’ils sont
+                    poussez d’autres mouuemens, que c’est pour mener ioye de la natiuité du fils de
+                    Dieu, &amp; s’esgayer honnestement comme l’on faict aux natiuitez des Saincts :
+                        <note place="margin"><hi rend="i">Traicté des Confrairies.</hi></note>à plus
+                    forte raison en celle-cy qu’est le iour natal du S. des saincts que les Payens
+                    &amp; idolatres se masquoient en vn autre tẽps, d’autre façon &amp; à autre fin,
+                    &amp; quant à eux qu’ils n’ont intentiõ que de passer le temps ioyeusement de
+                    donner quelque relasche au corps &amp; à l’esprit harassez du trauail durant le
+                    cours de l’annee. Ils se couurent d’vn fac moüillé &amp; au lieu de s’excuser
+                    ils s’accusent dauantage, &amp; ce n’est pas parer aux coups que l’Eglise lance
+                    contre les mascarades, c’est se flatter, c’est se plaire <pb n="17" xml:id="p17"
+                    />en son mal : i’ose dire que te masquant tu faits cõme les Payens : ils
+                    masquoient en l’hõneur de leurs idoles croyãt qu’ils fussent vrais Dieux, &amp;
+                    roy qui doit croire vn seul Dieu, te masque à la guise des idolatres &amp; ne
+                    crois les Idoles, leur foy &amp; creãce les excuse, la tienne t’accuse, en ce
+                    que tu fais les actes d’idolatres sans croire les idoles pour Dieux, &amp; au
+                    lieu d’honnorer Dieu tu le deshonnore, &amp; en faisant les actes des idolatres
+                    tu idolatres, &amp; plus grieuemẽt que les idolatres mesmes : Dieu les auoit
+                    priuez de la lumiere de la foy &amp; les auoit faict cheoir aux tenebres des
+                    vanitez, Dieu t’a esclairé &amp; tu vis en tenebres. Voicy cõme les Chrestiens
+                    ont choppé lourdement &amp; sont cheuz en des encombres d’erreurs, quand Dieu
+                    les a priuez de sa guide &amp; de la lumiere de la foy entre autres en celle des
+                    masquarades : les Chrestiens ont esté tellement abrutifs qu’ils se sont trasmuez
+                    en bestes &amp; ont prins les formes des cerfs &amp; des bœufs, &amp; d’autres
+                    animaux. Et ie pense que c’est la raison pourquoy S. Paccian<note place="margin"
+                            ><hi rend="i">Paccianus in paræn. ad pœnit.</hi></note> a intitulé son
+                    liure <hi rend="i">de Ceruolo</hi>, comme il tesmoigne en son enhortement à la
+                    penitence, &amp; S. Hierome parlant de ses escris au liure des hommes illustres.
+                    Et pource que ie sçay que les plus doctes hesitent en cela &amp; sont en peine
+                    de sçauoir que c’estoit ; &amp; pourquoy il a adonné ce tiltre à son liure en
+                    passant ie l’esclairciray dautant plus volontiers que cela faict à nostre
+                    propos, <note place="margin"><hi rend="i">Concil. Antißiodor. c.</hi> 1. <hi
+                            rend="i">Burchard. li.</hi> 19. <hi rend="i">c.</hi> 51 <hi rend="i"
+                            >dist.</hi> 98.</note>&amp; à l’esclaircicement d’vn de noz Conciles
+                    François &amp; d’Auxerre qui deffẽd <quote><hi rend="i">Ceruolo aut vecola
+                            facere</hi></quote> le premier iour de l’an, &amp; le penitentiel de
+                    Burchard donne vne penitẽce <pb n="18" xml:id="p18"/>d’vn ieusne de trente iours
+                    au pain &amp; à l’eau à ceux qui aux Kalendes de Ianuier <quote><hi rend="i"
+                            >faciunt in Ceruolo, vel in vegula</hi></quote> : pour moy ie pense que
+                    celà se peut approprier à cest aueuglement qui faisoit transformer les
+                    Chrestiens en bestes rousses &amp; fauues, &amp; autres animaux. I’ay pour
+                    garent S. Augustin<note place="margin"><hi rend="i">Serm de Kal.
+                        Ianu.</hi></note>, <quote><hi rend="i">D’auantage en ces Kalendes ils
+                            prenoient des formes monstrueuses, les aucuns se vestent de peaux
+                            d’animaux, les autres mettans sur leurs chefs les restes des bestes,
+                            monstroient qu’ils auoient la figure &amp; le sens des bestes &amp;
+                            estoient vrayement insensez</hi></quote> Et S. Maxime de Turin en
+                    l’Homelie des Kalendes de Ianuier<note place="margin"><hi rend="i">Homel.</hi>
+                        10.</note>, que Gennade de Marseille<note place="margin"><hi rend="i"
+                            >Gennad. de viris Illust.</hi></note> luy attribuë : <quote><hi rend="i"
+                            >N’est-il pas vray que tout ce que l’on faict à ce iour est plain de
+                            vanité &amp; de folie, quand les hommes formez de Dieu se transforment
+                            en pecores, ou en bestes sauuages, ou en monstres ?</hi></quote> en quoy
+                    se rencontrẽt les deux ensemble <hi rend="i">en pecores</hi> c’est <hi rend="i"
+                        >vecula facere</hi>, faire le bœuf ou la vache, <hi rend="i">ceruolo</hi>
+                    c’est faire le cerf c’est à dire se transfigurer en ces bestes &amp; courir les
+                    ruës. S. Pierre de Rauenne sur la fin de l’homelie de ce mesme iour du premier
+                        Ianuier<note place="margin"><hi rend="i">Serm.</hi> 155.</note> : <quote><hi
+                            rend="i">destournons les Chrestiens qui se sont faicts semblables aux
+                            bestes, esgaulx aux iumens, &amp; pareils aux pecores, ont prins les
+                            formes des Demons.</hi></quote> Alcuin<note place="margin"><hi rend="i"
+                            >De diuin. offic. c.</hi> 4.</note> cõme i’ay rapporté le confirme &amp;
+                    s’escrie de ce que quelques ressemblances restoient encores en son siecle, qui
+                    ont bien passé oultre &amp; sont venues iusques au temps du Patriarche Balsamon
+                    lequel note<note place="margin"><hi rend="i">Syn. Trullensis. can.</hi>
+                        62.</note> les Clercs de son temps qui en certaines festes de l’an masquez
+                    &amp; trauestiz en soldats, en moines ou animaux, entroient dans la nef des
+                    Eglises, il en reste encores des <pb n="19" xml:id="p19"/>vestiges en plusieurs
+                    endroicts qui veulẽt trop naïfuement representer la natiuité du fils de Dieu par
+                    le bœuf &amp; l’asne. Ceste maniere de parler de <hi rend="i">ceruolo
+                        facere</hi> n’est estrange, &amp; S. Paccian dit <hi rend="i">Ceruulum
+                        facere</hi>, <note place="margin"><hi rend="i">In parænesi de pœnit. Concil
+                            Nãnet. c.</hi> 10.</note>le Burchard <hi rend="i">in ceruolo
+                    facere</hi>, tout ainsi que le Concile de Nantes a dit <hi rend="i">vrso
+                        facere</hi> Maintenant en noz masquarades on ne laisse rien à faire, il y a
+                    des masques qui representent des ours des loups, des chiens, des taureaux, des
+                    cerfs, des monstres, des Satires, des Diables, on les debite publicquement on
+                    les porte <quote><note place="margin"><hi rend="i">Petrus Chrisologus
+                                sermon.</hi> 155.</note><hi rend="i">ceux-là n’ont-il pas perdu
+                            l’image de Dieu, la ressemblance de Iesus Christ qui se transforment en
+                            des simulacres rempliz de sacrilege ? mais quelqu’vn dira ce ne sont
+                            point sacrileges, ce sont esbatemens, &amp; c’est vne ioye nouuelle, non
+                            vne vieille erreur, c’est le commencement de l’an, non vne offence des
+                            gentils, tu erres, ce ne sont point iouets, ce sont crimes, qui se iouë
+                            en impieté, en sacrilege, qui appelle le peché risee ? celuy se trompe
+                            bien fort qui en faict ce iugement, celuy est tyrã qui prend l’habit
+                            d’vn tyran, celuy qui se faict Dieu se reuolte contre Dieu, celuy n’a
+                            pas voulu porter l’image de Dieu qui porte celle d’vn Idole, qui vouldra
+                            gaudir auec le Diable ne pourra s’esiouyr en Iesus Christ, nul ne se
+                            iouë seurement avec vn serpent, nul ne se iouë impuneement auec le
+                            Diable, s’il nous reste tant soit peu de pieté, si nous auons esgard à
+                            nostre humanité, si nous auons soing du salut de nostre prochain,
+                            retirons ceux qui courent ainsi à toute course à perdition, qui sont
+                            rauiz á la mort, sont emportez aux enfers &amp; sont precipitez à la
+                            gehenne : Que le pere donc retire son enfant, le maistre son seruiteur,
+                            le parent son parent, le citoyen son concitoyen, l’homme l’homme, &amp;
+                            tous les Chrestiens, qui <pb n="20" xml:id="p20"/>se transforment en
+                            bestes, iumens, pecores, demons, &amp; celuy, qui les deliurera
+                            rẽportera le loyer, qui le mesprisera commettra offense, biẽ-heureux est
+                            celuy qui se garde de ne faire chose que bien a point, &amp; qui est
+                            soigneux du salut d’autruy.</hi></quote> On ne se retient point dans les
+                    bornes de modestie on les frãchit &amp; on s’eslance en toute effrenee licẽce,
+                    les femmes despoüillent la hõte auec leurs robes pour se masquer en hommes,
+                    l’homme est si deshonté de prendre l’habit de femme : oyez le Dieu eternel,
+                            <quote><note place="margin"><hi rend="i">Deuteron. cap.</hi> 22.</note>
+                        <hi rend="i">la femme n’aura point les habits de l’homme, &amp; l’homme ne
+                            vestira point les vestemens de la femme : car quiconque le faict il est
+                            abomination au Seigneur Dieu</hi></quote>, <note place="margin"><hi
+                            rend="i">Can.</hi> 13. <hi rend="i">Photius in nom. Can. tit.</hi> 13.
+                            <hi rend="i">can.</hi> 62. 30. <hi rend="i">dist. c. si qua mulier.
+                            Concil. Braccar. c.</hi> 80. <hi rend="i">Pont. Rom. tit.</hi> 7. <hi
+                            rend="i">c.</hi> 1. <hi rend="i">Burchard. lib.</hi> 10. <hi rend="i"
+                            >c.</hi> 39. <hi rend="i">Iuo par.</hi> 11. <hi rend="i">cap.</hi>
+                        64.</note>Les Conciles de Gangre, de Constantinople 6. les saincts Decrets
+                    anathematisent &amp; excommunient les hommes qui s’habillent en femmes, &amp;
+                    les femmes qui se vestent en hommes : Le Concile de Braga &amp; le penitentiel
+                    de Rome leur enioignent de faire penitence durant trois ans auec protestation de
+                    n’y plus retourner &amp; de s’amender à l’aduenir : S. Augustin s’aygrit de
+                    l’excez de ceste liberté parlant des masques, <quote><hi rend="i">aucuns
+                            d’entre-eux se vestoient de robes de femmes, ne rougissans point de
+                            honte de mettre leurs bras puissans &amp; aguerriz dans des robes
+                            delicates à vsage de femme</hi></quote> : S. Maxime de Turin s’estomaque
+                    contre-eux, <quote><note place="margin"><hi rend="i">Homel.</hi> 10.</note><hi
+                            rend="i">n’est-il pas ainsi que tout ce qui est faict par les ministres
+                            des Demons est faux &amp; forcené, quand vn homme affoiblissant la
+                            vigueur de ses forces &amp; raualant son courage masle se change en vn
+                            maintien effeminé, &amp; se comporte en ceste action auec tant de
+                            molleße &amp; dexterité qu’il semble se repentir de ce qu’il est
+                            homme ?</hi></quote> Alcuin semble auoir imité ce <pb n="21"
+                        xml:id="p21"/>beau traict de S. Maxime, <quote><hi rend="i">quelques vns
+                            composent leur marcher &amp; contrefont leur allure, &amp; amblẽt d’vn
+                            pas compassé en guise de femmes, &amp; non sans cause, ceux n’ont rien
+                            de viril qui se sont masquez &amp; transformez en femmes</hi></quote> :
+                    Le Patriarche Balsamon escrit<note place="margin"><hi rend="i">Synod. Trullesis
+                            can.</hi> 62.</note>, que les peres reiettans les masques n’ont permis à
+                    aucun homme d’vser d’vne robe de femme, &amp; à nulle femme d’vser du vestement
+                    d’homme, &amp; ce fut le seul subject pourquoy les Anglois ietterent le sort sur
+                    la vie de la pucelle d’Orleans, d’ailleurs innocente.</p>
+                <p><note place="margin"><hi rend="i">Lib.</hi> 12. <hi rend="i">C. T. de Scenic. l.
+                            mimæ. C. de Episcop. aud. Nouella</hi> 123. <hi rend="i">c. vlt. Photius
+                            in nomocan. tit. ij. c.</hi>12.</note>Ceste mesme effrenee liberté les
+                    emporte à prophaner l’habit des moines &amp; hermites contre les loix qui les
+                    deffendent aux bastelleurs &amp; Comediens, à plus forte raison aux masques sur
+                    peine de punition corporelle &amp; de bannissement contre les infracteurs &amp;
+                    contreuenans, ces loix Romaines nous obligent à les garder &amp; entretenir en
+                    ce qu’elles sont ordonnees par Theodose, Arcade, Honore &amp; Iustinian
+                    Empereurs Chrestiens, &amp; sont conformes à la raison &amp; à la bien-seance,
+                        <note place="margin"><hi rend="i">L.</hi> 5. <hi rend="i">c.</hi> 235. <hi
+                            rend="i">In nomocã. tit. ij. c.</hi> 12. <hi rend="i">Balsa. ibid. &amp;
+                            Synodi. Trull. c.</hi> 62. <hi rend="i">c. cum decorẽ de vita &amp;
+                            honesta. cler. Instit. de iniuriis §. in iuria. nu.</hi> 6.</note>&amp;
+                    comme telles reçeües par noz Roys en leurs capitulaires, &amp; auctorisees par
+                    les Patriarches Photius &amp; Balsamon &amp; par le Glossateur des decretales,
+                    mesmement par nostre vieille practique Françoise, ainsi que rapporte Faber
+                    Iurisconsulte ; Et ce qui aggraue d’auantage l’offence c’est la circonstance du
+                    temps auquel on se masque, aux festes de Noel en plein iour publiquement durant
+                    l’office, au deuant de l’Eglise Cathedrale, où les bandes des masques abordent à
+                    l’abandon en habits de fols, &amp; auec sonnerie de toutes sortes <pb n="22"
+                        xml:id="p22"/>d’instrumens saultent, vireuoutent, piroüetent avec des
+                    mouuemens lubriques &amp; lascifs : bon Dieu que de folie d’auoir masqué la
+                    veille &amp; le iour de Noel (maintenant on les respecte) iour que le Prophete
+                    Royal honore du tiltre special du iour crée par le Seigneur<note place="margin"
+                            ><hi rend="i">Psal.</hi> 117.</note>, où Cassiodore observe : <quote><hi
+                            rend="i">Iaçoit que Dieu ayt crée tous les iours, singulierement il est
+                            dit qu’il à fait ce iour qui est sainct &amp; sacré par la natiuité de
+                            nostre Seigneur, auquel il faut triompher &amp; mener liesse, pource que
+                            le Diable a perdu son credit &amp; auctorité, &amp; le monde a receu la
+                            vie &amp; son salut ?</hi></quote> Iour que<note place="margin"><hi
+                            rend="i">Zeno Veron. Gaudentius Brix Greg. Turo. hist. li.</hi> 3. <hi
+                            rend="i">c.</hi> 17. <hi rend="i">D. Ambros serm.</hi> 13. <hi rend="i"
+                            >Idem ser.</hi> 16.</note> S. Iean Chrysostome daigne bien qualifier du
+                    tiltre de <quote><hi rend="i">feste metropolitaine de toutes les
+                        festes</hi></quote>, les peres <quote><hi rend="i">de saincte &amp; alme
+                            iournee</hi></quote> : l’excellence de laquelle tous les hommes ensemble
+                    ne sçauroient dignement loüanger, &amp; meritoirement les gentils, les Iuifs
+                    &amp; les Chrestiẽs appellent ce iour <quote><hi rend="i">vn nouueau
+                        soleil</hi></quote> qui a esclairé l’vniuers qui de parauant estoit en
+                    tenebres <quote><hi rend="i">en culte duquel l’Eglise s’abille de dueil, ne
+                            chante point Te Deum, ne l’hymne Angelique, &amp; Ite missa
+                            est.</hi><note place="margin"><hi rend="i">Rodulphus Tungrensis de cano.
+                                obser. c.</hi> 16.</note></quote> Nos anciens ont employé en ieusnes
+                    quarante iours immediatement auant ceste tres-saincte iournée, <note
+                        place="margin"><hi rend="i">Amalar. l.</hi> 1. <hi rend="i">c</hi> 36. <hi
+                            rend="i">&amp; l.</hi> 4. <hi rend="i">cap.</hi> 37.</note>&amp;
+                    l’austerité de ce ieusne comme legitime estoit legitimement obseruée non
+                    seulement par les penitens, par les Religieux &amp; deuots, mais aussi par les
+                    laics : Charlemaigne à ordonné <quote><note place="margin"><hi rend="i"
+                                >Lib.</hi> 6. <hi rend="i">c.</hi> 184.</note><hi rend="i">que les
+                            Curez admonestassent leurs parroißiens de faire trois ieusnes legitimes
+                            en l’annee, c’est à sçauoir</hi> 40. <hi rend="i">iours auant la
+                            natiuité de nostre Seigneur</hi>, 40. <hi rend="i">iours auant Pasques
+                            ou nous payons la disme de l’annee, &amp;</hi> 40. <hi rend="i">iours
+                            apres la Penthecoste</hi></quote> : <note place="margin"><hi rend="i"
+                            >Gregor. Tur. lib.</hi> 10. <hi rend="i">c. vlt.</hi></note> S. Perpete
+                    de Tours l’auoit long temps auparauant institué <pb n="23" xml:id="p23"/>de 40.
+                    iours, mais pour s’accommoder à la foiblesse du peuple il permit que ce fut
+                    alternatiuement &amp; de iour entre autre, le Concile de Mascon 1.<note
+                        place="margin"><hi rend="i">Concil. Matisco</hi> 1. 6. 9.</note> suiuit
+                    ceste institution, le zele &amp; la coustume loüable de ieusner entierement
+                    rompit l’entre-deux &amp; rendit le ieusne continuel, comme remarque
+                    Charlemaigne : Ce que luy fit ordonner ce ieusne de 40. iours &amp; luy donner
+                    le nom <hi rend="i">de ieusne legitime</hi> : ceste coustume viẽt de bien loing
+                    &amp; a esté practiquee des l’enfance de la primitiue Eglise suiuant la
+                    Prophetie de Zacarie, ainsi que rapporte Philastrius Euesque de Brescia<note
+                        place="margin"><hi rend="i">In Catalog. hæresi c.</hi> 146. <hi rend="i"
+                            >Rodulphus Tung. c.</hi> 16.</note>, à Rome on ieusnoit l’aduent, ie
+                    reserue d’en parler plus au long sur les Capitulaires de nos Roys quand Dieu me
+                    fera la grace d’y apporter la derniere main &amp; dõner à la Frãce vne œuure
+                    tant vtile &amp; aduantageuse que rien plus, pour la conseruation de ses droicts
+                    &amp; anciennes libertez, que l’on s’efforce de faire ployer soubs le ioug d’vne
+                    seruitude estrange &amp; estrangere, <note place="margin"><hi rend="i">Greg.
+                            Turo. de miracul. confess. c.</hi> 87. <hi rend="i">Conc. Aga. c.</hi>
+                        18. <hi rend="i">Burch. l.</hi> 5. <hi rend="i">c.</hi> 19. <hi rend="i"
+                            >&amp; l.</hi> 19 <hi rend="i">c.</hi> 5. <hi rend="i">de consecr.
+                            dist.</hi> 2. <hi rend="i">c.</hi> 21. 22.</note>&amp; ce ieusne estoit
+                    sainctement institué &amp; religieusement gardé, tant par les Cathecumenes &amp;
+                    competiteurs qui se presentoiẽt au baptesme, que par les Catholiques qui se
+                    vouloient approcher de la table &amp; communion du sainct Sacrement, l’Eglise
+                    ayant receu l’vsage du baptesme en la veille de Noel, &amp; ayant excommunié
+                    tous ceux qui ne communioient à ceste saincte &amp; auguste iournee : <pb n="24"
+                        xml:id="p24"/><note place="margin"><hi rend="i">D. Augustin. Episc.</hi>
+                        236. <hi rend="i">Coeil. Altisiodor. c. ij. Helgaldus de vita Roberti
+                            Regis.</hi></note>Et vn certain prestre diocesain de S. Augustin,
+                    Euesque d’Hippone cõme infracteur du ieusne de Noel, fut degradé par S.
+                    Augustin : de la sentence de degradation appella au Concile Mileuitain : le
+                    Concile d’Auxerre deffend de boire &amp; rompre le ieusne apres minuit, Le Roy
+                    Robert est recommandé à la posterité de ce qu’il emploioit ceste saincte nuict
+                    en veilles, prieres &amp; ieusnes : voire iusques apres la communion du
+                    l’endemain : ceux qui ont violé le ieusne &amp; ceste saincte nuictee ont
+                    encouru l’ire de Dieu, en voicy vn exẽple domestique aduenu y a entour vnze cens
+                    ans à Riom (que S. Gregoire de Tours appelle village) <quote><note
+                            place="margin"><hi rend="i">Greg. Turo. de miracul. mart. lib.</hi> 1.
+                                <hi rend="i">c.</hi> 87.</note><hi rend="i">vn prestre nommé
+                            Epachius des plus notables familles de Riom sortoit souuent de l’Eglise
+                            la veille de Noel pour boire mesmes apres minuict, peu de temps apres,
+                            comme il disoit la messe solemnelle, außitost qu’il eut mis en sa bouche
+                            le precieux sacrement &amp; l’eut baillé aux autres se print à hannir
+                            comme vn cheual tomba par terre, &amp; escumant reietta ce qu’il auoit
+                            pris, fut emporté par ses seruiteurs hors l’Eglise &amp; le reste de ses
+                            iours vesquit epileptique</hi></quote> : Le mesme recite vne autre
+                    exemple aduenu à Lyon. <quote><note place="margin"><hi rend="i">Idem de vitis
+                                patr. c.</hi> 8.</note><hi rend="i">Vn frere de Dadon vient à la
+                            veille de Noel, &amp; dit à vn Curé veillons ensemblement en l’Eglise
+                            &amp; deuotement implorons l’ayde de S. Nicece, afin que par son merite
+                            nous paßions le cours de ceste annee heureusement &amp; en paix dequoy
+                            le Curé bien aisè fit sonner à vigiles, &amp; venans en l’Eglise auec
+                            les prestres &amp; le peuple : ce gourmand tardoit à venir &amp; il luy
+                            enuoya message sur message, ausquels il faisoit responce qu’ils eussent
+                            vn peu de patience qu’il venoit : l’office finy le Curè courroucè contre
+                            luy courut hastiuement en son logis pour le suspendre de la communion,
+                            mais ce miserable attaint d’vne fieure brusloit du vin &amp; d’vn feu
+                            diuin à l’instant c’estant apperceu du Curé, il le supplie auec pleurs
+                            &amp; <pb n="25" xml:id="p25"/>gemissemens de luy donner vne penitence,
+                            &amp; pendant que le Curé le blasmoit luy reprochant que meritoirement
+                            il ressentoit cet ardeur puis qu’il n’auoit tenu compte de venir à
+                            vigiles en l’Eglise de S. Nicece, sur ces entrefaictes le miserable
+                            rendit l’ame.</hi></quote>
+                    <note place="margin"><hi rend="i">Greg. Turo. l.</hi> 3. <hi rend="i"
+                        >c.</hi> 17. <hi rend="i">hist.</hi></note>Francilion Archeuesque de Tours
+                    l’an 3. de son Pontificat, en ceste saincte nuictee avant que d’aller à vigiles
+                    commanda qu’on luy donnast vn coup à boire, soudain vn seruiteur luy presenta vn
+                    verre de vin, l’ayant beu il rendit l’ame, non sans suspition de venin dit l
+                    historien, pour mon regard je croy que c’estoit vn coup du ciel, &amp; la
+                    frequence de pareils actes arriuez ceste nuict me le faict croire : &amp;
+                    d’autant que le ieusne doit estre aussi bien des voluptez comme des viandes ;
+                    ceux qui n’ont commandé à leur appetit desordonné de paillardise ont senty de
+                    merueilleux effects de l’indignation diuine : car il est certain que le Dieu
+                    viuant pour signaler ceste nuictee tres-saincte d’vne perpetuelle marque de
+                    pureté feit creuer tous les Sodomites, &amp; ceste estoille &amp; porte-flambeau
+                    surnaturel des trois Roys qui les guida en Bethleem disparut &amp; cheut en vn
+                    grand puy, dans lequel les chastes qui ont le coeur pur, net &amp; non souillé
+                    d’immondice la voyent, i’ay pour garẽt<note place="margin"><hi rend="i">Greg.
+                            Turo. l.</hi> 1. <hi rend="i">de mira. ca.</hi> 1. <hi rend="i">Haymo
+                            homel. de Epiphan. Durandus l.</hi> 6. <hi rend="i">c.</hi> 16. <hi
+                            rend="i">rational.</hi></note> S. Gregoire de Tours nostre Clairmontois,
+                    Bede le venerable, Haymon Euesque d’Heberstad, &amp; Durant Euesque de Mande,
+                    encores que Bede ayt esté disgracié &amp; chassé de la communion de ses freres
+                    religieux pour auoir tenu ceste opinion, &amp; dit que Paula &amp; Eustochium
+                        <pb n="26" xml:id="p26"/>vierges l’auoient veüe dãs ce puy de Bethleem,
+                    ainsi que remarque Pierre Comestor<note place="margin"><hi rend="i">Comestor
+                            hist. euang. ca.</hi> 7.</note> : en nostre France ceste coustume estoit
+                    obseruee de donner la benediction &amp; absolution aux adulteres<note
+                        place="margin"><hi rend="i">Nicolaus Pap. epist.</hi> 4.</note>, à celle fin
+                    que tous les Chrestiens fussent purs &amp; nets à ce sainct iour, iour de toute
+                    pureté, &amp; lors que l’attente de ceste absolution rendit nos François plus
+                    enclins à adulterer, dés lors le Pape Nicolas <hi rend="sc">i</hi>. de ce
+                        nom<note place="margin"><hi rend="i">Ibid.</hi></note> blasma ceste coustume
+                    &amp; en escriuit aux Euesques assemblez au Concile de Senlis.</p>
+                <p>Pour l’irreuerẽce faicte à ceste saincte nuictee les laics mesmes qui se sont de
+                    tãt oubliez d’habiter avec leurs femmes en ont esté puniz <note place="margin"
+                            ><hi rend="i">Greg. Turo de mirac. S. Martini.</hi> 2. <hi rend="i"
+                            >c.</hi> 24.</note>&amp; bien-souuẽt leurs femmes ont enfanté des
+                    mõstres ou des enfans manchots, epileptiques, cõtrefaicts &amp; difformes :
+                    Conrad Euesque d’Helebestad de bonne memoire discourut à Cesarius Celestin vne
+                    histoire aduenue en France d’vn prestre, <quote><note place="margin"><hi
+                                rend="i">Cæsarius l.</hi> 2. <hi rend="i">c.</hi> 15. <hi rend="i"
+                                >de contritione</hi>.</note><hi rend="i">lequel à l’accoustumee
+                            allant d’un village à autre non gueres esloigné la nuict de noel pour
+                            chanter matines &amp; dire messe, rencontra à la campagne vne femme de
+                            ioye qu’il cogneut charnellement &amp; craignãt quelque soupçon &amp;
+                            cognoissance de son peché ne laissa de dire matines &amp; la premiere
+                            messe, apres la consecration vint vne colombe qui but ce qui estoit dans
+                            le calice, print auec le bec l’hostie &amp; s’enuola, &amp; feit le
+                            semblable à la messe du matin celebree par ce prestre</hi></quote> : ce
+                    sont merueilles de nostre Dieu &amp; de ce nouueau Soleil lumineux qui dissipe
+                    toutes les nuëes &amp; broüillars puants &amp; impures : <note place="margin"
+                            ><hi rend="i">Cõcil. Ilerd. c.</hi> 3. <hi rend="i">Salegunstad. c.</hi>
+                        3. <hi rend="i">Burchard. l.</hi> 4. <hi rend="i">Iuo. l.</hi> 6. <hi
+                            rend="i">tit.</hi> 1. <hi rend="i">ca.</hi> 2. <hi rend="i">Panor. &amp;
+                            parte</hi> 8. <hi rend="i">decret. c.</hi>182.</note>Les Conciles &amp;
+                    les Peres de l’Eglise meuz de ces iustes <pb n="27" xml:id="p27"/>considerations
+                    ont deffendu les nopces depuis l’Aduẽt iusques apres les Roys, ce qu’on retient
+                    encores : &amp; pource que les exemples tirez des autheurs approuvez
+                    attendrissent les cœurs endurciz, i’ameneray encores celuy-cy de Pembon
+                    gentilhomme <quote><note place="margin"><hi rend="i">Petr. Damianus E.</hi> 8.
+                                <hi rend="i">ad. Paradulphum. mona.</hi></note><hi rend="i">que la
+                            pauureté porta à desrober vn porceau la veille de Noel, duquel ayant
+                            faict festin à ses compagnons au l’endemain, la nuict d’apres gaigné du
+                            sommeil, tenant la bride de son cheual en main de laquelle il auoit
+                            commis le larrecin le perdit si bien que le larrecin d’vn porc luy
+                            cousta la perte de son cheual</hi></quote> : De quelle punition serõt
+                    chastiez les masques qui desrobent l’honneur de Dieu à leur Dieu qui se
+                    desrobent à eux mesmes, &amp; se mettent hors d’eux pour folier ? combien de
+                    larrecins se font &amp; tours de sopplesses pous employer en mommeries, en ieux,
+                    en gourmãdises, en yurõgneriés ? combien de libertins se leuent à minuict pour
+                    desieuner &amp; boire d’autant ? qu’ils prennent icy exemple de ces exemples,
+                    &amp; de ce qui est aduenu à noz voysins de Lyon &amp; de Riom, qu’ils prennent
+                    garde à ce que les Peres<note place="margin"><hi rend="i">D. Ambros. Serm.</hi>
+                        17. <hi rend="i">D. August. Psalm.</hi> 98. <hi rend="i">Ordo. Romã.
+                            can</hi> 20.</note> n’ont point trouué de plus court expedient pour
+                    abroger les Masques, que d’instituer vn jeusne le premier iour de l’ã auquel on
+                    masquoit &amp; ont creu qu’il falloit semer des cendres de penitẽce pour
+                    corriger la graisse &amp; l’abondance de la terre mere de luxure qui auortoit
+                    les fruits de noz bonnes œuures, <note place="margin"><hi rend="i">D. August.
+                            Concil. Turo.</hi> 11. <hi rend="i">c.</hi> 23. <hi rend="i">Alcuinus.
+                            c.</hi> 4. <hi rend="i">de diui.</hi></note>&amp; d’autant que l’on
+                    falloit en l’adoratiõ de Ianus, &amp; le premier iour de l’an en l’octaue de
+                    Noel l’Eglise Romaine s’aduisa d’ãticiper l’ãnee de 8. iours &amp; de la
+                    commencer à Noel, à celle fin que par ce <pb n="28" xml:id="p28"/><note
+                        place="margin"><hi rend="i">offic. Alcuin. ibid. Vet. Kalend. m.
+                        s.</hi></note>changement l’on fit perdre du tout la memoire de ceste
+                    adoration &amp; l’insolence des masquarades, croyant que nul ne seroit si
+                    temeraire &amp; osé de violer la saincteté de ces iours : oultre la preuue des
+                    rituaires &amp; Kalendriers de l’Eglise Romaine de Iean de Paris, &amp; de
+                    Lucidus au Cõcile de Cõstance, plusieurs autheurs<note place="margin"><p><hi
+                                rend="i">Paul. Petauius de Epocha.</hi></p>
+                        <p><hi rend="i">De vitis patr. c.</hi> 8.</p></note> cõmencẽt l’an du iour
+                    de la natiuité, &amp; le vieux Kalẽdrier de ceste Eglise Cathedrale de
+                    Clairmont, nostre vulgaire retient le nom de <hi rend="i">Chalanda</hi> pour
+                    Noel c’est à dire kalendes, &amp; S. Gregoire de Tours en l’histoire de S.
+                    Nicece son oncle Archeuesque de Lyon le remarque en passant quand il dit,
+                            <quote><hi rend="i">que le frere de Dadon prioit le Curé de veiller par
+                            ensemble la nuict de Noel, à fin que par les merites &amp; interuention
+                            de S. Nicece ils passassent le cours de l’annee en paix.</hi></quote>
+                    Ceste anticipation de l’an a fait anticiper les masques en ceste ville &amp;
+                    autres de ce diocese : le respect &amp; la reuerence de ces saincts iours ne les
+                    a point abrogez, <note place="margin"><hi rend="i">Concil. Matisco.</hi>1.<hi
+                            rend="i">c.</hi> 9. <hi rend="i">Alcuin. de diuin offic. c.</hi> 1. <hi
+                            rend="i">Ordo Clazom. m. s.</hi></note>l’Eglise mesmes qui a redoublé
+                    l’office à fin qu’on n ẽployast à autre vsage ces saincts iours, ausquels le
+                    sainct des saincts la saincteté mesmes a daigné se reuestir de nostre humanité :
+                    se faire homme pour nous deifier &amp; rẽdre plus heureux que les Anges,
+                    descendre en terre pour nous monter au ciel, bref qui n’a espargné ny sa vie ny
+                    son precieux sang qu’il a respandu iusques à la derniere goutte pour expier noz
+                    pechez &amp; nous rendre participans de sa gloire. Et nous le polluons par mille
+                    actions sales &amp; vilaines, masquarades payennes, heretiques, idolatres : Les
+                    Conciles <pb n="29" xml:id="p29"/>lient estroictemẽt toutes personnes d’assister
+                    à l’office, &amp; miraculeusement quelques anachoretes y ont esté transportez
+                    pour participer aux prieres, à la communion des Chrestiens, <note place="margin"
+                            ><hi rend="i">De vitis patrum.</hi></note>&amp; à ce banquet spirituel,
+                    non montez sur des dromadaires comme les trois Roys qui le bien-veignerent en
+                    Betheleem selon l’opinion de sainct Hierosme.</p>
+                <p>Le Diable ennemy de nostre salut voyant qu’auec beaucoup de ferueur &amp; de zele
+                    on assistoit à l’office diuin, de candeur &amp; d’humilité on s’approchoit à ce
+                    banquet spirituel, il a serui vn plat de son metier y meslangeant de la farce
+                    &amp; mommerie pour nous empoisonner &amp; amortir noz œuures viuifiantes &amp;
+                    sainctes operatiõs : <note place="margin"><hi rend="i">D. Hieron. &amp; ex eo
+                            hist. Lombard. ca.</hi> 14.</note>Considerez mes concitoyens, ie vous
+                    coniure où l’aueuglement vous porte de masquer aux festes de Noel &amp; de vous
+                    attrouper audeuant de la principale porte de l’Eglise Cathedrale où vous
+                    desployez tous les traicts de vos folies &amp; vn chacun trauaille à qui mieux
+                    mieux : <note place="margin"><p><hi rend="i">Arno. Ps.</hi> 51. <hi rend="i"
+                                >Petr. Aruernus venera. l.</hi> 1. <hi rend="i">de mira.
+                            ca.</hi> 15.</p>
+                        <p><hi rend="i">Y breue relatione de la Liga.</hi></p></note>Eglise l’vne
+                    des premieres de France &amp; des plus excellentes en pieté &amp; en deuotion,
+                    où l’office diuin est aussi bien faict qu’en nulle autre, tesmoin mesmes Pedro
+                    Corneio Espaïgnol qui trouue estrange &amp; merueilleux que ceste ville soit
+                    demeuree stable en sa fidelité enuers son Prince &amp; que les troubles derniers
+                    n’ayent point troublé sa constance ny esbranlé sa fermeté : veu dit-il qu’elle
+                    est forte Catholique &amp; ornee d’vne Eglise où Dieu est seruy auec beaucoup de
+                    modestie, de ceremonie, de musique &amp; <pb n="30" xml:id="p30"/>faux-bourdon,
+                    &amp; autant reueré qu’en Eglise qu’il aye veut Où est auiourd’huy le respect,
+                    la crainte, &amp; la reuerence qu’elle imprimoit à noz ancestres &amp; à tous
+                    autres qui en aprochoient, comme remarque S. Gregoire de Tours<note
+                        place="margin"><hi rend="i">Lib.</hi> 2, <hi rend="i">hist. c.</hi> 17. <hi
+                            rend="i">&amp;</hi> 21.</note>.</p>
+                <p>Arriere fols, arriere masques, ce lieu est S. &amp; sacré, &amp; porte au
+                    frontispice l’image d’vne vierge tenant son fils Iesus, arriere prophanes
+                    impures de cet objet de pureté &amp; saincteté, arriere fols de cet objet de
+                    prudence, arriere du lieu où vous faictes les insensez à l’enuy, <note
+                        place="margin"><hi rend="i">Vet. charta &amp; mortualia.</hi></note>c’est vn
+                    Cemetiere qui enserre les cendres de noz Euesques &amp; dignes Prelats. <note
+                        place="margin"><hi rend="i">Philostratus de vita Apollonij li.</hi> 1. <hi
+                            rend="i">Cuiac. l</hi> 12. <hi rend="i">c.</hi> 29. <hi rend="i">obseru.
+                            Euagrius l.</hi> 4. <hi rend="i">ca.</hi> 36. <hi rend="i">hist. Eccles.
+                            Rigordus de gestis Philippi Aug. A.C.</hi> 1187. <hi rend="i">Petr.
+                            Vener. l.</hi>1. <hi rend="i">de mir. c.</hi> 1.</note>Si jadis entre
+                    les Payens l’object de la statue &amp; de l’image de l’Empereur arrestoit toutes
+                    violences &amp; immodesties, que c’est object du Roy des Roys, de l’Empereur des
+                    Empereurs, de ceste Emperiere &amp; Royne mere de Dieu que l’Eglise nous met
+                    deuant les yeux en memoire de l’incarnation, mette fin à noz folies &amp;
+                    irreuerences plus que payennes : Sur ce subject ie vous allegue vne histoire
+                    escrite par Pierre de Montboissier le venerable Abbé de Cluni &amp; Auuergnat,
+                    discourüe par Huës Abbé de loüable memoire son deuancier, en plain chapitre la
+                    veille de Noel : <quote><hi rend="i">Sçachez mes freres que Dieu sera auec nous
+                            en ceste saincte iournee, qu’il s’esiouyt de voz appareils &amp;
+                            s’attend à vostre deuotion seruiable, sçachez außi que le Diable de
+                            l’autre part ennemy &amp; enuyeux de vostre felicité s’efforcera
+                            d’offusquer la splendeur de ceste iournee &amp; de vos bonnes œuures, ou
+                            d’amoindrir la gloire de ceste festiuité, vn de voz freres (parlant de
+                            luy) a <pb n="31" xml:id="p31"/>veu ceste nuict la vierge mere de
+                            misericorde tenant sur son giron son fils qu’elle a enfanté ceste nuict,
+                            &amp; a veu vne multitude d’Anges qui l’enuironnoit, ce petit enfant,
+                            Dieu tressailloit de ioye &amp; applaudissoit des mains &amp; dressant
+                            son visage riant &amp; sa parole vers sa mere, vous voyez dit-il ma mere
+                            la nuit de ma natiuité remplie d’allegresse, en laquelle les oracles des
+                            prophetes &amp; les hymnes des Anges se renouuelleront, &amp; toutes les
+                            creatures celestes &amp; terrestres se resiouiront de ma naissance de
+                            vostre ventre virginal, où est maintenant la perfidie de l’ennemy
+                            damné ? où est sa puissance soubs laquelle il avoit asseruy le monde ?
+                            alors le Diable parut d’assez loing masqué &amp; horrible requerant auec
+                            plainctes &amp; gemissemens de participer à ceste ioye à fin de troubler
+                            la feste &amp; noircir l’esclat de ce iour, menaçant si vous ne me
+                            receuez au dedans de l’Eglise, ie trouueray place en quelque recoin au
+                            dehors, mais Dieu luy ayant leué la main &amp; permis de faire du pis
+                            qu’il pourroit, le leuain de son orgueil l’auoit tellement enflé qu’il
+                            ne peut entrer dans le chapitre, dans le dortoir, dans le refectoir, ny
+                            dans les cellules : &amp; fit la retraitte auec sa courte
+                        honte</hi></quote> : Ne doubtez point que ce puissant ennemy iuré de nostre
+                    salut n’ẽploye toutes ses forces pour troubler ceste feste, &amp; se voiant
+                    parauanture chassé du dedans de l’Eglise par les sainctes prieres &amp; oraisons
+                    qui s’y font, par les merites des reliques de la vierge que <note place="margin"
+                            ><hi rend="i">Vet. lib. m.s. in arch. matris Eccles. Les origines de
+                            Clairmõt</hi></note>Estienne 2. de ce nom Euesque constructeur de la
+                    vieille Eglise enserra dans son image tres-riche ouuré de la main d’Adelelme,
+                    qui est encores sur le principal Autel, <note place="margin"><hi rend="i">Supr.
+                            3. b.</hi></note> &amp; des autres saincts tutelaires de ceste Eglise
+                    &amp; sacrez Prelats qui sont sa <pb n="32" xml:id="p32"/>terreur &amp; effroy,
+                    qui l’ont banny du pourpriz de ceste Eglise en bannissant les masquarades que
+                    jadis les Ecclesiastiques y faisoient comme en plusieurs autres Eglises : <note
+                        place="margin"><hi rend="i">Durandus Mimatens. l.</hi> 6 <hi rend="i"
+                            >c.</hi> 15. <hi rend="i">&amp; l.</hi> 7. <hi rend="i">c.</hi> 42. <hi
+                            rend="i">Synod. Torn. c.</hi> 9.</note>à sçauoir les Diacres le iour de
+                    Noel apres vespres en memoire de S. Estienne Diacre : les Prestres le iour
+                    sainct Estienne apres vespres en l’honneur de S. Iean prestre : les choriers le
+                    iour des Innocens, &amp; les soubs-Diacres le iour de la Circoncision à l’octaue
+                    de la natiuité, pour symbole que nous resusciterons ieunes &amp; bien-valides :
+                    non seullement les Ecclesiastiques, mais aussi les seculiers à la messe de
+                    minuit &amp; le iour de noel masquez trauersoient l’Eglise, se voyant dis-ie le
+                    Diable chassé de l’Eglise, <note place="margin"><hi rend="i">Nota in Sydon.
+                            l.</hi>3. <hi rend="i">E.</hi> 12.</note>il s’est refugié en la grand
+                    place qui est au deuant où il mene en triomphe ceste ville serue &amp; esclaue
+                    de l’idolatrie, de l’heresie, de la folie &amp; superstition ? Arrieres masques
+                    de ce lieu, c’est le Cemetiere de voz Euesques &amp; de voz ancestres que vous
+                    violez, leurs cendres crieront vengence à Dieu si vous cõtinuez, <note
+                        place="margin"><hi rend="i">Concil. Carthag, c.</hi> 63. <hi rend="i">Afric.
+                            c.</hi> 27. <hi rend="i">Toletani</hi> 3. <hi rend="i">c.
+                        vlt.</hi></note>escoutez les oracles des saincts peres ez Conciles de
+                    Carthage, d’Afrique, de Tholede 3. de Rome tenu soubs Eugene 2. que ie laisse à
+                    part pour venir à <note place="margin"><hi rend="i">Aurelian.</hi> 2. <hi
+                            rend="i">ca.</hi> 12. <hi rend="i">Cabillon.</hi>1. <hi rend="i"
+                            >can.</hi> 19. <hi rend="i">Mogunt</hi> 1. <hi rend="i">can.</hi> 35.
+                            <hi rend="i">Concil. Rom. ca.</hi> 35. <hi rend="i">Carol. Mag.
+                        l.</hi> 6. <hi rend="i">c.</hi> 193.</note>noz Conciles Frãçois qui possible
+                    nous rameneront plustost à nostre deuoir, qui auons tousiours esté &amp; sommes
+                    encores vrayement François : ceux d’Orleans 2. de Chaalon sur Saone 1. de
+                    Majence 1. de Rome tenu du temps de Clothaire &amp; Louys, &amp; les
+                    Capitulaires de Charlemaigne deffendent les danses &amp; masquarades, les
+                    chassent bien loing des Eglises, des cemetieres &amp; de leurs <pb n="33"
+                        xml:id="p33"/>dependances : voicy les propres termes de celuy de Braga,
+                            <quote><note place="margin"><hi rend="i">Bracarensis ca.</hi>
+                            80.</note><hi rend="i">ceux qui baslent au deuant des Eglises &amp; se
+                            masquent feront penitence trois ans</hi></quote>. Si la constante
+                    resolution de ces Conciles estrangiers, François, &amp; ordonnances de noz Roys
+                    ne nous peut esbranler &amp; retirer des masques &amp; des danses audeuant de
+                    l’Eglise, que <note place="margin"><hi rend="i">Carol. Borbo. §. de sacramento
+                            aliar. Guillelm. Duprat. de Eccles. &amp; Cœmeter.</hi></note>les
+                    statuts de Charles de Bourbon &amp; de Guillaume Duprat nos Euesques de loüable
+                    memoire ayent quelque pouuoir sur nous leurs diocesains, qui prohibent
+                    disertement les danses dans les Eglises &amp; cemetieres soubz quelque pretexte
+                    que ce puisse estre, soit de nopces, de confrairies ou autres : &amp; condamnent
+                    toutes coustumes à ce contraires les declarant corruptelles.</p>
+                <p>N’opposez donc plus ceste coustume, elle est contraire aux loix diuines &amp;
+                    humaines elle repugne à la doctrine des saincts Peres, combat les Conciles &amp;
+                    saincts Decrets, &amp; foule aux pieds les Edicts, les Arrests de la Cour, les
+                    ordonnances de vos Magistrats, bref elle est contre les bonnes mœurs, par
+                    consequent nulle de toutes nullitez : n’oppose plus ceste coustume, puis que le
+                    Diable l’a enfantee, l’idolatrie l’a fomentee, l’heresie l’a esleuee, &amp; la
+                    desobeïssance l’a auctorisee : <note place="margin"><hi rend="i">Balsamo Synod.
+                            Trullensis c.</hi> 62.</note>c’est manquer de raison quand on a recours
+                    à la coustume non appuyee de raison, reuerons les saincts iours, employons les
+                    en bonnes oeuures, <note place="margin"><hi rend="i">Pasquier. l.</hi> 4.<hi
+                            rend="i">c.</hi> 14. <hi rend="i">de ses recherch.</hi></note> &amp;
+                    comme l’Eglise redouble l’office, redoublons nos oraisons, esjouyssons nous
+                    spirituellement, chantons Noel à l’exemple de nos Peres, faisons chere plus <pb
+                        n="34" xml:id="p34"/>que de l’ordinaire, mais ne nous laissons emporter à
+                    ces masques qui causent de si grands rauissemens hors de nous que rien
+                        plus,le seul nom mesme en est iniurieux<note place="margin"><hi rend="i">Supra.</hi> 10.</note>, que les femmes d’icy en hors comme dit Herodote<note
+                        place="margin"><hi rend="i">Herodot. Plutarch.</hi></note> en despoüillant
+                    leurs estoles ne despoüillent aussi la pudeur de leur sexe, que les ieunes gens
+                    en laissant leurs vestemens ordinaires ne quittent quant &amp; quant la honte,
+                    deuestant l’habit qui les tenoit en bonne &amp; honneste contenance &amp; se
+                    reuestant d’vne robe de femme ne se remplissent de toutes dissolutions, molesses
+                    &amp; impuretez, abomination<note place="margin">Supra. f. <hi rend="i"
+                        >10.</hi></note>(dit le Dieu eternel) à ceux qui s’oublient de tant : pour
+                    destourner ce mal il n’y a que d’instruire les ieunes gens aux arts mecaniques,
+                    de bien faire nourrir &amp; instituer aux bonnes moeurs &amp; aux bonnes lettres
+                    les enfans de maison. Dieu nous a fourny de dignes personnages à cet effect, de
+                    leur apprendre la vertu qui seule les peut accoustrer d’vn veritablement digne,
+                    viril &amp; parfaict ornement &amp; vestement de raison, qui les empeschera de
+                    tomber en ces frenesies &amp; folies de masquarades engẽces d’oisiueté, qui les
+                    duira &amp; accoustumera au bien &amp; à s’entremettre du gouuernement de la
+                    chose publique.</p>
+                <p>Au reste ie vous coniure de n’interpreter sinistrement ce mien traicté que i’ay
+                    mis en lumiere soubs les auspices de ce nouveau Soleil &amp; de ces sainctes
+                    festes de Noel, que seuls de toute la France vous prophanez par vos masquarades
+                    infames : ceste contree ainsi que l’Egypte fertile <pb n="35" xml:id="p35"/>en
+                    tout enfante des monstres, i’entens ces monstres des masquarades, si est-ce
+                    pourtant qu’elle ne produict des basteleurs, les astres dominans n’en influent
+                    sur son climat, &amp; n’en void-on de son creu rouler parmy la France : Chassons
+                    de nous ces bastelleries qui nous pourroiẽt desrober le tiltre d’honneur que nos
+                    deuanciers ont acquis &amp; transmis iusques à nous : Les saincts Peres
+                    appellent les masquarades, mommeries, bastelleries, monstres, prodiges, prodiges
+                    dis-ie, car de mesme que <note place="margin"><hi rend="i">Plin. l.</hi> 18 <hi
+                            rend="i">c. vlt. Solon.</hi></note>les Daulphins tressaillans &amp;
+                    rejaillans prés des vaisseaux sont presages de tempestes &amp; orages prochains,
+                    aussi nous qui sommes marquez au Dauphin &amp; en portons les armes saultant
+                    masquez au deuant de la nef de l’Eglise Cathedrale, auons pronostiqué les
+                    malheurs qui nous accueillent, si Dieu ne retire sa main vengeresse de nos
+                    folies &amp; le Roy n’a pitié de nous ses tres-fidelles seruiteurs &amp;
+                    subiects, vn abysme d’affaires qui n’a ny fonds ny riue nous accablera tous.
+                    Donnons congé à ces folies qui nous attisent l’ire du ciel &amp; attirent mille
+                    malheurs, car par des actions sales &amp; deportemens insolens plaire à soy
+                    &amp; au populaire, est vrayement desplaire à Dieu &amp; aux sages : ramassons
+                    nos esprits que telles folies mettent hors de nous, &amp; les ayans repris,
+                    considerons si ce ne sont pas folies de se mettre hors de soy &amp; faire le fol
+                    pour honnorer la natiuité du sage des sages, de la sagesse mesme.</p>
+                <p>Vous appellez à bon droict folies les <pb n="36" xml:id="p36"/>masquarades, ainsi
+                    les appellent les saincts Peres qui ont condamné les masques : <note
+                        place="margin"><hi rend="i">Suprà. Durand. l.</hi> 7. §.42. <hi rend="i"
+                            >can.</hi> 23.</note> Durant Euesque de Mande, le Concile de Basle, la
+                    Pragmatique, le Synode de Tournay, <quote><hi rend="i">la feste des fols &amp; des
+                        fatz</hi></quote>, le Concile de Tours 2. <quote><hi rend="i">fadaise</hi></quote> : &amp; à ce
+                    propos ie concluray par ces belles parolles de S. Augustin, <quote><note place="margin"
+                            ><hi rend="i">Homel. de Kal. Ianu.</hi></note><hi rend="i">quiconque voudra s’attacher à quelques obseruances payẽnes il est à
+                        craindre que le nom de Chrestien luy soit infructueux, außi celuy qui
+                        caressera les fols &amp; fera bonne chere aux masques, sans doute il se rend
+                        participant du peché, il ne suffit pas (mes freres) que vous vous absteniez
+                        de ce mal, mais en quelque endroit que vous le rencontriez, reprenez,
+                        corrigez &amp; chastiez le</hi></quote>, <note place="margin"><hi rend="i">Petrus
+                            Chrysol. ser.</hi> 155.</note>car quiconque n’arrestera le mal &amp; a
+                    le pouuoir, il l’auctorise, qui preste consentement aux masquarades les
+                    approuue, &amp; est autant coulpable que ceux qui masquent.</p>
+                <trailer rend="i">FIN.</trailer>
+            </div1>
+        </body>
+    </text>
+</TEI>

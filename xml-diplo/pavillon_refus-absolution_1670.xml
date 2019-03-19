@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Du delay, ou refus de l’absolution [Les Instructions du Rituel du diocèse
+                    d’Alet]</title>
+                <author key="Pavillon, Nicolas (1597-1677)"
+                    ref="https://data.bnf.fr/fr/12157521/nicolas_pavillon/">Nicolas Pavillon, évêque
+                    d’Alet</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/pavillon_refus-absolution_1670</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Nicolas Pavillon, évêque d’Alet, « Du delay, ou refus de l’absolution », in
+                        <hi rend="i">Les Instructions du Rituel du diocèse d’Alet</hi>,
+                        <pubPlace>Paris</pubPlace>, <publisher>Veuve Charles Savreux</publisher>,
+                        <date>1670</date>, p. 128-148 PDF : <ref
+                        target="http://books.google.fr/books?id=VIEIJ3TlLBQC">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1670"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter">
+                <pb n="128" xml:id="p128"/>
+                <head>Du delay, ou refus de l’absolution.</head>
+                <p rend="i">Qvels sont les cas les plus ordinaires ausquels le Confesseur est obligé
+                    de differer, ou de refuser l’absolution ?</p>
+                <p>Il y en a cinq. Le premier est, lorsque les penitens ignorent les principaux
+                    mysteres de nostre foy, le <hi rend="i">Pater</hi>, l’<hi rend="i">Ave</hi>, le
+                        <hi rend="i">Credo</hi> ; les Commandemens de Dieu &amp; de l’Eglise ; &amp;
+                    que l’on reconnoist que cette ignorance est une marque de leur <pb n="129"
+                        xml:id="p129"/>peu d’affection pour ce qui regarde leur salut ; ou que ce
+                    sont des personnes si grossieres, que l’on ne peut pas les instruire sur le
+                    champ.</p>
+                <p>Le second est, lorsque le penitent a causé quelque tort à son prochain en son
+                    bien, ou en son honneur, &amp; ne le veut pas reparer presentement selon son
+                    pouvoir en tout, on en partie.</p>
+                <p>Le troisiême, quand il a quelque inimitié, &amp; qu’il ne veut pas se reconcilier
+                    avec ses ennemis.</p>
+                <p>Le quatriême, quand il est dans l’occasion prochaine de quelque peché mortel, par
+                    exemple d’impureté, ayant chez soy, ou en sa disposition la personne avec
+                    laquelle il a eu un commerce criminel, &amp; ne la veut pas congedier ; ou bien
+                    quand il se trouve dans une condition dangereuse pour luy, par exemple de juge
+                    d’avocat, de soldat, ou autre semblable, dans laquelle eu egard à ses
+                    dispositions, &amp; à l’experience que l’on a de sa vie passée, il luy est
+                    moralement impossible de s’empescher d’offenser Dieu mortellement, &amp; qu’il
+                    ne la veut point quitter.</p>
+                <p>Le cinquiême, quand il est dans quelque habitude de peché mortel, &amp; qu’il ne
+                    s’en corrige pas.</p>
+                <p rend="i">Ne suffit-il pas que le penitent promette au Confesseur de remedier à
+                    ces empeschemens, pour estre en estat de recevoir l’absolution ?</p>
+                <p>Les Saints Peres nous apprennent qu’en plusieurs occasions, comme celles dont
+                    nous venons de parler, il ne se faut pas contenter des paroles &amp; des
+                    promesses des penitens, qu’ils ne se mettent plus en peine d’executer, comme
+                    l’experience ne le fait que trop connoistre, quand ils ont une fois receu
+                    l’absolution, mais qu’il est necessaire de les <pb n="130" xml:id="p130"
+                    />éprouver pendant un temps pour juger de leur contrition, &amp; de leur
+                    conversion par leurs œuvres.</p>
+                <p rend="i">Qu’est-ce qu’occasion prochaine ?</p>
+                <p>On appelle occasion prochaine de peché mortel, toutes les choses qui le causent
+                    ordinairement, ou parcequ’elles portent d’elles mesmes au peché, ou parceque le
+                    penitent s’y trouvant, est tellement accoutumé de pecher, que le Confesseur doit
+                    raisonnablement juger, qu’à raison de sa foiblesse &amp; de sa mauvaise
+                    habitude, il ne s’abstiendra point de pecher tandis qu’il perseverera dans ces
+                    occasions.</p>
+                <p rend="i">Quelles sont les occasions les plus ordinaires de la premiere
+                    sorte ?</p>
+                <p>C’est d’avoir en sa maison des tableaux, ou des sculptures de nuditez lascives :
+                    de lire des livres pleins d’impuretez, de se trouver souvent en la compagnie de
+                    personnes dissoluës &amp; libertines : d’avoir dans sa maison, ou en sa
+                    disposition quelque personne qui serve d’attrait au peché d’impureté : de faire
+                    profession de joüer continuellement aux cartes &amp; aux dez : de tenir pour les
+                    autres un lieu preparé à cet effet : d’aller aux cabarets sans necessité, &amp;
+                    seulement par un esprit de debauche : de frequenter les heretiques qui
+                    sollicitent ceux qui les frequentent de quitter l’Eglise, surtout s’ils sont
+                    intelligens &amp; zelez pour leur fausse religion ; ou de lire les livres où ils
+                    traittent à fond de leurs erreurs.</p>
+                <p rend="i">Quelles sont les occasions plus ordinaires de la seconde sorte ?</p>
+                <p>Les festins frequens à ceux qui se laissent aller facilement à boire avec excés :
+                    le jeu pour ceux qui connoissent qu’ils s’y laissent emporter aux <pb n="131"
+                        xml:id="p131"/>juremens &amp; aux blasphêmes : les assemblées &amp; les
+                    parties de divertissemens d’hommes &amp; de femmes, pour ceux qui se sentent
+                    foibles à concevoir de mauvais desirs, &amp; à commettre d’autres semblables
+                    pechez : l’engagement dans une condition, comme de soldat, de marchand, ou
+                    d’officier de justice, lorsqu’on sçait qu’on n’a pas assez de courage pour
+                    resister aux tentations d’avarice, de larcin, de concussion, ou de vengeance,
+                    qui y sont frequentes.</p>
+                <p rend="i">Y a-t-il toujours peché de se trouver dans l’occasion prochaine ?</p>
+                <p>Non : car si on s’y rencontre sans dessein, &amp; sans l’avoir pu prevoir, &amp;
+                    que s’y trouvant engagé, on s’en retire aussytost qu’on peut, il n’y a point de
+                    peché : mais si on l’a du &amp; pu prevoir, &amp; qu’on ait usé de negligence
+                    pour l’eviter, il y a toujours quelque peché plus ou moins grand selon que la
+                    negligence a esté plus ou moins grande.</p>
+                <p rend="i">Où trouve-t-on dans l’Ecriture sainte que l’occasion prochaine en la
+                    maniere que nous venons de marquer nous met en estat de peché ?</p>
+                <p>Dans l’Ecclesiastique chap. 3. <quote><hi rend="i">Celuy qui aime le peril y
+                            perira.</hi></quote> Et au 21. <quote><hi rend="i">Fuyez de devant les
+                            pechez comme de devant un serpent : si vous en approchez, ils vous
+                            enveloperont.</hi></quote> Et Nostre Seigneur dit dans l’Evangile :
+                            <quote><note place="margin">Matth. 5. 29.</note><hi rend="i">Si vostre
+                            œil droit vous est un sujet de scandale &amp; de chute, arrachez le,
+                            &amp; jettez le loin de vous ; car il vaut bien mieux pour vous qu’une
+                            partie de vostre corps perisse, que non pas que tout vostre corps soit
+                            jetté dans l’enfer.</hi></quote></p>
+                <p><hi rend="sc">Est-on</hi> <hi rend="i">toujours obligé de se priver de quelques
+                        commoditez temporelles pour eviter l’occasion du peché ?</hi></p>
+                <p><pb n="132" xml:id="p132"/>Oüy, comme l’on peut connoistre par le passage de
+                    l’Evangile que nous venons d’alleguer ; parceque le bien de l’ame est preferable
+                    à tous les biens de la vie presente.</p>
+                <p rend="i">Quelles sont les personnes ausquelles on doit differer, ou refuser
+                    l’absolution, pour estre engagées dans les occasions prochaines du peché,
+                    jusques à ce qu’elles s’en soient éloignées ?</p>
+                <p>Premierement les serviteurs &amp; les servantes, ou autres personnes qui
+                    demeurent dans des maisons où il y a quelque personne qui leur est occasion de
+                    tomber dans le peché d’impureté.</p>
+                <p>Secondement celles qui frequentent des maisons ou des compagnies où elles tombent
+                    ordinairement dans le peché par pensées, par desirs ; ou par œuvres.</p>
+                <p>En troisiême lieu les femmes &amp; les filles qui portent le sein decouvert,
+                    lorsqu’elles ont esté suffisamment averties du mal qu’il y a dans cette
+                    immodeste façon de se vestir.</p>
+                <p>En quatriême lieu ceux qui estant adonnez au jeu, s’y laissent aller aux
+                    reniemens, aux blasphêmes, aux querelles, aux tromperies &amp;c.</p>
+                <p>En cinquiême lieu ceux qui frequentent les bals &amp; les comedies, où ils
+                    commettent ordinairement plusieurs pechez d’impureté, comme mauvais desirs,
+                    pensées sales, regards lascifs, &amp; attouchemens deshonnestes. Et quand ils
+                    n’y auroient pas commis de si grands pechez, le peril où ils s’exposent de les
+                    commettre, doit porter les Confesseurs à leur deffendre ces divertissemens
+                    dangereux.</p>
+                <p>En sixiême lieu ceux qui lisent des livres heretiques, ou des livres qui
+                    traittent de choses lascives &amp; qui portent à l’impureté, ayant esté <pb
+                        n="133" xml:id="p133"/>auparavant avertis de ne le plus faire.</p>
+                <p>En septiéme lieu ceux qui ont des tableaux ou des representations lascives, &amp;
+                    qui peuvent porter au peché.</p>
+                <p>En huitiême lieu ceux qui sont sujets à profaner publiquement &amp;
+                    scandaleusement la sainteté des jours consacrez à Dieu, contre les ordonnances
+                    de l’Eglise, qui leur ont esté suffisamment notifiées.</p>
+                <p>A cela se reduisent aussy certaines personnes publiques, comme sont les curez ;
+                    les juges, les medecins, les apotiquaires, les chirurgiens, qui notoirement ne
+                    sont pas capables de leurs charges &amp; de leurs emplois ; ce qui fait qu’ils
+                    sont exposez à un danger continuel de faire des fautes, &amp; des injustices
+                    notables, &amp; qu’ils sont par consequent dans l’occasion prochaine du
+                    peché.</p>
+                <p rend="i">Doit-on donner l’absolution à un penitent aussytost qu’il a quitté
+                    l’occasion de son peché ?</p>
+                <p>Non pas toujours, quoiqu’il l’ait veritablement quittée : mais il faut que le
+                    Confesseur juge s’il n’y a pas sujet de craindre qu’il ne s’y engage de nouveau
+                    quand il aura receu l’absolution ; &amp; s’il trouve qu’il y ait fondement
+                    d’apprehender, il doit prendre un temps raisonnable pour l’éprouver.</p>
+                <p rend="i">Si le penitent assure qu’il aura assez de force &amp; de courage, &amp;
+                    se promet que Dieu luy fera la grace de ne plus retourner dans le peché
+                    quoi-qu’il demeure dans l’occasion, ne peut-on pas luy donner l’absolution ?</p>
+                <p>Non, &amp; il faut faire entendre à ce penitent que son esperance est une vaine
+                    confiance, &amp; une presomption orgueilleuse ; &amp; que c’est tenter Dieu que
+                    de penser eviter le peché, lorsqu’on <pb n="134" xml:id="p134"/>demeure
+                    volontairement dans l’occasion, le Saint Esprit ayant dit que celuy qui aime le
+                    peril y perira, &amp; Dieu ne donnant sa grace qu’aux humbles, &amp; à ceux qui
+                    se deffient d’eux-mesmes.</p>
+                <p rend="i">Comment se faut-il conduire à l’egard des personnes qui ne sont pas de
+                    condition libre à se separer, comme seroient le frere &amp; la sœur, ou autres
+                    proches parens, qui demeurant dans une mesme maison, commettroient ordinairement
+                    le peché d’impureté ?</p>
+                <p>Premierement le Confesseur doit trouver s’il est possible quelque expedient,
+                    &amp; le faire prendre à son penitent, pour se separer, &amp; pour quitter la
+                    maison de son pere ; comme de conseiller à une personne de basse naissance de se
+                    mettre en service, ou d’apprendre un mestier ; &amp; à celuy qui seroit de
+                    condition, d’aller aux études, de faire quelque voyage, de prendre quelque
+                    employ. En second lieu si cela ne se pouvoit faire, il faudroit leur deffendre
+                    toute sorte de privauté, leur ordonner de ne se point trouver seuls ensemble,
+                    leur imposer quelques prieres &amp; quelque penitence convenable, &amp; les
+                    éprouver pendant un temps notable, pour reconnoistre avant que de leur donner
+                    l’absolution s’ils se rendent fidelles à ce qui leur aura esté prescrit.</p>
+                <p rend="i">Que doit faire le Confesseur à l’egard des personnes qui alleguent pour
+                    excuse : Ie ne puis quitter cette occasion, ny sortir de cette maison, parceque
+                    je perdrois ma fortune, &amp; tomberois dans la necessité ?</p>
+                <p>Il doit leur representer les paroles que Nostre Seigneur dit en S. Matth. à tous
+                    les chrestiens : <quote><note place="margin">Matth. 6, 33.</note><hi rend="i"
+                            >Cherchez devant toutes choses le royaume de Dieu</hi><seg
+                            type="exquote">, c’est a dire ma gloire, &amp; vostre salut</seg>, <hi
+                            rend="i">&amp; soyez assurez que le reste vous sera
+                    accordé</hi></quote> ; leur faisant <pb n="135" xml:id="p135"/>entendre
+                    neanmoins que quand Dieu permettroit pour exercer leur patience, &amp; pour
+                    accroître leur merite, qu’ils se vissent reduits dans la derniere pauvreté pour
+                    un temps, &amp; mesme pour toute leur vie, il vaudroit mieux estre pauvre, &amp;
+                    faire son salut, que d’estre à son aise en ce monde, &amp; se trouver à la fin
+                    de ses jours engagé dans une eternité malheureuse. Et il doit demeurer ferme à
+                    leur refuser l’absolution, jusques à ce qu’ils ayent entierement quitté
+                    l’occasion prochaine de leur peché.</p>
+                <p rend="i">Que doit faire le Confesseur à l’egard d’un maistre qui dit : Ie ne puis
+                    congedier cette servante, parcequ’elle est necessaire à mon menage ?</p>
+                <p>Il luy doit representer ces autres paroles de Nostre Seigneur en S. Matth.
+                            <quote><hi rend="i">Si ton pied, ta main, ou ton œil te scandalisent,
+                            couppe les, arrache les, &amp; jette les loin de toy</hi></quote> : pour
+                    nous apprendre qu’il nous faut separer des personnes qui nous sont occasion de
+                    peché, quoyqu’elles nous fussent aussy necessaires que l’œil, la main, ou le
+                    pied le sont au service de l’homme.</p>
+                <p rend="i">Que doit-il faire à l’egard de quelques autres qui disent : Ie
+                    quitterois volontiers cette occasion, je m’abstiendrois de bon cœur de cette
+                    frequentation ; mais si je le fais on en croira du mal, j’en seray deshonoré, ou
+                    je seray cause que cette personne le sera ?</p>
+                <p>Le Confesseur leur pourroit dire : Ou l’on croit qu’il y a déja du mal, ou l’on
+                    ne le croit pas : si on le croid, il y a moins de scandale à vous en separer
+                    promptement, &amp; si on ne le croid pas vous ne devez pas craindre que cette
+                    separation vous fasse aucun tort : mais quand elle pourroit faire soupçonner
+                    quelque mal, il faut <pb n="136" xml:id="p136"/>preferer vostre salut à la
+                    crainte de ce soupçon.</p>
+                <p rend="i">Qu’entend-on par le peché d’habitude pour lequel le Confesseur est
+                    obligé de refuser, ou de differer l’absolution ?</p>
+                <p>On entend un peché mortel que l’on s’est accoutumé de commettre par beaucoup
+                    d’actions qu’on en a faites, en sorte qu’on se trouve dans une tres-grande
+                    difficulté, &amp; dans une impuissance morale de s’empescher de le commettre, à
+                    moins que le cœur ne soit fort changé, &amp; qu’on ne se soit beaucoup
+                    combattu.</p>
+                <p rend="i">D’où vient cette grande difficulté, ou cette impuissance de quitter le
+                    peché auquel nous avons habitude ?</p>
+                <p>Elle vient tant de la corruption de la nature, que de l’inclination vitieuse
+                    fortifiée par les actes reïterez, comme aussy de la grande puissance qu’a le
+                    demon sur le pecheur qu’il s’est assujetti : <quote><note place="margin"
+                            >Eccli. 4.</note><hi rend="i">Funiculus triplex difficilè
+                        rumpitur</hi></quote> :</p>
+                <p><hi rend="sc">Si le</hi> <hi rend="i">Confesseur trouve qu’une personne à qui il
+                        a differé l’absolution, &amp; qui est dans le cours de sa penitence tombe
+                        moins souvent dans son peché d’habitude, comment se doit-il comporter à son
+                        égard ?</hi></p>
+                <p>Il en doit user avec beaucoup de discretion, parcequ’il y a du danger de donner
+                    l’absolution à une personne qui a commencé de se corriger, mais qui retombe
+                    encore de temps en temps dans son crime. Car ces rechutes dans des pechez
+                    mortels, quoyque moins frequentes, sont voir que cette personne n’est point
+                    vraiment guerie, comme on ne dira jamais qu’un homme ne soit plus epileptique,
+                    parcequ’il ne tombe en epilepsie que tous les mois, au lieu qu’il y tomboit
+                    auparavant deux ou trois fois la semaine. Et les Peres ont toujours mis <pb
+                        n="137" xml:id="p137"/>entre les fausses penitences celles des pecheurs, qui
+                    pendant le cours de leur penitence retomboient dans les crimes dont ils
+                    s’estoient accusez : <quote><hi rend="i">Irrisor est, non pœnitens, qui adhuc
+                            agit quod pœnitet.</hi></quote> Il les faut donc faire souvenir de cette
+                    parole du Fils de Dieu : <quote><note place="margin">Joan. 8. 11.</note><hi
+                            rend="i">Vade, &amp; jam ampliùs noli peccare</hi></quote> ; &amp; les
+                    encourager à travailler avec plus de soin pour arriver jusques à une veritable
+                    &amp; solide guerison. Ce n’est pas leur faire charité que de les traitter
+                    autrement, ny suivre la prudence de l’esprit de Dieu.</p>
+                <p rend="i">Quelle est la mesure du temps qu’il faut garder pour éprouver
+                    l’amendement &amp; la fidelité du penitent, lorsqu’on luy differe l’absolution
+                    pour estre dans quelque peché d’habitude.</p>
+                <p>Si les chutes estoient frequentes, on pourroit l’éprouver deux ou trois mois, à
+                    la fin desquels si on reconnoissoit un veritable amendement causé par la
+                    fidelité du penitent, &amp; par la violence qu’il a faire sur soy-mesme, on
+                    pourroit luy donner l’absolution, parcequ’il auroit donné des preuves effectives
+                    de sa conversion, &amp; de sa penitence : mais s’il ne s’estoit abstenu de
+                    tomber dans son peché, que parcequ’il auroit esté eloigné des occasions, sans
+                    avoir contribué à cet eloignement ; par exemple, s’il s’estoit trouvé en un
+                    lieu, ou avec des personnes qui ne luy en laissoient pas la liberté ; ou s’il
+                    estoit tombé dans quelque maladie ; ou s’il estoit arrivé quelque rencontre
+                    semblable qui eust eloigné ces occasions, il faudroit alors prendre un plus long
+                    delay, pendant lequel on pourroit avec plus de loisir observer si le changement
+                    de son cœur seroit veritable.</p>
+                <p rend="i">Comment se doit conduire le Confesseur dans <pb n="138" xml:id="p138"
+                    />toutes les rencontres où il juge devoir differer l’absolution à son
+                    penitent ?</p>
+                <p>Il se doit conduire avec une grande douceur envers le penitent, luy faisant
+                    connoistre que le zele seul de son salut l’oblige d’en user ainsy, &amp; luy
+                    imposant quelque exercice de penitence qui ait du rapport &amp; de la proportion
+                    avec ses pechez, &amp; avec sa condition : luy marquer un certain temps, durant
+                    lequel il doit prattiquer les exercices de penitence &amp; de devotion qu’il luy
+                    ordonne ; &amp; cependant prier, &amp; gemir souvent devant Dieu pour luy, faire
+                    quelque mortification à son intention à l’exemple de Nostre Seigneur, qui s’est
+                    chargé de la peine deüe à nos pechez. Il seroit aussy à propos que le Confesseur
+                    le vist, &amp; luy parlast de temps en temps pendant le cours de sa penitence,
+                    pour l’encourager à la faire de bon cœur, pour le consoler, &amp; luy donner
+                    conseil dans les tentations, abbattemens, ou troubles d’esprit qui pourroient
+                    luy arriver.</p>
+                <p rend="i">Que doit faire le Confesseur à l’egard des personnes qui disent : Si
+                    vous ne me donnez l’absolution, on y prendra garde, &amp; je demeureray
+                    scandalisé, ceux qui sont proche du Confessionnal voyant que vous me renvoyez
+                    sans m’absoudre ?</p>
+                <p>Il peut faire quelques prieres sur eux comme le <hi rend="i">Misereatur &amp;c.
+                        Indulgentiam</hi>, ou autre, en la mesme posture qu’il garde lorsqu’il donne
+                    l’absolution ; &amp; par ce moyen on ne pourra pas reconnoistre s’il ne la luy a
+                    point donnée : mais il doit faire connoistre au penitent que ce n’est pas
+                    l’absolution qu’il luy donne, &amp; qu’il ne s’imagine pas que ses pechez luy
+                    soient remis ; &amp; ainsy qu’il ne se presente point pour recevoir la <pb
+                        n="139" xml:id="p139"/>communion, parcequ’il commettroit un tres grand
+                    sacrilege.</p>
+                <p rend="i">Que doit faire le Confesseur à l’egard d’un penitent qui se presente au
+                    dernier jour de la quinzaine de Pasque, lorsqu’il juge luy devoir refuser
+                    l’absolution ?</p>
+                <p>Il seroit à souhaiter que l’on observast par tout ce qui se prattique dans
+                    quelques dioceses, qui est que chacun se confessast au commencement du Caresme,
+                    afin que durant la quinzaine de Pasque on n’eust à s’appliquer qu’aux
+                    reconciliations, &amp; qu’on renvoyast tous ceux qui se presentent, les
+                    remettant aprés la quinzaine : mais dans les lieux où cet ordre ne s’observe
+                    pas, il faut que le Confesseur se serve du pouvoir que luy donne le canon du
+                    Concile general de Latran, <hi rend="i">Omnis utriusque sexus</hi>, inseré dans
+                    le Rituel, lequel obligeant tous les fidelles de communier à Pasque, donne
+                    pouvoir au Confesseur de differer la communion jusques au temps qu’il jugera à
+                    propos pour le salut du penitent.</p>
+                <p rend="i">Que fera le Confesseur si le penitent dit : Ie seray scandalisé si l’on
+                    ne me voit pas communier au temps paschal avec les autres ?</p>
+                <p>Il luy representera que dans la foule des communians, &amp; à raison des divers
+                    jours où l’on communie pendant la quinzaine, il seroit difficile de remarquer
+                    s’il a communié ou non : de plus que quand on remarqueroit qu’il ne communie
+                    pas, on peut croire que son Confesseur luy a differé le devoir du temps paschal
+                    pour s’y mieux disposer, ou pour s’instruire de la doctrine chrestienne : mais
+                    qu’enfin quand quelqu’un pourroit soupçonner qu’il n’auroit pas communié acause
+                    de quelque peché extraordinaire qu’il <pb n="140" xml:id="p140"/>pourroit avoir
+                    commis, il vaudroit mieux souffrir par penitence cette humiliation, que de se
+                    mettre en danger de faire une communion sacrilege, qui est un des plus grands
+                    malheurs qui luy puisse arriver.</p>
+                <p rend="i">Mais si le penitent n’estant pas persuadé de ces raisons presse le
+                    Confesseur de luy donner l’absolution ?</p>
+                <p>Le Confesseur doit témoigner sa fidelité à Dieu, &amp; à son ministere dans cette
+                    occasion, demeurant ferme à refuser, ou differer l’absolution, &amp; faisant
+                    entendre avec une sainte liberté au penitent, que s’il veut se perdre &amp; se
+                    damner, il ne veut pas contribuer à sa perte, ny se damner avec luy : mais il le
+                    doit faire en témoignant beaucoup de douceur, de compassion, &amp; de charité
+                    paternelle pour son penitent.</p>
+                <p rend="i">Si le superieur ecclesiastique veut obliger le Confesseur sous peine de
+                    suspense, ou d’excommunication, de donner l’absolution à celuy qui se trouve
+                    dans quelqu’un des empeschemens qui sont exprimez cydessus, doit-il obeïr ?</p>
+                <p>Non : car encore que le Prestre soit inferieur à l’Evesque qui luy a donné le
+                    pouvoir qu’il a, neanmoins l’Evesque ne luy peut commander d’absoudre les
+                    impenitens, ou ceux qui ne veulent pas garder les loix de Dieu &amp; de l’Eglise
+                    pour se corriger &amp; sortir de leurs pechez. L’Evesque est ministre aussy bien
+                    que le Prestre, &amp; ils doivent tous deux exercer leur ministere suivant les
+                    ordres du maistre commun qui est <hi rend="sc">Jesus-Christ</hi>, &amp; l’Eglise
+                    universelle.</p>
+                <p rend="i">Mais ne semble-t-il pas qu’il y ait trop de dureté dans cette conduite
+                    du refus, ou du delay de l’absolution, puisque c’est exposer le salut des
+                    penitens ?</p>
+                <p><pb n="141" xml:id="p141"/>Il y a au contraire plus de dureté &amp; plus de peril
+                    à precipiter l’absolution qu’à la differer, lorsqu’on n’a pas sujet de croire
+                    que le penitent soit assez bien disposé pour la recevoir avec fruit. Car on ne
+                    fait ordinairement que l’entretenir dans son peché ; &amp; outre la profanation
+                    du sacrement à laquelle on l’expose, on le met en danger encore plus lourdement
+                    qu’auparavant, l’infidelité &amp; l’ingratitude rendant les pechez plus grands,
+                    &amp; l’esperance de l’absolution luy ostant la crainte de les commettre. Ce
+                    n’est donc pas perdre, mais gagner beaucoup que d’eviter ces perils : &amp; ceux
+                    qui employent du temps aux exercices de penitence, &amp; à l’humiliation pour se
+                    rendre capables de la veritable remission de leurs pechez, sont sans doute dans
+                    une voye plus seure, que ceux qui ne sont que les reciter, s’imaginant qu’une
+                    ombre de penitence &amp; d’absolution est capable de les sauver. Les Saints
+                    Peres, qui estoient animez d’un amour &amp; d’un zele tres ardent pour les ames,
+                    n’ont pas cru que cette consideration, qu’un penitent pourroit mourir avant que
+                    d’estre absous, fust un fondement raisonnable &amp; suffisant pour se dispenser
+                    des regles que l’Eglise avoit établies dans un point si important, &amp; qu’elle
+                    a toujours regardées comme le nerf &amp; le soutien de sa discipline. Et c’est
+                    ce qui a fait que nonobstant ces apprehensions qu’ils eussent pu avoir aussybien
+                    que nous, leur prattique ordinaire a esté de ne recevoir à l’absolution ceux qui
+                    avoient perdu par leurs crimes l’innocence de leur baptesme, qu’aprés les avoir
+                    fait passer par les exercices d’une longue &amp; serieuse penitence.</p>
+                <p rend="i">Pourquoy les Saints Peres ont-ils usé de cette exactitude, &amp; de
+                    cette fermeté avec les <pb n="142" xml:id="p142"/>penitens, nonobstant la
+                    crainte qu’ils pouvoient avoir qu’ils ne mourussent sans absolution ?</p>
+                <p>C’est parcequ’ils estoient persuadez que le meilleur moyen pour faire entrer les
+                    penitens dans la connoissance de leurs pechez, &amp; pour attirer sur eux la
+                    misericorde de Dieu, estoit de les mettre dans l’exercice de la penitence &amp;
+                    des bonnes œuvres avant l’absolution, pour procurer à leurs ames une guerison
+                    plus parfaite, &amp; pour empescher les rechutes dans le peché.</p>
+                <p rend="i">Quels sentimens devroit-on avoir d’une personne qui mourroit dans le
+                    cours de sa penitence, avant que d’avoir receu l’absolution du Prestre ?</p>
+                <p>Il n’y a rien que selon Dieu, les pasteurs zelez pour le salut des ames ne
+                    doivent faire pour empecher ce malheur, qui ne peut arriver que tres
+                    difficilement, puisqu’en cas de danger de mort tout Prestre peut donner
+                    l’absolution, ainsy que nous avons dit cy-devant. Mais quand cela arriveroit, on
+                    auroit toujours sujet, &amp; mesme obligation de bien juger du salut d’une
+                    personne, qui estant vivement touché de la douleur de ses pechez, &amp;
+                    travaillant de tout son pouvoir à les expier par de dignes fruits de penitence,
+                    est surpris d’une mort inopinée, avant que d’avoir receu l’absolution de
+                    l’Eglise, aprés laquelle il soupiroit, en s’y disposant selon l’ordre qui luy
+                    avoit esté marqué par son Confesseur. Car alors il auroit receu le sacrement de
+                    penitence <hi rend="i">in voto</hi> comme parlent les Theologiens : ainsi que
+                    les catecumenes qui mouroient estant bien disposés à recevoir le baptesme &amp;
+                    n’ayant pu le recevoir estoient censez l’avoir receu dans le desir qu’ils en
+                    avoient. Et c’est le jugement que l’Eglise a toujours fait de ces penitens.</p>
+                <p><pb n="143" xml:id="p143"/>Le quatriême Concile de Carthage au can. 72. dit :
+                            <quote><hi rend="i">Pœnitentes qui attente leges pœnitentiæ exequuntur,
+                            si in casu, in itinere, vel in mari mortui fuerint ; ubi eis subveniri
+                            non possit, memoria eorum &amp; orationibus, &amp; oblationibus
+                            commendetur.</hi> <hi rend="sc">Si les</hi> <hi rend="i">penitens qui
+                            executent fidellement l’ordre de leur penitence, sont surpris de la mort
+                            en lieu où l’Eglise ne puisse pas leur donner secours &amp; assistance,
+                            on ne laissera pas de faire en leur memoire des prieres &amp; des
+                            offrandes pour les recommender à Dieu.</hi></quote></p>
+                <p>Et le second Concile d’Arles au can. 2. a dit la mesme chose en ces termes :
+                            <quote><hi rend="i">De his qui in pœnitentia positi vítâ excesserunt,
+                            placuit nullum communione vacuum debere dimitti ; sed pro eo quod
+                            honoraverit pœnitentiam, oblatio illius recipiatur.</hi> <hi rend="sc"
+                            >Pour</hi> <hi rend="i">ce qui regarde ceux qui meurent dans le cours de
+                            la penitence qui leur a esté imposée, nous ordonnons qu’on ne les prive
+                            pas de la communion de l’Eglise, mais qu’on reçoive les offrandes qu’on
+                            fera pour eux, parcequ’ils ont honnoré la penitence.</hi></quote></p>
+                <p>Ainsy nous voyons que l’Eglise consideroit ceux qui mouroient en cet estat comme
+                    estant morts en la paix du Seigneur &amp; en sa grace, les Prestres recevant les
+                    oblations qu’on faisoit en leur nom, &amp; offrant le saint sacrifice, &amp; les
+                    prieres de l’Eglise pour le repos de leurs ames.</p>
+                <p rend="i">Si le penitent ne s’accuse pas de quelque peché par ignorance, croyant
+                    qu’il n’y a point de mal en certaines choses que le Confesseur juge mauvaises,
+                    le peut-il absoudre sur la consideration de cette bonne foy pretenduë.</p>
+                <p>Cette ignorance, ou cette bonne foy pretenduë dans laquelle se trouve le
+                    penitent, ne <pb n="144" xml:id="p144"/>l’excusant point devant Dieu, &amp; ne
+                    l’exemptant pas de peché, le Confesseur trahiroit sa conscience s’il l’y
+                    laissoit sans l’en avertir ; &amp; c’est en ces occasions qu’il doit prattiquer
+                    cette liberté d’esprit dont il a esté parlé cy-dessus. Ainsy si le penitent ne
+                    se met en son devoir, en faisant ce que Dieu demande de luy, ou ne promette de
+                    le faire, témoignant d’estre convaincu de cette obligation, en sorte que le
+                    Confesseur ait un sujet raisonnable de s’assurer sur sa promesse, il ne doit
+                    point l’absoudre.</p>
+                <p rend="i">Quelles sont les regles generales dont le Confesseur se peut servir,
+                    pour sçavoir quand il doit avertir le penitent qu’il reconnoist estre en mauvais
+                    estat, lorsqu’il ne s’en accuse pas ?</p>
+                <p>La premiere, c’est lorsque le penitent a quelque scrupule, &amp; luy demande
+                    avis ; car en ce cas il luy doit dire la verité, bien qu’il prevoye qu’il n’en
+                    fera pas son profit.</p>
+                <p>La seconde, quand le penitent est dans une ignorance criminelle, &amp; qui
+                    n’excuse point devant Dieu celuy qui agit par cette ignorance, le Confesseur
+                    alors est obligé de l’instruire, bienqu’il n’en soit pas requis par le penitent,
+                    &amp; qu’il prevoye que cette instruction luy sera inutile ; parce qu’estant son
+                    pere spirituel, &amp; estant chargé de son salut, il est dans l’obligation de
+                    luy faire connoistre les choses qu’il doit sçavoir.</p>
+                <p>La troisiême est, quand le penitent est dans l’ignorance de bonne foy, &amp;
+                    qu’il y a apparence qu’il fera bon usage de la verité qu’on luy fera connoistre,
+                    le Confesseur est obligé de l’en avertir, &amp; de ne la luy point cacher,
+                    parcequ’il y a beaucoup de bien à esperer pour le penitent, &amp; qu’il n’y a
+                    pas d’inconvenient à craindre.</p>
+                <pb n="145" xml:id="p145"/>
+                <p rend="i">Quelle est l’ignorance qui n’excuse point de peché ?</p>
+                <p>L’ignorance qui n’excuse pas de peché celuy qui fait le mal ne croyant pas qu’il
+                    soit mal, est celle de la loy naturelle qui regle les devoirs essentiels de
+                    l’homme envers Dieu, envers soy-mesme, &amp; envers le prochain, que l’on ne
+                    manqueroit pas de connoistre si la raison n’estoit obscurcie par le peché. Ainsy
+                    ces payens qui s’imaginoient faire un acte de Religion en sacrifiant leurs
+                    enfans à Moloch, ne laissoient pas de commettre un parricide, aussy bien que
+                    ceux qui tuoient ou exposoient leurs enfans nouveaux nez, quand ils ne les
+                    vouloient pas elever, se persuadant que cela leur estoit permis : &amp; ceux qui
+                    s’estoient mis dans l’esprit que la simple fornication n’estoit pas un peché, ne
+                    laissoient pas de pecher en s’y abandonnant. C’est aussy une ignorance qui
+                    n’excuse point, quand on ignore les choses qu’on peut &amp; qu’on doit sçavoir
+                    comme chrestien, &amp; dont la connoissance est absolument necessaire pour
+                    exercer chrestiennement nostre profession.</p>
+                <p rend="i">Quelle est l’ignorance qui peut excuser de peché ?</p>
+                <p>L’ignorance qui peut excuser est, quand on ignore les choses qu’on n’a pu ny deu
+                    sçavoir, n’y estant point obligé par son estat &amp; sa profession, telles que
+                    sont les choses de fait, &amp; plusieurs de celles qui ne sont que de droit
+                    humain. Or quand le Confesseur voit son penitent dans cette derniere sorte
+                    d’ignorance, s’il juge qu’il y ait danger de luy découvrir la verité à raison
+                    des grands inconveniens qu’il y auroit à apprehender, il n’y est point obligé,
+                    &amp; il peut laisser son penitent dans la bonne foy où il le trouve ; ce qui
+                    s’entend néanmoins en sorte que le public n’y soit pas <pb n="146" xml:id="p146"
+                    />interessé, &amp; qu’il n’y ait point de scandale : car autrement il faudroit
+                    l’en avertir, par exemple si l’invalidité d’un mariage qui seroit inconnuë aux
+                    personnes mariées, estoit connuë de plusieurs autres personnes qui auroient
+                    raison d’en estre scandalisées : mais si la cause de cette invalidité estoit
+                    cachée, on pourroit ne la leur pas découvrir, s’il y avoit de grands
+                    inconveniens à craindre de cette separation ; puisque demeurant dans la bonne
+                    foy, ils ne commettent point de mal de vivre ensemble, comme S. Augustin le
+                    declare par ces paroles : <quote><note place="margin">De Fid. &amp; oper.
+                            c. 7.</note><hi rend="i">Quid si, inquiunt virgo nesciens viro nupscrit
+                            alieno ? Hoc si semper nesciat, nunquam ex hoc erit
+                        adultera.</hi></quote></p>
+                <p><hi rend="sc">Comment</hi> <hi rend="i">se doit conduire le Confesseur lorsqu’il
+                        rencontre un penitent qui ne s’accuse que de fautes fort légeres, &amp;
+                        qu’il a sujet de croire qu’il est coupable de beaucoup d’autres pechez plus
+                        griefs, sçachant que c’est une personne dont la vie n’est point
+                        reglée ?</hi></p>
+                <p>Il doit l’instruire de ses obligations tant generales que particulieres, luy
+                    marquant les principaux defauts desquels il croiroit qu’il pourroit estre
+                    coupable, &amp; l’avertir de l’importance qu’il y a de faire un soigneux &amp;
+                    diligent examen de sa conscience, puisqu’autrement sa confession luy seroit plus
+                    prejudiciable qu’elle ne luy seroit utile ; aprés quoy il doit le renvoyer,
+                    afinqu’il se prepare plus à loisir, &amp; luy assigner un temps auquel il vienne
+                    se representer.</p>
+                <p rend="i">Que doit faire le Confesseur à l’egard des personnes de pieté, lorsqu’il
+                    ne discerne pas bien si les manquemens dont elles s’accusent sont une matiere
+                    suffisante pour l’absolution ?</p>
+                <p>Il peut quelquefois les renvoyer sans leur <pb n="147" xml:id="p147"/>donner
+                    l’absolution, principalement si ce sont des personnes dont l’innocence &amp; la
+                    sainteté de vie luy soit connuë, leur donnant pour avis de s’adresser à <hi
+                        rend="sc">Jesus-Christ</hi> comme au souverain Prestre, &amp; de s’humilier
+                    profondement devant luy pour les pechez qui leur sont cachez. Mais pour
+                    l’ordinaire il les doit croire dans l’accusation qu’ils font de leurs fautes ;
+                    puisque d’une part il n’y a point de personnes si saintes qui ne pechent
+                    plusieurs fois tous les jours, &amp; que de l’autre ceux qui sont plus saints
+                    voyent mieux leurs pechez que les autres.</p>
+                <p rend="i">Les Confesseurs doivent-ils porter les personnes de pieté qui communient
+                    fort souvent de se confesser toutes les fois qu’ils communient ?</p>
+                <p>Il est remarqué dans la vie de S. Charles qu’il se confessoit tous les jours,
+                    &amp; beaucoup de saintes ames l’ont fait en ces derniers temps 3. ou 4. fois la
+                    semaine. L’esprit de penitence dont ils estoient remplis leur donnoit moyen de
+                    profiter de cette sainte prattique. Mais l’experience fait voir qu’il y en a
+                    beaucoup d’autres à qui elle nuit plus qu’elle ne sert, &amp; que tout consideré
+                    il y a de grandes raisons qui font voir qu’il seroit plus à propos sur tout pour
+                    les filles &amp; pour les femmes que les confessions ne fussent point si
+                    frequentes.</p>
+                <p>1. On découvre tous les jours que cette coûtume de se confesser si souvent donne
+                    lieu à des familiaritez dangereuses &amp; de mauvaises attaches.</p>
+                <p>2. Des Confesseurs que leur pieté met à couvert de ce peril consument presque
+                    tout leur temps à écouter les confessions, &amp; s’en trouvent accablez.</p>
+                <p>3. Il est difficile que se confessant si souvent on ne le fasse pas coûtume &amp;
+                    sans presqu’aucun sentiment de ses fautes. On se repose sur l’absolution <pb
+                        n="148" xml:id="p148"/>qu’on en reçoit, &amp; on n’a presqu’aucun soin de
+                    s’en corriger. C’est une décharge que l’amour propre recherche au lieu qu’il
+                    vaudroit bien mieux qu’on sentist le poids de ses pechez durant quelques jours,
+                    qu’on s’en humiliât devant Dieu, &amp; qu’on les reparât par de bonnes œuvres
+                    contraires, que de mettre tout comme l’on fait dans la confession aprés laquelle
+                    on ne s’en souvient presque plus, ce qui fait qu’aprés plusieurs années de
+                    confessions si frequentes on ne voit point que la plûpart de ces personnes en
+                    soient plus mortifiées &amp; moins imparfaites.</p>
+                <p>Il semble donc qu’il seroit plus avantageux à ceux qui par l’avis d’un Directeur
+                    sage &amp; éclairé communient les Dimanches &amp; les Festes, de ne se confesser
+                    que tous les quinze jours au plus, &amp; se contenter les autres jours de
+                    s’humilier devant Dieu dans la vûe de leurs fautes, &amp; de les expier par
+                    quelque aumône ou quelque action de penitence avant que de s’approcher de la
+                    sainte Table, ou s’en retirer avec humilité s’ils se trouvoient coupables de
+                    quelque faute plus considerable qu’à l’ordinaire jusqu’a ce que le temps de se
+                    confesser fust venu. Il y a de l’apparence qu’on retireroit plus de fruit de
+                    cette conduitte, qu’elle ne seroit pas sujette à de si grands abus, &amp;
+                    qu’elle seroit plus propre à conduire les ames à une pieté solide qui doit plus
+                    attacher à Dieu qu’aux hommes.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>

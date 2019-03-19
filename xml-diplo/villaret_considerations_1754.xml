@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Considerations sur l’art du théâtre. D*** à M. Jean-Jacques Rousseau, citoyen
+                    de Geneve</title>
+                <author key="Villaret, Claude (1715-1766)"
+                    ref="https://data.bnf.fr/fr/12044463/claude_villaret/">Claude Villaret</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.site/corpus/haine-theatre/villaret_considerations_1754</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Claude Villaret, <hi rend="i">Considerations sur l’art du théâtre. D*** à M.
+                        Jean-Jacques Rousseau, citoyen de Geneve</hi>, <pubPlace>Genève</pubPlace>,
+                        <publisher>Henri-Albert Gosse</publisher>, <date>1754</date>, in-8 [4]-82 p.
+                    PDF : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k9602341v"
+                    >Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1754"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="dedication">
+                <head>[Lettre]</head>
+                <salute><pb n="1" xml:id="p1"/><hi rend="sc">Monsieur</hi>,</salute>
+                <p><hi rend="big">S</hi><hi rend="sc">i</hi> la pureté d’intention peut inspirer <hi
+                        rend="i">quelque fierté</hi> à tout Ecrivain qu’elle anime ; je crois qu’il
+                    m’est permis de prétendre à cette gloire, ainsi que vous. Je ne pense pas, il
+                    est vrai, <hi rend="i">que peu d’Auteurs m’ayent donné l’exemple de ce
+                        désintéressement, &amp; que fort peu voudront l’imiter</hi> : (pardonnez-moi
+                    si je me sers de vos propres expressions.) Je n’ai pas l’opinion flateuse, si
+                    vous le voulez, que la sincérité &amp; le désintéressement soient le partage
+                    exclusif <pb n="2" xml:id="p2"/>d’un si petit nombre d’Ecrivains, en vous
+                    comptant, comme vous l’avancez modestement, qu’on doive désespérer que votre
+                    exemple tire à conséquence. Sentez-vous digne, je ne m’y oppose pas, de la
+                    devise : <quote><hi rend="i">Vitam impendere vero</hi></quote>, que vous vous
+                    êtes appropriée, mais ne refusez pas aux autres Ecrivains l’avantage d’être
+                    admis au nombre de vos élûs. On avoit dit avant vous : <quote><hi rend="i">Nul
+                            n’aura de l’esprit que nous &amp; nos amis.</hi></quote> Il vous étoit
+                    réservé sans doute, d’affirmer : <quote><hi rend="i">Qu’en ce monde pervers les
+                            Auteurs sont sans foi, fourbes, intéressés, hors mes amis &amp;
+                            moi.</hi></quote> Vous n’en aimeriez pas moins la sincérité, en
+                    permettant aux autres de lui rendre leurs hommages, <pb n="3" xml:id="p3"/>cela
+                    ne diminueroit rien de votre portion de gloire &amp; de vertu : c’est un
+                    héritage, où la division peut avoir lieu, sans préjudicier aux intérêts de ceux
+                    qui s’en sont mis en possession, &amp; l’on vous passeroit sans murmurer votre
+                    fastueuse devise. Vous décideriez avec moins d’autorité, si vous aviez réfléchi,
+                    que pour bien juger de la pureté d’intention &amp; du désintéressement d’un
+                    Auteur, il faudroit pénétrer dans son ame, pour y reconnoître l’accord de ce
+                    qu’il écrit avec ce qu’il pense réellement. Avez-vous scruté les intentions de
+                    presque tous les Ecrivains que vous réprouvez ? Sur quel fondement leur
+                    refusez-vous la pureté d’intention &amp; le désintéressement ? <pb n="4"
+                        xml:id="p4"/>si vous n’en décidez que sur l’impression que vous font leurs
+                    ouvrages, votre condamnation me paroît hazardée : car ils pourroient alléguer
+                    pour leur défense : <hi rend="i">Lecteur, je puis me tromper moi-même, mais non
+                        pas vous tromper volontairement ; craignez mes erreurs, &amp; non ma
+                        mauvaise foi.</hi> Un pareil aveu vous disposeroit sans doute à modérer la
+                    rigueur de vos jugemens. C’est dans ces dispositions favorables, &amp; dont je
+                    vous invite à faire usage, que je vais prendre la liberté d’examiner, avec vous,
+                    votre Lettre datée de Montmorenci, du 20 Mars 1758. &amp; que j’ai reçûe de la
+                    Haye à la fin d’Octobre de la même année.</p>
+            </div1>
+            <div1 type="chapter">
+                <pb n="5" xml:id="p5"/>
+                <head type="main">Considérations <hi rend="i">sur</hi> l’art du Théâtre.</head>
+                <p><hi rend="big">L</hi>E goût des arts, l’honneur de ma patrie, l’amour du genre
+                    humain, un respect inviolable pour la vérité, voilà les motifs qui m’engagent à
+                    publier mes réflexions sur l’art du Théâtre. C’est un objet trop important, pour
+                    qu’il soit permis de regarder avec indifférence le jugement qu’on en doit
+                    porter. Avantageux, il faut l’admettre, il faut le rejetter s’il est nuisible.
+                    La conservation de la pureté de nos mœurs en dépend, &amp; quoique sans
+                    ménagement, sans <pb n="6" xml:id="p6"/>daigner même entrer dans aucun examen,
+                    pour revêtir au moins d’une apparence de justice cet anathême que vous fulminez
+                    contre nous, vous nous reprochiez une corruption dont votre heureuse patrie est
+                    exempte, la vertu ne nous est pas si étrangere, qu’il ne nous soit permis de
+                    prendre un intérêt sensible à tout ce qui la concerne, &amp; de faire tous nos
+                    efforts pour diminuer notre dépravation. Nous avons des spectacles, nous avons
+                    porté cet art à un dégré, qui nous rend à cet égard supérieurs à toutes les
+                    Nations. Il n’y a presque plus de Peuples de l’Europe, qui ne fassent leurs
+                    délices de nos Pieces &amp; de nos Acteurs. En adoptant vos maximes, nous devons
+                    être regardés comme des séducteurs du genre humain. Voyons si nous ne méritons
+                    pas un titre moins odieux, en examinant vos austeres paradoxes. Il s’agit de
+                    sçavoir,</p>
+                <p rend="i">Si les spectacles sont bons en eux-mêmes.</p>
+                <p rend="i">S’ils peuvent s’allier avec les mœurs.</p>
+                <pb n="7" xml:id="p7"/>
+                <p rend="i">Si tout Gouvernement peut les comporter.</p>
+                <p rend="i">Si la profession de Comédien est honnête.</p>
+                <p>Je crois que la premiere de ces questions doit résoudre toutes les autres. Un art
+                    bon par soi-même ne sçauroit être contraire aux mœurs, que dans le cas où l’on
+                    en feroit un mauvais usage, (danger commun à tous les arts qui peuvent devenir
+                    pernicieux par l’abus) ce qui ne pourroit être attribué à un vice de l’art, mais
+                    de l’artiste, ou des amateurs de cet art.</p>
+                <p>Pouvant s’allier avec les mœurs, tout Gouvernement peut le comporter, &amp; doit
+                    le protéger, puisque tout Gouvernement a un intérêt sensible de perfectionner la
+                    morale, qui forme un des plus solides fondemens de toute autorité légitime.</p>
+                <p>Il ne peut être deshonnête de l’exercer, puisqu’il seroit absurde de dire, que la
+                    profession d’un art utile aux Mœurs &amp; au Gouvernement est deshonorante.</p>
+                <p><pb n="8" xml:id="p8"/>On peut définir l’art du Théâtre, l’art de peindre les
+                    passions, en représentant leurs effets. Une action théâtrale est l’image plus ou
+                    moins forte de ce que nous voyons tous les jours. Les différens mouvemens de
+                    l’ame y sont exprimés : les ressorts secrets que le vice &amp; la vertu font
+                    jouer successivement, y sont exposés au grand jour : le spectateur juge.</p>
+                <p>Les hommes ont des passions ; cela est certain. Elles les excitent à la vertu,
+                    elles les précipitent dans le crime. Les Stoïciens qui ne les considéroient que
+                    dans leurs effets pernicieux, les proscrivirent sans réserve. Ils imaginerent un
+                    être chimérique dont ils firent leur modele. Je ne m’arrêterai point à renverser
+                    ce vain fantôme. Les passions font partie de nous-mêmes, elles nous sont
+                    essentielles : un homme <hi rend="i">apathique</hi>, n’a ni désirs ni
+                    sentimens : inaccessible au plaisir, ainsi qu’à la douleur, il contemple tout
+                    sans intérêt : rien ne peut le déterminer vers un objet préférablement à un
+                    autre. <pb n="9" xml:id="p9"/>Un tel être ne differeroit du néant, que par une
+                    existence immobile au milieu d’une foule d’êtres incessamment agités. Prétendre
+                    réformer le genre humain sur le sage de l’école de <hi rend="i">Zenon</hi>, ce
+                    seroit aller directement contre l’ordre établi. La meilleure raison de la
+                    nécessité des passions, c’est leur existence reconnue. Vouloir les détruire est
+                    une entreprise aussi téméraire qu’extravagante. Nous ne sommes pas créés pour
+                    anéantir, mais pour faire usage de tout selon les lumieres de la justice &amp;
+                    de la raison. Tout ce qui tend à multiplier ces lumieres est bon en soi-même.
+                    C’est l’objet de l’art dramatique, &amp; je tire mes preuves de la nature même
+                    des productions de cet art.</p>
+                <p>La tragédie par l’élévation des sentimens, la sublimité des pensées, la majesté
+                    du style, l’énergie des expressions, la force des situations, l’harmonie &amp;
+                    la véhémence de la déclamation, la pompe du spectacle, tend à augmenter
+                    l’activité de notre <pb n="10" xml:id="p10"/>ame par l’intérêt, &amp; à
+                    déterminer cet intérêt en faveur de la vertu. Le crime est toujours puni : elle
+                    se sert des couleurs les plus fortes pour le flétrir. Dans l’action qu’elle
+                    représente, le succès ou la chûte sont également funestes à l’injustice : le
+                    plus cruel châtiment est l’horreur &amp; le mépris qu’elle inspire. La vertu est
+                    toujours récompensée par le triomphe, ou par l’estime, qui est son plus noble
+                    prix. Ce prix n’est point arbitraire, il ne dépend pas plus de la révolution des
+                    tems. On admire encore, &amp; l’on court toujours en foule aux représentations
+                    des bonnes pieces de <hi rend="i">Corneille</hi> ; &amp; ce n’est pas, comme
+                    vous le supposez, par la honte de s’en dédire, que l’on continue de prodiguer de
+                    justes applaudissemens aux chefs-d’œuvre de ce grand Homme. Si le Public, qui en
+                    fait ses délices aujourd’hui, étoit composé des mêmes personnes qui approuverent
+                    dans la nouveauté <hi rend="i">Cinna</hi>, <hi rend="i">Polieucte</hi>, <hi
+                        rend="i">Heraclius</hi>, &amp;c. cette supposition auroit du moins une <pb
+                        n="11" xml:id="p11"/>apparence de fondement ; mais le Public de ce siecle,
+                    ne peut être porté, que par la raison, à joindre son suffrage à ce-lui du siecle
+                    passé, &amp; ne doit pas rougir d’être d’un avis contraire au sien. Il faut être
+                    étrangement prévenu contre ses contemporains, pour s’imaginer qu’ils ne seroient
+                    pas capables de connoître &amp; de sentir les beautés des Ouvrages du <hi
+                        rend="i">Sophocle</hi> François, s’ils n’étoient appuyés de l’autorité de
+                    leurs ancêtres.</p>
+                <p>Rien n’est plus propre à développer dans nos ames les idées de justice, à
+                    fortifier le penchant qui nous porte à la vertu, que les honneurs qu’on lui rend
+                    sur la scene. Ce concert unanime d’applaudissemens &amp; d’hommages, qui
+                    s’accorde si bien avec ce que nous éprouvons intérieurement, nous pénetre d’un
+                    sentiment délicieux. Dans nos assemblées nombreuses, la voix de la nature prend
+                    un ton plus imposant ; c’est un torrent qui entraîne &amp; qui subjugue tout ce
+                    qu’il rencontre, on diroit que la vertu descend sur la terre, &amp; dicte ses
+                    oracles <pb n="12" xml:id="p12"/>à tout le genre humain. Ce n’est pas dans la
+                    solitude que la vertu fait briller ses traits les plus forts ; c’est un feu dont
+                    la rapidité s’accelere par la communication générale. La démonstration de cette
+                    verité est gravée trop profondément dans tous les cœurs, pour qu’on puisse la
+                    revoquer en doute.</p>
+                <p>C’est moins pour l’appuyer que pour répondre à vos objections, que je vais citer
+                    des exemples ; je ne les chercherai pas loin. J’aurois, ainsi que vous, le droit
+                    de choisir ; mais je ne profiterai pas de cette liberté. Je me renferme dans les
+                    mêmes que vous avez exposés.</p>
+                <p><hi rend="i">Catilina</hi> ne fait point le rôle d’un grand homme, comme vous le
+                    pretendez, à moins que vous ne donniez ce nom à un furieux, d’autant plus
+                    méprisable, que sa constante perversité ne lui laisse aucuns remords. Il excite
+                    l’attention du spectateur &amp; non son estime : c’est contre de pareils
+                    scélérats que l’indignation de la vertu se souleve pour les écraser. Le silence
+                    de <hi rend="i">Caton</hi>, qui le méprise assez pour ne pas <pb n="13"
+                        xml:id="p13"/>daigner même répondre à ses invectives, doit l’anéantir. Un
+                    homme qui tente un grand crime n’est pas regardé comme un grand homme, ou bien
+                    il faudroit chercher un autre terme pour désigner un homme qui forme une
+                    entreprise grande &amp; juste. L’étendue des lumieres, l’activité, la fermeté,
+                    accompagnent également le grand homme &amp; le scélérat ; le principe qui fait
+                    agir ces deux caracteres opposés, les distingue, &amp; ce principe est toujours
+                    developé. Tout Auteur dramatique n’est-il pas obligé d’établir les caracteres
+                    qu’il fait agir, non-seulement pour soulager l’attention des spectateurs, mais
+                    même pour les guider dans leurs jugemens ? Si le personnage vicieux qui fait le
+                    sujet de la piece, se déclare lui-même injuste, peut-on craindre qu’il surprenne
+                    l’approbation de son iniquité ? Il aura beau nous montrer dans ses faux
+                    raisonnemens, qu’il est capable d’embrasser un projet vaste, que son genie égale
+                    son audace, pourra-t-il jamais nous arracher un sentiment d’estime ? Si cela <pb
+                        n="14" xml:id="p14"/>étoit à redouter, il faudroit supprimer presque tous
+                    les exemples dont l’histoire fourmille ; il faudroit interdire aux historiens
+                    toute description de caractere vicieux ; il faudroit retrancher des annales du
+                    monde, tous les portraits de ces fameux coupables qui se sont signalés par leurs
+                    erreurs, &amp; ne rapporter que les faits qui peuvent entrer dans un
+                    panegirique. <hi rend="i">Catilina</hi> n’est-il pas encore peint avec plus de
+                    force dans Saluste ? Cet Auteur n’est-il pas entre les mains de la plus tendre
+                    jeunesse, sans qu’on apréhende qu’il <quote><hi rend="i">encourage des
+                            Catilina</hi></quote> ? S’il n’y avoit que des hommes foibles &amp;
+                    aveugles qui se livrassent au crime, quel fruit retireroit-t-on de leur
+                    exemple ? On apprendroit qu’on peut commettre de mauvaises actions : voilà tout.
+                    Mais en voyant des hommes, allier par un mélange monstrueux, aux emportemens
+                    d’une ame injuste, des qualités brillantes, on se forme plus aisément l’habitude
+                    de séparer la cause primitive, des forces qu’elle fait mouvoir ; on juge non les
+                        <pb n="15" xml:id="p15"/>moyens employés, mais l’intention. Qu’un homme
+                    déclare qu’il a dessein d’entreprendre un forfait, pourrons-nous jamais
+                    l’approuver, quelques efforts qu’il fasse pour nous étaler toutes ses
+                    ressources ? J’aimerois autant dire que c’est travailler contre notre sûreté,
+                    que de nous apprendre les ruses dont un ennemi peut se servir pour nous perdre.
+                        <hi rend="i">Catilina</hi> n’est rien moins qu’un héros dans les tragédies
+                    de Messieurs de <hi rend="i">Crebillon</hi> &amp; de <hi rend="i">Voltaire</hi>.
+                    C’est un monstre qui effraye par la grandeur des forfaits qu’il médite. Il
+                    seroit à desirer que ces deux illustres émules ne discontinuassent jamais de
+                    nous donner des poëmes dont on peut recueillir des leçons si importantes. Genies
+                    sublimes, formés pour l’instruction des hommes, que ne puis-je en votre faveur
+                    interrompre la course trop rapide du tems qui dévore tout ! que ne puis-je
+                    reculer le terme de votre brillante carriere ! les plus longs jours sont encore
+                    trop bornés pour ces Citoyens illustres qui enrichissent le genre humain de <pb
+                        n="16" xml:id="p16"/>nouvelles lumieres, &amp; qui ont si bien merité de
+                    leur patrie par leurs admirables ouvrages. Amis des Arts, encore plus de leurs
+                    semblables, on ne les voit point sans relâche occupés à décomposer notre
+                    espece ; ils ne prodiguent point les soins les plus pénibles &amp; les plus
+                    infructueux pour réaliser l’existence du vice, &amp; rendre problematique celle
+                    de la vertu. Echaffaudés sur le fragile appui d’une vaine Métaphysique, ils
+                    n’ont pas l’orgueil de croire remonter jusqu’aux premiers principes de tous nos
+                    sentimens ; ils n’accumulent point sans fin les conjectures les plus fausses
+                    pour en étayer d’odieux systêmes, &amp; présenter à nos yeux indignés, avec une
+                    confiance insultante, le squelette de l’humanité.</p>
+                <p>Dans la Tragedie de <hi rend="i">Mahomet</hi>, que vous approuvez du moins en
+                    partie, vous appréhendez que la grandeur d’ame qu’il étale, ne diminue
+                    l’atrocité de ses crimes. Il est bien singulier que vous redoutiez précisément
+                    le contraire de ce qui arrive. Plus <pb n="17" xml:id="p17"/>Mahomet montrera,
+                    ainsi que Catilina, de grandes qualités, plus elles contrasteront avec ses
+                    crimes. Que peut-il résulter de cette opposition ? Que l’étendue de nos lumieres
+                    ne sert qu’à nous rendre plus coupables, lorsque nous les faisons servir au
+                    succès de projets abominables. Considerez ce fameux scélérat, à la fin de la
+                    piece. <quote><hi rend="i">Ses forfaits dans son cœur ont gravé son
+                            supplice.</hi></quote> Déchiré des remords les plus honteux, cent fois
+                    plus infortuné que les innocentes victimes de ses fureurs, livré en proye aux
+                    horreurs d’un desespoir éternel, il ne peut supporter la vûe de son ame
+                    exécrable. Est-il leçon plus frappante, &amp; plus capable d’intimider quiconque
+                    oseroit lui ressembler ? Cet exemple terrible ne suffiroit-il pas pour détruire
+                    l’impression momentanée, qu’auroit pû produire sur quelques spectateurs, cette
+                    fausse grandeur dont il fait une vaine parade, tandis que le fruit qu’on peut
+                    recueillir du châtiment affreux d’un monstre accablé &amp; couvert d’ignominie,
+                    subsisteroit dans <pb n="18" xml:id="p18"/>toute sa force ? <hi rend="i"
+                        >Seide</hi> meurtrier, nous feroit horreur malgré le fanatisme qui l’égare,
+                    si ce n’étoit pas sur son pere qu’il porte ses coups, sans le sçavoir.
+                    L’homicide volontaire nous révolteroit ; le parricide involontaire excite notre
+                    pitié. Enfin on rapporte de la représentation de cette piece cette double
+                    instruction, que tout criminel contre sa conscience, est comme Mahomet, un homme
+                    détestable, &amp; que l’emportement d’un zele inconsideré, peut conduire aux
+                    plus énormes attentats. Si la raison n’est pas toujours assez puissante pour
+                    éteindre l’embrasement du fanatisme, elle peut, en nous éclairant, prévenir les
+                    égaremens qui précédent cette aveugle fureur.</p>
+                <p>Je ne répeterai pas d’<hi rend="i">Atrée</hi> ce que j’ai dit de <hi rend="i"
+                        >Mahomet</hi> &amp; de <hi rend="i">Catilina</hi>. C’est toujours le crime
+                    représenté avec les couleurs les plus fortes &amp; les plus capables de
+                    redoubler l’horreur naturelle qu’il inspire. Le rôle de <hi rend="i"
+                        >Thyeste</hi> est intéressant, selon vous, parce qu’il est homme &amp;
+                    malheureux. C’est le <pb n="19" xml:id="p19"/>caractere opposé à l’homme sans
+                    foiblesse, que vous reprochez à notre théâtre de ne pouvoir rendre intéressant.
+                        <hi rend="i">Thyeste</hi> excite notre compassion ; nous sommes attendris en
+                    voyant à quel comble d’infortune le réduit la vengeance atroce de son barbare
+                    frere : il exerce notre humanité cette vertu si respectable, la premiere de
+                    toutes, peut-être, la plus nécessaire au genre humain, qui donne de l’activité à
+                    toutes les autres.</p>
+                <p>C’est sans raison que vous desirez que <quote><hi rend="i">nos Auteurs sublimes
+                            descendent quelquefois de leur élevation continuelle, &amp; nous
+                            attendrissent en faveur de l’humanité souffrante</hi></quote>. Il vous
+                    seroit impossible de citer une seule de nos tragédies qui ne produise cet effet.
+                    Nos plus foibles drames ne doivent leur réussite, qu’à ces touchantes images qui
+                    rapellent à nos cœurs le sentiment de l’humanité. <quote><hi rend="i">Les
+                            Anciens avoient des Héros</hi><seg type="exquote">, dites-vous</seg>,
+                            <hi rend="i">&amp; mettoient des hommes sur la scene ; nous n’y mettons
+                            que des Héros, &amp; à peine avons-nous des <pb n="20" xml:id="p20"
+                            />hommes.</hi></quote> Je dirois à tout autre, qui seroit moins emporté
+                    par l’ardeur d’un zele estimable dans son principe, qui est l’amour de la vertu,
+                    mais inconsideré ; que c’est trahir la verité, pour jouir du miserable plaisir
+                    d’une antitese puérile. Toutes les tragédies des Anciens abondent en vaines
+                    déclamations ; ils mettoient sur leurs Théatres des Héros souvent montés sur des
+                    échasses ; les nôtres se rapprochent plus de l’homme. Ils avoient des Héros sans
+                    doute ; mais en dépit du vœu que vous semblez avoir formé d’être <quote><hi
+                            rend="i">æternus laudator temporis acti</hi></quote>, il me seroit
+                    facile de vous prouver que notre siécle peut fournir des exemples d’héroisme en
+                    tous genres, qui ne nous rendent point inférieurs aux Anciens, si ce combat de
+                    siécle à siécle, où chacun se consume en efforts inutiles pour faire triompher
+                    le siécle qu’il semble avoir pris sous sa protection, n’étoit la plus frivole de
+                    toutes les disputes littéraires. J’ouvre le livre de l’univers, &amp; je vois
+                    sur ce vaste Théatre le vice &amp; la vertu toujours aux <pb n="21" xml:id="p21"
+                    />prises ; &amp; en comparant les siécles les plus brillans, j’en vois peu
+                    auxquels le nôtre ne paroisse préférable.</p>
+                <p>Comme vous avez senti la foiblesse des preuves qu’il vous étoit possible de tirer
+                    des exemples, que vous aviez cependant choisis vous-même, vous vous êtes
+                    fabriqué de nouvelles armes. Pour nous prouver que <quote><hi rend="i">certaines
+                            passions satisfaites nous semblent préférables à la vertu</hi></quote>,
+                    vous enfantez un nouveau plan de la tragédie de Berenice, dont vous supposez
+                    l’effet infaillible avec une confiance intrépide, &amp; vous en tirez cette
+                    conséquence victorieuse, que <quote><hi rend="i">les tableaux de l’amour font
+                            toujours plus d’impression que les maximes de la sagesse, &amp; que
+                            l’effet d’une tragédie est tout-à-fait indépendant du
+                        denouement</hi></quote>. Je ne vous dirai pas que vous concluez d’une
+                    supposition, &amp; non d’un fait prouvé, c’est assez votre ordinaire ; quand les
+                    raisons manquent, l’imagination vient au secours. Ce merveilleux projet est
+                            <quote><hi rend="i">que Titus abdique l’empire, pour aller avec Berenice
+                            vivre heureux &amp; ignoré dans un coin <pb n="22" xml:id="p22"/>de
+                            l’univers</hi></quote>. Si vous pouviez réformer toutes nos pieces de
+                    théâtre dans ce goût-là, j’ose vous assurer que vous n’auriez pas long-tems à
+                    déclamer contre nos spectacles, que vous rendriez bientôt déserts. Je n’aime
+                    point à supposer, parce que les suppositions ne me satisfont pas, &amp; que je
+                    doute que les autres s’en contentent plus facilement. Essayons s’il ne seroit
+                    pas possible de découvrir le sentiment que doit exciter en nous l’action que
+                    vous prêtez à Titus. Le plaisir que nous procure une action théatrale naît de
+                    l’intérêt, vous en convenez dans votre ouvrage. Tant que Titus balancera entre
+                    l’amour du devoir &amp; l’amour de Berenice, nous entrerons dans ses peines, son
+                    attachement à la vertu qui le fait résister à la force de sa passion, le rendant
+                    digne de notre estime ; nous le plaindrons d’autant plus qu’il fera plus
+                    d’efforts, &amp; que par conséquent il souffrira davantage : mais dès l’instant
+                    qu’il succombera, nous cesserons de le plaindre, puisqu’il n’aura plus besoin de
+                    notre <pb n="23" xml:id="p23"/>pitié ; si nous avions même prévû qu’il dût
+                    ceder, nous avions même prévû qu’il dût ceder, nous nous serions épargné une
+                    compassion inutile ; &amp; comme nous sommes persuadés que cette passion de
+                    préférence pour un seul objet, n’est pas un penchant absolument insurmontable à
+                    la vertu, nous n’aurions pas sûrement regardé comme estimable un homme qui n’a
+                    pas la force d’y résister. Que résulteroit-il donc de cet admirable denouement ?
+                    Que le bonheur de Titus qu’il acheteroit aux dépens de la félicité des Romains,
+                    ne doit plus nous intéresser, parce que nous ne craignons plus de le voir
+                    malheureux. Quelle part pourrions-nous prendre à la satisfaction qu’il va
+                    goûter ? Peut-il émouvoir notre compassion ? Il n’y a là ni pitié ni terreur :
+                    il est content, à la bonne-heure. Peut-on l’approuver, de ce qu’ayant balancé
+                    long-tems entre l’amour de lui-même &amp; l’amour du genre humain, il s’est
+                    enfin donné la préférence ? Je cherche envain quelle autre impression il peut
+                    faire sur nous, &amp; je ne vois que celle que produit tout <pb n="24"
+                        xml:id="p24"/>homme qui s’aime plus que les autres. Cet amour de soi,
+                    indépendamment de tout, le sépare de l’intérêt commun ; &amp; la plus grande
+                    faveur qu’on lui puisse accorder, est de n’avoir aucune inquiétude sur son
+                    bonheur. Mais comme dans ce denouement il ne s’agiroit pas seulement de lui,
+                    mais du sort de l’Empire, après nous être mis à la place de <hi rend="i"
+                        >Titus</hi>, mettons-nous un moment à la place des Romains, qui vont être
+                    privés du bonheur dont ils espéroient jouir sous son regne. Que penserons-nous
+                    du sacrifice qu’il fait ? Il auroit beau nous prouver par un discours patétique,
+                    qu’on doit commencer par soi-même, que <hi rend="i">Berenice</hi> est trop
+                    aimable, qu’il aime mieux regner sur elle que sur nous, &amp; qu’il nous prie de
+                    nous consoler de sa perte ; il ne lui seroit jamais possible de nous persuader
+                    que <hi rend="i">Titus</hi> n’étoit pas comptable de ses vertus au genre humain.
+                    Je vous interroge vous-même ; pouvez-vous être heureux par l’image du plaisir
+                    d’un autre, lorsque ce plaisir vous est prejudiciable ? Qu’il <pb n="25"
+                        xml:id="p25"/>garde l’Empire, dirions-nous, ne peut-il pas aimer <hi
+                        rend="i">Berenice</hi> sans l’épouser ? A-t-elle le droit de le dérober à
+                    l’univers, dont il doit faire les délices ? Il l’aimoit avant de parvenir à
+                    l’Empire : nous ne demandons pas qu’il cesse d’être tendre ; qu’il se contente
+                    de ne pas contracter un hymen qui choque le préjugé Romain ; &amp; si <hi
+                        rend="i">Berenice</hi> est digne de lui, elle sera la premiere à lui
+                    conseiller de conserver l’Empire. Nous reviendrons au denouement de M. Racine.
+                    Si malgré la beauté de la versification, &amp; la sagesse de la conduite, cette
+                    piece est une des moins intéressantes de son illustre Auteur, c’est que
+                    l’obstacle aux amours de <hi rend="i">Titus</hi> &amp; de <hi rend="i"
+                        >Berenice</hi> n’est fondé que sur un prejugé national.</p>
+                <p>L’unique fin de la Tragedie est de peindre les vertus &amp; les vices ; elle est
+                    également instructive dans ce double effet : on apprend à ne pas ressembler aux
+                    méchans ; car comme disoit le vieux <hi rend="i">Caton</hi> : <quote><hi
+                            rend="i">Les sages ont plus à apprendre des fous, que les fous des
+                            sages.</hi></quote> <pb n="26" xml:id="p26"/>On s’éclaire sur le danger
+                    des passions ; on s’habitue à en rectifier l’usage sur les loix de la justice.
+                    Les exemples vertueux nous excitent au bien ; notre amour pour la vertu acquiert
+                    de nouvelles forces : le but de l’art n’est pas de l’embellir, car elle n’est
+                    pas susceptible d’embellissemens, mais de l’exposer dans son plus grand jour,
+                    afin qu’on la connoisse, &amp; qu’on la distingue du fanatisme.</p>
+                <p>Il n’appartient pas à l’homme d’être parfaitement vertueux ; il n’est pas en lui
+                    d’être absolument vicieux ; c’est par cette raison qu’on se sert de couleurs
+                    fortes au theâtre pour peindre les vices &amp; les vertus. Comme notre penchant
+                    pour les unes ou les autres est susceptible d’accroissement, où donc est le
+                    danger d’une imitation chargée, qui augmente ou retient ce penchant ? La haine
+                    pour les scélérats n’est pas l’ouvrage de l’Auteur ; c’est un sentiment qu’il ne
+                    fait que développer &amp; fortifier en nous. L’habitude de juger les méchans sur
+                    la scene, éclaire &amp; <pb n="27" xml:id="p27"/>perfectionne nos idées de
+                    justice. L’amour du beau moral <hi rend="i">inné</hi> dans l’homme (je parle
+                    d’après vous) il faut le mettre en action, sans quoi il ne seroit qu’une faculté
+                    stérile : tout ce qui sert à exercer notre sensibilité doit être estimé
+                    avantageux : la Tragedie opere cet effet, elle est donc bonne par elle-même.</p>
+                <p><quote><hi rend="i">Le plaisir du Comique est fondé sur un vice du cœur humain ;
+                            plus la Comedie est parfaite, plus son effet est funeste aux
+                        mœurs.</hi></quote> Pour connoître la verité ou la fausseté de cette
+                    assertion, il faut examiner la nature de la Comedie, &amp; remonter à la source
+                    principale du plaisir qu’elle produit. Le plaisir de la Comedie est fondé sur le
+                    rire : il s’agit de sçavoir si le rire est une faculté vicieuse. Sur quels
+                    objets cette faculté s’exerce-t-elle ? Sur toutes les imperfections, qui sont
+                    les sujets ordinaires des plaisanteries comiques. La raillerie n’est pas l’arme
+                    favorite du vice, comme vous l’affirmez : le ridicule est un remede temperé dont
+                    la vertu se sert pour <pb n="28" xml:id="p28"/>réprimer le vice en l’humiliant.
+                    L’emportement est le plus souvent l’arme de l’hypocrisie &amp; du fanatisme. Le
+                    mepris &amp; l’indignation ne sont pas toujours employés par les hommes vertueux
+                    pour écraser les méchans ; ils s’en servent rarement au contraire, &amp; n’ont
+                    recours à ces armes rigoureuses, que lorsqu’ils ne peuvent parvenir à les
+                    corriger par des voyes plus douces. S’efforcer de rendre les hommes meilleurs,
+                    voilà l’emploi des sinceres amateurs de la vertu. Les méchans sont ordinairement
+                    de mauvais plaisants : le ridicule n’est pas une arme si facile à manier que
+                    vous le pensez. Un vicieux fait horreur quand il s’en sert contre la vertu : la
+                    raillerie ne lui sied pas : il est fait pour en être l’objet. Mais la
+                    plaisanterie, lorsque la raison s’en sert habilement, est un moyen efficace pour
+                    ramener les méchans, &amp; les engager à faire au moins les premiers pas d’un
+                    retour utile sur eux-mêmes, en réveillant dans le fonds de leurs cœurs ces
+                    sentimens de bonté &amp; de justice que <pb n="29" xml:id="p29"/>vous
+                    reconnoissez dans tous les hommes. Le ridicule les surprend : leur amour propre
+                    est étonné de leur propre difformité ; ils n’étoient pas en garde contre ce
+                    trait inattendu : le mépris &amp; l’indignation les auroient révoltés.</p>
+                <p>Sur nos Theatres, jamais la vertu n’a fait rire : je ne dis pas seulement les
+                    honnêtes gens ; mais même ses plus grands ennemis, ceux qui s’en sont éloignés
+                    par leurs déreglemens. Lorsqu’un homme sincere &amp; crédule est trompé par un
+                    fripon ingénieux, on rit, non de sa candeur qui est respectable, mais du défaut
+                    de lumieres qui l’a fait tomber dans le piége. S’il avoit réuni la prudence à la
+                    sincerité, &amp; qu’on l’eût mis en opposition avec l’homme ingénieux, mais de
+                    mauvaise foi, le dernier seul eût excité notre mépris ; &amp; si ses actions
+                    n’eussent pas été de nature à produire des effets funestes, le rire n’eût éclaté
+                    que contre lui-seul. Que résulte-t-il de cet effet de la Comedie ? Une leçon à
+                    l’homme vertueux d’être <pb n="30" xml:id="p30"/>sur ses gardes : c’est un
+                    avertissement du danger dont il est menacé. Tous les jours les honnêtes gens
+                    sont exposés par leur peu d’attention, à devenir les victimes des méchans : la
+                    Comedie par ces exemples utiles les éclaire sur leurs véritables intérêts. Si je
+                    ne craignois de nous engager dans une trop longue discussion, il me seroit
+                    facile de vous multiplier les exemples. J’ai choisi celui de l’honnête homme
+                    trompé par le fripon, parce que c’est une des plus abondantes sources du
+                    ridicule que la Comedie employe, &amp; que vous l’avez choisi vous-même.</p>
+                <p>Il ne me reste plus qu’à parcourir avec vous les Comedies que vous citez, &amp;
+                    qui effarouchent votre zele pour la vertu. Un fripon gentilhomme dupe un
+                    bourgeois entêté de noblesse. Ce n’est point le gentilhomme qui est le
+                    personnage intéressant de la piece : <hi rend="i">Moliere</hi> ne s’attache pas
+                    à couvrir sa friponnerie du voile d’une apparente honnêté ; on voit que son
+                    unique dessein est de montrer à quel degré <pb n="31" xml:id="p31"/>d’erreur
+                    &amp; d’impertinence peut parvenir un bourgeois, qui s’expose sans lumieres à
+                    franchir les bornes de son état. Oseroit-t-on soutenir que ce n’est pas le but
+                    de l’Auteur, qu’il ne l’a pas atteint, &amp; que cette leçon n’est pas utile ?
+                    Est-ce à l’imprudence de la fille de <hi rend="i">M. de Sottenville</hi> que le
+                    Parterre applaudit, ou à la punition de <hi rend="i">Georges Dandin</hi> ? Pour
+                    en être éclairci, examinez la piece. Rien de plus froid que les scenes où cette
+                    femme criminelle est seule ; le rire ne s’éveille que lorsque son mari est
+                    témoin des affronts qu’elle lui fait. N’est-ce pas une leçon aux hommes que
+                    l’ambition engage à former des nœuds mal assortis ? Si <hi rend="i">Georges
+                        Dandin</hi> &amp; sa femme étoient de même âge, de même condition ; s’ils ne
+                    differoient pas par les principes de l’éducation primitive, &amp; qu’il fût
+                    trahi par sa femme, sûrement il ne seroit pas ridicule. J’ai assisté
+                    très-souvent aux représentations de l’<hi rend="i">Avare</hi>, jamais je n’ai vû
+                    rire, lorsque le fils d’<hi rend="i">Harpagon</hi> répond à son pere qu’il n’a
+                    que faire <pb n="32" xml:id="p32"/>de ses dons. On rit de voir un fils, qui vole
+                    un pere, dont l’avarice l’a réduit à cette extremité vicieuse, mais moins
+                    criminelle que la parcimonie outrée d’un homme en qui la cupidité des richesses
+                    étouffe tout autre sentiment. L’<hi rend="i">Avare</hi> est puni trop doucement
+                    par le ridicule qu’on jette sur toutes ses actions. Prêter à usure est un vol.
+                    Les biens ne sont rien pour celui qui s’en refuse l’usage, aussi bien qu’aux
+                    autres. Qu’apprend-on en voyant l’<hi rend="i">Avare</hi> ? Qu’il faut être
+                    juste dans l’emploi des richesses ; qu’il ne les faut pas dérober à la societé ;
+                    que les enfans y ont une part légitime ; qu’en se concentrant, qu’en
+                    ensevelissant, pour ainsi dire, son ame dans son trésor, on se rend méprisable
+                    aux yeux même de ses enfans, auxquels on ne devroit inspirer que des sentimens
+                    de vénération &amp; d’amour ; que ce n’est pas assez d’avoir contribué en
+                    machine aveugle à leur existence, pour exiger leur respect, il faut s’en rendre
+                    digne par ses vertus. Le fils qui manque d’égards pour une pere, <pb n="33"
+                        xml:id="p33"/>quoique peu respectable d’ailleurs, n’est pas cependant
+                    excusé, il n’est pas-là pour se faire aimer, il partage le ridicule avec son
+                    pere ; &amp; s’il y a quelques objets intéressans dans la piece, ce n’est pas
+                    surement le fils d’<hi rend="i">Harpagon</hi>, mais la tendresse innocente d’<hi
+                        rend="i">Elise</hi> &amp; de <hi rend="i">Valere</hi>.</p>
+                <p><quote><hi rend="i">Moliere</hi>, <seg type="exquote">selon vous,</seg> <hi
+                            rend="i">n’a point prétendu corriger les vices, mais les
+                        ridicules</hi>.</quote> S’il a corrigé le ridicule, &amp; que le ridicule ne
+                    prenne sa source que dans le vice, votre distinction est défectueuse. L’<hi
+                        rend="i">Avare</hi>, le <hi rend="i">Tartuffe</hi> sont des personnages
+                    vicieux : je crois qu’il est inutile de le prouver. La sottise de <hi rend="i"
+                        >Georges Dandin</hi> &amp; du <hi rend="i">Bourgeois Gentilhomme</hi> tire
+                    son origine de l’orgueil. L’orgueil est-il un vice ? L’<hi rend="i">Ecole des
+                        Maris</hi> peint &amp; couvre de ridicule un homme défiant. La jalousie, ce
+                    sentiment odieux, qui produit quelquefois de si funestes effets, est exposée à
+                    l’opprobre qu’elle mérite. Est-ce un vice que la jalousie ? En un mot, parcourez
+                    toutes les Comédies de <pb n="34" xml:id="p34"/><hi rend="i">Moliere</hi>, vous
+                    verrez partout le ridicule émaner du vice, qui est son unique source.</p>
+                <p>Je finis l’examen des pieces de <hi rend="i">Moliere</hi> que vous avez citées,
+                    par la Comédie du <hi rend="i">Misantrope</hi> sur laquelle vous vous êtes le
+                    plus étendu. Je ne m’arrêterai pas à réfuter vos observations critiques sur la
+                    conduite de cette Comédie : c’est un objet étranger à notre question. Quel est
+                    le dessein de <hi rend="i">Moliere</hi> dans le portrait qu’il nous donne
+                    d’Alceste ? Celui de représenter un honnête homme, dont la vertu rigide est
+                    accompagnée d’imperfections blâmables, &amp; qui ne sont que trop capables de
+                    défigurer ses meilleures qualités. Le but de la Comédie est de corriger les
+                    hommes ; &amp; les honnêtes gens sont dignes de ses plus grands efforts. C’est
+                    en leur faveur qu’elle doit réunir ses traits les plus vifs, pour les préserver
+                    des excès auxquels ils peuvent s’emporter. Il faut aimer la justice, c’est une
+                    maxime générale ; mais pour en faire l’application, il faut la <pb n="35"
+                        xml:id="p35"/>connoître. On peut tomber dans l’égarement, non par une
+                    surabondance d’amour pour la vertu, mais par un emportement deplacé contre les
+                    hommes qui sont assez malheureux pour s’en écarter, cet emportement est
+                    contraire à la raison, qui ne choisit jamais les extrémités. La modération est
+                    inséparable de l’équité : l’homme juste sçait que nos connoissances sont bornées
+                    comme notre être : il craint toujours de franchir les limites. Il y a un terme
+                    par-delà lequel nos lumieres se changent en ténebres, &amp; notre zele dégénere
+                    en fanatisme. Dès-lors on commence à être injuste ; c’est-à-dire, à ressembler à
+                    ces hommes contre lesquels on s’éleve avec trop de violence : on s’imagine être
+                    raisonnable, on paroît absurde : ce n’est point par excès de vertu ni de
+                    raison ; car la raison &amp; la vertu ne sont pas susceptibles d’excès, c’est
+                    erreur de l’esprit, c’est vice d’imagination. En disant qu’on aime la vertu,
+                    acquiert-on le droit de blâmer tout ce qui n’est pas conforme <pb n="36"
+                        xml:id="p36"/>à notre façon de penser, &amp; de s’exclure seul du mépris
+                    général, &amp; de l’indignation dont on veut accabler le genre humain ? Cette
+                    prétention monstrueuse, qui prend sa source dans l’humeur, pénetre aisément
+                    toute l’ame, si la raison n’oppose une digue à la rapidité du torrent, &amp; ne
+                    nous ramene à des sentimens plus doux : on devient cruel &amp; vicieux en
+                    prêchant sans cesse la vertu &amp; l’humanité : on substitue le chagrin, la
+                    colere, les passions les plus incommodes à la société, à la place de l’honneur
+                    &amp; de la probité qu’on a sans cesse dans la bouche, &amp; dont on a défiguré
+                    les idées dans une imagination déréglée, &amp; l’on finit comme <hi rend="i"
+                        >Alceste</hi>
+                    <quote><hi rend="i">par chercher sur la terre un endroit écarté, où d’être homme
+                            d’honneur on ait la liberté</hi></quote> ; c’est-à-dire, homme d’honneur
+                    à sa maniere, en vivant seul.</p>
+                <p>Les Comédies d’intrigue, inférieures sans doute, ou attaquent des imperfections
+                    moins caractérisées, ou nous intéressent par quelques avantures <pb n="37"
+                        xml:id="p37"/>imaginaires, &amp; ne réussissent qu’à proportion du dégré de
+                    vraisemblance qu’elles nous présentent. Dans toutes ces pieces, c’est toujours
+                    par le contraste des bonnes &amp; mauvaises qualités des personnages qui
+                    agissent, que notre attention est fixée : &amp; indépendamment de la sage
+                    administration de tout peuple policé, le Public seul suffiroit pour réprouver
+                    toute piece où l’Auteur s’attacheroit à rendre le vice aimable, &amp; la vertu
+                    méprisable.</p>
+                <p><quote><hi rend="i">Regnard</hi><seg type="exquote">, dites-vous,</seg> <hi
+                            rend="i">se charge d’encourager les filoux</hi></quote> ; &amp; pour le
+                    prouver, vous citez, non le <hi rend="i">Joueur</hi>, mais le <hi rend="i"
+                        >Légataire</hi>. <quote><hi rend="i">Eraste, l’honnête homme de la piece,
+                            s’occupe avec son cortege de soins que les Loix payent de la corde. Faux
+                            acte, supposition, vol, fourberie, mensonge, inhumanité, tout y est
+                            employé.</hi></quote> Je conviens que si toutes les Comédies
+                    ressembloient au <hi rend="i">Légataire</hi>, on n’en pourroit pas recueillir
+                    tout le fruit dont la Comédie est susceptible. Mais remarquez que c’est une
+                    piece uniquement d’intrigue, presque dénuée <pb n="38" xml:id="p38"/>d’intérêt,
+                    une piece par conséquent du dernier ordre, où l’on ne laisse pas cependant
+                    d’appercevoir encore le but toujours constant de l’art du Théâtre, qui est la
+                    peinture des mœurs, &amp; le ridicule toujours jetté sur les personnages
+                    vicieux : car enfin, de quoi rit-on dans cette piece ? De l’embarras des
+                    personnages, embarras où les jette le desir de s’approprier les dépouilles du
+                    défunt. Leur avidité paroît d’autant plus ridicule aux spectateurs, que leurs
+                    prétentions sont le moins fondées. <hi rend="i">Crispin</hi> a moins de droit
+                        qu’<hi rend="i">Eraste</hi> à la succession du bon homme <hi rend="i"
+                        >Geronte</hi>, aussi fait-il plus rire que son maître, parce qu’il est plus
+                    injuste, par conséquent plus méprisable.</p>
+                <p>Comme vous dites vous-même, <quote><hi rend="i">Que nos Auteurs modernes, guidés
+                            par de meilleures intentions, font des pieces plus
+                    épurées</hi></quote> ; je n’aurois plus rien à vous opposer sur la nature de la
+                    Comédie, si je pouvois passer sous silence le jugement que vous portez <pb
+                        n="39" xml:id="p39"/>des pieces modernes. <quote><hi rend="i">Elles
+                            instruisent beaucoup</hi><seg type="exquote">, selon vous,</seg> <hi
+                            rend="i">mais elles ennuyent encore davantage, autant vaudroit aller au
+                            sermon.</hi></quote> Je vous avoue que malgré la profonde vénération que
+                    je m’efforce de vous conserver, je vous demande la permission de condamner sans
+                    ménagement ce parallele indécent. Je ne l’attendois pas d’un Philosophe, d’un
+                    homme persuadé qu’on ne peut être vertueux sans religion, d’un homme qui dans le
+                    commencement de son ouvrage justifie avec tant d’aigreur les Ministres de
+                    Geneve, de l’imputation de <hi rend="i">Socinianisme</hi>.</p>
+                <p>Vous comparez l’ennui occasionné par les pieces nouvelles, à l’ennui qu’on
+                    éprouve au sermon. Les Auteurs de notre siecle ne rougiront pas sûrement d’être
+                    confondus par vous avec les <hi rend="i">Bourdaloues</hi>, les <hi rend="i"
+                        >Massillons</hi>, les <hi rend="i">Segauds</hi>, les <hi rend="i">la
+                        Neuville</hi> : il est honorable d’être proscrit en aussi bonne compagnie.
+                    Si un sermon opere cet effet sur vous, devez-vous en accuser le Prédicateur, ou
+                    votre disposition naturelle à vous <pb n="40" xml:id="p40"/>ennuyer de toute
+                    morale qui n’a pas été sublimée dans votre laboratoire ? Ne vous en prenez qu’à
+                    vous-même : c’est jalousie de métier : c’est ce desir inextinguible, de vous
+                    ériger en réformateur universel, qui vous dévore. Prédicateur né du genre
+                    humain, vous vous croyez seul appellé à cette importante fonction : vous pensez
+                    que tous ceux qui se mêlent d’instruire sont ennuyeux, toujours en vous
+                    exceptant de cette loi commune, à laquelle vous soumettez tous les autres. Il
+                    faut, je pense, ranger cette opinion au nombre de vos suppositions, dont le
+                    fréquent usage vous paroît si commode. Heureusement en vous imaginant avoir
+                    prononcé quelque chose, vous n’avez rien dit ; car les pieces nouvelles, <hi
+                        rend="i">qui</hi>, selon vous, <quote><hi rend="i">instruisent
+                        beaucoup</hi></quote>, sont aussi très-agréables, à moins que selon votre
+                    maxime ordinaire, vous ne prétendiez conclure, que l’affluence des spectateurs
+                    &amp; les applaudissemens qu’on leur donne, sont l’effet de l’ennui qu’elles
+                    nous procurent.</p>
+                <p><pb n="41" xml:id="p41"/>J’ignore si un homme de génie peut inventer un genre de
+                    pieces, préférable à ceux qui sont établis ; mais ce nouveau genre, dites-vous,
+                    auroit besoin des talens de l’Auteur pour se soutenir, &amp; périroit
+                    nécessairement avec lui. Pourquoi ne penseriez-vous pas, que ce genre nouveau
+                    dût se perfectionner ? Cela est au moins douteux, &amp; si je voulois déterminer
+                    l’affirmative pour moi, j’aurois à vous opposer toutes les découvertes des
+                    hommes, perfectionnées &amp; portées au-delà des vûes de leurs premiers
+                    inventeurs. En attendant que quelque heureux créateur donne l’être à un genre
+                    nouveau, dont l’effet rende encore nos Théâtres plus agréables &amp; plus
+                    utiles, renfermons-nous dans les genres connus jusques à présent. Ils
+                    représentent l’homme dans les actions les plus importantes de la vie : les
+                    tableaux qu’ils nous offrent nous retracent les vertus dont nous sommes
+                    capables, &amp; les foiblesses auxquelles nous sommes exposés. Annoncer la <pb
+                        n="42" xml:id="p42"/>vertu, c’est rappeller l’homme à lui-même : le vice,
+                    dans quelque attitude qu’on le place, ne peut changer de nature : dès qu’il se
+                    montre, il excite notre aversion, &amp; l’on ne peut trop connoître les
+                    déguisemens qu’il employe pour nous séduire, cette connoissance sert à nous
+                    précautionner contre ses surprises. Si quelque chose est capable de contenir la
+                    fougue des passions sous les loix modérées de la raison, c’est un art qui peut,
+                    en les faisant agir, nous faire sentir leurs forces, l’étendue de leurs
+                    mouvemens, nous indiquer quelles barrieres nous pouvons leur opposer, &amp; nous
+                    conduire, par une combinaison insensible, à marquer les différens dégrés de
+                    consentement qu’il nous est permis d’accorder à ces penchans si nécessaires
+                    &amp; si dangereux. Un tel art, loin d’être regardé comme nuisible, ne doit pas
+                    être mis au rang des amusemens indifférens, puisque de votre aveu <quote><hi
+                            rend="i">le cœur de l’homme est toujours droit, sur tout ce qui ne se
+                            rapporte pas personnellement <pb n="43" xml:id="p43"/>à
+                        lui-même</hi></quote>, &amp; que par conséquent il n’est pas à redouter, que
+                    les spectateurs se trompent dans les jugemens qu’ils porteront d’une action qui
+                    ne se rapporte pas à eux personnellement, &amp; qu’au contraire il y a tout lieu
+                    d’espérer, que s’il se présente quelqu’occasion pareille, ils se jugeront comme
+                    ils ont jugé les autres, &amp; feront sur eux-mêmes l’application de leurs
+                    propres maximes. Il est redoutable au crime dont il démasque la difformité ; il
+                    est avantageux à la vertu, en réunissant sous le point de vûe les plus précis
+                    les traits qui la rendent aimable. L’art du Theatre, bon en lui-même, doit être
+                    compté parmi les inventions les plus utiles à l’humanité.</p>
+                <p>Pour affirmer que l’art Dramatique ne peut s’allier avec les mœurs, il faudroit
+                    avoir prouvé que la morale du Theatre est différente de celle du monde, ce que
+                    vous n’avez pas fait, ni pû faire. La vertu ne varie point. S’habiller, ou
+                    penser en Romain, n’est pas la même chose, comme vous voudriez <pb n="44"
+                        xml:id="p44"/>le persuader. Cette pensée est plus éblouissante que solide.
+                    On ne s’habille plus comme les Romains ; mais l’élevation des sentimens ne
+                    dépend point de l’habillement : la noblesse de l’ame est de tous les tems, &amp;
+                    n’est point sujette aux vicissitudes de la mode.</p>
+                <p>Vous reprochez à notre Theatre d’avoir cherché à donner plus d’énergie au
+                    sentiment de l’amour, pour substituer aux situations prises dans les intérêts de
+                    l’Etat qu’on ne connoît plus. Appartient-il au Theatre de discuter les intérêts
+                    de l’Etat ? Ces intérêts, qui varient à l’infini par cette multitude de
+                    circonstances qui se succedent sans interruption, sont confiés aux soins du
+                    gouvernement ; &amp; de quelle utilité pourroient être les verités que cette
+                    discussion feroit découvrir ? Des verités que le Prince &amp; le Ministre
+                    connoissent mieux que nous, &amp; dont eux-seuls ont le droit de faire
+                    l’application. Le but de l’art Dramatique est de former les hommes à la vertu,
+                    &amp; de perfectionner les mœurs. Il faudroit un public <pb n="45" xml:id="p45"
+                    />composé de Souverains, pour tirer quelque utilité d’un poëme qui ne seroit
+                    fondé que sur les situations prises dans les intérêts de l’État ; encore en
+                    faudroit-il de nouveaux à tous les changemens de circonstances, pour en pouvoir
+                    recueillir quelque fruit : chaque mutation exigeroit une production nouvelle :
+                    la leçon du jour ne seroit plus celle du lendemain : les évenemens ne sont
+                    jamais les mêmes ; mais la vertu ne change point, &amp; son influence sur les
+                    mœurs est invariable.</p>
+                <p>Vous accusez les Auteurs de concourir à l’envi, <quote><hi rend="i">pour
+                            l’utilité publique, à donner une nouvelle énergie, un nouveau coloris à
+                            l’amour</hi></quote>. Cette passion est nécessaire, &amp; n’est, ainsi
+                    que toutes les autres, dangereuse que par l’abus. C’est travailler pour le genre
+                    humain, que de l’assujettir aux regles d’une morale pure, &amp; d’indiquer
+                    l’usage de ce sentiment délicieux. Interrogez la nature, elle vous devoilera ses
+                    mysteres : l’art Dramatique nous exhorte à ne pas les profaner par des excès
+                    pernicieux ; <pb n="46" xml:id="p46"/>il couvre cette passion du voile de la
+                    décence. Si la modestie &amp; l’honnêteté étoient exilées de la terre, vous
+                    trouveriez encore leurs vestiges chez <hi rend="i">Thalie</hi> &amp; <hi
+                        rend="i">Melpomene</hi>.</p>
+                <p><quote><hi rend="i">L’amour est le regne des femmes.</hi></quote> Pur galimatias,
+                    définition louche. L’amour est le penchant mutuel des deux sexes pour operer une
+                    des plus nobles fins du Créateur : il n’est pas plus le regne des femmes que
+                    celui des hommes : la résistance du sexe le plus foible, balance l’avantage que
+                    la puissance donne au plus fort, &amp; les rend égaux. Cet ordre naturel est,
+                    ainsi que tous les autres ordres, un juste partage reglé par une providence
+                    équitable.</p>
+                <p>Une femme aimable &amp; vertueuse n’est pas un être de raison, comme vous le
+                    prétendez, en demandant : <quote><hi rend="i">Où se cache-t-il ?</hi></quote>
+                    Vous êtes à plaindre si vous les avez trouvées dans la societé si différentes de
+                    celles qu’on représente sur la scene. Peut-être que déterminé par cette façon de
+                    penser, qui semble vous être particuliere, vous ne vous <pb n="47" xml:id="p47"
+                    />êtes attaché qu’à des femmes sans graces &amp; sans vertu : elles vous ont
+                    fait concevoir une idée peu avantageuse de leur sexe, &amp; vous en avez tiré
+                    des conséquences à votre maniere. En supposant même que vous ayez de bonnes
+                    raisons d’en juger ainsi, vous concluez contre vous-même ; &amp; je n’aurois
+                    besoin, pour vous confondre, que de tourner votre argument contre vous ; car si
+                    le Theatre offre des modeles de vertu si supérieurs aux femmes que vous avez
+                    rencontrées dans la societé, il seroit absurde de dire que ces modeles, en
+                    influant sur les mœurs, sont capables de les corrompre.</p>
+                <p>Vous ne voulez pas qu’on rende sur le Theatre <quote><hi rend="i">les femmes
+                            précepteurs du public, cela leur donne</hi><seg type="exquote">,
+                            dites-vous,</seg>
+                        <hi rend="i">sur les spectateurs, le même pouvoir qu’elles ont sur leurs
+                            amans ; c’est étendre leur empire</hi></quote>. Vous voudriez même, pour
+                    l’édification des mœurs, qu’à l’exemple des Anciens, les rôles des filles à
+                    marier ne représentassent jamais que des filles publiques. Toutes celles qu’une
+                    mauvaise <pb n="48" xml:id="p48"/>éducation, l’exemple, ou des circonstances
+                    malheureuses, ont engagées à se dévouer au service de la Patrie, sous l’étendart
+                    de la volupté, vous doivent un remerciement ; mais ne donnez pas vos maximes
+                    pour regle : laissez aux femmes vertueuses le droit de nous attendrir sur la
+                    scene, &amp; de nous donner, ainsi qu’à leur sexe, des leçons de vertu. Cette
+                    vertu qui vous est si précieuse, que tout le monde aime, est commune aux deux
+                    sexes : il est dans le monde plus d’une <hi rend="i">Constance</hi>, &amp; plus
+                    d’une <hi rend="i">Cenie</hi>. La vertu perdra-t-elle de son prix, parce que
+                    c’est une femme aimable qui nous l’annonce ? Aimeriez-vous mieux le crime
+                    préconisé par une <hi rend="i">Laïs</hi> ou une <hi rend="i">Rodhope</hi>, pour
+                    offrir les dépouilles du vice comme un holocauste à la vertu ? Je craindrois de
+                    vous refuter sérieusement, &amp; je veux croire que vous sentez toute la
+                    fausseté de ce qu’une effervescence momentanée vous a fait écrire contre cette
+                    aimable moitié du genre humain. Si j’ose ici réclamer ses droits, n’allez pas,
+                    je vous <pb n="49" xml:id="p49"/>prie, vous imaginer que ce soit un effet de mon
+                    antipatie pour elle. Il n’appartient qu’à vous d’écrire contre les femmes, que
+                    vous idolâtrés, en faveur de la danse, que vous détestez, &amp; contre les
+                    spectacles, que vous aimez à la passion. Vous êtes heureux, si cette opposition
+                    de vos sentimens à vos écrits est par tout égale.</p>
+                <p><quote><hi rend="i">En parcourant toutes les pieces modernes, c’est toujours une
+                            femme qui fait tout, qui apprend tout aux hommes ; c’est toujours la
+                            Dame de cour, qui fait dire le catechisme au petit Jean de Saintré. Un
+                            enfant ne sçauroit se nourrir de son pain, s’il n’est coupé par sa
+                            gouvernante… La bonne est sur le Theatre, &amp; les enfans sont dans le
+                            Parterre. Voilà l’image de ce qui se passe aux pieces
+                        nouvelles.</hi></quote> Vous avez raison de détester la raillerie, &amp;
+                    pour la premiere fois vous montrez votre goût conforme à vous-même. Ce froid
+                    badinage doit vous apprendre, ainsi qu’à vos lecteurs, combien le rire vous est
+                    étranger, il vous fait faire la grimace ; &amp; si l’on rit, ce n’est pas
+                    certainement <pb n="50" xml:id="p50"/>d’une aussi mauvaise plaisanterie. Ce
+                    n’étoit pas la peine, pour vous efforcer si infructueusement d’être plaisant,
+                    d’avancer contre la verité, que dans les pieces modernes c’est toujours une
+                    femme qui fait tout. Il n’y en a pas une seule où les hommes ne soient chargés,
+                    ainsi qu’elles, du soin de nous instruire. <hi rend="i">Theodon</hi> ne le
+                    partage-t-il pas avec <hi rend="i">Melanide</hi>, <hi rend="i">Damon</hi> avec
+                        <hi rend="i">Constance</hi>, <hi rend="i">Dorimon</hi> avec <hi rend="i"
+                        >Cenie</hi>, <hi rend="i">&amp;c.</hi> ? Où donc est cette superiorité
+                    pretendue ?</p>
+                <p>Ce que vous dites de l’ascendant que le Theatre donne aux jeunes gens sur les
+                    vieillards, n’est pas mieux fondé. <hi rend="i">Auguste</hi>, <hi rend="i"
+                        >Glaucias</hi>, <hi rend="i">Luzignan</hi>, <hi rend="i">Burrhus</hi>, <hi
+                        rend="i">Narbas</hi>, <hi rend="i">Palamede</hi>, font-ils dans nos
+                    Tragedies des personnages de tyrans ou d’usurpateurs ? <hi rend="i"
+                        >Euphemon</hi>, <hi rend="i">le Pere du Philosophe marié</hi>, <hi rend="i"
+                        >le Frere de l’Ecole des Maris</hi>, <hi rend="i">Ariste dans le
+                        Méchant</hi>, <hi rend="i">Dorimon dans Cenie</hi> ; une foule d’autres
+                    vieillards rendus respectables sur la scene, sont-ils des témoignages de
+                    l’avilissement que le Theatre s’efforce de répandre sur la vieillesse ? Il est
+                    vrai <pb n="51" xml:id="p51"/>qu’on y produit aussi des vieillards que la soif
+                    de commander rend cruels, ou que des foiblesses, sous le nom de passions,
+                    rendent ridicules. Suffit-il, selon vous, d’être vieux pour s’ériger en
+                    oracles ? Où en seroit la raison humaine, si après avoir été la plus grande
+                    partie de sa vie le jouet de mille erreurs ; si en multipliant les plus faux
+                    raisonnemens, en adoptant comme des dogmes merveilleux, les opinions les plus
+                    outrées ; parvenu enfin par une longue habitude à se faire un systême
+                    extravagant, un vieillard avoit acquis le droit de nous donner ses sentimens
+                    pour regle ? Devons-nous l’en croire aveuglément sur sa parole, parce qu’il a
+                    beaucoup vêcu ? Un homme à soixante-dix ans, n’a pas quelquefois une raison de
+                    deux jours. Je conviens que les vieillards sont difficilement corrigés ; mais
+                    ils ne sont mis là que pour l’instruction d’un âge plus susceptible d’en
+                    recevoir. L’humanité doit de tendres égards aux vieillards qui radotent, parce
+                    qu’ils sont hommes ; mais ses respects sont <pb n="52" xml:id="p52"/>réservés
+                    pour cette vieillesse vénérable qui a augmenté ses lumieres naturelles par le
+                    flambeau de l’expérience, qui longtems exposée aux assauts des passions, a connu
+                    la nature des forces que la raison peut opposer à leur fougue trop impetueuse ;
+                    qui par la pratique constante des vertus, sçait allier l’indulgence à la
+                    séverité, &amp; connoît enfin par elle-même que la modération est la fin la plus
+                    sublime où puisse atteindre la sagesse humaine. On s’attache au Theatre à nous
+                    faire distinguer les vieillards estimables, des imbecilles, des <hi rend="i"
+                        >Gerontes</hi>, dont la Comedie nous fait sentir les défauts : on apprend à
+                    ne leur pas ressembler, &amp; à nous défier de toute erreur à laquelle
+                    l’autorité de l’âge pourroit donner un ton imposant. On n’apprend point à la
+                    Comedie à manquer de respect aux vieillards ; mais seulement à ne pas donner à
+                    leurs opinions un consentement sans examen.</p>
+                <p>Les spectacles ne disposent point à des sentimens trop tendres : le <pb n="53"
+                        xml:id="p53"/>sentiment de l’amour est dans la nature de notre être : ils
+                    épurent ce sentiment ; ils le dirigent vers un but légitime. C’est chez les
+                    Peuples dépourvûs de cet amusement instructif, que l’amour est le plus sujet à
+                    s’égarer. Les <hi rend="i">Asiatiques</hi> n’ont rien de semblable à nos
+                    Tragédies &amp; nos Comedies ; cependant cette passion devient le plus souvent
+                    chez eux une agitation violente, qui degénere presque toujours en fureur, &amp;
+                    qui avilit la nature humaine. Ce sentiment délicat fortifié dans nos villes de
+                    l’Europe civilisée par le commerce des deux sexes, ne produit point chez nous
+                    les excès auxquels les <hi rend="i">Turcs</hi> &amp; les <hi rend="i"
+                        >Persans</hi> se laissent emporter : on ne voit point l’amour barbare avilir
+                    la nature, l’outrage jusques dans le sanctuaire de la génération, sacrifier par
+                    une précaution criminelle l’espece humaine à sa honteuse jalousie, &amp; créer
+                    des monstres pour anéantir ses soupçons. La sagesse chez nous n’est point
+                    enchaînée, tandis que l’impudence est aux fers dans les Sérails de <pb n="54"
+                        xml:id="p54"/><hi rend="i">Constantinople</hi>, remplis de Georgiennes &amp;
+                    de Circassiennes que le vil intérêt à formées dès l’enfance à la pratique la
+                    plus hardie &amp; la plus effrenée des mysteres de l’amour, pour augmenter leur
+                    prix aux yeux d’un maître voluptueux.</p>
+                <p>On s’instruit au Theatre à faire de l’amour l’usage le plus conforme à la raison,
+                    à respecter la vieillesse respectable, à s’attendrir en faveur des malheureux, à
+                    sentir le prix de la vertu, &amp; à connoître combien le vice est odieux &amp;
+                    ridicule ; &amp; il ne peut résulter des leçons qu’on y recueille, que des
+                    clartés avantageuses aux mœurs.</p>
+                <p>Un art qui a pour objet la perfection de la morale, dont la fin est d’engager
+                    tous les particuliers qui composent la societé, à tendre au bien general,
+                    non-seulement doit être reçu par tout gouvernement équitable, mais même protegé
+                    &amp; encouragé en proportion des avantages qu’il procure. L’administration
+                    publique régit un Etat par les mœurs &amp; par les loix ; l’empire des loix pese
+                    d’autant-plus à ceux qui sont chargés du soin de les faire observer, <pb n="55"
+                        xml:id="p55"/>que les mœurs de ceux qui sont soumis à leur autorité, y sont
+                    opposées : la puissance législatrice a besoin à tous momens de redoubler ses
+                    efforts pour les contenir. Les loix deviendroient impuissantes sur un peuple
+                    sans mœurs : une nation dont la morale seroit parfaite, n’auroit pas besoin de
+                    loix : les mœurs peuvent tout sans les loix ; &amp; les loix ne peuvent rien
+                    sans elles. Mais comme ces deux extrémités n’existent point, &amp; que telle est
+                    la nature de l’homme, que les mœurs soient mélangées, un art qui tend à les
+                    perfectionner, prête une nouvelle force aux loix, &amp; facilite par consequent
+                    les opérations du gouvernement.</p>
+                <p>L’histoire de l’univers nous montre plus de vices chez les peuples privés de cet
+                    amusement plus utile encore qu’agréable, que partout ailleurs. Pour n’être point
+                    accusé de chercher mes avantages, je choisis un exemple, non chez les nations
+                    barbares, mais dans le sein de la Grece, chez un Peuple dont le fanatisme des
+                    zélateurs de l’antiquité <pb n="56" xml:id="p56"/>fait son idole. J’entens sans
+                    cesse célebrer la sagesse &amp; la pureté des loix &amp; des mœurs de <hi
+                        rend="i">Sparte</hi> ; qu’offre donc de si admirable ce Peuple qu’on propose
+                    comme le sublime modele de la plus parfaite législation ? Un Peuple, où sans
+                    égard pour l’humanité, une partie des habitans, sous le nom d’<hi rend="i"
+                        >Islotes</hi>, gémissoit sous le poids accablant du plus dur esclavage, qui
+                    ne connoissoit presque d’autre vertu que la force &amp; le courage, qualités
+                    estimables, mais qui deviennent pernicieuses, lorsqu’elles donnent l’exclusion
+                    aux autres. Ces loix si vantées auroient dû inspirer à leurs observateurs les
+                    sentimens les plus nobles &amp; les plus relevés de la véritable générosité,
+                    sans laquelle on n’a que des idées imparfaites de la justice. Les <hi rend="i"
+                        >Lacedemoniens</hi> devoient être les plus grands des hommes, le premier
+                    Peuple de la Grece. Je demande si l’on peut être équitable sans humanité ; &amp;
+                    si l’abus de la victoire n’est pas l’injustice la plus révoltante, d’autant plus
+                    que le vainqueur, <pb n="57" xml:id="p57"/>arbitre des vaincus, ne peut
+                    s’excuser sur la nécessité qui le contraint d’adopter des maximes odieuses ; il
+                    dicte ses loix en pleine liberté, rien ne l’empêche de consulter la vertu.
+                    Voyons quel monument de justice ils laisserent dans Athenes, lorsqu’ils s’en
+                    emparerent sous <hi rend="i">Lysander</hi>, qui termina par sa prise la guerre
+                    du Peloponese. Maîtres du sort de cette ville infortunée, dont les armes unies
+                    aux leurs, avoient tant de fois contribué à la défense commune de la liberté de
+                    la Grece ; ces <hi rend="i">Spartiates</hi> si jaloux de la liberté, qui
+                    pensoient qu’on c’essoit d’être homme en cessant d’être libre, n’eurent pas de
+                    honte d’être eux-mêmes les artisans de la servitude, &amp; de forcer les <hi
+                        rend="i">Atheniens</hi> de recevoir chez eux la domination injurieuse de
+                    trente tyrans. Est-ce à l’école des tyrans, que le Theatre représente toujours
+                    comme des monstres, qu’ils avoient puisé ces principes d’inhumanité ? Quelle
+                    morale de Tragédie avoit pû leur apprendre à souiller leur triomphe ? Il n’y
+                    avoit <pb n="58" xml:id="p58"/>point de Theatre à Sparte ; il auroit corrompu
+                    leurs mœurs : des personnages imaginaires représentant la difformité des vices
+                    eussent été dangereux ; mais ils faisoient enyvrer leurs esclaves pour instruire
+                    leurs enfans ; mais ils permettoient, ils encourageoient même le vol réel, pour
+                    se rendre plus soigneux &amp; plus adroits ; c’est-à-dire, qu’il falloit qu’une
+                    partie des citoyens commît de mauvaises actions pour l’édification de l’autre.
+                    La passion de l’amour tendant à une union légitime, eût alteré les principes de
+                    sagesse d’un peuple dont les jeunes gens alloient prendre leurs femmes dans une
+                    maison obscure, où les filles renfermées attendoient qu’on vint les épouser sans
+                    les voir ; mais en récompense ils avoient des danses publiques, où les filles
+                    dansoient toutes nues avec les garçons : aussi avoient-ils des idées si relevées
+                    de la décence &amp; de l’honnêté, que vaincus par <hi rend="i">Aristodeme</hi>
+                    Roi des <hi rend="i">Messeniens</hi>, qui les avoit taillés en pieces, ils ne
+                    firent pas difficulté de prostituer leurs <pb n="59" xml:id="p59"/>femmes &amp;
+                    leurs filles, pour favoriser la population. Voilà les mœurs respectables de ce
+                    peuple : voilà le digne fruit de l’extrême sévérité des loix de <hi rend="i"
+                        >Lycurgue</hi>. Ce qui prouve que les loix les plus sages ne sont pas celles
+                    dont la violence brise, mais celles dont l’équité dirige les mouvemens de la
+                    nature. Voit-on moins de courage &amp; de constance chez les Atheniens que chez
+                    eux ? Les <hi rend="i">Solons</hi>, les <hi rend="i">Socrates</hi>, les <hi
+                        rend="i">Aristides</hi>, les <hi rend="i">Themistocles</hi>, les <hi
+                        rend="i">Phocions</hi> n’égalent-ils pas les <hi rend="i">Lycurgues</hi>,
+                    les <hi rend="i">Agis</hi>, les <hi rend="i">Leonidas</hi>, les <hi rend="i"
+                        >Pausanias</hi>, &amp;c ?</p>
+                <p><hi rend="i">Lycurgue</hi> outra les principes de sa législation, en donnant tous
+                    ses soins à perfectionner la vertu militaire aux dépens de toutes les autres. Il
+                    vouloit former une République toute guerriere : il y parvint ; mais n’auroit-il
+                    pû réussir à moins de frais ? Les <hi rend="i">Lacedemoniens</hi> ont été aussi
+                    souvent vaincus que vainqueurs, &amp; les autres peuples de la Grece, conduits
+                    par des loix moins austeres, leur ont <pb n="60" xml:id="p60"/>prouvé plus d’une
+                    fois que le courage n’étoit pas un attribut exclusif de l’âpreté des mœurs. Un
+                    habitant de l’Attique, qu’auroit dû amollir la représentation familiere des
+                    Ouvrages de <hi rend="i">Sophocle</hi>, d’<hi rend="i">Euripide</hi> &amp; d’<hi
+                        rend="i">Aristophane</hi>, se mesuroit sans crainte avec un farouche
+                    défenseur des bords de l’<hi rend="i">Eurotas.</hi> Même intrépidité, même amour
+                    de la patrie, même oubli de sa propre conservation, lorsqu’il falloit la
+                    sacrifier à la défense commune.</p>
+                <p>On peut juger par ces effets que les spectacles ne sont pas capables d’énerver le
+                    courage. De l’Antiquité, dont le gouvernement en bien des parties est pour nous
+                    une énigme difficile à éclaircir, descendons à notre siecle. Un Héros dont la
+                    France regrette encore la perte, qui pouvoit compter les opérations de ses
+                    campagnes par ses succès, à qui l’on ne peut refuser la supériorité des vertus
+                    militaires, juste appréciateur du courage, <hi rend="i">le Maréchal de
+                    Saxe</hi>, étoit si éloigné de penser que les spectacles <pb n="61" xml:id="p61"
+                    />pussent diminuer l’intrépidité, qu’il vouloit même qu’ils accompagnassent nos
+                    guerriers à l’armée. Là parmi le tumulte des armes, les embarras d’un
+                    décampement, les travaux journaliers d’un siege, les préparatifs d’une bataille,
+                    les Comédiens tranquilles &amp; protégés représentoient à l’ombre des lauriers
+                    de la Nation. Nos généreux guerriers couroient affronter les plus grands périls
+                    à la tranchée ou au combat, au sortir d’une représentation du <hi rend="i"
+                        >Prêjugé</hi> ou d’<hi rend="i">Alzire</hi>, sans avoir besoin qu’un <hi
+                        rend="i">Tyrtée</hi> moderne leur modulât sur sa flûte les différens tons de
+                    la valeur.</p>
+                <p>Je crois avoir suffisamment prouvé par ces exemples, que le Gouvernement ne doit
+                    pas redouter, que les spectacles portent la moindre atteinte à la vertu
+                    guerriere ; mais cela ne démontreroit pas incontestablement, que
+                    l’administration publique dût favoriser leur introduction dans un Etat. Comme la
+                    plus juste guerre a la paix pour objet, &amp; qu’on ne prend les <pb n="62"
+                        xml:id="p62"/>armes que pour assurer le bonheur &amp; la tranquillité de la
+                    Nation, c’est dans cet état paisible qu’il faut la considérer.</p>
+                <p>Les hommes destinés par la Providence aux fatigues d’un travail assidu &amp;
+                    pénible, ont besoin de renouveller leurs forces dans le repos : le plaisir est
+                    la récompense de leurs peines : le délassement leur est aussi nécessaire que la
+                    nourriture : un travail continu épuiseroit autant leurs forces que la privation
+                    des alimens. Il est incontestable que le Gouvernement a un intérêt sensible de
+                    leur procurer des amusemens.. N’est-il pas de sa sagesse de se servir d’un art
+                    qui tire une source d’instructions d’un objet de plaisir ? Dans l’usage de
+                    presque tous les autres divertissemens, il faut du repos encore après le
+                    plaisir, pour se mettre en état de s’appliquer au travail, par conséquent double
+                    perte de tems pour les occupations utiles. Cela est si vrai, que tous les
+                    artisans qui consacrent un des jours de la semaine à la joye, <pb n="63"
+                        xml:id="p63"/>sont encore obligés d’en sacrifier un autre au repos, pour
+                    réparer l’abattement où les a réduits l’excès de la veille. Le plaisir du
+                    spectacle n’a point cet inconvénient. L’ame y acquiert de nouvelles lumieres,
+                    &amp; le corps n’y perd rien de sa vigueur. On quitte &amp; l’on reprend ses
+                    occupations, sans que la Comédie ait produit d’autre mal, que de remplir un
+                    intervalle de tems destiné à se récréer.</p>
+                <p>Le zele pour le bien de ma patrie m’a fait desirer plus d’une fois, qu’il fût
+                    possible de rendre nos Théâtres plus spacieux, pour qu’on y pût, en multipliant
+                    les différences des places, les mettre à la portée des facultés de tous les
+                    ordres de la société ; &amp; que le peuple fût invité, par la médiocrité de la
+                    retribution, à y venir prendre des leçons de vertu &amp; d’honnêteté. Ces
+                    assemblées nombreuses, qui nous présenteroient l’image d’une Nation réunie sous
+                    les auspices du plaisir à l’école de la raison, vaudroient bien les fêtes
+                    bachiques que vous célébrez avec <pb n="64" xml:id="p64"/>tant de cordialité,
+                    &amp; dont je crois qu’il est superflu de vous faire sentir les consequences,
+                    qui se manifestent d’elles-mêmes. Il n’y a point de plaisir indifférent, &amp;
+                    l’intention de tout Gouvernement doit être de favoriser ceux qui portent le
+                    caractere le plus marqué d’une utilité générale.</p>
+                <p>L’art du Théâtre étant bon par lui-même, il ne peut être deshonnête d’en exercer
+                    la profession. Attacher de la honte à l’exercice d’un art estimable, paroîtra
+                    toujours une absurdité insoutenable à tous les hommes qui voudront consulter la
+                    raison dans leurs jugemens. Aussi inconséquent dans cette partie de votre
+                    discours que dans tout le reste, permettez-moi de vous mettre un instant aux
+                    prises avec vous-même. Vous avouez que personnellement vous <hi rend="i">avez
+                        tout lieu de vous louer des Comédiens, &amp; que l’amitié du seul d’entre
+                        eux, que vous avez connu particulierement, ne peut qu’honorer un honnête
+                        homme</hi>. Voilà vos expressions. Où avez-vous donc puisé cette odieuse <pb
+                        n="65" xml:id="p65"/>présomption que vous formez contre leurs mœurs, pour
+                    les transformer de votre autorité <hi rend="i">en séducteurs &amp; en
+                        fripons</hi> ? Sur quoi fondez-vous le mépris que vous prodiguez à des gens
+                    dont les procédés à votre égard vous ont paru louables ? Ce ne peut être
+                    certainement sur le témoignage de votre conscience, vous ne pouvez les condamner
+                    que sur le témoignage des autres, sur des ouï dire, que devoit démentir, ou du
+                    moins balancer votre propre expérience. Vous avez de singulieres idées du prix
+                    attaché à la qualité d’honnête homme, pour vous croire permis d’en dépouiller
+                    aussi légerement, sur la foi d’un préjugé frivole, des gens dont la conduite
+                    avec vous paroissoit mériter un jugement plus favorable. Est-il rien de plus
+                    injuste ? Avez-vous oublié cette protestation que vous adressez à vos Lecteurs ?
+                            <quote><hi rend="i">Craignez mes erreurs, &amp; non ma mauvaise
+                            foi.</hi></quote> Mais comme le jugement que l’on doit porter du blâme,
+                    ou de la considération que mérite la <pb n="66" xml:id="p66"/>profession de
+                    Comédien, est indépendant de votre façon de penser, voyons donc en quoi elle
+                    peut être deshonnête.</p>
+                <p>L’art du Comédien est d’imiter les passions. Tous les arts dont l’objet est
+                    d’imiter les passions sont-ils méprisables ?</p>
+                <p>Il est exposé au jugement public. Sur quels arts, sur quelles professions ce
+                    jugement ne s’exerce-t-il pas, plus ou moins ?</p>
+                <p>Il peint des passions qui ne sont pas les siennes. Quel artiste n’est pas dans ce
+                    cas ?</p>
+                <p>Enfin il paye de sa personne. Est-il honteux de se produire personnellement dans
+                    un exercice autorisé par la raison ?</p>
+                <p>L’objet presque général de tous les arts, est l’imitation des effets de la
+                    nature. Beaucoup sont consacrés en tout ou en partie à peindre les passions. Un
+                    Poete, un Orateur, un Peintre, un Statuaire, un Musicien ne sont que des
+                    imitateurs des passions. Il n’en est aucune qui n’entre dans la composition <pb
+                        n="67" xml:id="p67"/>de leurs ouvrages, animées par le feu du génie elles
+                    acquierent cette force d’expression qui nous entraîne &amp; nous subjugue. La
+                    multiplicité des images qu’elles nous présentent, éleve notre ame &amp; lui
+                    procure de nouvelles lumieres. Les artistes sont des nouveaux <hi rend="i"
+                        >Promethées</hi>, qui ont ravi le feu céleste pour éclairer la terre. Le
+                    flambeau des arts semble donner une seconde existence à tout ce qui l’approche.
+                    L’empire de la raison &amp; de la vertu s’accroît par l’aggrandissement du
+                    cercle de nos idées. Tel est le privilege des arts, dont les principes sont dans
+                    tous les hommes, mais dont la faculté de les développer est réservée à un si
+                    petit nombre : aussi rien de plus juste que le tribut légitime de notre
+                    reconnoissance. L’estime publique est la plus noble récompense des hommes à
+                    talens supérieurs. Le Comédien est un artiste imitateur ainsi que le Peintre, le
+                    Statuaire &amp; le Musicien : il faut que comme eux le génie échauffe son
+                    imitation, &amp; vivifie <pb n="68" xml:id="p68"/>les productions de son
+                    art.</p>
+                <p>Il est exposé au jugement public. Est-il donc infâme d’être exposé aux jugemens
+                    des hommes ? Il n’y a que l’ennemi du genre humain qui puisse regarder
+                    l’obscurité comme une faveur, &amp; s’enveloper avec plaisir dans des ténebres
+                    impénétrables, qui le dérobent au jugement de ses semblables. On doit redouter
+                    le jugement du Public : cette crainte est louable. Quel est l’homme en effet qui
+                    peut être assez présomptueux, pour ne pas craindre un tribunal qui juge tout en
+                    dernier ressort, &amp; qui ne varie jamais dans ses jugemens ? Mais cette
+                    crainte dans une ame généreuse cede au desir de se rendre utile à ses
+                    concitoyens, &amp; de mériter par ses travaux le prix de l’approbation &amp; de
+                    l’estime publique. Oseroit-on soutenir, qu’ainsi que tout autre artiste, le
+                    Comédien ne soit pas honoré, lorsque les applaudissemens publics couronnent ses
+                    efforts ? La condamnation prononcée par ses juges fait son ignominie ; mais
+                    est-ce sur sa profession <pb n="69" xml:id="p69"/>ou sur son incapacité que
+                    retombe cet affront ? Tous ceux qui cultivent les arts, ne sont-ils pas exposés
+                    aux mêmes inconvéniens, dès l’instant qu’ils publient leurs productions ?</p>
+                <p>Le Comédien représente des passions qui ne sont pas les siennes. Parmi ceux qui
+                    cultivent les arts, en est-il un seul qui ne soit pas dans ce cas ? Tout artiste
+                    n’étoit peut-être pas affecté des passions, qu’il a représentées, avant que de
+                    s’occuper à les peindre ; mais dans le moment qu’il les fait agir, il n’y a que
+                    le sentiment qui puisse donner de la force à son expression. Le Comédien avant
+                    que d’entrer sur la scene n’éprouvoit pas les mouvemens qui agitent l’ame de <hi
+                        rend="i">Brutus</hi>, ou de tel autre personnage qu’il représente ; mais au
+                    moment qu’il commence à entrer en action, il les ressent tous successivement,
+                    ainsi que tout autre artiste imitateur : ces affections deviennent pour lors les
+                    siennes. Un Orateur qui dans un discours véhément fait parler les passions,
+                    n’est-il pas obligé d’adopter, de <pb n="70" xml:id="p70"/>s’approprier
+                    intimement des sentimens qui sont absolument étrangers à sa personne, mais qui
+                    sont dépendans des propositions qu’il veut établir ? C’est à cette flexibilité
+                    des ames qui sentent avec force &amp; rapidité, qu’on doit l’excellence des
+                    arts. Plus un homme connoît les passions, plus il a de liberté &amp; de vigueur
+                    pour les faire agir, plus il est ingénieux à en développer les différens
+                    ressorts, plus il est en état de soumettre leurs effets à une juste
+                    combinaison : c’est en nous éclairant sur l’étendue du pouvoir des passions, que
+                    nous pouvons apprendre à les contenir dans leurs bornes légitimes, &amp; à les
+                    conformer aux regles de la raison &amp; de la vertu.</p>
+                <p>Il paye de sa personne : c’est la derniere &amp; la plus forte objection dont
+                    vous vous armiez. Je vais dans un parallele très-court la réunir aux
+                    précédentes. Ce parallele nous montrera de quel poids est, pour votre sentiment,
+                    la différence qu’on doit mettre entre la honte qui ne frappe que l’ouvrage, <pb
+                        n="71" xml:id="p71"/>&amp; celle qui s’attache à la personne. Un <hi
+                        rend="i">Orateur à Rome</hi> gratifié pour soutenir le droit de ses parties,
+                    par conséquent aussi peu desintéressé que le Comédien, qui représentoit, ainsi
+                    que lui, des passions qui n’étoient pas les siennes, pour persuader ses juges,
+                    &amp; les déterminer à favoriser une prétention quelquefois légitime,
+                    quelquefois injuste, &amp; le plus souvent problématique, qui s’exposoit en
+                    public, qui payoit de sa personne, qui couroit le même risque que le Comédien,
+                    dont la réputation n’étoit fondée que sur ses succès, ambitionnant les
+                    applaudissemens, &amp; redoutant le blâme public, en méritoit-t-il moins
+                    l’estime ? Mais, m’objectera-t-on, <hi rend="i">Hortensius</hi> envisageoit une
+                    fin utile, c’étoit de faire triompher les loix, celle <hi rend="i">de
+                        Roscius</hi> étoit-elle moins noble ? Il faisoit regner les mœurs. J’ose
+                    même ajouter que la justice est une, &amp; que dans toutes les causes soumises à
+                    la décision du peuple Romain, il étoit d’une certitude absolue qu’une des
+                    parties avoit tort ; <pb n="72" xml:id="p72"/>cependant celle qui soutenoit une
+                    prétention injuste, trouvoit un Patron qui se chargeoit de défendre la
+                    légitimité de ses droits. Je veux bien croire que tout Orateur étoit persuadé de
+                    la pureté d’intention de ses cliens, &amp; que sa conscience s’en rapportoit à
+                    leur bonne foi, qui le rassuroit contre le danger d’avilir l’usage de
+                    l’éloquence, en l’engageant à la solde de l’iniquité. Mais le Comédien ne
+                    couroit pas le même risque, celui dont le personnage représentoit un caractere
+                    injuste &amp; vicieux, étoit toujours condamné de droit, il étoit sur le Theatre
+                    pour perdre sa cause.</p>
+                <p>Il ne me reste plus qu’à examiner la conduite &amp; les mœurs tant décriées des
+                    Comédiens. Vous prétendez qu’ils ne peuvent être réprimés par les loix, &amp;
+                    M. Dalembert semble vouloir insinuer, qu’il seroit à propos de redoubler la
+                    sévérité des loix pour les contenir. <quote><hi rend="i">Ne seroit-il pas
+                            possible</hi><seg type="exquote">, dit-il,</seg>
+                        <hi rend="i">de remédier à cet inconvénient par des loix séveres, &amp; bien
+                            exécutées sur la conduite <pb n="73" xml:id="p73"/>des
+                        Comédiens ?</hi></quote> Les loix civiles &amp; criminelles sont établies
+                    pour assurer la tranquillité des citoyens : l’ordre public dépend de leur
+                    observation. Il s’agit de sçavoir si les Comédiens sont pesés plus souvent que
+                    les autres hommes dans la balance de Themis. Je crois qu’on entend rarement
+                    retentir les tribunaux de leurs contentions : tandis que tant de particuliers
+                    avides ne rougissent pas de produire tous les jours à l’audience les
+                    contestations les plus indécentes &amp; les plus injustes : il n’y a point de
+                    corps moins litigieux. Mais comme cette profession est plus agréable que
+                    lucrative, &amp; que ceux qui l’exercent ne sont pas accusés d’augmenter leurs
+                    fortunes par de fréquentes acquisitions, on pourroit objecter la médiocrité de
+                    leur état pour raison de leur silence. Les voit-on mériter davantage l’attention
+                    des interpretes des loix, dictées pour réprimer les attentats contre la
+                    société ? C’est une vérité singuliere, que j’ose affirmer après de scrupuleuses
+                    recherches, <pb n="74" xml:id="p74"/>&amp; qu’on peut discuter dans la derniere
+                    rigueur : depuis que nous avons des spectacles réguliers en France, jamais
+                    Comédien n’a été immolé à la sûreté publique, en expiation de ses forfaits.
+                    Feuilletez, compulsez les registres criminels, vous ne verrez point leurs noms
+                    inscrits dans ces fastes du crime : est-ce à l’impuissance de l’autorité qu’ils
+                    doivent leur impunité ? Sont-ils si élevés que les loix ne puissent les
+                    atteindre ? Il seroit absurde de le penser. Ils sont tranquilles, ils ne
+                    troublent point l’ordre public : victimes d’un préjugé qui les flétrit moins que
+                    ceux qui en sont prévenus, ils trouvent dans l’art même qu’ils professent, des
+                    ressources contre l’anéantissement où devroit les plonger l’opinion de la
+                    multitude : organes journaliers des plus sublimes leçons de vertu, il n’est pas
+                    possible que leur ame n’en acquiere le goût : ils se font aimer : les personnes
+                    sensibles aux agrémens de la société recherchent leur commerce, &amp; cultivent
+                    leur amitié : <pb n="75" xml:id="p75"/>ils sont ordinairement doux &amp; civils.
+                    Sujets à s’égarer, ainsi que les autres hommes, leurs plus fréquentes erreurs
+                    naissent de la jalousie de leurs rôles ; jalousie qui les aveugle, parce qu’ils
+                    sont sujets à confondre l’ambition déréglée avec l’émulation que produit l’amour
+                    du talent, mais ces querelles peu importantes n’étouffent point en eux les
+                    sentimens de l’humanité : ils s’imposent volontairement l’obligation de s’aider
+                    mutuellement. Jamais Comédien ne voit son confrere dans l’infortune, sans le
+                    secourir selon ses facultés, ces secours n’humilient jamais l’objet de leur
+                    générosité : une partie du produit de leurs travaux est destiné au soulagement
+                    des pauvres. Dans les Provinces ils consacrent, sans y être contraints, des
+                    représentations dans le cours de l’année aux besoins de l’indigence. Tel
+                    déclamateur outré contre cette profession prétendue profane, ne retrancheroit
+                    pas la moindre portion des revenus, plus que superflus, qui lui sont assignés,
+                    en faveur de <pb n="76" xml:id="p76"/>l’humanité souffrante, tandis qu’un
+                    Comédien, sans ostentation, apprend à resserrer les bornes de son nécessaire,
+                    sans autre motif que de remplir les fonctions d’homme sensible : voilà les
+                    hommes pour lesquels on croit qu’il seroit nécessaire d’appésantir le joug des
+                    loix. Que ne puis-je, pour l’honneur de ma patrie, anéantir une opinion que la
+                    raison désavoue ! Avoir recours au préjugé pour avilir une profession, c’est se
+                    servir d’une arme si fragile &amp; si deshonorante, que je n’aurois jamais
+                    soupçonné un Philosophe de l’appeller au secours de son raisonnement.</p>
+                <p>C’est au tribunal de la raison &amp; de l’expérience, que l’on doit appeller de
+                    la condamnation rigoureuse prononcée contre un art, aussi estimable dans son
+                    principe, qu’avantageux dans ses effets. J’ose reclamer, en faveur de
+                    l’humanité, les droits qu’il a de prétendre à l’approbation de tout homme qui
+                    pense : serions-nous assez injustes pour le proscrire, tandis que tant de
+                    professions pernicieuses, ou du moins indifférentes <pb n="77" xml:id="p77"
+                    />&amp; frivoles par leur inutilité reconnue, échappent au mépris dont on
+                    flétrit l’école de la sagesse &amp; de la vertu ? Abjurons ce sentiment barbare
+                    plus digne des <hi rend="i">Huns</hi> &amp; des <hi rend="i">Vandales</hi> que
+                    d’un siécle éclairé : ayons le courage d’estimer publiquement ce que nous
+                    approuvons en secret. Si l’on doit rougir, c’est de s’asservir sans examen à
+                    l’empire de l’opinion, lorsqu’elle n’a que le prejugé pour fondement.</p>
+                <p>Il seroit inutile de s’arrêter à discuter le mérite des fréquentes digressions
+                    dont votre ouvrage est semé. L’utilité prétendue d’une <hi rend="i"
+                        >Cour-d’honneur</hi>, que vous voudriez substituer au tribunal de Messieurs
+                    les Maréchaux, peut être rangée dans la derniere classe des chimeres politiques.
+                    J’ai connu un fort honnête homme, qui rêvoit quelquefois. Il avoit imaginé le
+                    projet de l’établissement d’une <hi rend="i">Cour de raison</hi>, où l’on devoit
+                    employer d’abord les remedes les plus doux, les plus efficaces ensuite,
+                    jusqu’aux petites maisons <pb n="78" xml:id="p78"/>inclusivement, pour temperer
+                    les ebullitions de l’esprit, &amp; corriger les écarts de l’imagination. Je lui
+                    représentai l’absurdité de son systême, en lui faisant comprendre
+                    l’impossibilité de donner des entraves à l’opinion : il me crut, &amp; fit grace
+                    au public, en lui épargnant la lecture de deux gros volumes qui contenoient le
+                    plan raisonné de cette nouvelle institution : ils ne verront point le jour, à
+                    moins qu’on n’imprime les Projets posthumes de feu <hi rend="i">Monsieur l’Abbé
+                        de S. Pierre</hi>.</p>
+                <p>Je ne m’épuiserai pas en efforts superflus, pour vous prouver que les fêtes &amp;
+                    les bals publics, que vous preferez aux spectacles, sont exposés aux mêmes
+                    inconveniens que vous reprochez au Theatre, où les deux sexes se trouvent
+                    également réunis. Comme tout plaisir qui s’accorde avec l’honnêté &amp; la
+                    décence, ne peut être dangereux que pour les ames perverses qui abusent de tout,
+                    inventez de nouveaux divertissemens, &amp; que le goût vous serve de guide,
+                    personne n’y contredira. <pb n="79" xml:id="p79"/>Je reconnoitrai alors en vous
+                    l’ami du genre humain, qui s’occupe de la félicité de ses semblables.
+                    J’admirerai même avec vous le délicieux effet que devoit produire à Geneve, le
+                    branle ou la contredanse du <hi rend="i">Regiment de S. Gervais</hi> ; &amp; je
+                    me garderai bien d’être assez rigoureux pour trouver mauvais que les Dames de la
+                    ville soient sorties de leurs lits pour se mêler à cette danse militaire &amp;
+                    bachique. Tout cela s’est fort bien pû passer honnêtement ; &amp; je serois
+                    faché de supposer le contraire. Si jamais il vous prend fantaisie de créer une
+                    nouvelle Republique, à l’imitation de <hi rend="i">Platon</hi>, admettez-y les
+                    histrions de place, les saltinbanques ; protegez, encouragez les tavernes,
+                    plaisirs selon vous bien supérieurs aux spectacles, &amp; dont vous celebrez
+                    l’innocence ; que ces amusemens exquis fassent les délices de votre colonie, il
+                    est beau d’être le fondateur d’une nouvelle secte de Philosophie, &amp; le
+                    législateur d’un peuple heureux : dispensez-vous seulement de proposer à vos <pb
+                        n="80" xml:id="p80"/>nouveaux habitans, comme le modele parfait d’un
+                    divertissement public, cette danse où les vieillards, les hommes faits, &amp;
+                    les enfans, accompagnoient leurs sauts de cette chanson que vous avez traduite
+                    de <hi rend="i">Plutarque</hi>, &amp; que je vous rappelle ici : <quote><hi
+                            rend="i">Nous avons été jadis jeunes vaillans &amp; hardis ; nous le
+                            sommes maintenant à l’épreuve à tout venant ; &amp; nous bientôt le
+                            serons, qui tous vous surpasserons.</hi></quote> Ce Vaudeville est
+                    dangereux pour la jeunesse qu’il accoutume à manquer de respect aux vieillards,
+                    en se vantant de les surpasser. Je ne vous aurois pas fait cette remarque, si je
+                    n’étois encore rempli de vos maximes, dont l’austere morale semble contredire
+                    une présomption si injurieuse à la vieillesse. Je ne doute pas que vous ne
+                    réformiez ce que cette chanson a de vicieux, &amp; que vous ne la rendiez plus
+                    convenable &amp; plus modeste.</p>
+                <p>Etoit-il bien nécessaire, si vous n’êtiez animé que du desir de servir vos
+                    compatriotes, de composer un volume contre les spectacles, uniquement dans <pb
+                        n="81" xml:id="p81"/>la vûe de préserver Geneve de l’introduction d’un art
+                    si dangereux, puisque de votre aveu vous étiez intimement convaincu, que les
+                    facultés de la ville ne peuvent admettre un pareil établissement ? Que ne vous
+                    reposiez-vous sur l’impossibilité, empêchement plus efficace que les meilleures
+                    raisons ? Si vous avez bien compté, vos moyens les plus plausibles paroissent
+                    renfermés dans le calcul que vous avez fait du nombre des spectateurs que votre
+                    ville peut fournir journellement ; mais par une fatalité qui semble attachée à
+                    toutes vos preuves, il faut qu’il y ait encore une erreur dans celle-ci, qui se
+                    trouve démentie par l’expérience. Il y a vingt-quatre ans qu’il y a eu une
+                    troupe de Comédiens établis à Geneve ; &amp; ces dernieres années, plusieurs
+                    troupes ne pouvant y être admises, représenterent à <hi rend="i"
+                        >Grange-Canard</hi>, aux portes de la ville, &amp; s’y sont très-bien
+                    soutenues par l’affluence de vos compatriotes. Toutes ces foibles observations,
+                    n’ont qu’une liason assez éloignée du <pb n="82" xml:id="p82"/>sujet que vous
+                    avez voulu traiter, où il s’agit simplement de s’éclaircir sur l’utilité des
+                    spectacles ; &amp; je pense par les reflexions que je vous ai communiquées, vous
+                    avoir persuadé que cet art loin d’être pernicieux, est favorable aux mœurs,
+                    avantageux à la societé, &amp; que l’exercice, comme auteur &amp; comme acteur,
+                    en est honorable, &amp; doit être estimé par le bien qui en résulte. Je finis en
+                    vous disant avec Monsieur <hi rend="i">de Voltaire</hi> : <quote><hi rend="i"
+                            >Qui seroient les Visigots qui voudroient traiter d’empoisonneurs
+                            Rodrigue &amp; Chimene ? Plût au Ciel que ces barbares ennemis du plus
+                            beau des arts, eussent la pieté de Polyeucte, la vertu de Burrhus, &amp;
+                            qu’ils finissent comme le mari d’Alzire !</hi></quote></p>
+                <trailer rend="i">FIN.</trailer>
+            </div1>
+        </body>
+    </text>
+</TEI>
