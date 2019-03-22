@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="la-feuille_theologie-du-cœur_1724" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Théologie du cœur et de l’esprit</title>
+                <author key="La Feuille, Charles-Gaspard de (?-1725)">Charles-Gaspard de La Feuille</author>
+                <editor key="Scotto di Clemente, Clément (1983-)">Clément Scotto di Clemente</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>François Lecercle</name>
+                    <resp>Responsable d’édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Clotilde Thouret</name>
+                    <resp>Responsable d’édition</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.site/corpus/haine-theatre/la-feuille_theologie-du-coeur_1724/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Université Paris-Sorbonne, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution – Pas
+                            d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures. La diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Charles-Gaspard de La Feuille</author>
+                    <title>Théologie du cœur et de l’esprit,</title>
+                    <pubPlace>Nancy,</pubPlace>
+                    <publisher>Jean-Baptiste Cusson,</publisher>
+                    <date>1698, rééd. 1724</date>
+                    <biblScope>p. 252-267</biblScope>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1698"/>
+            </creation>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="HDT_70">
+                <head rend="small">[FRONTISPICE]</head>
+                <p rend="center"> <hi rend="big">THEOLOGIE<lb/>DU COEUR<lb/> ET DE L'ESPRIT,</hi><lb/><hi rend="i"> Par le Pere <hi rend="sc"><hi rend="i">C. G. de la Feuille</hi></hi>, de l'Or-<lb/>dre des Freres Prêcheurs, ancien Professeur en<lb/> Theologie ; présentement Confesseur des Dames<lb/> de l'Abbaye Royale de Poulancy.</hi>
+                    <lb/><hi rend="ls">TOME SECOND.</hi>
+                    <lb/>Des Commandemens de Dieu.
+                    <lb/><hi rend="ls"><hi rend="i">NEUVIEME EDITION</hi></hi>,
+                    <lb/><hi rend="i">Revue &amp; corrigée par l'Auteur.</hi>
+                    <lb/>
+                    <lb/>A NANCY,
+                    <lb/>Chez <hi rend="smallcaps">Jean-Bapt. Cusson</hi>, Imprimeur Libraire
+                    <lb/>de S.A.R. sur la Place, au Nom de <hi rend="smallcaps">Jesus</hi>.
+                    <lb/>______________________________
+                    <lb/>M. DCCXXIV
+                    <lb/><hi rend="i">Avec Approbations &amp; Privilege.</hi>
+                    <lb/>______________________________
+                    <lb/><hi rend="small">Et se trouve à Paris chez <hi rend="sc">Pierre-Augustin Le Mercier</hi>, rue
+                        <lb/>S. Jacques, vis-à-vis S. Yves, à S. Ambroise.</hi></p>
+                <label><pb n="252"/><hi rend="i">Vingtiéme remède au péché d’Impureté.</hi></label>
+                <p><hi rend="i">Le vingtième remède au péché de Luxure, c’est de ne jamais se
+                        trouver aux Comédies, ni à de pareils spectacles.</hi> Ce n’a été que dans
+                    nos derniers siècles, qu’on a entrepris de justifier de si pernicieux
+                    divertissements. Ceux qui dans les temps antérieurs faisaient profession de
+                    piété, n’en ont parlé qu’avec horreur ; et tous ont reconnu que le Théâtre ne
+                    s’accordait point avec le Christianisme. On veut aujourd’hui que la conscience
+                    s’accorde avec le crime, afin qu’elle ne soit point troublée par ses remords.
+                    N’y ayant donc point de divertissement plus agréable aux gens du monde que la
+                    Comédie, ils s’efforcent de s’en assurer une jouissance paisible, pour que rien
+                    ne manque à leurs plaisirs. Peut-on envisager la matière, le but, et les
+                    effets des Comédies, et ne pas les condamner ? Quelles impressions ne
+                    laissent-elles point à ceux qui les voient représenter ? et peuvent-ils
+                    accorder ces impressions avec la sainteté de notre Religion ? Que voit-on dans
+                    ces Spectacles ? Des hommes et des femmes qui représentent des passions de
+                    haine, de colere, d’ambition, de vengeance, et d’amour. <pb n="253"/>Ils les
+                    expriment vivement : peuvent-ils le faire qu’après les avoir excitées en eux ?
+                    et nous les représenter, sans nous faire ressentir les mêmes impressions
+                    qu’ils ressentent ? Toute leur vie ne se passe-t-elle pas dans ce damnable
+                    exercice ? et n’est-ce pas autoriser le vice, et exposer son salut, que
+                    d’assister à de pareils spectacles ?</p>
+                <p>L’amour étant la plus forte impression que le premier péché a fait sur nous, rien
+                    n’est plus dangereux que de l’exciter, que de le nourrir, et de s’exposer à
+                    tout ce qui en favorise le cours. Y a-t-il rien qui flatte plus cette passion,
+                    que tout ce qui se voit et tout ce qui se dit dans les Comédies ? Ce qui sert
+                    le plus à la tenir en bride, est une certaine horreur que la bonne éducation
+                    et le Christianisme en inspirent. Or rien n’affaiblit plus cette horreur, que
+                    la Comédie, où l’amour paraît d’une manière, qui au lieu de rendre cette passion
+                    horrible, est capable de la faire aimer. L’esprit s’y apprivoise peu à peu ; on
+                    apprend à la souffrir, à en parler, et l’âme s’y laisse aller. On la déguise
+                    sur le Théâtre ; on l’embellit par l’art ; on la justifie par le tour que lui
+                    donne le Poète ; on n’y trouve plus rien de honteux, et on la voit avec
+                    plaisir : mais peut-on sans danger, voir avec plaisir une passion qu’on ne doit
+                    point avoir ? et n’approuve-t-on pas secrètement tout ce qu’on goûte ?</p>
+                <p>C’est un autre effet du premier péché, de ne point goûter les biens spirituels :
+                    le Théâtre rend ce dégoût encore plus grand. On y apprend à juger de toutes
+                    choses par les sens, et <pb n="254"/>l’on s’accoutume à ne regarder comme
+                    bien que ce qui les frappe. Au lieu de délivrer l’âme de la dépendance où elle
+                    est à leur égard, on multiplie ses liens par les Comédies et les Romans ;
+                    et on la contraint d’être toute dans les yeux et dans les oreilles. Nous
+                    devrions sans doute la renfermer au-dedans de nous-mêmes, en l’occupant de sa
+                    dignité ; et nous la tirons, par les spectacles, du dedans au dehors, où
+                    depuis le péché elle a tant de penchant à se répandre. Nous l’amusons par des
+                    choses frivoles ; et bien loin de satisfaire sa faim par une nourriture
+                    solide, nous la trompons, en ne lui donnant que des viandes peintes, et en
+                    l’empoisonnant par l’erreur et le mensonge.</p>
+                <p>Dans les Spectacles nous apprenons deux choses, qui nous sont également
+                    funestes : l’une, de nous ennuyer de tout ce qui est serieux : l’autre, de nous
+                    plaire dans la dissipation. Le premier de ces désordres est un obstacle à toutes
+                    les vertus : le second est une entrée à tous les vices. Ceux qui sont les plus
+                    passionnés pour les Comédies, n’en ignorent pas toujours le vide et le
+                    faux : mais par la corruption de leur cœur, ils ne laissent pas d’aimer ce
+                    qu’ils sentent n’être pas aimable. Notre pente aux plaisirs des sens, est une de
+                    nos plus dangereuses maladies. Nous ne pouvons nous en guérir, qu’en nous
+                    privant de tout ce qui peut satisfaire notre mauvais penchant. Que penserait-on
+                    d’une personne à qui on aurait confié le soin d’un malade ; et qui au lieu de
+                    lui faire prendre <pb n="255"/>des remèdes propres à le soulager, lui
+                    accorderait tout ce qui peut augmenter son mal ? Nous exerçons cette cruauté
+                    envers nous-mêmes, en prenant les plaisirs de la Comédie. C’est en nous refusant
+                    tout ce qui peut favoriser nos passions, et les flatter, et non pas en
+                    nous dissipant, que nous entretenons la vie de nos âmes. C’est en lisant, et
+                    en nous occupant de bonnes choses, que nous nous procurons une paix solide en
+                    cette vie, et une éternité de gloire en l’autre.</p>
+                <p>Pratiquons-nous les plus rigoureuses austérités ? nous observons un régime que
+                    Jésus-Christ nous a prescrit, et que les plus grands Saints ont observé.
+                    C’est en l’observant que nous procurons à nos corps en même temps qu’à nos âmes
+                    leur souveraine félicité. Ne sommes-nous pas obligés de rendre heureux l’un
+                    et l’autre ? Or le bonheur que nous devons procurer à nos corps, ce n’est pas
+                    de les abandonner à leurs plaisirs, c’est de les rendre brillants de gloire dans
+                    le Ciel ; et le bonheur que nous devons procurer à nos âmes, c’est de les
+                    rendre dignes de posséder Dieu pendant l’éternité. Ce n’est point par la lecture
+                    des Romans, non plus que par le plaisir de la Comédie, que nous arriverons à ces
+                    deux fins : est-il rien de plus dangereux à notre innocence ?</p>
+                <p>Ce qui rend la Comédie plus dangereuse, c’est qu’elle éloigne tous les remèdes
+                    qui peuvent empêcher les mauvaises impressions qu’elle fait sur nous : car après
+                    avoir amolli notre <pb n="256"/>cœur, elle enivre si fort notre esprit de toutes
+                    les folies qu’elle lui représente, qu’elle nous met hors d’état d’avoir la
+                    vigilance nécessaire pour résister aux mauvaises idées qui nous restent de ce
+                    que nous avons vu et entendu. Ceux qui vivent dans la retraite, ne laissent
+                    pas de trouver de grandes difficultés dans la vie chrétienne, et de recevoir
+                    de dangereuses atteintes du commerce du monde, lorsque la nécessité, et la
+                    charité même les y engage. Quelque attention qu’ils aient à se tenir sur leurs
+                    gardes, à peine peuvent-ils se préserver de l’infection du mauvais air qu’ils y
+                    respirent : quelles peuvent être les plaies et les chutes de ceux qui menant
+                    une vie toute sensuelle, s’exposent à des dangers dont les plus forts
+                    n’entreprendraient pas de se tirer ?</p>
+                <p>La Comédie est une tentation recherchée, qui éloigne les secours du Ciel. Ceux
+                    qui s’y exposent de gaieté de cœur, peuvent-ils croire sans témérité, que Dieu
+                    les en délivrera ? Ne nous apercevant peut-être pas d’abord des mauvaises
+                    impressions que les Comédies font sur nous, nous nous flattons
+                    aisément qu’elles ne nous sont point dangereuses : mais nous nous trompons ; car
+                    les tentations ont divers degrés. Les premiers ne sont point sensibles ; ils ne
+                    laissent pas cependant de nous conduire à une corruption de cœur et d’esprit.
+                    C’est beaucoup nuire à son âme, que de l’accoutumer à regarder sans horreur le
+                    plaisir que les mondains trouvent à aimer, et à se faire aimer ; <pb n="257"
+                    />et c’est là un des premiers effets de la Comédie. L’aversion qu’on avait
+                    d’aimer avec passion, servait comme de remparts, qui fermaient l’entrée de notre
+                    cœur au Démon ; et quand ils sont ruinés par la Comédie, il y entre aisément.
+                    On ne succombe guère aux grandes tentations, que parce qu’on s’est affaibli
+                    dans les occasions qui paroissaient peu considérables.</p>
+                <p>Vous apercevez-vous que les Comédies n’excitent pas en vous des passions
+                    violentes ? vous ne devez pas pour cela vous croire en sûreté. La parole de
+                    Dieu, qui est la semence de la vie ; et la parole du Démon, qui est la
+                    semence de la mort, ont cela de commun, qu’elles demeurent quelquefois
+                    longtemps cachées dans le cœur, sans produire aucun effet sensible. Dieu
+                    attache, quand il lui plaît, le salut de certaines personnes à des paroles de
+                    verité qu’il a semées dans leurs âmes vingt ans auparavant, et qu’il
+                    réveille, après ce nombre d’années, pour leur faire produire des fruits de vie.
+                    Le Démon se contente de même, de remplir notre mémoire des idées qu’on reçoit à
+                    la Comédie, sans passer plus avant ; et longtemps après il les excite, pour
+                    nous faire porter des fruits dignes de mort. Cet Esprit de ténèbres ne causant
+                    point en nous sur le champ les mauvais effets de la Comédie, il les produit dans
+                    la suite.</p>
+                <p>Sommes-nous d’un rang distingué, ou d’une piété apparente ? nous contribuons à
+                    bien des crimes, en autorisant par notre présence les <pb n="258"/>spectacles.
+                    Plus nous sommes réglés dans nos autres actions, plus les gens déréglés sont
+                    hardis à nous imiter en celle-ci. Pourquoi feraient-ils scrupule d’aller à la
+                    Comédie, puisque nous qui faisons profession de piété, nous nous y trouvons ?
+                    Les personnes sur qui on ne prend point d’exemples, ne sont guère coupables que
+                    de leurs propres péchés : mais ceux qui passent pour vertueux, sont souvent
+                    responsables de bien des fautes qui se commettent par des Âmes faibles, qui
+                    n’ont pas la force de résister aux mauvais exemples.</p>
+                <p>Quelque soin que l’on prenne de séparer de la Comédie et des Romans, les
+                    images des dérèglements grossiers, on n’en ôtera jamais le venin. On y voit
+                    toujours une vive représentation de l’attache passionnée d’un sexe pour l’autre,
+                    et le plaisir qu’ont les femmes d’être aimées et adorées des hommes.
+                    Peut-on recevoir de pareilles impressions, de pareilles idées, de pareilles
+                    images, et y être insensible ? Les Comédies n’excitent pas seulement le feu
+                    de l’amour, elles enseignent aussi la manière de l’exprimer. Bien des gens
+                    étouffent de mauvais desseins, parce qu’ils manquent d’expressions ; ils n’ont
+                    point cette manière ingénieuse, cette délicatesse, pour marquer les mouvements de
+                    leur cœur, et ils en demeurent là. Fréquentent-ils les Comédies ? ils ont
+                    bientôt appris un langage que tous les Chrétiens devraient ignorer. D’autres,
+                    sans être touchés, représentent un Comédien, ou une Comédienne, et affectent
+                    de <pb n="259"/>faire paraître leur esprit à exprimer ce qu’ils ne sentent
+                    point : par là ils s’engagent insensiblement dans des passions qu’ils ne
+                    voulaient que contrefaire. C’est là un autre effet de la curiosité qu’on a
+                    d’assister aux Comédies. A-t-on horreur pour une chose ? on ne doit point la
+                    représenter, ni se plaire à la voir représenter : car on ne manque guère
+                    d’aimer bientôt un vice dont l’image commence à plaire. Si nous avions l’idée
+                    de l’amour dans sa naturelle difformité, nous ne pourrions en souffrir la
+                    laideur. Mais les portraits flatteurs qu’on nous en fait, aidés de la corruption
+                    de notre nature, excitent aisément en nous je ne sais quel penchant pour ce
+                    malheureux vice ; et ce penchant, quelque faible qu’il soit dans son
+                    commencement, s’étend bientôt plus loin qu’on ne pouvait croire. Il n’allume
+                    pas seulement en nous un amour déréglé des plaisirs des sens, il jette aussi
+                    dans nos cœurs la semence de tous les autres vices.</p>
+                <p>Ceux qui dans leurs Comédies ont le plus affecté une certaine honnêteté
+                    apparente, n’ont évité de donner des pensées contre la pureté, que pour exciter
+                    en nous d’autres idées qui ne sont pas moins dangereuses. Leurs Pièces ne sont
+                    que de vives représentations de l’orgueil, de l’ambition, de la jalousie, et
+                    de la vengeance. Plus ils colorent ces vices d’une image de grandeur d’âme et
+                    de générosité, plus ils les insinuent dans nos âmes. C’est parce que le fond de
+                    notre nature est corrompu, <pb n="260"/>que nous entrons dans ces sortes de
+                    passions qui nous sont représentées. Elles excitent en nous des mouvements
+                    semblables à ceux qui tombent sous nos yeux ; et c’est là le but des
+                    Acteurs : car la fin qu’ils se proposent, c’est de plaire à ceux qui les
+                    écoutent ; et pour leur plaire ils exposent des sentiments qui s’accordent
+                    avec la corruption de ceux à qui ils parlent : et comme ils parlent à des
+                    gens dont la plupart ont l’esprit perverti, et le cœur gâté, ils leur
+                    représentent des emportements violents, ou de vengeance, ou de jalousie, ou
+                    d’ambition : ils joignent à cela de pernicieuses maximes, capables de corrompre
+                    les âmes les plus innocentes.</p>
+                <p>Voit-on rien de plus dangereux que la morale des Comédies et des Romans ? Elle
+                    est un amas de fausses opinions, qui naissent de la concupiscence, et qui ne
+                    sont agréables qu’en ce qu’elles flattent la corruption de notre nature. On ne
+                    doit pas croire que les mauvaises maximes dont les Comédies et les Romans
+                    sont remplis, ne nous nuisent point, parce que nous n’avons pas intention de
+                    former nos sentiments sur ceux qu’on nous représente, mais seulement de nous
+                    divertir. Manquent-ils jamais de faire de mauvaises impressions en nous ? Ne
+                    ressentons-nous pas plus vivement un affront, aprés avoir été à de certaines
+                    Comédies, que nous n’eussions fait auparavant ? et ne nous portons-nous pas
+                    plus facilement à nous venger ? Si dans les Comédies et les Romans
+                    on ne parlait de la vengeance que comme d’une <pb n="261"/>action basse, et
+                    si l’on n’y traitait que de gens insensés, ceux qui se battent en duel, les
+                    mouvements de ceux qui font de pareilles lectures, ou qui assistent à de pareils
+                    spectacles, quand ils se trouvent offensés, seraient beaucoup moins vifs qu’ils
+                    ne le sont : car ce qui les rend violents, et ce qui les porte à la vengeance,
+                    c’est la fausse opinion que donnent les Comédies et les Romans, qu’il y a de
+                    la lâcheté à souffrir une injure. Bien loin de détester cette impression, on met
+                    son plaisir à la sentir, et son honneur à suivre les mouvements qu’elle
+                    inspire : et pourquoi s’y abandonne-t-on ? C’est que l’image qu’on nous donne
+                    de la vengeance, est si flattée, et tellement embellie, que bien
+                    loin d’attirer notre haine, elle attire notre amour ; et c’est ainsi qu’une
+                    passion, qui ne causerait que de l’horreur si elle était représentée telle
+                    qu’elle est, devient aimable par les couleurs qu’on lui donne, et par la
+                    manière artificieuse dont on nous la représente.</p>
+                <p>Que trouve-t-on dans les Romans, et que nous remet-on devant les yeux dans les
+                    Comédies, que d’autres passions embellies de même, et dont les images nous
+                    plaisent ? S’il n’est point permis d’aimer les vices, peut-on se plaire à ce qui
+                    a pour but de nous les rendre aimables ? et n’est-ce pas là que tendent les
+                    Comédies et les Romans ? Ne sent-on point d’éloignement pour le portrait des
+                    dérèglements qu’on nous y représente ? dés là nous aimons les vices qui nous sont
+                    représentés.</p>
+                <p><pb n="262"/>Les vertus chrétiennes ne peuvent guère être des matières de
+                    théâtre. On n’y veut que les images des vices les plus violents, et des
+                    passions les plus animées. La pauvreté, la patience, l’humilité n’ont rien dont
+                    la représentation puisse divertir ceux qui aiment les Comédies : aussi n’en
+                    parle-t-on jamais dans ces spectacles prophanes : il y faut quelque chose de
+                    plus vif, qui se sente d’une fausse grandeur, d’un amour aveugle, ou de quelque
+                    pareil sujet ; et c’est ce qui ne s’accorde point avec la sagesse chrétienne.
+                    Les portraits des amitiés communes n’y réjouiraient point non plus ; et rien
+                    ne paraîtrait plus froid sur le théâtre, que l’image d’un mariage Chrétien,
+                    dégagé de passions de part et d’autre. On veut que dans tout ce qu’on y
+                    représente, il y ait du transport ; on veut que la jalousie y entre, que la
+                    volonté des parents se trouve contraire, et qu’on emploie des intrigues pour
+                    le faire réussir. N’apprend-on point par là aux personnes qui auront la passion
+                    de se marier, de se servir des mêmes adresses pour arriver à leur fin ? Ce sont
+                    de pareilles leçons qu’on donne dans les Comédies, où l’on ne remplit que de
+                    mauvaises choses l’imagination des spectateurs.</p>
+                <p>Chacun condamnerait un Religieux, qui se trouverait à ces sortes d’assemblées,
+                    parce que personne n’ignore la disproportion de ce divertissement avec la
+                    sainteté de la vie dont une âme vouée à Dieu doit faire profession. Ne
+                    devrait-on pas être choqué de même, d’y voir un <pb n="263"/>Chrétien, qui n’est
+                    pas moins obligé par les vœux de son Baptême, à mener une sainte vie, qu’un
+                    Religieux l’est par les vœux de son état ? Dans ce Sacrement, nous nous
+                    engageons par une promesse solemnelle, de ne plus vivre à nous, ni au monde,
+                    mais de faire vivre Jésus-Christ en nous, et nous en lui ; de manière que
+                    notre vie soit une imitation de la sienne. Si l’on envisageait ainsi les devoirs
+                    d’un Chrétien, on connaîtrait aussitôt combien la Comédie est opposée à ses
+                    obligations. Il ne faudrait pas de grands raisonnements pour l’en convaincre ;
+                    comme il n’en faut point pour persuader à un Religieux que ces spectacles
+                    scandaleux lui sont interdits. Un Chrétien ne se rendrait-il pas la même
+                    justice, s’il faisait attention que toutes ses pensées, toutes ses paroles,
+                    et toutes ses œuvres sont dues à J.C. et doivent être rapportées à sa
+                    gloire ? Pourrait-il dire au Seigneur, que c’est pour le glorifier, et pour
+                    lui plaire, qu’il va s’exposer à mille dangers de l’offenser ? et
+                    souffrirait-on sans horreur l’impiété de ce langage ? Oserait-il lui offrir
+                    cette action, et lui dire que c’est pour l’honorer, se sanctifier, et
+                    édifier le prochain, qu’il va à la Comédie ? Toute action qu’on n’oserait offrir
+                    à Dieu, et dont le Christianisme n’est point le principe, est illicite. Toute
+                    action dont on n’oserait rendre grâce à Dieu, comme en étant la première cause
+                    et la dernière fin, est encore moins permise à un Chrétien.</p>
+                <p>En quelle qualité peut-il prendre part aux <pb n="264"/>divertissements
+                    prophanes ? S’il se considère comme pécheur, il doit reconnaître que rien n’est
+                    plus contraire à la pénitence qu’il est obligé de faire, que la recherche des
+                    divertissements qui achèveront de le perdre. Se considère-t-il comme enfant de
+                    Dieu, comme membre de Jésus-Christ, comme éclairé de ses lumières, enrichi de
+                    ses grâces, nourri de son Corps, héritier de son Royaume ? il doit se persuader
+                    que rien n’est plus indigne de toutes ces qualités, que de prendre part aux
+                    folles joies des Enfants du siècle, et de nourrir son esprit des chimères dont
+                    les Comédies le remplissent.</p>
+                <p>Un des premiers effets de la lumière de la grâce, est de découvrir à l’âme le
+                    vide, le néant, et l’instabilité des choses de ce monde, qui s’écoulent,
+                    et qui s’évanouissent comme des fantômes. Si toutes les choses de cette vie
+                    ne sont que des figures et des fantômes, en quel rang doit-on mettre les
+                    Comédies, qui n’en sont que les ombres, puisqu’elles ne sont que de vaines
+                    images de ce qui se passe dans le monde ? Un autre effet de cette même lumière
+                    de la grâce, est de nous ouvrir les yeux sur la grandeur et la solidité des
+                    biens du Ciel. Demandons au Seigneur, avec le Prophete, qu’il détourne notre vuë
+                    des vanités qui nous tentent et qui nous amusent ; et prions-le qu’il nous
+                    imprime de la haine et de l’horreur pour tous les divertissements dangereux à
+                    notre innocence.</p>
+                <p><pb n="265"/>La nécessité où l’on est de prendre quelque sorte de divertissement
+                    et de relâche, ne peut pas excuser la Comédie, qui ne fut jamais un
+                    divertissement permis. Car que nomme-t-on divertissements permis ? Sont-ils autre
+                    chose que des délassements de l’esprit, qui le mettent en état de reprendre ses
+                    saints exercices, et de les continuer avec plus de perfection ? Tant s’en
+                    faut que les Comédies puissent nous aider à reprendre et à continuer nos
+                    saintes occupations avec plus de perfection, qu’elles y sont de grands
+                    obstacles. Ne remuent-elles pas nos passions, et ne nous dérèglent-elles
+                    point ? Rien sans doute ne rend une âme plus mal disposée au recueillement et
+                    à l’oraison, que de pareils spectacles ; et rien ne prouve mieux leurs
+                    dangers, que l’opposition qu’ils ont avec la prière continuelle dont l’Apôtre
+                    nous fait un précepte. Ils nous troublent l’imagination, et nous dérangent,
+                    par les mauvaises idées qu’ils nous impriment.</p>
+                <p>Comme le besoin que nous avons de manger, ne nous permet pas d’user de viandes
+                    qui nous nuisent ; le besoin que nous avons de délasser notre esprit, ne nous
+                    permet pas non plus de prendre des divertissements dommageables à notre âme,
+                    et qui nous rendent moins propres que nous n’étions, à continuer nos saints
+                    exercices. Or les Comédies et les Romans ne rendent pas seulement nos esprits
+                    mal disposés pour de saintes occupations, mais elles nous donnent du dégoût pour
+                    les <pb n="266"/>actions sérieuses. Un mari en revient la têté remplie de Héros
+                    et d’Héroïnes ; il imprime si fort dans son esprit toutes ces chimères, que
+                    ses affaires domestiques lui deviennent importunes. Une femme occupée des
+                    adorations qu’elle a vu rendre sur le théâtre à des personnes de son sexe, se
+                    rebute de son mari, qui n’a point pour elle des manières comédiennes.</p>
+                <p>Un Chrétien qui a renoncé au monde, et à ses plaisirs, ne doit point
+                    rechercher le divertissement pour le divertissement, et ne peut en prendre
+                    que par nécessité ; c’est-à-dire, qu’il ne peut en prendre que pour délasser son
+                    esprit, et reprendre ses forces. Le besoin qu’on a de divertissement, est
+                    moins grand qu’on ne croit ; et souvent il consiste plus en une nécessité
+                    imaginaire, qu’en une nécessité réelle. Ceux qui se sont occupés à des ouvrages
+                    extérieurs, n’ont pas besoin de divertissements pour réparer leurs forces, ils
+                    ont besoin seulement de cesser leur travail pendant un temps. Ceux qui se sont
+                    employés à des occupations d’esprit pénibles, n’ont besoin non plus que de se
+                    désappliquer, et de se recueillir, et non pas de s’engager dans des
+                    divertissements qui fatiguent plus qu’ils ne délassent. Un homme qui s’est
+                    fortement appliqué à une affaire, ou à une étude serieuse, n’est-il pas
+                    satisfait, quand il a cessé sa grande application ? et ne se divertit-il pas
+                    dans tout ce qui le désoccupe ?</p>
+                <p>Nous finissons cette matière des divertissements peu convenables aux âmes chastes,
+                    par <pb n="267"/>les paroles de S. Basile. La Comédie, dit ce grand Saint, est
+                    une Ecole publique, où l’on apprend tout ce qu’on nomme <hi rend="i"
+                        >impudicité</hi>. Elle est une assemblée, dont le Démon fait le centre,
+                    et dont la circonference est environnée de plusieurs autres Démons, tous
+                    occupés à suggérer aux spectateurs mille pensées sales, mille desirs criminels.
+                    On ne condamnerait pas des assemblées de plaisirs, si elles se faisaient avec
+                    retenue et modestie : mais de la manière qu’elles se font aujourd’hui, on ne
+                    peut que les condamner. Ces jours de réjouissance, sont des jours favorables au
+                    péché. C’est un malheur d’être engagé de se trouver à de pareils divertissements,
+                    et une grande imprudence, de ne pas se précautionner contre l’air empesté
+                    qu’on y respire. Car peut-on se flatter de sortir innocent de ces assemblées, où
+                    tous les sens sont assiégés, et enivrés de plaisirs, et où il est presque
+                    toujours d’une complaisance indispensable de manquer de modestie ?</p>
+            </div>
+        </body>
+    </text>
+</TEI>
