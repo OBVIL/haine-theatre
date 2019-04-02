@@ -1,8 +1,8 @@
-<? xml version="1.0 " encoding="UTF-8 "?>
- <? xml-model href="http://oeuvres.github.io / Teinte / teinte.rng " type="application / xml " schematypens="http://relaxng.org / ns / structure/1.0 "?>
- <? xml-stylesheet type="text / xsl " href=".. /.. /Teinte / tei2html.xsl "?>
- <? xml-stylesheet type="text / css " href="http://oeuvres.github.io / Teinte / opentei.css "?>
- <TEI xmlns="http://www.tei-c.org / ns/1.0 "  xml: lang="fr ">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
    <teiHeader>
      <fileDesc>
        <titleStmt>
@@ -11,7 +11,7 @@
          <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
        </titleStmt>
        <editionStmt>
-         <édition>OBVIL</edition>
+         <edition>OBVIL</edition>
          <respStmt>
            <name>François Lecercle</name>
            <resp>Responsable d'édition</resp>
@@ -46,7 +46,7 @@
        </sourceDesc>
      </fileDesc>
      <profileDesc>
-       <création>
+       <creation>
          <date when="1710 " />
        </creation>
        <langUsage>
@@ -99,8 +99,7 @@
            <p>R. Oui. Si la profession des Comédiens est indigne des <seg>Chrestiens,</seg>et que ceux qui l'exercent, soient obligez de la quitter, comme les Conciles l'ordonnent, il n'est pas permis par conséquent aux autres de contribuer à les entretenir dans une profession si contraire au Christianisme. Si tout le monde s'accordait à ne vouloir point assister aux spectacles, les Comédiens cesseraient <seg>bien-tost</seg>de les donner. Ainsi ceux qui montent sur le Théâtre, sont moins coupables, au sentiment de saint <pb n="53"/>Chrysostome, que ceux qui leur applaudissent, et les approuvent : «  Ostez les Spectateurs, et vous osterez les Acteurs.  » <note place="margin"><p>In Epist. ad Eph. hom.  17.</p></note></p>
            <p>D. Les Lois civiles ne tolerent-elles pas les Comédiens ? </p>
            <p>R. L'esprit des Lois a toujours été contraire au Théâtre. Elles ont toujours flétri les Comédiens. Si elles les tolerent, c'est qu'elles ne sont pas établies pour remédier à tous les maux, mais seulement à ceux qui attaquent directement la Société. Cette tolérance n'empêche pas qu'on ne doive dire que les maux que le monde permet, ne laissent pas d'être condamnez par l'Evangile.</p>
-         
-         <div xml: id="CH_48_2 ">
+         <div xml:id="CH_48_2 ">
            <head><pb n="54"/>CHAPITRE II.<lb /><hi rend="i">Réponse aux objections qu'on tire de saint Thomas pour justifier les Spectacles, et aux mauvaises raisons qu'allèguent ceux qui croient pouvoir les fréquenter sans péché.</hi></head>
            <p>D. Si les spectacles estoient si précisément condamnez, S. Thomas en parlerait-il comme d'un plaisir permis ? </p>
            <p>R. Ceux qui allèguent l'autorité de saint Thomas comme favorable à la comédie, lui font dire tout autre chose que ce qu'il dit, et tirent de ses principes des conséquences tres fausses. «  Ce saint Docteur a restraint l'approbation, ou la tolérance des comédies à celles qui ne sont point opposées aux bonnes mœurs ; mais quand on les considere dans la pratique, <pb n="55"/>on n'en voit point de telles. On n'en a point trouvé qui fussent dignes des Chrétiens ; et on a <correction/>cru/crû qu'il serait plus court de les rejetter tout-à-fait que de travailler vainement à les réduire contre leur nature aux règles sévères de la vertu.  » <note place="margin"><p>Boss. p.  4… 141.</p></note></p>
@@ -124,7 +123,7 @@
            <p>D. Ceux qui disent qu'ils se sont ennuyez à la Comédie, et à l'Opera sont-ils excusables d'y être allez ? </p>
            <p>R. Non. Cet ennui est une preuve qu'ils n'y ont pas goûté le plaisir qu'ils s'estoient promis, et qu'ils font injustes de ne pas soupirer après des plaisirs qui soient sans dégoût, et sans ennuy.</p>
          </div>
-         <div type="chapitre " xml: id="CH_48_3 ">
+         <div type="chapitre " xml:id="CH_48_3 ">
            <head><pb n="64"/>CHAPITRE III.<lb /><hi rend="i">Qu'une Mere est très coupable de mener sa fille aux Spectacles. Que c'est une erreur de croire que la Comédie soit destinée à corriger les mauvaises mœurs. Que rien au contraire n'est plus propre à les corrompre.</hi></head>
            <p>D. Que doit on dire d'une mere qui mene sa fille aux spectacles ? </p>
            <p>R. On doit dire qu'elle est bien coupable d'exposer sa fille à perdre l'innocence de son Baptême par lequel elle a renoncé aux pompes du monde, qu'elle lui fait voir de si prés, et dans un point de vue si flatteur, et si séduisant.</p>
@@ -153,7 +152,7 @@
            <p>D. Les périls où l'on est exposé aux spectacles, sont-ils plus grands que ceux qu'on trouve à tout moment, et à chaque pas dans le monde ? </p>
            <p>R. Il y a une très-grande différence entre les uns, et les autres. Les périls où l'on est exposé sans les avoir pu prévoir, éloignent moins la grâce de Dieu, et nous laissent une legitime confiance de l'obtenir par nos prières ; au lieu que ceux qu'on cherche de gaieté de cœur, portent Dieu à nous abandonner à nous-mêmes. N'est-ce pas une présomption criminelle que de croire,<note place="margin"><p>Præsumptio nequissima unde creata es ? Ecli. c.  37. v.  3.</p></note>qu'il <pb n="75"/>nous délivrera des dangers où nous nous exposons volontairement.</p>
          </div>
-         <div type="chapitre " xml: id="CH_48_4 ">
+         <div type="chapitre " xml:id="CH_48_4 ">
            <head>CHAPITRE IV.<lb /><hi rend="i">Détail des péchez qu'on commet en allant aux Spectacles. Réponse à ceux qui demandent s'il y a péché mortel, et si tous ceux qui y vont, sont également coupables.</hi></head>
            <p>D. Concluez-vous de tous ces principes qu'il y a péché d'aller aux spectacles.</p>
            <p>R. Oui. Il y a péché. 1.  D'applaudir aux Comédiens, de les approuver, et de contribuer à les entretenir dans leur profession.</p>
@@ -174,7 +173,7 @@
            <p><pb n="81"/>D. Tous ceux qui y vont, sont-ils également coupables ? </p>
            <p>R. Dieu seul peut faire ce discernement, parce que seul il connoit les plus secrettes pensées des cœurs. S'ils ne le sont pas tous également, c'est la louange de la grâce de <hi rend="sc">Jesus-Christ</hi>. Sa misericorde est plus grande que la présomption des hommes. Il en abandonne quelques uns à leurs passions, et c'est par un juste jugement. Il arrête celles des autres lors même qu'ils s'y livrent, et c'est une bonté toute gratuite. La conséquence est qu'il faut veiller, prier, s'éloigner du péché, et de toutes les occasions qui y engagent. Si les mondains ne les aperçoivent pas, les Prêtres les doivent instruire. <seg>Malheur</seg>à ceux qui les flateroient.</p>
          </div>
-         <div type="chapitre " xml: id="CH_48_5 ">
+         <div type="chapitre " xml:id="CH_48_5 ">
            <head><pb n="81"/>CHAPITRE V.<lb /><hi rend="i">Que la circonstance d'aller aux Spectacles un jour de Feste, et de jeûne est une circonstance aggravante. Que ceux qui les fréquentent ne sont pas disposez à approcher des Sacremens.</hi></head>
            <p>D. Aller aux spectacles un jour de Feste, serait-ce une circonstance qui ajoutât un nouveau degré de malice au péché qu'on commet en y allant un autre jour ? </p>
            <p>R. N'en doutez pas. Quand les spectacles seraient permis d'ailleurs, il faudrait les exclurre des jours de Feste, comme incompatibles avec le commandement de les sanctifier.</p>
