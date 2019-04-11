@@ -7,8 +7,9 @@
     <fileDesc>
       <titleStmt>
         <title>De l’influence du théâtre</title>
-        <author key="Boïeldieu, Marie Jacques Amand (1757-1844 ; avocat)">Boieldieu, Marie Jacques
-          Armand</author>
+        <author key="Boïeldieu, Marie Jacques Amand (1757-1844 ; avocat)">Marie Jacques
+          Armand Boieldieu</author>
+        <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -23,11 +24,11 @@
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
-        <date when="2016"/>
+        <date when="2019"/>
         <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/boieldieu_influence-theatre_1804/</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
+            <p>Copyright © 2019 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
               « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
             <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
               les bases de données (L341-1) est mise à disposition de la communauté scientifique
@@ -47,10 +48,12 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>De l’influence du théâtre</title>
-          <author>Boieldieu, Marie Jacques Armand</author>
-          <biblScope>p. I-VIII; p. 1-167</biblScope>
-          <date>1804</date>
+          
+          <author>Marie Jacques Armand Boieldieu</author>, 
+         <title>De l’influence du théâtre</title>, 
+          <date>1804</date>, 
+          <biblScope>p. I-VIII; p. 1-167</biblScope>.
+          
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -65,35 +68,27 @@
   </teiHeader>
   <text> 
     <body>
-      <head>De l’influence du théâtre</head>
+      <div>
+        <head rend="center"><hi rend="sc">[frontispice]</hi> </head>
+        <p rend="center">DE L'INFLUENCE<lb/> DE LA CHAIRE,<lb/> DU THEATRE ET DU BARREAU<lb/> DANS LA SOCIETE CIVILE<lb/> Et de l'importance de leur rétablissement sur<lb/>des bases qui puissent relever en France leur<lb/>ancienne et véritable splendeur.<lb/><hi rend="sc">ouvrage politique et moral<lb/>Par Marie-Jacques-Amand</hi> BOIELDIEU,<lb/>Avocat.<lb/>[...]<lb/>A PARIS<lb/>Chez <hi rend="sc">Demonville,</hi> Impr.Lib., rue Christine, no. 12<lb/><hi rend="sc">Petit</hi>, galerie du Tribunat,  galerie vitrée, no. 229<lb/><hi rend="sc">Madame Dufresne,</hi> Palais de Justice.<lb/><hi rend="sc">Et A Rouen</hi><lb/>Chez <hi rend="sc">Periaux,</hi> rue de la Vicomté, no. 30.<lb/><hi rend="sc">An XII</hi> - 1804 </p>
+      </div>
       <div type="chapter">
         <pb n="I"/>
-        <head>PRÉFACE.</head>
-        <p><seg>Quand</seg> le souffle empesté de longs orages politiques a corrompu, détruit ou
+        <head>PREFACE.</head>
+        <p>Quand le souffle empesté de longs orages politiques a corrompu, détruit ou
           renversé ce que l’Etat offrait de plus pur et de plus imposant, on ne saurait, sans un
-          juste sentiment de reconnaissance et d’admiration, voir son premier Magistrat en relever
+          juste sentiment de reconnaissance et d’admiration, voir son premier Magistrat<note place="bottom" resp="editor"> [NDE] Napoléon.</note> en relever
           les débris, en réparer les ruines, et ajouter même à l’éclat de son ancienne
           splendeur.</p>
-        <p>Son généreux dévouement, pour ramener et consolider le bonheur public, devient un exemple
-          efficace qui gagne tous les cœurs, et rallume par-tout le feu sacré de l’amour de la
-          Patrie.</p>
+        <p>Son généreux dévouement, pour ramener et consolider le bonheur public, devient un exemple efficace qui gagne tous les cœurs, et rallume partout le feu sacré de l’amour de la Patrie.</p>
         <p>Le dernier des Citoyens, alors, met toute sa gloire et tout son bonheur à l’imiter ; et
-          il n’est point d’Écrivain sensé qui ne se sente naturellement enflammé du désir de
+          il n’est point d’Ecrivain sensé qui ne se sente naturellement enflammé du désir de
           consacrer sa plume au développement de quelques vérités utiles.</p>
         <p>C’est à ce titre que, rempli d’espérance <pb n="II"/>à la vue des miracles qui chaque
           jour se développent à nos regards étonnés, j’ose m’élever moi-même contre tout ce qui
           pourrait encore arrêter l’effet des desseins magnanimes du Héros qui les produit.</p>
-        <p>Oui, c’est à ce titre honorable que j’ai <correction/>cru/crû pouvoir exprimer mon vœu personnel pour
-          l’entier rétablissement de la Morale et des Lois, sous un Gouvernement paternel, également
-          ami des Arts et des Mœurs ; mais où la doctrine de nos Poètes dramatiques ne peut plus
-          être désormais qu’en harmonie parfaite avec celle de la Chaire et du Barreau qu’il vient
-          de rappeler à leur gloire primitive.</p>
-        <p>Aux yeux de quelques personnes qui n’y feraient point assez d’attention, cette
-          production, à cause d’une sorte de similitude dans le titre, pourrait offrir des traits de
-          ressemblance avec l’ouvrage du cardinal Maury, qui, en nous donnant un excellent traité de
-            <hi rend="i">l’Éloquence de la Chaire et du Barreau</hi>, s’est récemment acquis de
-          nouveaux droits à la reconnaissance <pb n="III"/>publique et aux faveurs de la
-          renommée.</p>
+        <p>Oui, c’est à ce titre honorable que j’ai cru pouvoir exprimer mon vœu personnel pour l’entier rétablissement de la Morale et des Lois, sous un Gouvernement paternel, également ami des Arts et des Mœurs ; mais où la doctrine de nos Poètes dramatiques ne peut plus être désormais qu’en harmonie parfaite avec celle de la Chaire et du Barreau qu’il vient de rappeler à leur gloire primitive.</p>
+        <p>Aux yeux de quelques personnes qui n’y feraient point assez d’attention, cette production, à cause d’une sorte de similitude dans le titre, pourrait offrir des traits de ressemblance avec l’ouvrage du cardinal Maury, qui, en nous donnant un excellent traité de <hi rend="i">l’Eloquence de la Chaire et du Barreau</hi><note place="bottom" resp="editor"> [NDE] <hi rend="i">L'éloquence de la chaire et du barreau : selon les principes les plus solides de la rhetorique sacrée et profane</hi>, 1784.</note>, s’est récemment acquis de nouveaux droits à la reconnaissance <pb n="III"/>publique et aux faveurs de la renommée.</p>
         <p>Mais cet ouvrage et le mien n’ont absolument rien de commun, soit pour le fond des
           choses, soit pour leur objet réel.</p>
         <p>Il appartenait à un homme aussi justement célèbre d’examiner la théorie de l’art, et
@@ -105,13 +100,7 @@
           assez pour moi d’examiner l’influence de cet art si beau, si puissant de la parole dans
           l’état civil, afin de montrer le grand intérêt que nous avons tous au succès comme au
           rétablissement de l’éloquence de la Chaire et du Barreau.</p>
-        <p><pb n="IV"/>Mais comme la véritable morale en doit toujours être la compagne inséparable,
-          et que son ennemie naturelle, ou du moins trop ordinaire, est celle que nos Auteurs, ou
-          nos Artistes dramatiques au nom de ceux-ci, ont quelquefois l’imprudence de publier et
-          d’accréditer sur la scène, je n’ai pu considérer cette influence de la Chaire et du
-          Barreau, sans examiner en même-temps celle du théâtre, qui aujourd’hui chez nous, comme
-          autrefois chez les Grecs et les Romains, semble attirer à lui tous les regards et tous les
-          vœux de la multitude.</p>
+        <p><pb n="IV"/>Mais comme la véritable morale en doit toujours être la compagne inséparable, et que son ennemie naturelle, ou du moins trop ordinaire, est celle que nos Auteurs, ou nos Artistes dramatiques au nom de ceux-ci, ont quelquefois l’imprudence de publier et d’accréditer sur la scène, je n’ai pu considérer cette influence de la Chaire et du Barreau, sans examiner en même temps celle du théâtre, qui aujourd’hui chez nous, comme autrefois chez les Grecs et les Romains, semble attirer à lui tous les regards et tous les vœux de la multitude.</p>
         <p>Voilà ce qui m’a déterminé à réunir et à rapprocher des objets si disparates entre eux,
           et à entretenir le Lecteur de la frivolité de la scène, au milieu même d’une discussion
           aussi grave que celle où je traite de la dignité des fonctions des Orateurs, soit en
@@ -145,13 +134,7 @@
           possible de le rappeler au but réel de son institution, et de donner à ceux que des talents
           particuliers y appellent, un véritable lustre dans la société.</p>
         <p>L’influence du Barreau est le troisième et dernier objet dont je me suis occupé.</p>
-        <p>En considérant la noblesse et la grandeur des fonctions de ses orateurs, en remontant à
-          l’origine des grandes associations politiques, où ils ont toujours joui d’une haute
-          considération, j’ai commencé par combattre cet injuste préjugé qui les range dans la
-          classe de ces hommes dangereux, qui ne sont que les aveugles instruments des passions des
-          autres. J’ai démontré qu’ils n’en étaient réellement que les honorables défenseurs, et que
-          sans leur auguste ministère, l’innoncence et la vertu seraient à chaque instant les
-          victimes de l’aveuglement et de l’oppression.</p>
+        <p>En considérant la noblesse et la grandeur des fonctions de ses orateurs, en remontant à l’origine des grandes associations politiques, où ils ont toujours joui d’une haute considération, j’ai commencé par combattre cet injuste préjugé qui les range dans la classe de ces hommes dangereux, qui ne sont que les aveugles instruments des passions des autres. J’ai démontré qu’ils n’en étaient réellement que les honorables défenseurs, et que sans leur auguste ministère, l’innocence et la vertu seraient à chaque instant les victimes de l’aveuglement et de l’oppression.</p>
         <p>Forcé de m’arrêter un moment sur cette époque douloureuse, où le sanctuaire des lois
           indignement profané par l’ignorance ou l’avidité, n’était plus <pb n="VIII"/>qu’un théâtre
           de brigandage et d’immoralité, je me suis hâté de porter mes regards sur des temps plus
@@ -161,34 +144,28 @@
           Barreau français renaître dans toute sa gloire, et ramener les beaux jours de
           l’éloquence.</p>
         <p>C’est ainsi qu’après avoir parcouru successivement tout ce qui peut tenir à la gloire
-          comme à le décadence de la Chaire, du Théâtre et du Barreau, et « en comparant chacune de
+          comme à le décadence de la Chaire, du Théâtre et du Barreau, et « <quote>en comparant chacune de
           mes idées avec l’idée éternelle du vrai et du juste, j’ai vu qu’il n’y avait de bien que
           ce qui était utile à la société et conforme à l’ordre, de mal, que ce qui leur était
-          contraire ».</p>
-        <p>(<hi rend="i">Éloge de Marc Aurèle.</hi>)</p>
+          contraire</quote> ».</p>
+        <p>(<hi rend="i">Eloge de Marc Aurèle.</hi>)</p>
       </div>
       <div type="chapter">
         <pb n="1"/>
-        <head>DE L’INFLUENCE<lb/>DE LA CHAIRE,<lb/>DU THÉÂTRE ET DU BARREAU,<lb/>DANS LA SOCIÉTÉ
-            CIVILE,<lb/><hi rend="i">Et de l’importance de leur rétablissement sur des bases qui
-            puissent relever en France leur ancienne et véritable splendeur.</hi></head>
-        <p>Écrire tout-à-la-fois en faveur de la Chaire, du Théâtre et du Barreau, dont les maximes
-          sont trop souvent en opposition entr’elles, n’est-ce point, sans nécessité, s’exposer au
-          reproche d’être en contradiction avec soi-même ? N’est-ce pas vouloir confondre et réunir
-          des éléments, discordans par leur propre nature ?</p>
-        <p>Sans doute, en ne s’arrêtant qu’au simple <pb n="2"/>titre de l’ouvrage, cette réflexion,
-          je l’avoue, peut naître dans l’esprit, et je ne dissimulerai point qu’elle ne m’ait frappé
-          moi-même, et arrêté quelques instans dans l’exécution du projet que j’avais conçu de
-          réunir quelques idées sur ces différentes matières.</p>
+        <head>DE L’INFLUENCE DE LA CHAIRE, DU THEATRE ET DU BARREAU, DANS LA SOCIETE
+            CIVILE,</head>
+        <head type="sub">
+        Et de l’importance de leur rétablissement sur des bases qui
+        puissent relever en France leur ancienne et véritable splendeur.</head>
+        <p>Ecrire tout à  la fois en faveur de la Chaire, du Théâtre et du Barreau, dont les maximes sont trop souvent en opposition entre elles, n’est-ce point, sans nécessité, s’exposer au reproche d’être en contradiction avec soi-même ? N’est-ce pas vouloir confondre et réunir des éléments, discordants par leur propre nature ?</p>
+        <p>Sans doute, en ne s’arrêtant qu’au simple <pb n="2"/>titre de l’ouvrage, cette réflexion, je l’avoue, peut naître dans l’esprit, et je ne dissimulerai point qu’elle ne m’ait frappé moi-même, et arrêté quelques instants dans l’exécution du projet que j’avais conçu de réunir quelques idées sur ces différentes matières.</p>
         <p>Il semble, en effet, assez difficile de concilier ce qui tient uniquement aux plaisirs et
           favorise presque toujours les passions, avec la pureté d’une morale austère qui les combat
           si puissamment. Il peut aussi paraître étonnant qu’on veuille rapprocher ce qu’il y a
           quelquefois de plus léger et de plus frivole, de la dignité d’un ministère auguste, dont
           l’objet principal est d’attaquer de front tous les genres d’injustice qui troublent la
           société, et d’en arrêter les désordres par la seule force de la loi.</p>
-        <p>Mais, en me lisant avec quelqu’attention, on sera bientôt convaincu qu’il n’y a point
-          d’opposition dans le développement de mes principes, sur-tout quant à ceux qui plus
-          spécialement pourront s’appliquer au Théâtre.</p>
+        <p>Mais, en me lisant avec quelque attention, on sera bientôt convaincu qu’il n’y a point d’opposition dans le développement de mes principes, surtout quant à ceux qui plus spécialement pourront s’appliquer au Théâtre.</p>
         <p>Me renfermant dans une sage circonspection, je me suis bien gardé de prononcer sur
           l’avantage ou le danger de son institution en elle-même.</p>
         <p><pb n="3"/>Cette question importante et toujours délicate, n’entrait point dans le plan
@@ -201,35 +178,23 @@
           je n’aurai donc point à craindre qu’on m’accuse d’une indiscrète apologie, encore moins
           qu’on me soupçonne d’être l’apôtre de la licence ou de l’immoralité, qui trop souvent
           déshonorent les productions d’une foule d’auteurs anciens et modernes.</p>
-        <p>Si dans une même discussion, j’ai <correction/>cru/crû devoir renfermer ce qui appartient spécialement à
-          l’artiste dramatique et à l’orateur ou chrétien ou profane, ce n’est pas évidemment que
-          j’aie pensé qu’on pût jamais établir aucun parallèle entr’eux. Le juste respect dû à la
-          religion, aux bonnes mœurs <pb n="4"/>et aux lois, en doit écarter jusqu’à la seule
-          idée.</p>
-        <p>L’unique motif de mon rapprochement est pris dans cette considération, que tous, dans
-          leur position respective, et parle ministère de la parole qu’ils exercent, soit en leur
-          nom propre, soit au nom d’autrui, sont également chargés d’une sorte de fonction publique
-          qui intéresse l’ordre social, et les empêche d’être étrangers aux révolutions qu’elle y
-          peut introduire.</p>
+        <p>Si dans une même discussion, j’ai cru devoir renfermer ce qui appartient spécialement à l’artiste dramatique et à l’orateur ou chrétien ou profane, ce n’est pas évidemment que j’aie pensé qu’on pût jamais établir aucun parallèle entre eux. Le juste respect dû à la religion, aux bonnes mœurs <pb n="4"/>et aux lois, en doit écarter jusqu’à la seule idée.</p>
+        <p>L’unique motif de mon rapprochement est pris dans cette considération, que tous, dans leur position respective, et par le ministère de la parole qu’ils exercent, soit en leur nom propre, soit au nom d’autrui, sont également chargés d’une sorte de fonction publique qui intéresse l’ordre social, et les empêche d’être étrangers aux révolutions qu’elle y peut introduire.</p>
         <p>Cette explication donnée pour l’intelligence générale de cette production, je la
           commencerai par l’examen de la Chaire, sous le rapport de sa véritable influence dans la
           société civile.</p>
-        <label>DE LA CHAIRE.</label>
-        <p>Si les noms de <hi rend="i">Pithagore</hi> et de <hi rend="i">Socrate</hi>, si ceux de
-          tant d’autres philosophes justement révérés dans l’antiquité, sont parvenus jusqu’à nous,
-          c’est que le développement de leur morale les a fait considérer comme les bienfaiteurs du
-          genre humain, et que la reconnaissance publique leur a élevé des autels dont la durée doit
-          peut-être égaler celle même de l’univers.</p>
+        <div type="section">
+        <head>DE LA CHAIRE.</head>
+        <p>Si les noms de <hi rend="i">Pythagore</hi> et de <hi rend="i">Socrate</hi>, si ceux de tant d’autres philosophes justement révérés dans l’antiquité, sont parvenus jusqu’à nous, c’est que le développement de leur morale les a fait considérer comme les bienfaiteurs du genre humain, et que la reconnaissance publique leur a élevé des autels dont la durée doit peut-être égaler celle même de l’univers.</p>
         <p><pb n="5"/>Cependant, aux yeux des hommes raisonnables et dégagés de tout préjugé ou de
           tout esprit de parti, la beauté de leur doctrine peut-elle être comparée à celle des
           saintes écritures ?</p>
-        <p><hi rend="i">Jean-Jacques</hi> n’avait-il pas bien raison de s’écrier : « Je vous avoue
+        <p><hi rend="i">Jean-Jacques</hi> n’avait-il pas bien raison de s’écrier :</p> 
+          <quote>
+            <p>« Je vous avoue
           que leur majesté m’étonne.</p>
-        <p>La sainteté de l’Évangile parle à mon cœur. Voyez les livres des philosophes avec toute
-          leur pompe, qu’ils sont petits près de celui-là ! Se peut-il qu’un livre si sublime et si
-          simple tout-à-la-fois, soit l’ouvrage des hommes ? …. Il a des caractères de vérité si
-          grands, si frappants, si parfaitement inimitables, que l’inventeur en serait plus étonnant
-          que le héros ».</p>
+          <p>« La sainteté de l’Evangile parle à mon cœur. Voyez les livres des philosophes avec toute leur pompe, qu’ils sont petits près de celui-là ! Se peut-il qu’un livre si sublime et si simple tout à la fois, soit l’ouvrage des hommes ? …. Il a des caractères de vérité si grands, si frappants, si parfaitement inimitables, que l’inventeur en serait plus étonnant que le héros. »</p>
+          </quote>
         <p>La froide indifférence que nous témoignons aujourd’hui pour les orateurs chargés
           d’expliquer les maximes de ce livre admirable, est donc bien étrange en elle-même. Elle
           tient à un renversement d’idées non moins affligeant que douloureux dans l’ordre
@@ -291,9 +256,10 @@
           Partout ils rencontrent des esclaves accoutumés à fléchir sous l’autorité la plus
           despotique, à servir les passions les plus honteuses ; mais ils ne voient point d’amis qui
           s’intéressent à leur véritable gloire, et qui osent plaider généreusement aux pieds <pb
-            n="10"/>du trône la cause de l’innocence et du malheur<note place="bottom"><quote>
-              <lg>
-                <l>De soins tumultueux, un prince environné,</l>
+            n="10"/>du trône la cause de l’innocence et du malheur<note place="bottom" resp="author"><p> [NDA]
+              <quote>
+            <lg>
+                <l>« De soins tumultueux, un prince environné,</l>
                 <l>Vers de nouveaux objets est sans cesse entraîné.</l>
                 <l>L’avenir l’inquiète et le présent le frappe ;</l>
                 <l>Mais plus prompt que l’éclair le passé nous échappe.</l>
@@ -302,14 +268,15 @@
                 <l>Il ne s’en trouve point qui, touchés d’un vrai zèle,</l>
                 <l>Prennent à notre gloire un intérêt fidèle,</l>
                 <l>Du mérite oublié nous fassent souvenir,</l>
-                <l>Trop prompts à nous parler de ce qu’il faut punir.</l>
+                <l>Trop prompts à nous parler de ce qu’il faut punir. »</l>
               </lg>
-              <p><hi rend="sc">Racine</hi>, <hi rend="i">dans Esther</hi>, scène 3, acte 2.</p>
-            </quote>
+              </quote>
+              <bibl><hi rend="sc">Racine</hi>, <hi rend="i">dans Esther</hi>, scène 3, acte 2.</bibl>
+            </p>
             <p>Avec quelle énergie le même auteur nous peint la bassesse des courtisans :</p>
             <quote>
               <lg>
-                <l>Bientôt ils vous diront que les plus saintes lois,</l>
+                <l>« Bientôt ils vous diront que les plus saintes lois,</l>
                 <l>Maîtresses du vil peuple, obéissent aux rois ;</l>
                 <l>Qu’un roi n’a d’autre frein que sa volonté même,</l>
                 <l>Qu’il doit immoler tout à sa grandeur suprême ;</l>
@@ -320,72 +287,61 @@
                 <l>Corrompant de vos mœurs l’aimable pureté,</l>
                 <l>Ils vous feront enfin haïr la vérité,</l>
                 <l>Vous peindront la vertu sous une affreuse image.</l>
-                <l>Hélas ! ils ont des rois, égaré le plus sage.</l>
+                <l>Hélas ! ils ont des rois, égaré le plus sage. »</l>
               </lg>
-              <p><hi rend="i">Athalie</hi>, scène 3, acte 4.</p>
+              <label><hi rend="i">Athalie</hi>, scène 3, acte 4.</label>
             </quote></note>.</p>
-        <p>Mais que fatigués de la pompe et des honneurs qui les environnent, ils viennent un moment
-          se reposer à l’ombre des autels ; c’est-là qu’au milieu des temples érigés à la gloire de
-          l’Éternel, ils trouveront des hommes courageux, des ministres sincères, <pb n="11"/>des
-          orateurs désintéressés, qui, forts de la liberté de leur saint ministère, leur annonceront
-          avec fidélité les oracles du très-haut. En leur traçant, en son nom, la règle de leurs
-          devoirs, en leur enseignant à respecter les droits du peuple, ils leur apprendront le
-          grand art de régner<note place="bottom"><p><hi rend="i">Nec elevetur cor ejus in superbiam
-                super fratres suos, neque declinet in partem dextram vel sinistram, ut longo tempore
-                regnet ipse.</hi> (Deuter. ch. 17, v. 20.)</p></note>.</p>
-        <p>Ce peuple, disait du haut de la chaire un pieux ministre, à l’un de nos derniers
-          souverains, qui depuis l’honora des faveurs de l’épiscopat, « ce peuple n’a point le droit
-          de murmurer et de se plaindre, mais il a celui de se taire, et son silence est la leçon
-          des rois ».</p>
+        <p>Mais que fatigués de la pompe et des honneurs qui les environnent, ils viennent un moment se reposer à l’ombre des autels ; c’est là qu’au milieu des temples érigés à la gloire de l’Eternel, ils trouveront des hommes courageux, des ministres sincères, <pb n="11"/>des orateurs désintéressés, qui, forts de la liberté de leur saint ministère, leur annonceront avec fidélité les oracles du très-haut. En leur traçant, en son nom, la règle de leurs devoirs, en leur enseignant à respecter les droits du peuple, ils leur apprendront le grand art de régner<note place="bottom" resp="author"> <p>[NDA] 
+              « <quote>Nec elevetur cor ejus in superbiam super fratres suos, neque declinet in partem dextram vel sinistram, ut longo tempore regnet ipse.</quote> » (Deuter. ch. 17, v. 20.)</p>
+            </note>.</p>
+          <p>Ce peuple, disait du haut de la chaire un pieux ministre<note resp="editor" place="bottom"> [NDE] L'Abbé de Beauvais, dans l'Oraison funèbre de Louis XV.</note>, à l’un de nos derniers souverains, qui depuis l’honora des faveurs de l’épiscopat, « <quote>ce peuple n’a point le droit de murmurer et de se plaindre, mais il a celui de se taire, et son silence est la leçon des rois </quote>».</p>
         <p>Paroles mémorables ! qui honorent également et le prince qui les entendit avec calme et
-          respect, et l’apôtre, qui ne craignait pas de lui rappeler la plus sainte de ses
+          respect<note place="bottom" resp="editor"> [NDE]  Louis XVI.</note>, et l’apôtre, qui ne craignait pas de lui rappeler la plus sainte de ses
           obligations, celle de soulager une multitude <pb n="12"/>d’infortunés qu’accablait le
-          poids de la misère et des impôts<note place="bottom"><p>Ceci rappelle le trait de
+          poids de la misère et des impôts<note place="bottom" resp="author"> <p>[NDA] Ceci rappelle le trait de
               l’empereur dont parle <hi rend="i">Racine</hi> le fils, dans son poème de la
               Religion :</p>
             <quote>
               <lg>
-                <l>Au plus juste courroux qui peut s’abandonner,</l>
+                <l>« Au plus juste courroux qui peut s’abandonner,</l>
                 <l>Quand le prince lui-même apprend à pardonner ?</l>
                 <l>Théodose est en pleurs, Ambroise en est la cause :</l>
-                <l>J’admire également Ambroise et Théodose.</l>
+                <l>J’admire également Ambroise et Théodose. »</l>
               </lg>
-              <p>(<hi rend="i">Chant</hi> 6.)</p>
+              <bibl>(<hi rend="i">Chant</hi> 6.)</bibl>
             </quote></note>.</p>
         <p>Mais l’éloquence de la chaire ne se borne point à éclairer les premiers magistrats de
           l’état sur la nature de leurs engagements, à leur en développer l’importance ou la
           grandeur, pour les retenir sans cesse dans les voies de la justice, de la raison, de
           l’humanité ; elle produit encore cet autre effet non moins salutaire, c’est d’attacher les
           sujets au gouvernement, par le lien le plus puissant, celui même de la religion, qui leur
-          commande impérieusement le respect et l’obéissance<note place="bottom"><p><hi rend="i"
-                >Omnis anima potestatibus sublimioribus subdita sit. Non est enim potestas nisi à
-                Deo. Quæ autem sunt à Deo ordinatæ sunt.</hi></p>
-            <p><hi rend="i">Itaque qui resistit potestati, Dei ordinationi resistit.</hi></p>
-            <p><hi rend="i">Ideo necessitate subditi estote, non solum propter iram, sed etiam
-                propter conscientiam.</hi> (V. 1, 2 et 5 chap. 13 de l’<hi rend="i">Épître Saint
-                Paul aux Romains</hi>.)</p>
+          commande impérieusement le respect et l’obéissance<note place="bottom" resp="author"> <p>[NDA]<quote>« Omnis anima potestatibus sublimioribus subdita sit. Non est enim potestas nisi à Deo. Quæ autem sunt à Deo ordinatæ sunt.</quote></p>
+            <p>« <quote>Itaque qui resistit potestati, Dei ordinationi resistit.</quote></p>
+            <p>« <quote>Ideo necessitate subditi estote, non solum propter iram, sed etiam
+              propter conscientiam.</quote> »</p> <bibl>(V. 1, 2 et 5 chap. 13 de l’<hi rend="i">Epître Saint
+                  Paul aux Romains</hi>.)</bibl>
             <quote>
               <lg>
-                <l>On traite les chrétiens d’ennemis de l’état,</l>
+                <l>« On traite les chrétiens d’ennemis de l’état,</l>
                 <l>On impute le crime à ceux dont la doctrine</l>
                 <l>N’a pu que dans le ciel prendre son origine.</l>
                 <l>Ainsi que dans leurs mœurs, tout est pur dans leurs lois :</l>
                 <l>C’est par eux qu’on apprend à respecter les rois,</l>
-                <l>Et que même aux Nérons on doit l’obéissance.</l>
+                <l>Et que même aux Néron on doit l’obéissance.</l>
                 <l>De Dieu, nous disent-ils, descend toute puissance ;</l>
                 <l>Le prince est son image et maître des humains,</l>
                 <l>Tient du maître des cieux le glaive dans ses mains.</l>
                 <l>Sujets, obéissez : le murmure est un crime,</l>
                 <l>En vain contre un pouvoir cruel, mais légitime,</l>
                 <l>Des peuples révoltés s’arment de toutes parts,</l>
-                <l>Les Chrétiens sont toujours fidèles aux Césars.</l>
+                <l>Les Chrétiens sont toujours fidèles aux Césars. »</l>
               </lg>
-              <p>(<hi rend="i">Poème de la Religion</hi>, Chant 4.)</p>
+              <bibl>(<hi rend="i">Poème de la Religion</hi>, Chant 4.)</bibl>
             </quote></note>.</p>
         <p><pb n="13"/>L’illustre <hi rend="i">Bossuet</hi> professait donc une grande vérité,
-          lorsqu’il disait que « le trône des rois est placé dans le lieu le plus sûr de tous, et le
+          lorsqu’il disait que « <quote>le trône des rois est placé dans le lieu le plus sûr de tous, et le
           plus inaccessible, <hi rend="i">dans la conscience même où Dieu a le sien</hi>, et que
-          c’est le fondement le plus assuré de la tranquillité publique ».</p>
+            c’est le fondement le plus assuré de la tranquillité publique</quote> ».</p>
         <p>Ainsi partout où la religion étend son empire, où la voix de ses orateurs peut se faire
           entendre avec succès, l’état rassuré ne peut donc trouver que des défenseurs ou des amis ;
           et le germe des dissensions politiques, toujours étouffé dès sa naissance <pb n="14"
@@ -401,9 +357,9 @@
         <p>Mais, efforts aussi coupables que superflus ! Délire affreux d’une secte ennemie et des
           peuples et de ceux qui sont appelés à les gouverner ! Car, qui peut méconnaître cette
           vérité de tous les lieux, de tous les temps, ce principe reconnu, proclamé par l’antiquité
-          même : « <hi rend="i">qui rejette la religion, arrache les fondements de l’état</hi> »<note
-            place="bottom"><p><hi rend="i">Omnis humanæ societatis fondamentum convellit qui
-                religionem convellit.</hi> (De legib. l. 10. <hi rend="sc"
+          même : « <quote>qui rejette la religion, arrache les fondements de l’état</quote> »<note
+            place="bottom" resp="author"><p> [NDA] « <quote>Omnis humanæ societatis fondamentum convellit qui
+                religionem convellit.</quote> » (De legib. l. 10. <hi rend="sc"
           >Platon</hi>.)</p></note>.</p>
         <p><pb n="15"/>Tenter d’imposer silence à ceux de ses orateurs qui sont plus spécialement
           chargés d’annoncer ses préceptes divins, qu’est-ce donc autre chose que se déclarer
@@ -413,58 +369,33 @@
           pas en France pour nous éclairer sur le danger d’arrêter le cours des oracles sacrés ? Et
           n’est-ce pas moins pour les Romains que pour nous-mêmes, qu’un bel esprit de la cour
           d’Auguste avait écrit cette prédiction éclatante ?</p>
-        <p>« Vous ne cesserez d’être dans les pleurs et la désolation, et sans le mériter, vous
+        <p>« <quote>Vous ne cesserez d’être dans les pleurs et la désolation, et sans le mériter, vous
           porterez constamment la peine due aux forfaits de vos pères, tant que vous ne relèverez
           point vos temples abattus, que vous ne rétablirez pas la demeure sainte, dont les ruines
-          restent ensevelies sous l’herbe mourante et desséchée »<note place="bottom"><quote>
+          restent ensevelies sous l’herbe mourante et desséchée</quote><note place="bottom" resp="author"> [NDA] <quote>
               <lg>
-                <l><hi rend="i">Delicta majorum immeritus lues</hi></l>
-                <l><hi rend="i">Romane, donec templa refeceris</hi></l>
-                <l> <hi rend="i">Ædesque labentes Deorum et</hi></l>
-                <l>  <hi rend="i">Fœda nigro simulacra fumo.</hi></l>
+                <l>« Delicta majorum immeritus lues</l>
+                <l>Romane, donec templa refeceris</l>
+                <l> Ædesque labentes Deorum et</l>
+                <l>  Fœda nigro simulacra fumo. »</l>
               </lg>
-              <p><hi rend="sc">Horace.</hi></p>
-            </quote></note>.</p>
+              <bibl><hi rend="sc">Horace.</hi></bibl>
+            </quote></note>. »</p>
         <p><pb n="16"/>Grâces immortelles soient donc rendues au Héros français, qui, bravant les
           clameurs d’une fausse philosophie, a détruit l’abomination dans le lieu saint ; qui, pour
-          me servir des propres expressions d’un panégyriste fameux, qui, « <hi rend="i">à l’exemple
+          me servir des propres expressions d’un panégyriste fameux, qui, « <quote>à l’exemple
             de l’illustre et vaillant Macchabée, et comme le moindre des Israélites, est venu réparer
-            avec ses mains triomphantes les ruines du sanctuaire</hi> » ;<note place="bottom"><p><hi
-                rend="i">Fléchier</hi>, dans l’Oraison funèbre du grand Turenne.</p></note> qui,
+            avec ses mains triomphantes les ruines du sanctuaire</quote> » ;<note place="bottom" resp="author"><p>[NDA] <hi rend="i">Fléchier</hi>, dans l’Oraison funèbre du grand Turenne.</p></note> qui,
           enfin, a ramené dans le port le vaisseau de l’église de France, que dix ans d’orages et de
           tempêtes avaient retenu sur des mers étrangères.</p>
-        <p>Un événement aussi heureux, et qui doit faire époque dans les annales de la religion, et
-          dans celles de l’état, lui méritera sans doute l’hommage éternel de la reconnaissance
-          publique. En rendant à l’église ses prêtres et ses lévites, il a rendu à la patrie ses
-          défenseurs naturels ; il lui a donné de vrais amis, dont l’éloquence, tout-à-la-fois
-          persuasive et brûlante, peut seule dessécher dans les cœurs ulcérés ou corrompus, jusqu’à
-          la racine de ces passions funestes qui désorganisent la société.</p>
+        <p>Un événement aussi heureux, et qui doit faire époque dans les annales de la religion, et dans celles de l’état, lui méritera sans doute l’hommage éternel de la reconnaissance publique. En rendant à l’église ses prêtres et ses lévites, il a rendu à la patrie ses défenseurs naturels ; il lui a donné de vrais amis, dont l’éloquence, tout à la fois persuasive et brûlante, peut seule dessécher dans les cœurs ulcérés ou corrompus, jusqu’à la racine de ces passions funestes qui désorganisent la société.</p>
         <p><pb n="17"/>Mais, non content de conserver entre le souverain et les sujets, cette
           heureuse harmonie d’où résulte la félicité publique, l’orateur chrétien combat encore les
           passions qui en ruinent les fondements.</p>
-        <p>En veut-on une preuve sans réplique ? Qu’on arrête un moment ses regards sur les
-          désordres qui troublent la paix des familles ou divisent les citoyens entr’eux.</p>
-        <p>Considérez l’union conjugale : n’est-elle pas évidemment de nos jours un principe éternel
-          de discorde et de mésintelligence ? C’est en vain que l’amour même en a tissue les nœuds
-          charmants et délicats ; que ses plus tendres fruits semblaient devoir en augmenter la
-          force, en perpétuer la durée : sourds à la voix de la raison comme au cri de la nature,
-          les époux aigris n’aspirent plus qu’au scandale d’une rupture éclatante. Effrayé de sa
-          trop funeste indulgence, le législateur multiplie vainement les obstacles ; il ne saurait
-          nous préserver d’une frénésie si coupable, et dont n’eut pas même à rougir l’ancienne
-          Rome, encore asservie sous le joug du paganisme.</p>
-        <p>Dans les cités où le commerce a le plus d’éclat et d’influence, quel esprit maintenant
-            <pb n="18"/>y domine ? N’est-ce pas celui qui tient le plus près au dol, à l’infidélité
-          qui rendirent si honteusement célèbre cette ancienne Carthage, dont les infractions aux
-          traités les plus saints, attirèrent sur elle l’impétuosité des aigles romaines, et lui
-          méritèrent, pour l’exemple et le repos du monde, d’être enfin effacée du tableau même des
-          nations.</p>
-        <p>Contemplez tous les maux de l’usure, qui, au mépris des lois naturelles et positives,
-          dévore la fortune publique et celle des particuliers. Écrasé sous son poids énorme, quel
-          est aujourd’hui le citoyen qui peut respirer et satisfaire à des engagements que
-          l’espérance d’un avenir moins malheureux lui avait fait contracter indiscrètement ? Qui
-          peut enfin compter le nombre des victimes qu’elle condamne à périr dans les horreurs d’une
-          captivité d’autant plus dure, et d’autant plus étrange, que par-tout on affiche avec plus
-          d’ostentation les douces vertus de la philanthropie.</p>
+        <p>En veut-on une preuve sans réplique ? Qu’on arrête un moment ses regards sur les désordres qui troublent la paix des familles ou divisent les citoyens entre eux.</p>
+        <p>Considérez l’union conjugale : n’est-elle pas évidemment de nos jours un principe éternel de discorde et de mésintelligence ? C’est en vain que l’amour même en a tissu les nœuds charmants et délicats ; que ses plus tendres fruits semblaient devoir en augmenter la force, en perpétuer la durée : sourds à la voix de la raison comme au cri de la nature, les époux aigris n’aspirent plus qu’au scandale d’une rupture éclatante. Effrayé de sa trop funeste indulgence, le législateur multiplie vainement les obstacles ; il ne saurait nous préserver d’une frénésie si coupable, et dont n’eut pas même à rougir l’ancienne Rome, encore asservie sous le joug du paganisme.</p>
+        <p>Dans les cités où le commerce a le plus d’éclat et d’influence, quel esprit maintenant <pb n="18"/>y domine ? N’est-ce pas celui qui tient le plus près au dol<note resp="editor" place="bottom"> [NDE] A l'époque, le sens de tromperie, fraude, est vieilli; le terme est employé dans le sens juridique.</note>, à l’infidélité qui rendirent si honteusement célèbre cette ancienne Carthage, dont les infractions aux traités les plus saints, attirèrent sur elle l’impétuosité des aigles romaines, et lui méritèrent, pour l’exemple et le repos du monde, d’être enfin effacée du tableau même des nations.</p>
+        <p>Contemplez tous les maux de l’usure, qui, au mépris des lois naturelles et positives, dévore la fortune publique et celle des particuliers. Ecrasé sous son poids énorme, quel est aujourd’hui le citoyen qui peut respirer et satisfaire à des engagements que l’espérance d’un avenir moins malheureux lui avait fait contracter indiscrètement ? Qui peut enfin compter le nombre des victimes qu’elle condamne à périr dans les horreurs d’une captivité d’autant plus dure, et d’autant plus étrange, que partout on affiche avec plus d’ostentation les douces vertus de la philanthropie.</p>
         <p>Réfléchissez un moment sur l’indiscrétion et l’imprudence de tant d’écrivains modernes,
           dont la licence contre les mœurs ou l’autorité souveraine déshonore le commerce des
           lettres, et semble si bien justifier <pb n="19"/>jusqu’aux paradoxes de ceux qui, mettant
@@ -486,25 +417,15 @@
           nous-mêmes, nous appelle à la vraie félicité ; qui nous démontrant toute l’injustice de
           nos passions, aiguise en nous le poignard du remords ; qui enfin nous forçant à devenir
           nos propres accusateurs, nous oblige à rentrer dans les sentiers de la vertu ?</p>
-        <p>C’est ainsi qu’après de longs orages, et revenus enfin de leur égarement, les époux
-          retrouveront au sein d’une famille innocente et pure, les douces et paisibles jouissances
-          dont les âmes honnêtes sentent si bien le prix inestimable, qu’ils ratifieront avec des
-          larmes de joie le serment solennel qui, à peine prononcé, fut écrit dans les cieux, et qui
-          ayant eu Dieu même, et pour témoin et pour garant, cessa dès-lors d’être du ressort de la
-          puissance humaine<note place="bottom"><p><hi rend="i">Quod Deus conjunxit homo non
-                separet !</hi></p></note>.</p>
-        <p>C’est encore ainsi que la cupidité, renonçant à ses spéculations immorales, cessera de
-          fouler aux pieds l’humanité souffrante ; que l’écrivain et l’artiste s’empresseront
-          d’abandonner <pb n="21"/>aux flammes vengeresses ces productions dangereuses qui
-          déshonorent toujours la plume la plus éloquente, comme le burin et le pinceau les plus
-          renommés ; qu’enfin la faiblesse et l’égarement trouveront un boulevard impénétrable à
-          toutes les atteintes de cette horrible perversité dont nous sommes si souvent, ou les
-          tristes témoins, ou les malheureuses victimes.</p>
+        <p>C’est ainsi qu’après de longs orages, et revenus enfin de leur égarement, les époux retrouveront au sein d’une famille innocente et pure, les douces et paisibles jouissances dont les âmes honnêtes sentent si bien le prix inestimable, qu’ils ratifieront avec des larmes de joie le serment solennel qui, à peine prononcé, fut écrit dans les cieux, et qui ayant eu Dieu même, et pour témoin et pour garant, cessa dès lors d’être du ressort de la puissance humaine<note place="bottom" resp="author">
+              <p> [NDA] « <quote>Quod Deus conjunxit homo non separet !</quote> »</p>
+            </note>.</p>
+        <p>C’est encore ainsi que la cupidité, renonçant à ses spéculations immorales, cessera de fouler aux pieds l’humanité souffrante ; que l’écrivain et l’artiste s’empresseront d’abandonner <pb n="21"/>aux flammes vengeresses ces productions dangereuses qui déshonorent toujours la plume la plus éloquente, comme le burin et le pinceau les plus renommés ; qu’enfin la faiblesse et l’égarement trouveront un boulevard impénétrable à toutes les atteintes de cette horrible perversité dont nous sommes si souvent, ou les tristes témoins, ou les malheureuses victimes.</p>
         <p>Mais ne nous abusons pas : jamais nous n’arriverons à cette heureuse révolution dans les
           mœurs, tant que l’asile de la piété, dans un funeste abandon, n’offrira que l’aspect
           douloureux d’une vaste et triste solitude ; que la contagion du mauvais exemple du grand
           nombre des hommes constitués en dignité, continuera d’autoriser le peuple à l’infraction
-          habituelle de ses premiers devoirs<note place="bottom"><p>La grande et constante affluence
+          habituelle de ses premiers devoirs<note place="bottom" resp="author"><p> [NDA] La grande et constante affluence
               des citoyens de tous les ordres dans les églises de Paris à l’époque des solennités de
               la Pâque et du Jubilé, prouve que sur ce point mes craintes étaient injustes et mes
               plaintes prématurées.</p>
@@ -516,16 +437,7 @@
           véritable morale, nous n’attacherons d’importance et de prix qu’à ces frivolités du jour
           qui nous occupent exclusivement, qu’à ces plaisirs factices, à ces vaines grandeurs dont
           nous nous montrons si vivement idolâtres.</p>
-        <p>Insensés que nous sommes ! quel est donc notre erreur ? est-ce dans ces cercles brillants
-          que l’ambition ou la vanité peuplent d’esclaves ou d’hommes désœuvrés, est-ce au milieu du
-          jeu même des passions les plus ardentes que la scène ne développe souvent avec tant d’art
-          et d’agrément, que pour mieux assurer le triomphe des plus dangereuses ; est-ce donc là
-          que nous apprendrons jamais à respecter la sainteté du mariage, l’autorité paternelle, la
-          simplicité de l’honnête-homme ? N’y sont elles pas presque toujours l’objet même de la
-          dérision d’un spectateur imprudent, qui ose applaudir avec enthousiasme à la finesse et à
-          la conduite d’une intrigue dont chez <pb n="23"/>lui l’heureux succès troublerait au moins
-          la paix domestique, si, par le scandale de sa publicité, elle ne fesait sa honte ou son
-          désespoir.</p>
+        <p>Insensés que nous sommes ! quel est donc notre erreur ? est-ce dans ces cercles brillants que l’ambition ou la vanité peuplent d’esclaves ou d’hommes désœuvrés, est-ce au milieu du jeu même des passions les plus ardentes que la scène ne développe souvent avec tant d’art et d’agrément, que pour mieux assurer le triomphe des plus dangereuses ; est-ce donc là que nous apprendrons jamais à respecter la sainteté du mariage, l’autorité paternelle, la simplicité de l’honnête homme ? N’y sont-elles pas presque toujours l’objet même de la dérision d’un spectateur imprudent, qui ose applaudir avec enthousiasme à la finesse et à la conduite d’une intrigue dont chez <pb n="23"/>lui l’heureux succès troublerait au moins la paix domestique, si, par le scandale de sa publicité, elle ne faisait sa honte ou son désespoir.</p>
         <p>Mais si la corruption qui déshonore les grandes cités met, par elle-même, de si puissants
           obstacles au succès de la parole évangélique, combien plus effrayants encore sont ceux
           qu’elle trouve dans l’ignorance et l’avarice, qui désolent les campagnes. Souvent le
@@ -544,10 +456,7 @@
           les efforts.</p>
         <p>Ces réflexions, sont peut-être hors de mon sujet, et je n’ai pas besoin de m’y arrêter.
           Assez de bons esprits les ont faites et en ont senti la justice avant moi.</p>
-        <p>Mais quoi qu’il en soit de ce point important, qui, sans doute, est moins du domaine de
-          la morale que de celui de la politique, dans l’éloignement de toute instruction
-          religieuse, que deviendront les mœurs et le sort de cette classe si précieuse de la
-          société ?</p>
+        <p>Mais quoiqu’il en soit de ce point important, qui, sans doute, est moins du domaine de la morale que de celui de la politique, dans l’éloignement de toute instruction religieuse, que deviendront les mœurs et le sort de cette classe si précieuse de la société ?</p>
         <p>N’est-il pas évident qu’en butte à tous les préjugés, victimes de toutes les passions,
           elle s’abandonnera sans scrupule et sans crainte à toute la perversité d’une nature
           corrompue, et que bientôt replongée dans les ténèbres de l’ancienne barbarie, elle ne
@@ -560,10 +469,8 @@
         <p>Pour arrêter le cours de ces désordres, dira-t-on, multipliez les tribunaux ; effrayez
           par la terreur des supplices.</p>
         <p>Quel moyen atroce ! N’est-il donc pas plus intéressant de prévenir le crime que de le
-          punir ? et pour me servir de la pensée d’un écrivain judicieux<note place="bottom"
-              ><p>Discours de M. <hi rend="i">Terrasson</hi>, en parlant de la conduite de M. <hi
-                rend="i">d’Aguesseau</hi> dans les affaires de religion. <hi rend="i">Tom. I des
-                Œuvres de ce dernier.</hi></p></note>, ne vaut-il pas mieux prendre sur l’autel le
+          punir ? et pour me servir de la pensée d’un écrivain judicieux<note place="bottom" resp="author"
+              ><p> [NDA] Discours de M. <hi rend="i">Terrasson</hi>, en parlant de la conduite de M. <hi rend="i">d’Aguesseau</hi> dans les affaires de religion. <hi rend="i">Tom. I des Œuvres de ce dernier.</hi></p></note>, ne vaut-il pas mieux prendre sur l’autel le
           flambeau pour éclairer et conduire les victimes aveuglées par l’erreur, que le glaive
           propre à les immoler.</p>
         <p>Remontons à la source du mal, et nous serons bientôt convaincus qu’avec un ministre
@@ -580,14 +487,11 @@
           cœur, et bientôt avec un poète moderne, vous serez forcé de dire :</p>
         <quote>
           <lg>
-            <l>S’il a l’éclat du marbre, il a sa dureté<note place="bottom"><p><hi rend="i"
-                    >Thomas</hi>, Épître au Peuple.</p></note>.</l>
+            <l>S’il a l’éclat du marbre, il a sa dureté<note place="bottom" resp="author"><p> [NDA] <hi rend="i"
+                    >Thomas</hi>, Epître au Peuple.</p></note>.</l>
           </lg>
         </quote>
-        <p>Là, dans les horreurs du plus pressant besoin, s’agite et se tourmente une mère
-          infortunée. Sans appui, sans ressource, elle appèle en vain la compassion des hommes. <pb
-            n="27"/>L’excès de sa misère ne saurait les toucher. Elle est réduite à s’abreuver de
-          ses larmes.</p>
+        <p>Là, dans les horreurs du plus pressant besoin, s’agite et se tourmente une mère infortunée. Sans appui, sans ressource, elle appelle en vain la compassion des hommes. <pb n="27"/>L’excès de sa misère ne saurait les toucher. Elle est réduite à s’abreuver de ses larmes.</p>
         <p>Quel contraste affreux et pénible à considérer ! et quand on ne l’envisage qu’avec l’œil
           des préjugés humains, n’est-on pas tenté d’accuser la providence elle-même d’un abandon si
           déporable ?</p>
@@ -598,11 +502,11 @@
           seraient les vertus sans les peines et les sacrifices qui en produisent et toute la force
           et tout l’éclat ? Quel droit aurez-vous aux récompenses d’une autre vie, si dans celle-ci
           vous refusez de prendre pour modèle un Dieu né dans la plus affreuse indigence et mort
-          dans des supplices inouis<note place="bottom"><p><hi rend="i">In hoc enim vocuti estis
+          dans des supplices inouis<note place="bottom" resp="author"><p> [NDA] « <quote>In hoc enim vocuti estis
                 quià et Christus passus est pro nobis, vobis relinquens exemplum ut sequamini
-                vestigia ejus.</hi> V. 21, ch. 2, <hi rend="i">Épître de S.
-          Pierre.</hi></p></note> ! n’est-il donc pas écrit : <hi rend="i">heureux ceux qui
-            pleurent ! parce qu’ils seront consolés</hi>.</p>
+                vestigia ejus.</quote> » V. 21, ch. 2, <hi rend="i">Epître de S.
+          Pierre.</hi></p></note> ! n’est-il donc pas écrit : « <quote>heureux ceux qui
+            pleurent ! parce qu’ils seront consolés</quote> ».</p>
         <p><pb n="28"/>Philosophes du jour, âmes superbes et vaines ! ôtez donc, ôtez cette morale à
           celui qui souffre ; que lui restera-t-il ? Le désespoir et la mort.</p>
         <p>Faut-il s’étonner, si dans l’oubli des principes religieux, tant d’infortunés fatigués de
@@ -615,15 +519,8 @@
           sentiment d’un besoin impérieux ?</p>
         <p>Dans son délire et sa fureur, sera-t-il arrêté par la crainte des vengeances de la loi ?
           Eh, n’a-t-il pas toujours l’espoir d’y échapper ?</p>
-        <p>Sera-t-il intimidé par les menaces d’un Dieu justement irrité ? Quelles chimères ! nos
-          esprits forts ne lui ont ils pas appris que tout est matière en ce monde, et que
-          l’éternité <pb n="29"/>n’est qu’une invention due au fanatisme des prêtres, comme à la
-          politique des souverains !</p>
-        <p>Je sais qu’attentif aux besoins de l’indigence qui dévore tant de victimes du malheur, le
-          gouvernement depuis long-temps cherche à la venger du mépris ou de l’oubli des heureux du
-          siècle ; que désespérant de les amener à la pratique du plus saint des devoirs par les
-          sentiments de la justice et de l’humanité, il s’est vu forcé de mettre à contribution
-          jusqu’à leurs plaisirs même qu’il a fallu rendre l’objet des taxes publiques.</p>
+        <p>Sera-t-il intimidé par les menaces d’un Dieu justement irrité ? Quelles chimères ! nos esprits forts ne lui ont-ils pas appris que tout est matière en ce monde, et que l’éternité <pb n="29"/>n’est qu’une invention due au fanatisme des prêtres, comme à la politique des souverains !</p>
+        <p>Je sais qu’attentif aux besoins de l’indigence qui dévore tant de victimes du malheur, le gouvernement depuis longtemps cherche à la venger du mépris ou de l’oubli des heureux du siècle ; que désespérant de les amener à la pratique du plus saint des devoirs par les sentiments de la justice et de l’humanité, il s’est vu forcé de mettre à contribution jusqu’à leurs plaisirs même qu’il a fallu rendre l’objet des taxes publiques.</p>
         <p>Ce soin paternel, sans doute, est digne de notre reconnaissance sous plus d’un
           rapport.</p>
         <p>Mais si l’empire des circonstances a forcé d’avoir recours à ce nouveau système, si en
@@ -658,7 +555,7 @@
         <p>Quel triomphe et plus noble et plus grand, put jamais obtenir l’éloquence humaine ! et
           n’est-ce pas réellement dans la chaire évangélique où croissent les véritables lauriers ;
           où se trouvent les palmes immortelles, dont la moisson peut le mieux honorer et satisfaire
-          l’ambition des âmes grandes et généreuses<note place="bottom"><p>Je l’ai vu, disait <hi
+          l’ambition des âmes grandes et généreuses<note place="bottom" resp="author"> <p> [NDA] Je l’ai vu, disait <hi
                 rend="i">Marmontel</hi>, dans son discours en vers prononcé à l’académie française
               en 1776, en parlant de <hi rend="i">Brydayne</hi>, l’un des plus éloquents
               missionnaires dont peut s’honorer la France.</p>
@@ -687,7 +584,7 @@
                 <l>Tout tremblait sous sa main : le méchant consterné</l>
                 <l>D’un ténébreux abîme était environné.</l>
                 <l>Il domptait l’habitude, il domptait la nature ;</l>
-                <l>Il fesait du remords éprouver la torture.</l>
+                <l>Il faisait du remords éprouver la torture.</l>
                 <l>De son faste à ses pieds l’orgueil se dépouillait ;</l>
                 <l>La rapine tombait des mains qu’elle souillait ;</l>
                 <l>La volupté rompait ses chaînes les plus chères ;</l>
@@ -700,35 +597,12 @@
           de faire revivre dans toute leur splendeur ces <pb n="33"/>réunions si précieuses et si
           belles, d’appeler encore à la défense de nos frères souffrants et malheureux, ces apôtres
           dont la voix sublime et pure attendrissait les cœurs les plus endurcis ?</p>
-        <p>C’est-là que ne pouvant résister à leur onction divine, c’est-là, qu’avares de larmes
-          stériles, et sans émotion pour des infortunes imaginaires, nous irions pleurer encore
-          utilement sur les maux réels qui affligent l’humanité, et que, par un sentiment de
-          générosité dont nous n’aurions plus à rougir, nous mériterions d’en être appelés les vrais
-            consolateurs<note place="bottom"><p>On sent aisément combien il était difficile de
-              résister au zèle du grand <hi rend="i">Bossuet</hi>, quand plaidant la cause de
-              l’indigence et du malheur, il s’écriait avec cette touchante et noble simplicité, si
-              éloignée des prétentions du bel esprit.</p>
-            <p>« Je prête ma voix aux pauvres, parce qu’ils n’en ont point. Voyez quelle est leur
-              nécessité. Nous naissons pauvres. Dieu a commandé à la terre de nous fournir notre
-              nourriture. Ceux qui n’ont point ce fonds, imposent un tribut à leurs mains. Il exige
-              d’elles ce qui est nécessaire au reste du corps. Voilà le second degré de misère.
-              Quand ce fond leur manque par l’infirmité ; encore y a-t-il quelque recours. La nature
-              leur a donné une voix, des plaintes, des gémissements, dernier refuge des pauvres
-              affligés, pour attirer le secours des autres ; ceux dont je parle n’ont pas ces
-              moyens, ils sont contraints d’être renfermés ; leurs plaintes ne sont entendues que de
-              leur pauvre famille éplorée, et de quelques-uns de leurs voisins, peut-être encore
-              plus misérables qu’eux. Encore, dans l’extrême misère, quand on a l’usage de l’esprit
-              libre, la nécessité fait trouver des inventions : le leur est accablé par la maladie,
-              par l’inquiétude et souvent par le désespoir. Dans une telle nécessité, puis-je leur
-              refuser ma voix ? »</p>
-            <p>Avec combien de raison et de justice, disait l’abbé <hi rend="i">Mauri</hi>, dont la
-              cour de Rome a récompensé les talents précieux, en l’appelant aux premières dignités de
-              l’église, oui, avec combien de raison et de justice il disait dans son panégyrique de
-              S. Augustin.</p>
-            <p>« Ce sont les pauvres qui savent apprécier les talents d’Augustin ; lorsqu’ils
-              viennent l’attendre en foule sur les chemins publics, pour le contraindre de prêcher
-              en leur faveur et de triompher par l’onction de ses discours de la dureté des
-              riches. »</p></note>.</p>
+        <p>C’est là que ne pouvant résister à leur onction divine, c’est là, qu’avares de larmes stériles, et sans émotion pour des infortunes imaginaires, nous irions pleurer encore utilement sur les maux réels qui affligent l’humanité, et que, par un sentiment de générosité dont nous n’aurions plus à rougir, nous mériterions d’en être appelés les vrais consolateurs<note place="bottom" resp="author">
+              <p> [NDA] On sent aisément combien il était difficile de résister au zèle du grand <hi rend="i">Bossuet</hi>, quand plaidant la cause de l’indigence et du malheur, il s’écriait avec cette touchante et noble simplicité, si éloignée des prétentions du bel esprit.</p>
+          <p>« <quote>Je prête ma voix aux pauvres, parce qu’ils n’en ont point. Voyez quelle est leur nécessité. Nous naissons pauvres. Dieu a commandé à la terre de nous fournir notre nourriture. Ceux qui n’ont point ce fonds, imposent un tribut à leurs mains. Il exige d’elles ce qui est nécessaire au reste du corps. Voilà le second degré de misère. Quand ce fonds leur manque par l’infirmité ; encore y a-t-il quelque recours. La nature leur a donné une voix, des plaintes, des gémissements, dernier refuge des pauvres affligés, pour attirer le secours des autres ; ceux dont je parle n’ont pas ces moyens, ils sont contraints d’être renfermés ; leurs plaintes ne sont entendues que de leur pauvre famille éplorée, et de quelques-uns de leurs voisins, peut-être encore plus misérables qu’eux. Encore, dans l’extrême misère, quand on a l’usage de l’esprit libre, la nécessité fait trouver des inventions : le leur est accablé par la maladie, par l’inquiétude et souvent par le désespoir. Dans une telle nécessité, puis-je leur refuser ma voix ?</quote> »</p>
+              <p>Avec combien de raison et de justice, disait l’abbé <hi rend="i">Mauri</hi>, dont la cour de Rome a récompensé les talents précieux, en l’appelant aux premières dignités de l’église, oui, avec combien de raison et de justice il disait dans son panégyrique de S. Augustin.</p>
+          <p>« <quote>Ce sont les pauvres qui savent apprécier les talents d’Augustin ; lorsqu’ils viennent l’attendre en foule sur les chemins publics, pour le contraindre de prêcher en leur faveur et de triompher par l’onction de ses discours de la dureté des riches.</quote> »</p>
+            </note>.</p>
         <p><pb n="34"/>Mais ce n’est pas seulement contre les horreurs du besoin et de la misère,
           que l’orateur chrétien nous soutient et nous <pb n="35"/>rassure. Dans les événements de la
           vie, ou les plus inattendus ou les plus tragiques, il sait encore ranimer en nous le
@@ -741,9 +615,7 @@
           croyez pas qu’il vous ait abandonnés. Consolez-vous et qu’un rayon d’espérance luise
           encore au fond de votre cœur. Non, ne craignez pas la malice de vos ennemis qui sera
           confondue, parce que ce Dieu est le juge de la veuve et le père des orphelins<note
-            place="bottom"><p><hi rend="i">Exultate in conspectu ejus ; turbulantur à facie ejus,
-                patris orphanorum et judicis viduarum.</hi> (V. <hi rend="i">5</hi> Psaume <hi
-                rend="i">57</hi>.)</p></note>.</p>
+            place="bottom" resp="author"><p> [NDA] « <quote>Exultate in conspectu ejus ; turbulantur a facie ejus, patris orphanorum et judicis viduarum.</quote> » (V. <hi rend="i">5</hi> Psaume <hi rend="i">57</hi>.)</p></note>.</p>
         <p>Pourquoi vous troubler, dira-t-il encore à celui que l’inconstance du sort, a précipité
           du faîte de la gloire et des honneurs, <pb n="36"/>et que l’injustice des hommes a le plus
           indignement abreuvé de tout le fiel de la calomnie. Que sont devant le trône de l’éternel
@@ -753,16 +625,16 @@
           tutélaire et se repose avec sécurité dans le sein de la divinité même ? Ah ! bientôt avec
           le ministre éloquent qui le soutient et le console, au milieu des plus grandes
           afflictions, et comme ce roi puissant dont la fidélité fut mise à une épreuve si
-          douloureuse et si terrible, il s’écriera, « je suis sorti nu du sein de ma mère, et j’y
+          douloureuse et si terrible, il s’écriera, « <quote>je suis sorti nu du sein de ma mère, et j’y
           rentrerai nu. Dieu m’a comblé de biens : il m’a tout ôté. Que sa volonté sainte
-          s’accomplisse, et que son nom soit béni ».<note place="bottom"><p><hi rend="i">Nudus
+          s’accomplisse, et que son nom soit béni</quote> ».<note place="bottom" resp="author"><p> [NDA] « <quote>Nudus
                 egressus sum de utero matris meæ et nudus revertar illuc. Deus dedit, Dominus
-                abstulit, sicut Domino placuit ita factum est, sit nomen Domini benedictum.</hi>
+                abstulit, sicut Domino placuit ita factum est, sit nomen Domini benedictum.</quote> »
               (Job, vers. 21, chap. 1.).</p></note></p>
-        <p>Ainsi se trouve vérifié cet oracle divin, « venez à moi, ô vous tous qui gémissez <pb
+        <p>Ainsi se trouve vérifié cet oracle divin, « <quote>venez à moi, ô vous tous qui gémissez <pb
             n="37"/>sous le poids des souffrances, et je vous aiderai à les
-            supporter <seg>»</seg>.<note place="bottom"><p><hi rend="i">Venite ad me omnes qui
-                laboratis et onerati estis, et ego reficiam vos.</hi> (S. Matthieu, ch. 11,
+          supporter </quote> ».<note place="bottom" resp="author"><p> [NDA] « <quote>Venite ad me omnes qui
+                laboratis et onerati estis, et ego reficiam vos.</quote> » (S. Matthieu, ch. 11,
               v. 21.)</p></note></p>
         <p>Si, comme on n’en peut raisonnablement douter, si le but des orateurs chrétiens est de
           tempérer l’autorité du gouvernement pour le salut des peuples ; s’ils ont pour objet de
@@ -773,46 +645,22 @@
           dessein d’en arrêter le cours ; combien leur ministère est vraiment utile à la patrie !
           combien donc nous devons nous occuper du soin d’en augmenter l’éclat et d’en perpétuer la
           durée !</p>
-        <p>Le temps fuit et dévore les générations ; mais l’état tout entier, s’il résiste au torrent
-          des révolutions, survit dans son corps moral et politique, lorsque ces mêmes générations
-          sont éteintes et qu’elles ont disparu du globe. <pb n="38"/>La nôtre, une fois anéantie,
-          que restera-t-il de ces hommes précieux à l’état, si l’on ne s’y occupe du soin de les
-          régénérer, en rétablissant ces écoles illustres où furent formés les <hi rend="i"
-            >Chrisostôme</hi>, les <hi rend="i">Augustin</hi>, les <hi rend="i">Bossuet</hi>, les
-            <hi rend="i">Fénélon</hi>, les <hi rend="i">Bourdaloue</hi>, les <hi rend="i"
-            >Massillon</hi>, les <hi rend="i">Fléchier</hi>, les <hi rend="i">Brydayne</hi>, et tant
-          d’autres célèbres apôtres, dont l’église et la république ont toujours également honoré
-          les talents et chéri les vertus.</p>
-        <p>Un petit nombre de leurs imitateurs, heureusement échappés à la hache révolutionnaire,
-          peut sans doute nous consoler de la perte de ces grands modèles. Mais courbés déjà, pour
-          la plupart, sous le poids de l’âge et des travaux de l’apostolat, ces généreux martyrs de
-          la foi de nos pères ne sauraient promettre long-temps des secours et des succès à l’église
-          alarmée.</p>
-        <p>Il importait donc et à nous et plus encore à nos neveux, que le gouvernement, toujours si
-          attentif à la prospérité publique, à la conservation de cet empire auguste et florissant,
-          dont la religion fut le premier fondement et la source même de sa gloire ; oui, il
-          importait que le gouvernement se hâtât de rétablir et d’orner ces belles et nombreuses <pb
-            n="39"/>pépinières, qui jadis fesaient l’espoir et la consolation de l’église de
-          France.</p>
+        <p>Le temps fuit et dévore les générations ; mais l’état tout entier, s’il résiste au torrent des révolutions, survit dans son corps moral et politique, lorsque ces mêmes générations sont éteintes et qu’elles ont disparu du globe. <pb n="38"/>La nôtre, une fois anéantie, que restera-t-il de ces hommes précieux à l’état, si l’on ne s’y occupe du soin de les régénérer, en rétablissant ces écoles illustres où furent formés les <hi rend="i">Chrysostome</hi>, les <hi rend="i">Augustin</hi>, les <hi rend="i">Bossuet</hi>, les <hi rend="i">Fénélon</hi>, les <hi rend="i">Bourdaloue</hi>, les <hi rend="i">Massillon</hi>, les <hi rend="i">Fléchier</hi>, les <hi rend="i">Brydayne</hi>, et tant d’autres célèbres apôtres, dont l’église et la république ont toujours également honoré les talents et chéri les vertus.</p>
+        <p>Un petit nombre de leurs imitateurs, heureusement échappés à la hache révolutionnaire, peut sans doute nous consoler de la perte de ces grands modèles. Mais courbés déjà, pour la plupart, sous le poids de l’âge et des travaux de l’apostolat, ces généreux martyrs de la foi de nos pères ne sauraient promettre longtemps des secours et des succès à l’église alarmée.</p>
+        <p>Il importait donc et à nous et plus encore à nos neveux, que le gouvernement, toujours si attentif à la prospérité publique, à la conservation de cet empire auguste et florissant, dont la religion fut le premier fondement et la source même de sa gloire ; oui, il importait que le gouvernement se hâtât de rétablir et d’orner ces belles et nombreuses <pb n="39"/>pépinières, qui jadis faisaient l’espoir et la consolation de l’église de France.</p>
         <p>En voyant refleurir ces tendres arbrisseaux dont elle attend un si doux ombrage, elle
           n’aura plus à redouter la sécheresse et l’aridité qui désolent aujourd’hui tant de
           portions de son champ, restées incultes ou désertes.</p>
-        <p>Et quels seront les transports de sa noble allégresse, si même au-delà des mers, ce jeune
-          plan peut un jour s’étendre et se fortifier de nouveau ! si, comme autrefois, ses rameaux
-          enlacés peuvent offrir à la timide innocence un abri salutaire, si la douceur de leurs
-          fruits, en tempérant l’âcreté de ceux que produit l’ignorance et la superstition, fait
-          enfin tomber des yeux indignement trompés, le funeste bandeau de la stupide crédulité, et
-          fait autant de Français et d’amis de l’état, que dans ces climats lointains on trouvera de
-          vrais prosélytes !</p>
+        <p>Et quels seront les transports de sa noble allégresse, si même au-delà des mers, ce jeune plant<note resp="editor" place="bottom"> [NDE] On corrige "plan".</note> peut un jour s’étendre et se fortifier de nouveau ! si, comme autrefois, ses rameaux enlacés peuvent offrir à la timide innocence un abri salutaire, si la douceur de leurs fruits, en tempérant l’âcreté de ceux que produit l’ignorance et la superstition, fait enfin tomber des yeux indignement trompés, le funeste bandeau de la stupide crédulité, et fait autant de Français et d’amis de l’état, que dans ces climats lointains on trouvera de vrais prosélytes !</p>
         <p>Cet heureux événement était également l’objet des vœux de ceux qui s’intéressent et au
           succès de la religion et au bonheur de la patrie.</p>
         <p>Avec quelle noblesse et quelle dignité ne les a-t-on pas récemment exprimés dans <pb
-            n="40"/>l’église des Missions Étrangères ! Empruntons les propres expressions de
-          l’orateur même, qui termine ainsi son discours éloquent<note place="bottom"><p>M. l’abbé
+            n="40"/>l’église des Missions Etrangères ! Empruntons les propres expressions de
+          l’orateur même, qui termine ainsi son discours éloquent<note place="bottom" resp="author"><p> [NDA] M. l’abbé
                 <hi rend="i">Boulogne</hi>.</p></note>.</p>
-        <p>« O regrets ! ô tristes et touchants souvenirs ! c’est ici que se formaient ces
+        <p>« <quote>O regrets ! ô tristes et touchants souvenirs ! c’est ici que se formaient ces
           missionnaires vénérables qui avaient pris l’apôtre du Japon, et pour patron et pour
-          modèle. C’est aux pieds de ces saints autels qu’ils recevaient la consécration de leur
+          modèle<note resp="editor" place="bottom"> [NDE] Il s'agit des Jésuites, à la suite de Saint François Xavier. </note>. C’est aux pieds de ces saints autels qu’ils recevaient la consécration de leur
           apostolat ; c’est de ce temple auguste qu’ils partaient, <hi rend="i">comme ces nuées</hi>
           dont parle Isaïe, pour aller porter la lumière aux peuples de l’aurore. Hélas ! nos yeux
           cherchent en vain ce séminaire de héros, puissant en œuvres et en paroles : aurait-il
@@ -830,72 +678,33 @@
           paix des anciens jours lui a été rendue. Réjouis-toi donc avec elle, et ranime tes
           espérances. La même main qui a séché ses pleurs adoucira aussi tes peines ; la même
           Providence qui lui a rendu ses autels, te rendra aussi tes apôtres : encore un moment, et
-          toi aussi, comme elle, tu seras consolée ».</p>
+          toi aussi, comme elle, tu seras consolée.</quote> »</p>
         <p>Un désir si juste et si noblement manifesté, ne pouvait manquer d’être favorablement
-          accueilli du premier magistrat de la République.</p>
+          accueilli du premier magistrat de la République<note place="bottom" resp="editor"> [NDE] Napoléon  devient empereur  quelques mois après la publication de ce livre.</note>.</p>
         <p><pb n="42"/>Aussi, grâces à son empressement à satisfaire aux premiers besoins du peuple
           français, jouissons-nous déjà du bienfait de cette loi salutaire, qui autorise le
           rétablissement de ces pieuses maisons destinées à former nos jeunes lévites à la pratique
           de toutes les vertus chrétiennes et à l’enseignement de la morale céleste.</p>
-        <p>« Sans doute, pour me servir des nobles expressions de l’orateur judicieux, qui, au nom
-          même du gouvernement, a proposé cette loi si désirée ; “sans doute le culte est rétabli,
-          l’église gallicane est reconstituée, sa hiérarchie est de nouveau reconnue, son harmonie
-          avec l’état est assurée ; les temples retentissent du chant des fidèles qui demandent à
-          Dieu de longs jours pour celui qui les a rachetés de la dispersion et de l’opprobre, pour
-          celui qui a été ramené miraculeusement des lieux même qui furent le berceau du
-          christianisme, pour sécher tous les pleurs et faire cesser toutes les alarmes. Mais il ne
-          suffit pas d’avoir tiré des fers ou rappelé de l’exil, d’avoir rassemblé du midi et du
-          nord, du couchant et de l’aurore, des hommes vieillis par un long âge ou par le malheur ;
-          il est temps de leur donner des <pb n="43"/>coopérateurs, de leur désigner des successeurs,
-          et de perpétuer pour nos enfants un héritage de doctrine et d’édification<note
-            place="bottom"><p>Discours de <hi rend="i">Carion de Nisas</hi> au tribunat, à la séance
-              du 21 ventôse an 12.</p></note>.</p>
-        <p>Ainsi va refleurir <hi rend="i">l’éloquence sacrée, cette richesse des temps modernes, et
-            qui, en particulier, fait la gloire de la France chrétienne</hi>”. Puisque, comme le
-          remarque le même orateur, “quand la religion monta sur le trône avec Constantin, on put se
-          flatter que les siècles d’Auguste et de Périclès allaient renaître à-la-fois avec
-          l’éloquence des pères de l’église…. Pendant la longue nuit que la domination des barbares
-          étendit sur presque tout l’univers connu, les asiles de la piété furent aussi ceux des
-          lettres. On peut comparer ces maisons d’étude et de paix, retraites sacrées et
-          inaccessibles, à des vaisseaux richement chargés, qui, à travers l’océan des âges et le
-          déluge des barbares, ont conservé le dépôt des connaissances qui ornent et consolent le
-          genre humain, comme une autre arche, dans un autre déluge, avait sauvé le genre humain
-            lui-même<seg>”</seg>. »</p>
-        <p>Mais <seg>en vain</seg> rendrons-nous un stérile <pb n="44"/>hommage à la religion de nos
-          pères, pour les bienfaits signalés dont nous ressentons encore aujourd’hui l’heureuse
-          influence : inutilement aussi relèverons-nous ces écoles salutaires, que le gouvernement
-          destine à la culture des lettres sacrées, si les esprits tournés vers d’autres objets
-          moins grands et moins utiles, inspirent une si juste crainte de les voir abandonnées.</p>
-        <p>Un nouveau Prélat, distingué par ses talents et ses vertus<note place="bottom"><p>M.
-              l’Évêque de Versailles.</p></note>, a senti toute la difficulté d’y réunir des sujets
+          <p>« <quote>Sans doute, pour me servir des nobles expressions de l’orateur judicieux, qui, au nom même du gouvernement, a proposé cette loi si désirée ; “<quote>sans doute le culte est rétabli, l’église gallicane est reconstituée, sa hiérarchie est de nouveau reconnue, son harmonie avec l’état est assurée ; les temples retentissent du chant des fidèles qui demandent à Dieu de longs jours pour celui qui les a rachetés de la dispersion et de l’opprobre, pour celui qui a été ramené miraculeusement des lieux même qui furent le berceau du christianisme, pour sécher tous les pleurs et faire cesser toutes les alarmes. Mais il ne suffit pas d’avoir tiré des fers ou rappelé de l’exil, d’avoir rassemblé du midi et du nord, du couchant et de l’aurore, des hommes vieillis par un long âge ou par le malheur ; il est temps de leur donner des <pb n="43"/>coopérateurs, de leur désigner des successeurs, et de perpétuer pour nos enfants un héritage de doctrine et d’édification</quote></quote><note place="bottom" resp="author"><p> [NDA] Discours de <hi rend="i">Carion de Nisas</hi> au tribunat, à la séance du 21 ventôse an 12.</p></note>. »</p> 
+          <p> «<quote>Ainsi va refleurir "<quote>l’éloquence sacrée, cette richesse des temps modernes, et qui, en particulier, fait la gloire de la France chrétienne</quote>”. Puisque, comme le remarque le même orateur, “<quote>quand la religion monta sur le trône avec Constantin, on put se flatter que les siècles d’Auguste et de Périclès allaient renaître à la fois avec l’éloquence des pères de l’église…. Pendant la longue nuit que la domination des barbares étendit sur presque tout l’univers connu, les asiles de la piété furent aussi ceux des lettres. On peut comparer ces maisons d’étude et de paix, retraites sacrées et inaccessibles, à des vaisseaux richement chargés, qui, à travers l’océan des âges et le déluge des barbares, ont conservé le dépôt des connaissances qui ornent et consolent le genre humain, comme une autre arche, dans un autre déluge, avait sauvé le genre humain lui-même.</quote></quote> »</p>
+        <p>Mais en vain rendrons-nous un stérile <pb n="44"/>hommage à la religion de nos pères, pour les bienfaits signalés dont nous ressentons encore aujourd’hui l’heureuse influence : inutilement aussi relèverons-nous ces écoles salutaires, que le gouvernement destine à la culture des lettres sacrées, si les esprits tournés vers d’autres objets moins grands et moins utiles, inspirent une si juste crainte de les voir abandonnées.</p>
+        <p>Un nouveau Prélat, distingué par ses talents et ses vertus<note place="bottom" resp="author"><p> [NDA] M.
+              l’Evêque de Versailles.</p></note>, a senti toute la difficulté d’y réunir des sujets
           en assez grand nombre, pour mettre l’église de France à l’abri de toute inquiétude sur ce
           point important. Animé d’un vrai zèle, il vient de faire une sorte d’appel au peuple, pour
           l’inviter à seconder de tout son pouvoir et les vues du chef suprême de l’état, et les
           vraies intérêts de la religion.</p>
-        <p>Mais, ne nous le dissimulons pas, les obstacles que les malheurs de la révolution ont
-          élevés, s’opposeront encore long-temps au succès de ces pieux établissements.</p>
-        <p>Peu touchés des biens d’une vie future, la plupart des hommes ne s’occupent guères
-          aujourd’hui que du soin d’amasser des trésors <pb n="45"/>pour celle-ci. Et d’ailleurs
-          combien de parents, n’oseront ouvrir à leurs enfants une carrière où un stérile honneur et
-          de pénibles vertus seront long-temps l’unique apanage de presque tous ceux qui auront le
-          courage de la fournir désormais ; avec les mêmes droits, peut-être, aux dignités de
-          l’église, tous ses ministres ne sauraient y aspirer également. Quel sera donc en France le
-          sort du Clergé ? S’il est toujours pauvre et malheureux, ne sera-t-il jamais avili, dans
-          un siècle où l’éclat des richesses est le seul qui frappe les yeux, et donne aux hommes
-          une sorte d’ascendant, et quelque considération dans la société ?</p>
+        <p>Mais, ne nous le dissimulons pas, les obstacles que les malheurs de la révolution ont élevés, s’opposeront encore longtemps au succès de ces pieux établissements.</p>
+        <p>Peu touchés des biens d’une vie future, la plupart des hommes ne s’occupent guères aujourd’hui que du soin d’amasser des trésors <pb n="45"/>pour celle-ci. Et d’ailleurs combien de parents, n’oseront ouvrir à leurs enfants une carrière où un stérile honneur et de pénibles vertus seront longtemps l’unique apanage de presque tous ceux qui auront le courage de la fournir désormais ; avec les mêmes droits, peut-être, aux dignités de l’église, tous ses ministres ne sauraient y aspirer également. Quel sera donc en France le sort du Clergé ? S’il est toujours pauvre et malheureux, ne sera-t-il jamais avili, dans un siècle où l’éclat des richesses est le seul qui frappe les yeux, et donne aux hommes une sorte d’ascendant, et quelque considération dans la société ?</p>
         <p>J’abandonne ces tristes réflexions aux hommes faits pour sentir et juger ce qui convient
           au bonheur et à la prospérité de l’état. A eux seuls appartient le droit d’attirer
           l’attention du gouvernement sur un objet pareil ; je me borne donc, comme simple citoyen,
           à indiquer la source du mal ; c’est aux mains adroites et puissantes à administrer le
-          véritable remède.</p>
-        <label><pb n="46"/>DU théâtre.</label>
-        <p>Sans doute, il est bien loin ce temps où la simplicité des mœurs antiques attachait
-          scrupuleusement tous les Français aux maximes d’une religion austère ; ce temps heureux où
-          les liens du sang et de l’amitié étaient assez puissants pour les retenir presque tous au
-          sein d’une famille vertueuse et paisible ; ce temps où le bonheur domestique ne forçait
-          point à se répandre au-dehors, pour y goûter le repos, et chercher des jouissances
-          factices ou dangereuses ; ce temps enfin dont l’illustre rival d’<hi rend="i">Horace</hi>
-          entendait parler, lorsqu’il disait :</p>
+          véritable remède.</p></div>
+        <div type="section">
+                 <pb n="46"/>
+          <head>DU THEATRE</head>
+        <p>**Sans doute, il est bien loin ce temps où la simplicité des mœurs antiques attachait scrupuleusement tous les Français aux maximes d’une religion austère ; ce temps heureux où les liens du sang et de l’amitié étaient assez puissants pour les retenir presque tous au sein d’une famille vertueuse et paisible ; ce temps où le bonheur domestique ne forçait point à se répandre au-dehors, pour y goûter le repos, et chercher des jouissances factices ou dangereuses ; ce temps enfin dont l’illustre rival d’<hi rend="i">Horace</hi> entendait parler, lorsqu’il disait :</p>
         <quote>
           <lg>
             <l>Chez nos dévots aïeux le théâtre abhorré,</l>
@@ -1102,7 +911,7 @@
         <quote>
           <lg>
             <l>Le jeu des passions saisit le spectateur ;</l>
-            <l>Il aime, il hait, il pleure, et lui-même est acteur<note place="bottom"><p>Épître de
+            <l>Il aime, il hait, il pleure, et lui-même est acteur<note place="bottom"><p>Epître de
                     <hi rend="i">Racine</hi> (fils), sur l’abus de la poésie.</p></note>.</l>
           </lg>
         </quote>
@@ -1321,12 +1130,12 @@
           </lg>
         </quote>
         <p>S’ils s’étaient écartés de cette loi, ce n’était donc plus comme <hi rend="i"
-            >prêtres</hi> et comme attachés <hi rend="i">à l’Évangile</hi>, dont ils auraient violé
+            >prêtres</hi> et comme attachés <hi rend="i">à l’Evangile</hi>, dont ils auraient violé
           la morale, qu’il fallait les signaler et les dénoncer à l’opinion publique. Leurs crimes
           étaient communs aux autres hommes, qui trop souvent sacrifient tout à leur intérêt propre,
           ou à celui d’une odieuse politique. Rejeter ces forfaits sur leur qualité, <pb n="68"/>sur
           leur état, c’est évidemment s’abuser soi-même et chercher à en imposer aux autres.</p>
-        <p>Écoutons le célèbre Montesquieu sur ce point important.</p>
+        <p>Ecoutons le célèbre Montesquieu sur ce point important.</p>
         <p>« C’est, dit-il, mal raisonner contre la religion, de rassembler dans un grand ouvrage
             <hi rend="i">une longue énumération de maux qu’elle a produits</hi>, si l’on ne fait de
           même celle des biens qu’elle a faits. Si je voulais raconter tous les maux qu’ont produit
@@ -1372,7 +1181,7 @@
           </lg>
         </quote>
         <p>Ainsi, pour cette fois, voilà l’indifférence, à l’égard de toutes les religions,
-          hautement proclamée aux yeux du peuple : peu importe donc qu’il s’attache à l’Évangile ou
+          hautement proclamée aux yeux du peuple : peu importe donc qu’il s’attache à l’Evangile ou
           à l’Alcoran, qu’il s’arrête aux dogmes de Zoroastre ou à ceux de Confucius, tout est
           égal ; <hi rend="i">la morale</hi> seule est ce qui doit l’intéresser.</p>
         <p>Mais quelle sera donc la nature de cette morale ? si égaré par l’imposture ou
@@ -1596,7 +1405,7 @@
         <p>Du talent seul du poète dépend donc notre affection pour ce qui ne peut pas, même
           raisonnablement, mériter notre estime. Son art peut donc devenir bien funeste à la
           société.</p>
-        <p>Écoutons encore Jean-Jacques sur ce point vraiment important.</p>
+        <p>Ecoutons encore Jean-Jacques sur ce point vraiment important.</p>
         <p>« Dans la décadence du théâtre, <hi rend="i">dit-il</hi>, on se voit contraint de
           substituer aux véritables beautés éclipsées, de petits agréments capables d’en imposer à la
           multitude. Ne sachant plus nourrir la force <pb n="83"/>du comique et des caractères, on a
@@ -1676,10 +1485,10 @@
           demander l’aumône dans les rues de Paris, lorsqu’elle est arrivée à un si haut degré de
           fortune, que, pour donner passage à des bienfaits qui n’ont ni raison ni mesure, elle est
           obligée d’emprunter jusqu’à la livrée d’une femme de qualité ?</p>
-        <p>Dans la crainte de se laisser entraîner par l’orgueil, Ésope conservait précieusement ses
+        <p>Dans la crainte de se laisser entraîner par l’orgueil, Esope conservait précieusement ses
           habits d’esclave pour ne jamais oublier son ancien état. Fanchon, bien au-dessus du
           fabuliste ou du philosophe, ne veut pas même sortir du sien ; et quoiqu’au milieu du luxe
-          et de l’abondance, et vivant en véritable Épicurienne, elle ose encore chaque jour
+          et de l’abondance, et vivant en véritable Epicurienne, elle ose encore chaque jour
           disputer à l’indigence même une partie des faibles secours que lui procure la
           commisération publique. Si c’est par un sentiment de vertu, il faut convenir qu’elle le
           porte loin, et que parmi nos belles parvenues qui s’oublient si souvent, et nous accablent
@@ -1718,7 +1527,7 @@
           dans la conduite de Sainte-Luce, qui après avoir fait une bonne action, en sauvant
           l’innocence des bras d’un vil ravisseur, en fait une mauvaise, lorsqu’il va fastueusement
           se battre avec lui, quand il ne devait que le couvrir de mépris, et lorsqu’il entraîne
-          dans le danger d’une entreprise périlleuse, le généreux et sensible Édouard, qui donnant
+          dans le danger d’une entreprise périlleuse, le généreux et sensible Edouard, qui donnant
           tête baissée dans une aventure qui ne le regarde point, se fait tout-à-coup, et comme par
           inspiration, le Dom Quichotte d’une belle qu’il n’a jamais vue.</p>
         <p>Il me semble, ou je me trompe fort, qu’on y professe comme doctrine incontestable, qu’au
@@ -2138,7 +1947,7 @@
           qu’aujourd’hui, et n’avons-nous plus de mères capables de sentir et de pleurer avec
           Mérope ?</p>
         <p>Est-ce aux auteurs des Mœurs du Jour, du vieux Célibataire, du Philinte, des Précepteurs,
-          de l’Abbé de l’Épée et des Deux Frères à se plaindre de l’indifférence de leurs
+          de l’Abbé de l’Epée et des Deux Frères à se plaindre de l’indifférence de leurs
           concitoyens, pour les productions dont ils ont enrichi le théâtre ?</p>
         <p>Qui n’a pas été applaudir Médiocre et Rampant, l’Entrée dans le Monde, la Diligence de
           Joigny, le Vieillard et les Jeunes gens, toutes pièces d’une bonne morale, d’un comique
@@ -2179,7 +1988,7 @@
               titre ne développait point assez clairement son objet réel.</p>
             <p>J’avertis donc ici par occasion que cet ouvrage, déjà sous presse, paraîtra bientôt
               sous ce titre nouveau.</p>
-            <p>« <hi rend="i">Cours d’Éducation simplifié et dégagé de la sécheresse et de l’aridité
+            <p>« <hi rend="i">Cours d’Education simplifié et dégagé de la sécheresse et de l’aridité
                 des préceptes,</hi> ou <hi rend="i">l’art de s’instruire par un procédé nouveau qui
                 fixe l’esprit en intéressant le cœur.</hi></p>
             <p>« Ouvrage didactique où sous la forme d’un conte moral, on a successivement développé
@@ -2296,8 +2105,9 @@
         <p><pb n="128"/>Aussi fière qu’Athènes de ses fameux tragiques, la France pourra donc
           compter encore d’autres Sophocles, de nouveaux Euripides, et son théâtre, réellement le
           premier de l’univers ; oui son théâtre français enfin épuré, pourra désormais
-          s’enorgueillir d’avoir recouvré et peut-être surpassé son ancienne splendeur.</p>
-        <label>DU BARREAU.</label>
+          s’enorgueillir d’avoir recouvré et peut-être surpassé son ancienne splendeur.</p></div>
+        <div type="section">
+        <head>DU BARREAU.</head>
         <p>« La Justice, disait un ancien magistrat<note place="bottom"><p>Discours de M. Morlhon,
               au premier tome des œuvres de d’Aguesseau.</p></note>, est l’âme du monde, l’appui des
           trônes et des empires, et la reine de toutes les vertus. La faire régner dans un état,
@@ -2480,7 +2290,7 @@
           vanité ; c’est le sentiment injuste qui mit à la plupart des conquérants les armes en main
           pour ravager et désoler l’univers ; ça été le principe des plus grands crimes, dont le
           monde ait eu à frémir ; ça été enfin le puissant mobile de cette main sacrilège et
-          forcenée qui mit en cendres le fameux temple d’Éphèse.</p>
+          forcenée qui mit en cendres le fameux temple d’Ephèse.</p>
         <p><pb n="141"/>Mais, ne chercher que des triomphes fondés sur la justice et l’humanité,
           être assez généreux pour renoncer à l’éclat d’une réputation qui serait funeste à la
           société ; voilà les sentiments qui animent le véritable jurisconsulte. Ah ! que celui qui
@@ -2862,7 +2672,7 @@
           nous verrons se réaliser ou renaître le beau siècle d’Astrée, et que pourra luire enfin,
           l’aurore de ces jours si vantés, de ces jours de l’innocence et du bonheur.</p>
       </div>
+      </div>
     </body>
   </text>
 </TEI>
-
