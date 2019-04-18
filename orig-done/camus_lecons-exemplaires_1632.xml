@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="camus_lecons-exemplaires_1632" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Leçons exemplaires</title>
-        <author>Camus, Jean-Pierre</author>
+        <author key="Camus, Jean-Pierre (1584-1652)"
+          ref="https://data.bnf.fr/fr/11894989/jean-pierre_camus/">Jean-Pierre Camus</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -18,27 +19,38 @@
           <name>Clotilde Thouret</name>
           <resp>Responsable d’édition</resp>
         </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>Édition XML</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2016"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/camus_lecons-exemplaires_1632/</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
-            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
-            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
-            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
+              « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons : «
+              Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC
+              BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures. La
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <title>Leçons exemplaires</title>
-          <author>Camus, Jean-Pierre</author>
-          <biblScope>p. 461-479</biblScope>
-          <date>1632</date>
-        </bibl>
+        <bibl> Jean-Pierre Camus, <hi rend="i">Leçons exemplaires</hi>, <biblScope>p.
+            461-479</biblScope>, 1632 </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,16 +58,260 @@
         <date when="1632"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="texte" xml:id="HDT_2">
+      <div>
         <head>Leçons exemplaires</head>
-        <head type="sub"><pb n="461"/>LA COMEDIENNE CONVERTIE.<lb/><hi rend="sc">Leçon X.</hi></head>
-        <p>La Grace de Dieu est vn orient d’enhaut qui va du Ciel esclairant &amp; eschaufant toute la terre &amp; il n’y a aucune condition tant soit elle deplorable qui ne se ressente de sa lumiere &amp; de sa chaleur. C’est vne pluie volontaire que Dieu respand sur son heritage &amp; dont il arouse les bons &amp; les mauuais. C’est vne semence qui se jette sur les buissons, les pierres, &amp; les grands chemins aussi bien que sur la bonne terre, c’est la source du paradis terrestre <pb n="462"/>dont les ruisseaux s’estendent par tout l’vniuers. Les perles croissent dans le milieu de la mer sans receuoir dans leur nacre vne seule goutte d’eau salée, les diamans naissent parmi les rochers sans en receuoir la mousse, &amp; l’or le plus pur de tous les metaux s’engendre dans les entrailles de la terre parmi des ordures. Dieu choisit ses Esleus en tous lieux : dans les armées ou la Pieté est si peu en vogue il s’est trouué de saincts Soldats, dans les Cours ou le Vice triomphe il s’est trouué de pieux Courtisans, &amp; des lieux que la pudeur, &amp; leur infamie empesche de nommer Dieu à faict sortir de grandes ames qui ont esté des miroirs de de penitence faisant surabonder sa grace ou le peché auoit abondé. Autrefois parmi les Menestriers &amp; les plaisans de Cour S. Genest est deuenu vn grand Martir. Les persecuteurs des Chrestiens sont deuenus Predicateurs du Christianisme, les loups ont esté changez en Agneaux &amp; des bourreaux des Martyrs sont deuenus Martirs eux mesmes. I’auance tout ceci pour preparer l’esprit de mon Lecteur au reçit d’vne grace insigne que Dieu versa en l’ame d’vne Comedienne <pb n="463"/>dont la vie &amp; la pieté peuuent faire honte à beaucoup de Dames nourries en des escoles plus retenues &amp; plus reseruées. Ce <seg resp="wordpro">n’est</seg> pas sans raison qu’en Italie, en France &amp; presque par tout les Historiens ou Comediens sont tenus pour infames, les loix mesmes les declarent tels pour plusieurs raisons que chacun sçait. Et a dire la verité les Comedies Italiennes sont remplies de tant de licences deshonnestes quelles passent du stile Comicque faict pour delecter pour enseigner &amp; pour corriger par la reprehension &amp; la mocquerie les mauuaises mœurs, dans celui de la raillerie, de la bouffonnerie, de l’Impudicité &amp; de l’imprudence. Et ces farces execrables dont en France on faict vn dessert de <seg resp="wordpro">ciguë</seg> aux representations tragicques &amp; serieuses, meriteroient sans doute vne seuere punition du Magistrat parceque les mauuais propos &amp; abominables que l’on y tient ne corrompent pas seulement les bonnes mœurs &amp; n’apprennent pas seulement au peuple des mots de gueule, des traicts de gausseries &amp; des quolibets sales &amp; deshonnestes mais le porte à l’Imitation des friponneries &amp; sottises qu’il <pb n="464"/>voit representer &amp; qui par ses yeux (lesquels sont plus vifs que l’ouïe) passent <seg resp="wordpro">dedans</seg> son cœur. En Espagne comme le naturel est plus graue les representans, qu’ils appellent y sont plus modestes &amp; plus serieux, &amp; outre qu’ils ignorent ce que c’est que Farce, ils ne representent pour l’ordinaire que des Histoires veritables ou des feintes qui approchent de la verité comme l’on peut voir partant de riches pieces que Lopé de Vega Carpio le plus fertile &amp; le plus estimé de tous les esprits Espagnols a données au public. Et d’auantage le Magistrat à tellement l’œil à ces esbats que ceux qui disent ou font des actions qui offencent la pudeur ou les bonnes mœurs sont seuerement chastiez encore que par joyeuseté il y ait tousiours quelque personnage destiné à donner du plaisir &amp; à faire rire la compagnie soit par les poincts &amp; les rencontres de ses mots, soit par ses grimaces, soit par ses sottises &amp; badineries, mais tousjours sans preiudice de l’honnesteté &amp; de la modestie. Si que les personnes de tout âge de tout sexe de toute condition y peuuent librement aller sans crainte de rencontrer aucun scandale. Au contraire <pb n="465"/>ils ont des pieçes sacrées &amp; Saintes qu’ils representent souuent au milieu des Eglises auecque des danses &amp; des Musiques si graues &amp; si modestes que la sainteté des lieux n’en reçoit aucune profanation. Si bien que comme les Images des Temples sont comme les liures des simples, aussi les representations leur seruent de lecture &amp; leur apprennent diuerses Histoires tant saintes que seculieres dont ils tirent beaucoup de lumiere &amp; d’instruction. Et c’est ainsi que ces doctes Religieux qui portent les flambeaux des lettres &amp; de la pieté par toute la terre se seruent des Representations dans leurs Colleges non seulement pour donner à leurs escoliers la hardiesse de parler en public &amp; pour former leur geste &amp; leur action a l’art Oratoire, mais encore pour corriger les mauuaises mœurs &amp; imprimer de bons sentimens de vertu en l’ame des spectateurs. Et c’est de ceste sorte que l’on se sert en Espagne de ces spectacles publics autant pour l’instruction que pour le passe-temps du peuple qui est depuis tant d’années en ceste profonde paix &amp; en ce repos opulent que Dieu promet en l’Escriture à ceux qui l’adoreront en esprit <pb n="466"/>&amp; verité. Et ce qui est encore de remarquable c’est qu’en la plus part des villes la moitié du salaire que l’on donne pour assister à ces Representations va à l’hospital &amp; l’autre est pour ceux qui les jouënt. Ie me suis vn peu plus estendu sur ce sujet que ie ne pensois parce qu’il seroit à desirer que l’Ancien vsage de la Comedie &amp; Tragedie qui estoit autrefois si celebre estant repurgé de tant de deffauts &amp; d’impuretez fust remis en son lustre pour le contentement &amp; l’vtilité publique. Durant mon sejour à Madrid Monsieur l’Ambassadeur de France ne voulut point que ie logeasse autre part que dans sa maison, par son moien ie vi tout ce qu’il y auoit de rare &amp; de remarquable &amp; en la Cour &amp; en la ville &amp; aux enuirons. Vn iour de Feste j’auois esté curieux d’ouïr plusieurs sermons pour remarquer les façons de faire &amp; de dire des Predicateurs Espagnols, sur le soir Monsieur l’Ambassadeur &amp; Madame sa femme furent inuitez d’aller au Palais du Roy ou se deuoit faire vne excellente Representation du Martyre de Saincte Cecile. Ils me conuierent de prendre place dans leur carrosse pour <pb n="467"/>auoir le plaisir de ceste action, ie les priai de m’en dispenser parceque la Cour &amp; la Comedie estoient deux Theatres qui ne m’auoient point pour spectateur. Car ie tiens que ces deux choses ne different qu’en ce point que la Cour est vne Comedie veritable &amp; la Comedie est vne Cour feinte, &amp; en l’vne &amp; l’autre Scene ce n’est que masque &amp; folie ; Ils eurent beau m’alleguer qu’il si trouuoit de toute sorte d’Ecclesiastiques mesmes des Religieux &amp; qu’il ne se representoit rien deuant leurs Majestez qui ne pust estre representé dans vne Eglise tant la modestie &amp; la grauité y estoient obseruées. Ie leur respondis que les Ecclesiastiques &amp; Religieux n’auoient bonne grace qu’à l’Autel deuant sa Maiesté diuine &amp; que deuant les Majestez humaines ie les tenois pour des Basteleurs &amp; des Comediens, &amp; qu’en mon opinion vn Ecclesiastique Courtisan estoit vne chose honteuse &amp; monstrueuse, &amp; plustost vn parfumeur d’Idoles qu’vn Sacrificateur du vrai Dieu. Ils allerent doncques sans moi à la Comedie qui dura iusques au milieu de la nuict. Le lendemain Monsieur l’Ambassadeur me dit que si i’y eusse <pb n="468"/>esté, j’eusse eu ma part d’vne edification que ie n’auois tirée d’aucun des Sermons que i’auois oüis. C’estoit de la Conuersion d’vne des Comediennes dont il me raconta l’Euenement de ceste sorte. L’vn des plus grands passetemps de ceste Cour ce sont les Representations. La Compagnie qui sert maintenant le Roi en ceste sorte d’exercice c’est des plus excellentes que l’on ait veuës il y a long-temps : mais entre tous les personnages ceux qui emportent le prix pour representer naïuement les passions humaines &amp; les impriment dans les spectateurs esmouuans à la joie, à la tristesse, à la colere, au regret, à l’amour comme il leur plaist iusques à tirer des larmes des yeux les plus arides, &amp; à esbransler les courages les plus fermes &amp; les plus constans, il ny en a point qui esgalent vne ieune fille appellée Rosoria de l’aage de dix-sept ou dix-huit ans &amp; vn ieune homme Toledan appelé Fadrique aagé de vingt-quatre ou vingt-cinq. Aussi tost qu’ils paroissent sur le Theatre il se faict vn silence si profond qu’il ressemble à celui des morts qui reposent dans le sepulcre, Ils ont des tons de voix si charmans, <pb n="469"/>des yeux si parlans des actions si aggreables qu’ils rauissent par la veuë &amp; loüie tous ceux qui les considerent. La fille n’a point autrement d’exces en sa beauté mais elle à vne modeste grauité, vne douceur maiestueuse que l’action du theatre lui à acquise qui donne en mesme temps du respect &amp; du desir, dont l’vn tire, l’autre retire, &amp; si d’vn cesté elle se fait souhaitter de l’autre elle desespere. Car vous deuez sçauoir que ceste fille à tant de vertu &amp; particulierement tant de pieté qu’en fin sa deuotion esclatta hier en la façon que ie vous dirai. Elle fait tousiours bien en ses representations mais hier elle se surmonta elle mesme, vous eussiez dit qu’elle faisoit comme ces flambeaux qui ne iettent iamais tant de lueur que quand ils sont prests de s’esteindre, c’estoit comme le dernier effort de sa Muse &amp; de son esprit. Elle est fille de Maistre &amp; des son enfance elle a esté dressée à ceste profession ou elle à reüssi auec des auantages incomparables, son Pere est vn des principaux de la troupe de qui cette fille est la prunnelle de l’œil il en est plus ialoux que de sa femme, &amp; ne vous <pb n="470"/>imaginez pas que ceste fille soit autre chose qu’vne perle de vertu car outre que son Pere &amp; sa mere la veillent comme des dragons elle a tousiours eu vne inclination si forte à la pureté &amp; à la pieté que tous ceux qui ont voulu donner des attaintes à son honnesteté ny ont perdu que leurs pas &amp; leurs esperances. Des grands de ceste Cour en ont esté iusques à la folie &amp; à la rage, les montagnes d’or ne l’ont point esblouïe, elle a esté vn rocher qui n’a pû estre esbranslé par les orages des tentations. Souuent on à fait des parties pour l’enleuer mais estant sous la protection du Roi personne n’a esté si osé de l’entreprendre, car ici ou le Roi parle tout de monde se taist. Ils sont deux ou trois en ceste compagnie de representans qui la desirent pour femmes auecque des passions desesperées mais elle n’en veut aucun pour mari, son intention à tousiours esté d’estre Religieuse &amp; rien ne l’a pû destourner de ce dessein. Son pere &amp; sa mere en sont au mourir &amp; offrent tout leur vaillant pour la marier &amp; lui laissent la liberté de choisir tel de ses Amants qui lui plaira le plus pour estre son Epoux, mais elle n’a pour <pb n="471"/>eux que de l’indifference. Vn des plus grands plaisirs de la Scene c’est quand il arriue par le cours de l’action que quelqu’vn de ceux qui l’aiment doit estre son mari, car a lors sans feinte, sans masque &amp; sans desguisement ils la courtisent sur le theatre &amp; font voir clairement auec combien de passion ils adorent ceste beauté, &amp; elle releuant son teint &amp; baissant ses yeux augmente sa beauté par sa pudeur &amp; sa modestie : &amp; en mesme temps elle est aimée de tous les spectateurs comme vne viuante image de vertu. Certes quelque beauté que les yeux remarquent en vne femme rien ne flatte si doucement l’imagination, &amp; rien ne donne tant d’amour que l’honnesteté. Mais quand il arriue que Fadrique (dont elle est veritablement aimée) est encore son amant en la Representation, alors c’est vn esteuf entre deux beaux joueurs &amp; il n’y a rien d’egal aux ardeurs de l’vn &amp; aux froideurs de l’autre, c’est la figure du mont Etna ou la flamme &amp; la glace sont contiguës. Mais ceste nuict ils ont surmonté l’attente de tout le monde, car elle a representé dignement la constance de Sainte Cecile <pb n="472"/>&amp; au martyre &amp; en la Virginité, &amp; Fadrique à si ardamment receu en soy les passions de Valerian que vous eussiez dict que le feu sortoit par sa bouche, &amp; vn de ses riuaux à aussi fait le personnage de Tiburce auecque tant d’art qu’il n’y a eu aucun des assistans qui n’ait senti des transports &amp; des affections incroiables pour la foi &amp; pour l’honnesteté. Mais la couronne de cet agreable diuertissement a esté vn coup du ciel vn traict du Sainct Esprit. Vne sacrée fureur qui esleuant le courage de Rosoria au dessus d’elle mesme la faitte venir à la fin de l’action vestuë encore à la façon de Sainte Cecile, se ietter aux pieds de la Reine, &amp; les embrassant estroittement &amp; baignant de ses larmes auec vne voix interrompuë de sanglots qui émouuoient à compassion les entrailles d’vn chacun elle lui à faicte ceste harangue. Grande Reine, Mere des pauures, Azyle des miserables, &amp; Protectrice des persecutez, voici aux pieds de vostre sacrée &amp; Roiale Majesté vne chetiue creature qui implore le secours de vostre misericorde. Ie suis ici comme vne pauure biche poursuiuie d’vne meute de chiens affamez <pb n="473"/>dont les vns ne demandent que de faire curee de mon honneur, les autres sous le specieux nom de mariage persecutent mon integrité, &amp; les vns &amp; les autres me sont en horreur comme contraires au desseïn que j’ay faict depuis le temps que i’ai eu du ciel quelque lumiere de connoissance de n’estre iamais à autre espoux qu’a <hi rend="sc">Iesvs-Christ</hi> Crucifié. C’est merueille Madame ou plustost vn miracle de la grace comme vn si foible roseau à pû resister à tant de tempestes, &amp; se conseruer entier dans vne profession si dangereuse que celle que i’ai faitte iusques à present. Le siecle, l’enfer, &amp; le sang ont fait à l’enui à qui donneroit plus de trauerses à ma resolution, le siecle ma offert des maris, l’enfer des richesses, &amp; mes propres parens sont ceux qui me tourmentent d’auantage pour me faire prendre parti dans le monde, ie leur ai ouuert mon desir qui est d’estre Religieuse, ils m’y veulent si peu aider qu’ils ont iuré de s’y opposer &amp; ils taschent de m’en distraire par toute sorte d’artifices : la derniere ancre de mon esperance est en vostre Roiale bonté Madame, si elle me manque ie ne puis <seg resp="wordpro">attendre</seg> que le naufrage <pb n="474"/>de ma saincte &amp; iuste pretension. I’ay appris que vostre Maiesté est sur le point de faire vne de ses aumosnes extraordinaires &amp; qu’elle a ordonné certaine somme pour le mariage ou temporel ou spirituel de quelques pauures filles ie vous supplie tres-instamment Madame, ou plustost ie vous coniure par les entrailles de la misericorde de ce bon Dieu dont vous estes l’image de me mettre au rang de celles qui destinées au Cloistre ressentiront l’effect de vostre Roiale munificence. Si iamais i’ai merité quelque grace deuant les yeux &amp; les oreilles de vostre Maiesté je vous supplie de ne me denier pas ceste faueur qui me sauuera des perils du monde &amp; me mettra en vn lieu d’assurance ou deliurée des mains de mes ennemis ie pourrai sans crainte seruir Dieu en sainteté &amp; en iustice tous les jours de ma vie : là Madame ie serai vne lampe continuellement ardante deuant l’autel de sa diuine Maiesté pour la prier pour la prosperité de la vostre. He ! Madame aiez pitié de moi &amp; ne me confondez pas en mon attente ie sçai que ie suis indigne de ceste liberalité mais Madame ie rascherai de m’en rendre digne par l’ardant <pb n="475"/>desir que i’ai d’estre bonne Religieuse. Pour Dieu madame ne reiettez pas mon instante priere &amp; cooperez à mon salut par vne parolle commandant à vostre Aumosnier que mon nom soit mis au liure de vie &amp; auecque ceux de ces heureuses filles qui commenceront des ce monde à chanter le Cantique de l’Agneau pour le continuer eternellement au Ciel. Madame ie suis violentée en la condition ou ie suis c’est pourquoy ie supplie vostre maiesté de me prendre en sa protection &amp; de me donner en garde à quelqu’vne des Dames de sa Cour iusques à ce que ie puisse iouïr de l’effect de ma requeste, si vous faittes ce bien Dieu sera vostre recompense trop plus grande, sinon, prenez garde Madame que mon sang ne soit redemandé de vostre main &amp; que la perte de mon ame ne vous soit imputée à immisericorde. Mais ie veux mieux esperer de vostre Roiale clemence, vos yeux me disent que vos oreilles ont oui ma iuste priere, que vostre cœur pitoiable la exaucée &amp; que vostre bouche sacrée va prononcer son entherinement. Non madame ie n’abandonnerai point vos pieds refuge de mes miseres, tables <pb n="476"/>qui me sauueront du naufrage, que ie n’aye obtenu la benediction que ie demande à vostre Maiesté par tout ce qu’il y a de plus sainct au ciel &amp; en la terre, par les playes de mon Sauueur &amp; le vostre, par les mammelles de sa mere, par les merites &amp; le martyre de ceste glorieuse Vierge Saincte Cecile dont ie viens de representer la constance, par la presence de vostre espoux le plus grand Roi que le soleil eclaire ; par l’amour qu’il vous porte &amp; que vous lui portez, &amp; par ceste insigne pieté qui vous releue autant sur toutes les Princesses de la terre que vostre Maiesté est esleuée sur les testes de ses suiets. Retirez moi madame de la mer où ie me noie du Labyrinthe où ie me pers &amp; faites de mon salut vne perle à la couronne qui vous attend au ciel. Les sanglots qui auoient souuent, mais de bonne grace, entrecoupé son discours le trancherent ici tout à faict &amp; sa voix estouffee dans ses soupirs &amp; suffocquée dans ses larmes donna place à celle de la Reine qui la releuant doucement auec ceste suauité naturelle &amp; Françoise quelle sçait si judicieusement mesler auecque ceste artificieuse grauité Espagnole, <pb n="477"/>lui dit, Ma fille, vous me demandez vne chose si petite par de si grandes que ie ne puis vous refuser sans estre blasmée de tout le monde &amp; comme ie croi sans offencer Dieu, asseurez vous donc que ie vous prens en ma particuliere protection &amp; que ie ferai pour vous &amp; de vous tout ainsi que vous voudrez. Ie croi que le Roi Monseigneur aura pour agreable la promesse que ie vous fai &amp; ie la vous maintiendrai en parolle de Reine. Disant cela elle lui donna sa main à baiser, &amp; le Roi admirant le courage de ceste fille &amp; approuuant ce que la Reine auoit dit fut le premier auecque toute sa Cour à reconnoistre que le doigt de Dieu estoit en ceste action &amp; qu’il vouloit ceste fille pour son espouse. Et d’effect la Reine la prit par la main &amp; la fit entrer dans le Palais la baillant en garde à vne des anciennes Dames, &amp; dit on quelle la mettra Religieuse en l’vn de ces Monasteres ou elle peut aller de son palais à couuert par des Courridors. Ie m’asseure que vous n’auez point veu de telle <seg resp="wordpro">conuersion</seg> à la fin des sermons que vous auez ouïs &amp; si ceste ville est remplie de beaucoup de pecheresses qui auroient <pb n="478"/>plus de besoin de faire penitence que l’innocente &amp; Chaste Rosoria. Certes dis-je à Monsieur l’Ambassadeur, voila vn changement admirable de la droitte de Dieu, ouy la droitte de Dieu à releué le courage de ceste fille ô que c’est vne chose puissante qu’vne forte inspiration, à raison de quoi le S. Esprit est descendu en forme de feu &amp; de tourbillon pour monstrer quels efforts il feroit dans les ames. Aussi tost toute la ville fut remplie de ceste merueille &amp; toute la Cour n’auoit point assez de langues pour publier les loüanges de Rosoria. On tenoit que la Reine feroit vne magnificence particuliere lors quelle la feroit receuoir Religieuse en l’vn des Monasteres où elle va d’ordinaire se promener. On disoit aussi que Fadrique laissant le monde &amp; le Theatre se ietteroit dans vn Conuent de l’Ordre de S, François &amp; Odoard aussi tous deux Amans de Rosoria. On tenoit que le pere &amp; la mere de ceste fille iroient se ietter aux pieds du Roy &amp; de la Reine pour demander leur fille qu’ils tenoient pour leur thresor, &amp; qu’ils ne pouuoient se resoudre à la voir entrer dedans vn <pb n="479"/>Monastere. Tant y a que comme au ciel il y a grande ioie entre les Anges sur vn pecheur qui vient à la penitence. Il y eut en terre vne grande resiouïssance entre les personnes deuotes sur la Conuersion de ceste Comedienne. S’il faut appeler Conuersion l’entrée en Religion d’vne fille qui auoit tousiours esté pleine de pieté &amp; de pureté, &amp; semblable à vn lis qui est parmi les espines. Mais on peut appeler conuersion le changement de sa condition puisque d’vne vie de theatre &amp; qui tous les iours est en spectacle &amp; en danger, elle se met à l’ombre d’vn voile, pour se cacher dans le secret de la face de Dieu &amp; y euiter le trouble des hommes &amp; la contradiction des langues. Vraiment Dieu est admirable en ses voies &amp; sainct en toutes ses œuures tirant la lumiere du milieu des tenebres, composant son Roiaume de toute tribu, de toute langue, de tout peuple, de toute nation, &amp; de toute qualité &amp; condition de personnes. Son sainct nom soit benit à iamais.</p>
+        <pb n="461" xml:id="p461"/>
+        <head type="sub">LA COMEDIENNE CONVERTIE.<lb/><hi rend="sc">Leçon X.</hi></head>
+        <p>La Grace de Dieu est vn orient d’enhaut qui va du Ciel esclairant &amp; eschaufant toute
+          la terre &amp; il n’y a aucune condition tant soit elle deplorable qui ne se ressente de
+          sa lumiere &amp; de sa chaleur. C’est vne pluie volontaire que Dieu respand sur son
+          heritage &amp; dont il arouse les bons &amp; les mauuais. C’est vne semence qui se jette
+          sur les buissons, les pierres, &amp; les grands chemins aussi bien que sur la bonne terre,
+          c’est la source du paradis terrestre <pb n="462" xml:id="p462"/>dont les ruisseaux
+          s’estendent par tout l’vniuers. Les perles croissent dans le milieu de la mer sans
+          receuoir dans leur nacre vne seule goutte d’eau salée, les diamans naissent parmi les
+          rochers sans en receuoir la mousse, &amp; l’or le plus pur de tous les metaux s’engendre
+          dans les entrailles de la terre parmi des ordures. Dieu choisit ses Esleus en tous lieux :
+          dans les armées ou la Pieté est si peu en vogue il s’est trouué de saincts Soldats, dans
+          les Cours ou le Vice triomphe il s’est trouué de pieux Courtisans, &amp; des lieux que la
+          pudeur, &amp; leur infamie empesche de nommer Dieu à faict sortir de grandes ames qui ont
+          esté des miroirs de de penitence faisant surabonder sa grace ou le peché auoit abondé.
+          Autrefois parmi les Menestriers &amp; les plaisans de Cour S. Genest est deuenu vn grand
+          Martir. Les persecuteurs des Chrestiens sont deuenus Predicateurs du Christianisme, les
+          loups ont esté changez en Agneaux &amp; des bourreaux des Martyrs sont deuenus Martirs eux
+          mesmes. I’auance tout ceci pour preparer l’esprit de mon Lecteur au reçit d’vne grace
+          insigne que Dieu versa en l’ame d’vne Comedienne <pb n="463" xml:id="p463"/>dont la vie
+          &amp; la pieté peuuent faire honte à beaucoup de Dames nourries en des escoles plus
+          retenues &amp; plus reseruées. Ce n’est pas sans raison qu’en Italie, en France &amp;
+          presque par tout les Historiens ou Comediens sont tenus pour infames, les loix mesmes les
+          declarent tels pour plusieurs raisons que chacun sçait. Et a dire la verité les Comedies
+          Italiennes sont remplies de tant de licences deshonnestes quelles passent du stile
+          Comicque faict pour delecter pour enseigner &amp; pour corriger par la reprehension &amp;
+          la mocquerie les mauuaises mœurs, dans celui de la raillerie, de la bouffonnerie, de
+          l’Impudicité &amp; de l’imprudence. Et ces farces execrables dont en France on faict vn
+          dessert de ciguë aux representations tragicques &amp; serieuses, meriteroient sans doute
+          vne seuere punition du Magistrat parceque les mauuais propos &amp; abominables que l’on y
+          tient ne corrompent pas seulement les bonnes mœurs &amp; n’apprennent pas seulement au
+          peuple des mots de gueule, des traicts de gausseries &amp; des quolibets sales &amp;
+          deshonnestes mais le porte à l’Imitation des friponneries &amp; sottises qu’il <pb n="464"
+            xml:id="p464"/>voit representer &amp; qui par ses yeux (lesquels sont plus vifs que
+          l’ouïe) passent dedans son cœur. En Espagne comme le naturel est plus graue les
+          representans, qu’ils appellent y sont plus modestes &amp; plus serieux, &amp; outre qu’ils
+          ignorent ce que c’est que Farce, ils ne representent pour l’ordinaire que des Histoires
+          veritables ou des feintes qui approchent de la verité comme l’on peut voir partant de
+          riches pieces que Lopé de Vega Carpio le plus fertile &amp; le plus estimé de tous les
+          esprits Espagnols a données au public. Et d’auantage le Magistrat à tellement l’œil à ces
+          esbats que ceux qui disent ou font des actions qui offencent la pudeur ou les bonnes mœurs
+          sont seuerement chastiez encore que par joyeuseté il y ait tousiours quelque personnage
+          destiné à donner du plaisir &amp; à faire rire la compagnie soit par les poincts &amp; les
+          rencontres de ses mots, soit par ses grimaces, soit par ses sottises &amp; badineries,
+          mais tousjours sans preiudice de l’honnesteté &amp; de la modestie. Si que les personnes
+          de tout âge de tout sexe de toute condition y peuuent librement aller sans crainte de
+          rencontrer aucun scandale. Au contraire <pb n="465" xml:id="p465"/>ils ont des pieçes
+          sacrées &amp; Saintes qu’ils representent souuent au milieu des Eglises auecque des danses
+          &amp; des Musiques si graues &amp; si modestes que la sainteté des lieux n’en reçoit
+          aucune profanation. Si bien que comme les Images des Temples sont comme les liures des
+          simples, aussi les representations leur seruent de lecture &amp; leur apprennent diuerses
+          Histoires tant saintes que seculieres dont ils tirent beaucoup de lumiere &amp;
+          d’instruction. Et c’est ainsi que ces doctes Religieux qui portent les flambeaux des
+          lettres &amp; de la pieté par toute la terre se seruent des Representations dans leurs
+          Colleges non seulement pour donner à leurs escoliers la hardiesse de parler en public
+          &amp; pour former leur geste &amp; leur action a l’art Oratoire, mais encore pour corriger
+          les mauuaises mœurs &amp; imprimer de bons sentimens de vertu en l’ame des spectateurs. Et
+          c’est de ceste sorte que l’on se sert en Espagne de ces spectacles publics autant pour
+          l’instruction que pour le passe-temps du peuple qui est depuis tant d’années en ceste
+          profonde paix &amp; en ce repos opulent que Dieu promet en l’Escriture à ceux qui
+          l’adoreront en esprit <pb n="466" xml:id="p466"/>&amp; verité. Et ce qui est encore de
+          remarquable c’est qu’en la plus part des villes la moitié du salaire que l’on donne pour
+          assister à ces Representations va à l’hospital &amp; l’autre est pour ceux qui les jouënt.
+          Ie me suis vn peu plus estendu sur ce sujet que ie ne pensois parce qu’il seroit à desirer
+          que l’Ancien vsage de la Comedie &amp; Tragedie qui estoit autrefois si celebre estant
+          repurgé de tant de deffauts &amp; d’impuretez fust remis en son lustre pour le
+          contentement &amp; l’vtilité publique. Durant mon sejour à Madrid Monsieur l’Ambassadeur
+          de France ne voulut point que ie logeasse autre part que dans sa maison, par son moien ie
+          vi tout ce qu’il y auoit de rare &amp; de remarquable &amp; en la Cour &amp; en la ville
+          &amp; aux enuirons. Vn iour de Feste j’auois esté curieux d’ouïr plusieurs sermons pour
+          remarquer les façons de faire &amp; de dire des Predicateurs Espagnols, sur le soir
+          Monsieur l’Ambassadeur &amp; Madame sa femme furent inuitez d’aller au Palais du Roy ou se
+          deuoit faire vne excellente Representation du Martyre de Saincte Cecile. Ils me conuierent
+          de prendre place dans leur carrosse pour <pb n="467" xml:id="p467"/>auoir le plaisir de
+          ceste action, ie les priai de m’en dispenser parceque la Cour &amp; la Comedie estoient
+          deux Theatres qui ne m’auoient point pour spectateur. Car ie tiens que ces deux choses ne
+          different qu’en ce point que la Cour est vne Comedie veritable &amp; la Comedie est vne
+          Cour feinte, &amp; en l’vne &amp; l’autre Scene ce n’est que masque &amp; folie ; Ils
+          eurent beau m’alleguer qu’il si trouuoit de toute sorte d’Ecclesiastiques mesmes des
+          Religieux &amp; qu’il ne se representoit rien deuant leurs Majestez qui ne pust estre
+          representé dans vne Eglise tant la modestie &amp; la grauité y estoient obseruées. Ie leur
+          respondis que les Ecclesiastiques &amp; Religieux n’auoient bonne grace qu’à l’Autel
+          deuant sa Maiesté diuine &amp; que deuant les Majestez humaines ie les tenois pour des
+          Basteleurs &amp; des Comediens, &amp; qu’en mon opinion vn Ecclesiastique Courtisan estoit
+          vne chose honteuse &amp; monstrueuse, &amp; plustost vn parfumeur d’Idoles qu’vn
+          Sacrificateur du vrai Dieu. Ils allerent doncques sans moi à la Comedie qui dura iusques
+          au milieu de la nuict. Le lendemain Monsieur l’Ambassadeur me dit que si i’y eusse <pb
+            n="468" xml:id="p468"/>esté, j’eusse eu ma part d’vne edification que ie n’auois tirée
+          d’aucun des Sermons que i’auois oüis. C’estoit de la Conuersion d’vne des Comediennes dont
+          il me raconta l’Euenement de ceste sorte. L’vn des plus grands passetemps de ceste Cour ce
+          sont les Representations. La Compagnie qui sert maintenant le Roi en ceste sorte
+          d’exercice c’est des plus excellentes que l’on ait veuës il y a long-temps : mais entre
+          tous les personnages ceux qui emportent le prix pour representer naïuement les passions
+          humaines &amp; les impriment dans les spectateurs esmouuans à la joie, à la tristesse, à
+          la colere, au regret, à l’amour comme il leur plaist iusques à tirer des larmes des yeux
+          les plus arides, &amp; à esbransler les courages les plus fermes &amp; les plus constans,
+          il ny en a point qui esgalent vne ieune fille appellée Rosoria de l’aage de dix-sept ou
+          dix-huit ans &amp; vn ieune homme Toledan appelé Fadrique aagé de vingt-quatre ou
+          vingt-cinq. Aussi tost qu’ils paroissent sur le Theatre il se faict vn silence si profond
+          qu’il ressemble à celui des morts qui reposent dans le sepulcre, Ils ont des tons de voix
+          si charmans, <pb n="469" xml:id="p469"/>des yeux si parlans des actions si aggreables
+          qu’ils rauissent par la veuë &amp; loüie tous ceux qui les considerent. La fille n’a point
+          autrement d’exces en sa beauté mais elle à vne modeste grauité, vne douceur maiestueuse
+          que l’action du theatre lui à acquise qui donne en mesme temps du respect &amp; du desir,
+          dont l’vn tire, l’autre retire, &amp; si d’vn cesté elle se fait souhaitter de l’autre
+          elle desespere. Car vous deuez sçauoir que ceste fille à tant de vertu &amp;
+          particulierement tant de pieté qu’en fin sa deuotion esclatta hier en la façon que ie vous
+          dirai. Elle fait tousiours bien en ses representations mais hier elle se surmonta elle
+          mesme, vous eussiez dit qu’elle faisoit comme ces flambeaux qui ne iettent iamais tant de
+          lueur que quand ils sont prests de s’esteindre, c’estoit comme le dernier effort de sa
+          Muse &amp; de son esprit. Elle est fille de Maistre &amp; des son enfance elle a esté
+          dressée à ceste profession ou elle à reüssi auec des auantages incomparables, son Pere est
+          vn des principaux de la troupe de qui cette fille est la prunnelle de l’œil il en est plus
+          ialoux que de sa femme, &amp; ne vous <pb n="470" xml:id="p470"/>imaginez pas que ceste
+          fille soit autre chose qu’vne perle de vertu car outre que son Pere &amp; sa mere la
+          veillent comme des dragons elle a tousiours eu vne inclination si forte à la pureté &amp;
+          à la pieté que tous ceux qui ont voulu donner des attaintes à son honnesteté ny ont perdu
+          que leurs pas &amp; leurs esperances. Des grands de ceste Cour en ont esté iusques à la
+          folie &amp; à la rage, les montagnes d’or ne l’ont point esblouïe, elle a esté vn rocher
+          qui n’a pû estre esbranslé par les orages des tentations. Souuent on à fait des parties
+          pour l’enleuer mais estant sous la protection du Roi personne n’a esté si osé de
+          l’entreprendre, car ici ou le Roi parle tout de monde se taist. Ils sont deux ou trois en
+          ceste compagnie de representans qui la desirent pour femmes auecque des passions
+          desesperées mais elle n’en veut aucun pour mari, son intention à tousiours esté d’estre
+          Religieuse &amp; rien ne l’a pû destourner de ce dessein. Son pere &amp; sa mere en sont
+          au mourir &amp; offrent tout leur vaillant pour la marier &amp; lui laissent la liberté de
+          choisir tel de ses Amants qui lui plaira le plus pour estre son Epoux, mais elle n’a pour
+            <pb n="471" xml:id="p471"/>eux que de l’indifference. Vn des plus grands plaisirs de la
+          Scene c’est quand il arriue par le cours de l’action que quelqu’vn de ceux qui l’aiment
+          doit estre son mari, car a lors sans feinte, sans masque &amp; sans desguisement ils la
+          courtisent sur le theatre &amp; font voir clairement auec combien de passion ils adorent
+          ceste beauté, &amp; elle releuant son teint &amp; baissant ses yeux augmente sa beauté par
+          sa pudeur &amp; sa modestie : &amp; en mesme temps elle est aimée de tous les spectateurs
+          comme vne viuante image de vertu. Certes quelque beauté que les yeux remarquent en vne
+          femme rien ne flatte si doucement l’imagination, &amp; rien ne donne tant d’amour que
+          l’honnesteté. Mais quand il arriue que Fadrique (dont elle est veritablement aimée) est
+          encore son amant en la Representation, alors c’est vn esteuf entre deux beaux joueurs
+          &amp; il n’y a rien d’egal aux ardeurs de l’vn &amp; aux froideurs de l’autre, c’est la
+          figure du mont Etna ou la flamme &amp; la glace sont contiguës. Mais ceste nuict ils ont
+          surmonté l’attente de tout le monde, car elle a representé dignement la constance de
+          Sainte Cecile <pb n="472" xml:id="p472"/>&amp; au martyre &amp; en la Virginité, &amp;
+          Fadrique à si ardamment receu en soy les passions de Valerian que vous eussiez dict que le
+          feu sortoit par sa bouche, &amp; vn de ses riuaux à aussi fait le personnage de Tiburce
+          auecque tant d’art qu’il n’y a eu aucun des assistans qui n’ait senti des transports &amp;
+          des affections incroiables pour la foi &amp; pour l’honnesteté. Mais la couronne de cet
+          agreable diuertissement a esté vn coup du ciel vn traict du Sainct Esprit. Vne sacrée
+          fureur qui esleuant le courage de Rosoria au dessus d’elle mesme la faitte venir à la fin
+          de l’action vestuë encore à la façon de Sainte Cecile, se ietter aux pieds de la Reine,
+          &amp; les embrassant estroittement &amp; baignant de ses larmes auec vne voix interrompuë
+          de sanglots qui émouuoient à compassion les entrailles d’vn chacun elle lui à faicte ceste
+          harangue. Grande Reine, Mere des pauures, Azyle des miserables, &amp; Protectrice des
+          persecutez, voici aux pieds de vostre sacrée &amp; Roiale Majesté vne chetiue creature qui
+          implore le secours de vostre misericorde. Ie suis ici comme vne pauure biche poursuiuie
+          d’vne meute de chiens affamez <pb n="473" xml:id="p473"/>dont les vns ne demandent que de
+          faire curee de mon honneur, les autres sous le specieux nom de mariage persecutent mon
+          integrité, &amp; les vns &amp; les autres me sont en horreur comme contraires au desseïn
+          que j’ay faict depuis le temps que i’ai eu du ciel quelque lumiere de connoissance de
+          n’estre iamais à autre espoux qu’a <hi rend="sc">Iesvs-Christ</hi> Crucifié. C’est
+          merueille Madame ou plustost vn miracle de la grace comme vn si foible roseau à pû
+          resister à tant de tempestes, &amp; se conseruer entier dans vne profession si dangereuse
+          que celle que i’ai faitte iusques à present. Le siecle, l’enfer, &amp; le sang ont fait à
+          l’enui à qui donneroit plus de trauerses à ma resolution, le siecle ma offert des maris,
+          l’enfer des richesses, &amp; mes propres parens sont ceux qui me tourmentent d’auantage
+          pour me faire prendre parti dans le monde, ie leur ai ouuert mon desir qui est d’estre
+          Religieuse, ils m’y veulent si peu aider qu’ils ont iuré de s’y opposer &amp; ils taschent
+          de m’en distraire par toute sorte d’artifices : la derniere ancre de mon esperance est en
+          vostre Roiale bonté Madame, si elle me manque ie ne puis attendre que le naufrage <pb
+            n="474" xml:id="p474"/>de ma saincte &amp; iuste pretension. I’ay appris que vostre
+          Maiesté est sur le point de faire vne de ses aumosnes extraordinaires &amp; qu’elle a
+          ordonné certaine somme pour le mariage ou temporel ou spirituel de quelques pauures filles
+          ie vous supplie tres-instamment Madame, ou plustost ie vous coniure par les entrailles de
+          la misericorde de ce bon Dieu dont vous estes l’image de me mettre au rang de celles qui
+          destinées au Cloistre ressentiront l’effect de vostre Roiale munificence. Si iamais i’ai
+          merité quelque grace deuant les yeux &amp; les oreilles de vostre Maiesté je vous supplie
+          de ne me denier pas ceste faueur qui me sauuera des perils du monde &amp; me mettra en vn
+          lieu d’assurance ou deliurée des mains de mes ennemis ie pourrai sans crainte seruir Dieu
+          en sainteté &amp; en iustice tous les jours de ma vie : là Madame ie serai vne lampe
+          continuellement ardante deuant l’autel de sa diuine Maiesté pour la prier pour la
+          prosperité de la vostre. He ! Madame aiez pitié de moi &amp; ne me confondez pas en mon
+          attente ie sçai que ie suis indigne de ceste liberalité mais Madame ie rascherai de m’en
+          rendre digne par l’ardant <pb n="475" xml:id="p475"/>desir que i’ai d’estre bonne
+          Religieuse. Pour Dieu madame ne reiettez pas mon instante priere &amp; cooperez à mon
+          salut par vne parolle commandant à vostre Aumosnier que mon nom soit mis au liure de vie
+          &amp; auecque ceux de ces heureuses filles qui commenceront des ce monde à chanter le
+          Cantique de l’Agneau pour le continuer eternellement au Ciel. Madame ie suis violentée en
+          la condition ou ie suis c’est pourquoy ie supplie vostre maiesté de me prendre en sa
+          protection &amp; de me donner en garde à quelqu’vne des Dames de sa Cour iusques à ce que
+          ie puisse iouïr de l’effect de ma requeste, si vous faittes ce bien Dieu sera vostre
+          recompense trop plus grande, sinon, prenez garde Madame que mon sang ne soit redemandé de
+          vostre main &amp; que la perte de mon ame ne vous soit imputée à immisericorde. Mais ie
+          veux mieux esperer de vostre Roiale clemence, vos yeux me disent que vos oreilles ont oui
+          ma iuste priere, que vostre cœur pitoiable la exaucée &amp; que vostre bouche sacrée va
+          prononcer son entherinement. Non madame ie n’abandonnerai point vos pieds refuge de mes
+          miseres, tables <pb n="476" xml:id="p476"/>qui me sauueront du naufrage, que ie n’aye
+          obtenu la benediction que ie demande à vostre Maiesté par tout ce qu’il y a de plus sainct
+          au ciel &amp; en la terre, par les playes de mon Sauueur &amp; le vostre, par les
+          mammelles de sa mere, par les merites &amp; le martyre de ceste glorieuse Vierge Saincte
+          Cecile dont ie viens de representer la constance, par la presence de vostre espoux le plus
+          grand Roi que le soleil eclaire ; par l’amour qu’il vous porte &amp; que vous lui portez,
+          &amp; par ceste insigne pieté qui vous releue autant sur toutes les Princesses de la terre
+          que vostre Maiesté est esleuée sur les testes de ses suiets. Retirez moi madame de la mer
+          où ie me noie du Labyrinthe où ie me pers &amp; faites de mon salut vne perle à la
+          couronne qui vous attend au ciel. Les sanglots qui auoient souuent, mais de bonne grace,
+          entrecoupé son discours le trancherent ici tout à faict &amp; sa voix estouffee dans ses
+          soupirs &amp; suffocquée dans ses larmes donna place à celle de la Reine qui la releuant
+          doucement auec ceste suauité naturelle &amp; Françoise quelle sçait si judicieusement
+          mesler auecque ceste artificieuse grauité Espagnole, <pb n="477" xml:id="p477"/>lui dit,
+          Ma fille, vous me demandez vne chose si petite par de si grandes que ie ne puis vous
+          refuser sans estre blasmée de tout le monde &amp; comme ie croi sans offencer Dieu,
+          asseurez vous donc que ie vous prens en ma particuliere protection &amp; que ie ferai pour
+          vous &amp; de vous tout ainsi que vous voudrez. Ie croi que le Roi Monseigneur aura pour
+          agreable la promesse que ie vous fai &amp; ie la vous maintiendrai en parolle de Reine.
+          Disant cela elle lui donna sa main à baiser, &amp; le Roi admirant le courage de ceste
+          fille &amp; approuuant ce que la Reine auoit dit fut le premier auecque toute sa Cour à
+          reconnoistre que le doigt de Dieu estoit en ceste action &amp; qu’il vouloit ceste fille
+          pour son espouse. Et d’effect la Reine la prit par la main &amp; la fit entrer dans le
+          Palais la baillant en garde à vne des anciennes Dames, &amp; dit on quelle la mettra
+          Religieuse en l’vn de ces Monasteres ou elle peut aller de son palais à couuert par des
+          Courridors. Ie m’asseure que vous n’auez point veu de telle conuersion à la fin des
+          sermons que vous auez ouïs &amp; si ceste ville est remplie de beaucoup de pecheresses qui
+          auroient <pb n="478" xml:id="p478"/>plus de besoin de faire penitence que l’innocente
+          &amp; Chaste Rosoria. Certes dis-je à Monsieur l’Ambassadeur, voila vn changement
+          admirable de la droitte de Dieu, ouy la droitte de Dieu à releué le courage de ceste fille
+          ô que c’est vne chose puissante qu’vne forte inspiration, à raison de quoi le S. Esprit
+          est descendu en forme de feu &amp; de tourbillon pour monstrer quels efforts il feroit
+          dans les ames. Aussi tost toute la ville fut remplie de ceste merueille &amp; toute la
+          Cour n’auoit point assez de langues pour publier les loüanges de Rosoria. On tenoit que la
+          Reine feroit vne magnificence particuliere lors quelle la feroit receuoir Religieuse en
+          l’vn des Monasteres où elle va d’ordinaire se promener. On disoit aussi que Fadrique
+          laissant le monde &amp; le Theatre se ietteroit dans vn Conuent de l’Ordre de S, François
+          &amp; Odoard aussi tous deux Amans de Rosoria. On tenoit que le pere &amp; la mere de
+          ceste fille iroient se ietter aux pieds du Roy &amp; de la Reine pour demander leur fille
+          qu’ils tenoient pour leur thresor, &amp; qu’ils ne pouuoient se resoudre à la voir entrer
+          dedans vn <pb n="479" xml:id="p479"/>Monastere. Tant y a que comme au ciel il y a grande
+          ioie entre les Anges sur vn pecheur qui vient à la penitence. Il y eut en terre vne grande
+          resiouïssance entre les personnes deuotes sur la Conuersion de ceste Comedienne. S’il faut
+          appeler Conuersion l’entrée en Religion d’vne fille qui auoit tousiours esté pleine de
+          pieté &amp; de pureté, &amp; semblable à vn lis qui est parmi les espines. Mais on peut
+          appeler conuersion le changement de sa condition puisque d’vne vie de theatre &amp; qui
+          tous les iours est en spectacle &amp; en danger, elle se met à l’ombre d’vn voile, pour se
+          cacher dans le secret de la face de Dieu &amp; y euiter le trouble des hommes &amp; la
+          contradiction des langues. Vraiment Dieu est admirable en ses voies &amp; sainct en toutes
+          ses œuures tirant la lumiere du milieu des tenebres, composant son Roiaume de toute tribu,
+          de toute langue, de tout peuple, de toute nation, &amp; de toute qualité &amp; condition
+          de personnes. Son sainct nom soit benit à iamais.</p>
       </div>
     </body>
   </text>
