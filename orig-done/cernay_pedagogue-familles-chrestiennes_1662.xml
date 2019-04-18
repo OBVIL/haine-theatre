@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cernay_pedagogue-familles-chrestiennes_1662" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Pédagogue des familles chrestiennes</title>
-        <author>Cernay, abbé</author>
+        <author key="Cernay (16.. ; Abbé)">Cernay</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -18,27 +18,38 @@
           <name>Clotilde Thouret</name>
           <resp>Responsable d’édition</resp>
         </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>Édition XML</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2016"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/cernay_pedagogue-familles-chrestiennes_1662/</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
-            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
-            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
-            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
+              « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons : «
+              Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC
+              BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures. La
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <title>Pédagogue des familles chrestiennes</title>
-          <author>Cernay, abbé</author>
-          <biblScope>p. 443-453</biblScope>
-          <date>1662</date>
-        </bibl>
+        <bibl> Cernay, <hi rend="i">Pédagogue des familles chrestiennes</hi>, <biblScope>p.
+            443-453</biblScope>, 1662 </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,118 +57,279 @@
         <date when="1662"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="texte" xml:id="HDT_3">
+      <div>
         <head>Pédagogue des familles chrestiennes</head>
-        <head type="sub"><pb n="443"/>INSTRVCTION CHRESTIENNE<lb/>sur la Comedie.</head>
+        <pb n="443" xml:id="p443"/>
+        <head type="sub">INSTRVCTION CHRESTIENNE<lb/>sur la Comedie.</head>
         <p><hi rend="i">Il y a-t’il long-temps que la Comedie est au monde ?</hi></p>
-        <p>Ouy : car elle y est dés le temps du Paganisme &amp; de l’Idolatrie, qui estoit la saison plus commode au Demon pour establir cette abomination.</p>
+        <p>Ouy : car elle y est dés le temps du Paganisme &amp; de l’Idolatrie, qui estoit la saison
+          plus commode au Demon pour establir cette abomination.</p>
         <p><hi rend="i">Les Payens donc s’y amusoient &amp; si addonnoient beaucoup ?</hi></p>
-        <p>Il est vray qu’ils luy donnerent quelque vogue auant qu’ils en eussent apperceu les mauuaises suittes.</p>
-        <p><hi rend="i"><seg resp="wordpro">Qu’auoient</seg> ils a craindre, eux qui ne croyoient point de vray Dieu, ny de vie Eternelle ?</hi></p>
-        <p>Ils apprehendoient neantmoins la corruption des mœurs si dangereuse aux Republiques ; ce qui fit que leurs Philosophes blasmerent cette occupation, &amp; les Magistrats chatierent ceux qui en faisoient le mestier.</p>
-        <p><hi rend="i">Les Premiers Romains qui estoient si grands politiques eurent de la peine à les souffrir, &amp; ils ne se seront peut estre pas oubliez à les décrier ou à les chastier ?</hi></p>
+        <p>Il est vray qu’ils luy donnerent quelque vogue auant qu’ils en eussent apperceu les
+          mauuaises suittes.</p>
+        <p><hi rend="i">Qu’auoient ils a craindre, eux qui ne croyoient point de vray Dieu, ny de
+            vie Eternelle ?</hi></p>
+        <p>Ils apprehendoient neantmoins la corruption des mœurs si dangereuse aux Republiques ; ce
+          qui fit que leurs Philosophes blasmerent cette occupation, &amp; les Magistrats chatierent
+          ceux qui en faisoient le mestier.</p>
+        <p><hi rend="i">Les Premiers Romains qui estoient si grands politiques eurent de la peine à
+            les souffrir, &amp; ils ne se seront peut estre pas oubliez à les décrier ou à les
+            chastier ?</hi></p>
         <p>Il y en a assez de preuues par les Histoires.</p>
-        <p><hi rend="i">Apprenez m’en seulement quelqu’vnes en passant, <pb n="444"/>puis qu’asseurément ce ne sont pas là vos meilleurs Autheurs ?</hi></p>
+        <p><hi rend="i">Apprenez m’en seulement quelqu’vnes en passant, <pb n="444" xml:id="p444"
+            />puis qu’asseurément ce ne sont pas là vos meilleurs Autheurs ?</hi></p>
         <p>Ie le feray aussi pour confondre par là, les mauuais Chrestiens &amp; les libertins.</p>
         <p><hi rend="i">Ie seray tres-contant d’en sçauoir pour ce suiect quelque chose ?</hi></p>
-        <p>Il<note resp="author" place="margin"><p>Suet. in oct. c. 44. L. consensu. § vir quo que. cod. de repud.</p></note> y eut de leur temps vn Sempronius Philosophe, qui repudia sa femme pour auoir esté à ces ieux &amp; spectacles publics, dont la Comedie a tousiours tenû le premier rang, &amp; les Empereurs ont aussi permis le diuorce pour pareille cause.</p>
-        <p><hi rend="i">Si cela se pratiquoit auiourd’huy, il y auroit encore plus de mariages rompus qu’il n’y en a, quoy que ce soit souuent pour de moindres raisons ?</hi></p>
-        <p>Ce fut aussi pour ce sujet que Octaue Auguste deffendit aux femmes d’y assister, &amp; l’vn des Scipions voyant les grands desordres que ce mauuais entretien causoit dans les familles, persuada aux Romains par vne graue &amp; forte harangue, d’empêcher les vices estrangers, tel qu’estoient la Comedie de prendre pied dans Rome, ce qui eût assez de pouuoir pour faire tost apres ruiner &amp; brusler les lieux destinez à tel vsage, auec tous les sieges &amp; autres preparatifs dont on s’y seruoit.</p>
+        <p>Il<note resp="author" place="margin"><p>Suet. in oct. c. 44. L. consensu. § vir quo que.
+              cod. de repud.</p></note> y eut de leur temps vn Sempronius Philosophe, qui repudia sa
+          femme pour auoir esté à ces ieux &amp; spectacles publics, dont la Comedie a tousiours
+          tenû le premier rang, &amp; les Empereurs ont aussi permis le diuorce pour pareille
+          cause.</p>
+        <p><hi rend="i">Si cela se pratiquoit auiourd’huy, il y auroit encore plus de mariages
+            rompus qu’il n’y en a, quoy que ce soit souuent pour de moindres raisons ?</hi></p>
+        <p>Ce fut aussi pour ce sujet que Octaue Auguste deffendit aux femmes d’y assister, &amp;
+          l’vn des Scipions voyant les grands desordres que ce mauuais entretien causoit dans les
+          familles, persuada aux Romains par vne graue &amp; forte harangue, d’empêcher les vices
+          estrangers, tel qu’estoient la Comedie de prendre pied dans Rome, ce qui eût assez de
+          pouuoir pour faire tost apres ruiner &amp; brusler les lieux destinez à tel vsage, auec
+          tous les sieges &amp; autres preparatifs dont on s’y seruoit.</p>
         <p><hi rend="i">Cette action fût fort loüable à vn Payen ?</hi></p>
-        <p>Leurs<note resp="author" place="margin"><p>Valer. Max.</p></note> Autheurs loüent encore Alcibiade, qui faisant noyer vn certain Comedien luy cria tout haut, <hi rend="i">Puis que tu m’as si souuent abismé dans ta Scene, il faut que ie t’abisme vne seule fois dans la Mer</hi>. Et Seneque<note resp="author" place="margin"><p>Sene. esp. 7.</p></note> dit qu’il n’y a rien de si contraire aux bonnes mœurs que ces ieux, qui insinuent le vice dans le cœur des assistans.</p>
-        <p><hi rend="i">Mais pourquoy appelle t’on ces gens là Comediens, &amp; leurs Ieux Comedie ?</hi></p>
-        <p>L’Origine de ce nom vient d’vn <hi rend="sc">Comvs</hi>, que les <pb n="445"/>Idolastres ont iadis adoré pour le Dieu de la Gourmandise &amp; de l’Impureté, à la loüange de qui les débauchez faisoient force vers lascifs, qu’ils recitoient en public auec tant de licence, qu’il <seg resp="wordpro">fallut</seg> y employer la seuerité des Iuges.</p>
+        <p>Leurs<note resp="author" place="margin"><p>Valer. Max.</p></note> Autheurs loüent encore
+          Alcibiade, qui faisant noyer vn certain Comedien luy cria tout haut, <hi rend="i">Puis que
+            tu m’as si souuent abismé dans ta Scene, il faut que ie t’abisme vne seule fois dans la
+            Mer</hi>. Et Seneque<note resp="author" place="margin"><p>Sene. esp. 7.</p></note> dit
+          qu’il n’y a rien de si contraire aux bonnes mœurs que ces ieux, qui insinuent le vice dans
+          le cœur des assistans.</p>
+        <p><hi rend="i">Mais pourquoy appelle t’on ces gens là Comediens, &amp; leurs Ieux
+            Comedie ?</hi></p>
+        <p>L’Origine de ce nom vient d’vn <hi rend="sc">Comvs</hi>, que les <pb n="445"
+            xml:id="p445"/>Idolastres ont iadis adoré pour le Dieu de la Gourmandise &amp; de
+          l’Impureté, à la loüange de qui les débauchez faisoient force vers lascifs, qu’ils
+          recitoient en public auec tant de licence, qu’il fallut y employer la seuerité des
+          Iuges.</p>
         <p><hi rend="i">Qu’elle punition leur ordonnerent t’-ils ?</hi></p>
-        <p>Il faut que ce fût quelque peine corporelle, au moins Horace<note resp="author" place="margin"><p>Verterè ergo stilum formidine fustis.</p></note> parlant d’eux en l’vne de ses Satires, dit.</p>
+        <p>Il faut que ce fût quelque peine corporelle, au moins Horace<note resp="author"
+            place="margin"><p>Verterè ergo stilum formidine fustis.</p></note> parlant d’eux en
+          l’vne de ses Satires, dit.</p>
         <quote>
           <lg>
             <l><hi rend="i">Qu’ils changerent enfin de ton</hi></l>
             <l><hi rend="i">De crainte d’auoir du baston.</hi></l>
           </lg>
         </quote>
-        <p><hi rend="i">C’est ce qu’il leur arriue quelque fois, quoyque non pas si souuent, que merite leur insolentes coustumes, &amp; leur honteux commerce.</hi></p>
-        <p>L’on <seg resp="wordpro">pourroit</seg> neantmoins y apporter d’autres remedes plus doux, plus Chrestiens, &amp; moins violens.</p>
+        <p><hi rend="i">C’est ce qu’il leur arriue quelque fois, quoyque non pas si souuent, que
+            merite leur insolentes coustumes, &amp; leur honteux commerce.</hi></p>
+        <p>L’on pourroit neantmoins y apporter d’autres remedes plus doux, plus Chrestiens, &amp;
+          moins violens.</p>
         <p><hi rend="i">Où en trouueroit-on de la sorte que vous dites ?</hi></p>
-        <p>Il y en a assez dans les sainctes Escritures, dans les Peres, &amp; les Docteurs de l’Eglise.</p>
-        <p><hi rend="i">Il faut donc que ces Peres &amp; Docteurs ayent des remedes fort specifiques, pour vn mal si dangereux &amp; contagieux ?</hi></p>
-        <p>Cela est ainsi : car ils y ont apporté des raisons tres-conuainquantes, auec des authoritez &amp; censures capables de contenter, &amp; de contenir toute personne qui n’aura point perdu le Iugement.</p>
+        <p>Il y en a assez dans les sainctes Escritures, dans les Peres, &amp; les Docteurs de
+          l’Eglise.</p>
+        <p><hi rend="i">Il faut donc que ces Peres &amp; Docteurs ayent des remedes fort
+            specifiques, pour vn mal si dangereux &amp; contagieux ?</hi></p>
+        <p>Cela est ainsi : car ils y ont apporté des raisons tres-conuainquantes, auec des
+          authoritez &amp; censures capables de contenter, &amp; de contenir toute personne qui
+          n’aura point perdu le Iugement.</p>
         <p><hi rend="i">Quelles raisons y peut-on encore apporter ?</hi></p>
-        <p>Il y en a plusieurs, comme de dire que ce qu’on voit aux Comedies, est ordinairement contraire à la vertu &amp; aux bonnes mœurs par la raison cy-deuant dite.</p>
+        <p>Il y en a plusieurs, comme de dire que ce qu’on voit aux Comedies, est ordinairement
+          contraire à la vertu &amp; aux bonnes mœurs par la raison cy-deuant dite.</p>
         <p><hi rend="i">Comment cela !</hi></p>
-        <p>Pource que le propre de la vertu, est de regler &amp; reprimer les salles passions les soumettant à la raison : <pb n="446"/>où la Comedie les produit &amp; les estalle de toute leur force, en approuue tous les succez, &amp; y donnent des recompences.</p>
+        <p>Pource que le propre de la vertu, est de regler &amp; reprimer les salles passions les
+          soumettant à la raison : <pb n="446" xml:id="p446"/>où la Comedie les produit &amp; les
+          estalle de toute leur force, en approuue tous les succez, &amp; y donnent des
+          recompences.</p>
         <p><hi rend="i">Il y a t’il quelqu’autre raison à adiouster ?</hi></p>
-        <p>Ouy : car l’on voit que tout ce qui se represente pour l’ordinaire en tels Ieux, sont des pieces d’amour déshonneste qui paroist auec la plus grande effronterie qui se puisse imaginer, &amp; se debite auec tant d’art &amp; d’adresse affectée, qu’il ne fait pas peu d’impression sur l’esprit des spectateurs, &amp; dont ils peuuent retenir de tres-pernicieux exemples.</p>
+        <p>Ouy : car l’on voit que tout ce qui se represente pour l’ordinaire en tels Ieux, sont des
+          pieces d’amour déshonneste qui paroist auec la plus grande effronterie qui se puisse
+          imaginer, &amp; se debite auec tant d’art &amp; d’adresse affectée, qu’il ne fait pas peu
+          d’impression sur l’esprit des spectateurs, &amp; dont ils peuuent retenir de
+          tres-pernicieux exemples.</p>
         <p><hi rend="i">Quels mauuais exemples en peut-on r’emporter ?</hi></p>
-        <p>Tels sont les discours impudiques qu’on y dit, les inuentions diaboliques de faire reussir des desseins d’Impureté, les moyens de venger les iniures, d’excuser ou loüer des actions infames, &amp; autres pareilles abominations.</p>
-        <p><hi rend="i">Mais les Comediens ne sont pas cause de tous ces maux, &amp; leur intention ne peut pas estre telle ?</hi></p>
-        <p>L’on ne peut excuser l’intention, lors que l’effet s’en trouue mauuais ; puis que c’est tousiours contribuer au mal tout ce qu’on peut de sa part.</p>
+        <p>Tels sont les discours impudiques qu’on y dit, les inuentions diaboliques de faire
+          reussir des desseins d’Impureté, les moyens de venger les iniures, d’excuser ou loüer des
+          actions infames, &amp; autres pareilles abominations.</p>
+        <p><hi rend="i">Mais les Comediens ne sont pas cause de tous ces maux, &amp; leur intention
+            ne peut pas estre telle ?</hi></p>
+        <p>L’on ne peut excuser l’intention, lors que l’effet s’en trouue mauuais ; puis que c’est
+          tousiours contribuer au mal tout ce qu’on peut de sa part.</p>
         <p><hi rend="i">Que trouuez-vous en cela de blasmable.</hi></p>
-        <p>Rien ; sinon tout l’appareil de la Comedie, c’est adire, les Acteurs, les Sujets, les habits, les postures, bref tout le reste de ce honteux attirail.</p>
+        <p>Rien ; sinon tout l’appareil de la Comedie, c’est adire, les Acteurs, les Sujets, les
+          habits, les postures, bref tout le reste de ce honteux attirail.</p>
         <p><hi rend="i">Y a t’-il à redire en cela ?</hi></p>
-        <p>Beaucoup tres-certainement : car ie ne sçay comme l’on peut souffrir ces grands faineans ou valets tranestis, suiuis de coureuses &amp; Damoiselles faites à la haste, tout plain de fard, de plastres, de mouches, &amp; de farine, &amp; accompagnés des gestes impudens, de regards lascifs, de discours insolens, de deguisement d’hommes en femmes, &amp; de femmes en hommes, le tout auec si peu de honte, qu’il faudroit <pb n="447"/>leur estre semblable pour les pouuoir approuuer.</p>
-        <p><hi rend="i">Quand il y auroit quelque chose à reprendre à leurs personnes, neantmoins les Histoires qu’ils representent sont tousiours assez agreables ?</hi></p>
-        <p>Toute la rimaille que ces badins viennent déclamer sur leur Eschafaut, n’est souuent remplie que de fables ridicules, où n’y a autre verité, sinon qu’ils publient en vers, les vices qui se commettent en prose dans les maisons : ce qui ne peut agréer aux personnes raisonnables.</p>
+        <p>Beaucoup tres-certainement : car ie ne sçay comme l’on peut souffrir ces grands faineans
+          ou valets tranestis, suiuis de coureuses &amp; Damoiselles faites à la haste, tout plain
+          de fard, de plastres, de mouches, &amp; de farine, &amp; accompagnés des gestes impudens,
+          de regards lascifs, de discours insolens, de deguisement d’hommes en femmes, &amp; de
+          femmes en hommes, le tout auec si peu de honte, qu’il faudroit <pb n="447" xml:id="p447"
+          />leur estre semblable pour les pouuoir approuuer.</p>
+        <p><hi rend="i">Quand il y auroit quelque chose à reprendre à leurs personnes, neantmoins
+            les Histoires qu’ils representent sont tousiours assez agreables ?</hi></p>
+        <p>Toute la rimaille que ces badins viennent déclamer sur leur Eschafaut, n’est souuent
+          remplie que de fables ridicules, où n’y a autre verité, sinon qu’ils publient en vers, les
+          vices qui se commettent en prose dans les maisons : ce qui ne peut agréer aux personnes
+          raisonnables.</p>
         <p><hi rend="i">Ils ne laissent pas de diuertir le monde ?</hi></p>
-        <p>Ils diuertissent tres-peu de gens sages du monde, qui en font la meilleur partie, &amp; qui sont peu curieux de telles fadaises &amp; impertinences : Mais seulement quelque ieune gens, certaines femmes incapables de tout bon &amp; serieux entretien, &amp; qui dés-là, sont insuffisants de faire la loy aux autres.</p>
-        <p><hi rend="i">L’on ne laisse pas d’y assister auec plaisir, &amp; en grande compagnie ?</hi></p>
-        <p>Cette mauuaise pratique vient de ce que le commun du monde veut estre trompé par tout où il cherche les iniustes passe-temps, &amp; que la corruption le porte à ce qui est plus deffendu.</p>
+        <p>Ils diuertissent tres-peu de gens sages du monde, qui en font la meilleur partie, &amp;
+          qui sont peu curieux de telles fadaises &amp; impertinences : Mais seulement quelque ieune
+          gens, certaines femmes incapables de tout bon &amp; serieux entretien, &amp; qui dés-là,
+          sont insuffisants de faire la loy aux autres.</p>
+        <p><hi rend="i">L’on ne laisse pas d’y assister auec plaisir, &amp; en grande
+            compagnie ?</hi></p>
+        <p>Cette mauuaise pratique vient de ce que le commun du monde veut estre trompé par tout où
+          il cherche les iniustes passe-temps, &amp; que la corruption le porte à ce qui est plus
+          deffendu.</p>
         <p><hi rend="i">En quoy est-on trompé par la Comedie ?</hi></p>
-        <p>C’est que si l’on en ostoit tout cét appareil odieux que nous auons dit, que les Ioüeurs &amp; Ioueuses y parussent en leur habits ordinaires, le Theatre sans ce qu’ils nomment <hi rend="i">decoration</hi>, Il ne se <seg resp="wordpro">pourroit</seg> rien voir de plus inepte &amp; risible, ny de plus sottes gens que ceux-là.</p>
-        <p><hi rend="i">Mais ce sont aussi ces choses que vous censurez, qui font la Comedie ?</hi></p>
-        <p>C’est aussi ce qui est deffendu par toutes les loix diuines &amp; humaines, &amp; qui fait ce qu’on a appellé Spectacle.</p>
-        <p><pb n="448"/><hi rend="i"><seg resp="wordpro">L’Escriture</seg> Sainte est elle contraire à tels Spectacles &amp; recreations ?</hi></p>
-        <p>Il ne faut que voir ce qu’en disent les Peres de l’Eglise, qui l’alleguent tous sur cette matiere.</p>
-        <p><hi rend="i">Qui sont les Peres qui en parlent, &amp; qu’en disent-ils de bien important</hi> :</p>
-        <p>Outre ce qu’en disent Clement Alexandrin, S. Ambroise, &amp; S. Augustin en diuers traitez : il y a encore Tertullien &amp; S. Cyprien,<note resp="author" place="margin"><p>Cyprian. de <seg resp="wordpro">spect.</seg></p></note> qui asseurent que l’ancienne croyance de l’Eglise, est qu’aux renonciations du Baptesme contre le Demon, ses pompes, &amp; ses œuures, les Spectacles &amp; les Comedies y sont comprises, &amp; adjoutent, qu’on manqueroit beaucoup de conduite d’exorciser d’vne part le Demon, si d’ailleurs on laissoit aux Chrestiens pleine liberté d’assister à telles occupations, &amp; de renoncer par là à Iesus-Christ, ainsi qu’ils auroient auant fait au Diable.</p>
-        <p><hi rend="i">Mais ces Saincts Peres ont-ils improuué le plaisir qu’on prend en telle rencontre, où les assistans n’ont aucun mauuais desseins ?</hi></p>
-        <p>C’est sur quoy ils ont exageré dauantage, <seg resp="wordpro">n’ayant</seg> pû raisonnablement souffrir,<note resp="author" place="margin"><p>Tert. de <seg resp="wordpro">spect.</seg> c. 4.</p></note> que les fidelles employassent vne notable partie du temps à ces folies &amp; extrauagances, absolument contraires à la profession Chrestienne, &amp; à la loy de Dieu, qui parlant par la bouche de S. Paul, deffendit aux Ephesiens<note resp="author" place="margin"><p>Ad Eph. 5. 3.</p></note> de nommer aucune sorte d’impureté, de villenie, de sottise, ny de bouffonnerie impertinante. Et écriuant à Timothée,<note resp="author" place="margin"><p>Ad Tim. 2. 16.</p></note> il luy recommande par exprés de ne se point amuser à aucuns discours profanes &amp; vains, qui ne seruent que pour l’impieté.</p>
-        <p><hi rend="i">Ces Saints Peres ne veulent-ils donc point permettre qu’on se puisse resiouir ?</hi></p>
-        <p>Tant s’en faut ; ils le conseillent apres le mesme <pb n="449"/>Sainct Paul, qui ordonne aux Philippiens<note resp="author" place="margin"><p>Phil. 4.</p></note> de se rejouir, pourueu que ce soit selon Dieu, &amp; non pas selon le Diable : ainsi que les Saincts l’ont entendu.</p>
+        <p>C’est que si l’on en ostoit tout cét appareil odieux que nous auons dit, que les Ioüeurs
+          &amp; Ioueuses y parussent en leur habits ordinaires, le Theatre sans ce qu’ils nomment
+            <hi rend="i">decoration</hi>, Il ne se pourroit rien voir de plus inepte &amp; risible,
+          ny de plus sottes gens que ceux-là.</p>
+        <p><hi rend="i">Mais ce sont aussi ces choses que vous censurez, qui font la
+          Comedie ?</hi></p>
+        <p>C’est aussi ce qui est deffendu par toutes les loix diuines &amp; humaines, &amp; qui
+          fait ce qu’on a appellé Spectacle.</p>
+        <p><pb n="448" xml:id="p448"/><hi rend="i">L’Escriture Sainte est elle contraire à tels
+            Spectacles &amp; recreations ?</hi></p>
+        <p>Il ne faut que voir ce qu’en disent les Peres de l’Eglise, qui l’alleguent tous sur cette
+          matiere.</p>
+        <p><hi rend="i">Qui sont les Peres qui en parlent, &amp; qu’en disent-ils de bien
+            important</hi> :</p>
+        <p>Outre ce qu’en disent Clement Alexandrin, S. Ambroise, &amp; S. Augustin en diuers
+          traitez : il y a encore Tertullien &amp; S. Cyprien,<note resp="author" place="margin"
+              ><p>Cyprian. de spect.</p></note> qui asseurent que l’ancienne croyance de l’Eglise,
+          est qu’aux renonciations du Baptesme contre le Demon, ses pompes, &amp; ses œuures, les
+          Spectacles &amp; les Comedies y sont comprises, &amp; adjoutent, qu’on manqueroit beaucoup
+          de conduite d’exorciser d’vne part le Demon, si d’ailleurs on laissoit aux Chrestiens
+          pleine liberté d’assister à telles occupations, &amp; de renoncer par là à Iesus-Christ,
+          ainsi qu’ils auroient auant fait au Diable.</p>
+        <p><hi rend="i">Mais ces Saincts Peres ont-ils improuué le plaisir qu’on prend en telle
+            rencontre, où les assistans n’ont aucun mauuais desseins ?</hi></p>
+        <p>C’est sur quoy ils ont exageré dauantage, n’ayant pû raisonnablement souffrir,<note
+            resp="author" place="margin"><p>Tert. de spect. c. 4.</p></note> que les fidelles
+          employassent vne notable partie du temps à ces folies &amp; extrauagances, absolument
+          contraires à la profession Chrestienne, &amp; à la loy de Dieu, qui parlant par la bouche
+          de S. Paul, deffendit aux Ephesiens<note resp="author" place="margin"><p>Ad Eph. 5.
+            3.</p></note> de nommer aucune sorte d’impureté, de villenie, de sottise, ny de
+          bouffonnerie impertinante. Et écriuant à Timothée,<note resp="author" place="margin"><p>Ad
+              Tim. 2. 16.</p></note> il luy recommande par exprés de ne se point amuser à aucuns
+          discours profanes &amp; vains, qui ne seruent que pour l’impieté.</p>
+        <p><hi rend="i">Ces Saints Peres ne veulent-ils donc point permettre qu’on se puisse
+            resiouir ?</hi></p>
+        <p>Tant s’en faut ; ils le conseillent apres le mesme <pb n="449" xml:id="p449"/>Sainct
+          Paul, qui ordonne aux Philippiens<note resp="author" place="margin"><p>Phil. 4.</p></note>
+          de se rejouir, pourueu que ce soit selon Dieu, &amp; non pas selon le Diable : ainsi que
+          les Saincts l’ont entendu.</p>
         <p><hi rend="i">Comment se peut-on réioüir selon le Diable ?</hi></p>
-        <p>C’est quand on met son plaisir aux choses contraires à la reigle de la Doctrine de l’Eglise, comme nous auons déja dit.</p>
-        <p><hi rend="i">S’il y auoit tant de mal, les Papes dans l’Eglise &amp; les Princes dans leurs Estats, en auroient condamné l’vsage ?</hi></p>
-        <p>Aussi ont ils fait souuent, comme il paroist en vn Concile de Constantinople, qui prohibe absolument les farceurs, bouffons &amp; Comediens,<note resp="author" place="margin"><p>in Trul. c. 5.</p></note> auec les Ieux, Spectacles, &amp; les Dances qui s’y font, ainsi qu’ont fait plusieurs autres Conciles.</p>
-        <p><hi rend="i">L’on ne doit donc pas ainsi receuoir les Comediens à la Saincte Communion ?</hi></p>
-        <p>Il faut leur refuser sans doute, s’ils ne donnent des marques visibles de leur repentir, &amp; s’ils ne quittent effectiuement ce damnable mestier, que les Saincts Canons<note resp="author" place="margin"><p>4. quest. 1. c. 1.</p></note> declarent infame, comme il est porté par le 3. Concile de Cartage.</p>
-        <p><hi rend="i">C’est peut estre aussi pourquoy les Papes les ont bannis de l’Eglise ?</hi></p>
-        <p>Cela est vray, &amp; la decision du droit Canon tirée de S. Cyprien dit,<note resp="author" place="margin"><p>C. scen : de consec. dist. 2.</p></note> que ce seroit traiter indignement la Majesté de Dieu, &amp; diffamer la Doctrine Euangelique, si on exposoit l’honneur &amp; la pureté de son Eglise,<note resp="author" place="margin"><p>C. prod. 65. de consec. dist. 2.</p></note> aux approches contagieux des villains, &amp; des gens sans honneur.</p>
+        <p>C’est quand on met son plaisir aux choses contraires à la reigle de la Doctrine de
+          l’Eglise, comme nous auons déja dit.</p>
+        <p><hi rend="i">S’il y auoit tant de mal, les Papes dans l’Eglise &amp; les Princes dans
+            leurs Estats, en auroient condamné l’vsage ?</hi></p>
+        <p>Aussi ont ils fait souuent, comme il paroist en vn Concile de Constantinople, qui prohibe
+          absolument les farceurs, bouffons &amp; Comediens,<note resp="author" place="margin"><p>in
+              Trul. c. 5.</p></note> auec les Ieux, Spectacles, &amp; les Dances qui s’y font, ainsi
+          qu’ont fait plusieurs autres Conciles.</p>
+        <p><hi rend="i">L’on ne doit donc pas ainsi receuoir les Comediens à la Saincte
+            Communion ?</hi></p>
+        <p>Il faut leur refuser sans doute, s’ils ne donnent des marques visibles de leur repentir,
+          &amp; s’ils ne quittent effectiuement ce damnable mestier, que les Saincts Canons<note
+            resp="author" place="margin"><p>4. quest. 1. c. 1.</p></note> declarent infame, comme il
+          est porté par le 3. Concile de Cartage.</p>
+        <p><hi rend="i">C’est peut estre aussi pourquoy les Papes les ont bannis de
+          l’Eglise ?</hi></p>
+        <p>Cela est vray, &amp; la decision du droit Canon tirée de S. Cyprien dit,<note
+            resp="author" place="margin"><p>C. scen : de consec. dist. 2.</p></note> que ce seroit
+          traiter indignement la Majesté de Dieu, &amp; diffamer la Doctrine Euangelique, si on
+          exposoit l’honneur &amp; la pureté de son Eglise,<note resp="author" place="margin"><p>C.
+              prod. 65. de consec. dist. 2.</p></note> aux approches contagieux des villains, &amp;
+          des gens sans honneur.</p>
         <p><hi rend="i">Les Princes seculiers les ont-ils ainsi mal traitez ?</hi></p>
-        <p>Il y paroist par ce que l’Empereur Theodose<note resp="author" place="margin"><p>L. ad bestias ! cod. Theod. l. 10. l. 2. §. 1. art. prator. ff. de his qui neant infam.</p></note> ordonna qu’on les exposast aux bestes feroces, &amp; par tout le droit Romain ils sont declarez infames, c’est à dire, indignes d’estre receus en témoignage, ny <pb n="450"/>d’exercer Offices publics.</p>
+        <p>Il y paroist par ce que l’Empereur Theodose<note resp="author" place="margin"><p>L. ad
+              bestias ! cod. Theod. l. 10. l. 2. §. 1. art. prator. ff. de his qui neant
+            infam.</p></note> ordonna qu’on les exposast aux bestes feroces, &amp; par tout le droit
+          Romain ils sont declarez infames, c’est à dire, indignes d’estre receus en témoignage, ny
+            <pb n="450" xml:id="p450"/>d’exercer Offices publics.</p>
         <p><hi rend="i">Nos Roys les ont-ils aussi condamnez ?</hi></p>
-        <p>Il suffit pour cela de lire l’Ordonnance de Charles IX. aux Estats d’Orleans, &amp; celle d’Henry III. à ceux de Blois, sur tout aux articles faits contre les farceurs, basteleurs, &amp; pareille vermine du siecle.</p>
+        <p>Il suffit pour cela de lire l’Ordonnance de Charles IX. aux Estats d’Orleans, &amp; celle
+          d’Henry III. à ceux de Blois, sur tout aux articles faits contre les farceurs, basteleurs,
+          &amp; pareille vermine du siecle.</p>
         <p><hi rend="i">Mais il y a grande difference de ces gens-là à nos Comediens ?</hi></p>
-        <p>Il ny en a aucune quant à la profession, &amp; aux personnes également infames, &amp; excommuniées : car de parler en rime ou en prose dans vne place ou vne Halle publique, cela ne change rien de la qualité des personnes ny de l’action.</p>
-        <p><hi rend="i">Neantmoins il y a tousiours meilleure compagnie aux vns qu’aux autres ?</hi></p>
-        <p>Dites plus apparente, mais non pas meilleure : car tous les assistans font vn pareil mal, comme estant pareillement deffendu, &amp; le nombre des foux estant infiny selon l’Escriture, principalement en semblables lieux.</p>
+        <p>Il ny en a aucune quant à la profession, &amp; aux personnes également infames, &amp;
+          excommuniées : car de parler en rime ou en prose dans vne place ou vne Halle publique,
+          cela ne change rien de la qualité des personnes ny de l’action.</p>
+        <p><hi rend="i">Neantmoins il y a tousiours meilleure compagnie aux vns qu’aux
+          autres ?</hi></p>
+        <p>Dites plus apparente, mais non pas meilleure : car tous les assistans font vn pareil mal,
+          comme estant pareillement deffendu, &amp; le nombre des foux estant infiny selon
+          l’Escriture, principalement en semblables lieux.</p>
         <p><hi rend="i">Est-ce donc vn si grand peché d’y assister ?</hi></p>
-        <p>Il est presque aussi grand que celuy des Acteurs, qui ne paroistroient pas en public, s’ils n’y estoient attirez par ceux qui les entendent, &amp; dont ils regardent plus l’argent, que tout autre chose. Il est de cela, comme de prester des échelles aux voleurs de qui ont se rend complice par ce moyen.</p>
-        <p><hi rend="i">Si les Comediens ne considerent que le profit qu’ils font, il est donc permis de leur donner quelque chose ?</hi></p>
-        <p>C’est ce qui est estroittement deffendu par les Canons,<note resp="author" place="margin"><p>Cap. donare dist. 86.</p></note> qui les condamnent, ne voulant pas que personne contribuë à leur subsistance, &amp; declarent que c’est vn tres-grand peché.</p>
-        <p><hi rend="i">Il y a pourtant des Princes &amp; Grands Seigneurs qui en entretiennent à leur dépens ?</hi></p>
-        <p><pb n="451"/>Cette action des Grands, ny leur qualité ne les rendent pas impeccables, au contraire la parole de Dieu enseigne, que les Grands &amp; les Puissans seront les plus puissamment chastiez,<note resp="author" place="margin"><p>Sap. 6. 7.</p></note> &amp; ce, tant pour leur propres pechez, que pour ceux où ils auront induit les autres par l’éclat de leur mauuais exemples.</p>
-        <p><hi rend="i">Cependant S. François de Sales dit que les Comedies ne sont nullement choses mauuaises en leur substance, ains indifferentes.</hi></p>
-        <p>Cela est vray, mais il faut lire tout le passage qui dit quelle sont dangereuses,<note resp="author" place="margin"><p>Introd. p. 2. ch. 23.</p></note> &amp; s’y affectionner cela est encore plus dangereux : ce sont les termes qui ne parlent que des Comedies honnestes, &amp; non de celles qu’on ioüe ordinairement &amp; qui sont deffenduës comme nous auons dit : De plus quoy que toutes choses soient bonnes en leur substance, il ne s’ensuit pas qu’elles le soient en tout leur vsage.</p>
-        <p><hi rend="i">Si ioüer des Comedies &amp; y assister sont de si grands pechez &amp; si scandaleux, pourquoy dans les Colleges ou l’on instruit les ieunes gens à la vertu &amp; aux bonnes mœurs, leurs en fait-on representer auec si grande affluence de leurs parens &amp; amis.</hi></p>
+        <p>Il est presque aussi grand que celuy des Acteurs, qui ne paroistroient pas en public,
+          s’ils n’y estoient attirez par ceux qui les entendent, &amp; dont ils regardent plus
+          l’argent, que tout autre chose. Il est de cela, comme de prester des échelles aux voleurs
+          de qui ont se rend complice par ce moyen.</p>
+        <p><hi rend="i">Si les Comediens ne considerent que le profit qu’ils font, il est donc
+            permis de leur donner quelque chose ?</hi></p>
+        <p>C’est ce qui est estroittement deffendu par les Canons,<note resp="author" place="margin"
+              ><p>Cap. donare dist. 86.</p></note> qui les condamnent, ne voulant pas que personne
+          contribuë à leur subsistance, &amp; declarent que c’est vn tres-grand peché.</p>
+        <p><hi rend="i">Il y a pourtant des Princes &amp; Grands Seigneurs qui en entretiennent à
+            leur dépens ?</hi></p>
+        <p><pb n="451" xml:id="p451"/>Cette action des Grands, ny leur qualité ne les rendent pas
+          impeccables, au contraire la parole de Dieu enseigne, que les Grands &amp; les Puissans
+          seront les plus puissamment chastiez,<note resp="author" place="margin"><p>Sap. 6.
+            7.</p></note> &amp; ce, tant pour leur propres pechez, que pour ceux où ils auront
+          induit les autres par l’éclat de leur mauuais exemples.</p>
+        <p><hi rend="i">Cependant S. François de Sales dit que les Comedies ne sont nullement choses
+            mauuaises en leur substance, ains indifferentes.</hi></p>
+        <p>Cela est vray, mais il faut lire tout le passage qui dit quelle sont dangereuses,<note
+            resp="author" place="margin"><p>Introd. p. 2. ch. 23.</p></note> &amp; s’y affectionner
+          cela est encore plus dangereux : ce sont les termes qui ne parlent que des Comedies
+          honnestes, &amp; non de celles qu’on ioüe ordinairement &amp; qui sont deffenduës comme
+          nous auons dit : De plus quoy que toutes choses soient bonnes en leur substance, il ne
+          s’ensuit pas qu’elles le soient en tout leur vsage.</p>
+        <p><hi rend="i">Si ioüer des Comedies &amp; y assister sont de si grands pechez &amp; si
+            scandaleux, pourquoy dans les Colleges ou l’on instruit les ieunes gens à la vertu &amp;
+            aux bonnes mœurs, leurs en fait-on representer auec si grande affluence de leurs parens
+            &amp; amis.</hi></p>
         <p>La difference de celle-cy aux autres est si visible, qu’elle paroist toute contraire.</p>
         <p><hi rend="i">En quoy paroist cette si grande difference ?</hi></p>
-        <p>C’est premierement que dans les Colleges le dessein des Precepteurs, n’est pas de dresser la ieunesse à la profession infame des Comediens, ny de leur apprendre à y gagner leur vie ?</p>
-        <p>2. Ce n’est qu’vn exercice honneste pour les rendre plus hardis &amp; capables de parler en public, selon les Emplois que la Prouidence &amp; leurs parens leur pourra donner.</p>
-        <p>3. Ce qu’ils representent en tels lieux, est souuent fort serieux &amp; en langage Latin, qui ne diuertit pas <pb n="452"/>beaucoup le Peuple, quoy qu’ils contentent leurs amis qui les voyent reciter leur rolet de bonne grace.</p>
-        <p>4. C’est que ces ieunes gens ne seront mis en ces Ieux, qu’vne fois ou deux pendant le cours de leurs estudes : Ce qui pris tout ensemble ne peut produire aucun mauuais effect comparable à ceux des Comediens publics.</p>
-        <p><hi rend="i">Les vrais Comediens representent aussi quelquefois des pieces serieuses, &amp; des Histoires Sainctes.</hi></p>
-        <p>C’est ce qui se voit fort rarement, &amp; hors vne ou deux qui ont déja vieilly, il n’en a point parû de cette sorte.</p>
-        <p><hi rend="i">Mais n’en pourroit-on pas composer de cette façon, qui ne diuertiroit pas moins que les autres ?</hi></p>
-        <p>Les Histoires Sainctes n’ont pas esté écrites pour donner du plaisir aux peuples, mais pour les porter à imiter les vertus des Saincts qui seroient profanez dans des bouches impures, &amp; par des miserables qu’on a bannis du commerce des gens de bien.</p>
-        <p><hi rend="i">L’Hostel de <seg resp="wordpro">Bourgogne</seg> a pourtant seruy à telles representations d’Histoires Sacrées ?</hi></p>
-        <p>Vous dittes vray : car autrefois quelques habitans de Paris representoient la Passion de Nostre Seigneur, dont la figure est encore restée en relief sur la porte de cét Hostel, &amp; il appartenoit à des Confreres, qui eussent peut estre mieux fait de la laisser inutile, que d’y mettre des infames qui destruisent ce que les premiers y auoient estably à bonne intention.</p>
-        <p><hi rend="i">I’ay oublié à vous demander si d’aller à la Comedie estoit peché mortel ou veniel ?</hi></p>
-        <p>Ie croy vous auoir dit que les assistans &amp; les ioüeurs, estoient presque également coupables, &amp; que les Peres de l’Eglise ont appellé ce peché tres-grief, qui peut se rendre pire par les diuerses circonstances ; ce qui doit suffire à des vrais Chrestiens qui croyent <pb n="453"/>en vn Dieu, à qui le peché veniel a mesme esté mortel, &amp; qui est mort indistinctement pour tous les pechez des hommes.</p>
+        <p>C’est premierement que dans les Colleges le dessein des Precepteurs, n’est pas de dresser
+          la ieunesse à la profession infame des Comediens, ny de leur apprendre à y gagner leur
+          vie ?</p>
+        <p>2. Ce n’est qu’vn exercice honneste pour les rendre plus hardis &amp; capables de parler
+          en public, selon les Emplois que la Prouidence &amp; leurs parens leur pourra donner.</p>
+        <p>3. Ce qu’ils representent en tels lieux, est souuent fort serieux &amp; en langage Latin,
+          qui ne diuertit pas <pb n="452" xml:id="p452"/>beaucoup le Peuple, quoy qu’ils contentent
+          leurs amis qui les voyent reciter leur rolet de bonne grace.</p>
+        <p>4. C’est que ces ieunes gens ne seront mis en ces Ieux, qu’vne fois ou deux pendant le
+          cours de leurs estudes : Ce qui pris tout ensemble ne peut produire aucun mauuais effect
+          comparable à ceux des Comediens publics.</p>
+        <p><hi rend="i">Les vrais Comediens representent aussi quelquefois des pieces serieuses,
+            &amp; des Histoires Sainctes.</hi></p>
+        <p>C’est ce qui se voit fort rarement, &amp; hors vne ou deux qui ont déja vieilly, il n’en
+          a point parû de cette sorte.</p>
+        <p><hi rend="i">Mais n’en pourroit-on pas composer de cette façon, qui ne diuertiroit pas
+            moins que les autres ?</hi></p>
+        <p>Les Histoires Sainctes n’ont pas esté écrites pour donner du plaisir aux peuples, mais
+          pour les porter à imiter les vertus des Saincts qui seroient profanez dans des bouches
+          impures, &amp; par des miserables qu’on a bannis du commerce des gens de bien.</p>
+        <p><hi rend="i">L’Hostel de Bourgogne a pourtant seruy à telles representations d’Histoires
+            Sacrées ?</hi></p>
+        <p>Vous dittes vray : car autrefois quelques habitans de Paris representoient la Passion de
+          Nostre Seigneur, dont la figure est encore restée en relief sur la porte de cét Hostel,
+          &amp; il appartenoit à des Confreres, qui eussent peut estre mieux fait de la laisser
+          inutile, que d’y mettre des infames qui destruisent ce que les premiers y auoient estably
+          à bonne intention.</p>
+        <p><hi rend="i">I’ay oublié à vous demander si d’aller à la Comedie estoit peché mortel ou
+            veniel ?</hi></p>
+        <p>Ie croy vous auoir dit que les assistans &amp; les ioüeurs, estoient presque également
+          coupables, &amp; que les Peres de l’Eglise ont appellé ce peché tres-grief, qui peut se
+          rendre pire par les diuerses circonstances ; ce qui doit suffire à des vrais Chrestiens
+          qui croyent <pb n="453" xml:id="p453"/>en vn Dieu, à qui le peché veniel a mesme esté
+          mortel, &amp; qui est mort indistinctement pour tous les pechez des hommes.</p>
       </div>
     </body>
   </text>
