@@ -2,202 +2,221 @@
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="petit_apologie_1765.pdf" xml:lang="fr">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Apologie du théâtre français</title>
-<author>Petit</author>
-</titleStmt>
-<editionStmt>
-<edition>OBVIL</edition>
-<respStmt>
-<name>François Lecercle</name>
-<resp>Responsable d’édition</resp>
-</respStmt>
-<respStmt>
-<name>Clotilde Thouret</name>
-<resp>Responsable d’édition</resp>
-</respStmt>
-</editionStmt>
-<publicationStmt>
-<publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
-<date when="2017"/>
-<availability status="restricted">
-<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-<p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
-<p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
-<p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
-<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
-</licence>
-</availability>
-</publicationStmt>
-<sourceDesc>
-<bibl>
-<title>Apologie du théâtre français</title>
-<author>Petit</author>
-<biblScope>p. 1-4</biblScope>
-<date>1765</date>
-</bibl>
-</sourceDesc>
-</fileDesc>
-<profileDesc>
-<creation>
-<date when="1765"/>
-</creation>
-<langUsage>
-<language ident="fr"/>
-</langUsage>
-</profileDesc>
-</teiHeader>
-<text>
-<body>
-<div type="texte" xml:id="HDT_75">
-<head>Apologie du théâtre français</head>
-<label><pb n="1"/>APOLOGIE DU THÉATRE FRANÇAIS,<lb/>Dédiée à Messieurs les Comédiens Français ordinaires du Roi.<lb/><hi rend="i">Par M. PETIT.</hi></label>
-<quote>
-<lg>
-<l>J’Entreprends de chanter une ample Apologie ;</l>
-<l>N’est-ce pas trop tenter pour un petit génie ?</l>
-<l>Trop heureux si je puis l’amener jusqu’au bout ;</l>
-<l>La remplir dignement &amp; satisfaire à tout !</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> J’ai choisi pour sujet notre Scéne française ;</l>
-<l>Je n’ai pû choisir mieux pour atteindre aux Talens,</l>
-<l>Pour attendrir les cœurs &amp; captiver les sens ;</l>
-<l>Elle ne produit rien qui n’instruise &amp; ne plaise.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> O Théâtre savant ! ta Scéne est accomplie.</l>
-<l>Tu ne nous offres rien que de <hi rend="sc">grand</hi>, de <hi rend="sc">pompeux</hi> ;</l>
-<l>Tu sais le présenter d’un air majestueux :</l>
-<l>Et l’on sort de chez toi toujours l’ame attendrie.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> On goûte avec plaisir les beautés d’un Ouvrage</l>
-<l>Où l’on voit de l’Auteur l’art, l’érudition ;</l>
-<l>De la part de l’Acteur, le jeu, son action ;</l>
-<l>On veut les imiter : au port on fait naufrage.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l><pb n="2"/> D’un côté c’est <hi rend="sc">Racine</hi> &amp; de l’autre un <hi rend="sc">Voltaire</hi> :</l>
-<l>L’un est tendre &amp; touchant ; l’autre délicieux :</l>
-<l>Il tonne dessus nous, &amp; menace les cieux ;</l>
-<l>Des hommes si profonds quittent trop tôt la Terre.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> C’est un <hi rend="sc">Moliere</hi> exquis plein de sages maximes,</l>
-<l>Gai, badin, élégant, bon, moral, instructif ;</l>
-<l>L’ornement de la Scéne &amp; de chez nous natif ;</l>
-<l>Le soutien du Théâtre &amp; le frondeur des crimes.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> Ici c’est un <hi rend="sc">Renard</hi>, dont la plume savante,</l>
-<l>Instruit en égaïant ; &amp; qui, par ses pinceaux,</l>
-<l>En caressant les cœurs, reprend tous leurs défauts.</l>
-<l>Le célébre Ecrivain ! ô la bouche éloquente !</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> Et là le grand <hi rend="sc">Corneille</hi> (Auteur incomparable)</l>
-<l>Pompeux dans ses écrits, sublime dans son art,</l>
-<l>Doit ici trouver place &amp; prendre aussi sa part ;</l>
-<l>L’esprit ingénieux ! il est inimitable.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> Eh ! le bon <hi rend="sc">Crebillon</hi>, d’éternelle mémoire,</l>
-<l>A fait jusqu’à sa mort les plus doctes écrits ;</l>
-<l>Qui n’est émerveillé d’entendre ses récits !</l>
-<l>Ses Œuvres achevés éternisent sa gloire.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> Combien d’Auteurs connus, qu’on passe sous silence,</l>
-<l>De leurs prédécesseurs parfaits imitateurs ;</l>
-<l>Même de leurs défauts discrets admirateurs,</l>
-<l>Etalent sous nos yeux de beautés, de science !</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l><pb n="3"/> Poursuivons notre éloge &amp; laissons ces grands hommes,</l>
-<l>Ces modeles parfaits &amp; ces Maîtres de l’art</l>
-<l>Qui connoissent de tout, &amp; qui dans tout ont part ;</l>
-<l>Je les laisse à regret. Voyons où nous en sommes.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> Ici c’est un Acteur qui brille sur la Scéne ;</l>
-<l>Tendre dans son langage, attrayant par son jeu,</l>
-<l>Et maître de son rôle, il le rend avec feu :</l>
-<l>A l’aller écouter toujours il nous entraîne.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> La, de cet autre bord, sont d’aimables Actrices,</l>
-<l>Dont la seule présence assure nos plaisirs ;</l>
-<l>Tous leurs propos décens retiennent nos désirs,</l>
-<l>Et de tous les côtés, ce ne sont que délices.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> Ici vient se mêler un héros dans nos Scénes,</l>
-<l>Qui, par son ton superbe, ébranle tous les cœurs,</l>
-<l>Et nous fait, bien souvent, répandre bien des pleurs :</l>
-<l>Il semble avoir en main de l’Empire les rênes.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> Et là de grands Danseurs formés dès leurs bas âges,</l>
-<l>Viennent vous délasser, varier vos plaisirs ;</l>
-<l>Et tous unis ensemble ont les mêmes désirs :</l>
-<l>Tous veulent mériter l’honneur de vos suffrages.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> Cette belle union qu’on voit entre eux qui régne,</l>
-<l>Est maintenue ici par des Supérieurs ;</l>
-<l>Ils ne sont dirigés que par de grands Seigneurs</l>
-<l>Qui les laissent pour vous à peine prendre haleine.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l><pb n="4"/> De nos anciens Acteurs la perte inexprimable</l>
-<l>Se fait sentir encor ; en nous les rappellants,</l>
-<l>Dans le jeu des nouveaux nous les voyons présents ;</l>
-<l>Tous, à l’envi, font voir un zele infatigable.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> O spectacle charmant, où la Scéne française</l>
-<l>Paroît dans son éclat &amp; dans son plus beau jour.</l>
-<l>Je veux-te maintenir &amp; te faire ma cour,</l>
-<l>Grossir tes revenus &amp; les tripler en caisse.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> O Théâtre du monde &amp; l’école savante !</l>
-<l>Présentes-nous tes mœurs ! Non, tu ne nous dis rien</l>
-<l>Qui ne soit bien décent &amp; qui ne mene au bien ;</l>
-<l>Et tu nous donne ensuite une fête galante.</l>
-</lg>
-<ab type="ornament">***</ab>
-<lg>
-<l> C’est le temple des Grands, l’azile des Vénus,</l>
-<l>L’école des Savans, le palais des Coquettes,</l>
-<l>L’hôtel de nos Abbés parés de leurs lorgnettes ;</l>
-<l>Et tous, pour leur argent, y sont tous bien venus.</l>
-</lg>
-</quote>
-</div>
-</body>
-</text>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Apologie du théâtre français</title>
+                <author key="Petit (17..-....)">Petit</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>François Lecercle</name>
+                    <resp>Responsable d’édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Clotilde Thouret</name>
+                    <resp>Responsable d’édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Nolwenn Chevalier</name>
+                    <resp>Édition XML</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+                <date when="2017"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/petit_apologie_1765/</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution – Pas
+                            d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures. La diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Petit, <title>Apologie du théâtre français</title>, <biblScope>p.
+                        1-4</biblScope>, 1765</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1765"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="book">
+                <head>Apologie du théâtre français</head>
+                <label><pb n="1" xml:id="p1"/>APOLOGIE DU THÉATRE FRANÇAIS,<lb/>Dédiée à Messieurs
+                    les Comédiens Français ordinaires du Roi.<lb/><hi rend="i">Par M.
+                    PETIT.</hi></label>
+                <quote>
+                    <lg>
+                        <l>J’Entreprends de chanter une ample Apologie ;</l>
+                        <l>N’est-ce pas trop tenter pour un petit génie ?</l>
+                        <l>Trop heureux si je puis l’amener jusqu’au bout ;</l>
+                        <l>La remplir dignement &amp; satisfaire à tout !</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> J’ai choisi pour sujet notre Scéne française ;</l>
+                        <l>Je n’ai pû choisir mieux pour atteindre aux Talens,</l>
+                        <l>Pour attendrir les cœurs &amp; captiver les sens ;</l>
+                        <l>Elle ne produit rien qui n’instruise &amp; ne plaise.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> O Théâtre savant ! ta Scéne est accomplie.</l>
+                        <l>Tu ne nous offres rien que de <hi rend="sc">grand</hi>, de <hi rend="sc"
+                                >pompeux</hi> ;</l>
+                        <l>Tu sais le présenter d’un air majestueux :</l>
+                        <l>Et l’on sort de chez toi toujours l’ame attendrie.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> On goûte avec plaisir les beautés d’un Ouvrage</l>
+                        <l>Où l’on voit de l’Auteur l’art, l’érudition ;</l>
+                        <l>De la part de l’Acteur, le jeu, son action ;</l>
+                        <l>On veut les imiter : au port on fait naufrage.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l><pb n="2" xml:id="p2"/> D’un côté c’est <hi rend="sc">Racine</hi> &amp;
+                            de l’autre un <hi rend="sc">Voltaire</hi> :</l>
+                        <l>L’un est tendre &amp; touchant ; l’autre délicieux :</l>
+                        <l>Il tonne dessus nous, &amp; menace les cieux ;</l>
+                        <l>Des hommes si profonds quittent trop tôt la Terre.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> C’est un <hi rend="sc">Moliere</hi> exquis plein de sages maximes,</l>
+                        <l>Gai, badin, élégant, bon, moral, instructif ;</l>
+                        <l>L’ornement de la Scéne &amp; de chez nous natif ;</l>
+                        <l>Le soutien du Théâtre &amp; le frondeur des crimes.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> Ici c’est un <hi rend="sc">Renard</hi>, dont la plume savante,</l>
+                        <l>Instruit en égaïant ; &amp; qui, par ses pinceaux,</l>
+                        <l>En caressant les cœurs, reprend tous leurs défauts.</l>
+                        <l>Le célébre Ecrivain ! ô la bouche éloquente !</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> Et là le grand <hi rend="sc">Corneille</hi> (Auteur incomparable)</l>
+                        <l>Pompeux dans ses écrits, sublime dans son art,</l>
+                        <l>Doit ici trouver place &amp; prendre aussi sa part ;</l>
+                        <l>L’esprit ingénieux ! il est inimitable.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> Eh ! le bon <hi rend="sc">Crebillon</hi>, d’éternelle mémoire,</l>
+                        <l>A fait jusqu’à sa mort les plus doctes écrits ;</l>
+                        <l>Qui n’est émerveillé d’entendre ses récits !</l>
+                        <l>Ses Œuvres achevés éternisent sa gloire.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> Combien d’Auteurs connus, qu’on passe sous silence,</l>
+                        <l>De leurs prédécesseurs parfaits imitateurs ;</l>
+                        <l>Même de leurs défauts discrets admirateurs,</l>
+                        <l>Etalent sous nos yeux de beautés, de science !</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l><pb n="3" xml:id="p3"/> Poursuivons notre éloge &amp; laissons ces grands
+                            hommes,</l>
+                        <l>Ces modeles parfaits &amp; ces Maîtres de l’art</l>
+                        <l>Qui connoissent de tout, &amp; qui dans tout ont part ;</l>
+                        <l>Je les laisse à regret. Voyons où nous en sommes.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> Ici c’est un Acteur qui brille sur la Scéne ;</l>
+                        <l>Tendre dans son langage, attrayant par son jeu,</l>
+                        <l>Et maître de son rôle, il le rend avec feu :</l>
+                        <l>A l’aller écouter toujours il nous entraîne.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> La, de cet autre bord, sont d’aimables Actrices,</l>
+                        <l>Dont la seule présence assure nos plaisirs ;</l>
+                        <l>Tous leurs propos décens retiennent nos désirs,</l>
+                        <l>Et de tous les côtés, ce ne sont que délices.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> Ici vient se mêler un héros dans nos Scénes,</l>
+                        <l>Qui, par son ton superbe, ébranle tous les cœurs,</l>
+                        <l>Et nous fait, bien souvent, répandre bien des pleurs :</l>
+                        <l>Il semble avoir en main de l’Empire les rênes.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> Et là de grands Danseurs formés dès leurs bas âges,</l>
+                        <l>Viennent vous délasser, varier vos plaisirs ;</l>
+                        <l>Et tous unis ensemble ont les mêmes désirs :</l>
+                        <l>Tous veulent mériter l’honneur de vos suffrages.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> Cette belle union qu’on voit entre eux qui régne,</l>
+                        <l>Est maintenue ici par des Supérieurs ;</l>
+                        <l>Ils ne sont dirigés que par de grands Seigneurs</l>
+                        <l>Qui les laissent pour vous à peine prendre haleine.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l><pb n="4" xml:id="p4"/> De nos anciens Acteurs la perte inexprimable</l>
+                        <l>Se fait sentir encor ; en nous les rappellants,</l>
+                        <l>Dans le jeu des nouveaux nous les voyons présents ;</l>
+                        <l>Tous, à l’envi, font voir un zele infatigable.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> O spectacle charmant, où la Scéne française</l>
+                        <l>Paroît dans son éclat &amp; dans son plus beau jour.</l>
+                        <l>Je veux-te maintenir &amp; te faire ma cour,</l>
+                        <l>Grossir tes revenus &amp; les tripler en caisse.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> O Théâtre du monde &amp; l’école savante !</l>
+                        <l>Présentes-nous tes mœurs ! Non, tu ne nous dis rien</l>
+                        <l>Qui ne soit bien décent &amp; qui ne mene au bien ;</l>
+                        <l>Et tu nous donne ensuite une fête galante.</l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                        <l> C’est le temple des Grands, l’azile des Vénus,</l>
+                        <l>L’école des Savans, le palais des Coquettes,</l>
+                        <l>L’hôtel de nos Abbés parés de leurs lorgnettes ;</l>
+                        <l>Et tous, pour leur argent, y sont tous bien venus.</l>
+                    </lg>
+                </quote>
+            </div>
+        </body>
+    </text>
 </TEI>
