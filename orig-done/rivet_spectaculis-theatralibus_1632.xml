@@ -2,11 +2,11 @@
 <?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="lat">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>De spectaculis Theatralibus [Praelectiones in Cap. XX Exodi]</title>
+                <title>De spectaculis Theatralibus. Chapitre de Praelectiones in Cap. XX Exodi</title>
                 <author key="Rivet, André (1573?-1651)"
                     ref="https://data.bnf.fr/fr/12086369/andre_rivet/">André Rivet</author>
             </titleStmt>
@@ -20,11 +20,15 @@
                     <name>Anne-Laure Huet</name>
                     <resp>contributeur</resp>
                 </respStmt>
+                <respStmt>
+                    <name>Nolwenn Chevalier</name>
+                    <resp>Édition XML</resp>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Sorbonne Université, LABEX OBVIL</publisher>
                 <date when="2019"/>
-                <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/rivet_spectaculis-theatralibus_1632</idno>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/rivet_spectaculis-theatralibus_1632/</idno>
                 <availability status="restricted">
                     <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
                         <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
@@ -366,7 +370,7 @@
                 <p>Veterum patrum adversus ludos scenicos testimonia penè sunt innumera. Sed ad
                     quædam capita possunt revocari, pro ratione vitiorum quæ in talibus merito
                     culpabant. Erant autem tria, 1. Quod diis quos <pb n="346" xml:id="p346"
-                    />colebant in comicis suis ludis ea affingebant scelera &amp; probra, quæ nemo
+                   />colebant in comicis suis ludis ea affingebant scelera &amp; probra, quæ nemo
                     honestus sine pudore audiret. 2. Quod tales ludi Deorum nomine consecrati, in
                     partem divini cultus veniebant. 3. Quod rerum &amp; verborum turpitudine ad
                     pravas cupiditates incitabant &amp; scelera, &amp; fictis criminibus, ad vera
@@ -636,7 +640,7 @@
                     Reformatarum Galliæ constitutio habetur, quam hic apponemus, &amp; quæstionem
                     hanc finiemus. Sic autem habet. <quote><hi rend="i">Non licebit fidelibus
                             interesse Comœdiis, Tragœdiis, mimis, <pb n="351" xml:id="p351"
-                            />moralitatibus aut similibus ludis, actis publicè vel privatim ; cum
+                           />moralitatibus aut similibus ludis, actis publicè vel privatim ; cum
                             omni tempore id inter Christianos prohibitum fuerit, tanquam bonis
                             moribus noxium. In primis vero cum profanatur scriptura. Si tamen
                             aliquando in collegio aliquo, utile judicetur ut juventus aliquam
