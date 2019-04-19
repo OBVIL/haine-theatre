@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="veron_discipline-eglises-reformees_1643" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="veron_discipline-eglises-reformees_1643"
+  xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>La discipline des Eglises prétenduement réformées</title>
-        <author>Veron, François</author>
+        <author key="Véron, François (1575-1649)"
+          ref="https://data.bnf.fr/fr/11993752/francois_veron/">François Véron</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -18,27 +20,38 @@
           <name>Clotilde Thouret</name>
           <resp>Responsable d’édition</resp>
         </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>Édition XML</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2016"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/veron_discipline-eglises-reformees_1643/</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
-            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
-            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
-            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
+              « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons : «
+              Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC
+              BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures. La
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <title>La discipline des Eglises prétenduement réformées</title>
-          <author>Veron, François</author>
-          <biblScope>p. 381-384</biblScope>
-          <date>1643, rééd. 1663</date>
-        </bibl>
+        <bibl>François Véron, <title>La discipline des Eglises prétenduement réformées</title>,
+            <biblScope>p. 381-384</biblScope>, 1643, rééd. 1663</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,35 +59,69 @@
         <date when="1643"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="texte" xml:id="HDT_26">
+      <div>
         <head>La discipline des Eglises prétenduement réformées</head>
-        <label><pb n="381"/>XXVII.</label>
-        <p><hi rend="i">Les dances seront reprimées, &amp; ceux qui font estat de dancer ou assister aux dances, apres auoir esté admonestez plusieurs fois, seront excommuniez quand il y aura pertinacité &amp; rebellion. Si sont chargez les Consistoires de bien pratiquer cet Article, en faire lecture publique au nom de Dieu, en l’authorité des Synodes ; Et les Colloques &amp; Synodes Prouinciaux exhortez de bien prendre garde aux Consistoires qui ne feront deuoir de les censurer.</hi></p>
+        <label><pb n="381" xml:id="p381"/>XXVII.</label>
+        <p><hi rend="i">Les dances seront reprimées, &amp; ceux qui font estat de dancer ou assister
+            aux dances, apres auoir esté admonestez plusieurs fois, seront excommuniez quand il y
+            aura pertinacité &amp; rebellion. Si sont chargez les Consistoires de bien pratiquer cet
+            Article, en faire lecture publique au nom de Dieu, en l’authorité des Synodes ; Et les
+            Colloques &amp; Synodes Prouinciaux exhortez de bien prendre garde aux Consistoires qui
+            ne feront deuoir de les censurer.</hi></p>
         <quote>
           <label>Du S.N. de Figeac, 1579. Art. 26.</label>
-          <p>Pour le regard des dances, les Consistoires sont aduertis, qu’ils ayent à faire obseruer tant estroittement qu’ils pourront l’Article 27. des Reglemens, qui deffend de dancer, distinguant prudemment entre ceux qui se montreront du tout rebelles aux sainctes admonitions, &amp; ceux qui montreront par leur discontinuation auoir profité des admonitions qui leur auront esté faites, de ne point dancer.</p>
+          <p>Pour le regard des dances, les Consistoires sont aduertis, qu’ils ayent à faire
+            obseruer tant estroittement qu’ils pourront l’Article 27. des Reglemens, qui deffend de
+            dancer, distinguant prudemment entre ceux qui se montreront du tout rebelles aux
+            sainctes admonitions, &amp; ceux qui montreront par leur discontinuation auoir profité
+            des admonitions qui leur auront esté faites, de ne point dancer.</p>
         </quote>
         <quote>
           <label>Du S.N. de la Rochelle, 1581. Art.</label>
-          <p>A cause que les dances &amp; autres dissolutions croissent en toutes les Eglises, les Consistoires seront exhortez de bien pratiquer l’Article 27. des Reglemens, &amp; le 26. du Synode de Figeac, &amp; <seg resp="wordpro">d’en faire</seg> <pb n="382"/>lecture publique au nom de Dieu &amp; de l’authorité de cette Compagnie ; &amp; les Synodes &amp; Colloques ont charge de censurer les Consistoires qui ne feront leur deuoir.</p>
+          <p>A cause que les dances &amp; autres dissolutions croissent en toutes les Eglises, les
+            Consistoires seront exhortez de bien pratiquer l’Article 27. des Reglemens, &amp; le 26.
+            du Synode de Figeac, &amp; d’en faire <pb n="382" xml:id="p382"/>lecture publique au nom
+            de Dieu &amp; de l’authorité de cette Compagnie ; &amp; les Synodes &amp; Colloques ont
+            charge de censurer les Consistoires qui ne feront leur deuoir.</p>
         </quote>
         <label>XXVIII.</label>
-        <p><hi rend="i">Les Mommeries &amp; Basteleries ne seront point souffertes, ny faire le Roy boit, ny le Mardy gras ; semblablement les ioüeurs de passe-passe, tours de gobelets, souplesses, marionnettes. Et les Magistrats Chrestiens exhortez de ne les souffrir, d’autant que cela entretient la curiosité, &amp; apporte de la dépense, &amp; perte de temps. Ne sera loisible aux Fideles d’assister aux Comedies, Tragedies, Farces, Moralitez, &amp; autres jeux joüez en public ou en particulier, veu que de tout temps cela a esté deffendu entre les Chrestiens, comme <seg resp="wordpro">apportant</seg> corruption de bonnes mœurs, mais sur tout quand l’Escriture Sainte y est profanée. Neantmoins quand en vn College il sera trouué vtile à la ieunesse de representer quelque Histoire, on le pourra tollerer, pourueu qu’elle ne soit comprise en l’Escriture Sainte, qui n’est <pb n="383"/>baillée pour estre joüée, mais purement preschée, aussi que cela se fasse rarement, &amp; par l’aduis du Colloque, qui en verra la composition.</hi></p>
+        <p><hi rend="i">Les Mommeries &amp; Basteleries ne seront point souffertes, ny faire le Roy
+            boit, ny le Mardy gras ; semblablement les ioüeurs de passe-passe, tours de gobelets,
+            souplesses, marionnettes. Et les Magistrats Chrestiens exhortez de ne les souffrir,
+            d’autant que cela entretient la curiosité, &amp; apporte de la dépense, &amp; perte de
+            temps. Ne sera loisible aux Fideles d’assister aux Comedies, Tragedies, Farces,
+            Moralitez, &amp; autres jeux joüez en public ou en particulier, veu que de tout temps
+            cela a esté deffendu entre les Chrestiens, comme apportant corruption de bonnes mœurs,
+            mais sur tout quand l’Escriture Sainte y est profanée. Neantmoins quand en vn College il
+            sera trouué vtile à la ieunesse de representer quelque Histoire, on le pourra tollerer,
+            pourueu qu’elle ne soit comprise en l’Escriture Sainte, qui n’est <pb n="383"
+              xml:id="p383"/>baillée pour estre joüée, mais purement preschée, aussi que cela se
+            fasse rarement, &amp; par l’aduis du Colloque, qui en verra la composition.</hi></p>
         <quote>
           <label>Du S.N. de Saint Maixant, 1609. Art. 16. des Obs. sur la Disc.</label>
-          <p>La Compagnie enioint aux Consistoires, Colloques &amp; Synodes Prouinciaux, de proceder par toutes censures Ecclesiastiques contre ceux qui plantent des Mays, &amp; y commettent des débauches &amp; insolences.</p>
+          <p>La Compagnie enioint aux Consistoires, Colloques &amp; Synodes Prouinciaux, de proceder
+            par toutes censures Ecclesiastiques contre ceux qui plantent des Mays, &amp; y
+            commettent des débauches &amp; insolences.</p>
         </quote>
         <label>XXIX.</label>
-        <p><hi rend="i">Tous jeux défendus par les Edits du Roy, comme cartes, dez, &amp; autres jeux d’hazard, &amp; ceux où il y aura auarice, impudicité, perte notoire de temps, ou scandale, seront reprimez, &amp; les personnes reprises, &amp; admonestées au Consistoire, &amp; censurées selon les circonstances. Les Blanques aussi ne peuuent estre approuuées, soit qu’elles se fassent par la permission du Magistrat, ou autrement : Et les Magistrats fideles sont exhortez d’y tenir la main.</hi></p>
+        <p><hi rend="i">Tous jeux défendus par les Edits du Roy, comme cartes, dez, &amp; autres
+            jeux d’hazard, &amp; ceux où il y aura auarice, impudicité, perte notoire de temps, ou
+            scandale, seront reprimez, &amp; les personnes reprises, &amp; admonestées au
+            Consistoire, &amp; censurées selon les circonstances. Les Blanques aussi ne peuuent
+            estre approuuées, soit qu’elles se fassent par la permission du Magistrat, ou
+            autrement : Et les Magistrats fideles sont exhortez d’y tenir la main.</hi></p>
         <quote>
           <label>Du S.N. de Montpellier, 1598. Art. 28. des Obs. sur la Disc.</label>
-          <p><pb n="384"/>La Blanque qui sera authorisée par le Magistrat pour le soulagement des mineurs debiteurs &amp; marchands, ne sera condamnée ; mais bien les autres qui ne sont de cette qualité, comme celles qu’on appelle <hi rend="i">Rouës de Fortune</hi>, sont deffenduës.</p>
+          <p><pb n="384" xml:id="p384"/>La Blanque qui sera authorisée par le Magistrat pour le
+            soulagement des mineurs debiteurs &amp; marchands, ne sera condamnée ; mais bien les
+            autres qui ne sont de cette qualité, comme celles qu’on appelle <hi rend="i">Rouës de
+              Fortune</hi>, sont deffenduës.</p>
         </quote>
       </div>
     </body>
