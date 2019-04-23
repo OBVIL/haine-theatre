@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlid="bardou_epistre_1694" xml:lang="fre">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Epître sur la condemnation du théâtre</title>
         <author key="Bardou, Pierre (1...-1724)">Pierre Bardou</author>
         <editor key="Goursolas, Marie-Hélène">Marie-Hélène Goursolas</editor>
-        </titleStmt>
+      </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
@@ -27,18 +27,36 @@
           <name>Ludivine Rey</name>
           <resp>Contributeur</resp>
         </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>Édition XML</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2016"/>
         <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/bardou_epistre_1694/</idno>
         <availability status="restricted">
-          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire d'Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l'OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d'Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l'OBVIL et surtout l'adresse Internet de la ressource.</p><p>Pas d'Utilisation Commerciale : dans l'intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l'OBVIL s'engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n'est pas souhaitable.</p></licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2018
+              Université Paris-Sorbonne, agissant pour le Laboratoire d'Excellence « Observatoire de
+              la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique
+              protégée par le code de la propriété intellectuelle sur les bases de données (L341-1)
+              est mise à disposition de la communauté scientifique internationale par l'OBVIL, selon
+              les termes de la licence Creative Commons : « Attribution - Pas d'Utilisation
+              Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution
+              : afin de référencer la source, toute utilisation ou publication dérivée de cette
+              ressource électroniques comportera le nom de l'OBVIL et surtout l'adresse Internet de
+              la ressource.</p><p>Pas d'Utilisation Commerciale : dans l'intérêt de la communauté
+              scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification :
+              l'OBVIL s'engage à améliorer et à corriger cette ressource électronique, notamment en
+              intégrant toutes les contributions extérieures. La diffusion de versions modifiées de
+              cette ressource n'est pas souhaitable.</p></licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Pierre Bardou</author>, <title>Epistre sur la condamnation du theatre a Monsieur Racine</title>, <pubPlace>Paris</pubPlace>, <publisher>Chez la veuve de Jean Baptiste Coignard</publisher>, <date>1684</date>.
-        </bibl>
+        <bibl>Pierre Bardou, <hi rend="i">Epistre sur la condamnation du theatre a
+            Monsieur Racine</hi>, <pubPlace>Paris</pubPlace>, <publisher>Chez la veuve de Jean
+            Baptiste Coignard</publisher>, 1684. </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -52,166 +70,180 @@
   </teiHeader>
   <text>
     <body>
-      <div>
+      <div type="frontispiece">
         <head rend="small">[FRONTISPICE]</head>
-        <p rend="center"> <hi rend="uc">Epistre<lb/>sur<lb/>la condamnation<lb/>du theatre<lb/><hi rend="i">a Monsieur Racine</hi><lb/><lb/>a Paris,</hi><lb/>Chez la veuve de <hi rend="sc">Jean Baptiste Coignard</hi> Imprimeur ordinaire<lb/>du Roy et de l’Académie Française, rue S. Jacques, devant la rue<lb/>des Noyers, à la Bible d’or.<lb/>MDCLXXXIV.<lb/><hi rend="i"><hi rend="sc">avec permission</hi></hi><pb n="3" /></p></div>
-        <div>
-      <l>Le Théâtre est proscrit, RACINE, il va cesser,</l>
-      <l>L’Eglise, sur ce point, commence à prononcer.</l>
-        <l>Contre le T***<note resp="editor">[NDE] : Le père François Caffaro, « Théatin », auteur de la « Lettre d’un théologien, illustre par sa qualité et son mérite, consulté par l’auteur pour savoir si la Comédie peut être permise, ou doit être absolument défendu » (dans Pièces de théâtre de Boursault, Paris : Jean Guignard, 1694, p. 1-75.)</note>, et son hardi volume</l>
-      <l>Je vois de toutes parts son zèle qui s’allume.</l>
-        <l>Le Prélat a fait bruit<note resp="editor">[NDE] : La prise de position du père Caffaro en faveur du théâtre a fait réagir Bossuet lui-même qui, après une lettre cinglante à l’intéressé, fait paraître ses <hi rend="i">Maximes et réflexions sur la Comédie</hi> (Paris, Jean Anisson, 1694).</note> ; et la chaire a tonné.</l>
-      <l>Sous le poids des écrits, dont il est condamné,</l>
-      <l>Déjà plus d’un Docteur a fait gémir la presse.</l>
-      <l>En vain, pour l’appuyer, la volupté s’empresse ;</l>
-      <l>La Comédie expire, et son vain défenseur</l>
-      <l>Ne sert qu’à réveiller le courroux du Censeur.</l>
-      <l/>
-      <l><pb n="4" /> Et qui peut, parmi nous, approuver une Scène</l>
-      <l>Où règne avec éclat l’impiété païenne ?</l>
-      <l>Où l’on voit chaque jour les Démons encensés</l>
-      <l>Rétablir, par nos mains, leurs autels renversés.</l>
-      <l>Quelle école, en ces lieux, pour la faible jeunesse,</l>
-      <l>Que celle, où l’on enseigne à sentir la tendresse ?</l>
-      <l>Où, pour toucher d’exemple, et suborner un cœur,</l>
-      <l>Par les yeux d’une femme on enchaîne un vainqueur :</l>
-      <l>Où l’on fait aux héros un devoir ridicule</l>
-      <l>De se soumettre au Dieu qui fait filer Hercule.</l>
-      <l>Aux païens, il est vrai, l’on pardonne aisément</l>
-      <l>Qu’un héros courageux devienne un lâche amant.</l>
-      <l>D’une Vénus infâme adorateurs fidèles,</l>
-      <l>Leurs flammes n’étaient point honteuses, criminelles :</l>
-      <l>L’amour le plus indigne, et le plus vicieux</l>
-      <l>Avait, pour s’excuser, l’exemple de leurs Dieux.</l>
-      <l>Mais nous, que l’Evangile instruit de ses maximes,</l>
-      <l>Nous verra-t-on ainsi diviniser les crimes ?</l>
-      <l>En donner au public des préceptes pompeux,</l>
-      <l>Consacrer à l’amour des hymnes et des jeux ;</l>
-      <l>Sur la terre et le ciel lui donner la victoire,</l>
-      <l>Et charmés de nos fers, applaudir à sa gloire.</l>
-      <l/>
-      <l>Cet amour, nous dit-on, que l’on peint si puissant,</l>
-      <l>Dans ses plus grands transports n’a rien que d’innocent.</l>
-      <l>Du théâtre, aujourd’hui, les douces impostures</l>
-      <l>N’en font aux spectateurs que de sages peintures ;</l>
-      <l>Par l’austère devoir le crime est combattu ;</l>
-      <l>Et l’on y voit toujours triompher la vertu.</l>
-      <l/>
-      <l>RACINE, c’est ainsi que tes doctes ouvrages</l>
-      <l>N’offrirent de ton cœur que de nobles images.</l>
-      <l><pb n="5" />L’amour, dans tes écrits, honnête, généreux,</l>
-      <l>Dès qu’il fut déréglé se trouva malheureux.</l>
-      <l>Mais toi-même, bientôt, en te rendant justice,</l>
-      <l>N’as-tu pas du Démon reconnu l’artifice,</l>
-      <l>Qui pour mieux préparer son funeste poison,</l>
-      <l>Sait donner à l’erreur un faux air de raison :</l>
-      <l>Content que l’on affecte un dehors de sagesse,</l>
-      <l>Plonge insensiblement les cœurs dans la mollesse ;</l>
-      <l>Et fait du fol amour de si charmants portraits,</l>
-      <l>Qu’on cesse d’éviter et de craindre ses traits ?</l>
-      <l>Tu voulus dans les vers d’Esther et d’Athalie,</l>
-      <l>Donner un nouveau lustre à la Scène avilie ;</l>
-      <l>Et par toi, dans saint Cyr, le théâtre ennobli</l>
-      <l>Offre du vrai sublime un modèle accompli.</l>
-      <l/>
-      <l>On ne voit pas régner, dans ce nouveau tragique,</l>
-      <l>Tout le faux merveilleux de la vertu stoïque.</l>
-      <l>Tes héros ne sont pas de ces audacieux</l>
-      <l>Qui ravagent la terre, et menacent les cieux.</l>
-      <l>Ici, l’amour masqué d’une sage apparence,</l>
-      <l>Ne tend point en secret de piège à l’innocence.</l>
-      <l>De plus grands intérêts, de plus beaux sentiments</l>
-      <l>N’excitent dans l’esprit que d’heureux mouvements.</l>
-      <l>On y voit, dès l’abord, s’emparer de la Scène</l>
-      <l>Du véritable Dieu la grandeur souveraine.</l>
-      <l>De sa gloire invisible on sent la majesté ;</l>
-      <l>On y craint sa justice, on chérit sa bonté.</l>
-      <l>Mon âme, qui se sent de sa grandeur première,</l>
-      <l>Vole vers cet objet, s’y livre toute entière ;</l>
-      <l>Et goûtant, à longs traits, l’aimable vérité,</l>
-      <l>Conçoit pour tout le reste une illustre fierté.<note resp="editor">[NDE] On corrige un point d’interrogation en point.</note> </l>
-      <l><pb n="6" /> Mieux que dans les écrits du savant paganisme,</l>
-      <l>Tu m’y fais admirer le parfait héroïsme.</l>
-      <l>Une vertu sublime, ou n’entre point l’orgueil,</l>
-      <l>De la vertu païenne inévitable écueil,</l>
-      <l>Un courage indompté, conduit par la sagesse ;</l>
-      <l>Nul mélange honteux de force et de faiblesse.</l>
-      <l>Si de la belle Esther un Prince est enchanté,</l>
-      <l>C’est sa vertu qu’il vante et non pas sa beauté,</l>
-      <l>Rien du profane amour n’y ressent la licence ;</l>
-      <l>Tout respire en Esther la paix et l’innocence.</l>
-      <l>Quel plaisir d’écouter tes aimables Acteurs,</l>
-      <l>Des plus hautes vertus nouveaux Prédicateurs !</l>
-      <l>Des poèmes si beaux, chaque fois qu’on les joue,</l>
-      <l>Exercent sur nos cœurs les droits de Bourdaloue :</l>
-      <l>Celui qui de son Dieu tendait à s’éloigner,</l>
-      <l>S’y sent, par le plaisir, doucement ramener.</l>
-      <l>Et quand, des saints écrits magnifique interprète,</l>
-      <l>Tu prends entre tes mains la harpe du prophète ;</l>
-      <l>Est-il quelque démon, dans l’âme des méchants,</l>
-      <l>Qui puisse résister à des sons si touchants ?</l>
-      <l/>
-      <l>C’est là que la vertu peut tenir son école.</l>
-      <l>L’acteur innocemment y peut jouer son rôle.</l>
-      <l>Là, mettant à profit les heures du loisir,</l>
-      <l>Le parterre chrétien s’instruit avec plaisir.</l>
-      <l>C’est dans ces vers sacrez, mêlés de symphonie,</l>
-      <l>Qu’il sied bien aux auteurs d’exercer leur génie.</l>
-      <l>S’ils ont de leurs talents autrement disposé,</l>
-      <l>C’est un présent du Ciel dont ils ont abusé.</l>
-      <l>Pour donner à son culte un air plus magnifique,</l>
-      <l>Dieu sans doute inspira les vers et la musique.</l>
-      <l><pb n="7" /> Faut-il que pour la fable il se soit consumé,</l>
-      <l>Tout ce beau feu d’esprit parmi nous allumé !</l>
-      <l>Mensonges séducteurs, pompeuses bagatelles,</l>
-      <l>Méritiez-vous d’user nos plumes les plus belles !</l>
-      <l>Fallait-il, pour chanter l’amour, et ses erreurs,</l>
-      <l>Profaner d’un Lully les divines fureurs !</l>
-      <l/>
-      <l>Loin de nous, l’appareil de tous ces vains spectacles,</l>
-      <l>Qui doivent leur éclat aux fabuleux miracles ;</l>
-      <l>Et dont tout l’art consiste à savoir ranimer</l>
-      <l>D’aveugles passions qu’il nous faut réprimer.</l>
-      <l>Gardons-nous d’écouter d’amoureuses chimères ;</l>
-      <l>D’honorer de nos pleurs des maux imaginaires.</l>
-      <l>Ou, s’il est à pleurer certaine volupté,</l>
-      <l>Pleurons des saints héros la mort, l’adversité.</l>
-      <l>Qu’on vienne, à ton exemple, en de savantes veilles,</l>
-      <l>Des volumes sacrés étaler les merveilles.</l>
-      <l>De Joseph, dans les fers, partageons les douleurs ;</l>
-      <l>Pour Jonathas mourant laissons couler nos pleurs.</l>
-      <l>Que du ferme Abraham l’auguste sacrifice</l>
-      <l>Prépare des dangers dont notre cœur frémisse.</l>
-      <l>Allons, avec Jephté, soupirer à l’autel,</l>
-      <l>Où sa fille innocente attend le coup mortel.</l>
-      <l>Dieu qui verra nos cœurs touchés par ces images,</l>
-      <l>Jusque dans nos plaisirs recevra nos hommages.</l>
-      <l>Mais, qu’il rentre à jamais dans l’éternelle nuit,</l>
-      <l>Ce fantôme d’amour, que la Scène a produit !</l>
-      <l>Qui sait presque toujours allumer dans nos veines</l>
-      <l>Le feu dont il brûla les Phèdres, les Chimènes.</l>
-      <l>Malheur à notre esprit, s’il goûte des plaisirs</l>
-      <l>Qui peuvent contre Dieu révolter nos désirs !</l>
-      <l/>
-      <l><pb n="8" />Mais je le vois tomber ce dangereux théâtre,</l>
-      <l>Qu’anima si longtemps un génie idolâtre.</l>
-      <l>Ses poètes rampants, et ses mauvais acteurs</l>
-      <l>Rebutent, chaque jour, les doctes spectateurs.</l>
-      <l>Pour charmer dans ses jeux, l’esprit avec l’oreille,</l>
-      <l>Il n’a plus son Molière, il a perdu Corneille.</l>
-      <l>Et lorsque par toi seul soutenu, rassuré,</l>
-      <l>Il voit monter sa gloire au suprême degré ;</l>
-      <l>Tu disparais, tu veux faire un plus noble usage</l>
-      <l>Des talents que le ciel t’a donnés en partage.</l>
-      <l>RACINE, c’en est fait. Tout son lustre a passé,</l>
-      <l>Depuis qu’à l’embellir ta muse a renoncé.</l>
-      <l>Et ta sage retraite est un coup qui l’étonne</l>
-      <l>Plus que tous les Censeurs que lui fait la Sorbonne.</l>
-      <l/>
-          
-      <signed>P. BARDOU </signed>
-      <byline>Prieur de la Voux</byline>
-      <signed/>
+        <p rend="center">
+          <hi rend="uc">Epistre<lb/>sur<lb/>la condamnation<lb/>du theatre<lb/><hi rend="i">a
+              Monsieur Racine</hi><lb/><lb/>a Paris,</hi><lb/>Chez la veuve de <hi rend="sc">Jean
+            Baptiste Coignard</hi> Imprimeur ordinaire<lb/>du Roy et de l’Académie Française, rue S.
+          Jacques, devant la rue<lb/>des Noyers, à la Bible d’or.<lb/>MDCLXXXIV.<lb/><hi rend="i"
+              ><hi rend="sc">avec permission</hi></hi><pb n="3" xml:id="p3"/></p>
+      </div>
+      <div type="section">
+        <l>Le Théâtre est proscrit, RACINE, il va cesser,</l>
+        <l>L’Eglise, sur ce point, commence à prononcer.</l>
+        <l>Contre le T***<note resp="editor">[NDE] : Le père François Caffaro, « Théatin », auteur
+            de la « Lettre d’un théologien, illustre par sa qualité et son mérite, consulté par
+            l’auteur pour savoir si la Comédie peut être permise, ou doit être absolument défendu »
+            (dans Pièces de théâtre de Boursault, Paris : Jean Guignard, 1694, p. 1-75.)</note>, et
+          son hardi volume</l>
+        <l>Je vois de toutes parts son zèle qui s’allume.</l>
+        <l>Le Prélat a fait bruit<note resp="editor">[NDE] : La prise de position du père Caffaro en
+            faveur du théâtre a fait réagir Bossuet lui-même qui, après une lettre cinglante à
+            l’intéressé, fait paraître ses <hi rend="i">Maximes et réflexions sur la Comédie</hi>
+            (Paris, Jean Anisson, 1694).</note> ; et la chaire a tonné.</l>
+        <l>Sous le poids des écrits, dont il est condamné,</l>
+        <l>Déjà plus d’un Docteur a fait gémir la presse.</l>
+        <l>En vain, pour l’appuyer, la volupté s’empresse ;</l>
+        <l>La Comédie expire, et son vain défenseur</l>
+        <l>Ne sert qu’à réveiller le courroux du Censeur.</l>
+        <l/>
+        <l><pb n="4" xml:id="p4"/> Et qui peut, parmi nous, approuver une Scène</l>
+        <l>Où règne avec éclat l’impiété païenne ?</l>
+        <l>Où l’on voit chaque jour les Démons encensés</l>
+        <l>Rétablir, par nos mains, leurs autels renversés.</l>
+        <l>Quelle école, en ces lieux, pour la faible jeunesse,</l>
+        <l>Que celle, où l’on enseigne à sentir la tendresse ?</l>
+        <l>Où, pour toucher d’exemple, et suborner un cœur,</l>
+        <l>Par les yeux d’une femme on enchaîne un vainqueur :</l>
+        <l>Où l’on fait aux héros un devoir ridicule</l>
+        <l>De se soumettre au Dieu qui fait filer Hercule.</l>
+        <l>Aux païens, il est vrai, l’on pardonne aisément</l>
+        <l>Qu’un héros courageux devienne un lâche amant.</l>
+        <l>D’une Vénus infâme adorateurs fidèles,</l>
+        <l>Leurs flammes n’étaient point honteuses, criminelles :</l>
+        <l>L’amour le plus indigne, et le plus vicieux</l>
+        <l>Avait, pour s’excuser, l’exemple de leurs Dieux.</l>
+        <l>Mais nous, que l’Evangile instruit de ses maximes,</l>
+        <l>Nous verra-t-on ainsi diviniser les crimes ?</l>
+        <l>En donner au public des préceptes pompeux,</l>
+        <l>Consacrer à l’amour des hymnes et des jeux ;</l>
+        <l>Sur la terre et le ciel lui donner la victoire,</l>
+        <l>Et charmés de nos fers, applaudir à sa gloire.</l>
+        <l/>
+        <l>Cet amour, nous dit-on, que l’on peint si puissant,</l>
+        <l>Dans ses plus grands transports n’a rien que d’innocent.</l>
+        <l>Du théâtre, aujourd’hui, les douces impostures</l>
+        <l>N’en font aux spectateurs que de sages peintures ;</l>
+        <l>Par l’austère devoir le crime est combattu ;</l>
+        <l>Et l’on y voit toujours triompher la vertu.</l>
+        <l/>
+        <l>RACINE, c’est ainsi que tes doctes ouvrages</l>
+        <l>N’offrirent de ton cœur que de nobles images.</l>
+        <l><pb n="5" xml:id="p5"/>L’amour, dans tes écrits, honnête, généreux,</l>
+        <l>Dès qu’il fut déréglé se trouva malheureux.</l>
+        <l>Mais toi-même, bientôt, en te rendant justice,</l>
+        <l>N’as-tu pas du Démon reconnu l’artifice,</l>
+        <l>Qui pour mieux préparer son funeste poison,</l>
+        <l>Sait donner à l’erreur un faux air de raison :</l>
+        <l>Content que l’on affecte un dehors de sagesse,</l>
+        <l>Plonge insensiblement les cœurs dans la mollesse ;</l>
+        <l>Et fait du fol amour de si charmants portraits,</l>
+        <l>Qu’on cesse d’éviter et de craindre ses traits ?</l>
+        <l>Tu voulus dans les vers d’Esther et d’Athalie,</l>
+        <l>Donner un nouveau lustre à la Scène avilie ;</l>
+        <l>Et par toi, dans saint Cyr, le théâtre ennobli</l>
+        <l>Offre du vrai sublime un modèle accompli.</l>
+        <l/>
+        <l>On ne voit pas régner, dans ce nouveau tragique,</l>
+        <l>Tout le faux merveilleux de la vertu stoïque.</l>
+        <l>Tes héros ne sont pas de ces audacieux</l>
+        <l>Qui ravagent la terre, et menacent les cieux.</l>
+        <l>Ici, l’amour masqué d’une sage apparence,</l>
+        <l>Ne tend point en secret de piège à l’innocence.</l>
+        <l>De plus grands intérêts, de plus beaux sentiments</l>
+        <l>N’excitent dans l’esprit que d’heureux mouvements.</l>
+        <l>On y voit, dès l’abord, s’emparer de la Scène</l>
+        <l>Du véritable Dieu la grandeur souveraine.</l>
+        <l>De sa gloire invisible on sent la majesté ;</l>
+        <l>On y craint sa justice, on chérit sa bonté.</l>
+        <l>Mon âme, qui se sent de sa grandeur première,</l>
+        <l>Vole vers cet objet, s’y livre toute entière ;</l>
+        <l>Et goûtant, à longs traits, l’aimable vérité,</l>
+        <l>Conçoit pour tout le reste une illustre fierté.<note resp="editor">[NDE] On corrige un
+            point d’interrogation en point.</note> </l>
+        <l><pb n="6" xml:id="p6"/> Mieux que dans les écrits du savant paganisme,</l>
+        <l>Tu m’y fais admirer le parfait héroïsme.</l>
+        <l>Une vertu sublime, ou n’entre point l’orgueil,</l>
+        <l>De la vertu païenne inévitable écueil,</l>
+        <l>Un courage indompté, conduit par la sagesse ;</l>
+        <l>Nul mélange honteux de force et de faiblesse.</l>
+        <l>Si de la belle Esther un Prince est enchanté,</l>
+        <l>C’est sa vertu qu’il vante et non pas sa beauté,</l>
+        <l>Rien du profane amour n’y ressent la licence ;</l>
+        <l>Tout respire en Esther la paix et l’innocence.</l>
+        <l>Quel plaisir d’écouter tes aimables Acteurs,</l>
+        <l>Des plus hautes vertus nouveaux Prédicateurs !</l>
+        <l>Des poèmes si beaux, chaque fois qu’on les joue,</l>
+        <l>Exercent sur nos cœurs les droits de Bourdaloue :</l>
+        <l>Celui qui de son Dieu tendait à s’éloigner,</l>
+        <l>S’y sent, par le plaisir, doucement ramener.</l>
+        <l>Et quand, des saints écrits magnifique interprète,</l>
+        <l>Tu prends entre tes mains la harpe du prophète ;</l>
+        <l>Est-il quelque démon, dans l’âme des méchants,</l>
+        <l>Qui puisse résister à des sons si touchants ?</l>
+        <l/>
+        <l>C’est là que la vertu peut tenir son école.</l>
+        <l>L’acteur innocemment y peut jouer son rôle.</l>
+        <l>Là, mettant à profit les heures du loisir,</l>
+        <l>Le parterre chrétien s’instruit avec plaisir.</l>
+        <l>C’est dans ces vers sacrez, mêlés de symphonie,</l>
+        <l>Qu’il sied bien aux auteurs d’exercer leur génie.</l>
+        <l>S’ils ont de leurs talents autrement disposé,</l>
+        <l>C’est un présent du Ciel dont ils ont abusé.</l>
+        <l>Pour donner à son culte un air plus magnifique,</l>
+        <l>Dieu sans doute inspira les vers et la musique.</l>
+        <l><pb n="7" xml:id="p7"/> Faut-il que pour la fable il se soit consumé,</l>
+        <l>Tout ce beau feu d’esprit parmi nous allumé !</l>
+        <l>Mensonges séducteurs, pompeuses bagatelles,</l>
+        <l>Méritiez-vous d’user nos plumes les plus belles !</l>
+        <l>Fallait-il, pour chanter l’amour, et ses erreurs,</l>
+        <l>Profaner d’un Lully les divines fureurs !</l>
+        <l/>
+        <l>Loin de nous, l’appareil de tous ces vains spectacles,</l>
+        <l>Qui doivent leur éclat aux fabuleux miracles ;</l>
+        <l>Et dont tout l’art consiste à savoir ranimer</l>
+        <l>D’aveugles passions qu’il nous faut réprimer.</l>
+        <l>Gardons-nous d’écouter d’amoureuses chimères ;</l>
+        <l>D’honorer de nos pleurs des maux imaginaires.</l>
+        <l>Ou, s’il est à pleurer certaine volupté,</l>
+        <l>Pleurons des saints héros la mort, l’adversité.</l>
+        <l>Qu’on vienne, à ton exemple, en de savantes veilles,</l>
+        <l>Des volumes sacrés étaler les merveilles.</l>
+        <l>De Joseph, dans les fers, partageons les douleurs ;</l>
+        <l>Pour Jonathas mourant laissons couler nos pleurs.</l>
+        <l>Que du ferme Abraham l’auguste sacrifice</l>
+        <l>Prépare des dangers dont notre cœur frémisse.</l>
+        <l>Allons, avec Jephté, soupirer à l’autel,</l>
+        <l>Où sa fille innocente attend le coup mortel.</l>
+        <l>Dieu qui verra nos cœurs touchés par ces images,</l>
+        <l>Jusque dans nos plaisirs recevra nos hommages.</l>
+        <l>Mais, qu’il rentre à jamais dans l’éternelle nuit,</l>
+        <l>Ce fantôme d’amour, que la Scène a produit !</l>
+        <l>Qui sait presque toujours allumer dans nos veines</l>
+        <l>Le feu dont il brûla les Phèdres, les Chimènes.</l>
+        <l>Malheur à notre esprit, s’il goûte des plaisirs</l>
+        <l>Qui peuvent contre Dieu révolter nos désirs !</l>
+        <l/>
+        <l><pb n="8" xml:id="p8"/>Mais je le vois tomber ce dangereux théâtre,</l>
+        <l>Qu’anima si longtemps un génie idolâtre.</l>
+        <l>Ses poètes rampants, et ses mauvais acteurs</l>
+        <l>Rebutent, chaque jour, les doctes spectateurs.</l>
+        <l>Pour charmer dans ses jeux, l’esprit avec l’oreille,</l>
+        <l>Il n’a plus son Molière, il a perdu Corneille.</l>
+        <l>Et lorsque par toi seul soutenu, rassuré,</l>
+        <l>Il voit monter sa gloire au suprême degré ;</l>
+        <l>Tu disparais, tu veux faire un plus noble usage</l>
+        <l>Des talents que le ciel t’a donnés en partage.</l>
+        <l>RACINE, c’en est fait. Tout son lustre a passé,</l>
+        <l>Depuis qu’à l’embellir ta muse a renoncé.</l>
+        <l>Et ta sage retraite est un coup qui l’étonne</l>
+        <l>Plus que tous les Censeurs que lui fait la Sorbonne.</l>
+        <l/>
+
+        <signed>P. BARDOU </signed>
+        <byline>Prieur de la Voux</byline>
+        <signed/>
       </div>
     </body>
   </text>

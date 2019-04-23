@@ -6,10 +6,13 @@
       <titleStmt>
         <title>Instruction chrétienne pour l’éducation des filles</title>
         <author key="Anonyme">Anonyme</author>
-        <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
+        <respStmt>
+          <name>Doranne Lecercle</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
         <respStmt>
           <name>François Lecercle</name>
           <resp>Responsable d’édition</resp>
@@ -28,19 +31,27 @@
         <date when="2017"/>
         <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/anonyme_instruction-chretienne-education_1687/</idno>
         <availability status="restricted">
-          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p><p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2017
+              Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de
+              la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique
+              protégée par le code de la propriété intellectuelle sur les bases de données (L341-1)
+              est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon
+              les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation
+              Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution
+              : afin de référencer la source, toute utilisation ou publication dérivée de cette
+              ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de
+              la ressource.</p><p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+              scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification :
+              l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en
+              intégrant toutes les contributions extérieures. La diffusion de versions modifiées de
+              cette ressource n’est pas souhaitable.</p></licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <author>Anonyme</author>, 
-          <title>Des jeux, des spectacles, et des bals, qui sont défendus aux Filles Chrétiennes</title>, in
-          <title>Instruction chrétienne pour l'éducation des filles. Tirée des maximes de l'Evangile, des SS. Pères, et des Conciles</title>,
-          <pubPlace>Paris</pubPlace>,
-          <publisher>Urbain Coustelier</publisher>,
-          <date>1687</date>,
-          <biblScope>p. 274-320</biblScope>.
-        </bibl>
+        <bibl> Anonyme, « Des jeux, des spectacles, et des bals, qui sont défendus aux Filles
+          Chrétiennes », in <hi rend="i">Instruction chrétienne pour l'éducation des filles. Tirée
+            des maximes de l'Evangile, des SS. Pères, et des Conciles</hi>, <pubPlace>Paris</pubPlace>, <publisher>Urbain Coustelier</publisher>, 1687,
+            <biblScope>p. 274-320</biblScope>. </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -54,43 +65,536 @@
   </teiHeader>
   <text>
     <body>
-      <div>
+      <div type="frontispiece">
         <head rend="small">[FRONTISPICE]</head>
-      <p rend="center">INSTRUCTION<lb/>CHRETIENNE<lb/>POUR L’EDUCATION<lb/>DES FILLES.
-        <lb/>Tirée des maximes de l’Evan-<lb/>gile, des SS. Pères, et<lb/>des Conciles.<lb/>DEDIE<lb/>A MADAME<lb/>DE MAINTENON.
-        <lb/><lb/>A PARIS,<lb/>Chez <hi rend="sc">Urbain Coustelier</hi>,<lb/>ruë Saint Jacques, au<lb/>Cœur-Bon.
-        <lb/>MDCLXXXVII<lb/>AVEC PRIVILEGE DU ROY</p>
+        <p rend="center">INSTRUCTION<lb/>CHRETIENNE<lb/>POUR L’EDUCATION<lb/>DES FILLES. <lb/>Tirée
+          des maximes de l’Evan-<lb/>gile, des SS. Pères, et<lb/>des Conciles.<lb/>DEDIE<lb/>A
+          MADAME<lb/>DE MAINTENON. <lb/><lb/>A PARIS,<lb/>Chez <hi rend="sc">Urbain
+          Coustelier</hi>,<lb/>ruë Saint Jacques, au<lb/>Cœur-Bon. <lb/>MDCLXXXVII<lb/>AVEC
+          PRIVILEGE DU ROY</p>
       </div>
       <div type="chapter">
-        <pb n="274"/><head>CHAPITRE XIII. Des jeux, des spectacles, et des bals, qui sont défendus aux Filles Chrétiennes.</head>
-        <p>Les personnes du monde, dit S. Augustin<note resp="author" place="margin">August. [Augustin] Lib. 10. <hi rend="i">Conf</hi>. [<hi rend="i">Confessions</hi>] C. 23.</note>, aiment la vérité, lorsqu’elle leur montre sa lumière, et qu’elle brille à leurs yeux, et ils la haïssent, lorsqu’elle leur représente leurs défauts, et qu’elle les pique jusqu’au vif ; ils l’embrassent, lorsqu’elle leur découvre ses agréments et sa beauté, et ils <pb n="275"/>ne la peuvent souffrir ; lorsqu’elle les découvre à eux-mêmes, parce qu’elles veulent asservir cette vérité à leurs affections, et non pas leurs affections à la vérité, et que l’amour de l’amour-propre l’emporte sur l’amour de la vérité. De là vient qu’ils s’élèvent contre ceux qui leur représentent leurs vices et leurs passions injustes, ils les fuient, ils les évitent, et ne les peuvent supporter de peur que la vérité connue, ne les force d’abandonner ce qu’ils aiment. Ainsi ceux qui aiment les jeux, le bal, la comédie, et qui suivent le luxe et les vanités du siècle, ne veulent point entendre traiter chrétiennement ces matières, afin de pécher plus librement et sans inquiétude, et comme leur goût est dépravé, ils trouvent de l’amertume dans les viandes les plus douces. On a beau leur dire, qu’il y a des jeux défendus, des spectacles et des assemblées dangereuses, ils tournent la tête, s’en moquent, se ferment les <pb n="276"/>yeux, et se bouchent les oreilles pour ne point voir ni entendre toutes ces choses, qui leur déplaisent. Je sais avec S. Grégoire, qu’il y a des jeux et des divertissements permis, et que l’on en peut prendre, comme on prend une médecine pour purger le corps de ses mauvaises humeurs, et le rendre plus capable et plus propre au travail : mais nous entendons parler ici de ces jeux défendus, qui ruinent les familles, qui remuent et excitent les passions, et font perdre le temps, qui est si précieux.</p>
-        <p>On voit des femmes et des Filles si entêtées, et si passionnées du jeu, qu’elles n’ont que cela dans l’esprit, elles en perdent le boire et le manger, et passent en cet excès les jours et les nuits, sans se mettre en peine de s’acquitter de leurs devoirs essentiels ; elle négligent même leurs prières, et souvent perdent la Messe les Fêtes et le Dimanches ; on les voit toujours occupées de leur perte ou de <pb n="277"/>leur gain, du lieu où elles iront jouer, où l’on tiendra table ouverte, et où l’on s’assemblera ; enfin, elles sont si souvent dans l’exercice du jeu, qu’elles courent risque de mourir les cartes à la main ; jusques là même que j’ai ouï dire, qu’une femme de qualité étant en couche, demandait sans cesse à sa garde, quand elle pourrait jouer, ne s’affligeant d’autre chose, que de ce que ses Médecins ne lui permettaient pas de battre des cartes, ou de remuer des dés.</p>
-        <p>En vérité, est-ce là la vie d’une femme Chrétienne, à qui Dieu n’a donné la vie, que pour l’employer à son salut. On dit dans le monde que l’on joue pour tuer le temps ; est-ce là, je vous prie, un langage Chrétien ? vous tuez le temps en jouant et en vous divertissant, mais le temps vous tuera à son tour, et fera votre condamnation. Il viendra un jour où vous demanderez du temps pour faire pénitence : mais Dieu vous le refusera, dit <pb n="278"/>l’Ange de l’Apocalypse, la femme et la Fille sage font toutes deux leur divertissement de leur occupation, et la femme et la Fille insensée font leur occupation de leurs divertissements ; il faut donc se faire une joie et un plaisir de s’occuper toujours ; et de faire son devoir. Tous les Pères ont admiré la parole de cet Empereur Païen, qui croyait avoir perdu le jour, quand il l’avait passé sans faire aucune bonne action ; et les Chrétiens auront si peu de Foi, que de perdre inutilement le temps, que J. C. nous a acheté au prix de son Sang. Si un damné pouvait en avoir un seul moment, il achèterait au prix de mille vies, s’il les avait ; les Chrétiens n’ont pour but dans le jeu, et dans les divertissements qu’ils prennent, que de laisser passer le temps sans le sentir, où plutôt sans se sentir eux-mêmes.</p>
-        <p>Saint Cyprien, qui est celui de tous les Pères, qui a mieux traité du jeu, dit que c’est un crime et <pb n="279"/>une honte à un Chrétien de s’y occuper entièrement. S. Isidore Archevêque de Séville en Espagne, en apporte la raison, lorsqu’il dit qu’on idolâtre dans le jeu, parce qu’on n’y reconnaît plus la Providence de Dieu, et qu’on n’y adore que l’empire du destin et de la fortune ; c’est là, dit ce savant personnage, où les hommes se donnent aux divertissements, au lieu de s’y prêter. Voyez-vous dans ce miroir fidèle toutes les passions, qui se remuent, ce bouillonnement de cœur, ces émotions, cette impétuosité de nature, ces agitations du corps, cet air sombre et mélancolique, ces paroles piquantes et injurieuses, ces blasphèmes exécrables, qui sont quelquefois dans la bouche même des plus beaux joueurs. Ce qui a fait dire à S. François de Borgia, que le jeu était toujours très dangereux : et que quand on s’y donnait avec trop d’attache, on y perdait quatre choses, le temps, <pb n="280"/>l’argent, la dévotion et la conscience.</p>
-        <p>Pour ce qui regarde les spectacles ; je ne répèterai point ce qu’on en a écrit depuis peu ; ceux qui ont traité cette matière à fond, n’ont rien oublié pour en donner de l’horreur. S. Augustin confesse, que l’amour qu’il a eu pour les spectacles, a été pour lui un attrait à la volupté, et qu’il n’en est jamais sorti si chaste qu’il y était entre, parce que tout ce qu’on y entend, débauche les sens, séduit l’esprit, et corrompt le cœur. C’est ce qui fait dire à S. Cyprien, que la comédie est une école d’impureté, et le lieu où l’on prostitue la pudeur. Salvien Evêque de Marseille dit, que de son temps on faisait faire au Baptême une particulière renonciation d’aller à la comédie. S. Basile l’a condamnée, S. Chrysostome veut qu’on la fuie comme une peste publique : et Tertullien dans son <hi rend="i">Livre des Spectacles</hi><note resp="author" place="margin">Tertull. de Spectac. [Tertullien, <hi rend="i">de Spectacula</hi>] C. 4.</note> <pb n="281"/>montre et prouve fortement, que la Religion Chrétienne a une aversion extrême pour ces sortes de divertissements, qu’elle les abhorre, et qu’elle ne les peut supporter. Minutius Felix déclame contre ces passe-temps dangereux, dans son Apologie<note resp="editor" place="bottom">[NDE] <hi rend="i">Octavius</hi>, paragraphe 36.</note> qu’il a fait pour défendre les Chrétiens ; et Comitorius a fait un traité admirable<note resp="editor" place="bottom">[NDE] Voir <hi rend="i">Vigilum romanorum latercula duo Coelimontana magnam partem militia</hi>, III, 2, 11.</note>, où il prouve que d’y assister, c’est un péché mortel, comme l’assure aussi S. Augustin : la raison qu’il en apporte, c’est, que ceux qui vont à la comédie, contribuent et participent au péché de ceux qui la jouent. Or il est certain que les comédiens sont excommuniés et retranchés de la Communion des Fidèles par les saints Conciles, comme celui de Carthage en Afrique, d’Arles en France, d’Elvire en Espagne. L’Empereur Théodose condamna les bouffons et les farceurs aux bêtes farouches ; et August et Marc Aurèle, tous païens qu’ils étaient, les faisaient <pb n="282"/>mourir, ou les envoyaient en exil.</p>
-        <p>Mais pourquoi blâmer la comédie ? il n’y a point de mal, on y apprend à vivre dans le monde ; mais prenez garde qu’il n’y a rien d’innocent dans ces divertissements qui sont souvent des occasions prochaines de péché à ceux qui s’y trouvent, sans avoir mauvaise intention, parce que les comédiens d’aujourd’hui sont semblables à ceux dont parle Sénèque, qui corrompaient de son temps les mœurs, sous le beau prétexte de les reformer, et qui sous couleur de reprendre le vice, l’insinuaient adroitement et avec artifice dans les esprits des spectateurs, et qui voulant corriger les hommes en les divertissant, les perdent en les faisant rire, et meurent par cette fausse joie, comme ceux qui ont mangé de l’herbe Sardonique<note resp="editor" place="bottom">[NDE] Il s’agit d’une herbe toxique, sans doute l’œnanthe safranée, qui pousse uniquement en Sardaigne et qui fait mourir en contractant les muscles de la bouche, d’où vient l’expression « rire sardonique ».</note>, selon la remarque des Naturalistes. En effet, ne voyons-nous pas par expérience, que la naïveté malicieuse dans la bouche d’une jeune Comédienne, qui fait <pb n="283"/>l’innocente Agnès, a débauché plus de femmes, et corrompu plus de Vierges, que les écrits les plus licencieux de ce Philosophe, qui fut autrefois chassé d’Athènes, parce qu’il se vantait que personne ne sortait chaste de son école<note resp="editor" place="bottom">[NDE] L’auteur reprend les termes du sieur de Rochement dans <hi rend="i">Observations sur le Festin de Pierre</hi>, 1665.</note>. Et quoique toute la France ait l’obligation à feu Monsieur le Cardinal de Richelieu, d’avoir épuré et purifié le théâtre de la comédie, et d’avoir réformé jusqu’aux habits, et aux gestes de cette courtisane effrontée. Ce sage et prudent politique, dont les vives lumières perçaient jusques dans l’avenir, n’en a pas pour cela retranché tout ce qui peut encore choquer la pudeur, et blesser la chasteté des honnêtes femmes. Tertullien rapporte l’histoire d’une Fille Chrétienne, qui fut possédée du Démon, pour avoir une seule fois assisté à la comédie, et comme on l’exorcisait, et qu’on demandait au Démon, qui l’avait fait si hardi que d’entrer dans cette jeune Fille, qui appartenait à <pb n="284"/><hi rend="sc">Jesus-Christ</hi> par son Baptême ? Il répondit, qu’il y était entré, parce qu’il l’avait trouvée sur ses terres, et dans le lieu de son domaine. En effet, c’est là où le Démon règne avec empire ; c’est là qu’il corrompt les âmes les plus pures par des idées dangereuses, par des gestes dissolus, par des postures lascives, et par des paroles indécentes et malhonnêtes dont on fait gloire ; si bien que c’est un dangereux écueil pour la pureté des Filles, qui le doivent éviter avec soin, si elles ont de l’amour pour Dieu et pour leur salut.</p>
-        <p>La danse chez les Romains n’était pas permise aux honnêtes gens ; c’est pourquoi Salluste reproche à Sempronia Dame Romaine, d’avoir trop bien dansé pour une honnête femme<note resp="editor" place="bottom">[NDE] <hi rend="i">Conjuration de Catilina</hi>, XXV.</note> ; et Cicéron dans l’Oraison <hi rend="i">pro Murena</hi>, dit que la danse est une espèce d’ivresse défendue aux personnes qui font profession de vertu<note resp="editor" place="bottom">[NDE] Il s’agit d’une accusation faite par Caton contre Murena, que Cicéron réfute.</note>. C’est peut-être dans cette pensée qu’un Italien <pb n="285"/>l’appelle une folie qui passe de la tête jusqu’aux pieds : néanmoins on peut dire, à la honte de plusieurs Mères Chrétiennes, que leurs Filles savent plutôt un pas de danse, que les principes de leur Religion, tant elles ont soin de les rendre agréables au monde, sans se soucier de plaire au Seigneur. Cependant Dieu parlant aux Filles de Jérusalem par son prophète Ezéchiel, leur dit<note resp="author" place="margin">Ezech. [Ezechiel] Cap. 25.</note>, parce que vous avez joué des mains et des pieds, et que vous avez par là épanché et répandu vos cœurs : j’étendrai ma main dessus vous, et vous ferai mourir. Les Filles et les femmes Israélites irritèrent Dieu par leurs danses et leurs idolâtries<note resp="author" place="margin">Exod. [Exode] 12.</note> ; ce qui obligea Moïse, percé de douleur, de briser les tables de la Loi, et de commander aux Lévites de prendre les armes, de les mettre à mort, et de les tuer sur la place. La Femme du jeune Tobie voulant se justifier devant Dieu, assure qu’elle ne s’est jamais trouvée dans les jeux<note resp="author" place="margin">Tob. [Tobie] C. 3.</note> <pb n="286"/>et dans les danses. C’est ce qui a fait dire à saint Ambroise qu’il n’y a que les femmes et les Filles prostituées qui s’y adonnent ; car peut-il y avoir de la pudeur où l’on danse ? Vous voyez par là, Mères Chrétiennes, continue ce grand Saint, ce qu’il faut apprendre à vos Filles : que la femme adultère danse ; mais que celle qui est chaste et pudique, enseigne à ses Filles la piété, et non pas à danser.</p>
-        <p>Nous voyons dans l’Ecriture, que la danse a fait perdre la vie au meilleur ami de <hi rend="sc">Jésus-Christ</hi>, et que la tête de St. Jean-Baptiste, qui pouvait, dit S. Chrysostome, convertir tout le monde, a été le prix de la danse d’une jeune baladine. Le Diable ne trouve point de moyen plus puissant, pour obtenir d’Hérode la mort de ce S. Précurseur, qui faisait l’admiration de la Judée, au rapport même de l’Historien Joseph, que faire danser devant le Roi une Fille <pb n="287"/>mondaine fort ajustée, et fort adroite à cet exercice. Serait-il possible que vous n’eussiez pas en exécration une chose qui a été si nuisible à toute l’Eglise, qui a tant affligé <hi rend="sc">Jésus-Christ</hi> par la mort d’un homme qu’il aimait ? Dieu même nous l’avait donné, et la danse nous l’avait ravi cruellement ; quand il n’y aurait autre chose à objecter contre la danse, cette considération seule vous doit faire prendre la résolution de ne danser jamais, puisque la danse a fait perdre la vie à S. Jean, je ne crois pas que vous voulussiez faire le moindre usage d’un couteau, qui aurait servi à égorger votre ami.</p>
-        <p>Mais ce qui vous oblige, malgré vous, d’abandonner ce malheureux divertissement, c’est une foule et un nombre presque infini de péchés, qui composent une longue chaine, dont on a de la peine à voir la fin. Il y en a qui précèdent la danse, et d’autres qui la <pb n="288"/>suivent, je vous prie de les remarquer.</p>
-        <p>Si vous entrez dans la chambre de cette personne, qui se dispose d’aller au bal : vous la trouverez devant un miroir, se consultant sans cesse environnée de servantes, ou de ses bonnes amies, qui s’étudient à orner sa tête de frisures, de rubans, et le reste. Les linges et les toiles les plus transparentes, et les plus courtes sont les meilleures, afin que les nudités se voient plus grandes ; elle pratique mille inventions pour attirer les yeux, et gagner le cœur des jeunes hommes. Si elle a quelque défaut naturel, on supplée à tout, les poudres changent la couleur des cheveux, le fard et les pommades unissent les visages, qui ne le sont pas ; les corps de jupes sont pleins d’artifice, pour corriger les défauts, et pour couvrir les difformités de la taille ; on charge ensuite le corps de rubans, dont la diversité des couleurs répond à la diversité des passions. On met <pb n="289"/>enfin mille autres agréments où l’on juge qu’ils auront de l’éclat et de la bonne grâce. On étudie avec affection ses démarches, ses regards, ses gestes, son discours, et généralement tout ce qu’on doit faire pour plaire au monde. C’est ainsi, dit le Prophète Royal<note resp="editor" place="bottom">[NDE] David.</note>, en se plaignant de ces excès, que l’on ajuste, et que l’on pare les Filles du siècle, que l’on veut produire, et que l’on souhaite de faire paraître au grand jour : en sorte, dit-il, qu’elles sont en état de tenir la place d’une Idole au milieu d’un Temple, pour recevoir les encens, les adorations et tous les honneurs, qui ne sont dus qu’a Dieu seul.</p>
-        <p>L’extérieur d’une fille mondaine ainsi parée, découvre assez clairement les différentes pensées de son âme ; elle désire ardemment d’être trouvée belle, sa prétention est d’attirer auprès de soi les garçons les plus divertissants, les plus agréables, les mieux faits, les plus <pb n="290"/>enjoués, et les plus galants ; elle veut faire des conquêtes, et gagner des cœurs ; elle se préfère à toutes les autres Filles ; elle se tient fière, et prend un air de grandeur pour survendre ses appas, et se faire mieux valoir ses attraits ; elle ne sort de son logis, qu’après s’être regardée et considérée plusieurs fois ; elle porte encore un miroir de poche, pour se mirer dans tous les lieux où elle va ; son image, que ce miroir lui représente, lui plaît infiniment ; elle prend en elle-même un repos orgueilleux ; cherchant à l’entour d’elle des approbateurs qui soient de son sentiment ; c’est-à-dire en un mot, que cette âme superbe et dédaigneuse est toute remplie de vanité, de présomption, de vaine gloire, et de tous les autres mouvements, que la sensualité et l’orgueil ont coutume d’inspirer ; son cœur en est tout enflé et tout bouffi. Je vous laisse à penser, si dans cet état il y a un Dieu pour elle ; et si son souvenir n’est <pb n="291"/>pas effacé de sa mémoire, comme s’il n’avait jamais été, ou qu’il dût bientôt n’être plus.</p>
-        <p>Voilà bien des péchés avant que d’être sortie de la maison, et des péchés d’autant plus dangereux, qu’ils sont spirituels et imperceptibles. Cependant c’est cet orgueil et cette complaisance, qui gâta tellement l’esprit du premier Ange<note resp="editor" place="bottom">[NDE] Lucifer.</note>, que Dieu ne le peut<note resp="editor" place="bottom">[NDE] « peut » pour « put ».</note> souffrir un moment en sa présence. Il faut avouer que votre insensibilité est extrême, si ces péchés ne vous pèsent pas sur le cœur : car leur poids est si grand, dit S. Chrysostome, qu’étant dans l’esprit de Lucifer, les voûtes du Ciel ne le purent plus supporter.</p>
-        <p>Voyons maintenant cette Fille mondaine dans l’assemblée ; elle n’est pas plutôt assise, que ses yeux courent partout pour voir les autres, et sur le champ son cœur est saisi de jalousie contre les unes ; et de mépris contre les autres : celles qui sont plus courtisées, excitent son envie ; et si elle l’est plus <pb n="292"/>que les autres, son orgueil s’enfle, et les regardant avec dédain, elle les porte à la vengeance. C’est là où l’on déchire son prochain par des malices, qu’on appelle agréables et spirituelles. C’est là où la calomnie la plus fine et la mieux inventée est la plus agréable, quoiqu’elle soit la plus piquante, la raillerie y est le jeu le plus innocent, cependant elle cause de si vifs ressentiments, que les années entières ne suffisent pas pour les apaiser. Je n’ose pas vous parler des offenses que souffre la pudeur ; j’ai cru néanmoins qu’il n’était pas mal à propos de vous en dire quelque chose qui vous fasse mieux juger des injures qu’on y fait à cette vertu.</p>
-        <p>Tout le monde sait que la concupiscence est une source fatale d’impureté, que les deux sexes portent au milieu d’eux en naissant. Nous entrons, dit S. Augustin, dans cette vie accompagnés de cet ennemi dans la nécessité de le vaincre, et c’est être heureux : ou d’en <pb n="293"/>être vaincu, et c’est être réprouvé. Il n’y a point de trêve ni de paix à espérer ; vous avez beau fuir dans les déserts et dans les solitudes, dit saint Jérôme ; l’esprit et la chair sont dans votre personne, comme deux ennemis furieux, qui s’enferment dans un tonneau armés de poignards : vous voyez bien qu’il n’y a point de fuite à prendre : il faut nécessairement que l’un des deux périsse. Voilà une étrange extrémité. C’est néanmoins celle où vous êtes réduite, et ce qui rend votre condition encore plus misérable, c’est que si vous surmontez aujourd’hui votre passion, elle se révoltera demain ; et vous aurez autant de peine à vaincre cette nouvelle attaque, que la première. Ces révoltes continuelles dureront autant que vos jours, la mort seule vous en délivrera entièrement, lorsqu’elle séparera l’âme de votre misérable corps de corruption. Avouez que c’est pour tous les hommes un grand sujet <pb n="294"/>d’humiliation, d’affliction, et de crainte d’avoir un adversaire si puissant, et si opiniâtre dans la persécution : cependant que faites-vous, Filles mondaines par vos ajustements trop affectés ? Vous fortifiez, dit le même S. Augustin, le parti de votre ennemi. Ce sont des troupes auxiliaires, que vous appelez pour votre ruine ; ce grand Saint exprime sa pensée avec des termes dignes de son esprit, et que je vous prie de remarquer. Il appelle ces habits somptueux, ces nudités, ces pruderies, ces rubans, ces frisures, ces cadences, ces bals et tous ces divertissements mondains, des escadrons de concupiscence. En effet, si celle qui est née avec vous, était éteinte, toutes ces choses seraient capables de la faire revivre. Après cela, jugez si vous pourrez surmonter cet effroyable ennemi que la nature a renfermé dans vous-même, puisque vous en avez tant d’autres sur les bras, que l’artifice du monde vous a suscités, et qui <pb n="295"/>vous plaisent pour votre malheur.</p>
-        <p>Pour vous faire encore mieux comprendre combien la concupiscence, qui est enracinée au milieu de nous, est redoutable, considérez avec attention ce qui s’est passé en la personne de S. Paul : ce grand Apôtre, cet homme ravi en extase jusqu’au troisième Ciel, ce vaisseau d’élection choisi pour porter l’Evangile par toute la terre, ce grand S. Paul est rempli de grâces et de bénédictions, et néanmoins il crie au secours de toutes parts dans les excès et dans les violentes insultes<note resp="editor" place="bottom">[NDE] insultes = agressions.</note> que la concupiscence fait en lui ; il a paru tout trempé des naufrages, dont il s’était garanti ; on l’a vu se relever tout meurtri de dessous une grêle de cailloux dont on l’avait lapidé ; il s’est trouvé mouillé, fatigué, couché à plate terre dans le fort de l’hiver, et au milieu de toutes ces afflictions, on l’entend se plaindre de la tyrannie de la chair, de la manière du monde la plus <pb n="296"/>pitoyable. Tous ses travaux, ses fatigues, ses persécutions, ses combats et sa sainteté, ne le peuvent pas délivrer des violences, que cette cruelle passion exerce contre lui, elle ne lui donne ni trêve ni repos, il se jette à deux genoux, il crie miséricorde<note resp="author" place="margin">S. Paul. Ep. [Epistola] ad Rom. [Romanos] C. 7. V. 23. 24. 25</note>, il déplore sa condition, voyant que son esprit, qui ne saurait plaire à Dieu, s’il n’est pur, est engagé dans son corps, comme au milieu d’un bourbier : quel moyen qu’il ne se salisse pas ? Vous seul ô mon Dieu, pouvez me préserver par la grâce que mon Sauveur m’a acquise. En effet, Notre Seigneur lui ayant refusé de le délivrer de cette maudite tentation<note resp="author" place="margin">Epist. [Epistola] 2. ad Cor. [Corinthios] C. 12. v. 7.</note>, il lui promet en même temps son secours, avec lequel il l’assure qu’il pourra s’en défendre. N’est-il pas vrai qu’il semblait n’y avoir plus rien à craindre pour S. Paul, puisque la grâce même lui est promise de la bouche même de <hi rend="sc">Jésus-Christ</hi> ? Cependant il n’en demeure pas <pb n="297"/>là, il travaille, il prie, il fuit les occasions, et dans ses retraites il fait de très austères pénitences, il afflige son corps par les jeûnes et par les veilles, il lève la main sur lui, et le châtiant jusqu’a l’effusion du sang, il le réduit à vivre selon les lois de l’esprit, de peur, dit-il, qu’en l’épargnant, je ne me trouve dans le nombre des Réprouvés. Qui ne tremblera pas, après saint Paul ? Dira-t-on, après cet exemple, que l’assemblée des bals est innocente, et qu’il n’y a point de mal ? Comment voulez-vous que ces personnes, qui la composent, qui ont la même passion infiniment plus vive et plus ardente, dont le corps est nourri si délicatement, vêtu avec tant de mollesse, et de luxe, assiégées de jeunes gens, qui abandonnent tous leur sens, pour en boire le poison avec plus de liberté, qui jettent mille regards malhonnêtes, leurs yeux étant comme des canaux voluptueux par où passe l’amour, et <pb n="298"/>comme les ambassadeurs de cette infâme passion, qui ont des entretiens pleins de tendresse, et souvent pleins de dissolutions : quand il ne se passerait point autre chose, pouvez-vous dire en bonne foi, que les uns et les autres sont chastes ? entrez dans leurs cœurs, et voyez ces pensées, ces désirs et ces affections. Je m’assure que vous avez trop d’honnêteté pour y arrêter trop longtemps votre vue.</p>
-        <p>Un des plus illustres Pères de l’Eglise Grecque<note resp="author" place="margin">Sanct. Basil. [Sanctus Basilius] Lib. de virg. [Liber de virginibus]</note>, compare tous ces baisers, qu’on permet dans les bals, ces attouchements de mains, ces cajoleries, et autres indécences qui s’y commettent, aux attouchements du feu. Si vous prenez à main nue un fer bien chaud, vous voyez sur le champ naître des ampoules, qui s’élèvent, et qui dans peu de temps deviennent des blessures très cuisantes et très dangereuses. De même, dit ce Saint, ce sortes d’attouchements trop libres entre les deux sexes, vont subitement <pb n="299"/>frapper le cœur, et y causent des inflammations, qui brûlent la fleur de sa pureté, sans qu’on en puisse éteindre le feu qu’avec de très grandes difficultés.</p>
-        <p>Vous ne manquerez pas de répondre, qu’on prend bien garde à ces excès, et qu’on ne souffre pas de semblables familiarités. Et moi je dis après les SS. Pères qu’il y en a fort peu qui y regardent de si près ; car toutes ces dissolutions criminelles passent dans le monde pour des enjouements permis. Mais quand cela serait, êtes-vous maîtresse des cœurs, quand ils ne se toucheraient pas par le bout du doigt, la vue seule des objets parés de la sorte, cause la damnation de l’âme ; et vous n’en doutez pas, puisque le Sauveur du monde enseigne dans son Evangile<note resp="author" place="margin">Matth. [Matthieu] Cap. 5. v. 28</note>, qu’un homme et une femme, qui s’entregardent<note resp="editor" place="bottom">[NDE] s’entregardent = se regardent l’un l’autre.</note> avec un mauvais désir, sont dès ce moment coupables de crime devant Dieu. Remarquez qu’il ne dit pas celui qui parle à <pb n="300"/>une femme, ou qui se familiarise avec elle : mais seulement qui la regarde ; et c’est pour ce sujet qu’il ordonne ensuite de nous arracher les yeux, si leurs regards portent le péché dans nos cœurs, et il est si dangereux de voir une femme vêtue de la sorte, que Dieu, pour nous empêcher de tomber dans le désir qu’il condamne, a eu la bonté dans l’Ecriture d’en faire un commandement, d’en détourner nos yeux<note resp="author" place="margin">Eccles. [Ecclesiaste] Cap. 6. v. 8</note>. Ne dites donc plus que ce sont des amusements, des bagatelles et des scrupules. L’exemple de David doit faire trembler les plus hardis et les plus innocents.</p>
-        <p>Ce bon Prince, après avoir travaillé dans son cabinet aux affaires de son état, voulut aller prendre l’air sur un balcon de son Palais qui était fort élevé, de là portait ses yeux sur la campagne, ils tombèrent malheureusement sur une belle femme, qui était dans un jardin disposée à se rafraîchir dans un bain. Ce regard éveilla sa passion, <pb n="301"/>le feu s’augmenta, il vit cette femme, elle lui plut, il en fut charmé, il avala le poison, et le vainqueur de Goliath devint en un moment la conquête de Bersabée, sur quoi S. Augustin demande, pourquoi un objet si éloigné avait fait sur David une si vive impression. Il répond qu’il ne faut pas avoir tant d’égard à l’éloignement de cette femme, qu’à la proximité de la convoitise, qui était au milieu de son cœur : « <quote>Mulier erat longe, sed libido erat prope. </quote>» Après cela jugez du mal, que les approches des Filles mondaines font dans un bal, et combien elles en font faire.</p>
-        <p>Ajoutez à tout ce que nous venons de dire, une réflexion qui vous donnera de la confusion, et à tous ceux qui la feront sérieusement devant Dieu ; considérez ces deux personnes, qui dansent au milieu d’une nombreuse assemblée, la Fille avance ou recule en cadence, le garçon la suit. Chacun de son côté fait diverses postures de son corps, <pb n="302"/>l’âme se répand toute par les yeux qui sont pleins de douceurs et d’œillades lascives : on s’échauffe dans cet exercice : on cherche à se plaire l’un à l’autre, et on s’empresse de se rendre mutuellement des témoignages de l’estime et de l’affection dont on se trouve possédé. Dites-moi, tout cela est-il honnête ? Cela est-il conforme à la modestie Chrétienne ? Oseriez-vous défendre et soutenir comme innocent un exercice, qui ne respire qu’orgueil et qu’impudicité ? Les infâmes privautés, auxquelles la danse donne occasion par le mélange de deux sexes, ne donnent-ils pas un juste sujet de craindre pour la pudeur des Filles qui s’y adonnent ? N’appréhendez-vous pas pour elles que leurs âmes ne soient blessées mortellement, et qu’elles ne soient prostituées, quand leur corps demeurerait chaste ? car quelles idées voulez-vous que tous ces commerces impriment dans l’imagination ? Quelles pensées peuvent porter les <pb n="303"/>objets dans l’esprit ? et quelles affections prétendez-vous que ces pensées formeront dans un cœur ? la modestie m’arrête tout court. J’ai de la confusion de les imaginer, et vous en devez avoir d’y penser seulement sans les voir : le Royaume de Dieu, comme vous savez, est au-dedans de nous. C’est <hi rend="sc">Jésus-Christ</hi> qui le dit dans l’Evangile, et le Prophète Roi remarque que la gloire de la Fille du Roi est au-dedans d’elle-même. Or ce Royaume de Dieu et cette gloire consistent dans la pureté du cœur, dans l’humilité et dans la modestie, dans l’aversion du monde corrompu, et dans l’amour de la Croix. Avouez donc que ce Royaume est détruit, et que cette gloire est éclipsée dans les personnes, qui fréquentent le bal, où il ne se trouve qu’ambition, qu’orgueil, qu’impureté, médisance, vaine gloire, et amour de recherche de soi-même. Je vous l’avais bien dit que notre Dieu est un <pb n="304"/>esprit infiniment pur et infiniment saint, et que suivant la parole de son Fils unique, pour être du nombre de ses véritables adorateurs, il faut l’adorer avec un esprit saint, et un cœur épuré. Dites donc hardiment que tous ceux qui courent, qui cherchent et qui aiment ces sortes d’assemblées, n’ont point de Religion, parce que partout où la véritable adoration ne se rencontre pas, la Religion n’y est pas, il faut que la maison tombe nécessairement en ruine, quand il n’y a plus de fondement.</p>
-        <p>Cependant l’erreur où vivent la plupart des personnes du monde sur ce point, me paraît si pernicieuse à l’Eglise et au salut des particuliers, qu’on ne doit rien oublier pour les désabuser. C’est pour ce sujet, que je veux vous rapporter ce qu’en a écrit une personne pleine de piété et de lumière. Ce savant homme dit qu’on peut regarder un bal en deux manières, <pb n="305"/>ou par les yeux du corps, ou avec ceux de l’esprit. Qu’est-ce que les personnes du monde voient dans un bal ? Une assemblée de personnes agréables, bien mises, bien parées, qui ne songent qu’a se divertir, à prendre leurs plaisirs, et à contribuer au plaisir commun, ils y voient des femmes et des Filles qui font tout ce qu’elles peuvent pour se faire admirer et se rendre aimables, et des hommes qui font tout ce qu’ils peuvent pour leur témoigner qu’ils les admirent et qu’ils les aiment. Ils y voient un spectacle, qui flatte tous les sens, qui remplit leur esprit de vanités, qui amollit leur cœur par le son ravissant des violons et des instruments, qui flattent les oreilles, et qui charment et enlèvent l’âme par une douce et agréable violence. Ainsi l’amour du monde et des créatures se glisse imperceptiblement dans le cœur de ceux qui se trouvent à un bal. Mais qu’est-ce que la lumière de la Foi découvre dans ces <pb n="306"/> assemblées profanes à ceux qu’elle éclaire ? elle leur fait voir ce que Dieu et les Anges y voient, elle leur découvre un massacre horrible d’âmes qui s’entretuent les unes les autres ; elle leur montre des femmes en qui le Démon habite, qui font à de misérables hommes mille plaies mortelles ; elle leur fait voir un air contagieux, qui se répand par tous les sens, et un poison subtil qui se glisse dans tous les cœurs ; enfin elle leur fait paraître une infinité d’esprits malins, qui se moquent de ces malheureux, et qui se raillent de leurs illusions et de leurs aveuglements. Voilà ce que la Foi nous apprend, voilà ce qu’elle nous découvre par ses lumières, et qui assurément n’approchent pas de la réalité ; car on manque de pensées et d’expressions pour donner un portait au naturel, et pour faire une peinture vive et parlante de ce divertissement, qui est aussi ridicule qu’il est honteux ; car si l’extravagance <pb n="307"/>ne s’était naturalisée dans nos mœurs ; nous appellerions folie ce qu’on nomme gentillesse. Ne dites pas que les hommes n’ont pas assez de pouvoir pour porter une femme ou une Fille d’honneur à un sentiment, ou à quelque action malhonnête, si elle ne le veut, et que vous vous en garantirez bien. Vous ne connaissez pas assez votre faiblesse, vous présumez trop de vous-même. Pensez à ce que fit S. Pierre, lorsqu’il renia <hi rend="sc">Jésus-Christ</hi>. Quand vous êtes aux pieds des Confesseurs, vous changez bien de langage ; la vérité et votre conscience vous contraignent d’avouer tout ce que nous venons de dire, et souvent votre plus grand malheur et celui des autres femmes, ou des Filles vient d’un premier entretien dans un bal, ou de quelque autre divertissement, dont on leur a donné le régal, et qui les a fait tomber. Elles ont continué, et cette première démarche a été la cause de toutes <pb n="308"/>les autres, elles s’en sont confessées, mais elles n’ont pas quitté les occasions dangereuses. Une flamme mal éteinte est facile à rallumer. Pour ce qui regarde le pouvoir des femmes sur l’esprit des hommes, il n’est que trop connu par de funestes expériences. Il y en a peu qui y résistent, et le seul secret pour s’en défendre, c’est de fuir. Fuyez, dit S. Paul, c’est le meilleur moyen de demeurer victorieux dans ce genre de combat si dangereux à la chasteté. Les femmes néanmoins ne doivent pas tirer avantage de cette force : et c’est, dit un grand Saint, comme si on se vantait de la force d’un poison malin, qui tuerait un homme sur le champ, ou comme si on estimait la violence d’un torrent impétueux qui ravagerait tout ce qu’il rencontre, ou enfin comme qui louerait la force des vents, qui font périr les vaisseaux sur la mer, et qui renversent quelquefois les arbres et les maisons sur la terre.</p>
-        <p><pb n="309"/>Voilà des exemples mémorables de la puissance des femmes sur les hommes, tirés de l’Ecriture sainte. Samson le plus fort de tous entre les mains de ses ennemis, devint le plus faible entre les bras de Dalila, qu’il aimait passionnément. Salomon, le plus sage de tous les mortels, devint le plus fol de tous les hommes pour l’amour de ses courtisanes, qui le firent idolâtrer, et donner de l’encens à leurs fausses Divinités. Qui ne tremblera pas après de tels exemples ? Mais celui du saint homme Job me semble encore plus fort pour prouver cette vérité : c’est un homme qui tenait le rang d’un prince dans son pays, comblé de richesses, d’honneurs, d’amis, et d’autorité, au au milieu d’une famille la plus heureuse qui fût au monde, par le moyen du nombre des Enfants bien nés et bien faits, que Dieu lui avait donnés. Ce bon Prince voit en un seul jour périr tous ses Enfants, il se trouve <pb n="310"/>tout d’un coup dépouillé de tous ses biens, et réduit à se jeter sur un fumier par l’abandon que tout le monde fit de sa personne. Avouez que voilà un esprit bien affligé et bien accablé de douleur, son corps ne l’est pas moins, un ulcère le couvre tout entier, ses douleurs et l’infection semblaient le devoir garantir des insultes de la chair ; cependant il s’y fie si peu, que pour s’en défendre au milieu de sa misère, il fait une convention secrète avec ses yeux, de leur donner quelque liberté, à condition qu’ils ne regarderaient jamais ni femme, ni Fille, afin de conserver la pureté de son cœur. Il faut donc que la vue d’une femme soit bien contagieuse, puisqu’un homme, qui a le corps presque tout pourri, l’esprit accablé de tristesse, et soutenue d’une protection particulière de Dieu, sans s’arrêter ni à la sainteté, ni à son affliction a cru qu’il ne pouvait se mettre en sûreté, qu’en obligeant ses yeux par un <pb n="311"/>pacte fait exprès<note resp="author" place="margin">Job. C. 31. v. 1.</note>, de ne jeter jamais un regard sur aucune Fille.</p>
-        <p>Mais, répondrez-vous, il faut donc dire adieu à la joie, et au plaisir ; quand cela serait, il ne faut point tant se récrier ; il n’y aurait rien qui ne fût très conforme au Christianisme, puisque <hi rend="sc">Jésus-Christ</hi> allant mourir pour tous les hommes, fit son testament, et comme un bon et sage Père, il laissa au monde la joie et les plaisirs en partage ; mais pour les véritables Chrétiens, il leur a laissé les pleurs et les tristesses. Voilà notre legs : voyez si vous voulez être héritière de <hi rend="sc">Jésus-Christ</hi>, ou renoncer à sa succession et à son Paradis. Votre sexe semble avoir eu plus de part à la Croix de <hi rend="sc">Jésus-Christ</hi>, qu’a sa gloire ; car on a vu trois Marie sur le Calvaire, et on n’en a pas vu une seule sur le Thabor avec les Apôtres. Vous voudriez bien abandonner le Sauveur, lorsqu’il va mourir pour vous, et voudriez-vous <pb n="312"/>bien faire de cette vie, qui est une vallée de misères, un paradis de délices, où <hi rend="sc">Jésus-Christ</hi> n’a trouvé que des amertumes, des peines et  des douleurs.</p>
-        <p>Mais, répondrez-vous, toujours vivre sans plaisir, ce n’est pas vivre, j’aimerais autant mourir, car la vie Chrétienne n’est qu’une mort continuelle. Vous avez raison, c’est la juste idée que le saint Evangile, saint Paul, et tous les Pères nous en ont donné. Il y a néanmoins d’honnêtes divertissements, qui sont permis, et que l’on peut prendre sans crime ; et il y a, dit l’Apôtre aux Philippiens, une sainte joie, qui est selon Dieu. Réjouissez-vous, mais réjouissez-vous dans le Seigneur, c’est-à-dire, selon son Esprit, et il est bon de se relâcher quelquefois l’esprit et le corps par des récréations honnêtes et innocentes. S. Jean l’Evangéliste, au rapport de Cassien, se divertissait quelquefois avec une perdrix, qu’il avait rendue <pb n="313"/>familière ; et comme un jour un chasseur lui demandait, d’où vient qu’une personne de sa gravité passait le temps à un tel divertissement. Il lui répondit, que son arc ne pouvait être toujours bandé, sans courir risque de se rompre. Ce qui est défendu dans les divertissements ; c’est de les prendre avec trop d’affection, trop d’attache, et d’y mettre son cœur. Le jeu, qui n’est pas une récréation, est une occupation criminelle d’elle-même, qui sert d’occasion prochaine au péché. C’est pourquoi il le faut éviter de nuit aussi bien que de jour. S. François de Sales avec toute sa douceur et toute son indulgence, ne compare-t-il pas les danses aux champignons<note resp="author" place="margin"><hi rend="i">Introd. à la vie dev</hi>. [<hi rend="i">Introduction à la vie dévote].</hi> C. 33.</note>, dont les meilleurs ne valent rien, et quand il parle à sa Philotée, ne les appelle-t-il pas des récréations impertinentes, et des passe-temps très dangereux, parce qu’ils dissipent l’esprit de piété, affaiblissent les forces de l’Ame dévote, <pb n="314"/>ralentissent le feu de la charité Chrétienne, et excitent dans le fond du cœur mille sortes de mauvaises affections. Il est vrai qu’il ajoute, que les justes occasions de la danse et du jeu indifféremment peuvent être, lorsque par une sage condescendance, et une honnête complaisance, qui rend quelquefois les choses indifférentes bonnes, et les dangereuses permises ; on ne s’en peut défendre, et qu’on s’y trouve nécessairement engagées, comme aux noces et autres assemblées rares de parenté et d’amitié, pourvu qu’on en bannisse toutes les mauvaises circonstances, qui ont été marquées ci-dessus. Cependant avec toutes ces sages précautions l’Eglise a témoigné l’aversion qu’elle a pour ces sortes de divertissements dans le Concile de Laodicée<note resp="author" place="margin">Can. [Canon] 3.</note> tenu en l’an 364. sous le Pape Sylvestre ; elle les a défendus même aux noces. Le Concile d’Aix-la-Chapelle<note resp="author" place="margin">An 856. Cap. 12.</note> les appelle des actions infâmes. Un des Conciles <pb n="315"/> d’Afrique<note resp="author" place="margin">Cap. 27.</note> les nomme des actions très mauvaises, et nous trouvons huit Conciles de France<note resp="author" place="margin">Sen. 1524. Bellov. 1554. Paris. 1557. Turon. 1583. Rhem. 1554. Agnen. 1554. Burd. 1624. Aurel. I. C. 22. <!-- FRANCOIS A REVOIR --></note>, qui les ont tous vigoureusement défendues, particulièrement les jours de Fêtes et Dimanches.</p>
-        <p>Le grand S. Charles Borromée Archevêque de Milan, qui a été le Réformateur de la Discipline Ecclésiastique, et qui a fait revivre l’esprit des anciens Canons, en plusieurs endroits de ses Actes, et de ses Conciles, les a très étroitement défendues à son peuple, et même en toute sa Province. Il rapporte aussi qu’anciennement on imposait trois ans de pénitence à ceux qui avaient dansé et qu’on les menaçait même de les excommunier, s’ils persévéraient dans cet exercice.</p>
-        <p>Vous me répondrez sans doute que vous êtes présentement convaincus de ces vérités, et qu’elles paraissent trop clairement pour pouvoir être contestées ; mais dites-nous, que faut-il faire au <pb n="316"/>milieu de tant de rencontres, dans lesquels la nécessité, ou la coutume nous emportent, et nous entraînent malgré nous ? Nous voyons bien, dites-vous, que votre intention est, qu’on se sépare absolument des compagnies dangereuses, et que l’unique nécessité est d’obéir à Dieu, de sauver son âme. Je l’avoue et le confesse avec vous, cependant je ne vois pas qu’on le puisse faire qu’avec le temps : car quel moyen de rompre tout d’un coup les liaisons, les attachements, les alliances et les sociétés qu’on a avec les personnes du monde ? Cette excuse pourrait être recevable, si les temps dépendaient de moi, ou de vous ; mais la Majesté de Dieu les a réservés à sa puissance. La mort est une furieuse, qui ne garde aucune mesure, elle moissonne les fleurs en boutons, et joint quelquefois le commencement de la vie à la fin dans la plus tendre jeunesse, sans se mettre en peine si on y trouvera à redire. Vous n’ignorez <pb n="317"/>pas que l’homme ne naît que pour mourir, que le premier pas qu’il fait dans la vie, est la première démarche qui le conduit au tombeau ; il est coupable et condamné à la mort dès qu’il commence de vivre ; la sentence est déjà prononcée, mais l’exécution en est différée autant qu’il plaît au souverain Juge, sans que le criminel en ait la connaissance : voilà votre condition et la mienne, c’est pourquoi, si nous sommes sages, nous ne devons pas nous assurer d’un seul moment.</p>
-        <p>Mais quand vous auriez du temps, peut-on espérer de rompre les liens et de briser les chaînes, tandis qu’on demeure dedans ? On ne devient pas libre dans l’esclavage : car lorsqu’on converse avec les femme, Platon dit qu’il en sort de certains esprits lymphatiques, qui s’unissant à ceux qui sortent de nous, forment la chaîne qui nous serre, et nous captive ; ce sont des vapeurs malignes qu’exhale notre <pb n="318"/>concupiscence, qui se joignant à celles qu’elles rencontrent, s’épaississent et se condensent, en sorte qu’il se fait une espèce de soudure qui unit et qui attache l’un à l’autre inséparablement ; de sorte que comme pour séparer deux choses étroitement unies, il faut faire des efforts violents, et mettre de l’espace entre deux, de même il faut absolument que vous vous résoudiez<note resp="editor" place="bottom">[NDE]  resoudiez = résolviez.</note> à vous séparer de toutes les compagnies dangereuses, et vous en éloigner de fort loin, de peur qu’elles ne vous rejoignent, et ne vous fassent revenir dans votre premier état.</p>
-        <p>J’avoue que vous sentirez des peines par les respects humains, et par la contradiction, que vos inclinations y apporteront : mais la liberté des Enfants de Dieu mérite bien que vous souffriez cette peine pour l’obtenir : le Ciel ne se donne pas pour rien, il faut l’acheter bien cher ; les pénitents l’ont acheté aux dépens de leurs larmes, et les <pb n="319"/>Martyrs l’ont payé de leur vie et de leur sang. <hi rend="sc">Jésus-Christ</hi> même n’est monté dans la gloire, que par l’échelle de sa Croix, comme dit S. Léon : il n’y aura que ceux qui se seront faits de grandes violences, qui auront le bonheur d’entrer au Royaume des Cieux. Souvenez-vous qu’il se faut couper le pied, et s’arracher les yeux, pour éviter de tomber dans le péché. C’est le Sauveur qui vous le commande<note resp="author" place="margin">Matt. [Matthieu] Cap. II. v. 12.</note> : parce que, dit-il, il vaut bien mieux aller en Paradis borgne ou boiteux, que d’être jeté avec deux beaux yeux dans le fond des Enfers, c’est-à-dire en un mot, qu’il vaut mieux vous sauver toute seule, que de vous damner en bonne compagnie.</p>
-        <p>Au reste, cette entreprise n’est pas si difficile, que vous n’en puissiez venir à bout avec la grâce de Dieu. Nous en voyons souvent de votre qualité, de votre âge, et de votre tempérament, qui ont <pb n="320"/>surmonté généreusement tous ces obstacles, et les Filles les plus volages, les plus légères et les plus mondaines, n’ont pas fait grande résistance, quand elles ont vu l’exemple de leurs Mères. Priez souvent J. C. de vous secourir ; confiez-vous en lui, dit S. Jean<note resp="author" place="margin">Joan. [Joannes] Epist. [Epistola] 1. Cap. 4. v. 4.</note>, sa puissance est infiniment plus grande que celle du monde, et du Prince qui le gouverne. Il vous accordera cette victoire, si vous la désirez beaucoup, et si aux prières humbles et ferventes, que vous lui ferez pour ce sujet, vous joignez une charité libérale envers les pauvres.</p>
+        <pb n="274" xml:id="p274"/>
+        <head>CHAPITRE XIII. Des jeux, des spectacles, et des bals, qui sont défendus aux Filles
+          Chrétiennes.</head>
+        <p>Les personnes du monde, dit S. Augustin<note resp="author" place="margin">August.
+            [Augustin] Lib. 10. <hi rend="i">Conf</hi>. [<hi rend="i">Confessions</hi>] C.
+            23.</note>, aiment la vérité, lorsqu’elle leur montre sa lumière, et qu’elle brille à
+          leurs yeux, et ils la haïssent, lorsqu’elle leur représente leurs défauts, et qu’elle les
+          pique jusqu’au vif ; ils l’embrassent, lorsqu’elle leur découvre ses agréments et sa
+          beauté, et ils <pb n="275" xml:id="p275"/>ne la peuvent souffrir ; lorsqu’elle les découvre à eux-mêmes,
+          parce qu’elles veulent asservir cette vérité à leurs affections, et non pas leurs
+          affections à la vérité, et que l’amour de l’amour-propre l’emporte sur l’amour de la
+          vérité. De là vient qu’ils s’élèvent contre ceux qui leur représentent leurs vices et
+          leurs passions injustes, ils les fuient, ils les évitent, et ne les peuvent supporter de
+          peur que la vérité connue, ne les force d’abandonner ce qu’ils aiment. Ainsi ceux qui
+          aiment les jeux, le bal, la comédie, et qui suivent le luxe et les vanités du siècle, ne
+          veulent point entendre traiter chrétiennement ces matières, afin de pécher plus librement
+          et sans inquiétude, et comme leur goût est dépravé, ils trouvent de l’amertume dans les
+          viandes les plus douces. On a beau leur dire, qu’il y a des jeux défendus, des spectacles
+          et des assemblées dangereuses, ils tournent la tête, s’en moquent, se ferment les <pb n="276" xml:id="p276"/>yeux, et se bouchent les oreilles pour ne point voir ni entendre toutes ces
+          choses, qui leur déplaisent. Je sais avec S. Grégoire, qu’il y a des jeux et des
+          divertissements permis, et que l’on en peut prendre, comme on prend une médecine pour
+          purger le corps de ses mauvaises humeurs, et le rendre plus capable et plus propre au
+          travail : mais nous entendons parler ici de ces jeux défendus, qui ruinent les familles,
+          qui remuent et excitent les passions, et font perdre le temps, qui est si précieux.</p>
+        <p>On voit des femmes et des Filles si entêtées, et si passionnées du jeu, qu’elles n’ont
+          que cela dans l’esprit, elles en perdent le boire et le manger, et passent en cet excès
+          les jours et les nuits, sans se mettre en peine de s’acquitter de leurs devoirs
+          essentiels ; elle négligent même leurs prières, et souvent perdent la Messe les Fêtes et
+          le Dimanches ; on les voit toujours occupées de leur perte ou de <pb n="277" xml:id="p277"/>leur gain,
+          du lieu où elles iront jouer, où l’on tiendra table ouverte, et où l’on s’assemblera ;
+          enfin, elles sont si souvent dans l’exercice du jeu, qu’elles courent risque de mourir les
+          cartes à la main ; jusques là même que j’ai ouï dire, qu’une femme de qualité étant en
+          couche, demandait sans cesse à sa garde, quand elle pourrait jouer, ne s’affligeant
+          d’autre chose, que de ce que ses Médecins ne lui permettaient pas de battre des cartes, ou
+          de remuer des dés.</p>
+        <p>En vérité, est-ce là la vie d’une femme Chrétienne, à qui Dieu n’a donné la vie, que pour
+          l’employer à son salut. On dit dans le monde que l’on joue pour tuer le temps ; est-ce là,
+          je vous prie, un langage Chrétien ? vous tuez le temps en jouant et en vous divertissant,
+          mais le temps vous tuera à son tour, et fera votre condamnation. Il viendra un jour où
+          vous demanderez du temps pour faire pénitence : mais Dieu vous le refusera, dit <pb n="278" xml:id="p278"/>l’Ange de l’Apocalypse, la femme et la Fille sage font toutes deux leur
+          divertissement de leur occupation, et la femme et la Fille insensée font leur occupation
+          de leurs divertissements ; il faut donc se faire une joie et un plaisir de s’occuper
+          toujours ; et de faire son devoir. Tous les Pères ont admiré la parole de cet Empereur
+          Païen, qui croyait avoir perdu le jour, quand il l’avait passé sans faire aucune bonne
+          action ; et les Chrétiens auront si peu de Foi, que de perdre inutilement le temps, que J.
+          C. nous a acheté au prix de son Sang. Si un damné pouvait en avoir un seul moment, il
+          achèterait au prix de mille vies, s’il les avait ; les Chrétiens n’ont pour but dans le
+          jeu, et dans les divertissements qu’ils prennent, que de laisser passer le temps sans le
+          sentir, où plutôt sans se sentir eux-mêmes.</p>
+        <p>Saint Cyprien, qui est celui de tous les Pères, qui a mieux traité du jeu, dit que c’est
+          un crime et <pb n="279" xml:id="p279"/>une honte à un Chrétien de s’y occuper entièrement. S. Isidore
+          Archevêque de Séville en Espagne, en apporte la raison, lorsqu’il dit qu’on idolâtre dans
+          le jeu, parce qu’on n’y reconnaît plus la Providence de Dieu, et qu’on n’y adore que
+          l’empire du destin et de la fortune ; c’est là, dit ce savant personnage, où les hommes se
+          donnent aux divertissements, au lieu de s’y prêter. Voyez-vous dans ce miroir fidèle
+          toutes les passions, qui se remuent, ce bouillonnement de cœur, ces émotions, cette
+          impétuosité de nature, ces agitations du corps, cet air sombre et mélancolique, ces
+          paroles piquantes et injurieuses, ces blasphèmes exécrables, qui sont quelquefois dans la
+          bouche même des plus beaux joueurs. Ce qui a fait dire à S. François de Borgia, que le jeu
+          était toujours très dangereux : et que quand on s’y donnait avec trop d’attache, on y
+          perdait quatre choses, le temps, <pb n="280" xml:id="p280"/>l’argent, la dévotion et la conscience.</p>
+        <p>Pour ce qui regarde les spectacles ; je ne répèterai point ce qu’on en a écrit depuis
+          peu ; ceux qui ont traité cette matière à fond, n’ont rien oublié pour en donner de
+          l’horreur. S. Augustin confesse, que l’amour qu’il a eu pour les spectacles, a été pour
+          lui un attrait à la volupté, et qu’il n’en est jamais sorti si chaste qu’il y était entre,
+          parce que tout ce qu’on y entend, débauche les sens, séduit l’esprit, et corrompt le cœur.
+          C’est ce qui fait dire à S. Cyprien, que la comédie est une école d’impureté, et le lieu
+          où l’on prostitue la pudeur. Salvien Evêque de Marseille dit, que de son temps on faisait
+          faire au Baptême une particulière renonciation d’aller à la comédie. S. Basile l’a
+          condamnée, S. Chrysostome veut qu’on la fuie comme une peste publique : et Tertullien dans
+          son <hi rend="i">Livre des Spectacles</hi><note resp="author" place="margin">Tertull. de
+            Spectac. [Tertullien, <hi rend="i">de Spectacula</hi>] C. 4.</note>
+          <pb n="281" xml:id="p281"/>montre et prouve fortement, que la Religion Chrétienne a une aversion extrême
+          pour ces sortes de divertissements, qu’elle les abhorre, et qu’elle ne les peut supporter.
+          Minutius Felix déclame contre ces passe-temps dangereux, dans son Apologie<note
+            resp="editor" place="bottom">[NDE] <hi rend="i">Octavius</hi>, paragraphe 36.</note>
+          qu’il a fait pour défendre les Chrétiens ; et Comitorius a fait un traité admirable<note
+            resp="editor" place="bottom">[NDE] Voir <hi rend="i">Vigilum romanorum latercula duo
+              Coelimontana magnam partem militia</hi>, III, 2, 11.</note>, où il prouve que d’y
+          assister, c’est un péché mortel, comme l’assure aussi S. Augustin : la raison qu’il en
+          apporte, c’est, que ceux qui vont à la comédie, contribuent et participent au péché de
+          ceux qui la jouent. Or il est certain que les comédiens sont excommuniés et retranchés de
+          la Communion des Fidèles par les saints Conciles, comme celui de Carthage en Afrique,
+          d’Arles en France, d’Elvire en Espagne. L’Empereur Théodose condamna les bouffons et les
+          farceurs aux bêtes farouches ; et August et Marc Aurèle, tous païens qu’ils étaient, les
+          faisaient <pb n="282" xml:id="p282"/>mourir, ou les envoyaient en exil.</p>
+        <p>Mais pourquoi blâmer la comédie ? il n’y a point de mal, on y apprend à vivre dans le
+          monde ; mais prenez garde qu’il n’y a rien d’innocent dans ces divertissements qui sont
+          souvent des occasions prochaines de péché à ceux qui s’y trouvent, sans avoir mauvaise
+          intention, parce que les comédiens d’aujourd’hui sont semblables à ceux dont parle
+          Sénèque, qui corrompaient de son temps les mœurs, sous le beau prétexte de les reformer,
+          et qui sous couleur de reprendre le vice, l’insinuaient adroitement et avec artifice dans
+          les esprits des spectateurs, et qui voulant corriger les hommes en les divertissant, les
+          perdent en les faisant rire, et meurent par cette fausse joie, comme ceux qui ont mangé de
+          l’herbe Sardonique<note resp="editor" place="bottom">[NDE] Il s’agit d’une herbe toxique,
+            sans doute l’œnanthe safranée, qui pousse uniquement en Sardaigne et qui fait mourir en
+            contractant les muscles de la bouche, d’où vient l’expression « rire
+            sardonique ».</note>, selon la remarque des Naturalistes. En effet, ne voyons-nous pas
+          par expérience, que la naïveté malicieuse dans la bouche d’une jeune Comédienne, qui fait
+            <pb n="283" xml:id="p283"/>l’innocente Agnès, a débauché plus de femmes, et corrompu plus de Vierges,
+          que les écrits les plus licencieux de ce Philosophe, qui fut autrefois chassé d’Athènes,
+          parce qu’il se vantait que personne ne sortait chaste de son école<note resp="editor"
+            place="bottom">[NDE] L’auteur reprend les termes du sieur de Rochement dans <hi rend="i"
+              >Observations sur le Festin de Pierre</hi>, 1665.</note>. Et quoique toute la France
+          ait l’obligation à feu Monsieur le Cardinal de Richelieu, d’avoir épuré et purifié le
+          théâtre de la comédie, et d’avoir réformé jusqu’aux habits, et aux gestes de cette
+          courtisane effrontée. Ce sage et prudent politique, dont les vives lumières perçaient
+          jusques dans l’avenir, n’en a pas pour cela retranché tout ce qui peut encore choquer la
+          pudeur, et blesser la chasteté des honnêtes femmes. Tertullien rapporte l’histoire d’une
+          Fille Chrétienne, qui fut possédée du Démon, pour avoir une seule fois assisté à la
+          comédie, et comme on l’exorcisait, et qu’on demandait au Démon, qui l’avait fait si hardi
+          que d’entrer dans cette jeune Fille, qui appartenait à <pb n="284" xml:id="p284"/><hi rend="sc"
+            >Jesus-Christ</hi> par son Baptême ? Il répondit, qu’il y était entré, parce qu’il
+          l’avait trouvée sur ses terres, et dans le lieu de son domaine. En effet, c’est là où le
+          Démon règne avec empire ; c’est là qu’il corrompt les âmes les plus pures par des idées
+          dangereuses, par des gestes dissolus, par des postures lascives, et par des paroles
+          indécentes et malhonnêtes dont on fait gloire ; si bien que c’est un dangereux écueil pour
+          la pureté des Filles, qui le doivent éviter avec soin, si elles ont de l’amour pour Dieu
+          et pour leur salut.</p>
+        <p>La danse chez les Romains n’était pas permise aux honnêtes gens ; c’est pourquoi Salluste
+          reproche à Sempronia Dame Romaine, d’avoir trop bien dansé pour une honnête femme<note
+            resp="editor" place="bottom">[NDE] <hi rend="i">Conjuration de Catilina</hi>,
+            XXV.</note> ; et Cicéron dans l’Oraison <hi rend="i">pro Murena</hi>, dit que la danse
+          est une espèce d’ivresse défendue aux personnes qui font profession de vertu<note
+            resp="editor" place="bottom">[NDE] Il s’agit d’une accusation faite par Caton contre
+            Murena, que Cicéron réfute.</note>. C’est peut-être dans cette pensée qu’un Italien <pb n="285" xml:id="p285"/>l’appelle une folie qui passe de la tête jusqu’aux pieds : néanmoins on peut
+          dire, à la honte de plusieurs Mères Chrétiennes, que leurs Filles savent plutôt un pas de
+          danse, que les principes de leur Religion, tant elles ont soin de les rendre agréables au
+          monde, sans se soucier de plaire au Seigneur. Cependant Dieu parlant aux Filles de
+          Jérusalem par son prophète Ezéchiel, leur dit<note resp="author" place="margin">Ezech.
+            [Ezechiel] Cap. 25.</note>, parce que vous avez joué des mains et des pieds, et que vous
+          avez par là épanché et répandu vos cœurs : j’étendrai ma main dessus vous, et vous ferai
+          mourir. Les Filles et les femmes Israélites irritèrent Dieu par leurs danses et leurs
+            idolâtries<note resp="author" place="margin">Exod. [Exode] 12.</note> ; ce qui obligea
+          Moïse, percé de douleur, de briser les tables de la Loi, et de commander aux Lévites de
+          prendre les armes, de les mettre à mort, et de les tuer sur la place. La Femme du jeune
+          Tobie voulant se justifier devant Dieu, assure qu’elle ne s’est jamais trouvée dans les
+            jeux<note resp="author" place="margin">Tob. [Tobie] C. 3.</note>
+          <pb n="286" xml:id="p286"/>et dans les danses. C’est ce qui a fait dire à saint Ambroise qu’il n’y a que
+          les femmes et les Filles prostituées qui s’y adonnent ; car peut-il y avoir de la pudeur
+          où l’on danse ? Vous voyez par là, Mères Chrétiennes, continue ce grand Saint, ce qu’il
+          faut apprendre à vos Filles : que la femme adultère danse ; mais que celle qui est chaste
+          et pudique, enseigne à ses Filles la piété, et non pas à danser.</p>
+        <p>Nous voyons dans l’Ecriture, que la danse a fait perdre la vie au meilleur ami de <hi
+            rend="sc">Jésus-Christ</hi>, et que la tête de St. Jean-Baptiste, qui pouvait, dit S.
+          Chrysostome, convertir tout le monde, a été le prix de la danse d’une jeune baladine. Le
+          Diable ne trouve point de moyen plus puissant, pour obtenir d’Hérode la mort de ce S.
+          Précurseur, qui faisait l’admiration de la Judée, au rapport même de l’Historien Joseph,
+          que faire danser devant le Roi une Fille <pb n="287" xml:id="p287"/>mondaine fort ajustée, et fort
+          adroite à cet exercice. Serait-il possible que vous n’eussiez pas en exécration une chose
+          qui a été si nuisible à toute l’Eglise, qui a tant affligé <hi rend="sc">Jésus-Christ</hi>
+          par la mort d’un homme qu’il aimait ? Dieu même nous l’avait donné, et la danse nous
+          l’avait ravi cruellement ; quand il n’y aurait autre chose à objecter contre la danse,
+          cette considération seule vous doit faire prendre la résolution de ne danser jamais,
+          puisque la danse a fait perdre la vie à S. Jean, je ne crois pas que vous voulussiez faire
+          le moindre usage d’un couteau, qui aurait servi à égorger votre ami.</p>
+        <p>Mais ce qui vous oblige, malgré vous, d’abandonner ce malheureux divertissement, c’est
+          une foule et un nombre presque infini de péchés, qui composent une longue chaine, dont on
+          a de la peine à voir la fin. Il y en a qui précèdent la danse, et d’autres qui la <pb n="288" xml:id="p288"/>suivent, je vous prie de les remarquer.</p>
+        <p>Si vous entrez dans la chambre de cette personne, qui se dispose d’aller au bal : vous la
+          trouverez devant un miroir, se consultant sans cesse environnée de servantes, ou de ses
+          bonnes amies, qui s’étudient à orner sa tête de frisures, de rubans, et le reste. Les
+          linges et les toiles les plus transparentes, et les plus courtes sont les meilleures, afin
+          que les nudités se voient plus grandes ; elle pratique mille inventions pour attirer les
+          yeux, et gagner le cœur des jeunes hommes. Si elle a quelque défaut naturel, on supplée à
+          tout, les poudres changent la couleur des cheveux, le fard et les pommades unissent les
+          visages, qui ne le sont pas ; les corps de jupes sont pleins d’artifice, pour corriger les
+          défauts, et pour couvrir les difformités de la taille ; on charge ensuite le corps de
+          rubans, dont la diversité des couleurs répond à la diversité des passions. On met <pb n="289" xml:id="p289"/>enfin mille autres agréments où l’on juge qu’ils auront de l’éclat et de la
+          bonne grâce. On étudie avec affection ses démarches, ses regards, ses gestes, son
+          discours, et généralement tout ce qu’on doit faire pour plaire au monde. C’est ainsi, dit
+          le Prophète Royal<note resp="editor" place="bottom">[NDE] David.</note>, en se plaignant
+          de ces excès, que l’on ajuste, et que l’on pare les Filles du siècle, que l’on veut
+          produire, et que l’on souhaite de faire paraître au grand jour : en sorte, dit-il,
+          qu’elles sont en état de tenir la place d’une Idole au milieu d’un Temple, pour recevoir
+          les encens, les adorations et tous les honneurs, qui ne sont dus qu’a Dieu seul.</p>
+        <p>L’extérieur d’une fille mondaine ainsi parée, découvre assez clairement les différentes
+          pensées de son âme ; elle désire ardemment d’être trouvée belle, sa prétention est
+          d’attirer auprès de soi les garçons les plus divertissants, les plus agréables, les mieux
+          faits, les plus <pb n="290" xml:id="p290"/>enjoués, et les plus galants ; elle veut faire des conquêtes,
+          et gagner des cœurs ; elle se préfère à toutes les autres Filles ; elle se tient fière, et
+          prend un air de grandeur pour survendre ses appas, et se faire mieux valoir ses attraits ;
+          elle ne sort de son logis, qu’après s’être regardée et considérée plusieurs fois ; elle
+          porte encore un miroir de poche, pour se mirer dans tous les lieux où elle va ; son image,
+          que ce miroir lui représente, lui plaît infiniment ; elle prend en elle-même un repos
+          orgueilleux ; cherchant à l’entour d’elle des approbateurs qui soient de son sentiment ;
+          c’est-à-dire en un mot, que cette âme superbe et dédaigneuse est toute remplie de vanité,
+          de présomption, de vaine gloire, et de tous les autres mouvements, que la sensualité et
+          l’orgueil ont coutume d’inspirer ; son cœur en est tout enflé et tout bouffi. Je vous
+          laisse à penser, si dans cet état il y a un Dieu pour elle ; et si son souvenir n’est <pb n="291" xml:id="p291"/>pas effacé de sa mémoire, comme s’il n’avait jamais été, ou qu’il dût bientôt
+          n’être plus.</p>
+        <p>Voilà bien des péchés avant que d’être sortie de la maison, et des péchés d’autant plus
+          dangereux, qu’ils sont spirituels et imperceptibles. Cependant c’est cet orgueil et cette
+          complaisance, qui gâta tellement l’esprit du premier Ange<note resp="editor"
+            place="bottom">[NDE] Lucifer.</note>, que Dieu ne le peut<note resp="editor"
+            place="bottom">[NDE] « peut » pour « put ».</note> souffrir un moment en sa présence. Il
+          faut avouer que votre insensibilité est extrême, si ces péchés ne vous pèsent pas sur le
+          cœur : car leur poids est si grand, dit S. Chrysostome, qu’étant dans l’esprit de Lucifer,
+          les voûtes du Ciel ne le purent plus supporter.</p>
+        <p>Voyons maintenant cette Fille mondaine dans l’assemblée ; elle n’est pas plutôt assise,
+          que ses yeux courent partout pour voir les autres, et sur le champ son cœur est saisi de
+          jalousie contre les unes ; et de mépris contre les autres : celles qui sont plus
+          courtisées, excitent son envie ; et si elle l’est plus <pb n="292" xml:id="p292"/>que les autres, son
+          orgueil s’enfle, et les regardant avec dédain, elle les porte à la vengeance. C’est là où
+          l’on déchire son prochain par des malices, qu’on appelle agréables et spirituelles. C’est
+          là où la calomnie la plus fine et la mieux inventée est la plus agréable, quoiqu’elle soit
+          la plus piquante, la raillerie y est le jeu le plus innocent, cependant elle cause de si
+          vifs ressentiments, que les années entières ne suffisent pas pour les apaiser. Je n’ose
+          pas vous parler des offenses que souffre la pudeur ; j’ai cru néanmoins qu’il n’était pas
+          mal à propos de vous en dire quelque chose qui vous fasse mieux juger des injures qu’on y
+          fait à cette vertu.</p>
+        <p>Tout le monde sait que la concupiscence est une source fatale d’impureté, que les deux
+          sexes portent au milieu d’eux en naissant. Nous entrons, dit S. Augustin, dans cette vie
+          accompagnés de cet ennemi dans la nécessité de le vaincre, et c’est être heureux : ou d’en
+            <pb n="293" xml:id="p293"/>être vaincu, et c’est être réprouvé. Il n’y a point de trêve ni de paix à
+          espérer ; vous avez beau fuir dans les déserts et dans les solitudes, dit saint Jérôme ;
+          l’esprit et la chair sont dans votre personne, comme deux ennemis furieux, qui s’enferment
+          dans un tonneau armés de poignards : vous voyez bien qu’il n’y a point de fuite à
+          prendre : il faut nécessairement que l’un des deux périsse. Voilà une étrange extrémité.
+          C’est néanmoins celle où vous êtes réduite, et ce qui rend votre condition encore plus
+          misérable, c’est que si vous surmontez aujourd’hui votre passion, elle se révoltera
+          demain ; et vous aurez autant de peine à vaincre cette nouvelle attaque, que la première.
+          Ces révoltes continuelles dureront autant que vos jours, la mort seule vous en délivrera
+          entièrement, lorsqu’elle séparera l’âme de votre misérable corps de corruption. Avouez que
+          c’est pour tous les hommes un grand sujet <pb n="294" xml:id="p294"/>d’humiliation, d’affliction, et de
+          crainte d’avoir un adversaire si puissant, et si opiniâtre dans la persécution : cependant
+          que faites-vous, Filles mondaines par vos ajustements trop affectés ? Vous fortifiez, dit
+          le même S. Augustin, le parti de votre ennemi. Ce sont des troupes auxiliaires, que vous
+          appelez pour votre ruine ; ce grand Saint exprime sa pensée avec des termes dignes de son
+          esprit, et que je vous prie de remarquer. Il appelle ces habits somptueux, ces nudités,
+          ces pruderies, ces rubans, ces frisures, ces cadences, ces bals et tous ces
+          divertissements mondains, des escadrons de concupiscence. En effet, si celle qui est née
+          avec vous, était éteinte, toutes ces choses seraient capables de la faire revivre. Après
+          cela, jugez si vous pourrez surmonter cet effroyable ennemi que la nature a renfermé dans
+          vous-même, puisque vous en avez tant d’autres sur les bras, que l’artifice du monde vous a
+          suscités, et qui <pb n="295" xml:id="p295"/>vous plaisent pour votre malheur.</p>
+        <p>Pour vous faire encore mieux comprendre combien la concupiscence, qui est enracinée au
+          milieu de nous, est redoutable, considérez avec attention ce qui s’est passé en la
+          personne de S. Paul : ce grand Apôtre, cet homme ravi en extase jusqu’au troisième Ciel,
+          ce vaisseau d’élection choisi pour porter l’Evangile par toute la terre, ce grand S. Paul
+          est rempli de grâces et de bénédictions, et néanmoins il crie au secours de toutes parts
+          dans les excès et dans les violentes insultes<note resp="editor" place="bottom">[NDE]
+            insultes = agressions.</note> que la concupiscence fait en lui ; il a paru tout trempé
+          des naufrages, dont il s’était garanti ; on l’a vu se relever tout meurtri de dessous une
+          grêle de cailloux dont on l’avait lapidé ; il s’est trouvé mouillé, fatigué, couché à
+          plate terre dans le fort de l’hiver, et au milieu de toutes ces afflictions, on l’entend
+          se plaindre de la tyrannie de la chair, de la manière du monde la plus <pb n="296" xml:id="p296"/>pitoyable. Tous ses travaux, ses fatigues, ses persécutions, ses combats et sa sainteté,
+          ne le peuvent pas délivrer des violences, que cette cruelle passion exerce contre lui,
+          elle ne lui donne ni trêve ni repos, il se jette à deux genoux, il crie miséricorde<note
+            resp="author" place="margin">S. Paul. Ep. [Epistola] ad Rom. [Romanos] C. 7. V. 23. 24.
+            25</note>, il déplore sa condition, voyant que son esprit, qui ne saurait plaire à Dieu,
+          s’il n’est pur, est engagé dans son corps, comme au milieu d’un bourbier : quel moyen
+          qu’il ne se salisse pas ? Vous seul ô mon Dieu, pouvez me préserver par la grâce que mon
+          Sauveur m’a acquise. En effet, Notre Seigneur lui ayant refusé de le délivrer de cette
+          maudite tentation<note resp="author" place="margin">Epist. [Epistola] 2. ad Cor.
+            [Corinthios] C. 12. v. 7.</note>, il lui promet en même temps son secours, avec lequel
+          il l’assure qu’il pourra s’en défendre. N’est-il pas vrai qu’il semblait n’y avoir plus
+          rien à craindre pour S. Paul, puisque la grâce même lui est promise de la bouche même de
+            <hi rend="sc">Jésus-Christ</hi> ? Cependant il n’en demeure pas <pb n="297" xml:id="p297"/>là, il
+          travaille, il prie, il fuit les occasions, et dans ses retraites il fait de très austères
+          pénitences, il afflige son corps par les jeûnes et par les veilles, il lève la main sur
+          lui, et le châtiant jusqu’a l’effusion du sang, il le réduit à vivre selon les lois de
+          l’esprit, de peur, dit-il, qu’en l’épargnant, je ne me trouve dans le nombre des
+          Réprouvés. Qui ne tremblera pas, après saint Paul ? Dira-t-on, après cet exemple, que
+          l’assemblée des bals est innocente, et qu’il n’y a point de mal ? Comment voulez-vous que
+          ces personnes, qui la composent, qui ont la même passion infiniment plus vive et plus
+          ardente, dont le corps est nourri si délicatement, vêtu avec tant de mollesse, et de luxe,
+          assiégées de jeunes gens, qui abandonnent tous leur sens, pour en boire le poison avec
+          plus de liberté, qui jettent mille regards malhonnêtes, leurs yeux étant comme des canaux
+          voluptueux par où passe l’amour, et <pb n="298" xml:id="p298"/>comme les ambassadeurs de cette infâme
+          passion, qui ont des entretiens pleins de tendresse, et souvent pleins de dissolutions :
+          quand il ne se passerait point autre chose, pouvez-vous dire en bonne foi, que les uns et
+          les autres sont chastes ? entrez dans leurs cœurs, et voyez ces pensées, ces désirs et ces
+          affections. Je m’assure que vous avez trop d’honnêteté pour y arrêter trop longtemps votre
+          vue.</p>
+        <p>Un des plus illustres Pères de l’Eglise Grecque<note resp="author" place="margin">Sanct.
+            Basil. [Sanctus Basilius] Lib. de virg. [Liber de virginibus]</note>, compare tous ces
+          baisers, qu’on permet dans les bals, ces attouchements de mains, ces cajoleries, et autres
+          indécences qui s’y commettent, aux attouchements du feu. Si vous prenez à main nue un fer
+          bien chaud, vous voyez sur le champ naître des ampoules, qui s’élèvent, et qui dans peu de
+          temps deviennent des blessures très cuisantes et très dangereuses. De même, dit ce Saint,
+          ce sortes d’attouchements trop libres entre les deux sexes, vont subitement <pb n="299" xml:id="p299"/>frapper le cœur, et y causent des inflammations, qui brûlent la fleur de sa pureté, sans
+          qu’on en puisse éteindre le feu qu’avec de très grandes difficultés.</p>
+        <p>Vous ne manquerez pas de répondre, qu’on prend bien garde à ces excès, et qu’on ne
+          souffre pas de semblables familiarités. Et moi je dis après les SS. Pères qu’il y en a
+          fort peu qui y regardent de si près ; car toutes ces dissolutions criminelles passent dans
+          le monde pour des enjouements permis. Mais quand cela serait, êtes-vous maîtresse des
+          cœurs, quand ils ne se toucheraient pas par le bout du doigt, la vue seule des objets
+          parés de la sorte, cause la damnation de l’âme ; et vous n’en doutez pas, puisque le
+          Sauveur du monde enseigne dans son Evangile<note resp="author" place="margin">Matth.
+            [Matthieu] Cap. 5. v. 28</note>, qu’un homme et une femme, qui s’entregardent<note
+            resp="editor" place="bottom">[NDE] s’entregardent = se regardent l’un l’autre.</note>
+          avec un mauvais désir, sont dès ce moment coupables de crime devant Dieu. Remarquez qu’il
+          ne dit pas celui qui parle à <pb n="300" xml:id="p300"/>une femme, ou qui se familiarise avec elle :
+          mais seulement qui la regarde ; et c’est pour ce sujet qu’il ordonne ensuite de nous
+          arracher les yeux, si leurs regards portent le péché dans nos cœurs, et il est si
+          dangereux de voir une femme vêtue de la sorte, que Dieu, pour nous empêcher de tomber dans
+          le désir qu’il condamne, a eu la bonté dans l’Ecriture d’en faire un commandement, d’en
+          détourner nos yeux<note resp="author" place="margin">Eccles. [Ecclesiaste] Cap. 6. v.
+            8</note>. Ne dites donc plus que ce sont des amusements, des bagatelles et des
+          scrupules. L’exemple de David doit faire trembler les plus hardis et les plus
+          innocents.</p>
+        <p>Ce bon Prince, après avoir travaillé dans son cabinet aux affaires de son état, voulut
+          aller prendre l’air sur un balcon de son Palais qui était fort élevé, de là portait ses
+          yeux sur la campagne, ils tombèrent malheureusement sur une belle femme, qui était dans un
+          jardin disposée à se rafraîchir dans un bain. Ce regard éveilla sa passion, <pb n="301" xml:id="p301"/>le feu s’augmenta, il vit cette femme, elle lui plut, il en fut charmé, il avala le
+          poison, et le vainqueur de Goliath devint en un moment la conquête de Bersabée, sur quoi
+          S. Augustin demande, pourquoi un objet si éloigné avait fait sur David une si vive
+          impression. Il répond qu’il ne faut pas avoir tant d’égard à l’éloignement de cette femme,
+          qu’à la proximité de la convoitise, qui était au milieu de son cœur : <quote>« Mulier erat
+            longe, sed libido erat prope. »</quote> Après cela jugez du mal, que les approches des
+          Filles mondaines font dans un bal, et combien elles en font faire.</p>
+        <p>Ajoutez à tout ce que nous venons de dire, une réflexion qui vous donnera de la
+          confusion, et à tous ceux qui la feront sérieusement devant Dieu ; considérez ces deux
+          personnes, qui dansent au milieu d’une nombreuse assemblée, la Fille avance ou recule en
+          cadence, le garçon la suit. Chacun de son côté fait diverses postures de son corps, <pb n="302" xml:id="p302"/>l’âme se répand toute par les yeux qui sont pleins de douceurs et d’œillades
+          lascives : on s’échauffe dans cet exercice : on cherche à se plaire l’un à l’autre, et on
+          s’empresse de se rendre mutuellement des témoignages de l’estime et de l’affection dont on
+          se trouve possédé. Dites-moi, tout cela est-il honnête ? Cela est-il conforme à la
+          modestie Chrétienne ? Oseriez-vous défendre et soutenir comme innocent un exercice, qui ne
+          respire qu’orgueil et qu’impudicité ? Les infâmes privautés, auxquelles la danse donne
+          occasion par le mélange de deux sexes, ne donnent-ils pas un juste sujet de craindre pour
+          la pudeur des Filles qui s’y adonnent ? N’appréhendez-vous pas pour elles que leurs âmes
+          ne soient blessées mortellement, et qu’elles ne soient prostituées, quand leur corps
+          demeurerait chaste ? car quelles idées voulez-vous que tous ces commerces impriment dans
+          l’imagination ? Quelles pensées peuvent porter les <pb n="303" xml:id="p303"/>objets dans l’esprit ? et
+          quelles affections prétendez-vous que ces pensées formeront dans un cœur ? la modestie
+          m’arrête tout court. J’ai de la confusion de les imaginer, et vous en devez avoir d’y
+          penser seulement sans les voir : le Royaume de Dieu, comme vous savez, est au-dedans de
+          nous. C’est <hi rend="sc">Jésus-Christ</hi> qui le dit dans l’Evangile, et le Prophète Roi
+          remarque que la gloire de la Fille du Roi est au-dedans d’elle-même. Or ce Royaume de Dieu
+          et cette gloire consistent dans la pureté du cœur, dans l’humilité et dans la modestie,
+          dans l’aversion du monde corrompu, et dans l’amour de la Croix. Avouez donc que ce Royaume
+          est détruit, et que cette gloire est éclipsée dans les personnes, qui fréquentent le bal,
+          où il ne se trouve qu’ambition, qu’orgueil, qu’impureté, médisance, vaine gloire, et amour
+          de recherche de soi-même. Je vous l’avais bien dit que notre Dieu est un <pb n="304" xml:id="p304"/>esprit infiniment pur et infiniment saint, et que suivant la parole de son Fils unique,
+          pour être du nombre de ses véritables adorateurs, il faut l’adorer avec un esprit saint,
+          et un cœur épuré. Dites donc hardiment que tous ceux qui courent, qui cherchent et qui
+          aiment ces sortes d’assemblées, n’ont point de Religion, parce que partout où la véritable
+          adoration ne se rencontre pas, la Religion n’y est pas, il faut que la maison tombe
+          nécessairement en ruine, quand il n’y a plus de fondement.</p>
+        <p>Cependant l’erreur où vivent la plupart des personnes du monde sur ce point, me paraît si
+          pernicieuse à l’Eglise et au salut des particuliers, qu’on ne doit rien oublier pour les
+          désabuser. C’est pour ce sujet, que je veux vous rapporter ce qu’en a écrit une personne
+          pleine de piété et de lumière. Ce savant homme dit qu’on peut regarder un bal en deux
+          manières, <pb n="305" xml:id="p305"/>ou par les yeux du corps, ou avec ceux de l’esprit. Qu’est-ce que
+          les personnes du monde voient dans un bal ? Une assemblée de personnes agréables, bien
+          mises, bien parées, qui ne songent qu’a se divertir, à prendre leurs plaisirs, et à
+          contribuer au plaisir commun, ils y voient des femmes et des Filles qui font tout ce
+          qu’elles peuvent pour se faire admirer et se rendre aimables, et des hommes qui font tout
+          ce qu’ils peuvent pour leur témoigner qu’ils les admirent et qu’ils les aiment. Ils y
+          voient un spectacle, qui flatte tous les sens, qui remplit leur esprit de vanités, qui
+          amollit leur cœur par le son ravissant des violons et des instruments, qui flattent les
+          oreilles, et qui charment et enlèvent l’âme par une douce et agréable violence. Ainsi
+          l’amour du monde et des créatures se glisse imperceptiblement dans le cœur de ceux qui se
+          trouvent à un bal. Mais qu’est-ce que la lumière de la Foi découvre dans ces <pb n="306" xml:id="p306"/>
+          assemblées profanes à ceux qu’elle éclaire ? elle leur fait voir ce que Dieu et les Anges
+          y voient, elle leur découvre un massacre horrible d’âmes qui s’entretuent les unes les
+          autres ; elle leur montre des femmes en qui le Démon habite, qui font à de misérables
+          hommes mille plaies mortelles ; elle leur fait voir un air contagieux, qui se répand par
+          tous les sens, et un poison subtil qui se glisse dans tous les cœurs ; enfin elle leur
+          fait paraître une infinité d’esprits malins, qui se moquent de ces malheureux, et qui se
+          raillent de leurs illusions et de leurs aveuglements. Voilà ce que la Foi nous apprend,
+          voilà ce qu’elle nous découvre par ses lumières, et qui assurément n’approchent pas de la
+          réalité ; car on manque de pensées et d’expressions pour donner un portait au naturel, et
+          pour faire une peinture vive et parlante de ce divertissement, qui est aussi ridicule
+          qu’il est honteux ; car si l’extravagance <pb n="307" xml:id="p307"/>ne s’était naturalisée dans nos
+          mœurs ; nous appellerions folie ce qu’on nomme gentillesse. Ne dites pas que les hommes
+          n’ont pas assez de pouvoir pour porter une femme ou une Fille d’honneur à un sentiment, ou
+          à quelque action malhonnête, si elle ne le veut, et que vous vous en garantirez bien. Vous
+          ne connaissez pas assez votre faiblesse, vous présumez trop de vous-même. Pensez à ce que
+          fit S. Pierre, lorsqu’il renia <hi rend="sc">Jésus-Christ</hi>. Quand vous êtes aux pieds
+          des Confesseurs, vous changez bien de langage ; la vérité et votre conscience vous
+          contraignent d’avouer tout ce que nous venons de dire, et souvent votre plus grand malheur
+          et celui des autres femmes, ou des Filles vient d’un premier entretien dans un bal, ou de
+          quelque autre divertissement, dont on leur a donné le régal, et qui les a fait tomber.
+          Elles ont continué, et cette première démarche a été la cause de toutes <pb n="308" xml:id="p308"/>les
+          autres, elles s’en sont confessées, mais elles n’ont pas quitté les occasions dangereuses.
+          Une flamme mal éteinte est facile à rallumer. Pour ce qui regarde le pouvoir des femmes
+          sur l’esprit des hommes, il n’est que trop connu par de funestes expériences. Il y en a
+          peu qui y résistent, et le seul secret pour s’en défendre, c’est de fuir. Fuyez, dit S.
+          Paul, c’est le meilleur moyen de demeurer victorieux dans ce genre de combat si dangereux
+          à la chasteté. Les femmes néanmoins ne doivent pas tirer avantage de cette force : et
+          c’est, dit un grand Saint, comme si on se vantait de la force d’un poison malin, qui
+          tuerait un homme sur le champ, ou comme si on estimait la violence d’un torrent impétueux
+          qui ravagerait tout ce qu’il rencontre, ou enfin comme qui louerait la force des vents,
+          qui font périr les vaisseaux sur la mer, et qui renversent quelquefois les arbres et les
+          maisons sur la terre.</p><pb n="309" xml:id="p309"/>
+        <p>Voilà des exemples mémorables de la puissance des femmes sur les hommes,
+          tirés de l’Ecriture sainte. Samson le plus fort de tous entre les mains de ses ennemis,
+          devint le plus faible entre les bras de Dalila, qu’il aimait passionnément. Salomon, le
+          plus sage de tous les mortels, devint le plus fol de tous les hommes pour l’amour de ses
+          courtisanes, qui le firent idolâtrer, et donner de l’encens à leurs fausses Divinités. Qui
+          ne tremblera pas après de tels exemples ? Mais celui du saint homme Job me semble encore
+          plus fort pour prouver cette vérité : c’est un homme qui tenait le rang d’un prince dans
+          son pays, comblé de richesses, d’honneurs, d’amis, et d’autorité, au au milieu d’une
+          famille la plus heureuse qui fût au monde, par le moyen du nombre des Enfants bien nés et
+          bien faits, que Dieu lui avait donnés. Ce bon Prince voit en un seul jour périr tous ses
+          Enfants, il se trouve <pb n="310" xml:id="p310"/>tout d’un coup dépouillé de tous ses biens, et réduit à
+          se jeter sur un fumier par l’abandon que tout le monde fit de sa personne. Avouez que
+          voilà un esprit bien affligé et bien accablé de douleur, son corps ne l’est pas moins, un
+          ulcère le couvre tout entier, ses douleurs et l’infection semblaient le devoir garantir
+          des insultes de la chair ; cependant il s’y fie si peu, que pour s’en défendre au milieu
+          de sa misère, il fait une convention secrète avec ses yeux, de leur donner quelque
+          liberté, à condition qu’ils ne regarderaient jamais ni femme, ni Fille, afin de conserver
+          la pureté de son cœur. Il faut donc que la vue d’une femme soit bien contagieuse,
+          puisqu’un homme, qui a le corps presque tout pourri, l’esprit accablé de tristesse, et
+          soutenue d’une protection particulière de Dieu, sans s’arrêter ni à la sainteté, ni à son
+          affliction a cru qu’il ne pouvait se mettre en sûreté, qu’en obligeant ses yeux par un <pb n="311" xml:id="p311"/>pacte fait exprès<note resp="author" place="margin">Job. C. 31. v. 1.</note>,
+          de ne jeter jamais un regard sur aucune Fille.</p>
+        <p>Mais, répondrez-vous, il faut donc dire adieu à la joie, et au plaisir ; quand cela
+          serait, il ne faut point tant se récrier ; il n’y aurait rien qui ne fût très conforme au
+          Christianisme, puisque <hi rend="sc">Jésus-Christ</hi> allant mourir pour tous les hommes,
+          fit son testament, et comme un bon et sage Père, il laissa au monde la joie et les
+          plaisirs en partage ; mais pour les véritables Chrétiens, il leur a laissé les pleurs et
+          les tristesses. Voilà notre legs : voyez si vous voulez être héritière de <hi rend="sc"
+            >Jésus-Christ</hi>, ou renoncer à sa succession et à son Paradis. Votre sexe semble
+          avoir eu plus de part à la Croix de <hi rend="sc">Jésus-Christ</hi>, qu’a sa gloire ; car
+          on a vu trois Marie sur le Calvaire, et on n’en a pas vu une seule sur le Thabor avec les
+          Apôtres. Vous voudriez bien abandonner le Sauveur, lorsqu’il va mourir pour vous, et
+          voudriez-vous <pb n="312" xml:id="p312"/>bien faire de cette vie, qui est une vallée de misères, un
+          paradis de délices, où <hi rend="sc">Jésus-Christ</hi> n’a trouvé que des amertumes, des
+          peines et des douleurs.</p>
+        <p>Mais, répondrez-vous, toujours vivre sans plaisir, ce n’est pas vivre, j’aimerais autant
+          mourir, car la vie Chrétienne n’est qu’une mort continuelle. Vous avez raison, c’est la
+          juste idée que le saint Evangile, saint Paul, et tous les Pères nous en ont donné. Il y a
+          néanmoins d’honnêtes divertissements, qui sont permis, et que l’on peut prendre sans
+          crime ; et il y a, dit l’Apôtre aux Philippiens, une sainte joie, qui est selon Dieu.
+          Réjouissez-vous, mais réjouissez-vous dans le Seigneur, c’est-à-dire, selon son Esprit, et
+          il est bon de se relâcher quelquefois l’esprit et le corps par des récréations honnêtes et
+          innocentes. S. Jean l’Evangéliste, au rapport de Cassien, se divertissait quelquefois avec
+          une perdrix, qu’il avait rendue <pb n="313" xml:id="p313"/>familière ; et comme un jour un chasseur lui
+          demandait, d’où vient qu’une personne de sa gravité passait le temps à un tel
+          divertissement. Il lui répondit, que son arc ne pouvait être toujours bandé, sans courir
+          risque de se rompre. Ce qui est défendu dans les divertissements ; c’est de les prendre
+          avec trop d’affection, trop d’attache, et d’y mettre son cœur. Le jeu, qui n’est pas une
+          récréation, est une occupation criminelle d’elle-même, qui sert d’occasion prochaine au
+          péché. C’est pourquoi il le faut éviter de nuit aussi bien que de jour. S. François de
+          Sales avec toute sa douceur et toute son indulgence, ne compare-t-il pas les danses aux
+            champignons<note resp="author" place="margin"><hi rend="i">Introd. à la vie dev</hi>.
+              [<hi rend="i">Introduction à la vie dévote].</hi> C. 33.</note>, dont les meilleurs ne
+          valent rien, et quand il parle à sa Philotée, ne les appelle-t-il pas des récréations
+          impertinentes, et des passe-temps très dangereux, parce qu’ils dissipent l’esprit de
+          piété, affaiblissent les forces de l’Ame dévote, <pb n="314" xml:id="p314"/>ralentissent le feu de la
+          charité Chrétienne, et excitent dans le fond du cœur mille sortes de mauvaises affections.
+          Il est vrai qu’il ajoute, que les justes occasions de la danse et du jeu indifféremment
+          peuvent être, lorsque par une sage condescendance, et une honnête complaisance, qui rend
+          quelquefois les choses indifférentes bonnes, et les dangereuses permises ; on ne s’en peut
+          défendre, et qu’on s’y trouve nécessairement engagées, comme aux noces et autres
+          assemblées rares de parenté et d’amitié, pourvu qu’on en bannisse toutes les mauvaises
+          circonstances, qui ont été marquées ci-dessus. Cependant avec toutes ces sages précautions
+          l’Eglise a témoigné l’aversion qu’elle a pour ces sortes de divertissements dans le
+          Concile de Laodicée<note resp="author" place="margin">Can. [Canon] 3.</note> tenu en l’an
+          364. sous le Pape Sylvestre ; elle les a défendus même aux noces. Le Concile
+            d’Aix-la-Chapelle<note resp="author" place="margin">An 856. Cap. 12.</note> les appelle
+          des actions infâmes. Un des Conciles <pb n="315" xml:id="p315"/> d’Afrique<note resp="author"
+            place="margin">Cap. 27.</note> les nomme des actions très mauvaises, et nous trouvons
+          huit Conciles de France<note resp="author" place="margin">Sen. 1524. Bellov. 1554. Paris.
+            1557. Turon. 1583. Rhem. 1554. Agnen. 1554. Burd. 1624. Aurel. I. C. 22.
+            <!-- FRANCOIS A REVOIR --></note>, qui les ont tous vigoureusement défendues,
+          particulièrement les jours de Fêtes et Dimanches.</p>
+        <p>Le grand S. Charles Borromée Archevêque de Milan, qui a été le Réformateur de la
+          Discipline Ecclésiastique, et qui a fait revivre l’esprit des anciens Canons, en plusieurs
+          endroits de ses Actes, et de ses Conciles, les a très étroitement défendues à son peuple,
+          et même en toute sa Province. Il rapporte aussi qu’anciennement on imposait trois ans de
+          pénitence à ceux qui avaient dansé et qu’on les menaçait même de les excommunier, s’ils
+          persévéraient dans cet exercice.</p>
+        <p>Vous me répondrez sans doute que vous êtes présentement convaincus de ces vérités, et
+          qu’elles paraissent trop clairement pour pouvoir être contestées ; mais dites-nous, que
+          faut-il faire au <pb n="316" xml:id="p316"/>milieu de tant de rencontres, dans lesquels la nécessité, ou
+          la coutume nous emportent, et nous entraînent malgré nous ? Nous voyons bien, dites-vous,
+          que votre intention est, qu’on se sépare absolument des compagnies dangereuses, et que
+          l’unique nécessité est d’obéir à Dieu, de sauver son âme. Je l’avoue et le confesse avec
+          vous, cependant je ne vois pas qu’on le puisse faire qu’avec le temps : car quel moyen de
+          rompre tout d’un coup les liaisons, les attachements, les alliances et les sociétés qu’on
+          a avec les personnes du monde ? Cette excuse pourrait être recevable, si les temps
+          dépendaient de moi, ou de vous ; mais la Majesté de Dieu les a réservés à sa puissance. La
+          mort est une furieuse, qui ne garde aucune mesure, elle moissonne les fleurs en boutons,
+          et joint quelquefois le commencement de la vie à la fin dans la plus tendre jeunesse, sans
+          se mettre en peine si on y trouvera à redire. Vous n’ignorez <pb n="317" xml:id="p317"/>pas que l’homme
+          ne naît que pour mourir, que le premier pas qu’il fait dans la vie, est la première
+          démarche qui le conduit au tombeau ; il est coupable et condamné à la mort dès qu’il
+          commence de vivre ; la sentence est déjà prononcée, mais l’exécution en est différée
+          autant qu’il plaît au souverain Juge, sans que le criminel en ait la connaissance : voilà
+          votre condition et la mienne, c’est pourquoi, si nous sommes sages, nous ne devons pas
+          nous assurer d’un seul moment.</p>
+        <p>Mais quand vous auriez du temps, peut-on espérer de rompre les liens et de briser les
+          chaînes, tandis qu’on demeure dedans ? On ne devient pas libre dans l’esclavage : car
+          lorsqu’on converse avec les femme, Platon dit qu’il en sort de certains esprits
+          lymphatiques, qui s’unissant à ceux qui sortent de nous, forment la chaîne qui nous serre,
+          et nous captive ; ce sont des vapeurs malignes qu’exhale notre <pb n="318" xml:id="p318"/>concupiscence,
+          qui se joignant à celles qu’elles rencontrent, s’épaississent et se condensent, en sorte
+          qu’il se fait une espèce de soudure qui unit et qui attache l’un à l’autre
+          inséparablement ; de sorte que comme pour séparer deux choses étroitement unies, il faut
+          faire des efforts violents, et mettre de l’espace entre deux, de même il faut absolument
+          que vous vous résoudiez<note resp="editor" place="bottom">[NDE] resoudiez =
+            résolviez.</note> à vous séparer de toutes les compagnies dangereuses, et vous en
+          éloigner de fort loin, de peur qu’elles ne vous rejoignent, et ne vous fassent revenir
+          dans votre premier état.</p>
+        <p>J’avoue que vous sentirez des peines par les respects humains, et par la contradiction,
+          que vos inclinations y apporteront : mais la liberté des Enfants de Dieu mérite bien que
+          vous souffriez cette peine pour l’obtenir : le Ciel ne se donne pas pour rien, il faut
+          l’acheter bien cher ; les pénitents l’ont acheté aux dépens de leurs larmes, et les <pb n="319" xml:id="p319"/>Martyrs l’ont payé de leur vie et de leur sang. <hi rend="sc">Jésus-Christ</hi>
+          même n’est monté dans la gloire, que par l’échelle de sa Croix, comme dit S. Léon : il n’y
+          aura que ceux qui se seront faits de grandes violences, qui auront le bonheur d’entrer au
+          Royaume des Cieux. Souvenez-vous qu’il se faut couper le pied, et s’arracher les yeux,
+          pour éviter de tomber dans le péché. C’est le Sauveur qui vous le commande<note
+            resp="author" place="margin">Matt. [Matthieu] Cap. II. v. 12.</note> : parce que,
+          dit-il, il vaut bien mieux aller en Paradis borgne ou boiteux, que d’être jeté avec deux
+          beaux yeux dans le fond des Enfers, c’est-à-dire en un mot, qu’il vaut mieux vous sauver
+          toute seule, que de vous damner en bonne compagnie.</p>
+        <p>Au reste, cette entreprise n’est pas si difficile, que vous n’en puissiez venir à bout
+          avec la grâce de Dieu. Nous en voyons souvent de votre qualité, de votre âge, et de votre
+          tempérament, qui ont <pb n="320" xml:id="p320"/>surmonté généreusement tous ces obstacles, et les Filles
+          les plus volages, les plus légères et les plus mondaines, n’ont pas fait grande
+          résistance, quand elles ont vu l’exemple de leurs Mères. Priez souvent J. C. de vous
+          secourir ; confiez-vous en lui, dit S. Jean<note resp="author" place="margin">Joan.
+            [Joannes] Epist. [Epistola] 1. Cap. 4. v. 4.</note>, sa puissance est infiniment plus
+          grande que celle du monde, et du Prince qui le gouverne. Il vous accordera cette victoire,
+          si vous la désirez beaucoup, et si aux prières humbles et ferventes, que vous lui ferez
+          pour ce sujet, vous joignez une charité libérale envers les pauvres.</p>
       </div>
     </body>
   </text>

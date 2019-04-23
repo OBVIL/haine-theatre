@@ -2,286 +2,62 @@
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>De la connaissance des bons livres</title>
-                <author key="Sorel, Charles (1582?-1674)"
-                    ref="https://data.bnf.fr/fr/11925160/charles_sorel/">Charles Sorel</author>
-            </titleStmt>
-            <editionStmt>
-                <edition>OBVIL</edition>
-                <respStmt>
-                    <name>François Lecercle</name>
-                    <resp>Responsable d’édition</resp>
-                </respStmt>
-                <respStmt>
-                    <name>Clotilde Thouret</name>
-                    <resp>Responsable d’édition</resp>
-                </respStmt>
-                <respStmt>
-                    <name>Nolwenn Chevalier</name>
-                    <resp>Édition XML</resp>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
-                <date when="2017"/>
-                <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/sorel_connaissance-bons-livres_1671/</idno>
-                <availability status="restricted">
-                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-                        <p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire
-                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
-                            OBVIL).</p>
-                        <p>Cette ressource électronique protégée par le code de la propriété
-                            intellectuelle sur les bases de données (L341-1) est mise à disposition
-                            de la communauté scientifique internationale par l’OBVIL, selon les
-                            termes de la licence Creative Commons : « Attribution – Pas
-                            d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND
-                            3.0 FR) ».</p>
-                        <p>Attribution : afin de référencer la source, toute utilisation ou
-                            publication dérivée de cette ressource électroniques comportera le nom
-                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
-                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
-                            scientifique, toute utilisation commerciale est interdite.</p>
-                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
-                            ressource électronique, notamment en intégrant toutes les contributions
-                            extérieures. La diffusion de versions modifiées de cette ressource n’est
-                            pas souhaitable.</p>
-                    </licence>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl>Charles Sorel, <hi rend="i">De la connaissance des bons livres</hi>,
-                        <biblScope>p. 232-248</biblScope>, 1671</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date when="1671"/>
-            </creation>
-            <langUsage>
-                <language ident="fre"/>
-            </langUsage>
-        </profileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-                <head>De la connaissance des bons livres</head>
-                <label><pb n="232" xml:id="p232"/><hi rend="i">De la Comedie.</hi></label>
-                <p>Toutes ces sortes de Poësies amusent quantité de Gens ; D’autres sont d’avis
-                    qu’on ne devroit gueres s’occuper ny à en composer ny à en <pb n="233"
-                        xml:id="p233"/>lire : Ils tiennent tout cela pour folie ou pour vanité ;
-                    mais c’est une opinion trop chagrine &amp; trop severe. La Poësie estant pleine
-                    d’esprit &amp; d’artifice, on en doit faire cas comme d’un exercice attaché aux
-                    Sciences &amp; aux belles Lettres, qui est receu dans le Monde sans
-                    contestation. La plus grande question est pour les Pieces de Theatre, qui estant
-                    prononcées en public avec les actions qui y conviennent, sont entenduës de tous
-                    ceux qui y veulent assister. Les Comedies de toutes les sortes ont eu tant
-                    d’applaudissement, qu’elles ont scandalisé les Personnes devotes, qui ont creu
-                    qu’elles n’estoient recherchées que parce qu’elles flattoient les vices &amp;
-                    les enseignoient au Peuple. On a commencé de les attaquer de vive voix &amp; par
-                    écrit : Les Prédicateurs les ont condamnées dans leurs Chaires, &amp; quelques
-                    Gens doctes ont animé leur plume contre ce divertissement qui a donné matiere à
-                    plusieurs Livres. L’Apologie du Theatre qui a esté faite autrefois n’a pas eu
-                    beaucoup de credit, non plus que tant d’Eloges qui se rencontrent <pb n="234"
-                        xml:id="p234"/>en plusieurs endroits. Les Comedies se défendoient davantage
-                    par la foule de leurs Auditeurs &amp; Approbateurs. Enfin un grand Prince poussé
-                    d’un bon zele a fait un Traité pour condamner nos Comedies ordinaires, &amp; il
-                    s’est trouvé qu’au mesme temps un des bons Esprits de ce siecle a voulu montrer
-                    qu’il n’y a que les Comedies infames qui doivent estre condamnées. Peut-estre
-                    n’a-t’il point pensé à l’autre Traité, &amp; il a soustenu le party des belles
-                    Representations par exercice d’Esprit, de mesme qu’il avoit déja fait un Livre
-                    de la Pratique du Theatre : Neantmoins on a pris sujet de là d’attaquer son
-                    dernier Livre. Un autre homme remarquable par sa doctrine &amp; par sa pieté, a
-                    fait un gros Volume, où il a démembré tout son Texte pour y répondre presque à
-                    chaque Article. Il prétend que plusieurs Auteurs alleguez ne sont pas pris dans
-                    leur vray sens, &amp; qu’il y en a beaucoup d’autres qui les combattent. On peut
-                    laisser vuider ce differend sans qu’un tiers s’en mesle. On ne s’entretient de
-                    cecy que par occasion, <pb n="235" xml:id="p235"/>&amp; sans autre interest que
-                    celuy de la verité. Il faut dire simplement ce qui est du fait, &amp; ce que
-                    plusieurs personnes un peu éclairées ont témoigné d’en penser. Nous sçavons que
-                    le dernier qui a écrit a voulu prouver par plusieurs passages des anciens
-                    Auteurs, &amp; des Peres de l’Eglise, que la Comedie &amp; les Comediens ont
-                    esté depuis long-temps reputez infames, &amp; qu’il a toûjours esté défendu aux
-                    Chrestiens d’assister à leurs spectacles, comme estans nuisibles &amp;
-                    scandaleux. On a déja dit pour défense, Qu’il y avoit difference de Spectacles
-                    chez les Grecs &amp; chez les Romains ; Que veritablement les representations
-                    qui se faisoient en postures, en grimasses, &amp; en danses, estoient lubriques
-                    &amp; des-honnestes, &amp; n’estoient executées que par les Histrions &amp;
-                    Pantomimes qui estoient les Bouffons ou basteleurs de ce temps-là, &amp; qu’il
-                    n’y a point d’apparence de croire que ces sortes de gens fussent mis au rang des
-                    personnes d’honneur ; mais qu’il y avoit des Comediens serieux qui ne
-                    representoient que des Tragedies ou <pb n="236" xml:id="p236"/>Trage-Comedies
-                    pleines de raisonnemens Moraux &amp; Politiques, &amp; que c’estoit ceux-là qui
-                    n’estoient pas notez d’infamie comme les autres ; Qu’un Roscius Comedien qui a
-                    esté tant estimé, pouvoit estre de leur bande ; Que c’estoit chez luy que les
-                    jeunes Orateurs de Rome alloient estudier le geste &amp; la prononciation ;
-                    Qu’il estoit un des plus honnestes hommes de la Ville, &amp; que Ciceron ayant
-                    pris la peine de le défendre en une Cause, avoit parlé de luy fort
-                    avantageusement ; Mais quoy qu’en effet ce Roscius ait esté vertueux,
-                    s’ensuit-il que tous les autres Comediens de son temps le fussent, &amp; qu’ils
-                    luy ressemblassent en son merite personnel ? Si on dit que ceux de sa sorte ne
-                    representoient que des Tragedies ou des Trage-Comedies qui estoient des Pieces
-                    serieuses, cela suffit-il pour faire croire que ceux qui les representoient
-                    devoient passer pour hommes serieux &amp; sages ? Quoy que les Tragedies &amp;
-                    les Trage-Comedies soient tenuës pour fort honnestes en comparaison des
-                    Comedies ; cela n’empeschoit <pb n="237" xml:id="p237"/>pas que l’impudicité
-                    &amp; plusieurs autres habitudes tres-dangereuses n’y fussent descrittes fort
-                    naïvement, puisque ces Pieces avoient esté composées par des Poetes Payens qui
-                    faisoient gloire des mauvaises actions que les Chrestiens ont depuis condamnées.
-                    Les allegations de plusieurs Auteurs ne sont pas beaucoup necessaires en cette
-                    occasion : Nous ne doutons point premierement que l’Histrion ou Basteleur ne
-                    pûst estre autre chose que le Comedien : Aujourd’huy ceux qui dansent sur la
-                    corde &amp; qui font des sauts perilleux, ou qui joüent des gobelets, ne sont
-                    pas ceux qu’on appelle des Comediens, &amp; qui representent des Pieces sur le
-                    Theatre : On a encore voulu faire distinction entre ceux qui joüoient des
-                    Comedies facetieuses, &amp; ceux qui representoient des Tragedies, &amp; autres
-                    Pieces de leur stile, comme si ceux qui ne joüoient que des Pieces serieuses
-                    eussent esté des Hommes venerables. Ne doit-on pas croire qu’il y en avoit qui
-                    estoient propres à tout, comme c’est l’habileté <pb n="238" xml:id="p238"/>du
-                    Comedien de faire tantost le Roy, &amp; tantost le valet ? Estimoit-on moins
-                    celuy qui representoit quelquefois un Personnage Comique &amp; jovial, après en
-                    avoir fait un serieux ? Il est certain que Ciceron &amp; d’autres Auteurs
-                    appellent Roscius, Histrion aussi bien que Comedien. Cela fait voir qu’il n’y
-                    avoit gueres de distinction entre ces deux Professions. Il semble que c’est une
-                    chose assez inutile de disputer davantage là dessus, &amp; qu’on peut tout d’un
-                    coup retrancher la Question en remonstrant, Qu’en ce qui est des Histrions &amp;
-                    des Comediens Romains, Tragiques ou Comiques, les uns ne valoient pas mieux que
-                    les autres, &amp; que leurs Pieces les plus modestes avoient des emportemens que
-                    nous ne sçaurions approuver ; C’est pourquoy la conséquence que l’on tire de
-                    tout cecy en faveur de nos Comediens, n’est pas fort favorable, de dire, Que
-                    puisqu’ils representent des Tragedies &amp; des Trage-Comedies à l’imitation des
-                    Anciens, on les doit tenir dans l’estime comme eux, &amp; assister à leurs
-                    Representations comme à <pb n="239" xml:id="p239"/>des Spectacles importans ;
-                    car si l’on montre que les anciens Comediens ne faisoient aucune difficulté dans
-                    leur Religion de joüer des Pieces de mauvais exemple, on s’imaginera donc que
-                    ceux qui sont aujourd’huy de la mesme Profession prennent une licence pareille ;
-                    Que cela se voit dans leurs Pieces les plus regulieres, &amp; principalement
-                    dans d’autres composées exprés pour estre plus libres. Il est vray que le
-                    Cardinal de Richelieu de son temps avoit purifié le Theatre, &amp; en avoit
-                    entierement banny les Farces ; mais elles ont recommencé depuis quelques années
-                    avec plus de liberté qu’auparavant. Il y a des Gens si simples, qu’ils croyent
-                    que la mesme reforme dure encore, parce qu’on n’entend plus de ces Farces
-                    impudiques qui n’avoient que des railleries de crocheteurs, &amp; dont les
-                    meilleurs mots n’estoient que des impertinentes Equivoques ; Certainement on a
-                    bien fait de les condamner, mais si on ne se sert plus de ces pointes grossieres
-                    où il n’y avoit qu’un jeu de paroles sales prorerées sans honte &amp; sans
-                    respect ; <pb n="240" xml:id="p240"/>ne connoist-on pas qu’en ce temps-cy on en
-                    dit presque de semblables ; mais plus finement &amp; plus couvertement ?
-                    Autrefois toutes les femmes se retiroient lors qu’on alloit commencer la Farce ;
-                    aujourd’huy on leur veut donner le plaisir d’y demeurer, ayant caché la malice
-                    si agreablement, qu’on croit qu’elles la peuvent entendre sans rougir. Il y a
-                    des Pieces entieres qui sont de ce style, &amp; d’autres qui ne causent pas
-                    moins de mal, à ce que l’on pense, par le mépris des loix du Mariage &amp; de
-                    toutes les bonnes mœurs, ce qui est leur principal sujet ; Et pour montrer que
-                    ce ne sont point de miserables Farces faites à la haste, comme celles que les
-                    Saltinbanques &amp; Charlatans joüent aux places publiques, elles sont faites
-                    toutes exprés par des Auteurs dont les noms sont aux affiches &amp; aux Livres
-                    imprimez, comme voulans en tirer de la gloire, &amp; l’on trouve de ces belles
-                    Pieces autant en Vers qu’en Prose. Les Poetes &amp; les Comediens diront que ces
-                    Comedies ne se joüent pas souvent, &amp; que s’il en échappe quelques-unes, <pb
-                        n="241" xml:id="p241"/>c’est pour plaire au peuple qui les demande, &amp;
-                    que pour eux ils aymeroient mieux tirer du profit des Pieces serieuses quand
-                    elles sont en credit, afin de se conserver en honneur &amp; en estime, &amp;
-                    qu’on n’eust plus rien à leur reprocher. Il faut obseruer icy qu’ils ont
-                    toûjours eu dans l’imagination, qu’en ce qui est de leurs Tragedies &amp; de
-                    leurs Trage-Comedies, elles sont d’un style fort honneste, &amp; que personne
-                    n’y peut trouver à reprendre. Ils ne sçauent pas que maintenant on les bat en
-                    ruine, &amp; qu’on les attaque par des endroits dont ils ne se sont point
-                    doutez. Leurs Poëtes ont pensé avoir atteint au suprême degré de leur Art,
-                    d’avoir exprimé naïvement toutes les passions, &amp; c’est où l’on trouve le
-                    plus de danger ; C’est comme les Peintres qui ayant employé tous leurs efforts à
-                    representer des Nuditez dans leurs Tableaux, sont condamnez par les personnes
-                    austeres qui croyent que de tels objets causent de mauvais desirs. Les Comedies
-                    où les passions sont si bien representées, <pb n="242" xml:id="p242"/>ont
-                    offensé tous les Devots ; Selon leur opinion on y employe des paroles trop
-                    tendres qui réveillent la passion d’amour dans les cœurs ; Il s’y trouve en
-                    quelques endroits des Discours vehemens qui excitent la colere pour des sujets
-                    qui ne le valent pas ; l’orgueil &amp; l’ambition y ont leur place, pour nous
-                    apprendre à rechercher les faux biens du Monde, &amp; à mépriser les vrais
-                    biens, qui sont ceux de la Vertu, &amp; tous les biens entierement spirituels.
-                    Aucun ne voudroit contester qu’il ne faille faire effort pour se délivrer de ces
-                    dangers où l’on dit que les Comedies nous exposent. Celuy qui a fait imprimer un
-                    gros Livre contre ces belles Representations, a donné plusieurs exemples pris
-                    des plus fameux Poëtes du Theatre, &amp; des plus discrets qui selon son opinion
-                    ont des paroles trop touchantes. En ce qui est des Poetes Comiques que chacun
-                    croit estre plus libres ; il n’a pas eu besoin d’en parler de mesme, pour ce que
-                    si les plus retenus sont condamnez, il n’y a gueres d’apparence que <pb n="243"
-                        xml:id="p243"/>les autres se puissent sauver : Mais si on en vient
-                    jusques-là, &amp; qu’on leur veuille interdire à tous l’expression des passions,
-                    qui sont l’esprit mouvant des Comedies, il faut donc dire Adieu au Theatre : On
-                    ne representera plus de Comedies, &amp; à peine permettra-t’on de les imprimer.
-                    C’est une austérité trop grande, &amp; qui possible n’est pas necessaire.
-                    Beaucoup de personnes de grand esprit &amp; d’une veritable vertu, tiennent que
-                    la Comedie est un passe-temps honneste où l’on peut apprendre le bien aussi-tost
-                    que le mal. Tournez toutes les Comedies au bien, &amp; vous n’y apprendrez que
-                    du bien. C’est à quoy il faudroit travailler au moins pour conserver leur
-                    estime ; car ceux qui se meslent de juger des choses, voyent bien, à ce qu’ils
-                    disent, que pour le present on n’a garde de les abolir : Il est question
-                    pourtant de faire cesser le bruit &amp; les plaintes. Il nous faut quelque
-                    moderation pour ces beaux Ouvrages, &amp; les rendre tels que nous les puissions
-                    voir sans scrupule : Il n’y a point d’apparence <pb n="244" xml:id="p244"/>de
-                    condamner toutes les Comedies, non plus que tous les Romans, à cause seulement
-                    que les passions y sont trop bien representées ; c’est à dire à cause que ces
-                    Pieces-là sont trop bonnes, &amp; qu’on y voit des exemples naturels d’amour,
-                    d’ambition, d’avarice, de colere, de haine, &amp; d’envie : Il ne faut donc pas
-                    aussi que l’on fasse aucune Histoire. Les Histoires les plus saintes décrivent
-                    toutes les passions &amp; tous les crimes des hommes. Que dira-t’on contre
-                    elles ? On n’a pas envie de les supprimer. Tant s’en faut, qu’on permet encore
-                    tous les jours à des Escrivains nouveaux d’en faire d’autres à leur imitation.
-                    Qu’est-ce qu’on y souhaite pour n’en recevoir aucune plainte ? C’est qu’on
-                    prenne garde à ne point marquer scandaleusement les mauvaises actions, à toucher
-                    les passions doucement, &amp; à y donner une salutaire correction par des
-                    Remonstrances faites à propos. Comme cela se trouve souvent dans les Histoires,
-                    cela doit estre observé de mesme dans les Comedies, &amp; par <pb n="245"
-                        xml:id="p245"/>ce moyen elles pourront estre receues. Puisqu’on permet bien
-                    en des maisons Religieuses, que des Enfans de qualité joüent leur personnage
-                    dans des Comedies composées exprés, on connoist donc qu’on en peut faire de
-                    raisonnables qui ne sont pas à rejetter. On a allegué contre les Comediens &amp;
-                    les Comediennes, qu’ils changeoient les habits de leur sexe, &amp; que cela est
-                    deffendu par les saintes Escritures : Mais s’il faut representer une Histoire où
-                    une fille prenne l’habit d’homme, comme de la Pucelle d’Orleans, comment
-                    feroient-ils pour s’en acquitter ? Mesme d’avoir une cuirasse sur le dos, &amp;
-                    des armes à la main, cela n’est pas toûjours pris pour l’équipage d’un homme,
-                    parce qu’on tient qu’il s’est trouvé des Amazones qui ont porté les armes. Il y
-                    a eu aussi des Comedies où estant besoin de representer des filles habillées en
-                    hommes, ç’a esté de jeunes garçons qui ont representé ce Personnage ; En ce cas
-                    il n’y auroit donc eu que la qualité de fille qu’ils prenoient, qui nous <pb
-                        n="246" xml:id="p246"/>eust offensé, &amp; non pas l’habit. Les nouveaux
-                    Critiques trouvent encore beaucoup à reformer en la façon de s’habiller des
-                    Comediennes &amp; en toutes leurs actions &amp; leurs manieres de parler,
-                    croyant que l’habit, le geste, la prononciation, &amp; tout ce qui est en elles
-                    s’accorde fort à la licence des paroles qu’elles recitent &amp; à leur sujet.
-                    Nous voyons bien que l’on demanderoit une reformation generale, ou une
-                    condamnation absolue de la Comedie. On dit qu’un grand Seigneur aymoit si fort
-                    ce divertissement, qu’il vouloit faire établir un Professeur pour la Poësie du
-                    Theatre, comme il y en a pour l’Eloquence &amp; pour les Mathematiques ; Qu’il
-                    entendoit que celuy-cy instruisist les Poetes qui voudroient faire des Comedies
-                    ou des Tragedies, afin qu’ils n’y missent rien qui ne fust convenable. Il
-                    souhaitoit aussi qu’on dressast une Academie de jeunes gens bien choisis pour
-                    les Representations, afin que les Comediens ne fussent plus des hommes que la
-                    débauche ou la pauvreté auroit jettez à cette profession, <pb n="247"
-                        xml:id="p247"/>&amp; dont la vie eust quelque chose de reprehensible ; mais
-                    qu’estant sages &amp; bien instruits il n’y eust rien en eux que de loüable,
-                    &amp; que cela parust extrêmement en leur action modeste, &amp; leur
-                    prononciation bien-seante. On adjouste une proposition assez judicieuse qui est,
-                    que comme l’on examine toute sorte de Livres avant que de permettre de les
-                    imprimer, &amp; de les communiquer au public, il faudroit qu’il y eust un
-                    Magistrat qui examinast, ou qui fist examiner par Gens experts, les Pieces que
-                    l’on voudroit faire joüer devant le peuple, afin que leur representation ne pûst
-                    nuire à personne : Mais des Censeurs inexorables diront que d’ériger une
-                    Academie pour les Comediens, ce seroit autoriser leur Profession, comme si elle
-                    estoit fort necessaire au public ; Et pour ce qui est du reste, qu’au lieu de
-                    donner la peine à un Magistrat d’examiner les Comedies dignes d’estre
-                    representées, il vaudroit mieux les condamner entierement ; Que par ce moyen on
-                    ne craindroit ny brigue, ny <pb n="248" xml:id="p248"/>surprise, &amp; l’on ne
-                    se mettroit point au hazard d’en recevoir du dommage. Les avis de ces gens-là ne
-                    sont pas des Arrests ; c’est à ceux qui ont le pouvoir en main d’ordonner ce qui
-                    est juste.</p>
-            </div>
-        </body>
-    </text>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sorel_connaissance-bons-livres_1671.pdf" xml:lang="fr">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>De la connaissance des bons livres</title>
+<author>Sorel, Charles</author>
+</titleStmt>
+<editionStmt>
+<edition>OBVIL</edition>
+<respStmt>
+<name>François Lecercle</name>
+<resp>Responsable d’édition</resp>
+</respStmt>
+<respStmt>
+<name>Clotilde Thouret</name>
+<resp>Responsable d’édition</resp>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+<date when="2017"/>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+<p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>De la connaissance des bons livres</title>
+<author>Sorel, Charles</author>
+<biblScope>p. 232-248</biblScope>
+<date>1671</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<creation>
+<date when="1671"/>
+</creation>
+<langUsage>
+<language ident="fr"/>
+</langUsage>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="texte" xml:id="HDT_79">
+<head>De la connaissance des bons livres</head>
+<label><pb n="232"/><hi rend="i">De la Comedie.</hi></label>
+<p>Toutes ces sortes de Poësies amusent quantité de Gens ; D’autres sont d’avis qu’on ne devroit gueres s’occuper ny à en composer ny à en <pb n="233"/>lire : Ils tiennent tout cela pour folie ou pour vanité ; mais c’est une opinion trop chagrine &amp; trop severe. La Poësie estant pleine d’esprit &amp; d’artifice, on en doit faire cas comme d’un exercice attaché aux Sciences &amp; aux belles Lettres, qui est receu dans le Monde sans contestation. La plus grande question est pour les Pieces de Theatre, qui estant prononcées en public avec les actions qui y conviennent, sont entenduës de tous ceux qui y veulent assister. Les Comedies de toutes les sortes ont eu tant d’applaudissement, qu’elles ont scandalisé les Personnes devotes, qui ont creu qu’elles n’estoient recherchées que parce qu’elles flattoient les vices &amp; les enseignoient au Peuple. On a commencé de les attaquer de vive voix &amp; par écrit : Les Prédicateurs les ont condamnées dans leurs Chaires, &amp; quelques Gens doctes ont animé leur plume contre ce divertissement qui a donné matiere à plusieurs Livres. L’Apologie du Theatre qui a esté faite autrefois n’a pas eu beaucoup de credit, non plus que tant d’Eloges qui se rencontrent <pb n="234"/>en plusieurs endroits. Les Comedies se défendoient davantage par la foule de leurs Auditeurs &amp; Approbateurs. Enfin un grand Prince poussé d’un bon zele a fait un Traité pour condamner nos Comedies ordinaires, &amp; il s’est trouvé qu’au mesme temps un des bons Esprits de ce siecle a voulu montrer qu’il n’y a que les Comedies infames qui doivent estre condamnées. Peut-estre n’a-t’il point pensé à l’autre Traité, &amp; il a soustenu le party des belles Representations par exercice d’Esprit, de mesme qu’il avoit déja fait un Livre de la Pratique du Theatre : Neantmoins on a pris sujet de là d’attaquer son dernier Livre. Un autre homme remarquable par sa doctrine &amp; par sa pieté, a fait un gros Volume, où il a démembré tout son Texte pour y répondre presque à chaque Article. Il prétend que plusieurs <seg>Auteurs</seg> alleguez ne sont pas pris dans leur vray sens, &amp; qu’il y en a beaucoup d’autres qui les combattent. On peut laisser vuider ce differend sans qu’un tiers s’en mesle. On ne s’entretient de cecy que par occasion, <pb n="235"/>&amp; sans autre interest que celuy de la verité. Il faut dire simplement ce qui est du fait, &amp; ce que plusieurs personnes un peu éclairées ont témoigné d’en penser. Nous sçavons que le dernier qui a écrit a voulu prouver par plusieurs passages des anciens <seg>Auteurs,</seg> &amp; des Peres de l’Eglise, que la Comedie &amp; les Comediens ont esté depuis long-temps reputez infames, &amp; qu’il a toûjours esté défendu aux Chrestiens d’assister à leurs spectacles, comme estans nuisibles &amp; scandaleux. On a déja dit pour défense, Qu’il y avoit difference de Spectacles chez les Grecs &amp; chez les Romains ; Que veritablement les representations qui se faisoient en postures, en grimasses, &amp; en danses, estoient lubriques &amp; des-honnestes, &amp; n’estoient executées que par les Histrions &amp; Pantomimes qui estoient les Bouffons ou basteleurs de ce temps-là, &amp; qu’il n’y a point d’apparence de croire que ces sortes de gens fussent mis au rang des personnes d’honneur ; mais qu’il y avoit des Comediens serieux qui ne representoient que des Tragedies ou <pb n="236"/>Trage-Comedies pleines de raisonnemens Moraux &amp; Politiques, &amp; que c’estoit ceux-là qui n’estoient pas notez d’infamie comme les autres ; Qu’un Roscius Comedien qui a esté tant estimé, pouvoit estre de leur bande ; Que c’estoit chez luy que les jeunes Orateurs de Rome alloient estudier le geste &amp; la prononciation ; Qu’il estoit un des plus honnestes hommes de la Ville, &amp; que Ciceron ayant pris la peine de le défendre en une Cause, avoit parlé de luy fort avantageusement ; Mais quoy qu’en effet ce Roscius ait esté vertueux, s’ensuit-il que tous les autres Comediens de son temps le fussent, &amp; qu’ils luy ressemblassent en son merite personnel ? Si on dit que ceux de sa sorte ne representoient que des Tragedies ou des Trage-Comedies qui estoient des Pieces serieuses, cela suffit-il pour faire croire que ceux qui les representoient devoient passer pour hommes serieux &amp; sages ? Quoy que les Tragedies &amp; les Trage-Comedies soient tenuës pour fort honnestes en comparaison des Comedies ; cela n’empeschoit <pb n="237"/>pas que l’impudicité &amp; plusieurs autres habitudes tres-dangereuses n’y fussent descrittes fort naïvement, puisque ces Pieces avoient esté composées par des Poetes Payens qui faisoient gloire des mauvaises actions que les Chrestiens ont depuis condamnées. Les allegations de plusieurs <seg>Auteurs</seg> ne sont pas beaucoup necessaires en cette occasion : Nous ne doutons point premierement que l’Histrion ou Basteleur ne pûst estre autre chose que le Comedien : Aujourd’huy ceux qui dansent sur la corde &amp; qui font des sauts perilleux, ou qui joüent des gobelets, ne sont pas ceux qu’on appelle des Comediens, &amp; qui representent des Pieces sur le Theatre : On a encore voulu faire distinction entre ceux qui joüoient des Comedies <seg>facetieuses,</seg> &amp; ceux qui representoient des Tragedies, &amp; autres Pieces de leur stile, comme si ceux qui ne joüoient que des Pieces serieuses eussent esté des Hommes venerables. Ne doit-on pas croire qu’il y en avoit qui estoient propres à tout, comme c’est l’habileté <pb n="238"/>du Comedien de faire tantost le Roy, &amp; tantost le valet ? Estimoit-on moins celuy qui representoit quelquefois un Personnage Comique &amp; jovial, après en avoir fait un serieux ? Il est certain que Ciceron &amp; d’autres <seg>Auteurs</seg> appellent Roscius, Histrion aussi bien que Comedien. Cela fait voir qu’il n’y avoit gueres de distinction entre ces deux Professions. Il semble que c’est une chose assez inutile de disputer davantage là dessus, &amp; qu’on peut tout d’un coup retrancher la Question en remonstrant, Qu’en ce qui est des Histrions &amp; des Comediens Romains, Tragiques ou Comiques, les uns ne valoient pas mieux que les autres, &amp; que leurs Pieces les plus modestes avoient des emportemens que nous ne sçaurions approuver ; C’est pourquoy la conséquence que l’on tire de tout cecy en faveur de nos Comediens, n’est pas fort favorable, de dire, Que puisqu’ils representent des Tragedies &amp; des Trage-Comedies à l’imitation des Anciens, on les doit tenir dans l’estime comme eux, &amp; assister à leurs Representations comme à <pb n="239"/>des Spectacles importans ; car si l’on montre que les anciens Comediens ne faisoient aucune difficulté dans leur Religion de joüer des Pieces de mauvais exemple, on s’imaginera donc que ceux qui sont aujourd’huy de la mesme Profession prennent une licence pareille ; Que cela se voit dans leurs Pieces les plus regulieres, &amp; principalement dans d’autres composées exprés pour estre plus libres. Il est vray que le Cardinal de Richelieu de son temps avoit purifié le Theatre, &amp; en avoit entierement banny les Farces ; mais elles ont recommencé depuis quelques années avec plus de liberté qu’auparavant. Il y a des Gens si simples, qu’ils croyent que la mesme reforme dure encore, parce qu’on n’entend plus de ces Farces impudiques qui n’avoient que des railleries de crocheteurs, &amp; dont les meilleurs mots n’estoient que des impertinentes Equivoques ; Certainement on a bien fait de les condamner, mais si on ne se sert plus de ces pointes grossieres où il n’y avoit qu’un jeu de paroles sales prorerées sans honte &amp; sans respect ; <pb n="240"/>ne connoist-on pas qu’en ce temps-cy on en dit presque de semblables ; mais plus finement &amp; plus couvertement ? Autrefois toutes les femmes se retiroient lors qu’on alloit commencer la Farce ; aujourd’huy on leur veut donner le plaisir d’y demeurer, ayant caché la malice si agreablement, qu’on croit qu’elles la peuvent entendre sans rougir. Il y a des Pieces entieres qui sont de ce style, &amp; d’autres qui ne causent pas moins de mal, à ce que l’on pense, par le mépris des loix du Mariage &amp; de toutes les bonnes mœurs, ce qui est leur principal sujet ; Et pour montrer que ce ne sont point de miserables Farces faites à la haste, comme celles que les Saltinbanques &amp; Charlatans joüent aux places publiques, elles sont faites toutes exprés par des <seg>Auteurs</seg> dont les noms sont aux affiches &amp; aux Livres imprimez, comme voulans en tirer de la gloire, &amp; l’on trouve de ces belles Pieces autant en Vers qu’en Prose. Les Poetes &amp; les Comediens diront que ces Comedies ne se joüent pas souvent, &amp; que s’il en <seg>échappe</seg> quelques-unes, <pb n="241"/>c’est pour plaire au peuple qui les demande, &amp; que pour eux ils aymeroient mieux tirer du profit des Pieces serieuses quand elles sont en credit, afin de se conserver en honneur &amp; en estime, &amp; qu’on n’eust plus rien à leur reprocher. Il faut obseruer icy qu’ils ont toûjours eu dans l’imagination, qu’en ce qui est de leurs Tragedies &amp; de leurs Trage-Comedies, elles sont d’un style fort honneste, &amp; que personne n’y peut trouver à reprendre. Ils ne sçauent pas que maintenant on les bat en ruine, &amp; qu’on les attaque par des endroits dont ils ne se sont point doutez. Leurs Poëtes ont pensé avoir atteint au suprême degré de leur Art, d’avoir exprimé naïvement toutes les passions, &amp; c’est où l’on trouve le plus de danger ; C’est comme les Peintres qui ayant employé tous leurs efforts à representer des Nuditez dans leurs Tableaux, sont condamnez par les personnes austeres qui croyent que de tels objets causent de mauvais desirs. Les Comedies où les passions sont si bien representées, <pb n="242"/>ont offensé tous les Devots ; Selon leur opinion on y employe des paroles trop tendres qui réveillent la passion d’amour dans les cœurs ; Il s’y trouve en quelques endroits des Discours vehemens qui excitent la colere pour des sujets qui ne le valent pas ; l’orgueil &amp; l’ambition y ont leur place, pour nous apprendre à rechercher les faux biens du Monde, &amp; à mépriser les vrais biens, qui sont ceux de la Vertu, &amp; tous les biens entierement spirituels. Aucun ne voudroit contester qu’il ne faille faire effort pour se délivrer de ces dangers où l’on dit que les Comedies nous exposent. Celuy qui a fait imprimer un gros Livre contre ces belles Representations, a donné plusieurs exemples pris des plus fameux Poëtes du Theatre, &amp; des plus discrets qui selon son opinion ont des paroles trop touchantes. En ce qui est des Poetes Comiques que chacun croit estre plus libres ; il n’a pas eu besoin d’en parler de mesme, pour ce que si les plus retenus sont condamnez, il n’y a gueres d’apparence que <pb n="243"/>les autres se puissent sauver : Mais si on en vient jusques-là, &amp; qu’on leur <seg>veuille</seg> interdire à tous l’expression des passions, qui sont l’esprit mouvant des Comedies, il faut donc dire Adieu au Theatre : On ne representera plus de Comedies, &amp; à peine permettra-t’on de les imprimer. C’est une austérité trop grande, &amp; qui possible n’est pas necessaire. Beaucoup de personnes de grand esprit &amp; d’une veritable vertu, tiennent que la Comedie est un passe-temps honneste où l’on peut apprendre le bien aussi-tost que le mal. Tournez toutes les Comedies au bien, &amp; vous n’y apprendrez que du bien. C’est à quoy il faudroit travailler au moins pour conserver leur estime ; car ceux qui se meslent de juger des choses, voyent bien, à ce qu’ils disent, que pour le present on n’a garde de les abolir : Il est question pourtant de faire cesser le bruit &amp; les plaintes. Il nous faut quelque moderation pour ces beaux Ouvrages, &amp; les rendre tels que nous les puissions voir sans scrupule : Il n’y a point d’apparence <pb n="244"/>de condamner toutes les Comedies, non plus que tous les Romans, à cause seulement que les passions y sont trop bien representées ; c’est à dire à cause que ces Pieces-là sont trop bonnes, &amp; qu’on y voit des exemples naturels d’amour, d’ambition, d’avarice, de colere, de haine, &amp; d’envie : Il ne faut donc pas aussi que l’on fasse aucune Histoire. Les Histoires les plus saintes décrivent toutes les passions &amp; tous les crimes des hommes. Que dira-t’on contre elles ? On n’a pas envie de les supprimer. Tant s’en faut, qu’on permet encore tous les jours à des Escrivains nouveaux d’en faire d’autres à leur imitation. Qu’est-ce qu’on y souhaite pour n’en recevoir aucune plainte ? C’est qu’on prenne garde à ne point marquer scandaleusement les mauvaises actions, à toucher les passions doucement, &amp; à y donner une salutaire correction par des Remonstrances faites à propos. Comme cela se trouve souvent dans les Histoires, cela doit estre observé de mesme dans les Comedies, &amp; par <pb n="245"/>ce moyen elles pourront estre receues. Puisqu’on permet bien en des maisons Religieuses, que des Enfans de qualité joüent leur personnage dans des Comedies composées exprés, on connoist donc qu’on en peut faire de raisonnables qui ne sont pas à rejetter. On a allegué contre les Comediens &amp; les Comediennes, qu’ils changeoient les habits de leur sexe, &amp; que cela est deffendu par les saintes Escritures : Mais s’il faut representer une Histoire où une fille prenne l’habit d’homme, comme de la Pucelle d’Orleans, comment feroient-ils pour s’en acquitter ? Mesme d’avoir une cuirasse sur le dos, &amp; des armes à la main, cela n’est pas toûjours pris pour l’équipage d’un homme, parce qu’on tient qu’il s’est trouvé des Amazones qui ont porté les armes. Il y a eu aussi des Comedies où estant besoin de representer des filles habillées en hommes, ç’a esté de jeunes garçons qui ont representé ce Personnage ; En ce cas il n’y auroit donc eu que la qualité de fille qu’ils prenoient, qui nous <pb n="246"/>eust offensé, &amp; non pas l’habit. Les nouveaux Critiques trouvent encore beaucoup à reformer en la façon de s’habiller des Comediennes &amp; en toutes leurs actions &amp; leurs manieres de parler, croyant que l’habit, le geste, la prononciation, &amp; tout ce qui est en elles s’accorde fort à la licence des paroles qu’elles recitent &amp; à leur sujet. Nous voyons bien que l’on demanderoit une reformation generale, ou une condamnation absolue de la Comedie. On dit qu’un grand Seigneur aymoit si fort ce divertissement, qu’il vouloit faire établir un Professeur pour la Poësie du Theatre, comme il y en a pour l’Eloquence &amp; pour les Mathematiques ; Qu’il entendoit que celuy-cy instruisist les Poetes qui voudroient faire des Comedies ou des Tragedies, afin qu’ils n’y missent rien qui ne fust convenable. Il souhaitoit aussi qu’on dressast une Academie de jeunes gens bien choisis pour les Representations, afin que les Comediens ne fussent plus des hommes que la débauche ou la pauvreté auroit jettez à cette profession, <pb n="247"/>&amp; dont la vie eust quelque chose de reprehensible ; mais qu’estant sages &amp; bien instruits il n’y eust rien en eux que de loüable, &amp; que cela parust extrêmement en leur action modeste, &amp; leur prononciation bien-seante. On adjouste une proposition assez judicieuse qui est, que comme l’on examine toute sorte de Livres avant que de permettre de les imprimer, &amp; de les communiquer au public, il faudroit qu’il y eust un Magistrat qui examinast, ou qui fist examiner par Gens experts, les Pieces que l’on voudroit faire joüer devant le peuple, afin que leur representation ne pûst nuire à personne : Mais des Censeurs inexorables diront que d’ériger une Academie pour les Comediens, ce seroit autoriser leur Profession, comme si elle estoit fort necessaire au public ; Et pour ce qui est du reste, qu’au lieu de donner la peine à un Magistrat d’examiner les Comedies dignes d’estre representées, il vaudroit mieux les condamner entierement ; Que par ce moyen on ne craindroit ny brigue, ny <pb n="248"/>surprise, &amp; l’on ne se mettroit point au hazard d’en recevoir du dommage. Les avis de ces gens-là ne sont pas des Arrests ; c’est à ceux qui ont le pouvoir en main d’ordonner ce qui est juste.</p>
+</div>
+</body>
+</text>
 </TEI>
