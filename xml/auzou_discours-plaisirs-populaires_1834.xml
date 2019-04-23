@@ -3,224 +3,619 @@
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Discours sur les plaisirs populaires</title>
-          <author key="Auzou, Louis-Napoléon (1806-1881)">Louis-Napoléon Auzou</author>
-          <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
-          <editor key="Leceercle, François">François Lecercle</editor>
-        </titleStmt>
-        <editionStmt>
-          <edition>OBVIL</edition>
-          <respStmt>
-            <name>François Lecercle</name>
-            <resp>Responsable d’édition</resp>
-          </respStmt>
-          <respStmt>
-            <name>Clotilde Thouret</name>
-            <resp>Responsable d’édition</resp>
-          </respStmt>
-        </editionStmt>
-        <publicationStmt>
-          <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
-          <date when="2018" />
-          <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/auzou_discours-plaisirs-populaires_1834/</idno>
-          <availability status="restricted">
-            <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-              <p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
-              <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
-              <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
-              <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-              <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
-            </licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <author>Louis-Napoléon Auzou</author>,
-            <title>Discours sur les plaisirs populaires, les bals et les spectacles</title>,
-            <pubPlace>Paris</pubPlace>,
-            <publisher>Secrétariat de l'Eglise française</publisher>,
-            <date>1834</date>.
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-        <creation>
-          <date when="1834" />
-        </creation>
-        <langUsage>
-          <language ident="fre"/>
-        </langUsage>
-      </profileDesc>
-    </teiHeader>
-    <text>
-      <body>
-        <div>
-          <head rend="small">[FRONTISPICE]</head>          
-          <p rend="center">DISCOURS<lb/> <hi rend="sc">sur les</hi><lb/> PLAISIRS POPULAIRES,<lb/> <hi rend="sc">les bals</hi><lb/> Et les Spectacles<lb/>Prononcé dans l’Eglise française (première succursale de Clichy),<lb/> sise à Paris, boulevard Saint-Denis, n. 10,<lb/> PAR L’ABBÉ AUZOU,<lb/>Curé de Clichy, par élection du peuple, et président de l’Eglise française.<lb/><lb/>Prix 75c.<lb/><lb/>PARIS<lb/><hi rend="sc">au secretariat de l'eglise française</hi><lb/>Boulevard Saint-Denis, n. 10.<lb/>1834.</p></div>
-        <div type="chapter">
-          <pb n="1"/><head>Discours sur les plaisirs populaires, les bals et les spectacles</head>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Discours sur les plaisirs populaires</title>
+        <author key="Auzou, Louis-Napoléon (1806-1881)"
+          ref="https://data.bnf.fr/fr/15574273/louis-napoleon_auzou/">Louis-Napoléon Auzou</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>François Lecercle</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Clotilde Thouret</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Doranne Lecercle</name>
+          <resp>Contributeur</resp>
+        </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>Édition XML</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/auzou_discours-plaisirs-populaires_1834/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
+              « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons : «
+              Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC
+              BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures. La
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl> Louis-Napoléon Auzou, <hi rend="i">Discours sur les plaisirs populaires, les bals et
+            les spectacles</hi>,<pubPlace>Paris</pubPlace>, <publisher>Secrétariat de l'Eglise
+            française</publisher>,1834.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1834"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head rend="small">[FRONTISPICE]</head>
+        <p rend="center">DISCOURS<lb/>
+          <hi rend="sc">sur les</hi><lb/> PLAISIRS POPULAIRES,<lb/>
+          <hi rend="sc">les bals</hi><lb/> Et les Spectacles<lb/>Prononcé dans l’Eglise française
+          (première succursale de Clichy),<lb/> sise à Paris, boulevard Saint-Denis, n. 10,<lb/> PAR
+          L’ABBÉ AUZOU,<lb/>Curé de Clichy, par élection du peuple, et président de l’Eglise
+          française.<lb/><lb/>Prix 75c.<lb/><lb/>PARIS<lb/><hi rend="sc">au secretariat de l'eglise
+            française</hi><lb/>Boulevard Saint-Denis, n. 10.<lb/>1834.</p>
+      </div>
+      <div type="chapter">
+        <pb n="1" xml:id="p1"/>
+        <head>Discours sur les plaisirs populaires, les bals et les spectacles</head>
         <epigraph>
-            <lg>
-              <l>« Venez à moi, vous tous qui êtes fatigués et qui êtes chargés, je vous soulagerai ;</l>
-              <l>Prenez mon joug sur vous et apprenez de moi que je suis doux et modeste de cœur ; et vous trouverez le repos de vos âmes.</l>
-              <l>Car mon joug est doux et mon fardeau léger. »</l>
-            </lg>
-          <label><hi rend="sc" >S. Mathieu, XI, 28, 29, 30.</hi></label></epigraph>
-        <p>Si, à la sublimité de la morale prêchée par notre maître, on reconnaît déjà sa divine origine, combien, mes chers auditeurs, les paroles que je viens de citer et qui sont sorties de sa bouche, ne devaient-elles pas disposer les cœurs à son adoption, et préparer la faiblesse humaine à en accepter, je ne dirai pas le fardeau, mais la douceur et la consolation !</p>
-        <p>Jésus-Christ n’est point venu bouleverser la société, mais la régénérer : ce n’est point en aggravant le fardeau de la loi de Moïse qu’il a voulu faire venir les hommes à lui : « <quote>Venez à moi, vous tous qui êtes fatigués, qui êtes chargés, je vous soulagerai.</quote> »</p>
-        <p><pb n="2"/>Ce n’est point en changeant les habitudes des hommes, en rompant les liens qui les unissent mutuellement ; ce n’est point en les détournant des devoirs de citoyens ou même de sujets, qu’il a prétendu établir sa morale sainte, et faire de tous les hommes un peuple de frères : « <quote>Prenez<seg type="exquote">, a-t-il dit,</seg> mon joug sur vous, et apprenez que je suis doux et modeste de cœur.</quote> »</p>
-        <p>Ce n’est point par des craintes et des menaces, qui paralyseraient les hommes dans toutes leurs actions et qui tendraient à détourner toutes leurs pensées des choses de la terre pour les concentrer sur l’avenir qu’il promet à ceux qui suivront exactement ses préceptes, qu’il a voulu faire triompher sa doctrine divine, car il ajoute : « <quote>Et vous trouverez le repos de vos âmes.</quote> »</p>
-        <p>Il n’a point exigé de ses disciples et de ceux qui seraient amenés à lui la renonciation aux plaisirs et aux jouissances que la bonté du créateur a attachées à l’humanité en compensation des maux naturels et physiques qui l’affligent, encore moins qu’ils se soumissent volontairement à des combats continuels contre leurs désirs, et même contre les passions qui sont l’âme de la société, et qu’ils cherchassent à amortir ces passions par des jeûnes, des privations, des tortures, car il dit en terminant : « <quote>Mon joug est doux, mon fardeau est léger. »</quote></p>
-        <p>Comment se fait-il, mes frères, que la loi nouvelle, douce, tolérante, consolante comme son divin auteur, soit devenue une religion n’imposant que de tristes devoirs, contrariant tous les sentiments de la nature, faisant, pour ainsi dire, haïr la vie et les moyens de la conserver ; religion toujours austère, toujours menaçante, toujours effrayante, et dont le joug serait cruel et le fardeau accablant, insupportable ?….</p>
-        <p><pb n="3"/>C’est que la vie du Rédempteur a été arrêtée, dès son principe, par l’accomplissement du sacrifice auquel il s’était dévoué, et que la prédication de sa morale n’a plus été confiée qu’à des hommes.</p>
-        <p>Les disciples ont bien été choisis par lui, mais ils étaient hommes et, par conséquent, sujets à l’erreur. Judas ne l’avait-il pas trahi, vendu et livré ? Pierre, lui-même, ne l’avait-il pas renié jusqu’à trois fois ?</p>
-        <p>Chez ceux qui lui étaient restés fidèles ou qui sont revenus à lui, l’enthousiasme avait remplacé toutes les passions humaines, et leur foi, portée jusqu’au fanatisme, leur a fait forcer les conséquences des instructions du maître.</p>
-        <p>Les successeurs des apôtres plus éloignés de la source de la lumière, de toute lumière, et ne conservant que la tradition de la vie de Jésus, ont encore exagéré les doctrines que ses disciples avaient prêchées.</p>
-        <p>Les persécutions que leur zèle inconsidéré, et porté quelquefois jusqu’à la révolte, leur suscitait, ont encore exalté leur imagination et redoublé leur fanatisme.</p>
-        <p>Dans leur délire, l’existence de l’homme sur la terre n’a plus été pour eux qu’une existence passagère, une vie d’épreuves et de douleurs, et les plus fervents ont cherché un asile contre la société jusque dans les déserts. Comme si, pratiquer la morale de Jésus, morale qui n’est que l’accomplissement des devoirs envers la société, ne s’opposait pas à cet isolement volontaire auquel ils se condamnaient : comme si la morale de l’Evangile, qui ne peut être mise en action que d’homme à homme et dans les relations des hommes avec leurs semblables, pouvait permettre l’affranchissement des devoirs que la société exige de tous ses membres.</p>
-        <p><pb n="4"/>De là, cependant, les monastères de la Thébaïde : et c’est dans l’oisiveté de cette vie toute contemplative qu’ont pris naissance ces dogmes d’absurde intolérance, fruits de mystiques élucubrations, et qui, faisant oublier la morale de l’Evangile, l’ont remplacée par des jeûnes, des tortures, des mutilations.</p>
-        <p>Aussi, lorsque les chrétiens ont triomphé sous Constantin, le christianisme n’était déjà plus la loi de Jésus, mais seulement la religion de ces anachorètes et des prêtres.</p>
-          <p>Et en effet : comment ces prêtres fanatiques ont-ils pu s’emparer de l’esprit et de la confiance de cet empereur, bourreau des siens, assassin de sa femme, parricide envers son fils<note resp="editor" place="bottom"> [NDE] L’empereur Constantin Ier, converti au christianisme, a fait mettre à mort son fils Crispus et sa femme Fausta pour des raisons assez obscures.</note> ?…. Est-ce par la prédication de la morale de Jésus ? Non, certes ! mais par une condescendance coupable envers ce monstre, leur nouveau et puissant protecteur, et en lui faisant envisager l’adoption de leur foi comme le moyen de se faire absoudre de tant de crimes et d’attentats que l’humanité avait à lui reprocher, et que, sans doute, malgré leurs promesses, Dieu, dans sa justice, n’a pas dû laisser impunis.</p>
-        <p>Le succès, le triomphe de ces prêtres ambitieux a réveillé leur fanatisme : du fanatisme à l’intolérance, il n’y a qu’un pas, et l’intolérance, armée du pouvoir et de la force, devient nécessairement persécution.</p>
-        <p>Ici, mes frères, je m’arrête.… je réserve pour les conférences que nous avons entreprises l’histoire de ces prêtres qui, de persécutés, sont devenus persécuteurs. Nous y verrons à quels excès ont pu se porter les rivalités, la jalousie, l’ambition, et ces controverses inintelligibles, et ces dogmes bizarres qui exaltent les esprits, les divisent et produisent les schismes ; nous y verrons <pb n="5"/>l’Eglise de Rome déclarant schismatique l’Eglise de Constantinople ; l’Eglise grecque déclarant schismatique l’Eglise romaine, et toutes deux se condamnant avec raison, car toutes deux ont dénaturé la religion du Christ, et déserté sa morale pour se partager les royaumes de la terre, et ont ainsi sacrifié sur les hauts lieux et adoré le veau d’or.</p>
+          <lg>
+            <l>« Venez à moi, vous tous qui êtes fatigués et qui êtes chargés, je vous
+              soulagerai ;</l>
+            <l>Prenez mon joug sur vous et apprenez de moi que je suis doux et modeste de cœur ; et
+              vous trouverez le repos de vos âmes.</l>
+            <l>Car mon joug est doux et mon fardeau léger. »</l>
+          </lg>
+          <label><hi rend="sc">S. Mathieu, XI, 28, 29, 30.</hi></label>
+        </epigraph>
+        <p>Si, à la sublimité de la morale prêchée par notre maître, on reconnaît déjà sa divine
+          origine, combien, mes chers auditeurs, les paroles que je viens de citer et qui sont
+          sorties de sa bouche, ne devaient-elles pas disposer les cœurs à son adoption, et préparer
+          la faiblesse humaine à en accepter, je ne dirai pas le fardeau, mais la douceur et la
+          consolation !</p>
+        <p>Jésus-Christ n’est point venu bouleverser la société, mais la régénérer : ce n’est point
+          en aggravant le fardeau de la loi de Moïse qu’il a voulu faire venir les hommes à lui :
+            <quote>« Venez à moi, vous tous qui êtes fatigués, qui êtes chargés, je vous
+            soulagerai. »</quote></p>
+        <p><pb n="2" xml:id="p2"/>Ce n’est point en changeant les habitudes des hommes, en rompant
+          les liens qui les unissent mutuellement ; ce n’est point en les détournant des devoirs de
+          citoyens ou même de sujets, qu’il a prétendu établir sa morale sainte, et faire de tous
+          les hommes un peuple de frères : <quote>« Prenez<seg type="exquote">, a-t-il dit,</seg>
+            mon joug sur vous, et apprenez que je suis doux et modeste de cœur. »</quote></p>
+        <p>Ce n’est point par des craintes et des menaces, qui paralyseraient les hommes dans toutes
+          leurs actions et qui tendraient à détourner toutes leurs pensées des choses de la terre
+          pour les concentrer sur l’avenir qu’il promet à ceux qui suivront exactement ses
+          préceptes, qu’il a voulu faire triompher sa doctrine divine, car il ajoute : <quote>« Et
+            vous trouverez le repos de vos âmes. »</quote></p>
+        <p>Il n’a point exigé de ses disciples et de ceux qui seraient amenés à lui la renonciation
+          aux plaisirs et aux jouissances que la bonté du créateur a attachées à l’humanité en
+          compensation des maux naturels et physiques qui l’affligent, encore moins qu’ils se
+          soumissent volontairement à des combats continuels contre leurs désirs, et même contre les
+          passions qui sont l’âme de la société, et qu’ils cherchassent à amortir ces passions par
+          des jeûnes, des privations, des tortures, car il dit en terminant : <quote>« Mon joug est
+            doux, mon fardeau est léger. »</quote></p>
+        <p>Comment se fait-il, mes frères, que la loi nouvelle, douce, tolérante, consolante comme
+          son divin auteur, soit devenue une religion n’imposant que de tristes devoirs, contrariant
+          tous les sentiments de la nature, faisant, pour ainsi dire, haïr la vie et les moyens de
+          la conserver ; religion toujours austère, toujours menaçante, toujours effrayante, et dont
+          le joug serait cruel et le fardeau accablant, insupportable ?….</p>
+        <p><pb n="3" xml:id="p3"/>C’est que la vie du Rédempteur a été arrêtée, dès son principe,
+          par l’accomplissement du sacrifice auquel il s’était dévoué, et que la prédication de sa
+          morale n’a plus été confiée qu’à des hommes.</p>
+        <p>Les disciples ont bien été choisis par lui, mais ils étaient hommes et, par conséquent,
+          sujets à l’erreur. Judas ne l’avait-il pas trahi, vendu et livré ? Pierre, lui-même, ne
+          l’avait-il pas renié jusqu’à trois fois ?</p>
+        <p>Chez ceux qui lui étaient restés fidèles ou qui sont revenus à lui, l’enthousiasme avait
+          remplacé toutes les passions humaines, et leur foi, portée jusqu’au fanatisme, leur a fait
+          forcer les conséquences des instructions du maître.</p>
+        <p>Les successeurs des apôtres plus éloignés de la source de la lumière, de toute lumière,
+          et ne conservant que la tradition de la vie de Jésus, ont encore exagéré les doctrines que
+          ses disciples avaient prêchées.</p>
+        <p>Les persécutions que leur zèle inconsidéré, et porté quelquefois jusqu’à la révolte, leur
+          suscitait, ont encore exalté leur imagination et redoublé leur fanatisme.</p>
+        <p>Dans leur délire, l’existence de l’homme sur la terre n’a plus été pour eux qu’une
+          existence passagère, une vie d’épreuves et de douleurs, et les plus fervents ont cherché
+          un asile contre la société jusque dans les déserts. Comme si, pratiquer la morale de
+          Jésus, morale qui n’est que l’accomplissement des devoirs envers la société, ne s’opposait
+          pas à cet isolement volontaire auquel ils se condamnaient : comme si la morale de
+          l’Evangile, qui ne peut être mise en action que d’homme à homme et dans les relations des
+          hommes avec leurs semblables, pouvait permettre l’affranchissement des devoirs que la
+          société exige de tous ses membres.</p>
+        <p><pb n="4" xml:id="p4"/>De là, cependant, les monastères de la Thébaïde : et c’est dans
+          l’oisiveté de cette vie toute contemplative qu’ont pris naissance ces dogmes d’absurde
+          intolérance, fruits de mystiques élucubrations, et qui, faisant oublier la morale de
+          l’Evangile, l’ont remplacée par des jeûnes, des tortures, des mutilations.</p>
+        <p>Aussi, lorsque les chrétiens ont triomphé sous Constantin, le christianisme n’était déjà
+          plus la loi de Jésus, mais seulement la religion de ces anachorètes et des prêtres.</p>
+        <p>Et en effet : comment ces prêtres fanatiques ont-ils pu s’emparer de l’esprit et de la
+          confiance de cet empereur, bourreau des siens, assassin de sa femme, parricide envers son
+            fils<note resp="editor" place="bottom">[NDE] L’empereur Constantin Ier, converti au
+            christianisme, a fait mettre à mort son fils Crispus et sa femme Fausta pour des raisons
+            assez obscures.</note> ?…. Est-ce par la prédication de la morale de Jésus ? Non,
+          certes ! mais par une condescendance coupable envers ce monstre, leur nouveau et puissant
+          protecteur, et en lui faisant envisager l’adoption de leur foi comme le moyen de se faire
+          absoudre de tant de crimes et d’attentats que l’humanité avait à lui reprocher, et que,
+          sans doute, malgré leurs promesses, Dieu, dans sa justice, n’a pas dû laisser impunis.</p>
+        <p>Le succès, le triomphe de ces prêtres ambitieux a réveillé leur fanatisme : du fanatisme
+          à l’intolérance, il n’y a qu’un pas, et l’intolérance, armée du pouvoir et de la force,
+          devient nécessairement persécution.</p>
+        <p>Ici, mes frères, je m’arrête.… je réserve pour les conférences que nous avons entreprises
+          l’histoire de ces prêtres qui, de persécutés, sont devenus persécuteurs. Nous y verrons à
+          quels excès ont pu se porter les rivalités, la jalousie, l’ambition, et ces controverses
+          inintelligibles, et ces dogmes bizarres qui exaltent les esprits, les divisent et
+          produisent les schismes ; nous y verrons <pb n="5" xml:id="p5"/>l’Eglise de Rome déclarant
+          schismatique l’Eglise de Constantinople ; l’Eglise grecque déclarant schismatique l’Eglise
+          romaine, et toutes deux se condamnant avec raison, car toutes deux ont dénaturé la
+          religion du Christ, et déserté sa morale pour se partager les royaumes de la terre, et ont
+          ainsi sacrifié sur les hauts lieux et adoré le veau d’or.</p>
         <p>Mes frères, les matériaux ne nous manqueront pas.</p>
-        <p>Aujourd’hui donc, pour nous restreindre au sujet que nous nous proposons de traiter, nous sommes forcés de tourner tous ensemble les feuillets de cette histoire de quinze siècles de sang pour arriver à l’époque où nous vivons.</p>
-        <p>Après les leçons que le clergé romain avait reçues pendant les orages de la révolution, les amis de la religion espéraient que l’Eglise, devenue gallicane (comme le demandait l’austère Bossuet), aurait modifié sa discipline et ses dogmes suivant les changements qu’ont apporté dans nos mœurs et dans nos croyances, la diffusion plus générale des lumières, la répartition plus étendue de l’aisance et de la richesse, et la conquête de la liberté qui a fait recouvrer à l’homme sa dignité.</p>
-        <p>Ils pensaient, ces amis de la religion, que les prêtres auraient suivi, au moins de loin, les progrès que l’esprit humain a faits par les discussions philosophiques de tout un siècle, et par l’éloquence persuasive et retentissante de la presse ; qu’ils auraient banni ces controverses absurdes ou inintelligibles que, dans des temps d’ignorance, les avaient soutenues le fer et la flamme à la main.</p>
-        <p>Ils avaient espéré qu’à cette <hi rend="i">nouvelle résurrection du Christ parmi nous</hi>, apôtres nouveaux de sa loi, ses ministres <pb n="6"/>nous la ramèneraient dans toute sa pureté primitive, libre de la dépendance d’un prince étranger, dégagée de ses pratiques superstitieuses, et résumée, en un mot, dans les commandements de Dieu et dans la morale de Jésus-Christ.</p>
+        <p>Aujourd’hui donc, pour nous restreindre au sujet que nous nous proposons de traiter, nous
+          sommes forcés de tourner tous ensemble les feuillets de cette histoire de quinze siècles
+          de sang pour arriver à l’époque où nous vivons.</p>
+        <p>Après les leçons que le clergé romain avait reçues pendant les orages de la révolution,
+          les amis de la religion espéraient que l’Eglise, devenue gallicane (comme le demandait
+          l’austère Bossuet), aurait modifié sa discipline et ses dogmes suivant les changements
+          qu’ont apporté dans nos mœurs et dans nos croyances, la diffusion plus générale des
+          lumières, la répartition plus étendue de l’aisance et de la richesse, et la conquête de la
+          liberté qui a fait recouvrer à l’homme sa dignité.</p>
+        <p>Ils pensaient, ces amis de la religion, que les prêtres auraient suivi, au moins de loin,
+          les progrès que l’esprit humain a faits par les discussions philosophiques de tout un
+          siècle, et par l’éloquence persuasive et retentissante de la presse ; qu’ils auraient
+          banni ces controverses absurdes ou inintelligibles que, dans des temps d’ignorance, les
+          avaient soutenues le fer et la flamme à la main.</p>
+        <p>Ils avaient espéré qu’à cette <hi rend="i">nouvelle résurrection du Christ parmi
+            nous</hi>, apôtres nouveaux de sa loi, ses ministres <pb n="6" xml:id="p6"/>nous la
+          ramèneraient dans toute sa pureté primitive, libre de la dépendance d’un prince étranger,
+          dégagée de ses pratiques superstitieuses, et résumée, en un mot, dans les commandements de
+          Dieu et dans la morale de Jésus-Christ.</p>
         <p>Vain espoir ! Illusion fantastique d’âmes pures et religieuses….</p>
-          <p>Rien n’est changé dans le sacerdoce, et l’on peut dire aussi des prêtres toujours romains, <hi rend="i">qu’ils n’ont rien oublié, qu’ils n’ont rien appris</hi><note resp="editor" place="bottom"> [NDE] Rappel de Talleyrand, qui a dit, en parlant des nobles: « <quote>Ils n'ont rien appris, ni rien oublié.</quote> » </note>.</p>
-        <p>Cependant, sous le règne de Napoléon, leur orgueil a fléchi devant le grand intérêt de leur réinstallation.</p>
-        <p>Quelques concessions ont été faites par eux, mais en échange d’honneurs, de dignités, d’argent !</p>
-        <p>Aussi, au retour de leur Roi légitime<note resp="editor" place="bottom"> [NDE] Louis XVIII.</note>, cet orgueil comprimé s’est-il relevé dans toute sa hauteur ; et Rome a placé son trône à côté de celui d’un roi, un peu philosophe, a-t-on dit, mais perclus et impotent.</p>
-        <p>La milice romaine, comme les hordes étrangères, a envahi notre France surprise et stupéfaite ; les jésuites missionnaires ont lancé leurs croisades conquérantes, et leurs prédications furibondes ont semé le trouble, les divisions, les haines, dans les villes, dans les campagnes, dans les familles… partout.</p>
-        <p>Avec les croix qu’ils ont élevées sur les places publiques et sur nos grandes routes, ils ont voulu planter l’étendard de leur domination.</p>
-        <p>A leurs voix, les commandements de l’Eglise ont refoulé dans l’Evangile les commandements de Dieu….</p>
-        <p>Des jeûnes, des abstinences, des confessions, des pénitences, des mortifications à cause du passé ; et la renonciation à tous les plaisirs de ce monde pour le présent et <pb n="7"/>l’avenir, tels ont été les textes de leurs harangues antisociales.</p>
-        <p>Et enfin, lorsque son successeur<note resp="editor" place="bottom"> [NDE] Charles X.</note>, d’abord accueilli par le peuple, est tombé entre les mains des prêtres, ceux-ci, profitant de son âge et de sa faiblesse, ont exploité les erreurs d’une jeunesse fougueuse qui, cependant, lui avaient valu le surnom de <hi rend="i">chevalier français</hi>. Alors nous avons vu ce roi sacrifier sa popularité à leurs exigences, appeler toute la nation à l’expiation de ses fautes personnelles, à son repentir, à sa pénitence ; et la forcer à renier, pour ainsi dire, trente ans de gloire et de liberté.</p>
-          <p>Un jubilé insultant pour nos pères, injurieux pour nous, leurs fils, héritiers de leur courage et de leurs opinions, humiliant pour nos armées toujours victorieuses et jamais vaincues, si ce n’est par la trahison…<note resp="editor" place="bottom"> [NDE] Le jubilé de l’année sainte 1826 est l’occasion d’un grand mouvement clérical et ultra.</note>. Un jubilé est venu couvrir la France d’une douleur amère, concentrée, et, certes, rien moins que religieuse ; et bientôt aussi la sacrilège loi du sacrilège<note resp="editor" place="bottom"> [NDE] La loi sur le sacrilège est votée en janvier 1825, après la mort de Louis XVIII, sous un gouvernement ultra. Réinscrivant le sacré dans l’espace politique, elle suscitera un fort sentiment anticlérical.</note> a souillé nos codes qu’avait régénérés la sagesse d’un grand homme<note resp="editor" place="bottom"> [NDE] Allusion au code Napoléon, que la loi sur le sacrilège modifie.</note>, et a préludé aux actes liberticides qui ont amené le terrible dénouement dont nous avons tous été les témoins.</p>
-          <p><hi rend="i">Instruisez-vous, grands qui vous gouvernez la terre !</hi><note resp="editor" place="bottom"> [NDE] Lire: Instruisez-vous grands qui gouvernez la terre <hi rend="i"> ou </hi>Instruisez-vous, vous qui gouvernez la terre.</note></p>
-        <p>Un roi que le remords poursuit, dévore, et qui ne reconnaît d’autre recours que dans le prêtre qui l’a soumis à sa loi par la menace et la terreur de l’enfer : ce roi, sous le coup d’une absolution conditionnelle et toujours suspendue, abdique, sans le savoir, en faveur de son confesseur, et bientôt sa couronne avilie, écrasée sous les pavés, n’étonne plus que les fourbes, les perfides qui ont précipité leur victime dans l’abîme.</p>
-        <p>Roi, tu languis dans l’exil, et tes fautes sont punies <pb n="8"/>jusque dans tes dernières générations !… Mais tes courtisans !… mais tes directeurs !… Le serpent repu est engourdi, il attend un soleil de Waterloo pour se revêtir d’une écaille plus brillante.</p>
-        <p>Les prêtres, les prêtres romains se sont cependant soumis au nouveau prince<note resp="editor" place="bottom"> [NDE] Louis-Philippe.</note> à qui la souveraineté nationale a remis le sceptre, ils prient enfin pour lui… et l’on sait avec quelle sincérité.</p>
-        <p>Mais, peuple, comme leur joug s’appesantit sur toi ! c’est sur toi qu’ils cherchent à exercer d’abord leur vengeance.</p>
-        <p>Le Dieu qu’ils te prêchent n’est plus qu’un Dieu de colère ; on dirait le Dieu des Juifs que la Bible nous représente se repentant d’avoir fait l’homme, et ne parlant à son peuple murmurateur<note resp="editor" place="bottom"> [NDE] murmurateur = qui murmure.</note> que la menace à la bouche : <hi rend="i">Encore quarante jours, et Ninive sera détruite</hi> !…</p>
+        <p>Rien n’est changé dans le sacerdoce, et l’on peut dire aussi des prêtres toujours
+          romains, <hi rend="i">qu’ils n’ont rien oublié, qu’ils n’ont rien appris</hi><note
+            resp="editor" place="bottom">[NDE] Rappel de Talleyrand, qui a dit, en parlant des
+            nobles: <quote>« Ils n'ont rien appris, ni rien oublié. »</quote>
+          </note>.</p>
+        <p>Cependant, sous le règne de Napoléon, leur orgueil a fléchi devant le grand intérêt de
+          leur réinstallation.</p>
+        <p>Quelques concessions ont été faites par eux, mais en échange d’honneurs, de dignités,
+          d’argent !</p>
+        <p>Aussi, au retour de leur Roi légitime<note resp="editor" place="bottom">[NDE] Louis
+            XVIII.</note>, cet orgueil comprimé s’est-il relevé dans toute sa hauteur ; et Rome a
+          placé son trône à côté de celui d’un roi, un peu philosophe, a-t-on dit, mais perclus et
+          impotent.</p>
+        <p>La milice romaine, comme les hordes étrangères, a envahi notre France surprise et
+          stupéfaite ; les jésuites missionnaires ont lancé leurs croisades conquérantes, et leurs
+          prédications furibondes ont semé le trouble, les divisions, les haines, dans les villes,
+          dans les campagnes, dans les familles… partout.</p>
+        <p>Avec les croix qu’ils ont élevées sur les places publiques et sur nos grandes routes, ils
+          ont voulu planter l’étendard de leur domination.</p>
+        <p>A leurs voix, les commandements de l’Eglise ont refoulé dans l’Evangile les commandements
+          de Dieu….</p>
+        <p>Des jeûnes, des abstinences, des confessions, des pénitences, des mortifications à cause
+          du passé ; et la renonciation à tous les plaisirs de ce monde pour le présent et <pb n="7"
+            xml:id="p7"/>l’avenir, tels ont été les textes de leurs harangues antisociales.</p>
+        <p>Et enfin, lorsque son successeur<note resp="editor" place="bottom">[NDE] Charles
+            X.</note>, d’abord accueilli par le peuple, est tombé entre les mains des prêtres,
+          ceux-ci, profitant de son âge et de sa faiblesse, ont exploité les erreurs d’une jeunesse
+          fougueuse qui, cependant, lui avaient valu le surnom de <hi rend="i">chevalier
+            français</hi>. Alors nous avons vu ce roi sacrifier sa popularité à leurs exigences,
+          appeler toute la nation à l’expiation de ses fautes personnelles, à son repentir, à sa
+          pénitence ; et la forcer à renier, pour ainsi dire, trente ans de gloire et de
+          liberté.</p>
+        <p>Un jubilé insultant pour nos pères, injurieux pour nous, leurs fils, héritiers de leur
+          courage et de leurs opinions, humiliant pour nos armées toujours victorieuses et jamais
+          vaincues, si ce n’est par la trahison…<note resp="editor" place="bottom">[NDE] Le jubilé
+            de l’année sainte 1826 est l’occasion d’un grand mouvement clérical et ultra.</note>. Un
+          jubilé est venu couvrir la France d’une douleur amère, concentrée, et, certes, rien moins
+          que religieuse ; et bientôt aussi la sacrilège loi du sacrilège<note resp="editor"
+            place="bottom">[NDE] La loi sur le sacrilège est votée en janvier 1825, après la mort de
+            Louis XVIII, sous un gouvernement ultra. Réinscrivant le sacré dans l’espace politique,
+            elle suscitera un fort sentiment anticlérical.</note> a souillé nos codes qu’avait
+          régénérés la sagesse d’un grand homme<note resp="editor" place="bottom">[NDE] Allusion au
+            code Napoléon, que la loi sur le sacrilège modifie.</note>, et a préludé aux actes
+          liberticides qui ont amené le terrible dénouement dont nous avons tous été les
+          témoins.</p>
+        <p><hi rend="i">Instruisez-vous, grands qui vous gouvernez la terre !</hi><note
+            resp="editor" place="bottom">[NDE] Lire: Instruisez-vous grands qui gouvernez la terre
+              <hi rend="i"> ou </hi>Instruisez-vous, vous qui gouvernez la terre.</note></p>
+        <p>Un roi que le remords poursuit, dévore, et qui ne reconnaît d’autre recours que dans le
+          prêtre qui l’a soumis à sa loi par la menace et la terreur de l’enfer : ce roi, sous le
+          coup d’une absolution conditionnelle et toujours suspendue, abdique, sans le savoir, en
+          faveur de son confesseur, et bientôt sa couronne avilie, écrasée sous les pavés, n’étonne
+          plus que les fourbes, les perfides qui ont précipité leur victime dans l’abîme.</p>
+        <p>Roi, tu languis dans l’exil, et tes fautes sont punies <pb n="8" xml:id="p8"/>jusque dans
+          tes dernières générations !… Mais tes courtisans !… mais tes directeurs !… Le serpent repu
+          est engourdi, il attend un soleil de Waterloo pour se revêtir d’une écaille plus
+          brillante.</p>
+        <p>Les prêtres, les prêtres romains se sont cependant soumis au nouveau prince<note
+            resp="editor" place="bottom">[NDE] Louis-Philippe.</note> à qui la souveraineté
+          nationale a remis le sceptre, ils prient enfin pour lui… et l’on sait avec quelle
+          sincérité.</p>
+        <p>Mais, peuple, comme leur joug s’appesantit sur toi ! c’est sur toi qu’ils cherchent à
+          exercer d’abord leur vengeance.</p>
+        <p>Le Dieu qu’ils te prêchent n’est plus qu’un Dieu de colère ; on dirait le Dieu des Juifs
+          que la Bible nous représente se repentant d’avoir fait l’homme, et ne parlant à son peuple
+            murmurateur<note resp="editor" place="bottom">[NDE] murmurateur = qui murmure.</note>
+          que la menace à la bouche : <hi rend="i">Encore quarante jours, et Ninive sera
+            détruite</hi> !…</p>
         <p>Dans leur fureur mal déguisée ils te disent :</p>
-        <p>« <quote>Les sciences mondaines, les arts industriels et frivoles te créent tous les jours de nouvelles richesses ; les productions profanes de l’intelligence humaine, de nouvelles jouissances ; mais aussi, tout ce que tu appelles progrès de la civilisation, tout oppose de nouveaux obstacles au salut de ton âme.</quote></p>
-        <p> « <quote>Ces jouissances amollissent ton cœur, et le rattachent aux biens périssables de la terre.</quote>
+        <p><quote>« Les sciences mondaines, les arts industriels et frivoles te créent tous les
+            jours de nouvelles richesses ; les productions profanes de l’intelligence humaine, de
+            nouvelles jouissances ; mais aussi, tout ce que tu appelles progrès de la civilisation,
+            tout oppose de nouveaux obstacles au salut de ton âme.</quote></p>
+        <p><quote>« Ces jouissances amollissent ton cœur, et le rattachent aux biens périssables de
+            la terre.</quote>
         </p>
-          <p>« <quote>La maison du seigneur est déserte, et tu te rues avec fureur vers les plaisirs, les fêtes, les bals et les spectacles !</quote>…</p>
-          <p>« <quote>Anathème donc contre les plaisirs, les fêtes et les bals ! Anathème contre les spectacles !</quote> »</p>
-        <p>Ne sont-ce point là, mes frères, les paroles qui tombent chaque jour menaçantes de la chaire de l’Église romaine ?</p>
-        <p><pb n="9"/>Combien notre langage sera différent ! Le Dieu des Juifs est bien notre Dieu ; mais sa colère a été désarmée par le sacrifice que son fils lui a offert pour notre rédemption.</p>
-        <p>Pourquoi ce sang répandu sur la croix pour nos péchés, si la satisfaction de nos besoins physiques, si nos fonctions intellectuelles, si l’entraînement des passions qui constituent notre être peuvent à chaque instant nous faire tomber dans le péché, et nous précipiter dans l’abîme ?…</p>
-        <p>Pourquoi Jésus, s’il ne s’était chargé de nos péchés, aurait-il dit : « <quote>Venez à moi, vous tous qui êtes fatigués, et je vous soulagerai</quote> » ?</p>
+        <p><quote>« La maison du seigneur est déserte, et tu te rues avec fureur vers les plaisirs,
+            les fêtes, les bals et les spectacles !</quote>…</p>
+        <p><quote>« Anathème donc contre les plaisirs, les fêtes et les bals ! Anathème contre les
+            spectacles ! »</quote></p>
+        <p>Ne sont-ce point là, mes frères, les paroles qui tombent chaque jour menaçantes de la
+          chaire de l’Église romaine ?</p>
+        <p><pb n="9" xml:id="p9"/>Combien notre langage sera différent ! Le Dieu des Juifs est bien
+          notre Dieu ; mais sa colère a été désarmée par le sacrifice que son fils lui a offert pour
+          notre rédemption.</p>
+        <p>Pourquoi ce sang répandu sur la croix pour nos péchés, si la satisfaction de nos besoins
+          physiques, si nos fonctions intellectuelles, si l’entraînement des passions qui
+          constituent notre être peuvent à chaque instant nous faire tomber dans le péché, et nous
+          précipiter dans l’abîme ?…</p>
+        <p>Pourquoi Jésus, s’il ne s’était chargé de nos péchés, aurait-il dit : <quote>« Venez à
+            moi, vous tous qui êtes fatigués, et je vous soulagerai »</quote> ?</p>
         <p>Aussi nous vous disons dans notre chaire apostolique :</p>
-        <p>« <quote>Exécutez les commandements de Dieu, adorez et glorifiez notre Père qui est aux cieux, pratiquez la morale de l’Évangile, aimez votre prochain comme vous-mêmes, et vous aurez accompli la loi de Jésus-Christ.</quote> »</p>
+        <p><quote>« Exécutez les commandements de Dieu, adorez et glorifiez notre Père qui est aux
+            cieux, pratiquez la morale de l’Évangile, aimez votre prochain comme vous-mêmes, et vous
+            aurez accompli la loi de Jésus-Christ. »</quote></p>
         <p>Et nous ajoutons :</p>
-        <p>« <quote>Vous êtes membre de la société pour laquelle vous avez été créés : si cette société vous impose des devoirs, en échange elle vous procure des jouissances et des plaisirs ; remplissez vos devoirs, et livrez-vous ensuite sans crainte aux jouissances et aux plaisirs qu’elle vous présente. Votre participation à ces mêmes plaisirs, à ces mêmes jouissances, est encore une partie de vos devoirs, et vous aurez accompli encore une fois la loi de Jésus-Christ.</quote> »</p>
-        <p>Anathème !… arme vieille, rouillée, émoussée, et que vous cherchez en vain à retremper dans le fiel de la colère et de la vengeance !…</p>
-        <p>Anathème aux plaisirs ! Eh quoi ! parce que Dieu a dit à notre premier père : « <quote>Vous mangerez votre pain à la <pb n="10"/>sueur de votre visage</quote> », l’homme serait condamné à rester toujours courbé sous le joug du travail ? N’aura-t-il à espérer aucun adoucissement à ses peines ; aucun soulagement à ses fatigues, aucune distraction à ses maux ?</p>
-        <p>Non, sans doute, vous dira le clergé romain, puisque Dieu a consacré le septième jour au repos.</p>
+        <p><quote>« Vous êtes membre de la société pour laquelle vous avez été créés : si cette
+            société vous impose des devoirs, en échange elle vous procure des jouissances et des
+            plaisirs ; remplissez vos devoirs, et livrez-vous ensuite sans crainte aux jouissances
+            et aux plaisirs qu’elle vous présente. Votre participation à ces mêmes plaisirs, à ces
+            mêmes jouissances, est encore une partie de vos devoirs, et vous aurez accompli encore
+            une fois la loi de Jésus-Christ. »</quote></p>
+        <p>Anathème !… arme vieille, rouillée, émoussée, et que vous cherchez en vain à retremper
+          dans le fiel de la colère et de la vengeance !…</p>
+        <p>Anathème aux plaisirs ! Eh quoi ! parce que Dieu a dit à notre premier père :
+            <quote>« Vous mangerez votre pain à la <pb n="10" xml:id="p10"/>sueur de votre
+            visage »</quote>, l’homme serait condamné à rester toujours courbé sous le joug du
+          travail ? N’aura-t-il à espérer aucun adoucissement à ses peines ; aucun soulagement à ses
+          fatigues, aucune distraction à ses maux ?</p>
+        <p>Non, sans doute, vous dira le clergé romain, puisque Dieu a consacré le septième jour au
+          repos.</p>
         <p>Eh ! quel est donc ce repos ?</p>
-          <p>Sera-ce celui, qu’en vous servant du bras du séculier, vous avez tenté de lui imposer par une ordonnance prescrivant de fermer tous les établissements qui décorent notre cité, nos cafés, nos restaurants, pour ne tolérer que l’ouverture des officines du pharmacien<note resp="editor" place="bottom"> [NDE] En juin 1814, Beugnot, nouveau directeur de la police, avait pris une ordonnance sur l’observation des dimanches, qui imposait la fermeture des boutiques, cafés, restaurants et débits de boissons.</note> ? ordonnance dont une caricature spirituelle a fait si prompte justice<note resp="editor" place="bottom"> [NDE] L’ordonnance avait suscité une caricature représentant Louis XVIII, impotent, assis dans un fauteuil à roulette dont le dossier était tenu par un prêtre. La légende disait : « <quote>Va comme je te pousse</quote> ».</note> ?</p>
-        <p>Sera-ce l’immobilité des corps, l’abandon de toutes nos facultés, l’oisiveté, l’ennui, compagnon inséparable de l’oisiveté ; la prière, la méditation, la méditation plus pénible pour la plupart des hommes que le travail des mains, et, enfin, vos sermons intolérants, et, qui pis est peut-être, si ennuyeux ?</p>
-        <p>Ah ! imposer à l’homme un pareil repos ne serait que suspendre son travail pour lui faire porter, comme à Simon de Cyrène, la croix de Jésus-Christ jusqu’au sommet escarpé du Calvaire.</p>
-        <p>Mes frères, l’arrêt qui condamne l’homme au travail n’est pas aussi terrible que, dans son intérêt personnel, le prêtre veut nous le représenter.</p>
-        <p>Le repos du septième jour n’est point le repos absolu du corps, l’immobilité de la machine, mais bien le repos de l’esprit, la distraction si nécessaire après plusieurs jours d’un travail assidu.</p>
-        <p>Et en effet, si Dieu, dans sa sévérité, a condamné l’homme au travail, il a aussi, dans sa justice et sa bonté, mesuré <pb n="11"/>ses forces. Ainsi, chaque nuit de chaque jour vient apporter au travail de chaque jour le soulagement qui lui est nécessaire, et un sommeil bienfaisant vient chaque nuit étendre sur ses membres fatigués un baume réparateur, et qui lui permettrait de continuer son travail même tous les jours.</p>
-        <p>Mais la continuité du travail sans perspective d’une interruption, serait pour l’homme le supplice que le paganisme avait infligé à <hi rend="i">Sisyphe</hi> ; ce serait le désespoir et la mort : et c’est ce désespoir que Dieu a voulu prévenir par le repos du septième jour.</p>
-          <p>Ce jour, sans doute, est consacré au Seigneur ; mais, comme tous les jours de notre vie ; mais il est aussi destiné aux distractions, à l’oubli du travail et des peines, et, ne craignons pas de le dire, aux plaisirs. Et comment oserait-on prescrire à l’homme l’emploi qu’il doit en faire, lorsque Jésus-Christ a dit : « <quote>Le sabbat a été fait pour l’homme, et non pas l’homme pour le sabbat</quote><note resp="author" place="bottom"> [NDA] Marc, II, 27. </note> » ?</p>
-        <p>Ces plaisirs diffèrent suivant nos goûts, nos habitudes, le genre de notre travail et de nos occupations.</p>
-        <p>Dans les campagnes, les laboureurs et leurs familles, après l’accomplissement spontané de leurs devoirs envers Dieu, se réunissent sous l’arbre séculaire, seul monument qui s’élève au milieu de leurs toits de chaume ; ils viennent y chercher quelque ombrage contre ce soleil dont ils ont bravé les feux pendant six longues journées ; et là, sous les yeux des anciens, les jeunes femmes et leurs maris, les jeunes garçons et les jeunes filles s’y livrent à des danses rustiques le plus souvent nonchalantes et sans expression, et qui se ressentent de la lassitude de la semaine, <pb n="12"/>ou à des jeux qui rapprochent innocemment les sexes, et préparent les unions que la loi de Dieu a prescrites.</p>
+        <p>Sera-ce celui, qu’en vous servant du bras du séculier, vous avez tenté de lui imposer par
+          une ordonnance prescrivant de fermer tous les établissements qui décorent notre cité, nos
+          cafés, nos restaurants, pour ne tolérer que l’ouverture des officines du pharmacien<note
+            resp="editor" place="bottom">[NDE] En juin 1814, Beugnot, nouveau directeur de la
+            police, avait pris une ordonnance sur l’observation des dimanches, qui imposait la
+            fermeture des boutiques, cafés, restaurants et débits de boissons.</note> ? ordonnance
+          dont une caricature spirituelle a fait si prompte justice<note resp="editor"
+            place="bottom">[NDE] L’ordonnance avait suscité une caricature représentant Louis XVIII,
+            impotent, assis dans un fauteuil à roulette dont le dossier était tenu par un prêtre. La
+            légende disait : <quote>« Va comme je te pousse »</quote>.</note> ?</p>
+        <p>Sera-ce l’immobilité des corps, l’abandon de toutes nos facultés, l’oisiveté, l’ennui,
+          compagnon inséparable de l’oisiveté ; la prière, la méditation, la méditation plus pénible
+          pour la plupart des hommes que le travail des mains, et, enfin, vos sermons intolérants,
+          et, qui pis est peut-être, si ennuyeux ?</p>
+        <p>Ah ! imposer à l’homme un pareil repos ne serait que suspendre son travail pour lui faire
+          porter, comme à Simon de Cyrène, la croix de Jésus-Christ jusqu’au sommet escarpé du
+          Calvaire.</p>
+        <p>Mes frères, l’arrêt qui condamne l’homme au travail n’est pas aussi terrible que, dans
+          son intérêt personnel, le prêtre veut nous le représenter.</p>
+        <p>Le repos du septième jour n’est point le repos absolu du corps, l’immobilité de la
+          machine, mais bien le repos de l’esprit, la distraction si nécessaire après plusieurs
+          jours d’un travail assidu.</p>
+        <p>Et en effet, si Dieu, dans sa sévérité, a condamné l’homme au travail, il a aussi, dans
+          sa justice et sa bonté, mesuré <pb n="11" xml:id="p11"/>ses forces. Ainsi, chaque nuit de
+          chaque jour vient apporter au travail de chaque jour le soulagement qui lui est
+          nécessaire, et un sommeil bienfaisant vient chaque nuit étendre sur ses membres fatigués
+          un baume réparateur, et qui lui permettrait de continuer son travail même tous les
+          jours.</p>
+        <p>Mais la continuité du travail sans perspective d’une interruption, serait pour l’homme le
+          supplice que le paganisme avait infligé à <hi rend="i">Sisyphe</hi> ; ce serait le
+          désespoir et la mort : et c’est ce désespoir que Dieu a voulu prévenir par le repos du
+          septième jour.</p>
+        <p>Ce jour, sans doute, est consacré au Seigneur ; mais, comme tous les jours de notre vie ;
+          mais il est aussi destiné aux distractions, à l’oubli du travail et des peines, et, ne
+          craignons pas de le dire, aux plaisirs. Et comment oserait-on prescrire à l’homme l’emploi
+          qu’il doit en faire, lorsque Jésus-Christ a dit : <quote>« Le sabbat a été fait pour
+            l’homme, et non pas l’homme pour le sabbat</quote><note resp="author" place="bottom">
+            [NDA] Marc, II, 27. </note> » ?</p>
+        <p>Ces plaisirs diffèrent suivant nos goûts, nos habitudes, le genre de notre travail et de
+          nos occupations.</p>
+        <p>Dans les campagnes, les laboureurs et leurs familles, après l’accomplissement spontané de
+          leurs devoirs envers Dieu, se réunissent sous l’arbre séculaire, seul monument qui s’élève
+          au milieu de leurs toits de chaume ; ils viennent y chercher quelque ombrage contre ce
+          soleil dont ils ont bravé les feux pendant six longues journées ; et là, sous les yeux des
+          anciens, les jeunes femmes et leurs maris, les jeunes garçons et les jeunes filles s’y
+          livrent à des danses rustiques le plus souvent nonchalantes et sans expression, et qui se
+          ressentent de la lassitude de la semaine, <pb n="12" xml:id="p12"/>ou à des jeux qui
+          rapprochent innocemment les sexes, et préparent les unions que la loi de Dieu a
+          prescrites.</p>
         <p>Comme tous se connaissent, ce n’est qu’une fête de famille….</p>
-        <p>Et cependant, n’a-t-on pas vu des séminaristes imberbes se précipiter au milieu de ces groupes innocents, les disperser, renverser le tonneau du ménétrier, et imposer leur loi à ces vieillards, à ces pères, ignorant encore leurs droits ?</p>
-        <p>Dans les grandes villes, d’autres mœurs, d’autres rapports entre les diverses classes de leurs habitants, exigent d’autres amusements, et ici l’irruption d’un prêtre intolérant n’est pas à redouter.</p>
-        <p>Arrêtons-nous d’abord aux amusements du peuple ; franchissons les barrières qui emprisonnent la cité. Examinons !</p>
+        <p>Et cependant, n’a-t-on pas vu des séminaristes imberbes se précipiter au milieu de ces
+          groupes innocents, les disperser, renverser le tonneau du ménétrier, et imposer leur loi à
+          ces vieillards, à ces pères, ignorant encore leurs droits ?</p>
+        <p>Dans les grandes villes, d’autres mœurs, d’autres rapports entre les diverses classes de
+          leurs habitants, exigent d’autres amusements, et ici l’irruption d’un prêtre intolérant
+          n’est pas à redouter.</p>
+        <p>Arrêtons-nous d’abord aux amusements du peuple ; franchissons les barrières qui
+          emprisonnent la cité. Examinons !</p>
         <p>Pour qui ces salons immenses qui disputent de luxe avec les salons de la richesse ?</p>
         <p>Pour le peuple !…</p>
         <p>Le peuple est riche aussi ce jour-là….</p>
-        <p>C’est là que l’ouvrier, l’artisan, le petit marchand, le prolétaire viennent avec leurs familles déposer le fardeau de leurs peines et dépenser une partie de leurs économies, une partie du fruit de leurs labeurs.</p>
-        <p>Un repas plus varié remplace la nourriture monotone de la semaine : un peu de vin rougit leurs verres ; ils se dédommagent aujourd’hui de la privation d’une jouissance qu’il ne leur est pas permis de goûter dans l’enceinte de la ville ; ils se soustraient à une loi plus dure que celle de Mahomet, et ils reconnaissent la vérité de ces paroles de l’Écriture : « <quote>Le bon vin réjouit le cœur de l’homme.</quote> »</p>
-        <p><pb n="13"/>Au milieu de ces réunions nombreuses, mais différentes et étrangères les unes aux autres, il s’établit bientôt une communauté de gaîté : la chanson se fait entendre, non plus cette chanson grivoise d’autrefois ; mais la chanson devenue populaire de notre <hi rend="i">Béranger</hi>, et l’hymne patriotique réunit bientôt toutes les voix, qui répètent en chœur son refrain.</p>
-        <p>A ces joyeux repas succèdent les danses. Celles-ci sont animées, bruyantes, tumultueuses. Ce bruit, ce tumulte, sont une compensation nécessaire à l’inertie qui, le plus souvent, a cloué l’ouvrier sur son banc, sur son établi, auprès de son métier.</p>
-        <p>Quel mouvement !… quelle ardeur !… quel chaos !… quelle fatigue !… Que dis-je ? Quelle joie ! quelle satisfaction ! La fatigue qui résulte des plaisirs, est le véritable repos de l’ouvrier.</p>
-        <p>Mais ces plaisirs ne dégénèrent-ils pas en désordres, et l’usage immodéré du vin ne trouble-t-il pas, n’altère-t-il pas la raison que Dieu a donnée à l’homme pour le distinguer des autres créatures qu’il a soumises à son empire ?…</p>
-        <p>Sans doute, mes frères, vous ne supposez pas que, flatteur du peuple, je veuille excuser ses plaisirs en ce qu’ils pourraient avoir de condamnable et de contraire aux lois de la décence et de la raison.</p>
-        <p>Vous ne supposez pas que je veuille défendre, excuser l’homme dégradé, avili, qui, oubliant chaque jour sa dignité, se vautre dans les excès d’une hideuse ivrognerie. Celui-ci n’attend pas le jour que Dieu a consacré au repos, à la distraction, aux plaisirs, pour se livrer à son ignoble passion ; plaignons-le, ne songeons point à le corriger, car il est incorrigible ; et appelons sur lui la miséricorde du Tout-Puissant.</p>
-        <p><pb n="14"/>Oui, mes chers auditeurs, il y a autant de distance entre le sommeil, ou plutôt l’assoupissement momentané de la raison, et la sale et dégoûtante ivrognerie, qu’entre la volupté que l’on goûte au sein d’un heureux ménage, et l’infâme débauche ; qu’entre les vertus et la bienfaisance de notre Fénelon, de notre Vincent-de-Paul, et l’atroce charité d’un Saint-Dominique et de ses disciples.</p>
-        <p>Mais condamnerons-nous sans retour notre frère pour un jour d’intempérance passagère, et blâmerons-nous celui qui, cherchant dans le vin, ce présent du ciel, un moment d’oubli des misères humaines, n’a point su s’arrêter à cette douce ivresse, oublieuse des maux et créatrice d’heureuses illusions ?</p>
-        <p>Rappelons-nous que le patriarche Noé, lui qui planta la vigne et exprima le jus de son fruit, en abusa une fois, et que Dieu ne lui en fit point le reproche ; Dieu punit, au contraire, le fils qui n’avait point caché cette faiblesse d’un père.</p>
-        <p>Demain, ou peut-être après-demain seulement, cet ouvrier intelligent reprendra le joug du travail et le supportera patiemment, sans jeter autour de soi un regard jaloux et envieux.</p>
-        <p>Bornons-nous à des vœux, pour que ceux qui spéculent sur les plaisirs du peuple n’abusent pas de sa confiance et ne lui fournissent que des boissons pures de toute mixtion malfaisante, car, sans cela, eux seuls seraient coupables de ce qui paraîtrait excès de la part de leurs victimes.</p>
-        <p>Et vous, prêtres aveugles et impolitiques, laissez le peuple se livrer à ses plaisirs innocents ; faites en sorte qu’il se contente de sa position ; qu’il ne compare pas cette position pénible, douloureuse et sans avenir, avec <pb n="15"/>la situation si douce et si heureuse de l’homme riche, et avec l’oisiveté dans laquelle vous vivez vous-mêmes, et que vous ne devez qu’à la nouvelle dîme qui s’exprime de son front.</p><p>Il est une époque de l’année, consacrée de temps immémorial aux plaisirs tumultueux de la multitude ; tous les gouvernements, et aussi le gouvernement temporel de Rome, les favorisent ; ils consultent même les effets de cette joie périodique, et plus ces saturnales sont bruyantes et animées, et plus ils sont convaincus que les peuples sont heureux et satisfaits de ceux qui régissent leurs destinées. Malheureusement ce témoignage serait quelquefois équivoque ; aussi l’administration regarde-t-elle comme un de ses devoirs le soin d’aider et de provoquer ces manifestations de la joie et du contentement populaire.</p>
-        <p>Que fait l’Eglise romaine dans ces moments d’allégresse générale ? Elle célèbre pendant trois jours ce qu’elle appelle les <hi rend="i">quarante heures</hi> en expiation de ces excès auxquels se porte toute la population. Ses prêtres gémissent dans leurs temples déserts ; ils se frappent la poitrine… Rassurez-vous, âmes compatissantes… ils frappent légèrement.</p>
-        <p>Eh ! que n’attendent-ils le lendemain …… et ils verront toute cette population calme se porter en foule au pied des autels pour y participer à une des cérémonies les plus augustes du culte chrétien. C’est la leçon d’égalité que tous les hommes, quels que soient leurs rangs et leur dignité, reçoivent par ces paroles qui accompagnent l’imposition des cendres : « <quote>O homme ! souviens-toi que tu es sorti de la poussière, et que tu retourneras dans la poussière ! "</quote></p>
-        <p><pb n="16"/>Ce ne sont pas les seuls artisans, ouvriers, prolétaires, que le prêtre de la secte romaine veut arrêter, troubler dans ses plaisirs, dans ses délassements.</p>
-        <p>Toutes les jouissances, toutes les distractions dans toutes les classes de la société sont soumises au même contrôle, à la même animadversion sacerdotale et enfin au même anathème.</p>
-        <p>Les festins donnés par les riches qui font un usage honorable de leur fortune sont condamnés à cause de leur luxe, leur prodigalité et la sensualité qu’ils éveillent et provoquent.</p>
-        <p>Un repas par lequel on célèbre l’union innocente de deux jeunes cœurs, l’union de deux familles, et dans lequel règnent la joie et peut-être aussi un peu plus que de la gaîté, est l’objet de la censure inexorable de ces prêtres rigides, et sans doute de leur dépit. Ils oublient que celui qu’ils disent être leur maître a consacré ces réunions par sa présence, et que le vin ayant manqué, par le trop grand usage qu’on en avait fait, il n’en a pas moins changé l’eau en vin. Ils sont tous disposés à répondre comme ce janséniste à qui l’on rappelait cet intéressant épisode de la vie de Jésus : « <quote>Ce n’est pas ce qu’il a fait de mieux. »</quote></p>
-        <p>Ce n’est pas ce qu’il a fait de mieux !…. Impie !…. Tu blasphèmes contre ton maître !….</p>
+        <p>C’est là que l’ouvrier, l’artisan, le petit marchand, le prolétaire viennent avec leurs
+          familles déposer le fardeau de leurs peines et dépenser une partie de leurs économies, une
+          partie du fruit de leurs labeurs.</p>
+        <p>Un repas plus varié remplace la nourriture monotone de la semaine : un peu de vin rougit
+          leurs verres ; ils se dédommagent aujourd’hui de la privation d’une jouissance qu’il ne
+          leur est pas permis de goûter dans l’enceinte de la ville ; ils se soustraient à une loi
+          plus dure que celle de Mahomet, et ils reconnaissent la vérité de ces paroles de
+          l’Écriture : <quote>« Le bon vin réjouit le cœur de l’homme. »</quote></p>
+        <p><pb n="13" xml:id="p13"/>Au milieu de ces réunions nombreuses, mais différentes et
+          étrangères les unes aux autres, il s’établit bientôt une communauté de gaîté : la chanson
+          se fait entendre, non plus cette chanson grivoise d’autrefois ; mais la chanson devenue
+          populaire de notre <hi rend="i">Béranger</hi>, et l’hymne patriotique réunit bientôt
+          toutes les voix, qui répètent en chœur son refrain.</p>
+        <p>A ces joyeux repas succèdent les danses. Celles-ci sont animées, bruyantes, tumultueuses.
+          Ce bruit, ce tumulte, sont une compensation nécessaire à l’inertie qui, le plus souvent, a
+          cloué l’ouvrier sur son banc, sur son établi, auprès de son métier.</p>
+        <p>Quel mouvement !… quelle ardeur !… quel chaos !… quelle fatigue !… Que dis-je ? Quelle
+          joie ! quelle satisfaction ! La fatigue qui résulte des plaisirs, est le véritable repos
+          de l’ouvrier.</p>
+        <p>Mais ces plaisirs ne dégénèrent-ils pas en désordres, et l’usage immodéré du vin ne
+          trouble-t-il pas, n’altère-t-il pas la raison que Dieu a donnée à l’homme pour le
+          distinguer des autres créatures qu’il a soumises à son empire ?…</p>
+        <p>Sans doute, mes frères, vous ne supposez pas que, flatteur du peuple, je veuille excuser
+          ses plaisirs en ce qu’ils pourraient avoir de condamnable et de contraire aux lois de la
+          décence et de la raison.</p>
+        <p>Vous ne supposez pas que je veuille défendre, excuser l’homme dégradé, avili, qui,
+          oubliant chaque jour sa dignité, se vautre dans les excès d’une hideuse ivrognerie.
+          Celui-ci n’attend pas le jour que Dieu a consacré au repos, à la distraction, aux
+          plaisirs, pour se livrer à son ignoble passion ; plaignons-le, ne songeons point à le
+          corriger, car il est incorrigible ; et appelons sur lui la miséricorde du
+          Tout-Puissant.</p>
+        <p><pb n="14" xml:id="p14"/>Oui, mes chers auditeurs, il y a autant de distance entre le
+          sommeil, ou plutôt l’assoupissement momentané de la raison, et la sale et dégoûtante
+          ivrognerie, qu’entre la volupté que l’on goûte au sein d’un heureux ménage, et l’infâme
+          débauche ; qu’entre les vertus et la bienfaisance de notre Fénelon, de notre
+          Vincent-de-Paul, et l’atroce charité d’un Saint-Dominique et de ses disciples.</p>
+        <p>Mais condamnerons-nous sans retour notre frère pour un jour d’intempérance passagère, et
+          blâmerons-nous celui qui, cherchant dans le vin, ce présent du ciel, un moment d’oubli des
+          misères humaines, n’a point su s’arrêter à cette douce ivresse, oublieuse des maux et
+          créatrice d’heureuses illusions ?</p>
+        <p>Rappelons-nous que le patriarche Noé, lui qui planta la vigne et exprima le jus de son
+          fruit, en abusa une fois, et que Dieu ne lui en fit point le reproche ; Dieu punit, au
+          contraire, le fils qui n’avait point caché cette faiblesse d’un père.</p>
+        <p>Demain, ou peut-être après-demain seulement, cet ouvrier intelligent reprendra le joug du
+          travail et le supportera patiemment, sans jeter autour de soi un regard jaloux et
+          envieux.</p>
+        <p>Bornons-nous à des vœux, pour que ceux qui spéculent sur les plaisirs du peuple n’abusent
+          pas de sa confiance et ne lui fournissent que des boissons pures de toute mixtion
+          malfaisante, car, sans cela, eux seuls seraient coupables de ce qui paraîtrait excès de la
+          part de leurs victimes.</p>
+        <p>Et vous, prêtres aveugles et impolitiques, laissez le peuple se livrer à ses plaisirs
+          innocents ; faites en sorte qu’il se contente de sa position ; qu’il ne compare pas cette
+          position pénible, douloureuse et sans avenir, avec <pb n="15" xml:id="p15"/>la situation
+          si douce et si heureuse de l’homme riche, et avec l’oisiveté dans laquelle vous vivez
+          vous-mêmes, et que vous ne devez qu’à la nouvelle dîme qui s’exprime de son front.</p>
+        <p>Il est une époque de l’année, consacrée de temps immémorial aux plaisirs tumultueux de la
+          multitude ; tous les gouvernements, et aussi le gouvernement temporel de Rome, les
+          favorisent ; ils consultent même les effets de cette joie périodique, et plus ces
+          saturnales sont bruyantes et animées, et plus ils sont convaincus que les peuples sont
+          heureux et satisfaits de ceux qui régissent leurs destinées. Malheureusement ce témoignage
+          serait quelquefois équivoque ; aussi l’administration regarde-t-elle comme un de ses
+          devoirs le soin d’aider et de provoquer ces manifestations de la joie et du contentement
+          populaire.</p>
+        <p>Que fait l’Eglise romaine dans ces moments d’allégresse générale ? Elle célèbre pendant
+          trois jours ce qu’elle appelle les <hi rend="i">quarante heures</hi> en expiation de ces
+          excès auxquels se porte toute la population. Ses prêtres gémissent dans leurs temples
+          déserts ; ils se frappent la poitrine… Rassurez-vous, âmes compatissantes… ils frappent
+          légèrement.</p>
+        <p>Eh ! que n’attendent-ils le lendemain …… et ils verront toute cette population calme se
+          porter en foule au pied des autels pour y participer à une des cérémonies les plus
+          augustes du culte chrétien. C’est la leçon d’égalité que tous les hommes, quels que soient
+          leurs rangs et leur dignité, reçoivent par ces paroles qui accompagnent l’imposition des
+          cendres : <quote>« O homme ! souviens-toi que tu es sorti de la poussière, et que tu
+            retourneras dans la poussière ! "</quote></p>
+        <p><pb n="16" xml:id="p16"/>Ce ne sont pas les seuls artisans, ouvriers, prolétaires, que le
+          prêtre de la secte romaine veut arrêter, troubler dans ses plaisirs, dans ses
+          délassements.</p>
+        <p>Toutes les jouissances, toutes les distractions dans toutes les classes de la société
+          sont soumises au même contrôle, à la même animadversion sacerdotale et enfin au même
+          anathème.</p>
+        <p>Les festins donnés par les riches qui font un usage honorable de leur fortune sont
+          condamnés à cause de leur luxe, leur prodigalité et la sensualité qu’ils éveillent et
+          provoquent.</p>
+        <p>Un repas par lequel on célèbre l’union innocente de deux jeunes cœurs, l’union de deux
+          familles, et dans lequel règnent la joie et peut-être aussi un peu plus que de la gaîté,
+          est l’objet de la censure inexorable de ces prêtres rigides, et sans doute de leur dépit.
+          Ils oublient que celui qu’ils disent être leur maître a consacré ces réunions par sa
+          présence, et que le vin ayant manqué, par le trop grand usage qu’on en avait fait, il n’en
+          a pas moins changé l’eau en vin. Ils sont tous disposés à répondre comme ce janséniste à
+          qui l’on rappelait cet intéressant épisode de la vie de Jésus : <quote>« Ce n’est pas ce
+            qu’il a fait de mieux. »</quote></p>
+        <p>Ce n’est pas ce qu’il a fait de mieux !…. Impie !…. Tu blasphèmes contre ton
+          maître !….</p>
         <p>Tu prétends être soumis à sa loi, et tu veux le soumettre à la tienne !…</p>
-        <p>Ah ! mes frères, admirons, nous, dans la sincérité de notre cœur, cet exemple de bienveillance et de sociabilité pratique, et bénissons la bonté de Jésus.</p>
-        <p>Quant aux bals, je ne chercherai point à les excuser, <pb n="17"/>à les défendre par des exemples puisés dans l’Ecriture sainte.</p>
+        <p>Ah ! mes frères, admirons, nous, dans la sincérité de notre cœur, cet exemple de
+          bienveillance et de sociabilité pratique, et bénissons la bonté de Jésus.</p>
+        <p>Quant aux bals, je ne chercherai point à les excuser, <pb n="17" xml:id="p17"/>à les
+          défendre par des exemples puisés dans l’Ecriture sainte.</p>
         <p>Je ne vous représenterai point David dansant devant l’arche….</p>
-        <p>Je ne vous le donnerai pas non plus pour modèle à vous jeunes gens de notre France si polie, si élégante, car sans doute il dansait mal ; puisque, suivant la Bible<note resp="editor" place="bottom"> [NDE] 2 Samuel 6:16.</note> : « <quote>Mical, sa femme, voyant le roi David qui sautait et dansait, se moqua de lui et le méprisa dans son cœur. »</quote></p>
-        <p>Mais permettez-moi, mes chers auditeurs, d’emprunter à une plume que vous reconnaîtrez sans doute<note resp="editor" place="bottom"> [NDE] Il s'agit de la <hi rend="i">Lettre à d'Alembert</hi> de Rousseau.</note>, la défense d’un plaisir si cher et si utile à la jeunesse.</p>
-        <p>« <quote>En quoi Dieu est-il offensé par un exercice agréable, salutaire, propre à la vivacité des jeunes gens, qui consiste à se présenter l’un à l’autre avec grâce et bienséance, et auquel le spectateur impose une gravité dont on n’oserait sortir un instant ?</quote>….</p>
-        <p>« <quote>Peut-on imaginer un moyen plus honnête de ne point tromper autrui, du moins quant à la figure, et de se montrer avec les agréments et les défauts que l’on peut avoir, aux gens qui ont intérêt de nous bien connaître avant de s’obliger à nous aimer ? Le devoir de se chérir réciproquement, n’emporte-t-il pas celui de se plaire ? Et n’est-ce pas un soin digne de deux personnes vertueuses et chrétiennes qui cherchent à s’unir, de préparer ainsi leur cœur à l’amour mutuel que Dieu leur impose ?</quote> »</p>
-        <p>Que ajouter à ce tableau de mœurs, de mœurs pures et innocentes, et de quel autre coloris oserais-je essayer <seg>de</seg> l’embellir ?</p>
-        <p>Prêtres romains, quelle est votre réponse ? La voici : <pb n="18"/>Un autre auteur profane, un poète se charge de vous la fournir :</p> <quote>
+        <p>Je ne vous le donnerai pas non plus pour modèle à vous jeunes gens de notre France si
+          polie, si élégante, car sans doute il dansait mal ; puisque, suivant la Bible<note
+            resp="editor" place="bottom">[NDE] 2 Samuel 6:16.</note> : <quote>« Mical, sa femme,
+            voyant le roi David qui sautait et dansait, se moqua de lui et le méprisa dans son
+            cœur. »</quote></p>
+        <p>Mais permettez-moi, mes chers auditeurs, d’emprunter à une plume que vous reconnaîtrez
+          sans doute<note resp="editor" place="bottom">[NDE] Il s'agit de la <hi rend="i">Lettre à
+              d'Alembert</hi> de Rousseau.</note>, la défense d’un plaisir si cher et si utile à la
+          jeunesse.</p>
+        <p><quote>« En quoi Dieu est-il offensé par un exercice agréable, salutaire, propre à la
+            vivacité des jeunes gens, qui consiste à se présenter l’un à l’autre avec grâce et
+            bienséance, et auquel le spectateur impose une gravité dont on n’oserait sortir un
+            instant ?</quote>….</p>
+        <p><quote>« Peut-on imaginer un moyen plus honnête de ne point tromper autrui, du moins
+            quant à la figure, et de se montrer avec les agréments et les défauts que l’on peut
+            avoir, aux gens qui ont intérêt de nous bien connaître avant de s’obliger à nous aimer ?
+            Le devoir de se chérir réciproquement, n’emporte-t-il pas celui de se plaire ? Et
+            n’est-ce pas un soin digne de deux personnes vertueuses et chrétiennes qui cherchent à
+            s’unir, de préparer ainsi leur cœur à l’amour mutuel que Dieu leur
+          impose ? »</quote></p>
+        <p>Que ajouter à ce tableau de mœurs, de mœurs pures et innocentes, et de quel autre coloris
+          oserais-je essayer <seg>de</seg> l’embellir ?</p>
+        <p>Prêtres romains, quelle est votre réponse ? La voici : <pb n="18" xml:id="p18"/>Un autre
+          auteur profane, un poète se charge de vous la fournir :</p>
+        <quote>
           <lg>
             <l>« Ces visites, ces bals, ces conversations</l>
-            <l>Sont du malin esprit toutes inventions…<note resp="editor" place="bottom"> [NDE] Molière, <hi rend="i">Tartuffe</hi>, I, 1.</note>. »</l>
+            <l>Sont du malin esprit toutes inventions…<note resp="editor" place="bottom">[NDE]
+                Molière, <hi rend="i">Tartuffe</hi>, I, 1.</note>. »</l>
           </lg>
-        </quote> 
-          <p>Chrétiens, vous l’entendez ! inventions du malin esprit !</p>
-        <p>Ainsi donc, riches, renoncez à vos festins sensuels, à vos réunions corruptrices…</p>
-        <p>Princes : pourquoi ces fêtes brillantes dans lesquelles les femmes disputent entre elles de grâce, d’élégance, de toilettes et peut-être de coquetterie, fêtes qui ne sont autre chose que les pompes du démon auxquelles les chrétiens ont renoncé à leur baptême…</p>
-        <p>C’est en vain que vous allégueriez la raison politique, la raison d’Etat qui vous force à protéger, autant qu’il peut dépendre de vous, tous les arts et toutes les industries qui font fleurir une nation ; c’est en vain que vous prouveriez que ces fêtes ont pour résultat de faire circuler dans toutes les veines du corps social l’argent qui en est le sang, pour le faire parvenir de mains en mains jusqu’à celles du pauvre.</p>
-        <p>C’est en vain que vous démontreriez que notre France, par les produits de nos arts, de nos manufactures, exerce un puissant empire dans l’étranger, et que le monopole de nos modes frivoles le rend tributaire de notre légère industrie.</p>
-        <p>Que sont ces considérations mondaines ? Que sont ces richesses, source de tous les vices, auprès de la richesse du royaume des cieux ?</p>
-        <p>Et vous, manufacturiers industrieux, qui variez chaque jour vos tissus et donnez la vie et l’existence à tant de familles qui vous consacrent leur intelligence et leurs <pb n="19"/>bras : vous tous qui disposez et tressez ces tissus légers, dont les grâces et la beauté se couvrent et se voilent, gazes transparentes sous lesquelles se cache le tentateur, brisez vos métiers, fermez vos magasins, renoncez à ces occupations profanes, dangereuses pour vous et pour votre prochain ; cessez enfin de vous rendre des instruments de mort spirituelle et de damnation éternelle…</p>
-        <p>Que deviendront nos femmes, nos enfants, nos familles, direz-vous ? Eh ! qu’importe ? ne s’agit-il pas avant tout du salut de vos âmes ; abandonnez donc des professions qui le compromettent. Repentez-vous et priez Dieu qu’il vous pardonne….</p>
-        <p>Et lorsque le besoin se fera sentir et pour vous et pour vos enfants, allez à l’archevêché…. A l’archevêché !… Un jour la colère du peuple a éclaté</p> <quote>
-          <l>« Je n’ai fait que passer, il n’était déjà plus…<note resp="editor" place="bottom"> [NDE] Racine, <hi rend="i">Esther</hi>, III, 9</note>. »</l>
         </quote>
-        <p>Allez chez les Ursulines, et, du milieu de ces filles repentantes à qui il <hi rend="i">faut beaucoup pardonner parce qu’elles ont beaucoup aimé</hi>, se présentera un saint prélat attendant le martyre, et qui vous dira : <hi rend="i">Dieu vous assiste et vous bénisse…</hi></p>
-        <p>Il y a exagération, me dira-t-on, dans les conséquences que vous tirez des prédications menaçantes et des anathèmes des prêtres romains.</p>
-        <p>Non, ces conséquences sont parfaitement logiques, et si je les ai déduites presque jusqu’à leur dernier terme, c’est pour prouver combien les doctrines, les exigences, les commandements de ces prêtres sont subversifs de toute société humaine et contraires aux intentions de Jésus-Christ, source de toute vérité, puisqu’elles finissent par conduire nécessairement à l’absurde.</p>
-        <p><pb n="20"/>Parmi les délassements que nous présente la société civilisée ; parmi les distractions qui peuvent remplir les moments de repos et d’oisiveté même que laisse à l’homme la suspension de ses occupations journalières, en est-il de plus nobles et de plus dignes de son intelligence que les représentations théâtrales ?</p>
-        <p>Dans l’ancienneté, elles faisaient partie des cérémonies consacrées aux dieux et des fêtes dédiées à la patrie.</p>
-        <p>Des cirques immenses réunissaient la presque totalité des citoyens, et les chefs-d’œuvre de Sophocle, d’Euripide, et de Ménandre, étaient représentés aux acclamations générales. Telle a été la puissance de ces productions du génie, qu’elles ont traversé des siècles d’ignorance et de barbarie, et sont parvenues jusqu’à nous pour nous être données comme modèles dans nos études.</p>
-        <p>Dans les temps modernes, les théâtres se sont relevés avec la civilisation et l’ont suivie dans sa marche.</p>
-        <p>Les rois soucieux de la gloire ont mis à honneur la protection qu’ils ont accordée aux lettres et surtout aux œuvres dramatiques.</p>
-        <p>Louis XIV est moins connu aujourd’hui par ses victoires et ses conquêtes que par les génies qui ont illustré son règne, et qu’il a encouragés par sa brillante protection.</p>
-        <p>Qu’est devenue la gloire de ce conquérant ? elle a été ternie pendant les dernières années de sa vie, et ce sont les chefs-d’œuvre de Corneille, de Racine et de Molière qui ont valu à son siècle le nom de siècle de Louis XIV.</p>
-        <p>Les spectacles sont devenus dès lors un besoin tel de la société, que, sous Louis XVI, des églises ont été ou commencées ou continuées sans que l’on soit parvenu à les terminer, tandis que la salle de l’Opéra, dévorée par <pb n="21"/>un incendie, a dû être réédifiée dans l’espace de cinquante jours.</p>
-        <p>Tous les gouvernements qui se sont succédés ont accordé aux spectacles une protection toujours croissante et tous les considèrent comme un des grands ressorts d’administration.</p>
-        <p>De nos jours, les théâtres se sont multipliés et suffisent à peine à la foule qui les assiège.</p>
-        <p>Ce ne sont plus des repaires obscurs méritant des reproches qui cependant auraient été plus justement adressés à une police<note resp="editor" place="bottom"> [NDE] police = société civile.</note> insouciante, et peut-être même alors chargée de dégrader la dignité de l’homme par la débauche.</p>
-        <p>Ce sont des temples élevés à la morale, depuis que l’architecture, la peinture, la sculpture, et tous les arts, se sont, à l’envi, empressés de les décorer. L’ordre le plus régulier y règne ; il n’est pas une place où la mère de famille ne puisse se montrer avec ses filles, sans craindre de dangereux exemples : l’œil du public pénètre partout, et des flots de lumière rendent facile et efficace la surveillance de tous sur chacun.</p>
-        <p>Ce ne sont donc plus que les représentations dramatiques qu’y va chercher cette multitude d’amateurs de tout âge, et de toute condition.</p>
-        <p>La jeunesse studieuse, surtout, s’y presse pour admirer sur la scène les œuvres classiques des maîtres après les avoir étudiées dans le cabinet ; elle les fréquente pour y former son goût, purifier son langage, modifier ses usages et ses habitudes ; elle y cherche, elle y trouve le complément de son éducation.</p>
-        <p>Quel silence religieux aux représentations des chefs-d’œuvre de nos poètes, silence qui n’est interrompu que <pb n="22"/>par des applaudissements et des acclamations d’une admiration toujours nouvelle.</p>
-        <p>Dans les ouvrages de nos auteurs modernes, son goût accueille, approuve tout ce que nos pères auraient approuvé, accueilli, et ce goût épuré d’après nos nouvelles mœurs, réprouve ce que nos pères, plus indulgents, auraient peut-être permis et souffert, soit dans l’action, soit dans le langage.</p>
-        <p>Dans la tragédie, les peuples apprennent à connaître et à juger les passions des hommes élevés, pour ainsi dire, au-dessus de l’humanité, que les lois ne peuvent atteindre, et qui, le plus souvent, se livrent à ces passions avec d’autant plus d’abandon et de fureur, qu’ils ne sont retenus par aucun frein et qu’ils y sont excités, poussés par de vils courtisans qui, comme le dit Phèdre dans son désespoir :</p> <quote>
+        <p>Chrétiens, vous l’entendez ! inventions du malin esprit !</p>
+        <p>Ainsi donc, riches, renoncez à vos festins sensuels, à vos réunions corruptrices…</p>
+        <p>Princes : pourquoi ces fêtes brillantes dans lesquelles les femmes disputent entre elles
+          de grâce, d’élégance, de toilettes et peut-être de coquetterie, fêtes qui ne sont autre
+          chose que les pompes du démon auxquelles les chrétiens ont renoncé à leur baptême…</p>
+        <p>C’est en vain que vous allégueriez la raison politique, la raison d’Etat qui vous force à
+          protéger, autant qu’il peut dépendre de vous, tous les arts et toutes les industries qui
+          font fleurir une nation ; c’est en vain que vous prouveriez que ces fêtes ont pour
+          résultat de faire circuler dans toutes les veines du corps social l’argent qui en est le
+          sang, pour le faire parvenir de mains en mains jusqu’à celles du pauvre.</p>
+        <p>C’est en vain que vous démontreriez que notre France, par les produits de nos arts, de
+          nos manufactures, exerce un puissant empire dans l’étranger, et que le monopole de nos
+          modes frivoles le rend tributaire de notre légère industrie.</p>
+        <p>Que sont ces considérations mondaines ? Que sont ces richesses, source de tous les vices,
+          auprès de la richesse du royaume des cieux ?</p>
+        <p>Et vous, manufacturiers industrieux, qui variez chaque jour vos tissus et donnez la vie
+          et l’existence à tant de familles qui vous consacrent leur intelligence et leurs <pb
+            n="19" xml:id="p19"/>bras : vous tous qui disposez et tressez ces tissus légers, dont
+          les grâces et la beauté se couvrent et se voilent, gazes transparentes sous lesquelles se
+          cache le tentateur, brisez vos métiers, fermez vos magasins, renoncez à ces occupations
+          profanes, dangereuses pour vous et pour votre prochain ; cessez enfin de vous rendre des
+          instruments de mort spirituelle et de damnation éternelle…</p>
+        <p>Que deviendront nos femmes, nos enfants, nos familles, direz-vous ? Eh ! qu’importe ? ne
+          s’agit-il pas avant tout du salut de vos âmes ; abandonnez donc des professions qui le
+          compromettent. Repentez-vous et priez Dieu qu’il vous pardonne….</p>
+        <p>Et lorsque le besoin se fera sentir et pour vous et pour vos enfants, allez à
+          l’archevêché…. A l’archevêché !… Un jour la colère du peuple a éclaté</p>
+        <quote>
+          <l>« Je n’ai fait que passer, il n’était déjà plus…<note resp="editor" place="bottom"
+              >[NDE] Racine, <hi rend="i">Esther</hi>, III, 9</note>. »</l>
+        </quote>
+        <p>Allez chez les Ursulines, et, du milieu de ces filles repentantes à qui il <hi rend="i"
+            >faut beaucoup pardonner parce qu’elles ont beaucoup aimé</hi>, se présentera un saint
+          prélat attendant le martyre, et qui vous dira : <hi rend="i">Dieu vous assiste et vous
+            bénisse…</hi></p>
+        <p>Il y a exagération, me dira-t-on, dans les conséquences que vous tirez des prédications
+          menaçantes et des anathèmes des prêtres romains.</p>
+        <p>Non, ces conséquences sont parfaitement logiques, et si je les ai déduites presque
+          jusqu’à leur dernier terme, c’est pour prouver combien les doctrines, les exigences, les
+          commandements de ces prêtres sont subversifs de toute société humaine et contraires aux
+          intentions de Jésus-Christ, source de toute vérité, puisqu’elles finissent par conduire
+          nécessairement à l’absurde.</p>
+        <p><pb n="20" xml:id="p20"/>Parmi les délassements que nous présente la société civilisée ;
+          parmi les distractions qui peuvent remplir les moments de repos et d’oisiveté même que
+          laisse à l’homme la suspension de ses occupations journalières, en est-il de plus nobles
+          et de plus dignes de son intelligence que les représentations théâtrales ?</p>
+        <p>Dans l’ancienneté, elles faisaient partie des cérémonies consacrées aux dieux et des
+          fêtes dédiées à la patrie.</p>
+        <p>Des cirques immenses réunissaient la presque totalité des citoyens, et les chefs-d’œuvre
+          de Sophocle, d’Euripide, et de Ménandre, étaient représentés aux acclamations générales.
+          Telle a été la puissance de ces productions du génie, qu’elles ont traversé des siècles
+          d’ignorance et de barbarie, et sont parvenues jusqu’à nous pour nous être données comme
+          modèles dans nos études.</p>
+        <p>Dans les temps modernes, les théâtres se sont relevés avec la civilisation et l’ont
+          suivie dans sa marche.</p>
+        <p>Les rois soucieux de la gloire ont mis à honneur la protection qu’ils ont accordée aux
+          lettres et surtout aux œuvres dramatiques.</p>
+        <p>Louis XIV est moins connu aujourd’hui par ses victoires et ses conquêtes que par les
+          génies qui ont illustré son règne, et qu’il a encouragés par sa brillante protection.</p>
+        <p>Qu’est devenue la gloire de ce conquérant ? elle a été ternie pendant les dernières
+          années de sa vie, et ce sont les chefs-d’œuvre de Corneille, de Racine et de Molière qui
+          ont valu à son siècle le nom de siècle de Louis XIV.</p>
+        <p>Les spectacles sont devenus dès lors un besoin tel de la société, que, sous Louis XVI,
+          des églises ont été ou commencées ou continuées sans que l’on soit parvenu à les terminer,
+          tandis que la salle de l’Opéra, dévorée par <pb n="21" xml:id="p21"/>un incendie, a dû
+          être réédifiée dans l’espace de cinquante jours.</p>
+        <p>Tous les gouvernements qui se sont succédés ont accordé aux spectacles une protection
+          toujours croissante et tous les considèrent comme un des grands ressorts
+          d’administration.</p>
+        <p>De nos jours, les théâtres se sont multipliés et suffisent à peine à la foule qui les
+          assiège.</p>
+        <p>Ce ne sont plus des repaires obscurs méritant des reproches qui cependant auraient été
+          plus justement adressés à une police<note resp="editor" place="bottom">[NDE] police =
+            société civile.</note> insouciante, et peut-être même alors chargée de dégrader la
+          dignité de l’homme par la débauche.</p>
+        <p>Ce sont des temples élevés à la morale, depuis que l’architecture, la peinture, la
+          sculpture, et tous les arts, se sont, à l’envi, empressés de les décorer. L’ordre le plus
+          régulier y règne ; il n’est pas une place où la mère de famille ne puisse se montrer avec
+          ses filles, sans craindre de dangereux exemples : l’œil du public pénètre partout, et des
+          flots de lumière rendent facile et efficace la surveillance de tous sur chacun.</p>
+        <p>Ce ne sont donc plus que les représentations dramatiques qu’y va chercher cette multitude
+          d’amateurs de tout âge, et de toute condition.</p>
+        <p>La jeunesse studieuse, surtout, s’y presse pour admirer sur la scène les œuvres
+          classiques des maîtres après les avoir étudiées dans le cabinet ; elle les fréquente pour
+          y former son goût, purifier son langage, modifier ses usages et ses habitudes ; elle y
+          cherche, elle y trouve le complément de son éducation.</p>
+        <p>Quel silence religieux aux représentations des chefs-d’œuvre de nos poètes, silence qui
+          n’est interrompu que <pb n="22" xml:id="p22"/>par des applaudissements et des acclamations
+          d’une admiration toujours nouvelle.</p>
+        <p>Dans les ouvrages de nos auteurs modernes, son goût accueille, approuve tout ce que nos
+          pères auraient approuvé, accueilli, et ce goût épuré d’après nos nouvelles mœurs, réprouve
+          ce que nos pères, plus indulgents, auraient peut-être permis et souffert, soit dans
+          l’action, soit dans le langage.</p>
+        <p>Dans la tragédie, les peuples apprennent à connaître et à juger les passions des hommes
+          élevés, pour ainsi dire, au-dessus de l’humanité, que les lois ne peuvent atteindre, et
+          qui, le plus souvent, se livrent à ces passions avec d’autant plus d’abandon et de fureur,
+          qu’ils ne sont retenus par aucun frein et qu’ils y sont excités, poussés par de vils
+          courtisans qui, comme le dit Phèdre dans son désespoir :</p>
+        <quote>
           <lg>
             <l>…« Par de lâches adresses</l>
             <l>Des princes malheureux nourrissent les faiblesses,</l>
             <l>Les poussent au penchant où leur cœur est enclin,</l>
             <l>Et leur osent du crime aplanir le chemin.</l>
             <l>Détestables flatteurs, présent le plus funeste</l>
-            <l>Que puisse faire aux rois la colère céleste<note resp="editor" place="bottom"> [NDE] Racine, <hi rend="i">Phèdre</hi>, IV, 6.</note>. »</l>
+            <l>Que puisse faire aux rois la colère céleste<note resp="editor" place="bottom">[NDE]
+                Racine, <hi rend="i">Phèdre</hi>, IV, 6.</note>. »</l>
           </lg>
-        </quote> <p>Le peuple y admire aussi des actes d’héroïsme et de dévouement à la patrie, exemples qui font fermenter dans son cœur ces nobles sentiments que nos yeux ont vu éclater lorsque notre liberté a été menacée.</p>
-        <p>Les rois y trouveraient aussi d’utiles leçons que des prédicateurs à leurs gages et aspirant à un évêché se garderaient bien de porter à leur oreille.</p>
-        <p>Louis XIV, le beau, l’orgueilleux Louis XIV se montrait sur la scène aux regards de sa cour ; hé bien ! Racine l’a rappelé à son rang, à sa dignité, par ces vers <pb n="23"/>prêtés à Burrhus que Narcisse rapporte à Néron, et qui, dans l’esprit du poète, avaient une haute et hardie destination.</p> <quote>
+        </quote>
+        <p>Le peuple y admire aussi des actes d’héroïsme et de dévouement à la patrie, exemples qui
+          font fermenter dans son cœur ces nobles sentiments que nos yeux ont vu éclater lorsque
+          notre liberté a été menacée.</p>
+        <p>Les rois y trouveraient aussi d’utiles leçons que des prédicateurs à leurs gages et
+          aspirant à un évêché se garderaient bien de porter à leur oreille.</p>
+        <p>Louis XIV, le beau, l’orgueilleux Louis XIV se montrait sur la scène aux regards de sa
+          cour ; hé bien ! Racine l’a rappelé à son rang, à sa dignité, par ces vers <pb n="23"
+            xml:id="p23"/>prêtés à Burrhus que Narcisse rapporte à Néron, et qui, dans l’esprit du
+          poète, avaient une haute et hardie destination.</p>
+        <quote>
           <lg>
             <l>« Pour toute ambition, pour vertu singulière,</l>
             <l>Il excelle à conduire un char dans la carrière ;</l>
@@ -229,18 +624,29 @@
             <l>A venir prodiguer sa voix sur un théâtre ;</l>
             <l>A réciter des chants qu’il veut qu’on idolâtre,</l>
             <l>Tandis que des soldats, de moments en moments,</l>
-            <l>Vont arracher pour lui des applaudissements<note resp="editor" place="bottom"> [NDE] Racine, <hi rend="i">Britannicus</hi>, IV, 4.</note>. »</l>
+            <l>Vont arracher pour lui des applaudissements<note resp="editor" place="bottom">[NDE]
+                Racine, <hi rend="i">Britannicus</hi>, IV, 4.</note>. »</l>
           </lg>
-        </quote> <p>Dans quelle chaire la majesté de Dieu a-t-elle été présentée avec plus d’éclat et de grandeur que dans ces vers prononcés sur le théâtre, et que le poète a mis dans la bouche d’Esther, parlant à Assuérus.</p> <quote>
+        </quote>
+        <p>Dans quelle chaire la majesté de Dieu a-t-elle été présentée avec plus d’éclat et de
+          grandeur que dans ces vers prononcés sur le théâtre, et que le poète a mis dans la bouche
+          d’Esther, parlant à Assuérus.</p>
+        <quote>
           <lg>
             <l>« L’Eternel est son nom, le monde est son ouvrage,</l>
             <l>Il entend les soupirs de l’humble qu’on outrage,</l>
             <l>Juge tous les mortels avec d’égales lois,</l>
-            <l>Et du haut de son trône interroge les rois…<note resp="editor" place="bottom"> [NDE] Racine, <hi rend="i">Esther</hi>, III, 4,</note>. »</l>
+            <l>Et du haut de son trône interroge les rois…<note resp="editor" place="bottom">[NDE]
+                Racine, <hi rend="i">Esther</hi>, III, 4,</note>. »</l>
           </lg>
-        </quote> <p>Quelle leçon plus éloquente, plus sage, plus hardie, a-t-on jamais adressée à ceux qui gouvernent la terre, que celle prononcée par Joad, aux pieds du jeune Joas, après avoir ceint son front du bandeau royal, et l’avoir reconnu pour son roi ?….</p>
-        <p>La transporter du théâtre à notre chaire, c’est, je crois, mes chers auditeurs, ennoblir, sanctifier la chaire française.</p>
-        <p>Ecoutons !</p> <quote>
+        </quote>
+        <p>Quelle leçon plus éloquente, plus sage, plus hardie, a-t-on jamais adressée à ceux qui
+          gouvernent la terre, que celle prononcée par Joad, aux pieds du jeune Joas, après avoir
+          ceint son front du bandeau royal, et l’avoir reconnu pour son roi ?….</p>
+        <p>La transporter du théâtre à notre chaire, c’est, je crois, mes chers auditeurs, ennoblir,
+          sanctifier la chaire française.</p>
+        <p>Ecoutons !</p>
+        <quote>
           <lg>
             <l>« Loin du trône nourri, de ce fatal honneur,</l>
             <l>Hélas ! vous ignorez le charme empoisonneur ;</l>
@@ -248,7 +654,7 @@
             <l>Et des lâches flatteurs la voix enchanteresse.</l>
             <l>Bientôt ils vous diront que les plus saintes lois</l>
             <l>Maîtresses du vil peuple obéissent aux rois ;</l>
-            <l><pb n="24"/>Qu’un roi n’a d’autre frein que sa volonté même ;</l>
+            <l><pb n="24" xml:id="p24"/>Qu’un roi n’a d’autre frein que sa volonté même ;</l>
             <l>Qu’il doit immoler tout à sa grandeur suprême.</l>
             <l>Qu’aux larmes, au travail, le peuple est condamné</l>
             <l>Et d’un sceptre de fer veut être gouverné ;</l>
@@ -263,106 +669,242 @@
             <l>Que sévère aux méchants et des bons le refuge,</l>
             <l>Entre le pauvre et vous vous prendrez Dieu pour juge ;</l>
             <l>Vous souvenant, mon fils, que, caché sous ce lin,</l>
-            <l>Comme eux vous fûtes pauvre et comme eux orphelin<note resp="editor" place="bottom"> [NDE] Racine, <hi rend="i">Athalie</hi>, IV, 3, </note>. »</l>
+            <l>Comme eux vous fûtes pauvre et comme eux orphelin<note resp="editor" place="bottom"
+                >[NDE] Racine, <hi rend="i">Athalie</hi>, IV, 3, </note>. »</l>
           </lg>
-        </quote> <p>La comédie n’a pas un ton aussi imposant, aussi sévère ; mais combien elle est plus utile, et peut-elle être plus profitable pour l’universalité des citoyens ! C’est d’eux-mêmes qu’elle les occupe, c’est la glace qui réfléchit nos portraits à nous tous.</p>
-        <p>Sans doute, nous y reconnaissons plus facilement nos voisins, mais il est impossible que nos traits échappent à nos regards, et si nous détournons la tête lorsque nos yeux les rencontrent, c’est déjà un des salutaires effets de la comédie.</p>
-        <p>Permettez-moi, mes chers auditeurs, un rapprochement dont vous reconnaîtrez l’exactitude.</p>
-          <p>Dans ces tableaux circulaires, nouvelle conquête de la peinture, l’artiste choisit un point central élevé qui permette d’embrasser tout un vaste horizon<note resp="editor" place="bottom"> [NDE] Allusion à la mode des panoramas, rotondes dont les murs sont peints d’un paysage circulaire. Née à la fin du XVIIIe s. cette mode se diffuse dans toute l’Europe sous la Restauration.</note>.</p>
-        <p>Ici, à nos pieds, c’est la ville africaine, la ville des pirates conquise par nos braves, et cette mer dont les flots, <pb n="25"/>par leur balancement perpétuel, baignent successivement ses côtes et les rivages de notre patrie.</p>
-        <p>A gauche, c’est le ciel qui se projette sur la superstitieuse Espagne, et que le peintre aurait pu, il y a cent ans, rougir par le reflet des innombrables bûchers allumés pour la foi et la domination de Rome.</p>
-          <p>A droite le ciel de l’Italie…. Italie ! que nous appelons par nos vœux au partage de la liberté, et que nous voudrions voir affranchie du joug d’un prêtre dont le royaume ne doit pas être de ce monde<note resp="editor" place="bottom"> [NDE] Allusion aux Etats pontificaux.</note>.</p>
-        <p>Derrière, l’Atlas qui semble encore supporter le ciel, mais dont les cimes orgueilleuses s’abaisseront pour nous laisser pénétrer dans cette Afrique jusqu’à présent inconnue, et que nous civiliserons avec les principes de notre foi, et la morale douce de Jésus-Christ.</p>
-        <p>Hé bien ! mes frères, la scène comique est le point central élevé du panorama dans lequel le prince de la comédie fait passer successivement sous nos yeux, les vices, les travers et les ridicules de l’humanité.</p>
+        </quote>
+        <p>La comédie n’a pas un ton aussi imposant, aussi sévère ; mais combien elle est plus
+          utile, et peut-elle être plus profitable pour l’universalité des citoyens ! C’est
+          d’eux-mêmes qu’elle les occupe, c’est la glace qui réfléchit nos portraits à nous
+          tous.</p>
+        <p>Sans doute, nous y reconnaissons plus facilement nos voisins, mais il est impossible que
+          nos traits échappent à nos regards, et si nous détournons la tête lorsque nos yeux les
+          rencontrent, c’est déjà un des salutaires effets de la comédie.</p>
+        <p>Permettez-moi, mes chers auditeurs, un rapprochement dont vous reconnaîtrez
+          l’exactitude.</p>
+        <p>Dans ces tableaux circulaires, nouvelle conquête de la peinture, l’artiste choisit un
+          point central élevé qui permette d’embrasser tout un vaste horizon<note resp="editor"
+            place="bottom">[NDE] Allusion à la mode des panoramas, rotondes dont les murs sont
+            peints d’un paysage circulaire. Née à la fin du XVIIIe s. cette mode se diffuse dans
+            toute l’Europe sous la Restauration.</note>.</p>
+        <p>Ici, à nos pieds, c’est la ville africaine, la ville des pirates conquise par nos braves,
+          et cette mer dont les flots, <pb n="25" xml:id="p25"/>par leur balancement perpétuel,
+          baignent successivement ses côtes et les rivages de notre patrie.</p>
+        <p>A gauche, c’est le ciel qui se projette sur la superstitieuse Espagne, et que le peintre
+          aurait pu, il y a cent ans, rougir par le reflet des innombrables bûchers allumés pour la
+          foi et la domination de Rome.</p>
+        <p>A droite le ciel de l’Italie…. Italie ! que nous appelons par nos vœux au partage de la
+          liberté, et que nous voudrions voir affranchie du joug d’un prêtre dont le royaume ne doit
+          pas être de ce monde<note resp="editor" place="bottom">[NDE] Allusion aux Etats
+            pontificaux.</note>.</p>
+        <p>Derrière, l’Atlas qui semble encore supporter le ciel, mais dont les cimes orgueilleuses
+          s’abaisseront pour nous laisser pénétrer dans cette Afrique jusqu’à présent inconnue, et
+          que nous civiliserons avec les principes de notre foi, et la morale douce de
+          Jésus-Christ.</p>
+        <p>Hé bien ! mes frères, la scène comique est le point central élevé du panorama dans lequel
+          le prince de la comédie fait passer successivement sous nos yeux, les vices, les travers
+          et les ridicules de l’humanité.</p>
         <p>Ce sont des tuteurs avides, intéressés.</p>
         <p>Un avare, tyran de ses serviteurs et de sa famille.</p>
         <p>De ridicules vieillards amoureux.</p>
         <p>Des femmes bel-esprit.</p>
         <p>Des pédants dont on peut dire :</p>
-          <p>« <quote>Un sot savant est sot plus qu’un sot ignorant<note resp="editor" place="  "> [NDE] Molière, <hi rend="i">Les Femmes savantes</hi>, IV, 2.</note>.</quote> »</p>
-        <p></p>
+        <p><quote>« Un sot savant est sot plus qu’un sot ignorant<note resp="editor" place="bottom"
+              >[NDE] Molière, <hi rend="i">Les Femmes savantes</hi>, IV, 2.</note>. »</quote></p>
+        <p/>
         <p>Des coquettes et des fats.</p>
         <p>Un marchand enrichi voulant trancher du gentilhomme.</p>
         <p>Un gentilhomme ruiné flattant et dupant le marchand enrichi.</p>
-        <p>Une marâtre cherchant à faire sacrifier par son mari, les enfants d’une première femme.</p>
-        <p><pb n="26"/>Cet Alceste d’une vertu si austère qui hait les hommes,</p> <quote>
+        <p>Une marâtre cherchant à faire sacrifier par son mari, les enfants d’une première
+          femme.</p>
+        <p><pb n="26" xml:id="p26"/>Cet Alceste d’une vertu si austère qui hait les hommes,</p>
+        <quote>
           <lg>
             <l>« Les uns parce qu’ils sont méchants et malfaisants</l>
             <l>Et les autres pour être aux méchants complaisants,</l>
             <l>Et n’avoir pas pour eux, ces haines vigoureuses,</l>
-            <l>Que doit donner le vice aux âmes vertueuses<note resp="editor" place="bottom"> [NDE] Molière, <hi rend="i">Le Misanthrope</hi>, I, 1.</note>. »</l>
+            <l>Que doit donner le vice aux âmes vertueuses<note resp="editor" place="bottom">[NDE]
+                Molière, <hi rend="i">Le Misanthrope</hi>, I, 1.</note>. »</l>
           </lg>
-        </quote> 
-          <p>Et ce Tartufe.… (ici, Molière n’a point osé montrer son héros sous son véritable manteau), mais ce Tartufe enfin, spéculant sur la femme et la fortune du dévot qu’il a séduit par un faux dehors de piété.</p>
-        <p>Écoutez Orgon parlant de ce fourbe :</p> <quote>
+        </quote>
+        <p>Et ce Tartufe.… (ici, Molière n’a point osé montrer son héros sous son véritable
+          manteau), mais ce Tartufe enfin, spéculant sur la femme et la fortune du dévot qu’il a
+          séduit par un faux dehors de piété.</p>
+        <p>Écoutez Orgon parlant de ce fourbe :</p>
+        <quote>
           <lg>
             <l>« Qui suit bien ses leçons goûte une paix profonde,</l>
             <l>Et comme du fumier regarde tout le monde <seg>… …</seg></l>
             <l>Il m’enseigne à n’avoir affection pour rien.</l>
             <l>De toutes amitiés il détache mon âme,</l>
             <l>Et je verrais mourir frère, enfant, mère et femme,</l>
-            <l>Que je m’en soucierais tout comme de cela …<note resp="editor" place="bottom"> [NDE] Molière, <hi rend="i">Tartuffe</hi>, I, 5.</note>. »</l>
+            <l>Que je m’en soucierais tout comme de cela …<note resp="editor" place="bottom">[NDE]
+                Molière, <hi rend="i">Tartuffe</hi>, I, 5.</note>. »</l>
           </lg>
-        </quote> <p>Les sentiments humains, mes frères que voilà ! Et cependant, c’est le langage que nous avons entendu tenir à nos missionnaires, et voilà le résultat auquel ils voulaient parvenir.</p>
-        <p>Avec quel art, quelle magie, tous les portraits sont présentés à nos regards par notre inimitable auteur comique, quel contraste heureux il leur oppose, et comme tous les vices et les travers sont livrés à notre risée.</p>
-        <p>Ce n’est point avec le fouet déchirant d’une censure directe et sévère qu’il nous attaque dans nos mœurs corrompues ; mais avec l’arme plus terrible du ridicule : et d’après le précepte d’un des législateurs du Parnasse, « <quote>c’est en riant qu’il châtie les mœurs</quote><note resp="editor" place="bottom"> [NDE] Traduction de la devise latine du poète Jean-Baptiste Senteuil "Castigat ridendo mores",</note>. »</p>
-        <p>Ses successeurs ont eu encore un vaste champ à exploiter, et beaucoup y ont fait d’heureuses récoltes, mais <pb n="27"/>à lui la palme, que personne ne songe, sans doute, à lui disputer.</p>
-        <p>Ainsi, mes chers auditeurs, dans notre goût pour les spectacles, nous cherchons dans la tragédie l’attendrissement, le trouble, la terreur même, en un mot de vives émotions indépendamment de l’instruction, et dans la comédie, nous voulons trouver et de la gaîté franche, et un rire pur et innocent, et encore d’utiles leçons.</p>
-        <p>Lorsque Dieu a soufflé sur le visage de notre premier père pour lui donner la vie, n’a-t-il pas doué sa face des muscles qui expriment nos besoins, nos sentiments, nos douleurs, nos affections, nos peines, et d’autres par lesquels nous manifestons notre satisfaction, notre joie et nos plaisirs ?</p>
-        <p>La triste condition de l’humanité, les souffrances physiques, les chagrins moraux agitent assez les premiers, nous font répandre assez de larmes véritables, assez de larmes amères. Pourquoi n’en verserions-nous pas d’attendrissement, même pour des malheurs imaginaires ?</p>
-        <p>Les muscles qui prêtent à notre physionomie l’expression de la satisfaction, de la joie, des plaisirs, ne sont-ils pas, au contraire, assez rarement mis en action ? Pourquoi ne chercherions-nous pas l’occasion de les faire mouvoir ? Pourquoi, permettez-moi l’expression, les laisserions-nous rouiller ?</p>
-        <p>Que peuvent donc avoir de coupable aux yeux de Dieu les pleurs que nous versons avec Andromaque, avec Iphigénie, et les sanglots que nous arrache le désespoir de Clytemnestre, quand sa fille, sa fille chérie, enlevée à ses embrassements, marche à l’autel pour y être sacrifiée à l’ambition de son père par la main d’un prêtre…</p>
-        <p>Que peut avoir de coupable aux yeux de la divinité <pb n="28"/>notre rire, à la brusquerie d’un tuteur justement trompé ; celui qu’excite le désespoir d’un avare qui se croit volé, se fouille lui-même, interroge tout ce qui l’entoure, et nous aussi spectateurs ? Et enfin, les éclats du gros rire que provoque le gros rire de la bonne Nicole ?</p>
-        <p>Cependant, mes chers auditeurs, ce sont ces nobles plaisirs, ces doux délassements, ces distractions qui satisfont notre esprit, notre intelligence ; ce sont, enfin, ces diverses émotions de peine ou de plaisirs que l’Eglise romaine frappe de toute sa réprobation.</p>
+        </quote>
+        <p>Les sentiments humains, mes frères que voilà ! Et cependant, c’est le langage que nous
+          avons entendu tenir à nos missionnaires, et voilà le résultat auquel ils voulaient
+          parvenir.</p>
+        <p>Avec quel art, quelle magie, tous les portraits sont présentés à nos regards par notre
+          inimitable auteur comique, quel contraste heureux il leur oppose, et comme tous les vices
+          et les travers sont livrés à notre risée.</p>
+        <p>Ce n’est point avec le fouet déchirant d’une censure directe et sévère qu’il nous attaque
+          dans nos mœurs corrompues ; mais avec l’arme plus terrible du ridicule : et d’après le
+          précepte d’un des législateurs du Parnasse, <quote>« c’est en riant qu’il châtie les
+            mœurs</quote><note resp="editor" place="bottom">[NDE] Traduction de la devise latine du
+            poète Jean-Baptiste Senteuil "Castigat ridendo mores",</note>. »</p>
+        <p>Ses successeurs ont eu encore un vaste champ à exploiter, et beaucoup y ont fait
+          d’heureuses récoltes, mais <pb n="27" xml:id="p27"/>à lui la palme, que personne ne songe,
+          sans doute, à lui disputer.</p>
+        <p>Ainsi, mes chers auditeurs, dans notre goût pour les spectacles, nous cherchons dans la
+          tragédie l’attendrissement, le trouble, la terreur même, en un mot de vives émotions
+          indépendamment de l’instruction, et dans la comédie, nous voulons trouver et de la gaîté
+          franche, et un rire pur et innocent, et encore d’utiles leçons.</p>
+        <p>Lorsque Dieu a soufflé sur le visage de notre premier père pour lui donner la vie,
+          n’a-t-il pas doué sa face des muscles qui expriment nos besoins, nos sentiments, nos
+          douleurs, nos affections, nos peines, et d’autres par lesquels nous manifestons notre
+          satisfaction, notre joie et nos plaisirs ?</p>
+        <p>La triste condition de l’humanité, les souffrances physiques, les chagrins moraux agitent
+          assez les premiers, nous font répandre assez de larmes véritables, assez de larmes amères.
+          Pourquoi n’en verserions-nous pas d’attendrissement, même pour des malheurs
+          imaginaires ?</p>
+        <p>Les muscles qui prêtent à notre physionomie l’expression de la satisfaction, de la joie,
+          des plaisirs, ne sont-ils pas, au contraire, assez rarement mis en action ? Pourquoi ne
+          chercherions-nous pas l’occasion de les faire mouvoir ? Pourquoi, permettez-moi
+          l’expression, les laisserions-nous rouiller ?</p>
+        <p>Que peuvent donc avoir de coupable aux yeux de Dieu les pleurs que nous versons avec
+          Andromaque, avec Iphigénie, et les sanglots que nous arrache le désespoir de Clytemnestre,
+          quand sa fille, sa fille chérie, enlevée à ses embrassements, marche à l’autel pour y être
+          sacrifiée à l’ambition de son père par la main d’un prêtre…</p>
+        <p>Que peut avoir de coupable aux yeux de la divinité <pb n="28" xml:id="p28"/>notre rire, à
+          la brusquerie d’un tuteur justement trompé ; celui qu’excite le désespoir d’un avare qui
+          se croit volé, se fouille lui-même, interroge tout ce qui l’entoure, et nous aussi
+          spectateurs ? Et enfin, les éclats du gros rire que provoque le gros rire de la bonne
+          Nicole ?</p>
+        <p>Cependant, mes chers auditeurs, ce sont ces nobles plaisirs, ces doux délassements, ces
+          distractions qui satisfont notre esprit, notre intelligence ; ce sont, enfin, ces diverses
+          émotions de peine ou de plaisirs que l’Eglise romaine frappe de toute sa réprobation.</p>
         <p>Les théâtres, si on veut l’en croire, ne sont que les Propylées de l’enfer.</p>
-        <p>Ses prêtres, s’ils le pouvaient, graveraient sur leur fronton la sentence que le Dante a inscrite sur la porte du Tartare :</p>
-        <p>« <quote>Laissez ici toute espérance</quote> » !</p>
-        <p>Cette réprobation enveloppe nécessairement les gouvernants qui les autorisent, les protègent ; les législateurs qui, pour assurer leur prospérité, votent des subventions en leur faveur ; les villes qui les admettent, les magistrats qui les surveillent ; les serviteurs, employés, machinistes, qui plus est les receveurs qui, cependant, ne franchissent pas le seuil de la porte.</p>
-        <p>Quant aux auteurs et à la foule des spectateurs, double anathème, malédiction ! Il semblerait que, ne se fiant point à la justice de Dieu, et se servant du pouvoir qu’ils prétendent avoir reçu de lier dans le ciel ce qu’ils ont lié sur la terre, les prêtres veuillent par leur malédiction anticipée, usurpatrice, paralyser, anéantir les effets de la miséricorde divine.</p>
+        <p>Ses prêtres, s’ils le pouvaient, graveraient sur leur fronton la sentence que le Dante a
+          inscrite sur la porte du Tartare :</p>
+        <p><quote>« Laissez ici toute espérance »</quote> !</p>
+        <p>Cette réprobation enveloppe nécessairement les gouvernants qui les autorisent, les
+          protègent ; les législateurs qui, pour assurer leur prospérité, votent des subventions en
+          leur faveur ; les villes qui les admettent, les magistrats qui les surveillent ; les
+          serviteurs, employés, machinistes, qui plus est les receveurs qui, cependant, ne
+          franchissent pas le seuil de la porte.</p>
+        <p>Quant aux auteurs et à la foule des spectateurs, double anathème, malédiction ! Il
+          semblerait que, ne se fiant point à la justice de Dieu, et se servant du pouvoir qu’ils
+          prétendent avoir reçu de lier dans le ciel ce qu’ils ont lié sur la terre, les prêtres
+          veuillent par leur malédiction anticipée, usurpatrice, paralyser, anéantir les effets de
+          la miséricorde divine.</p>
         <p>Que feraient de plus des envoyés de Satan chargés de recruter pour son empire ?…</p>
-        <p><pb n="29"/>Gouffres de l’enfer, élargissez-vous <seg>… …</seg> voici toute la population d’une grande cité qui s’y précipite !…</p>
+        <p><pb n="29" xml:id="p29"/>Gouffres de l’enfer, élargissez-vous <seg>… …</seg> voici toute
+          la population d’une grande cité qui s’y précipite !…</p>
         <p>Une statue colossale est élevée, inaugurée sur sa place publique :</p>
         <p>A qui ?</p>
         <p>A Pierre Corneille.</p>
         <p>A quel titre ?</p>
-        <p>« <quote>Comme au premier de nos poètes, au maître de notre langue poétique, au créateur de nos trois scènes, au père du théâtre</quote><note resp="editor" place="bottom"> [NDE] Référence à la statue de Corneille élevée à Rouen en 1834.</note> ! »</p>
+        <p><quote>« Comme au premier de nos poètes, au maître de notre langue poétique, au créateur
+            de nos trois scènes, au père du théâtre</quote><note resp="editor" place="bottom">[NDE]
+            Référence à la statue de Corneille élevée à Rouen en 1834.</note> ! »</p>
         <p>Cité maudite !……</p>
         <p>Et les interprètes de nos poètes dramatiques, les malheureux comédiens en un mot !</p>
-        <p>L’anathème les saisit d’avance sur la terre. Leurs corps sont repoussés des églises romaines, et ne trouveraient point place dans le champ du repos si les prêtres en étaient toujours les maîtres.</p>
-        <p>Mais le peuple reconnaissant envers eux intervient, il a ouvert les portes et prononcé les prières que les prêtres ont refusées.</p>
-        <p>Et toi, Talma, ton convoi tout profane, et pourtant si religieux, n’a été que la continuation des triomphes que tu as obtenus sur la scène ; les regrets, les vœux que tant de citoyens adressaient au Ciel, chacun à sa manière, ont bien valu auprès de Dieu les prières banales et dont chaque ligne est tarifiée, que les prêtres auraient, par métier, débitées sur ton cercueil.</p>
-        <p>Et encore aujourd’hui, quatre ans après 1830, tous nos artistes, hommes et femmes, tenant de près ou de loin à nos théâtres, ont été repoussés des églises romaines sous la juridiction d’un archevêque ; et pour adresser à Dieu leurs vœux en faveur d’un de nos premiers lyriques<note place="bottom" resp="author"> [NDA] Boïeldieu.</note>, <pb n="30"/>dont ils accompagnaient la triste et mortelle dépouille, ils n’ont pu trouver de temple que celui des Invalides. Mais là, ils ont rencontré du moins les débris de ces légions qui ont combattu pour la liberté, soumis le Vatican, et planté notre drapeau aux trois couleurs sur le château Saint-Ange et sur l’orgueilleuse coupole de Saint-Pierre.</p>
-        <p>Nous, toutes les fois que les voix de ces hommes et de ces femmes (comme ils les appellent) viennent religieusement, spontanément s’unir à nos cantiques, nous nous en félicitons, et nous croyons qu’accompagnés de leurs chants mélodieux, ces hymnes s’élèvent vers l’Eternel comme un encens plus agréable.</p>
-        <p>Et notre Molière !… (Il y a déjà loin de ces temps à notre époque) notre Molière, poète et comédien, descendant presque mourant de la scène, aurait appelé en vain un prêtre auprès de son fauteuil de mort. Sa cendre n’a pas trouvé un coin de terre pour y reposer. Mais dans ce moment suprême, deux de ces sœurs qui consacrent leur existence tout entière à l’humanité souffrante, ont soutenu son courage par les soins les plus doux, les consolations les plus tendres ; aussi, lorsque son âme s’est séparée de son corps, portée sur les soupirs, les vœux sincères, les prières ferventes de ces deux sœurs, de ces deux anges de charité, aura-t-elle été admise au sein du Dieu de miséricorde !</p>
+        <p>L’anathème les saisit d’avance sur la terre. Leurs corps sont repoussés des églises
+          romaines, et ne trouveraient point place dans le champ du repos si les prêtres en étaient
+          toujours les maîtres.</p>
+        <p>Mais le peuple reconnaissant envers eux intervient, il a ouvert les portes et prononcé
+          les prières que les prêtres ont refusées.</p>
+        <p>Et toi, Talma, ton convoi tout profane, et pourtant si religieux, n’a été que la
+          continuation des triomphes que tu as obtenus sur la scène ; les regrets, les vœux que tant
+          de citoyens adressaient au Ciel, chacun à sa manière, ont bien valu auprès de Dieu les
+          prières banales et dont chaque ligne est tarifiée, que les prêtres auraient, par métier,
+          débitées sur ton cercueil.</p>
+        <p>Et encore aujourd’hui, quatre ans après 1830, tous nos artistes, hommes et femmes, tenant
+          de près ou de loin à nos théâtres, ont été repoussés des églises romaines sous la
+          juridiction d’un archevêque ; et pour adresser à Dieu leurs vœux en faveur d’un de nos
+          premiers lyriques<note place="bottom" resp="author"> [NDA] Boïeldieu.</note>, <pb n="30"
+            xml:id="p30"/>dont ils accompagnaient la triste et mortelle dépouille, ils n’ont pu
+          trouver de temple que celui des Invalides. Mais là, ils ont rencontré du moins les débris
+          de ces légions qui ont combattu pour la liberté, soumis le Vatican, et planté notre
+          drapeau aux trois couleurs sur le château Saint-Ange et sur l’orgueilleuse coupole de
+          Saint-Pierre.</p>
+        <p>Nous, toutes les fois que les voix de ces hommes et de ces femmes (comme ils les
+          appellent) viennent religieusement, spontanément s’unir à nos cantiques, nous nous en
+          félicitons, et nous croyons qu’accompagnés de leurs chants mélodieux, ces hymnes s’élèvent
+          vers l’Eternel comme un encens plus agréable.</p>
+        <p>Et notre Molière !… (Il y a déjà loin de ces temps à notre époque) notre Molière, poète
+          et comédien, descendant presque mourant de la scène, aurait appelé en vain un prêtre
+          auprès de son fauteuil de mort. Sa cendre n’a pas trouvé un coin de terre pour y reposer.
+          Mais dans ce moment suprême, deux de ces sœurs qui consacrent leur existence tout entière
+          à l’humanité souffrante, ont soutenu son courage par les soins les plus doux, les
+          consolations les plus tendres ; aussi, lorsque son âme s’est séparée de son corps, portée
+          sur les soupirs, les vœux sincères, les prières ferventes de ces deux sœurs, de ces deux
+          anges de charité, aura-t-elle été admise au sein du Dieu de miséricorde !</p>
         <p>Eh ! pourquoi ce terrible anathème contre les spectacles ?</p>
-        <p>Parce que le Théâtre Français est le plus parfait de tous les théâtres, et que c’est aux chefs-d’œuvre de nos <pb n="31"/>poètes dramatiques que nous devons la propagation de notre langue dans tout l’univers.</p>
-        <p>C’est que, par suite de l’envahissement de cette langue si claire, si précise, et qui a obtenu le monopole de la diplomatie, les ouvrages de nos philosophes sont lus chez presque toutes les nations, et que les peuples y trouvent proclamés nos principes de liberté, d’égalité, et surtout le néant de la prétendue souveraineté du pontife de Rome.</p>
-        <p>Parce que les prêtres soumis à son<note resp="editor" place="bottom"> [NDE] Accord par le sens, chaque prêtre soumis à son souverain.</note> souverain étranger abdiquent volontairement leur qualité de Français, ne conservent point de famille parmi nous, n’ont point de patrie, quoique la patrie, qui voudrait les rappeler à elle, fasse pour eux d’assez grands sacrifices.</p>
-        <p>Parce qu’enfin, les scribes et les pharisiens de la Rome nouvelle se sont assis sur ce qu’ils appellent la chaire de saint Pierre, et ont établi le fardeau de leur domination sur les simples ministres des autels de Jésus-Christ.</p>
+        <p>Parce que le Théâtre Français est le plus parfait de tous les théâtres, et que c’est aux
+          chefs-d’œuvre de nos <pb n="31" xml:id="p31"/>poètes dramatiques que nous devons la
+          propagation de notre langue dans tout l’univers.</p>
+        <p>C’est que, par suite de l’envahissement de cette langue si claire, si précise, et qui a
+          obtenu le monopole de la diplomatie, les ouvrages de nos philosophes sont lus chez presque
+          toutes les nations, et que les peuples y trouvent proclamés nos principes de liberté,
+          d’égalité, et surtout le néant de la prétendue souveraineté du pontife de Rome.</p>
+        <p>Parce que les prêtres soumis à son<note resp="editor" place="bottom">[NDE] Accord par le
+            sens, chaque prêtre soumis à son souverain.</note> souverain étranger abdiquent
+          volontairement leur qualité de Français, ne conservent point de famille parmi nous, n’ont
+          point de patrie, quoique la patrie, qui voudrait les rappeler à elle, fasse pour eux
+          d’assez grands sacrifices.</p>
+        <p>Parce qu’enfin, les scribes et les pharisiens de la Rome nouvelle se sont assis sur ce
+          qu’ils appellent la chaire de saint Pierre, et ont établi le fardeau de leur domination
+          sur les simples ministres des autels de Jésus-Christ.</p>
         <p>Chrétiens réunis dans ce temple, écoutez, c’est la parole de Dieu !</p>
-        <p>« <quote>Alors Jésus parla au peuple et à ses disciples, en leur disant :</quote></p>
-        <p>« <quote>Les scribes et les pharisiens se sont assis sur la chaire de Moïse.</quote> »</p>
-        <p>« <quote/>Ils lient des fardeaux pesants et insupportables, et les mettent sur les épaules des hommes, et ils ne veulent pas les remuer du bout du doigt. »</p>
-        <p>« <quote/>Ils aiment les premières places dans les festins, et les premières chaires dans les synagogues. »</p>
-        <p>« <quote/>Ils aiment qu’on les salue dans les places publiques, et que les hommes les appellent <hi rend="i">rabbin</hi> ou docteurs. »</p>
-        <p>« <quote/>Mais malheur à vous, scribes et pharisiens hypocrites, parce que vous fermez aux hommes le royaume <pb n="32"/>des cieux ; car vous n’y entrez pas vous-mêmes, et vous vous opposez encore à ceux qui désirent d’y entrer. »</p>
-        <p>« <quote/>Malheur à vous, scribes et pharisiens hypocrites parce que, sous prétexte de vos longues prières, vous dévorez les maisons des veuves : c’est pour cela que vous recevrez un jugement plus rigoureux<note place="bottom"> [NDA] Saint Mathieu, ch. <hi rend="sc">xxiii</hi>, vv. 1, 2, 4, 6, 7, 13, 14.</note>. »</p>
-        <p>« Malheur enfin à vous, scribes et pharisiens hypocrites, parce que vous courez la mer et la terre pour faire un prosélyte, et, après qu’il l’est devenu, vous le rendez digne de l’enfer deux fois plus que vous !.…<note place="bottom" resp="author"> [NDA] Saint Mathieu, ch. <hi rend="sc">xxiii</hi>, v. 15.</note> »</p>
-        <p>Mais, ô mon Dieu ! comme il n’est pas dans notre cœur de repousser l’anathème par l’anathème, nous vous supplions d’arrêter les effets de ces menaces que votre divin Fils adresse aux faux interprètes de sa loi, et encore de celles qui terminent cette terrible allocution.</p>
-        <p>Nous vous supplions d’ouvrir leurs yeux à la véritable lumière, afin qu’ils reconnaissent que votre morale s’adresse aux hommes vivant en société, et non à l’homme s’isolant de la société à laquelle il appartient, afin qu’ils ne proscrivent plus les distractions, les plaisirs qui apportent quelque soulagement à leurs maux.</p>
-        <p>Etouffez, ô mon Dieu, dans le cœur de vos ministres, cet esprit de domination, de fanatisme et d’intolérance qui les anime, les agite !</p>
+        <p><quote>« Alors Jésus parla au peuple et à ses disciples, en leur disant :</quote></p>
+        <p><quote>« Les scribes et les pharisiens se sont assis sur la chaire de
+          Moïse. »</quote></p>
+        <p><quote>« Ils lient des fardeaux pesants et insupportables, et les mettent sur les
+          épaules des hommes, et ils ne veulent pas les remuer du bout du doigt. »</quote></p>
+        <p><quote>« Ils aiment les premières places dans les festins, et les premières chaires dans
+          les synagogues. »</quote></p>
+        <p><quote>« Ils aiment qu’on les salue dans les places publiques, et que les hommes les
+          appellent <hi rend="i">rabbin</hi> ou docteurs. »</quote></p>
+        <p><quote>« Mais malheur à vous, scribes et pharisiens hypocrites, parce que vous fermez
+          aux hommes le royaume <pb n="32" xml:id="p32"/>des cieux ; car vous n’y entrez pas
+          vous-mêmes, et vous vous opposez encore à ceux qui désirent d’y entrer. »</quote></p>
+        <p>« Malheur à vous, scribes et pharisiens hypocrites parce que, sous prétexte de
+          vos longues prières, vous dévorez les maisons des veuves : c’est pour cela que vous
+          recevrez un jugement plus rigoureux<note place="bottom"> [NDA] Saint Mathieu, ch. <hi
+              rend="sc">xxiii</hi>, vv. 1, 2, 4, 6, 7, 13, 14.</note>. »</p>
+        <p>« Malheur enfin à vous, scribes et pharisiens hypocrites, parce que vous courez la mer et
+          la terre pour faire un prosélyte, et, après qu’il l’est devenu, vous le rendez digne de
+          l’enfer deux fois plus que vous !.…<note place="bottom" resp="author"> [NDA] Saint
+            Mathieu, ch. <hi rend="sc">xxiii</hi>, v. 15.</note> »</p>
+        <p>Mais, ô mon Dieu ! comme il n’est pas dans notre cœur de repousser l’anathème par
+          l’anathème, nous vous supplions d’arrêter les effets de ces menaces que votre divin Fils
+          adresse aux faux interprètes de sa loi, et encore de celles qui terminent cette terrible
+          allocution.</p>
+        <p>Nous vous supplions d’ouvrir leurs yeux à la véritable lumière, afin qu’ils reconnaissent
+          que votre morale s’adresse aux hommes vivant en société, et non à l’homme s’isolant de la
+          société à laquelle il appartient, afin qu’ils ne proscrivent plus les distractions, les
+          plaisirs qui apportent quelque soulagement à leurs maux.</p>
+        <p>Etouffez, ô mon Dieu, dans le cœur de vos ministres, cet esprit de domination, de
+          fanatisme et d’intolérance qui les anime, les agite !</p>
         <p>Faites qu’ils répètent avec nous ces paroles si consolantes de votre Fils :</p>
-        <p>« <quote>Venez à moi, vous tous qui êtes fatigués et qui êtes chargés, et je vous soulagerai<note resp="editor" place="bottom"> [NDE] Mathieu 11:28.</note>.</quote> »</p>
-        <p>Faites enfin, ô mon Dieu, que ma voix, répondant à <pb n="33"/>mon zèle, puisse franchir l’étroite enceinte où je vous invoque, et que tous les chrétiens répètent encore avec moi :</p>
+        <p><quote>« Venez à moi, vous tous qui êtes fatigués et qui êtes chargés, et je vous
+              soulagerai<note resp="editor" place="bottom">[NDE] Mathieu
+          11:28.</note>. »</quote></p>
+        <p>Faites enfin, ô mon Dieu, que ma voix, répondant à <pb n="33" xml:id="p33"/>mon zèle,
+          puisse franchir l’étroite enceinte où je vous invoque, et que tous les chrétiens répètent
+          encore avec moi :</p>
         <quote>
           <p rend="center"><hi rend="sc">evangile</hi></p>
           <p rend="center"><hi rend="sc">bonne nouvelle !</hi></p>
-          <p rend="center"><hi rend="sc">Evangile</hi> de consolation, d’espérance <seg>… …</seg></p>
+          <p rend="center"><hi rend="sc">Evangile</hi> de consolation, d’espérance <seg>…
+            …</seg></p>
           <p rend="center"><hi rend="sc">evangile</hi></p>
           <p><hi rend="i">Dont le joug est doux et le fardeau léger.</hi></p>
           <p>Ainsi soit-il.</p>
         </quote>
       </div>
-      </body>
-    </text>
-  </TEI>
+    </body>
+  </text>
+</TEI>

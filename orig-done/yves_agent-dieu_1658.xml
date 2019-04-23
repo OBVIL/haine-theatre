@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yves_agent-dieu_1658" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>L’agent de Dieu dans le monde</title>
-        <author key="Yves de Paris (capucin ; 1588-1678)"
-          ref="https://data.bnf.fr/fr/12180974/yves_de_paris/">Yves de Paris</author>
+        <author>Yves de Paris</author>R.P. Yves de Paris
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -19,38 +18,30 @@
           <name>Clotilde Thouret</name>
           <resp>Responsable d’édition</resp>
         </respStmt>
-        <respStmt>
-          <name>Nolwenn Chevalier</name>
-          <resp>Édition XML</resp>
-        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2017"/>
-        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/yves_agent-dieu_1658/</idno>
+        <idno>obvil.paris-sorbone.fr/corpus/haine-theatre/yves_agent-dieu_1658</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
-              « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
-            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
-              les bases de données (L341-1) est mise à disposition de la communauté scientifique
-              internationale par l’OBVIL, selon les termes de la licence Creative Commons : «
-              Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC
-              BY-NC-ND 3.0 FR) ».</p>
-            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
-              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
-              Internet de la ressource.</p>
-            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
-              utilisation commerciale est interdite.</p>
-            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
-              électronique, notamment en intégrant toutes les contributions extérieures. La
-              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Yves de Paris, <hi rend="i">L’agent de Dieu dans le monde</hi>, <pubPlace>Paris</pubPlace>, <publisher>Denis Thierry</publisher>, <biblScope>p.
-            486-494</biblScope>, 1658</bibl>
+        <bibl>
+          <author>Yves de Paris</author>
+          <title>L’agent de Dieu dans le monde</title>
+          <pubPlace>Paris</pubPlace>
+            <publisher>Denis Thierry</publisher>
+          <biblScope>p. 486-494</biblScope>
+          <date>1658</date>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -58,164 +49,26 @@
         <date when="1658"/>
       </creation>
       <langUsage>
-        <language ident="fre"/>
+        <language ident="fr"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <div>
+      <div type="texte" xml:id="HDT_9">
         <head>L’agent de Dieu dans le monde</head>
-        <div type="chapter">
-          <pb n="486" xml:id="p486"/><head><hi rend="i">Des Theatres &amp; des Romans.</hi><lb/>CHAPITRE
-            XVIIII.</head>
-          <p>Le temps est tout ensemble &amp; trop lent &amp; trop viste pour l’amour que les hommes
-            portent aux affaires de ce monde, car il n’en donne la joüissance, qu’apres beaucoup de
-            remises, &amp; puis il la reduit bien tost au rang des choses passées. On a trouué l’art
-            d’adjuster aux desirs humains, ces deux mouuemens qui semblent contraires &amp; en deux
-            heures representer aux yeux sur les theatres, toutes les grandes actions auec les
-            aduantures d’vne longue &amp; celebre vie ; comme si elles estoient presentes.</p>
-          <p>Ces expressions où l’on employe les deux sens plus familiers de l’esprit, où la parole est animée de l’exemple, où l’on void ce qu’elle enseigne
-            seroient extremement efficaces pour porter les hommes à la vertu, &amp; les theatres
-            feroient en cela plus que les predications, si l’on n’y representoit, comme autres fois,
-            que les choses saintes. Mais parce que l’acteur a pour dessein principal d’exciter les
-            passions ; de tous les sujets il choisit ceux où <pb n="487" xml:id="p487"/>elles se portent le plus,
-            il passe ainsi pour fort adroit à mouuoir les cœurs en leur representant ce qu’ils
-            ayment, comme à nostre façon de parler, c’est faire du feu, qu’y mettre du bois, &amp;
-            c’est donner cours à l’eau, de luy preparer vne pente.</p>
-          <p>Tous les hommes ont naturellement l’ambition de regner ; c’est le grand suiet qui fait
-            le plus de bruit dans le monde, qui tient les peuples en allarme, qui occupe le conseil
-            des Princes, qui cause les guerres &amp; les alliances, enfin l’on rapporte toutes
-            choses à cette gloire, comme si s’estoit le souuerain bien. Aussi pour gagner les
-            attentions on represente sur les theatres vn Heros auec toutes les belles qualitez qui
-            sont les presages des grandes fortunes, en suitte on en fait vn conquerant qui se iette
-            dans les combats, qui s’absuietit les Princes &amp; les peuples par le sort des armes,
-            &amp; par les adresses de la police, sans autre droict que la force. Cependant on luy
-            decerne des triomphes, on n’approuue pas seulement, mais on deifie ces violences qui ont
-            versé tant de sang, &amp; ce Demon exterminateur du genre humain, est consideré comme vn
-            homme miraculeux choisy de Dieu, pour en tenir le gouuernement. Vn politique vsurpateur,
-            se plaist en ces feintes, qui expriment sa conduite au naturel, qui la iustifient par vn
-            applaudissement public ; ce que les autres prennent pour vn diuertissement luy est vne
-            estude, vn secret conseil, où il corrige, retranche, adioute beaucoup de choses par les
-            promptes ouuertures de l’esprit, &amp; ayant veu le dernier point où peut porter
-            l’authorité <pb n="488" xml:id="p488"/>dominante, il croit faire vne grande misericorde de n’aller pas
-            à toutes les extremitez. Là se debitent les impitoyables maximes des tyrans, confirmées
-            par des exemples qui donnent de l’audace aux moins resolus, auec esperance que la nature
-            des choses n’estant point changée, on peut encore, auiourd’huy faire ce qui s’est fait
-            autres fois. N’est ce pas authoriser les fourbes &amp; les violences, dresser encore des
-            Autels à Mars, &amp; luy offrir le sang humain en sacrifice auec des chants
-            d’allegresse ; N’est ce pas eluder toutes les clameurs du peuple &amp; des consciences,
-            de faire vn spectacle d’honneur &amp; de ioye des crimes publics ? La Religion
-            Chrestienne a beau persuader la paix entre les peuples, la clemence au gouuernement,
-            l’vsage moderé des choses exterieures sans s’y corrompre ; le theatre met au contraire
-            le souuerain bien de la vie, à s’esleuer sur les ruines des peuples, à remporter des
-            victoires, sans auoir égard à la justice des armes, à iuger des entreprises par
-            l’euenement, à tenir les sceptres moins du Ciel que de l’audace &amp; de la fortune.</p>
-          <p>Quand le dessein principal seroit de condamner la tyrannie, en faisant voir ses progrez
-            tousiours orageux, &amp; sa fin ordinairement miserable, ces noires pratiques salissent tousiours l’esprit des assistances ; elles y laissent
-            les idées d’vn mal, dont la passion se peut seruir en mille rencontres, &amp; qu’il
-            estoit meilleur d’ignorent. On void mesme des hommes possedez d’vne ambition si
-            furieuse, qu’ils tenteront tous les moyens possibles quoy qu’abominables <pb n="489" xml:id="p489"/>en
-            meschanceté pour monter au feste de la grandeur, quand ils seroient asseures d’en
-            descendre par le precipice ; ils ne se soucient pas comment la vie se termine, pourueu
-            qu’elle se passe dans l’esclat, car ils n’y voyent rien pire que la mort qui la finit.
-            Quand les peuples considerent ces celebres iniquitez qui ont violé la foy diuine &amp;
-            humaine pour l’accomplissement d’vn dessein, les pechés de la vie commune en comparaison
-            de cela ne leur paroissent plus que des atomes, leur conscience s’y tient asseurée,
-            &amp; sans en conceuoir des remords, elle se croyt assez juste de n’estre point si
-            meschante.</p>
-          <p>L’amour est vne autre passion, la plus viue, la plus vniuerselle dans tous les cœurs,
-            &amp; dont chacun fait gloire, d’estre possedé par excellence. aussi le theatre en fait, ou son suiet principal, ou l’intermede qui donne de
-            l’agrement &amp; de l’attention à toute la piece. Il represente tousiours son heros, son
-            inuincible deuenu l’esclaue de quelque beauté, &amp; parce que la vaillance gaigne plus
-            l’admiration de ce sexe infirme, pour reussir en les recherches ; le plus puissant
-            moyen, c’est de rendre plusieurs combats. Là l’on fait la representation de toutes les
-            secrettes pratiques, des feintes, des adresses, des confidences qui trompent des yeux
-            jaloux ; &amp; la passion qui eschappe à tous les liens, des loix, de la conscience, de
-            l’honneur, qui l’emporte sur l’amour des freres, &amp; le respect des parens, est
-            hautement loüée, comme vne genereuse fidelité. Faut il corrompre l’innocence <pb n="490" xml:id="p490"/>par ces mauuaises impressions ? haster ces transports inconsiderés de la nature qui
-            viennent tousiours trop tost troubler les tranquillitez de la vie ? pourquoy ietter de
-            l’huille dans vn feu déja trop ardent, &amp; que toutes les loix tâchent de temperer ?
-            pourquoy mener la jeunesse à cette escole d’incontinence, où elle n’apprend qu’a perdre
-            la pudeur, la honte &amp; la chasteté.</p>
-          <p>On dit que les theatres sont auiourd’huy si reformez, qu’on n’y represente rien de
-            l’assif. Mais cette courtoisie, cet art d’aymer qui en apparence n’a rien que d’honneste, ne laisse pas de porter à la des-honnesteté,
-            comme la main qui pousse quelqu’vn sur le premier pas du precipice, l’y iette quoy
-            qu’elle ne le conduise pas iusques au fonds. Ce n’est pas vn amour purement brutal &amp;
-            sensible, qui fait les grands desordres dans le monde ; c’est cét autre amour qui tient
-            de l’esprit, qui se repaist de ses idées ; qui ne veut pour prix que des complaisances,
-            qui se figure quelque choses de diuin en son obiet, &amp; qui luy croyt aussi rendre des
-            respects forts innocens ; c’est cet amour qui met les soupirs au cœur, les larmes aux
-            yeux, la pasleur sur le visage, qui occupe iour &amp; nuit
-            toutes les pensées, qui porte l’extrauagance &amp; à la fureur, &amp; voila l’amour que
-            les plus chastes theatres mettent dans les cœurs Vous estonnez vous, si vos enfans
-            pechent contre ce qu’ils vous doiuent de respect, s’ils des honnorent vos familles par
-            des mariages desaduantageux, &amp; par quelque choses de pis, quand vous les menez vous
-              <pb n="491" xml:id="p491"/>mesme à cette leçon publique de desordres ? ce n’est pas merueille s’ils
-            en retiennent quelque chose, s’ils se laissent aller à vne desobeissance, qu’vne voix
-            commune fait passer pour vne inuincible fidelité, s’ils sont emportez par cette foule ;
-            s’ils tombent estant tirés &amp; poussés dans vn chemin si glissant.</p>
-          <p>Ie ne dits rien de la farse, dont le suiet, les gestes, les paroles, les rencontres
-            sont tousiours dans vne effrontée lasciueté ; où les prostitutions, les rapts, les
-            adulteres, ces crimes qui noircissent les maisons, qui perdent les ames, &amp; offensent
-            Dieu, passent pour des gentillesses, enfin où l’on péche par les yeux &amp; par les
-            affections de tout vn peuple. C’est ce qui rend les commedies infames par les loix,
-            &amp; neantmoins si celebres, par la coustume qu’elles ont les puissances &amp; les
-            iuges de la terre pour auditeurs, qu’elles sont à leur gage &amp; sous leur protection.
-            Nous ne sçaurions plus douter que la foy Chrestienne ne soit extremement foible dans les
-            cœurs, puis qu’on authorise auec tant de pompe, les passions &amp; les desordres qu’elle
-            condamne.</p>
-          <p>On doit iuger le mesme des Romans qui rapportent les merueilleuses inuentions de
-            l’amour en ses recherches, ses combats, ses auantures qui renuersent &amp; puis
-            restablissent les esperances, par des rencontres prodigieuses qu’on ne peut lire sans
-            admiration &amp; sans plaisir. Il est vray que ces histoires estant mortes touchant
-            d’abord beaucoup moins, que celles que la voix, l’action, l’habit, les mouuemens des
-            personnages animent dessus <pb n="492" xml:id="p492"/>les theatres. Neantmoins ces relations peuuent
-            estre beaucoup plus nuisibles, parce qu’on les lit, qu’on les retaste, qu’on les medite
-            à loisir, le Roman est vne comedie perpetuelle, pour les esprits qui ayment cet
-            entretien.</p>
-          <p>C’est dites vous, vn plaisir d’y voir les passions naïfuement bien representées, ce
-            plaisir vient de la sympathie &amp; du rapport qui est entre les secrets mouuemens de
-            vostre cœur, &amp; ceux de ces personnages où vous vous voyez comme dans vn miroir, Il
-            semble mesme qu’ils soient les obiets, &amp; que vous en representiez les especes, car
-            vous pleurez auec eux dans les disgraces, vous combattez, vous surmontez, vous joüissez
-            auec eux : les craintes, les esperances, les joyes vous sont communes ; vous estes
-            d’esprit &amp; d’affection dans tous leurs accidents. Ce n’est pas la seulement auoir de
-            l’amour par vne surprise d’inclination, c’est aymer son amour, c’est l’agréer, c’est s’y
-            complaire, par vn iugement rassis &amp; reflechy, c’est accroistre ses passions par
-            celles des autres ; c’est par la vanité de ces entretiens, nourrir des feux qu’on deuoit
-            esteindre par des larmes des penitence.</p>
-          <p>Ne dites point des Romans, comme des theatres, que les discours y sont honestes, &amp;
-            qu’il ne s’y rencontre aucune parole lasciue ; car ces discours ne laissent pas de
-            porter l’impureté dans le cœur ; ce sont des brulots qui les
-            enflamment, sous pretexte de les venir soulager. Ces personnes infames qui font mestier
-            de corrompre le chasteté, n’ont rien en leur bouche, ny en
-            leurs actions, <pb n="493" xml:id="p493"/>qui iette la honte sur le visage, ce ne sont que ciuilités,
-            que courtoisies, que protestation de fidelité, car leur dessein principal est de gaigner
-            doucement le cœur d’où despend tout ce qu’ils pretendent. Aussi la loy punit ces
-            attraits comme vn rapt,<note resp="author" place="margin"><p>L. vui. cod. de rap.
-                virg.</p></note> &amp; comme vne violence sur des esprits trop foibles pour n’en
-            estre pas emportés. Mais qui en fera les plaintes, qui en poursuiuera la justice, puis
-            que les parens mesme donnent ouuerture à cette prostitution, quand ils permettent que
-            les Romans soient entre les mains de leurs filles ? ils mettent le feu à la paille,
-            pourquoy s’estonner si elle brusle ; La justice s’arme a fin de punir les autheurs &amp;
-            les complices d’vn enleuement qui blesse l’honneur de quelque illustre famille, elle
-            poursuit auec rigueur &amp; auec toutes les notes d’infamie
-            ces ames perduës qui corrompent la pudicité des autres ; Neantmoins on permet que les
-            Romans qui sont des bouches tousiours ouuertes à persuader le mal, ayent libre entrée
-            dans les maisons, dans les cabinets pour y débaucher tous les esprits, pour leur
-            inspirer des affections illicites, auec les moyens d’y reüssir ; on punit le corrupteur
-            d’vne chasteté particuliere, cependant on tolere, l’on agrée, on loüe ces meschants
-            liures qui sont les professeurs publics d’vne passion, dont la fin est l’incontinence,
-            le peché, le des-honneur, le desordre des familles &amp; des Estats. C’est vn grand
-            reproche à la France si Chrestienne de voir que ces meschants liures, ces corrupteurs de
-            jeunesse s’y debitent sous l’authorité d’vn priuilege. Dieu
-            s’offense, <pb n="494" xml:id="p494"/>que la Maiesté du Roy, qui est son image, soit prophanée iusques
-            à la faite seruir à cet infame ministere. Il demande que les Magistrats s’opposent à
-            cela &amp; au commerce de semblables pieces, beaucoup plus que des poisons puis qu’elles
-            infectent les sources de la vie ciuile, qu’elles estouffent
-            l’amour de la vertu, qu’elle font vn jeu des crimes, &amp; qu’elles portent efficacement
-            les hommes à tout ce que les loix diuines &amp; humaines leur deffendent.</p>
+        <div type="chapitre" xml:id="CH_9_1">
+          <head><pb n="486"/><hi rend="i">Des Theatres &amp; des Romans.</hi><lb/>CHAPITRE XVIIII.</head>
+          <p>Le temps est tout ensemble &amp; trop lent &amp; trop viste pour l’amour que les hommes portent aux affaires de ce monde, car il n’en donne la joüissance, qu’apres beaucoup de remises, &amp; puis il la reduit bien tost au rang des choses passées. On a trouué l’art d’adjuster aux desirs humains, ces deux mouuemens qui semblent contraires &amp; en deux heures representer aux yeux sur les theatres, toutes les grandes actions auec les aduantures d’vne longue &amp; celebre vie ; comme si elles estoient presentes.</p>
+          <p>Ces expressions où l’on employe les deux sens plus familiers de l’esprit, où la <seg resp="wordpro">parole</seg> est animée de l’exemple, où l’on void ce qu’elle enseigne seroient extremement efficaces pour porter les hommes à la vertu, &amp; les theatres feroient en cela plus que les predications, si l’on n’y representoit, comme autres fois, que les choses saintes. Mais parce que l’acteur a pour dessein principal d’exciter les passions ; de tous les sujets il choisit ceux où <pb n="487"/>elles se portent le plus, il passe ainsi pour fort adroit à mouuoir les cœurs en leur representant ce qu’ils ayment, comme à nostre façon de parler, c’est faire du feu, qu’y mettre du bois, &amp; c’est donner cours à l’eau, de luy preparer vne pente.</p>
+          <p>Tous les hommes ont naturellement l’ambition de regner ; c’est le grand suiet qui fait le plus de bruit dans le monde, qui tient les peuples en allarme, qui occupe le conseil des Princes, qui cause les guerres &amp; les alliances, enfin l’on rapporte toutes choses à cette gloire, comme si s’estoit le souuerain bien. Aussi pour gagner les attentions on represente sur les theatres vn Heros auec toutes les belles qualitez qui sont les presages des grandes fortunes, en suitte on en fait vn conquerant qui se iette dans les combats, qui s’absuietit les Princes &amp; les peuples par le sort des armes, &amp; par les adresses de la police, sans autre droict que la force. Cependant on luy decerne des triomphes, on n’approuue pas seulement, mais on deifie ces violences qui ont versé tant de sang, &amp; ce Demon exterminateur du genre humain, est consideré comme vn homme miraculeux choisy de Dieu, pour en tenir le gouuernement. Vn politique vsurpateur, se plaist en ces feintes, qui expriment sa conduite au naturel, qui la iustifient par vn applaudissement public ; ce que les autres prennent pour vn diuertissement luy est vne estude, vn secret conseil, où il corrige, retranche, adioute beaucoup de choses par les promptes ouuertures de l’esprit, &amp; ayant veu le dernier point où peut porter l’authorité <pb n="488"/>dominante, il croit faire vne grande misericorde de n’aller pas à toutes les extremitez. Là se debitent les impitoyables maximes des tyrans, confirmées par des exemples qui donnent de l’audace aux moins resolus, auec esperance que la nature des choses n’estant point changée, on peut encore, auiourd’huy faire ce qui s’est fait autres fois. N’est ce pas authoriser les fourbes &amp; les violences, dresser encore des Autels à Mars, &amp; luy offrir le sang humain en sacrifice auec des chants d’allegresse ; N’est ce pas eluder toutes les clameurs du peuple &amp; des consciences, de faire vn spectacle d’honneur &amp; de ioye des crimes publics ? La Religion Chrestienne a beau persuader la paix entre les peuples, la clemence au gouuernement, l’vsage moderé des choses exterieures sans s’y corrompre ; le theatre met au contraire le souuerain bien de la vie, à s’esleuer sur les ruines des peuples, à remporter des victoires, sans auoir égard à la justice des armes, à iuger des entreprises par l’euenement, à tenir les sceptres moins du Ciel que de l’audace &amp; de la fortune.</p>
+          <p>Quand le dessein principal seroit de condamner la tyrannie, en faisant voir ses progrez tousiours orageux, &amp; sa fin ordinairement miserable, ces noires pratiques <seg resp="wordpro">salissent tousiours</seg> l’esprit des assistances ; elles y laissent les idées d’vn mal, dont la passion se peut seruir en mille rencontres, &amp; qu’il estoit meilleur d’ignorent. On void mesme des hommes possedez d’vne ambition si furieuse, qu’ils tenteront tous les moyens possibles quoy qu’abominables <pb n="489"/>en meschanceté pour monter au feste de la grandeur, quand ils seroient asseures d’en descendre par le precipice ; ils ne se soucient pas comment la vie se termine, pourueu qu’elle se passe dans l’esclat, car ils n’y voyent rien pire que la mort qui la finit. Quand les peuples considerent ces celebres iniquitez qui ont violé la foy diuine &amp; humaine pour l’accomplissement d’vn dessein, les pechés de la vie commune en comparaison de cela ne leur paroissent plus que des atomes, leur conscience s’y tient asseurée, &amp; sans en conceuoir des remords, elle se croyt assez juste de n’estre point si meschante.</p>
+          <p>L’amour est vne autre passion, la plus viue, la plus vniuerselle dans tous les cœurs, &amp; dont chacun fait gloire, d’estre possedé par excellence. <seg resp="wordpro">aussi</seg> le theatre en fait, ou son suiet principal, ou l’intermede qui donne de l’agrement &amp; de l’attention à toute la piece. Il represente tousiours son heros, son inuincible deuenu l’esclaue de quelque beauté, &amp; parce que la vaillance gaigne plus l’admiration de ce sexe infirme, pour reussir en les recherches ; le plus puissant moyen, c’est de rendre plusieurs combats. Là l’on fait la representation de toutes les secrettes pratiques, des feintes, des adresses, des confidences qui trompent des yeux jaloux ; &amp; la passion qui eschappe à tous les liens, des loix, de la conscience, de l’honneur, qui l’emporte sur l’amour des freres, &amp; le respect des parens, est hautement loüée, comme vne genereuse fidelité. Faut il corrompre l’innocence <pb n="490"/>par ces mauuaises impressions ? haster ces transports inconsiderés de la nature qui viennent tousiours trop tost troubler les tranquillitez de la vie ? pourquoy ietter de l’huille dans vn feu déja trop ardent, &amp; que toutes les loix tâchent de temperer ? pourquoy mener la jeunesse à cette escole d’incontinence, où elle n’apprend qu’a perdre la pudeur, la honte &amp; la chasteté.</p>
+          <p>On dit que les theatres sont auiourd’huy si reformez, qu’on n’y represente rien de l’assif. Mais cette courtoisie, cet art d’aymer qui en <seg resp="wordpro">apparence</seg> n’a rien que d’honneste, ne laisse pas de porter à la des-honnesteté, comme la main qui pousse quelqu’vn sur le premier pas du precipice, l’y iette quoy qu’elle ne le conduise pas iusques au fonds. Ce n’est pas vn amour purement brutal &amp; sensible, qui fait les grands desordres dans le monde ; c’est cét autre amour qui tient de l’esprit, qui se repaist de ses idées ; qui ne veut pour prix que des complaisances, qui se figure quelque choses de diuin en son obiet, &amp; qui luy croyt aussi rendre des respects forts innocens ; c’est cet amour qui met les soupirs au cœur, les larmes aux yeux, la <seg resp="wordpro">pasleur</seg> sur le visage, qui occupe iour &amp; nuit toutes les pensées, qui porte l’extrauagance &amp; à la fureur, &amp; voila l’amour que les plus chastes theatres mettent dans les cœurs Vous estonnez vous, si vos enfans pechent contre ce qu’ils vous doiuent de respect, s’ils des honnorent vos familles par des mariages desaduantageux, &amp; par quelque choses de pis, quand vous les menez vous <pb n="491"/>mesme à cette leçon publique de desordres ? ce n’est pas merueille s’ils en retiennent quelque chose, s’ils se laissent aller à vne desobeissance, qu’vne voix commune fait passer pour vne inuincible fidelité, s’ils sont emportez par cette foule ; s’ils tombent estant tirés &amp; poussés dans vn chemin si glissant.</p>
+          <p>Ie ne dits rien de la farse, dont le suiet, les gestes, les paroles, les rencontres sont tousiours dans vne effrontée lasciueté ; où les prostitutions, les rapts, les adulteres, ces crimes qui noircissent les maisons, qui perdent les ames, &amp; offensent Dieu, passent pour des gentillesses, enfin où l’on péche par les yeux &amp; par les affections de tout vn peuple. C’est ce qui rend les commedies infames par les loix, &amp; neantmoins si celebres, par la coustume qu’elles ont les puissances &amp; les iuges de la terre pour auditeurs, qu’elles sont à leur gage &amp; sous leur protection. Nous ne sçaurions plus douter que la foy Chrestienne ne soit extremement foible dans les cœurs, puis qu’on authorise auec tant de pompe, les passions &amp; les desordres qu’elle condamne.</p>
+          <p>On doit iuger le mesme des Romans qui rapportent les merueilleuses inuentions de l’amour en ses recherches, ses combats, ses auantures qui renuersent &amp; puis restablissent les esperances, par des rencontres prodigieuses qu’on ne peut lire sans admiration &amp; sans plaisir. Il est vray que ces histoires estant mortes touchant d’abord beaucoup moins, que celles que la voix, l’action, l’habit, les mouuemens des personnages animent dessus <pb n="492"/>les theatres. Neantmoins ces relations peuuent estre beaucoup plus nuisibles, parce qu’on les lit, qu’on les retaste, qu’on les medite à loisir, le Roman est vne comedie perpetuelle, pour les esprits qui ayment cet entretien.</p>
+          <p>C’est dites vous, vn plaisir d’y voir les passions naïfuement bien representées, ce plaisir vient de la sympathie &amp; du rapport qui est entre les secrets mouuemens de vostre cœur, &amp; ceux de ces personnages où vous vous voyez comme dans vn miroir, Il semble mesme qu’ils soient les obiets, &amp; que vous en representiez les especes, car vous pleurez auec eux dans les disgraces, vous combattez, vous surmontez, vous joüissez auec eux : les craintes, les esperances, les joyes vous sont communes ; vous estes d’esprit &amp; d’affection dans tous leurs accidents. Ce n’est pas la seulement auoir de l’amour par vne surprise d’inclination, c’est aymer son amour, c’est l’agréer, c’est s’y complaire, par vn iugement rassis &amp; reflechy, c’est accroistre ses passions par celles des autres ; c’est par la vanité de ces entretiens, nourrir des feux qu’on deuoit esteindre par des larmes des penitence.</p>
+          <p>Ne dites point des Romans, comme des theatres, que les discours y sont honestes, &amp; qu’il ne s’y rencontre aucune parole lasciue ; car ces discours ne laissent pas de porter l’impureté dans le cœur ; ce sont des <seg resp="wordpro">brulots</seg> qui les enflamment, sous pretexte de les venir soulager. Ces personnes infames qui font mestier de <seg resp="wordpro">corrompre</seg> le chasteté, n’ont rien en leur bouche, ny en leurs actions, <pb n="493"/>qui iette la honte sur le visage, ce ne sont que ciuilités, que courtoisies, que protestation de fidelité, car leur dessein principal est de gaigner doucement le cœur d’où despend tout ce qu’ils pretendent. Aussi la loy punit ces attraits comme vn rapt,<note resp="author" place="margin"><p>L. vui. cod. de rap. virg.</p></note> &amp; comme vne violence sur des esprits trop foibles pour n’en estre pas emportés. Mais qui en fera les plaintes, qui en poursuiuera la justice, puis que les parens mesme donnent ouuerture à cette prostitution, quand ils permettent que les Romans soient entre les mains de leurs filles ? ils mettent le feu à la paille, pourquoy s’estonner si elle brusle ; La justice s’arme a fin de punir les autheurs &amp; les complices d’vn enleuement qui blesse l’honneur de quelque illustre famille, elle poursuit auec rigueur &amp; auec toutes les <seg resp="wordpro">notes</seg> d’infamie ces ames perduës qui corrompent la pudicité des autres ; Neantmoins on permet que les Romans qui sont des bouches tousiours ouuertes à persuader le mal, ayent libre entrée dans les maisons, dans les cabinets pour y débaucher tous les esprits, pour leur inspirer des affections illicites, auec les moyens d’y reüssir ; on punit le corrupteur d’vne chasteté particuliere, cependant on tolere, l’on agrée, on loüe ces meschants liures qui sont les professeurs publics d’vne passion, dont la fin est l’incontinence, le peché, le des-honneur, le desordre des familles &amp; des Estats. C’est vn grand reproche à la France si Chrestienne de voir que ces meschants liures, ces corrupteurs de jeunesse s’y debitent sous <seg resp="wordpro">l’authorité</seg> d’vn priuilege. Dieu s’offense, <pb n="494"/>que la Maiesté du Roy, qui est son image, soit prophanée iusques à la faite seruir à cet infame ministere. Il demande que les Magistrats s’opposent à cela &amp; au commerce de semblables pieces, beaucoup plus que des poisons puis qu’elles infectent les sources de la vie <seg resp="wordpro">ciuile,</seg> qu’elles estouffent l’amour de la vertu, qu’elle font vn jeu des crimes, &amp; qu’elles portent efficacement les hommes à tout ce que les loix diuines &amp; humaines leur deffendent.</p>
         </div>
       </div>
     </body>
