@@ -6,8 +6,8 @@
     <fileDesc>
       <titleStmt>
         <title>Lettre à Mme la Marquise de B.</title>
-        <author key="Boursault, Edme (1638-1701)">Edme Boursault</author>
-        <editor key="Soury, Thomas">Thomas Soury</editor>
+        <author key="Boursault, Edme (1638-1701)"
+          ref="https://data.bnf.fr/fr/11893528/edme_boursault/">Edme Boursault</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -18,6 +18,18 @@
         <respStmt>
           <name>Clotilde Thouret</name>
           <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Clotilde Thouret</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Thomas Soury</name>
+          <resp>Contributeur</resp>
+        </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>Édition XML</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -45,14 +57,12 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <author>Edme Boursault</author>, <title>Lettre à Mme la Marquise de B.</title>, in
-            <title>Lettres nouvelles de Monsieur Boursault. Accompagnées de fables, de remarques, de
+        <bibl>Edme Boursault, « Lettre à Mme la Marquise de B. », in
+            <hi rend="i">Lettres nouvelles de Monsieur Boursault. Accompagnées de fables, de remarques, de
             bons mots et d’autres particularitez aussi agréables qu’utiles, avec sept lettres
-            amoureuses d’une dame à un cavalier</title>, <pubPlace>Paris</pubPlace>,
-            <publisher>Veuve de Theodore Girard</publisher>, <date>1697</date>, <biblScope>p.
-            302-316</biblScope>
-        </bibl>
+            amoureuses d’une dame à un cavalier</hi>, <pubPlace>Paris</pubPlace>,
+            <publisher>Veuve de Theodore Girard</publisher>, 697, <biblScope>p.
+            302-316</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -66,18 +76,18 @@
   </teiHeader>
   <text>
     <body>
-      <div>
+      <div type="frontispiece">
         <head rend="small">[FRONTISPICE]</head>
         <p rend="center"><hi rend="uc">Lettres <lb/> nouvelles</hi><lb/>
           <hi rend="i">De Monsieur <hi rend="sc">Boursault</hi>.</hi><lb/> Accompagnées de Fables,
           de Remar-<lb/>ques, de bons Mots et d’autres<lb/> Particularitez aussi agréables<lb/> qu’utiles.<lb/>
           <hi rend="i">Avec sept Lettres Amoureuses d’une<lb/> Dame à un Cavalier.</hi><lb/><lb/>A
           PARIS<lb/> Chez la Veuve de <hi rend="sc">Theodore Girard</hi><lb/>Dans la Grande Salle du
-          Palais, du côté<lb/> de la Salle Dauphine, à l'Envie.<lb/>M DC XCVII,<lb/><hi rend="sc"
+          Palais, du côté<lb/> de la Salle Dauphine, à l’Envie.<lb/>M DC XCVII,<lb/><hi rend="sc"
             >avec privilege du roy</hi></p>
       </div>
       <div type="chapter">
-        <pb n="302"/>
+        <pb n="302" xml:id="p302"/>
         <head>A MADAME LA MARQUISE DE B…</head>
         <head type="sub">Sur l’Indigence du Théâtre.</head>
         <p>D’où vient, Madame, que vous me faites l’honneur de vous adresser à moi, pour vous
@@ -87,7 +97,7 @@
           florissant que jamais il ait été. Vous dîtes qu’on les remplace : est-ce une chose
           facile ; et dans quelque profession que ce soit, croyez-vous que les excellents hommes
           soient communs ? Pour moi, qui ne crois pas qu’un certain nombre de mots et une rime au
-          bout, soient des Vers, je ne crois pas <pb n="303"/>aussi que tous ceux qui parlent à la
+          bout, soient des Vers, je ne crois pas <pb n="303" xml:id="p303"/>aussi que tous ceux qui parlent à la
           Comédie soient Comédiens : Pour bien faire des Vers il faut les savoir tourner comme fait
           Racine ; et pour être ce qu’on appelle des Comédiens, l’être comme Baron et Raisin. En un
           mot, Madame, pour avoir un plaisir parfait à la Comédie, il y faut de bonnes Pièces, et
@@ -99,7 +109,7 @@
           il y a eu plus de Constellation que de mérite. Remarquez, s’il vous plaît, Madame, que je
           ne vous parle que de votre temps. Si je remontais un peu plus haut, je trouverais
           Corneille et Molière qui sont au dessus de tous les éloges qu’on leur peut donner ; l’un à
-          qui Racine aurait cédé pour le sérieux ; et l’autre à <pb n="304"/>qui tout le Monde doit
+          qui Racine aurait cédé pour le sérieux ; et l’autre à <pb n="304" xml:id="p304"/>qui tout le Monde doit
           céder pour le Comique. J’ai assez d’estime pour leur Mémoire pour ne rien dire de plus :
           j’aime mieux laisser parler leurs Ouvrages. Je sais que ce n’est pas vous faire ma Cour de
           donner la préférence à Corneille sur Racine, et qu’étant son Amie comme vous l’êtes, il
@@ -111,8 +121,7 @@
           dérobe toujours quelque chose à la Justice : si Corneille trouve moins de Gens qui
           l’imitent que Racine, c’est peut-être qu’on s’y attache avec moins de soin ; et si j’avais
           l’Eloge de Racine à faire, les efforts que l’on fait pour l’imiter, ne serait pas le plus
-          méchant endroit que j’y pûsse mettre. Pour revenir au Théâtre, je conviens avec <pb
-            n="305"/>vous qu’il a un peu dégéneré de ce qu’il était, et que dans toutes les Pièces
+          méchant endroit que j’y pûsse mettre. Pour revenir au Théâtre, je conviens avec <pb n="305" xml:id="p305"/>vous qu’il a un peu dégéneré de ce qu’il était, et que dans toutes les Pièces
           nouvelles qui ont été faites depuis dix ans, il y a eu peu de nouveauté. Soit que les
           Sujets soient épuisés, ou que ceux que l’on traite fournissent de quoi tomber
           naturellement dans des Scènes qu’on a déja vues, il me semble que je ne vois rien qui
@@ -124,7 +133,7 @@
           à y répondre que ce que je pris la liberté de vous dire à Saint-Cloud. Toutes les fois que
           vous allez à la première Représentation d’une Pièce sérieuse, vous croyez, dites-vous,
           aller à Athènes ou à Rome : vous ne trouvez en votre chemin que Grecs et Romains, encore
-          sont-ils tout défigurés <pb n="306"/>depuis que Corneille et Racine ne les font plus
+          sont-ils tout défigurés <pb n="306" xml:id="p306"/>depuis que Corneille et Racine ne les font plus
           parler. Il vous semble que les Auteurs qui ne peuvent faire tenir le même langage à leurs
           Héros, feraient mieux de les choisir dans un Pays où l’on ne les ait pas tant mis en
           œuvre ; et vous dites qu’un Grand-homme de notre France dont la Vie serait pleine de
@@ -136,7 +145,7 @@
           Princesse de Cléves : les Noms des Personnages qui le composent sont doux à l’oreille et
           faciles à mettre en Vers : l’intrigue intéresse le Lecteur depuis le commencement jusqu’à
           la fin ; et le cœur prend part à tous les événements qui succèdent l’un à l’autre. J’en
-          fis une Pièce de Théâtre dont j’espérais un si grand succès, <pb n="307"/>que c’était le
+          fis une Pièce de Théâtre dont j’espérais un si grand succès, <pb n="307" xml:id="p307"/>que c’était le
           fonds le plus liquide que j’eusse pour le paiement de mes Créanciers, qui tombèrent de
           leur haut quand ils apprirent la chute de mon Ouvrage. Faites-moy la grâce, Madame, de ne
           point trembler pour eux : je les satisfis l’Année suivante ; et comme la Princesse de
@@ -148,8 +157,7 @@
           oreilles ne purent s’accommoder de ce qu’elles n’avaient pas coutume d’entendre ; et le
           Prologue attira plus d’Applaudissements que la Pièce. Comme le Théâtre commençait déjà à
           montrer son indigence, et que la mort de Molière l’avait privé d’un Ornement qu’il ne
-          recouvrera jamais, peut-être ne serez vous pas fâchée de voir un fragment de ce <pb
-            n="308"/>Prologue. Je feins que la Renommée rencontre Melpomène, la Muse de la Tragédie,
+          recouvrera jamais, peut-être ne serez vous pas fâchée de voir un fragment de ce <pb n="308" xml:id="p308"/>Prologue. Je feins que la Renommée rencontre Melpomène, la Muse de la Tragédie,
           qui rêve dans une Solitude, à qui elle dit :</p>
         <quote>
           <label type="speaker">LA RENOMMÉE.</label>
@@ -172,7 +180,7 @@
             <l>Par sa stérilité me reproche la mienne,</l>
             <l>Et n’a plus aujourd’hui d’Appui qui le soutienne. »</l>
           </lg>
-          <label type="speaker"><pb n="309"/>LA RENOMMÉE.</label>
+          <label type="speaker"><pb n="309" xml:id="p309"/>LA RENOMMÉE.</label>
           <lg>
             <l>« Et quoi ! sous un Héros qui remet les beaux Arts</l>
             <l>Dans un éclat plus grand que du Temps des Césars ;</l>
@@ -195,7 +203,7 @@
           <lg>
             <l>« Si le zèle suffit pour charmer ce grand Roi,</l>
             <l>Qui pourra s’en flatter plus justement que moi ?</l>
-            <l><pb n="310"/>En est-il un pareil à celui qui m’anime ?</l>
+            <l><pb n="310" xml:id="p310"/>En est-il un pareil à celui qui m’anime ?</l>
             <l>Apprends de ma langueur la cause légitime.</l>
             <l>L’Histoire, où tant de fois pour remplir mes projets</l>
             <l>J’ai trouvé de grands Noms, et pris d’heureux Sujets,</l>
@@ -212,7 +220,7 @@
             <l>Mais quoique Bajazet justifie un tel choix</l>
             <l>Ce sont des libertés qu’on ne prend qu’une fois ;</l>
             <l>Et de quelques Talents dont le Ciel m’ait pourvue</l>
-            <l><pb n="311"/>J’ignore en quel endroit je dois fixer ma Vue.</l>
+            <l><pb n="311" xml:id="p311"/>J’ignore en quel endroit je dois fixer ma Vue.</l>
             <l>Toi, qui vois d’un même œil toutes les Nations,</l>
             <l>Qui rends par tout justice aux grandes Actions,</l>
             <l>Et tires de l’Oubli dont la Mort est suivie</l>
@@ -235,7 +243,7 @@
             <l>Faire passer son Char sur le Corps de son Père ;</l>
             <l>Et d’un geste inhumain dans cet horrible Emploi,</l>
             <l>Animer ses Chevaux qui reculaient d’effroi ?</l>
-            <l><pb n="312"/>A-t-on vu dans la France, au fort de sa misère,</l>
+            <l><pb n="312" xml:id="p312"/>A-t-on vu dans la France, au fort de sa misère,</l>
             <l>Par un excès de Rage une barbare Mère</l>
             <l>Aprés mille baisers et donnés et rendus,</l>
             <l>Egorger son Enfant pour vivre un jour de plus ?</l>
@@ -257,7 +265,7 @@
           <label type="speaker">MELPOMÈNE.</label>
           <lg>
             <l>« Je n’ai pas attendu le secours de ta Voix</l>
-            <l><pb n="313"/>Pour tourner tous mes Vœux du côté des François :</l>
+            <l><pb n="313" xml:id="p313"/>Pour tourner tous mes Vœux du côté des François :</l>
             <l>Mais me répondras-tu qu’on permette à ma Veine</l>
             <l>D’étaler en public leurs grands Noms sur la Scène ?</l>
             <l>Le Respect qu’on leur doit… »</l>
@@ -276,7 +284,7 @@
             <l>D’aller chez leurs voisins emprunter des Héros ?</l>
             <l>Quoi qu’on fasse de beau ; la lenteur de l’Histoire</l>
             <l>Ne promet aux grands Noms qu’une tardive gloire ;</l>
-            <l><pb n="314"/>Au lieu que le Théâtre a des effets présents,</l>
+            <l><pb n="314" xml:id="p314"/>Au lieu que le Théâtre a des effets présents,</l>
             <l>Plus connus en dix jours que l’Histoire en dix ans.</l>
             <l>Retrouve en sa faveur une Plume pareille</l>
             <l>A celle dont le Ciel fit présent à Corneille ;</l>
@@ -297,7 +305,7 @@
             <l>Dans un Habit lugubre est-elle ensevelie,</l>
             <l>Le front ceint de Cyprès, les yeux baignés de pleurs,</l>
             <l>Sans qu’un autre Molière appaise ses douleurs ?</l>
-            <l><pb n="315"/>Dans les Siècles passés comme au Siècle où nous sommes</l>
+            <l><pb n="315" xml:id="p315"/>Dans les Siècles passés comme au Siècle où nous sommes</l>
             <l>La Nature était lente à faire de Grands Hommes ;</l>
             <l>Et l’aimable Thalie a longtemps à pleurer</l>
             <l>Avant que son malheur se puisse réparer, etc. »</l>
@@ -310,7 +318,7 @@
           Grenoble n’ont rien de si héroïque que Rome, Albe, Carthage, Numante, Athènes et Corinthe.
           Pardon, Madame, si je vous mène si loin pour vous y laisser : deux de mes Amis, que vous
           n’aurez pas de peine à reconnaître quand vous saurez qu’ils me viennent prendre pour aller
-          à Berny, m’arrachent la plume des mains ; et ne me <pb n="316"/>laissent que la liberté de
+          à Berny, m’arrachent la plume des mains ; et ne me <pb n="316" xml:id="p316"/>laissent que la liberté de
           vous assurer qu’on ne peut être avec plus de respect que je le suis, Madame, votre très
           humble et très obéissant serviteur.</p>
       </div>
