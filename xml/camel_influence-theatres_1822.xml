@@ -7,8 +7,7 @@
     <fileDesc>
       <titleStmt>
         <title>De l’influence des théâtres</title>
-        <author key="Camel, Jean-Baptiste Louis (vers 1780-1848">Jean-Baptiste-Louis Camel</author>
-        <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+        <author key="Camel, Jean-Baptiste Louis (1780?-1848?)">Jean-Baptiste Louis Camel</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -19,6 +18,14 @@
         <respStmt>
           <name>Clotilde Thouret</name>
           <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Doranne Lecercle</name>
+          <resp>Contributeur</resp>
+        </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>Édition XML</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -46,9 +53,8 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <author>Jean-Baptiste-Louis Camel</author>, <title>De l’influence des théâtres</title>,
-            <pubPlace>Paris</pubPlace>, <publisher>Nouzou</publisher>, <date>1822</date>, </bibl>
+        <bibl>Jean-Baptiste Louis Camel, <hi rend="i">De l’influence des théâtres</hi>,
+            <pubPlace>Paris</pubPlace>, <publisher>Nouzou</publisher>, 822, </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -62,14 +68,14 @@
   </teiHeader>
   <text>
     <body>
-      <div>
+      <div type="frontispiece">
         <head rend="small">[EN-TETE]</head>
         <p rend="center">DE L’INFLUENCE<lb/> DES THEATRES<lb/>
           <hi rend="sc">et particulierement</hi><lb/> DES THEATRES SECONDAIRES<lb/>
           <hi rend="sc">sur les moeurs du peuple</hi></p>
       </div>
       <div type="chapter">
-        <pb n="1"/>
+        <pb n="1" xml:id="p1"/>
         <head type="short">[De l’influence des théâtres]<note place="bottom" resp="editor"> [NDE]
             J.-B.-L. Camel est un acteur et auteur dramatique. Selon le titre d'une autre édition
             publiée la même année « chez tous les marchands de nouveautés », il a écrit son opuscule
@@ -100,7 +106,7 @@
         <p>Le goût se perd, et tel qui pouvait prétendre à siéger un jour parmi les classiques de
           notre littérature, ne sera jamais qu’un histrion-spéculateur, sacrifiant sa gloire à des
           rétributions, et donnant, au moins une fois par mois, la preuve qu’en fait d’ouvrages mis
-          au théâtre, la quantité <pb n="2"/>l’emporte sur la qualité ; le plus mince vaudevilliste,
+          au théâtre, la quantité <pb n="2" xml:id="p2"/>l’emporte sur la qualité ; le plus mince vaudevilliste,
           qui compte quatre succès, n’a pas d’autre système.</p>
         <p>Le goût du spectacle, que je suis loin de condamner, fait faire à la jeunesse le trajet
           de la maturité avec les bottes de l’Ogre du petit Poucet. Un enfant du Marais, au courant
@@ -122,7 +128,7 @@
           qu’ils apportaient régulièrement le samedi. Leur salaire augmenta avec leurs années ; ils
           ne savaient pas lire ! Mais la fille avait une mise fort au-dessus de son état ; le garçon
           figurait aux promenades, à s'y méprendre avec un laquais en bonne fortune. Deux ou trois
-          représentations d’un spectacle bourgeois leur <pb n="3"/>donnèrent le goût de la comédie ;
+          représentations d’un spectacle bourgeois leur <pb n="3" xml:id="p3"/>donnèrent le goût de la comédie ;
           les économies ne suffirent pas même pour satisfaire ce penchant, devenu chez eux une
           seconde nature ; puis, la retenue des quarts de jour perdus, pour ne point manquer une
           première représentation aux boulevards, ou bien au Vaudeville, fit avoir recours au
@@ -146,8 +152,7 @@
         <p>Les fortes émotions vinrent remplacer les effets d’une gaîté souvent licencieuse, et le
           mélodrame acheva de tourner la tête à ces pauvres enfants. Leur langage se forma de tout
           le répertoire du genre ; rien n’était plus comique que leur conversation. L’ouvrage,
-          négligé par suite de ce malheureux goût, attirait souvent sur eux les réprimandes <pb
-            n="4"/>du maître, et ils ne manquaient jamais, chaque fois que cela arrivait, le fameux
+          négligé par suite de ce malheureux goût, attirait souvent sur eux les réprimandes <pb n="4" xml:id="p4"/>du maître, et ils ne manquaient jamais, chaque fois que cela arrivait, le fameux
             « dissimulons !»<note resp="editor" place="bottom"> [NDE] Nous ajoutons les
             guillemets.</note>. La jeune personne puisait toutes ses réponses dans les rôles d’une
           douzaine d’héroïnes, qui figurent depuis vingt ans aux boulevards, et qui disent à peu
@@ -171,7 +176,7 @@
             resp="editor"> [NDE] Il s'agit sans doute de la rue Meslay.</note> et avait une porte de
           sortie sur le boulevard, vis-à-vis le coin de celle de Lancry, le Tivoli de cette époque,
           tenu par le sieur Thoré, qui n’eut de rival pour ses feux que Lavarinière, si bien
-          remplacé aujourd’hui par les <pb n="5"/>deux Ruggieri. Le colonel avait fait choix de ce
+          remplacé aujourd’hui par les <pb n="5" xml:id="p5"/>deux Ruggieri. Le colonel avait fait choix de ce
           coin triangulaire du boulevard, qui longe la rue de Bondy et à l’extrémité duquel fut bâti
           le corps de garde qui existe au carrefour appelé porte du Temple, pour rassembler son
           régiment, distribuer les postes et passer une revue d’inspection. Afin de ne point
@@ -192,7 +197,7 @@
           amas dégoûtants de tout ce qu’on peut apprendre sous les guichets de Bicêtre et de la
           Force. Je veux parler d’une pantomime, jouée il y a une quinzaine d’années, sous le titre
           de la <hi rend="i">Famille savoyarde</hi><note place="bottom" resp="author"> [NDA]
-            Pantomime de la Gaîté.</note>. Rien <pb n="6"/>de plus vrai que les personnages de ce
+            Pantomime de la Gaîté.</note>. Rien <pb n="6" xml:id="p6"/>de plus vrai que les personnages de ce
           tableau, mais en bonne police, il est des vérités sur lesquelles on doit tenir un éternel
           rideau et surtout au théâtre.</p>
         <p>N’est-il point coupable, l’auteur qui se creuse l’imagination pour renchérir sur les vils
@@ -214,7 +219,7 @@
           Sur cent épreuves de ce genre, dans la société, on n’en voit pas deux réussir ; ce n’est
           qu’au théâtre, où il faut que la morale triomphe du vice, qu’on voit de ces guérisons, qui
           s’effectuent presque toujours aux dépens du naturel.</p>
-        <pb n="7"/>
+        <pb n="7" xml:id="p7"/>
         <p>J’en suis fâché pour le goût présent, mais je voudrais voir bannir de la scène tous les
           grands scélérats, qui portent avec eux le ridicule et l’épouvante. La dégoûtante
           conception du <hi rend="i">Vampire</hi><note place="bottom" resp="author"> [NDA] Mélodrame
@@ -238,7 +243,7 @@
             entendre<note place="bottom" resp="author"> [NDA] <hi rend="i">Marie Stuart</hi>,
             mélodrame de la Porte Saint-Martin.</note> !… Encore un pas vers la perfection, et l’on
           ne nous fera pas grâce de l’enterrement.</p>
-        <p>Les siècles futurs auront peine à croire à notre fol engouement. <pb n="8"/>Des Français,
+        <p>Les siècles futurs auront peine à croire à notre fol engouement. <pb n="8" xml:id="p8"/>Des Français,
           diront-ils, ont pu s’amuser à de pareils spectacles ? Des échafauds s’élèvent sur les
           ruines du temple de <hi rend="i">Vénus pèlerine</hi><note place="bottom" resp="author">
             [NDA] Petit ouvrage du vieux répertoire de la Gaîté.</note> et de <hi rend="i">l’échoppe
@@ -268,7 +273,7 @@
             d’Arc</hi><note place="bottom" resp="author"> [NDA] Pantomime de la Gaîté.</note>
           étaient aussi déplacés, près de <hi rend="i">Colombine invisible</hi><note place="bottom"
             resp="author"> [NDA] Pantomime de la Gaîté.</note>, que ne le sont plusieurs opéras, que
-          je pourrais citer, près des chefs-d’œuvres de <pb n="9"/>l’immortel Grétry. Le fameux <hi
+          je pourrais citer, près des chefs-d’œuvres de <pb n="9" xml:id="p9"/>l’immortel Grétry. Le fameux <hi
             rend="i">Siège</hi><note place="bottom" resp="author"> [NDA] C’est le même ouvrage que
             la Jeanne d’Arc, pantomime.</note>, qui fit courir tout Paris chez Nicolet, avait un
           côté comique auquel il dut sa vogue ; et ses chevaux de carton, mannequins à bretelles,
@@ -294,7 +299,7 @@
           ensemble sur l’affiche (mais beaucoup moins souvent que <hi rend="i">la Petite Sœur</hi>,
             <hi rend="i">le Mariage Enfantin</hi>, <hi rend="i">le Comédien d’Étampes</hi>, sur
           celle du Gymnase), étaient d’abord : ce bon Roi, dont le règne exemplaire lui valut le
-          surnom de père <pb n="10"/>du peuple<note place="bottom" resp="author"> [NDA] <hi rend="i"
+          surnom de père <pb n="10" xml:id="p10"/>du peuple<note place="bottom" resp="author"> [NDA] <hi rend="i"
               >Louis XII</hi>, comédie en trois actes.</note>, qui faisait applaudir à ses vertus,
           précédé ou suivi de <hi rend="i">Cartouche</hi><note place="bottom" resp="author"> [NDA]
             Comédie en quatre actes.</note>, et des <hi rend="i">Amours de Montmartre</hi><note
@@ -320,7 +325,7 @@
             Molière, (théâtre supprimé), et repris à la Gaîté.</note>, sont je crois les trois
           premiers enfants de cette bâtarde<note place="bottom" resp="author"> [NDA] Pantomime
             dialoguée.</note>, qui accoucha quelques années après de deux enfants, l’un avoué par
-            <pb n="11"/>le malheur, et l’autre par le bonheur<note place="bottom" resp="author">
+            <pb n="11" xml:id="p11"/>le malheur, et l’autre par le bonheur<note place="bottom" resp="author">
             [NDA] L’Ambigu eut le premier, la Gaîté le second.</note>, et d’un <hi rend="i"
             >Diable</hi> et d’une <hi rend="i">Bohémienne</hi><note place="bottom" resp="author">
             [NDA] Mélodrame de l’Ambigu.</note>, qui furent à leur tour, avec une certaine
@@ -341,7 +346,7 @@
           cesse des événements de ce genre, rend presque insensible sur les nouveaux.</p>
         <p>Autre exemple de l’influence de ces sortes d’ouvrages.</p>
         <p>Les différends d’atelier ne se vident plus que l’épée ou le pistolet à la main. Pour la
-          moindre chose, un apprenti <pb n="12"/>provoque un chef de travaux ; on ne voit guère plus
+          moindre chose, un apprenti <pb n="12" xml:id="p12"/>provoque un chef de travaux ; on ne voit guère plus
           que dans les carrefours et dans les halles, de ces combats fameux ! le pugilat Français
           n’existe plus que pour la dernière des classes ; le plus petit membre de la plus chétive
           corporation rougirait à présent de briller dans un Gymnase de faubourg. Les faits d’armes,
@@ -361,8 +366,7 @@
             [NDA] Mélodrame de la Gaîté.</note>, composait le grief ; mon Rodrigue ne voulut pas
           faire moins que l’un des personnages de ce mélodrame, il perça le bras de son adversaire,
           mais en lui portant le coup, son œil rencontra la pointe de son antagoniste et s’éteignit
-          pour toujours. En prodiguant des secours aux deux blessés, je voulus, par de <pb n="13"
-          />bonnes raisons, les remettre dans la bonne voie, je pris pour texte de mon sermon les
+          pour toujours. En prodiguant des secours aux deux blessés, je voulus, par de <pb n="13" xml:id="p13"/>bonnes raisons, les remettre dans la bonne voie, je pris pour texte de mon sermon les
           bravades et leurs suites… L’esprit de Bossuet et de Fléchier revivait dans mon éloquente
           péroraison. Tout en appliquant le premier appareil, je m’applaudissais d’une conversion
           dont personne n’eût douté… Brave homme ! me dit mon borgne, en m’interrompant avec un
@@ -382,7 +386,7 @@
           Neuf, que je vis une voiture s’arrêter devant la porte et en descendre une jeune élégante,
           accompagnée par un gros monsieur, que je remis pour l’avoir vu souvent à la Bourse,
           surtout quand il y a ce qu’en jargon du lieu on nomme un coup à faire. Un désir bien
-          pardonnable me fit approcher des vitres, à l’instant même où la <pb n="14"/>jeune personne
+          pardonnable me fit approcher des vitres, à l’instant même où la <pb n="14" xml:id="p14"/>jeune personne
           regardait si la passe de son chapeau<note place="bottom" resp="editor"> [NDE] la passe =
             la partie du chapeau qui entoure le visage.</note> n’était pas déformée. Quel est mon
           étonnement de reconnaître dans celle, que je prenais tout au moins pour la femme d’un
@@ -404,7 +408,7 @@
           réflexions. — « Tu me fais frémir, mon ange ! ne vas-tu pas comme cette petite bégueule…
            »— « Fi donc ! ces retours sentent le village d’une lieue ; je connais beaucoup de
           grandes dames qui ont commencé comme Clari, mais qui se gardent bien de finir comme
-          elle. » Le pas est fait, ma mère est pauvre ; si elle <pb n="15"/>veut être raisonnable et
+          elle. » Le pas est fait, ma mère est pauvre ; si elle <pb n="15" xml:id="p15"/>veut être raisonnable et
           prendre bien la chose, j’aurai soin de sa vieillesse, autrement…. Le garçon vînt servir,
           mon séducteur, que je prie mes lecteurs de ne point confondre avec celui du marquis de
           Bièvre, sortit de sa poche <hi rend="i">le Miroir du jour</hi> ; la belle y jeta l’œil et
@@ -425,7 +429,7 @@
           ils entrèrent dans un café. Ma foi, me dis-je, soutenons la gageure, je viens de bien
           déjeuner ; un petit verre, ce sera de l’extra… mais va pour le petit verre, je me serai
           contenté à bon marché. J’entre donc. Dans le renfoncement d’une boutique sans faste,
-          j’entrevis une élévation, décorée de papier tenture <pb n="16"/>et dont la superficie
+          j’entrevis une élévation, décorée de papier tenture <pb n="16" xml:id="p16"/>et dont la superficie
           n’offrait à l’œil qu’une table de dix ou douze couverts, sur laquelle gesticulaient cinq à
           six personnes d’assez piètre mine. Je compris, au bout d’un quart d’heure de la plus forte
           application, que l’on répétait un vaudeville. Est-il possible, grommelai-je tout bas entre
@@ -447,7 +451,7 @@
           me désarmèrent, et convaincu qu’il faut chez un grand peuple des plaisirs à tous prix ! Je
           remerciai mon habitué du spectacle de la barrière du Roule, de m’avoir mis au courant sur
           le jeu de celui-ci, les intrigues de celle-là, la prétention de cet autre, les petites
-          querelles d’amour-propre <pb n="17"/>de tous…. Je m’éloignai en déplorant les suites d’une
+          querelles d’amour-propre <pb n="17" xml:id="p17"/>de tous…. Je m’éloignai en déplorant les suites d’une
           manie qui ne peut que devenir funeste aux familles, aux manufactures, en fortifiant dans
           la classe ouvrière un goût innocent dans son principe, instructif même pour ceux qui
           savent en mettre à profit la morale, mais qui finira par élever dans chaque faubourg des
@@ -470,7 +474,7 @@
           Hamadryades du bois de Boulogne, que les convulsions et les fadeurs des deux sœurs du dieu
           de la lyre<note place="bottom" resp="editor"> [NDE] Melpomène et Thalie, muses de la
             tragédie et de la comédie, sont les demi-soeurs d’Apollon.</note> ; et je suis certain
-          que les échos de <pb n="18"/>Longchamps et de la Muette rediront plutôt ces gais flons
+          que les échos de <pb n="18" xml:id="p18"/>Longchamps et de la Muette rediront plutôt ces gais flons
           flons, que les plus beaux hémistiches que le bon goût à juste titre applaudit à la rue de
           Richelieu et au faubourg Saint-Germain. Malgré mon appétit violent, je me hâtai de gagner
           l’autre rive, en frémissant de trouver encore un spectacle à la plaine de Grenelle, ou à
@@ -490,8 +494,7 @@
             [NDA] Mot passé en proverbe, extrait du <hi rend="i">Pied de Mouton</hi>, mélodrame de
             la Gaîté.</note>.</p>
         <p>J’expédiai mon morceau avec un héroïsme digne du célèbre Ragotin en voyage, à l’exception
-          du pourpoint doublé d’affiches, et des croûtes de pain, détrempées dans une <pb n="19"
-          />fontaine. Un petit vin, plus vert que la couleur de l’espérance, et que le propriétaire
+          du pourpoint doublé d’affiches, et des croûtes de pain, détrempées dans une <pb n="19" xml:id="p19"/>fontaine. Un petit vin, plus vert que la couleur de l’espérance, et que le propriétaire
           m’assura être d’un coteau estimé de Meudon, accompagna, non sans quelques grimaces au
           passage, l’unique plat qui fut à la fois l’entrée, le rôt, l’entremet et le dessert. Je
           l’avouerai, j’ai souvent mangé à la table des grands, mais jamais d’aussi bon cœur ; le
@@ -512,7 +515,7 @@
           bouffon qui, par de misérables lazzis et des fanfares, plus fausses que les grandes
           protestations de certains amis… servait seul d’orchestre et de valet à cet Esculape de
           carrefours.</p>
-        <pb n="20"/>
+        <pb n="20" xml:id="p20"/>
         <p>Eh ! quoi, soupirai-je tout bas, des charlatans au Montparnasse ! Midas, affublé de la
           perruque de Boileau, présiderait-il aux réputations ? Comment, dans un siècle où les
           lumières se propagent ; où le gaz éclaire des établissements publics, le bout de l’oreille
@@ -532,8 +535,7 @@
           soins, et que les coulisses du Montparnasse recelaient son heureux vainqueur.</p>
         <p>Nouvelle matière à réflexion : voilà, me dis-je encore, un effet de la maudite
           influence ! cette jeune fille était appelée à d’honnêtes fonctions ; un démon, jaloux de
-          sa perte, est venu placer un théâtre sur une route du cercle de ses devoirs ; <pb n="21"
-          />moitié faiblesse, moitié séduction, la pauvre enfant vole à sa ruine.</p>
+          sa perte, est venu placer un théâtre sur une route du cercle de ses devoirs ; <pb n="21" xml:id="p21"/>moitié faiblesse, moitié séduction, la pauvre enfant vole à sa ruine.</p>
         <p>Malgré la résolution où j’étais, en partant le matin, de faire le tour de Paris, je
           bornai là ma promenade extra-muros ; et dans la crainte de trouver encore un spectacle à
           la barrière d’Aulnay<note place="bottom" resp="author"> [NDA] Plus vulgairement appelée
@@ -552,7 +554,7 @@
           mon sou, je vais être au courant, et je m’applaudissais de pouvoir à peu de frais, en me
           délassant, me mettre à portée de pouvoir raisonner sur cette entreprise.</p>
         <p>Ce que je trouvai de plus original dans l’ouvrage de messieurs du Marais, c’est l’idée
-          d’avoir mis le diable en <pb n="22"/>scène, et surtout le diable boiteux, car il fallait
+          d’avoir mis le diable en <pb n="22" xml:id="p22"/>scène, et surtout le diable boiteux, car il fallait
           vraiment avoir le diable au corps, pour fonder de grandes espérances sur un genre aussi
           restreint. Ce protecteur infernal n’avait plus rien de l’esprit de Lesage ; j’ai vu
           seulement qu’il avait continué ses excursions nocturnes sur les cheminées de notre
@@ -574,7 +576,7 @@
           semble faire croire que le petit grec, a trouvé l’un et l’autre.</p>
         <p>Je m’étonne que sous un gouvernement paternel, il existe une préférence aussi
           préjudiciable aux intérêts d’un spectacle, qu’il fallait ne pas laisser ouvrir, ou le
-          laisser jouir des prérogatives accordées à ses aînés. Un habitué <pb n="23"/>m’a depuis
+          laisser jouir des prérogatives accordées à ses aînés. Un habitué <pb n="23" xml:id="p23"/>m’a depuis
           assuré, qu’à la vérité, monsieur Boulevard sautait à pieds joints par-dessus la
           permission ; l’autorité, ce me semble, eût mieux fait de la lui donner sans restriction.
           Le rideau de gaze des <hi rend="i">Délassements</hi> et les acteurs de <hi rend="i">bois
@@ -598,7 +600,7 @@
           pas à ses héritiers l’idée de réclamer un droit incontestable, et les Funambules<note
             place="bottom" resp="author"> [NDA] Même genre que l’établissement Saqui.</note>, genre
           de spectacle, partagé entre la danse de corde et la pantomime. C’est dans ce dernier, que
-          se montent les arlequinades, expulsées <pb n="24"/>de chez Nicolet, et sans feu ni lieu,
+          se montent les arlequinades, expulsées <pb n="24" xml:id="p24"/>de chez Nicolet, et sans feu ni lieu,
           depuis l’incendie de Lazari<note place="bottom" resp="author"> [NDA] Bon arlequin, dernier
             directeur des Variétés Amusantes, brûlé à la suite d’une représentation du <hi rend="i"
               >Festin de Pierre</hi> de la Foire.</note>, bergamiste célèbre, aussi léger dans ses
@@ -622,7 +624,7 @@
             à 11, et se prolongeait jusqu’à 2 heures du matin à peu près. Cette dernière était
             composée de tout ce qu’il y avait de mieux à Paris, où les petits soupers étaient alors
             en vogue ; on venait faire la digestion aux jeux de nuit de Nicolet.</note>, jadis
-          amusèrent la ville et encore plus la <pb n="25"/>cour ; plus corrompus, mais plus
+          amusèrent la ville et encore plus la <pb n="25" xml:id="p25"/>cour ; plus corrompus, mais plus
           susceptibles que nos pères, nous crierions au scandale si, de nos jours, on tolérait de
           telles licences ; et nous avons des académies clandestines, dans lesquelles on s’expose
           journellement à de plus grands dangers qu’aux représentations de nuit de l’après-souper de
@@ -654,7 +656,7 @@
             regardé comme le fondement de la fortune de ce théâtre.</note> et <hi rend="i">l’Artisan
             philosophe</hi><note place="bottom" resp="author"> [NDA] Ouvrage dont le succès peut
             être regardé comme le fondement de la fortune de ce théâtre.</note>, ouvrages du temps
-          dont vous parlez, <pb n="26"/>ont cédé le pas aux dégoûtants tableaux, tirés du crime
+          dont vous parlez, <pb n="26" xml:id="p26"/>ont cédé le pas aux dégoûtants tableaux, tirés du crime
           commis à Rodez<note place="bottom" resp="author"> [NDA] La procédure d’Albi, arrangée pour
             la scène sous le titre du <hi rend="i">Château de Paluzzi.</hi></note> ; on y vient, non
           pas pour s’amuser, mais parce qu’il faut passer le temps. Les interprètes de toutes les
@@ -675,7 +677,7 @@
           réclamer l’office du porteur de médaille, qui me planta là pour sa besogne
           journalière.</p>
         <p>En côtoyant les rues basses, je tirai mille conjectures des derniers mots du
-          commissionnaire, lorsqu’arrivé au <pb n="27"/>boulevard de Bonne-Nouvelle, jadis si sombre
+          commissionnaire, lorsqu’arrivé au <pb n="27" xml:id="p27"/>boulevard de Bonne-Nouvelle, jadis si sombre
           dans son renfoncement, et que, pour plus d’une raison, le commissaire du quartier eût dû,
           depuis longtemps, faire éclairer, surtout au coin de l’escalier, projeté vis-à-vis la rue
           Hauteville, un vif éclat de lumières me fit doubler le pas ; oh ! oh ! m’écriai-je, voilà
@@ -697,7 +699,7 @@
           ses druides au marmot de la rue de Chartres<note place="bottom" resp="author"> [NDA] Le
             Vaudeville.</note> qui, si on le laisse faire, finira par avoir des intelligences chez
           les rossignols d’Ausonie<note place="bottom" resp="author"> [NDA] L’Opéra-Bouffe.</note>.
-          Faites des perruques, <pb n="28"/>écrivait Voltaire à maître André ; faites des
+          Faites des perruques, <pb n="28" xml:id="p28"/>écrivait Voltaire à maître André ; faites des
           vaudevilles, dira-t-on aux beaux esprits du siècle ; associez-vous un homme adroit à se
           faire jouer, intéressez un directeur dans vos bénéfices, vos succès ne seront pas douteux.
           Je me rappelle un trait, qui peut servir d’histoire à beaucoup de nos modernes Panard : un
@@ -717,7 +719,7 @@
           des emplois ont périclité après la retraite des sujets, dont ils portent les noms, et il
           est résulté de cette réforme, que, de deux opéras comiques, plus que passables, nous n’en
           avons qu’un, sur lequel il y a bien des choses à dire !… L’émulation des deux tournait au
-          profit de l’art ; la paresse d’un <pb n="29"/>seul est peu propre à donner des successeurs
+          profit de l’art ; la paresse d’un <pb n="29" xml:id="p29"/>seul est peu propre à donner des successeurs
           aux Grétry, Monsigny, Daleyrac, Méhul et Nicolo.</p>
         <p>Les Variétés, par leur titre, sont des braconniers qui, nécessairement, tirent sur du
           gibier des domaines du Vaudeville et de Thalie, avec cette différence, que les desservants
@@ -736,8 +738,7 @@
           un compte fidèle de leurs opérations au commissaire-général, surintendant des
           Menus-plaisirs, et demeureraient responsables des fautes commises sous leur commissariat.
           Que de petits intérêts se trouveraient lésés dans cette bienfaisante organisation ! Mais
-          aussi quelle gloire pour l’homme passible, dont la justice déjouerait toutes les <pb
-            n="30"/>manœuvres de l’intrigue, veillerait à ce que la classe comédienne, dégradée par
+          aussi quelle gloire pour l’homme passible, dont la justice déjouerait toutes les <pb n="30" xml:id="p30"/>manœuvres de l’intrigue, veillerait à ce que la classe comédienne, dégradée par
           des actions viles et méprisables d’une partie de ses membres, tienne enfin dans la
           société, le rang que ses vertus lui assignent ! Que nos parterres se purgent de cette
           crasse d’assureurs, aux gages de la sottise et de la médiocrité ! Et que le théâtre, épuré

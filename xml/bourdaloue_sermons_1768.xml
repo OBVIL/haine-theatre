@@ -7,8 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sermon sur les divertissements du monde</title>
-                <author key="Bourdaloue, Louis (1632-1704)">Louis Bourdaloue</author>
-                <editor key="Thouret, Clotilde (1974-)">Clotilde Thouret</editor>
+                <author key="Bourdaloue, Louis (1632-1704)" ref="https://data.bnf.fr/fr/12510937/louis_bourdaloue/">Louis Bourdaloue</author>
             </titleStmt>
             <editionStmt>
                 <edition>OBVIL</edition>
@@ -49,11 +48,10 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Louis Bourdaloue</author>, <title>Sermon sur les divertissements du
-                        monde</title>, dans <title>Sermons du Père Bourdaloue</title>, t. 2,
+                <bibl>Louis Bourdaloue, « Sermon sur les divertissements du
+                    monde », dans <hi rend="i">Sermons du Père Bourdaloue</hi>, t. 2,
                         <pubPlace>Lyon</pubPlace>, <publisher>Jean-Marie Bruyset</publisher>,
-                        <date>1758, rééd. 1768</date>, <biblScope>p. 52-97</biblScope>. </bibl>
+                        1758, rééd. 1768, <biblScope>p. 52-97</biblScope>. </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -67,7 +65,7 @@
     </teiHeader>
     <text>
         <body>
-            <div>
+            <div type="frontispiece">
                 <head rend="small">[FRONTISPICE]</head>
                 <p rend="center">SERMONS<lb/>
                     <hi rend="sc">du Pere</hi><lb/> BOURDALOUE,<lb/>
@@ -77,7 +75,7 @@
                     Bruyset,</hi>rue<lb/>Saint Dominique<lb/>M. DCC. LVIII.</p>
             </div>
             <div type="chapter">
-                <pb n="52"/>
+                <pb n="52" xml:id="p52"/>
                 <head>SERMON<lb/>POUR<lb/>LE TROISIEME DIMANCHE<lb/>APRÈS PAQUES.<lb/>Sur les
                     Divertissements du monde.</head>
                 <quote>
@@ -86,13 +84,13 @@
                 </quote>
                 <quote>
                     <p><hi rend="i">Je vous le dis en vérité, vous pleurerez, vous serez dans
-                            l’affliction, et le monde se réjouira.</hi> En saint Jean, ch. 16.</p>
+                            l’affliction, et le monde se réjouira.</hi> <bibl>En saint Jean, ch. 16.</bibl></p>
                 </quote>
                 <p>C’est Jésus-Christ qui parle, et qui dans l’Evangile de ce jour prononce en deux
                     paroles deux jugements bien contraires ; l’un en faveur des élus, qui nous sont
                     représentés dans ses Apôtres ; et l’autre pour la condamnation des pécheurs, qui
                     composent ce monde qu’il a si hautement réprouvé, et contre lequel il a si
-                    souvent fulminé ses anathèmes. Vous pleurerez, vous vivrez dans <pb n="53"/>la
+                    souvent fulminé ses anathèmes. Vous pleurerez, vous vivrez dans <pb n="53" xml:id="p53"/>la
                     souffrance et dans la peine ; voilà le sort des prédestinés : <hi rend="i"
                         >Plorabitis et flebitis vos</hi> : mais le monde sera dans la joie, et rien
                     de tous les plaisirs de la vie ne lui manquera ; voilà le partage des pécheurs :
@@ -110,7 +108,7 @@
                     monde, parce que si les apparences en sont belles et les dehors engageants, la
                     fin en est malheureuse, et qu’ils mènent à la perdition. Aussi prenez garde à ce
                     que le Sauveur des hommes ajoute pour la consolation de ses disciples : c’est,
-                    leur dit-il, <pb n="54"/>qu’après avoir vécu dans les pleurs, votre tristesse se
+                    leur dit-il, <pb n="54" xml:id="p54"/>qu’après avoir vécu dans les pleurs, votre tristesse se
                     changera en joie, mais dans une joie solide, durable, éternelle ; leur donnant à
                     entendre par une règle toute opposée, que les joies trompeuses du siècle
                     n’aboutiront qu’à un souverain malheur : <hi rend="i">Sed tristitia vestra
@@ -130,7 +128,7 @@
                     reste sans altérer en aucune sorte les paroles de Jésus-Christ, et sans vouloir
                     en adoucir la sévérité, je puis et je dois même convenir d’abord qu’il y a des
                     récréations innocentes, des récréations honnêtes, et par conséquent permises
-                    selon les règles de discrétion et <pb n="55"/>de modération que l’Evangile nous
+                    selon les règles de discrétion et <pb n="55" xml:id="p55"/>de modération que l’Evangile nous
                     prescrit. Je ne viens donc point vous dire que tous les divertissements du monde
                     sont criminels et réprouvés de Dieu : Mais aussi j’avance avec saint Grégoire
                     Pape, qui l’a remarqué avant moi, que ces divertissements du monde permis et
@@ -149,7 +147,7 @@
                     <head>I. <hi rend="sc">Part.</hi></head>
                     <p>Tertullien fait une réflexion bien vraie dans le traité qu’il a composé des
                         spectacles ; il dit que l’ignorance de l’esprit de l’homme n’est jamais plus
-                        présomptueuse, ni ne prétend jamais mieux <pb n="56"/>philosopher et
+                        présomptueuse, ni ne prétend jamais mieux <pb n="56" xml:id="p56"/>philosopher et
                         raisonner, que quand on lui veut interdire l’usage de quelque divertissement
                         et de quelque plaisir dont elle est en possession, et qu’elle se croit
                         légitimement permis : car c’est alors qu’elle se met en défense, qu’elle
@@ -169,8 +167,7 @@
                         lumières de la grâce : or appliquons cette maxime générale aux points
                         particuliers, surtout à celui que je traite. Je prétends qu’il y a des
                         divertissements dans le monde, qui passent pour légitimes et que l’opinion
-                        commune des gens du siècle autorise, mais que le christianisme <pb n="57"
-                        />condamne, et qui ne peuvent s’accorder avec l’intégrité et la pureté des
+                        commune des gens du siècle autorise, mais que le christianisme <pb n="57" xml:id="p57"/>condamne, et qui ne peuvent s’accorder avec l’intégrité et la pureté des
                         mœurs. Expliquons-nous encore plus en détail : car sans cela, Chrétiens,
                         peut-être auriez-vous de la peine à bien concevoir ma proposition, et
                         peut-être dans la pratique tout ce que je dirais, ne produirait-il aucun
@@ -188,7 +185,7 @@
                         selon ses vues, et donne ses décisions. Pour moi, mes chers Auditeurs, si je
                         n’étois déjà d’une profession qui par elle-même m’interdit de pareils
                         amusements, et que j’eusse comme vous à prendre parti là-dessus et à me
-                        résoudre, il me semble d’abord que pour m’y faire renoncer, <pb n="58"/>il
+                        résoudre, il me semble d’abord que pour m’y faire renoncer, <pb n="58" xml:id="p58"/>il
                         ne faudroit rien davantage que cette diversité de sentiments. Car pourquoi,
                         dirois-je, mettre ma conscience au hasard dans une chose aussi vaine que
                         celle-là, et dont je puis si aisément me passer ? D’une part on m’assure que
@@ -208,7 +205,7 @@
                             place="margin"><p><hi rend="i">Cantic. Moys.</hi></p></note> et après
                         les avoir consultés, il seroit difficile, s’il me restoit quelque
                         délicatesse de conscience, que je ne fusse pas absolument convaincu sur
-                        cette matiere. Car ils m’apprendroient des <pb n="59"/>vérités capables
+                        cette matiere. Car ils m’apprendroient des <pb n="59" xml:id="p59"/>vérités capables
                         non-seulement de me déterminer, mais de m’inspirer pour ces sortes de
                         divertissements, une espece d’horreur. Suivez-moi, je vous prie.</p>
                     <p>Ils m’apprendroient que les païens même les ont proscrits, comme
@@ -227,7 +224,7 @@
                         langage en ternit moins l’esprit, s’il en corrompt moins le cœur, et si
                         peut-être il ne vaudroit pas mieux entendre les adulteres d’un Jupiter et
                         des autres divinités, dont les excès exprimés ouvertement et sans réserve,
-                        blessant les oreilles, feroient moins d’impression <pb n="60"/>sur l’ame.
+                        blessant les oreilles, feroient moins d’impression <pb n="60" xml:id="p60"/>sur l’ame.
                         Ils m’apprendroient que dans l’estime commune des fideles, on ne croyoit pas
                         pouvoir garder le serment et la promesse de son baptême, tandis qu’on
                         demeuroit attaché à ces frivoles passe-temps du siecle. Car c’est vous jouer
@@ -245,7 +242,7 @@
                         apprennent : voilà leur tradition, voilà leurs pensées, voilà leur morale.
                         Prenez garde, je ne dis pas que ç’a été la morale d’un de ces grands hommes,
                         mais de tous : tellement que tous d’un consentement unanime sont convenus de
-                        ce point, qu’ils n’ont eu tous là-dessus <pb n="61"/>qu’une même voix, et
+                        ce point, qu’ils n’ont eu tous là-dessus <pb n="61" xml:id="p61"/>qu’une même voix, et
                         souvent que les mêmes expressions. Je ne dis pas que ç’a été leur morale
                         dans un temps, et qu’elle a changé dans un autre : de siecle en siecle ils
                         se sont succédés, et dans tous les siecles ils ont renouvellé les mêmes
@@ -263,7 +260,7 @@
                         et plus donné la force du précepte ? Je ne dis pas que ç’a été une morale
                         fondée sur des raisons propres et particulieres : je vous l’ai déjà fait
                         remarquer, et je le repete ; ils n’employoient point d’autres raisons que
-                        nous, ils n’en avoient point d’autres ; ce qu’ils <pb n="62"/>disoient
+                        nous, ils n’en avoient point d’autres ; ce qu’ils <pb n="62" xml:id="p62"/>disoient
                         contre le théatre et contre ces assemblées mondaines d’où nous tâchons de
                         vous retirer, c’est ce que nous vous disons ; et tout ce qu’ils disoient,
                         c’est ce que nous avons le même droit qu’eux de vous dire. Enfin je ne dis
@@ -281,7 +278,7 @@
                         les désordres secrets de leur cœur, afin de justifier en apparence leur
                         conduite ; d’erreur au moins et d’illusion, parce qu’ils sçavoient combien
                         on aime à s’aveugler soi-même, et combien la passion fait de progrès qu’on
-                        n’apperçoit pas d’abord et qu’on ne veut pas appercevoir, <pb n="63"/>mais
+                        n’apperçoit pas d’abord et qu’on ne veut pas appercevoir, <pb n="63" xml:id="p63"/>mais
                         qui ne deviennent ensuite que trop sensibles.</p>
                     <p>Or je m’en tiens là, mes chers Auditeurs, et que peuvent opposer à des
                         témoignages si exprès, si avérés, si respectables, les <seg>partisans</seg>
@@ -299,7 +296,7 @@
                         matieres, de juges compétents, de juges reconnus et autorisés, ont décidé :
                         mais ce n’est point ainsi qu’en jugent quelques mondains, et ce n’est qu’à
                         eux-mêmes qu’ils veulent s’en rapporter. Observez bien ce que je dis :
-                        quelques mondains. Car du moins si c’étoient <pb n="64"/>les pasteurs des
+                        quelques mondains. Car du moins si c’étoient <pb n="64" xml:id="p64"/>les pasteurs des
                         ames, si c’étoient les maîtres de la morale, si c’étoient les ministres des
                         autels, les directeurs, les prédicateurs de la parole de Dieu, qui
                         maintenant et parmi nous eussent sur la question que je traite, des
@@ -317,7 +314,7 @@
                         une parure, dont tout le desir est de paroître et de se faire remarquer,
                         dont tout le soin est de charmer le temps et de se tenir en garde contre
                         l’ennui qui les surprend, dès que l’amusement leur manque et qu’elles sont
-                        hors de la bagatelle ; <pb n="65"/>mais, ce qu’il y a souvent de plus
+                        hors de la bagatelle ; <pb n="65" xml:id="p65"/>mais, ce qu’il y a souvent de plus
                         déplorable, dont la passion cherche à se nourrir et à s’allumer, lorsqu’il
                         faudroit tout mettre en œuvre pour l’amortir et pour l’éteindre. Voilà les
                         oracles qui veulent se faire écouter, et que l’on n’écoute en effet que
@@ -335,7 +332,7 @@
                         repaître d’idées chimériques, on se remplit la mémoire de fictions et
                         d’intrigues toutes imaginaires, on s’applique à en retenir les traits les
                         plus brillants ; on les sçait tous, et les sçachant tous on ne sçait rien.
-                        Ce seroit peu néanmoins de <pb n="66"/>n’apprendre rien et de ne rien
+                        Ce seroit peu néanmoins de <pb n="66" xml:id="p66"/>n’apprendre rien et de ne rien
                         sçavoir, si c’étoit là le seul mal qu’il y eût à craindre. Mais voici
                         l’essentiel et le point capital à quoi je m’attache : c’est que rien n’est
                         plus capable de corrompre la pureté d’un cœur que ces livres empestés ;
@@ -353,7 +350,7 @@
                         l’esprit du monde s’est peu-à-peu emparé de vous, que vous avez senti celui
                         du christianisme diminuer à proportion et s’affoiblir, que les heureux
                         principes de votre premiere éducation se sont altérés, que vous n’avez plus
-                        eu dans la tête que de folles imaginations, que <pb n="67"/>la galanterie,
+                        eu dans la tête que de folles imaginations, que <pb n="67" xml:id="p67"/>la galanterie,
                         que la vanité ; et que tout le reste, beaucoup plus solide et plus sérieux,
                         vous est devenu insipide, ensuite fatiguant, enfin odieux et insupportable ?
                         Ce n’est point encore assez ; mais ne vous déguisez rien à vous-même, et
@@ -371,8 +368,7 @@
                         et qu’ils ne vous communiquassent leur contagion. Car, pour parler le
                         langage du monde, et pour user du terme propre, qu’est-ce, à le bien
                         définir, que le Roman ? une histoire, disons mieux, une fable proposée sous
-                        la forme d’histoire, où l’amour est traité par art et par regles ; <pb
-                            n="68"/>où la passion dominante et le ressort de toutes les autres
+                        la forme d’histoire, où l’amour est traité par art et par regles ; <pb n="68" xml:id="p68"/>où la passion dominante et le ressort de toutes les autres
                         passions, c’est l’amour ; où l’on affecte d’exprimer toutes les foiblesses,
                         tous les transports, toutes les extravagances de l’amour ; où l’on ne voit
                         que maximes d’amour, que protestations d’amour, qu’artifices et ruses
@@ -391,7 +387,7 @@
                         d’exposer la pureté de son cœur à une ruine si évidente et si
                         prochaine ?</p>
                     <p>Mais, dit-on, en tout ce que je lis, il ne s’agit que d’un amour honnête.
-                        Abus, <pb n="69"/>mes Freres : appellez-vous amour honnête celui qui possede
+                        Abus, <pb n="69" xml:id="p69"/>mes Freres : appellez-vous amour honnête celui qui possede
                         un homme et qui l’enchante jusqu’à lui ravir le sens et la raison, qui
                         absorbe toutes ses penses, qui épuise tous ses soins, et qui aux dépens du
                         Créateur, le rend idolâtre de la créature ? Appellez vous amour honnête
@@ -409,7 +405,7 @@
                         s’il n’y a pas un autre monde où vous pouvez vous borner, s’il n’y a point
                         d’autre politesse dans le christianisme que celle qui va à vous damner, s’il
                         n’y a point d’autres maîtres pour vous instruire et pour vous élever.</p>
-                    <p><pb n="70"/>Belle leçon pour vous, peres et meres, c’est par-là que je
+                    <p><pb n="70" xml:id="p70"/>Belle leçon pour vous, peres et meres, c’est par-là que je
                         conclus cette premiere partie ; et plaise au Ciel que vous en compreniez
                         toute la conséquence ! Vous avez des enfants, et après avoir mis votre
                         premiere étude à leur inspirer les sentiments de la piété chrétienne, la
@@ -427,7 +423,7 @@
                         conduire vous-mêmes à des spectacles d’autant plus capables de les amollir,
                         que ce sont de jeunes cœurs beaucoup plus flexibles et plus sensibles ; mais
                         de leur faire observer les endroits fins et délicats, sur-tout les endroits
-                        vifs et tendres ; mais de les engager vous-mêmes <pb n="71"/>dans des
+                        vifs et tendres ; mais de les engager vous-mêmes <pb n="71" xml:id="p71"/>dans des
                         assemblées, où ils ne voient du monde que ce qu’il a de riant, que ce qu’il
                         a d’éclatant, c’est-à-dire, que ce qu’il a d’attrayant et de séduisant,
                         voilà de quoi vous aurez bien lieu de vous repentir dès cette vie, et de
@@ -449,7 +445,7 @@
                 </div>
                 <div type="section" xml:id="SC_55_2">
                     <head>II. <hi rend="sc">Part.</hi></head>
-                    <p><pb n="72"/>Tout excès, Chrétiens, est un vice ; et la vertu même, qui est la
+                    <p><pb n="72" xml:id="p72"/>Tout excès, Chrétiens, est un vice ; et la vertu même, qui est la
                         regle de tout bien, n’est ni bonne ni honnête dès qu’elle est extrême. Il
                         faut être sage ; mais il faut l’être avec sobriété, dit saint Paul, et qui
                         l’est trop, ne l’est point du tout, parce que la sagesse est essentiellement
@@ -468,8 +464,7 @@
                         et qui va faire tout le fonds de cette seconde partie : c’est le jeu.
                         Principe de mille malheurs, et passion que je ne puis trop fortement
                         combattre, puisqu’elle est la source de tant de désordres.</p>
-                    <p>Vous le sçavez : on joue, mais sans retenue, et l’excès est tel, que ceux <pb
-                            n="73"/>mêmes qui en sont coupables, sont obligés de le condamner. Que
+                    <p>Vous le sçavez : on joue, mais sans retenue, et l’excès est tel, que ceux <pb n="73" xml:id="p73"/>mêmes qui en sont coupables, sont obligés de le condamner. Que
                         j’en prenne à témoin un joueur de profession, et que devant Dieu je le prie
                         de me répondre si son jeu ne va pas trop loin, je dis trop loin selon la
                         raison, le Christianisme et la conscience ; il en conviendra : en effet dans
@@ -487,7 +482,7 @@
                         d’un long travail et à le distraire, mais comme un exercice réglé, comme un
                         emploi, comme un état fixe et une condition ; qui donne au jeu les journées
                         entieres, les semaines, les mois, toute la vie, (car il y en a de ce
-                        caractere, et vous en connoissez.) Une femme <pb n="74"/>qui se sent chargée
+                        caractere, et vous en connoissez.) Une femme <pb n="74" xml:id="p74"/>qui se sent chargée
                         d’elle-même jusqu’à ne pouvoir en quelque sorte se supporter ni souffrir
                         personne, dès qu’une partie de jeu vient à lui manquer ; qui n’a d’autre
                         entretien que de son jeu ; qui du matin au soir n’a dans l’idée que son
@@ -507,7 +502,7 @@
                         idées que nous avons du Christianisme, et que Jesus-Christ lui-même a pris
                         soin de nous tracer : car ce n’est point moi qui les ai imaginées, c’est le
                         Sauveur du monde qui dans toute la suite de son Evangile ne nous a parlé
-                        d’une vie chrétienne <pb n="75"/>que sous la figure d’un combat, d’un
+                        d’une vie chrétienne <pb n="75" xml:id="p75"/>que sous la figure d’un combat, d’un
                         négoce, d’un travail, pour nous faire entendre que ce doit être une vie
                         laborieuse et agissante ; or y a-t-il rien de plus incompatible qu’une vie
                         de travail et une vie de jeu ?</p>
@@ -526,7 +521,7 @@
                         vos domestiques, de vos affaires ; avant le jeu les obligations de votre
                         charge, les devoirs de votre profession, les œuvres de miséricorde et de
                         charité ; avant le jeu, votre avancement dans les voies de Dieu, votre
-                        perfection et tout ce <pb n="76"/>qui y doit contribuer ; quand vous aurez
+                        perfection et tout ce <pb n="76" xml:id="p76"/>qui y doit contribuer ; quand vous aurez
                         satisfait à tout cela, vous pourrez alors chercher quelque relâche dans un
                         jeu honnête et borné, vous pourrez vous y récréer avec la paix du cœur, et
                         même, si je l’ose dire, avec une espece de bénédiction de la part du ciel.
@@ -544,7 +539,7 @@
                         fonctions, qu’il vous fera oublier tout ce que vous devez à Dieu, tout ce
                         que vous devez au prochain, et tout ce que vous vous devez à vous-mêmes ;
                         que vous n’y distinguerez ni les jours les plus solemnels ni les jours
-                        ordinaires, et que sans réserve <pb n="77"/>toutes vos heures y seront
+                        ordinaires, et que sans réserve <pb n="77" xml:id="p77"/>toutes vos heures y seront
                         employées, je dirai que c’est au moins une dissipation criminelle du temps
                         que Dieu vous a donné, et une profanation dont vous aurez à lui
                         répondre.</p>
@@ -563,7 +558,7 @@
                         fâcheuses suites : ainsi on a des dettes à payer, on a une nombreuse famille
                         à entretenir et des enfants à pourvoir, on a des domestiques à récompenser,
                         on a des aumônes à faire et des pauvres à soulager ; à peine les revenus y
-                        peuvent-ils suffire, et si l’on étoit <pb n="78"/>fidele à remplir ces
+                        peuvent-ils suffire, et si l’on étoit <pb n="78" xml:id="p78"/>fidele à remplir ces
                         devoirs, on ne trouveroit plus rien, ou presque rien pour le jeu. Toutefois
                         on veut jouer, et c’est un principe qu’on a tellement posé dans le systême
                         de sa vie, que nulle considération n’en fera jamais revenir ; on le veut à
@@ -582,7 +577,7 @@
                         les éloigne de ses yeux, on les confie à des étrangers, à qui l’on en donne
                         la charge, sans y ajouter les moyens de la soutenir ; on ne les a pas
                         actuellement ces moyens, à ce qu’on prétend, mais pourtant on a de quoi
-                        jouer. Parce qu’il faudroit diminuer <pb n="79"/>de son jeu, si l’on vouloit
+                        jouer. Parce qu’il faudroit diminuer <pb n="79" xml:id="p79"/>de son jeu, si l’on vouloit
                         compter exactement avec des domestiques et les satisfaire, on reçoit leurs
                         services, on les exige à la rigueur, et du reste on ne veut point entendre
                         parler de récompenses ; c’est une matiere sur laquelle il ne leur est pas
@@ -601,7 +596,7 @@
                         moment et l’occasion se présente de jouer. Tout cela veut dire qu’on
                         sacrifie à son jeu les droits les plus inviolables et les intérêts les plus
                         sacrés ; que l’on fait du jeu sa premiere loi ; que pour ne pas se détacher
-                        du jeu, on se <pb n="80"/>détache de toute autre chose, et que dans la
+                        du jeu, on se <pb n="80" xml:id="p80"/>détache de toute autre chose, et que dans la
                         concurrence de toute autre chose avec le jeu, quelque essentielle qu’elle
                         soit par elle-même, on retient le jeu et l’on renonce à tout le reste. Or
                         comment appellez-vous cela ? et si ce n’est pas un excès, faites-m’en
@@ -619,7 +614,7 @@
                         également odieux et à Dieu et aux hommes, à Dieu qui voit l’ordre de sa
                         providence renversé et ses loix violées, aux hommes qui se trouvent par-là
                         frustrés de ce qui leur est dû et de ce qui leur appartient par de si justes
-                        titres. Ah ! mon cher Auditeur, acquittez-vous, voilà <pb n="81"/>votre
+                        titres. Ah ! mon cher Auditeur, acquittez-vous, voilà <pb n="81" xml:id="p81"/>votre
                         principale obligation : n’engagez pas pour un vain plaisir le sang de vos
                         freres et la substance des pauvres : jusques-là il n’y a point de jeu pour
                         vous ou il ne doit point y en avoir, et pour peu que vous y puissiez mettre,
@@ -638,7 +633,7 @@
                     <p>Qu’on dise après cela que les temps sont difficiles, qu’on a bien de la peine
                         à se maintenir dans son état, qu’on est obligé de se resserrer, et qu’on ne
                         peut pas aisément se dessaisir du peu qu’on a : je ne contesterai point avec
-                        vous, Chrétiens, sur le malheur des temps ; sans en <pb n="82"/>être aussi
+                        vous, Chrétiens, sur le malheur des temps ; sans en <pb n="82" xml:id="p82"/>être aussi
                         instruit que vous, je le connois assez pour convenir qu’on doit maintenant
                         plus que jamais user de prudence et de réserve dans l’administration des
                         biens ; mais n’est ce pas justement ce qui acheve de vous condamner, et quel
@@ -656,8 +651,7 @@
                         nouveau la colere du ciel ? Vous me répondrez que vous vous retranchez en
                         effet ; mais par où commencez-vous ce retranchement ? est-ce par le jeu ?
                         non sans doute. Mais par où encore une fois ? par le pain que devroient
-                        recevoir de vous ceux que la famine dévore. Par où ? par les besoins <pb
-                            n="83"/>domestiques d’une maison, où tout manque afin que votre jeu ne
+                        recevoir de vous ceux que la famine dévore. Par où ? par les besoins <pb n="83" xml:id="p83"/>domestiques d’une maison, où tout manque afin que votre jeu ne
                         manque pas. Par où ? par tout ce qui n’a point de rapport au jeu, ou plutôt,
                         fût-ce le nécessaire même, par tout ce qui peut servir au jeu, en le
                         dérobant aux usages les plus essentiels. Je sçais qu’à considérer ce que je
@@ -675,7 +669,7 @@
                         dépendre d’un seul coup la fortune de toute une famille : si je parlois d’un
                         jeune homme, qui sans ménagement et sans réflexion, emprunte de tous les
                         côtés et à toutes conditions, et ne pouvant encore se dépouiller d’un
-                        héritage qu’il n’a-pas, se dépouille au <pb n="84"/>moins par avance de ses
+                        héritage qu’il n’a-pas, se dépouille au <pb n="84" xml:id="p84"/>moins par avance de ses
                         droits, et ne compte pour rien toute une succession qu’il perd, pourvu qu’il
                         joue. Ces exemples peut-être ne sont-ils pas aussi communs qu’ils ont été
                         autrefois ; mais ne le sont-ils pas encore assez pour vous instruire, et
@@ -693,7 +687,7 @@
                         les desirs de leur cœur ? Quels regards fixes et immobiles ! quelle
                         attention ! il ne faut pas un moment les troubler, pas une fois les
                         interrompre, sur-tout si l’envie du gain s’y mêle. Or elle y entre presque
-                        toujours. De quels mouvements <pb n="85"/>divers l’ame est-elle agitée selon
+                        toujours. De quels mouvements <pb n="85" xml:id="p85"/>divers l’ame est-elle agitée selon
                         les divers caprices du hazard ! de là les dépits secrets et les mélancolies,
                         de là les aigreurs et les chagrins, de là les désolations et les désespoirs,
                         les coleres et les transports, les blasphêmes et les imprécations. Je
@@ -711,8 +705,7 @@
                         vous a permis certaines distractions et certains délassements ? lui qui est
                         la raison même, peut-il approuver un jeu qui blesse toute la raison ? et lui
                         qui est la regle par essence, peut-il vous permettre un jeu où tout est
-                        déréglé ? Il vaut mieux jouer, dites-vous, que de parler du prochain, <pb
-                            n="86"/>que de former des intrigues, que d’abandonner son esprit à des
+                        déréglé ? Il vaut mieux jouer, dites-vous, que de parler du prochain, <pb n="86" xml:id="p86"/>que de former des intrigues, que d’abandonner son esprit à des
                         idées dangereuses. Beau prétexte, à quoi je réponds qu’il ne faut, ni parler
                         mal du prochain, ni former des intrigues, ni donner entrée dans votre esprit
                         à des idées sensuelles, ni jouer sans mesure et à l’excès, comme vous
@@ -734,8 +727,7 @@
                             eam.</hi><note place="margin"><p><hi rend="i">Matth.
                             c. 18.</hi></p></note> Or si c’est enfin votre pied, ne l’épargnez pas,
                         parce qu’il vaut bien mieux perdre votre pied, votre main, votre œil, tout
-                        votre corps, que de vous mettre en danger de perdre votre ame ; <pb n="87"
-                            /><hi rend="i">Bonum tibi est</hi>. Pourquoi pensez-vous, Chrétiens, que
+                        votre corps, que de vous mettre en danger de perdre votre ame ; <pb n="87" xml:id="p87"/><hi rend="i">Bonum tibi est</hi>. Pourquoi pensez-vous, Chrétiens, que
                         le fils de Dieu se servît de cet exemple du pied, de l’œil, de la main ?
                         C’étoit, répond Saint Chrysostome, pour nous faire entendre que les choses
                         même les plus nécessaires, celles qui nous touchent de plus près, et dont il
@@ -753,7 +745,7 @@
                         c’est mon pied qui me soutient et qui me conduit ; mais afin de me garantir
                         d’une chûte mortelle, dont je serois menacé en les conservant, il n’y a ni
                         œil, ni pied, ni main que je doive ménager : il faut sacrifier tout pour
-                        sauver <pb n="88"/>l’essentiel et le capital, qui est la vie de l’ame : <hi
+                        sauver <pb n="88" xml:id="p88"/>l’essentiel et le capital, qui est la vie de l’ame : <hi
                             rend="i">Si manus tua vel pes tuus scandalisat te, abscide eum et
                             projice abs te.</hi> Voilà, mes chers Auditeurs, le sens des paroles du
                         fils de Dieu. Or à combien plus forte raison cette grande maxime doit-elle
@@ -772,7 +764,7 @@
                         le rapport qu’elles ont à nous ; quand il s’agit de m’accorder un
                         divertissement ou de m’en priver, l’idée générale qu’on en a ne suffit pas
                         pour former ma résolution ; mais si j’y reconnois quelque endroit par où il
-                        me puisse être nuisible, <pb n="89"/>je dois dès-lors le rejetter et m’en
+                        me puisse être nuisible, <pb n="89" xml:id="p89"/>je dois dès-lors le rejetter et m’en
                         éloigner : <hi rend="i">Abscide eum, et projice abs te.</hi> C’est ainsi que
                         la foi me l’enseigne, et c’est ainsi que la seule raison me le dicte.</p>
                     <p>Un exemple, Chrétiens, vous fera mieux comprendre ma pensée. De tous les
@@ -790,8 +782,7 @@
                         certaines promenades, et ce qu’elles deviennent tous les jours ; vous sçavez
                         ce qui les fait préférer à d’autres, et ce qu’on y va chercher. Concours
                         tumultueux et confuse multitude, qui sert de scene à la vanité et à la
-                        mondanité ; s’il y a une beauté humaine à produire et à faire connoître, <pb
-                            n="90"/>s’il y a un ornement et une parure à faire briller, n’est-ce pas
+                        mondanité ; s’il y a une beauté humaine à produire et à faire connoître, <pb n="90" xml:id="p90"/>s’il y a un ornement et une parure à faire briller, n’est-ce pas
                         là qu’on l’étale avec plus d’éclat et plus de pompe ? Au milieu de tant
                         d’objets différents qui tour à tour et comme par des évolutions réglées,
                         passent sans cesse et repassent, de quoi les yeux sont-ils frappés, et à
@@ -810,7 +801,7 @@
                         réflexion y exposer une jeune personne, qu’elle doit avoir égard aux temps,
                         aux lieux, à bien des circonstances dont elle n’a guere été en peine jusqu’à
                         présent, c’est ce qu’on traitera d’exagération, et sur quoi l’on ne voudra
-                            <pb n="91"/>pas m’en croire. Mais moi je sçais ce qu’en ont pensé les
+                            <pb n="91" xml:id="p91"/>pas m’en croire. Mais moi je sçais ce qu’en ont pensé les
                         Peres de l’Eglise, et c’est à eux que je m’en rapporterai ; car ce n’est pas
                         d’aujourd’hui que ce scandale a paru dans le monde, et que les prédicateurs
                         et les conducteurs des ames se sont employés à le retrancher du Royaume de
@@ -828,7 +819,7 @@
                         sortoit de là, c’étoit ou la piété ou la nécessité qui seule l’en devoit
                         tirer ; que s’il y avoit quelque divertissement à prendre, il falloit éviter
                         non-seulement le soupçon, mais l’ombre même du plus léger soupçon ; que sous
-                        les yeux d’une mere <pb n="92"/>discrette et vigilante elle devoit régler
+                        les yeux d’une mere <pb n="92" xml:id="p92"/>discrette et vigilante elle devoit régler
                         tous ses pas, et que de disparoître un moment, c’étoit une atteinte à
                         l’intégrité de sa réputation ; qu’elle devoit donc toujours avoir un garant
                         de sa conduite et un témoin de ses entretiens et de ses démarches ; enfin
@@ -846,7 +837,7 @@
                         rencontres et de vrais rendez-vous ? qu’auroient-ils dit de ces promenades….
                         Je ne m’explique point, mes chers Auditeurs, et je dois ce respect au saint
                         lieu où nous sommes assemblés ; tel est le désordre que la pudeur même
-                        m’oblige de le taire, et qu’on ne peut mieux <pb n="93"/>vous le reprocher
+                        m’oblige de le taire, et qu’on ne peut mieux <pb n="93" xml:id="p93"/>vous le reprocher
                         que par le silence.</p>
                     <p>Mais vous, Chrétiens, que devez-vous penser de tout cela ? et qu’en doivent
                         craindre tant de filles et de femmes du monde ? Sont-elles plus saintes que
@@ -865,7 +856,7 @@
                         intéresser, et dont vous ne vous êtes pas apperçus ; parce que vous êtes
                         mieux instruits de ce qui se passe chez les autres que chez vous. Quoi qu’il
                         en soit, avec toutes les connoissances que vous avez et qui doivent sans
-                        doute vous <pb n="94"/>suffire, pouvez-vous négliger un point aussi
+                        doute vous <pb n="94" xml:id="p94"/>suffire, pouvez-vous négliger un point aussi
                         important que celui-là ? pouvez-vous souffrir une licence dont vous
                         n’ignorez pas le péril, et qu’il est si nécessaire de réprimer ? la
                         pouvez-vous tolérer en celles qui vous appartiennent de plus près, en celles
@@ -883,7 +874,7 @@
                         excessif dans son étendue, ou d’être scandaleux dans ses effets, il n’y a
                         point dans le monde de divertissement que vous ne deviez avoir en horreur,
                         bien-loin de le chercher et de vous le procurer : pourquoi ? parce que l’un
-                        de ces trois caracteres suffit pour vous damner, et <pb n="95"/>qu’il n’y a
+                        de ces trois caracteres suffit pour vous damner, et <pb n="95" xml:id="p95"/>qu’il n’y a
                         point de divertissement qui puisse compenser la perte de votre ame, et que
                         vous ne deviez sacrifier pour votre salut. Je le veux, la vie pour vous en
                         sera moins agréable, elle sera même insipide et triste, et s’il faut porter
@@ -902,7 +893,7 @@
                         serez doit beaucoup vous coûter. Mais en second lieu, il y a, et j’en suis
                         convenu d’abord, j’en conviens encore, il y a des récréations et des
                         divertissements dans la vie de plus d’une espece : il y en a d’honnêtes,
-                        sans excès <pb n="96"/>et sans danger, et voilà ceux qui vous sont accordés.
+                        sans excès <pb n="96" xml:id="p96"/>et sans danger, et voilà ceux qui vous sont accordés.
                         Les premiers Chrétiens avoient eux-mêmes leurs jours et leurs heures de
                         réjouissance, mais d’une réjouissance chrétienne, c’est-à-dire d’une
                         réjouissance sage et mesurée, innocente et conforme à leur profession.
@@ -919,8 +910,7 @@
                         reposer qu’en lui, cette joie divine qui est au dessus de tous les sens, et
                         que l’homme terrestre et charnel ne peut comprendre. Mettez-vous dans la
                         disposition de la goûter, et elle se fera sentir à vous. Ce n’est point dans
-                        le bruit et les assemblées du monde qu’on la trouve, ce n’est point dans <pb
-                            n="97"/>les jeux et les spectacles du monde, c’est dans le silence de la
+                        le bruit et les assemblées du monde qu’on la trouve, ce n’est point dans <pb n="97" xml:id="p97"/>les jeux et les spectacles du monde, c’est dans le silence de la
                         solitude et dans le repos d’une vie sainte et retirée. Plus vous renoncerez
                         aux divertissements humains, et plus cette joie céleste se répandra avec
                         abondance dans vos cœurs ; elle les pénétrera, elle les inondera, elle les
