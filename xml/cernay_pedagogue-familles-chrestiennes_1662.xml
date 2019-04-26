@@ -6,8 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title>Pédagogue des familles chrétiennes</title>
-        <author key="Cernay, abbé (16??-16??)">Abbé Cernay</author>
-        <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+        <author key="Cernay (16.. ; Abbé)">Abbé Cernay</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -18,6 +17,14 @@
         <respStmt>
           <name>Clotilde Thouret</name>
           <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Doranne Lecercle</name>
+          <resp>Contributeur</resp>
+        </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>Édition XML</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -45,14 +52,13 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <author>Cernay, abbé</author>, <title>Pédagogue des familles chrestiennes. Contenant un
+        <bibl>Abbé Cernay, <hi rend="i">Pédagogue des familles chrestiennes. Contenant un
             recueil de plusieurs Instructions sur diverses Matieres. Divisé en quatre parties.
-            Utiles aux Curez et autres Ecclesiastiques, pour s'aquiter de leur devoir: Aux Chefs de
-            Familles pour l'instruction de leurs Enfans et Domestiques, et à toutes sortes de
+            Utiles aux Curez et autres Ecclesiastiques, pour s’aquiter de leur devoir: Aux Chefs de
+            Familles pour l’instruction de leurs Enfans et Domestiques, et à toutes sortes de
             Personnes qui veulent vivre selon Dieu. Recueilly par un Prestre du Seminaire de S.
-            Nicolas du Chardonnet</title>, <pubPlace>Paris</pubPlace>, <publisher>Pierre de
-            Bresche</publisher>, <date>1662</date>, <biblScope>p. 443-453</biblScope>. </bibl>
+            Nicolas du Chardonnet</hi>, <pubPlace>Paris</pubPlace>, <publisher>Pierre de
+            Bresche</publisher>, 1662, <biblScope>p. 443-453</biblScope>. </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -66,22 +72,22 @@
   </teiHeader>
   <text>
     <body>
-      <div>
+      <div type="frontispiece">
         <head rend="small">[FRONTISPICE]</head>
         <p rend="center"><hi rend="uppercase">Le<lb/> Pédagogue<lb/> des familles<lb/>
             chrestiennes.</hi><lb/> Contenant un Recueil de plusieurs<lb/> Instructions sur diverses Matieres.<lb/>
           <hi rend="i">Divisé en quatre parties.</hi><lb/> Utiles aux Curez et autres
-          Ecclesiastiques, pour<lb/> s'aquiter de leur devoir: Aux Chefs de Familles<lb/> pour
-          l'instruction de leurs Enfans et Domesti-<lb/>ques, et à toutes sortes de Personnes qui
+          Ecclesiastiques, pour<lb/> s’aquiter de leur devoir: Aux Chefs de Familles<lb/> pour
+          l’instruction de leurs Enfans et Domesti-<lb/>ques, et à toutes sortes de Personnes qui
           veu-<lb/>lent vivre selon Dieu.<lb/>
           <hi rend="i">Recueilly par un Prestre du Seminaire de</hi><lb/>
           <hi rend="sc">S. Nicolas du Chardonnet</hi><lb/>Chez <hi rend="sc">Pierre de Bresche</hi>,
           Libraire et<lb/> Imprimeur Ordinaire de la Reyne Mere, ruë<lb/> S. Jacques, devant les
-          charniers S. Benoist,<lb/>à l'Image S. Joseph et S. Ignace.<lb/>M DC LXII<lb/><hi rend="i"
+          charniers S. Benoist,<lb/>à l’Image S. Joseph et S. Ignace.<lb/>M DC LXII<lb/><hi rend="i"
             >Avec Approb. des Docteurs et Privilege du Roy</hi></p>
       </div>
       <div type="chapter">
-        <pb n="443"/>
+        <pb n="443" xml:id="p443"/>
         <head>Instruction chrétienne sur la Comédie.</head>
         <p><hi rend="i">Il y a-t-il longtemps que la Comédie est au monde ?</hi></p>
         <p>Oui : car elle y est dès le temps du Paganisme et de l’Idolâtrie, qui était la saison
@@ -98,7 +104,7 @@
             les souffrir, et ils ne se seront peut-être pas oubliés à les décrier ou à les
             châtier ?</hi></p>
         <p>Il y en a assez de preuves par les Histoires.</p>
-        <p><hi rend="i">Apprenez m’en seulement quelques-unes en passant, <pb n="444"/>puisque
+        <p><hi rend="i">Apprenez m’en seulement quelques-unes en passant, <pb n="444" xml:id="p444"/>puisque
             assurément ce ne sont pas là vos meilleurs Auteurs ?</hi></p>
         <p>Je le ferai aussi pour confondre par là, les mauvais Chrétiens et les libertins.</p>
         <p><hi rend="i">Je serai très content d’en savoir pour ce sujet quelque chose ?</hi></p>
@@ -123,14 +129,14 @@
           des assistants.</p>
         <p><hi rend="i">Mais pourquoi appelle-t-on ces gens -à Comédiens, et leurs Jeux
             Comédie ?</hi></p>
-        <p>L’Origine de ce nom vient d’un <hi rend="sc">Comus</hi>, que les <pb n="445"/>Idolâtres
+        <p>L’Origine de ce nom vient d’un <hi rend="sc">Comus</hi>, que les <pb n="445" xml:id="p445"/>Idolâtres
           ont jadis adoré pour le Dieu de la Gourmandise et de l’Impureté, à la louange de qui les
-          débauchés faisaient force<note place="bottom" resp="editor"> [NDE] force - beaucoup
+          débauchés faisaient force<note place="bottom" resp="editor">[NDE] force - beaucoup
             de.</note> vers lascifs, qu’ils récitaient en public avec tant de licence, qu’il fallut
           y employer la sévérité des Juges.</p>
         <p><hi rend="i">Quelle punition leur ordonnèrent-ils ?</hi></p>
         <p>Il faut que ce fût quelque peine corporelle, au moins Horace<note resp="author"
-            place="margin">« <quote>Vertere ergo stilum formidine fustis.</quote> »</note> parlant
+            place="margin"><quote>« Vertere ergo stilum formidine fustis. »</quote></note> parlant
           d’eux en l’une de ses Satires, dit.</p>
         <quote>
           <lg>
@@ -155,7 +161,7 @@
           contraire à la vertu et aux bonnes mœurs par la raison ci-devant dite.</p>
         <p><hi rend="i">Comment cela !</hi></p>
         <p>Parce que le propre de la vertu, est de régler et réprimer les sales passions les
-          soumettant à la raison : <pb n="446"/>où la Comédie les produit et les étale de toute leur
+          soumettant à la raison : <pb n="446" xml:id="p446"/>où la Comédie les produit et les étale de toute leur
           force, en approuve tous les succès, et y donnent des récompenses.</p>
         <p><hi rend="i">Il y a t-il quelque autre raison à ajouter ?</hi></p>
         <p>Oui : car l’on voit que tout ce qui se représente pour l’ordinaire en tels Jeux, sont des
@@ -176,11 +182,11 @@
           habits, les postures, bref tout le reste de ce honteux attirail.</p>
         <p><hi rend="i">Y a t-il à redire en cela ?</hi></p>
         <p>Beaucoup très certainement : car je ne sais comme l’on peut souffrir ces grands fainéants
-          ou valets travestis, suivis de coureuses<note resp="editor" place="bottom"> [NDE] coureuse
+          ou valets travestis, suivis de coureuses<note resp="editor" place="bottom">[NDE] coureuse
             - prostituée.</note> et Damoiselles faites à la hâte, tout plein de fard, de plâtres, de
           mouches, et de farine, et accompagnés des gestes impudents, de regards lascifs, de
           discours insolents, de déguisement d’hommes en femmes, et de femmes en hommes, le tout
-          avec si peu de honte, qu’il faudrait <pb n="447"/>leur être semblable pour les pouvoir
+          avec si peu de honte, qu’il faudrait <pb n="447" xml:id="p447"/>leur être semblable pour les pouvoir
           approuver.</p>
         <p><hi rend="i">Quand il y aurait quelque chose à reprendre à leurs personnes, néanmoins les
             Histoires qu’ils représentent sont toujours assez agréables ?</hi></p>
@@ -207,7 +213,7 @@
           Comédie ?</hi></p>
         <p>C’est aussi ce qui est défendu par toutes les lois divines et humaines, et qui fait ce
           qu’on a appelé Spectacle.</p>
-        <pb n="448"/>
+        <pb n="448" xml:id="p448"/>
         <p><hi rend="i">L’Ecriture Sainte est-elle contraire à tels Spectacles et
           recréations ?</hi></p>
         <p>Il ne faut que voir ce qu’en disent les Pères de l’Eglise, qui l’allèguent tous sur cette
@@ -223,7 +229,7 @@
           telles occupations, et de renoncer par là à Jésus-Christ, ainsi qu’ils auraient avant fait
           au Diable.</p>
         <p><hi rend="i">Mais ces Saints Pères ont-ils improuvé<note place="bottom" resp="editor">
-              [NDE] improuvé = réprouvé.</note> le plaisir qu’on prend en telle rencontre, où les
+NDE improuvé = réprouvé.</note> le plaisir qu’on prend en telle rencontre, où les
             assistants n’ont aucun mauvais desseins ?</hi></p>
         <p>C’est sur quoi ils ont exagéré davantage, n’ayant pu raisonnablement souffrir,<note
             resp="author" place="margin"> Tert. de spect. c. 4. </note> que les fidèles employassent
@@ -232,12 +238,12 @@
           aux Ephésiens<note resp="author" place="margin"> Ad Eph. 5. 3. </note> de nommer aucune
           sorte d’impureté, de vilenie, de sottise, ni de bouffonnerie impertinente. Et écrivant à
             Timothée,<note resp="author" place="margin"> Ad Tim. 2. 16. </note> il lui recommande
-          par exprès<note resp="editor" place="bottom"> [NDE] par exprès - expressément.</note> de
+          par exprès<note resp="editor" place="bottom">[NDE] par exprès - expressément.</note> de
           ne se point amuser à aucuns discours profanes et vains, qui ne servent que pour
           l’impiété.</p>
         <p><hi rend="i">Ces Saints Pères ne veulent-ils donc point permettre qu’on se puisse
             réjouir ?</hi></p>
-        <p>Tant s’en faut ; ils le conseillent après le même <pb n="449"/>Saint Paul, qui ordonne
+        <p>Tant s’en faut ; ils le conseillent après le même <pb n="449" xml:id="p449"/>Saint Paul, qui ordonne
           aux Philippiens<note resp="author" place="margin">Phil. 4.</note> de se réjouir, pourvu
           que ce soit selon Dieu, et non pas selon le Diable : ainsi que les Saints l’ont
           entendu.</p>
@@ -267,8 +273,7 @@
         <p>Il y paraît par ce que l’Empereur Théodose<note resp="author" place="margin"> L. ad
             bestias ! cod. Theod. l. 10. l. 2. §. 1. art. prator. ff. de his qui neant infam.
           </note> ordonna qu’on les exposât aux bêtes féroces, et par tout le droit Romain ils sont
-          déclarés infâmes, c’est-à-dire, indignes d’être reçus en témoignage, ni <pb n="450"
-          />d’exercer Offices publics.</p>
+          déclarés infâmes, c’est-à-dire, indignes d’être reçus en témoignage, ni <pb n="450" xml:id="p450"/>d’exercer Offices publics.</p>
         <p><hi rend="i">Nos Rois les ont-ils aussi condamnés ?</hi></p>
         <p>Il suffit pour cela de lire l’Ordonnance de Charles IX. aux Etats d’Orléans, et celle
           d’Henri III. à ceux de Blois, surtout aux articles faits contre les farceurs, bateleurs,
@@ -294,7 +299,7 @@
           à leur subsistance, et déclarent que c’est un très grand péché.</p>
         <p><hi rend="i">Il y a pourtant des Princes et Grands Seigneurs qui en entretiennent à leur
             dépens ?</hi></p>
-        <pb n="451"/>
+        <pb n="451" xml:id="p451"/>
         <p>Cette action des Grands, ni leur qualité ne les rendent pas impeccables, au contraire la
           parole de Dieu enseigne, que les Grands et les Puissants seront les plus puissamment
             châtiés,<note resp="author" place="margin"> Sap. 6. 7. </note> et ce, tant pour leur
@@ -302,7 +307,7 @@
           exemples.</p>
         <p><hi rend="i">Cependant S. François de Sales dit que les Comédies ne sont nullement choses
             mauvaises en leur substance, ains indifférentes.</hi></p>
-        <p>Cela est vrai, mais il faut lire tout le passage qui dit qu'elles sont dangereuses,<note
+        <p>Cela est vrai, mais il faut lire tout le passage qui dit qu’elles sont dangereuses,<note
             resp="author" place="margin"> Introd. p. 2. ch. 23. </note> et s’y affectionner cela est
           encore plus dangereux : ce sont les termes qui ne parlent que des Comédies honnêtes, et
           non de celles qu’on joue ordinairement et qui sont défendues comme nous avons dit : De
@@ -320,8 +325,8 @@
         <p>2. Ce n’est qu’un exercice honnête pour les rendre plus hardis et capables de parler en
           public, selon les Emplois que la Providence et leurs parents leur pourra donner.</p>
         <p>3. Ce qu’ils représentent en tels lieux, est souvent fort sérieux et en langage Latin,
-          qui ne divertit pas <pb n="452"/>beaucoup le Peuple, quoiqu’ils contentent leurs amis qui
-          les voient réciter leur rôlet<note place="bottom" resp="editor"> [NDE] rôlet = petit
+          qui ne divertit pas <pb n="452" xml:id="p452"/>beaucoup le Peuple, quoiqu’ils contentent leurs amis qui
+          les voient réciter leur rôlet<note place="bottom" resp="editor">[NDE] rôlet = petit
             rôle.</note> de bonne grâce.</p>
         <p>4. C’est que ces jeunes gens ne seront mis en ces Jeux, qu’une fois ou deux pendant le
           cours de leurs études : Ce qui pris tout ensemble ne peut produire aucun mauvais effet
@@ -342,12 +347,12 @@
           il appartenait à des Confrères, qui eussent peut-être mieux fait de la laisser inutile,
           que d’y mettre des infâmes qui détruisent ce que les premiers y avaient établi à bonne
           intention.</p>
-        <p><hi rend="i">J'ai oublié à vous demander si d’aller à la Comédie était péché mortel ou
+        <p><hi rend="i">J’ai oublié à vous demander si d’aller à la Comédie était péché mortel ou
             véniel ?</hi></p>
         <p>Je crois vous avoir dit que les assistants et les joueurs, étaient presque également
           coupables, et que les Pères de l’Eglise ont appelé ce péché très grief<note resp="editor"
-            place="bottom"> [NDE] grief = grave.</note>, qui peut se rendre pire par les diverses
-          circonstances ; ce qui doit suffire à des vrais Chrétiens qui croient <pb n="453"/>en un
+            place="bottom">[NDE] grief = grave.</note>, qui peut se rendre pire par les diverses
+          circonstances ; ce qui doit suffire à des vrais Chrétiens qui croient <pb n="453" xml:id="p453"/>en un
           Dieu, à qui le péché véniel a même été mortel, et qui est mort indistinctement pour tous
           les péchés des hommes.</p>
       </div>
