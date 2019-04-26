@@ -6,8 +6,8 @@
     <fileDesc>
       <titleStmt>
         <title>Science du chrétien</title>
-        <author key="Bonnefons, Amable (16??-16??)">Amable Bonnefons</author>
-        <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+        <author key="Bonnefons, Amable (1600-1653)"
+          ref="https://data.bnf.fr/fr/12071749/amable_bonnefons/">Amable Bonnefons</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -19,6 +19,10 @@
           <name>Clotilde Thouret</name>
           <resp>Responsable d’édition</resp>
         </respStmt>
+        <respStmt>
+          <name>Doranne Lecercle</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
@@ -26,23 +30,31 @@
         <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/bonnefons_science-chrestien_1646</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-            <p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
-            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
-            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
-            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+            <p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
+              « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons : «
+              Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC
+              BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures. La
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <author>Amable Bonnefons</author>, 
-          <title>Des comedies <hi rend="i">in </hi> Premier volume de la science du chrestien qui apprend I. Ce qu'il doit croire. II. Ce qu'il doit faire. III. Et ce qu'il doit fuyr. Par le P. Amable Bonnefons de la Compagnie de Jesus. Troisiesme Edition Augmentée du Catechisme des Peres et Docteurs de l'Eglise</title>, 
-          <pubPlace>Paris</pubPlace>, 
-          <publisher>Pierre de Breche père et fils et Mathurin et Jean Henault</publisher>, 
-          <date>1646</date>, 
-          <biblScope>p. 638-643</biblScope>.
-        </bibl>
+        <bibl>Amable Bonnefons <author>Amable Bonnefons</author>, « Des comedies » in <hi rend="i"
+            >Premier volume de la science du chrestien qui apprend I. Ce qu’il doit croire. II. Ce
+            qu’il doit faire. III. Et ce qu’il doit fuyr. Par le P. Amable Bonnefons de la Compagnie
+            de Jesus. Troisiesme Edition Augmentée du Catechisme des Peres et Docteurs de
+            l’Eglise</hi>, <pubPlace>Paris</pubPlace>, <publisher>Pierre de Breche père et fils et
+            Mathurin et Jean Henault</publisher>, 1646, p. 638-643.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -56,31 +68,107 @@
   </teiHeader>
   <text>
     <body>
-      <div>
+      <div type="frontispiece">
         <head rend="small">[FRONTISPICE]</head>
-        <p rend="center"><hi rend="sc">Premier volume<lb/> de la</hi> SCIENCE<lb/> <hi rend="sc">du Chrestien<lb/> qui apprend</hi><lb/> I. <hi rend="i">Ce qu'il doit croire.</hi><lb/> II. <hi rend="i">Ce qu'il doit faire.</hi><lb/> III. <hi rend="i">Et ce qu'il doit fuyr.</hi><lb/> Par le <hi rend="sc">P. Amable Bonnefons</hi><lb/> de la Compagnie de <hi rend="sc">Jesus.</hi><lb/> <hi rend="i">Troisiesme Edition Augmentée<lb/> du Catechisme<lb/> des Peres et Docteurs de l'Eglise.</hi><lb/><hi rend="sc">A Paris</hi><lb/>Chez <hi rend="sc">Pierre de Breche</hi> Père et Fils, ruë<lb/> S. Etienne des Grecs, à l'Image S. Joseph.<lb/> <hi rend="sc"> et<lb/>Mathurin et Jean Henault,</hi> ruë Sainct<lb/> Jacques, et au Palais, l'Ange Gardien.<lb/><hi rend="sc">MDCXLVI.</hi><lb/><hi rend="i">Avec Approbation et Privilege du Roy</hi></p></div>
-      
+        <p rend="center"><hi rend="sc">Premier volume<lb/> de la</hi> SCIENCE<lb/>
+          <hi rend="sc">du Chrestien<lb/> qui apprend</hi><lb/> I. <hi rend="i">Ce qu’il doit
+            croire.</hi><lb/> II. <hi rend="i">Ce qu’il doit faire.</hi><lb/> III. <hi rend="i">Et
+            ce qu’il doit fuyr.</hi><lb/> Par le <hi rend="sc">P. Amable Bonnefons</hi><lb/> de la
+          Compagnie de <hi rend="sc">Jesus.</hi><lb/>
+          <hi rend="i">Troisiesme Edition Augmentée<lb/> du Catechisme<lb/> des Peres et Docteurs de
+            l’Eglise.</hi><lb/><hi rend="sc">A Paris</hi><lb/>Chez <hi rend="sc">Pierre de
+            Breche</hi> Père et Fils, ruë<lb/> S. Etienne des Grecs, à l’Image S. Joseph.<lb/>
+          <hi rend="sc"> et<lb/>Mathurin et Jean Henault,</hi> ruë Sainct<lb/> Jacques, et au
+          Palais, l’Ange Gardien.<lb/><hi rend="sc">MDCXLVI.</hi><lb/><hi rend="i">Avec Approbation
+            et Privilege du Roy</hi></p>
+      </div>
       <div type="chapter">
         <head><hi rend="i">Des comédies.</hi></head>
-        <pb n="638"/><p><hi rend="sc">Le</hi><note resp="author" place="margin">Du dommage que les comédies apportent.</note> 2. <hi rend="sc">Neoph.</hi><note place="bottom" resp="editor"> [NDE] Le Néoph. = Le Néophyte.</note> Saint Chrysostome, en l’Homélie 8. qu’il a fait de la Pénitence, décrit fort bien le sixième ennemi de notre chasteté, lorsque parlant des comédies sales et déshonnêtes, il les appelle la boutique commune de l’impudicité, l’école publique de l’incontinence, la chaire pestilente, un théâtre de toute impureté, un hôpital rempli de toute sorte de maladies contagieuses. En un mot, une fournaise de Babylone, en laquelle l’âme chaste se brûle, et se consomme dans les <pb n="639"/>flammes ardentes de la concupiscence. Le grand Tertullien ne donne qu’un coup de pinceau pour décrire la comédie, mais ses couleurs sont si noires qu’elles donnent de l’horreur. Il appelle ces comédies publiques, « <quote>le particulier consistoire de l’impudicité</quote> ». Salvien n’ose seulement en parler, parce que, dit-il, les choses qui s’y font sont, telles qu’on ne saurait les dire ni même s’en souvenir, sans se souiller, et la langue, et le cœur.</p>
-        <p><hi rend="sc">Le Pros.</hi><note resp="editor" place="bottom"> [NDE] Le Pros. = Le Prosélyte.</note> Vous me semblez bien docte en cette matière, j’aimerais mieux entendre votre sentiment que celui des anciens.</p>
-        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Deux sortes de comédies.</note> 2. <hi rend="sc">Neoph.</hi> Voulez-vous que je vous parle franchement ? Je distingue deux sortes de comédies, les unes sont honnêtes, modestes, et fondées sur la bonté de la conscience de ceux qui les représentent, ou les font représenter. Celles-là sont plutôt pour donner un honnête divertissement, étant des représentations de choses bonnes et honnêtes, que pour offenser la chasteté. Mais s’il est question de parler des autres où l’on fait profession de faire des <pb n="640"/>actions et des gestes tout à fait impudiques, je dirai hardiment qu’à grande peine se trouve-t-il chose plus scandaleuse à l’honneur du Christianisme, plus préjudiciable à la jeunesse chaste, et plus dangereuse pour pécher mortellement ; car ce sont des filets, et des pièges que le diable dresse pour attraper une âme chaste ; ce sont des dispositions aux sacrifices de Venus, ou des degrés pour monter à l’autel de Baal. Si je croyais que vous et moi dussions jamais assister à ces vilaines comédies, je demanderais à Dieu qu’il envoyât son foudre pour nous écraser, et ce coup du Ciel ne nous serait pas si funeste, que le geste d’un comédien lascif, ou la parole d’une effrontée comédienne.</p>
-        <p><hi rend="sc">Le Pros.</hi> Donnez-moi maintenant des armes pour combattre ce dernier ennemi.</p>
-        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Moyen de s’en dispenser.</note> 1. <hi rend="sc">Neoph.</hi> Je réduis toutes vos armes à un seul bouclier, qui sera une sainte et généreuse résolution, de ne jamais assister à ces vilaines comédies.</p>
-        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Première objection.</note> <hi rend="sc">Pros.</hi> Oui mais, dira un petit garçon comme moi, ou une fille de maison, <hi rend="i">Mon père le veut, ma mère le commande, <pb n="641"/>tous deux m’y mènent, il faut bien que je les suive</hi>.</p>
-        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Réponse.</note> 2. <hi rend="sc">Neoph.</hi> Il ne le faut point, et comme ils ne peuvent vous commander chose qui soit contre la loi et volonté de Dieu, aussi n’êtes-vous pas obligé de leur obéir, s’il y a du péché.</p>
+        <pb n="638" xml:id="p638"/>
+        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Du dommage que les comédies
+            apportent.</note> 2. <hi rend="sc">Neoph.</hi><note place="bottom" resp="editor">[NDE]
+            Le Néoph. = Le Néophyte.</note> Saint Chrysostome, en l’Homélie 8. qu’il a fait de la
+          Pénitence, décrit fort bien le sixième ennemi de notre chasteté, lorsque parlant des
+          comédies sales et déshonnêtes, il les appelle la boutique commune de l’impudicité, l’école
+          publique de l’incontinence, la chaire pestilente, un théâtre de toute impureté, un hôpital
+          rempli de toute sorte de maladies contagieuses. En un mot, une fournaise de Babylone, en
+          laquelle l’âme chaste se brûle, et se consomme dans les <pb n="639" xml:id="p639"/>flammes ardentes de
+          la concupiscence. Le grand Tertullien ne donne qu’un coup de pinceau pour décrire la
+          comédie, mais ses couleurs sont si noires qu’elles donnent de l’horreur. Il appelle ces
+          comédies publiques, « <quote>le particulier consistoire de l’impudicité</quote> ». Salvien
+          n’ose seulement en parler, parce que, dit-il, les choses qui s’y font sont, telles qu’on
+          ne saurait les dire ni même s’en souvenir, sans se souiller, et la langue, et le cœur.</p>
+        <p><hi rend="sc">Le Pros.</hi><note resp="editor" place="bottom">[NDE] Le Pros. = Le
+            Prosélyte.</note> Vous me semblez bien docte en cette matière, j’aimerais mieux entendre
+          votre sentiment que celui des anciens.</p>
+        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Deux sortes de comédies.</note>
+          2. <hi rend="sc">Neoph.</hi> Voulez-vous que je vous parle franchement ? Je distingue deux
+          sortes de comédies, les unes sont honnêtes, modestes, et fondées sur la bonté de la
+          conscience de ceux qui les représentent, ou les font représenter. Celles-là sont plutôt
+          pour donner un honnête divertissement, étant des représentations de choses bonnes et
+          honnêtes, que pour offenser la chasteté. Mais s’il est question de parler des autres où
+          l’on fait profession de faire des <pb n="640" xml:id="p640"/>actions et des gestes tout à fait
+          impudiques, je dirai hardiment qu’à grande peine se trouve-t-il chose plus scandaleuse à
+          l’honneur du Christianisme, plus préjudiciable à la jeunesse chaste, et plus dangereuse
+          pour pécher mortellement ; car ce sont des filets, et des pièges que le diable dresse pour
+          attraper une âme chaste ; ce sont des dispositions aux sacrifices de Venus, ou des degrés
+          pour monter à l’autel de Baal. Si je croyais que vous et moi dussions jamais assister à
+          ces vilaines comédies, je demanderais à Dieu qu’il envoyât son foudre pour nous écraser,
+          et ce coup du Ciel ne nous serait pas si funeste, que le geste d’un comédien lascif, ou la
+          parole d’une effrontée comédienne.</p>
+        <p><hi rend="sc">Le Pros.</hi> Donnez-moi maintenant des armes pour combattre ce dernier
+          ennemi.</p>
+        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Moyen de s’en dispenser.</note>
+          1. <hi rend="sc">Neoph.</hi> Je réduis toutes vos armes à un seul bouclier, qui sera une
+          sainte et généreuse résolution, de ne jamais assister à ces vilaines comédies.</p>
+        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Première objection.</note>
+          <hi rend="sc">Pros.</hi> Oui mais, dira un petit garçon comme moi, ou une fille de maison,
+            <hi rend="i">Mon père le veut, ma mère le commande, <pb n="641" xml:id="p641"/>tous deux m’y mènent,
+            il faut bien que je les suive</hi>.</p>
+        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Réponse.</note> 2. <hi rend="sc"
+            >Neoph.</hi> Il ne le faut point, et comme ils ne peuvent vous commander chose qui soit
+          contre la loi et volonté de Dieu, aussi n’êtes-vous pas obligé de leur obéir, s’il y a du
+          péché.</p>
         <p><hi rend="sc">Le</hi><note resp="author" place="margin">Seconde objection.</note>
-          <hi rend="sc">Pros.</hi> Si je n’obéis, je serai mal traité, si je ne veux suivre ma mère, dira la fille, je serai châtiée, elle ne me caressera plus.</p>
-        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Réponse.</note> 1. <hi rend="sc">Neoph.</hi> Etre mal traité pour ce sujet, c’est souffrir un bien glorieux martyre pour l’amour de <hi rend="sc">Jésus</hi>.</p>
-        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Troisième objection.</note> <hi rend="sc">Pros.</hi> Hé bien, dira un homme, je ne me trouverai qu’au corps de la comédie, et je m’en irai quand on commencera la farce.</p>
-        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Réponse.</note> 2. <hi rend="sc">Neoph.</hi> Je vous dis, mon ami, que le meilleur de ces comédies ne vaut rien, et quand bien je vous concéderais que le corps serait bon, il y a trop de danger d’y assister.</p>
-        <p>« <quote>Qui><note resp="author" place="margin">Eccles. 3</note> voit un précipice, ne doit pas se hasarder à faire un pas glissant. Qui aime le danger, périra</quote> », dit le Sage.</p>
+          <hi rend="sc">Pros.</hi> Si je n’obéis, je serai mal traité, si je ne veux suivre ma mère,
+          dira la fille, je serai châtiée, elle ne me caressera plus.</p>
+        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Réponse.</note> 1. <hi rend="sc"
+            >Neoph.</hi> Etre mal traité pour ce sujet, c’est souffrir un bien glorieux martyre pour
+          l’amour de <hi rend="sc">Jésus</hi>.</p>
+        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Troisième objection.</note>
+          <hi rend="sc">Pros.</hi> Hé bien, dira un homme, je ne me trouverai qu’au corps de la
+          comédie, et je m’en irai quand on commencera la farce.</p>
+        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Réponse.</note> 2. <hi rend="sc"
+            >Neoph.</hi> Je vous dis, mon ami, que le meilleur de ces comédies ne vaut rien, et
+          quand bien je vous concéderais que le corps serait bon, il y a trop de danger d’y
+          assister.</p>
+        <p>« <quote>Qui><note resp="author" place="margin">Eccles. 3</note> voit un précipice, ne
+            doit pas se hasarder à faire un pas glissant. Qui aime le danger, périra</quote> », dit
+          le Sage.</p>
         <p><hi rend="sc">Le</hi><note resp="author" place="margin">Quatrième objection.</note>
-          <hi rend="sc">Pros.</hi> Il n’y a point de danger, dira un autre, il y a longtemps que je <pb n="642"/>fréquente les comédies, et cependant je suis autant chaste qu’un autre.</p>
-        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Réponse.</note> 2. <hi rend="sc">Neoph.</hi> Ne le croyez pas, <hi rend="sc">Proselyte</hi>, c’est un trompeur, ou un phénix du siècle ; de croire que ce soit un phénix, j'ai de la peine, dites donc que c’est un trompeur ; mais non, je suppose qu’il dit vrai, et que jamais sa chasteté n’a été blessée, en oyant les comédies, qui est-ce toutefois qui peut l’assurer qu’il sera toujours le vainqueur ? Hélas ! il ne faut qu’un moment, il ne faut qu’un instant, un seul geste lascif, une œillade, un seul attouchement peut allumer des brasiers qu’une éternité de temps ne pourra pas éteindre. Les Antoine, les Martinien, les Jérôme, sont tentés dans leur désert, et parmi les forets et les bois, et un jeune mondain me voudra persuader que dans la comédie il est aussi chaste que dans l’Eglise, je ne le crois pas, et ne le croirai jamais. Belle Sentence du grand Arnobe sur ce sujet. « <quote>Le comédien raconte les adultères, ou les représente, et le bateleur efféminé, fiche l’amour au cœur des assistants, lors qu’il les contrefait.</quote> »</p>
-        <p><hi rend="sc">Le Pros.</hi> C’est assez dit, pour fortifier <pb n="643"/>mon esprit dans cette résolution, que je donnerais plutôt mon corps à mille croix, que mes oreilles à une seule comédie.</p>
-        <p><hi rend="sc">Le</hi> 1. <hi rend="sc">Neoph.</hi> Si vous tenez ferme dans cette volonté, je vous assure déjà de la victoire sur ce sixième ennemi : mais ce n’est pas assez, il faut qu’un cœur Chrétien soit le vainqueur de tout ce qui peut attaquer sa chasteté.</p>
+          <hi rend="sc">Pros.</hi> Il n’y a point de danger, dira un autre, il y a longtemps que je
+            <pb n="642" xml:id="p642"/>fréquente les comédies, et cependant je suis autant chaste qu’un autre.</p>
+        <p><hi rend="sc">Le</hi><note resp="author" place="margin">Réponse.</note> 2. <hi rend="sc"
+            >Neoph.</hi> Ne le croyez pas, <hi rend="sc">Proselyte</hi>, c’est un trompeur, ou un
+          phénix du siècle ; de croire que ce soit un phénix, j’ai de la peine, dites donc que c’est
+          un trompeur ; mais non, je suppose qu’il dit vrai, et que jamais sa chasteté n’a été
+          blessée, en oyant les comédies, qui est-ce toutefois qui peut l’assurer qu’il sera
+          toujours le vainqueur ? Hélas ! il ne faut qu’un moment, il ne faut qu’un instant, un seul
+          geste lascif, une œillade, un seul attouchement peut allumer des brasiers qu’une éternité
+          de temps ne pourra pas éteindre. Les Antoine, les Martinien, les Jérôme, sont tentés dans
+          leur désert, et parmi les forets et les bois, et un jeune mondain me voudra persuader que
+          dans la comédie il est aussi chaste que dans l’Eglise, je ne le crois pas, et ne le
+          croirai jamais. Belle Sentence du grand Arnobe sur ce sujet. « <quote>Le comédien raconte
+            les adultères, ou les représente, et le bateleur efféminé, fiche l’amour au cœur des
+            assistants, lors qu’il les contrefait.</quote> »</p>
+        <p><hi rend="sc">Le Pros.</hi> C’est assez dit, pour fortifier <pb n="643" xml:id="p643"/>mon esprit dans
+          cette résolution, que je donnerais plutôt mon corps à mille croix, que mes oreilles à une
+          seule comédie.</p>
+        <p><hi rend="sc">Le</hi> 1. <hi rend="sc">Neoph.</hi> Si vous tenez ferme dans cette
+          volonté, je vous assure déjà de la victoire sur ce sixième ennemi : mais ce n’est pas
+          assez, il faut qu’un cœur Chrétien soit le vainqueur de tout ce qui peut attaquer sa
+          chasteté.</p>
       </div>
-      </body>
+    </body>
   </text>
 </TEI>
