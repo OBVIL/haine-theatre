@@ -1,0 +1,2069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="leboeuf_paradoxes-contemptibles-rousseau_1760"
+  xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sur l’atrocité des paradoxes</title>
+        <author>Leboeuf, Jean Joseph</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>François Lecercle</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Clotilde Thouret</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2016"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/leboeuf_paradoxes-contemptibles-rousseau_1760/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
+              « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons : «
+              Attribution – Pas d’Utilisation Commerciale – Pas de Modification 3.0 France (CC
+              BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures. La
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Sur l’atrocité des paradoxes</title>
+          <author>Leboeuf, Jean Joseph</author>
+          <biblScope>p. II-VII; p. 1-128</biblScope>
+          <date>1760</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1760"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="texte" xml:id="HDT_20">
+        <head>Sur l’atrocité des paradoxes</head>
+        <div type="chapter" xml:id="CH_20_1">
+          <head><pb n="II"/>PRÉFACE.</head>
+          <p>Le motif qui me fait écrire n’est pas celui de contrarier par partie de plaisir : cette
+            soif méprisable ne m’a point guidé : je me suis consulté avant d’entrer dans cette
+            carrière dangéreuse où tant d’autres ont échoué …</p>
+          <quote>
+            <lg>
+              <l>J’en vois plus d’un étendu sur l’arène.</l>
+            </lg>
+          </quote>
+          <p>ce n’est pas non plus pour exciter l’indulgence du Public que je mets une Préface à la
+            tête de cet Ouvrage : non, je n’ignore pas que j’en aurais besoin : jeune encore, c’est
+            le premier que j’ai osé livrer à l’Imprimeur ; que de raisons ! elles prouvent combien
+            elle m’est nécessaire : (si ce n’était une bassesse de l’exiger) mais prévenu qu’un
+            Pilote n’acquiert l’expérience qu’à force d’orages, je me laisse aller à l’attrait de
+            mon penchant.</p>
+          <p><pb n="III"/>Si cette Brochure est bien traitée, le Public judicieux à qui seul je
+            cherche à plaire, &amp; dont je chéris les suffrages, ne me ravira pas le légitime
+            salaire que mes travaux méritent : s’il la trouve faible, je le conjure de m’honorer de
+            ses conseils. Je fais trop de cas de ses leçons pour n’en pas profiter. Oui, Lecteur,
+            daigne exécuter ce que j’exige de ta complaisance, ne sois avare de tes lumières que
+            pour ceux dont la présomption est le partage. C’est cet espoir qui me fait te présenter
+            cette Brochure. J’aurais cru manquer à ce que je me dois, &amp; aux personnes
+            respectables de mon état, si je fusse resté muet aux imputations fausses de <hi
+              rend="sc">Jean-Jacques Rousseau</hi>. Révolté de son audace, mon ame s’est éveillée
+            pour repousser l’imposture ; je n’ai répondu qu’à une partie de ses raisonnemens
+            paralogiques. Si je l’eusse suivi pied à pied, c’eût été m’engager dans des longueurs
+            inutiles. Je n’ai travaillé que sur le <pb n="IV"/>plan qui regarde les Spectacles, une
+            partie de sa Brochure étant coupée de dissertations étrangères à son sujet &amp;
+            nullement faites pour le mien. Détracteur implacable, il voudrait diffamer le Théâtre,
+            asile de la vérité opprimée, temple où la sagesse antique paraît dans toute sa
+            splendeur. Noms immortels que la postérité révère, que les <hi rend="i">Corneille</hi>,
+            les <hi rend="i">Racine</hi>, les <hi rend="i">Voltaire</hi> ont fait revivre sur la
+            Scène, animez mon ame échauffée d’un zèle respectueux pour vos vertus ? secondez mes
+            efforts pour repousser cet infâme Zoïle. Enfans chéris des neuf Sœurs, il est encore sur
+            la terre un Pithon éclos de la fange ; sage moteur de tant de merveilles, dont le séjour
+            impénétrable n’est ouvert qu’aux humains vertueux, lance du haut de l’Olimpe tes
+            carreaux brûlans sur cette tête audacieuse.</p>
+          <quote>
+            <lg>
+              <l>Mais en le foudroyant ce serait t’avilir ;</l>
+              <l>Laisse aux Filles d’Enfer le soin de le punir.</l>
+              <l>Qui périt par tes coups périt moins misérable,</l>
+              <l>Ils honorent celui que ta vengeance accable.</l>
+            </lg>
+          </quote>
+          <p><pb n="V"/>Il manquait à <hi rend="sc">Jean-Jacques Rousseau</hi> pour le compléter,
+            &amp; le rendre tout à fait joli homme, de jouër l’hypocrisie, art dangéreux,
+            inséparable des imposteurs. Pour se rendre le Public favorable, il affecte des sentimens
+            religieux, grossière amorce des lâches, heureusement trop usitée pour faire des dupes.
+            Pour moi la nature, seul organe que je consulte, &amp; que je fais vanité de croire,
+            crie au fond de mon ame que le mépris est le partage de ses pareils. Dussai-je me faire
+            des ennemis de ses partisans, s’il est possible qu’il en ait, n’importe.</p>
+          <quote>
+            <lg>
+              <l>« Juste ou faux, mal ou bien, je pense à découvert.</l>
+              <l><seg resp="wordpro">… … …</seg></l>
+              <l>La fausseté toujours fut un vice inutile</l>
+              <l>Dont la premiere dupe est celle qui s’en sert.<note resp="author" place="bottom"
+                    ><p>L’Impertinent, Pièce de Mr. Desmahis, Scène III.</p></note> »</l>
+            </lg>
+          </quote>
+          <p>Je le serais sans contredit, si j’avais gardé le silence : j’aime mieux être accusé de
+            trop de zèle, que soupçonné d’ame timide.</p>
+          <p><pb n="VI"/>On verra dans le cours de cet Ouvrage que l’envie des succès d’autrui n’est
+            pas l’éguillon qui m’a guidé : si ma fortune était moins bornée, la preuve serait aisé à
+            donner : mon bien serait celui des enfans des arts ; au surplus, j’ai pour garands ceux
+            qui me connaissent : souvent avili par des gens méprisables, c’est l’ordinaire, en état
+            de leur faire payer cher leurs infâmes menées, j’en ai dédaigné les moyens, on le sait…
+            un mot m’eut mis à même d’en avoir satisfaction,</p>
+          <quote>
+            <lg>
+              <l>Mais me venger est au-dessous de moi.</l>
+            </lg>
+          </quote>
+          <p>je laisse ce soin au tems. Presque tous ceux qui m’ont fait du mal, en ont été les
+            victimes. J’en ai gémi : &amp; lorsque j’apprenais leur infortune, le mépris que mon ame
+            avait conservé pour eux, se changeait aussi-tôt en attendrissement.</p>
+          <quote>
+            <lg>
+              <l>« Il suffit qu’on soit homme, &amp; qu’on soit malheureux. »</l>
+            </lg>
+          </quote>
+          <p><pb n="VII"/>Voilà ma façon de penser ; elle ne sera pas du goût de tout le monde ; on
+              <seg resp="wordpro">pourra</seg> soupçonner trop d’orgueil dans l’aveu que j’en fais,
+            mais je répondrai que je ne la détaille pas pour en être loué : tant d’autres ont pris
+            ce tour, que j’aurais mauvaise grace de m’enservir ; ce n’est point là mon caractère :
+            non, Messieurs, &amp; vous pouvez m’en croire. Une Dame respectable, dont l’amitié
+            m’honore, me fit voir la Brochure du Genevois ; elle parut desirer que quelqu’un
+            répondît à tant d’impertinences ; je m’offris, &amp; dans l’instant je m’armai de la
+            plume ; heureux si ma prompte obéissance m’obtient à jamais son estime.</p>
+        </div>
+        <div type="chapter" xml:id="CH_20_2">
+          <head><pb n="1"/>J.J.L.B. CITOYEN DE MARSEILLE, A SON AMI,<lb/><hi rend="i">Sur l’atrocité
+              des Paradoxes du Contemptible <hi rend="sc">J.J. Rousseau</hi>.</hi></head>
+          <p>Je viens de lire, mon cher ami, une Brochure intitulée « Jean-Jacques Rousseau, Citoyen
+            de Genève, à Monsieur d’Alembert, de l’Académie française &amp;c. &amp;c. sur son
+            article Genève, dans le septième Volume de l’Encyclopédie, &amp; particulièrement sur le
+            projet d’établir un Théâtre de Comédie en cette Ville. »</p>
+          <p>J’aurais sans doute été révolté, si cet écrit calomnieux fût sorti d’une plume telle
+              <pb n="2"/>qu’est celle de notre Homère moderne.<note resp="author" place="bottom"
+                ><p>Voltaire.</p></note> mais l’auteur est si méprisable, tant par la façon de
+            penser, que par les mœurs qu’il affecte, que je n’en ai fait que rire : en effet,
+            peut-on s’offenser d’un écrit rempli de fiel &amp; de passion ? au contraire, il fait le
+            panégyrique du sujet qu’il a cru dégrader : s’il en eût fait l’éloge, le corps des
+            honnêtes gens qui composent le Spectacle, auroit dû s’en offenser ; c’est la manière de
+            préconiser de Jean-Jacques Rousseau. Aussi voilà le motif qui m’a fait prendre la plume
+            pour en avertir mes Camarades qui pourraient prendre le change, &amp; le traiter à la
+            premiere vue comme il le mériterait.</p>
+          <p>Le mépris dans cette circonstance est le parti le plus sage. Qu’attendre d’un fanatique
+            singulier qui se plaît à hipercritiquer l’Univers entier, &amp; qui souvent pousse
+            l’extravagance au point de ne pas être de son avis ? pour moi, je l’ai toujours regardé
+            comme un dogue à l’attache, insultant aux passans, qui, d’un œil de pitié, regardent les
+            vains efforts qu’il fait pour rompre sa <pb n="3"/>chaîne. Plus je cherche à pénétrer
+            les raisons qui l’ont fait écrire, moins je puis les trouver. Je ne lui découvre d’autre
+            but que celui de se singulariser, comme chacune de ses actions le prouve : en un mot,
+            plus j’examine le nombre des travers qui le distinguent des autres hommes, plus je vois
+            qu’il était inutile qu’il grossît son catalogue par ce dernier, la liste étant assez
+            considérable pour lui procurer sans rappel le titre d’original qu’il s’est acquis depuis
+            si longtemps. Ce n’est point l’envie qui me met la plume à la main ; c’est elle qui
+            inspire Jean-Jacques Rousseau &amp; ses pareils ; c’est elle qui lui fait employer les
+            armes des sophismes les plus dangéreux, &amp; les paradoxes les plus extravagans, pour
+            combattre les opinions reçues, &amp; faire approuver celles que l’on est convenu de
+            rejetter. Serpens odieux, ils dévorent le suc des fleurs pour composer les poisons les
+            plus subtils. Pour moi la Vérité, cette chaste Fille du Ciel, siège dans mon sein ; elle
+            fait mes délices, &amp; je sens une joie <pb n="4"/>voluptueuse à suivre ses douces
+            impressions.</p>
+          <p>Le motif qui me fait écrire, doit, je crois, m’attirer les suffrages de ceux qui ne me
+            connaissent pas. Il leur prouve la pureté de mon ame, &amp; la droiture de mes sentimens
+            … mais cher ami, que dis-je ? il est un garant plus flatteur, &amp; dont mon cœur fait
+            gloire de s’enorgueillir … tu m’estimes … qu’ai-je à souhaiter de plus … ton amitié fera
+            ma renommée.</p>
+          <p>J’entre en matière, &amp; ne te citerai qu’une partie des impertinences dont la
+            Brochure du Génevois abonde.</p>
+          <p>« Il est vrai, (dit-il, page 75.) que nos Auteurs modernes, guidés par de meilleures
+            intentions, font des Pièces plus épurées : mais aussi qu’arrive-t-il ? qu’elles n’ont
+            plus de vrai comique, &amp; ne produisent aucun effet ; elles instruisent beaucoup, si
+            l’on veut, mais elles ennuient encore davantage : autant aller au sermon. »</p>
+          <p>N’admire-tu pas cette pointe élégante, fine, inespérée ? que d’esprit ! ce paradoxe <pb
+              n="5"/>est assommant, je lui fais grace encore dans l’épithète ; paralogisme est le
+            terme sans contredit, la preuve en est aisée. Il est physiquement vrai que le bon ne
+            porte l’ennui que dans le sein des sots. L’homme d’esprit en fait sa <seg resp="wordpro"
+              >nourriture</seg> la plus chère. Les vertus sont faites pour les vertueux. L’automate
+            vit d’une mauvaise plaisanterie, obscène ainsi que le vicieux &amp; l’applaudit ; le
+            spectateur éclairé en gémit, &amp; hausse les épaules d’indignation, il n’est affecté
+            que des sentimens vertueux. Aurais-tu jamais cru que, parce que nos Pièces sont sans
+            comique, mais parfaitement épurées, elles doivent ennuyer, &amp; qu’il vaut autant aller
+            au Sermon : solution pieuse ! elle est digne de sortir de la bouche d’un Sectateur de
+            Spinosa.</p>
+          <p>J’aurai l’avantage de lui répondre à cet égard que nos Auteurs modernes,<note
+              resp="author" place="bottom"><p>La Tragédie &amp; la Comédie même ne sont sorties du
+                cahos où elles étaient, que par la morale. Philosophie applicable par M. Terrasson
+                  <hi rend="i">p. 274, sect. 3me</hi>. Les bons Poètes ont senti de bonne heure
+                qu’il fallait donner des mœurs aux personnages. C’est ce qui a commencé les Pièces
+                de Caractère, <hi rend="i">même sect. p. 175</hi>.</p></note>
+            <pb n="6"/>guidés par de meilleures intentions, ne suivent en cela que le but des
+            Instituteurs des Spectacles : si la licence en a exilé la pureté, c’est le sort des
+            meilleures choses : mille exemples le prouvent. Je ne puis lui citer qu’Horace pour le
+            confondre, que nos auteurs doivent avoir toujours devant les yeux : « que dans les actes
+            (dit ce grand homme, Art Poétique,) le cœur joue le rolle d’un Acteur, &amp; fasse les
+            fonctions d’un seul personnage, &amp; que dans les intermèdes il ne chante rien qui ne
+            convienne au sujet, &amp; qui ne lui soit naturellement lié ; qu’il protège toujours les
+            gens de bien ; qu’il soûtienne les intérêts de ses amis ; qu’il tâche d’appaiser ceux
+            qui sont irrités ; qu’il aime ceux qui ont en horreur le crime ; qu’il vante les mets
+            d’une table où règne la sobriété ; qu’il loue la justice si salutaire aux hommes ; qu’il
+            chante <pb n="7"/>la tranquillité &amp; la sûreté qui accompagnent toujours la paix ;
+            qu’il garde inviolablement les secrets qu’on lui a confiés, &amp; qu’il prie les Dieux
+            que la fortune abandonne les méchans, &amp; revienne remplir les desirs des
+            justes. »</p>
+          <p>Cet avis salutaire doit servir de guide à tout Poète ; il prouve en même tems que la
+            Comédie fut instituée pour faire aimer les Vertus.</p>
+          <p>Si nos Auteurs suivent &amp; remplissent cet objet, le Théâtre sera comme dans sa
+            naissance, l’asile des plaisirs purs, faits pour le galant homme, instruit &amp;
+            récréé.</p>
+          <p>« La flûte (poursuit Horace), dont on se servait anciennement dans nos Chœurs, n’était
+            ni ornée de léton comme celle d’aujourd’hui, ni rivale de la trompette ; elle était
+            petite &amp; simple, &amp; avait peu de trous. En cet état, elle pouvait facilement
+            accompagner les Chœurs de nos Tragédies, &amp; elle avait assez de son pour remplir,
+            sans peine, un Théâtre qui n’était pas trop <pb n="8"/>grand, &amp; où on n’allait pas
+            en foule ; car le peuple était encore alors peu nombreux, sage, pieux, &amp; plein de
+            pudeur. Mais sitôt que ce même peuple commença à <seg resp="wordpro">s’agrandir</seg>
+            par ses victoires qu’il se vit obligé d’étendre l’enceinte de ses murs, &amp; qu’il se
+            donna impunément la liberté de passer les jours de fête à boire &amp; à se divertir, la
+            licence s’empara des Vers &amp; de la Musique ; car que pouvait-on attendre d’un
+            Villageois ignorant qui n’avoit plus rien à faire, &amp; qui se trouvait mêlé avec le
+            citoyen ? &amp; que pouvaient la brutalité &amp; la grossièreté que corrompre
+            l’honnêteté &amp; la politesse ? c’est ainsi que le Joueur de flûte ajoûta les mouvemens
+            &amp; la lascivité à son Art, qui était auparavant chaste &amp; sévère. »</p>
+          <p>Le Théâtre, dans sa naissance, n’était donc point souillé par des chansons lascives, ni
+            par des vers licencieux, puisqu’il servait de délassement aux personnes sages, pieuses,
+            &amp; pleines de pudeur : le nombre <pb n="9"/>des victoires fut la cause de sa
+            corruption.</p>
+          <p>« Le même Poète (dit Horace) vit bien qu’il falloit retenir par quelque charme
+            extraordinaire &amp; par quelque agréable nouveauté, un Spectateur qui venait d’offrir
+            des sacrifices, qui avait bu, &amp; qui était en état de se porter aux excès les plus
+            condamnables. »</p>
+          <p>Le déréglement du peuple au jour des fêtes, fut la première cause. L’envie de mériter
+            les applaudissemens d’une foule de débauchés, l’emporta sur la vertu, &amp; l’a banni
+            des Pièces. Le Poète prit cette route dangéreuse pour accroître sa faveur, &amp; cette
+            complaisance criminelle jetta la Comédie dans l’avilissement. Mais son institution est
+            toujours pure. Pourquoi persiffler nos Auteurs modernes qui cherchent à la rendre ainsi
+            qu’à sa première aurore, chaste &amp; sévère ? si leurs Pièces instruisent, elles
+            remplissent le vrai but : elles sont bonnes, mais elles ennuient davantage,
+            (raisonnement qui m’échigne) autant aller au Sermon : mauvaise épigramme, mal
+            adroitement <pb n="10"/>lancée contre nos Prédicateurs.</p>
+          <p>J’aime ce qu’il dit d’un valet sur la scène, qui cherche adroitement à duper le père de
+            son maître pour lui arracher de l’argent.</p>
+          <p>« Qui de nous (<hi rend="i">p.</hi> 74) ne s’intéresse pas à ce filou, &amp; ne serait
+            fâché s’il venait à manquer son coup ? qui de nous ne devient pas pour un moment filou
+            en s’intéressant pour lui ? car (poursuit-il) s’intéresser pour quelqu’un, qu’est-ce
+            autre chose que se mettre à sa place ? »</p>
+          <p>Tu ne te serais pas attendu à ce subterfuge : tu n’aurais jamais cru que s’intéresser à
+            un malheureux qui va recevoir le salaire dû à ses crimes sur un échaffaut, se délivre de
+            ses gardes, perce la foule, &amp; trouve le moyen, par une fuite précipitée, de tromper
+            ceux qui le poursuivent, soit se mettre à sa place, quand même j’aurais servi à lui
+            faire un passage à travers la populace ; ce sentiment est chez tous les hommes pensans,
+            hors chez des barbares, comme Jean-Jacques Rousseau ; être l’instrument innocent de son
+            évasion, n’est <pb n="11"/>point s’associer à ses forfaits ; l’humanité en est garant,
+            quoiqu’ennemie des voleurs &amp; des assassins. « Un peuple (dit-il) voluptueux veut de
+            la musique &amp; des danses ; » il veut parler des Français ; son Devin de Village est
+            la preuve qu’il connaît l’esprit &amp; le goût de la nation ; il a donc contribué
+            lui-même à corrompre nos mœurs. Combien ne doit-il pas sentir de remords, s’il était
+            fait pour les connaître ?</p>
+          <p>Les Spectacles ont-ils corrompu nos mœurs ? La bravoure &amp; l’amour de la gloire ne
+            sont-elles pas les premières vertus des Sujets de Louis ? N’est-ce pas chez nous que, de
+            tems immémorial, fleurissent les beaux Arts dont la France est la patrie ? N’a-t-on pas
+            depuis peu attaché des prix, des récompenses aux Pièces de Théâtre pour encourager ? Si
+            les Spectacles n’étaient pas utiles, qui le saurait mieux que nous autres, idolâtres
+            comme nous sommes du vrai beau ? Si la Comédie eut été de tout tems épurée, comme elle
+            l’est depuis Louis le Grand, <pb n="12"/>de glorieuse mémoire, cet Art eût été, sans
+            doute, le premier. N’est-il pas les délices des Grands de notre siècle, &amp; des
+            personnes d’esprit ? Et que m’importe à moi qu’une vile canaille, qui n’a pour vertu que
+            d’absurdes préjugés, dédaigne un Art dont elle ne peut connaître les beautés : un Roquet
+            qui m’aboie, est-il fait pour fixer mon attention ? Ce qu’il y a de singulier, c’est
+            qu’il ait bien voulu jadis travailler pour un Théâtre plus récréatif qu’utile,<note
+              resp="author" place="bottom"><p>L’Opéra.</p></note> &amp; de le voir aujourd’hui par
+            esprit de contradiction fulminer en Aristarque inspiré contre le plus instructif,
+            absolument nécessaire pour entretenir les bonnes mœurs, &amp; délasser de ses travaux un
+            Spectateur laborieux. Il continue ainsi : « Un peuple badin veut de la plaisanterie
+            &amp; du ridicule (<hi rend="i">trahit sua quemque voluptas</hi>) il faut pour leur
+            plaire des Spectacles qui favorisent leur penchant, au lieu qu’il en faudrait qui les
+            modérassent. »</p>
+          <p>Notre homme se combat de ses propres <pb n="13"/>armes. Les Spectacles sont donc
+            utiles. Nos Auteurs ne sont donc pas reprochables de ne nous donner que des Pièces
+            dépourvues de comique, mais <seg resp="wordpro">parfaitement</seg> épurées, seul moyen
+            de réprimer le penchant d’un peuple badin, plus amateur d’un Spectacle qui favorise son
+            humeur folâtre, qu’une Pièce pleine de morale, où par des traits frappans, l’Auteur
+            découvre ses ridicules, &amp; le force à s’en corriger. Le Théâtre est donc l’école de
+            la Vertu ? que veut-il donc ? … contrarier, &amp; n’être de l’avis de personne.</p>
+          <p>« Le Théâtre dirigé (<hi rend="i">pag.</hi> 26) comme il peut &amp; doit l’être, rend
+            la Vertu aimable, &amp; le vice odieux. Quoi donc ? avant qu’il y eut des Comédiens,
+            n’aimait-on pas les gens de bien ? ne haïssait on point les méchans ? &amp; ces
+            sentimens sont-ils plus faibles dans les lieux dépourvus de Spectacles ? le Théâtre rend
+            la Vertu aimable … il opère un grand prodige de faire ce que la nature &amp; la raison
+            font avant lui. »</p>
+          <p><pb n="14"/>Les Sermons ne sont-ils pas faits pour inspirer l’amour de la Vertu &amp;
+            la haine du vice ? Avant que l’on fit des Sermons, ne haïssait-on pas les méchans, &amp;
+            n’accueillait-on pas les vertueux ? Avait-on besoin de Prédicateur ? Ce sentiment
+            n’était-il pas dans le cœur de tout galant homme ? Je ne dirai pas, comme notre
+            Allobroge, qu’un Prédicateur opère un grand prodige de faire ce que la raison &amp; la
+            nature ont fait avant lui. La différence que je fais du Prédicateur au Comédien, c’est
+            qu’il n’est que récitateur des vices &amp; des vertus, &amp; que le dernier rend l’un
+            &amp; l’autre en action. Le premier meut seul la machine à la vérité, mais l’infidèle
+            Joram, l’impie Ochozias, ne servent-ils pas d’ombre au sage Abraham, au pieux Joad ?
+            &amp;c. &amp;c.</p>
+          <p>Polyeucte ne vaut-il pas tous les Sermons du monde ? l’invocation de Samson à
+            l’Eternel, ses regrets sur sa faute,<note resp="author" place="bottom"><p>Ces deux vers
+                admirables à son Père, lorsque les Philistins vont le conduire au Temple de Dagon ;
+                il lui dit :</p>
+              <quote>
+                <p>« Ne me retirez pas votre amour paternel, On est assez puni quand on est
+                  criminel. »</p>
+              </quote></note>
+            <pb n="15"/>ne sont-ils pas des chefs-d’œuvre de piété ? les Machabées, Absalon,<note
+              resp="author" place="bottom"><p>Cette Pièce fut jouée à Versailles en l’Hôtel de
+                Conti, pendant le Carnaval de l’année 1702. La Duchesse de Bourgogne y excella dans
+                le rolle de Thamar, &amp; Monsieur le Duc d’Orléans dans celui de David. Les Dames
+                &amp; Seigneurs de la Cour y représentèrent les autres rolles. Cette Pièce mérita à
+                l’Auteur une Pension du Roi, de mille liv.</p></note> Athalie, Esther, &amp;c.… la
+            mort de Gusman dans Alzire, n’arrache-t-elle pas des larmes sincères ? qui peut, sans
+            être attendri, voir le second Acte de Zaïre ! ce n’est point, comme Jean-Jacques
+            Rousseau le dit (<hi rend="i">p.</hi> 30) une émotion passagère.</p>
+          <p>Si réellement nous aimons la Vertu, une morale aussi frappante restera gravée
+            éternellement dans notre mémoire ; mais tout vicieux obstiné à l’être toujours, n’a que
+            faire de venir au Spectacle : il n’en sera jamais satisfait, parce qu’il ne voudra pas
+            l’être. La certitude des supplices n’épouvante point les brigands &amp; les meurtriers.
+            Ils semblent au contraire servir <pb n="16"/>d’éguillon à leurs infâmes desseins ; leur
+            zèle en redouble ; on les voit courir à de nouveaux crimes avec plus de célérité.</p>
+          <p>« La Comédie n’a jamais produit le moindre acte d’humanité. »</p>
+          <p>Je serais curieux de savoir si les Sermons en ont fait faire beaucoup ; c’est ce dont
+            (sans donner dans le Scepticisme) on me permettra de douter très-fort. Mais enfin, en
+            présupposant qu’il soit possible que la chose soit réelle, la présomption &amp;
+            l’orgueil d’être cité comme exemple, est l’attrait séduisant qui l’a produit.</p>
+          <p>Combien d’aumônes faites par ostentation ? combien de Prélats n’ont-ils pas abusé des
+            largesses des Fidèles.</p>
+          <p>La différence de nous à cet égard, c’est que pour l’ordinaire un Prédicateur prêche
+            l’aumône, excite l’Assemblée à soulager les malheureux ; mais il se garderait bien de se
+            priver du superflu pour rendre leur misère plus supportable ; non, souvent il se met du
+            nombre des pauvres, &amp; les frustre de la moitié des charités dont il est <pb n="17"
+            />l’Administrateur. Une conduite pareille n’annonce pas une conscience bien épurée, mais
+            à cela près qu’importe.</p>
+          <quote>
+            <lg>
+              <l>« On peut avec le Ciel prendre un arrangement,</l>
+              <l>Et ces Messieurs ont l’art de lever les scrupules. »</l>
+            </lg>
+          </quote>
+          <p>Ce qu’il y a de bien constant, c’est que s’il soulage ces malheureux, c’est de la sueur
+            des autres, mais le Comédien les nourrit de la sienne ; qui des deux est plus
+            méritoire ? Je n’ai que faire de citer des exemples : tout le monde sait que l’Opéra,
+            année commune, donne 55000 liv. aux Pauvres ; il en est de même des autres Spectacles.
+            L’humanité chez nous est la première Vertu.<note resp="author" place="bottom"
+                ><p>Personne n’ignore le trait de l’illustre le Couvreur, Comédienne célèbre :
+                apprenant que l’Alcide de Fontenoy était privé d’argent en Curlande, elle mit dans
+                l’instant sa vaisselle &amp; ses bijoux en gage, par le seul motif d’obliger. On
+                aurait ignoré ce trait, sans le Maréchal qui se fit un honneur de divulguer cet acte
+                de générosité, appanage des grandes ames.</p></note></p>
+          <p>« Le Tyran de Phère pleuroit sur les malheurs d’Andromaque &amp; de Priam, &amp; se
+            cachoit de peur qu’on ne vit ses <pb n="18"/>larmes, tandis qu’il écoutait sans émotion
+            les cris de tant d’infortunés qu’on égorgeait par ses ordres. »</p>
+          <p>Mauvaise preuve : je connais des gens de toutes sortes de religions, qui sont sans
+            cesse aux pieds des Sanctuaires, ou dans des Temples, être les complices des crimes les
+            plus atroces :<note resp="author" place="bottom"><p>N’a-t-on pas vu un Charles-Quint,
+                après le saccagement de Rome, exécuté par ses ordres, faire des processions, des
+                prières publiques dans ses Etats, pour la délivrance de Clément VII qu’il retenait
+                captif. Il lui fait offrir sous main de lui rendre sa liberté, moyennant quatre cent
+                mille ducats ; Clément en paie cent mille &amp; s’évade avant de payer les trois
+                cent mille restans. Peut-on jouer ainsi la Divinité ? Un Ferdinand le Catholique,
+                Monarque perfide, dont la religion affectée n’a pu dérober à la postérité la
+                noirceur &amp; la barbarie. Un Jacques Clément, un Balthazar Gérard, le premier
+                meurtrier d’Henri III, le second, de Guillaume le Taciturne, Prince d’Orange.
+                Personne n’ignore que l’un &amp; l’autre sortaient de recevoir leur Dieu aux pieds
+                des Autels, lorsqu’ils portèrent leurs mains parricides sur ces Princes, hélas ! …
+                dignes tous deux d’un sort différent.</p></note> est-ce la faute de la religion ?
+            Ces exemples sont visibles, ils vous inspirent la vénération, le respect ; <pb n="19"
+            />Ils vous attendrissent, les larmes même viennent à leur secours : ce n’est pourtant
+            que grimaces. Plus d’un Citoyen est la dupe de leur hypocrisie. Le moyen de ne pas
+            croire les élans de ces hommes sincères, l’abondance les couvre de ses aîles.</p>
+          <p>Je l’admire dans la critique qu’il fait du Misantrope, chef-d’œuvre de Molière, (c’est
+            une justice que je suis obligé de lui rendre) personne ne le peut mieux que lui ; il
+            puise dans son sein les raisons qu’il avance pour convaincre.</p>
+          <p>« Tout véritable Misantrope (dit-il) est un monstre, s’il pouvait exister, il ne ferait
+            pas rire, il ne ferait qu’horreur. »</p>
+          <p>C’est une vérité incontestable, je le crois aisément, Molière s’est trompé, mais je ne
+            prends point le change, c’est de lui qu’il parle, il est ce monstre « des Spectacles
+            &amp; des mœurs (dit notre Critique forcené) voilà qui formerait un Spectacle à voir,
+            d’autant plus que ce serait la première fois. »</p>
+          <p><pb n="20"/>Persifflage pitoyable &amp; digne de l’Auteur, comme s’il n’était pas des
+            Comédiens honnêtes gens : lui-même avoue avoir été étroitement uni avec un.</p>
+          <p>Romagnezi, son Epouse, Silvia, ne sont-ils pas des preuves combien le Génevois se
+            trompe ? Sarrazin, la Noue, Riccoboni &amp; tant d’autres dont les noms ne sont ignorés
+            que de lui, prouvent &amp; démasquent tant d’impostures.</p>
+          <p>Je puis lui citer Agathe Sticotti, Epouse de Labédoyere, connue par ses Vertus &amp;
+            par ses infortunes. Isabelle Andréini, Comédienne célèbre, native de Padoue, la plus
+            belle, la plus spirituelle, la plus vertueuse Femme de son siècle, <seg resp="wordpro"
+              >agrégée</seg> à l’Académie des Intentis de Padoue, dont les vers sont estimés. Madame
+            d’Erval dont j’ai fort connu le Mari à notre Cour, aussi honnête homme que sa Femme
+            était sage, &amp; d’une grande beauté, alluma dans le sein d’Auguste, Electeur de Saxe,
+            l’amour le plus ardent, lui à qui nulle Femme n’avait résisté jusqu’alors, échoua auprès
+            de <pb n="21"/>cette Comédienne vertueuse ; cette résistance lui valut l’estime de ce
+            Prince galant qui voulait la combler de biens. Elle mourut sans avoir profité de ses
+            dons, préférant la Vertu à l’aisance achetée aux dépens de la pudeur. Je tiens ce
+            dernier fait de la bouche de vingt personnes, toutes dignes de foi, &amp; des larmes que
+            son Mari donne chaque jour à sa mémoire.</p>
+          <p>L’antiquité m’offre la fameuse Théodora, Actrice célèbre, Femme de Justinien premier.
+            Elle était Fille d’un Directeur des Spectacles de Constantinople ; Justinien était
+            éperduement amoureux de cette Comédienne &amp; l’épousa. Parvenu à l’Empire, Hypatius,
+            Pompeïus &amp; Probus, Neveux de l’Empereur Anastase, excitèrent contre lui une grande
+            sédition. Il aurait succombé sans les sages conseils de Théodora, &amp; la prudence de
+            Bélizaire &amp; de Mundus ; elle rétablit l’Empire Romain dans sa première splendeur.
+            Mais comme il n’est rien que l’on n’empoisonne, je suis bien aise de citer ce qu’en dit
+            Marc-Mic Bouquet, Auteur <pb n="22"/>de la Cause de la Grandeur des Romains &amp; de
+            leur Décadence, Chapitre 20, p. 250, imp. à Lauzanne 1750. « Justinien avait pris sur le
+            Théâtre une Femme qui s’y était longtemps prostituée ; elle gouverna avec un empire qui
+            n’a point d’exemple dans les Histoires ; &amp; mettant sans cesse dans les affaires les
+            passions &amp; les fantaisies de son sexe, elle corrompit les victoires &amp; les succès
+            les plus heureux. » Je n’ai point vu ce trait dans les Historiens ; Procope en touche
+            quelque chose à la vérité, mais l’Impératrice l’accabla de bienfaits ; on ne doit pas
+            s’étonner s’il en dit du mal<note resp="author" place="bottom"><p>Il n’est pas jusqu’à
+                Vigile, qui après avoir reçu la Couronne Papale des mains de cette Impératrice,
+                l’excommunia ensuite pour l’en remercier, non pas par zèle au moins, mais parce
+                qu’il lui avait obligation.</p></note> au surplus tout ce qu’elle fit dans son
+            règne, prouve bien la grandeur de son ame, &amp; le peu de validité des calomnies
+            d’ennemis méprisables que le mérite naturellement fait naître, les loix sévères qui se
+            publièrent contre les <pb n="23"/>Hérétiques, l’ardeur à relever les Temples, &amp; le
+            titre de Protecteur de l’Eglise que l’Empereur prit, ne lui fait qu’honneur. Est-ce pour
+            avoir fait punir de mort des séditieux, salaire des assassins, que l’Impératrice doit
+            être blâmée ? Les Perses vaincus, les Vandales exterminés, l’Afrique reconquise, les
+            Maures défaits, les Goths d’Italie subjugués, l’empire au comble de sa gloire… tant de
+            succès prouvent-ils qu’elle n’écoutait que ses passions &amp; les fantaisies de son
+            sexe ? qu’elle corrompit les victoires, &amp; qu’elle gouvernait avec un empire qui n’a
+            point d’exemple dans l’Histoire ? Mais si Justinien ne suivait que ses vastes conseils
+            qu’une réussite prompte courronnait, pourquoi refuser à sa mémoire le juste éloge que
+            mérite sa cendre ? quel plaisir peut-on trouver à aliéner la réputation &amp; défigurer
+            des faits ? Bon, me répondra un de ces idolâtres de l’imposture, êtes-vous assez simple,
+            assez scrupuleux pour faire un crime à un Historien d’une licence permise par
+            l’éloignement des <pb n="24"/>tems ? Le Héros d’un Roman devient insupportable s’il
+            reste vertueux jusqu’au dénouement ; il faut pour piquer le Lecteur à moitié endormi,
+            lui prêter des vices qu’il n’a jamais eu pour le satisfaire. Un Historien peut aussi
+            suppléer quelquefois, transplanter un événement vieilli par des siècles : voilà le grand
+            art : qui le démentira ? Théodora était sans doute une Princesse illustre : mais que
+            risque un Auteur ennemi secret du Théâtre, en disant (quand même cela ne serait pas)
+            qu’une Femme de Spectacle est une débauchée : voyez le beau sujet de querelle.</p>
+          <quote>
+            <lg>
+              <l>« Soupçonner une Actrice, est risquer peu de chose,</l>
+              <l>On peut alors parier cent contre un. »</l>
+            </lg>
+          </quote>
+          <p>Ah ! je vous demande pardon, je ne m’attendais pas à ce trait ; je vous suis obligé, me
+            voilà totalement convaincu… la peste !… vous avez raison. A propos du mariage de
+            justinien avec Théodora, je suis bien aise de citer ce qu’en dit M. Antoine Terrasson
+            dans son Histoire de la Jurisprudence Romaine, <hi rend="i">p.</hi> 203.</p>
+          <p><pb n="25"/>« L’Empereur Justin abrogea entièrement le chapitre de la loi Papia Poppæa,
+            au sujet des mariages des Sénateurs, &amp; cela parce que Justinien que Justin avait
+            adopté, venait d’épouser Théodora qui avait été Comédienne. Justin abrogea aussi la
+            constitution de Constantin ; &amp; quand Justinien fut parvenu lui-même à l’Empire, il
+            fit une constitution<note resp="author" place="bottom"><p>Novelle 89,
+              chap. 15.</p></note> pour achever d’anéantir des loix qui n’avaient été abrogées qu’à
+            cause de lui. » Quelque page plus haut, il dit, que Justinien n’épousa Théodora que
+            lorsqu’il fut associé lui-même à l’Empire, &amp; qu’il ne l’épousa que pour ne point
+            violer sa parole donnée. C’est une contradiction insoutenable : Justin n’abrogea donc
+            pas la loi Papia Poppæa [c’est à dire le chapitre au sujet des mariages des Comédiennes]
+            en faveur de son adopté. C’est malignement inventer un motif qui ne fut point la cause
+            de la cassation de ce chapitre, &amp; qui ne tombe pas sous les sens. Tout le monde sait
+            qu’un <pb n="26"/>Souverain ne reçoit de loi que de lui-même, &amp; qu’il se dispense
+            d’anéantir celles qui lui sont contraires, pour se justifier aux yeux de la multitude
+            qui se trouve presque toujours de son avis. Rendons justice à la vérité : soyons sûrs
+            qu’un génie aussi grand, aussi vaste que Justin se fut dispensé d’anéantir le chapitre
+            de la loi Papia Poppæa, au sujet des mariages des Comédiennes, s’il n’en avait connu
+            toute l’extravagance. Car enfin, qu’en serait-il résulté s’il ne l’eut point abrogé ?
+            une foule d’obstacles que Justinien eut éprouvé à son avénement à l’Empire ; je veux
+            tout cela : mais qui se seraient bientôt évanouïs d’eux-mêmes. Justin en abrogeant ce
+            chapitre, ne fit que ce qui se fait de nos jours lorsqu’on vient à reconnoître que le
+            préjugé seul fait la solidité d’une loi. Même page il continue ainsi : « Quelque temps
+            après, ce même Empereur<note resp="author" place="bottom"><p>Justinien.</p></note>
+            acheva d’anéantir la loi Papia Poppæa &amp; la constitution de Constantin, par sa
+            Novelle 117, chap. 6, <pb n="27"/>par laquelle il permit aux Citoyens les plus qualifiés
+            de contracter des mariages avec toutes sortes de personnes, pourvu qu’elles fussent
+            libres. C’est ainsi (poursuit l’élégant M. Antoine <seg resp="wordpro">Terrasson</seg>)
+            que Justinien qui mérite quelques louanges par le soin qu’il prit de faire rassembler
+            les anciennes loix, sacrifia à sa passion pour sa femme, un des établissemens des plus
+            sages qui eussent jamais été faits par ses Prédécesseurs. »</p>
+          <p>Cette constitution me paraît sage, &amp; je ne puis pénétrer les raisons du Traducteur
+            qui la blâme, si ce n’est le plaisir de se trouver du parti vulgaire. Hé quoi ! parce
+            que les Prédécesseurs de Justin &amp; de Justinien avaient noté d’infâmie les Acteurs,
+            quoique le goût d’en avoir leur soit venu des Grecs qui faisaient des leurs les premiers
+            de l’Etat, il fallait absolument que l’un &amp; l’autre (pour conserver leur gloire)
+            adoptassent cette loi, ou plutôt cet atroce préjugé qui n’a existé &amp; n’existe plus
+            que chez le Clergé de France &amp; dans quelques <pb n="28"/>Parlemens de ce Royaume. Je
+            ne puis même y penser sans gémir. O ma chère Patrie ! pouvez-vous donner dans une erreur
+            aussi grossière, &amp; faire vos délices du Théâtre ? Ne rougissez-vous pas d’entendre
+            dire d’un pôle à l’autre que la France est l’asile des Arts, &amp; suivre le sentier
+            d’un absurde préjugé ? Cessons de placer au rang des grands Hommes les Corneille, les
+            Racine, les Molière, les Voltaire, ou diffamons-les, puisqu’ils sont de nos jours
+            l’ornement, l’ame de nos Théâtres. Le receleur est sans contredit plus criminel que le
+            voleur, mais il est moralement sûr que sans le dernier le premier n’aurait jamais
+            existé. Mais enfin parcourons les lieux habités de ce vaste globe, l’Allemagne, la
+            Hollande, l’Angleterre, &amp;c. nous ne trouverons pas de trace d’un semblable
+            aveuglement ; en Espagne… en Italie même, Contrée heureuse où siège le Chef visible de
+            l’Eglise, on fait de la Comédie un des ornemens de la Solemnité des jours les plus
+              saints.<note resp="author" place="bottom"><p>Dict. des Arrêts, t. 2,
+              p. 219.</p></note></p>
+          <p><pb n="29"/>Revenons à J.J. Rousseau : quant au mélange « de bassesse, de fausseté, de
+            ridicule orgueil &amp; d’indigne avilissement qui rend le Comédien propre à toutes
+            sortes de personnages, hors le plus noble de tous, celui d’Homme qu’il abandonne. »</p>
+          <p>Je ne vois pas là dedans ce qu’il y a de servile &amp; de bas que pour Jean-Jacques,
+            Homme fait pour tout avilir. Rendre les vices odieux, n’est pas dégrader l’humanité, si
+            le Comédien est honnête Homme. Dois-je mépriser l’Evangile parce qu’un scélérat prêche
+            les Vertus, &amp; qu’il pratique le vice qu’il vient de vespériser ? non sans doute, je
+            profiterai de sa morale &amp; mépriserai ses mœurs. Qu’a donc l’Homme de Chair de plus
+            que le Comédien ? quelle différence, direz-vous ! il n’en est point que celle que vous
+            lui prêterez. La Comédie est un Sermon vivant, &amp; remue bien différemment
+            l’Auditeur.</p>
+          <p>Les Conférences ne sont-elles pas des dialogues comme nos Pièces ? Que l’on multiplie
+            le nombre des Orateurs, il n’y <pb n="30"/>aura plus de différence. N’ai-je pas entendu
+            éclater l’Auditoire ? n’ai-je pas ri moi-même des réponses flegmatiques du
+            Contradicteur, de ses saillies naïves ? « Un Acteur (dit J.J.) à force de représenter
+            des filoux, des valets industrieux, ne prendra-t-il pas un jour la bourse d’un fils
+            prodigue ? »</p>
+          <p>Il nous fait assurément beaucoup d’honneur, c’est-à-dire à Messieurs les Comiques dont
+            il parle. Selon lui, pratiquer le vice en apparence pour deux heures, doit tourner en
+            habitude, &amp; fera sans contredit de Messieurs les Valets des filoux publics, &amp;
+            payer pour apprendre le métier au dépens même des volées, quel pitoyable raisonnement !
+            peut-on l’entendre sans hausser les épaules de pitié ? mais en revanche il doit en
+            résulter que les premiers Acteurs qui ne représenteront que de grands vices ou de
+            grandes Vertus, seront dans le même cas, ce qui conclut sans problême, que s’ils ne
+            jouent que des Dissipateur, des Glorieux, des Ambitieux, des Polieucte, <pb n="31"/>des
+            Samson, des Enfant prodigue, à force de les représenter ils en prendront les Vertus. De
+            même que ceux qui rempliront les rôles vicieux tels qu’Atrée, Oreste, Polifonte,
+            Mahomet, Œdipe, (qui l’est sans le savoir) Catilina &amp; tels autres, seront réputés
+            infâmes à force de représenter ceux qui le sont. Mais je m’imagine qu’il en résulterait
+            souvent que le premier serait un misérable, &amp; le second au contraire un homme
+            très-estimable, auquel cas notre Caustique se trompe furieusement. Mais il faut bien lui
+            passer quelque chose : le bon homme végete tout au plus. Ces petits Auteurs Montagnards
+            sont sujets aux vertiges : notre Génevois est dans le cas.</p>
+          <p>Le Contradicteur dans nos Conférences sera donc un scélérat, puisqu’il tourne en
+            ridicule la Religion même. S’il prend la place de l’homme méprisable, menteur,
+            irréligieux, c’est pour faire appercevoir tout le hideux du personnage qu’il feint de
+            représenter. L’homme a besoin d’exemples <pb n="32"/>frappans. Un Sermon fait plus
+            d’effet sur l’Auditoire que si l’Auditoire le lisait. Le Comédien n’est pas plus
+            vertueux que les autres Hommes &amp; n’est pas plus corrompu. Les vices attachés à
+            l’humanité sont de chaque état. Honnête Homme, il est estimable pétri de talens ; sans
+            conduite, il doit être odieux.<note resp="author" place="bottom"><p>On trouve depuis des
+                temps immémorials, des traces d’œuvres de Théâtres en diverses nations polies, &amp;
+                qui ne s’étaient pas communiqué ce goût les unes aux autres. Les Chinois, par
+                exemple, qui n’ont rien emprunté des Grecs, ont eu sans savoir comment, l’usage
+                d’une espèce de Tragédie &amp; de Comédie à leur manière. Voici ce qu’en rapporte
+                Acosta [Amer. 9 part. l. 6, c. 6.] « Les Chinois, dit cet Auteur, ont des Théâtres
+                vastes &amp; fort agréables, des habits magnifiques pour les Acteurs, &amp; des
+                Comédies dont la représentation dure dix ou douze jours de suite, en y comprenant
+                les nuits, jusqu’à ce que les Spectateurs &amp; les Acteurs las de se succéder
+                éternellement en allant boire, manger, dormir &amp; continuer la Pièce, ou assister
+                au Spectacle sans que rien y soit interrompu, se retirent enfin tous comme de
+                concert. Du reste, ajoute-t-il, les sujets sont tout-à-fait moraux, &amp; surtout
+                relevés par les exemples fameux des Philosophes &amp; des Héros de l’antiquité
+                chinoise. »</p>
+              <p>On voit de même chez les célèbres Incas du Pérou des Pièces régulières. Voici ce
+                qu’en dit Garcillaso de la Vega [<hi rend="i">Primera parte Delos Commentarios
+                  reales, c.</hi> 17.] « Ils représentaient aux jours de fêtes des Tragédies &amp;
+                des Comédies qui n’avaient rien de bas ni de rampant. Les sujets des Tragédies
+                étaient les exploits &amp; les victoires de leurs Rois &amp; de leurs Héros. Ceux au
+                contraire des Comédies se tiraient de l’agriculture &amp; des actions les plus
+                communes de la vie humaine ; le tout assaisonné de sentences pleines de sens &amp;
+                de gravité. »</p>
+              <p>[Théât. des Grecs par le R.P. Brumoy, t. 1er. p. 41.] il dit même volume p. 71, à
+                l’égard de l’efficacité du Spectacle, « que la Poésie corrige la crainte par la
+                crainte, &amp; la pitié par la pitié ; chose d’autant plus agréable que le cœur
+                humain aime ses sentimens &amp; ses faiblesses. Il s’imagine donc qu’on veut le
+                flater, &amp; il se trouve insensiblement guéri par le plaisir même qu’il a pris à
+                se séduire. Heureuse erreur dont l’effet est d’autant plus certain que le remède
+                naît du mal même qu’on chérit. »</p></note></p>
+          <p><pb n="33"/>« L’Orateur, le Prédicateur paient : pourra-t-on me dire de leurs personnes
+            ainsi que le Comédien (la différence est grande, dit-il) l’Orateur se montre, c’est pour
+            parler, &amp; non se donner en spectacle comme lui la risée de l’Assemblée. »
+            L’Eloquence est un Art divin ; le Théâtre <pb n="34"/>est son Temple. C’est là que le
+            Prédicateur, l’Avocat viennent y chercher l’aisance &amp; les principes contre la
+            monotonie insupportable des Collèges. Il est des loges grillées dans presque tous les
+            Spectacles pour le premier, l’Avocat s’y place où il lui plaît. En un mot, nos
+            Prédicateurs, nos Avocats les plus célèbres, ne rougissent point de convenir que c’est à
+            cette école qu’ils doivent leurs perfections. Ciceron avoue que c’est à Claudius Esope
+            (Acteur célèbre des Romains) qu’il est redevable de l’Art de la déclamation qu’il
+            possédait au premier degré : aussi le consultait-il sans cesse. Son amitié pour lui
+            &amp; pour Roscius, (dont il fait souvent l’éloge sur sa probité, ses talens<note
+              resp="author" place="bottom"><p>Il prit la défense de ce dernier contre Fannius dans
+                le beau discours intitulé <hi rend="i">Pro Roscio</hi>. Dans son Oraison pour le
+                Poëte Archias, t. 1, p. 73, il dit, où est le brutal ou le stupide qui dernièrement
+                ne fut point touché de la mort de Roscius ? Ce n’est pas qu’il ne fut mort assez
+                âgé ; mais comme il était incomparable en son Art, il était digne de vivre
+                toujours.</p></note>) est une preuve sûre de la <pb n="35"/>supériorité du Comédien
+            sur l’Orateur &amp; l’Homme de Chaire, puisque c’est à l’Acteur qu’ils sont redevables
+            l’un &amp; l’autre des règles de l’Eloquence. Tout consiste donc dans le préjugé ;
+            aveugle qui l’adopte. Souvent le Prédicateur m’a fait pitié ; &amp; s’il était d’usage,
+            nous les verrions plus sifflés qu’applaudis. Il en résulterait un grand bien, c’est
+            qu’ils seraient meilleurs. S’il ne devait pas payer de sa personne, on ne s’en
+            appercevrait pas, il ne ferait pas cet effet.</p>
+          <p>Le Bareau, la Chaire &amp; le Théâtre sont exposés à ces disgraces, hors qu’il est
+            permis d’éclater au Théâtre ; mais tous trois ils sont sujets à feindre, &amp; souvent
+            ils affectent d’être attendris d’une chose qui les fait rire au sortir de l’avoir
+            débitée ; contraire en cela à Horace, qui dit, pleurez, si vous voulez que je pleure ;
+            ce qui conclut qu’il faut sentir pour exprimer. Aussi qu’arrive-t-il ? c’est qu’à
+            l’issue des Temples on critique le Prédicateur qui, sans le respect que les assistans
+            ont pour le lieu, l’entendrait <pb n="36"/>de ses propres oreilles ; l’Orateur est
+            interrompu par les éclats de rire, l’Acteur est sifflé parce qu’on veut tout en lui,
+            &amp; qu’il doit tout avoir. Il faut des supplices pour contenir les scélérats, il faut
+            des tyrans sur la scène pour les faire haïr. Celui qui les représente n’est pas plus
+            avili que celui qui les cite.</p>
+          <p>« Mais, poursuit-il, un Comédien, en jouant un scélérat, déploie tout son talent pour
+            faire valoir de criminelles maximes dont lui-même est pénétré d’horreur. p. 146.<note
+              resp="author" place="bottom"><p>Le bon homme ne se rappelle pas que lui-même a mis
+                tout en usage pour prouver que les Arts nous avaient corrompus. Bien différent en
+                cela à Plutarque, dont la décision est préférable à la sienne, qui dit que le plus
+                grand fruit que les Hommes puissent retirer de la familiarité des Muses, c’est
+                d’acquérir, par le commerce des lettres, une douceur qui les rende aimables. Je ne
+                citerai point mille paradoxes extravagans dont il est le créateur ; on est à même en
+                consultant le badin Freron, qui en tient le registre, d’en voir la
+              bizarrerie.</p></note> »</p>
+          <p>Mais le Prédicateur en mettant devant les yeux de l’Auditoire les crimes affreux <pb
+              n="37"/>de nos pères, ne rougira-t-il pas de citer Sodome &amp; Gomorrhe ; les infâmes
+            débauches des Enfans d’Israël ; celle du Roi Prophète &amp; de son Fils ? toutes ces
+            citations pour faire haïr le crime ne dégradent-elles pas l’humanité ? Quoi ! pour nous
+            faire aimer la Vertu, nous citer des crimes abominables, souvent ignorés d’une partie de
+            l’Auditoire, qui cherche la signification de ces noms infâmes, tombe le plus souvent
+            dans l’impureté autorisée par l’exemple de ces criminels illustres qui furent de ces
+            crimes les premiers auteurs.</p>
+          <p>A l’égard de l’Orateur, l’Eloquence d’un Avocat célèbre, a souvent fait absoudre le
+            riche coupable au préjudice de l’innocent né dans le sein d’une fortune médiocre.<note
+              resp="author" place="bottom"><p>Licinius Calvus, Orateur célèbre des Romains, plaida
+                avec tant de force contre Vatinius, que celui-ci voyant qu’il allait être condamné,
+                l’interrompit en disant aux Juges : « hé quoi ! Messieurs, parce que mon accusateur
+                est éloquent, est-il juste que je sois condamné ? »</p></note> Combien d’hommes
+            victimes de cet Art dangéreux mais nécessaire, ont cimenté de leur sang, ou par la perte
+            totale <pb n="38"/>de leur bien, la réputation éclatante de ces Elèves de Patru.</p>
+          <p>Est-il possible qu’un galant Homme emploie ses talens à pallier ou faire triompher le
+            crime : plus il a de témérité, plus je le trouve bas &amp; coupable d’embrasser (aux
+            yeux même de la Justice) la défence d’un scélérat qui n’est représenté sur la scène que
+            pour en faire voir toute l’infâmie : voilà en quoi triomphe la Comédie. On y voit les
+            tyrans dévorés de remords ou punis par les supplices, l’infâme Athalie égorgée aux
+            portes du Temple de l’Eternel, Oreste déchiré de remords d’avoir crû Hermione qui
+            s’immole de désespoir, le sanguinaire Hérode en horreur, Gustave triomphant du perfide
+            Christierne, Polifonte poignardé par le Successeur légitime de Cresfonte, l’Enfant
+            prodigue dévoré de remords, revenu au sein de sa famille implorant les bontés de son
+            père, l’avarice, l’hypocrisie, l’envie, la médisance, l’orgueil sont les tableaux que la
+            Comédie expose sur la scène.</p>
+          <p><pb n="39"/>Voyez Polieucte &amp; Néarque, leur mort fait bénir par la pieuse Assemblée
+            les coups qui les conduisent à la béatitude éternelle, récompense des Martyrs. Pauline
+            couverte du sang de son Epoux abandonne les faux Dieux ; Félix frappé d’un rayon de
+            lumière, sent entrer dans son ame le pouvoir des Vertus chrétiennes. Le Spectateur sent
+            une sainte joie à ce dénouement qui succède aux larmes que les Martyrs lui ont
+            arrachées ; il sort pénétré ; il l’oublie le lendemain, le moment même : est-ce la faute
+            de l’Acteur si le vice se renouvelle sans cesse dans le cœur des humains ? Aux approches
+            d’une quinzaine de pénitence, vous voyez tout le monde se préparer à des devoirs pieux,
+            le temps des pénitences expire, les habitudes vicieuses prennent la place de la
+            quinzaine d’hypocrisie : les Pasteurs doivent-ils en être responsables ?</p>
+          <p>« P. 147, si l’on ne voit en tout ceci qu’une profession peu honnête, on doit voir
+            encore une source de mauvaises mœurs dans le désordre des Actrices <pb n="40"/>qui force
+            &amp; entraîne celui des Acteurs. »</p>
+          <p>Je le dis encore, la Comédie était méprisable<note resp="author" place="bottom"
+                ><p>« St. Thomas porte sur les Histrions de son temps un jugement bien différent de
+                celui que les pères des premiers siècles avaient porté sur les Histrions de leur
+                temps, lorsqu’ils parlaient des Comédies régulières des Payens : il disait [<hi
+                  rend="i">Art. de Spect.</hi>] <hi rend="i">Comædiæ &amp; Tragædiæ horum
+                  Poëmata</hi>. (<hi rend="i">St. August. de civil. l. 2, cap. 8.</hi>) <hi rend="i"
+                  >Et hæc sunt Scenicorum tolerabiliora ludorum Comædiæ scilicet &amp;
+                  Tragædiæ.</hi> »</p>
+              <p>« Mais lorsqu’il s’agissait des jeux des Histrions, ils s’élevaient fortement
+                contre les abus qui y régnaient. [<hi rend="i">Luet. l.</hi> 6, <hi rend="i">divin.
+                  institut. cap.</hi> 20] <hi rend="i">Histrionum impudicissimi motus quid aliud
+                  nisi libidines docent, &amp;c. instigant. Histrionum impudici gestus in quibus
+                  infames fæminæ imitantur libidines, quæ, quas saltando exponunt, docent.</hi>
+                Hist. du Théât. ital. par Ricoboni, p. 26. »</p></note> dans le sein de la maîtresse
+            du monde, corrompue par les Farceurs ou Histrions ; ce qui la fit noter d’infâmie.</p>
+          <p>Ces Mimes<note resp="author" place="bottom"><p>« Histrions ou Mimes se mirent à
+                représenter les Comédies qui approchaient le plus de leur caractère ; c’était les
+                Attelanes. Ces Pièces ayant passé dans les mains de ces Acteurs, perdirent le nom de
+                Comédie. » (Même Théât. p. 24) Charlemagne, par une Ordonnance de l’an 789, mit les
+                Histrions au nombre des personnes infâmes, &amp; auxquelles il n’était pas permis de
+                former aucune accusation en Justice, &amp;c.</p>
+              <p>Mais il faut avouer que la plûpart de ces peines ont moins été prononcées contre
+                des Comédiens [le vulgaire confond le Comédien avec les Farceurs] proprement dits,
+                que contre des Histrions ou Farceurs publics qui mettaient dans leurs jeux toutes
+                sortes d’obscénités ; &amp; que le Théâtre étant devenu plus épuré, on a conçu une
+                idée moins désavantageuse des Comédiens. (Ce que je trouve d’original, c’est ce qui
+                suit.) On tient néanmoins toujours pour certain qu’ils dérogent, exceptés ceux du
+                Roi, comme il résulte d’une déclaration de Louis XIII, du 16 Avril 1641, enregistrée
+                en Parlement le 24 du même mois, &amp; d’un Arrêt du Conseil du 10 Septembre 1668,
+                rendu en faveur de Floridor. Dict. des Arrêts, t. 2, p. 218 ; la restriction est
+                admirable.</p>
+              <p>« Les Anciens distinguaient deux sortes d’Acteurs : les Mimes ou Bateleurs, &amp;
+                les Comédiens dont le nom comprend maintenant ceux qui jouaient les Comédies &amp;
+                les Tragédies ; &amp; comme ces deux sortes de gens étaient différens aux choses
+                qu’ils représentaient, en la manière de représenter, aux lieux où ils jouaient &amp;
+                aux habits qu’ils portaient, ainsi qu’on le peut prouver aisément, ils furent aussi
+                traités différemment.</p>
+              <p>« Les premiers furent déclarés infâmes dans les derniers temps par les Romains,
+                encore qu’au commencement cela n’eut pas été parmi eux, non plus que parmi les
+                Grecs.</p>
+              <p>« Mais les Comédiens n’ont jamais reçu cette disgrace, ayant toujours été traités
+                avec honneur par les personnes de grande condition &amp; capables de toute société
+                civile ; ce que l’on peut justifier par beaucoup de rencontres, &amp; même de ce que
+                les Poètes dramatiques dont aucuns ont été Généraux d’Armée, jouaient quelquefois
+                eux-mêmes le principal Personnage de leurs Pièces ; &amp; s’ils ont été quelquefois
+                maltraités à Rome après la mort des tyrans sous lesquels ils avaient servi, ce fut
+                par maxime d’Etat, comme amis des mauvais Princes, &amp; non par règle de Police,
+                comme ennemis des bonnes mœurs. » [Prat. du Théât. par l’Abbé Daubignac, t. 1er
+                p. 349.</p></note> n’étaient que de vils esclaves, <pb n="41"/>&amp; les Actrices
+            d’infâmes prostituées, &amp;c. Mais il n’en résulte pas que le <pb n="42"/>Spectacle
+            soit méprisable, &amp; en horreur aux honnêtes gens : la bonne Comédie n’étant point
+            vicieuse, mais une partie de ceux qui la composent ; j’en donnerai plus avant la
+            preuve.</p>
+          <p>Romulus ne fonda un grand Peuple qu’ayant rassemblé un tas de brigans) tel est le sort
+            des Colonies) ; de ces tiges viles sont sortis des modèles de Vertu qui font encore
+            l’admiration de notre siècle. Leurs Successeurs doivent-ils être méprisables <pb n="43"
+            />parce que leurs pères l’étaient ? La Grèce, je l’ai déjà dit, faisait plus de cas des
+            Acteurs &amp; des Poètes de Théâtre ; ils possédaient des charges honorables, récompense
+            des Hommes de mérite. Personne n’ignore l’estime des Grecs pour Euripide, Auteur célèbre
+            de l’Isle de Salamine. Les Athéniens défaits en Sicile rachetèrent leur vie en récitant
+            les Vers tragiques de ce grand Homme, tant leurs vainqueurs avaient d’estime &amp; de
+            vénération pour les Pièces de cet excellent Poète.<note resp="author" place="bottom"
+                ><p>Voici ce qu’écrit M. de Voltaire au sujet des Acteurs &amp; Actrices Anglaises à
+                Mr Fakéner, vol. 3, p. 14. « Le Chevalier Stécle &amp; Chevalier Vanbrouk étaient en
+                même tems Auteurs Comiques &amp; Membres du Parlement. Vous comblez de bien les
+                grands Hommes pendant leur vie, vous leur élevez des mausolées &amp; des statues
+                après leur mort ; les Actrices célèbres ont aussi leur place dans les Temples à côté
+                des Grands Poètes. »</p>
+              <p>Olfilde ainsi que Barcegirdle sont inhumées auprès des tombeaux des Rois. « Ce
+                n’était pas le métier (dit J.J.R. en parlant des Anglais à ce sujet) mais les talens
+                qu’ils voulaient honorer. Chez eux les grands talens annoblissent dans les moindres
+                états, les petits avilissent dans les plus illustres. »</p>
+              <p>Je doute qu’un Savetier, à quelque degré qu’il poussât son métier, je doute fort,
+                dis-je, qu’il parvînt à cet honneur. Le talent le plus sublime ne peut illustrer une
+                profession, si réellement elle est méprisable ; il est mille traits chez cette
+                nation, qui prouvent l’état qu’ils font des Acteurs.</p>
+              <p>Thomas Oteway, célèbre Poète, &amp; Acteur fort estimé. Shakespear honoré de même
+                qu’Olfilde de la sépulture royale &amp;c. Thomas Beterton aussi célèbre Poète &amp;
+                Acteur tragique, il était sobre, modeste, bon ami, &amp; d’une société agréable : il
+                mourut dans un âge avancé regretté de tout le monde.</p></note></p>
+          <p><pb n="44"/>Machiavel, fameux Ecrivain en matière de politique, au seiziéme siècle
+            composa une Comédie sur le modèle des Pièces grecques ; elle fut si bien reçue que le
+            Pape Léon X la fit représenter à Rome, &amp; honora la Pièce de sa présence ainsi qu’à
+            Sophonisbe, Tragédie de Jean-George Trissiano. L’Histoire fournit des traits moins
+            reculés de la bienveillance des Grands pour les Poètes &amp; les Acteurs.</p>
+          <p>« A mesure que les Hommes se polissaient, <note resp="author" place="bottom"><p>Théât,
+                ital. par Ric. p. 57.</p></note> les Arts venaient en vénération. L’Empereur Mathias
+            annoblit Piétro <pb n="45"/>Maria Cocchini, Homme d’esprit &amp; de Lettre, qui jouait
+            les rolles d’Arlequin. Nicolo Barberi Detto Beltrama fut protégé par LOUIS XIII, &amp;
+            Giona Baptista Andreïni, qui jouait les rolles d’Amoureux, fut honoré ainsi que le
+            premier de sa bienveillance.</p>
+          <p>« S. Charles Borromée,<note resp="author" place="bottom"><p>Même Théât.
+              p. 58.</p></note> Cardinal &amp; Archevêque de Milan signait les canevas des
+            Comédiens, &amp; leur donna le Privilège de cette Ville en 1583 ; il ne désapprouva que
+            les Spectacles immodestes, comme on le voit par le troisiéme Concile qu’il tint à Milan
+            en 1572. »</p>
+          <p>Floridor, fameux Comédien, né Gentilhomme n’en fut point jugé indigne par la profession
+            dont il était,<note resp="author" place="bottom"><p>L’Arrêt est du 10 Sept.
+              1668.</p></note> dans la recherche que l’on fit de la fausse noblesse, il fut reçu par
+            le Roi &amp; son Conseil à faire preuve de la vérité de la sienne qui, par droit
+            héréditaire, a passé à sa postérité. La Thorillière le Noir, Capitaine de Cavalerie,
+              &amp;c.<note resp="author" place="bottom"><p>Voyez le Dict. des Théât.</p></note></p>
+          <p><pb n="46"/>L’Académie de Musique n’a-t-elle pas le Privilège de conserver la qualité
+            de noble à ceux qui ont l’avantage de l’être.</p>
+          <p>Dans les premiers temps du Théâtre, les Actrices guidées par le desir de plaire par
+            leur propre talent, n’achetaient point les applaudissemens par la prostitution comme je
+            l’ai vu souvent ; le mérite seul était récompensé ; on vénérait les talens &amp; la
+            conduite, au lieu que dans ce temps où la débauche est au dernier point, une malheureuse
+            renommée par le libertinage &amp; le nombre d’illustres Amans va ravir la palme due à
+            l’Actrice de mérite, décorée de la sagesse. Le dégoût s’empare de son ame, indignée elle
+            abandonne la scène, &amp; la laisse en proie à la débauche émanée d’un public
+            luxurieux.</p>
+          <p>Que ce même public ait plus de vénération pour un état respectable ; ces Femmes
+            ennemies des vices se feront un devoir d’embellir le Théâtre, &amp; de montrer qu’il
+            faut être vertueux pour faire aimer la Vertu. La débauche exilée des Temples de <pb
+              n="47"/>Thalie &amp; de Melpomène, va faire revivre ces lieux antiques révérés dans le
+            sein de la sagesse<note resp="author" place="bottom"><p>Athènes.</p></note>, séjour où
+            la morale la plus saine doit sa naissance : en un mot. Thrône où siégait la Vertu.</p>
+          <p>« Les deux sexes ont entre eux une liaison si forte &amp; si naturelle, que les mœurs
+            de l’un décident toujours de celles de l’autre. Les Anglaises sont douces &amp; timides,
+            les Anglais sont durs &amp; féroces <seg resp="wordpro">… … … … …</seg> A cela près tout
+            est semblable. »</p>
+          <p>Un petit Homme &amp; un grand mis en <seg resp="wordpro">parallele</seg> (quoique cela
+            ne soit pas possible) doivent être selon lui, semblables par le contraste même ; quelle
+            impertinence ! puisque le désordre des Actrices entraîne nécessairement celui des
+            Acteurs, &amp; que dans tous les pays les deux sexes ont entre eux une liaison si
+            naturelle que les mœurs de l’un décident de celles de l’autre. Si les Acteurs, dis-je,
+            entraînés par l’exemple <pb n="48"/>fatal des Actrices suivent ce torrent inévitable
+            dont la source est la débauche, pourquoi les Anglais durs &amp; féroces ne prennent-ils
+            pas l’esprit doux &amp; timide de leurs compagnes aimables ? Ce raisonnement est faux
+            incontestablement, ou pour l’un ou pour l’autre, il n’en résulte pas que parce que chez
+            moi les Femmes y sont vives &amp; coquettes, les Hommes ne devraient pas y être
+            mélancoliques &amp; naturellement un peu bourus. « Pour connoître les Hommes, dit-il, il
+            faut étudier les Femmes. »</p>
+          <p>Système absurde ! Les Femmes ont souvent été les auteurs des forfaits les plus atroces
+            &amp; des actions les plus héroïques. <note resp="author" place="bottom"><p>Jahel
+                illustre femme Juive, sauva sa Patrie en enfonçant un clou dans le front de Sisara,
+                Général des Cananéens. Judith célèbre héroïne des Juifs de la Tribu de Siméon,
+                Holoferne Général de Nabuchodonosor Roi des Assyriens ayant assiégé Béthulie,
+                Judith, dis-je, se transporta dans sa Tente, soupa avec lui, prit son sabre &amp;
+                lui coupa la tête tandis qu’il dormait, &amp; délivra par cette action héroïque, le
+                peuple Juif. Jézabel, fille d’Ethbaal, Roi des Sidoniens, épousa Achab Roi d’Israël,
+                &amp; l’entraîna dans l’Idolatrie ; elle fit prendre la fuite au Prophète Elie,
+                &amp; fut cause du meurtre de Naboth : mais ses impiétés ne demeurèrent point
+                impunies, car Jéhu étant allé à Jesrahel, la fit jetter par les fenêtres ; son corps
+                fut dévoré par les chiens &amp;c. Frédégonde, femme de Chilpéric, Roi de France,
+                s’est rendue odieuse par son impudicité ; elle fit assassiner Galsuinte, Audoüaire,
+                Sigébert, Prétextat, &amp; selon Jean du Tillet, Chilpéric son mari, lorsqu’il
+                revenait de la chasse à Chelles, de concert avec Landri son amant ; elle arma
+                ensuite puissamment contre Childébert, défit ses troupes, ravagea la Champagne,
+                reprit Paris ; elle mourut triomphante, mais couverte de crimes. Childébert &amp; la
+                Reine son épouse furent empoisonnés par ses ordres.</p></note> Faut-il en conclure
+            que les Femmes <pb n="49"/>vicieuses ou vertueuses donnent une de ces deux qualités dont
+            elles se trouvent le plus affectées ? Jean-Jacques me permettra de ne pas être de son
+            avis ; l’Histoire m’en fournit une preuve si autentique, que je ne puis me dispenser de
+            la traduire ; c’est le moyen de convaincre les obstinés.</p>
+          <p>Servius Tullius eut deux filles de Tarquinie, fille de Tarquin l’ancien ; il les maria
+            aux deux petits-fils de ce Prince, <pb n="50"/>Lucius &amp; Aruns, cousins germains de
+            ses filles ; la plus âgée à l’aîné, &amp; la plus jeune au cadet. Ses deux gendres
+            rencontrèrent dans leurs épouses des caractères totalement éloignés de leur naturel
+            &amp; de leur humeur. Lucius qui était l’aîné, homme hardi, fier &amp; cruel, eut une
+            femme d’un esprit doux, raisonnable, pleine de tendresse &amp; de respect pour son
+            père ; Aruns qui était le cadet, beaucoup plus humain &amp; plus traitable que son aîné,
+            trouva dans la jeune Tullie une de ces femmes entreprenantes, audacieuses, &amp;
+            capables des crimes les plus noirs. Elle sçut gagner Lucius par ses paroles flatteuses ;
+            enfin ils déterminèrent entre eux de se défaire l’un de sa femme, l’autre de son mari ;
+            le parricide ne fut différé que de quelques jours après le complot formé. Dès qu’ils
+            eurent exécuté ce double attentat, ils joignirent leurs fortunes &amp; leurs fureurs par
+            un mariage, auquel Servius n’osa s’opposer. Ce fut pour lors que ne voyant plus que la
+            vie de Servius qui fit obstacle à leur ambition, il le <pb n="51"/>firent assassiner
+            dans la rue Cyprienne, nommée depuis Scélérate. Elle accourut au bruit que faisait la
+            populace, &amp; voyant le corps de son père sanglant, que son cocher lui montrait saisi
+            d’horreur, cette vue ne fit que l’irriter, de sorte qu’oubliant non seulement les
+            sentimens de la nature, mais même ceux de l’humanité, elle fit passer son char sur le
+            corps de son père, quoique les chevaux, épouvantés à ce spectacle, en eussent horreur.
+            Après cette inhumanité-elle rentra dans sa maison comme en triomphe.<note resp="author"
+              place="bottom"><p>Hist. Rom. par Rollin, t. 1er, p. 282.</p></note> Voici une
+            apostille, quoiqu’étrangère à mon sujet, que je ne puis m’empêcher de citer « pag. 158,
+            les femmes sauvages n’ont point de pudeur, car elles vont toute nue … je répons dit
+            (J.J.) que les nôtres en ont encore moins, car elles s’habillent. »</p>
+          <p>Juges, mon cher, si une proposition aussi erronée ne devrait pas procurer à son Auteur
+            une place aux petites maisons. Il est vrai que les Lacédémoniens n’étaient point <pb
+              n="52"/>affectés des danses des jeunes filles nues quoique cet usage, introduit par
+            Lycurgue, soit blâmé universellement, ainsi que son réglement barbare, d’étouffer les
+            enfans qui venaient au monde, qui ne promettaient pas d’être bien faits &amp; vigoureux.
+            L’habitude chez eux faisait la sureté du sexe, ainsi que chez les Sauvages, mais il
+            n’est pas moins ridicule d’en conclure que nos Femmes ont moins de pudeur parce qu’elles
+            s’habillent. Il serait aussi étrange à ce peuple de se vêtir, qu’à nous de nous priver
+            de nos habits, l’habitude d’aller couvert faisant chez nous partie de la décence ;
+            préjugé soit. Mais s’il pense qu’au fond, l’adroite parure de nos Femmes est plus
+            dangéreuse qu’une nudité absolue dont l’habitude tournerait bientôt les premiers effets
+            en indifférence, &amp; peut-être en dégoût, ce n’est pas la peine de renoncer à nos
+            usages, le mal étant fait ; d’ailleurs j’y prévois mille obstacles qui sans contredit en
+            naîtraient, &amp; qui s’offrent pour peu qu’on refléchisse. Quelle différence, si les
+            Peuples <pb n="53"/>de l’Europe adoptaient cette méthode extravagante qui répugne à tout
+            Etre policé ! Combien de Femmes perdraient, privées de l’usage ; mais combien en est-il
+            qui ne pourraient suffire à l’avidité d’un tas de libertins ? Laissons les choses comme
+            elles sont, ce serait tomber d’un mal dans un pire, tout est bien.</p>
+          <p>« Page 166, je demande comment un état dont l’unique objet est de se montrer, &amp; qui
+            pis est, de se montrer pour de l’argent, conviendrait à d’honnêtes femmes, &amp;
+            pourrait compâtir en elles avec la modestie &amp; les bonnes mœurs. »</p>
+          <p>Je lui répondrai qu’il faut que le Public en ait,<note resp="author" place="bottom"
+                ><p>En effet, une Femme vertueuse à la Comédie, est un monstre pour les libertins ;
+                elle y est persécutée, &amp; si les honnêtes gens ne la soutiennent pas, c’est
+                souvent par crainte de se donner un ridicule : car protéger la pudeur dans notre
+                siècle, ce n’est pas être du bon ton, ce serait le moyen d’être sifflé de nos gens
+                du bel air, dont le suffrage fait tout le mérite : c’est donc la faute du Public
+                s’il n’en est point.</p></note> c’est lui qui les corrompt par toutes sortes de
+            voies : ces exemples sont <pb n="54"/>vrais ; une jolie Femme, vertueuse à la Comédie,
+            devient la victime de cent complots criminels ; elle succombe, rien n’est moins
+              étonnant.<note resp="author" place="bottom"><p>Marie Caldéronna, Comédienne célèbre,
+                fut aimée de Philippes IV, Roi d’Espagne : on dit que l’or, les prières, les
+                honneurs, les instances, tout en un mot fut employé pour la séduire. Heureuse si
+                elle eut toujours préféré la médiocrité au faste, &amp; la sagesse au titre frivole
+                de Maîtresse de Roi. Elle eut de ses amours Dom Juan d’Autriche, Grand Prieur de
+                Castille, &amp; Généralissime des Armées de Terre &amp; de Mer. Combien n’aurais-je
+                pas d’exemples à citer sur cette matière si je le voulais.</p></note></p>
+          <quote>
+            <lg>
+              <l>« Quelques crimes toujours précèdent les grands crimes. »</l>
+            </lg>
+          </quote>
+          <p>Les bornes de la décence une fois franchies, il en naît les égaremens les plus infâmes.
+            Dans chaque état ne voit-on pas la même chose ? Les Femmes seraient vertueuses si les
+            Hommes l’étaient. Ce sexe naturellement <seg resp="wordpro">crédule</seg> lorsqu’il
+            aime, se laisse aller à sa passion sur l’espoir de promesses purement chimériques ;
+            combien de filles abusées par une bonne foi composée ! coquinisme infâme que les loix
+            devraient <pb n="55"/>punir rigoureusement, s’il en était d’équitables : en un mot, s’il
+            en est qui n’aient pas succombé aux brillantes promesses de leurs séducteurs, c’est
+            souvent manque de sensibilité, ou qu’on s’y sera pris mal adroitement.</p>
+          <quote>
+            <lg>
+              <l>« Les Femmes de nos torts empruntent leurs défauts,</l>
+              <l>Et leurs Vertus sont rarement les nôtres.<note resp="author" place="bottom"
+                    ><p>L’Imp. par Mr. Desmahis.</p></note> »</l>
+            </lg>
+          </quote>
+          <p>Qui déshonore la Comédie ? qui ? c’est un tas de malheureuses &amp; de malheureux
+            plongés dans le vice, protégés par des gens aussi méprisables qu’eux, qui, pour se
+            soustraire à la rigidité des parens qui ne peuvent souffrir leur infâme vie, &amp;
+            voulant la continuer avec plus d’aisance, embrassent un état libre, indépendant,
+            privilège des Arts. Un nom supposé les cèle quelque temps, mais leur conduite dissolue
+            les démasque. Je ne m’y suis jamais trompé, j’ai pris souvent plaisir à les faire
+            connaître, ennemi juré de la canaille, &amp; je le prouve. La Comédie est donc le refuge
+              <pb n="56"/>des infâmes, me dira-t-on ? mais, répondrai-je, les cloîtres, lieux
+            consacrés à la piété &amp; à la sagesse, renferment des abominables. Ce n’est point
+            l’état qui dégrade, c’est la conduite de celui qui le pratique.</p>
+          <p>Je disais un jour à un de mes amis à la *** qui me rapportait les propos d’un certain
+            fat (Marchand enrichi par l’arrière-change) tenus à lui sur notre étroite amitié. Je lui
+            répondis :</p>
+          <quote>
+            <lg>
+              <l>Méprise les propos dont ici l’on te berce,</l>
+              <l>Et ris ainsi que moi d’un stupide <seg resp="wordpro">pied-plat.</seg></l>
+              <l>Oui, je me fais honneur du métier que j’exerce :</l>
+              <l>Tout Homme vertueux annoblit son état.</l>
+            </lg>
+          </quote>
+          <p>Quand verrons-nous les Arts à l’abri de la noire calomnie : je ne puis souffrir, sans
+            être révolté, de voir un tas de sots faire le Procès sans rappel, au talent destructeur
+            des vices ; mais cela ne surprendra plus lorsque je dirai qu’en ce pays, une Femme chez
+            laquelle on trouverait le vase que la décence ne me permet pas de nommer, serait réputée
+            Femme de mauvaise vie. Eut-on jamais cru que la mal-propreté aurait mis le sexe à
+            couvert de la médisance ?</p>
+          <p><pb n="57"/>Revenons à l’avilissement des Comédiens qui jouent, &amp; jouent pour de
+              l’argent.<note resp="author" place="bottom"><p>St. Antoine, Archevêque de Florence,
+                  <seg resp="wordpro">disait,</seg> la profession de Comédien, <hi rend="i"
+                  >Histrionatus aræ, in</hi> 3 <hi rend="i">p. summ. tit. 8 cap. 4 sess.</hi> 12,
+                parce qu’elle sert à la récréation de l’Homme qui est nécessaire pour sa vie, n’est
+                pas défendue d’elle-même. De là vient qu’il n’est pas non plus défendu de vivre de
+                cet Art. Il dit dans un autre endroit, <hi rend="i">Scenicus ludus, &amp;c.</hi> 2
+                  <hi rend="i">pars, summ. cap.</hi> 23, <hi rend="i">sess. 1</hi>. La Comédie est
+                un mélange de paroles &amp; d’actions agréables pour son divertissement ou pour
+                celui d’autrui, si l’on n’y mêle rien de deshonnête, rien d’injurieux à Dieu, ou de
+                préjudiciable au prochain, ce jeu est un effet de la Vertu d’Eutrapélie, car
+                l’esprit qui est fatigué par des soins intérieurs comme le corps l’est par les
+                exercices de déhors, a autant besoin de repos que le corps en a de nourriture. Ce
+                repos se procure par ces sortes de paroles ou d’actions divertissantes que l’on
+                appelle jeux. St Bonnaventure dit, les Spectacles sont bons &amp; permis s’ils sont
+                accompagnés de précautions &amp; de circonstances nécessaires.</p>
+              <p>Le Fameux Balde parle ainsi, <hi rend="i">Joculatores &amp;c. lege ii</hi>, § <hi
+                  rend="i">ait Prætor ff. de his qui notantur infamiâ</hi>. Les Comédiens qui jouent
+                d’une manière honnête, ou pour se divertir, ou pour délasser les autres, &amp; qui
+                ne font rien contre les bonnes mœurs, ne sont point réputés infâmes.</p>
+              <p>St Thomas dit, <hi rend="i">Quod sicut dictum est &amp;c. ibid.</hi> L’emploi des
+                Comédiens établis pour donner aux Hommes une récréation honnête, n’a rien selon moi
+                qui mérite d’être défendu, &amp; je ne les crois pas en état de péché <seg
+                  resp="wordpro">… … …</seg> Je crois, poursuit-il, que ceux qui les paient &amp;
+                les assistent avec modération ne péchent point, &amp; qu’ils font même une action de
+                justice, puisque c’est leur donner la récompense de leur travail, &amp;c.</p></note>
+            Tout état embrassé pour l’amour du gain dégrade donc l’honnête Homme ?</p>
+          <p><pb n="58"/>Je serais curieux de savoir si lui-même n’a pas tiré de son Imprimeur le
+            salaire de sa Brochure cynique. Depuis le premier rang jusqu’au dernier, tous tirent le
+            fruit de leurs peines. Un Particulier brigue la Magistrature ou tel autre grade, la perd
+            souvent par une avidité trop mercénaire, heureux souvent d’être échappé à la fureur
+            d’une populace effrénée. Le Marchand, pour doubler son gain, prodigue des éloges à son
+            Acheteur idiot, imbécile : il ne le ferait pas sans l’espoir de vendre sa marchandise.
+            L’Officier expose sa vie à prix d’argent : serait de même que les Gladiateurs de
+            l’antiquité, sans le frivole préjugé qui fait ruiner le Gentilhomme pour sa Patrie, par
+            l’espoir flatteur d’un grade <pb n="59"/>éminent qui le dédommage (lorsqu’il a le
+            bonheur de l’obtenir) de l’héritage de ses ayeux. Un noble Campagnard, pour obtenir le
+            gain d’un procès dont la perte le mettrait dans le sein de la misère, ne trouve point
+            d’autre expédient pour s’en assurer le succès, que de conseiller adroitement à sa chaste
+            moitié de céder aux luxurieux desirs d’un Rapporteur. Plus d’un Macron<note
+              resp="author" place="bottom"><p>Favori de Tibère.</p></note> moderne, s’attacha un
+            Galigula par les charmes de son Epouse. Je vois cet usage assez généralement suivi ; ô
+            temps ! ô mœurs ! Enfin les vertus &amp; les vices s’achètent au poids de l’or ; ce
+            métal fait tout entreprendre, rend tout facile ; l’illustre Successeur de la triple
+            couronne se laisse éblouir par des offres cupides ; les entrailles dorées du Potosi,
+            prodigalement offertes, dissipent les difficultés innombrables qu’il avoit fait d’abord.
+            Il permet le divorce, faveur que ne peut obtenir l’indigencieux ; il se laisserait
+            écraser de la foudre du Monarque, qui se présenterait sans ce métal, par excès <pb
+              n="60"/>de zèle, mais l’or anéantit les scrupules, &amp; lui fait bien vîte obtenir le
+            consentement de celui dont il se dit le Vicaire.</p>
+          <p>Les Sacrificateurs subalternes &amp; journaliers, moyennant dix sols, s’obligent à me
+            rendre favorable tel ou tel Saint ; que je double le salaire, j’aurai dans ma manche
+            tous les Saints des deux sexes, passés, connus, inconnus.</p>
+          <p>L’Hérésiarque Augustin,<note resp="author" place="bottom"><p>Martin Luther, Fils d’un
+                Forgeron, né à Islèbe, Comté de Mansfeld.</p></note> indigné ainsi que son
+              Général<note resp="author" place="bottom"><p>Le Pape Léon X, ayant fait publier les
+                indulgences, Jean Stoupits, Général des Augustins, ordonna à Luther de prêcher
+                contre les nouveaux Quêteurs. Pour donner une idée juste de cet événement, il est
+                bon de savoir que le siècle était alors si grossier, que l’on croyait pouvoir
+                racheter des années de supplice avec un morceau de papier vendu à vil prix. Un
+                commerce pareil serait de nos jours d’un ridicule affreux. Mais alors on n’en était
+                pas plus surpris qu’on ne l’est en Orient, de voir les Bonzes &amp; les Talapoints
+                délivrer pour une obole, la rémission des crimes. Ce que je trouve d’admirable,
+                c’est que l’on affermait ces Bureaux d’indulgence, comme nos Bureaux de sortie &amp;
+                d’entrée ; ces Comptoirs se tenaient dans des cabarets. Le Prédicateur, le Fermier,
+                le Distributeur, &amp;c. tous y gagnaient. Mais les Augustins d’Allemagne, qui
+                depuis longtemps avaient cette marotte à Ferme, furent jaloux des Dominicains,
+                auxquels elle fut donnée. Voilà, dit Voltaire, la première étincelle qui embraza
+                l’Europe. Annal. de l’Emp. t. 2, p. 133, chose qui ne serait pas arrivée sans le
+                gain immense que les Augustins tiraient de ces pieuses fourberies. Les richesses de
+                tout temps ont été la passion dominante des Hommes, &amp; comme je l’ai déjà dit, on
+                sacrifie pour en avoir, père, mère, frère, parent, religion, honneur, bonne foi,
+                &amp; fort souvent soi-même.</p></note> de l’affront fait à <pb n="61"/>son ordre,
+            qui les privait de commission de recueillir les aumônes des indulgences jubiliaires,
+            entraîna le Duché de Saxe, le Royaume de Suède, celui de Dannemark dans le parti de Jean
+              Hus<note resp="author" place="bottom"><p>Hérés. Rect. de l’Univ. de Prague, il fut
+                brûlé à Constance avec ses livres le 16 Juillet 1415, pendant la tenue du
+                Concile.</p></note> dont il avait adopté les maximes. Avide de grossir sa fortune
+            &amp; son pouvoir (de concert avec Mélacton, Bucer &amp; ses autres Disciples) il permit
+            à Philippe Langrave de Hesse,</p>
+          <quote>
+            <lg>
+              <l>« Faible d’esprit &amp; robuste de foi. <seg resp="wordpro">»</seg></l>
+            </lg>
+          </quote>
+          <p>de répudier sa première Epouse (répudiation concertée avec elle, car il la garda) <pb
+              n="62"/>&amp; de convoler dans les bras de Marguerite de Saal, Fille d’un Gentilhomme
+            Saxon. C’est ainsi que le Luthéranisme se signala en permettant la poligamie.</p>
+          <p>Le monde est un Théâtre, chaque personne y joue son rolle, &amp; se trouve plus ou
+            moins payé selon l’importance du personnage qu’il représente, mais qu’il ne ferait pas,
+            s’il n’y avait point de salaire attaché.</p>
+          <p>Jouer la Comédie c’est s’avilir, &amp; la jouer encore pour de l’argent.<note
+              resp="author" place="bottom"><p>Les Comédiens sont infâmes parce qu’ils jouent pour de
+                l’argent, les gens de condition le sont donc aussi, car s’il est vrai que l’action
+                soit mauvaise en soi, qu’importe qu’elle se fasse avec gain ou sans profit ; elle
+                sera toujours mauvaise, une circonstance de plus ou de moins ne saurait rendre bonne
+                une action essentiellement mauvaise. Qu’un Homme du premier rang, pour s’amuser,
+                s’avise d’assassiner, ne sera-t-il pas puni comme celui qui le fait croyant ôter par
+                ce moyen la connaissance de ses vols ? Pourquoi serait-il puni ? c’est que cette
+                action dégrade en elle-même celui qui l’a faite, &amp; que les loix divines &amp;
+                humaines le défendent, ainsi si la Comédie, comme elle de nos jours, était infâme
+                &amp; dangéreuse, il serait aussi méprisable que ceux qui en font métier ; la
+                conséquence est sûre.</p></note> J’ai vu à la Cour du Roi de Pologne. Duc de
+            Lorraine <pb n="63"/>&amp; de Bar, (à qui j’ai eu <seg resp="wordpro">l’honneur</seg>
+            d’appartenir l’espace de quatorze ans) j’ai vu, dis-je, une partie des personnes qui
+            ornent ce séjour de la piété, représenter la Comédie.</p>
+          <p>L’illustre éleve<note resp="author" place="bottom"><p>Madame du Châtelet.</p></note> du
+            Chantre de la ligue nous a fait exécuter plusieurs Opéras avec le Vicomte de Rouen,
+            Madame la Marquise de Boufflers, la Marquise de Bassompierre sa sœur, le Baron de Lucé,
+            le Marquis d’Amenzaga, le Prince de Chimes ; Mr de Mareuil<note resp="author"
+              place="bottom"><p>Fils du Chancelier, Homme charmant, de la plus belle figure &amp; de
+                la plus haute espérance, il était bréveté Colonel, Capitaine d’une des Compagnies
+                des Gardes du Corps, &amp; à la veille d’avoir la Croix ; en moins de trois jours
+                l’impitoyable mort le moissonna à peine à son quatriéme lustre.</p></note> jouait la
+            Comédie. Je citerais toute la France, les pays étrangers même. Louis le Grand n’a pas
+            dédaigné d’orner le Théâtre en exécutant l’entrée triomphante de Thésée dans l’Opéra de
+            ce nom. Les Collèges, une fois l’année, donnent des pièces. Si la Comédie était en <pb
+              n="64"/>elle-même méprisable, tant de gens n’en feraient pas leurs délices, &amp;
+            comme j’ai dit plus haut, on ne mettrait pas des récompenses pour encourager les Auteurs
+            de notre Théâtre ; &amp; ailleurs on n’en ferait pas l’ornement de la Solemnité des
+            jours les plus saints. Quel a donc été le dessein du Génevois de contrarier ? Il n’a
+            percé, on le sait, qu’à la faveur de sa singularité bourue. L’incendiaire du Temple
+            d’Ephèse <note resp="author" place="bottom"><p>Eratostrate ou Erostrate, Homme obscur de
+                cette Ville.</p></note> eut été ignoré sans l’embrasement de cette septiéme
+            merveille.</p>
+          <p>« Supposons, dit l’élégant Jean-Jacques en parlant des Actrices, p. 168,</p>
+          <quote>
+            <lg>
+              <l>Qu’il en soit jusqu’à trois que l’on <seg resp="wordpro">pourroit</seg> nommer</l>
+            </lg>
+          </quote>
+          <p>je veux bien croire là dessus ce que je n’ai jamais vu, ni oui dire. Appellerons-nous
+            un métier honnête, celui qui fait d’une honnête femme un prodige, &amp; qui nous porte à
+            mépriser celles qui l’exercent, à moins de compter sur un miracle continuel. » On doit
+            par ce raisonnement <pb n="65"/>conclure que tout Homme que le sort a fait naître en
+            Normandie, est un Homme fourbe &amp; de mauvaise foi, hors de compter sur des miracles
+            perpétuels qui ne détruiraient pas encore le préjugé d’un tas de sots : cette mauvaise
+            plaisanterie ferait donc le procès aux habitans des treize cantons ? Un Homme plongé
+            dans la réverie par inadvertance, est surpris par quelqu’un qui le fait appercevoir de
+            son absence, &amp; lui demande à quoi il rêvait, répond le plus souvent [à rien.]
+            L’Interrogateur lui riposte galamment : « il n’est pas possible, Monsieur, que vous
+            rêviez à la Suisse. »</p>
+          <p>Il en résulterait donc que le corps entier de la nation serait un corps d’Automates ;
+            c’est ce dont je ne conviens pas : j’en ai la preuve,<note resp="author" place="bottom"
+                ><p>J’en ai connu un dont le profond savoir a mérité la confiance du Monarque des
+                Lys, maintenant Ambassadeur auprès d’une illustre République. Le respect m’interdit
+                de détailler les belles qualités qui le décorent ; cette carrière, quoique semée de
+                fleurs, est un Dédale pour une plume aussi faible que la mienne. N’imitons point le
+                Fils téméraire de cet Architecte fameux qui sut cacher dans des allées tortueuses
+                &amp; savantes, l’infâme fruit de l’impudique Fille de Minos. Il faut un Homère pour
+                chanter les Immortels. Il faut un Virgile pour les grands Hommes.</p>
+              <p>Mr de Constant l’aîné, Capitaine au Régiment de ce nom, au service de leurs Hautes
+                Puissances, honoré de son amitié pendant son séjour à Tournay, est le second garant
+                que j’offre pour démentir cette plaisanterie crapuleuse &amp; basse, au service de
+                France, Mrs de Chateau Vieux, Capitaine au Régiment de Diesbak, de la Cheau,
+                Capitaine au Régiment de Monin.</p>
+              <p>Je citerai un Jean-Pierre de Cronzas, célèbre Philosophe &amp; Mathématicien né à
+                Lausanne. St François de Sales, célèbre par sa piété, &amp; né à Sales, Diocèse de
+                Genève. Gabriel Cramer, le plus grand Philosophe de notre siècle, né à Genève, mort
+                en 1752, ses progrès dans les Sciences furent si rapides, que dès l’âge de 19 ans,
+                on lui donna une Chaire de Mathématique. Murald, Auteur des Lettres sur les Français
+                &amp; les Anglais. Jacques Bernoulli, célèbre Mathématicien, né à Bale, où il
+                professa cet Art. Théodore Bibliander, Professeur de Théologie, mort à Zurich. Isaac
+                Lasaubon, un des plus Savans Hommes de son siècle, nâquit à Genève, sa profonde
+                Erudition lui valut l’estime d’Henri IV, &amp; de Jacques Premier, Roi d’Angleterre.
+                Chéséaux, membre des Académies des <seg resp="wordpro">Sciences</seg> de Paris, de
+                Londres, &amp;c.</p></note> l’esprit est de tous les pays.</p>
+          <p><pb n="66"/>Ainsi selon le faux préjugé de Jean-Jacques, un Suisse Homme d’esprit est
+            un prodige. <pb n="67"/>Un Normand &amp; un Procureur (synonime adopté par le vulgaire)
+            honnête Homme, prodige ! Un Français raisonnable au printemps de son âge, prodige ! Un
+            Jésuite franc, sincère, nullement vindicatif &amp; souple, prodige !</p>
+          <p>P. 168, « l’immodestie tient si bien à leur état, &amp; elles le sentent si bien
+            elles-mêmes, qu’il n’y en a pas une qui ne se crût ridicule de feindre au moins de
+            prendre pour elle les discours de sagesse &amp; d’honneur qu’elle débite au public, de
+            peur que ces maximes sévères ne fissent un progrès nuisible à leur intérêt. » Cette
+            précaution n’est que pour celles qui n’ont point de talent. Dans chaque état une partie
+            est méprisable, les infâmes y tiennent &amp; n’y tiennent pas : il n’y a que les
+            honnêtes gens qui font corps. Ce que j’aime dans Jean-Jacques, c’est qu’en voulant
+            prouver une chose, il se détruise lui-même (« les discours de sagesse, d’honneur,
+            &amp;c. ») la Comédie traite donc la morale la plus saine, puisque les Actrices au
+            sortir de l’avoir débité, <pb n="68"/>prennent un air non nuisible à leurs intérêts. En
+            faut-il davantage pour prouver clairement combien est absurde le systême de Jean-Jacques
+            Rousseau ?</p>
+          <p>Si chez les Romains le Théâtre eut été une école de sagesse comme il l’est de nos
+            jours, ou comme dans son institution, nous serions comme dans la Grèce, les premiers de
+              l’Etat.<note resp="author" place="bottom"><p>Tite Live dit que les Jeux scéniques
+                furent introduits à Rome l’an 390, à l’occasion d’une peste qu’il s’agissait de
+                faire cesser. [En 1350 on vit en Suabe la secte des Flagellans renouvellée : pour la
+                même chose, on voyait des milliers d’Hommes courir l’Allemagne en se fouettant avec
+                des cordes armées de fer, pour chasser la peste ;] comment les Romains
+                diffamaient-ils les Comédiens qui devaient leur être sacrés, puisqu’ils servirent à
+                leur rendre les Dieux favorables ? Pourquoi eux-mêmes s’exposaient-ils à représenter
+                les Attelanes ou Exodes ? n’étaient-ils pas diffâmes, si l’Art mérite de l’être ?
+                L’Empereur Héliogabale représentant le rolle de Vénus, se fit voir nud sur le
+                Théâtre avec une impudence extrême. L’habitude du vice &amp; du crime ne
+                diffâme-t-elle que le petit peuple ? S’il y avait de l’infâmie pour ceux qui
+                représentaient journellement, l’infâmie couvrait également ceux qui le faisaient
+                pour leur plaisir. Une action méchante ne perd point sa qualité, pratiquée par un
+                Homme de nom, ou il faut convenir que le crime n’avilit que la canaille. Quoique
+                Jean-Jacques dise « qu’il est à propos quelquefois que l’Etat encourage &amp;
+                protège des Professions deshonorantes mais utiles, sans que ceux qui les exercent en
+                doivent être plus considérés pour cela. »</p>
+              <p>Mais tant de gens respectables jouent la Comédie, qu’il n’est pas possible, si cet
+                Art était infâme, qu’ils s’amusassent de choses deshonorantes. Tant de gens d’esprit
+                qui ont consacré leurs veilles à Melpomène, auraient pu faire la même remarque que
+                le contemptible Génevois.</p>
+              <p>Ces lieux destinés à la débauche, Temples dédiés à la Déesse des plaisirs, ne
+                sont-ils pas tolérés ? ils le sont sans contredit, mais ils sont nécessaires pour
+                mettre à couvert la pudeur des Femmes respectables, qui se verraient sans cela la
+                proie de la brutalité du premier passant. Mais voit-on, dites-moi, aux coins des
+                rues afficher comme les Comédiens, quoique permis par les Magistrats, Mde. Paris,
+                Melle. telle, privilégiés du Roi ou des Magistrats, procurent des victimes dévouées
+                aux plaisirs de la volupteuse jeunesse.</p>
+              <p>Je crois que tout le crime de la Comédie consiste en ce qu’elle faisait jadis
+                partie de la Religion payenne. Dans les premiers temps même de l’Eglise, les
+                Prêtres, les Diacres, les Ministres des Autels représentaient des Pièces en
+                l’honneur de St Jean, de St Etienne ; mais le St Siège voulant abolir cet usage,
+                donna un décret [<hi rend="i">Interdum ludifiant, &amp;c. in 3 decret. c. 10,
+                  tit. 1, cùm decorem domus Dei</hi>] il fallait attacher l’infâmie à ces sortes de
+                Représentations pour les abolir. [On ne les a pas aboli toutes, j’en vois
+                journellement plus d’une qui se trouvent parfaitement analogues à nos Comédies, mais
+                la prudence m’oblige à n’en pas donner les canevas,] le Digeste de Justinien [<hi
+                  rend="i">ff. de his qui notantur infamiâ</hi>] les nomme infâmes, je le sais. Mais
+                le même Digeste couvre d’infâmie, <hi rend="i">Lege, qui ait Prætor, Lege
+                  genera</hi>, le Soldat qui s’enfuit du combat de même qu’une jeune Femme qui se
+                marierait avant l’année de son deuil expiré. C’est selon moi tirer une mauvaise
+                conséquence de prouver la méchanceté d’une action, parce qu’elle est notée
+                d’infâmie. St Cyprien, <hi rend="i">lib. 3 cap. 11</hi>, ne peut souffrir que la
+                même main qui sert aux sacrés Mystères, touche des cartes &amp; des dés. Voyons-nous
+                cette règle observée ? non, elle est pourtant notée d’infâmie.</p>
+              <p>Les Cabaretiers jadis étaient aussi infâmes, ils n’étaient pas reçus en témoignage,
+                ils ne pouvaient pas même intenter de procès, fusse pour être payé de leurs
+                débiteurs, tant on craignait de salir les Tribunaux en y parlant d’une Profession si
+                honteuse : ils ont dans ce jour la qualité de Marchand de vin ; ils deviennent
+                Consuls, Echevins.</p>
+              <p>Personne n’ignore que les Médecins furent chassés de Rome comme infâmes : de nos
+                jours leurs Enfans remplissent des places considérables dans la Robe, dans l’Epée
+                &amp; dans l’Eglise.</p>
+              <p>Pour prouver comme tout change, jettons les yeux sur l’ancienne Rome, nous voyons
+                le concubinage n’avoir rien de déshonorant chez eux ; de nos jours il est proscrit,
+                puisqu’on avait donné au concubinage le titre de <hi rend="i">licita
+                consuetudo</hi> : &amp; quoique les Concubines fussent privées de tous les effets
+                civils, &amp; que leurs Enfans ne fussent point soûmis à la puissance paternelle,
+                elles ne différaient cependant des Epouses légitimes, que par la dignité de l’Etat
+                &amp; par l’habillement. Les Concubines étaient <hi rend="i">loco Uxoris, &amp;c.
+                  &amp;c.</hi> Les Enfans n’étaient point appellés <hi rend="i">Spurii</hi> ; &amp;
+                quoiqu’ils ne fissent point partie de la famille paternelle, leur état n’était point
+                honteux, <seg resp="wordpro">&amp;</seg> ne les privait point du commerce des autres
+                Citoyens ; de nos jours ils en sont banis. C’est ce que nous trouvons
+                très-clairement expliqué dans une inscription rapportée par Grutter, p. 434, &amp;
+                dans laquelle nous voyons qu’un certain P. Paccius &amp; Mamercia Grapta sa
+                Concubine, firent élever ce monument à C. Mamercius <seg resp="wordpro"
+                  >Janvarius</seg> leur Fils naturel, &amp; à leur Cousine qui n’est point nommée
+                dans l’inscription qui est conçue en ces termes :</p>
+              <quote>
+                <lg rend="center">
+                  <l>C. MAMERCIO. SP. F.</l>
+                  <l>JANVARIO. Q. ÆD. PRÆT.</l>
+                  <l>II VIR. Q. ET.</l>
+                  <l>P. PACCIUS. JANVARIUS.</l>
+                  <l>FILIO. NATURALI ET.</l>
+                  <l>MAMERCIA. GRAPTI.</l>
+                  <l>MATER. INFELICISS. FILIO.</l>
+                  <l>ET. COGNATÆ. PIISSIMIS.</l>
+                  <l>FECERUNT.</l>
+                </lg>
+              </quote>
+              <p>Le concubinage fut longtemps en usage chez les Romains, mais l’Empereur Léon
+                l’abolir entièrement par sa Novelle 91, laquelle n’eut lieu que dans l’Empire
+                d’Orient. Tout le monde sait que la plûpart des Catholiques de Bavière, d’Autriche,
+                d’Hongrie, de Bohème, demandèrent, en acceptant le Concile de Trente, qu’on leur
+                permit de communier avec du pain &amp; du vin. Les Prêtres à qui l’usage avait
+                permis de se marier avant la clôture dudit Concile, demandèrent aussi la permission
+                de garder leurs Femmes. Maximilien II sollicite auprès du Pape la liberté de ces
+                deux points. Pie IV, à qui le Concile avait abandonné la décision du Calice, le
+                permet aux Laïques Allemands, &amp; refuse les Femmes aux Prêtres, mais ensuite on
+                ôte le Calice aux Séculiers. Le Mariage, à l’égard des Prêtres, était-il plus
+                criminel après la tenue du Concile qu’avant ? L’anéantissement de cet usage me
+                parait plutôt dicté par le caprice que par la saine raison, ainsi que la Communion
+                donnée sous une autre espèce que le pain &amp; le vin. Un Prêtre qui s’abandonne à
+                l’impudicité est noté d’infâmie sans égard, s’il est moins fragile que nous. On
+                abolit leurs mariages, non par principe de Religion, mais par la crainte que les
+                gros Bénéfices ne devinssent héréditaires, sans refléchir qu’en suivant une aussi
+                mauvaise politique, il en résulterait une foule d’abominations dont les ennemis de
+                notre auguste foi se servent journellement pour nous détruire.</p></note> Il n’est
+            donc pas deshonorant d’être Comédien, puisqu’on ne débite au Théâtre que des maximes
+            épurées.</p>
+          <p><pb n="69"/>« Je n’ai pas besoin (dit-il) de montrer comme d’un état deshonorant
+            naissent des sentimens deshonnêtes. »</p>
+          <p><pb n="70"/>D’un Etat saint (j’en donnerai des exemples dont l’Histoire fourmille)
+            naissent souvent <pb n="71"/>des sentimens déshonnêtes. Ce n’est pas la faute de l’Art
+            que nous exerçons, <pb n="72"/>(il n’en est point de méprisable) mais de la corruption
+            des mœurs, le germe vicieux étant chez presque tous les Hommes.</p>
+          <p><pb n="73"/>Page 169, « je ne m’étendrai pas sur mille sujets de discorde &amp; de
+            querelle que la distribution des rolles, le partage de la recette, le choix des Pièces,
+            la jalousie des applaudissemens doivent exciter sans cesse… » comme si le Comédien était
+            un Etre différent des autres Hommes propriétaires des vices en général. Le partage d’une
+            succession a mis plus d’une fois les héritiers aux prises : plus d’un aîné a fait périr
+            son cadet pour être seul héritier : la jalousie a fait empoisonner plus d’un mortel qui
+            avait eu la préférence sur son rival : l’entêtement d’une opinion erronée a causé la
+            désunion d’une partie des membres de l’Eglise. Ne sait-on pas que l’envie <pb n="74"
+            />d’accumuler de nouvelles richesses, la jalousie presqu’inséparable de la Profession
+            des armes, des disputes sur le rang &amp; la préséance, soit à la guerre ou dans les
+            Conseils d’Etat, mis la mésintelligence entre les Templiers &amp; les Chevaliers de
+            St. Jean de Jérusalem, maintenant Maltais, malgré les sages remontrances de Roger
+            Desmoulins, alors Grand Maître des Hospitaliers : cette milice intrépide qui s’était
+            dévouée à la conservation de la Terre sainte, animée l’un contre l’autre pour des motifs
+            indignes de leur Profession, joignirent les effets à la menace ; leur haine éclata au
+            point que les deux Ordres en vinrent aux mains ; ils se firent la guerre avec un
+            acharnement incroyable, que l’autorité du Pape calma en apparence.</p>
+          <p>Jean de Bavière, Evêque de Liège, se bat contre un autre Elu ; enfin pour savoir à qui
+            demeurera la Cathédrale de Liège ; la Ville est saccagée, &amp; presque réduite en
+            cendres.</p>
+          <p>Cyriaque, Patriarche de Constantinople, <pb n="75"/>meurt de chagrin de voir donner le
+            nom d’Œcuménique aux seuls Evêques de Rome.</p>
+          <p>Alexandre VI, dont la mémoire doit être en horreur à tout vrai Catholique Romain,
+            dévorait en espérance la succession du Cardinal Adrien Cornetto, le plus riche des
+            Prélats ; (il avait des coffres remplis d’or) mais comme ce Vieillard vénérable vivait
+            trop longtems à son gré, il résolut de l’empoisonner de concert avec son Fils César
+            Borgia, qu’il avait eu étant Cardinal, de Vanota, Femme de Dominique Arimano. Le Pape
+            invita Adrien à une Fête dans une Vigne voisine de Rome ; le poison fut préparé dans une
+            bouteille de vin dont on ne devait servir qu’à ce Cardinal, mais le Pape &amp; son Fils
+            étant arrivés avant lui dans ce jardin, &amp; ayant soif, l’Echanson, qui était seul
+            dépositaire du secret, ne s’y trouvant pas, un autre Domestique leur présenta du vin de
+            la bouteille empoisonnée : Alexandre en sentit bientôt l’effet : déjà avancé en âge,
+            ruiné par ses <pb n="76"/>débauches passées, il ne put résister long-temps à la violence
+            du poison. « C’est ainsi que mourut le Pape Alexandre VI, dont les débordemens publics
+            (dit le Père Daniel dans son Histoire de France, 1 Ed. t. 2, p. 721) les perfidies,
+            l’ambition démesurée, l’avarice insatiable, la cruauté &amp; l’irréligion en avaient
+            fait l’exécration de tout l’Europe, dans une place où l’on ne devait être élevé que par
+            les mérites des Vertus contraires à tous ces horribles vices. »</p>
+          <p>Son Fils (dit-on) s’étant fait mettre dans le ventre d’une Mule, réchappa. Jean Gonzale
+            de Castiglio, célèbre Prédicateur Espagnol, est empoisonné à l’Autel dans une Hostie
+            consacrée, qu’une Dame lui fit donner, transportée de fureur de ce qu’il avait converti
+            un Cavalier qu’elle aimait éperduement.</p>
+          <p>Jean &amp; Garcie, tous deux Fils de Cosme, Duc de Florence, avaient conçu l’un pour
+            l’autre une haine dont on n’avait jamais pu les faire revenir. Etant allés avec leur
+            Père à la chasse, ils prirent querelle, <pb n="77"/>&amp; de concert s’éloignèrent de la
+            suite des Chasseurs. Garcie plus heureux tua d’un coup de poignard son Frère. Il
+            rejoignit ensuite son Père, sans faire paraître le moindre trouble, &amp; comme s’il se
+            fut seulement égaré, il demanda ce qu’était devenu son Frère. Comme ce jeune Prince ne
+            paraissait point, &amp; que la nuit approchait, ses Officiers se partagèrent pour le
+            chercher. Après avoir couru tout le bois, celui qui était particulièrement chargé de sa
+            conduite, le trouva enfin étendu par terre &amp; noyé dans son sang. Il courut porter
+            cette affreuse nouvelle au Duc ; ce Prince soupçonna sans peine d’où le coup était
+            parti : il eut assez de force pour dissimuler. Il ordonna à cet Officier de tenir la
+            chose secrette, &amp; qu’à la faveur des ténèbres il lui apportât dans son cabinet le
+            corps du Cardinal enveloppé dans un tapis. Dès qu’il fut obéi, il fit appeller Garcie.
+            Après s’être enfermé, il lui demanda ce qu’était devenu son Frère, ce Prince lui
+            répondit froidement qu’il l’avait perdu de vue dans la <pb n="78"/>poursuite du Cerf.
+            Cosme lui commanda alors de lever le tapis qui couvrait le corps du Cardinal, dont les
+            plaies dégoûtaient encore de sang. A ce spectacle, le Duc ne pouvant retenir sa colère
+            &amp; sa douleur : mal-heureux, lui dit-il, voilà le sang de ton Frère qui crie
+            vengeance au Ciel contre toi. Faut-il que j’aie mis au monde un parricide, qui, par la
+            perte de son Frère, s’est fait un chemin pour assassiner son Père même ? Garcie intimidé
+            se jette à ses pieds, &amp; pour pallier son crime, il lui allégue que son Frère l’avait
+            attaqué le premier, &amp; qu’il n’avait sauvé sa vie que par sa mort. Non, lui répondit
+            son Père enflammé de colère, faible excuse : il faut, lui dit-il, que je venge moi-même
+            la mort de l’innocent par la perte du coupable, &amp; que tu rende la vie à celui de qui
+            tu la tiens. En disant ces paroles, il lui arracha le poignard dont il avait tué son
+            Frère, &amp; le lui enfonça dans le sein.</p>
+          <p>Mainfroy, Fils naturel de l’Empereur Fréderic II, fut voir ce Prince qui était <pb
+              n="79"/>malade, &amp; sous les déhors d’une feinte tendresse, l’étouffa dans ses bras
+            en l’embrassant.</p>
+          <p>Louis le Maure, Usurpateur du Milanois, empoisonneur de son Pupille Héritier naturel,
+            un soufflet donné par l’Electeur de Brandebourg au Duc de Neubourg, excite une guerre
+            sanglante entre ces deux Princes, le motif était le partage de Clèves &amp; de Juliers.
+            Le Duc de Neubourg se fait Catholique pour avoir la protection de l’Empereur Mathias
+            &amp; du Roi d’Espagne, &amp; l’Electeur de Brandebourg introduit le Calvinisme dans le
+            pays pour animer la ligue protestante, en sa faveur. De pareils changemens font bien
+            voir combien la Religion sert de prétexte aux politiques &amp; aux ambitieux, que l’on
+            s’en joue, &amp; comme on la sacrifie dans le besoin, &amp; fort souvent sans nécessité.
+            La fameuse dispute agitée sous le Pape Jean XXII ; savoir si les Cordeliers avaient la
+            propriété des choses qu’on leur donnait dans le temps qu’ils en faisaient usage ; si le
+            pain par exemple, <pb n="80"/>leur appartenait lorsqu’ils le mangeaient, ou au Pape ou à
+            l’Eglise. Si leurs habits devaient être blancs, gris ou noirs. Si le capuchon devait
+            être pointu ou rond, large, étroit, de serge ou de drap. Ces questions frivoles
+            occupèrent un longtems la Cour de Rome ; &amp; les disputes furent portées si loin entre
+            les Frères Mineurs, qu’on en fit brûler plusieurs comme s’il se fut agi de l’Etat entier
+            de la Religion &amp; de la Chrétienté. Boniface VII, Anti-Pape, surnommé Francon, fait
+            étrangler Benoît VI dans la prison. Après l’élection de Benoît VII, il s’enfuit à
+            Constantinople avec les trésors de l’Eglise, il revient ensuite, &amp; fait mourir
+            Jean XIV ; mais le Ciel las de ses crimes, le frappa du glaive de la mort ; son corps
+            fut traîné dans les rues de Rome.</p>
+          <p>Calvin, jaloux de Servet, le fait condamner à être brûlé vif, sous prétexte qu’il
+            blasphémait, &amp; fait à cette occasion un Traité, prouvant qu’on peut faire mourir les
+            Hérétiques, tandis qu’il était lui-même dans le cas. Quoique l’élégant Editeur du <pb
+              n="81"/>Dictionnaire historique de Mr de l’Avocat, dont l’article par hazard me tombe
+            sous les yeux, veuille donner à entendre que cet emportement n’était qu’un reste de
+            Papisme. Mais le fameux Arucinius, Théologien Protestant, n’eut-il pas la douleur d’être
+            cité à la Haye pour rendre compte de sa doctrine ? où se voyant accablé par la brigue,
+            il mourut de désespoir. Ses Défenseurs furent condamnés au Synode de Dordrecht ; on fit
+            subir le dernier supplice à plusieurs de ses Disciples. Dira-t-on que c’était un reste
+            de Papisme qui fut l’auteur de leurs Arrêts ? tandis que ces Juges de sang étaient les
+            plus zélés Défenseurs de la Religion réformée.<note resp="author" place="bottom"
+                ><p>« C’est à regret (dit l’Editeur en parlant de Luther) que nous sommes obligés
+                d’avertir que Mr de l’Avocat s’est éloigné dans cet article, de sa modération &amp;
+                de son impartialité ordinaire : que Luther étant sorti d’un Couvent, on ne devait
+                pas être étonné qu’il eut conservé quelques manières monacales, &amp; qu’il lui
+                échappa en conversation &amp; dans ses livres, des expressions libres, peu
+                mesureés : » correctif pitoyable pour pâlir sa hardiesse &amp; ses emportemens. Il
+                dit aussi au sujet de Servet, pour justifier Calvin : « que ce dernier croyait que
+                les Magistrats étaient en droit de punir de mort les Hérétiques, mais que c’était un
+                reste de Papisme ; que ce dogme est faux, contraire à l’esprit du Christianisme, que
+                le crime de Calvin n’est pas celui de sa secte, qu’il serait injuste de le reprocher
+                aux Protestans : persécuter est le systême de l’Eglise de Rome. » Mais s’il rejette
+                réellement la persécution, &amp; qu’il n’y ait que l’Eglise Romaine qui suive ce
+                systême, ceux qui composaient le Synode de Dordrecht, devaient donc ménager un peu
+                plus le sang des Disciples d’Arminius.</p></note></p>
+          <p><pb n="82"/>Je ne cite ces anecdotes au Sr Jean-Jacques que je sais sans livres (par le
+            soin qu’il a pris d’en instruire son Lecteur) que pour l’avertir <seg resp="wordpro"
+              >obligeamment</seg> de ne point noircir un Etat dont il n’a pas sujet de se plaindre,
+            lui prêter tous les vices, &amp; employer les paradoxes les plus atroces pour le
+            prouver.</p>
+          <p>Ce n’est pas la faute des Comédiens si ses impertinences l’ont fait bannir de l’Opéra.
+            En sommes-nous responsables ? c’est à sa présomption insupportable qu’il doit s’en
+            prendre. Cet emportement frénétique prouve bien la petitesse de son génie &amp; le peu
+            de valeur de sa Brochure diffamante.</p>
+          <p><pb n="83"/>Enfin, si le partage d’une recette, le choix des rolles, la jalousie des
+            applaudissemens excitent parmi nous des querelles, qu’il n’en accuse que la nature.
+            Quoiqu’il ne soit pas Comédien, s’il voulait avoir la complaisance de se consulter, il
+            verrait sans peine que je n’ai pas tort, mais je lui crois trop d’amour propre pour se
+            donner cette peine. Nous dépouillons ordinairement les autres pour nous décorer des
+            Vertus qu’ils possèdent, &amp; nous leur donnons sans rougir les vices que la bonne
+            opinion que nous avons de nous-mêmes, nous cèle à nous seuls. p. 170, « défendre au
+            Comédien d’être vicieux, c’est défendre à l’Homme d’être malade. » Mais avec sa
+            permission, j’ai connu des Hommes à qui l’on aurait fait en vain cette défense, car ils
+            ne l’avaient jamais été &amp; n’existent plus : tout a sa fin, telle est la condition
+            des Etres. Il est des Comédiens vertueux, puisqu’il y a eu des Hommes qui n’ont jamais
+            été malades. A suivre strictement sa comparaison-je suis d’un autre avis, moi. Par
+            exemple, défendre à Jean-Jacques de radoter continuellement, <pb n="84"/>c’est défendre
+            à l’Astre brillant qui nous éclaire, de poursuivre son cours annuel. Les sots sont
+            incorrigibles, &amp; c’est en vain que Frèron, l’élégant Aristarque de la France le
+            persiffle dans ses feuilles périodiques, depuis leur naissance ; rien ne peut pénétrer
+            son épais intellect.</p>
+          <p>La bonne opinion qu’il a de lui-même, le rend tel que cet animal immonde qui préfère
+            pour se vautrer l’ordure &amp; la fange, au plaisir de fouler l’herbe fraîche &amp;
+            fleurie nouvellement baignée des pleurs de l’Amante de Tithon.</p>
+          <p>Pour me servir contre lui de tous mes avantages, dès que le Luthéranisme &amp; le
+            Calvinisme parurent en France, ceux qui l’avaient embrassé furent longtemps persécutés.
+            Louis XIV enfin, les bannit infâmement, plusieurs subirent les derniers supplices. J’en
+            connais qui n’étant pas sortis du Royaume, jeunes encore, dans le temps de l’Edit,
+            furent pris dans des lieux où ils faisaient leur prêche, &amp; conduits aux galères. Le
+            temps de leur captivité expiré, <pb n="85"/>ils furent chassés du Royaume. Au Nord de la
+            France, un Protestant n’oserait avouer sa Communion, il serait assassiné par la
+            populace. Un Luthérien, un Calviniste honnête Homme est donc un coquin ? il doit être en
+            horreur parce qu’il est noté d’infâmie chez les Catholiques. Non, non, l’Homme
+            véritablement Religieux, est, selon moi, celui qui chérit les Vertus &amp; qui les
+            pratique, en un mot, c’est</p>
+          <quote>
+            <lg>
+              <l>« … Celui dont la bouche</l>
+              <l>Rend hommage à la vérité,</l>
+              <l>Qui sous un air d’humanité</l>
+              <l>Ne cache point un cœur farouche,</l>
+              <l>Et qui par des discours faux &amp; calomnieux,</l>
+              <l>Jamais à la Vertu n’a fait baisser les yeux<note resp="author" place="bottom"><p>Le
+                    célèbre Rousseau, Ode 1, Strop. 3, t. 1, p. 4.</p></note> <seg resp="wordpro"
+                  >»</seg></l>
+            </lg>
+          </quote>
+          <p>Cet Homme peut être Catholique, Calviniste, Amériquain, Arabe, &amp;c.</p>
+          <p>P. 170, « s’ensuit-il de là qu’il faille mépriser tous les Comédiens ? il s’ensuit au
+            contraire qu’un Comédien qui a de la modestie, des mœurs, de l’honnêteté, &amp;c. est,
+            comme vous l’avez bien dit, doublement estimable, puisqu’il montre par <pb n="86"/>là
+            que l’amour de la Vertu l’emporte en lui sur les passions de l’Homme &amp; sur
+            l’ascendant de sa Profession. Le seul tort qu’on lui peut imputer est de l’avoir
+            embrassé, mais trop souvent un écart de jeunesse décide du sort de la vie ; &amp; quand
+            on se sent un vrai talent, qui peut résister à son attrait ? Les grands Acteurs portent
+            avec eux leur excuse ; ce sont les mauvais qu’il faut mépriser. »</p>
+          <p>Ces grands Acteurs doivent l’être si la Comédie est méprisable ; il n’est point de
+            voleur honnête, d’assassin vertueux, de Phriné pudique. Si son état est avilissant, il
+            ne peut être vertueux ; l’amour de la Vertu ne pouvant s’accorder avec son état, il est
+            impossible qu’elle l’emporte sur l’ascendant de sa profession. En quelque situation
+            qu’un honnête Homme se trouve, il se gardera bien d’embrasser un état deshonorant, c’est
+            une tache qui reste &amp; que le temps ne peut jamais effacer ; quelque talent qu’il
+            ait, à quelque dégré de supériorité qu’il atteigne, il ne pourra le mettre à l’abri de
+              <pb n="87"/>l’infâmie. Si les mauvais Acteurs sont méprisables, les bons doivent
+            l’être si l’état est tel : la médiocrité d’un talent ne peut avilir celui qui
+            l’exerce.</p>
+          <p>Cartouche, Ravaillac, Jacques Clément doivent donc être estimés ? leur crime conservé à
+            la postérité (suite ordinaire d’une action d’éclat) la postérité, dis-je, doit donc les
+            vénérer comme des Hommes illustres : n’importe que l’action soit atroce, dès qu’elle est
+            téméraire &amp; qu’elle est intrépidement exécutée. On verra leur nom dans notre
+            Histoire ; à la place d’assassins exécrables, de monstres vomis par les Enfers, nos
+            Historiens après avoir parlé de leur attentat, termineront ainsi le catalogue de leurs
+            iniquités : il est vrai qu’ils ont commis de grands crimes, mais ces grands crimes en
+            ont fait de grands Hommes ; ainsi, il n’y aura donc que les voleurs &amp; assassins
+            médiocres qui seront réputés méprisables.</p>
+          <p>Un Christiern II, Néron du Nord, monstres toujours souillés de sang, un Henri VIII, <pb
+              n="88"/>fléau de son siècle « despotique avec brutalité<note resp="author"
+              place="bottom"><p>Annales de l’Emp. par Mr de Volt. t. 2 p. 140.</p></note> furieux
+            dans sa colère, barbare dans ses amours, meurtrier de ses Femmes, tyran capricieux dans
+            l’Etat &amp; dans la religion » seraient donc préférables à un Clovis II, fils de
+            Dagobert I, Père du peuple<note resp="author" place="bottom"><p>Clovis II ou Louis I,
+                dans un temps de famine, fut à St Denis (après avoir épuisé ses coffres) &amp; fit
+                enlever de cette Eglise, les lames d’or &amp; d’argent dont son Père Dagobert,
+                Instituteur de ce Couvent, avait fait couvrir les tombeaux du St &amp; de ses
+                compagnons. Il rompit lui-même un des bras du St Protecteur de la France. On dit
+                qu’il devint enragé &amp; hors de sens [calomnie atroce] mais Mr du Tillet dit fort
+                judicieusement, que c’était les Prêtres qui avaient fait courir ce bruit, crainte
+                que cette action ne passât en habitude à ses Successeurs ; mais que pour lui, il ne
+                peut blâmer cette action, en disant que les Reliques avaient été souvent vendues
+                pour subvenir à la nécessité des Pauvres dans des temps désastreux, &amp; que si ces
+                Saints vivaient, il ne doutait pas qu’ils ne se vendissent pour soulager les
+                malheureux.</p></note> à un Dagobert II, dit le Jeune, fils de Sigebert III, dont le
+            gouvernement pacifique &amp; la piété le rendirent les délices de ses Sujets.</p>
+          <p><pb n="89"/>Si dans l’Etat comique il se trouve d’honnêtes gens, l’Etat est
+            respectable : une Profession infâme ne peut être pratiquée que par des malheureux sans
+            mœurs &amp; sans sentimens. Enfin, si la Comédie était nuisible aux bonnes mœurs,
+            n’est-il pas des gens assez éclairés pour la défendre &amp; en faire sentir les abus ?
+            aurions-nous besoin du Génevois pour nous réformer ? les Auteurs encouragés par le
+            Monarque, travailleraient-ils avec tant d’amour à procurer des nouveautés au public ? ce
+            serait donc aux Auteurs qu’il faudrait s’en prendre, mais non : le Roi ne pensionnerait
+            pas les Spectacles si les Spectacles étaient le Temple des vices : il punit les
+            assassins, les bandis, les usuriers, &amp;c. il eut mis la Comédie du nombre : une
+            Académie ne l’approuverait pas, &amp; les Comédiens de Paris ne feraient point nombre
+            dans leurs assemblées. Il faut être Jean-Jacques Rousseau pour avoir osé blâmer le
+            Spectacle moderne. Non, la lecture entière de l’Héroïne de Domremi <note resp="author"
+              place="bottom"><p>La Pucelle d’Orléans, Poëme pitoyable de Chapelain.</p></note> ne
+            pourrait expier tant d’audace.</p>
+          <p><pb n="90"/>P. 180 « soyez sûr que plusieurs personnes vont sans scrupule aux
+            Spectacles de Paris, qui ne metteront jamais le pied à Genève, parce que le bien de la
+            Patrie leur est plus cher que leurs amusemens. »</p>
+          <p>A Paris, on a donc le Privilège de mal faire ? La Comédie transportée à Genève sera la
+            même que dans tout autres Villes ; je ne vois pas ce qui la rendrait plus dangéreuse que
+            dans la Capitale de ce Royaume. On est donc vertueux à Genève &amp; vicieux à Paris ? …
+            c’est ce qu’il veut faire entendre. Mais pourquoi lui-même fréquentait-il la Comédie ?
+            serait-il dans le cas du Prédicateur ; qui dit à son Auditoire de faire ce qu’il dit
+            &amp; non pas ce qu’il fait. Peut-on défendre une chose, l’avilir, &amp; en avoir joui :
+            mauvais exemple pour une République, qu’il faut convaincre, non de paroles, mais
+            d’effets.</p>
+          <p>« Où sera l’imprudente Mère qui osera mener sa fille à cette école dangéreuse ? <seg
+              resp="wordpro">et</seg> combien de Femmes respectables croiraient se deshonorer en y
+            allant ? » Pour lui <pb n="91"/>prouver que cette école n’est pas si dangéreuse, il faut
+            que je lui cite ce que dit l’Abbé d’Aubignac dans son Traité de la Pratique du Théâtre,
+            t. 1, p. 3 ; « il ne faut pas qu’on s’imagine que les Spectacles ne puissent donner
+            qu’une splendeur vaine &amp; inutile. C’est une secrette instruction des choses les plus
+            utiles au peuple, &amp; les plus difficiles à lui persuader. Car pour les Spectacles où
+            sont imprimées quelques images de la guerre, ils accoûtument peu à peu les Hommes à
+            manier les armes ; ils leur rendent familiers les instrumens de la mort, &amp; leur
+            inspirent insensiblement la fermeté de cœur contre toutes sortes de dangers &amp; de
+            périls : d’ailleurs, la vanité gagne souvent sur l’esprit humain ce que la raison ne
+            pourrait peut-être pas obtenir ; &amp; cette jalouse humeur dont il ne se peut
+            dépouiller, y fomente continuellement je ne sais quel desir de vaincre qui l’anime,
+            l’échauffe, &amp; qui l’emporte au-delà de ses faiblesses naturelles. D’où vient que la
+            gloire qu’un <pb n="92"/>autre reçoit pour avoir fait quelque honnête action en public,
+            &amp; le récit éclatant des Vertus héroïques de ceux-là mêmes qui ne sont plus, nous
+            donnent toujours quelque présomptueuse croyance que nous sommes capables d’en faire
+            autant ? cette présomption devient incontinent après envieuse : cette envie qui tient
+            plus de la bonne émulation que de la malignité, produit en nous un noble desir
+            d’acquérir l’honneur que nous ne pouvons refuser aux autres, &amp; ce noble desir de les
+            imiter nous élève le courage à tout entreprendre pour en venir à bout.</p>
+          <p>« Pour les Spectacles qui consistent autant dans les discours que dans les actions,
+            comme furent autrefois les disputes de Théâtre entre les Poètes Epiques ou Dramatiques,
+            ils sont non seulement utiles, mais absolument nécessaires au peuple pour l’instruire,
+            &amp; pour lui donner quelque teinture des Vertus morales. Les esprits de ceux qui sont
+            du dernier ordre &amp; des plus basses conditions d’un <pb n="93"/>état, ont si peu de
+            commerce avec les belles connaissances, que les maximes les plus générales de la morale
+            leur sont absolument inutiles ; c’est en vain qu’on les veut porter à la Vertu par un
+            discours soûtenu de raisons &amp; d’autorités ; ils ne peuvent comprendre les unes,
+            &amp; ne veulent pas déférer aux autres, &amp;c.… Toutes ces vérités de la sagesse sont
+            des lumières trop vives pour la faiblesse de leurs yeux. Ce sont des paradoxes pour eux
+            qui leur rendent la Philosophie suspecte &amp; même ridicule : il leur faut une
+            instruction bien plus grossière. La raison ne les peut vaincre que par des moyens qui
+            tombent sous les sens, tels que sont les belles Représentations de Théâtre que l’on
+            nomme véritablement l’école du peuple.</p>
+          <p>« La principale règle du Poème dramatique est que les Vertus y soient toujours
+            récompensées, ou pour le moins toujours louées, malgré les outrages de la fortune, &amp;
+            que les vices y soient toujours <pb n="94"/>punis, ou pour le moins toujours en horreur
+            quand même ils y triomphent. Le Théâtre donc étant ainsi réglé, quels enseignemens la
+            Philosophie peut-elle avoir qui n’y deviennent sensibles ? c’est là que les plus
+            grossiers apprennent que les faveurs de la fortune ne sont pas de vrais biens quand ils
+            y voient la ruine de cette royale famille de Priam. Tout ce qu’ils entendent de la
+            bouche d’Hécube leur semble croyable, parce qu’ils en ont la preuve devant les yeux.</p>
+          <p>« C’est là qu’ils ne doutent point que le Ciel ne punisse les coupables par l’horreur
+            de leurs forfaits, quand Oreste bourelé de sa propre conscience y fait ses plaintes
+            &amp; paraît publiquement agité de sa fureur. C’est là que l’ambition passe devant eux
+            comme un grand mal, quand ils considèrent un ambitieux plus travaillé par sa passion que
+            par ses ennemis, violer les loix du Ciel &amp; de la Terre, &amp; tomber en des malheurs
+            inconcevables, pour avoir trop entrepris. C’est là qu’ils <pb n="95"/>reconnaissent
+            l’avarice pour une maladie de l’ame quand ils regardent un avaricieux persécuté
+            d’inquiétudes continuelles, de soins extravagans &amp; d’une indigence volontaire au
+            milieu de ses richesses. Enfin, c’est là qu’un Homme supposé les rend capables de
+            pénétrer dans les plus profonds sentimens de l’humanité, touchant au doigt &amp; à
+            l’œil, s’il faut ainsi dire, dans ces peintures vivantes des vérités qu’ils ne
+            pourraient concevoir autrement. Mais ce qui est remarquable, c’est que jamais ils ne
+            sortent du Théâtre qu’ils ne remportent, avec l’idée des personnes qu’on leur a
+            représentées, la connoissance des Vertus &amp; des vices dont ils ont vu les exemples,
+            &amp; leur mémoire leur en fait des leçons continuelles qui s’impriment d’autant plus
+            avant dans leurs esprits, qu’elles s’attachent à des objets sensibles &amp; presque
+            toujours présens, &amp;c. <seg resp="wordpro">… …</seg> Il faut bien certes que les
+            Spectacles soient très-importans au gouvernement <pb n="96"/>des Etats, puisque la
+            Philosophie des Grecs &amp; la majesté des Romains ont également appliqué leurs soins
+            pour les rendre vénérables &amp; éclatans. Ils les rendirent vénérables en les
+            consacrant toujours à quelques-uns de leurs Dieux, &amp; les mettant sous la charge des
+            premiers Magistrats.<note resp="author" place="bottom"><p>Xiphil in
+            Adrian.</p></note> »</p>
+          <p>Cet Extrait de l’excellence du Théâtre &amp; de son utilité, détruit absolument
+            l’épithète insolente d’école dangéreuse qu’il lui donne. Mais si le Théâtre était comme
+            il le dit, on ne devrait y voir que des débauchés, des libertins : je puis le convaincre
+            aisément à cet égard. Combien de pieuses personnes pensionnent des Comédiens. L’Evêque
+            de Liège va aux Spectacles, les protège, &amp; n’irait pas ainsi que son Collège, si la
+            Comédie n’était de nos jours une école de Vertu &amp; de sagesse. L’illustre Grand
+            Maître de l’Ordre Teutonique a eu fort longtemps une troupe à lui, &amp; l’aurait encore
+            sans les troubles de Westphalie. Le <pb n="97"/>Légat d’Avignon fréquente les
+            Spectacles. A Rome ils sont autorisés, permis ainsi que dans toute l’Italie : (j’en ai
+            dit quelque chose) toutes les Cours en ont, &amp; comblent les Acteurs de bienfaits. A
+            la Cour de Louis le Grand, les Evêques, les Cardinaux, les Nonces du Pape ne faisaient
+            pas de difficulté d’assister aux Pièces ; &amp; il n’y aurait pas moins d’imprudence que
+            de folie de conclure que tous ces grands Prélats étaient des impies &amp; des libertins,
+            puisqu’ils autorisaient le crime par leur présence.</p>
+          <p>Alexandre Piccolomini, Archevêque célèbre de Patras, joignait à l’étude des
+            Belles-Lettres, de la Physique, des Mathématiques, de la Théologie, une vie exemplaire
+            &amp; des mœurs innocens. Il composa plusieurs Pièces de Comédie qui lui acquirent une
+            grande réputation. Ce vertueux Prélat se fut bien gardé de salir sa plume en donnant des
+            Pièces aux Comédiens, s’il eût été persuadé que le Théâtre est une école dangéreuse,
+            proscrite par les bonnes mœurs. Ce fut à la sollicitation de <pb n="98"/>l’illustre de
+            Richelieu, que Saint Sorlin composa des Pièces de Théâtre. Ce sage Ministre, la gloire
+            de la France, qu’en vain l’envie a tâché de noircir, en connaissait mieux l’importance
+            &amp; l’efficacité que notre Devin champêtre, que par pitié j’épithète de petit atôme
+            littéraire.</p>
+          <p>Mais je ne fais pas attention que les exemples que je viens de citer au Génevois, qui
+            est Calviniste, sont des armes dont il voudrait se servir contre moi (mais que je
+            redoute peu) n’adoptant pour personnes estimables que celles de sa Religion, les Vertus
+            selon lui n’étant pratiquées que par les infâmes Disciples de Farel &amp; de Viret. Mais
+            si nos Pièces sont tellement épurées qu’elles jettent de l’ennui dans l’Auditoire, &amp;
+            qu’il vaut autant aller au Sermon, je ne vois pas où serait l’imprudence d’une Mère qui
+            menerait sa Fille à la Comédie ; ce ne serait que différencier le genre d’ennui ; pour
+            moi je serais d’avis de l’y mener pour l’en dégoûter.</p>
+          <p>On ne se douterait pas à qui il donne la <pb n="99"/>préférence sur la Comédie. Aux
+            cercles, mot élégamment inventé pour désigner avec plus de décence celui de tabagie ou
+            d’asile de crocheteurs, il prétend même qu’il ne faut pas être Philosophe pour donner à
+            de semblables coteries le nom de corps de garde, parce qu’on y respire un peu l’odeur du
+            tabac. « On s’y enyvre (dit-il) on y joue, on y soupe, &amp;c. <seg resp="wordpro">…
+              …</seg> l’excès du vin n’est pas un crime » : ô Ciel ! peut-on, sans rougir, avancer
+            un paralogisme aussi révoltant ? sophisme pour sophisme, j’aimerais autant dire
+            qu’assassiner son semblable soit un acte de probité, méritoire même aux yeux du
+            Créateur. Présomptueux Philologue, qu’ose-tu avancer ? (le théorème est indémontrable)
+            « il en fait rarement commettre. <seg resp="wordpro">… … …</seg> Le vin ne donne pas de
+            la méchanceté, il la décèle. Celui qui tua Clitus dans l’yvresse, fit mourir Philotas de
+            sang froid. Si l’yvresse a ses fureurs, quelle passion n’a pas la sienne ? La différence
+            est que les autres restent au fond <pb n="100"/>de l’ame, &amp; que celles-là s’allument
+            &amp; s’éteignent à l’instant. A cet emportement près, qui passe &amp; qu’on évite
+            aisément, soyons sûrs que quiconque fait dans le vin de méchantes actions, couve à jeun
+            de méchans desseins. »</p>
+          <p>Voilà ce qui s’appelle vouloir dorer la pilule, &amp; tirer la quintessence d’une
+            méchante cause. Pour moi, qui n’aime la bachique liqueur qu’autant qu’elle est
+            nécessaire à ma santé, comme tout galant Homme, j’aurai l’honneur de répondre à cette
+            impudence (dussai-je me brouiller avec les Partisans de Silène) que de toutes les
+            passions, je n’en connais pas de plus basse &amp; de plus crapuleuse ; elle rend l’Homme
+            plus méprisable que l’insecte qui rampe sous l’herbe, puisque ce vice entraîne tous les
+            autres. Le devoir de l’Homme le plus noble, est sans doute de travailler à se rendre
+            maître de lui-même (par lui-même, j’entens les passions où le mortel le plus parfait est
+            exposé :) qui les pallie ? la raison, ce feu divin qui l’élève au-dessus de lui-même <pb
+              n="101"/>lorsqu’il sait l’écouter, &amp; que l’excès du vin lui fait perdre. Le
+            vainqueur de Darius fit périr Philotas de sang froid ; s’il l’eut été lorsqu’il tua son
+            favori Clitus, il ne l’aurait pas fait. Le regret qu’il en eut, rend témoignage que le
+            vin seul fut l’auteur de cette violence. Sans l’excès de cette liqueur traîtresse, il
+            n’eut pas immolé celui qu’il chérissait le plus : on sait que son humeur pétulante,
+            secondée du vin, le porta à des excès affreux qu’il ne couvait pas à jeun. Il expira à
+            Babylone : une gageure qu’il fit avec un de ses Lieutenans, de boire autant que lui, le
+            mit au tombeau, fin glorieuse. Winceslas, Fils aîné de Charles IV, ne commet que des
+            actions de barbarie.<note resp="author" place="bottom"><p>C’est (dit Voltaire, Annales
+                de l’Emp. t. 2, p. 32) un effet que les excès du vin &amp; même des alimens, font
+                sur beaucoup plus d’Hommes qu’on ne pense.</p></note> Dans ses accès de fureur, il
+            fait jetter dans la Moldaw, Jean Népomucène, parce qu’il n’avait pas voulu lui révéler
+            la confession de la Reine sa Femme. Il marchait dans les rues accompagné du bourreau,
+            &amp; il faisait <pb n="102"/>exécuter sur le champ ceux qui lui déplaisaient. On
+            remarqua qu’un matin qu’on alla chez lui pour conférer des affaires de l’Eglise, il
+            était déja mort yvre. Pierre le Grand, Czar de Moscovie, fait pour la gloire de
+            l’humanité : on dit que dans les derniers temps de son règne, au sortir d’une débauche,
+            s’amusait pour se récréer à massacrer ses favoris les plus chers. Il faisait jetter des
+            Hommes par ses fenêtres, &amp; riait aux cris des malheureux à qui le hazard sauvait la
+            vie aux dépens d’un bras ou d’une jambe fracassée. Ce fut dans un excès de vin qu’il fit
+            mourir son Fils dans les tourmens les plus affreux ; s’il eut été naturellement cruel,
+            obéi comme le sont les Empereurs des Russes, il eût pû de sang froid jouir des mêmes
+            scènes ; il n’avait qu’à vouloir.</p>
+          <p>Les premiers effets du vin ont exposé un Père aux regards d’un Fils, dans un état que
+            la décence ne me permet pas de dire. Le vin rendit Lot incestueux. <seg resp="wordpro">…
+              … …</seg> J’aurais trop d’avantage à poursuivre ; <pb n="103"/>mes cheveux se
+            hérissent d’effroi, en rappellant à ma mémoire les crimes affreux de nos Pères, causés
+            par le seul excès du vin.<note resp="author" place="bottom"><p>« La vigne [disait
+                Anacharsis, fameux Philosophe Scythe] porte trois sortes de fruits, l’yvresse, la
+                volupté &amp; le repentir : &amp; que celui qui est sobre en son parler, en son
+                manger &amp; en ses plaisirs, a le caractère d’un parfaitement honnête Homme,
+                &amp;c. » maxime digne du vrai sage.</p></note></p>
+          <p>« Partout (poursuit Jean-Jacques) les gens qui abhorrent le plus l’yvresse, sont ceux
+            qui ont plus d’intérêt à s’en garantir. » Connaître le danger d’une chose, &amp;
+            l’éviter, caractérise le grand Homme. « En Suisse (continue Rousseau) elle est presque
+            en estime ; » je le crois sans peine, aussi est-elle la première Vertu du Citoyen, si
+            l’on peut placer l’yvrognerie au rang des perfections philosophiques.<note resp="author"
+              place="bottom"><p>On me fera la grace de croire que ce n’est pas par esprit de préjugé
+                que je parle ainsi. Je n’ai garde de tomber dans l’erreur méprisable de
+                Jean-Jacques. J’ai déja dit qu’il n’y avoit que les honnêtes gens qui faisaient
+                corps, &amp; je suis incapable de me démentir lorsqu’il s’agit de la vérité : en
+                ceci je ne parle que de la grossière canaille ; je crois l’avoir assez prouvé.
+                L’imposture n’est point l’idole que j’encense ; mon ame est trop noble, &amp; ne se
+                laissera jamais entraîner au torrent vulgaire, tant qu’un <seg resp="wordpro"
+                  >souffle</seg> de l’immortel l’animera : j’en fais vanité.</p></note> « A Naples
+              <pb n="104"/>elle est en horreur : tout ce qu’on a raison de blâmer en chaire ne doit
+            pas être puni par les loix. »</p>
+          <p>La Religion nous apprend à mépriser les vices, les loix doivent les punir ; &amp; ces
+            mêmes loix étant émanées de la Religion, il est impossible qu’elles les tolèrent.</p>
+          <p>P. 233, parlant des Comédiens « &amp; je dis que si nous les honorons comme vous le
+            prétendez, dans un pays où tous sont à peu près égaux, ils seront les égaux de tout le
+            monde, &amp; auront de plus la faveur publique qui leur est naturellement acquise. »</p>
+          <p>Est-il possible qu’étant aussi méprisables que Jean-Jacques Rousseau veut le faire
+            entendre, ils obtiennent la faveur publique, récompense des honnêtes gens. Mais s’ils
+            sont vertueux, ils la méritent sans contredit, pourquoi leur vouloir ravir l’unique <pb
+              n="105"/>salaire des ames vertueuses ? S’il en est de méprisables, l’exemple des gens
+            rangés est le cas que les personnes estimables feront des premiers, entraîneront
+            indubitablement les derniers ; ils parviendront peut-être à les imiter ; ils en
+            prendront les dehors : l’apparence sauvée tout est bien. p. 235 « les Elections, dit-il,
+            se feront dans les loges des Actrices, &amp; les Chefs d’un peuple libre seront les
+            créatures d’une bande d’Histrions. La plume tombe des mains à cette idée ;<note
+              resp="author" place="bottom"><p>A cette imposture, dictée par la noirceur, je m’arme
+                de la mienne pour répondre à cette impudence atroce. Le mot d’Histrion est déplacé,
+                je lui en ai donné assez de preuve ; la Comédie doit sa naissance à la Grece. Ceux
+                qui exerçaient cet art, étaient honorés ; ils doivent l’être encore. On défend de
+                lire la Bible en langue vulgaire, crainte que de fausses interprétations, malheur
+                qui n’est que trop arrivé, ne la corrompent. Des impies ont trouvé dans ce livre
+                sacré des armes qui n’ont que trop pénétré. La piété indignée s’est exilée du séjour
+                des enfans des hommes en proie à l’erreur : faut-il diffâmer la Bible ? non, il
+                n’est point de source si pure <seg resp="wordpro">(</seg>Manif. d’Henri IV. contre
+                la Reine Marg.) « qui dans une longue course ne mêle de la bourbe au cristal de ses
+                eaux. Est-il rien (Horace, l. 3. od. 6.) de si parfait que le têms n’altere
+                insensiblement ? Nos pères étaient plus méchans que nos ayeux ; nous sommes plus
+                corrompus que n’étaient nos pères, &amp; nous laisserons des enfans encore plus
+                vicieux que nous. » Il se trompe encore une fois ; cette insolente épithète n’est
+                synonyme qu’avec bâteleur : c’est en vain qu’il veut englober l’état de Comédien ;
+                avec celui de Farceur ou d’Histrion ; il ne peut nous choquer étant faux ; on me
+                dira qu’il n’y a que les vérités qui offensent : mais je repondrai que la calomnie
+                révolte, &amp; si l’on trouve trop de fiel dans mes discours, qu’on ne l’impute qu’à
+                la grandeur de mes sentimens, &amp; à la bassesse de mon Adversaire. Lui-même s’est
+                bien emporté sur le mot Secte, en parlant à son Ami ? les mouvemens de la nature me
+                seraient-ils interdits ? &amp; sera-t-il le seul qui pourra donner carrière à son
+                humeur acariâtre à contre têms, &amp; moi me taire ayant raison ? non, les apprêts
+                même des supplices sont incapables de me faire changer lorsque je n’ai point tort,
+                au milieu des tortures, aux portes du trépas,</p>
+              <quote>
+                <lg>
+                  <l>Je ne crains point la Mort &amp; j’en fais vanité,</l>
+                  <l>Un sentiment si bas flétrirait ma fierté :</l>
+                  <l>Le lâche la redoute, à <seg resp="wordpro">l’approche</seg> il succombe…</l>
+                  <l>Le grand cœur ne la sent que dans l’instant qu’il tombe.</l>
+                </lg>
+              </quote>
+              <p>Pour terminer enfin, qu’il soit très-persuadé, qu’il m’est plus facile de prouver
+                que le mot Histrion n’est pas synonyme avec Comédien, qu’il lui seroit facile de
+                prouver que la plus grande partie des nouvelles opinions ne sont point secte. Preuve
+                en main.</p></note> qu’on l’écarte tant qu’on <pb n="106"/>voudra, qu’on m’accuse
+            d’outrer la prévoyance, je n’ai plus qu’un mot à dire. <pb n="107"/>Quoi qu’il arrive il
+            faudra que ces gens-là réforment leurs mœurs parmi nous, ou qu’ils corrompent les
+            nôtres. Quand cette alternative aura cessé de nous effrayer, les Comédiens pourront
+            venir, ils n’auront plus de mal à nous faire. »</p>
+          <p>La Comédie n’est donc plus dangereuse ; ce n’est plus maintenant le spectacle qu’il
+            appréhende, mais ceux qui le composent. Le pauvre bon homme me divertit de le voir
+            vaciller sans cesse. Les discours d’un homme en démence sont plus raisonnables que les
+            siens ; il avait assurément la fiévre chaude : je ne puis le penser autrement. Car
+            enfin, il faut qu’une porte soit ouverte, ou fermée. Ne dirait-on pas que la nation
+            entière la prie de prendre sa défence de l’air dont il parle, comme s’il s’agissait de
+            sa <pb n="108"/>ruine totale ? Mais une troupe formée d’honnêtes gens, chose moins
+            difficile à faire que Jean-Jacques Rousseau se l’imagine (en ayant omis une grande
+            partie qui pourrait la composer) l’alternative par ce moyen se trouvera éclipsée :
+            Genève pourra pour lors adopter un spectacle, &amp; le pratiquer sans crainte qu’il
+            aliéne les mœurs des habitans.</p>
+          <p>Ce qui m’enflamme de colère, c’est qu’il ait cité Marseilles, lieu où j’ai reçu le
+            jour, où ma famille existe encore ; pour autoriser le refus des spectacles dans Genéve.
+            Il a l’insolence d’abuser du nom de M. d’Alembert, &amp; le cite comme tenant de lui le
+            refus que firent mes compatriotes de recevoir davantage la Comédie dans leur Ville,
+            piqués de ce qu’on voulait les forcer (pour faire le bien du Directeur) d’augmenter le
+            Parterre accoutumé d’être à dix sols.<note resp="author" place="bottom"><p>On voulut
+                hausser, comme j’ai déja dit, le billet de Parterre ; les Magistrats s’y opposèrent,
+                plutôt que de plier. Il est vrai qu’ils refusèrent d’avoir d’avantage des
+                Spectacles, mais ce fut par entêtement &amp; non par le motif que la Comédie était
+                nuisible aux bonnes mœurs. Le Gouverneur outré de ce refus, leur promit qu’il n’y
+                aurait plus de Spectacles ; mais au bout de quelque têms ils ne purent s’en passer,
+                &amp; le demandèrent avec tant d’instance qu’on fut obligé de céder. Lorsque la
+                peste vint désoler nos foyers, il n’y avait que le Concert, qui fut payé comme à
+                l’ordinaire, quoi qu’il ne fit rien ; jugez si nous les refusons. Marseilles
+                soutient sans le Concert, Opéra, &amp; Comédie. Gherardy père, &amp; Molin, tous
+                deux Directeurs d’une Troupe séparément, faisaient des sommes. Les Spectacles y sont
+                aimés, &amp; les Acteurs estimés lors qu’ils le méritent, &amp; cela bon ou
+                mauvais.</p></note></p>
+          <p><pb n="109"/>Je suis redevable à cette imposture de savoir le célébre Auteur de
+            l’Encyclopédie mon pays. Malgré l’estime que j’ai toujours porté aux grands Hommes, je
+            la sens s’augmenter depuis ce moment, le sachant comme moi citoyen de cette Ville
+            illustre. Pourrait-on en être étonné ? Tout Provençal est issu du même sang, &amp; nous
+            sommes tous freres. Oui, cher d’Alembert, cette offense me touche : l’insulte est faite
+            à la Nation entière, heureux si je pouvais laver de tout mon sang cette flétrissure
+            deshonorante. <pb n="110"/>A-t-il cru nous séduire en nous flattant ? croit-il nous
+            engager par-là à suivre ses traces ? Fanatique méprisable !… Genève… Genève… O Ciel !…
+            Peut-il avoir eu l’audace de placer cette Ville (refuge des Novateurs) à côté de nos
+            murs antiques, boulevards des tyrans, impénétrables aux Sectaires. Nous n’avons point à
+            nous reprocher la mort d’un Serranus.<note resp="author" place="bottom"><p>Jean de
+                Serrès Serranus, fameux Calviniste du XVI. Siécle, l’un des plus laborieux
+                écrivains ; ce fut lui qu’Henri IV. consulta pour savoir si l’on pouvait se sauver
+                dans l’Eglise Romaine : il repondit qu’on le pouvait ; mais cela ne l’empêcha pas
+                d’écrire ensuite avec emportement contre les Catholiques. Il entreprit quelque têms
+                après de concilier les deux communions dans un traité qu’il intitula, <hi rend="i"
+                  >de Fide Catholica, &amp;c</hi> mais ce traité indigna tellement les Calvinistes
+                de Genève, qu’ils le firent empoisonner.</p></note> Le poison est la ressource des
+            traîtres. La bassesse n’est point notre partage : chérir les Arts, est la vertu qui nous
+            distingue ; en un mot, c’est elle qui nous donne partout le pas. Qu’il se présente des
+            Césars sous nos murs, des Comanus, <pb n="111"/><note resp="author" place="bottom"><p>Je
+                ne puis m’empêcher d’epitomer une partie des traits mémorables de cette Ville, pour
+                donner une idée de sa grandeur dans tous les têms, &amp; des hommes illustres
+                qu’elle a vu naître ; ce sera rappeller à ceux qui en savent l’histoire, des traits
+                qui peut-être sont échappés à leur mémoire, &amp; ceux qui les ignorent m’en sauront
+                peut-être bon gré.</p>
+              <p>La prise de Marseilles coûta cher à Trébonius, Lieutenant du vainqueur de Pompée.
+                César lui-même fait l’éloge de la défense de cette Ville ; l’intrépidité des
+                habitans fut plus d’une fois utile à cette République superbe. Leur bravoure fut le
+                succès de la guerre d’Annibal. Combien de Héros cimentèrent de leur sang cette
+                puissance détruite. Brutus n’eut point assassiné César si la flotte du lâche
+                Nacidius eut secondé les immortels efforts des valeureux Marseillois. Ce Peuple
+                belliqueux se rendit célèbre par les victoires qu’il remporta sur les Carthaginois
+                &amp; les Gaulois, République florissante par sa valeur &amp; son antiquité. Son
+                Académie lui acquit une si grande réputation qu’il y venait des Etudians de toutes
+                les parties du monde ; aussi Pline l’appelle-t-il <hi rend="i">Anthenopolis</hi>,
+                Ville de Minerve. Elle a été le Séminaire des plus excellens esprits &amp; de
+                plusieurs savans hommes, tant avant qu’après J.C. On tient que les Phocéens, Peuples
+                de l’Ionie, jettèrent les fondemens de Marseilles, vers l’an du monde 3400, &amp; la
+                nommèrent Marseilles, en latin <hi rend="i">Massilia</hi>, de deux mots grecs qu’ils
+                répétèrent en abordant, pour marquer la joie qu’ils préssentaient de se voir sur les
+                terres des Saliens. [Jouvin de Rochefort, Voyage de France, d’Obdam, Voyage de la
+                Terre Sainte, chap. 65. au diff. Geog. anc. &amp; mod. t. 2.] Pline prétend que ce
+                sont des Grecs venus de la Phocide ; mais Méan-Marcellin soutient que c’était des
+                habitans de Phocée, petite Ville d’Ionie dans l’Asie mineure, laquelle ils furent
+                contraints d’abandonner pour se garantir des cruautés de Cyrus Roi de Perse. Son
+                sentiment est appuyé sur l’autorité d’Hérodote. Justin dit que ces Phocéens, après
+                avoir couru plusieurs fois la Méditerranée, où ils se distinguèrent par des actions
+                d’éclat qui leur firent acquérir l’alliance des Romains, &amp; vinrent enfin aborder
+                à cette côte, dans le dessein d’y bâtir une Ville. Comme il n’y avait pas
+                d’apparence de l’éxécuter sans le consentement de Nannus, Roi des Ségobrigiens, ils
+                lui députèrent leurs chefs Simos &amp; Protis, pour le prier de leur en accorder la
+                permission. Nannus était occupé ce jour-là aux préparatifs des noces de sa fille
+                Cyptis, qui selon l’ancienne coûtume, devait elle-même se choisir un Epoux, ce qui
+                se faisait en présentant de l’eau pour laver à celui dont la Princesse faisait
+                choix. Son Père avait assemblé tous les Seigneurs de son Etat, dont plusieurs se
+                flattaient d’être choisis, mais Cyptis alla offrir l’heureuse ablution à Protis, qui
+                se trouva dans cette assemblée. Nannus approuva le choix de sa fille, &amp; les
+                Phocéens n’eurent pas de peine à obtenir la permission qu’ils demandaient. Tant que
+                ce Roi vécut, ils jouirent sous sa protection d’un entier repos, &amp; travaillèrent
+                avec tant de succès à l’établissement de leur Ville, que lorsqu’il mourut, ils se
+                virent en état de causer de la jalousie à leurs voisins, ce qui leur attira
+                plusieurs guerres qu’ils terminèrent heureusement. Les Génois jaloux de leurs succès
+                naissans, trop foibles par eux-mêmes, &amp; trop lâches pour un Peuple si
+                redoutable, engagèrent Comanus Beau-Frère de Protis, ce chef heureux. Ils résolurent
+                la perte des Marseillois ; &amp; pour y réussir, Comanus enfanta le stratagême
+                suivant, qui l’aurait rendu maître de la Ville, si le secret n’eut été découvert. Il
+                choisit pour cela le jour qu’on y célebrait la fête de Flore. Plusieurs de ses gens
+                qu’il y avait envoyé, &amp; qui avaient été reçus dans la Ville, comme venant
+                assister à cette fête, devaient la nuit se saisir des Portes de la Ville, pour en
+                assurer l’entrée aux Troupes de Comanus qu’il avait fait avancer secrettement
+                derrière une Montagne ; mais une Dame, parente du Roi, craignant de voir périr un
+                jeune Grec qu’elle aimait éperduement, lui découvrit l’entreprise ; aussi-tôt les
+                Magistrats avertis par ce jeune Grec, firent faire main-basse sur tous les étrangers
+                qui furent trouvés en armes ; après quoi les Habitans marchèrent contre Comanus, qui
+                demeura sur la place avec sept mille hommes de ses Troupes. Les Marseillois
+                augmentant toujours en puissance, &amp; comme les Fondateurs de leur Ville avaient
+                fait alliance avec les Romains, ils firent tant de cas de ses alliés, qu’ayant
+                appris par les Ambassadeurs qu’ils avaient envoyés porter leurs offrandes au Temple
+                d’Apollon de Delphes, que Rome avait été prise &amp; saccagée par les Gaulois, ils
+                ordonnèrent un deuil public, &amp; poussèrent plus loin les marques d’intérêt qu’ils
+                prenaient à leurs affaires. Ils surent que les Romains avaient acheté la paix à un
+                prix si haut, qu’il leur était impossible de fournir à leurs vainqueurs la somme
+                dont ils étaient convenus ; &amp; pour donner du secours dans leurs besoins, ils
+                vendirent jusqu’aux bagues &amp; autres bijoux de leurs Femmes. En reconnoissance
+                d’un si grand service, les Romains les exemptèrent à jamais de toutes sortes de
+                tributs &amp; d’hommages ; &amp; pour marque d’une alliance plus étroitement
+                renouvellée, ils donnèrent place aux Bourgeois de Marseilles dans les bancs des
+                Sénateurs de la République, lorsqu’on célébrait des jeux, ou qu’il y avait quelque
+                grand Spectacle. Cet honneur ne fut accordé depuis qu’aux plus grands Princes, &amp;
+                même avec peine. Dumont, Voyage de Provence &amp; de Languedoc parmi les grands
+                hommes on compte Simos &amp; Protis fondateurs &amp; chefs. Critias ou Crinias,
+                célèbre Médecin, qui parut quelque tems après Hypocrate, Liberta Capitaine intrépide
+                qui assura la liberté de la Ville, en poignardant entre la Porte Royale &amp; la
+                Seconde, le lâche Cassant, Consul de Marseilles, qui devait la livrer au Roi
+                d’Espagne en l’an 1596, &amp;c. François Raymond, Dupuich 1er. Grand Maître de
+                Malthe, François Foulques de Villaret, Conquérant de Rodes, Crillon, Chevalier du
+                même Ordre, Guerrier intrépide. Jean de la Vallette, renommé par la belle défense
+                qu’il fit à Malthe, aidé de peu de Chevaliers. Les Turcs, au nombre de 80000, furent
+                obligés de lever le siège au bout de quatre mois, après avoir perdu 20000
+                Combattans.</p>
+              <p>Claude Forbin, Chef d’Escadre, Capitaine intrépide &amp; homme de lettre. Le Puget
+                célèbre Peintre, Sculpteur, Architecte. D’Audriset, célèbre Géographe. Pierre
+                d’Hozier, célèbre Généalogiste, il avait une mémoire si prodigieuse, que
+                d’Ablancourt dit de lui, qu’il fallait qu’il eut assisté à tous les Baptêmes &amp;
+                Mariages de l’univers, &amp;c. Mascaron, le Chevalier d’Hérieux, Rigord, Feuillet,
+                Minime, P. Plumier Pythéas fameux Astronome. Je n’ai plus qu’un mot à dire touchant
+                cet art. Malgré tant de pertes, suite ordinaire d’un siège opiniâtre, qui dura des
+                années, César n’eut jamais été maître de nos foyers sans la peste &amp; la famine
+                qui desolaient les Habitans <seg resp="wordpro">[texte manquant]</seg>.</p></note>
+            nous prouverons que ces Arts ne nous ont point énervés : nous les aimons. L’Univers est
+            rempli des faits de nos ayeux illustres ; ils nous servent de modèle, &amp; <pb n="112"
+            />nous en servirons à nos neveux ; notre courage ne s’aliénera jamais. Les Arts <pb
+              n="113"/>n’amolissent que les lâches, l’intrépide s’en nourrit.</p>
+          <p><pb n="114"/>Voici une note indiquée dans ses corrections, qu’il faut que je te cite ;
+            elle est <pb n="115"/><seg resp="wordpro">tirée</seg> d’un ouvrage intitulé :
+            Instruction Chrétienne, t. 2, l. 3, chap. 16, imprimée chez Rey à Amsterdam. « Il peut y
+            avoir des Spectacles blâmables en eux-mêmes comme ceux qui sont inhumains, <pb n="116"
+            />ou indécens &amp; licentieux ; tels étaient quelques-uns des Spectacles parmi les
+            Payens. Mais il en est aussi d’indifférens en eux-mêmes, qui ne deviennent mauvais que
+            par l’abus qu’on en fait. Par exemple, les Pièces de théâtre n’ont rien de mauvais
+            qu’autant qu’on y trouve une peinture des caractères &amp; des actions des hommes, où
+            l’on pourrait même donner des leçons agréables &amp; utiles pour toutes les conditions ;
+            mais si l’on y débite une morale relâchée, si les personnes qui exercent cette
+            profession mènent une vie licentieuse, &amp; servent à corrompre les autres ; si de tels
+            Spectacles entretiennent la vanité, la fainéantise, le luxe, l’impudicité, il est
+            visible alors que la chose se tourne en abus, &amp; qu’à moins qu’on ne trouve le moyen
+            de corriger ces abus ou de s’en garantir, il vaut mieux renoncer à cette sorte
+            d’amusement. » Je suis sans contredit de cet avis : des Spectacles licentieux ne sont
+            pas faits pour d’honnêtes gens ; mais il en est donc <pb n="117"/>qu’ils peuvent voir,
+            puisque les pièces de théâtre n’ont rien de mauvais, &amp; qu’elles peuvent donner des
+            leçons utiles &amp; agréables : la devise de Santeuil le prouve (<hi rend="i">castigat
+              ridendo mores</hi>) si elles corrigent les mœurs, elles sont nécessaires. Mais on me
+            dira, combien est-il de gens qui en profitent, &amp; qui n’y vont que pour troubler les
+            Spectacles, ou pour s’y faire voir ? mais je répondrai, combien est-il de personnes qui
+            ne vont au Service divin que pour rire, jaser, critiquer Mr. tel, lorgner Mde. telle,
+            nouer une partie de promenade, s’assurer d’une partie de plaisir, glisser un poulet à
+            jeune Grisette, dont la Mère est un Argus, promettre à la Présidente de se rendre chez
+            elle sur les minuits ? que sais-je ? ne serait-il pas décent, abstraction de cagotisme,
+            qu’elles se tinssent dans les lieux saints, de la façon qu’exige l’idée du Temple de
+            l’Immortel ?… Faut-il fermer les Eglises, parce que des Fats s’y comportent
+            indécemment ? Ainsi, jusqu’à ce qu’on ait réprimé cette licence, l’accès en doit être
+            interdit. <pb n="118"/>Mais disait le sage Lycurgue : « faut-il arracher toutes les
+            vignes, parce qu’il se trouve des Hommes qui boivent trop de vin » ? Faut-il, parce
+            qu’il est des Comédiens de mauvaise vie, &amp; des gens qui ne profitent pas du Théâtre,
+            l’anéantir ? Faut-il, parce qu’il est des Prêtres débauchés, &amp; des personnes qui
+            font de l’Eglise le théâtre de leur indécence, abolir la Religion ? Ah l’admirable
+            décision ! Le Comédien ne peut faire un pas qu’il ne soit su de toute une Ville. Quelle
+            différence d’un Pasteur à un Comédien, direz-vous ! Je n’en vois pas, répondrai-je. Sur
+            un Comédien vicieux, il est cent Prêtres dont les anecdotes font frémir, sans en
+            excepter vos Sociniens ; &amp; sur une de <seg resp="wordpro">sue,</seg> il en est mille
+            d’ignorées du vulgaire. N’est-il pas Homme comme l’Acteur ? il n’est pas exposé aux
+            occasions comme lui. Mais quel est le plus criminel, à votre avis, de celui qui se
+            laisse aller à une occasion non préméditée, ou de celui qui met tout en œuvre pour la
+            faire naître ? Je n’ai pas besoin d’en dire d’avantage : on m’entend. Une heure de
+            travail <pb n="119"/>suffirait pour en donner cent exemples.</p>
+          <p>« L’institution de la Comédie en France eut pour cause un délassement d’esprit, un
+            plaisir d’honnête Homme. Le Cardinal de Richelieu, Ministre d’un génie <seg
+              resp="wordpro">transcendant,</seg> l’aimait comme on le sait, passionnément. Ce fut
+            lui qui introduisit les Muses sur la scène, &amp; qui prêta la parole à ces beautés
+            qu’on voit briller dans les Pièces des habiles de son temps : mais alors ces Muses
+            étaient chastes, retenues &amp; pleines de pudeur. Si la Comédie, contre les intentions
+            de ses Protecteurs, a dégénéré, c’est parce que le sort des meilleures choses est de se
+            corrompre malgré la précaution qu’on prend de les conserver dans leur intégrité ».<note
+              resp="author" place="bottom"><p>Caractère de Théophraste &amp; pensées de Mr. Pascal,
+                p. 217, t. 3. La Comédie pour &amp; contre, insérée à la suite de ces Caractères ;
+                l’Auteur est celui du Dictionnaire des Arrêts.</p></note></p>
+          <p>Je ne parlerai pas de l’institution que notre Génevois veut faire dans son illustre
+            République. De Censeur de sa Patrie, il <pb n="120"/>veut en devenir le Baladin. Il
+            condamne toute novation dans le Gouvernement ; mais veut bien permettre de tous les
+            plaisirs le bal, qui est le plus dangéreux. Je n’ai pas besoin de le prouver, quelque
+            décence même qu’on y puisse observer.</p>
+          <p>P. 252 « on dira (cet Homme est mécontent des Comédiens) j’ai tout sujet de m’en louer,
+            &amp; l’amitié du seul d’entre eux que j’ai connu particulièrement, ne peut qu’honorer
+            un honnête Homme. » S’il n’avait pas sujet de s’en plaindre, quel motif le portait à les
+            diffâmer ? est-ce le plaisir de dire du mal, qui l’a déterminé à écrire contre les
+            Spectacles. « Le seul qu’il a connu ne peut qu’honorer un honnête Homme. » C’est donc à
+            présent l’état qui est méprisable, &amp; non celui qui l’exerce ; car il n’est pas
+            possible que, convaincu comme il l’est de l’infâmie de cet Art, il eut <seg
+              resp="wordpro">société</seg> avec un Histrion : il en eut trouvé d’autres s’il eut
+            voulu s’en donner la peine. Je sais qu’il en est qui ne sont pas voyables ; mais il est
+            bien sûr qu’on en peut trouver <pb n="121"/>plus de trois tant en Femmes qu’en Hommes
+            qui sûrement pensent bien.</p>
+          <p>A l’égard du Spectacle<note resp="author" place="bottom"><p>« Je me souviens, dit-il,
+                d’avoir été frappé dans mon enfance d’un spectacle assez simple, &amp; dont pourtant
+                l’impression m’est toujours restée, malgré le temps &amp; la diversité des objets.
+                Le Régiment de S. Gervais avait fait l’exercice, &amp;, selon la coûtume l’on avait
+                soupé par compagnie : la plûpart de ceux qui les composaient se rassemblèrent après
+                le souper dans la place de S. Gervais, &amp; se mirent à danser tous ensemble,
+                Officiers &amp; Soldats, autour de la fontaine, sur le bassin de laquelle étaient
+                montés les Tambours, les Fifres &amp; ceux qui portaient les flambeaux. Une danse de
+                gens égayés par un long repas semblerait n’offrir rien de fort intéressant à voir,
+                cependant l’accord de cinq ou six cens hommes en uniforme, se tenans tous par la
+                main, &amp; formans une longue bande qui serpentait en cadence &amp; sans confusion,
+                avec mille tours &amp; retours ; mille espèces d’évolutions figurées, le choix des
+                airs qui les animaient, le bruit des Tambours, l’éclat des flambeaux, un certain
+                appareil militaire au sein du plaisir : tout cela formait une sensation très-vive
+                qu’on ne savait supporter de sang froid. Il était tard, les femmes étaient
+                couchées ; toutes se rélevèrent. Bientôt les fenêtres furent pleines de spectatrices
+                qui donnèrent un nouveau zèle aux Acteurs ; elles ne purent tenir long temps à leurs
+                fenêtres, elles descendirent ; les maîtresses venaient voir leurs maris, les
+                servantes apportaient du vin, les enfans même éveillés par le bruit, accoururent
+                demi vêtus entre les pères &amp; mères. La danse fut suspendue ; ce ne furent
+                qu’embrassemens, ris, sauts, carresses. Il résulta de tout cela un attendrissement
+                général que je ne saurais peindre ; mais que dans l’allégresse universelle on
+                éprouve assez naturellement au milieu de tout ce qui nous est cher. Mon Père, en
+                m’embrassant, fut saisi d’un tressaillement que je crois sentir &amp; partager
+                encore. Jean-Jacques, me disait-il, aime ton pays. Vois-tu ces bons Génevois ? ils
+                sont tous amis, ils sont tous frères ; la joie &amp; la concorde règnent au milieu
+                d’eux. Tu es Génevois, tu verras un jour d’autres Peuples, mais quand tu voyagerais
+                autant que ton Père, tu ne trouveras jamais leur pareil.</p>
+              <p>« On voulut recommencer la Danse, il n’y eut plus moyen ; on ne savait plus ce
+                qu’on faisait, toutes les têtes étaient tournées d’une yvresse plus douce que celle
+                du vin. Après avoir resté quelque temps encore à rire &amp; à causer sur la place,
+                il fallut se séparer, chacun se retira paisiblement avec sa famille, &amp; voilà
+                comme ces aimables femmes ramenèrent leurs maris, non pas en troublant leurs
+                plaisirs, mais en allant les partager.</p>
+              <p>« Je sens bien que ce spectacle dont je fus si touché, serait sans attrait pour
+                mille autres ; il faut des yeux faits pour voir &amp; un cœur pour le sentir. Non,
+                il n’y a de pure joie que la joie publique, &amp; les vrais sentimens de la nature
+                ne règnent que sur le peuple. Ah dignité ! fille de <seg resp="wordpro"
+                  >l’orgueil</seg> &amp; mère de l’ennui, jamais tes tristes esclaves eurent-ils un
+                pareil moment en leur vie ! »</p></note> dont il fut frappé dans sa jeunesse,
+            n’imaginez-vous <pb n="122"/>pas à ce récit qu’il a tâché de colorer du mieux qu’il a
+            pu, n’imaginez-vous pas voir <pb n="123"/>ces Orgies en l’honneur du Dieu de la Treille,
+            &amp; n’est-ce pas citer pour édifier la débauche la plus infâme ? Le joli Spectacle des
+            Femmes à moitié nues dans les bras de leurs Maris, des Enfans dans le même état, des
+            Hommes anéantis d’yvresse, le vin versé par des Servantes pour abreuver des Hommes qui
+            avaient plutôt besoin de dormir que de boire. Ajoutez à cela des desirs luxurieux que le
+            vin précurseur de la licence, excite, &amp; que la raison troublée ne peut réprimer :
+            quel tableau pour des Enfans !</p>
+          <p>Quelque raison qu’il allègue pour rendre ce Spectacle innocent, il ne pourra me
+            convaincre ; l’Homme de sang froid n’est souvent pas le maître de ses passions,
+            regorgeant de vin, peut-il espérer d’en triompher ? <pb n="124"/>Non, attentif aux sages
+            remontrances, aux embrassemens de M. son docte père, excité d’une foule de hoquets
+            bachiques, (qu’il travestit en tressaillement) peut-il répondre des actions des autres ?
+            tandis qu’il était attentif à ce discours : Dieu sait ce qui se passait loin de lui. Que
+            de mains téméraires furent mollement repoussées ! que de Vestales éperdues succombèrent
+            sous les efforts amoureux de leur ardent Déflorateur ! Plus d’un mur étaya ces Ménades
+            Génevoises, bachiquement caressées par leurs maris ou leurs amans. Dieu sait combien le
+            fils immortel de Sémèle, &amp; l’aveugle amant de Psiché, rirent à l’aspect de la gauche
+            allure des Sacrificateurs chancelans. Cela était intéressant à voir, à ce qu’il dit ;
+            cela devait faire pitié, selon moi. Il est vrai que je n’ai pas ses yeux, mais chacun a
+            son goût. Au surplus, je conviens que toute fête où Silène préside, sera du goût de la
+            Nation.</p>
+          <p>Voici un divertissement public qu’il voudrait que ses Concitoyens adoptassent. <pb
+              n="125"/>Il est rapporté par Plutarque « p. 263, il y avait (dit-il) toujours trois
+            danses en autant de bandes, selon la différence des âges, &amp; ces danses se faisaient
+            au chant de chaque bande. Celle des Veillards commençait la première, en chantant le
+            couplet suivant.</p>
+          <quote>
+            <lg>
+              <l>« Nous avons été jadis</l>
+              <l>Jeunes, vaillans &amp; hardis.</l>
+            </lg>
+          </quote>
+          <p>« suivait celle des Hommes qui chantaient à leur tour en frappant de leurs armes en
+            cadence.</p>
+          <quote>
+            <lg>
+              <l>« Nous le sommes maintenant,</l>
+              <l>A l’épreuve à tout venant.</l>
+            </lg>
+          </quote>
+          <p>« ensuite venaient les enfans qui leur répondaient en chantant de toute leur force.</p>
+          <quote>
+            <lg>
+              <l>« Et nous bientôt le serons,</l>
+              <l>Qui tous vous surpasserons.</l>
+            </lg>
+          </quote>
+          <p>« Voilà, Monsieur, les Spectacles qu’il faut à des Républicains. »</p>
+          <p>Ne trouve-tu pas la première bande admirable ? de vénérables Vieillards à la barbe
+            blanche, au front chauve &amp; ridé, qui gambadent comme une troupe de Calotins. Ah ! le
+            ravissant spectacle de voir un balet figuré par des siècles. Il ne leur manque <pb
+              n="126"/>plus qu’une marotte en mains ; cet attribut falot leur conviendrait à
+              merveille.<note resp="author" place="bottom"><p>Amateur comme tu l’es de la bonne
+                harmonie, tu me reprocheras de ne t’avoir pas copié la Musique, mais J.J.R. n’a pas
+                jugé à propos de nous la procurer, ou peut-être Plutarque ne l’a pas notée, mais tu
+                  <seg resp="wordpro">présupposes</seg> aisément qu’un Pont neuf est le chant de
+                convenance qu’exigent ces paroles élégantes ; elles sont modestes à cet égard.
+                Garde-toi donc de me taxer de négligence, mais j’imagine un moyen qu’il te faut
+                mettre en usage. Un instant de peine peut te procurer une heure de plaisir.
+                Rappelle-toi cet air du Devin de Village qui t’a tant ennuyé ainsi que le reste de
+                l’ouvrage ; c’est à Frèron que je suis redevable de l’avis que je te donne : puisque
+                c’est lui qui a découvert que les airs du Devin étaient des Cantiques pillés aux
+                habitans de Genève, auxquels il a changé quelques notes pour leur donner un air de
+                nouveauté : puise ainsi que lui dans ce magazin évangélique, seul moyen de te
+                satisfaire.</p>
+              <quote>
+                <lg>
+                  <l>Mets vîte à profit ma pensée,</l>
+                  <l>Une note, Ami, transposée,</l>
+                  <l>Va faire d’un chant <seg resp="wordpro">hyémal,</seg></l>
+                  <l>D’un nouveau genre musical,</l>
+                  <l>Une Ariette italiennée,</l>
+                  <l>Qu’avant la fin de la journée</l>
+                  <l>Soit fait ce Rondeau cantical.</l>
+                  <l>De Rousseau voilà le local.</l>
+                  <l>Que la raison falsifiée,</l>
+                  <l>Au coloris sacrifiée</l>
+                  <l>Soit sur le ton Evangical</l>
+                  <l>Saisis bien mon littéral</l>
+                  <l>Une maxime figurée,</l>
+                  <l>A Terpsicore consacrée</l>
+                  <l>Va t’obtenir le pied-d’estal,</l>
+                  <l>De même qu’à notre féal,</l>
+                  <l>Dans ce beau temple de fumée</l>
+                  <l>Si vanté de la renommée,</l>
+                  <l>Préférable au Siége Papal</l>
+                  <l>Et des grands hommes l’arsenal,</l>
+                  <l>Qu’ainsi soit fait longues années</l>
+                  <l>Comme à Salem te soit données</l>
+                  <l>En dépit du Juge infernal</l>
+                  <l>Et de son triste tribunal.</l>
+                </lg>
+              </quote></note></p>
+          <p><pb n="127"/>Mais il est temps, mon cher de F******** de finir une dissertation qui,
+            quoique brièvement traitée, te priverait de momens plus précieux.</p>
+          <p>Conserve-moi toujours ton amitié ; celle d’un Homme tel que toi, illustre tout Mortel
+            qui la mérite ; heureux si tu m’en trouve digne, tu sais que c’est-là mon ambition.
+            C’est dans ton sein que mon ame a puisé toute sa grandeur. M’en priver, serait énerver
+            les nobles sentimens qui l’animent : tes lumières l’ont élevée, ton refroidissement
+            l’anéantirait ; ces nobles sentimens, dis-je, qui font toute ma gloire (en dépit de la
+            méprisable fortune, seul bien dont elle ne peut me priver) se sont accrus par <pb
+              n="128"/>ton estime. Ton exemple leur a, pour ainsi dire, donné l’être. Oui, la nature
+            les avait grossièrement placés dans mon sein… cher ami, quel triomphe pour toi ! il
+            approche du miracle. Rougirais-tu de cet aveu sincère, puisque c’est à ta sagesse
+            profonde que je dois tout le brillant de leur éclat ?</p>
+          <p>Je suis ton Ami, J.J.L.B.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
