@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?> <?xml-stylesheet type="text/css" href="http://oeuvres.github.io/Teinte/opentei.css"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gresset_lettre-sur-comedie_1759" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gresset_lettre-sur-comedie_1759" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Lettre sur la comédie</title>
-        <author>Gresset, Jean</author>
-        <editor key="Abel, Valentin (1996-)">Valentin Abel</editor>
+        <author key="Gresset, Jean-Baptiste-Louis (1709-1777)" ref="https://data.bnf.fr/fr/12063085/jean-baptiste-louis_gresset/">Jean-Baptiste-Louis Gresset</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -18,6 +17,10 @@
         <respStmt>
           <name>Clotilde Thouret</name>
           <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Valentin Abel</name>
+          <resp>Contributeur</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -45,11 +48,10 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <title>Lettre sur la comédie</title>
-          <author>Gresset, Jean</author>
-          <biblScope>p. 1-20</biblScope>
-          <date>1759</date>
+        <bibl>Jean-Baptiste-Louis Gresset, 
+          <hi rend="i">Lettre sur la comédie</hi>, 
+          <biblScope>p. 1-20</biblScope>, 
+          <date>1759</date>.
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -58,7 +60,7 @@
         <date when="1759"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -66,7 +68,7 @@
     <body>
       <div type="book" xml:id="HDT_35">
         <head>Lettre sur la comédie</head>
-        <label><pb n="1"/><hi rend="i">LETTRE</hi><lb/>DE M. GRESSET,<lb/><hi rend="i">L’un des
+        <label><pb n="1" xml:id="p1"/><hi rend="i">LETTRE</hi><lb/>DE M. GRESSET,<lb/><hi rend="i">L’un des
             Quarante de l’Académie Française,</hi><lb/>A M. ***<lb/><hi rend="i">SUR LA
             COMÉDIE.</hi></label>
         <label>Avec l’Annonce qui en est faite dans le Journal de Trévoux, Juillet 1759.
@@ -74,8 +76,8 @@
         <p rend="center">A PARIS,<lb/>Chez <hi rend="sc">Chaubert</hi>, Quai de
             Augustine ;<lb/>ET<lb/><hi rend="sc">Herissant</hi>, rue neuve Notre-Dame.<lb/>M. DCC.
           LIX.</p>
-        <ab type="ornament"><seg>***</seg></ab>
-        <p><pb n="3"/><hi rend="i">On voit ici une Lettre imprimée à Amiens sous le titre de</hi>
+        <ab type="ornament">***</ab>
+        <p><pb n="3" xml:id="p3"/><hi rend="i">On voit ici une Lettre imprimée à Amiens sous le titre de</hi>
           Lettre de M. Gresset, l’un des Quarante de l’Académie Française, à M. *** sur la Comédie,
           (pag. 16. <hi rend="i">in</hi>-12.) <hi rend="i">C’est un monument de la Religion, du bon
             esprit et de l’éloquence de l’Auteur. C’est un des coups les plus directs et les
@@ -84,7 +86,7 @@
             Vieillard sans âme et sans prétentions, qui renonce au Théâtre. M. Gresset est encore
             dans l’âge des succès : il a réussi dans l’Art Dramatique au point de disputer du rang
             avec les premiers Maîtres de la Scène : il faisait espérer de nouveaux plaisirs à la
-            Capitale, on l’y attendait, on l’y désirait ; on se plaignait de <pb n="4"/>la Province
+            Capitale, on l’y attendait, on l’y désirait ; on se plaignait de <pb n="4" xml:id="p4"/>la Province
             qui captivait trop ces talents supérieurs. Tout à coup la Religion, toujours reconnue
             et respectée de cet Homme de Lettres, mais combattue encore dans son âme par la
             fausse gloire, par l’habitude, par l’autorité des exemples, la Religion achève de lui
@@ -95,14 +97,14 @@
             la Lettre est, à tous égards, si digne d’être conservée, que nous la déposons toute
             entière dans ce Volume de nos Mémoires, dont elle fera l’honneur et
           l’agrément.</hi></p>
-        <ab type="ornament"><seg>***</seg></ab>
-        <label><pb n="5"/><hi rend="i">LETTRE</hi><lb/>DE M. GRESSET,<lb/><hi rend="i">L’un des
+        <ab type="ornament">***</ab>
+        <label><pb n="5" xml:id="p5"/><hi rend="i">LETTRE</hi><lb/>DE M. GRESSET,<lb/><hi rend="i">L’un des
             Quarante de l’Académie Française.</hi><lb/>A M. ***<lb/><hi rend="i">SUR LA
             COMÉDIE.</hi></label>
         <p>Les sentiments, Monsieur, dont vous m’honorez depuis plus de vingt ans, vous ont donné
           des droits inviolables sur tous les miens ; je vous en dois compte, et je viens vous le
           rendre sur un genre d’Ouvrages, auquel j’ai cru devoir renoncer pour toujours.
-          Indépendamment du desir de vous soumettre <pb n="6"/>ma conduite et de mériter votre
+          Indépendamment du desir de vous soumettre <pb n="6" xml:id="p6"/>ma conduite et de mériter votre
           approbation, votre appui m’est nécessaire dans le parti indispensable que j’ai pris, et
           je viens le réclamer avec toute la confiance que votre amitié pour moi m’a toujours
           inspirée. Les titres, les erreurs, les songes du monde n’ont jamais ébranlé les principes
@@ -112,7 +114,7 @@
         <p>Je suis accoutumé, Monsieur, à penser tout haut devant vous : je vous avouerai donc que,
           depuis plusieurs années, j’avais beaucoup à souffrir intérieurement d’avoir travaillé pour
           le Théâtre, étant convaincu, comme je l’ai toujours été, des vérités lumineuses de notre
-            <pb n="7"/>Religion, la seule divine, la seule incontestable. Il s’élevait souvent des
+            <pb n="7" xml:id="p7"/>Religion, la seule divine, la seule incontestable. Il s’élevait souvent des
           nuages dans mon âme sur un art si peu conforme à l’esprit du Christianisme, et je me
           faisais, sans le vouloir, des reproches infructueux, que j’évitais de démêler et
           d’approfondir : toujours combattu, toujours faible, je différais de me juger, par la
@@ -122,7 +124,7 @@
             >Sidney</hi> <note resp="editor" place="bottom">  [NDE] <hi rend="i">Sidney</hi>, pièce de théâtre écrite par Jean-Baptiste Gresset en 1745</note> et <hi rend="i">le Méchant</hi><note resp="editor" place="bottom"> [NDE] <hi rend="i">Le Méchant</hi>, comédie en 5 actes écrite Jean-Baptiste Gresset en 1747. </note>, ébloui par les sollicitations les plus
           puissantes, séduit par mes amis, dupe d’autrui et de moi-même, rappellé en même temps
           par cette voix intérieure, toujours sévère et toujours juste, je souffrais, et je
-          n’en travaillais pas moins dans le même genre. <pb n="8"/>Il n’est guère de situation
+          n’en travaillais pas moins dans le même genre. <pb n="8" xml:id="p8"/>Il n’est guère de situation
           plus pénible, quand on pense, que de voir sa conduite en contradiction avec ses principes,
           et de se trouver faux à soi-même et mal avec soi. Je cherchais à étouffer cette voix
           des remords, à laquelle on n’impose point silence, ou je croyais y répondre par de
@@ -132,7 +134,7 @@
           écrire qui ne pût être soumis à toutes les Lois des mœurs : mais tous ces secours ne
           pouvaient rien pour ma tranquillité. Les noms sacrés et vénérables dont on abuse pour
           justifier la composition des Ouvrages Dramatiques et le danger des Spectacles, les
-          Textes prétendus favorables, les Anecdotes <pb n="9"/>fabriquées, les Sophismes des autres
+          Textes prétendus favorables, les Anecdotes <pb n="9" xml:id="p9"/>fabriquées, les Sophismes des autres
           et les miens, tout cela n’était que du bruit, et un bruit bien faible contre ce
           sentiment impérieux qui réclamait dans mon cœur. Au milieu de ces contrariétés et de
           ces doutes de mauvaise foi, poursuivi par l’évidence, j’aurais dû reconnaître dès lors,
@@ -142,7 +144,7 @@
           flambeau éternel devant qui toutes les lueurs du temps disparaissent, devant qui
           s’évanouissent toutes les rêveries sublimes et profondes de nos faibles Esprits forts,
           ainsi que toute l’importance et la gloriole du bel esprit, je vois, sans nuage et
-          sans enthousiasme, que les Lois sacrées de l’Evangile <pb n="10"/>et les maximes de la
+          sans enthousiasme, que les Lois sacrées de l’Evangile <pb n="10" xml:id="p10"/>et les maximes de la
           Morale profane, le Sanctuaire et le Théâtre sont des objets absolument inalliables.
           Tous les suffrages de l’opinion, de la bienséance, et de la vertu purement humaine,
           fussent-ils réunis en faveur de l’Art Dramatique, il n’a jamais obtenu, il n’obtiendra
@@ -152,7 +154,7 @@
           leçons et à l’éloquence de ses vertus que je dois la fin de mon égarement, je lui
           devais l’hommage de mon retour ; et c’est pour consacrer la solidité de cette espèce
           d’abjuration, que je l’ai faite sous les yeux de ce grand Prélat si respecté et si
-          chéri : son témoignage saint s’éleverait contre moi, si <pb n="11"/>j’avais la faiblesse
+          chéri : son témoignage saint s’éleverait contre moi, si <pb n="11" xml:id="p11"/>j’avais la faiblesse
           et l’infidélité de rentrer dans la carrière. Il ne me reste qu’un regret en la
           quittant ; ce n’est point sur la privation des applaudissements publics, je ne les aurais
           peut-être pas obtenus ; et quand même je pourrais être assuré de les obtenir au plus
@@ -162,7 +164,7 @@
           pu donner à la Religion par ce genre d’Ouvrages, et de n’être point à portée de réparer
           le mal que j’ai pu causer, sans le vouloir. Le moyen le plus apparent de réparation,
           autant qu’elle est possible, dépend de votre agrément pour la publicité de cette Lettre :
-          j’espère que vous voudrez bien permettre qu’elle se répande, <pb n="12"/>et que les
+          j’espère que vous voudrez bien permettre qu’elle se répande, <pb n="12" xml:id="p12"/>et que les
           regrets sincères, que j’expose ici à l’amitié, aillent porter mon Apologie partout où
           elle est nécessaire. Mes faibles talents n’ont point rendu mon nom assez considérable pour
           faire un grand exemple ; mais tout Fidèle, quel qu’il soit, quand ses égarements ont eu
@@ -173,7 +175,7 @@
           servir la Religion, si les âmes honnêtes et pieuses que j’ai pu scandaliser, voient mon
           humble désaveu avec cette satisfaction pure que fait naître la vérité dès qu’elle se
           montre.</p>
-        <p>Je profite de cette occasion pour <pb n="13"/>rétracter aussi solemnellement tout ce que
+        <p>Je profite de cette occasion pour <pb n="13" xml:id="p13"/>rétracter aussi solemnellement tout ce que
           j’ai pu écrire d’un ton peu réfléchi dans les bagatelles rimées dont on a multiplié les
           Editions, sans que j’aie jamais été dans la confidence d’aucune. Tel est le malheur
           attaché à la Poésie, cet Art si dangereux, dont l’Histoire est beaucoup plus la liste des
@@ -183,7 +185,7 @@
           brillant décide d’une maxime hardie, scandaleuse, extravagante : l’idée est téméraire, le
           trait est impie, n’importe, le vers est heureux, sonore, éblouissant, on ne peut le
           sacrifier, on ne veut que briller, on parle contre ce qu’on croit, et la vanité des
-          mots l’emporte sur la vérité des choses. L’Impression <pb n="14"/>ayant donné quelque
+          mots l’emporte sur la vérité des choses. L’Impression <pb n="14" xml:id="p14"/>ayant donné quelque
           existence à de faibles productions auxquelles j’attache fort peu de valeur, je me crois
           obligé d’en publier une Edition très corrigée, où je ne conserverai rien qui ne puisse
           être soumis à la lumière de la Religion et à la sévérité de ses regards. La même
@@ -193,7 +195,7 @@
           quelques Ecrits à se reprocher, il faut s’exécuter sans réserve, dès que le remords les
           condamne : il serait trop dangereux d’attendre ; il serait trop incertain de compter que
           ces Ecrits seront brûlés au flambeau qui doit éclairer notre agonie.</p>
-        <p>J’ai cru, pour l’utilité des mœurs, pouvoir sauver de cette proscription <pb n="15"/>les
+        <p>J’ai cru, pour l’utilité des mœurs, pouvoir sauver de cette proscription <pb n="15" xml:id="p15"/>les
           principes et les images d’une pièce que je finissais, et je les donnerai sous une
           autre forme que celle du genre Dramatique : cette Comédie avait pour objet la peinture
           et la critique d’un caractère plus à la mode que <hi rend="i">le Méchant</hi> même,
@@ -204,7 +206,7 @@
           n’était qu’un de ces ridicules qui ne sont que de la fatuité sans danger, ou de la sottise
           sans conséquence, je ne m’y serais plus arrêté ; l’objet du portrait ne vaudrait pas les
           frais des crayons : mais outre sa comique absurdité, cette prétention est de plus si
-          contraire aux régles établies, à l’honnêteté publique, <pb n="16"/>et au respect dû à
+          contraire aux régles établies, à l’honnêteté publique, <pb n="16" xml:id="p16"/>et au respect dû à
           la Raison, que je me suis cru obligé d’en conserver les traits et la censure, par
           l’intérêt que tout Citoyen qui pense doit prendre aux droits de la Vertu et de la
           Vérité. J’ai tout lieu d’espérer que ce sujet, s’il doit être de quelque utilité, y
@@ -215,7 +217,7 @@
           jamais à corriger les vices, et sans parvenir à réprimer la manie des faux airs dans
           tous les genres, et les ridicules de tous les rangs.</p>
         <p>Je laisse de si minces objets pour finir par des considérations d’un ordre bien supérieur
-          à toutes les <pb n="17"/>brillantes illusions de nos Arts agréables, de nos Talents
+          à toutes les <pb n="17" xml:id="p17"/>brillantes illusions de nos Arts agréables, de nos Talents
           inutiles, et du Génie dont nous nous flattons. Si quelqu’un de ceux qui veulent bien
           s’intéresser à moi, est tenté de condamner le parti que j’ai pris de ne plus paraître dans
           cette carrière, qu’avant de me désapprouver il accorde un regard aux principes qui m’ont
@@ -224,8 +226,7 @@
           qui doit lui parler comme à moi ; qu’il contemple fixement la mort ; qu’il regarde
           au-delà, et qu’il me juge. Cette image de notre fin, la lumière, la leçon de notre
           existence, et notre premiére Philosophie devraient bien abaisser l’extravagante
-          indépendance et l’audace impie de ces superbes et petits Dissertateurs, qui <pb
-            n="18"/>s’efforcent vainement d’élever leurs délires systématiques au-dessus des preuves
+          indépendance et l’audace impie de ces superbes et petits Dissertateurs, qui <pb n="18" xml:id="p18"/>s’efforcent vainement d’élever leurs délires systématiques au-dessus des preuves
           lumineuses de la Révélation : le Temps vole, la Nuit s’avance, le Rêve va finir. Pourquoi
           perdre à douter avec une absurde présomption, cet instant qui nous est laissé pour croire
           et pour adorer avec une soumission fondée sur les plus fermes principes de la saine
@@ -234,7 +235,7 @@
           majestueux Phénomènes de la Nature ? Au moment où j’écris, un Corps Céleste, nouveau à nos
           regards, est descendu sur l’Horizon ; mais ce spectacle, également frappant pour les
           Esprits éclairés et pour le Vulgaire, amuse seulement la frivole curiosité, quand il
-          doit élever nos réflexions. Encore quelques jours, <pb n="19"/>et cette Comète que
+          doit élever nos réflexions. Encore quelques jours, <pb n="19" xml:id="p19"/>et cette Comète que
           notre siècle voit pour la première fois, va s’éteindre pour nous et se replonger dans
           l’immensité des cieux, pour ne reparaître jamais aux yeux de presque tous ceux qui la
           contemplent aujourd’hui. Quelle destinée éternelle nous aura été assignée, lorsque cet
@@ -244,7 +245,7 @@
         <p>Je vous demanderais grâce ; Monsieur, sur quelques traits de cette Lettre, qui paraissent
           sortir des limites du ton épistolaire, si je ne savais, par une longue expérience, que la
           vérité a toute seule par elle-même le droit de vous intéresser indépendamment de la façon
-          dont on l’exprime, et si d’ailleurs, dans un semblable sujet <pb n="20"/>dont la
+          dont on l’exprime, et si d’ailleurs, dans un semblable sujet <pb n="20" xml:id="p20"/>dont la
           dignité et l’énergie entraînent l’ame et commandent l’expression, on pouvait être
           arrêté un instant par de froides attentions aux règles du style, et aux chétives
           prétentions de l’esprit.</p>

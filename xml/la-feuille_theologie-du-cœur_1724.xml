@@ -7,8 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Théologie du cœur et de l’esprit</title>
-                <author key="La Feuille, Charles-Gaspard de (?-1725)">Charles-Gaspard de La Feuille</author>
-                <editor key="Scotto di Clemente, Clément (1983-)">Clément Scotto di Clemente</editor>
+                <author key="La Feuille, Charles-Gaspard de (....-1725)">Charles-Gaspard de La Feuille</author>
             </titleStmt>
             <editionStmt>
                 <edition>OBVIL</edition>
@@ -19,6 +18,10 @@
                 <respStmt>
                     <name>Clotilde Thouret</name>
                     <resp>Responsable d’édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Clément Scotto di Clemente</name>
+                    <resp>Contributor</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -50,11 +53,11 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <author>Charles-Gaspard de La Feuille</author>
-                    <title>Théologie du cœur et de l’esprit,</title>
-                    <pubPlace>Nancy,</pubPlace>
-                    <publisher>Jean-Baptiste Cusson,</publisher>
-                    <date>1698, rééd. 1724</date>
+                    Charles-Gaspard de La Feuille, 
+                    <hi rend="i">Théologie du cœur et de l’esprit,</hi>
+                    <pubPlace>Nancy</pubPlace>, 
+                    <publisher>Jean-Baptiste Cusson</publisher>, 
+                    1698, rééd. <date>1724</date>
                     <biblScope>p. 252-267</biblScope>
                 </bibl>
             </sourceDesc>
@@ -64,7 +67,7 @@
                 <date when="1698"/>
             </creation>
             <langUsage>
-                <language ident="fr"/>
+                <language ident="fre"/>
             </langUsage>
         </profileDesc>
     </teiHeader>
@@ -76,18 +79,17 @@
                     <lb/><hi rend="ls">TOME SECOND.</hi>
                     <lb/>Des Commandemens de Dieu.
                     <lb/><hi rend="ls"><hi rend="i">NEUVIEME EDITION</hi></hi>,
-                    <lb/><hi rend="i">Revue &amp; corrigée par l'Auteur.</hi>
-                    <lb/>
-                    <lb/>A NANCY,
+                    <lb/><hi rend="i">Revue &amp; corrigée par l'Auteur.</hi></p>
+                <p>A NANCY,
                     <lb/>Chez <hi rend="smallcaps">Jean-Bapt. Cusson</hi>, Imprimeur Libraire
-                    <lb/>de S.A.R. sur la Place, au Nom de <hi rend="smallcaps">Jesus</hi>.
-                    <lb/>______________________________
-                    <lb/>M. DCCXXIV
-                    <lb/><hi rend="i">Avec Approbations &amp; Privilege.</hi>
-                    <lb/>______________________________
-                    <lb/><hi rend="small">Et se trouve à Paris chez <hi rend="sc">Pierre-Augustin Le Mercier</hi>, rue
-                        <lb/>S. Jacques, vis-à-vis S. Yves, à S. Ambroise.</hi></p>
-                <label><pb n="252"/><hi rend="i">Vingtiéme remède au péché d’Impureté.</hi></label>
+                    <lb/>de S.A.R. sur la Place, au Nom de <hi rend="smallcaps">Jesus</hi>.</p>
+                <ab type="line">______________________________</ab>
+                <p><lb/>M. DCCXXIV</p>
+                <p><hi rend="i">Avec Approbations &amp; Privilege.</hi></p>
+                <ab type="line">______________________________</ab>
+                <p><hi rend="small">Et se trouve à Paris chez <hi rend="sc">Pierre-Augustin Le Mercier</hi>, rue
+                    <lb/>S. Jacques, vis-à-vis S. Yves, à S. Ambroise.</hi></p>
+                <label><pb n="252" xml:id="p252"/><hi rend="i">Vingtiéme remède au péché d’Impureté.</hi></label>
                 <p><hi rend="i">Le vingtième remède au péché de Luxure, c’est de ne jamais se
                         trouver aux Comédies, ni à de pareils spectacles.</hi> Ce n’a été que dans
                     nos derniers siècles, qu’on a entrepris de justifier de si pernicieux
@@ -102,7 +104,7 @@
                     laissent-elles point à ceux qui les voient représenter ? et peuvent-ils
                     accorder ces impressions avec la sainteté de notre Religion ? Que voit-on dans
                     ces Spectacles ? Des hommes et des femmes qui représentent des passions de
-                    haine, de colere, d’ambition, de vengeance, et d’amour. <pb n="253"/>Ils les
+                    haine, de colere, d’ambition, de vengeance, et d’amour. <pb n="253" xml:id="p253"/>Ils les
                     expriment vivement : peuvent-ils le faire qu’après les avoir excitées en eux ?
                     et nous les représenter, sans nous faire ressentir les mêmes impressions
                     qu’ils ressentent ? Toute leur vie ne se passe-t-elle pas dans ce damnable
@@ -123,7 +125,7 @@
                     point avoir ? et n’approuve-t-on pas secrètement tout ce qu’on goûte ?</p>
                 <p>C’est un autre effet du premier péché, de ne point goûter les biens spirituels :
                     le Théâtre rend ce dégoût encore plus grand. On y apprend à juger de toutes
-                    choses par les sens, et <pb n="254"/>l’on s’accoutume à ne regarder comme
+                    choses par les sens, et <pb n="254" xml:id="p254"/>l’on s’accoutume à ne regarder comme
                     bien que ce qui les frappe. Au lieu de délivrer l’âme de la dépendance où elle
                     est à leur égard, on multiplie ses liens par les Comédies et les Romans ;
                     et on la contraint d’être toute dans les yeux et dans les oreilles. Nous
@@ -143,7 +145,7 @@
                     nos plus dangereuses maladies. Nous ne pouvons nous en guérir, qu’en nous
                     privant de tout ce qui peut satisfaire notre mauvais penchant. Que penserait-on
                     d’une personne à qui on aurait confié le soin d’un malade ; et qui au lieu de
-                    lui faire prendre <pb n="255"/>des remèdes propres à le soulager, lui
+                    lui faire prendre <pb n="255" xml:id="p255"/>des remèdes propres à le soulager, lui
                     accorderait tout ce qui peut augmenter son mal ? Nous exerçons cette cruauté
                     envers nous-mêmes, en prenant les plaisirs de la Comédie. C’est en nous refusant
                     tout ce qui peut favoriser nos passions, et les flatter, et non pas en
@@ -162,7 +164,7 @@
                     deux fins : est-il rien de plus dangereux à notre innocence ?</p>
                 <p>Ce qui rend la Comédie plus dangereuse, c’est qu’elle éloigne tous les remèdes
                     qui peuvent empêcher les mauvaises impressions qu’elle fait sur nous : car après
-                    avoir amolli notre <pb n="256"/>cœur, elle enivre si fort notre esprit de toutes
+                    avoir amolli notre <pb n="256" xml:id="p256"/>cœur, elle enivre si fort notre esprit de toutes
                     les folies qu’elle lui représente, qu’elle nous met hors d’état d’avoir la
                     vigilance nécessaire pour résister aux mauvaises idées qui nous restent de ce
                     que nous avons vu et entendu. Ceux qui vivent dans la retraite, ne laissent
@@ -181,8 +183,7 @@
                     les tentations ont divers degrés. Les premiers ne sont point sensibles ; ils ne
                     laissent pas cependant de nous conduire à une corruption de cœur et d’esprit.
                     C’est beaucoup nuire à son âme, que de l’accoutumer à regarder sans horreur le
-                    plaisir que les mondains trouvent à aimer, et à se faire aimer ; <pb n="257"
-                    />et c’est là un des premiers effets de la Comédie. L’aversion qu’on avait
+                    plaisir que les mondains trouvent à aimer, et à se faire aimer ; <pb n="257" xml:id="p257"/>et c’est là un des premiers effets de la Comédie. L’aversion qu’on avait
                     d’aimer avec passion, servait comme de remparts, qui fermaient l’entrée de notre
                     cœur au Démon ; et quand ils sont ruinés par la Comédie, il y entre aisément.
                     On ne succombe guère aux grandes tentations, que parce qu’on s’est affaibli
@@ -201,7 +202,7 @@
                     point en nous sur le champ les mauvais effets de la Comédie, il les produit dans
                     la suite.</p>
                 <p>Sommes-nous d’un rang distingué, ou d’une piété apparente ? nous contribuons à
-                    bien des crimes, en autorisant par notre présence les <pb n="258"/>spectacles.
+                    bien des crimes, en autorisant par notre présence les <pb n="258" xml:id="p258"/>spectacles.
                     Plus nous sommes réglés dans nos autres actions, plus les gens déréglés sont
                     hardis à nous imiter en celle-ci. Pourquoi feraient-ils scrupule d’aller à la
                     Comédie, puisque nous qui faisons profession de piété, nous nous y trouvons ?
@@ -221,7 +222,7 @@
                     leur cœur, et ils en demeurent là. Fréquentent-ils les Comédies ? ils ont
                     bientôt appris un langage que tous les Chrétiens devraient ignorer. D’autres,
                     sans être touchés, représentent un Comédien, ou une Comédienne, et affectent
-                    de <pb n="259"/>faire paraître leur esprit à exprimer ce qu’ils ne sentent
+                    de <pb n="259" xml:id="p259"/>faire paraître leur esprit à exprimer ce qu’ils ne sentent
                     point : par là ils s’engagent insensiblement dans des passions qu’ils ne
                     voulaient que contrefaire. C’est là un autre effet de la curiosité qu’on a
                     d’assister aux Comédies. A-t-on horreur pour une chose ? on ne doit point la
@@ -240,7 +241,7 @@
                     que de vives représentations de l’orgueil, de l’ambition, de la jalousie, et
                     de la vengeance. Plus ils colorent ces vices d’une image de grandeur d’âme et
                     de générosité, plus ils les insinuent dans nos âmes. C’est parce que le fond de
-                    notre nature est corrompu, <pb n="260"/>que nous entrons dans ces sortes de
+                    notre nature est corrompu, <pb n="260" xml:id="p260"/>que nous entrons dans ces sortes de
                     passions qui nous sont représentées. Elles excitent en nous des mouvements
                     semblables à ceux qui tombent sous nos yeux ; et c’est là le but des
                     Acteurs : car la fin qu’ils se proposent, c’est de plaire à ceux qui les
@@ -260,7 +261,7 @@
                     ressentons-nous pas plus vivement un affront, aprés avoir été à de certaines
                     Comédies, que nous n’eussions fait auparavant ? et ne nous portons-nous pas
                     plus facilement à nous venger ? Si dans les Comédies et les Romans
-                    on ne parlait de la vengeance que comme d’une <pb n="261"/>action basse, et
+                    on ne parlait de la vengeance que comme d’une <pb n="261" xml:id="p261"/>action basse, et
                     si l’on n’y traitait que de gens insensés, ceux qui se battent en duel, les
                     mouvements de ceux qui font de pareilles lectures, ou qui assistent à de pareils
                     spectacles, quand ils se trouvent offensés, seraient beaucoup moins vifs qu’ils
@@ -281,7 +282,7 @@
                     Comédies et les Romans ? Ne sent-on point d’éloignement pour le portrait des
                     dérèglements qu’on nous y représente ? dés là nous aimons les vices qui nous sont
                     représentés.</p>
-                <p><pb n="262"/>Les vertus chrétiennes ne peuvent guère être des matières de
+                <p><pb n="262" xml:id="p262"/>Les vertus chrétiennes ne peuvent guère être des matières de
                     théâtre. On n’y veut que les images des vices les plus violents, et des
                     passions les plus animées. La pauvreté, la patience, l’humilité n’ont rien dont
                     la représentation puisse divertir ceux qui aiment les Comédies : aussi n’en
@@ -300,7 +301,7 @@
                 <p>Chacun condamnerait un Religieux, qui se trouverait à ces sortes d’assemblées,
                     parce que personne n’ignore la disproportion de ce divertissement avec la
                     sainteté de la vie dont une âme vouée à Dieu doit faire profession. Ne
-                    devrait-on pas être choqué de même, d’y voir un <pb n="263"/>Chrétien, qui n’est
+                    devrait-on pas être choqué de même, d’y voir un <pb n="263" xml:id="p263"/>Chrétien, qui n’est
                     pas moins obligé par les vœux de son Baptême, à mener une sainte vie, qu’un
                     Religieux l’est par les vœux de son état ? Dans ce Sacrement, nous nous
                     engageons par une promesse solemnelle, de ne plus vivre à nous, ni au monde,
@@ -320,7 +321,7 @@
                     à Dieu, et dont le Christianisme n’est point le principe, est illicite. Toute
                     action dont on n’oserait rendre grâce à Dieu, comme en étant la première cause
                     et la dernière fin, est encore moins permise à un Chrétien.</p>
-                <p>En quelle qualité peut-il prendre part aux <pb n="264"/>divertissements
+                <p>En quelle qualité peut-il prendre part aux <pb n="264" xml:id="p264"/>divertissements
                     prophanes ? S’il se considère comme pécheur, il doit reconnaître que rien n’est
                     plus contraire à la pénitence qu’il est obligé de faire, que la recherche des
                     divertissements qui achèveront de le perdre. Se considère-t-il comme enfant de
@@ -340,7 +341,7 @@
                     des vanités qui nous tentent et qui nous amusent ; et prions-le qu’il nous
                     imprime de la haine et de l’horreur pour tous les divertissements dangereux à
                     notre innocence.</p>
-                <p><pb n="265"/>La nécessité où l’on est de prendre quelque sorte de divertissement
+                <p><pb n="265" xml:id="p265"/>La nécessité où l’on est de prendre quelque sorte de divertissement
                     et de relâche, ne peut pas excuser la Comédie, qui ne fut jamais un
                     divertissement permis. Car que nomme-t-on divertissements permis ? Sont-ils autre
                     chose que des délassements de l’esprit, qui le mettent en état de reprendre ses
@@ -359,7 +360,7 @@
                     et qui nous rendent moins propres que nous n’étions, à continuer nos saints
                     exercices. Or les Comédies et les Romans ne rendent pas seulement nos esprits
                     mal disposés pour de saintes occupations, mais elles nous donnent du dégoût pour
-                    les <pb n="266"/>actions sérieuses. Un mari en revient la têté remplie de Héros
+                    les <pb n="266" xml:id="p266"/>actions sérieuses. Un mari en revient la têté remplie de Héros
                     et d’Héroïnes ; il imprime si fort dans son esprit toutes ces chimères, que
                     ses affaires domestiques lui deviennent importunes. Une femme occupée des
                     adorations qu’elle a vu rendre sur le théâtre à des personnes de son sexe, se
@@ -379,7 +380,7 @@
                     satisfait, quand il a cessé sa grande application ? et ne se divertit-il pas
                     dans tout ce qui le désoccupe ?</p>
                 <p>Nous finissons cette matière des divertissements peu convenables aux âmes chastes,
-                    par <pb n="267"/>les paroles de S. Basile. La Comédie, dit ce grand Saint, est
+                    par <pb n="267" xml:id="p267"/>les paroles de S. Basile. La Comédie, dit ce grand Saint, est
                     une Ecole publique, où l’on apprend tout ce qu’on nomme <hi rend="i"
                         >impudicité</hi>. Elle est une assemblée, dont le Démon fait le centre,
                     et dont la circonference est environnée de plusieurs autres Démons, tous

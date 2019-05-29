@@ -6,21 +6,28 @@
       <titleStmt>
         <title>Conviction véritable du récit fabuleux</title>
         <author key="Gaule, André de (15..-16..)">André de Gaule</author>
-        <editor key="Zanin, Enrica (1979-....)">Enrica Zanin</editor>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
           <name>François Lecercle</name>
-          <resp>Responsable d'édition</resp>
+          <resp>Responsable d’édition</resp>
         </respStmt>
         <respStmt>
           <name>Clotilde Thouret</name>
-          <resp>Responsable d'édition</resp>
+          <resp>Responsable d’édition</resp>
         </respStmt>
         <respStmt>
           <name>Chiara Mainardi</name>
           <resp>Contributeur</resp>
+        </respStmt>
+        <respStmt>
+          <name>Enrica Zanin</name>
+          <resp>Contributeur</resp>
+        </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>Édition XML</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -28,11 +35,26 @@
         <date when="2015"/>
         <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/gaule_conviction_1607/</idno>
         <availability status="restricted">
-          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d'Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l'OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d'Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l'OBVIL et surtout l'adresse Internet de la ressource.</p><p>Pas d'Utilisation Commerciale : dans l'intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification : l'OBVIL s'engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n'est pas souhaitable.</p></licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2014
+              Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de
+              la vie littéraire » (ci-après dénommé OBVIL).</p><p>Cette ressource électronique
+              protégée par le code de la propriété intellectuelle sur les bases de données (L341-1)
+              est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon
+              les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation
+              Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p><p>Attribution
+              : afin de référencer la source, toute utilisation ou publication dérivée de cette
+              ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de
+              la ressource.</p><p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+              scientifique, toute utilisation commerciale est interdite.</p><p>Pas de Modification :
+              l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en
+              intégrant toutes les contributions extérieures. La diffusion de versions modifiées de
+              cette ressource n’est pas souhaitable.</p></licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Gaule</author>, <title>Conviction Véritable du récit fabuleux</title>, <pubPlace>Lyon</pubPlace>, <publisher>Abraham Cloquemin</publisher>, <date>1607</date>.</bibl>
+        <bibl>André de Gaule et Enrica Zanin, <hi rend="i">Conviction Véritable du récit fabuleux</hi>,
+            <pubPlace>Lyon</pubPlace>, <publisher>Abraham Cloquemin</publisher>,
+          <date>1607</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -47,46 +69,572 @@
   <text>
     <body>
       <div>
-      <head rend="small">[FRONTISPICE]</head>
-        <p rend="center">CONVICTION<lb/> VERITABLE DU RECIT<lb/> FABULEUX DIVULGUE TOU-<lb/>chant la Représentation exhibée<lb/> en face de toute la ville de Lyon, au <lb/>collège de la Compagnie de Jésus,<lb/> le 7. d’Aoust, de la présente année<lb/> 1607<note resp="editor" place="bottom">[NDE]Première édition de ce texte : André de Gaule, <hi rend="i">Conviction véritable du récit fabuleux </hi>, Lyon : Abraham Cloquemin, 1607, 29 p. C’est une réponse au pamphlet publié la même année par un calviniste anonyme, <hi rend="i">Récit touchant la comédie jouée par les jésuites et leurs disciples en la ville de Lyon, au mois d’août de l’an 1607</hi>. L’opuscule a été réédité, avec le <hi rend="i">Récit touchant la Comédie dans la Revue du Lyonnais, esquisses physiques, morales et littéraires</hi>, Lyon, impr. de L. Boitel, 1837, in-8º, p. 108-121. Réédité ultérieurement par Ubaldo Floris, <hi rend="i">op. cit.</hi>, p. 193-201. L’identité d’André de Gaule n’est pas connue. Pierre Guillot, dans <hi rend="i">Les Jésuites et la musique</hi>, le collègue de la Trinité à Lyon, 1565-1762 (Liège, Mardaga, 1991, p. 184) fait l’hypothèse qu’il s’agisse d’un pseudonyme.</note></p></div>
+        <head rend="small">[FRONTISPICE]</head>
+        <p rend="center">CONVICTION<lb/> VERITABLE DU RECIT<lb/> FABULEUX DIVULGUE TOU-<lb/>chant la
+          Représentation exhibée<lb/> en face de toute la ville de Lyon, au <lb/>collège de la
+          Compagnie de Jésus,<lb/> le 7. d’Aoust, de la présente année<lb/> 1607<note resp="editor"
+            place="bottom">[NDE]Première édition de ce texte : André de Gaule, <hi rend="i"
+              >Conviction véritable du récit fabuleux </hi>, Lyon : Abraham Cloquemin, 1607, 29 p.
+            C’est une réponse au pamphlet publié la même année par un calviniste anonyme, <hi
+              rend="i">Récit touchant la comédie jouée par les jésuites et leurs disciples en la
+              ville de Lyon, au mois d’août de l’an 1607</hi>. L’opuscule a été réédité, avec le <hi
+              rend="i">Récit touchant la Comédie dans la Revue du Lyonnais, esquisses physiques,
+              morales et littéraires</hi>, Lyon, impr. de L. Boitel, 1837, in-8º, p. 108-121.
+            Réédité ultérieurement par Ubaldo Floris, <hi rend="i">op. cit.</hi>, p. 193-201.
+            L’identité d’André de Gaule n’est pas connue. Pierre Guillot, dans <hi rend="i">Les
+              Jésuites et la musique</hi>, le collègue de la Trinité à Lyon, 1565-1762 (Liège,
+            Mardaga, 1991, p. 184) fait l’hypothèse qu’il s’agisse d’un pseudonyme.</note></p>
+      </div>
       <div type="letter">
-       
-        <salute>A Messieurs le Prévôt des marchands<note resp="editor" place="bottom">[NDE] Le prévôt des marchands est le premier magistrat du consulat, il dirige la municipalité lyonnaise. Il est élu pour deux ans. Les échevins sont les autres membres du consulat et  sont généralement élus parmi les officiers ou les marchands. En 1607 le prévôt des marchands est Pierre Scarron de La Parerle.</note>, et échevins de ladite Ville<note resp="editor" place="bottom">[NDE] Il apparaît dans l’attestation qui suit le texte de Gaule, que le Prévôt et les échevins avaient été présents à la représentation de la pièce. Le texte est donc moins écrit pour démontrer aux autorités la valeur de l’action théâtrale des jésuites, que pour la défendre, avec leur appui.</note><lb/>
-          Avec permission<note resp="editor" place="bottom">[NDE] Le texte de Gaule est accompagné d’une approbation datée du 18 octobre 1607 par Robert Berthelot, suffragant de Lyon, qui atteste « n’y avoir rient trouvé qui ne soit conforme à notre sainte foi et religion catholique : ains être digne de lumière, à fin de faire connaître les mauvais artifices  dont usent d’ordinaire les mal affectés à la vérité » (<hi rend="i">ibid.</hi>, p. 27). Les « mal affectés à la vérité » représentent les calvinistes. Cette approbation manifeste d’emblée l’enjeu confessionnel et politique du texte. La querelle sur le théâtre exprime l’opposition entre les calvinistes et les jésuites, qui en 1607 désirent s’établir puissamment et Lyon et négocient avec le consulat qui gouverne la ville l’élargissement du collège (voir <hi rend="i">Les Jésuites à Lyon, XVIe-XXe siècle</hi>, dir. Etienne Fouilloux et Bernard Hous, Lyon, ENS éditions, 2005, p. 28-32). L’approbation des autorités religieuses et judiciaires de la ville est manifestée par l’attestation du Prévôt et des Echevins qui clôt le texte de Gaule : « Nous Prévôt des Marchands et Echevins de la ville de Lyon, qui avons vu un petit discours, en forme d’épître à nous adressé intitulé <hi rend="i">Conviction véritable</hi> […], attestons et certifions en vérité, que le contenu en ladite conviction est aussi vrai (au fait) que ledit récit contraire est diffamatoire et fabuleux ; ne s’étant rien passé en l’action dudit jour 7 août dernier, que de grave, modéré, dévot, édificatif, et convenable au sujet entrepris. Ce que nous savons et pouvons témoigner, pour avoir (comme fondateurs dudit collège auquel la représentation fut faite) assisté durant trois jours : avec les principaux de ladite ville, et grand nombre de peuple, qui peut rendre semblable témoignage » (André de Gaule, <hi rend="i">op. cit.</hi>, p. 29). Ce texte atteste, deux ans seulement après la réouverture du collège de la Sainte Trinité, de l’alliance renouvelée entre le consulat de la ville et les jésuites. Les jésuites reçoivent l’appui politique du consulat et s’engagent à contribuer à la gloire culturelle et littéraire de la ville. Deux autres pièces liminaires suivent le texte de Gaule : la permission d’impression (<hi rend="i">ibid.</hi>, p. 27) et l’approbation de monsieur le sénéchal de Lyon (<hi rend="i">ibid.</hi>, p. 28), que nous reportons : « Nous, sieur de la Baume Dostun, Sénéchal de Lyon, approuvons beaucoup, et louons la présente conviction, comme ayant été témoin de la vérité, qui y est défendue, contre les mensonges, impostures, et calomnies couchées au récit fabuleux qui y est réfuté. En témoignage de quoi nous avons signé cette de notre main, Lyon le 17 octobre 1607 ».</note></salute>
-        <p><pb n="3" />Messieurs, certain ténébrion<note resp="editor" place="bottom">[NDE] Ténébrion = ami des ténèbres intellectuelles.</note> sans nom, sans pays, sans aveu, et qui pis est sans foi, sans justice, et sans religion, a osé ces jours passés divulguer un imprimé en date du vingt deuxième d’août dernier, par lequel il a malicieusement calomnié la représentation qui vous avait été exhibée dans votre collège le septième du même mois de la présenté année 1607. Les bourdes qu’il avance sont si épaisses et ont tant d’accusateurs de leur fausseté qu’il me semblait être chose superflue <pb n="4" />de mettre la main à la plume pour les réfuter. Mais par ce que je m’aperçois, et par le rapport de divers endroits je suis assuré que cet imprimé court pays sans arrêt, et avec créance en plusieurs parts. J’ai jugé pour la gloire de la vérité, pour la confusion des menteurs, pour l’honneur de notre ville, et le vôtre particulier (pour qui cette action a été dressée<note resp="editor" place="bottom">[NDE] André de Gaule parle bien d’ « action » et non de comédie pour définir la pièce représentée.</note>) qu’il faut donner un coup de corne en la bouche de cet homme menteur, et faire connaître au monde le fait comme il s’est passé. Car qui eût jamais pensé qu’il se fût trouvé aucun si ouvert de gorge pour mentir, qui eût osé fonder sur un fait tant public si puantes et si atroces calomnies ? Un sage Romain disait jadis, que malheureux est le prince à qui la vérité n’a libre accès : et moi je tiens beaucoup plus infortunés les peuples desquels les sycophantes<note resp="editor" place="bottom">[NDE] Sycophante = délateur.</note> se voudraient targuer pour établir et mettre en crédit leurs mensonges. Ce que l’auteur de ce libelle diffamatoire (qu’on tient être sorti de Genève<note resp="editor" place="bottom">[NDE] C’est-à-dire : que l’on suppose être calviniste.</note>) a voulu faire de vous (messieurs) prétendant peut-être, qu’avec votre tacite consentement vous autoriseriez ses menteries. Or moi, pour le débouter de ceste espérance et ne permettre que ce tort vous soit fait, j’ai donné au public ce contre écrit, qui <pb n="5" />témoignera aux peuples les plus éloignés ce qui est de la vérité, et que cet écrivain doit être condamné pour tel qu’il est, c’est-à-dire pour menteur, imposteur et calomniateur, sans aucune réserve de vergogne. </p>
-        <p>Son infâme récit contient en tout sept pages, et icelles non entières. Il devait grossir son volume puisqu’il était résolu de bien mentir. Mais comme en un petit parchemin celui comprit beaucoup, qui décrivit toute l’Iliade d’Homère<note resp="editor" place="bottom">[NDE] Pline l’ancien, dans son <hi rend="i">Histoire naturelle</hi>, attribue à Cicéron la référence à une copie de l’Iliade d’Homère, qui aurait été écrite sur parchemin et enfermée dans une coquille de noix (Pline, <hi rend="i">Naturalis Historia</hi>, VII, chap. 21, éd. H Rakhman, Cambridge, Harvard University Press, 1989, p. 560).</note>, ainsi sur ce peu de papier cet homme a étalé des plus insignes menteries, et non seulement menteries, mais encore calomnies et malices remarquables. Je m’en vais en marquer quelques-unes, desquelles je m’assure que vous, qui avez été témoins oculaires de tout, aurez occasion de vous étonner avec moi. </p>
-        <p>Le titre qu’il donne à ceste Action, est d’être: « une comédie » : et dit qu’« elle a été dressée pour donner du passe-temps, se moquer de Dieu devant les yeux de tout une ville, exposer en risée la sainte vérité, et en faire un jeu de trois jours : et qu’en fin ce n’a été qu’une drôlerie ».<note resp="editor" place="bottom">[NDE] André de Gaule ne cite pas directement le texte du <hi rend="i">Récit touchant la comédie</hi>, mais en résume p. 2-4.</note> </p>
-        <p><pb n="6"/>De telles paroles il n’y a personne qui ne conjecturât que c’était quelque farce ridicule, un fescennin<note resp="editor" place="bottom"> [NDE] Fescennins = chants fescennins (<hi rend="i">fescenninus versus</hi>). Chants populaires et licencieux chantés lors des noces, dans la Rome ancienne.</note> ou atellane<note resp="editor" place="bottom">[NDE] Atellane = forme comique du théâtre latin, souvent bouffonne et obscène, reposant sur un canevas et mettant en scène quatre personnages masqués.</note>, quelque momerie<note resp="editor" place="bottom">[NDE] Momerie = mascarade, comédie.</note>, et charlaterie<note resp="editor" place="bottom">[NDE] Charlaterie = charlatanerie (terme emprunté en 1572 : désigne l’action d’un vendeur ambulant qui cherche à vendre ses marchandises).</note>, où les Pantalons<note resp="editor" place="bottom">[NDE] Pantalon : masque de la commedia dell’arte.</note> s’entrechoquaient aux dépens de la dévotion et révérence des choses saintes. Malignité et fausseté impudente ! Vous avez vu (Messieurs) comme tout s’est passé : y avez vous rien noté qui ne fût grave et modéré ? Rien que dévot et convenable à la majesté de l’histoire, et du sujet du jugement universel qui se représentait ? Quel mot de gueule<note resp="editor" place="bottom">[NDE] Mot de gueule : « parole sale » (dictionnaire de l’Académie Française, 1<hi rend="sup">e</hi> éd., 1694).</note> y a t’on ouï ? Quel parasite ou mime y a été remarqué ? Quel geste dissolu ? Quelle action légère ? Je sais de bonne part, que plusieurs ont été excités à mieux vivre, voyant en cette action quelques délinéaments de ce qui doit arriver au dernier jour. </p>
-        <p>En suite de ceci, il fait subtilement ce de quoi il accuse proditoirement<note resp="editor" place="bottom">[NDE] Proditoirement : déloyalement.</note> les jésuites, tournant en risée tout ce qu’il y a de plus sévère et épouvantable en notre sainte créance. Il appelle drôlerie ce qui fut représenté d’horrible selon la nécessité du sujet, touchant les diables et les damnés, et pour cela il cite son rêveur Camerarius, ne faisant qu’une pure drôlerie de tout son récit, drôlant par tout, et gaussant en vrai <pb n="7" />Lucian<note resp="editor" place="bottom">[NDE] Référence à Lucien de Samosathe (120-180 <hi rend="i">circa</hi>), satiriste et auteur de dialogues humoristiques et d’éloges paradoxaux très en vogue au XVIe et XVIIe siècles.</note>. Puis donnant le vent à ses mensonges il parle ainsi : « <quote>En cette comédie il y avait divers personnages, entre autres un Dieu jésuitique, et en après un Jésus-Christ à sa droite.</quote> »<note resp="editor" place="bottom">[NDE] André de Gaule cite avec quelques omissions un passage de la p. 4 du <hi rend="i">Récit touchant la comédie</hi>.</note> </p>
-        <p>Qu’est ce mentir (Messieurs) si cela ne l’est ? Vous savez qu’en toute l’action aucun ne fut vu qui représentât la personne de Dieu, comme distincte de celle de Jésus-Christ, et qu’un seulement exhiba celle de Jésus-Christ comme de Dieu et homme, juge des vivants et des morts. Ce menteur dévoyé est, peut-être, quelque Nestorien<note resp="editor" place="bottom">[NDE] Nestorien : personne adhérant à la doctrine défendue par Nestorius (IVe siècle), affirmant que deux personnes, une divine et une humaine, coexistent en Jésus-Christ. Cette doctrine, jugée hérétique par l’Eglise chrétienne, est ici évoquée pour dénoncer l’erreur de l’auteur du Récit. André de Gaule entend ici affirmer que, dans la pièce des jésuites, seule la figure de Jésus était représentée, alors que Dieu le père n’apparaissait pas en scène. En effet, il aurait été théologiquement discutable de représenter le Père, qui n’est pas incarné et jamais représentée en forme humaine dans les deux testaments.</note>, distinguant en Jésus-Christ deux personnes, aussi bien qu’il y a deux natures<note resp="editor" place="bottom">[NDE] Le concile d’Ephèse (431) condamne en effet le nestorianisme comme hérésie en affirmant que Jésus-Christ n’a pas deux personnes, mais deux natures en une seule personne. Evoquer les hérésies de l’Eglise primitive est un moyen indirect d’attaquer la foi calviniste de l’auteur du <hi rend="i">Récit touchant la comédie</hi>.</note> : et en ce plus que Nestorien, qu’il s’imagine<note resp="editor" place="bottom">[NDE] Comprendre : et il est plus que Nestorien en cela qu’il s’imagine…</note> qu’au jugement un siège sera donné à la divinité, et l’autre à l’humanité de Jésus-Christ. Car si telle n’eût été sa pensée, comme<note resp="editor" place="bottom">[NDE] Comment.</note> aurait-il imaginé une si grande fourbe<note resp="editor" place="bottom">[NDE] Fourbe = fourberie.</note> ? Les jésuites sont trop versés aux saintes écritures pour ignorer ce qui est en saint Jean, que le Père ne juge personne, mais a donné tout jugement à son fils, et puissance de faire jugement parce qu’il est fils de l’homme<note resp="editor" place="bottom">[NDE] Voir Jn 5, 22.</note>. L’écolier qui faisait ce personnage s’appelle <pb n="8" />Josué de Villeneuve, et n’y en avait aucun autre qui représentât Dieu, que ce drôleur mentant appelle jésuitique. </p>
-        <p>Il continue de mentir avec ces paroles : « <quote>entre ces personnages était le pape et sa suite</quote> »<note resp="editor" place="bottom">[NDE] André de Gaule cite de manière approximative le texte du <hi rend="i">Récit touchant la comédie</hi>, p. 4.</note>. </p>
-        <p>Car de tous ces trois jours jamais ni pape, ni cardinal ne fut vu sur le théâtre. Mais je conjecture pourquoi il a feint ici le pape : j’en toucherai incontinent la raison après que vous l’aurez ouï, prononçant ceste autre menterie. </p>
-        <p>« <quote>Le premier jour, dit-il, fut employé à loger le pape, et ses adhérents, au paradis de bois des jésuites, suivant la sentence prononcée par leur nouveau Dieu. </quote> »<note resp="editor" place="bottom">[NDE] André de Gaule cite avec quelques omissions le texte du <hi rend="i">Récit touchant la comédie</hi>, p. 4.</note> </p>
-        <p>Que dites-vous de cet homme, messieurs ? Parlant de ce paradis de bois, ne se montre-il pas avoir la cervelle de bronze, faite pour choquer contre la vérité, et toujours mentir ? Vous vous souvenez que tout ce premier jour s’en alla en divers combats de l’Église contre l’Antéchrist, et à quelques autres préparatifs propres à représenter ce qui fut exhibé le jour suivant ; et que le <pb n="9" />pape n’y fut vu, ni aucune sentence prononcée. Mais pour faire tomber plus plausiblement son foudre sur le pape et ses adhérents<note resp="editor" place="bottom">[NDE] Adhérent = ici, acolyte.</note>, il s’est fait accroire<note resp="editor" place="bottom">[NDE] Il s’est persuadé.</note> que l’Église ait été le pape bien qu’elle fût habillée en femme, et que souvent elle et les autres qui l’accompagnaient sur le théâtre lui attribuassent le nom d’Église, sans jamais nommer une fois le pape. </p>
-        <p>En suite de ceci, c’eût été bien merveille s’il se fût oublié du purgatoire<note resp="editor" place="bottom">[NDE] L’existence du Purgatoire étant contesté par les calvinistes, André de Gaule s’attend à ce que l’auteur du <hi rend="i">Récit touchant la comédie</hi> en conteste la représentation. Il dévalorise ainsi ses arguments comme issu d’une foi partisane.</note>. Il s’en donnera bien de garde : écoutez ce qu’il dit. </p>
-        <p>« <quote>Ils charpentèrent aussi un purgatoire.</quote> »<note resp="editor" place="bottom">[NDE] André Gaule cite, avec des omissions, le <hi rend="i">Récit touchant la comédie</hi>, p. 2.</note> </p>
-        <p>Tu le nommes (malin) pour te moquer de ce point de la foi catholique, et tu le mets en avant pour ne changer rien de ton train à mentir. Autant fut vu le purgatoire, ou parlé d’icelui, que du pape: et autant de celui-ci que d’Artus le Breton<note resp="editor" place="bottom">[NDE] Il ne fut pas parlé du roi Artus et donc ni du pape, ni du purgatoire non plus.</note>. Mais de la fumée de ce purgatoire tu voulais donner corps à ces furieuses nues que tu vas faire éclater sur la tête du pontife de Rome, t’y disposant avec ces paroles. </p>
-        <p>« <quote>Ainsi qu’ils commencèrent à lâcher leur premier pétard, ou petit tonnerre jésuitique, le temps auparavant serein, se brouille tout à coup</quote>. »<note resp="editor" place="bottom">[NDE] André de Gaule cite exactement le <hi rend="i">Récit touchant la comédie</hi>, p. 5.</note> </p>
-        <p><pb n="10" />Voila donc une grande merveille, que le ciel favorise tant et si à propos les jésuites, les secondant si heureusement en leurs desseins. Tu devais conjecturer de là, que l’action était agréable aux yeux de Dieu, et je ne doute point que tu ne l’eusses fait, si tu eusses été autant affectionné à leur endroit, que tu te montres libéral à mentir pour les blasonner<note resp="editor" place="bottom">[NDE] Par antiphrase : blâmer, critiquer.</note>. Tu appelles commencement plus de trois ou quatre heures après avoir commencé : car si tu n’as été informé à faux, ou si de Lyon allant à Genève tu n’as perdu la mémoire, tu te souviendras, que ces éclairs et pétarades artificielles donnèrent commencement à l’action du second jour, pour représenter la générale déflagration du monde, et que depuis l’on joua paisiblement, au moins quatre grosses heures. Vois donc, ô épargneur de vérité, combien tu es riche en mensonges. </p>
-        <p>« <quote>Le temps, ajoutes-tu, se brouille tout à coup, une nuée crève, une ravine d’eau s’épand, etc</quote>. »<note resp="editor" place="bottom">[NDE] André de Gaule cite exactement le <hi rend="i">Récit touchant la comédie</hi>, p. 5.</note> </p>
-        <p>Trois jours devant l’action, le temps gros de pluie avait menacé de fondre ses nues, et les excessives chaleurs présageaient que les tonnerres n’arrêteraient guère de se faire <pb n="11" />ouïr, comme déjà il était arrivé le dimanche précédent à heure de vêpres. Voire ce même second jour de l’action les acteurs étant sur le théâtre, l’air brouillé demeura menaçant de pluie plus d’une grosse heure et demie, de quoi s’apercevant quelques-uns bien avisés firent doubler des toiles sur leurs têtes pour être préservés contre l’eau, quand elle tomberait. Même l’on joua un bon quart d’heure la pluie tombant doucement, sans que pour cela ni les spectateurs, ni les acteurs fissent semblant de quitter leur place. Appelles-tu donc cela, « tout à coup » ? Mais ton foudre saint ne fût pas bien tombé sans ce préambule mensonger. Sauvez vos têtes (messieurs), courez au laurier : voici la foudre ! Mais non, ne craignez pas, ce n’est qu’une nue noire épaissie de mensonges. </p>
-        <p>« <quote>Le foudre, dit-il, tomba sur une maison proche de celle des jésuites, où il fit du ravage</quote>. »<note resp="editor" place="bottom">[NDE] André de Gaule cite exactement le <hi rend="i">Récit touchant la comédie</hi>, p. 5.</note> </p>
-        <p>Menteur, combien de fois est-il tombé sur Genève sans qu’on y représentât le jugement final ? Je suis voisin des jésuites, je connais leur maison, et toutes celles qui leur sont proches, je me suis avec toute diligence <pb n="12" />enquis, quelle aurait été celle que le foudre aurait féru de son carreau fulmineux. Tout bien cherché et recherché, je n’en ai pu apprendre aucune nouvelle, et de ton dire n’ai su tirer autre conclusion sinon que tu es un forgeron de foudre semblable au vieux cyclope des poètes. Ce que tu dis ci-après de la tour est autre cas, j’en parlerai à cette heure, te suivant comme on fait la bête à la piste. Car qu’ajoutes-tu pour grossir le monceau de tes mensonges ? Ecoutez-le, messieurs, il dit : </p>
-        <p>« <quote>Que plusieurs des joueurs fort effrayés, depuis sont morts et qu’on tient compte de neuf ou dix des principaux pour le moins, qu’entre autres celui qui contrefaisait Dieu et celui qui contrefaisait le personnage de Lucifer ont été emportés de maladie : bref, que les éclairs étaient si fréquents, que plusieurs pensaient que ce fût la fin du monde </quote> »<note resp="editor" place="bottom">[NDE] André de Gaule reporte librement le <hi rend="i">Récit touchant la comédie</hi>, p. 6.</note>. </p>
-        <p>Y pensâtes-vous jamais, messieurs ? Dites de grâce, pensiez-vous que le dernier jour fût arrivé ? C’est merveille que ce menteur ayant une fois lâché la bride à l’impudence, n’ait dit que tout le mont de Fourvière <pb n="13" />avait cabriolé au-delà du Rhône, et s’était allé percher dessus le colombier de la Ferrandière<note resp="editor" place="bottom">[NDE] La Ferrandière = domaine situé entre Lyon et de Villeurbanne, où se dressait un château de style Renaissance. Le domaine se situait, au XVIIe siècle, aux limites ouest de la ville, alors que la colline de Fourvière était aux limites est de Lyon.</note>, et que là-dessus il faisait le moulin à vent ; ou que tout le quartier de saint Sébastien<note resp="editor" place="bottom">[NDE] Quartier de Saint-Sébastien : quartier établi au XVIe siècle sur les pentes de la  Montagne de Saint-Sébastien, entre le Rhône et la Saône, actuellement dans le quartier de la croix Rousse.</note>, ébranlé en ses fondements, s’était perdu dans les abîmes, quatre mille sept cents cinquante-six toises<note resp="editor" place="bottom">[NDE] Une toise est l’équivalent de 6 pieds (c’est-à-dire 1, 949 mètres). 4756 toises font donc environs 9269 mètres.</note> au-delà du centre de la terre, et que le Rhône passant ores par-dessus et se joignant avec la Saône, on y péchait des huitres longues de dix-huit brassées. Par ce moyen plusieurs eussent mieux pensé que la fin du monde était arrivée, car la confusion eût été plus grande. Mais à bon escient, qui sont ces neuf ou dix acteurs de compte fait, qui effrayés sont depuis morts ? S’ils sont comptés et des principaux, comme tu l’assures, il te sera facile de nous en donner les noms. Dis-nous donc, qui sont-ils ? De quelle maison ? Qui sont leurs parents ? Si tu n’eusses voulu avoir la gloire des vieux menteurs Anyte et Mélite<note resp="editor" place="bottom">[NDE] Anytos et Mélétos = délateurs et accusateurs de Socrate (voir <hi rend="i">Ménon</hi>, 90a, 90c-94, 95a).</note>, tu aurais apporté de ton dire quelque preuve. Pour nous, qui n’avons bougé de Lyon depuis, nous sommes assurés du contraire, certains que de tous ceux qui étaient présents en l’action, soit acteur, soit spectateur, aucun n’est mort comme ayant été effrayé du foudre, ou du tonnerre. Que si la maladie populaire<note resp="editor" place="bottom">[NDE] il peut s’agir de la peste noire, qui sévit en France en 1607, ou encore de la dysenterie, qui fit des ravages à Lyon en 1607.</note>, <pb n="14" />qui a fait le dégât qu’on sait en cette ville a emporté deux des acteurs, tu pourras savoir quand tu voudras, que l’un d’eux était déjà malade trois jours avant que monter sur ce théâtre. Et si pour être morts de ce mal ils sont morts effrayés du foudre, ou du tonnerre, dis encore que ceux qui en sont trépassés en Suisse et au fond des Allemagnes, en Italie, et en plusieurs parts de la France en sont trépassés ; dis que le ministre d’Oullins<note resp="editor" place="bottom">[NDE] Oullins = commune situé à l’ouest de Lyon.</note> en a été si épouvanté, et plusieurs du Consistoire de Lyon si grièvement malades, qu’à grand peine ont ils pu se relever du lit bagues sauves<note resp="editor" place="bottom">[NDE] Sortir bagues sauves = sortir heureusement d’un danger (bagues = bagages).</note>. Dis que Guillaume la Chana<note resp="editor" place="bottom">[NDE] Guillaume de Chana (vers 1540- après 1585) : huguenot lyonnais émigré à Genève.</note> et autres, qui en sont morts, et que tu sais n’avoir guère fréquenté les jésuites, pour avoir été de même religion que toi. Dis que ce foudre qu’ils ne virent, ni ne sentirent jamais, leur a de male peur fait rendre les derniers abois. Mais où avais-tu l’âme, ô cyclope dénaturé, quand tu as écrit, que celui qui contrefaisait Dieu, et celui qui jouait le personnage de Lucifer ont été emportés de maladie pour s’être trop échauffés ? Je t’ai dit qu’aucun n’a contrefait Dieu, comme distinct de Jésus-Christ, et que celui qui représentait Jésus-Christ s’appelle Josué de <pb n="15" />Villeneuve. J’ajoute que celui qui jouait Lucifer a pour nom Simon Vannerot, et que tous deux sont honnêtes enfants de belle expectation, jouissant encore aujourd’hui d’une pleine santé, sans avoir été ni peu ni prou atteints de maladie : de quoi te feront foi tes yeux et tes oreilles, si pour voir la laideur de tes mensonges il te prend fantaisie de t’en venir informer en cette ville. </p>
-        <p>Vous pensez peut-être (messieurs) que c’est tout. Non, non, cet homme n’est pas encore saoul de mentir. Prenez garde comme il crache les mensonges quatre à quatre. </p>
-        <p>« <quote>Entre trois tonnerres<note resp="editor" place="bottom">[NDE] Le mot foudre peut être féminin ou masculin à l’époque.</note> qu’il fit <seg type="exquote">(dit-il)</seg> il y en eut un si terrible, que le foudre chut sur une tour qui est au bord du Rhône, joignant<note resp="editor" place="bottom">[NDE] Jouxtant.</note> le collège des jésuites. Céans il y avait un homme qui fut blessé, et une femme tuée. Le foudre rompit la cheminée, par ou il entra, puis sortit par même endroit, se jette sur un bateau chargé de bois, qu’il fit couler au fonds du Rhône</quote> ».<note resp="editor" place="bottom">[NDE] André de Gaule rapporte ici mot pour mot le récit du <hi rend="i">Récit touchant la comédie</hi>, p. 7.</note> </p>
-        <p>Voila sept mensonges pour une seule vérité, qui est que le foudre tomba dans une <pb n="16" />tour, étant faux que cette tour soit joignant le collège ; faux que le foudre y tombant un homme y fût ; faux par conséquent qu’il y fût blessé ; faux qu’une femme y fût tuée ; faux que le foudre rompît aucune cheminée ; faux qu’il se soit jeté sur aucun bateau ; faux enfin qu’il l’ait fait couler au fonds du Rhône. Cette dite tour est celle qu’on nomme du Commis, la plus proche de la porte des Cordeliers, et la quatrième en comptant depuis la porte de rue neuve, et partant bien éloignée du collège. Car si on compte justement depuis le plus proche coin des jésuites jusques à celui des P. P. Cordeliers<note resp="editor" place="bottom">[NDE] Tous ces lieux sont identifiables dans le Lyon d’aujourd’hui. Le couvent des Cordeliers a été détruit mais il subsiste son église, Saint Bonaventure ; le collège jésuite est celui de la Trinité, qui est l’actuel Lycée Ampère ; les portes ont disparu, mais la Rue Neuve existe toujours.</note>, l’on trouvera que ladite tour est plus voisine d’eux, que des jésuites, au moins de cent et quinze pas<note resp="editor" place="bottom">[NDE] Environs 100 m.</note>. L’on n’a point remarqué qu’autre mal y soit arrivé, que d’effrayer une femme qui était dedans, et fondre la pointe d’un poinçon servant à sonder les balles<note resp="editor" place="bottom">[NDE] Les balles : il s’agit des balles de marchandise qui entrent à Lyon. Le poinçon est une sorte de pique qui sert à sonder les belles pour vérifier qu’elles ne cachent pas de la marchandise de contrebande.</note>. Celui qui habite dedans icelle tour est homme de bien, et honnête personne, appelé Michel Gouille, qui assurera le même que je dis. </p>
-        <p>Et d’ici vous pourrez voir, messieurs, que c’est de s’écarter de la vérité pour suivre les erres<note resp="editor" place="bottom">[NDE] Suivre le chemin du mensonge.</note> du mensonge, auquel qui a une fois donné sa créance en matière de religion, <pb n="17" />ne tient plus à religion d’en controuver<note resp="editor" place="bottom">[NDE] Ne se fait plus un scrupule d’en forger (des mensonges).</note> pour diffamer les autres, et nommément s’il est question de donner sur jésuites<note resp="editor" place="bottom">[NDE] S’acharner sur les jésuites.</note>, que ces gens tiennent pour leurs déterminés ennemis, bien qu’en effet ils<note resp="editor" place="bottom">[NDE] C’est-à-dire les jésuites : les protestants s’acharnent sur les jésuites bien que ceux-ci n’aient en vue que le salut des protestants.</note> ne désirent que le salut de leurs âmes. Qui ne voit leur rage envenimée contre ces bons pères ? Et qui ne s’étonnera du transport où l’appétit de les décrier a conduit ce menteur et impudent écrivain ? Je me suis émerveillé comme<note resp="editor" place="bottom">[NDE] Comment.</note> après avoir si effrontément franchi les barrières de la pudeur il n’ait encore couché par écrit cet autre vilain mensonge, qui a couru jusques à Paris, qu’un démon vrai démon, se soit trouvé parmi ceux qui les représentaient en cette action sur le théâtre. Et encore plus qu’il n’ait par anticipation écrit ce que<note resp="editor" place="bottom">[NDE] Qui.</note> maintenant court comme fine vérité dans Genève, que le foudre a abîmé le collège, et que dix-huit des jésuites ont été foudroyés, entre lesquels étaient le provincial, le recteur, et le rhétoricien qui avait composé l’action. Mensonges si noirs, si vilains, et si éhontés, que j’estime que le démon qui les a inventés, en aurait rougi s’il était capable de honte. Si cet imposteur ne les a couchés par écrit après tant d’autres, ce n’a pas été, crois-je, faute de bonne volonté : <pb n="18" />car encore un coup quelle rage contre ces pères ? N’était-ce pas assez d’avoir voulu, par ce qui a été dit, maculer leur renommée, sans qu’encore cet infâme anonyme parsemât son écrit de calomnies toutes battantes de front<note resp="editor" place="bottom">[NDE] Calomnies qui toutes attaquent ouvertement la réputation des jésuites.</note> l’honneur de leur réputation, en les chargeant<note resp="editor" place="bottom">[NDE] Accusant.</note> de cupidité du lucre et d’avarice ? </p>
-        <p>Il dit I. <quote>« Qu’ils avaient dressé ce passe-temps au peuple pour ménager.</quote> »<note resp="editor" place="bottom">[NDE] André de Gaule reprend librement le texte du <hi rend="i">Récit touchant la comédie</hi>, p. 2 (« Les Jésuites […] voulant donner du passetemps au peuple et ménager par même moyen »).</note> </p>
-        <p>II Que « <quote>les pères et mères faisaient grande ou moyenne contribution, selon les personnages que leurs fils soutenaient.</quote> »<note resp="editor" place="bottom">[NDE] André de Gaule reprend librement le texte du <hi rend="i">Récit touchant la comédie</hi>, p. 4.</note> </p>
-        <p>III. Que « <quote>les personnes de qualité payèrent largement la vue de ce passe-temps, donnant argent pour s’asseoir aux échafauds<note resp="editor" place="bottom">[NDE] Echafaud : ouvrage de charpenterie élevé en forme d’amphithéâtre pour y placer des spectateurs et pour le jeu des acteurs (voir Furetière 1690).</note>, que les jésuites leur avaient préparés.</quote> »<note resp="editor" place="bottom">[NDE] André de Gaule reprend librement le texte du <hi rend="i">Récit touchant la comédie</hi>, p. 4.</note> </p>
-        <p>IIII. Que « <quote>les jésuites enlevèrent tout l’équipage, et beaucoup de bagage des loueurs leur est resté, pour s’en accommoder à la maniéré des bons ménagers, qui font profit de tout.</quote> »<note resp="editor" place="bottom">[NDE] André de Gaule cite textuellement le <hi rend="i">Récit touchant la comédie</hi>, p. 6.</note> </p>
-        <p><pb n="19" />Quelle ordure sortant de la bouche de cet homme et quel encre de fiel coule du canon de sa plume ! Vraiment les jésuites sont bien gens, qui pour l’espérance d’un tel lucre voulussent devenir bateleurs. Et il y a bien d’apparence que gens de bon lieu, tels qu’ils sont pour la plus part, gens d’honneur et de science devant Dieu, et devant les hommes, gens qui ont renoncé au monde, auquel ils pouvaient paraître, et avoir quelque chose, gens qui se sont tous donnés au service de Dieu, qui y persévèrent pour sa gloire, pour le bien du public, et le salut de leurs âmes, Il y a bien, dis-je, d’apparence, que jamais ils aient été si convoiteux, que ce médisant les veut faire reconnaître. Pour moi, je les connais assez, ce me semble, et en suite de cette connaissance je jugerais que jamais telle convoitise ne leur est venue en pensée, non plus que jamais ils n’ont retiré un seul liard de celui qui représentait Jésus-Christ, que néanmoins ce calomniateur dit avoir plus payé que tous les autres. Sur quoi je lui offrirai un beau marché, étant assuré que le recteur du collège ne m’en désavouera point : c’est que lui, ou tout autre qu’il voudra, vienne à supputer la dépense faite en l’appareil de cette <pb n="20" />action, et que d’autre côté il calcule tout le reçu de quelconque part qu’il soit provenu. Je lui fais bon<note resp="editor" place="bottom">[NDE] Je lui fais bon que : je lui donne ma parole que.</note> que si sur ce reçu il paye tout le dépensé, le recteur lui donnera tout compté et rabattu<note resp="editor" place="bottom">[NDE] Tout compté et rabattu : tout bien compté et toute déduction faite ; le recteur donnera tout net dix écus (par-dessus = en plus des dépenses faites pour la représentation).</note>dix écus par-dessus<note resp="editor" place="bottom">[NDE] En d’autres termes : l’accusateur ne pourra pas prouver que les dépenses engagées pour préparer l’action ont été payées par les revenus du spectacle.</note>. Et pour ce qu’il dit du bagage, qu’il cherche toutes les pièces qu’il suppose avoir été retenues, je lui promets que toutes lui seront rendues, et un teston<note resp="editor" place="bottom">[NDE] Teston = monnaie d’argent à l’effigie de François Ier.</note> de surcroît dessus chaque pièce<note resp="editor" place="bottom">[NDE] Tous les bagages gardés lui seront donnés, avec en plus une somme pour chaque bagage.</note>. C’est un beau parti, nommément à un misérable<note resp="editor" place="bottom">[NDE] En d’autres termes : le gain qu’il peut tirer de ces paris (dix écus et quelques testons) est profitable seulement pour un misérable.</note>, tel que doit être ce criminateur<note resp="editor" place="bottom">[NDE] Criminateur = criminel.</note> : car un homme d’honneur et de moyen<note resp="editor" place="bottom">[NDE] Un homme qui a des moyens</note> n’aura jamais mis la main à la plume pour publier ces si puantes bourdes et tacher à plaisir la renommée de ceux desquels il n’a jamais reçu déplaisir. </p>
-        <p>Qu’est-ce donc qui peut avoir poussé cet homme de néant à ce faire ? Je n’en peux point conjecturer ou savoir autre cause, que sa malignité propre, accompagnée d’un mauvais naturel, formé pour médire, et disposé à mal faire : ou bien je l’attribuerai à son éducation, car étant du nombre de ceux que le schisme a séparé de l’Église catholique, apostolique et romaine, l’on voit par expérience que telles gens haïssent à mort les jésuites, voire avant que jamais ils les aient vus. Peut-être aussi sera-ce, parce que selon les lois de<pb n="21" />la discipline reformée, il est inhibé<note resp="editor" place="bottom">[NDE] Inhibé : prohibé, interdit.</note> de transformer les livres de la Bible en tragédie<note resp="editor" place="bottom">[NDE] Comme le fait, par exemple, Johann Jakob Bretinger, <hi rend="i">Bedencken von Comoedien oder Spielen</hi>, éd. Thomas Brunnschweiler, Bern, Peter Lang, p. 22-23.</note>, et il lui fait mal que dans Lyon telles ordonnances ne sont point gardées. En effet, il semble que sur cette enclume ce cyclope ait principalement martelé son carreau de foudre<note resp="editor" place="bottom">[NDE] Carreau de foudre : la pierre qui est dans la foudre.</note> et de calomnie, car il tient à si grand crime qu’on ait représenté le jugement, le paradis, et l’enfer, que pour ce<note resp="editor" place="bottom">[NDE] Pour ce : pour cette raison.</note> l’air en ait dû être troublé, et en soient arrivés les esclandres par lui ci-devant mentionnés, et menteusement controuvés<note resp="editor" place="bottom">[NDE] Menteusement controuvé : mensongèrement inventé.</note>. Quoi faisant, il nous montre de quel esprit lui et les siens sont portés. Car pourquoi cette haine nouvelle et si grande aversion des représentations des choses saintes, sinon pour revendiquer le théâtre à Bacchus et à Vénus, ou du moins à celle païenne folie, à qui la gentilité<note resp="editor" place="bottom">[NDE] La gentilité : le paganisme.</note> l’avait dédié ? Et que faisait Isaïe allant tout nu par la ville<note resp="editor" place="bottom">[NDE] Isaïe 20, 2.</note> ? Quoi Jérémie portant des chaînes au col <note resp="editor" place="bottom">[NDE] Jérémie 40, 4.</note> ? Quoi Ézéchiel s’équipant en mode de soldat formant un siège de ville, et contrefaisant l’assiégeant et l’assiégé ? N’était-ce pas pour représenter ores le pillage, ores la captivité du peuple, ores l’assiégement<note resp="editor" place="bottom">[NDE] Assiégement = siège.</note> et le sac de Jérusalem<note resp="editor" place="bottom">[NDE] Ezéchiel, 4, 2.</note> ? Que si représenter la sainte vérité est chose mauvaise, pourquoi est-ce <pb n="22" />que Dieu l’aurait commandé à ses prophètes ? Mais (diras-tu) ils ne le faisaient pas sur un théâtre. Qu’en sais-tu, ignorant que es ? Commandement ne fut-il pas fait à Ézéchiel de cuire ses pains avec la fiente<note resp="editor" place="bottom">[NDE] Ezéchiel 4, 15.</note> en face de tout le peuple ? Mais en ce faisant il ne jouait pas une comédie. Non, car le sujet était horrible et tragique, et tel pour plus grand profit l’avaient choisi en cette action les jésuites<note resp="editor" place="bottom">[NDE] Les jésuites avaient choisi le sujet tel (horrible et tragique) pour en tirer un plus grand profit didactique.</note>. Mais en cette représentation des jésuites aucuns spectateurs riaient quelquefois<note resp="editor" place="bottom">[NDE] Comprendre : que quelque spectateur riait quelquefois.</note>. Et qui t’a dit que toujours ceux qui voient les prophètes pleurassent, nommément ceux qui étaient ignorants des mystères qu’ils représentaient ! Mais ils étaient des prophètes. Pour ce<note resp="editor" place="bottom">[NDE] C’est pourquoi.</note>, si tu avais des yeux, pour autre effet que pour chercher des bourdes, tu verrais que nous les pouvons et devons imiter. Mais le théâtre est un lieu infâme. Qu’il le soit à Genève, chez les jésuites chez un gymnase, ou palestre d’honnêteté où la jeunesse est exercée pour paraître un jour heureusement en public. Mais cela se faisait par commandement de Dieu. Grand merci, lourdaud que tu es, de là devrais-tu conclure, que telles représentations sont bonnes et licites. A quoi s’accorde toute la chrétienté, hormis les ministres et leurs <pb n="23" />adhérents, qui sous prétexte d’une réformation<note resp="editor" place="bottom">[NDE] Sous prétexte d’une réformation : ici référence est faites à la réforme protestante, que André de Gaule critique comme dissidence minoritaire au sein de la « chrétienté ».</note> difforment toutes choses. Saint Grégoire de Nazianze, pour chasser Euripide et avec lui le démon hors de la scène a dressé une action de Jésus-Christ endurant<note resp="editor" place="bottom">[NDE] Grégoire de Nazianze (329-390), <hi rend="i">Christus Patiens</hi>, tragédie sur la passion du Christ composée à partir de vers d’Euripide.</note>. Le fameux Apollinaire d’Antioche<note resp="editor" place="bottom">[NDE] Apollinaire l’Ancien, rhéteur du IV siècle, adapta l’Ancien Testament en hexamètres dactyliques pour former une épopée de 24 chants, aujourd’hui perdue.</note> ne gagna pour autre raison tant le cœur de l’Église en ses commencements, que pour avoir su proprement accommoder la Bible à la poésie, la poésie à l’échafaud<note resp="editor" place="bottom">[NDE] A la scène.</note>, et tous deux à un honnête plaisir et instruction. Aussi était-ce le commun désir de tous les anciens pères, de saint Cyprien, saint Augustin, saint Chrysostome, Lactance, Arnobe, Tertullien<note resp="editor" place="bottom">[NDE] Les pères de l’Eglise, utilisés généralement comme autorités contre le théâtre par les ennemis de la scène, sont ici convoqués pour défendre la pratique théâtrale. L’auteur du texte adopte une vue relativiste sur leurs écrits, comme le fait aussi, cinquante ans plus tard, le père d’Aubignac (voir <hi rend="i">Dissertation sur la condamnation des théâtres</hi>, chapitre 3). D’après l’auteur de la <hi rend="i">Conviction</hi>, les pères de l’Eglise n’ont pas condamné le théâtre en tant que tel, mais ils ont seulement critiqué le théâtre païen de leur temps, contraire aux vérités chrétiennes.</note>, qui avec tant de véhémence ont invectivé contre les spectacles païens, ne cessant de souhaiter que Jésus-Christ gagnât l’orchestre aussi bien que le palais, l’hippodrome aussi bien que le camp, les arènes aussi bien que le temple, que tout fût à lui, et que par-dessus tout flambât sa croix victorieuse. Les choses saintes, dit saint Jérôme, doivent être perçues, et par les yeux et par les oreilles. Et quant à ce qui touche le jugement, duquel il est maintenant question, remarque que Tertullien, qui a vécu il y a plus de 1400 ans en a fourni le parfait argument aux jésuites en ces termes. </p>
-        <p><pb n="24" />« <quote>Mais quel spectacle au chrétien <seg type="exquote">(dit-il) </seg>est l’avènement voisin du Seigneur, déjà connu, déjà glorieux et triomphant, quelle exultation des anges, quelle gloire des saints ressuscitant, quelle le royaume des justes et la nouvelle cité de Jérusalem ? De pareille représentation nous est ce grand et dernier jugement, cet inespéré aux nations<note resp="editor" place="bottom">[NDE] Les nations : les païens (latin : <hi rend="i">gentes, nationes</hi>).</note>, et moqué d’icelles. Lors que tant, et tant de siècles et générations seront consumées d’un feu. Vraiment il y a bien là que voir et regarder, etc.</quote> »<note resp="editor" place="bottom">[NDE] L’auteur cite un passage du De Spectaculis de Tertullien « <quote>quale autem spectaculum in proximo est adventus domini iam indubitati, iam superbi, iam triumphantis ! quae illa exultatio angelorum, quae gloria resurgentium sanctorum ! quale regnum exinde iustorum ! qualis civitas nova Hierusalem ! at enim supersunt alia spectacula, ille ultimus et perpetuus iudicii dies, ille nationibus insperatus, ille derisus, cum tanta saeculi vetustas et tot eius nativitates uno igni haurientur. Quae tunc spectaculi latitudo !</quote> », Tertullien, <hi rend="i">De Spectaculis</hi>, éd. Marie Turcan, Paris, Les Editions du cerf, 1986, XXX, 1-3, p. 316-319. L’auteur retourne à son avantage ce passage de Tertullien. Pour le père latin, en effet, le spectacle du jugement dernier s’oppose à ceux de la terre et les acteurs seront les premiers à brûler en enfer (30, 5). Le défenseur des jésuites adopte une lecture partiale du texte : le jugement dernier est un spectacle, et donc il peut être représenté sur la scène et peut servir la conversion ou l’admonestation des « nations ».</note> </p>
-        <p>Ainsi parlait cet ancien au temps jadis, fournissant de sujet aux acteurs d’alors, s’ils eussent été chrétiens, et si les chrétiens eussent pu déposséder l’idolâtrie et chasser l’impudicité du caveau<note resp="editor" place="bottom">[NDE] Caveau = <hi rend="i">cavea</hi>, l’amphithéâtre, lieu où se tenaient les combats des gladiateurs.</note> et du cirque. Mais à quel propos m’en vais-je si loin pour convaincre et réfuter ce calomniateur, comme si Bèze, ce grand zélateur de la réformation n’avait point théâtrisé son Abraham<note resp="editor" place="bottom">[NDE] <hi rend="i">Abraham sacrifiant</hi>, tragédie composée par Théodore de Bèze en 1550 (éd. Patrizia de Capitani, in  <hi rend="i">La Tragédie à l’époque d’Henri II et de Charles IX</hi>, vol. 1, 1, Florence Paris, Olschki PUF, 1986, p. 15-54).</note>, et Bucanan son Jephté<note resp="editor" place="bottom">[NDE] George Buchanan compose un <hi rend="i">Jephtes</hi>, publié en 1554 à Paris. Il ne se convertira qu’en 1560 au protestantisme (voir  <hi rend="i">Tragedie</hi>s, éd. P. Sharratt et P.G. Walsh, Edinburgh, Schottish Academic Press, 1983).</note>, et Heboannus Hessus<note resp="editor" place="bottom">[NDE] Helius Eobanus Hessus (1488-1540) poète néolatin qui rallie la Réforme. Il a traduit les psaumes en distiques élégiaques, il a composé une version christianisée des <hi rend="i">Hérodiades</hi>, un recueil fictif d’épîtres de saintes.</note>, avec autres semblables n’eussent dressé en action théâtrale plusieurs parties de la <pb n="25" />sainte Bible. Si c’est mal fait de représenter les choses saintes, ces réformés qui l’ont fait, seront avec les jésuites coupables. Ce que n’apercevant pas cet étourdi écrivain, n’est-il pas en danger d’être appelé au Consistoire<note resp="editor" place="bottom">[NDE] Consistoire : assemblée de pasteurs et de laïcs élus qui avait pour fonction, dans l’Eglise réformée, de contrôler les mœurs des fidèles.</note> ? </p>
-        <p>Mais il est temps que je finisse, et que je laisse couler les autres menteries, drôleries, malices et calomnies comprises en son libelle diffamatoire. Ce qui a été dit est assez pour nous faire reconnaître (messieurs) sur quel gibier se jettent ces oiseaux de proie. Vous agréerez, s’il vous plait, que j’aie défendu la vérité contre ce mensonges, et que j’aie fait connaître aux villes éloignées de la nôtre qu’à tort et faussement les jésuites ont été calomniés en un fait, auquel ils se sont montrés autant zélateurs du bien public, qu’amateurs de votre honneur, et désireux de l’avancement de vos enfants, et pour lequel ils méritaient devant les hommes plutôt une réciproque bienveillance que les calomnies de cet écrivain de Genève. Il est vrai qu’ils tiennent à assez de récompense<note resp="editor" place="bottom">[NDE] Ils considèrent comme une récompense suffisante d’avoir…</note> d’avoir eu en ceci le désir et bonne volonté de vous servir, et vous servant, de glorifier celui, pour lequel ils endureront volontiers en ce monde, appuyés sur la ferme espérance qu’ils <pb n="26" />ont, qu’après le travail suivra le repos, qui est promis aux gens de bien au séjour de l’Eternité. A Lyon ce 10. jour d’Octobre 1607<note resp="editor" place="bottom">[NDE] Ce texte a donc été composé deux mois après le <hi rend="i">Récit touchant la comédie</hi> (daté du 22 août 1607).</note>. </p>
+
+        <salute>A Messieurs le Prévôt des marchands<note resp="editor" place="bottom">[NDE] Le
+            prévôt des marchands est le premier magistrat du consulat, il dirige la municipalité
+            lyonnaise. Il est élu pour deux ans. Les échevins sont les autres membres du consulat et
+            sont généralement élus parmi les officiers ou les marchands. En 1607 le prévôt des
+            marchands est Pierre Scarron de La Parerle.</note>, et échevins de ladite Ville<note
+            resp="editor" place="bottom">[NDE] Il apparaît dans l’attestation qui suit le texte de
+            Gaule, que le Prévôt et les échevins avaient été présents à la représentation de la
+            pièce. Le texte est donc moins écrit pour démontrer aux autorités la valeur de l’action
+            théâtrale des jésuites, que pour la défendre, avec leur appui.</note><lb/> Avec
+            permission<note resp="editor" place="bottom">[NDE] Le texte de Gaule est accompagné
+            d’une approbation datée du 18 octobre 1607 par Robert Berthelot, suffragant de Lyon, qui
+            atteste « n’y avoir rient trouvé qui ne soit conforme à notre sainte foi et religion
+            catholique : ains être digne de lumière, à fin de faire connaître les mauvais artifices
+            dont usent d’ordinaire les mal affectés à la vérité » (<hi rend="i">ibid.</hi>, p. 27).
+            Les « mal affectés à la vérité » représentent les calvinistes. Cette approbation
+            manifeste d’emblée l’enjeu confessionnel et politique du texte. La querelle sur le
+            théâtre exprime l’opposition entre les calvinistes et les jésuites, qui en 1607 désirent
+            s’établir puissamment et Lyon et négocient avec le consulat qui gouverne la ville
+            l’élargissement du collège (voir <hi rend="i">Les Jésuites à Lyon, XVIe-XXe siècle</hi>,
+            dir. Etienne Fouilloux et Bernard Hous, Lyon, ENS éditions, 2005, p. 28-32).
+            L’approbation des autorités religieuses et judiciaires de la ville est manifestée par
+            l’attestation du Prévôt et des Echevins qui clôt le texte de Gaule : « Nous Prévôt des
+            Marchands et Echevins de la ville de Lyon, qui avons vu un petit discours, en forme
+            d’épître à nous adressé intitulé <hi rend="i">Conviction véritable</hi> […], attestons
+            et certifions en vérité, que le contenu en ladite conviction est aussi vrai (au fait)
+            que ledit récit contraire est diffamatoire et fabuleux ; ne s’étant rien passé en
+            l’action dudit jour 7 août dernier, que de grave, modéré, dévot, édificatif, et
+            convenable au sujet entrepris. Ce que nous savons et pouvons témoigner, pour avoir
+            (comme fondateurs dudit collège auquel la représentation fut faite) assisté durant trois
+            jours : avec les principaux de ladite ville, et grand nombre de peuple, qui peut rendre
+            semblable témoignage » (André de Gaule, <hi rend="i">op. cit.</hi>, p. 29). Ce texte
+            atteste, deux ans seulement après la réouverture du collège de la Sainte Trinité, de
+            l’alliance renouvelée entre le consulat de la ville et les jésuites. Les jésuites
+            reçoivent l’appui politique du consulat et s’engagent à contribuer à la gloire
+            culturelle et littéraire de la ville. Deux autres pièces liminaires suivent le texte de
+            Gaule : la permission d’impression (<hi rend="i">ibid.</hi>, p. 27) et l’approbation de
+            monsieur le sénéchal de Lyon (<hi rend="i">ibid.</hi>, p. 28), que nous reportons :
+            « Nous, sieur de la Baume Dostun, Sénéchal de Lyon, approuvons beaucoup, et louons la
+            présente conviction, comme ayant été témoin de la vérité, qui y est défendue, contre les
+            mensonges, impostures, et calomnies couchées au récit fabuleux qui y est réfuté. En
+            témoignage de quoi nous avons signé cette de notre main, Lyon le 17 octobre
+            1607 ».</note></salute>
+        <p><pb n="3" xml:id="p3"/>Messieurs, certain ténébrion<note resp="editor" place="bottom">[NDE] Ténébrion
+            = ami des ténèbres intellectuelles.</note> sans nom, sans pays, sans aveu, et qui pis
+          est sans foi, sans justice, et sans religion, a osé ces jours passés divulguer un imprimé
+          en date du vingt deuxième d’août dernier, par lequel il a malicieusement calomnié la
+          représentation qui vous avait été exhibée dans votre collège le septième du même mois de
+          la présenté année 1607. Les bourdes qu’il avance sont si épaisses et ont tant
+          d’accusateurs de leur fausseté qu’il me semblait être chose superflue <pb n="4" xml:id="p4"/>de mettre
+          la main à la plume pour les réfuter. Mais par ce que je m’aperçois, et par le rapport de
+          divers endroits je suis assuré que cet imprimé court pays sans arrêt, et avec créance en
+          plusieurs parts. J’ai jugé pour la gloire de la vérité, pour la confusion des menteurs,
+          pour l’honneur de notre ville, et le vôtre particulier (pour qui cette action a été
+            dressée<note resp="editor" place="bottom">[NDE] André de Gaule parle bien d’ « action »
+            et non de comédie pour définir la pièce représentée.</note>) qu’il faut donner un coup
+          de corne en la bouche de cet homme menteur, et faire connaître au monde le fait comme il
+          s’est passé. Car qui eût jamais pensé qu’il se fût trouvé aucun si ouvert de gorge pour
+          mentir, qui eût osé fonder sur un fait tant public si puantes et si atroces calomnies ? Un
+          sage Romain disait jadis, que malheureux est le prince à qui la vérité n’a libre accès :
+          et moi je tiens beaucoup plus infortunés les peuples desquels les sycophantes<note
+            resp="editor" place="bottom">[NDE] Sycophante = délateur.</note> se voudraient targuer
+          pour établir et mettre en crédit leurs mensonges. Ce que l’auteur de ce libelle
+          diffamatoire (qu’on tient être sorti de Genève<note resp="editor" place="bottom">[NDE]
+            C’est-à-dire : que l’on suppose être calviniste.</note>) a voulu faire de vous
+          (messieurs) prétendant peut-être, qu’avec votre tacite consentement vous autoriseriez ses
+          menteries. Or moi, pour le débouter de ceste espérance et ne permettre que ce tort vous
+          soit fait, j’ai donné au public ce contre écrit, qui <pb n="5" xml:id="p5"/>témoignera aux peuples les
+          plus éloignés ce qui est de la vérité, et que cet écrivain doit être condamné pour tel
+          qu’il est, c’est-à-dire pour menteur, imposteur et calomniateur, sans aucune réserve de
+          vergogne. </p>
+        <p>Son infâme récit contient en tout sept pages, et icelles non entières. Il devait grossir
+          son volume puisqu’il était résolu de bien mentir. Mais comme en un petit parchemin celui
+          comprit beaucoup, qui décrivit toute l’Iliade d’Homère<note resp="editor" place="bottom"
+            >[NDE] Pline l’ancien, dans son <hi rend="i">Histoire naturelle</hi>, attribue à Cicéron
+            la référence à une copie de l’Iliade d’Homère, qui aurait été écrite sur parchemin et
+            enfermée dans une coquille de noix (Pline, <hi rend="i">Naturalis Historia</hi>, VII,
+            chap. 21, éd. H Rakhman, Cambridge, Harvard University Press, 1989, p. 560).</note>,
+          ainsi sur ce peu de papier cet homme a étalé des plus insignes menteries, et non seulement
+          menteries, mais encore calomnies et malices remarquables. Je m’en vais en marquer
+          quelques-unes, desquelles je m’assure que vous, qui avez été témoins oculaires de tout,
+          aurez occasion de vous étonner avec moi. </p>
+        <p>Le titre qu’il donne à ceste Action, est d’être: « une comédie » : et dit qu’« elle a été
+          dressée pour donner du passe-temps, se moquer de Dieu devant les yeux de tout une ville,
+          exposer en risée la sainte vérité, et en faire un jeu de trois jours : et qu’en fin ce n’a
+          été qu’une drôlerie ».<note resp="editor" place="bottom">[NDE] André de Gaule ne cite pas
+            directement le texte du <hi rend="i">Récit touchant la comédie</hi>, mais en résume
+            p. 2-4.</note>
+        </p>
+        <p><pb n="6" xml:id="p6"/>De telles paroles il n’y a personne qui ne conjecturât que c’était quelque
+          farce ridicule, un fescennin<note resp="editor" place="bottom"> [NDE] Fescennins = chants
+            fescennins (<hi rend="i">fescenninus versus</hi>). Chants populaires et licencieux
+            chantés lors des noces, dans la Rome ancienne.</note> ou atellane<note resp="editor"
+            place="bottom">[NDE] Atellane = forme comique du théâtre latin, souvent bouffonne et
+            obscène, reposant sur un canevas et mettant en scène quatre personnages masqués.</note>,
+          quelque momerie<note resp="editor" place="bottom">[NDE] Momerie = mascarade,
+            comédie.</note>, et charlaterie<note resp="editor" place="bottom">[NDE] Charlaterie =
+            charlatanerie (terme emprunté en 1572 : désigne l’action d’un vendeur ambulant qui
+            cherche à vendre ses marchandises).</note>, où les Pantalons<note resp="editor"
+            place="bottom">[NDE] Pantalon : masque de la commedia dell’arte.</note>
+          s’entrechoquaient aux dépens de la dévotion et révérence des choses saintes. Malignité et
+          fausseté impudente ! Vous avez vu (Messieurs) comme tout s’est passé : y avez vous rien
+          noté qui ne fût grave et modéré ? Rien que dévot et convenable à la majesté de l’histoire,
+          et du sujet du jugement universel qui se représentait ? Quel mot de gueule<note
+            resp="editor" place="bottom">[NDE] Mot de gueule : « parole sale » (dictionnaire de
+            l’Académie Française, 1<hi rend="sup">e</hi> éd., 1694).</note> y a t’on ouï ? Quel
+          parasite ou mime y a été remarqué ? Quel geste dissolu ? Quelle action légère ? Je sais de
+          bonne part, que plusieurs ont été excités à mieux vivre, voyant en cette action quelques
+          délinéaments de ce qui doit arriver au dernier jour. </p>
+        <p>En suite de ceci, il fait subtilement ce de quoi il accuse proditoirement<note
+            resp="editor" place="bottom">[NDE] Proditoirement : déloyalement.</note> les jésuites,
+          tournant en risée tout ce qu’il y a de plus sévère et épouvantable en notre sainte
+          créance. Il appelle drôlerie ce qui fut représenté d’horrible selon la nécessité du sujet,
+          touchant les diables et les damnés, et pour cela il cite son rêveur Camerarius, ne faisant
+          qu’une pure drôlerie de tout son récit, drôlant par tout, et gaussant en vrai <pb n="7" xml:id="p7"/>Lucian<note resp="editor" place="bottom">[NDE] Référence à Lucien de Samosathe
+            (120-180 <hi rend="i">circa</hi>), satiriste et auteur de dialogues humoristiques et
+            d’éloges paradoxaux très en vogue au XVIe et XVIIe siècles.</note>. Puis donnant le vent
+          à ses mensonges il parle ainsi : <quote>« En cette comédie il y avait divers personnages,
+            entre autres un Dieu jésuitique, et en après un Jésus-Christ à sa droite. »</quote><note
+            resp="editor" place="bottom">[NDE] André de Gaule cite avec quelques omissions un
+            passage de la p. 4 du <hi rend="i">Récit touchant la comédie</hi>.</note>
+        </p>
+        <p>Qu’est ce mentir (Messieurs) si cela ne l’est ? Vous savez qu’en toute l’action aucun ne
+          fut vu qui représentât la personne de Dieu, comme distincte de celle de Jésus-Christ, et
+          qu’un seulement exhiba celle de Jésus-Christ comme de Dieu et homme, juge des vivants et
+          des morts. Ce menteur dévoyé est, peut-être, quelque Nestorien<note resp="editor"
+            place="bottom">[NDE] Nestorien : personne adhérant à la doctrine défendue par Nestorius
+            (IVe siècle), affirmant que deux personnes, une divine et une humaine, coexistent en
+            Jésus-Christ. Cette doctrine, jugée hérétique par l’Eglise chrétienne, est ici évoquée
+            pour dénoncer l’erreur de l’auteur du Récit. André de Gaule entend ici affirmer que,
+            dans la pièce des jésuites, seule la figure de Jésus était représentée, alors que Dieu
+            le père n’apparaissait pas en scène. En effet, il aurait été théologiquement discutable
+            de représenter le Père, qui n’est pas incarné et jamais représentée en forme humaine
+            dans les deux testaments.</note>, distinguant en Jésus-Christ deux personnes, aussi bien
+          qu’il y a deux natures<note resp="editor" place="bottom">[NDE] Le concile d’Ephèse (431)
+            condamne en effet le nestorianisme comme hérésie en affirmant que Jésus-Christ n’a pas
+            deux personnes, mais deux natures en une seule personne. Evoquer les hérésies de
+            l’Eglise primitive est un moyen indirect d’attaquer la foi calviniste de l’auteur du <hi
+              rend="i">Récit touchant la comédie</hi>.</note> : et en ce plus que Nestorien, qu’il
+            s’imagine<note resp="editor" place="bottom">[NDE] Comprendre : et il est plus que
+            Nestorien en cela qu’il s’imagine…</note> qu’au jugement un siège sera donné à la
+          divinité, et l’autre à l’humanité de Jésus-Christ. Car si telle n’eût été sa pensée,
+            comme<note resp="editor" place="bottom">[NDE] Comment.</note> aurait-il imaginé une si
+          grande fourbe<note resp="editor" place="bottom">[NDE] Fourbe = fourberie.</note> ? Les
+          jésuites sont trop versés aux saintes écritures pour ignorer ce qui est en saint Jean, que
+          le Père ne juge personne, mais a donné tout jugement à son fils, et puissance de faire
+          jugement parce qu’il est fils de l’homme<note resp="editor" place="bottom">[NDE] Voir Jn
+            5, 22.</note>. L’écolier qui faisait ce personnage s’appelle <pb n="8" xml:id="p8"/>Josué de
+          Villeneuve, et n’y en avait aucun autre qui représentât Dieu, que ce drôleur mentant
+          appelle jésuitique. </p>
+        <p>Il continue de mentir avec ces paroles : <quote>« entre ces personnages était le pape et
+            sa suite »</quote><note resp="editor" place="bottom">[NDE] André de Gaule cite de
+            manière approximative le texte du <hi rend="i">Récit touchant la comédie</hi>,
+            p. 4.</note>. </p>
+        <p>Car de tous ces trois jours jamais ni pape, ni cardinal ne fut vu sur le théâtre. Mais je
+          conjecture pourquoi il a feint ici le pape : j’en toucherai incontinent la raison après
+          que vous l’aurez ouï, prononçant ceste autre menterie. </p>
+        <p><quote>« Le premier jour, dit-il, fut employé à loger le pape, et ses adhérents, au
+            paradis de bois des jésuites, suivant la sentence prononcée par leur nouveau
+            Dieu.  »</quote><note resp="editor" place="bottom">[NDE] André de Gaule cite avec
+            quelques omissions le texte du <hi rend="i">Récit touchant la comédie</hi>, p. 4.</note>
+        </p>
+        <p>Que dites-vous de cet homme, messieurs ? Parlant de ce paradis de bois, ne se montre-il
+          pas avoir la cervelle de bronze, faite pour choquer contre la vérité, et toujours mentir ?
+          Vous vous souvenez que tout ce premier jour s’en alla en divers combats de l’Église contre
+          l’Antéchrist, et à quelques autres préparatifs propres à représenter ce qui fut exhibé le
+          jour suivant ; et que le <pb n="9" xml:id="p9"/>pape n’y fut vu, ni aucune sentence prononcée. Mais
+          pour faire tomber plus plausiblement son foudre sur le pape et ses adhérents<note
+            resp="editor" place="bottom">[NDE] Adhérent = ici, acolyte.</note>, il s’est fait
+            accroire<note resp="editor" place="bottom">[NDE] Il s’est persuadé.</note> que l’Église
+          ait été le pape bien qu’elle fût habillée en femme, et que souvent elle et les autres qui
+          l’accompagnaient sur le théâtre lui attribuassent le nom d’Église, sans jamais nommer une
+          fois le pape. </p>
+        <p>En suite de ceci, c’eût été bien merveille s’il se fût oublié du purgatoire<note
+            resp="editor" place="bottom">[NDE] L’existence du Purgatoire étant contesté par les
+            calvinistes, André de Gaule s’attend à ce que l’auteur du <hi rend="i">Récit touchant la
+              comédie</hi> en conteste la représentation. Il dévalorise ainsi ses arguments comme
+            issu d’une foi partisane.</note>. Il s’en donnera bien de garde : écoutez ce qu’il dit. </p>
+        <p><quote>« Ils charpentèrent aussi un purgatoire. »</quote><note resp="editor"
+            place="bottom">[NDE] André Gaule cite, avec des omissions, le <hi rend="i">Récit
+              touchant la comédie</hi>, p. 2.</note>
+        </p>
+        <p>Tu le nommes (malin) pour te moquer de ce point de la foi catholique, et tu le mets en
+          avant pour ne changer rien de ton train à mentir. Autant fut vu le purgatoire, ou parlé
+          d’icelui, que du pape: et autant de celui-ci que d’Artus le Breton<note resp="editor"
+            place="bottom">[NDE] Il ne fut pas parlé du roi Artus et donc ni du pape, ni du
+            purgatoire non plus.</note>. Mais de la fumée de ce purgatoire tu voulais donner corps à
+          ces furieuses nues que tu vas faire éclater sur la tête du pontife de Rome, t’y disposant
+          avec ces paroles. </p>
+        <p><quote>« Ainsi qu’ils commencèrent à lâcher leur premier pétard, ou petit tonnerre
+            jésuitique, le temps auparavant serein, se brouille tout à coup. »</quote><note
+            resp="editor" place="bottom">[NDE] André de Gaule cite exactement le <hi rend="i">Récit
+              touchant la comédie</hi>, p. 5.</note>
+        </p>
+        <p><pb n="10" xml:id="p10"/>Voila donc une grande merveille, que le ciel favorise tant et si à propos les
+          jésuites, les secondant si heureusement en leurs desseins. Tu devais conjecturer de là,
+          que l’action était agréable aux yeux de Dieu, et je ne doute point que tu ne l’eusses
+          fait, si tu eusses été autant affectionné à leur endroit, que tu te montres libéral à
+          mentir pour les blasonner<note resp="editor" place="bottom">[NDE] Par antiphrase : blâmer,
+            critiquer.</note>. Tu appelles commencement plus de trois ou quatre heures après avoir
+          commencé : car si tu n’as été informé à faux, ou si de Lyon allant à Genève tu n’as perdu
+          la mémoire, tu te souviendras, que ces éclairs et pétarades artificielles donnèrent
+          commencement à l’action du second jour, pour représenter la générale déflagration du
+          monde, et que depuis l’on joua paisiblement, au moins quatre grosses heures. Vois donc, ô
+          épargneur de vérité, combien tu es riche en mensonges. </p>
+        <p><quote>« Le temps, ajoutes-tu, se brouille tout à coup, une nuée crève, une ravine d’eau
+            s’épand, etc. »</quote><note resp="editor" place="bottom">[NDE] André de Gaule cite
+            exactement le <hi rend="i">Récit touchant la comédie</hi>, p. 5.</note>
+        </p>
+        <p>Trois jours devant l’action, le temps gros de pluie avait menacé de fondre ses nues, et
+          les excessives chaleurs présageaient que les tonnerres n’arrêteraient guère de se faire
+            <pb n="11" xml:id="p11"/>ouïr, comme déjà il était arrivé le dimanche précédent à heure de vêpres.
+          Voire ce même second jour de l’action les acteurs étant sur le théâtre, l’air brouillé
+          demeura menaçant de pluie plus d’une grosse heure et demie, de quoi s’apercevant
+          quelques-uns bien avisés firent doubler des toiles sur leurs têtes pour être préservés
+          contre l’eau, quand elle tomberait. Même l’on joua un bon quart d’heure la pluie tombant
+          doucement, sans que pour cela ni les spectateurs, ni les acteurs fissent semblant de
+          quitter leur place. Appelles-tu donc cela, « tout à coup » ? Mais ton foudre saint ne fût
+          pas bien tombé sans ce préambule mensonger. Sauvez vos têtes (messieurs), courez au
+          laurier : voici la foudre ! Mais non, ne craignez pas, ce n’est qu’une nue noire épaissie
+          de mensonges. </p>
+        <p><quote>« Le foudre, dit-il, tomba sur une maison proche de celle des jésuites, où il fit
+            du ravage. »</quote><note resp="editor" place="bottom">[NDE] André de Gaule cite
+            exactement le <hi rend="i">Récit touchant la comédie</hi>, p. 5.</note>
+        </p>
+        <p>Menteur, combien de fois est-il tombé sur Genève sans qu’on y représentât le jugement
+          final ? Je suis voisin des jésuites, je connais leur maison, et toutes celles qui leur
+          sont proches, je me suis avec toute diligence <pb n="12" xml:id="p12"/>enquis, quelle aurait été celle
+          que le foudre aurait féru de son carreau fulmineux. Tout bien cherché et recherché, je
+          n’en ai pu apprendre aucune nouvelle, et de ton dire n’ai su tirer autre conclusion sinon
+          que tu es un forgeron de foudre semblable au vieux cyclope des poètes. Ce que tu dis
+          ci-après de la tour est autre cas, j’en parlerai à cette heure, te suivant comme on fait
+          la bête à la piste. Car qu’ajoutes-tu pour grossir le monceau de tes mensonges ?
+          Ecoutez-le, messieurs, il dit : </p>
+        <p><quote>« Que plusieurs des joueurs fort effrayés, depuis sont morts et qu’on tient compte
+            de neuf ou dix des principaux pour le moins, qu’entre autres celui qui contrefaisait
+            Dieu et celui qui contrefaisait le personnage de Lucifer ont été emportés de maladie :
+            bref, que les éclairs étaient si fréquents, que plusieurs pensaient que ce fût la fin du
+            monde  »</quote><note resp="editor" place="bottom">[NDE] André de Gaule reporte
+            librement le <hi rend="i">Récit touchant la comédie</hi>, p. 6.</note>. </p>
+        <p>Y pensâtes-vous jamais, messieurs ? Dites de grâce, pensiez-vous que le dernier jour fût
+          arrivé ? C’est merveille que ce menteur ayant une fois lâché la bride à l’impudence, n’ait
+          dit que tout le mont de Fourvière <pb n="13" xml:id="p13"/>avait cabriolé au-delà du Rhône, et s’était
+          allé percher dessus le colombier de la Ferrandière<note resp="editor" place="bottom">[NDE]
+            La Ferrandière = domaine situé entre Lyon et de Villeurbanne, où se dressait un château
+            de style Renaissance. Le domaine se situait, au XVIIe siècle, aux limites ouest de la
+            ville, alors que la colline de Fourvière était aux limites est de Lyon.</note>, et que
+          là-dessus il faisait le moulin à vent ; ou que tout le quartier de saint Sébastien<note
+            resp="editor" place="bottom">[NDE] Quartier de Saint-Sébastien : quartier établi au XVIe
+            siècle sur les pentes de la Montagne de Saint-Sébastien, entre le Rhône et la Saône,
+            actuellement dans le quartier de la croix Rousse.</note>, ébranlé en ses fondements,
+          s’était perdu dans les abîmes, quatre mille sept cents cinquante-six toises<note
+            resp="editor" place="bottom">[NDE] Une toise est l’équivalent de 6 pieds (c’est-à-dire
+            1, 949 mètres). 4756 toises font donc environs 9269 mètres.</note> au-delà du centre de
+          la terre, et que le Rhône passant ores par-dessus et se joignant avec la Saône, on y
+          péchait des huitres longues de dix-huit brassées. Par ce moyen plusieurs eussent mieux
+          pensé que la fin du monde était arrivée, car la confusion eût été plus grande. Mais à bon
+          escient, qui sont ces neuf ou dix acteurs de compte fait, qui effrayés sont depuis morts ?
+          S’ils sont comptés et des principaux, comme tu l’assures, il te sera facile de nous en
+          donner les noms. Dis-nous donc, qui sont-ils ? De quelle maison ? Qui sont leurs parents ?
+          Si tu n’eusses voulu avoir la gloire des vieux menteurs Anyte et Mélite<note resp="editor"
+            place="bottom">[NDE] Anytos et Mélétos = délateurs et accusateurs de Socrate (voir <hi
+              rend="i">Ménon</hi>, 90a, 90c-94, 95a).</note>, tu aurais apporté de ton dire quelque
+          preuve. Pour nous, qui n’avons bougé de Lyon depuis, nous sommes assurés du contraire,
+          certains que de tous ceux qui étaient présents en l’action, soit acteur, soit spectateur,
+          aucun n’est mort comme ayant été effrayé du foudre, ou du tonnerre. Que si la maladie
+            populaire<note resp="editor" place="bottom">[NDE] il peut s’agir de la peste noire, qui
+            sévit en France en 1607, ou encore de la dysenterie, qui fit des ravages à Lyon en
+            1607.</note>, <pb n="14" xml:id="p14"/>qui a fait le dégât qu’on sait en cette ville a emporté deux
+          des acteurs, tu pourras savoir quand tu voudras, que l’un d’eux était déjà malade trois
+          jours avant que monter sur ce théâtre. Et si pour être morts de ce mal ils sont morts
+          effrayés du foudre, ou du tonnerre, dis encore que ceux qui en sont trépassés en Suisse et
+          au fond des Allemagnes, en Italie, et en plusieurs parts de la France en sont trépassés ;
+          dis que le ministre d’Oullins<note resp="editor" place="bottom">[NDE] Oullins = commune
+            situé à l’ouest de Lyon.</note> en a été si épouvanté, et plusieurs du Consistoire de
+          Lyon si grièvement malades, qu’à grand peine ont ils pu se relever du lit bagues
+            sauves<note resp="editor" place="bottom">[NDE] Sortir bagues sauves = sortir
+            heureusement d’un danger (bagues = bagages).</note>. Dis que Guillaume la Chana<note
+            resp="editor" place="bottom">[NDE] Guillaume de Chana (vers 1540- après 1585) : huguenot
+            lyonnais émigré à Genève.</note> et autres, qui en sont morts, et que tu sais n’avoir
+          guère fréquenté les jésuites, pour avoir été de même religion que toi. Dis que ce foudre
+          qu’ils ne virent, ni ne sentirent jamais, leur a de male peur fait rendre les derniers
+          abois. Mais où avais-tu l’âme, ô cyclope dénaturé, quand tu as écrit, que celui qui
+          contrefaisait Dieu, et celui qui jouait le personnage de Lucifer ont été emportés de
+          maladie pour s’être trop échauffés ? Je t’ai dit qu’aucun n’a contrefait Dieu, comme
+          distinct de Jésus-Christ, et que celui qui représentait Jésus-Christ s’appelle Josué de
+            <pb n="15" xml:id="p15"/>Villeneuve. J’ajoute que celui qui jouait Lucifer a pour nom Simon Vannerot,
+          et que tous deux sont honnêtes enfants de belle expectation, jouissant encore aujourd’hui
+          d’une pleine santé, sans avoir été ni peu ni prou atteints de maladie : de quoi te feront
+          foi tes yeux et tes oreilles, si pour voir la laideur de tes mensonges il te prend
+          fantaisie de t’en venir informer en cette ville. </p>
+        <p>Vous pensez peut-être (messieurs) que c’est tout. Non, non, cet homme n’est pas encore
+          saoul de mentir. Prenez garde comme il crache les mensonges quatre à quatre. </p>
+        <p><quote>« Entre trois tonnerres<note resp="editor" place="bottom">[NDE] Le mot foudre peut
+              être féminin ou masculin à l’époque.</note> qu’il fit <seg type="exquote"
+              >(dit-il)</seg> il y en eut un si terrible, que le foudre chut sur une tour qui est au
+            bord du Rhône, joignant<note resp="editor" place="bottom">[NDE] Jouxtant.</note> le
+            collège des jésuites. Céans il y avait un homme qui fut blessé, et une femme tuée. Le
+            foudre rompit la cheminée, par ou il entra, puis sortit par même endroit, se jette sur
+            un bateau chargé de bois, qu’il fit couler au fonds du Rhône »</quote>.<note
+            resp="editor" place="bottom">[NDE] André de Gaule rapporte ici mot pour mot le récit du
+              <hi rend="i">Récit touchant la comédie</hi>, p. 7.</note>
+        </p>
+        <p>Voila sept mensonges pour une seule vérité, qui est que le foudre tomba dans une <pb n="16" xml:id="p16"/>tour, étant faux que cette tour soit joignant le collège ; faux que le foudre y
+          tombant un homme y fût ; faux par conséquent qu’il y fût blessé ; faux qu’une femme y fût
+          tuée ; faux que le foudre rompît aucune cheminée ; faux qu’il se soit jeté sur aucun
+          bateau ; faux enfin qu’il l’ait fait couler au fonds du Rhône. Cette dite tour est celle
+          qu’on nomme du Commis, la plus proche de la porte des Cordeliers, et la quatrième en
+          comptant depuis la porte de rue neuve, et partant bien éloignée du collège. Car si on
+          compte justement depuis le plus proche coin des jésuites jusques à celui des P. P.
+            Cordeliers<note resp="editor" place="bottom">[NDE] Tous ces lieux sont identifiables
+            dans le Lyon d’aujourd’hui. Le couvent des Cordeliers a été détruit mais il subsiste son
+            église, Saint Bonaventure ; le collège jésuite est celui de la Trinité, qui est l’actuel
+            Lycée Ampère ; les portes ont disparu, mais la Rue Neuve existe toujours.</note>, l’on
+          trouvera que ladite tour est plus voisine d’eux, que des jésuites, au moins de cent et
+          quinze pas<note resp="editor" place="bottom">[NDE] Environs 100 m.</note>. L’on n’a point
+          remarqué qu’autre mal y soit arrivé, que d’effrayer une femme qui était dedans, et fondre
+          la pointe d’un poinçon servant à sonder les balles<note resp="editor" place="bottom">[NDE]
+            Les balles : il s’agit des balles de marchandise qui entrent à Lyon. Le poinçon est une
+            sorte de pique qui sert à sonder les belles pour vérifier qu’elles ne cachent pas de la
+            marchandise de contrebande.</note>. Celui qui habite dedans icelle tour est homme de
+          bien, et honnête personne, appelé Michel Gouille, qui assurera le même que je dis. </p>
+        <p>Et d’ici vous pourrez voir, messieurs, que c’est de s’écarter de la vérité pour suivre
+          les erres<note resp="editor" place="bottom">[NDE] Suivre le chemin du mensonge.</note> du
+          mensonge, auquel qui a une fois donné sa créance en matière de religion, <pb n="17" xml:id="p17"/>ne
+          tient plus à religion d’en controuver<note resp="editor" place="bottom">[NDE] Ne se fait
+            plus un scrupule d’en forger (des mensonges).</note> pour diffamer les autres, et
+          nommément s’il est question de donner sur jésuites<note resp="editor" place="bottom">[NDE]
+            S’acharner sur les jésuites.</note>, que ces gens tiennent pour leurs déterminés
+          ennemis, bien qu’en effet ils<note resp="editor" place="bottom">[NDE] C’est-à-dire les
+            jésuites : les protestants s’acharnent sur les jésuites bien que ceux-ci n’aient en vue
+            que le salut des protestants.</note> ne désirent que le salut de leurs âmes. Qui ne voit
+          leur rage envenimée contre ces bons pères ? Et qui ne s’étonnera du transport où l’appétit
+          de les décrier a conduit ce menteur et impudent écrivain ? Je me suis émerveillé
+            comme<note resp="editor" place="bottom">[NDE] Comment.</note> après avoir si
+          effrontément franchi les barrières de la pudeur il n’ait encore couché par écrit cet autre
+          vilain mensonge, qui a couru jusques à Paris, qu’un démon vrai démon, se soit trouvé parmi
+          ceux qui les représentaient en cette action sur le théâtre. Et encore plus qu’il n’ait par
+          anticipation écrit ce que<note resp="editor" place="bottom">[NDE] Qui.</note> maintenant
+          court comme fine vérité dans Genève, que le foudre a abîmé le collège, et que dix-huit des
+          jésuites ont été foudroyés, entre lesquels étaient le provincial, le recteur, et le
+          rhétoricien qui avait composé l’action. Mensonges si noirs, si vilains, et si éhontés, que
+          j’estime que le démon qui les a inventés, en aurait rougi s’il était capable de honte. Si
+          cet imposteur ne les a couchés par écrit après tant d’autres, ce n’a pas été, crois-je,
+          faute de bonne volonté : <pb n="18" xml:id="p18"/>car encore un coup quelle rage contre ces pères ?
+          N’était-ce pas assez d’avoir voulu, par ce qui a été dit, maculer leur renommée, sans
+          qu’encore cet infâme anonyme parsemât son écrit de calomnies toutes battantes de
+            front<note resp="editor" place="bottom">[NDE] Calomnies qui toutes attaquent ouvertement
+            la réputation des jésuites.</note> l’honneur de leur réputation, en les chargeant<note
+            resp="editor" place="bottom">[NDE] Accusant.</note> de cupidité du lucre et d’avarice ? </p>
+        <p>Il dit I. <quote>« Qu’ils avaient dressé ce passe-temps au peuple pour
+            ménager. »</quote><note resp="editor" place="bottom">[NDE] André de Gaule reprend
+            librement le texte du <hi rend="i">Récit touchant la comédie</hi>, p. 2 (« Les Jésuites
+            […] voulant donner du passetemps au peuple et ménager par même moyen »).</note>
+        </p>
+        <p>II Que <quote>« les pères et mères faisaient grande ou moyenne contribution, selon les
+            personnages que leurs fils soutenaient. »</quote><note resp="editor" place="bottom"
+            >[NDE] André de Gaule reprend librement le texte du <hi rend="i">Récit touchant la
+              comédie</hi>, p. 4.</note>
+        </p>
+        <p>III. Que <quote>« les personnes de qualité payèrent largement la vue de ce passe-temps,
+            donnant argent pour s’asseoir aux échafauds<note resp="editor" place="bottom">[NDE]
+              Echafaud : ouvrage de charpenterie élevé en forme d’amphithéâtre pour y placer des
+              spectateurs et pour le jeu des acteurs (voir Furetière 1690).</note>, que les jésuites
+            leur avaient préparés. »</quote><note resp="editor" place="bottom">[NDE] André de Gaule
+            reprend librement le texte du <hi rend="i">Récit touchant la comédie</hi>, p. 4.</note>
+        </p>
+        <p>IIII. Que <quote>« les jésuites enlevèrent tout l’équipage, et beaucoup de bagage des
+            loueurs leur est resté, pour s’en accommoder à la maniéré des bons ménagers, qui font
+            profit de tout. »</quote><note resp="editor" place="bottom">[NDE] André de Gaule cite
+            textuellement le <hi rend="i">Récit touchant la comédie</hi>, p. 6.</note>
+        </p>
+        <p><pb n="19" xml:id="p19"/>Quelle ordure sortant de la bouche de cet homme et quel encre de fiel coule
+          du canon de sa plume ! Vraiment les jésuites sont bien gens, qui pour l’espérance d’un tel
+          lucre voulussent devenir bateleurs. Et il y a bien d’apparence que gens de bon lieu, tels
+          qu’ils sont pour la plus part, gens d’honneur et de science devant Dieu, et devant les
+          hommes, gens qui ont renoncé au monde, auquel ils pouvaient paraître, et avoir quelque
+          chose, gens qui se sont tous donnés au service de Dieu, qui y persévèrent pour sa gloire,
+          pour le bien du public, et le salut de leurs âmes, Il y a bien, dis-je, d’apparence, que
+          jamais ils aient été si convoiteux, que ce médisant les veut faire reconnaître. Pour moi,
+          je les connais assez, ce me semble, et en suite de cette connaissance je jugerais que
+          jamais telle convoitise ne leur est venue en pensée, non plus que jamais ils n’ont retiré
+          un seul liard de celui qui représentait Jésus-Christ, que néanmoins ce calomniateur dit
+          avoir plus payé que tous les autres. Sur quoi je lui offrirai un beau marché, étant assuré
+          que le recteur du collège ne m’en désavouera point : c’est que lui, ou tout autre qu’il
+          voudra, vienne à supputer la dépense faite en l’appareil de cette <pb n="20" xml:id="p20"/>action, et
+          que d’autre côté il calcule tout le reçu de quelconque part qu’il soit provenu. Je lui
+          fais bon<note resp="editor" place="bottom">[NDE] Je lui fais bon que : je lui donne ma
+            parole que.</note> que si sur ce reçu il paye tout le dépensé, le recteur lui donnera
+          tout compté et rabattu<note resp="editor" place="bottom">[NDE] Tout compté et rabattu :
+            tout bien compté et toute déduction faite ; le recteur donnera tout net dix écus
+            (par-dessus = en plus des dépenses faites pour la représentation).</note>dix écus
+            par-dessus<note resp="editor" place="bottom">[NDE] En d’autres termes : l’accusateur ne
+            pourra pas prouver que les dépenses engagées pour préparer l’action ont été payées par
+            les revenus du spectacle.</note>. Et pour ce qu’il dit du bagage, qu’il cherche toutes
+          les pièces qu’il suppose avoir été retenues, je lui promets que toutes lui seront rendues,
+          et un teston<note resp="editor" place="bottom">[NDE] Teston = monnaie d’argent à l’effigie
+            de François Ier.</note> de surcroît dessus chaque pièce<note resp="editor"
+            place="bottom">[NDE] Tous les bagages gardés lui seront donnés, avec en plus une somme
+            pour chaque bagage.</note>. C’est un beau parti, nommément à un misérable<note
+            resp="editor" place="bottom">[NDE] En d’autres termes : le gain qu’il peut tirer de ces
+            paris (dix écus et quelques testons) est profitable seulement pour un misérable.</note>,
+          tel que doit être ce criminateur<note resp="editor" place="bottom">[NDE] Criminateur =
+            criminel.</note> : car un homme d’honneur et de moyen<note resp="editor" place="bottom"
+            >[NDE] Un homme qui a des moyens</note> n’aura jamais mis la main à la plume pour
+          publier ces si puantes bourdes et tacher à plaisir la renommée de ceux desquels il n’a
+          jamais reçu déplaisir. </p>
+        <p>Qu’est-ce donc qui peut avoir poussé cet homme de néant à ce faire ? Je n’en peux point
+          conjecturer ou savoir autre cause, que sa malignité propre, accompagnée d’un mauvais
+          naturel, formé pour médire, et disposé à mal faire : ou bien je l’attribuerai à son
+          éducation, car étant du nombre de ceux que le schisme a séparé de l’Église catholique,
+          apostolique et romaine, l’on voit par expérience que telles gens haïssent à mort les
+          jésuites, voire avant que jamais ils les aient vus. Peut-être aussi sera-ce, parce que
+          selon les lois de<pb n="21" xml:id="p21"/>la discipline reformée, il est inhibé<note resp="editor"
+            place="bottom">[NDE] Inhibé : prohibé, interdit.</note> de transformer les livres de la
+          Bible en tragédie<note resp="editor" place="bottom">[NDE] Comme le fait, par exemple,
+            Johann Jakob Bretinger, <hi rend="i">Bedencken von Comoedien oder Spielen</hi>, éd.
+            Thomas Brunnschweiler, Bern, Peter Lang, p. 22-23.</note>, et il lui fait mal que dans
+          Lyon telles ordonnances ne sont point gardées. En effet, il semble que sur cette enclume
+          ce cyclope ait principalement martelé son carreau de foudre<note resp="editor"
+            place="bottom">[NDE] Carreau de foudre : la pierre qui est dans la foudre.</note> et de
+          calomnie, car il tient à si grand crime qu’on ait représenté le jugement, le paradis, et
+          l’enfer, que pour ce<note resp="editor" place="bottom">[NDE] Pour ce : pour cette
+            raison.</note> l’air en ait dû être troublé, et en soient arrivés les esclandres par lui
+          ci-devant mentionnés, et menteusement controuvés<note resp="editor" place="bottom">[NDE]
+            Menteusement controuvé : mensongèrement inventé.</note>. Quoi faisant, il nous montre de
+          quel esprit lui et les siens sont portés. Car pourquoi cette haine nouvelle et si grande
+          aversion des représentations des choses saintes, sinon pour revendiquer le théâtre à
+          Bacchus et à Vénus, ou du moins à celle païenne folie, à qui la gentilité<note
+            resp="editor" place="bottom">[NDE] La gentilité : le paganisme.</note> l’avait dédié ?
+          Et que faisait Isaïe allant tout nu par la ville<note resp="editor" place="bottom">[NDE]
+            Isaïe 20, 2.</note> ? Quoi Jérémie portant des chaînes au col <note resp="editor"
+            place="bottom">[NDE] Jérémie 40, 4.</note> ? Quoi Ézéchiel s’équipant en mode de soldat
+          formant un siège de ville, et contrefaisant l’assiégeant et l’assiégé ? N’était-ce pas
+          pour représenter ores le pillage, ores la captivité du peuple, ores l’assiégement<note
+            resp="editor" place="bottom">[NDE] Assiégement = siège.</note> et le sac de
+            Jérusalem<note resp="editor" place="bottom">[NDE] Ezéchiel, 4, 2.</note> ? Que si
+          représenter la sainte vérité est chose mauvaise, pourquoi est-ce <pb n="22" xml:id="p22"/>que Dieu
+          l’aurait commandé à ses prophètes ? Mais (diras-tu) ils ne le faisaient pas sur un
+          théâtre. Qu’en sais-tu, ignorant que es ? Commandement ne fut-il pas fait à Ézéchiel de
+          cuire ses pains avec la fiente<note resp="editor" place="bottom">[NDE] Ezéchiel 4,
+            15.</note> en face de tout le peuple ? Mais en ce faisant il ne jouait pas une comédie.
+          Non, car le sujet était horrible et tragique, et tel pour plus grand profit l’avaient
+          choisi en cette action les jésuites<note resp="editor" place="bottom">[NDE] Les jésuites
+            avaient choisi le sujet tel (horrible et tragique) pour en tirer un plus grand profit
+            didactique.</note>. Mais en cette représentation des jésuites aucuns spectateurs riaient
+            quelquefois<note resp="editor" place="bottom">[NDE] Comprendre : que quelque spectateur
+            riait quelquefois.</note>. Et qui t’a dit que toujours ceux qui voient les prophètes
+          pleurassent, nommément ceux qui étaient ignorants des mystères qu’ils représentaient !
+          Mais ils étaient des prophètes. Pour ce<note resp="editor" place="bottom">[NDE] C’est
+            pourquoi.</note>, si tu avais des yeux, pour autre effet que pour chercher des bourdes,
+          tu verrais que nous les pouvons et devons imiter. Mais le théâtre est un lieu infâme.
+          Qu’il le soit à Genève, chez les jésuites chez un gymnase, ou palestre d’honnêteté où la
+          jeunesse est exercée pour paraître un jour heureusement en public. Mais cela se faisait
+          par commandement de Dieu. Grand merci, lourdaud que tu es, de là devrais-tu conclure, que
+          telles représentations sont bonnes et licites. A quoi s’accorde toute la chrétienté,
+          hormis les ministres et leurs <pb n="23" xml:id="p23"/>adhérents, qui sous prétexte d’une
+            réformation<note resp="editor" place="bottom">[NDE] Sous prétexte d’une réformation :
+            ici référence est faites à la réforme protestante, que André de Gaule critique comme
+            dissidence minoritaire au sein de la « chrétienté ».</note> difforment toutes choses.
+          Saint Grégoire de Nazianze, pour chasser Euripide et avec lui le démon hors de la scène a
+          dressé une action de Jésus-Christ endurant<note resp="editor" place="bottom">[NDE]
+            Grégoire de Nazianze (329-390), <hi rend="i">Christus Patiens</hi>, tragédie sur la
+            passion du Christ composée à partir de vers d’Euripide.</note>. Le fameux Apollinaire
+            d’Antioche<note resp="editor" place="bottom">[NDE] Apollinaire l’Ancien, rhéteur du IV
+            siècle, adapta l’Ancien Testament en hexamètres dactyliques pour former une épopée de 24
+            chants, aujourd’hui perdue.</note> ne gagna pour autre raison tant le cœur de l’Église
+          en ses commencements, que pour avoir su proprement accommoder la Bible à la poésie, la
+          poésie à l’échafaud<note resp="editor" place="bottom">[NDE] A la scène.</note>, et tous
+          deux à un honnête plaisir et instruction. Aussi était-ce le commun désir de tous les
+          anciens pères, de saint Cyprien, saint Augustin, saint Chrysostome, Lactance, Arnobe,
+            Tertullien<note resp="editor" place="bottom">[NDE] Les pères de l’Eglise, utilisés
+            généralement comme autorités contre le théâtre par les ennemis de la scène, sont ici
+            convoqués pour défendre la pratique théâtrale. L’auteur du texte adopte une vue
+            relativiste sur leurs écrits, comme le fait aussi, cinquante ans plus tard, le père
+            d’Aubignac (voir <hi rend="i">Dissertation sur la condamnation des théâtres</hi>,
+            chapitre 3). D’après l’auteur de la <hi rend="i">Conviction</hi>, les pères de l’Eglise
+            n’ont pas condamné le théâtre en tant que tel, mais ils ont seulement critiqué le
+            théâtre païen de leur temps, contraire aux vérités chrétiennes.</note>, qui avec tant de
+          véhémence ont invectivé contre les spectacles païens, ne cessant de souhaiter que
+          Jésus-Christ gagnât l’orchestre aussi bien que le palais, l’hippodrome aussi bien que le
+          camp, les arènes aussi bien que le temple, que tout fût à lui, et que par-dessus tout
+          flambât sa croix victorieuse. Les choses saintes, dit saint Jérôme, doivent être perçues,
+          et par les yeux et par les oreilles. Et quant à ce qui touche le jugement, duquel il est
+          maintenant question, remarque que Tertullien, qui a vécu il y a plus de 1400 ans en a
+          fourni le parfait argument aux jésuites en ces termes. </p>
+        <p><pb n="24" xml:id="p24"/><quote>« Mais quel spectacle au chrétien <seg type="exquote">(dit-il)
+            </seg>est l’avènement voisin du Seigneur, déjà connu, déjà glorieux et triomphant,
+            quelle exultation des anges, quelle gloire des saints ressuscitant, quelle le royaume
+            des justes et la nouvelle cité de Jérusalem ? De pareille représentation nous est ce
+            grand et dernier jugement, cet inespéré aux nations<note resp="editor" place="bottom"
+              >[NDE] Les nations : les païens (latin : <hi rend="i">gentes, nationes</hi>).</note>,
+            et moqué d’icelles. Lors que tant, et tant de siècles et générations seront consumées
+            d’un feu. Vraiment il y a bien là que voir et regarder, etc. »</quote><note
+            resp="editor" place="bottom">[NDE] L’auteur cite un passage du De Spectaculis de
+            Tertullien <quote>« quale autem spectaculum in proximo est adventus domini iam
+              indubitati, iam superbi, iam triumphantis ! quae illa exultatio angelorum, quae gloria
+              resurgentium sanctorum ! quale regnum exinde iustorum ! qualis civitas nova
+              Hierusalem ! at enim supersunt alia spectacula, ille ultimus et perpetuus iudicii
+              dies, ille nationibus insperatus, ille derisus, cum tanta saeculi vetustas et tot eius
+              nativitates uno igni haurientur. Quae tunc spectaculi latitudo ! »</quote>,
+            Tertullien, <hi rend="i">De Spectaculis</hi>, éd. Marie Turcan, Paris, Les Editions du
+            cerf, 1986, XXX, 1-3, p. 316-319. L’auteur retourne à son avantage ce passage de
+            Tertullien. Pour le père latin, en effet, le spectacle du jugement dernier s’oppose à
+            ceux de la terre et les acteurs seront les premiers à brûler en enfer (30, 5). Le
+            défenseur des jésuites adopte une lecture partiale du texte : le jugement dernier est un
+            spectacle, et donc il peut être représenté sur la scène et peut servir la conversion ou
+            l’admonestation des « nations ».</note>
+        </p>
+        <p>Ainsi parlait cet ancien au temps jadis, fournissant de sujet aux acteurs d’alors, s’ils
+          eussent été chrétiens, et si les chrétiens eussent pu déposséder l’idolâtrie et chasser
+          l’impudicité du caveau<note resp="editor" place="bottom">[NDE] Caveau = <hi rend="i"
+              >cavea</hi>, l’amphithéâtre, lieu où se tenaient les combats des gladiateurs.</note>
+          et du cirque. Mais à quel propos m’en vais-je si loin pour convaincre et réfuter ce
+          calomniateur, comme si Bèze, ce grand zélateur de la réformation n’avait point théâtrisé
+          son Abraham<note resp="editor" place="bottom">[NDE] <hi rend="i">Abraham sacrifiant</hi>,
+            tragédie composée par Théodore de Bèze en 1550 (éd. Patrizia de Capitani, in <hi
+              rend="i">La Tragédie à l’époque d’Henri II et de Charles IX</hi>, vol. 1, 1, Florence
+            Paris, Olschki PUF, 1986, p. 15-54).</note>, et Bucanan son Jephté<note resp="editor"
+            place="bottom">[NDE] George Buchanan compose un <hi rend="i">Jephtes</hi>, publié en
+            1554 à Paris. Il ne se convertira qu’en 1560 au protestantisme (voir <hi rend="i"
+              >Tragedie</hi>s, éd. P. Sharratt et P.G. Walsh, Edinburgh, Schottish Academic Press,
+            1983).</note>, et Heboannus Hessus<note resp="editor" place="bottom">[NDE] Helius
+            Eobanus Hessus (1488-1540) poète néolatin qui rallie la Réforme. Il a traduit les
+            psaumes en distiques élégiaques, il a composé une version christianisée des <hi rend="i"
+              >Hérodiades</hi>, un recueil fictif d’épîtres de saintes.</note>, avec autres
+          semblables n’eussent dressé en action théâtrale plusieurs parties de la <pb n="25" xml:id="p25"/>sainte
+          Bible. Si c’est mal fait de représenter les choses saintes, ces réformés qui l’ont fait,
+          seront avec les jésuites coupables. Ce que n’apercevant pas cet étourdi écrivain, n’est-il
+          pas en danger d’être appelé au Consistoire<note resp="editor" place="bottom">[NDE]
+            Consistoire : assemblée de pasteurs et de laïcs élus qui avait pour fonction, dans
+            l’Eglise réformée, de contrôler les mœurs des fidèles.</note> ? </p>
+        <p>Mais il est temps que je finisse, et que je laisse couler les autres menteries,
+          drôleries, malices et calomnies comprises en son libelle diffamatoire. Ce qui a été dit
+          est assez pour nous faire reconnaître (messieurs) sur quel gibier se jettent ces oiseaux
+          de proie. Vous agréerez, s’il vous plait, que j’aie défendu la vérité contre ce mensonges,
+          et que j’aie fait connaître aux villes éloignées de la nôtre qu’à tort et faussement les
+          jésuites ont été calomniés en un fait, auquel ils se sont montrés autant zélateurs du bien
+          public, qu’amateurs de votre honneur, et désireux de l’avancement de vos enfants, et pour
+          lequel ils méritaient devant les hommes plutôt une réciproque bienveillance que les
+          calomnies de cet écrivain de Genève. Il est vrai qu’ils tiennent à assez de
+            récompense<note resp="editor" place="bottom">[NDE] Ils considèrent comme une récompense
+            suffisante d’avoir…</note> d’avoir eu en ceci le désir et bonne volonté de vous servir,
+          et vous servant, de glorifier celui, pour lequel ils endureront volontiers en ce monde,
+          appuyés sur la ferme espérance qu’ils <pb n="26" xml:id="p26"/>ont, qu’après le travail suivra le
+          repos, qui est promis aux gens de bien au séjour de l’Eternité. A Lyon ce 10. jour
+          d’Octobre 1607<note resp="editor" place="bottom">[NDE] Ce texte a donc été composé deux
+            mois après le <hi rend="i">Récit touchant la comédie</hi> (daté du 22 août
+          1607).</note>. </p>
         <p>Votre serviteur bien humble et <lb/>Très affectionné, </p>
         <signed>André de Gaule.</signed>
       </div>

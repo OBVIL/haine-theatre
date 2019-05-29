@@ -6,23 +6,27 @@
     <fileDesc>
       <titleStmt>
         <title>Voyage en Italie</title>
-        <author key="Coyer, Abbé Gabriel-François (1707-1782)">Gabriel-François Coyer</author>
-        <editor key="Lecercle, François">François Lecercle</editor>
+        <author key="Coyer, Abbé Gabriel-François (1707-1782)" ref="https://data.bnf.fr/fr/11898081/gabriel-francois_coyer/">Gabriel-François Coyer</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
           <name>François Lecercle</name>
-          <resp>Responsable d'édition</resp>
+          <resp>Responsable d’édition</resp>
         </respStmt>
         <respStmt>
           <name>Clotilde Thouret</name>
-          <resp>Responsable d'édition</resp>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>Édition XML</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2018"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/coyer_voyage-en-italie_1775/</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -32,11 +36,11 @@
             <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
         </availability>
-        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/coyer_voyage-en-italie_1775¨</idno>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/coyer_voyage-en-italie_1775</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <author>Gabriel-François Coyer</author>, <title>Des Spectacles en Italie <hi rend="i">in</hi> Voyages d'Italie et de Hollande</title>, <pubPlace>Paris</pubPlace>, <publisher>Veuve Duchesne</publisher>, <date>1775</date>, 
+          Gabriel-François Coyer, « Des Spectacles en Italie », <hi rend="i">Voyages d’Italie et de Hollande</hi>, <pubPlace>Paris</pubPlace>, <publisher>Veuve Duchesne</publisher>, <date>1775</date>, 
         <biblScope>tome II, p. 206-208.</biblScope></bibl>
       </sourceDesc>
     </fileDesc>
@@ -54,12 +58,13 @@
       <div>
         <head rend="small">[FRONTISPICE]</head>
         <p rend="center">VOYAGES<lb/> D’ITALIE<lb/>ET DE HOLLANDE<lb/><hi rend="i">Par M. l’Abbé <hi rend="sc">COYER</hi>, des <lb/>Académies de Nancy, de Rome <lb/>et de Londres</hi><lb/>TOME DEUXIEME<lb/><lb/>A PARIS<lb/>Chez la Veuve <hi rend="sc">Duchesne</hi>, Libraire, rue Saint-<lb/>Jacques, au Temple du Goût<lb/>M. DCC.LXXV.<lb/>Avec Approbation et Privilege du Roi.</p>
+        <pb n="206" xml:id="p206"/>
       </div>
       <div>
-        <pb n="206" /><head>Chapitre XI<lb/>Des Spectacles en Italie</head> 
+        <head>Chapitre XI<lb/>Des Spectacles en Italie</head> 
         <p >Le cri ancien du peuple romain, <hi rend="i">panem et circenses</hi>, du pain et des spectacles, se répète encore aujourd’hui dans toute l’Italie. Si on avait laissé l’homme dans le chemin de la Nature, occupé journellement de la culture de la terre, qui fournit enfin à tous les vrais besoins, amusé alors, délassé par des plaisirs simples, il n’aurait pas eu besoin de l’art pour son bonheur. Mais depuis qu’on l’a enfermé dans des Villes où il y a tant de désœuvrés d’une part, et tant de gens trop occupés de l’autre ; ceux-ci ont besoin de spectacles, pour se délasser ; et ceux-là pour alléger le poids de leur existence.</p>
-        <p>Si cela est vrai en général, il l’est encore plus pour les Italiens. Ce qui le prouve, c’est la multitude des théâtres dans des Villes dont la plus peuplée est bien au-dessous de la population de Paris. Rome a cinq à six théâtres ; Naples, Milan, Venise, autant. Florence en a <pb n="207"/> onze, et tout cela ne suffit pas dans le carnaval. L’artisan, le crocheteur, le cocher, aiment mieux y porter leur argent qu’à la taverne. L’heure des spectacles y favorise tous les métiers. Ils ne s’ouvrent qu’à la fin de la journée, quand le travail cesse. On ajuste certains spectacles au goût du peuple ; parce qu’enfin il est compté pour quelque chose. On voit dans une seule représentation, cinq à six combats, autant de duels. Dans les grands théâtres même, où les intermèdes sont des Pantomimes et des danses qui ne tiennent point à la Pièce, on voit la même chose : on n’y suit point le précepte d’Horace, qui défend d’ensanglanter la Scène. Deux hommes se battent ; celui qui est blessé répand du sang ; on le voit couler.</p>
-        <p >L’Opéra est le grand spectacle de l’Italie ; presque toute l’Europe en a adopté la langue, et la Musique. L’Opéra Bouffa, que nous avons accueilli et dénaturé, en lui ôtant le comique de son genre, est aussi couru que le grand Opéra. La Comédie, qui, avant l’illustre Goldoni, n’était qu’un tissu de lazzis et d’arlequinades, s’approche du ton de Molière. Il y a des pays où l’on <pb n="208" /> demande si les spectacles peuvent s’accorder avec les mœurs et la Religion. Les Italiens ne font point cette question ; ils n’excommunient pas ceux qui leur donnent du plaisir. La Religion n’y est point en contradiction avec le Gouvernement, qui soutient, qui pensionne les théâtres. Ainsi point d’excommunication ni religieuse ni civile. Les Comédiens restent citoyens dans la communion des Fidèles. Ils savent même s’occuper, d’ailleurs, dans les métiers et le commerce. L’Arlequin de Florence a une boutique bien fournie en marchandises de mode. Il peut témoigner et jurer en Justice, remplir le devoir Pascal comme un autre ; et, à sa mort, on ne lui refusera pas la sépulture Chrétienne.</p>
+        <p>Si cela est vrai en général, il l’est encore plus pour les Italiens. Ce qui le prouve, c’est la multitude des théâtres dans des Villes dont la plus peuplée est bien au-dessous de la population de Paris. Rome a cinq à six théâtres ; Naples, Milan, Venise, autant. Florence en a <pb n="207" xml:id="p207"/> onze, et tout cela ne suffit pas dans le carnaval. L’artisan, le crocheteur, le cocher, aiment mieux y porter leur argent qu’à la taverne. L’heure des spectacles y favorise tous les métiers. Ils ne s’ouvrent qu’à la fin de la journée, quand le travail cesse. On ajuste certains spectacles au goût du peuple ; parce qu’enfin il est compté pour quelque chose. On voit dans une seule représentation, cinq à six combats, autant de duels. Dans les grands théâtres même, où les intermèdes sont des Pantomimes et des danses qui ne tiennent point à la Pièce, on voit la même chose : on n’y suit point le précepte d’Horace, qui défend d’ensanglanter la Scène. Deux hommes se battent ; celui qui est blessé répand du sang ; on le voit couler.</p>
+        <p >L’Opéra est le grand spectacle de l’Italie ; presque toute l’Europe en a adopté la langue, et la Musique. L’Opéra Bouffa, que nous avons accueilli et dénaturé, en lui ôtant le comique de son genre, est aussi couru que le grand Opéra. La Comédie, qui, avant l’illustre Goldoni, n’était qu’un tissu de lazzis et d’arlequinades, s’approche du ton de Molière. Il y a des pays où l’on <pb n="208" xml:id="p208"/> demande si les spectacles peuvent s’accorder avec les mœurs et la Religion. Les Italiens ne font point cette question ; ils n’excommunient pas ceux qui leur donnent du plaisir. La Religion n’y est point en contradiction avec le Gouvernement, qui soutient, qui pensionne les théâtres. Ainsi point d’excommunication ni religieuse ni civile. Les Comédiens restent citoyens dans la communion des Fidèles. Ils savent même s’occuper, d’ailleurs, dans les métiers et le commerce. L’Arlequin de Florence a une boutique bien fournie en marchandises de mode. Il peut témoigner et jurer en Justice, remplir le devoir Pascal comme un autre ; et, à sa mort, on ne lui refusera pas la sépulture Chrétienne.</p>
         <p >Les Spectacles inquiètent si peu les consciences Italiennes, que ceux qui sont chargés par état d’édifier le public, les fréquentent sans scrupule et sans scandale. Quand est-ce que la Morale sera uniforme dans tous les pays, ou du moins dans ceux où l’on professe la même Religion? Cette uniformité ferait de grands biens.</p>
       </div>
     </body>

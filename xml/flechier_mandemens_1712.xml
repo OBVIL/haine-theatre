@@ -5,24 +5,33 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Mandement de M. L'Evêque de Nîmes contre les Spectacles</title>
-        <author key="Fléchier, Esprit (1632-1710)">Esprit Fléchier</author>
-        <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+        <title>Mandement de M. L’Evêque de Nîmes contre les Spectacles</title>
+        <author key="Fléchier, Esprit (1632-1710)"
+          ref="https://data.bnf.fr/fr/11902896/esprit_flechier/">Esprit Fléchier</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
           <name>François Lecercle</name>
-          <resp>Responsable d'édition</resp>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Doranne Lecercle</name>
+          <resp>Responsable d’édition</resp>
         </respStmt>
         <respStmt>
           <name>Clotilde Thouret</name>
-          <resp>Responsable d'édition</resp>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>Édition XML</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2018"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/flechier_mandemens_1712/</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
@@ -46,7 +55,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <author>Esprit Fléchier</author>, <title>Mandement de M. L'Evêque de Nîmes</title>,
+          Esprit Fléchier, <hi rend="i">Mandement de M. L’Evêque de Nîmes</hi>,
             <pubPlace>Paris</pubPlace>, <publisher>Jacques Estienne</publisher>,
           <date>1709</date>.</bibl>
       </sourceDesc>
@@ -64,13 +73,13 @@
     <body>
       <div>
         <head rend="small">[FRONTISPICE]</head>
-        <p rend="center">MANDEMENT<lb/>DE MONSEIGNEUR<lb/>L'EVEQUE DE NISMES<lb/>Contre les
+        <p rend="center">MANDEMENT<lb/>DE MONSEIGNEUR<lb/>L’EVEQUE DE NISMES<lb/>Contre les
             Spectacles.<lb/><hi rend="i">Aux Fideles de son Diocese.</hi><lb/><lb/>A PARIS<lb/>Chez
             <hi rend="sc">Jacques Estienne</hi> ruë saint Jacques<lb/>au coin de la ruë de la
           Parcheminerie, à la Vertu<lb/>[1709]</p>
       </div>
       <div>
-        <pb n="3"/>
+        <pb n="3" xml:id="p3"/>
         <head><hi rend="uc">Mandement<lb/> de Monseigneur<lb/>l’Evêque de Nîmes</hi><lb/>Contre les Spectacles<lb/>
           <hi rend="i">Aux Fidèles de son Diocèse</hi><note place="bottom" resp="editor">[NDE]
             Publié en 1709, le mandement est repris (p. 234-245) dans la collection posthume de ses
@@ -92,8 +101,7 @@
           divertissement inconnu, dont vous vouliez vous désabuser, et nous eûmes quelque légère
           condescendance : mais puisque c’est une habitude de plaisir, et une espèce de libertinage
           qui se renouvelle tous les ans, nous connaissons que ce n’est plus le temps de se taire,
-          et qu’un plus long silence pourrait vous donner lieu de penser que nous tolé-<pb n="4"
-          />rons ce que l’Eglise condamne, et que nous condamnons avec l’Eglise.</p>
+          et qu’un plus long silence pourrait vous donner lieu de penser que nous tolé-<pb n="4" xml:id="p4"/>rons ce que l’Eglise condamne, et que nous condamnons avec l’Eglise.</p>
         <p> Nous étions assez occupés à ramener les Hérétiques, à détruire leurs erreurs et leurs
           préventions, à corriger les vices et les faiblesses ordinaires des hommes : on n’avait
           guère vu de théâtre dressé dans cette Ville ; l’art de corrompre les cœurs par des chants
@@ -116,7 +124,7 @@
         <p>Vous aimiez à voir et à entendre ces filles de Babylone, qui chantaient les cantiques de
           leur pays.</p>
         <p>Vous leur donniez vos approbations, et par vos applaudissements et vos flatteries, vous
-          échauffiez ces <pb n="5"/>serpents à mesure qu’ils vous piquaient : vous faisiez part de
+          échauffiez ces <pb n="5" xml:id="p5"/>serpents à mesure qu’ils vous piquaient : vous faisiez part de
           ces recréations empoisonnées aux personnes que vous aimiez<note place="bottom"
             resp="editor"> [NDE] 1712 : à vos amis, et plus encore à vos amies ;</note>, et ce qui
           est plus déplorable, vous donniez à vos enfants encore innocents, la vue de ces vanités,
@@ -133,7 +141,7 @@
           qu’il y répandait. Vous ne vous souvenez que trop de vos lois et de vos coutumes
           passées. N’avez-vous oublié de votre ancienne discipline que la privation des spectacles
           qu’elle vous avait interdit<note resp="editor" place="bottom"> [NDE] La version de 1712
-            fait l'accord du participe passé.</note>, et les aumônes qu’elle vous obligeait de
+            fait l’accord du participe passé.</note>, et les aumônes qu’elle vous obligeait de
           faire ?</p>
         <p>Mais enfin vous satisfîtes vos désirs. Nous avions espéré que ces plaisirs ayant perdu
           pour vous la grâce de la nouveauté, et vous, ayant perdu le goût de ces plaisirs, vous
@@ -145,14 +153,14 @@
             domination</note>, et qu’en quelque façon il s’y perpétue, si nous ne résistons à cette
           introduction dangereuse, et si nous ne troublons cette paix, avec laquelle il prétend
           régner sur nos Diocésains.</p>
-        <pb n="6"/>
+        <pb n="6" xml:id="p6"/>
         <p>Nous y sommes d’autant plus obligés, que le Ciel n’est déjà que trop irrité contre nous.
           Convient-il, <hi rend="sc">Mes très-chers Frères</hi>, d’étaler sur des théâtres un
           attirail de vanité; d’y jouer des Scènes divertissantes, et d’y remplir l’esprit et le
           cœur des peuples de frivoles et ridicules passions, dans des conjonctures<note
             resp="editor" place="bottom">Ajout de 1712 : fatales, où toute créature gémit dans
             l’attente d’un terrible événement ;<note place="bottom" resp="editor"> [NDE] Le contexte
-              est la guerre de succession d'Espagne (1702-1713).</note></note> où chaque citoyen
+              est la guerre de succession d’Espagne (1702-1713).</note></note> où chaque citoyen
           doit prier pour son Prince <note place="bottom" resp="editor">Ajout de 1712 : et craindre
             pour sa Patrie </note> ; où le Roi s’humiliant le premier lui-même sous la main
           toute-puissante de Dieu, implore ses anciennes miséricordes ; et touché<note resp="editor"
@@ -179,7 +187,7 @@
           parle Isaïe<note place="margin"><hi rend="i">Isay. ch.</hi> 13.</note>, qui habitent dans
           les Temples de la volupté<note resp="editor" place="bottom"> [NDE] De « ces » à
             « volupté » en italiques en 1712.</note>.</p>
-        <p>Vous croyez peut-être, <hi rend="sc">Mes Très-chers <pb n="7"/>Frères</hi>, qu’il est bon
+        <p>Vous croyez peut-être, <hi rend="sc">Mes Très-chers <pb n="7" xml:id="p7"/>Frères</hi>, qu’il est bon
           d’amuser et d’étourdir, pour ainsi dire, les craintes et les inquiétudes des peuples, et
           de leur mettre à la place de tant de tristes objets qui les environnent, des idées qui les
           divertissent.</p>
@@ -206,20 +214,19 @@
             place="bottom" resp="editor"> 1712 : Sauveur</note>
           <hi rend="sc">Jésus-Christ</hi>, de vous en abstenir. Evitez les pièges funestes que le
           Démon vous a tendus. Ne fournissez pas à vos convoitises de quoi se soulever contre vous.
-          Ecoutez la voix du Pasteur, qui vous exhorte et vous sollicite, qui aime mieux <pb n="8"
-          />devoir votre obéissance à ses charitables conseils, qu’aux censures que l’Eglise lui a
+          Ecoutez la voix du Pasteur, qui vous exhorte et vous sollicite, qui aime mieux <pb n="8" xml:id="p8"/>devoir votre obéissance à ses charitables conseils, qu’aux censures que l’Eglise lui a
           mises en main. <hi rend="sc">Donné</hi> à Nîmes, dans notre Palais Episcopal, le huitième
           jour de Septembre mil sept cents huit.</p>
         <byline><hi rend="i">Signé</hi>,† ESPRIT, Ev. de Nimes.</byline>
         <byline><hi rend="i">Et plus bas</hi> : Par Monseigneur, <hi rend="sc"
           >Rieulenc.</hi></byline>
-        <closer>APPROBATION<lb/>J'ai lu un Manuscrit intitulé <hi rend="i">Mandemant de Monseigneur
-            l'Evêque de Nîmes contre les Spectacles.</hi></closer>
+        <closer>APPROBATION<lb/>J’ai lu un Manuscrit intitulé <hi rend="i">Mandemant de Monseigneur
+            l’Evêque de Nîmes contre les Spectacles.</hi></closer>
         <dateline>FAIT à Paris ce 8. Mars 1709.</dateline>
         <byline><hi rend="i">Signé,</hi> PASTEL</byline>
         <closer>PERMISSION</closer>
-        <dateline>Permis d'imprimer, ce 8.Mars 1709.</dateline>
-        <byline>M. R. DE VOYER D'ARGENSON</byline>
+        <dateline>Permis d’imprimer, ce 8.Mars 1709.</dateline>
+        <byline>M. R. DE VOYER D’ARGENSON</byline>
       </div>
     </body>
   </text>
