@@ -6,8 +6,7 @@
       <fileDesc>
         <titleStmt>
           <title>Epître sur les spectacles</title>
-          <author>Huerne de La Mothe, François-Charles</author>
-          <editor key="Abel, Valentin (1996-)">Valentin Abel</editor>
+          <author key="Huerne de La Mothe, François-Charles (17..-17..)" ref="https://data.bnf.fr/fr/12087951/francois-charles_huerne_de_la_mothe/">François-Charles Huerne de La Mothe</author>
         </titleStmt>
         <editionStmt>
           <edition>OBVIL</edition>
@@ -17,7 +16,11 @@
           </respStmt>
           <respStmt>
             <name>Clotilde Thouret</name>
-            <resp>Responsable d’édition</resp>
+            <resp>Contributeur</resp>
+          </respStmt>
+          <respStmt>
+            <name>Valentin Abel</name>
+            <resp>Contributeur</resp>
           </respStmt>
         </editionStmt>
         <publicationStmt>
@@ -36,8 +39,8 @@
         </publicationStmt>
         <sourceDesc>
           <bibl>
-            <author>Huerne de La Mothe, François-Charles</author>,
-            <title>Epître sur les spectacles, ou Mon retour à Paris</title>,
+            <author>François-Charles Huerne de La Mothe</author>,
+            <hi rend="i">Epître sur les spectacles, ou Mon retour à Paris</hi>, 
             <pubPlace>Genève</pubPlace>,
             <date>1761</date>.
           </bibl>
@@ -56,7 +59,7 @@
       <body>
         <div type="letter" xml:id="HDT_17">
           <head>Epître sur les spectacles</head>
-          <label><pb n="3"/>EPITRE SUR LES SPECTACLES DE PARIS.</label>
+          <label><pb n="3" xml:id="p3"/>EPITRE SUR LES SPECTACLES DE PARIS.</label>
           <quote>
             <lg>
               <l><hi rend="sc">Délicieux</hi> séjour, Olympe des Mortels,</l>
@@ -76,11 +79,11 @@
               <l>De femmes et d'enfants quelle affreuse cohue</l>
               <l>Je vois en se heurtant déboucher de la rue !</l>
               <l>Grands Dieux ! Que d’embarras ! Que de Cabriolets !</l>
-              <l><pb n="4"/>Que d’Abbés ; de Coureurs ; de Robins ; de Valets !</l>
+              <l><pb n="4" xml:id="p4"/>Que d’Abbés ; de Coureurs ; de Robins ; de Valets !</l>
               <l>Etourdi par les cris, le bruit et les injures,</l>
               <l>Je traverse au milieu de six rangs de voitures,</l>
               <l>Pour demander quel est ce Spectacle nouveau :</l>
-              <l>J’entends crier : <hi rend="i">Entrez, c’est ici Ramponeaux<note resp="editor" place="bottom"> [NDE] Jean Ramponeaux (1724 - 1802), cabaretier célèbre de Paris. </note>,</hi></l>
+              <l>J’entends crier : <hi rend="i">Entrez, c’est ici Ramponeaux<note resp="editor" place="bottom">[NDE] Jean Ramponeaux (1724 - 1802), cabaretier célèbre de Paris. </note>,</hi></l>
               <l><hi rend="i">Monseigneur ; Ramponeaux :</hi> voyons : <hi rend="i">entrez, mon Prince ;</hi></l>
               <l>Me dit le harangueur : arrivant de Province</l>
               <l>Je crus tout bonnement que quelque rareté,</l>
@@ -100,9 +103,9 @@
               <l>Déserter les <hi rend="i">Français</hi><note resp="author" place="bottom"><p> [NDA] La Comédie-Française.</p></note> pour courir les Parades ?</l>
               <l>Quel plaisir trouvez-vous à ces turlupinades,</l>
               <l>A ces fades discours, à ces sales propos,</l>
-              <l>Que débite un <hi rend="i">Pasquin<note resp="editor" place="bottom"> [NDE] Pasquin, personnage type de valet au théâtre.</note></hi> monté sur deux tréteaux ?</l>
-              <l>De <hi rend="i">Vadé<note resp="editor" place="bottom"> [NDE] Jean-Joseph Vadé (1720 - 1757), chansonnier et dramaturge français, notamment inventeur du genre poissard. </note></hi> voulez-vous enrichissant la plume,</l>
-              <l><pb n="5"/>Des proverbes de Halle augmenter le volume ?</l>
+              <l>Que débite un <hi rend="i">Pasquin<note resp="editor" place="bottom">[NDE] Pasquin, personnage type de valet au théâtre.</note></hi> monté sur deux tréteaux ?</l>
+              <l>De <hi rend="i">Vadé<note resp="editor" place="bottom">[NDE] Jean-Joseph Vadé (1720 - 1757), chansonnier et dramaturge français, notamment inventeur du genre poissard. </note></hi> voulez-vous enrichissant la plume,</l>
+              <l><pb n="5" xml:id="p5"/>Des proverbes de Halle augmenter le volume ?</l>
               <l>Que <hi rend="i">Lise></hi> chaque soir, au sortir de son lit,</l>
               <l>Vienne sur les Remparts en cornette de nuit,</l>
               <l>A l’abri de deux stores dérobant sa figure,</l>
@@ -129,7 +132,7 @@
               <l>D’<hi rend="i">Icare</hi> redoutons le projet téméraire.</l>
               <l>Quiconque de trop près approche du Soleil,</l>
               <l>Sans pouvoir l’éviter, doit craindre un sort pareil.</l>
-              <l><pb n="6"/> Dans un char élégant mollement étendue ,</l>
+              <l><pb n="6" xml:id="p6"/> Dans un char élégant mollement étendue ,</l>
               <l>Quelle Divinité se présente à ma vue !</l>
               <l>Un vernis répandu sur des panneaux dorés,</l>
               <l>D’un cristal transparent, avec art séparés,</l>
@@ -139,7 +142,7 @@
               <l>Quoi ! tu parais encore après tant de noirceurs ?</l>
               <l>Quand Paris qui te hait, sans rappeler tes crimes,</l>
               <l>En nommant tes amants peut compter tes victimes ?</l>
-              <l>Oses-tu te montrer, méprisable A***<note resp="editor" place="bottom"> [NDE] Probablement Astraudi, actrice de la troupe de la Comédie-Italienne au milieu du XVIIIe siècle</note></l>
+              <l>Oses-tu te montrer, méprisable A***<note resp="editor" place="bottom">[NDE] Probablement Astraudi, actrice de la troupe de la Comédie-Italienne au milieu du XVIIIe siècle</note></l>
               <l>Bâtarde d’un hautbois, épouse d’un bandit,</l>
               <l>D’un imbécile amant, trop insolente idole,</l>
               <l>D’E*** te doit la mort, Licidas la v[érole]</l>
@@ -157,17 +160,17 @@
               <l>Du luxe de nos jours fut la brillante image :</l>
               <l>De même que l’insecte une fois papillon,</l>
               <l>Ne jouit qu’un instant de sa belle saison,</l>
-              <l><pb n="7"/>En un jour élevée, en un moment déchue,</l>
+              <l><pb n="7" xml:id="p7"/>En un jour élevée, en un moment déchue,</l>
               <l>On la verra bientôt barboter dans la rue.</l>
               <l> Mais l’heure approche où sur un Théâtre bouffon,<note resp="author" place="bottom"><p>[NDA] La Comédie Italienne.</p></note></l>
               <l>Confident d’un héros et vainqueur d’un griffon,</l>
               <l>Au mépris de Cothurne Arlequin doit paraître ;</l>
-              <l>C’est là qu’on voit <hi rend="i">Favart<note resp="editor" place="bottom"> [NDE] Justine Favart (1727 - 1772), femme de Charles Simon-Favart (1710 - 1790), danseuse, actrice et dramaturge. </note></hi>, maîtresse de son maître,</l>
+              <l>C’est là qu’on voit <hi rend="i">Favart<note resp="editor" place="bottom">[NDE] Justine Favart (1727 - 1772), femme de Charles Simon-Favart (1710 - 1790), danseuse, actrice et dramaturge. </note></hi>, maîtresse de son maître,</l>
               <l>Pour s’en faire épouser contredire un vieillard ;</l>
               <l>Où déguisant sa voix sous l’habit savoyard,</l>
               <l>Tête-à-tête au Café le soir à la sourdine,</l>
-              <l>Vis-à-vis son mari surprendre <hi rend="i">Coraline<note resp="editor" place="bottom"> [NDE] Maria Anne Véronèse, dite Coraline, actrice dans la Troupe de la Comédie-Italienne de Paris au milieu du XVIIIe siècle. </note></hi>.</l>
-              <l>On y voit <hi rend="i">Catinon<note resp="editor" place="bottom"> [NDE] Catherine Foulquier, dite Mlle Catinon, actrice dans la Troupe de la Comédie-Italienne de Paris au milieu du XVIIIe siècle." </note></hi> par l’attrait des plaisirs,</l>
+              <l>Vis-à-vis son mari surprendre <hi rend="i">Coraline<note resp="editor" place="bottom">[NDE] Maria Anne Véronèse, dite Coraline, actrice dans la Troupe de la Comédie-Italienne de Paris au milieu du XVIIIe siècle. </note></hi>.</l>
+              <l>On y voit <hi rend="i">Catinon<note resp="editor" place="bottom">[NDE] Catherine Foulquier, dite Mlle Catinon, actrice dans la Troupe de la Comédie-Italienne de Paris au milieu du XVIIIe siècle." </note></hi> par l’attrait des plaisirs,</l>
               <l>D’un trop volage époux réveiller les désirs,</l>
               <l>Pour regagner son cœur, n’employant que ses charmes,</l>
               <l>A <hi rend="i">Saint Far</hi> enchanté faire rendre les armes.</l>
@@ -177,13 +180,13 @@
               <l>Moi je prétends te rendre un plus sensible hommage,</l>
               <l>Il est digne de toi, puisqu’il t’est présenté ;</l>
               <l>Ton cœur en est l’objet, le mien me l’a dicté.</l>
-              <l>Quoi ! déjà tout finit, et la vive <hi rend="i">Camille<note resp="editor" place="bottom"> [NDE] Jacquette-Antoinette Véronèse, dite Camille, actrice dans la Troupe de la Comédie-Italienne de Paris au milieu du XVIIIe siècle.</note></hi></l>
+              <l>Quoi ! déjà tout finit, et la vive <hi rend="i">Camille<note resp="editor" place="bottom">[NDE] Jacquette-Antoinette Véronèse, dite Camille, actrice dans la Troupe de la Comédie-Italienne de Paris au milieu du XVIIIe siècle.</note></hi></l>
               <l>Pour le séjour des Dieux abandonnant la Ville,</l>
               <l>Des trois Grâces suivie, et son fils dans les bras,</l>
               <l>Va priver les Mortels de ses riants appâts :</l>
               <l>Vénus toutefois prête à quitter sa toilette,</l>
               <l>Adressa ce discours à plus d’une Coquette :</l>
-              <l><pb n="8"/>"Il n’est qu’un seul moyen de parer la Beauté,</l>
+              <l><pb n="8" xml:id="p8"/>"Il n’est qu’un seul moyen de parer la Beauté,</l>
               <l>C’est l’Amour : ce miroir sans cesse consulté,</l>
               <l>Ne vous y trompez pas, apprend mal l’art de plaire,</l>
               <l>Le cœur conseille mieux dans l’amoureux mystère ;</l>
@@ -201,7 +204,7 @@
               <l>A ces jeux défendus que <hi rend="i">Grandmont</hi> idolâtre,</l>
               <l>Juger à son début l’Ouvrage d’un Auteur</l>
               <l>Qui souvent attend tout du talent de l’Acteur.</l>
-              <l>J’y verrai <hi rend="i">Dumesnil<note resp="editor" place="bottom"> [NDE] Marie-François Marchand (1713 - 1803), dite Mademoiselle Dumesnil (1713 - 1803), actrice française, sociétaire de la Comédie-Française (1738-1776). </note></hi>, ou plutôt Melpomène<note resp="editor" place="bottom"> [NDE] Muse du chant, de l'harmonie musicale et de la tragédie. </note>,</l>
+              <l>J’y verrai <hi rend="i">Dumesnil<note resp="editor" place="bottom">[NDE] Marie-François Marchand (1713 - 1803), dite Mademoiselle Dumesnil (1713 - 1803), actrice française, sociétaire de la Comédie-Française (1738-1776). </note></hi>, ou plutôt Melpomène<note resp="editor" place="bottom">[NDE] Muse du chant, de l'harmonie musicale et de la tragédie. </note>,</l>
               <l>Attirant tout Paris sur la tragique Scène,</l>
               <l>D’une Amante offensée imitant les fureurs,</l>
               <l>De sa haine étonner, ou remplir tous les cœurs ;</l>
@@ -209,9 +212,9 @@
               <l>De Médée à nos yeux retracer tous les crimes.</l>
               <l>Souvent aux pieds d’un Monstre altéré de son sang,</l>
               <l>D’Egisthe reconnu caresser le Tyran.</l>
-              <l>Je reverrai <hi rend="i">Clairon<note resp="editor" place="bottom"> [NDE] Claire-Josèphe Léris, dite Mademoiselle Clairon (1723 - 1803), actrice française, sociétaire de la Comédie-Française. </note></hi> maîtresse de la Scène</l>
+              <l>Je reverrai <hi rend="i">Clairon<note resp="editor" place="bottom">[NDE] Claire-Josèphe Léris, dite Mademoiselle Clairon (1723 - 1803), actrice française, sociétaire de la Comédie-Française. </note></hi> maîtresse de la Scène</l>
               <l>En longs habits de deuil sous les traits de Chimène</l>
-              <l><pb n="9"/>Contre un cher ennemi, tendre objet de ses pleurs,</l>
+              <l><pb n="9" xml:id="p9"/>Contre un cher ennemi, tendre objet de ses pleurs,</l>
               <l>Craindre de décider par ses vives douleurs</l>
               <l>La Justice d’un Roi qui l’aime, et qui balance,</l>
               <l>Ou <hi rend="i">Camille</hi> en fureur respirant la vengeance,</l>
@@ -219,26 +222,26 @@
               <l>Soulever la Nature, et l’Enfer, et les Cieux ;</l>
               <l>D’un laurier tout sanglant lui reprocher la gloire,</l>
               <l>Et le forcer enfin à souiller sa victoire.</l>
-              <l>Successeur de <hi rend="i">Dufresne<note resp="editor" place="bottom"> [NDE] Il est ici sûrement fait référence à Jeanne-Françoise Quinault-Dufresne (1699 - 1783), dite Mlle Quinault, actrice française et sociétaire de la Comédie-Française. </note> ;</hi> héritier séduisant</l>
+              <l>Successeur de <hi rend="i">Dufresne<note resp="editor" place="bottom">[NDE] Il est ici sûrement fait référence à Jeanne-Françoise Quinault-Dufresne (1699 - 1783), dite Mlle Quinault, actrice française et sociétaire de la Comédie-Française. </note> ;</hi> héritier séduisant</l>
               <l>De son rare talent ; toi qui représentant</l>
               <l>Les vertus des héros, leurs crimes, leur faiblesse,</l>
               <l>Au jeu le plus brillant joins l’âme et la noblesse,</l>
-              <l><hi rend="i">Lekain<note resp="editor" place="bottom"> [NDE] Henri-Louis Caïn (1729 - 1778), dit LeKain, acteur français et sociétaire de la Comédie-Française. </note></hi>, que tu me plais, quand maître de mes sens</l>
+              <l><hi rend="i">Lekain<note resp="editor" place="bottom">[NDE] Henri-Louis Caïn (1729 - 1778), dit LeKain, acteur français et sociétaire de la Comédie-Française. </note></hi>, que tu me plais, quand maître de mes sens</l>
               <l>Tu me fais éprouver tout ce que tu ressens !</l>
               <l>Soit que fils vertueux d’une coupable mère,</l>
               <l>Servant d’un Dieu vengeur l’implacable colère,</l>
-              <l>Tu sortes tout sanglant du tombeau de Ninus<note resp="editor" place="bottom"> [NDE] Roi de Babylone, époux de Sémiramis.</note> ;</l>
-              <l>Soit que fils criminel du stoïque Brutus<note resp="editor" place="bottom"> [NDE] Lucius Junius Brutus, qui ne fléchit pas devant la condamnation à mort de ses deux fils. En 1750, M. Lekain avait le rôle de Titus, l'un des deux fils, dans le <hi rend="i">Brutus</hi> de Voltaire. </note>,</l>
+              <l>Tu sortes tout sanglant du tombeau de Ninus<note resp="editor" place="bottom">[NDE] Roi de Babylone, époux de Sémiramis.</note> ;</l>
+              <l>Soit que fils criminel du stoïque Brutus<note resp="editor" place="bottom">[NDE] Lucius Junius Brutus, qui ne fléchit pas devant la condamnation à mort de ses deux fils. En 1750, M. Lekain avait le rôle de Titus, l'un des deux fils, dans le <hi rend="i">Brutus</hi> de Voltaire. </note>,</l>
               <l>Tu pleures dans les bras d’un Romain trop sévère :</l>
               <l>Mais quand voyant briller entre les mains d’un père,</l>
-              <l>Sur le sein d’Hypermnestre<note resp="editor" place="bottom"> [NDE] Personnage de la mythologie grecque qui refuse de tuer son mari, allant au contraire de l'ordre de son père. En 1758, Antoine-Marin Lemierre avait eu un grand succès avec sa pièce <hi rend="i">Hypermnestre</hi> dans laquelle M. LeKain avait le rôle de Danaüs. </note> un poignard suspendu,</l>
+              <l>Sur le sein d’Hypermnestre<note resp="editor" place="bottom">[NDE] Personnage de la mythologie grecque qui refuse de tuer son mari, allant au contraire de l'ordre de son père. En 1758, Antoine-Marin Lemierre avait eu un grand succès avec sa pièce <hi rend="i">Hypermnestre</hi> dans laquelle M. LeKain avait le rôle de Danaüs. </note> un poignard suspendu,</l>
               <l>Tu peins le désespoir d’un amant éperdu,</l>
               <l>Tous les cœurs partageant ta douleur et ta rage,</l>
               <l>Volent pour désarmer le tyran qui t’outrage.</l>
               <l> Mais tout change ; et je vois trompant leurs surveillants,</l>
               <l>A l’aide d’un Valet, intriguer deux amants ;</l>
-              <l>Sous le masque des Ris, la fine <hi rend="i">Dangeville<note resp="editor" place="bottom"> [NDE] Anne Catherine Desmares (1685 - 1772), dite Mlle Dangeville, actrice française, sociétaire de la Comédie-Française. </note></hi>,</l>
-              <l><pb n="10"/>Jouer d’après nature, et la Cour et la Ville ;</l>
+              <l>Sous le masque des Ris, la fine <hi rend="i">Dangeville<note resp="editor" place="bottom">[NDE] Anne Catherine Desmares (1685 - 1772), dite Mlle Dangeville, actrice française, sociétaire de la Comédie-Française. </note></hi>,</l>
+              <l><pb n="10" xml:id="p10"/>Jouer d’après nature, et la Cour et la Ville ;</l>
               <l>Tantôt d’un jeune objet servant la passion,</l>
               <l>Ecarter un témoin qui n’est point de saison ;</l>
               <l>L’instant d’après, Coquette ou Bourgeoise à la mode,</l>
@@ -246,16 +249,16 @@
               <l>Ou lorgnant un Galant, retirée à l’écart,</l>
               <l>Pour lui rendre un poulet, minauder avec art ;</l>
               <l>Soubrette inimitable, adroite, gaie, unie,</l>
-              <l>Pour la peindre en trois mots, rivale de Thalie<note resp="editor" place="bottom"> [NDE] Muse de la Comédie. </note>,</l>
+              <l>Pour la peindre en trois mots, rivale de Thalie<note resp="editor" place="bottom">[NDE] Muse de la Comédie. </note>,</l>
               <l>Cette immortelle Actrice est seule sans défauts ;</l>
-              <l><hi rend="i">Dumesnil</hi> a ses jours, et <hi rend="i">Grandval<note resp="editor" place="bottom"> [NDE] Charles-François Racot de Grandval (1710 - 1784), acteur et dramaturge français, sociétaire de la Comédie-Française. </note></hi> des égaux ;</l>
-              <l>Là, j’aperçois <hi rend="i">Gaussin</hi><note resp="editor" place="bottom"> [NDE] Jeanne-Catherine Gaussem,  (1711 - 1767), dite Mlle Gaussin, actrice française, sociétaire de la Comédie Française. </note>, cette charmante Actrice</l>
+              <l><hi rend="i">Dumesnil</hi> a ses jours, et <hi rend="i">Grandval<note resp="editor" place="bottom">[NDE] Charles-François Racot de Grandval (1710 - 1784), acteur et dramaturge français, sociétaire de la Comédie-Française. </note></hi> des égaux ;</l>
+              <l>Là, j’aperçois <hi rend="i">Gaussin</hi><note resp="editor" place="bottom">[NDE] Jeanne-Catherine Gaussem,  (1711 - 1767), dite Mlle Gaussin, actrice française, sociétaire de la Comédie Française. </note>, cette charmante Actrice</l>
               <l>Déguisée en Agnès, d’un air simple et novice,</l>
               <l>Exprimer ses désirs par sa tendre langueur,</l>
               <l>Et peindre dans ses yeux les miracles du cœur ;</l>
               <l>Retrouver dans l’Oracle une mine enfantine,</l>
-              <l>Ou du Comte d’Olban triompher dans Nanine<note resp="editor" place="bottom"> [NDE] Nanine et le Comte d'Olban, deux personnages de <hi rend="i">Nanine, ou le Préjugé vaincu</hi> (1749) de Voltaire </note>.</l>
-              <l> <hi rend="i">Préville<note resp="editor" place="bottom"> [NDE] Pierre-Luis Dubus (1721 - 1799), dit Préville, acteur français, sociétaire de la Comédie-Française. Il joue le rôle du valet Crispin dans <hi rend="i">Le Légataire universel</hi> de Jean-François Regnard en 1753 et dans <hi rend="i">Les Tuteurs</hi> de Charles Palissot de Montenoy en 1754. </note></hi>, Acteur charmant, admirable Crispin</l>
+              <l>Ou du Comte d’Olban triompher dans Nanine<note resp="editor" place="bottom">[NDE] Nanine et le Comte d'Olban, deux personnages de <hi rend="i">Nanine, ou le Préjugé vaincu</hi> (1749) de Voltaire </note>.</l>
+              <l> <hi rend="i">Préville<note resp="editor" place="bottom">[NDE] Pierre-Luis Dubus (1721 - 1799), dit Préville, acteur français, sociétaire de la Comédie-Française. Il joue le rôle du valet Crispin dans <hi rend="i">Le Légataire universel</hi> de Jean-François Regnard en 1753 et dans <hi rend="i">Les Tuteurs</hi> de Charles Palissot de Montenoy en 1754. </note></hi>, Acteur charmant, admirable Crispin</l>
               <l>Que tu me divertis ! quand d’un Abbé Poupin,</l>
               <l>Empruntant l’air, le ton, le geste et la figure,</l>
               <l>Tu viens en manteau court prendre place au Mercure.</l>
@@ -266,7 +269,7 @@
               <l>Quelquefois Misanthrope, ou Raisonneur fâcheux ;</l>
               <l>Aujourd’hui Philosophe, et demain Glorieux ;</l>
               <l>Mais surtout affectant une froideur extrême,</l>
-              <l><pb n="11"/>Quand surpris par l’Amour, et guidé par lui-même,</l>
+              <l><pb n="11" xml:id="p11"/>Quand surpris par l’Amour, et guidé par lui-même,</l>
               <l>Tu fais avec tant d’art, triompher <hi rend="i">Marivaux.</hi></l>
               <l><hi rend="i">Grandval,</hi> je me dédis ; tu n’as point de rivaux.</l>
               <l> Le lendemain, je vole à ce Palais Magique,<note resp="author" place="bottom"><p>[NDA] L’Opéra.</p></note></l>
@@ -275,14 +278,14 @@
               <l>L’Amour dans ces beaux lieux gouverne les humains ;</l>
               <l>Respirant sous ces lois, on y voit cent Prêtresses</l>
               <l>Annoncer ces faveurs, et vanter leurs faiblesses.</l>
-              <l>Là, <hi rend="i">le Miere<note resp="editor" place="bottom"> [NDE] Actrice, chantant à l'Opéra de Paris au milieu du XVIIIe siècle. </note></hi> en chantant montre l’art de charmer.</l>
-              <l><hi rend="i">Larrivée<note resp="editor" place="bottom"> [NDE] Il est ici sûrement fait référence à Henri Larrivée (1737 - 1802), chanteur d'opéra français. </note></hi> dans ses sons apprend celui d’aimer :</l>
-              <l>Que vois-je ? La <hi rend="i">Lany<note resp="editor" place="bottom"> [NDE] Danseuse de l'Opéra de Paris au milieu du XVIIIe siècle. </note></hi> de son exacte danse</l>
+              <l>Là, <hi rend="i">le Miere<note resp="editor" place="bottom">[NDE] Actrice, chantant à l'Opéra de Paris au milieu du XVIIIe siècle. </note></hi> en chantant montre l’art de charmer.</l>
+              <l><hi rend="i">Larrivée<note resp="editor" place="bottom">[NDE] Il est ici sûrement fait référence à Henri Larrivée (1737 - 1802), chanteur d'opéra français. </note></hi> dans ses sons apprend celui d’aimer :</l>
+              <l>Que vois-je ? La <hi rend="i">Lany<note resp="editor" place="bottom">[NDE] Danseuse de l'Opéra de Paris au milieu du XVIIIe siècle. </note></hi> de son exacte danse</l>
               <l>Par ses pas mesurés annonce la cadence :</l>
               <l>Que d’aisance ! que d’art ! que d’accord ! d’union !</l>
               <l>Quelle légéreté ! quelle précision !</l>
               <l>Oui, dans ces temps féconds que tout Paris nous vante,</l>
-              <l><hi rend="i">Camargo<note resp="editor" place="bottom"> [NDE] Marie-Anne de Cupis Camargo (1770 - 1770), danseuse à l'Opéra de 1741 à 1751. </note></hi> fut moins vive, et <hi rend="i">Salé</hi> moins brillante ;</l>
+              <l><hi rend="i">Camargo<note resp="editor" place="bottom">[NDE] Marie-Anne de Cupis Camargo (1770 - 1770), danseuse à l'Opéra de 1741 à 1751. </note></hi> fut moins vive, et <hi rend="i">Salé</hi> moins brillante ;</l>
               <l>Ne pense pas, <hi rend="i">Lany</hi>, que dans les plus beaux jours,</l>
               <l>Ton air trop sérieux éloigne les amours ;</l>
               <l>Vénus ne voulant point rester seule à Cythère,</l>
@@ -292,8 +295,8 @@
               <l>Avec certain fripon, qu’on nomme le mystère,</l>
               <l>Pour t’aller retrouver, saura tromper sa mère.</l>
               <l> Mais quel nuage affreux vient obscurcir le jour ?</l>
-              <l><pb n="12"/>Tout annonce l’horreur, je ne vois plus l’amour ;</l>
-              <l>C’est Armide<note resp="editor" place="bottom"> [NDE] <hi rend="i">Armide</hi> est une tragédie en musique de Jean-Baptiste Lully sur un livret de Philippe Quinault en 1686 ; la magicienne Armide aime d'un amour malheureux le chevalier Renaud.</note> qui vient d’esprits environnée,</l>
+              <l><pb n="12" xml:id="p12"/>Tout annonce l’horreur, je ne vois plus l’amour ;</l>
+              <l>C’est Armide<note resp="editor" place="bottom">[NDE] <hi rend="i">Armide</hi> est une tragédie en musique de Jean-Baptiste Lully sur un livret de Philippe Quinault en 1686 ; la magicienne Armide aime d'un amour malheureux le chevalier Renaud.</note> qui vient d’esprits environnée,</l>
               <l>Un poignard à la main, de serpents couronnée.</l>
               <l>Elle cherche Renaud : la rage est dans son cœur ;</l>
               <l>Ce Renaud, qui bientôt doit être son vainqueur,</l>
@@ -307,10 +310,10 @@
               <l>Sur les ailes du temps soutenu dans les airs,</l>
               <l>Descend du haut des Cieux : l’avenir y préside ;</l>
               <l>C’est lui que sur son sort vient consulter Armide.</l>
-              <quote><l>"En vain tu hais Renaud, lui dit-il…,pour toujours</l>
+              <l>« En vain tu hais Renaud, lui dit-il…,pour toujours</l>
               <l>De lui seul dépendra le bonheur de ses jours ;</l>
               <l>D’un Dieu charmant telle est la volonté suprême,</l>
-              <l>J’ai prononcé l’Oracle, il l’a dicté lui-même."</l></quote>
+              <l>J’ai prononcé l’Oracle, il l’a dicté lui-même. »</l>
               <l>Aux ordres du Destin, esprits, obéissez.</l>
               <l>Démons, rentrez sous terre, affreux chaos, cessez,</l>
               <l>Armide a vu Renaud ; Renaud n’est plus coupable :</l>
@@ -319,7 +322,7 @@
               <l>Mortels, reconnaissez le pouvoir de l’Amour :</l>
               <l>Le Palais s’envolant disparaît dans la nue,</l>
               <l>Un Parterre aussitôt le remplace à ma vue ;</l>
-              <l><pb n="13"/>Du grand <hi rend="i">Servandoni<note resp="editor" place="bottom"> [NDE] Sûrement Jean-Nicolas Servandoni (1718 - 1780), dit d'Hannetaire, acteur et directeur de théâtre français. </note></hi> magique illusion,</l>
+              <l><pb n="13" xml:id="p13"/>Du grand <hi rend="i">Servandoni<note resp="editor" place="bottom">[NDE] Sûrement Jean-Nicolas Servandoni (1718 - 1780), dit d'Hannetaire, acteur et directeur de théâtre français. </note></hi> magique illusion,</l>
               <l>Effet de sa brillante imagination :</l>
               <l>Tout n’est qu’enchantement ; sous l’habit de Colette</l>
               <l><hi rend="i">Arnoud</hi> subjugue Mars : le son de la trompette</l>
@@ -335,7 +338,7 @@
               <l>On est justifié dès qu’on est amoureux.</l>
               <l> Ainsi dans ces jardins embellis pour te plaire,</l>
               <l>Qu’on prendrait pour Paphos, Amathonte, ou Cythère ;</l>
-              <l><hi rend="i">Couppée,</hi><note resp="editor" place="bottom"> [NDE] Couppée, actrice de l'Opéra de Paris au milieu du XVIIIe siècle. </note> quand un regard lancé de tes beaux yeux,</l>
+              <l><hi rend="i">Couppée,</hi><note resp="editor" place="bottom">[NDE] Couppée, actrice de l'Opéra de Paris au milieu du XVIIIe siècle. </note> quand un regard lancé de tes beaux yeux,</l>
               <l>A donné le signal d’un combat amoureux ;</l>
               <l>Sous ces ombrages frais, asiles du mystère,</l>
               <l>Sur un lit de gazon qui touche à la fougère,</l>
@@ -344,11 +347,11 @@
               <l>D’un paillard impuissant, Poupone avec adresse.</l>
               <l>Electrise les sens flétris par la vieillesse :</l>
               <l>Ou que par passe-temps, ruinant un Fermier,</l>
-              <l><hi rend="i">La Deschamps<note resp="editor" place="bottom"> [NDE] Deschamps, danseuse de l'Opéra de Paris au milieu du XVIIIe siècle </note></hi> met Crésus sur son ancien fumier.</l>
-              <l><pb n="14"/> Mais j’entends de doux sons ; et la <hi rend="i">Vestris<note resp="editor" place="bottom"> [NDE] Vestris, danseuse seule de l'Opéra de Paris au milieu du XVIIIe siècle. </note></hi> arrive,</l>
+              <l><hi rend="i">La Deschamps<note resp="editor" place="bottom">[NDE] Deschamps, danseuse de l'Opéra de Paris au milieu du XVIIIe siècle </note></hi> met Crésus sur son ancien fumier.</l>
+              <l><pb n="14" xml:id="p14"/> Mais j’entends de doux sons ; et la <hi rend="i">Vestris<note resp="editor" place="bottom">[NDE] Vestris, danseuse seule de l'Opéra de Paris au milieu du XVIIIe siècle. </note></hi> arrive,</l>
               <l>On dirait qu’elle veut, par sa marche lascive ;</l>
-              <l>Du libertin <hi rend="i">Boucher<note resp="editor" place="bottom"> [NDE] François Boucher (1703 - 1770), peintre français. </note></hi>, échauffant le cerveau,</l>
-              <l>A peindre Messaline<note resp="editor" place="bottom"> [NDE] Messaline (20 - 48), épouse de l'empereur Claude, à la réputation sulfureuse. </note>, exciter son pinceau :</l>
+              <l>Du libertin <hi rend="i">Boucher<note resp="editor" place="bottom">[NDE] François Boucher (1703 - 1770), peintre français. </note></hi>, échauffant le cerveau,</l>
+              <l>A peindre Messaline<note resp="editor" place="bottom">[NDE] Messaline (20 - 48), épouse de l'empereur Claude, à la réputation sulfureuse. </note>, exciter son pinceau :</l>
               <l>O toi qui sans danser, te pâmant en mesure,</l>
               <l>Fais passer dans nos cœurs un rayon de luxure ;</l>
               <l>Quand te reverra-t-on, pour ton bien, notre honneur,</l>

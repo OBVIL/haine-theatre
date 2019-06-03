@@ -7,9 +7,8 @@
     <fileDesc>
       <titleStmt>
         <title>Des comédiens et du clergé</title>
-        <author key="Hénin de Cuvillers, Etienne Félix d’ (1755-1841)">Etienne Félix d’Hénin de
-          Cuvillers</author>
-        <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+        <author key="Hénin de Cuvillers, Etienne Félix d’ (1755-1841)" ref="https://data.bnf.fr/fr/14440938/etienne-felix_henin_de_cuvillers/">Version
+          Étienne-Félix Hénin de Cuvillers</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -21,10 +20,19 @@
           <name>Clotilde Thouret</name>
           <resp>Responsable d’édition</resp>
         </respStmt>
+        <respStmt>
+          <name>Doranne Lecercle</name>
+          <resp>Responsable d’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>Édition XML</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2018"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/henin_des-comediens_1825/</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
@@ -47,8 +55,8 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <author>Etienne Félix d’Hénin de Cuvillers</author>, <title>Des comédiens et du clergé,
-            suivi de réflexions sur le mandement de monseigneur l’archevêque de Rouen</title>,
+          Etienne Félix d’Hénin de Cuvillers, <hi rend="i">Des comédiens et du clergé,
+            suivi de réflexions sur le mandement de monseigneur l’archevêque de Rouen</hi>,
             <pubPlace>Paris</pubPlace>, <publisher>P. Dupont, Delaunay et les marchands de
             nouveautés</publisher>, <date>1825</date>. </bibl>
       </sourceDesc>
@@ -78,13 +86,13 @@
 
       <div type="preface">
         <pb n="XI" xml:id="pXI"/>
-        <head>PREFACE.</head>
+        <head>Préface.</head>
         <p rend="indent">Ne préjugez point du titre de cet ouvrage ; lisez-le d’un bout à l’autre,
           et ouvrez votre âme à la vérité ; la conviction est fille de la raison.</p>
       </div>
       <div type="contents">
         <pb n="V" xml:id="pV"/>
-        <head>SOMMAIRE DES MATIERES</head>
+        <head>Sommaire des matières</head>
         <head type="sub"><hi rend="sc">contenues dans ce volume.</hi></head>
         <p rend="hanging">Le précis historique des <hi rend="i">trois âges</hi> des comédiens ; leur
           état chez les Grecs et les Romains, et leur <hi rend="i">institution légale</hi> en
@@ -146,7 +154,7 @@
       </div>
       <div type="dedication">
         <pb n="IX" xml:id="pIX"/>
-        <head>DEDICACE</head>
+        <head>Dédicace</head>
         <p rend="i">A MM. de l’Académie royale de musique ; <lb/>MM. les Comédiens ordinaires du
           Roi ; <lb/>Et MM. de l’Opéra-Comique, etc., etc.</p>
         <p/>
@@ -168,7 +176,7 @@
       </div>
       <div type="book">
         <pb n="1" xml:id="p1"/>
-        <head>DES COMEDIENS ET DU CLERGE.</head>
+        <head>Des comédiens et du clergé.</head>
         <p rend="indent">L’existence des Comédiens doit être considérée sous trois périodes
           différentes, pour en raisonner avec connaissance de cause, et décider avec justice des
           canons qui ont été fulminés à leur égard.</p>
@@ -198,10 +206,10 @@
         <p>Les Grecs étaient fort sensibles au plaisir de l’esprit dont celui du théâtre fait
           d’ordinaire le charme le plus décevant. Ils étaient si fort prévenus en faveur de tous les
           talents qui mettent de l’agrément dans la société, que leurs rois ne dédaignaient pas de
-          choisir des ministres parmi les Comédiens. <pb n="4" xml:id="p4"/>« <quote xml:lang="lat"
-            >In scenam vero prodire et populo esse spectaculo nemini in iisdem gentibus turpitudini,
+          choisir des ministres parmi les Comédiens. <pb n="4" xml:id="p4"/><quote xml:lang="lat"
+            >« In scenam vero prodire et populo esse spectaculo nemini in iisdem gentibus turpitudini,
             quæ omnia apud nos partim infamia, partim humilia, partim ab honestate remota
-            ponuntur.</quote> » Quintil. orat.<note resp="editor" place="bottom"> [NDE] Hénin réfère
+            ponuntur. »</quote> Quintil. orat.<note resp="editor" place="bottom"> [NDE] Hénin réfère
             cette citation à l’<hi rend="i">Institution oratoire</hi> de Quintilien, mais elle vient
             de la préface de Cornelius Nepos à son <hi rend="i">De viris
           illustribus</hi>.</note></p>
@@ -210,9 +218,9 @@
             place="bottom"> [NDE] Hénin cite les <hi rend="i">Essais</hi> de Montaigne, I, 26, « De
             l’institution des enfants » : « et ai vu nos Princes s’y adonner depuis en personne, à
             l’exemple d’aucuns des anciens, honnêtement et louablement.</note>. Dans l’ancienne
-          Grèce, dit-il, les Comédiens n’étaient nullement méprisés. « <quote xml:lang="lat"
-            >Aristoni tragico aperit ; huic et genus et fortuna honesta erant ; nec ars, quia nihil
-            tale apud Græcos pudori est, ea deformabat.</quote> » Tit.-Liv. Déc. 3<note
+          Grèce, dit-il, les Comédiens n’étaient nullement méprisés. <quote xml:lang="lat"
+            >« Aristoni tragico aperit ; huic et genus et fortuna honesta erant ; nec ars, quia nihil
+            tale apud Græcos pudori est, ea deformabat. »</quote> Tit.-Liv. Déc. 3<note
             resp="editor" place="bottom"> [NDE] Hénin omet un mot dans la citation (« Ariustoni
             tragico rem aperit ». Trad. : « Il découvre son projet à l’acteur tragique Ariston.
             C‘était un homme distingué par sa naissance et par sa fortune ; et sa profession (comme
@@ -226,8 +234,8 @@
           la comédie ne s’introduisit que longtemps après, c’est-à-dire, vers l’an 240 avant J.-C.
           Les Comédiens y furent méprisés, quoique les Romains fissent, à l’instar des Grecs, servir
           la comédie aux fêtes sacrées et qu’ils l’employassent, au rapport de Tite-Live, comme un
-          moyen propre à apaiser la colère des dieux. « <quote xml:lang="lat">Ludi scenici inter
-            alia cœlestis iræ placamina instituti dicuntur.</quote> » Leurs premiers poètes comiques
+          moyen propre à apaiser la colère des dieux. <quote xml:lang="lat">« Ludi scenici inter
+            alia cœlestis iræ placamina instituti dicuntur. »</quote> Leurs premiers poètes comiques
           furent, Livius Andronicus, Naconis et Ennius, qui étaient à la fois auteurs et acteurs. A
           Ennius succédèrent Plaute et Cécilius, qui, de même que Térence, prirent leurs comédies du
           théâtre des Grecs ; après eux parut Afranius qui devint <pb n="6" xml:id="p6"/>célèbre par
@@ -237,9 +245,9 @@
           mais encore, si quelque Romain s’avisait de monter sur le théâtre, il était sur-le-champ
           chassé de sa tribu et privé du droit de suffrage par les censeurs. C’est ce que dit
           expressément Scipion dans Cicéron, cité par S. Augustin, liv. II <hi rend="i">de la cité
-            de Dieu</hi>, chap. <hi rend="sc">XIII</hi>. «<quote xml:lang="lat">Cum artem ludicram
+            de Dieu</hi>, chap. <hi rend="sc">XIII</hi>. <quote xml:lang="lat">«Cum artem ludicram
             scenamque totam probo ducerent, genus id hominum, non modo honore reliquorum civium, sed
-            etiam tribu moveri notatione censoria voluerunt.</quote> »</p>
+            etiam tribu moveri notatione censoria voluerunt. »</quote></p>
         <p>Il était encore défendu par les lois Romaines à un sénateur d’épouser une <pb n="7"
           />affranchie ; aux fils et aux petits-fils de sénateurs, d’épouser des Comédiennes, ou des
           filles de comédiennes, et il était pareillement défendu aux filles et petites-filles d’un
@@ -260,8 +268,8 @@
         <p>Quintilien dit qu’Esopus déclamait beaucoup plus gravement que Roscius ; parce que le
           premier faisait profession de jouer dans le tragique, au lieu que celle de l’autre était
           de jouer dans le comique. Chacun avait contracté les manières de la scène à <pb n="9"
-          />laquelle il s’était particulièrement attaché. « <quote xml:lang="lat">Roscius citatior,
-            Esopus gravior fuit, quod hic tragœdias, ille comœdias egit.</quote> » C’est le
+          />laquelle il s’était particulièrement attaché. <quote xml:lang="lat">« Roscius citatior,
+            Esopus gravior fuit, quod hic tragœdias, ille comœdias egit. »</quote> C’est le
           caractère qu’Horace leur avait déjà donné,</p>
         <quote xml:lang="lat">
           <l>« Quæ gravis Esopus, quæ doctus Roscius egit. »</l>
@@ -395,13 +403,13 @@
           défendit en jugement par l’oraison intitulée <hi rend="i">pour Roscius, comédien</hi>. Il
           dit en parlant de lui, qu’il était si habile dans son art, qu’il n’y avait que lui seul
           qui fût digne de monter sur le théâtre, et qu’il était, en même temps si homme de bien,
-          qu’il n’y avait que lui qui n’y dût point monter. « <quote xml:lang="lat">Roscius cum
+          qu’il n’y avait que lui qui n’y dût point monter. <quote xml:lang="lat">« Roscius cum
             artifex ejus modi sit, ut solus dignus videatur esse qui in scena spectetur ; <pb n="21"
               xml:id="p21"/>tum vir ejus modi est, ut solus videatur dignus qui eo non
-            accedat.</quote> » Ce qui revient à ce qu’il dit ailleurs, que les plus considérables de
+            accedat. »</quote> Ce qui revient à ce qu’il dit ailleurs, que les plus considérables de
           Rome, qui estimaient Roscius en conversation particulière, ne le pouvaient estimer quand
-          il jouait sur le théâtre. « <quote xml:lang="lat">Nostri senes personatum ne Roscium
-            quidem magnopere laudabant.</quote> »</p>
+          il jouait sur le théâtre. <quote xml:lang="lat">« Nostri senes personatum ne Roscium
+            quidem magnopere laudabant. »</quote></p>
         <p>« Nous apprenons de Macrobe que Roscius touchait près de 900 livres par jour des deniers
           publics, et que cette somme était pour lui seul, n’en partageant rien avec sa troupe.
           L’oraison que Cicéron prononça pour lui confirma le récit de Macrobe. Le principal
@@ -410,17 +418,17 @@
           Fannius devaient vendre cet esclave, <pb n="22" xml:id="p22"/>pour en partager le prix.
           Cicéron ne tombe pas d’accord de cette société, et il prétend que Panurgus (c’est le nom
           de l’esclave), devait être censé appartenir en entier à Roscius qui l’avait instruit,
-          parce que la valeur du Comédien excédait de bien loin la valeur de l’esclave. « <quote>La
+          parce que la valeur du Comédien excédait de bien loin la valeur de l’esclave. <quote>« La
             personne de Panurgus<seg type="exquote">, ajoute Cicéron,</seg> ne vaut pas trente
             pistoles, mais l’esclave de Roscius vaut vingt mille écus. Quand l’esclave de Fannius
             n’aurait pas pu gagner dix-huit sous par jour, le Comédien instruit par Roscius pouvait
-            gagner dix-huit pistoles.</quote> » « <quote>Croiriez-vous<seg type="exquote">, dit
+            gagner dix-huit pistoles. »</quote> <quote>« Croiriez-vous<seg type="exquote">, dit
               Cicéron dans un autre endroit,</seg> qu’un homme aussi désintéressé que Roscius
             veuille s’approprier, aux dépens de son honneur, un esclave de trente pistoles, lui qui,
             depuis dix ans, nous joue la comédie pour rien, et qui, par cette générosité, a manqué
-            de gagner 1.500.000 livres.</quote> » <pb n="23" xml:id="p23"/>« <quote>Je n’apprécie
+            de gagner 1.500.000 livres. »</quote> <pb n="23" xml:id="p23"/><quote>« Je n’apprécie
             pas trop<seg type="exquote">, ajoute Cicéron,</seg> le salaire que Roscius aurait reçu,
-            du moins lui aurait-on donné ce qu’on donne à Dyonisia.</quote> »</p>
+            du moins lui aurait-on donné ce qu’on donne à Dyonisia. »</quote></p>
         <p>« M. l’abbé Dubos avertit qu’en évaluant la monnaie romaine, il n’a pas suivi le calcul
           de Budé. <hi rend="i">Réflexions sur la poésie et la peinture</hi>.</p>
         <p>« Il y a cependant contradiction dans cet article ; car, si Roscius touchait, selon
@@ -430,11 +438,11 @@
           de considération par ses talents et par sa probité. On était si prévenu en sa faveur que,
           lorsqu’il jouait moins bien qu’à l’ordinaire, on disait qu’il se négligeait, ou que, par
           un accident auquel les <pb n="24" xml:id="p24"/>bons acteurs sont souvent sujets, il avait
-          fait une mauvaise digestion. « <quote xml:lang="lat">Noluit, inquiunt, agere Roscius aut
-            crudior fuit.</quote>» (Cicer. de Or. lib. 3.) Enfin la plus grande louange qu’on
+          fait une mauvaise digestion. <quote xml:lang="lat">« Noluit, inquiunt, agere Roscius aut
+            crudior fuit.»</quote> (Cicer. de Or. lib. 3.) Enfin la plus grande louange qu’on
           donnait aux hommes qui excellaient dans leur art, c’était de dire qu’ils étaient des
-          Roscius dans leur genre. « <quote xml:lang="lat">Jamdiu consecutus est ut in quo quisquis
-            artificis excelleret, is, in suo genere, Roscius diceretur.</quote>» (De Or. l. 1.)</p>
+          Roscius dans leur genre. <quote xml:lang="lat">« Jamdiu consecutus est ut in quo quisquis
+            artificis excelleret, is, in suo genere, Roscius diceretur.»</quote> (De Or. l. 1.)</p>
         <p>« <hi rend="i">Dyonisia</hi>, fameuse comédienne, florissait à Rome du temps de Roscius.
           Nous voyons, par l’oraison de Cicéron pour Roscius, que la république romaine donnait
           cinquante mille écus par an à cette fameuse actrice, pour jouer la comédie.</p>
@@ -462,21 +470,21 @@
             xml:id="p27"/>savoir qui des deux jouerait mieux le personnage d’Agamemnon. Hyllus, pour
           le représenter grand, s’éleva sur ses pieds ; Pylade, au contraire, le fit rêveur ;
           insinuant par là que le principal devoir d’un grand prince était de penser au bien de ses
-          sujets. Pylade dit alors à son disciple : « <quote>Tu le fais long et non pas
-            grand.</quote> »</p>
+          sujets. Pylade dit alors à son disciple : <quote>« Tu le fais long et non pas
+            grand. »</quote></p>
         <p>« Ce Pylade est le même comédien que César fit fouetter pour avoir montré un homme au
           doigt de dessus le théâtre ; car montrer un homme au doigt était une action malhonnête et
-          passait chez les Romains pour une grande injure. « <quote xml:lang="lat">Accusatorem qui
+          passait chez les Romains pour une grande injure. <quote xml:lang="lat">« Accusatorem qui
             digito dixerit, hic est. »</quote> (Juven. Sat. 1.)</p>
         <p>« Un jour que le peuple criait contre ce fameux danseur, de ce qu’en dansant le
           personnage d’Hercule furieux, il avait fait quelques démarches indécentes et déréglées, il
-          leva son masque <pb n="28" xml:id="p28"/>et cria tout haut aux spectateurs : « <quote>Sots
-            que vous êtes, je représente un furieux</quote> »  ; ensuite il continua sa danse.</p>
+          leva son masque <pb n="28" xml:id="p28"/>et cria tout haut aux spectateurs : <quote>« Sots
+            que vous êtes, je représente un furieux »</quote>  ; ensuite il continua sa danse.</p>
         <p>« <hi rend="i">Datus</hi>. Ce comédien fit une chose qui paraîtra aussi singulière que
           hardie ; Néron avait emprisonné son père et fait noyer sa mère. Dans une satire qu’il
-          chanta à la fin d’une pièce, disant : « <quote>Adieu, mon père ; adieu, ma mère</quote> »
+          chanta à la fin d’une pièce, disant : <quote>« Adieu, mon père ; adieu, ma mère »</quote>
            ; le comédien représentait, par ses gestes, une personne qui boit dans l’eau et qui se
-          noie, et, en ajoutant, sur la fin, « <quote>Pluton vous tire par les pieds</quote> », il
+          noie, et, en ajoutant, sur la fin, <quote>« Pluton vous tire par les pieds »</quote>, il
           représentait, par ses gestes, le sénat que Néron avait menacé d’exterminer.</p>
         <p>« <hi rend="i">Paris</hi>, égyptien, affranchi de Domitia, était bateleur. Il fut en
           grande considération à la cour de Néron<note place="bottom" resp="author">[NDA] Tacite
@@ -503,9 +511,9 @@
             <l>Ars, et gratia, et lusus, et voluptas,</l>
             <l>Romani decus et dolo theatri,</l>
             <l>Atque omnes veneres, cupidinesque,</l>
-            <l>Hoc sunt condita, quo<note place="bottom" resp="author">[NDA] « <quote>Histrio
+            <l>Hoc sunt condita, quo<note place="bottom" resp="author">[NDA] <quote>« Histrio
                   nobilis quem interfici jussit Domitianus, quod eum deperiret Domitia
-                  Augusta.</quote> » <hi rend="i">Sueton. Caput</hi> 3 <hi rend="i"
+                  Augusta. »</quote> <hi rend="i">Sueton. Caput</hi> 3 <hi rend="i"
                 >Domit.</hi></note> Paris, sepulchro. »</l>
           </lg>
         </quote>
@@ -522,8 +530,8 @@
         <p>Il portait la figure qui représentait l’empereur, et s’acquitta très bien de cette
           imitation ; car ayant demandé aux maîtres des cérémonies combien coûterait la dépense de
           cette pompe <pb n="32" xml:id="p32"/>funèbre, sur la réponse qu’on lui fit qu’elle
-          monterait à cent mille sesterces, il s’écria : « <quote>Qu’on me donne cette somme et
-            qu’on me jette, si on veut, dans le Tibre</quote> »  ; marquant par ces paroles
+          monterait à cent mille sesterces, il s’écria : <quote>« Qu’on me donne cette somme et
+            qu’on me jette, si on veut, dans le Tibre »</quote>  ; marquant par ces paroles
           l’avarice naturelle de Vespasien, qu’il représentait. Suéton.</p>
         <p><hi rend="i">Athanatus</hi>, bateleur, homme d’une force prodigieuse, qui se promenait à
           Rome, sur un théâtre, revêtu d’une cuirasse de plomb pesant cinq cents livres, et chaussé
@@ -885,10 +893,10 @@
           toutes les idées, tous les gestes des païens, et nuisaient ainsi à leurs efforts pour
           l’établissement et la propagation de la foi.</p>
         <p>Le concile d’Elvire, en Espagne, tenu l’an 300 de J.-C. est le premier qui contienne un
-          canon (c’est le LXII) contre les gens de théâtre. Il porte : « <quote xml:lang="lat">Si
+          canon (c’est le LXII) contre les gens de théâtre. Il porte : <quote xml:lang="lat">« Si
             auriga et pantomimus credere voluerint, placuit, ut prius artibus suis renuntient et
             tunc demum suscipiantur. Qui se facere contra interdictum tentaverint, projiciantur ab
-            ecclesia.</quote> »</p>
+            ecclesia. »</quote></p>
         <pb n="67" xml:id="p67"/>
         <label type="head">TRADUCTION :</label>
         <p rend="indent">Si un cocher de cirque ou un pantomime veulent se convertir, qu’ils
@@ -897,11 +905,11 @@
         <p>Le concile d’Arles, tenu en 314 de J.-C., fulmine, dans ses canons IV et V, ce qui
           suit :</p>
         <label type="head">IV :</label>
-        <p>« <quote>De agitatoribus qui fideles sunt, placuit eos, quandiu agitant, a communione
-            separari.</quote> »</p>
+        <p><quote>« De agitatoribus qui fideles sunt, placuit eos, quandiu agitant, a communione
+            separari. »</quote></p>
         <label>V :</label>
-        <p>« <quote>De theatricis, et ipsos placuit, quandiu agunt, a communione
-          separari.</quote> »</p>
+        <p><quote>« De theatricis, et ipsos placuit, quandiu agunt, a communione
+          separari. »</quote></p>
         <pb n="68" xml:id="p68"/>
         <label type="head">TRADUCTION :</label>
         <label type="head">IV :</label>
@@ -930,8 +938,8 @@
           d’être mis en pénitence. Charlemagne autorisa cette disposition par une nouvelle
           ordonnance de la même année. Elle est fondée sur ce motif que, pour se conserver l’âme
           pure de vices, il fallait éviter de voir ou d’entendre les insolences de ces jeux sales et
-          honteux des histrions. « <quote xml:lang="lat">Histrionum turpium et obscœnorum
-            insolentias jocorum.</quote> »</p>
+          honteux des histrions. <quote xml:lang="lat">« Histrionum turpium et obscœnorum
+            insolentias jocorum. »</quote></p>
         <p>Ils furent enfin tellement décriés, que l’usage en était aboli, lorsque Hugues Capet
           parvint à la couronne ; du moins on ne trouve nulle part, que depuis ce temps-là, il en
           soit fait aucune mention, à moins que ce ne soit à l’occasion des cours plénières que nos
@@ -1060,12 +1068,12 @@
             xml:id="p82"/>ce prince, et des rois ses successeurs, comme on le voit par un tarif fait
           par S. Louis pour régler les droits du péage dû à l’entrée de Paris sous le petit
           Châtelet. L’un de ces articles porte que les jongleurs seraient quittes de tout péage en
-          faisant le récit d’un couplet de chanson devant le péager. Un autre porte « <quote>que le
+          faisant le récit d’un couplet de chanson devant le péager. Un autre porte <quote>« que le
             marchand qui apporterait un singe pour le vendre paierait quatre deniers ; que si le
             singe appartenait à un homme qui l’eût acheté pour son plaisir, il ne donnerait rien ;
             que s’il était à un joueur, il jouerait devant le péager, et que, par ce jeu, il serait
             quitte du péage tant du singe que de tout ce qu’il aurait acheté pour son
-          usage.</quote> » C’est de là que vient cet ancien proverbe : <hi rend="i">Payer en monnaie
+          usage. »</quote> C’est de là que vient cet ancien proverbe : <hi rend="i">Payer en monnaie
             de singe, en gambades.</hi> Tous prirent, dans la suite, le nom de jongleurs, comme <pb
             n="83"/>le plus ancien, et les femmes qui se mêlaient de ce métier, celui de <hi
             rend="i">jongleresses</hi>. Ils se retiraient à Paris dans une seule rue qui avait pris
@@ -1169,7 +1177,7 @@
           royaume, sur des théâtres publics, et la Fête-Dieu d’Aix-en-Provence, en est encore de nos
           jours un reste ridicule.</p>
         <p><hi rend="i">Alain Chartier</hi>, dans son <hi rend="i">Histoire de Charles VII</hi>,
-          parle de l’entrée de ce roi à Paris, en l’année 1437, page 109, et dit que : « <quote>Tout
+          parle de l’entrée de ce roi à Paris, en l’année 1437, page 109, et dit que : <quote>« Tout
             au long de la grand’rue de S. Denis, auprès d’un jet de pierre l’un de l’autre, étaient
             des échafauds bien et richement tendus, où étaient faits, par personnages,
             l’Annonciation de N. Dame, la Nativité de Notre Seigneur, sa Passion, sa Résurrection,
@@ -1178,15 +1186,15 @@
             devant le Châtelet où est la justice du roi ; et dans d’autres quartiers il y avait
             plusieurs autres jeux de divers mystères qui seraient trop longs à raconter, et là
             venaient gens de toutes parts criant <hi rend="i">Noël</hi>, et les autres pleuraient de
-            joie.</quote> »</p>
+            joie. »</quote></p>
         <p>En l’année 1486, le chapitre de l’église de Lyon ordonna 60 livres à ceux qui avaient
           joué le mystère de la Passion de Jésus-Christ : livre 28 <hi rend="i">des actes
             capitulaires</hi> f° 153 ; de Rubis, dans son histoire de la même ville, livre 3
           chap. LIII, fait mention d’un théâtre public dressé à Lyon en 1540.</p>
-        <p>« <quote>Et là, <seg type="exquote">dit-il, </seg>par l’espace de 3 ou 4 ans, les jours
+        <p><quote>« Et là, <seg type="exquote">dit-il, </seg>par l’espace de 3 ou 4 ans, les jours
             de dimanches et les fêtes, après le dîner furent représentées la plupart des histoires
             du vieil et du nouveau Testament, avec la <hi rend="i">farce au bout</hi>, pour récréer
-            les assistants.</quote> »</p>
+            les assistants. »</quote></p>
         <p><pb n="94" xml:id="p94"/>Le peuple nommait ce théâtre le paradis. François I<hi
             rend="sup">er</hi> qui prenait grand plaisir à la représentation de ces sortes de <hi
             rend="i">comédies saintes</hi>, confirma les privilèges des confrères de la Passion par
@@ -1303,11 +1311,11 @@
           leur théâtre ; mais ils furent bientôt contraints d’en sortir et finirent par acheter
           l’ancien hôtel de Bourgogne, où ils continuèrent leurs représentations. Le parlement leur
           accorda un arrêt le 19 novembre 1548, à condition de n’y <pb n="102" xml:id="p102"/>jouer
-          que « <quote>des sujets profanes, licites et honnêtes, et leur fit très expresses défenses
+          que <quote>« des sujets profanes, licites et honnêtes, et leur fit très expresses défenses
             d’y représenter aucun mystère de la Passion, ni autre mystère sacré, en les confirmant
             dans tous leurs privilèges, faisant défense à tous autres qu’aux confrères de la Passion
             de jouer ni représenter aucuns jeux, tant dans la ville, faubourgs que banlieue de
-            Paris, sinon sous le nom et au profit de la Confrérie</quote> » ; ce qui fut confirmé
+            Paris, sinon sous le nom et au profit de la Confrérie »</quote> ; ce qui fut confirmé
           par lettres patentes d’Henri II, du mois de mars 1559. C’est ici le <hi rend="i">troisième
             âge</hi> ou la <hi rend="i">troisième période</hi> de l’existence des <hi rend="i"
             >comédiens</hi> en France, et l’origine certaine des <hi rend="i">comédiens</hi> de nos
@@ -1345,9 +1353,9 @@
             rend="i">Gelosi</hi> de ne plus jouer leurs comédies qui se trouvaient mêlées de trop
           d’obscénités. Le samedi, 17 juillet, les comédiens, après avoir présenté à cette cour les
           lettres patentes qu’ils avaient obtenues du roi afin de donner leurs représentations,
-            « <quote>nonobstant toutes défenses, furent renvoyés par fin de non-recevoir, et défense
+            <quote>« nonobstant toutes défenses, furent renvoyés par fin de non-recevoir, et défense
             à eux faite de plus obtenir et présenter de telles lettres patentes sous peine de dix
-            mille livres parisis d’amende applicables à la boîte des pauvres</quote> ». Malgré cette
+            mille livres parisis d’amende applicables à la boîte des pauvres »</quote>. Malgré cette
           défense, au commencement de septembre suivant, ils recommencèrent <hi rend="i">à jouer
             leurs comédies</hi>, en l’hôtel de Bourbon, comme auparavant, <hi rend="i">par la
             jussion expresse du roi</hi>.</p>
@@ -1593,8 +1601,8 @@
           d’Elvire et d’Arles, leur ouvrit ses églises pour y donner leurs représentations, et que
           les ecclésiastiques remplirent eux-mêmes des rôles, dans ces diverses comédies, de concert
           avec les comédiens de ce temps, et ce, au mépris du onzième canon du troisième concile de
-          Carthage tenu l’an 397, qui porte « <quote>que les ecclésiastiques ne donnent point des
-            spectacles mondains ; qu’ils n’y assistent même pas</quote> ».</p>
+          Carthage tenu l’an 397, qui porte <quote>« que les ecclésiastiques ne donnent point des
+            spectacles mondains ; qu’ils n’y assistent même pas »</quote>.</p>
         <p>Les prêtres, les ecclésiastiques eux-mêmes sont donc devenus les protecteurs, les
           instigateurs, les co-associés des ancêtres de ces comédiens, <pb n="129" xml:id="p129"
           />sur lesquels ils voudraient aujourd’hui appeler l’opprobre et la réprobation ! Ces
@@ -1735,8 +1743,8 @@
           les moyens terribles de punir audacieusement et publiquement, ce que le roi et les lois
           constituent et protègent.</p>
         <p><hi rend="i">La religion est dans l’Etat</hi>, et ce qui le prouve, c’est la volonté du
-          prince manifestée dans l’article 6 de la charte constitutionnelle qui porte : « <quote>La
-            religion catholique, apostolique et romaine est la religion de l’Etat.</quote> »</p>
+          prince manifestée dans l’article 6 de la charte constitutionnelle qui porte : <quote>« La
+            religion catholique, apostolique et romaine est la religion de l’Etat. »</quote></p>
         <p>C’est donc par la volonté et l’autorité du prince que la religion existe dans l’Etat ;
           car si cette volonté avait été contraire, cette religion n’y existerait pas, ou du moins
           elle n’aurait pas la supériorité que cet acte lui donne ; par conséquent, la religion
@@ -1803,7 +1811,7 @@
         <p>Si ce que je dis ici à l’égard de l’esprit de la religion ne peut suffire pour éclairer
           le clergé de France, je vais lui citer les propres écrits du cardinal d’Ossat, sur la
           matière :</p>
-        <p><pb n="149" xml:id="p149"/>« <quote>Car dès que le plus criminel des pécheurs veut
+        <p><pb n="149" xml:id="p149"/><quote>« Car dès que le plus criminel des pécheurs veut
             sincèrement rentrer dans la voie du salut, Dieu le reçoit avec bonté, puisque lui-même
             prend la qualité de médecin. Comment se pourrait-il faire qu’il guérît le corps, la
             partie la plus vile de l’homme, <hi rend="i">et qu’il ne délivrât pas l’âme</hi>,
@@ -1814,7 +1822,7 @@
             persévéré pendant 40 ans et même jusqu’à son dernier soupir. Il y a de l’impiété à
             désespérer de la miséricorde de Dieu, comme s’il ne pouvait pas secourir en tous temps
             un homme qui a recours à lui, et délivrer <pb n="150" xml:id="p150"/>du fardeau de ses
-            péchés celui qui souhaite effectivement de s’en décharger.</quote> »</p>
+            péchés celui qui souhaite effectivement de s’en décharger. »</quote></p>
         <p>Entendez-vous, prêtres intolérants, la voix d’un de vos prélats, d’un prince de votre
           Eglise, qui vous avertit qu’il y a de <hi rend="i">l’impiété</hi> à désespérer de la
           miséricorde de Dieu ; cessez donc de courir la chance de devenir <hi rend="i">impies</hi>
@@ -1999,14 +2007,14 @@
           sans vouloir l’écouter ; scène d’une heure entière, dans laquelle cette femme, tantôt
           debout, tantôt à genoux, disait à ce mari tout ce qu’il y a de plus fort, et tentait tous
           les moyens pour l’attendrir, sans en pouvoir venir à bout ; au contraire, le mari
-          redoublant ses menaces : « <quote>Vous êtes un masque, <seg type="exquote">dit-il,</seg>
-            je n’ai point de compte à vous rendre ; il faut que je vous tue.</quote> » —
-            « <quote>Eh ! mon cher mari, <seg type="exquote">reprit-elle,</seg> je vous demande la
+          redoublant ses menaces : <quote>« Vous êtes un masque, <seg type="exquote">dit-il,</seg>
+            je n’ai point de compte à vous rendre ; il faut que je vous tue. »</quote> —
+            <quote>« Eh ! mon cher mari, <seg type="exquote">reprit-elle,</seg> je vous demande la
             vie, je vous en conjure par cette soupe aux <pb n="166" xml:id="p166"/>choux que je vous
-            fis manger hier et que vous trouvâtes si bonne.</quote> » A ces mots, le mari se rend,
-          le sabre lui tombant des mains : « <quote>Ah ! la carogne, <seg type="exquote"
+            fis manger hier et que vous trouvâtes si bonne. »</quote> A ces mots, le mari se rend,
+          le sabre lui tombant des mains : <quote>« Ah ! la carogne, <seg type="exquote"
               >dit-il,</seg> elle m’a pris par mon faible ; la graisse m’en fige encore sur le cœur,
-            etc.…</quote> »</p>
+            etc.… »</quote></p>
         <p>Son éminence, satisfaite de cette scène, envoya chercher les comédiens de l’hôtel de
           Bourgogne, et leur dit qu’ils avaient tort, qu’ils n’étaient que des paresseux, que l’on
           sortait toujours triste de la représentation de leurs pièces, et leur ordonna de prendre
@@ -2160,15 +2168,15 @@
           plus irréligieux !…</p>
         <p>Ce prêtre honorable connaît et remplit les préceptes de notre saint Evangile. Il se
           conforme aux paroles de Jésus-Christ qui portent :</p>
-        <p><hi rend="i">Misericordiam volo</hi>, etc.… « <quote>J’aime mieux la miséricorde que le
-            sacrifice.</quote> » (Matth. cap. 9, vers. 13.)</p>
-        <p><hi rend="i">Hypocrita, ejice primum</hi>…. « <quote>Hypocrite, ôtez premièrement la
+        <p><hi rend="i">Misericordiam volo</hi>, etc.… <quote>« J’aime mieux la miséricorde que le
+            sacrifice. »</quote> (Matth. cap. 9, vers. 13.)</p>
+        <p><hi rend="i">Hypocrita, ejice primum</hi>…. <quote>« Hypocrite, ôtez premièrement la
             poutre de votre œil, et après cela vous verrez comment vous pourrez tirer la paille de
-            l’œil de votre frère.</quote> » (Matth. cap. 7, vers. 5.)</p>
-        <p><hi rend="i">Nolite judicare</hi>, etc.… « <quote>Ne jugez point, <pb n="181"
+            l’œil de votre frère. »</quote> (Matth. cap. 7, vers. 5.)</p>
+        <p><hi rend="i">Nolite judicare</hi>, etc.… <quote>« Ne jugez point, <pb n="181"
               xml:id="p181"/>afin que vous ne soyez point jugés ; car vous serez jugés, selon que
             vous aurez jugé les autres, et on se servira envers vous de la même mesure dont vous
-            vous serez servi envers eux.</quote> » (Matth. cap. 7, vers. 1 et 2.)</p>
+            vous serez servi envers eux. »</quote> (Matth. cap. 7, vers. 1 et 2.)</p>
         <p><hi rend="i">J’aime mieux la miséricorde que le sacrifice</hi>, dit Jésus-Christ ; si ces
           paroles divines, si leurs effets restaurateurs étaient proclamés et répandus par les
           ministres de notre sainte religion, les temples ne suffiraient pas pour recevoir tous les
@@ -2180,20 +2188,20 @@
           roi doivent connaître du <hi rend="i">délit</hi> de refus de sépulture, que je rencontre
           dans le <hi rend="i">Dictionnaire ecclésiastique et canonique</hi> : (2 vol. in-8°,
           tom. 2, page 593.)</p>
-        <p>« <quote>Que la connaissance des contestations au sujet des sépultures, appartient au <hi
-              rend="sc">juge laïc</hi>.</quote> »</p>
+        <p><quote>« Que la connaissance des contestations au sujet des sépultures, appartient au <hi
+              rend="sc">juge laïc</hi>. »</quote></p>
         <p>Et plus bas, dans la même page :</p>
-        <p>« <quote>Que les curés <hi rend="i">ne sont en droit</hi> de refuser la sépulture qu’aux
+        <p><quote>« Que les curés <hi rend="i">ne sont en droit</hi> de refuser la sépulture qu’aux
               <hi rend="i">hérétiques séparés</hi> de la communion de l’Eglise, et aux <hi rend="i"
               >excommuniés dénoncés</hi></quote>.</p>
-        <p>« <quote>Pour être <hi rend="i">hérétique</hi>, il faut soutenir avec opiniâtreté un <hi
-              rend="i">sentiment contraire</hi> à un <hi rend="i">dogme de foi</hi>.</quote> » (<hi
+        <p><quote>« Pour être <hi rend="i">hérétique</hi>, il faut soutenir avec opiniâtreté un <hi
+              rend="i">sentiment contraire</hi> à un <hi rend="i">dogme de foi</hi>. »</quote> (<hi
             rend="i">id.</hi>)</p>
         <p>Les comédiens n’ont jamais établi d’<hi rend="i">hérésie</hi>, jamais soutenu de thèses
           contre les théologiens, jamais émis de dogmes qui leur fussent propres ; ils ne sont donc
           et ne peuvent être considérés comme <hi rend="i">hérétiques</hi>.</p>
-        <p><pb n="183" xml:id="p183"/>« <quote>Nisi a judicio catholicæ religionis et tramite fuerit
-            convictus deviare.</quote> » Nous ne devons regarder comme hérétiques, que ceux qui ont
+        <p><pb n="183" xml:id="p183"/><quote>« Nisi a judicio catholicæ religionis et tramite fuerit
+            convictus deviare. »</quote> Nous ne devons regarder comme hérétiques, que ceux qui ont
           été <hi rend="i">condamnés comme tels</hi>, par <hi rend="sc">le jugement de l’eglise</hi>
           (id.).</p>
         <p>Le clergé ne produira aucun jugement de ce genre, et le refus de sépulture ne peut être
@@ -2201,24 +2209,24 @@
           débats publics entre les comédiens et le clergé, à raison d’une subversion des <hi
             rend="i">dogmes</hi> de la foi, ou d’une substitution d’un dogme à un autre, et qu’aucun
           jugement n’a pu intervenir contre eux, qui les frappe comme hérétiques.</p>
-        <p>« <quote>Les curés ne sont en droit de refuser la sépulture qu’aux <hi rend="sc"
-              >excommunies denonces</hi></quote> » (id).</p>
-        <p>« <quote>Nous ne connaissons d’<hi rend="i">excommuniés</hi> en France que ceux dont
+        <p><quote>« Les curés ne sont en droit de refuser la sépulture qu’aux <hi rend="sc"
+              >excommunies denonces</hi> »</quote> (id).</p>
+        <p><quote>« Nous ne connaissons d’<hi rend="i">excommuniés</hi> en France que ceux dont
             l’excommunication <pb n="184" xml:id="p184"/>personnelle a été <hi rend="i">publiquement
-              déclarée et publiée</hi> ; c’est ce qu’on nomme excommunication dénoncée</quote> »
+              déclarée et publiée</hi> ; c’est ce qu’on nomme excommunication dénoncée »</quote>
           (id. tom. 1<hi rend="sup">er</hi>, page 637).</p>
-        <p>« <quote>Quoique le glaive de l’excommunication soit le nerf de la discipline
+        <p><quote>« Quoique le glaive de l’excommunication soit le nerf de la discipline
             ecclésiastique, et qu’il soit très salutaire pour contenir les peuples dans leur devoir,
             il faut pourtant <hi rend="i">en user sobrement</hi> et avec grande circonspection,
             l’expérience faisant voir que si on s’en sert témérairement et pour des sujets légers,
               <hi rend="i">il est plus méprisé qu’il n’est redouté</hi>, et cause plus <hi rend="i"
-              >de mal que de bien</hi></quote> ». (<hi rend="i">Dictionnaire des conciles</hi>,
+              >de mal que de bien</hi> »</quote>. (<hi rend="i">Dictionnaire des conciles</hi>,
           in-8° page 645.)</p>
-        <p>« <quote>Les évêques seront très réservés à prononcer des excommunications ; ils ne le
+        <p><quote>« Les évêques seront très réservés à prononcer des excommunications ; ils ne le
             feront que pour des causes graves et <hi rend="i">après toutes les monitions en
-              forme</hi></quote> » (Concile de Sens, an 1528).</p>
-        <p>« <quote>On ne se servira d’excommunication, <pb n="185" xml:id="p185"/>si ce n’est pour
-            des causes <hi rend="i">criminelles</hi> et graves.</quote> » (Concile d’Augsbourg, an
+              forme</hi> »</quote> (Concile de Sens, an 1528).</p>
+        <p><quote>« On ne se servira d’excommunication, <pb n="185" xml:id="p185"/>si ce n’est pour
+            des causes <hi rend="i">criminelles</hi> et graves. »</quote> (Concile d’Augsbourg, an
           1548 règlement 24.)</p>
         <p>Il s’agit de savoir maintenant si les curés peuvent enfreindre ce qui est écrit dans
           leurs propres lois ecclésiastiques, qui portent qu’ils n’ont le <hi rend="i">droit</hi> de
@@ -2280,20 +2288,20 @@
         <quote>
           <l>« Os, orare, vale, communio, mensa negatus.</l>
         </quote>
-        <p>« <quote><hi rend="i">Os</hi>, Marque tout commerce par paroles, par lettres reçues ou
+        <p><quote>« <hi rend="i">Os</hi>, Marque tout commerce par paroles, par lettres reçues ou
             envoyées, par présents donnés ou acceptés, par raison ou autres signes
             d’amitié ;</quote></p>
-        <p>« <quote><hi rend="i">Orare</hi>, Signifie la communication extérieure dans les offices
+        <p><quote>« <hi rend="i">Orare</hi>, Signifie la communication extérieure dans les offices
             divins, dans les sacrements, les prières même faites avec l’excommunié ;</quote></p>
-        <p>« <quote><hi rend="i">Vale</hi>, Signifie le salut d’honnêteté qu’on ne doit pas même
+        <p><quote>« <hi rend="i">Vale</hi>, Signifie le salut d’honnêteté qu’on ne doit pas même
             rendre à un excommunié qui vous salue ;</quote></p>
-        <p>« <quote><hi rend="i">Communio</hi>, Signifie les mêmes exercices, les contrats, les
+        <p><quote>« <hi rend="i">Communio</hi>, Signifie les mêmes exercices, les contrats, les
             voyages, les promenades, le repos qu’on ne doit pas prendre dans la même chambre ni dans
             le même lit avec l’excommunié, si ce n’est par nécessité et non par manière de
             société ;</quote></p>
-        <p>« <quote><hi rend="i">Mensa</hi>, Signifie qu’on ne doit ni <pb n="191" xml:id="p191"
+        <p><quote>« <hi rend="i">Mensa</hi>, Signifie qu’on ne doit ni <pb n="191" xml:id="p191"
             />boire, ni manger, ni être assis à une même table avec l’excommunié, quand même on ne
-            mangerait pas les mêmes mets que lui.</quote> »</p>
+            mangerait pas les mêmes mets que lui. »</quote></p>
         <p>De cette manière donc, les princes, les grands, les peuples qui assisteraient aux
           représentations des comédiens, si ces derniers étaient des <hi rend="i">excommuniés
             dénoncés</hi>, deviendraient eux-mêmes délinquants aux lois de l’Eglise, et
@@ -2790,7 +2798,7 @@
           <p>Je sais que le président Hénault a légitimé la représentation des saints <pb n="232"
             />mystères, en disant dans son <hi rend="i">Abrégé chronologique de l’histoire de
               France</hi><note resp="editor" place="bottom">[NDE] Charles-Jean-François Hénault, <hi
-                rend="i">Nouvel Abrégé de l’Histoire de la France</hi>, 1749.</note> : « <quote>Non,
+                rend="i">Nouvel Abrégé de l’Histoire de la France</hi>, 1749.</note> : <quote>« Non,
               ce n’était point la profanation de la religion, tout était spectacle, pour un peuple
               grossier, qui était attiré dans les églises, où les cérémonies même du service divin
               étaient mêlées de ces spectacles ; on ne célébrait pas seulement les fêtes, on les
@@ -2801,7 +2809,7 @@
               foi était fortifiée par l’habitude qu’il contractait avec les objets, et en entendre
               parler, c’était les avoir vus. Ne serions-nous pas réduits aujourd’hui <pb n="233"
                 xml:id="p233"/>à regretter ces temps de simplicité, où l’on ne raisonnait pas, mais
-              où l’on croyait ?</quote> »</p>
+              où l’on croyait ? »</quote></p>
           <p>Cela est juste, et je suis entièrement de l’avis de cet excellent historien, <hi
               rend="sc">en ce temps</hi>, <hi rend="i">on ne raisonnait pas, on ne croyait pas
               profaner, on avait la foi, toute la foi</hi> : mais <hi rend="sc">depuis ce
@@ -2849,14 +2857,14 @@
             l’irréligion jusqu’à choisir un jour de <hi rend="i">carnaval</hi>, pour la
             représenter ; voici ce que l’on lit dans les <hi rend="i">Annales de la société de
               Jésus</hi>, tome IV, in-4°, p. 511.</p>
-          <p>« <quote>Nous allons voir maintenant dans la ville de <hi rend="i">Mâcon</hi> en <hi
+          <p><quote>« Nous allons voir maintenant dans la ville de <hi rend="i">Mâcon</hi> en <hi
                 rend="i">France</hi>, les <hi rend="i">jésuites</hi> peu satisfaits de simples
               paroles et déclamations <hi rend="i">séditieuses</hi>, se jouer publiquement des
               choses saintes, et faire éclater leur <hi rend="i">Passion</hi>, par une <hi rend="sc"
                 >procession profane</hi>, qui avait moins pour but le divertissement du peuple, que
               la vaine satisfaction de se dresser à eux-mêmes un triomphe imaginaire sur le saint
               défenseur de la grâce, (S. Augustin) et ses disciples :</quote></p>
-          <p>« <quote>Le lundi gras, 1651, sur le midi, on vit sortir de leur collège de Mâcon une
+          <p><quote>« Le lundi gras, 1651, sur le midi, on vit sortir de leur collège de Mâcon une
               procession dont <hi rend="i">ils avaient réglé</hi> la pompe de cette manière : la <pb
                 n="238"/>croix marchait en tête, suivie d’environ trente petits choristes tant de
               l’église cathédrale que des collégiales, tous écoliers des jésuites, qui étaient
@@ -2896,7 +2904,7 @@
               ces pères virent que les mieux sensés l’avaient blâmée hautement, ils en demeurèrent
               là, et se contentant de l’impunité dont ils ont joui dans toutes leurs entreprises,
               ils cessèrent pour cette fois de faire servir les plus grands mystères de notre
-              religion au divertissement des hommes.</quote> »</p>
+              religion au divertissement des hommes. »</quote></p>
           <p>Que les <hi rend="i">jésuites</hi> aient osé par une procession aussi scandaleuse
             insulter à leurs adversaires, et profaner l’image de S. Augustin, on peut le concevoir ;
             mais que le clergé de Mâcon se soit rendu coupable d’une telle infraction du respect dû
@@ -3207,7 +3215,7 @@
             lugubres, que jouent les instruments de musique, répondent à cette triste décoration. A
             ce funèbre concert se joint le bruit de plusieurs chaînes pesantes que l’on traîne.
             Entre tous ceux qui composent cette procession, on distingue les <hi rend="i"
-              >disciplinants</hi> qui en sont les principaux acteurs. « <quote>Ils portent un long
+              >disciplinants</hi> qui en sont les principaux acteurs. <quote>« Ils portent un long
               bonnet, <seg type="exquote">dit l’auteur des <hi rend="i">Délices de
                   l’Espagne</hi><note resp="editor" place="bottom"> [NDE] Juan Alvarez de Colmenar,
                     <hi rend="i">Les delices de l’Espagne [et] du Portugal : où l’on voit une
@@ -3228,20 +3236,20 @@
               Celui qui se fouette avec le <pb n="271" xml:id="p271"/>plus de courage et d’adresse
               est estimé le plus brave. Lorsqu’ils rencontrent quelque dame bien faite, ils savent
               se fouetter si adroitement, qu’ils font ruisseler leur sang jusque sur elle ; et c’est
-              un honneur dont elles ne manquent pas de remercier le disciplinant.</quote> » Madame
+              un honneur dont elles ne manquent pas de remercier le disciplinant. »</quote> Madame
             d’Aulnoi, dans son <hi rend="i">Voyage d’Espagne</hi><note resp="editor" place="bottom">
               [NDE] Aulnoy, Marie-Catherine, <hi rend="i">Relation du Voyage d’Espagne</hi>,
               1691.</note>, dit que la manière de se fouetter est devenue un art en Espagne, aussi
             raffiné que celui de l’escrime, et qu’il y a des maîtres particuliers qui l’enseignent.
             Elle ajoute que, pour se fouetter avec grâce, il ne faut qu’agir de la main et du
-            poignet, sans gesticuler du bras. Reprenons notre auteur. « <quote>Quand un disciplinant
+            poignet, sans gesticuler du bras. Reprenons notre auteur. <quote>« Quand un disciplinant
               se trouve devant la maison de sa maîtresse, c’est alors qu’il redouble les coups avec
               plus de furie, et qu’il se déchire le dos et les épaules. La dame qui le voit de son
               balcon, <pb n="272" xml:id="p272"/>et qui sait qu’il le fait à son intention, lui en
               sait bon gré dans son cœur, et ne manque pas de lui en tenir bon compte. Ceux qui
               prennent cet exercice sont obligés d’y retourner tous les ans, faute de quoi ils
               tombent malades ; et ce ne sont pas seulement des gens du peuple ou des bourgeois qui
-              font cela, mais aussi des personnes de la plus grande qualité.</quote> » A Séville, le
+              font cela, mais aussi des personnes de la plus grande qualité. »</quote> A Séville, le
             nombre des disciplinants va jusqu’à sept ou huit cents ; et ils l’emportent sur ceux de
             Madrid par la rigueur avec laquelle ils se fustigent. Cette procession est si célèbre et
             si solennelle que tous les ordres de l’Etat sont obligés de s’y trouver. Ainsi l’on voit
@@ -3402,7 +3410,7 @@
               xml:id="p287"/>fois plus odieuses, plus répréhensibles que ce qui ce passe sur nos
             théâtres, ont cependant été pratiquées par le <hi rend="i">clergé</hi> de France,
             au-delà de quatre cents ans, car elles se prolongèrent plus loin même qu’en 1444.</p>
-          <p>« <quote>Ce serait mal raisonner<seg type="exquote">, dit le célèbre théologien
+          <p><quote>« Ce serait mal raisonner<seg type="exquote">, dit le célèbre théologien
                 Charlier de <hi rend="i">Gerson</hi>, chancelier et chanoine de l’église de Paris,
               </seg>de conclure que ces folies païennes ont été sanctifiées par la religion
               chrétienne. Mais encore quelles folies, telles en vérité qu’elles seraient
@@ -3411,7 +3419,7 @@
               criminelles, mêlées par une infinité de folâtreries et d’insolences ; car il est vrai
               que si tous les diables de l’enfer avaient à fonder une fête dans nos églises, ils <pb
                 n="288" xml:id="p288"/>ne pourraient pas ordonner autrement que ce qui se faisait
-              alors.</quote> »</p>
+              alors. »</quote></p>
           <p>Voilà un théologien, voilà un chancelier de l’Eglise de Paris, qui se rend digne de son
             ministère, et qui ose blâmer hautement de telles pratiques !</p>
           <p><hi rend="i">A Chalon-sur-Saône</hi>, selon le Père Perry, jésuite, la veille du jour
@@ -3483,8 +3491,8 @@
               <l>Quisquis erit, removendus erit solemnibus istis. »</l>
             </lg>
           </quote>
-          <p rend="indent">« <quote>Lumière aujourd’hui, lumière de joie ! à mon avis quiconque sera
-              triste, devra être éloigné de ces solennités.</quote> »</p>
+          <p rend="indent"><quote>« Lumière aujourd’hui, lumière de joie ! à mon avis quiconque sera
+              triste, devra être éloigné de ces solennités. »</quote></p>
           <p><pb n="293" xml:id="p293"/>Ils continuaient sur le même ton les vers suivants :</p>
           <quote>
             <lg>
@@ -3492,9 +3500,9 @@
               <l>Læta volunt quicumque colunt asinaria festa.</l>
             </lg>
           </quote>
-          <p rend="indent">« <quote>Que tous les sentiments d’envie soient bannis aujourd’hui ! loin
+          <p rend="indent"><quote>« Que tous les sentiments d’envie soient bannis aujourd’hui ! loin
               d’ici tout ce qui est triste ! ceux qui célèbrent la fête de l’âne ne veulent que de
-              la gaieté.</quote> »</p>
+              la gaieté. »</quote></p>
           <p>Ici on lit en rubrique <hi rend="i">conductus ad tabulam</hi> ; après cette rubrique,
             deux chanoines députés se rendaient alors auprès de l’âne, pour le conduire à la table,
             qui était le lieu où le préchantre lisait l’ordre des cérémonies, et proclamait les noms
@@ -3925,14 +3933,14 @@
               <pb n="316" xml:id="p316"/>et plaisante. Enfin, pour achever de faire connaître les
             excès auxquels on se portait dans cette fête, il suffit de rapporter ce qu’on lit à ce
             sujet dans la lettre circulaire de la faculté de théologie à Paris, que nous avons citée
-            au commencement de cet article. « <quote>Dans le temps même de la célébration de
+            au commencement de cet article. <quote>« Dans le temps même de la célébration de
               l’office divin, des gens, ayant le visage couvert de <hi rend="i">masques hideux</hi>,
               déguisés en femmes, revêtus de peaux de lion, ou bien habillés en farceurs, dansaient
               dans l’église d’une manière indécente ; chantaient dans le chœur des chansons
               déshonnêtes ; mangeaient de la viande sur le coin de l’autel, auprès du célébrant ;
               jouaient aux dés sur l’autel ; faisaient brûler de vieux cuirs au lieu d’encens,
               couraient et sautaient par toute l’église comme des insensés, et profanaient la maison
-              du Seigneur par mille indécences.</quote> » <pb n="317" xml:id="p317"/> Cette fête
+              du Seigneur par mille indécences. »</quote> <pb n="317" xml:id="p317"/> Cette fête
             s’était tellement accréditée, et les clercs la regardaient comme une cérémonie si
             importante, qu’un clerc du diocèse de Viviers, qui avait été élu évêque des fous, ayant
             refusé de s’acquitter des fonctions de sa charge, et de faire les dépenses qui y étaient
@@ -3949,10 +3957,10 @@
           <p>Parmi les statuts en quarante articles, publiés au mois d’août 1387, et donnés par le
             cardinal Thomas de Naples, délégué par Clément VII, pour visiter les églises de
             Besançon, il y en a un qui regarde la fête des fous qui se faisait séparément dans
-            chaque église. « <quote>Pour ôter<seg type="exquote">, dit-il,</seg> les occasions de
+            chaque église. <quote>« Pour ôter<seg type="exquote">, dit-il,</seg> les occasions de
               division et de scandale qui arrivent ordinairement dans cette fête, il est ordonné de
               la faire à tour dans chaque église, de même que la cavalcade qui se faisait dans la
-              ville.</quote> »</p>
+              ville. »</quote></p>
           <p>L’on faisait la fête des fous dans <pb n="319" xml:id="p319"/>les deux cathédrales<note
               place="bottm" resp="author">[NDA] Il y avait alors deux cathédrales qui se disputaient
               la primauté, celle de Saint-Jean, et celle de Saint-Etienne ; elles avaient chacune
@@ -4013,7 +4021,7 @@
             singulier, qu’un <hi rend="i">évêque</hi> qui était <hi rend="i">pair
               ecclésiastique</hi>, et qui fut même au moment d’être élevé au <hi rend="i"
               >cardinalat</hi>, l’ait accepté :</p>
-          <p>« <quote>Les superlatifs et mirelifiques <pb n="324" xml:id="p324"/>Loppinants de
+          <p><quote>« Les superlatifs et mirelifiques <pb n="324" xml:id="p324"/>Loppinants de
               l’infanterie dijonnaise, nourrissons d’Apollon et des muses, enfants légitimes du
               vénérable père Bontemps, à tous fous, archifous, lunatiques, éventés, poètes par
               nature, par béccare, et par bémol, almanachs vieux et nouveaux, présents, absents et à
@@ -4039,7 +4047,7 @@
               les actions de folie, et y ajouter ou diminuer, si besoin est ; le tout aux gages dus
               à sa grandeur, assignés sur la défaite et ruine des ennemis de la France, desquels lui
               permettons se payer par ses mains, aux espèces qu’il trouvera de mise. Car ainsi il
-              est désiré, et souhaité. Donné à Dijon.</quote> »</p>
+              est désiré, et souhaité. Donné à Dijon. »</quote></p>
           <p>L’une des devises de cette société, dans laquelle figure un <hi rend="i">évêque</hi>,
             duc, et pair ecclésiastique, était :</p>
           <quote>
@@ -4185,12 +4193,12 @@
             sur toutes choses ici-bas ; c’est l’Apôtre <hi rend="i">Saint Paul</hi>, qui nous
             confirme cette grande vérité :</p>
           <pb n="338" xml:id="p338"/>
-          <p>« <quote>Que toute âme, que tout le monde se soumette aux
+          <p><quote>« Que toute âme, que tout le monde se soumette aux
               puissances supérieures ; car il n’y a point de puissance qui ne vienne de Dieu, et <hi
                 rend="i">c’est lui qui a établi toutes celles qui sont sur la
             terre</hi></quote> ;</p>
-          <p>« <quote>Le <hi rend="sc">prince</hi> est le <hi rend="sc">ministre de dieu</hi> pour
-              votre bien</quote> » ; (Epître aux Romains).</p>
+          <p><quote>« Le <hi rend="sc">prince</hi> est le <hi rend="sc">ministre de dieu</hi> pour
+              votre bien »</quote> ; (Epître aux Romains).</p>
           <p>La puissance du prince est donc celle du <hi rend="sc">ministre</hi> de Dieu, et
             lorsque sa sagesse parle, tout le monde doit écouter, tout le monde doit obéir ; il est
             le protecteur placé par la Providence pour veiller à ce que chacun fasse son devoir et
@@ -4255,11 +4263,11 @@
               >décrets</hi> et les articles de ces décrets s’appellent <hi rend="i">canons</hi>,
             c’est-à-dire, <hi rend="i">articles</hi> de la loi.</p>
           <p>Voici donc ce que les lois de l’Eglise imposent le plus impérativement aux évêques.</p>
-          <p>« <quote>1° L’évêque doit avoir son <hi rend="i">petit logis</hi> près de l’église ;
+          <p><quote>« 1° L’évêque doit avoir son <hi rend="i">petit logis</hi> près de l’église ;
               ses meubles doivent être de <hi rend="i">vil prix</hi> ; sa <hi rend="i">table
                 pauvre</hi>. <hi rend="sc">Il doit soutenir sa dignité</hi> par sa foi et sa bonne
               vie. Canons du IV<hi rend="sup">e</hi> concile de Carthage, an 398 ;</quote></p>
-          <p>« <quote>2° L’évêque aura <hi rend="i">sa chambre</hi> ; et pour les services les plus
+          <p><quote>« 2° L’évêque aura <hi rend="i">sa chambre</hi> ; et pour les services les plus
               secrets, des prêtres de bonne réputation, qui le voient continuellement <hi rend="i"
                 >veiller, prier, étudier l’Ecriture sainte</hi>, pour être les témoins et les <hi
                 rend="i">imitateurs</hi> de sa conduite ; ses repas seront modérés, et on y verra
@@ -4269,10 +4277,10 @@
               continuellement l’Ecriture sainte, pour instruire exactement son clergé et <hi
                 rend="i">prêcher</hi> aux peuples selon leur portée. Conc. de Pavie, an 850, can. 1,
               3, 4 ;</quote></p>
-          <p>« <quote>3° Les évêques sont exhortés à donner audience aux pauvres, et à ouïr
+          <p><quote>« 3° Les évêques sont exhortés à donner audience aux pauvres, et à ouïr
               eux-mêmes les confessions. Conc. d’Oxford, an 1222, can. 2 ;</quote></p>
-          <p>« <quote>4° Il est ordonné aux évêques de prêcher la foi catholique par eux-mêmes et
-                <hi rend="i">non par d’autres.</hi> Conc. d’Arles, an 1234, can. 2.</quote> »</p>
+          <p><quote>« 4° Il est ordonné aux évêques de prêcher la foi catholique par eux-mêmes et
+                <hi rend="i">non par d’autres.</hi> Conc. d’Arles, an 1234, can. 2. »</quote></p>
           <p>L’inexécution de ces lois, qui sont fondamentales et organiques de la discipline de
             l’Eglise, est une des causes principales de l’espèce de défection ou de refroidissement,
             dans lequel sont tombés la plupart des <pb n="346" xml:id="p346"/>fidèles : elle leur a
@@ -4287,19 +4295,19 @@
             voient leurs évêques s’en écarter eux-mêmes. Cela est si vrai, qu’il n’est plus question
             parmi eux d’exécuter les canons qui les touchent, et qu’ils semblent laisser dans un
             oubli, dans une désuétude absolue, tels que ceux-ci :</p>
-          <p><pb n="347" xml:id="p347"/>« <quote>1° On renouvelle, dans le concile de Carthage tenu
+          <p><pb n="347" xml:id="p347"/><quote>« 1° On renouvelle, dans le concile de Carthage tenu
               en 349, <hi rend="i">la défense déjà faite aux ecclésiastiques, en plusieurs conciles,
                 d’habiter avec des femmes</hi> ;</quote></p>
-          <p>« <quote>2° Aucune femme ne doit demeurer avec aucun des prêtres, mais seulement la
+          <p><quote>« 2° Aucune femme ne doit demeurer avec aucun des prêtres, mais seulement la
               mère, l’aïeule, les tantes, les sœurs, les nièces, celles de leur famille qui
               demeuraient avant leur ordination. 3<hi rend="sup">e</hi> Conc. de Carthage, an 397,
               can. 17 ;</quote></p>
-          <p>« <quote>3° Les prêtres doivent s’abstenir des grands repas, de la bonne chère, de
+          <p><quote>« 3° Les prêtres doivent s’abstenir des grands repas, de la bonne chère, de
               l’ivrognerie et autres vices. Il serait à souhaiter qu’ils n’assistassent pas même aux
               noces.</quote></p>
-          <p>« <quote>On défend aux prêtres d’avoir des femmes chez eux, si ce n’est leur mère, leur
+          <p><quote>« On défend aux prêtres d’avoir des femmes chez eux, si ce n’est leur mère, leur
               sœur, leur tante, leur aïeule. Conc. de Cologne, can. 1536 ;</quote></p>
-          <p>« <quote>4° Afin que les ministres de l’Eglise puissent être rappelés à cette <pb
+          <p><quote>« 4° Afin que les ministres de l’Eglise puissent être rappelés à cette <pb
                 n="348"/>continence et pureté de vie, si bienséante à leur caractère, et afin que le
               peuple apprenne à leur porter d’autant plus de respect qu’il les verra mener une vie
               plus chaste et plus honnête, le S. Concile défend à tous ecclésiastiques de tenir dans
@@ -4307,14 +4315,14 @@
               puisse avoir du soupçon, ni <hi rend="i">d’avoir aucun commerce avec elles</hi>,
               autrement ils seront <hi rend="i">punis</hi> des peines portées par les saints canons,
               ou par les statuts particuliers des Eglises ;</quote></p>
-          <p>« <quote>5° Tout prêtre, diacre ou sous-diacre qui, depuis la constitution du pape
+          <p><quote>« 5° Tout prêtre, diacre ou sous-diacre qui, depuis la constitution du pape
               Léon, aura pris ou gardé une concubine, on lui défend de célébrer la messe, de lire
               l’évangile ou l’épître, de demeurer dans le sanctuaire pendant l’office, ou de
               recevoir sa part des revenus de l’Eglise. Conc. de Rome, <pb n="349" xml:id="p349"/>an
               1059, can. 3 ; même ordonnance, C. de Londres, an 1126 ;</quote></p>
-          <p>« <quote>6° Défense aux clercs d’avoir chez eux de jeunes femmes suspectes
+          <p><quote>« 6° Défense aux clercs d’avoir chez eux de jeunes femmes suspectes
               d’incontinence. Concile de Salzbourg, an 1420,  2 ;</quote></p>
-          <p>« <quote>7° Que les clercs, sans en excepter ceux qui passent pour avoir la vertu de
+          <p><quote>« 7° Que les clercs, sans en excepter ceux qui passent pour avoir la vertu de
               continence, n’aillent jamais chez des veuves ou des vierges, qu’avec l’ordre ou la
               permission des évêques ou des prêtres, encore ne faudra-t-il pas qu’ils le fassent
               sans être accompagnés de quelques-uns de leurs confrères, ou de ceux que l’évêque, ou
@@ -4322,30 +4330,30 @@
               n’iront pas, sans avoir en leur compagnie d’autres ecclésiastiques ou du moins
               quelques fidèles d’un certain poids. 3<hi rend="sup">e</hi> conc. de Carthage, an 397,
               can. 25 ;</quote></p>
-          <p><pb n="350" xml:id="p350"/>« <quote>8° Défense d’entendre la messe d’un prêtre que l’on
+          <p><pb n="350" xml:id="p350"/><quote>« 8° Défense d’entendre la messe d’un prêtre que l’on
               sait certainement avoir une <hi rend="i">concubine</hi>. Conc. de Rome, an 1059,
               can. 3 ;</quote></p>
-          <p>« <quote>9° Défense aux clercs et aux moines d’avoir des <hi rend="i">servantes</hi>
+          <p><quote>« 9° Défense aux clercs et aux moines d’avoir des <hi rend="i">servantes</hi>
               dans leurs maisons et leurs prieurés, et aux bénéficiers ou clercs engagés dans les
               ordres, de rien laisser par testament à leurs bâtards ou à leurs concubines. Conc. de
               Tours, an 1239, Can. 7 ;</quote></p>
-          <p>« <quote>10° Défense aux clercs et aux moines d’assister aux spectacles, soit des
+          <p><quote>« 10° Défense aux clercs et aux moines d’assister aux spectacles, soit des
               courses de chevaux, soit du théâtre. Idem., can. 24 ;</quote></p>
-          <p>« <quote>11° Défense aux évêques et aux clercs de <hi rend="i">loger avec des
+          <p><quote>« 11° Défense aux évêques et aux clercs de <hi rend="i">loger avec des
                 femmes</hi>, de porter des habits séculiers ou de grands cheveux. Concile de Rome,
               an 744 et 787 ;</quote></p>
-          <p>« <quote>12° Le saint Concile, jaloux de <pb n="351" xml:id="p351"/>soutenir la dignité
+          <p><quote>« 12° Le saint Concile, jaloux de <pb n="351" xml:id="p351"/>soutenir la dignité
               du caractère du prêtre, sachant bien qu’on dit souvent à table beaucoup d’inutilités,
               veut, qu’à tous les repas des prêtres, on fasse la <hi rend="i">lecture de l’Ecriture
                 sainte</hi>. C’est un moyen excellent pour former les âmes au bien, et empêcher les
               discours inutiles. Conc. de Tolède, an 589, can. 7 ;</quote></p>
-          <p>« <quote>13°<note resp="editor" place="bottom"> [NDE] Le texte porte 12 ; on corrige en
+          <p><quote>« 13°<note resp="editor" place="bottom"> [NDE] Le texte porte 12 ; on corrige en
                 13.</note><hi rend="sc">Defense aux Pretres</hi> de loger avec <hi rend="sc">quelque
                 femme que ce soit</hi>, parce qu’il s’en est trouvé qui <hi rend="sc">avaient eu des
                 enfants de leurs propres s....</hi>… Conc. de Mayence, an 888, canon 105, in conc.
               Germ. Tom. 2. page 372, et <hi rend="i">Dictionnaire des conciles</hi>, page
               721 ;</quote></p>
-          <p>« <quote>Ut clericis interdicatur mulieres in domo sua habere, omnimodis decernimus.
+          <p><quote>« Ut clericis interdicatur mulieres in domo sua habere, omnimodis decernimus.
               Quamvis etiam sacri canones, quasdam personas feminarum simul cum clericis in una domo
               habitare permittant ; tamen, (quod multum <pb n="352" xml:id="p352"/>dolendum est)
               sæpe audivimus, per illam concessionem plurima scelera esse commissa, ita ut quidam
@@ -4353,14 +4361,14 @@
               generassent. Et idcirco constituit hæc sancta synodus, ut nullus presbyter ullam
               feminam secum in domo propria permittat, quatenus occasio malæ suspicionis, vel facti
               iniqui, penitus auferatur ;</quote></p>
-          <p>« <quote>14° Plusieurs ecclésiastiques s’adonnant à l’avarice et à l’intérêt sordide,
+          <p><quote>« 14° Plusieurs ecclésiastiques s’adonnant à l’avarice et à l’intérêt sordide,
               oublient l’Ecriture divine, qui dit : "Il n’a point donné son argent à usure, et
               prêtent à <hi rend="i">douze pour cent</hi>" ; le saint et grand concile a ordonné que
               si, après ce règlement, il se trouve quelqu’un qui prenne des usures d’un prêt, qui
               fasse quelque trafic semblable, <hi rend="i">qui exige une moitié au-delà du
                 principal</hi>, ou qui use de quelque autre <pb n="353" xml:id="p353"/>invention
               pour faire un gain sordide, il sera déposé et mis hors du clergé. I<hi rend="sup"
-                >er</hi> Conc. général de Nicée, an 325, can. 7.</quote> »</p>
+                >er</hi> Conc. général de Nicée, an 325, can. 7. »</quote></p>
           <p>On voit, par le texte de ces canons, que l’Eglise, qui a dû se montrer sévère dans les
             principes de son institution, à l’égard des fidèles qui suivaient ses lois, et contre
             lesquels elle a souvent lancé des sentences exterminatoires, n’a pas non plus ménagé ses
@@ -4371,12 +4379,12 @@
             serviteur de J.-C., devait nécessairement être donné par les ministres <pb n="354"
             />propres de son Eglise ; et à bien plus forte raison, l’observation des canons des
             saints conciles est un objet sacramentel pour les ecclésiastiques.</p>
-          <p>Le pape Saint-Damase en parle ainsi : « <quote>Les saints pères jugent avec rigueur
+          <p>Le pape Saint-Damase en parle ainsi : <quote>« Les saints pères jugent avec rigueur
               ceux qui violent volontairement les canons, et le <hi rend="i">saint esprit</hi> qui
               les a inspirés et dictés, condamne ces violateurs. <hi rend="i">Violatores canonum
                 graviter à sanctis patribus judicantur et à sancto spiritu, instinctu cujus dictati
-                sunt, damnantur.</hi></quote> » Canon violat. 15, 9, 1. Et le pape Jules continue de
-            cette manière : « <quote><hi rend="i">Nolite errare, fratres mei, etc.</hi> : Prenez
+                sunt, damnantur.</hi> »</quote> Canon violat. 15, 9, 1. Et le pape Jules continue de
+            cette manière : <quote>« <hi rend="i">Nolite errare, fratres mei, etc.</hi> : Prenez
               garde de pas tomber dans l’erreur, mes très chers frères ; vous avez les constitutions
               des apôtres et des hommes apostoliques, vous avez les <hi rend="i">saints canons</hi>,
               jouissez-en, mettez-y toute votre force, prenez plaisir à les lire, considérez-les
@@ -4386,7 +4394,7 @@
               les attaques des ennemis de votre salut ; car ce serait une chose tout à fait <hi
                 rend="i">indigne d’un évêque</hi> ou <hi rend="i">d’un prêtre</hi>, de refuser de
               suivre les règles que l’Eglise, où est le siège de Saint-Pierre, suit et
-              enseigne.</quote> »</p>
+              enseigne. »</quote></p>
           <p>On voit que ce souverain pontife s’écrie <hi rend="i">que ce serait une chose tout à
               fait indigne d’un évêque ou d’un prêtre de refuser de suivre les règles de
               l’Eglise</hi> ;</p>
@@ -4430,21 +4438,21 @@
           <p>Nous lisons encore dans l’<hi rend="i">Histoire du droit canonique</hi>, 1 vol. in-12,
             pages 385 et 393, au chapitre de la <hi rend="i">puissance</hi> des rois comme <hi
               rend="i">protecteurs des canons</hi> ;</p>
-          <p>« <quote>Que le prince temporel ne peut pas faire la discipline ecclésiastique, <hi
+          <p><quote>« Que le prince temporel ne peut pas faire la discipline ecclésiastique, <hi
                 rend="i">mais qu’il doit</hi> la <hi rend="i">maintenir</hi> ;</quote></p>
-          <p>« <quote>Que les <hi rend="i">puissances temporelles</hi> sont nécessaires dans
+          <p><quote>« Que les <hi rend="i">puissances temporelles</hi> sont nécessaires dans
               l’Eglise, afin de <hi rend="i">suppléer</hi> par leur <hi rend="i">pouvoir</hi> à ce
               que l’étendue de la parole ne peut faire ;</quote></p>
-          <p>« <quote>Que le prince a la liberté de choisir, parmi les différents usages, ceux qui
+          <p><quote>« Que le prince a la liberté de choisir, parmi les différents usages, ceux qui
               sont plus conformes au bien de son Etat ; qu’il peut <hi rend="i">rejeter tout à
                 fait</hi>, ou <hi rend="i">modifier</hi> les décrets de discipline faits par des
               conciles, même généraux</quote> ; pag. 394 ;</p>
-          <p><pb n="360" xml:id="p360"/>« <quote>Que les ecclésiastiques ont un double lien qui les
+          <p><pb n="360" xml:id="p360"/><quote>« Que les ecclésiastiques ont un double lien qui les
               soumet à l’autorité royale ; 1° leur qualité de <hi rend="i">citoyen</hi> qui les
               soumet à la puissance politique comme tous les autres sujets ; 2° leur qualité
               d’ecclésiastique qui les soumet au prince qui, comme protecteur des saints canons,
               doit <hi rend="i">veiller</hi> à leur exécution ;</quote> pages 400, 401 ;</p>
-          <p>« <quote>Que cette même qualité de protecteur des saints canons <hi rend="i">donne
+          <p><quote>« Que cette même qualité de protecteur des saints canons <hi rend="i">donne
                 droit</hi> au roi de veiller sur les mœurs des ecclésiastiques, afin de s’opposer au
               relâchement de la discipline de l’Eglise »</quote> ; pag. 402.</p>
         </div>
@@ -4472,9 +4480,9 @@
             roi Henri III, aux états de Blois, tenus en 1588 ; le garde des sceaux de Montholon
             prononça dans cette assemblée, au nom de ce prince, un discours dans lequel on remarque
             le passage suivant :</p>
-          <p>« <quote>Sa majesté demande donc d’abord au clergé puisqu’il est chargé de la
+          <p><quote>« Sa majesté demande donc d’abord au clergé puisqu’il est chargé de la
               réformation des autres, <hi rend="i">qu’il commence par se réformer lui-même, et
-                donner bon exemple aux autres ordres de l’Etat</hi>.</quote> »</p>
+                donner bon exemple aux autres ordres de l’Etat</hi>. »</quote></p>
           <p>Cette mercuriale, justement méritée et justement appliquée, devait <pb n="333*"
               xml:id="p363"/>porter le clergé à écouter la parole royale et le vœu de la nation, et
             à rentrer de lui-même dans les principes de l’Evangile et dans les dogmes apostoliques,
@@ -4486,17 +4494,17 @@
           <p>Henri III, frappé d’un coup mortel, profite de ses derniers instants pour adresser à
             ceux qui l’entourent un discours où il reproduit les malheurs de l’Etat, et dans lequel
             on remarque ces paroles :</p>
-          <p><pb n="334*" xml:id="p364"/>« <quote>A tant d’attentats mes ennemis ont ajouté <hi
+          <p><pb n="334*" xml:id="p364"/><quote>« A tant d’attentats mes ennemis ont ajouté <hi
                 rend="i">le parricide</hi> ; et ce qui m’est encore plus <hi rend="i">cruel</hi> que
               la mort même <hi rend="sc">c’est qu’en deshonorant a jamais le clerge, elle va couvrir
                 d’une eternelle ignominie la nation française, qui jusqu’ici s’est toujours
                 distinguee par son attachement pour ses rois, et par son zele pour la
               patrie</hi>.</quote></p>
-          <p>« <quote>Le clergé pour qui j’ai eu tant <hi rend="i">d’égards</hi>, auquel j’ai
+          <p><quote>« Le clergé pour qui j’ai eu tant <hi rend="i">d’égards</hi>, auquel j’ai
               cherché à m’associer, <hi rend="i">jusqu’à avilir dans cette vue la majesté
                 royale</hi>, s’est laissé aveugler, il y a déjà longtemps, par un faux zèle pour la
               religion, et <hi rend="i">donne aujourd’hui au peuple français l’exemple de la
-                révolte</hi>.</quote> »</p>
+                révolte</hi>. »</quote></p>
           <p>Quelle leçon pour les rois !… quelle honte pour le clergé !</p>
           <p>D’où provenait donc l’influence que le clergé exerçait sur la nation ? <pb n="335*"
               xml:id="p365"/>de l’oubli que le prince avait eu de ses propres devoirs, et de sa
@@ -4507,34 +4515,34 @@
           <p>C’est sous le règne d’Henri III que le <hi rend="i">clergé</hi> et les <hi rend="i"
               >jésuites</hi> eurent la criminelle audace de proclamer les principes subversifs de
             toute monarchie légalement instituée :</p>
-          <p>« <quote>Qu’un prince qui maltraite ses citoyens est une <hi rend="i">bête féroce,
+          <p><quote>« Qu’un prince qui maltraite ses citoyens est une <hi rend="i">bête féroce,
                 cruelle</hi> et <hi rend="i">pernicieuse</hi> ;</quote></p>
-          <p>« <quote>Qu’il y a des cas où il est permis à tout le monde de <hi rend="i">tuer</hi>,
+          <p><quote>« Qu’il y a des cas où il est permis à tout le monde de <hi rend="i">tuer</hi>,
               même celui qui est prince de <hi rend="i">droit</hi>, soit par succession, soit par
               élection, mais qui devient <hi rend="i">tyran</hi> par sa conduite ;</quote></p>
-          <p><pb n="336*" xml:id="p366"/>« <quote>Que si un prince légitime devient tyran jusqu’au
+          <p><pb n="336*" xml:id="p366"/><quote>« Que si un prince légitime devient tyran jusqu’au
               point de piller <hi rend="i">les fortunes publiques et particulières</hi>, s’il <hi
                 rend="i">méprise notre sainte religion</hi>, s’il <hi rend="i">charge ses sujets
                 d’impôts injustes</hi>, s’il fait <hi rend="i">des lois avantageuses pour lui et peu
                 utiles au public</hi>, la république doit s’assembler et l’inviter à se corriger :
               que s’il ne répare pas ses fautes, elle peut lui faire la guerre, et si les
               circonstances le permettent, lui porter le fer dans le sein.</quote></p>
-          <p>« <quote>Que les princes sont tenus d’obéir au commandement du pontife (romain) comme à
+          <p><quote>« Que les princes sont tenus d’obéir au commandement du pontife (romain) comme à
               la parole de J.-C., que s’ils y résistent il est en droit de les punir à titre de
               rebelles, et que s’ils font quelque entreprise contre l’intérêt de l’Eglise ou la
               gloire de J.-C., il peut les priver de leur royaume, donner leurs états à un autre
               prince, et dégager leurs sujets <pb n="337*" xml:id="p367"/>de l’obéissance qu’ils lui
               doivent, et du serment qu’ils lui ont fait<note place="bottom" resp="author"> [NDA]
                 Salmeron, comm. in evang. part. 3 tom. 4. Cornelino a lapide, comm. in acta apost.
-                et in epist. can. in ep. 1. Pet. c. 2.</note>.</quote> »</p>
+                et in epist. can. in ep. 1. Pet. c. 2.</note>. »</quote></p>
           <p>Et après la mort de ce monarque, <hi rend="i">Busenbaum</hi>, célèbre <hi rend="i"
               >jésuite</hi>, ne craignit pas de publier dans un de ses ouvrages :</p>
-          <p>« <quote>Que l’action de <hi rend="i">Jacques Clément</hi>, dominicain, est une <hi
+          <p><quote>« Que l’action de <hi rend="i">Jacques Clément</hi>, dominicain, est une <hi
                 rend="i">action mémorable</hi>, par laquelle il avait procuré à sa patrie et à sa
               nation le <hi rend="i">recouvrement de sa liberté</hi> ; que le <hi rend="i"
                 >massacre</hi> du roi lui fit <hi rend="i">grande réputation</hi>, et qu’étant d’une
               complexion faible, une <hi rend="i">vertu</hi> plus grande soutenait son
-              courage.</quote> »</p>
+              courage. »</quote></p>
           <p>De tels préceptes et de tels récits excitent l’indignation de tous les hommes de bien,
             en même temps <pb n="338*" xml:id="p368"/>qu’ils méritent toute la répression de
             l’autorité séculière.</p>
@@ -4544,28 +4552,28 @@
             d’être soumis à la puissance ecclésiastique, et de pouvoir être <hi rend="i">tués</hi>,
             lors même qu’ils deviendraient <hi rend="i">tyrans</hi>, sont au contraire considérés
             comme <hi rend="i">sacrés</hi> dans leur personne et dans leur autorité :</p>
-          <p>1° « <quote><hi rend="i">Principi populi tui non maledices</hi> ; vous ne maudirez
+          <p>1° <quote>« <hi rend="i">Principi populi tui non maledices</hi> ; vous ne maudirez
               point le prince de votre nation.</quote> Exode, chap. XXII, verset 28.</p>
-          <p>2° « <quote><hi rend="i">Non occides : qui autem occiderit</hi>, etc. ; vous ne tuerez
+          <p>2° <quote>« <hi rend="i">Non occides : qui autem occiderit</hi>, etc. ; vous ne tuerez
               point : et quiconque tuera méritera d’être puni par le jugement.</quote> Evang. de
             S. Matth., chap. V, vers. 21.</p>
-          <p><pb n="339*" xml:id="p369"/>3° « <quote>Celui qui <hi rend="i">s’oppose aux
+          <p><pb n="339*" xml:id="p369"/>3° <quote>« Celui qui <hi rend="i">s’oppose aux
                 puissances</hi>, <hi rend="sc">resiste a l’ordre de Dieu</hi> ; et ceux qui
               résistent, attirent une <hi rend="i">juste condamnation</hi> sur eux-mêmes.</quote>
             S. Paul, ép. aux Romains.</p>
-          <p>4° « <quote>Il est donc nécessaire de vous soumettre <hi rend="i">aux puissances</hi>,
+          <p>4° <quote>« Il est donc nécessaire de vous soumettre <hi rend="i">aux puissances</hi>,
               non seulement par la crainte du châtiment, mais aussi par le devoir de la
               conscience.</quote> Id.</p>
-          <p>5° « <quote>Anathème terrible contre quiconque <hi rend="i">osera violer</hi> le <hi
+          <p>5° <quote>« Anathème terrible contre quiconque <hi rend="i">osera violer</hi> le <hi
                 rend="i">serment fait</hi>
               <hi rend="sc">aux rois</hi>, et contre ceux qui attentent contre leur <hi rend="i"
                 >autorité</hi> et contre <hi rend="i">leur vie.</hi></quote> Quatrième concile de
             Tolède, an 634, can. dern. </p>
-          <p>6° « <quote>Les <hi rend="i">évêques</hi> et les <hi rend="i">prêtres</hi> qui auront
+          <p>6° <quote>« Les <hi rend="i">évêques</hi> et les <hi rend="i">prêtres</hi> qui auront
                 <hi rend="i">violé les serments faits pour la sûreté du prince, ou de l’Etat</hi>,
               seront déposés : il sera permis toutefois au prince de leur faire grâce.</quote>
             Dixième conc. de Tolède, an 656, can. 2.</p>
-          <p><pb n="340*" xml:id="p370"/>7° « <quote>L’homicide d’un tyran est illicite, c’est ce
+          <p><pb n="340*" xml:id="p370"/>7° <quote>« L’homicide d’un tyran est illicite, c’est ce
               qu’on voit par le décret du concile de Constance qui condamne la proposition de Jean
               Petit : elle autorisait chaque particulier à faire mourir un tyran, par quelque voie
               que ce fût ; et nonobstant quelque serment qu’on eût fait, sans toutefois nommer
@@ -4576,11 +4584,11 @@
               hérétiques tous ceux qui soutiendront opiniâtrement cette doctrine, et veut que comme
               tels ils soient punis selon les canons et les lois de l’Eglise.</quote> Conc. gén. de
             Constance, an 1415, 15<hi rend="sup">e</hi> sess.</p>
-          <p><pb n="341*" xml:id="p371"/>8° « <quote>Si quelqu’un par esprit d’orgueil et
+          <p><pb n="341*" xml:id="p371"/>8° <quote>« Si quelqu’un par esprit d’orgueil et
               d’indépendance s’élève contre la <hi rend="i">puissance royale</hi>, dont <hi rend="i"
                 >Dieu même est l’instituteur</hi>, et qu’il refuse d’obéir sans vouloir se laisser
               convaincre par la raison et par la religion, qui lui prescrivent une obéissance
-              entière, qu’il soit anathème.</quote> » Concile de Tours, an 1583, can. 1. »</p>
+              entière, qu’il soit anathème. »</quote> Concile de Tours, an 1583, can. 1. »</p>
           <p>Il est impossible de condamner plus <hi rend="i">canoniquement</hi> ceux qui attentent
             à l’autorité et à la vie des rois, soit que les coupables appartiennent à l’ordre
             ecclésiastique, ou à l’ordre séculier.</p>
@@ -5240,7 +5248,7 @@
         </div>
         <div type="chapter">
           <pb n="371*" xml:id="p401"/>
-          <head>CONCLUSIONS GENERALES.</head>
+          <head>Conclusions générales.</head>
           <p rend="indent">Les comédiens du troisième âge, ayant reçu leur institution du prince et
             des lois du royaume, ne sont point comptables de leur profession au clergé ;</p>
           <p>L’abjuration de cette profession, exigée par le clergé, est un <hi rend="i">véritable
@@ -5332,7 +5340,7 @@
 
         <div type="chapter">
           <pb n="379*" xml:id="p409"/>
-          <head>DU MANDEMENT<hi rend="sc"> DE MONSEIGNEUR</hi> L’ARCHEVEQUE DE ROUEN.</head>
+          <head>Du mandemant<hi rend="sc"> de Monseigneur</hi> l’Archeveque de Rouen.</head>
           <p rend="indent">Depuis le rétablissement du culte catholique en France, et surtout depuis
             la restauration, le zèle des fidèles s’est tellement accru, qu’on les voit remplir les
             églises à l’heure des offices, et suivre les prédicateurs avec une attention et une
@@ -5581,7 +5589,7 @@
       </div>
       <div type="contents">
         <pb n="409" xml:id="p433"/>
-        <head>TABLE DES MATIERES<lb/>CONTENUES DANS CE VOLUME.</head>
+        <head>Table des matières <lb/>contenues dans ce volume.</head>
         <label>A.</label>
         <p/>
         <p><hi rend="sc">Adjuration</hi> de la profession de comédien, exigée par le clergé, page
