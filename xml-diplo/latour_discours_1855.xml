@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2019-05-31T13:20:26+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Discours sur le théatre, prononcé dans l’assemblée publique de l’Académie de Pau, où
+          se trouvoient les Députés des Etats du Béarn et les Dames de la ville</title>
+        <author ref="La Tour, Bertrand de (1701-1780)"
+          key="https://data.bnf.fr/fr/12084200/bertrand_de_la_tour/">Bertrand de La Tour</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2019"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/latour_discours_1855</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Bertrand de La Tour</author>, « Discours sur le théatre, prononcé dans
+          l’assemblée publique de l’Académie de Pau, où se trouvoient les Députés des Etats du Béarn
+          et les Dames de la ville » in <hi rend="i">Œuvres complètes de La Tour, doyen du chapitre
+            de Montauban… ; publiées par l’abbé Migne</hi>, <pubPlace>Paris</pubPlace>,
+            <publisher>J.-P. Migne</publisher>, <date>1855</date>, <biblScope>2e partie, tome I,
+            col. 1532-1553</biblScope> PDF : <ref
+            target="http://books.google.fr/books?id=T9k_AAAAYAAJ">Google Books</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1855"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="1532" xml:id="p1532"/>
+        <head type="main"><hi rend="sc">Discours sur le théatre</hi>,</head>
+        <head type="sub">Prononcé dans l’assemblée publique de l’Académie de Pau, où se trouvaient
+          les députés des Etats du Béarn et les dames de la ville.</head>
+        <p>Quelque juste que soit la guerre littéraire que je déclare au théatre, je sens que les
+          passions qui y sont si vivement et si agréablement étalées, me raviront un grand nombre de
+          suffrages. Mais, avant d’entrer en lice, je veux imiter un grand prince, qui a cru devoir
+          faire alliance avec les impératrices d’Allemagne et de Russie. J’ai recours à la
+          protection des dames qui me font l’honneur de m’entendre, je combats un penchant bien
+          commun et bien vif, plus redoutable que le roi de Prusse. Pour se battre à armes égales,
+          que de batteries d’esprit et d’agréments ne faut-il pas lui opposer. Heureusement vous le
+          voyez, mes arsenaux sont bien fournis, mes troupes auxiliaires bien armées. Le grand
+          prince que j’ose prendre pour modèle s’unit encore avec l’empire. N’ai-je pas aussi pour
+          protecteurs les états de la province, qui valent bien pour moi la diète de Ratisbonne. Les
+          vertus et la sagesse, la religion et les mœurs ; l’Eglise et la noblesse me donnent dans
+          les illustres pères de la patrie, réunis avec l’Académie, le collége des électeurs et
+          celui des princes, soutenu d’un côté par les troupes légères des grâces, et l’autre par la
+          puissante phalange de l’Academie et des Etats, que toutes les troupes des auteurs et des
+          amateurs s’arment contre moi, je marche sans crainte à l’ennemi.</p>
+        <p>Les romans et le théâtre sont fort semblables, le roman est une comédie en récit, un
+          drame est un roman en action. Point d’aventure galante dont on ne puisse faire une pièce
+          dramatique, on l’a fait d’un très-grand nombre, et point de comédie dont ne fit un roman,
+          il ne faut que dialoguer l’un et raconter l’intrigue de l’autre. Tous les deux sont
+          très-dangereux pour les mœurs ; qui en doute parmi les chrétiens ? Une triste expérience
+          ne l’apprend que trop au téméraire qui ose encourir les risques : que faut-il de plus à
+          l’homme sage ? le salut est préférable à tout, c’est l’unique affaire. Que sert à l’homme
+          de cultiver son esprit, de composer de beaux ouvrages, d’acquérir une réputation
+          brillante, de goûter les plus doux plaisirs, de gagner tout un monde, s’il perd son
+          âme.</p>
+        <p>Mais je n’envisage ici la scène, non plus que les romans que du côté littéraire. Ce n’est
+          pas un prédicateur, c’est un académicien qui parle. Je combattrais en chaire pour la
+          religion et pour la vertu ; j’alarmerais votre conscience par la vue des blessures
+          profondes que le spectacle fait à votre âme. Mais, sans abandonner les intérêts de
+          l’éternité qui ne doivent pas être moins précieux à l’académicien qu’au fidèle, je me
+          borne ici à effrayer votre esprit par le détails des plaies que la comédie fait au bon
+          goût et <pb n="1533" xml:id="p1533"/>aux belles-lettres. La dépravation des mœurs qu’elle
+          cause suffirait pour le démontrer. La vertu toujours raisonnable, et seul véritablement
+          raisonnable, fait juger sainement, parler noblement, penser décemment : le vice est
+          aveugle, frivole, bas, licencieux. Les grands auteurs sont communément vertueux. Rarement
+          un homme sans mœurs sera-t-il bon écrivain ?</p>
+        <quote>
+          <p><hi rend="i">Le vers se sent toujours des bassesses du cœur,</hi></p>
+        </quote>
+        <p>dit Boileau ; mais j’abandonne encore cet avantage de ma cause ; je me renferme dans la
+          sphère de la littérature. J’y trouve d’assez fortes armes pour être assuré de la
+          victoire.</p>
+        <p>On sent aisément que toutes celles que j’ai employées contre les romans, me rendraient le
+          même service contre les productions théâtrales. Même frivolité, même mensonge, même
+          mollesse, elle y est même incomparablement plus dangereuse, ce ne sont pas des poisons
+          froids, et comme morts dans l’écriture. Ce sont des poisons animés par les charmes des
+          actrices, le feu de la déclamation, la pompe de la décoration, la musique, la danse, la
+          compagnie, qui se glissent dans nos veines par tous les sens à la fois,</p>
+        <quote>
+          <p><hi rend="i">Est mollis flamma medullas.</hi></p>
+        </quote>
+        <p>Ils ne laissent point la liberté de réfléchir ; l’âme, frappée par la force du tableau
+          vivant, entraînée par le torrent de l’action, et l’ivresse du plaisir, n’est plus à la
+          raison, à elle-même.</p>
+        <p>Ces idées n’ont un air de paradoxe qu’aux yeux de l’enthousiasme des amateurs, et cela
+          même le condamne, l’ivresse jugea-t-elle jamais sainement du vrai mérite ? C’est une des
+          folies de la scénomanie de s’imaginer que le théâtre enseigne tout, qu’il décide tout,
+          qu’il est tout, que comme les héros y jouent toute sorte de rôles, ils y deviennent
+          orateurs, philosophes, jurisconsultes, savants, gens d’esprit, et ont toutes les qualités
+          des grands hommes qu’ils représentent. Molière, dans l’apologie du <hi rend="i"
+            >Tartufe</hi>, n’a-t-il pas eu l’extravagance d’avancer <hi rend="i">que les prêtres
+            n’étaient déchaînés contre lui, que parce qu’il prêchait mieux qu’eux</hi> ? N’a-t-on
+          pas fait dire au prince de Condé, <hi rend="i">que les pièces de Corneille étaient pour
+            lui des leçons de politique</hi> ? Ecoutons Sainte-Foix, <hi rend="i">Essais sur
+            Paris</hi> (tom. IV, pag. 85) : <quote>« Je croirais la décadence de notre nation
+            prochaine, si les hommes de quarante ans n’y regardaient pas Corneille comme <hi
+              rend="i">le plus grand génie qui ait jamais été</hi>.Quelle rapidité dans son vol !
+            quel sublime dans ses pensées ; quelle noblesse dans ses portraits ; quelle majesté dans
+            les tableaux ; quelle profondeur de politique ; quelle vérité ; quelle force de
+            raisonnement, »</quote> etc. C’était sans doute dans un moment de délire qu’on a écrit
+          ces grands mots. Vous savez faire quelques vers, dialoguer une scène, prononcer avec
+          grâce ; à quoi vous servent ces talents pour la société ? Passe-t-on des coulisses aux
+          fleurs de lis, des foyers à l’armée. Le savant magistrat, l’habile officier, le bon père
+          de famille, la femme fidèle, <pb n="1534" xml:id="p1534"/>sont-ils des personnages formés
+          de la main des actrices ? Quel genre de littérature y apprendrez-vous. Thalie fait-elle
+          éclore un historien, un orateur, un médecin, un géomètre ? A moins que vous ne preniez
+          pour d’utiles instructions les savantes leçons que donnent au bourgeois gentilhomme, son
+          musicien, son maître de grammaire, ou de philosophie. Un acteur serait bien surpris de se
+          voir ériger en professeur de quelque faculté, et la scène en lycée. On y parle de tout, on
+          croit tout savoir, et on ne sait rien, c’est le <hi rend="i">Chrysologue</hi> de Rousseau.
+            <hi rend="i">Chrysologue est tout, et n’est rien</hi> ; j’ajoute, il n’est rien, parce
+          qu’il croit être tout.</p>
+        <p>On y est aussi peu aidé, même en poésie. La plupart des comédies sont en prose, la
+          plupart des autres ne sont que de la prose rimée, où bien loin de donner, on n’observe
+          aucune règle de versification. Chaque genre de poésie à sa muse, dont le théâtre
+          n’ambitionne, ni ne ménage les faveurs. <quote><hi rend="i">Le genre dramatique</hi><seg
+              type="exquote">, dit Fréron,</seg> est la maladie à la mode ; <hi rend="i">cette
+              fureur fait beaucoup de tort au reste du Parnasse.</hi></quote> Dans le dramatique
+          même qui renferme deux empires, Thalie et Melpomène sont jalouses et rivales, quoique
+          sœurs. Le favori de l’une doit renoncer aux bonnes grâces de l’autre. Le poëte universel
+          est encore à naître, même dans les divers théâtres tragique, comique, lyrique, pastoral.
+          Qui lit les poésies diverses de Corneille ? Racine a prudemment laissé les siennes dans
+          son porte-feuille, ainsi que Crébillon et Campistron. Molière s’est fait siffler dans son
+          poëme du <hi rend="i">Val de Grâce</hi>. Homère et Pindare ne furent point émules de
+          Sophocles et de Ménandre. Virgile, Horace, Boileau, n’ont jamais chaussé le cothurne.
+          Veut-on qu’un faiseur de comédie, cet être merveilleux, fasse aussi une chanson. A la
+          bonne heure ; et qu’est-ce dans l’état qu’une chanson et une comédie, c’est une comédie et
+          une chanson. Que peut-il enseigner que ce qu’il sait ? La meilleure école de peinture ne
+          formera que des peintres ; il ne peut sortir que des musiciens de la plus savante académie
+          de musique, le théâtre ne peut faire que des comédiens. S’il était permis de mêler
+          l’Evangile à des objets profanes, nous dirions : <quote><hi rend="i">On ne cueille point
+              des figues et des raisins sur les buissons.</hi></quote> (<hi rend="i">Luc.</hi>, VI,
+          44.)</p>
+        <p>Qu’est-ce dans le fond que cette école théâtrale, bien appréciée ? Prenons-là depuis
+          Corneille jusqu’à nos jours. Mettons le bon et le mauvais dans une balance équitable, de
+          quel côté penchera-t-elle, même de l’aveu des amateurs ? Dans la masse des auteurs
+          dramatiques, et même dans la totalité des ouvrages des meilleurs auteurs, il y a
+          incomparablement plus de mauvais que de bon. On compte cinq ou six poëtes, qu’on dit
+          excellents, peut-être une douzaine de médiocres ; tout le reste (et il en est plus de cinq
+          cents) ne fait que barboter dans la boue du Parnasse. Dans cette foule méprisable,
+          quelqu’un s’est distingué par la singularité, le ridicule, ou le vice. Tels sont les
+          grands maîtres qui, pendant cent cinquante <pb n="1535" xml:id="p1535"/>ans ont rempli les
+          chaires des belles-lettres, érigées dans la fameuse université des histrions. Les
+          meilleurs auteurs ne sont pas plus heureux ; il y a cinq à six bons poëmes dans Corneille,
+          autant dans Molière et dans Racine, en allant glaner sur les autres, on en ramasserait une
+          trentaine, tout le reste n’est rien.</p>
+        <quote>
+          <l><hi rend="i">J’ai vu l’Agesilas.</hi></l>
+          <l><hi rend="i">Hélas !</hi></l>
+          <l><hi rend="i">Dans ce sac ridicule où Scapin s’enveloppe,</hi></l>
+          <l><hi rend="i">Je ne reconnais plus l’auteur du Misanthrope.</hi></l>
+        </quote>
+        <p>Qu’est-ce pour former l’esprit que <hi rend="i">Pourceaugnac</hi>, le <hi rend="i"
+            >Médecin malgré lui</hi> ? Qu’est-ce que <hi rend="i">Poisson</hi>, <hi rend="i"
+            >Durier</hi>, <hi rend="i">Scudéry</hi>, <hi rend="i">Dancourt</hi>, <hi rend="i"
+            >Vadé</hi>, <hi rend="i">Favard</hi>, <hi rend="i">Panard</hi>, <hi rend="i"
+            >Montfleuri</hi>, etc. Voilà les trésors de la scène. Mais c’est, dit-on, la vieillesse
+          ou la jeunesse de Corneille et de Molière, on y trouve des traits de génie, des étincelles
+          de leur feu divin ; car on divinise à bon marché dans les loges. A la bonne heure, que ces
+          dieux de nouvelle création figurent sur l’Olympe. Mais on n’exigera pas que je prenne pour
+          maître un vieux radoteur, ou un jeune étourdi, quelque habile homme qu’il ait été ou qu’il
+          doive être, les étincelles et les éclairs sont de mauvais guides, et avec tout le respect
+          qui est dû à ces astres brillants, à retrancher leurs taches, leurs éclipses, leurs
+          aberrations, leur lever, leur coucher, on ne peut en espérer que bien peu de beaux jours
+          et des lumières bien faibles.</p>
+        <p>Les bonnes pièces offrent un beau dessein, quelques bonnes scènes, de bons vers, des
+          portraits, des sentiments, tout cela sans doute a son mérite. Mais, réduits à leur juste
+          valeur, par une soustraction raisonnable, ces morceaux réunis ne font pas le quart du
+          poëme. Ne soyons pas dupes de la charlatanerie typographique ; les trois quarts ne sont
+          qu’échaffaudage pour étaler la marchandise. Retranchons les vignettes, les culs de lampe,
+          les titres des actes et des scènes, les espaces inutiles, les noms des acteurs répétés dix
+          fois dans une page, dont chacun emporte trois ou quatre lignes ; supprimons les
+          monosyllabes <hi rend="i">oui</hi>, <hi rend="i">non</hi>, <hi rend="i">mais</hi>, <hi
+            rend="i">ouais</hi> ; les phrases commencées et interrompues, qui ne signifient rien ;
+          les liaisons triviales, <hi rend="i">entrez</hi>, <hi rend="i">sortez</hi>, <hi rend="i"
+            >on frappe</hi>, dont chacune tient fièrement sa ligne, et est honorée du nom d’un
+          acteur, cette réduction est équitable ; il ne faut pas un génie bien transcendant pour
+          enfanter ces prodiges. Les 3 ou 9 volumes de Molière, ainsi élagués feront à peine un
+          volume. Autre réforme plus étendue et plus importante. Que cette matière, ainsi purgée
+          soit mise au creuset d’une saine critique ; qu’on la dégage des platitudes, des
+          bouffonneries, des fadeurs, des grossièretés, des scènes, des conversations de valet, de
+          soubrette, de paysan, de fourbe, pour ne conserver que ce qu’il y a d’ingénieux et de
+          bon : toute la bibliothèque du théâtre de plus de mille volumes ferait à peine deux ou
+          trois in-12. Les <hi rend="i">Caractères</hi> de la Bruyère, le <hi rend="i"
+            >Télémaque</hi> de Fénelon, l’<hi rend="i">Histoire</hi>
+          <pb n="1536" xml:id="p1536"/><hi rend="i">universelle</hi> de Bossuet, valent infiuiment
+          mieux que toutes les productions théâtrales ensemble. Quelle tête qui serait pleine de ces
+          rapsodies ! <hi rend="i">ce serait l’abrégé des Petites-Maisons.</hi></p>
+        <p>Je sais qu’on ne pèse pas les auteurs à la livre, qu’on ne mesure pas le génie à la
+          toise, comme ce riche ridicule, qui pour se donner un air savant, traitait avec un
+          libraire, et se faisait fournir des livres comme des tapisseries ; cependant à mérite égal
+          un grand ouvrage l’emportera sur une brochure. Que sera-ce quand, à la frivolité du genre,
+          à la médiocrité du mérite, on joindra comme au théâtre, la petitesse du volume. Les
+          amateurs sont un peu suspects ; une pièce est à leurs yeux un chef-d’œuvre d’esprit ; le
+          dernier effort du génie, le miracle de l’humanité, la nature épuisée, presque la divinité,
+          si on l’osait dire, dans la création d’un Corneille, d’un Racine, d’un Molière, ne peut
+          aller plus loin, comme on le disait d’Aristote avec plus de raison : <quote><hi rend="i"
+              >Humani ingenii extrema meta.</hi></quote> Je m’étonne qu’à l’exemple de la <hi
+            rend="i">Métromanie</hi>, pièce ingénieuse, où l’on loue la manie du vers, on n’ait pas
+          fait la <hi rend="i">scénomanie</hi> pour jouer la manie du théâtre. Il pourrait bien y
+          avoir des scènes bien instructives et amusantes, sur l’enthousiasme des amateurs, et le
+          prix excessif qu’ils mettent aux productions ordinairement médiocres, le plus souvent
+          véreuses de ce mauvais terroir, et à peu près comme le maître de danse et de musique du
+          bourgeois gentilhomme, attachent le bonheur et le gouvernement du monde à une ariette ou à
+          un rigodon. Pour moi, qui ne suis pas tout à fait si enthousiasmé, je ne prends pas pour
+          pur un or plein d’alliage, et je fais cribler le froment dont je me nourris.</p>
+        <p>Qu’on choisisse donc ce qu’il y a de bon, et le théâtre sera utile. Ce choix ne se fait
+          pas ni ne peut se faire, et ne vaut pas la peine qu’on le fasse. Qui le fera, sera-ce
+          l’auteur, admirateur aveugle de ses ouvrages ? Sera-ce les comédiens ou les libraires, qui
+          ne jugent de la bonté d’une pièce que par l’argent qui leur en revient, et savent bien que
+          les plus licencieuses sont les plus lucratives ? On ne va à la comédie que pour s’amuser,
+          on ne s’y remplit que de passions de bouffonnerie, la foule ne goûte et n’est capable de
+          goûter que les folies qui la font rire ; <hi rend="i">elle attend la soubrette avec
+            impatience, quand le héros parle raison sur la scène</hi>, vouloir en faire une école de
+          bon goût, c’est une chimère. Le plus sûr moyen de faire tomber les spectacles, c’est de
+          les réduire à ne donner rien que d’utile et de bon, on ne trouverait plus, ni auteurs, ni
+          acteurs, ni spectateurs ; ne faut-il pas qu’après la meilleure pièce, une farce vienne
+          dédommager de ses ennuyeuses beautés. On en a si fort prisé jusqu’aux moindres traits,
+          qu’on n’a pas rougi d’offrir aux public dans une foule de volumes du théâtre Italien, les
+          esquisses, les canevas, les croquis des scènes que les acteurs remplissent <hi rend="i"
+            >impromptu</hi> ; il faut qu’on attache une prodigieuse importance à <pb n="1537"
+            xml:id="p1537"/>tout ce que la scène enfante pour en transmettre à la postérité jusqu’à
+          la poussière. Qui fera le judicieux discernement d’un petit nombre de bonnes choses,
+          noyées dans un tas immense de mauvaises. Un libertin le voudra-t-il ? conduit par la
+          légèreté, entraîné par la volupté, il s’arrêtera par préférence à ce qu’il faudrait
+          supprimer. Un homme sage daignera-t-il y perdre son temps, et acheter à si grands frais
+          quelque ligne avouée par la raison et le goût ? Il faudra donc que ce laborieux mortel
+          qui, à travers tant de landes, de buissons, de bourbiers, enfin après mille fatigues sera
+          parvenu à une petite collection de richesses théâtrales, interdise les spectacles : on y
+          retrouverait tout ce qu’il aurait proscrit, et tel que le jeune homme de Térence,</p>
+        <quote>
+          <p><hi rend="i">Qui court chez sa maîtresse, oublier ses leçons.</hi></p>
+        </quote>
+        <p>bientôt on renouerait les dangereuses liaisons avec les ennemis auxquels il aurait
+          déclaré la guerre. En attendant l’édition de ce précieux recueil avec privilége exclusif
+          des misères de la scène, nous continuerons à la regarder comme une très-mauvaise école.
+          Nous pensons comme le livre célèbre <hi rend="i">De corrupta eloquentia</hi>, attribué à
+          Cicéron et qui n’en n’est pas indigne. Il assure que le théâtre est une des principales
+          causes de la corruption de l’éloquence dès le premier âge : <quote><hi rend="i">Hæc mihi
+              pene in utero matris concipi videtur furore histrionali : his occupatus et oblectatus
+              animus quantulum loci bonis artibus relinquit</hi> ?</quote></p>
+        <p>Ce n’est ni prévention ni excès. Le juge le plus compétent est le moins suspect : le
+          théâtre lui-même prononce cet arrêt. Point de tribunal au monde où la critique soit plus
+          commune, plus sévère et ordinairement plus juste. Rien n’y paraît qui n’ait mille
+          censeurs. Combien de pièces rejetées par les comédiens, ou sifflées par le parterre ? Que
+          de parodies, d’extraits, de brochures satiriques ! A l’entendre, tout est plein de fautes.
+          Que sont les préfaces de Corneille, de Racine, de Molière, que des apologies, où l’auteur
+          à genoux demande grâce au public, et se déchaîne contre les jaloux, qui malheureusement ne
+          disent que trop vrai, et ne font pas mieux. A voir ces écrivains se déchirer les uns les
+          autres, on peut dire, comme de Pétrin et de Colasse :</p>
+        <quote>
+          <l><hi rend="i">Apollon, toujours équitable,</hi></l>
+          <l><hi rend="i">Prétend qu’ils ont raison tous deux.</hi></l>
+        </quote>
+        <p>Que n’a-t-on pas écrit contre <hi rend="i">Le Cyd</hi> ? L’Académie en corps y remarqua
+          plus de deux cents fautes, et n’avait pas tort. <hi rend="i">Phèdre</hi> essuya les plus
+          rudes assauts ; <hi rend="i">Esther</hi> si brillante à Saint-Cyr est tombée à l’hôtel.
+            <hi rend="i">Athalie</hi> aujourd’hui si vantée, a été vingt ans méprisée. La critique
+          de l’<hi rend="i">Ecole des femmes</hi> a fourni matière à une comédie ; ce serait une
+          histoire amusante, que le détail des querelles théâtrales. Si quelque pièce se soutient,
+          malgré l’orage, que le nombre en est petit. Presque tout se brise, et mérite de se briser
+          à l’écueil de la critique :</p>
+        <quote>
+          <p><hi rend="i">Apparent rari nantes in gurgite vasto.</hi></p>
+        </quote>
+        <p><pb n="1538" xml:id="p1538"/>De sorte qu’au jugement même de leurs adorateurs, Melpomène
+          et Thalie ne sont que des misérables couvertes de haillons, qui ont un habit pour les
+          jours de fête, en ore n’est-ce qu’un habit d’arlequin, composé de pièces rapportées, où
+          l’on trouve un morceau d’étoffe de prix, quelque joli compartiment, ou quelque couture
+          bien liée.</p>
+        <p>Démontrons ces vérités par l’analyse. Il faut quatre choses à l’homme de lettres :
+          étendue de connaissances, justesse de vues, élévation des sentiments, noblesse du style.
+          Trouver et produire, c’est le génie ; choisir et bien saisir, c’est l’esprit ; élever et
+          ennoblir, c’est l’âme ; peindre et faire goûter, c’est la diction. Or, le théâtre borne le
+          génie, affaiblit l’âme, rend l’esprit faux, le style bas. Est-ce donc une bonne
+          école ?</p>
+        <p>1° La force et l’étendue du génie se développent dans la multitude, la variété, la
+          profondeur des idées. Les sciences lui découvrent un champ immense. Les questions de
+          théologie, de démonstration, de mathématique, les merveilles de la nature, la profondeur
+          de la politique, de la jurisprudence sont inépuisables. Tout est borné dans le
+          dramatique ; il n’a que trois objets, les vices des grands, les ridicules des petits, les
+          amusements du plaisir. Ce ne sont même ni tous les vices, ni tous les défauts, ni tous les
+          agréments. La tragédie n’expose que l’ambition, l’orgueil, l’emportement, les amours des
+          grands. Leurs petitesses, leurs débauches, intempérance, mollesse, seraient-elles
+          souffertes sur la scène tragique ? la comédie ne saisit que les ridicules réjouissants ;
+          combien de misères dans le peuple, qu’elle n’oserait nommer sans se rendre dégoûtante.
+          Changez les noms ; ajoutez quelque circonstance, distribuez différemment les rôles,
+          nuancez les caractères, vous ferez vingt pièces de la même étoffe. Nommez dans le pastoral
+          les ruisseaux, les oiseaux, les troupeaux, les prairies, les nymphes, tout est dit. Dans
+          la danse, figurez, entrelassez des sauts, des pas à droite ou à gauche, tout est fait. Ce
+          n’est même que dans le goût national ; tout le reste est ennuyeux. Qui s’embarrasse de la
+          mythologie du Mexique, des amours des nègres, des troupeaux, des hameaux, des bergers des
+          Indes, des fleurs, du rocou, des topinambours. Ce cercle étroit où l’on s’emprisonne,
+          ouvre-t-il une carrière au génie. Je ne parle même que des grandes pièces. Les farces, les
+          divertissements, les pièces d’un ou deux actes, ne sont que des aventures de guinguette,
+          des sottises dialoguées, où tout rampe : quel essor peut-on s’y donner ?</p>
+        <p>La plupart des dramatiques ne sont que des plagiaires, des traducteurs, des copistes des
+          autres et d’eux-mêmes. Les pièces espagnoles, italiennes, anglaises, sont naturalisées en
+          France ; c’est le même sujet, tourné et, retourné sous des noms différents. Au théâtre,
+          plus qu’ailleurs, tout est dit depuis longtemps. Partout même dénoûment, un mariage ; même
+          intrigue, une passion <pb n="1539" xml:id="p1539"/>traversée, conduite par un fourbe ;
+          mêmes personnages, amoureux, confidents, jaloux, valets, servantes. Le hasard fait naître
+          quelque incident qui avance ou recule le succès. C’est le même canevas ; quelques traits
+          différents dans ces portraits, même cadre : c’est une brodeuse qui trace la même fleur en
+          diverses couleurs, diverses situations, avec du fil ou de la soie.</p>
+        <p>Molière lui-même, si vanté, n’est pas plus inventeur que les autres. L’abbé de Longuerue,
+          ce savant célèbre, souvent singulier, trop souvent véridique, dit <quote><hi rend="i"
+              >Longuerue ana</hi></quote>, pag. 156 : <hi rend="i">Molière avouait que Scaron avait
+            plus de jeu que lui. La comédie du Fâcheux n’est qu’un amas de traits du même caractère,
+            mais sans conduite</hi> (une pièce à tiroir). Il en dit de même du <hi rend="i"
+            >Misanthrope</hi>, ce qui est vrai. L’intrigue de cette pièce fameuse est fort peu de
+          chose. Je n’ai garde d’approuver le burlesque de Scarron, si justement condamné par
+          Boileau, ni de souscrire à toutes les idées de l’abbé de Longuerue ; mais, comparant génie
+          à génie, Molière se rendait justice, Scaron est plus fécond, plus varié, plus plaisant ;
+          il y a plus d’invention dans le roman comique, comme dans l’<hi rend="i">Arioste</hi> et
+          dans <hi rend="i">Dom Quichotte</hi>, que dans le théâtre de Molière. Corneille a aussi
+          plus de variété dans les plans, les caractères, les contrastes. Molière a le talent de
+          peindre en détail les ridicules, il sait copier et contrefaire, il prend naturellement le
+          ton, les allures, les manières de ses personnages. Il est singe ; mais ce n’est pas un
+          peintre en grand, ni même un <hi rend="i">Calot</hi> qui crée et diversifie à l’infini ses
+          grotesques. Il n’est ni orateur ni poëte, il versifie assez mal, et la plupart de ses
+          pièces sont en prose. Il a traité quantité de sujets. Ce n’est qu’une abondance stérile.
+          Il se copie par tout lui-même, tout est jeté dans le même moule. C’est du bronze, du
+          plâtre, de l’acier, toujours même statue. On a reproché cette stérilité à Térence. Le
+          comique français, supérieur par la finesse des plaisanteries, inférieur par la pureté du
+          style, n’a pas plus de fécondité que le romain. Je ne parle pas des innombrables
+          bouffonneries qui font grimacer les figures, et font de lui un tabarin ; il en convenait,
+          et s’excusait sur ce qu’il fallait, pour gagner de l’argent, attirer le peuple et
+          s’accommoder au goût des halles. Des motifs si bas et des moyens si méprisables font-ils
+          de Molière un oracle ?</p>
+        <p>2° Elévation des sentiments. S’il en est des modèles au théâtre, ce ne peut être que dans
+          le haut tragique. La comédie est toute bourgeoise. S’il en est dans quelque auteur, c’est
+          dans Corneille, à qui les premiers accès de l’enthousiasme prodiguèrent le nom de grand.
+          Les autres tragiques qui se font un devoir de l’adorer et une gloire de l’imiter,
+          oseraient-ils crier à l’injustice pour eux-mêmes, si on fait voir qu’on ne prend à son
+          école qu’un faux goût de sublime, qu’il égare plus qu’il n’instruit ? Je conviens qu’il y
+          a cinq ou six pièces dans Corneille, et dans <pb n="1540" xml:id="p1540"/>chacune cinq ou
+          six scènes vraiment sublimes. Mais ce peu de vraies beautés est éclipsé par des verbiages,
+          des déclamations, des plaidoyers, des fadeurs sans nombre. Sait-on seulement le nom de ses
+          autres pièces ? sur cinquante mille vers qu’il a donnés au théâtre, je doute qu’on en
+          trouve cinq cents à l’épreuve d’une juste critique.</p>
+        <p>Corneille n’a point laissé de postérité. Les élèves de Melpomène n’ont guère d’enfants
+          légitimes que leurs ouvrages, qui même souvent appartiennent à plus d’un père. Il avait un
+          frère poëte comme lui, mais qui composa en des genres plus utiles des ouvrages de tout un
+          autre prix, quoique moins célèbres. Il en reste une fille à qui les comédiens ont donné
+          part dans la représentation des pièces de son oncle. Après avoir demeuré dans un couvent,
+          elle est allée trouver Voltaire dans son château des Délices. (<hi rend="sc">Fréron</hi>,
+          let. 6 du 10 septembre 1700.) Le voyage est long, il y a loin d’une Ursuline, d’une
+          Visitandine à l’auteur de l’<hi rend="i">Epître à Uranie</hi>.Dans son séjour à Paris,
+          elle fit la conquête d’un jeune poëte qui, extasié des tragédies de l’oncle et des charmes
+          de la nièce, se monta sur le ton tragique et fit imprimer plusieurs pièces adressées à
+          Voltaire, pour le prier d’être le mentor de tous les deux. Rien n’est plus plaisant que
+          les idées, sur le nom de Corneille, d’un écrivain qui l’a étudié et tâche de l’imiter avec
+          tout le feu de l’amour. Après avoir dit cent fois qu’il adore sa maîtresse, jargon trivial
+          qu’il n’y a aucun esprit à répéter, et qui n’a que de la fadeur s’il ne signifie rien, ou
+          de l’indécence s’il signifie quelque chose. Il ajoute en parlant de l’oncle :</p>
+        <quote>
+          <l><hi rend="i">Si les dieux le pesaient dans leur balance d’or,</hi></l>
+          <l><hi rend="i">Dussent-ils opposer l’empire et la victoire,</hi></l>
+          <l><hi rend="i">Ce nom chargé de gloire</hi></l>
+          <l><hi rend="i">Entraînerait les dieux et l’avenir encor.</hi></l>
+        </quote>
+        <p>Au reste, personne n’est digne d’épouser une nièce de Corneille.</p>
+        <quote>
+          <l><hi rend="i">Ce n’est pas aux mortels</hi></l>
+          <l><hi rend="i">D’envier cet honneur à la divinité.</hi></l>
+          <l><hi rend="i">Vulgaire couronné !</hi></l>
+          <l><hi rend="i">Tous les monarques même</hi></l>
+          <l><hi rend="i">Seraient trop au-dessus de cet honneur suprême.</hi></l>
+        </quote>
+        <p>Voltaire est le dieu à qui seul appartient cette gloire. Il n’en a pourtant pas profité.
+          Sans s’embarrasser de la balance d’or qui entraîne les dieux et l’avenir, il l’a mariée à
+          un homme du pays qui n’est point du vulgaire couronné, déclaré indigne d’elle, mais du
+          vulgaire non couronné, qui lui est mieux assorti, quand l’auteur amant remerciait son
+          protecteur de sa générosité, qu’il ne pensait pas devoir tomber sur un autre. <quote><hi
+              rend="i">Vous avez fait</hi><seg type="exquote">, dit-il,</seg>
+            <hi rend="i">plus que les rois, ces illustres ingrats, vous leur apprenez les droits et
+              les devoirs du génie.</hi></quote> Que de sottises fait dire et faire ce grand
+          Corneille ! Croirait-on que ce même Voltaire vient de donner une édition de ce poëte au
+          profit de cette nièce qui vit sous ses aîles, avec des notes critiques, où il épluche
+          chaque pièce, chaque scène, chaque vers avec tant d’exactitude et malheureusement tant de
+          justesse qu’il ne reste <pb n="1541" xml:id="p1541"/>pas trente pages de bon du grand
+          Corneille.</p>
+        <p>Fréron (let. 8 <hi rend="i">ibid.</hi>) fait une remarque que l’abbé Dubois et d’autres
+          avaient faite avant lui. La poésie et surtout le théâtre prend toujours la teinte des
+          passions régnantes. Républicain, galant, irréligieux comme la mode. Marmontel dans son
+          apologie, dit que c’est un bien d’<quote><hi rend="i">entretenir et de renforcer les
+              faiblesses nationales</hi></quote>. En conséquence, il trouve fort bon qu’on fasse
+          l’éloge du duel. Ces maladies épidémiques échauffent la cervelle, exaltent le sang des
+          auteurs, font la fécondité et la vivacité du génie, et l’ivresse de l’admiration publique.
+          Au commencement du dernier siècle les guerres civiles avaient tourné l’esprit français du
+          côté de la politique. Il fermentait dans le sang un levain séditieux, chaque bourgeois se
+          croyait un citoyen romain, un César. On se calma, on donna dans la galanterie ; Corneille
+          ne se garantit pas de la contagion, mais il en fut la dupe. <quote><hi rend="i">Nous
+              n’avons presque point de tragédie</hi><seg type="exquote">, dit Rousseau
+              (let. 16),</seg>
+            <hi rend="i">qui ne soit gâtée par l’amour. Corneille fit bien pis. Au lieu d’exprimer
+              le caractère de l’amour, il ne peignit que son propre caractère.</hi></quote> Il ne
+          fait des amants que des avocats, pour ou contre, des sophistes et des politiques. On voit
+          des tirades de deux cents vers qui ne sont que des déclamations très-ennuyeuses ; on ne
+          ferait pas au collége des amplifications de cette longueur. Racine suivit son penchant et
+          prêta les charmes de sa plume à l’amour. Les jeunes gens élevés dans une mollesse, que ne
+          connaissaient point leurs pères, le goûtèrent plus que Corneille, dont la rudesse les
+          effarouchait. L’amour devint la passion à la mode, son empire s’établit sur le théâtre,
+          c’est la seule à laquelle on peut se livrer dans un gouvernement monarchique où les
+          passions violentes sont réprimées et où l’on ne s’embarrasse pas de la galanterie, elle
+              <quote><hi rend="i">nous dédommage</hi><seg type="exquote">, dit Fréron,</seg>
+            <hi rend="i">de cette contrainte et remplit notre cœur</hi></quote>. Il n’avait pas sans
+          doute, appris ce beau dédommagement dans la célèbre société qu’il quitta. Que disons-nous
+          de plus pour faire redouter le théâtre ? Il est d’autant plus à craindre dans les
+          monarchies, que les autres passions forcément endormies, laissent un plus libre cours à
+          celle-ci. Le génie et les succès de Corneille bien appréciés, ne sont donc que le ton sur
+          lequel les guerres civiles avaient monté la nation. Il n’y avait plus que le coup d’archet
+          à donner. Le levain qui fermentait dans les veines du poëte, donnait à son imagination le
+          plus grand ressort, et lui assurait les suffrages des esprits, à l’unisson desquels il
+          chantait. Aussi, la plupart de ces belles choses, alors si admirées, ne sont plus goûtées.
+          On joue rarement ses pièces, et les portiers n’y sont plus étouffés. Je suis persuadé que
+          ses vers appris par cœur entretenaient l’esprit de la Fronde et attisaient le feu de la
+          révolte.</p>
+        <p>Le sublime de Corneille consiste dans la comparaison des hommes avec les dieux et des
+          particuliers avec les princes, et dans le mépris de la vie ; c’est-à-dire dans le <pb
+            n="1542" xml:id="p1542"/>blasphème, l’insolence et la fureur. Que l’homme ose se mesurer
+          avec son Dieu et le sujet avec son roi, l’accuse, le condamne, le brave ; que dans la
+          colère on donne la mort à ses semblables, on se la donne à soi-même, l’audace extravagante
+          de ces idées qui renversent tout ce qu’inspire la religion, les lois et la nature, frappe,
+          étonne, effraye, saisit d’horreur. L’impression révoltante qu’elles font s’appelle du
+          sublime. On a beau les enchasser dans des vers harmonieux et des mots sonores, la
+          dégradation de la majesté divine, l’avilissement de la majesté royale, la rage du suicide
+          loin d’être grandeur d’âme, ne sont qu’un délire ; tout est plein de ces radotages.
+          Amphitryon et Jupiter se disputent ensemble. Mercure lutte avec Sophie, Atis se refuse à
+          Cybèle, Mars se bat avec Diomède. Peut-on être assez aveugle pour ne pas sentir
+          l’absurdité de ces comparaisons ? Si on adore ces dieux, c’est un blasphème ; si on les
+          méprise, c’est une puérilité. On doit frémir de l’impiété ou rougir du parallèle. C’est,
+          dit-on, un païen qui parle, il ne parle donc pas en païen, il combat sa créance. S’il se
+          croit égal à son Dieu, ce n’est plus un Dieu, le prétendu merveilleux de son audace
+          s’évanouit, il détruit son propre sublime. C’est Dom Quichote qui se bat contre des
+          moulins à vent. S’il les croit des dieux, c’est un <hi rend="i">Mézence</hi> que la foudre
+          doit écraser. Quel goût plus faux que d’admirer des attentats dignes des plus grands
+          supplices ou des fanfaronades qui font pitié. Les peintres et les poëtes ont droit
+          d’inventer, je l’avoue, mais il n’est pas permis de choquer la vraisemblance et le
+          costume, encore moins de dégrader la Divinité :</p>
+        <quote>
+          <l><hi rend="i">Sed non ut placidis coeant immitia ; non ut</hi></l>
+          <l><hi rend="i">Serpentes aribus geminentur, tigribus agni.</hi></l>
+          <l><hi rend="i">Oui je jure des dieux la majesté suprême,</hi></l>
+          <l><hi rend="i">Et pour dire encor plus, je jure par vous-même,</hi></l>
+        </quote>
+        <p>dit Cornélie aux cendres de Pompée. Mettre des cendres au-dessus de la majesté suprême du
+          Dieu qu’on adore ! quel nom donner à ces folies ? Ce poëte n’a pas même l’honneur de
+          l’invention de ce prétendu sublime. Théophile avait dit avant lui dans la tragédie de <hi
+            rend="i">Pirame</hi> et de <hi rend="i">Thisbé</hi> :</p>
+        <quote>
+          <l><hi rend="i">Je jure par tes yeux</hi></l>
+          <l><hi rend="i">Serment qui m’est plus cher que de jurer les dieux.</hi></l>
+        </quote>
+        <p>Encore, ces folies sont-elles plus tolérables dans la bouche d’un amant que dans celle
+          d’une héroïne. Cette pensée est tournée et retournée douze fois dans la tragédie de <hi
+            rend="i">Pompée</hi>, et mille fois dans le théâtre de Corneille. Ce fou qui se disait
+          le Père éternel, la taille gigantesque de Poliphème dans la fable, de Gargantua dans
+          Rabelais, le sculpteur qui voulait faire du mont Athos une statue d’Alexandre, lui mettre
+          une ville dans une main et un fleuve dans l’autre, étaient donc sublimes ? Ces idées
+          étaient moins insensées. L’homme sera plutôt égal à une montagne qu’il n’approchera de la
+          Divinité.</p>
+        <p>Ce n’est que la répétition de <pb n="1543" xml:id="p1543"/>l’extravagance de l’ange :
+              <quote><hi rend="i">Ascendam et similis ero Altissimo.</hi></quote> (<hi rend="i"
+            >Isai.</hi>, XIV, 14.) On enchérit même ; Lucifer n’aspirait qu’à ressembler au
+          Très-Haut, le poëte plus audacieux met l’homme au-dessus. Les blasphèmes de Pharaon, de
+          Senachérib, de Nabuchodonosor, d’Holopherne sont donc du sublime, et des scènes, qui sont
+          un tissu d’horreurs, seront des chefs-d’œuvre. Il faut penser comme l’Ange des ténèbres,
+          pour goûter de pareilles beautés. Milton les sème à chaque pas dans son <hi rend="i"
+            >Paradis perdu</hi>, et il faut avouer que pour la force et la variété de ces
+          expressions diaboliques, l’Anglais ferait la leçon au Français. Il n’est donc rien de plus
+          sublime que le langage des damnés, assurément les malédictions qu’ils vomissent sont
+          supérieures à l’énergie de Corneille et de Milton. Marmontel, dans l’apologie du théâtre,
+          ose dire, <quote><hi rend="i">Milton est sublime dans les blasphèmes de
+          Satan</hi></quote>. Sublimité des forfaits ! quel langage ! quelle doctrine ! A ce prix
+          Cartouche faisait des vols sublimes. Néron était sublime dans la cruauté. Messaline avait
+          le sublime de la débauche. Judas le sublime de la trahison. Le sublime est un éloge, il
+          peint une vraie grandeur, et ne peut appartenir qu’à Dieu, et à la vertu qui en est
+          l’image. Le comble du désordre n’est pas sublime, il est horrible. Toute cette enflure
+          n’est que faiblesse de génie. On ne sait pas trouver de vraies beautés, on se pare de faux
+          brillants. On croit être grand en se guindant sur des échasses, et faisant mine
+          d’escalader les cieux comme les Titans.</p>
+        <p>Le P. Bouhours (<hi rend="i">Manière de bien penser</hi>, dial. 1), condamne avec raison
+          le fameux vers de Lucain,</p>
+        <quote>
+          <p><hi rend="i">Victrix causa diis placuit, ced victa Catoni.</hi></p>
+        </quote>
+        <p>heureusement traduit par Brebœuf :</p>
+        <quote>
+          <p><hi rend="i">Les dieux servent César, mais Caton suit Pompée.</hi></p>
+        </quote>
+        <p>Cette pensée est impie et fausse. Ce n’est qu’un sublime apparent, un faux sublime ;
+          c’est-à-dire nul. L’impiété est détestable, le faux n’est rien. Impie : elle représente
+          les dieux injustes, pour avoir vu avec complaisance les succès de César, elle met l’homme
+          de pair avec eux, et au-dessus d’eux, en justifiant Pompée, qu’ils abandonnent par le
+          jugement de Caton, qui lui demeure attaché, suffrage qui vaut bien le leur. Un parallèle
+          si méprisant offenserait un particulier. Faux, par rapport à Caton, qui était pieux dans
+          sa religion, à qui on ne peut supposer des sentiments irréligieux, sans combattre l’idée
+          qu’a de lui tout le monde, et affaiblir l’autorité qu’on lui attribue dont on a besoin,
+          pour donner du poids à la comparaison. Rabaisser la Divinité, c’est détruire la grandeur
+          même de Caton, et la beauté de sa pensée. Si les dieux ne sont que ses égaux, ce combat
+          n’a rien de bien merveilleux, s’ils sont supérieurs, il est un crime, et tous ces grands
+          mots se réduisent en fumée. Rien n’est beau que le vrai, et le vrai sublime est une idée
+          vive et profonde de la Divinité. Dieu seul est grand, rien n’est sublime que ce qui le
+          représente. <pb n="1544" xml:id="p1544"/>L’homme n’est grand qu’autant qu’il l’imite et
+          lui est soumis. La grandeur de Dieu fait celle de l’homme, en voulant contraster avec elle
+          l’homme ne s’élève pas, il s’aveugle, se dégrade, mérite la raillerie que Dieu fit d’Adam
+          après son péché : <quote><hi rend="i">Ecce Adam factus est quasi unus ex
+            nobis.</hi></quote> (<hi rend="i">Gen.</hi>, III, 22.)</p>
+        <p>Quoi, dira-t-on, ne pas respecter les dieux du théâtre ! douter du sublime de leurs
+          pensées ! C’est une impiété littéraire. Il faut avoir une provision bien abondante de
+          respect pour en accorder à des poëtes dramatiques. Mais, à la bonne heure, ma franchise
+          sera une beauté, un blasphème sublime, un attentat héroïque. Corneille s’offensera-t-il
+          d’être traité comme il traite les dieux ? Nous ne blasphémons qu’à son exemple. Est-il
+          plus grand que Jupiter ne l’a été dans les idées des Romains qu’il fait parler.
+          L’idolâtrie et le fanatisme de la scène iraient-ils jusqu’à ne connaître des dieux que les
+          poëtes, et contre quels fantômes fait-on donc battre les héros ? Et quelle gloire méritent
+          leurs exploits ?</p>
+        <p>Le mépris des rois qu’on appelle grandeur romaine, est le style ordinaire du père de la
+          tragédie et de tous ses imitateurs. On ne croirait pas faire parler noblement les
+          personnages s’ils ne foulaient aux pieds la majesté royale.</p>
+        <quote>
+          <p><hi rend="i">Que m’offrirait de pis la fortune ennemie ?</hi></p>
+        </quote>
+        <p>dit César, quand on lui offre le trône d’Egypte.</p>
+        <quote>
+          <l><hi rend="i">A moi qui tiens le trône égal à l’infamie ?</hi></l>
+          <l><hi rend="i">Rome, qui du même œil les donne et les dédaigne,</hi></l>
+          <l><hi rend="i">Qui ne voit rien aux rois qu’elle aime ou qu’elle craigne,</hi></l>
+          <l><hi rend="i">Et qui verse en nos cœurs avec l’âme et le sang,</hi></l>
+          <l><hi rend="i">Et la haine du nom et le mépris du rang.</hi></l>
+        </quote>
+        <p>Qui entend ce galimatias, <hi rend="i">verser l’âme dans le cœur</hi>.Un républicain
+          n’aime pas l’autorité royale ; mais ne <hi rend="i">méprise pas le rang des rois</hi>, il
+          ne serait pas grand, il serait fou. Si ce langage insolent et brutal est du sublime, les
+          halles et les cafés de Londres, du temps de Cromwel, contemporain de Corneille,
+          l’emportaient sur lui. Tous les dramatiques, charmés de trouver cette veine facile de
+          prétendu sublime, se sont applaudis de faire contraster l’homme avec Dieu, le sujet avec
+          le monarque, d’attaquer la religion et l’Etat, le ministre de Dieu et celui du prince. Le
+          tyrannicide est ouvertement loué, conseillé, exigé dans Cinna, pièce célèbre du même
+          auteur, et dans toutes celles où il entre des conjurations, dans <hi rend="i">Brutus</hi>,
+            <hi rend="i">César</hi>, <hi rend="i">Alzire</hi>, <hi rend="i">Mahomet</hi> de
+          Voltaire, <hi rend="i">Catilina</hi>, le <hi rend="i">Triumvirat</hi> de Crébillon, <hi
+            rend="i">Virginie</hi>, <hi rend="i">Andronic</hi> de Campistron, <hi rend="i">Arie et
+            Petus</hi> de madame Barbier, <hi rend="i">Aristomène</hi>, <hi rend="i">Denys le
+            Tyran</hi> de Marmontel, <hi rend="i">Bajazet</hi>, <hi rend="i">Athalie</hi> de Racine.
+            <hi rend="i">Athalie</hi> va jusqu’à présenter comme un acte de religion le massacre de
+          la reine aux yeux de son fils, ordonné par le pontife, exécuté par les prêtres à la porte
+          du temple. Je m’étonne qu’on ose représenter ces pièces. On extrairait aisément des
+          auteurs tragiques un recueil horrible d’assertions sur le régicide orné de la pompe des
+            <pb n="1545" xml:id="p1545"/>vers ; mais on a beau parer le visage des Furies et des
+          Gorgones, ce n’est qu’un sublime de scélératesse et la déraison, qui ne mérite que
+          l’indignation des honnêtes gens, loin de leur fournir des modèles.</p>
+        <p>Enfin les propositions du meurtre et du suicide, si fréquentes sur le théâtre, sont-elles
+          encore du sublime ? Il n’y a point de portefaix et de femmelette qui, dans ses
+          imprécations contre soi-même et contre les autres, ne soit aussi sublime que Corneille. Un
+          des conjurés de César, faisant le portrait de ses complices, disait plaisamment : Que
+          ferons-nous du grand Caton ? Il ne nous servira de rien, <hi rend="i">il ne saura que
+            mourir</hi>.Rien de plus commun sur la scène ; c’est le refrain de tous les amants. Dans
+          leurs passions traversées, toute leur ressource est de mourir ; et pourvu que ce soit avec
+          un regard ou un soupir de leur maîtresse, ils ont dit et fait une merveille.</p>
+        <quote>
+          <l><hi rend="i">Trop heureuse en tombant dans la nuit éternelle,</hi></l>
+          <l><hi rend="i">Si ma mort t’arrache un soupir !</hi></l>
+        </quote>
+        <p>Le voilà bien payé. Il est beau de perdre la vie pour sa religion et pour sa patrie.
+          L’assassinat et le suicide ne furent jamais que des traits de fureur. Retranchez des
+          tragédies les plus belles ces affreuses beautés qui ne peuvent que gâter l’esprit et le
+          cœur, que reste-t-il de bon ?</p>
+        <p>Le doucereux Racine est le poëte le plus élégant, et le seul constamment élégant, qui
+          jamais, dit-on, ne se permette de négligence, quoique l’abbé d’Olivet, dans ses Remarques,
+          prétende y avoir trouvé plus de 200 fautes de langage. On trouve dans tous les autres des
+          tours vicieux, des mots surannés ou impropres, des inversions forcées. On lui a fait une
+          sorte de crime de cette élégance continue, qu’on appelle monotonie de perfection, satiété
+          de beauté. On veut quelquefois voir les gens en déshabillé, et non pas affublés jusque
+          dans leur lit de la robe de cérémonie. L’amour fait encore plus de tort à Racine. Il
+          énerve son style, affadit ses grâces, affaiblit son génie, et celui de tous ses élèves ;
+          n’en attendez rien de mâle et de nerveux. L’esprit des amoureux est aussi amolli que leur
+          cœur, leur style aussi blasé que leur corps, la fraîcheur, la couleur de leurs pensées,
+          aussi ternies que leur teint, la physionomie de leurs écrits aussi efféminée que leur
+          visage. Les mœurs influent et se peignent sur toutes les allures. Tout parle de
+          l’abondance du cœur ; c’est le grand mobile qui met tout en jeu. Le vice perce partout, et
+          relâche tous les ressorts de l’âme. Il y a même du ridicule dans la plupart des intrigues
+          des tragédies de Racine : Britannicus, un enfant de quatorze ans, aime Junie, veuve d’un
+          âge plus avancé, coquette décidée, chassée de Rome pour ses incestes, qu’il n’avait
+          peut-être jamais vue. Mithridate, septuagénaire, vaincu par Pompée, ayant perdu son
+          royaume, au moment de se tuer lui-même s’avise d’être rival de son fils, et amoureux de
+          Mohime, une de ses femmes qu’il avait fait <pb n="1546" xml:id="p1546"/>mourir, et que
+          Racine ressuscite. Alexandre, aux prises avec Porus, l’ennemi le plus redoutable, voit par
+          hasard une Indienne, en est subitement épris, quitte son camp et ses affaires pour aller
+          mettre sa personne et son royaume à ses pieds. Ces absurdités, parées des charmes de la
+          poésie et de la pompe du spectacle, donnent un goût faux, des idées d’enfant, un langage
+          frivole. C’est un corps nonchalamment bercé dans les bras de la mollesse, nourri de crème
+          et de sucreries, servi dans de la vaisselle d’or : de quel travail utile, de quel noble
+          essor, de quelle action de vigueur est-il capable ?</p>
+        <p>3° On reproche deux défauts au style du siècle, un goût de colifichet, un ton de
+          familiarité ; on les doit au théâtre. Le principe des beaux-arts, comme l’a remarqué M. Le
+          Batteux, est l’imitation de la belle nature. Tout n’est pas beau dans la nature. Il faut,
+          pour plaire, que le pinceau cherche un bel objet et le rende décemment. Deux choses
+          défigurent cette beauté : la trivialité et la petitesse. La beauté, dans les moindres
+          choses, a de la noblesse et de la décence :</p>
+        <quote>
+          <p><hi rend="i">Quid deceat, quid non, quo virtus, quo ferat error.</hi></p>
+        </quote>
+        <p>Un colifichet est une jolie bagatelle. Ce terme, qui a un air de badinage, n’est point
+          déplacé en parlant des comédies. Il s’applique à toute sorte de bijoux dans le moral et le
+          littéraire, aux compliments, minauderies, chansons, épigrammes, portraits, ces petits
+          riens qui amusent un instant. C’est un mérite de papillons qui, avec des ailes
+          agréablement nuancées, voltigent sur des fleurs. Le bon goût est plus noble et plus
+          raisonnable. Jamais ces babioles ne feront passer un nom à la postérité.</p>
+        <p>C’est là le goût du théâtre : tout y est colifichet. Le théâtre lui-même en est un. Ne
+          vous extasiez pas de ces riches palais, de ces temples superbes, de ces grandes villes que
+          vous croyez voir. Cette magnifique architecture n’est qu’une aune de toile peinte :
+          l’illusion de la perspective en fait tout le prix. Les loges ont beau être dorées, ce sont
+          de petites niches où l’on emprisonne des colifichets vivants. Le prestige de la
+          distribution graduée des ombres et de la lumière est un microscope qui grossit une
+          mouche ; et l’habitude, le préjugé, le goût du plaisir mettent le verre sur vos yeux, vous
+          voyez un éléphant. Les personnages qui peuplent cette région enchantée ne sont, malgré
+          leurs rôles brillants, que de très-petites personnes, non-seulement par la naissance, la
+          fortune, la science, le mérite, la vertu, ils sont au-dessous du rien ; mais même dans
+          l’ordre du théâtre. C’est une poupée qui de la tête aux pieds n’est qu’un amas de
+          colifichets. Dans toutes les pièces de rapport de la parure, le jargon de la toilette ne
+          peint que les plus minces objets. Tout est aussi frivole que la personne qui s’en occupe,
+          la futilité seule peut y attacher un mérite supérieur, et se croire un être d’importance
+          pour avoir <pb n="1547" xml:id="p1547"/>un pompon. On rit, du Horace, d’un enfant qui fait
+          des bulles de savon, et court à cheval sur une canne ; la décoration et le jeu de théâtre
+          sont aussi puérils. Une inflexion de voix, un geste, un coup d’œil, quelques pas en
+          cadence, tout cela décomposé, analysé, n’offre que le mérite des marionnettes. Il est vrai
+          qu’on fait mouvoir la marionnette, et que l’acteur se remue ; mais en vérité ces machines
+          sont si copiées l’une sur l’autre, qu’il y aurait de l’injustice à les séparer. Ce goût
+          théâtral influe sur tout, de proche en proche depuis son règne : ameublements, équipages,
+          habits, miniatures, tout s’évanouit en colifichets. La vraie grandeur, la noble élégance
+          sont inconnues. C’est partout une espèce de théâtre et de comédie.</p>
+        <p>La pièce a quelque chose de plus grand. Le plan, les vers, les pensées sont du ressort de
+          l’esprit et le fruit des talents. Cependant réduit à sa juste valeur, quel est le fond
+          d’une comédie ? Une petite aventure du plus bas étage, qu’on daignerait à peine entendre.
+          A ces traits on ne peut méconnaître tout ce que le Théâtre italien et celui de la Foire,
+          les farces, les pièces à tiroir ; que dis-je ? les œuvres des plus grands maîtres nous
+          présentent. A trois ou quatre pièces près, qu’est-ce que le théâtre de Molière ? Une
+          boutique de bijoutier, c’est une scène, un portrait, un bon mot, ou plutôt une galerie de
+          grotesques, qui étale des magots. Le souffle contagieux du théâtre a infecté la
+          littérature par le goût de colifichet, et on a fait un mérite. Mérite facile : une
+          saillie, une pensée, une rime y suffisent. Un peu de vivacité le fait subitement éclore.
+          Une vanité paresseuse est intéressée de le faire valoir : elle n’en a point d’autre, ni ne
+          veut en acquérir. Un grand ouvrage demande de temps et de l’étude.</p>
+        <quote>
+          <p><hi rend="i">Quem non multa dies, et multa litura coercuit.</hi></p>
+        </quote>
+        <p>On veut des applaudissements à moins de frais. Historiettes, romans, chansons, parodies,
+          voilà ce qu’on doit à la scène. Massillon, Pascal, Malebranche, Cochin, Fénelon,
+          eussent-ils mis au jour des chefs-d’œuvre, s’ils se fussent laissé entraîner au tourbillon
+          des bagatelles ?</p>
+        <p>On peut exprimer les pensées par les gestes, c’est le style et l’éloquence du corps ; et
+          par les paroles, c’est le style et l’éloquence de l’esprit. On vit cette double éloquence
+          d’une manière frappante dans le défi singulier que se donnaient Cicéron et Roscius, l’un
+          le plus grand orateur, l’autre le plus habile comédien qui peut-être aient jamais paru, à
+          qui des deux serait le plus fécond, le plus varié, le plus énergique à rendre la même
+          pensée par les gestes ou par les paroles ; l’acteur ne fut pas moins inépuisable que
+          l’orateur. De là ces pièces muettes, où les pantomimes se parlaient si bien par leurs
+          gestes que sans dire un mot ils jouaient des pièces entières. Un roi d’Orient les ayant
+          vus jouer, demanda à Néron quelqu’un de ces comédiens ; j’ai dans mes États, disait-il,
+          des peuples qui parlent diverses langues ; j’ai bien de la peine de leur faire connaître
+            <pb n="1548" xml:id="p1548"/>mes volontés par des truchements. Le langage de ceux-ci se
+          fait entendre partout. Roscius avait fait un traité du geste qui s’est perdu ; Quintilien
+          en parle avec éloge. Il en a vraisemblablement profité dans le dixième livre de ses <hi
+            rend="i">Institutions</hi>, où il traite au long cette matière. Sanlec que, dans son
+          poëme du <hi rend="i">Geste</hi>, Dinouard dans son livre sur l’<hi rend="i">Eloquence du
+            corps</hi>, ont tâché de le remplacer. Nous n’avons pas les pièces de comparaison pour
+          juger du succès, mais je dis que l’éloquence du corps, ainsi que celle de l’esprit, au
+          lieu de s’apprendre au théâtre, ne peut que s’y gâter.</p>
+        <p>Je ne parle que d’après les plus grands maîtres, qui d’une voix unanime condamnent dans
+          tous les orateurs, dans tous les genres, et même dans la société, la prononciation du
+          théâtre : <quote><hi rend="i">Nimia in oratore reprehendenda imitation quœ mimica non
+              oratoria. Nolo venustatem conspicuam in gestu nec videamur histriones</hi>,</quote>
+          dit Cicéron. (<hi rend="i">De orator.</hi> l. 1, 2 ; <hi rend="i">Adherem.</hi> l. III,
+          n. 34.) Quintilien tient le même langage (l. I, c. 11) : <quote><hi rend="i">Nec gestus
+              nec motus a comœdiis petendus ; plurimum absit orator a scortico.</hi></quote>
+          Aulugelle rapporte que tout le monde se moquait d’Hortensius, rival de Cicéron, et l’un
+          des plus grands orateurs, parce qu’il imitait les airs du théâtre. C’est une comédienne,
+          disait-on, <hi rend="i">gesticularia Dionysia</hi>.Le public n’épargne pas plus les
+          prédicateurs qui donnent dans ce travers : c’est un comédien, dit-on ; ce mot dit tout ;
+          il réunit tant de folies et de désordres, que d’un coup de pinceau il livre au mépris et
+          au ridicule tout ce qu’il caractérise ; les amateurs du théâtre le disent comme les
+          autres. Les comédiens eux-mêmes en sentent si bien la vérité, que les plus estimés, comme
+          le fameux Baron, s’éloignent le plus possible du ton de la scène pour revenir au naturel.
+          Bien loin donc d’y apprendre la bonne prononciation, c’est au contraire sa prononciation
+          qu’il faut éviter. Rollin, <hi rend="i">Traité des études</hi>, tom. IV, l. III, comdamne
+          absolument jusqu’aux pièces de collége, non seulement pour les mœurs, mais pour
+          l’instruction. <quote><hi rend="i">Il y a</hi><seg type="exquote">, dit-il,</seg>
+            <hi rend="i">une grande différence, et même de l’opposition entre la prononciation et le
+              style du théâtre à celui des orateurs. Pourquoi donc exercer les jeunes gens dans des
+              façons de parler qu’il leur faudra nécessairement éviter quand ils parleront en
+              public ? Qu’a de commun</hi><seg type="exquote">, dit le marquis d’Argens (<hi
+                rend="i">Lettres Juives</hi>, tom. I let. 193),</seg>
+            <hi rend="i">le désespoir d’Hermione avec la jurisprudence, et les fureurs d’Oreste avec
+              l’Evangile ? Grandval en chaire serait-il persuasif, débitant l’éloge de saint
+              Augustin comme celui de Zaïre ; et la Gaussin, en robe de palais, plaignant sa patrie,
+              comme Andromaque pleure son fils</hi> ?</quote> En effet, il faut au théâtre passer
+          les bornes de la nature, changer les portraits, outrer les passions, forcer sa voix, parce
+          que tout étant vu dans le lointain, il faut par une sorte de perspective que tout soit
+          au-dessus de la grandeur naturelle, pour arriver à l’œil du spectateur dans son point de
+          vue. Les anciens chaussaient le cothurne pour se hausser, prenaient un masque pour <pb
+            n="1549" xml:id="p1549"/>renforcer la voix et grossir les traits, déployaient des
+          paniers et une étoffe immense pour agrandir le volume des habits. L’acteur doit
+          s’échauffer, se fatiguer et se défigurer. Les gestes sont l’habit des pensées. Le bon goût
+          s’habille-t-il en actrice, rend-il tout gigantesque ? Un peintre qui ne ferait que des
+          figures colossales serait un médiocre artiste.</p>
+        <p>Il est sans doute très-possible que, dans le nombre de prédicateurs et d’avocats qui ont
+          paru dans le monde, quelqu’un ait été assez peu sage pour copier ces modèles. Il a mal
+          connu l’esprit et les devoirs de son état et il a dû aller bien secrètement à l’école, et
+          en déguiser bien adroitement les leçons, s’il a fait quelque cas de sa réputation ; la
+          seule idée que ses talents étaient l’ouvrage des comédiens l’eût décrédité sans retour. On
+          eût dit de lui comme Boileau :</p>
+        <quote>
+          <p><hi rend="i">Et dont les Cicérons se font chez Pé-Fournier.</hi></p>
+        </quote>
+        <p>Jamais un apôtre, jamais un Père de l’Eglise n’alla chercher le Saint-Esprit au
+          théâtre.</p>
+        <p>4° L’une des plus belles qualités du style, même le plus simple, c’est la noblesse et la
+          décence : <hi rend="i">Oratio sit morata</hi>, dit Aristote. (<hi rend="i">Rhetoric.</hi>)
+          Un écrivain parle au public, il doit le respecter ; il se peint dans son ouvrage, il a
+          intérêt de se respecter lui-même. Il se montre avec une sorte d’appareil, doit-il paraître
+          avec des haillons ? Si ses habits ne sont pas magnifiques, ce qui ne convient pas à tous
+          les états, qu’ils soient du moins propres et décents, et qu’il ne se familiarise pas. La
+          familiarité est une liberté d’agir et de parler, qui, sans égard à la subordination et aux
+          bienséances, le met sans façon au niveau de tout. Ce défaut peut venir d’un fond
+          d’orgueil. Dans la religion, c’est la folie des esprits forts ; dans les sciences, la
+          vanité des demi-savants ; dans la société, la hauteur et l’indépendance. Une mauvaise
+          éducation laisse ignorer les lois de la décence, la paresse néglige de les observer, la
+          dureté du caractère s’y refuse on ne sait pas s’y assujettir. Toutes ces espèces de
+          familiarité que prennent au théâtre les personnes les plus polies, regardent les mœurs,
+          elles ne sont pas de notre objet ; je n’envisage que la familiarité du style, elle est un
+          vrai défaut, elle s’écarte de l’ordre. Ce désordre n’est pas l’obscénité. L’obscénité sans
+          doute est grossièrement familière, mais tout ce qui est familier n’est pas obscène. Les
+          personnes les plus réservées sur l’impureté peuvent s’émanciper sur tout le reste. Ce
+          n’est pas un vice de langage. On peut être respectueux sans savoir sa langue et manquer
+          élégamment de respect. Le burlesque, que Scarron mit en vogue, et qui tomba avec lui,
+          passe les bornes de la familiarité : c’est le jargon des halles. Le théâtre, pendant un
+          siècle, n’eut pas d’autre langage et n’en est pas encore bien purgé, toutes les farces en
+          sont remplies. On peut être familier sans burlesque et même très-sérieusement. Le naturel,
+          la naïveté même qui déclare ses sentiments sans art et sans détour, peut être <pb n="1550"
+            xml:id="p1550"/>respectueuse. Le mensonge manque plutôt au respect aussi bien qu’à la
+          droiture.</p>
+        <p>Le style aisé et cavalier, le ton de suffisance et de supériorité qu’on voudrait
+          travestir en agrément et en mérite, et qui nuit à la littérature autant qu’à la vertu,
+          regarde les choses ou les personnes. La familiarité avec les choses est cette liberté de
+          parler et d’écrire, sans se mettre en peine si par son obscurité, sa profondeur, son
+          élévation, la matière est au-dessus de notre portée. A voir cet homme traiter légèrement
+          de tout, d’un air tranchant et décisif, on le prendrait pour un grand maître à qui toutes
+          les sciences sont familières. La liberté d’agir avec les gens sans se gêner sur ce qu’on
+          leur doit, s’appelle familiarité avec les personnes ; elle détruit l’estime, la
+          subordination, presque toujours la paix. Cette vérité est devenue un proverbe : <hi
+            rend="i">Familiarité engendre mépris.</hi></p>
+        <p>Le théâtre est une république où tous les citoyens sont égaux, tous de la lie du peuple,
+          du même métier, de la même troupe. Plus confondus encore par le vice, la jalousie, le
+          mépris mutuel, l’étiquette du respect est entre eux fort bornée. Ce n’est pas la qualité
+          du rôle, c’est la manière de le jouer qui distingue. La soubrette vaut souvent mieux que
+          le prince. Dans leurs maisons, leurs foyers, leurs parties de plaisirs, ce n’est plus
+          familiarité, c’est dissolution et débauche. Ceux qui les fréquentent, ne prennent pas
+          moins leur ton de privauté que leur goût de libertinage. Tout ce joli monde, qui se mêle
+          avec les acteurs, déclame, chante, danse, jette des fleurs sur la toilette des actrices,
+          fait-il l’apprentissage de la politesse ? La décence serait pour lui trop bourgeoise. Les
+          procédés du parterre ne sont pas plus respectueux. J’en appelle à ces impitoyables
+          sifflets, à ces éclats de rire, à ces cruelles critiques. Que sentira-t-on, si on ne sent
+          pas un si grand avilissement.</p>
+        <quote>
+          <l><hi rend="i">Un clerc pour quinze sols, sans craindre le holà,</hi></l>
+          <l><hi rend="i">Peut aller au parterre attaquer Attila.</hi></l>
+          <l><hi rend="i">Et, si le roi des Huns ne lui charme l’oreille,</hi></l>
+          <l><hi rend="i">Traiter de Visigoths tous les vers de Corneille.</hi></l>
+        </quote>
+        <p>L’artisan, à côté du seigneur, juge aussi bien que lui l’acteur et la pièce. Tout ce qui
+          se livre à la merci du public se met sur la même ligne ; rien ne rapproche plus que le
+          plaisir du vice. Un intérêt commun assure une entière liberté. La modestie de la vertu est
+          trop gênante pour ne pas en empoisonner la douceur. Le théâtre, qui réunit tous les
+          plaisirs vicieux, brise nécessairement tous les liens et confond tous les rangs.</p>
+        <p>Que respecte la scène ? Princes, ministres, magistrats, savants, tout est cité à son
+          tribunal : qui peut se soustraire à ses arrêts souverains ? Point de tragédie où quelques
+          acteurs ne parlent des rois, des grands de l’Etat sur un ton à se faire mettre à la
+          Bastille, s’il tenait dans le monde le même propos. Point de comédie où on ne prenne la
+          même licence contre son père, son <pb n="1551" xml:id="p1551"/>maître, son mari. On
+          distingue aisément à la liberté de leurs discours, ceux qui fréquentent les spectacles. Il
+          n’y a point de sage gouverneur qui laissât tenir à ses élèves ou leur permît d’entendre de
+          pareil entretien, et je ne puis comprendre qu’on laisse aller les jeunes gens à la comédie
+          quand on a quelque soin de leur éducation. Mais, dit-on, c’est un personnage subalterne
+          qui s’émancipe. Cela n’arrive jamais dans la tragédie où les rebelles jouent les plus
+          grands rôles, ni toujours dans la comédie, où les amis et les parents donnent de mauvais
+          conseils. La familiarité des subalternes n’est que plus répréhensible. Mais ils disent
+          vrai : le prince, le père, le mari ont tort. Cela n’est pas toujours, car on déchire
+          souvent un bon prince, un père sage, un mari fidèle dont tout le crime est de s’opposer à
+          une folle passion. Eussent-ils tort, convient-il de parler insolemment de ses maîtres,
+          lors même qu’ils ont tort ? Quel modèle à mettre sous les yeux de la jeunesse ? Mais ces
+          rôles sont nécessaires dans la pièce. Il est vrai, et voilà le désordre du genre
+          dramatique : il impose la nécessité de composer et de jouer des rôles vicieux qu’on ne
+          peut trop ensevelir dans les ténèbres. C’est le comble de l’aveuglement d’imaginer que la
+          nécessité de présenter le crime, qui devrait faire condamner la scène, puisse jamais lui
+          servir d’excuse. Mais le vice est puni à la fin de la pièce. Il ne l’est pas toujours, il
+          l’est rarement dans le comique. Du moins le vice de l’insolence du discours ne l’est
+          jamais. Il y est même ordinairement applaudi. Serait-ce un bien dans la société de voir
+          manœuvrer des voleurs, parce qu’il y a des gibets ?</p>
+        <p>On parle de tout au théâtre sans ménagement. Religion, politique, droit public et intérêt
+          des princes, histoire, morale, philosophie, tout est de son ressort. Jamais université
+          avec ses quatre facultés n’embrassa tant d’objets. Jamais on n’y discourut avec tant de
+          hardiesse ; la sage circonspection qui ne prononce qu’avec connaissance y serait tournée
+          en ridicule. Apprend-on quelque chose quand on croit tout savoir, et sait-on quelque chose
+          quand on ne le sait qu’en comédien ? Tel est l’esprit du théâtre : on ne s’y propose que
+          de se réjouir par des ridicules. Outre les inconvénients innombrables pour les mœurs,
+          cette plaisanterie médisante et habituelle monte l’esprit sur le ton de la licence.
+          L’enjouement est naturellement familier, et la médisance méprisante. On n’y connaît ni la
+          sage timidité qui arrête, ni la modeste retenue qui s’observe. Que sera-ce d’un art qui,
+          par principe, se moque de tout et ne s’étudie qu’à se réjouir aux dépens de tout le
+          monde ? C’est une fièvre continue, un état de démence. Le délire enseigne-t-il des
+          règles ? Cette liberté de répandre sur tout le vernis du ridicule, s’allie-t-elle avec les
+          sentiments que l’intérêt de la société demande que nous conservions les uns pour les
+          autres ? Se croit-on bien obligé d’aimer et de respecter ce <pb n="1552" xml:id="p1552"
+          />qu’on se croit en droit de ridiculiser ? Il est si difficile de séparer les droits de la
+          place des défauts de la personne ! Sera-t-il possible dans une région frivole, où les
+          nuages de la dérision enveloppent et défigurent tous les objets, de ne pas franchir ces
+          faibles barrières ? Voyez une troupe de faunes et de satyres qui, le masque à la main,
+          passe la vie à danser, rire, chanter, se moquer de tout : voilà le théâtre ; nos acteurs
+          et nos actrices valent bien les satyres de la fable. Il semble que le prophète Isaïe l’ait
+          prédit : <quote><hi rend="i">Pilosi saltabunt et syrenes cantabunt in delubro
+              voluptatis.</hi></quote> (<hi rend="i">Isa.</hi>, XIII, 21.).</p>
+        <p>Mais les prédicateurs font des portraits dans le goût de la comédie ; ils ont tort. C’est
+          un nouveau grief contre elle, d’avoir porté jusqu’à la chaire son haleine empestée. C’est
+          un crime au ministre des autels de fréquenter, d’étudier, de copier le théâtre :
+          heureusement ce désordre est rare et tout le monde le condamne. Bourdaloue sur la scène,
+          Molière en chaire, révolteraient également. Ces deux genres sont essentiellement
+          différents ; la chaire se dégraderait par les traits familiers d’une scène comique ; elle
+          ne combat que les vices, jamais les ridicules, et c’est au ridicule que la scène
+          s’attache. Le prédicateur instruit et corrige, le comédien amuse et corrompt. L’un peint
+          en grand sur les principes de la religion : il n’a personne en vue : si quelqu’un se
+          trouve dans ce portrait comme cela peut et doit être, puisqu’il attaque tous les péchés,
+          c’est à lui à se faire justice et à se convertir. Le théâtre peint en petit, en
+          colifichet, en grotesque. L’orateur chrétien parle avec autorité de la part de Dieu et
+          pour sa gloire ; le devoir et la vertu forment son auditoire, la modestie et le silence y
+          règnent. L’acteur ne tient sa mission que de la dissolution et de la malignité ; elles
+          peuplent son parterre, se font entendre dans la pièce et lui applaudissent à mesure qu’il
+          les sert mieux. Les remontrances d’un père à ses enfants, d’un maître à ses élèves, d’un
+          pasteur à ses brebis, sont-elles des médisances ? Les sarcasmes, les équivoques, les
+          licences, les impiétés d’un libertin sont-ils des instructions ? Quelle maladroite
+          apologie ! excuser le théâtre, parce qu’il est assez contagieux pour répandre ses vices !
+          Applaudissez donc aux succès d’une courtisane. La comédie, dit-on, corrige les mœurs par
+          le ridicule, <hi rend="i">castigat ridende mores</hi>.Qui a fait d’elle cet éloge ? ce ne
+          sont pas les saints Pères. C’est l’arlequin Dominique, qui fit graver ces paroles sur le
+          portail de l’hôtel de la Comédie, et qu’on a l’imbécillité de prendre pour un axiome reçu.
+          Le panégyrique qu’Arlequin fait de son métier est assurément du plus petit poids.</p>
+        <p>De là est venue la littérature à la mode : on n’écrit, on ne pense qu’en comédien. On
+          lit ? Eh quoi ! des brochures. Sur quel ton ? du badinage. Sous quels guides ? l’ignorance
+          et le vice. De quel air ? de la présomption. De quel goût ? de la frivolité. Avec quel
+          fruit ? la licence. Jamais on n’a tant et si <pb n="1553" xml:id="p1553"/>peu écrit et si
+          bien et si mal. Tant, à compter les feuilles d’impression ; si peu, à peser la solidité
+          des ouvrages : si bien, si on ne cherche qu’à s’amuser ; si mal, si on désire de
+          s’instruire. Le théâtre est le modèle, l’école, l’arbitre souverain de l’empire des
+          lettres. Tous ces petits livrets ne sont que des comédies et la plupart des farces. Le
+          théâtre et la littérature sont à l’unisson. Avant le règne brillant de la scène, le style
+          était grave, sensé, sage, modeste. Thalie a répandu sur tout un vernis de comique. Les
+          auteurs sont devenus comédiens. Leur style chante, danse. Leur plume fait des cabrioles et
+          des entrechats, leurs phrases forment des ariettes et des gavottes. Quelles obligations
+          n’a-t-on pas à la troupe des comédiens, de cette brillante révolution dans la république
+          des lettres ? Aussi les stupides écrivains qui ne respirent pas l’air subtil de ce riant
+          climat, n’ont qu’une maussade et ennuyeuse solidité, tandis que les jolis officiers de la
+          toilette des actrices sont pétris de grâces, et sèment à pleines mains dans leurs
+          ouvrages, les fleurs qu’ils y ont cueillies. Pour nous qui ne sommes pas initié dans ces
+          mystères d’élégance, nous convenons que notre antique bonhommie, peut-être en vertugadin
+          comme celle de nos aïeux, préfère la vertu, la raison et la vérité aux rubans, aux pompons
+          et aux aigrettes ; la sagesse et la décence aux grands et aux petits airs ; qu’elle mérite
+          aussi peu qu’elle le désire, une place dans la foule des jeux et des rires, et ne se
+          laissera jamais persuader que des modèles si remuants, des maîtres si frivoles, une école
+          si pétillante, donnent des leçons de sagesse, de politesse et de bon goût.</p>
+        <p>Suétone rapporte un trait frappant de cette façon insensée de penser et de parler sur les
+          choses les plus sérieuses, dont il y aurait de l’injustice de ne pas faire honneur au
+          théâtre. L’empereur Auguste, grand amateur, étant au lit de la mort, dit à ses amis,
+          N’ai-je pas bien joué mon personnage ? Fort bien, répondirent-ils. Eh bien ! battez des
+          mains et tirez le rideau. Il se tourne et il expire. <hi rend="i">Nonne personam commode
+            egi ? Optimo Valete et plaudite. Conversus efflavit animam</hi>.On est à plaindre dans
+          la littérature comme dans la religion, quand toute la vie on a joué, on a aimé, on a
+          fréquenté la comédie. Le bel esprit va s’ensevelir dans l’éternité de l’oubli, comme le
+          mauvais chrétien dans l’éternité du supplice. Triste mais inévitable dénoûment, qui n’est
+          que la juste récompense de l’auteur, de l’acteur, du spectateur et de la pièce.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

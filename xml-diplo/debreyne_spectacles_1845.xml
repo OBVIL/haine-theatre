@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2019-05-31T13:20:14+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Des spectacles ou des représentations scéniques [Moechialogie, I, II, 7]</title>
+        <author key="Debreyne, Pierre Jean Corneille (1786-1867)"
+          ref="https://data.bnf.fr/fr/10708150/pierre_jean_corneille_debreyne/">Pierre Jean
+          Corneille Debreyne</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Infoscribe</name>
+          <resp>saisie XML-TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>édition XML</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2019"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/debreyne_spectacles_1845</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Pierre Jean Corneille Debreyne, « Des spectacles ou des représentations scéniques »,
+          in <hi rend="i">Moechialogie ou Traité des péchés contre les sixième et neuvième
+            commandements du Décalogue, et de toutes les questions matrimoniales qui s’y rattachent
+            directement ou indirectement…</hi>
+          <pubPlace>Paris</pubPlace>, <publisher>Poussielgue-Rusand</publisher>, <date>1845</date>,
+            <biblScope>1re partie, chap. II, art. VII, p. 246-276</biblScope>. PDF : <ref
+            target="https://archive.org/details/b29312279">Internet Archive</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1845"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="246" xml:id="p246"/>
+        <head type="main"><hi rend="uc">Article Septième</hi>.</head>
+        <head type="sub"><hi rend="sc">Des spectacles ou des représentations scéniques</hi>.</head>
+        <p>Les représentations théâtrales abstractivement considérées ne sont pas mauvaises, ou, si
+          l’on veut, elles ne sont pas mauvaises de leur nature ou par elles-mêmes. Mais, à les
+          prendre comme <pb n="247" xml:id="p247"/>elles sont dans l’état actuel de nos mœurs et à
+          les envisager au point de vue pratique, avec toutes leurs circonstances concomitantes,
+          elles sont le plus souvent pleines d’écueils et de dangers pour l’innocence et la
+          vertu.</p>
+        <p>Purgez et épurez le théâtre, dépouillez-le de tout le prestige des passions et des
+          intrigues érotiques, et réduisez-le à l’expression pure du beau, du grand, du sublime, du
+          généreux ; dès-lors les spectacles, aux yeux de la multitude, perdront tout leur intérêt
+          et le théâtre restera désert : preuve donc que les représentations scéniques, prises dans
+          leur ensemble comme elles se font aujourd’hui, sont évidemment blâmables et doivent par
+          conséquent être généralement interdites aux chrétiens, qui n’y rencontrent ordinairement
+          que des occasions de chute et des périls évidents et certains. Et ces périls séduisants et
+          les choses qui en sont inséparables, ne les aime-t-on pas ? Il est écrit, comme on sait,
+          que, si on les aime, on y trouvera tôt ou tard sa perte et sa ruine.</p>
+        <p>Tous les Pères de l’Église ont fulminé des anathèmes contre la comédie ou les
+          spectacles ; ils les ont toujours regardés comme ennemis des bonnes mœurs, comme une
+          assemblée honteuse, le sanctuaire de Vénus et le consistoire privé de l’impudicité, comme
+          dit Tertullien. <hi rend="i">Theatrum propriè sacrarium veneris est… privatum
+            consistorium<pb n="248" xml:id="p248"/>impudicitiæ</hi> (de spect., c. 10) ; comme une
+          école d’impudicité et de libertinage, une peste que le démon a fait succéder à
+          l’idolâtrie ; en un mot, ils ont considéré la fréquentation des spectacles comme une
+          espèce d’apostasie, parce que, disent-ils, une telle action est une des pompes du démon
+          auxquelles les chrétiens ont renoncé par leur baptême. <hi rend="i">In
+            theatro risus, turpitudo, pompa diabolica, effusio, insumptio temporis, concupiscentiæ
+            absurdæ præparatio, adulterii meditatio, scortationis gymnasium</hi>. (S. Chrysost.
+          hom. 42, in act.) <hi rend="i">In spectaculis</hi><seg type="exquote">, dit Salvien,</seg> <hi rend="i">quædam
+            apostasia’fidei est, et à symbolis ipsius et cœlestibus sacramentis lethalis
+            prævaricatio. Quæ est enim in baptismo salutari christianorum prima confessio…. nisi
+            renuntiare se diabolo et pompis ejus, atque spectaculis et operibus protestentur</hi>.
+          (De prov., lib. 6.)</p>
+        <p>Saint Charles Borromée fit ordonner, dans un concile provincial, que les prédicateurs
+          reprendraient avec force le déréglement de ces plaisirs publics, que les hommes, séduits
+          par une coutume dépravée, mettaient au nombre des bagatelles où il n’y a point de mal ;
+          qu’ils décrieraient avec exécration les spectacles, les jeux, les bouffonneries du
+          théâtre, et les autres divertissements semblables qui tirent leur origine des mœurs des
+          Gentils, et qui sont contraires à l’esprit du christianisme ; qu’ils se serviraient de
+          tout ce qui a été <pb n="249" xml:id="p249"/>dit de plus pressant sur ce point par
+          Tertullien, saint Cyprien, saint Chrysostôme et Salvien<note place="bottom">Il aurait pu
+            ajouter encore saint Augustin, saint Clément d’Alexandrie, saint Basile, Lactance,
+            etc.</note> ; qu’ils développeraient avec soin les suites et les effets funestes des
+          spectacles ; et qu’enfin ils n’oublieraient rien pour déraciner ce mal et faire cesser
+          cette corruption.</p>
+        <p><quote>« Il faut fuir les spectacles profanes, les comédies…<seg type="exquote">, dit le rédacteur des <hi
+              rend="i">Conférences d’Angers</hi> ;</seg> ce sont des écoles de coquetterie et de
+            libertinage, où la vertu la plus épurée n’est pas en sûreté, et d’où l’on sort toujours
+            moins pur qu’on y est entré. Un chrétien devient en quelque manière apostat, lorsqu’il
+            s’arrête à ces divertissements du inonde, auxquels il a renoncé dans le baptême en
+            renonçant à Satan et à ses pompes. »</quote> (Sur les commandements de Dieu.)</p>
+        <p>Saint François de Sales lui-même qui, dans son immense charité, paraît souvent si
+          accommodant, regarde les spectacles comme dangereux. Voici ce qu’il en dit dans son <hi
+            rend="i">Introduction à la vie dévote</hi> : <quote>« Les jeux, les bals, les festins,
+            les pompes, les comédies en <hi rend="i">leur substance</hi>, ne sont nullement choses
+            mauvaises, ains indifférentes, pouvant être bien et mal exercées ; <hi rend="i"
+              >toujours</hi> néantmoins <hi rend="i">ces choses-là sont dangereuses</hi> : et de s’y
+            affectionner, cela est encore plus <pb n="250" xml:id="p250"/>dangereux.
+            Je dis doncques, Philothée, qu’encore qu’il soit loisible de jouer, danser, se parer,
+            ouyr des honestes comédies, banqueter : si est ce que d’avoir de l’affection à cela,
+            c’est chose contraire à la dévotion, et <hi rend="i">extrêmement nuisible et
+              périlleuse.</hi> »</quote> (1<hi rend="sup">re</hi> partie, chap. 23.)</p>
+        <p>Enfin nous citerons encore le témoignage non d’un docteur, d’un Père de l’Église ou d’un
+          saint évèque, mais celui d’un pair de France, d’un homme peu suspect d’ascétisme, de M.
+          Charles Dupin. Voici ce qu’il a dit sur les spectacles, il y a quelques années, dans un
+          discours public : <quote>« Voyez les théâtres tenant école de corruption et de
+            scélératesse… foulant aux pieds les vertus les plus saintes avec l’intention patente de
+            faire aimer, choyer, admirer le duel, le suicide, l’assassinat et le parricide,
+            l’empoisonnement, le viol, l’adultère, l’inceste, préconisant ces forfaits comme la
+            fatalité glorieuse des esprits supérieurs, comme un progrès des grandes âmes qui
+            s’élèvent au-dessus de la vertu des idiots, de la religion des simples et de l’humanité
+            du commun peuple. Cette littérature empoisonnée nous ramène par la corruption à la
+            barbarie »</quote>.</p>
+        <p>Nous l’avons dit dans un autre ouvrage en parlant du suicide, <quote>« les spectacles
+            sont plus dangereux encore (que les romans) aux yeux du vrai sage. Les théâtres, où
+            siége une foule frivole et voluptueuse, ne sont dans la réalité que des <pb n="251" xml:id="p251"/>écoles du mensonge et de la corruption, où l’on donne des
+            vices certains pour ôter des ridicules exagérés, ou dans lesquels on épuise sa
+            sensibilité et sa pitié pour des malheurs imaginaires pour n’en plus trouver dans des
+            afflictions réelles, domestiques et sociales. Je ne parle pas ici d’un autre genre de
+            séduction que l’on devine facilement. Dans les représentations dramatiques, le plus
+            souvent, que d’aventures tragiques, que d’événements terribles, de catastrophes
+            sanglantes, de scènes d’horreur, de désespoir, de sang, de meurtre, de suicide, qui
+            familiarisent les hommes avec les idées de crime et de destruction, et les livrent sans
+            défense au délire fougueux de leurs passions ! On conçoit sans peine après cela que,
+            dans cet état d’exaltation morale, les accidents réels et ordinaires de la vie, le choc
+            des passions sociales, pourront facilement porter à une triste et funeste réalisation.
+            Il faut le dire ici sans détour, le drame français moderne est devenu un enseignement
+            d’immoralité, d’infamie et d’horreurs, c’est-à-dire de meurtre, de suicide et de
+            prostitution »</quote>.</p>
+        <p>On objecte que le théâtre français, tel qu’il est aujourd’hui, n’a rien de contraire aux
+          bonnes mœurs ; qu’il est même si épuré qu’il n’offre rien que l’oreille la plus chaste ne
+          puisse entendre. A cela Bossuet répond, car l’objection n’est pas nouvelle : <quote>« Il
+            faudra donc que nous passions <pb n="252" xml:id="p252"/>pour honnêtes
+            les impiétés et les infamies dont sont pleines les comédies de Molière »</quote>. Voilà
+          ce qu’a dit un homme qui avait, je crois, quelque connaissance des hommes et des choses.
+            <quote>« Songez, continue le sublime écrivain, si vous oserez soutenir à la face du ciel
+            des pièces où la vertu et la piété sont toujours ridicules, la corruption toujours
+            excusée et toujours plaisante, et la pudeur toujours offensée, ou toujours en crainte
+            d’être violée par les derniers attentats, je veux dire par les expressions les plus
+            impudentes, à qui l’on ne donne que les enveloppes les plus minces. »</quote> (Traité
+          sur la comédie.)</p>
+        <p>Comment pouvoir approuver la corruption réduite en maximes dans une foule d’opéras et
+          d’opéras comiques, avec toutes les trompeuses et perfides invitations à tous les
+          plaisirs ? Comment approuver ces sentiments dont la nature corrompue est si délicieusement
+          et si dangereusement flattée, et qui sont animés d’une musique enchanteresse qui ne
+          respire que la mollesse et la volupté ?<note place="bottom"><p>La culture démesurée,
+              excessive des arts d’agrément, et particulièrement de la musique quelle qu’elle soit,
+              de la danse et de tout ce qui se dit et se fait au théâtre, peut exercer sur le moral
+              des jeunes personnes une très-fâcheuse influence, en exaltant, en perturbant ou en
+              pervertissant la sensibilité et les fonctions du système nerveux. Cet état anormal, ou
+              cette perversion de la sensibilité, insensiblement amenée par les commotions les plus
+              fortes, les affections les plus variées et les plus opposées des âmes déjà flétries et
+              amollies, peut être portée au point d’altérer le caractère, de dépraver le sentiment,
+              d’ouvrir la porte à toutes les maladies nerveuses, et produire enfin des anomalies ou
+              des perturbations mentales ou affectives qui peut-être empoisonneront pour toujours la
+              vie domestique et sociale.</p><p>Voyez dans nos opulentes cités la jeunesse énervée,
+              flasque, flétrie, fanée, saturée de plaisirs, de volupté, de musique, de spectacles,
+              de danses, de bals et d’autre chose encore : la source des beaux sentiments est tarie,
+              le caractère est dégénéré et le cœur desséché. Voyez aussi les jeunes filles pâles,
+              maigres, ternes, étiolées, tristes, vaporeuses, hystériques, mélancoliques,
+              rachitiques, chlorotiques, sourdement minées par on ne sait quoi…. La poitrine se
+              prend ; on s’adresse au magnétisme, aux somnambules, à l’omœopathie, à l’orthopédie,
+              aux divinités chéries du jour, à Melpomène, à Thalie et à Terpsichore, c’est-à-dire
+              aux spectacles et aux bals où l’on achève d’épuiser le peu de sensibilité qui reste
+              encore et qu’on eût pu utiliser peut-être pour le rétablissement de la santé par un
+              long séjour à la campagne.</p><p>Si par hasard ces jeunes personnes ne meurent pas, un
+              triste et peut-être un fatal hymen les unira à des vieillards de vingt-cinq ans, déjà
+              tout courbés sous le poids des plaisirs et de la mollesse ; car c’est ainsi, comme ou
+              sait, que se forment les alliances dans les sommités sociales. Mais, l’union faite et
+              consommée, tout n’est pas fini : c’est le commencement de nouvelles douleurs, <hi
+                rend="i">initium dolorum</hi>, dont nous ne voulons pas ici dérouler le sombre et
+              sinistre tableau.</p></note> Il est inutile de répondre qu’on n’est <pb n="253"
+            xml:id="p253"/>occupé que du chant et du spectacle, sans songer au sens des paroles ni
+          aux sentiments qu’elles expriment et inspirent : car, comme dit encore Bossuet,
+            <quote>« c’est là précisément le danger, que pendant qu’on est enchanté par la douceur
+            de la mélodie, ou étourdi par le merveilleux du spectacle, ces sentiments s’insinuent
+            sans qu’on y pense et plaisent sans être aperçus ; mais il n’est pas nécessaire de
+            donner le secours du chant et de la musique à des inclinations déjà trop puissantes par
+            elles-mêmes ; et si vous dites que la seule représentation des passions agréables dans
+            les tragédies d’un Corneille et d’un Racine, n’est pas dangereuse à la pudeur, vous
+            démentez ce <pb n="254" xml:id="p254"/>dernier, qui, occupé de sujets
+            plus dignes de lui, renonce à sa Bérénice, que je nomme parce qu’elle vient la première
+            à mon esprit »</quote>.</p>
+        <p>D’autres affirment imperturbablement qu’ils ne voient dans les spectacles aucun danger
+          pour eux, qu’ils sortent du théâtre aussi purs qu’ils y sont entrés, et que leur vertu
+          n’en reçoit la moindre atteinte ; étrange illusion ! funeste aveuglement ! Il ne faut voir
+          là que le pur effet d’une dureté ou d’une grande insensibilité de conscience. Mais enfin,
+          quelle est donc cette vertu à l’épreuve de toute atteinte ? n’est-il pas à craindre
+          qu’elle ne soit de celles des sages du monde, qui ne savent s’ils sont chrétiens ou non,
+          et qui s’imaginent, <pb n="255" xml:id="p255"/>comme dit encore Bossuet, avoir rempli tous
+          les devoirs de la vertu, lorsqu’ils vivent en gens d’honneur, sans tromper personne,
+          pendant qu’ils se trompent eux-mêmes en donnant tout à leurs plaisirs et à leurs
+          passions ? Mais quand ces hommes, si vertueux et invulnérables suivant eux, n’auraient
+          réellement rien à craindre pour eux-mêmes, n’auraient-ils pas toujours à craindre le
+          scandale qu’ils donnent aux autres ? <hi rend="i">Væ homini illi, per quem scandalum
+            venit</hi>. (Matth. 18, 7.)</p>
+        <p>Si les peintures et les images immodestes ou obscènes présentent naturellement à l’esprit
+          ce qu’elles expriment, combien plus sera-t-on touché des représentations théâtrales, où,
+          comme dit Bossuet, <quote>« tout paraît effectif ; où ce ne sont point des traits morts et
+            des couleurs sèches qui agissent, mais des personnages vivants, de vrais yeux, ou
+            ardents, ou tendres et plongés dans la passion, de vraies larmes dans les acteurs, qui
+            en attirent d’aussi véritables dans ceux qui regardent : enfin de vrais mouvements, qui
+            mettent en feu tout le parterre et toutes les loges ; et tout cela, dites-vous, n’émeut
+            qu’indirectement et n’excite que par accident les passions…. Dites, continue le grave
+            Bossuet, que la pudeur d’une jeune fille n’est offensée que par accident, par tous les
+            discours où une personne de son sexe parle de ses combats, où elle avoue sa faute et
+            l’avoue à son vainqueur même, comme elle </quote><pb n="256" xml:id="p256"
+            /><quote>l’appelle. Ce qu’on ne voit point dans le monde, ce que celles qui succombent à
+            cette faiblesse y cachent avec tant de soin, une jeune fille le viendra apprendre à la
+            comédie. Elle le verra, non plus dans les hommes à qui le monde permet tout, mais dans
+            une fille qu’on montre comme modeste, comme pudique, comme vertueuse, en un mot, dans
+            une héroïne ; et cet aveu dont on rougit dans le secret est jugé digne d’être révélé au
+            public, et d’emporter comme une nouvelle merveille l’applaudissement de tout le
+            théâtre »</quote>. (Ibid.)</p>
+        <p>Nous ne voulons pas parler ici du prestige séduisant et fascinateur des comédiennes ou
+          des actrices, même en admettant la modestie et la décence extérieure de leurs ajustements.
+          On se figure aisément tout l’attirail de la vanité et des dangereux appas de ces femmes,
+          semblables à ces sirènes dont parle le prophète Isaïe, qui font leur demeure dans les
+          temples de la volupté. <hi rend="i">Sirenes in delubris voluptatis</hi> (13, 22).</p>
+        <p>Ceux qui composent ou qui représentent des pièces de théâtre vraiment obscènes, sans
+          aucun doute pèchent mortellement. C’est le sentiment des théologiens les moins suspects de
+          rigorisme en cette matière, tels que saint Antonin, saint Liguori, Sylvester, Sanchez,
+            M<hi rend="sup">gr</hi> Bouvier, M<hi rend="sup">gr</hi> Gousset, etc.</p>
+        <p>On pèche encore mortellement en concourant <pb n="257" xml:id="p257"/>ou en coopérant à
+          une représentation notablement indécente, <hi rend="i">valdè turpis</hi>, soit par
+          souscription ou abonnement, soit par applaudissement, ou même par la simple assistance aux
+          spectacles <hi rend="i">notablement obscènes</hi>, ob turpem delectationem indè
+          consurgentem.</p>
+        <quote>
+          <p>« Comœdias, tragœdiasve, ait DD. Bouvier, non multùm turpes componere, vel in theatro
+            repræsentare, à mortali tamen communiter excusari non potest, propter periculum
+            hujusmodi ludis annexum, et ob scandalum exindè pro aliis exurgens. Undè actores et
+            actrices, in concilio arelatensi, anno 314, can. 5, fuerunt excommunicati, et hùc usque
+            velut excommunicati habiti sunt saltem in Galliâ : idcircò sacramenta Ecclesiæ ipsis
+            etiam in articulo mortis non administrantur, nisi professioni suæ se renuntiaturos
+            promittant.</p>
+          <p>« Dico, <hi xml:lang="en" rend="i">saltem in Galliâ</hi>, quia in Italiâ, in Germaniâ,
+            in Poloniâ, in aliisque regionibus, viri et mulieres ab Ecclesiæ sacramentis non
+            excluduntur præcisè ob scenas theatricas quibus inserviunt, sed liberum est confessariis
+            eos admittere vel repellere, secundùm naturam repræsentationum ad quas concurrunt. »</p>
+        </quote>
+        <p>Suivant le même auteur, saint Liguori, Sanchez et l’opinion commune des théologiens au
+          moins étrangers, il n’y a point de péché mortel à assister à des représentations qui ne
+          sont point <pb n="258" xml:id="p258"/>notablement indécentes, ni exécutées d’une manière
+          indécente, sauf néanmoins tout danger particulier et tout scandale.</p>
+        <p>Mais voici d’autres opinions qui nous paraissent trop graves ou plutôt trop hasardées
+          pour les laisser passer sans observation. Elles viennent de Sanchez et de saint Liguori,
+          et elles ont été récemment reproduites par M<hi rend="sup">gr</hi> Gousset en ces termes :
+            <quote>« Il y aurait péché mortel pour les simples spectateurs qui assisteraient à une
+            représentation notablement obscène, pour le plaisir honteux que cette représentation
+            peut occasionner. Mais il n’en est pas de même de ceux qui n’y assistent que par
+            curiosité ou par récréation ; ils ne pèchent que véniellement, pourvu qu’ils se
+            proposent de résister à tout mouvement charnel qui peut survenir, ou qu’ils n’aient pas
+            lieu de craindre de se laisser aller à quelques fautes graves.</quote></p>
+        <p><quote>« Cependant, il serait difficile d’excuser de péché mortel un jeune homme qui,
+            sans nécessité, voudrait assister au spectacle dans le cas dont il s’agit<note
+              place="bottom">C’est-à-dire à un spectacle <hi rend="i">notablement
+              obscène</hi>.</note> ; à moins qu’il ne fût d’une conscience très-timorée et qu’il ne
+            pût s’autoriser sur sa propre expérience. Encore faudrait-il, dans ce dernier cas, que
+            son exemple ne fût pas une occasion, pour d’autres jeunes gens, d’assister <pb n="259" xml:id="p259"/>à des représentations indécentes. »</quote> (<hi rend="i"
+            >Théologie morale</hi>, t. 1, 6<hi rend="sup">e</hi> partie, du sixième précepte du
+          décalogue.)</p>
+        <p>L’auteur, comme nous venons de le dire, s’appuie sur Sanchez et sur saint Liguori,
+          auxquels il renvoie sans en rapporter le texte, mais que nous citerons tout-à-l’heure.</p>
+        <p>On ne commet donc, d’après ce qui précède, qu’un péché véniel en assistant, par curiosité
+          ou par récréation, à une représentation <hi rend="i">notablement obscène</hi>. Mais on
+          sait assez qu’on ne va ordinairement au spectacle que par ces sortes de motifs,
+          c’est-à-dire par curiosité, amusement et récréation. On ajoute, il est vrai : pourvu
+          qu’ils se proposent de résister à tout mouvement charnel qui peut survenir. Mais on se
+          propose cela encore ordinairement. Enfin, on y met une autre condition encore : pourvu
+          qu’ils n’aient pas lieu de craindre de se laisser aller à quelques fautes graves. Mais on
+          se persuadera encore ordinairement, pour ne pas dire toujours, qu’on n’a rien à craindre
+          de ce côté-là, et, en attendant, on va s’exposer volontairement, par curiosité ou par
+          récréation, c’est-à-dire sans nécessité, à un danger prochain de péché mortel que l’on ne
+          peut manquer de trouver dans un spectacle <hi rend="i">notablement obscène</hi>.</p>
+        <p>Voici maintenant le texte de Sanchez : <quote>« Quamvis comœdiis interesse non sit
+            mortale, ubi nec <pb n="260" xml:id="p260"/>res turpes repræsentantur,
+            nec modus repræsentandi est turpis : vel si hæc concurrant, audiuntur ob solam vanam
+            curiositatem, absque periculo probabili lapsùs in aliquod peccatum mortale </quote>».
+          (Lib. 9, dis. 46, n° 40.) Il faut faire remarquer ici que Sanchez ne se sert pas de
+          l’expression <hi rend="i">valdè turpes</hi>, très ou du moins <hi rend="i">notablement
+            obscène</hi>, lorsqu’il avance qu’il n’y a point de péché mortel quand on assiste à un
+          spectacle obscène, <hi rend="i">turpis ob solam vanam curiositatem, etc.</hi> On n’aurait
+          pas dû, d’après cela, appliquer l’expression <hi rend="i">notablement obscène</hi> à ce
+          dernier cas, ou à la représentation où l’on ne fait faire qu’un péché véniel, et l’on
+          aurait dû se contenter de dire tout simplement : <hi rend="i">représentation
+            indécente</hi>, qui certainement dit moins que <hi rend="i">notablement obscène</hi> ;
+          sans qu’il faille en conclure que nous croyons que l’on ne pèche que véniellement quand on
+          assiste sans nécessité à un spectacle indécent. Voici la suite du texte de Sanchez qui
+          sert de base aux premières paroles de la citation de Mgr Gousset : <quote>« At quandò
+            turpia repræsentantur, vel modus est turpis, audiunturque ob delectationem ex ipsis
+            rebus turpibus consurgentem, aut cum probabili ruinæ periculo, esse
+          lethale ».</quote></p>
+        <p>Quant au jeune homme à qui on permet d’assister, sans nécessité, à ces sortes de
+          spectacles, c’est-à-dire <hi rend="i">notablement obscènes</hi>, sans pécher mortellement,
+          pourvu qu’il <hi rend="i">fût d’une conscience
+          <pb n="261" xml:id="p261"/>très-timorée</hi>, nous demanderons quelle est
+          cette conscience très-timorée d’un jeune homme qui assiste à de pareils spectales ? n’y
+          a-t-il pas là une sorte de contradiction pratique, et un jeune homme qui a véritablement
+          la conscience très-timorée, le voit-on fréquenter des spectacles notablement obscènes ? Et
+          puis encore, dans l’espèce, est-ce que tout le monde n’est pas plus ou moins jeune homme ?
+            <hi rend="i">Qui se existimat stare, videat ne cadat.</hi></p>
+        <p>Le texte et l’exemple du jeune homme à conscience timorée sont pris de saint Liguori qui
+          s’exprime ainsi : <quote>« Nullo autem modo à mortali excusarem adolescentem, qui absque
+            necessitate, vellet curiositatis causâ hujusmodi comœdiis (notabiliter turpibus ut suprà
+            dictum est) interesse, nisi quis esset valdè timoratus, et insuper pluries esset
+            expertus, se, illas spectando, nunquam lethaliter peccasse ; modò suo exemplo aliis
+            adolescentibus occasionem non præberet hujusmodi turpibus repræsentationibus
+            assistendi »</quote>. (Lib. 3, n° 427.)</p>
+        <p>Sauf le profond respect que nous professons pour d’aussi graves autorités que celles de
+          saint Liguori et de M<hi rend="sup">gr</hi> Gousset, nous ne pouvons partager leur
+          opinion, pour les raisons que le lecteur a dû voir et apprécier plus haut. On doit encore
+          se rappeler que les théologiens étrangers, surtout ceux d’Espagne et d’Italie (Sanchez et
+            <pb n="262" xml:id="p262"/>saint Liguori), sont généralement moins difficiles sur
+          l’article des spectacles que les théologiens français. Il ne faut donc prendre sur ce
+          point leurs opinions qu’avec mesure et reserve. M<hi rend="sup">gr</hi> Bouvier en avait
+          déjà fait la remarque au moins d’une manière implicite, en disant : <quote>« Scenis
+            notabiliter turpibus interesse ob delectationem indè consurgentem, peccatum est mortale,
+            ut patet : si verò ob solam curiositatem aut vanum solatium id fiat, secluso periculo
+            consensûs in rem veneream, quidam<note place="bottom">Ce <hi rend="i">quidam</hi> doit
+              s’entendre particulièrement de Sanchez et de saint Liguori.</note> æstimant peccatum
+            esse duntaxat veniale : verùm laxior est ista decisio, et mortale reputandum est
+            peccatum, tùm propter periculum, tùm propter scandalum, tùm propter cooperationem ad
+            actionem mortaliter malam ».</quote></p>
+        <p>Si les pièces ne sont pas notablement obscènes et qu’elles ne soient pas représentées
+          d’une manière indécente, il n’y a point de péché mortel à y assister, suivant Sanchez,
+          saint Liguori, M<hi rend="sup">gr</hi> Bouvier, M<hi rend="sup">gr</hi> Gousset, et
+          plusieurs théologiens <hi rend="i">étrangers</hi>, sauf toujours tout danger particulier
+          et tout scandale. Ces théologiens, contre l’opinion d’un grand nombre d’autres, donnent
+          pour raison que, dans l’espèce, cette simple assistance n’est point une grave coopération
+          à <pb n="263" xml:id="p263"/>l’entretien de la profession des acteurs ; ce qui ne nous
+          parait pas exact : car qu’est-ce qui appelle sur le théâtre les acteurs, les entretient
+          dans leur état, dans leur luxe, etc., si ce ne sont les spectateurs ? <hi rend="i">Otez
+            les auditeurs</hi><seg type="exquote">, dit saint Chrysostôme,</seg> <hi rend="i">vous ôterez les acteurs</hi>.
+          (Hom. in matth.) Collet parle dans le même sens : <quote>« Comœdiorum actioni, quæ grave
+            est peccatum, indubiè cooperantur (assistentes) ; tolle enim spectatores, sustuleris et
+            actores ». (De sexto decalogi præcepto.)</quote></p>
+        <p>Les mêmes auteurs affirment qu’il n’y a nul péché à assister aux spectacles non obscènes,
+          si pour cela il y a quelque raison de nécessité, d’utilité ou de bienséance d’état, <hi
+            rend="i">decentia statûs</hi>, comme ils disent, en supposant toujours qu’il n’existe ni
+          danger particulier ni scandale. On donne pour raison qu’on a alors un motif suffisant qui
+          permet de coopérer d’une manière éloignée aux péchés des autres, ou de s’exposer soi-même
+          à quelque péril. <quote>« Quia tunc daretur ratio sufficiens peccatis aliorum sic remotè
+            cooperandi et cuidem periculo se exponendi. »</quote> C’est d’après cela, ajoute-t-on,
+          qu’il est permis d’aller aux spectacles non obscènes, aux femmes mariées, pour ne pas
+          déplaire à leurs maris qui exigent d’elles cette complaisance ; aux domestiques, pour
+          servir leurs maîtres ou leurs maîtresses ; aux enfants, sur l’ordre de leurs parents ; aux
+          magistrats et aux gens <pb n="264" xml:id="p264"/>de police, pour le maintien du bon
+          ordre ; aux rois et aux princes, afin de se concilier l’affection de leurs sujets ; aux
+          hommes de cour, qui sont obligés d’accompagner le prince, etc., pourvu que toutes ces
+          personnes aient une intention pure et ne consentent à aucune délectation charnelle. C’est
+          la doctrine de M<hi rend="sup">gr</hi> Bouvier, que nous ne voulons pas absolument blâmer.
+          Un petit scrupule cependant nous arrête et nous empêche d’y donner notre entière
+          adhésion : c’est, et ce sera toujours la difficulté de la coopération au maintien d’une
+          profession que l’Église regarde comme un obstacle à la réception des sacrements, même à
+          l’article de la mort, suivant M<hi rend="sup">gr</hi> Bouvier lui-même qui, comme nous
+          l’avons vu plus haut, dit que les acteurs et les actrices ont été regardés, jusqu’à
+          présent, comme excommuniés, du moins en France. <hi rend="i">Et hùc usque velut
+            excommunicati habiti sunt saltem in Galliâ.</hi> Voyez la page 275. C’est donc une
+          profession incompatible avec le salut ou la sanctification chrétienne, puisqu’on est
+          obligé d’y faire renoncer les acteurs et les actrices à l’article de la mort, qu’ils
+          soient aujourd’hui excommuniés ou non. M<hi rend="sup">gr</hi> Gousset, bien qu’il ne
+          paraisse pas les regarder comme excommuniés, ne les oblige pas moins à cet acte de
+          renonciation à l’article de la mort.</p>
+        <p>Voici ce que dit Bossuet sur ce point : <quote>« Elle (l’Église) condamne les comédiens,
+            et croit par <pb n="265" xml:id="p265"/>là défendre assez la comédie ; la
+            décision en est précise dans les Rituels, la pratique en est constante ; on prive des
+            sacrements, et à la vie et à la mort, ceux qui jouent la comédie, s’ils ne renoncent à
+            leur art ; on les passe à la sainte table comme des pécheurs publics ; on les exclut des
+            ordre sacrés, comme des personnes Infâmes ; par une suite infaillible, la sépulture
+            ecclésiastique leur est déniée. Quant à ceux qui fréquentent les comédies, comme il y en
+            a de plus innocents les uns que les autres, et peut-être quelques-uns qu’il faut plutôt
+            instruire que blâmer, ils ne sont pas répréhensibles au même degré, et il ne faut pas
+            fulminer également contre tous. Mais de là il ne s’ensuit pas qu’il faille autoriser les
+            périls publics : si les hommes ne les aperçoivent pas, c’est aux prêtres à les instruire
+            et non pas à les flatter »</quote>.</p>
+        <p>Nous allons maintenant exposer brièvement les conclusions pratiques que les confesseurs
+          ont à tirer de tout ce qui précède, ou plutôt nous présenterons un court exposé des règles
+          de conduite qu’offrent aux confesseurs les théologiens les plus éclairés et les plus
+          sages. Nous les entremêlerons au besoin de quelques courtes réflexions.</p>
+        <p>Voici d’abord la règle que suit M<hi rend="sup">gr</hi> Bouvier : nous allons citer
+          textuellement.</p>
+        <quote>
+          <p>« Non absolverem, 1° actores et actrices etiam in articulo mortis, nisi professioni suæ
+            renuntiarent ; 2° poetas qui componunt fabulas amoribus <pb n="266" xml:id="p266"
+            />illicitis plenas, in theatro repræsentandas ; 3° eos qui ad repræsentationes
+            theatricas proximè concurrunt, ut famulas qui actrices vestiunt, aut qui vestes ad solum
+            hunc usum destinatas ex professo vendunt, locant vel conficiunt ; 4° eos qui scenis
+            theatralibus assistendo, grave præbent scandalum, ut essent personæ virtutibus
+            christianis conspicuæ, nisi gravi necessitate premerentur ; 5° eos qui propter
+            circumstantiam personalem grave subeunt periculum libidinis ; 6° nec eos qui sine causà
+            rationabiliter excusante frequentissimè istiusmodi ludis intersunt, etiamsi nec grave
+            periculum incurrerent, nec scandalum præberent, quia talis consuetudo cum vitâ
+            christianâ conciliari non potest.</p>
+        </quote>
+        <p><quote>« Absolverem, è contrà, pro communione paschali, 1° omnes qui causam sufficienter
+            excusantem habentes, non peccant ; 2° eos qui aliquoties duntaxat, vel ex quibusdam
+            circumstantiis tantùm spectaculis non per se notabiliter inhonestis assistunt, seclusis
+            et periculo et scandalo ; 3° eos qui ad repræsentationes theatrales non proximè, aut
+            solummodò leviter concurrunt, v. g., aulam theatralem verrendo, ædificium instaurando,
+            etc. »</quote> On voit, d’après cela, que M<hi rend="sup">gr</hi> Bouvier ne refuse
+          l’absolution qu’aux consuétudinaires, c’est-à-dire à ceux qui vont habituellement au
+          spectacle avec affection et sans légitime excuse, parce qu’une telle conduite ne <pb
+            n="267" xml:id="p267"/>peut se concilier avec la vie chrétienne. Nous ne parlons ici que
+          des personnes qui assistent au spectacle et non des acteurs, etc.</p>
+        <p>Suivant Collet, Lamet rapporte que six docteurs de Sorbonne ayant été consultés, en 1694,
+          sur la matière, ont décidé qu’on devait refuser l’absolution : <quote>« 1° actoribus qui
+            scenicos ludos exhibent ; 2° auctoribus qui fabulas componunt in theatro recitandas ; 3°
+            artificibus qui ad theatrum proximè spectantia concinnant : nisi hi omnes sufficienter
+            moniti resipiscere velint, et prædictis nuntium remittere perpetuum. Idem et à fortiori
+            de scenecis musicis, gallicè opera dicendum. »</quote> (Collet.) Ità ctiam Bailly.</p>
+        <p>Il est à remarquer que les six docteurs de Sorbonne, ni Collet, ni Bailly, ne font aucune
+          mention des spectateurs ou de ceux qui vont aux spectacles : c’est qu’apparemment la
+          consultation adressée à la Sorbonne n’était point relative à ces derniers. Faut-il en
+          conclure que l’on ne doit point leur refuser l’absolution ? C’est ce que l’on ne peut
+          admettre sans distinction, et certes ce ne peut être le sévère Collet, et avec beaucoup de
+          raison, qui serait d’avis de les absoudre tous en masse, <hi rend="i">in globo</hi> et
+          sans distinction.</p>
+        <quote>
+          <p>« Le spectacle par lui-même n’est point mauvais<seg type="exquote">, dit M<hi rend="sup">gr</hi> Gousset</seg> ;
+            on ne peut donc le condamner d’une manière absolue, mais il est plus ou moins dangereux
+            suivant les circonstances et <pb n="268" xml:id="p268"/>l’objet des pièces qu’on y
+            joue ; on ne peut donc approuver ceux qui ont l’habitude de le fréquenter : on doit même
+            l’interdire à toutes les personnes pour lesquelles il devient une occasion prochaine de
+            péché mortel. »</p>
+        </quote>
+        <p>Suivant les Instructions sur le Rituel de Toulon, fort connues et fort estimées
+          d’ailleurs, <quote>« on doit regarder comme occasion prochaine de péché mortel,
+            l’assistance à la comédie, à l’opéra et à tous les spectacles que représentent les
+            comédiens et les bateleurs, et, sans aucune distinction, tous ceux de même espèce qui
+            montent sur le théâtre pour le divertissement public »</quote>. (De la comédie,
+            t. <num>i</num>.) On trouvera probablement ces décisions un peu rigides. Continuons.
+          Quelques pages plus haut, l’auteur avait dit : <quote>« On doit refuser l’absolution à
+            ceux qui sont dans l’occasion prochaine du péché mortel…. On appelle occasion prochaine
+            du péché mortel tout ce qui expose au danger moral où probable de pécher mortellement.
+            Il y a des occasions prochaines qui portent au péché mortel par elles-mêmes et de leur
+            nature, comme les professions de comédiens, farceurs, etc. »</quote></p>
+        <p>Revenons encore aux acteurs et aux actrices, c’est un autre passage de M<hi rend="sup"
+            >gr</hi> Gousset qui nous y ramène. Ce savant théologien dit : <quote>« Le spectacle
+            n’étant point mauvais de sa nature, la profession des acteurs et des actrices, quoique
+            <pb n="269" xml:id="p269"/>généralement dangereuse pour le salut, ne doit
+            pas être regardée comme une profession absolument mauvaise »</quote>. M<hi rend="sup"
+            >gr</hi> Gousset, d’après saint Liguori, se fonde sur le passage suivant de saint
+          Thomas : <quote>« Ludus<seg type="exquote">, dit le docteur angélique,</seg> est necessarius ad conversationem vitæ
+            humanæ. Ad omnia autem quæ sunt utilia conversationi humanæ deputari possunt aliqua
+            officia licita. Et ideò etiam officium histrionum, quod ordinatur ad solatium hominibus
+            exhibendum, non est secundùm se illicitum : nec sunt in statu peccati, dummodò moderatè
+            ludo utantur, id est, non utendo aliquibus illicitis verbis vel factis ad ludum, et non
+            adhibendo ludum negotiis et temporibus indebitis…. Undè illi qui moderatè eis
+            subveniunt, non peccant ; sed justè faciunt mercedem ministerii eorum eis tribuendo. Si
+            qui autem superfluè sua in tales consumant, vel etiam sustentent illos histriones qui
+            illicitis ludis utuntur, peccant, quasi eos in peccato foventes »</quote>. (Sum.
+          part. 2, 2. q. 168, art. 3.)</p>
+        <p>Il n’est nullement certain que ce fameux passage de saint Thomas doive s’appliquer à nos
+          spectacles et en justifier la pratique : il ne prouve donc pas sans réplique que la
+          profession des acteurs et des actrices n’est pas mauvaise. Bossuet ne rejette-t-il pas
+          cette preuve en faveur de la comédie, tirée du texte de saint Thomas, lorsqu’il dit :
+            <quote>« Quand il serait vrai, <hi rend="i">ce qui n’est
+          <pb n="270" xml:id="p270"/>pas</hi>, que saint Thomas, à
+            l’endroit que l’on produit de sa Somme, ait voulu parler de la comédie, etc. » ?</quote>
+          Pontas est encore plus explicite sur le passage de saint Thomas si souvent invoqué en
+          faveur des spectacles. Voici ce qu’il en dit : <quote>« Comme les fauteurs des comédiens
+            soutiennent que saint Thomas leur est favorable, en ce qu’il semble dire que la
+            profession des comédiens n’est pas mauvaise de sa nature, et que l’on peut même
+            contribuer à leur subsistance pourvu que ce soit d’une manière modérée…, il est
+            nécessaire que l’on sache que ce saint docteur n’entend pas parler des comédies telles
+            que les dépeignent les conciles et les Pères, et telles qu’on les représente encore
+            aujourd’hui, où on ne voit qu’intrigues de mariages, ou d’amourettes et que des paroles
+            équivoques, qui ne tendent qu’à exciter ou à entretenir les passions les plus honteuses.
+            Car peut-on, sans faire une injure atroce à ce saint, lui imputer une doctrine contraire
+            à celle des conciles et des Pères de tous les siècles ? Est-il croyable qu’il ait voulu
+            approuver une profession qui rend infâmes et excommuniés ceux qui l’exercent ? Il est
+            donc vrai de dire qu’il ne parle que des seuls jeux de théâtre, qui, comme il le dit,
+            sont en quelque manière utiles ou nécessaires au soulagement des peines de la vie, entre
+            lesquels il met les représentations de chasse… Cet ange de l’école n’a donc garde
+            d’enseigner qu’on <pb n="271" xml:id="p271"/>puisse assister aux comédies
+            dont nous parlons, ni qu’on puisse rien donner à ceux qui les représentent, puisque tout
+            au contraire il les condamne lui-même avec saint Augustin, peu après les paroles
+            qu’objectent les fauteurs de la comédie. <hi rend="i">Si qui autem superflua in tales
+              consumunt</hi>, ajoute-t-il, <hi rend="i">vel etiam sustentant illos histriones, qui
+              illicitis utuntur, peccant, quasi eos in peccato foventes. Undè Augustinus dicit super
+              Joannem, quod donare res suas histrionibus</hi><note place="bottom">Bossuet affirme
+              qu’il est <hi rend="i">très-faux</hi> que saint Thomas ait entendu les comédiens sous
+              le nom <hi rend="i">d’histrions</hi>. Il prétend que c’étaient de simples joueurs, <hi
+                rend="i">joculatores</hi>, des jongleurs, des baladins, qui donnaient des <hi
+                rend="i">ludicra jocosa</hi>, des divertissements et des jeux publics ; ou même des
+              joueurs de flûte, etc. C’est donc, suivant saint Augustin, <hi rend="i">vitium
+                immane</hi>, res suas douare histrionibus : scilicet histrionibus ludis illicitis et
+              turpibus utentibus.</note><hi rend="i">, vitium est immane</hi> »</quote>.
+          (Comédie.)</p>
+        <p>On voit, d’après cela, que le passage de saint Thomas prouve assez mal ce que l’on
+          prétend établir, savoir que l’on ne doit pas regarder comme absolument mauvaise la
+          profession des acteurs et des actrices. Abstractivement et spéculativement prise, ou comme
+          sont les <hi rend="i">acteurs</hi> dans les colléges, non, elle n’est pas absolument
+          mauvaise ; prise positivement, pratiquement dans l’état actuel de nos mœurs corrompues,
+          dans l’état actuel des théâtres en Europe et avec toutes les <pb n="272" xml:id="p272"
+          />circonstances qui en sont devenues inséparables et sans lesquelles cette profession
+          n’existe pas ; oui, elle est mauvaise, très-mauvaise, immensément mauvaise.</p>
+        <p>M<hi rend="sup">gr</hi> Gousset ajoute : <quote>« Saint Antonin, saint Alphonse de
+            Liguori et saint François de Sales, s’expriment comme saint Thomas. On voit que ces
+            saints docteurs ne croyaient point que les acteurs, les comédiens fussent
+            excommuniés ».</quote> Il est vrai, ces saints docteurs parlent sur la comédie, comme
+          saint Thomas, et dans le même sens et aux mêmes conditions que saint Thomas ; mais ils ne
+          parlent que de la comédie et non des comédiens, et par conséquent ils ne disent pas s’ils
+          sont excommuniés ou non ; ou, s’ils parlent des comédiens, c’est pour déclarer, avec tous
+          les théologiens et conséquemment avec M<hi rend="sup">gr</hi> Gousset lui-même, qu’on ne
+          peut absoudre un comédien même à l’article de la mort, s’il ne renonce à sa profession.
+          Voici comment M<hi rend="sup">gr</hi> Gousset s’exprime sur ce point : <quote>« Lorsqu’un
+            acteur est en danger de mort, le curé doit lui offrir son ministère. Si le malade ne
+            paraît pas disposé à renoncer à sa profession, il est prudent, à notre avis, de n’exiger
+            que la simple déclaration que, s’il recouvre la santé, il s’en rapportera à la décision
+            de l’évêque. Cette déclaration étant faite, on lui accordera les secours de la religion.
+            Dans le cas où il s’obstinerait à refuser la déclaration qu’on lui <pb n="273" xml:id="p273"/>, il serait évidemment indigne des sacrements et des bénédictions
+            de l’Église. » (Théologie morale, t. i, du sixième précepte du décalogue.)</quote></p>
+        <p>Enfin, nous croyons devoir rapporter encore ici la règle de conduite à tenir à l’égard
+          des personnes qui fréquentent les spectacles, que l’on trouve tracée par le pieux évêque
+          feu M<hi rend="sup">gr</hi> Joly de Choin, dans le Rituel de Toulon.</p>
+        <p>Voici ce que ce savant évêque a écrit il y a près d’un siècle : <quote>« Si un pénitent,
+            qui a fréquenté les spectacles, n’avait pas été auparavant instruit de l’iniquité de ces
+            représentations, le confesseur peut, après lui avoir fait comprendre ce qui en est, lui
+            donner l’absolution, si d’ailleurs il n’y a pas d’autre empêchement, s’il promet
+            sincèrement de s’abstenir de ces sortes de divertissements, et si, par la contrition et
+            les dispositions qu’il témoigne, il y a lieu d’espérer qu’effectivement il s’en
+            abstiendra.</quote></p>
+        <quote>
+          <p>
+            <quote>« Si, après que le pénitent a été instruit, et qu’il a promis de ne plus aller au
+              spectacle, il est tombé et a manqué à sa parole, le confesseur doit lui refuser
+              l’absolution jusqu’à ce qu’il ait été éprouvé pendant le temps nécessaire, en suivant
+              les principes marqués…… pour l’absolution de ceux qui sont dans l’occasion prochaine
+              du péché mortel.</quote>
+          </p>
+          <p><quote>« Si le pénitent ne veut pas promettre de </quote><pb n="274" xml:id="p274"
+              /><quote>renoncer pour toujours à ces amusements pernicieux, ou si le confesseur a un
+              juste fondement de juger que, nonobstant la promesse qu’il en fait, il n’est pas
+              véritablement disposé à fuir entièrement les spectacles, il doit lui refuser
+              l’absolution, jusqu’à ce que, par des preuves réelles et non équivoques, il soit
+              moralement assuré de la sincérité de sa conversion et de son changement ; conformément
+              aux anciennes ordonnances synodales de ce diocèse, qui ont été renouvelées et
+              confirmées à cet égard. »</quote> (Instructions sur le Rituel de Toulon, t. i, du
+            Sacrement de pénitence, page 741.)</p>
+        </quote>
+        <p>D’après tout ce que nous avons dit jusqu’à présent sur les spectacles, il est aisé de
+          voir que, depuis Bossuet et surtout depuis cent ans, il s’est opéré quelque changement
+          dans l’opinion des théologiens et dans la conduite des confesseurs sur la question du
+          théâtre. D’où vient donc ce dissentiment ou cette divergence de vues ou d’opinions ?
+          Est-ce le résultat d’une amélioration ou d’un progrès moral dans l’état du théâtre, ou
+          d’une heureuse réforme qu’il aurait subie ? Nous ne le pensons pas : d’ailleurs, une
+          réformation morale est ici impossible, et, dans l’état actuel des mœurs et de l’esprit des
+          nations, le théâtre est radicalement irréformable. Vouloir réformer et réduire les
+          spectacles, contre leur nature, aux règles sévères de l’honnêteté et de la vertu, ce <pb
+            n="275" xml:id="p275"/>serait les anéantir et rendre le théâtre désert. N’en faut-il pas
+          plutôt accuser une plus grande licence des mœurs, une corruption plus profonde et plus
+          générale ? Nous le pensons, nous en avons même la conviction intime. Mais, dira-t-on, la
+          corruption des mœurs a été de tous les temps, la nature humaine est toujours la même ;
+          d’ailleurs l’histoire le prouve sans réplique. Sans doute, la corruption a existé dans
+          tous les siècles passés et existera dans les siècles futurs ; mais elle n’a traversé et ne
+          traversera les siècles qu’avec des oscillations en plus et en moins, suivant le degré de
+          foi religieuse des peuples. Il est une vérité incontestée et incontestable, c’est que
+          quand la foi diminue chez un peuple, ses mœurs se corrompent à proportion : on ne pratique
+          sincèrement que ce que l’on croit fermement, et on ne pratique plus dès qu’on ne croit
+          plus. Le frein religieux brisé, la morale publique et privée est bientôt emportée dans le
+          torrent rapide et bourbeux des honteuses et sales passions. Ce qu’on a semé dans la
+          corruption ne produit que des fruits de mort et de corruption, c’est-à-dire la
+          démoralisation, le règne impérieux des sens avec des passions inassouvissables.</p>
+        <p>Faudra-t-il conclure, du changement et de la diversité d’opinions des théologiens et même
+          de la différence de conduite des confesseurs, que les principes de morale et la doctrine
+          de l’Église <pb n="276" xml:id="p276"/>changent aussi ? Nullement. La société peut subir
+          certaines mutations dans sa constitution, et les goûts et les passions des hommes peuvent
+          suivre ces phases sociales et revêtir des formes nouvelles : mais la doctrine ou les
+          saintes maximes de l’Église ne varient pas ; leur application seule peut varier et se
+          modifier suivant les circonstances des mœurs, des temps et des lieux.</p>
+        <p>Nous terminons tout cet article par l’indication des principaux auteurs qui ont écrit sur
+          et contre les spectacles.</p>
+        <p>Le prince de Conti, <hi rend="i">Traité de la comédie et des spectacles, selon la
+            tradition des Pères</hi> ; Nicole, <hi rend="i">Essais de morale</hi>, tome 3 et tome 5,
+            <hi rend="i">pensées sur les spectacles</hi> ; Bossuet, <hi rend="i">Maximes et
+            réflexions sur la comédie</hi>, on a vu avec quelle force Bossuet s’élève contre le
+          théâtre ; Desprez-de-Boissy, <hi rend="i">Lettres sur les spectacles</hi> ; Concina,
+          théologien dominicain, <hi rend="i">de Spectaculis theatralibus</hi> ; Gérard, <hi
+            rend="i">comte de Valmont</hi> ; enfin, une foule de théologiens français, comme
+          Fromageau, Pontas, etc. Jean-Jacques Rousseau lui-même a fortement blâmé les spectacles
+          dans une longue et éloquente lettre à d’Alembert. Racine, Bayle, la Mothe, Gresset,
+          Riccoboni, qui avaient connu les dangers des spectacles, gémissaient de s’être dévoués au
+          service du théâtre et formaient des vœux pour sa suppression.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

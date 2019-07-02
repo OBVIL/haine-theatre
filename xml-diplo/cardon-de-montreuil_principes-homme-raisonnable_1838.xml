@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2019-05-31T13:20:01+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Principes de l’homme raisonnable sur les spectacles</title>
+        <author ref="Cardon de Montreuil (17..-18..)"
+          key="https://data.bnf.fr/fr/10495487/cardon_de_montreuil/">Cardon de Montreuil</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Infoscribe</name>
+          <resp>saisie XML-TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>édition XML</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2019"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/cardon-de-montreuil_principes-homme-raisonnable_1838</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cardon de Montreuil, <hi rend="i">Principes de l’homme raisonnable sur les spectacles
+            d’après les maximes de l’antiquité païenne, les témoignages des philosophes, des poètes,
+            des auteurs dramatiques, des comédiens eux-mêmes, et le jugement des autorités les plus
+            respectables</hi>, <pubPlace>Lille</pubPlace>, <publisher>Lefort</publisher>,
+            <date>1838</date>, <biblScope>in-32, 60 p.</biblScope> PDF : <ref
+            target="https://books.google.fr/books?id=qGyDKDq0K3EC">Google</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1838"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p><pb n="3" xml:id="p3"/><hi rend="sc">Parmi</hi> les personnes qui se font gloire de
+          respecter encore la saine Morale, il en est beaucoup dans l’illusion, sur les dangers
+          auxquels elles s’exposent en fréquentant les Spectacles, et sur l’influence que doit avoir
+          leur exemple. Un goût naturel, le préjugé de la coutume ou de l’éducation, le respect
+          humain, les y entraînent : d’autres motifs de société, de passe-temps, de complaisance,
+          paraissent légitimer à leurs yeux une agréable erreur : plusieurs, sans examen,
+          l’accréditent et la propagent, la plupart la trouvent au moins si excusable, qu’elles se
+          la pardonnent, ainsi qu’aux autres, sans inquiétude. En présumant de leur bonne foi, ne
+          doit-on pas leur supposer la bonne volonté de s’éclairer ? Et, en leur offrant la lumière,
+          n’a-t-on pas lieu d’espérer qu’elles en seront frappées ?</p>
+        <p><pb n="4" xml:id="p4"/>D’abord, arrêtons-nous un instant aux principes et aux maximes de
+            <hi rend="sc">l’antiquité païenne</hi>. L’an 400 de Rome, les Censeurs proposèrent au
+          Sénat de faire construire un Théâtre de pierre. Le grand <hi rend="i">Scipion</hi> s’y
+          opposa, et fit à ce sujet un discours si véhément, pour prouver que les Spectacles
+          corrompraient infailliblement les Romains, que le Sénat fit vendre tout ce qui devait
+          servir à cette construction.</p>
+        <p><hi rend="i">Platon</hi><note place="bottom">De Repub.</note>, <hi rend="i"
+            >Cicéron</hi><note place="bottom">De Offic.</note><hi rend="i">Sénèque</hi>,<note
+            place="bottom">De beatâ Vità ; Epist. 7.</note>, <hi rend="i">Tacite</hi><note
+            place="bottom">De moribus Germanorum.</note>, et une infinité d’autres païens, ont
+          regardé la fréquentation des Spectacles comme le divertissement le plus propre à émouvoir
+          les passions et à dépraver les mœurs. <hi rend="i">Ovide</hi> lui-même, que l’on ne
+          prendra pas pour un casuite fort sévère, nous montre ce qu’il pensait de la Comédie.
+          <quote>« Qu’y voit-on<seg type="exquote">, dit-il,</seg> sinon le crime paré des plus belles couleurs ? C’est une femme qui
+          trompe son mari, et se livre à un amour adultère… Cependant, un père et ses enfants, une
+          mère <pb n="5" xml:id="p5"/>et sa fille, de graves sénateurs, se plaisent à ce spectacle
+          immoral, repaissent leurs yeux de cette scène impudique. Plus l’intrigue est conduite avec
+          art, plus le théâtre retentit d’applaudissements ; plus la pièce renferme de corruption,
+          plus le crime de l’auteur est récompensé</quote><note place="bottom">Trist. L. 3.</note>
+          <hi rend="i">Juvenal</hi> ne le cède point à <hi rend="i">Ovide</hi> dans la peinture
+          qu’il fait des Spectacles. L’empereur <hi rend="i">Julien</hi> lui-même n’en jugeait pas
+          plus favorablement, puisqu’il défendit aux prêtres du paganisme d’y assister.</p>
+        <p>Mais hâtons-nous d’écouter la <hi rend="sc">Religion</hi>. Parcourons les <hi rend="sc"
+            >Livres Saints</hi> ; tout y commande la fuite du monde et de ses dangers. Le <hi
+            rend="i">Sage</hi> nous y avertit <hi rend="i">de ne pas fréquenter une femme qui fait
+            profession de danser et de chanter ; de ne pas même la regarder, ni l’écouter, de peur
+            que nous ne périssions, vaincus par la force de ses charmes</hi>.<note place="bottom"
+            >Eccli. IX. 4.</note>. Il nous dit encore que <hi rend="i">Celui qui aime le péril y
+            périra</hi><note place="bottom">Eccli. III. 27.</note>. Le <hi rend="sc">Fils de
+            Dieu</hi> a porté, contre les <pb n="6" xml:id="p6"/>amateurs des joies profanes du
+          monde, cet arrêt formidable : <hi rend="i">Malheur au monde, à cause des scandales qui y
+            règnent</hi><note place="bottom">Matth. XVIII. 7.</note><hi rend="i"> ! Malheur à vous
+            qui riez maintenant, parce que vous serez un jour dans les pleurs et dans les
+            gémissements</hi><note place="bottom">Luc. VI. 21.</note> ! L’Apôtre <hi rend="i">Saint
+            Jean</hi>, s’adressant à tous les fidèles et à tous les âges, leur dit : <hi rend="i"
+            >C’est à vous que j’écris, ô mes enfants bien-aimés, à vous, Pères de famille, et à
+            vous, Jeunes gens. N’aimez point le monde, ni les choses du monde : car tout y est ou
+            concupiscence de la chair, ou concupiscence des yeux, ou orgueil de la vie</hi><note
+            place="bottom">I. Jean II. 15.</note><hi rend="i">. Saint Paul</hi> insiste, dans toutes
+          ses épîtres, sur les mêmes vérités. <hi rend="i">Gardez-vous</hi><seg type="exquote">, dit-il,</seg> <hi rend="i">de
+            vous conformer à l’esprit de ce siècle</hi><note place="bottom">Rom. XII. 2.</note><hi
+            rend="i">. Que l’on n’entende jamais parmi vous de paroles bouffonnes ou déshonnêtes ;
+            elles ne conviennent nullement à des hommes appelés à la sainteté</hi><note
+            place="bottom">Ephes. 4.</note>, etc. Partout l’Evangile, les Apôtres prêchent la même
+          doctrine.</p>
+        <p><pb n="7" xml:id="p7"/><hi rend="sc">Les Saints Pères</hi> ne sont pas moins énergiques.
+            <hi rend="i">Tertullien</hi><note place="bottom">Apolog. 6. 38</note>, <hi rend="i"
+            >Saint Clément d’Alexandrie</hi><note place="bottom">Pedagog. I. 3. C. 11.</note>, <hi
+            rend="i">Saint Cyprien</hi>,<note place="bottom">Epist. I. ad Donat.</note>, <hi
+            rend="i">Lactance</hi><note place="bottom">Liv. 6. C. 20.</note>, <hi rend="i">Saint
+            Jean-Chrysostôme</hi><note place="bottom">Hom. passìm.</note>, <hi rend="i">Saint
+            Augustin</hi><note place="bottom">In Pa 80, etc.</note>, <hi rend="i">Salvien</hi><note
+            place="bottom">De Gubera. L. 6.</note>, etc. décident <quote>« qu’un Chrétien ne peut
+            assister aux Spectacles, sans abjurer sa Religion, et sans violer la promesse qu’il a
+            faite dans son Baptême, de renoncer au démon, à ses pompes et à ses œuvres. »</quote> Et
+          qu’on ne dise pas que les Pères n’ont parlé que des jeux du cirque et des combats de
+          gladiateurs, dont il ne reste plus aucune trace : c’est une fausseté. <hi rend="i"
+            >Tertullien</hi> parlait de la Comédie elle-même quand il demandait aux Chrétiens, par
+          dérision, <quote>« si c’est en respirant par tous leurs sens les attraits de la volupté, qu’ils
+          font l’apprentissage du martyre<note place="bottom">De Spect.</note> ? »</quote> Or il est prouvé
+          que les pièces de <pb n="8" xml:id="p8"/><hi rend="i">Plaute</hi> et de <hi rend="i"
+            >Terence</hi>, ne sont pas plus licencieuses, que plusieurs des drames que l’on
+          représente aujourd’hui. D’ailleurs, des obscénités déguisées sous un voile transparent, ou
+          des sarcasmes adroitement lancés contre la Religion, en sont-ils pour cela moins
+          dangereux ?</p>
+        <p>L’<hi rend="sc">Eglise de Jésus-Christ</hi>, interprète infaillible de la doctrine des
+          mœurs, a fait, de la représentation et de la fréquentation des Spectacles, l’objet de ses
+          censures : elle n’a rien oublié pour en éloigner ses enfants. Plusieurs Conciles
+          prononcent l’excommunication contre les comédiens et leurs adhérents<note place="bottom"
+            >Conc. d’Elvire, Can. 62. 67. — d’Arles, Can. 5. — Deuxième d’Arles. — Sixième Conc.
+            gén. tenu à Constantinople. — Conc. de Bourges Can. 4. etc.</note>. Tous les Rituels qui
+          en font mention, les dénoncent comme excommuniés<note place="bottom">Rituels de Paris, de
+            Sens, de Reims, de Châlons sur Marne, d’Aleth, de Langres, de Couances, de Bayeux,
+            d’Amiens, de Boulogne, d’Arras, etc.</note> Les Souverains pontifes les plus distingués
+          par leur savoir, tels que <pb n="9" xml:id="p9"/><hi rend="sc">Benoit</hi> XIV<note
+            place="bottom">Voyez sa déclaration du premier Janvier 1748, et l’ouvrage du P. <hi
+              rend="i">Concina</hi>, entrepris d’après l’invitation de ce savant Pontife.</note>,
+          etc. ; les plus grandes lumières du Clergé de France, le sublime <hi rend="i"
+          >Bossuet</hi>, l’immortel <hi rend="i">Fénélon</hi>, le profond <hi rend="i"
+            >Bourdaloue</hi>, le touchant <hi rend="i">Massillon</hi>, etc., tous prononcent
+          unanimement contre la fréquentation du Théâtre<note place="bottom">Voyez, ci-après, leurs
+            témoignages.</note>.</p>
+        <p>Qu’ajouter à des Autorités si respectables ? Elles suffisent sans doute pour déterminer
+          tout Chrétien docile à la voix de la Religion ; et quiconque ne l’est pas, se trouve
+          également sans excuse, au tribunal de la Raison : il a contre lui les Philosophes, les
+          Protestants, les Auteurs dramatiques, les Comédiens eux-mêmes, <hi rend="i">Corneille,
+            Racine, Boileau, Lefranc, La Mothe, Riccoboni, Gresset, Bayle, Jean-Jacques
+            Rousseau</hi>, et tant d’autres : qu’il écoute leurs témoignages ; ils ne sont pas
+            suspects<note place="bottom">Lisez ci-après, ces témoignages.</note>.</p>
+        <p><pb n="10" xml:id="p10"/>Pour ceux auxquels la Religion se fait encore entendre, voici
+          les principes d’après lesquels ils pourront se juger.</p>
+        <p>I. L’Evangile nous oblige de combattre et de mortifier nos passions : et rien ne les
+          excite davantage, que la fréquentation des Spectacles.</p>
+        <p>II. Le Christianisme tend à <hi rend="i">nous rendre conformes à l’image du Fils de
+            Dieu</hi><note place="bottom">Rom. VIII. 29.</note>, et à nous faire acquérir les vertus
+          qu’il nous commande, l’amour de Dieu, l’humilité, la pureté, le mépris du monde, la
+          mortification, l’oubli des injures, le pardon des ennemis. Le Théâtre prêche, inspire
+          l’amour profane, l’orgueil, l’ambition, l’estime des maximes du monde, la dissolution, la
+          vengeance ; il tend enfin à détruire la Religion par ses fondements.</p>
+        <p>III. Toutes les actions d’un Chrétien doivent être de nature à pouvoir être rapportées à
+          Dieu et faites pour sa gloire. Or, qui peut se flatter, en assistant aux <pb n="11"
+            xml:id="p11"/>Spectacles, d’agir pour Dieu ? Qui oserait lui offrir cette action et s’en
+          faire un mérite devant lui ?</p>
+        <p>IV. La vie d’un Chrétien est une vie de prière et de recueillement ; et, dès qu’une
+          personne commence à se pénétrer du véritable esprit du Christianisme, elle se croit
+          obligée de s’interdire pour toujours les Spectacles, comme les plaisirs qui en éloignent
+          le plus. Ces amusements sont donc inconciliables avec la sainteté de la Religion.</p>
+        <p>V. Les acteurs et les actrices mènent ordinairement une vie très-déréglée. L’Eglise leur
+          refuse les Sacrements, même à la mort, à moins qu’ils ne renoncent au Théâtre. Quiconque
+          assiste à leurs représentations, contribue donc, pour sa part, à les retenir dans un état
+          habituel de péché, et coopère à la perte éternelle de ces âmes rachetées du Sang de
+          Jésus-Christ. Comment, après cela, aller aux Spectacles, et se croire innocent ? Le
+          serait-on, en fournissant à un homme dans le délire, des armes meurtrières, ou à une
+          créature impudique, les moyens d’entretenir son infâme commerce ?</p>
+        <p><pb n="12" xml:id="p12"/>Le Théâtre, on le répète, excite les passions ; il en est
+          l’école et comme le berceau. <quote>« D’environ quatre cents Tragédies que l’on y a données,
+          depuis qu’il est en possession de quelque gloire en France, et il n’y en a pas dix ou
+          douze qui ne soient fondées sur quelque intrigue d’amour : c’est une coquetterie
+          perpétuelle. »</quote> Quel aveu de la part de <hi rend="i">Voltaire</hi><note place="bottom"
+            >Dissertation sur la Tragédie de <hi rend="i">Semiramis</hi>.</note> ! Eh, qui ignore en
+          effet que la scène languit, si elle n’émeut quelque passion ; qu’elle perdrait même tout
+          son attrait, sans ce pernicieux artifice ? Or, quelle présomption, de croire que l’on
+          résistera à un danger auquel on s’expose volontairement ! Ose-t-on bien compter sur sa
+          vertu et sur la Grâce, quand on cherche la tentation et qu’on va s’amuser aux dépens de la
+          Religion ou des Mœurs devenues les jouets du Théâtre ? Consultons l’expérience ; elle nous
+          dira, avec M. <hi rend="i">Desprez de Boissy</hi><note place="bottom"><hi rend="i">Lettres
+              sur les Spectacles</hi>. 2 vol. La lecture de cet Ouvrage et de la vingt-neuvième
+            Lettre de celui intitulé <hi rend="i">le Comte de Valmont</hi>, ne laissera rien à
+            désirer à quiconque voudra examiner plus à fond la question sur les Spectacles.</note> :
+            <quote>« J’ai considéré de près les <pb n="13" xml:id="p13"/>disciples de nos Théâtres,
+            ceux qui avaient commencé à les fréquenter avec les dispositions les plus éloignées du
+            vice : j’ai vu, pour l’ordinaire, leurs vertus disparaître, leurs mœurs se corrompre,
+            leurs manières décentes et naturelles se métamorphoser en affectations ridicules, en
+            frivoles compliments, en jargon théâtral, qui les annoncent pour des petits-maîtres,
+            l’espèce la plus ridicule qui rampe avec orgueil sur la surface de la
+          terre. »</quote></p>
+        <p>Il est cependant des Chrétiens qui osent avancer que les Spectacles contribuent beaucoup
+          à former la Jeunesse. Mais l’Apôtre <hi rend="i">Saint Paul</hi> nous assure que <hi
+            rend="i">les mauvais entretiens corromprent les bonnes mœurs</hi>.<note place="bottom"
+            >I. Cor. XV. 33.</note>. Or, quels entretiens plus pernicieux, que ces pièces où la
+          Religion, la Vertu et la Piété sont ridiculisées, la corruption excusée et toujours
+          plaisante, la pudeur offensée par des équivoques que <pb n="14" xml:id="p14"/>voient à
+          peine des enveloppes légères ! Quels dangers dans le jeu passionné et indécent des
+          acteurs, et dans la licence ou l’immodestie souvent plus criminelle des spectateurs ! Ah !
+          tous les prétendus talents qu’y acquiert la jeunesse, ne valent pas une vertu qu’elle peut
+          y perdre. Que de jeunes gens, l’espoir de la Religion et de la Patrie, ne sont devenus des
+          sujets inutiles ou dangereux, que pour avoir respiré cet air contagieux qui pervertit le
+          jugement, et ôte le goût de toute application solide ! <quote>« La belle école, s’écrie
+              <hi rend="i">Cicéron</hi>, que la Tragédie et la Comédie ! Si l’on en ôtait tout ce
+            qu’elle offre de vicieux, il n’y aurait plus de spectateurs<note place="bottom">Tuscul.
+              Liv 4.</note>. »</quote> Ainsi pensait un Païen, éclairé des seules lumières de la
+          raison naturelle. Comment donc des Parents Chrétiens, instruits et convaincus de la
+          sainteté de leur Religion, s’excuseront-ils devant Dieu d’avoir exposé eux-mêmes des
+          enfants élevés avec soin, à perdre dans une telle école le précieux trésor <pb n="15"
+            xml:id="p15"/>de l’innocence, ou à y apprendre ce que jusque-là ils étaient assez
+          heureux d’ignorer.</p>
+        <p>En vain se persuade-t-on, d’après une calomnie malheureusement accréditée, que des
+          Confesseurs approuvent ou tolèrent ce genre de plaisir, et voient avec tranquillité leurs
+          pénitents venir des Spectacles au Tribunal de la réconciliation, et passer de la Table
+          sainte aux Spectacles… Point de règle plus fausse que de juger de la morale des
+          Confesseurs par la conduite des pénitents. Pour en juger sainement, il faudrait, avant
+          tout, savoir les efforts qu’ont fait ces Guides charitables pour ouvrir les yeux à des
+          aveugles volontaires et pour ramener au bien des mondains obstinés. Ne serait-il point
+          téméraire de croire que des Ministres, appelés aux fonctions redoutables de l’instruction
+          et de la conduite des âmes, ignorassent sur ce point leurs obligations essentielles ?
+          Comme juges, où serait leur prudence ? comme docteurs, où serait leur sagesse ? comme
+          médecins, où seraient leurs précautions ? Eh ! quel moyen de concilier <pb n="16"
+            xml:id="p16"/>l’opinion qu’on leur supposerait avec la Morale de Jésus-Christ dont ils
+          sont les interprètes, et avec leur qualité de Directeurs dans les voies du Salut ? Au
+          reste, quiconque, sous un aussi vain prétexte, chercherait à se faire illusion, doit se
+          souvenir de la parole expresse du Sauveur : <hi rend="i">Si un aveugle conduit un autre
+            aveugle, ils tombent tous deux dans le précipice</hi><note place="bottom">Matth. XV.
+            14.</note>.</p>
+        <p>D’après ce peu de réflexions, et les témoignages irrécusables qui vont les suivre, on a
+          lieu d’espérer que, parmi les partisans du Théâtre, ceux au moins qui se piquent encore de
+          bonne foi, d’honnêteté, de vertu, de piété même. examineront attentivement devant Dieu :
+          1.° Si le titre de Chrétiens dont ils s’honorent, et leurs engagements à cet égard, leur
+          permettent un genre de plaisir formellement opposé à tous les principes de la Religion et
+          de la saine Morale. 2.° S’ils peuvent, sans reproche, concourir à salarier une troupe de
+          gens justement notés pour leurs <pb n="17" xml:id="p17"/>mœurs, condamnés par l’Eglise,
+          privés même des Sacrements. 3.° Si enfin, osant présumer de leur propre vertu, ils n’ont
+          pas à craindre l’influence de leur exemple sur la faiblesse de tant d’âmes qui s’en
+          prévalent et qui se perdent. Puissent-ils plus mûrement calculer la terrible
+          responsabilité qu’impose le scandale donné, et comprendre l’énergie de ces paroles
+          redoutables : <hi rend="i">Si quelqu’un scandalise un de ces petits qui croient en moi, il
+            vaudrait mieux pour lui qu’on lui attachât au cou une meule de moulin, et qu’on le jetât
+            dans le fond de la mer… Malheur à l’homme par qui le scandale arrive</hi> !<note
+            place="bottom">Matth. XVIII. 6. 7.</note></p>
+        <pb n="18" xml:id="p18"/>
+      </div>
+      <div>
+        <head>Témoignages.</head>
+        <p><hi rend="sc">La</hi> réponse de Bossuet à Louis XIV qui lui demandait son sentiment sur
+          les spectacles, est courte, décisive et pleine de sens : <quote>« Sire, les Spectacles ont
+            pour eux de grands exemples ; mais ils ont contre eux des raisons
+          invincibles. »</quote></p>
+        <p>Les maximes et les réflexions de ce grand Homme sur le même sujet, ne méritent pas moins
+          d’être approfondies. <quote>« Quelle mère, s’écrie <hi rend="sc">Bossuet</hi>, je ne dis
+            pas chrétienne, mais tant soit peu honnête, n’aimerait pas mieux voir sa fille dans le
+            tombeau, que sur le Théâtre ? Qui ne regarde celles qui sont dans une profession si
+            contraire aux engagements du Baptême, comme des esclaves exposées, en qui la pudeur est
+            éteinte ? Ces malheureuses, que leur sexe avait consacrées à la modestie, s’étalent
+            elles-mêmes en <pb n="19" xml:id="p19"/>plein théâtre, avec tout l’attirail de la
+            vanité : leurs regards sont mortels, et elles reçoivent, par les applaudissements, le
+            poison qu’elles répandent par leurs chants… Mais n’est-ce donc rien aux spectateurs, de
+            payer leur luxe, de nourrir leur corruption, de leur exposer leur cœur en proie, et
+            d’aller apprendre d’elles tout ce qu’il ne faudrait jamais savoir ? S’il n’y a rien là
+            que d’honnête, rien qu’il faille porter à la Confession ; hélas ! quel est donc
+            l’aveuglement des Chrétiens ? »</quote></p>
+        <quote>
+          <p>« Le Monde, dira-t-on, est plein de dangers inévitables… Il faut en
+            convenir. Mais serait-ce une raison d’en conclure qu’on doit les multiplier encore !
+            Dieu nous aide dans les tentations qui nous arrivent par nécessité ; mais il abandonne
+            ceux qui les recherchent par choix. Il ne dit pas : Celui-là périra, qui est dans le
+            péril ; mais celui qui l’aime et s’y expose. »</p>
+        </quote>
+        <quote>
+          <p>« Qui que vous soyez donc, qui plaidez la cause des Théâtres, vous
+            n’éviterez pas le Jugement de Dieu. »</p>
+        </quote>
+        <p><pb n="20" xml:id="p20"/><hi rend="sc">Fénélon</hi>, dans sa Lettre à l’Académie
+          française, s’explique en ces termes : <quote>« Je ne souhaite pas qu’on perfectionne les
+            Spectacles, où l’on ne représente les passions corrompues que pour les allumer. Nous
+            avons vu que <hi rend="i">Platon</hi> et les sages législateurs du paganisme rejetaient
+            loin de toute république bien policée les fables et les instruments de musique qui
+            pouvaient amollir une nation par le goût de la volupté. Quelle devrait donc être la
+            sévérité des nations chrétiennes contre les Spectacles ! »</quote></p>
+        <p><hi rend="sc">Bourdaloue</hi>, dans son sermon sur les divertissements du monde, se
+          propose cette question qu’il résout de même : <quote>« Les Spectacles profanes où
+            assistent tant de mondains oisifs et voluptueux, ces assemblées publiques et de pur
+            plaisir, où sont reçus tous ceux qu’y amène, soit l’envie de paraître, soit l’envie de
+            voir ; sont-ce des divertissements permis ou défendus ? Les uns éclairés de la véritable
+            sagesse qui est la sagesse de l’Evangile, <pb n="21" xml:id="p21"/>les réprouvent ; les
+            autres, trompés par les fausses lumières d’une prudence charnelle, s’efforcent de les
+            justifier. Chacun prononce selon ses vues. Pour moi, mes Frères, si je n’étais déjà
+            d’une profession qui, par elle-même, m’interdit de pareils amusements, et que j’eusse,
+            comme vous, à prendre parti là-dessus et à me résoudre, il me semble que, pour m’y faire
+            renoncer, il ne faudrait rien davantage, que cette diversité de sentiments. Car,
+            pourquoi, dirais-je, mettre ma conscience au hasard dans une chose aussi vaine que
+            celle-là, et dont je puis si aisément me passer ? D’une part, on m’assure que ces sortes
+            de divertissements sont criminels ; d’autre part, on soutient qu’ils sont exempts de
+            péchés. Ce qui doit résulter de là, c’est qu’ils sont au moins suspects ; et, puisque
+            ceux qui soutiennent que l’innocence y est blessée, sont du reste les plus réglés dans
+            leur conduite, les plus attachés à leurs devoirs, les plus versés dans la science des
+            voies de Dieu, n’est-il pas plus sûr et plus sage que je m’en rapporte à eux, et que je
+            ne risque <pb n="22" xml:id="p22"/>pas si légèrement mon Salut ? Voilà comment je
+            conclurais, et ce serait sans doute la conclusion la plus raisonnable et la plus
+            sensée. »</quote></p>
+        <p><quote>« Mais ce n’est pas là que je voudrais m’arrêter. Suivant le conseil du Saint-Esprit,
+          j’interrogerais ceux que Dieu m’a donnés pour maîtres ; ce sont les Pères de l’Eglise :
+          et, après les avoir consultés, il serait difficile que je ne fusse pas absolument
+          convaincu. Car ils m’apprendraient des vérités capables non-seulement de me déterminer,
+          mais de m’inspirer pour ces sortes de divertissements une espèce d’horreur. Tous n’ont eu
+          sur ce point qu’une même voix ; tous, dans tous les siècles, ont prêché la même morale, et
+          nous savons qu’outre la sainteté qui nous les rend vénérables, c’étaient les premiers
+          génies du monde : nous avons en main leurs écrits, et nous y voyons la sublimité de leur
+          sagesse, la pénétration de leur esprit, la profondeur et l’étendue de leur érudition. Et
+          qu’on ne dise pas que leur morale a été de pur con[ILLISIBLE]. Il ne faut que peser leurs
+          termes, <pb n="23" xml:id="p23"/>et les prendre dans le sens le plus naturel, pour y
+          reconnaître toute la force du précepte. En vain on leur objectait ce qu’on objecte encore
+          tous les jours. <quote>« Ce que je vois, ce que j’entends, me divertit, et rien de plus ;
+            je n’en ressens aucune impression funeste. »</quote> Vaine excuse qu’ils traitaient ou
+          de mauvaise foi, ou tout au moins d’illusion. Ils savaient combien on aime à s’aveugler
+          soi-même, et combien la passion est ingénieuse à se cacher ses progrès qui ne deviennent
+          ensuite que trop sensibles. Cependant, loin de se rendre à de semblables Autorités, les
+          partisans du Théâtre en appellent à leur propre jugement, et ne se font pas le moindre
+          scrupule de ce que tous les Pères de l’Eglise ont cru devoir hautement qualifier de péché.
+          Il s’agit de la conscience et du salut ; tout ce qu’il y a eu, sur ces sortes de matières,
+          de Juges compétents, et reconnus, ont décidé : n’importe ; des mondains, amateurs d’eux
+          mêmes et idolâtres de leurs plaisirs ; des gens sans étude, sans connaissance, sans
+          attention à leur salut, dont tout le <pb n="24" xml:id="p24"/>soin est de charmer le temps
+          et de se tenir en garde contre l’ennui qui les surprend, dès que l’amusement leur manque
+          et qu’ils sont hors de la bagatelle ; des libertins dont la passion cherche à se nourrir
+          et à s’allumer, lorsqu’il faudrait tout mettre en œuvre pour l’amortir et l’éteindre :
+          voilà les oracles qui se font écouter ; voilà les docteurs et les maîtres dont les
+          décisions sont sans réplique, et les garants sur qui l’on se repose de sa conscience, de
+          son âme, de son éternité. »</quote></p>
+        <p><hi rend="sc">Massilion</hi>, parlant sur le petit nombre des Elus, s’exprime ainsi :
+            <quote>« Vous avez renoncé à la chair dans votre Baptême ; c’est-à-dire, vous vous êtes
+            engagé à ne pas vivre selon les sens, à regarder l’indolence même et la mollesse comme
+            un crime, à ne pas flatter vos désirs corrompus ; mais à les dompter. Ce n’est pas ici
+            une perfection, c’est un vœu, c’est le premier de tous vos devoirs, c’est le caractère
+            le plus inséparable de la Foi… Et de là, voilà bien des questions <pb n="25"
+              xml:id="p25"/>résolues. Vous nous demandez sans cesse si les Spectacles et les autres
+            plaisirs publics sont innocents pour des Chrétiens ?… Je n’ai, à mon tour, qu’une
+            demande à vous faire. Sont-ce des œuvres de Satan, ou des œuvres de Jésus-Christ ? Car,
+            dans la Religion, il n’est point de milieu. Ce n’est pas qu’il n’y ait des délassements
+            et des plaisirs qu’on peut appeler indifférents : mais les plaisirs les plus
+            indifférents que la Religion permet, et que la faiblesse de la nature rend même
+            nécessaires, appartiennent en un sens à Jésus-Christ, par la facilité qui doit nous en
+            revenir de nous appliquer à des devoirs plus saints et plus sérieux : Tout ce que nous
+            faisons, que nous pleurions, que nous nous réjouissions, doit être d’une telle nature,
+            que nous puissions du moins le rapporter à Jésus-Christ, et le faire pour sa
+            gloire »</quote></p>
+        <quote>
+          <p>« Or, sur ce principe, le plus incontestable, le plus universellement
+            reçu, de la Morale chrétienne, vous n’avez qu’à décider. Pouvez-vous rapporter à la
+            gloire de Jésus-Christ les plaisirs des Théâtres ? Jésus-Christ <pb n="26" xml:id="p26"
+            />peut-il être pour quelque chose dans ces délassements ? et, avant que d’y entrer,
+            pourriez-vous lui dire que vous ne vous proposez dans cette action que sa gloire et le
+            désir de lui plaire ? Quoi ! les Spectacles, tels que nous les voyons aujourd’hui, plus
+            criminels encore par la débauche publique des créatures infortunées qui montent sur le
+            Théâtre, que par les scènes impures ou passionnées qu’elles débitent, les Spectacles
+            seraient des œuvres de Jésus-Christ ? Jésus-Christ aimerait une bouche d’où sortent des
+            airs profanes et lascifs ? Jésus-Christ formerait lui-même les sons d’une voix qui
+            corrompt les cœurs ? Jésus-Christ paraîtrait sur les Théâtres, en la personne d’un
+            acteur ; d’une actrice effrontée, gens infâmes, même selon les lois des hommes ? Mais
+            ces blasphèmes me font horreur. Jésus-Christ présiderait à des assemblées de péché, où
+            tout ce qu’on entend anéantit sa doctrine, où le poison entre par tous les sens dans
+            l’âme, où tout l’art se réduit à inspirer, à réveiller, à justifier les passions qu’il
+            condamne ? <pb n="27" xml:id="p27"/>Or, si ce ne sont pas des œuvres de Jésus-Christ,
+            dans le sens déjà expliqué, c’est-à-dire, des œuvres qui puissent du moins d’être
+            rapportées à Jésus-Christ ; ce sont donc des œuvres de Satan : donc tout Chrétien doit
+            s’en abstenir ; donc il viole les vœux de son Baptême, lorsqu’il y participe ; donc, de
+            quelque innocence qu’il puisse se flatter, en reportant de ces lieux son cœur exempt
+            d’impression, il en sort souillé, puisque, par sa seule présence, il a participé aux
+            œuvres de Satan, auxquelles il avait renoncé dans son Baptême, et violé les promesses
+            les plus sacrées qu’il avait faites à Jésus-Christ et à son Eglise. »</p>
+        </quote>
+        <p><quote>« Ce ne sont pas ici des conseils et des pratiques pieuses ; ce sont nos obligations les
+          plus essentielles. Il ne s’agit pas d’être plus ou moins parfait, en les négligeant ou en
+          les observant : il s’agit d’être Chrétien, ou de ne l’être pas.</quote></p>
+        <p><hi rend="sc">Nicole</hi> a fait, sur la Comédie, deux <pb n="28" xml:id="p28"/>Traités
+          dont nous allons donner quelques extraits.</p>
+        <quote>
+          <p><quote>« Rien de plus indigne d’un Enfant de Dieu et d’un membre de
+            Jésus-Christ, que le métier de Comédien, où des hommes et des femmes représentent des
+            passions de haine, de colère, d’ambition, de vengeance, et principalement d’amour. C’est
+            une école et un exercice de vice, qui obligent les Comédiens à exciter et à imprimer en
+            quelque sorte en eux-mêmes des passions vicieuses, pour les exprimer extérieurement par
+            les gestes et par les paroles. Toute leur vie est occupée à apprendre, à répéter ou à
+            représenter l’image de quelque vice. Il leur est donc impossible d’allier avec la pureté
+            de notre Religion, un métier que d’ailleurs les Conciles leur font une obligation de
+            quitter, et il n’est permis à personne de contribuer à les y entretenir, ni de
+            l’autoriser par sa présence. »</quote></p>
+          <p><quote>« Parmi les personnes qui vont aux Spectacles, y en a-t-il beaucoup qui
+            connaissent toute la pureté de l’Evangile, et toutes les obligations <pb n="29"
+              xml:id="p29"/>du Chrétien ? Quelle croyance méritent-elles donc, quand elles assurent
+            que les Spectacles ne font aucun tort à leur vertu ?… Qu’elles apprennent de l’Ecriture
+            et de l’Esprit de Dieu, en quoi consiste la vraie Vertu ; et alors elles tiendront un
+            tout autre langage. Elles comprendront que la fréquentation du Théâtre est une tentation
+            recherchée de gaieté de cœur ; qu’il y a de la témérité, de l’orgueil et de l’impiété à
+            se croire capable de résister, sans la Grâce, aux tentations que l’on y rencontre ; et
+            que ce serait présomption et folie de croire que Dieu nous délivrera d’un danger auquel
+            nous nous exposons volontairement et sans nécessité. »</quote></p>
+          <p>« Ce qui trompe bien des gens sur ce point, est qu’ils ne s’aperçoivent
+            point des mauvaises impressions que la Comédie fait sur eux ; ce qui leur fait conclure
+            qu’elle n’est point pour eux une tentation. Mais ils ne savent donc pas que la parole de
+            Dieu qui est la semence de la vie, et la parole du diable qui est la semence de la mort,
+            ont cela de commun, qu’elles <pb n="30" xml:id="p30"/>demeurent souvent longtemps
+            cachées dans le cœur, sans produire aucun effet sensible. Dieu attache quelquefois le
+            salut de certaines personnes à des paroles de vérité qu’il a semées dans leur âme vingt
+            ans auparavant, et qu’il réveille pour leur faire produire des fruits de vie. Le diable
+            se contente aussi quelquefois de remplir la mémoire de certaines images, sans en former
+            encore aucune tentation sensible : mais, dans la suite, il les excite et les réveille,
+            pour leur faire porter des fruits de mort. S’il paraît négliger pour un temps, les
+            moyens d’accélérer notre perte, il saura les employer, quand il en trouvera l’occasion
+            favorable. »</p>
+          <p>« Et, quand il serait vrai que la Comédie ne fit aucun effet sur certains
+            esprits, pourraient-ils s’en faire un divertissement innocent, et croire qu’ils ne sont
+            point coupables en y assistant ?… On ne joue point la Comédie pour une seule personne :
+            c’est un spectacle offert à toutes sortes d’esprits, dont la plupart sont faibles ou
+            corrompus, et à qui par conséquent <pb n="31" xml:id="p31"/>il est extrêmement
+            dangereux… C’est leur faute, direz-vous, d’y assister en cet état… Il est vrai, mais
+            c’est aussi la vôtre, puisque vous contribuez à leur faire regarder la Comédie comme une
+            chose indifférente. Plus vous êtes pieux et réglé dans vos actions, plus ils se croient
+            autorisés à vous imiter en celle-là, et à citer même votre exemple. Vous participez donc
+            à leur péché ; et si la Comédie ne vous fait point de plaies, vous vous en faites à
+            vous-même par celles que les autres reçoivent en vous imitant, et ainsi vous êtes le
+            plus coupable de tous. »</p>
+          <p>« Mais, la nécessité de se délasser d’un long travail, ne peut-elle pas
+            justifier la fréquentation des Spectacles ?… La nécessité de se nourrir, ne pouvant
+            servir d’excuses à ceux qui mangeraient volontairement des viande vénimeuses, parce
+            qu’elles sont contraires à la fin du manger, qui est de conserver la vie du corps ; le
+            besoin que l’on a de se délasser quelquefois ; ne peut ainsi excuser ceux qui prennent
+            la Comédie pour divertissement, <pb n="32" xml:id="p32"/>puisqu’elle imprime de
+            mauvaises qualités dans l’esprit, qu’elle excite les passions, et dérègle toute l’âme.
+            Un homme qui a bien travaillé, est satisfait, quand il cesse de travailler, et se
+            divertit à tout ce qui le désoccupe. La Comédie ne serait donc nécessaire qu’à ceux qui
+            se divertissent toujours, et qui tâchent de remédier au dégoût naturel qu’entraîne la
+            continuation des plaisirs. Mais, comme cette nécessité ne vient que de leur mauvaise
+            disposition qu’ils sont obligés de corriger, on peut dire que la Comédie n’est
+            nécessaire à personne, et qu’elle est dangereuse à tout le monde. »</p>
+          <p>« Eh ! qu’y apprend-on en effet ? On y apprend à se dégoûter des vrais
+            Biens, et à n’en avoir que de faibles idées. On y apprend à juger de toutes choses par
+            les sens, à ne regarder comme bien, que ce qui les satisfait, et à ne considérer comme
+            réel, que ce qui les frappe. On y apprend enfin deux choses également funestes ; l’une à
+            s’ennuyer de tout ce qui est sérieux, et par conséquent de tous ses devoirs : l’autre à
+            trouver cet ennui <pb n="33" xml:id="p33"/>insupportable, et à en chercher le remède
+            dans la dissipation. Le premier de ces désordres est un obstacle à toutes les vertus, et
+            le second est une entrée à tous les vices. »</p>
+        </quote>
+        <p>D’après des témoignages si respectables, et des raisonnements si solides que deviennent
+          toutes les objections des partisans du Théâtre ? Forcés dans leurs derniers
+          retranchements, chercheront-ils à s’appuyer sur la tolérance des Spectacles à Rome ? Mais
+          on leur répondra avec M. <hi rend="i">Desprez de Boissy</hi><note place="bottom">Lettres
+            sur les Spectacles, déjà citées.</note> : <quote>« Que les Théâtres n’y sont pas ouverts
+          pendant toute l’année, que la plupart des acteurs n’y font le métier d’histrions que
+          pendant le temps des folies épidémiques du Carnaval : qu’au reste la tolérance, dont le
+          Gouvernement civil use à leur égard, n’est point partagée par le ministère
+          ecclésiastique ; puisqu’à Rome, comme ailleurs, les <pb n="34" xml:id="p34"/>Prédicateurs
+          ne cessent de tonner dans les chaires contre ces funestes amusements, et que les
+          Confesseurs instruits n’y ont pas moins de zèle à se déclarer contre ces plaisirs si
+          contraires à la Morale chrétienne.</quote></p>
+        <p>S’efforcera t-on enfin de préconiser la décence du Théâtre français ? Mais les meilleurs
+          pièces, si l’on en excepte <hi rend="i">Athalie</hi>, et <hi rend="i">Esther</hi>,
+          ont-elles jamais donné quelques leçons de vertus, sans laisser en même temps l’impression
+          de quelque vice ? Et quel sera même l’effet de ces deux pièces admirables de <hi rend="i"
+            >Racine</hi>, toutes les fois qu’elles se trouveront comme dénaturées par des acteurs
+          qui sont habituellement les organes de la volupté ? <quote>« Il faut, dit <hi rend="i"
+              >Madame de Sévigné</hi>, des personnes innocentes, pour chanter les malheurs de Sion,
+            et des âmes vertueuses, pour en voir avec fruit la représentation. »</quote> D’ailleurs,
+          ces pièces saintes, de quelles autres pièces ne sont-elles pas ordinairement suivies ?
+          L’effet de ces étranges contrastes peut-il jamais tourner au profit de la Religion et des
+          Mœurs ?</p>
+        <p><pb n="35" xml:id="p35"/>Pour ne rien laisser à désirer sur la question des Spectacles,
+          nous allons citer des autorités qui ne seront suspectes à personne.</p>
+        <p><hi rend="sc">Le</hi> grand <hi rend="sc">Corneille</hi> ne se rassura jamais entièrement
+          sur l’abus qu’il avait fait de ses talents : il consacra ses dernières années à le
+          réparer. Dans cette vue, il traduisit en vers l’<hi rend="i">Imitation de
+            Jésus-Christ</hi>. Cette louable entreprise jointe à une vie exemplaire, ne put
+          absolument calmer ses inquiétudes. Sa conscience, mieux éclairée, lui fit éprouver,
+          jusqu’à la fin de ses jours, le regret d’avoir travaillé pour le Théâtre.</p>
+        <p><hi rend="sc">Voici</hi> ce que le célèbre <hi rend="sc">Racine</hi> écrivait à son fils
+          sur les Spectacles. <quote>« Croyez-moi, mon fils, quand vous saurez parler de Romans et
+            de Comédies, vous n’en serez guères plus avancé pour le monde, et ce ne sera pas par cet
+            endroit-là que vous serez plus estimé… Vous savez ce que je <pb n="36" xml:id="p36"
+            />vous ai dit des Opéras et des Comédies. On doit en jouer à Marly : le Roi et la Cour
+            savent le scrupule que je me fais d’y aller, et ils auraient une mauvaise opinion de
+            vous, si vous aviez si peu d’égards pour mes sentiments… Je sais bien que vous ne serez
+            pas déshonoré devant les hommes, en allant aux Spectacles ; mais comptez-vous pour rien
+            de vous déshonorer devant Dieu ? »</quote></p>
+        <p>Telles étaient les leçons de ce grand Poète, quand, éclairé par la Vérité, il n’écouta
+          plus que la Religion, cette Philosophie sublime qui apprend à l’homme ce qu’il est, et qui
+          seule le rend ce qu’il doit être.<note place="bottom">Telles furent celles d’un célèbre
+            Littérateur de nos jours (<hi rend="sc">la harpe</hi>), qui eut le bonheur de
+            reconnaître le vrai, et le courage de le défendre. Dans une des notes de son <hi
+              rend="i">Cours de Littérature</hi>, relative à une pièce de Favart, il s’exprime
+            ainsi : <quote>« Quels parents sages et timorés conduiront leur fille à un pareil Spectacle ?
+            Et, ce que je dis de celui-là, je le dis de tous : la raison et la décence les
+            interdisent aux jeunes personnes. N’y exposes jamais leur innocence ou leur
+            curiosité. »</quote></note></p>
+        <p><pb n="37" xml:id="p37"/><hi rend="sc">Boileau-Despreaux</hi>, dont la conduite et les
+          mœurs manifestèrent toujours son attachement aux principes du Christianisme, se sentait
+          vivement animé contre un genre de poésie où la Religion lui paraissait particulièrement
+          offensée : <quote>« Eh quoi !<seg type="exquote"> disait-il,</seg> des maximes qui feraient horreur dans le langage
+            ordinaire, se produisent impunément, dès qu’elles sont mises en vers ! Elles montent sur
+            le Théâtre en faveur de la musique, et y parlent plus haut que nos lois ! C’est peu d’y
+            étaler ces exemples, qui instruisent à pécher, et qui ont été détestés des païens
+            mêmes ; on en fait aujourd’hui des conseils et même des préceptes ; et, loin de songer à
+            rendre utiles les divertissements publics, on affecte de les rendre
+          criminels. »</quote></p>
+        <p><hi rend="sc">Le Franc</hi>, Auteur dramatique, s’exprime ainsi dans sa Lettre à <hi
+            rend="i">Louis Racine</hi> : <quote>« On s’efforce de réduire en problème théologique
+            cette question : <hi rend="i">si c’est un péché d’aller à la Comédie</hi>. On ne manque
+            pas <pb n="38" xml:id="p38"/>d’appuyer la négative de toutes les distinctions possibles,
+            et de toutes les conditions capables de rassurer. On exige qu’il n’y ait rien de
+            déshonnête ni de criminel dans la pièce, que celui qui va au Spectacle, n’y apporte
+            point de penchant au vice, ni une âme facile à émouvoir, qu’il y soit le maître de son
+            cœur, de ses pensées, de ses regards ; que rien de ce qu’il entend, que rien de ce qu’il
+            voit, ne soit pour lui une occasion de chute ni de tentation. Cette théorie est
+            certainement admirable. Qui me répondra de la pratique ? sera-ce notre Casuiste ? Qu’il
+            aille plutôt à la Comédie : au retour, je m’en rapporte à lui. »</quote></p>
+        <p><hi rend="sc">La Mothe</hi>, dans le temps où il travaillait encore pour le Théâtre, fait
+          cet aveu public, dans son discours sur la Tragédie. <quote>« Nous ne nous proposons pas
+            d’éclairer l’esprit sur le vice et la vertu, en les peignant de leurs vraies couleurs.
+            Nous ne songeons qu’à émouvoir les passions par le mélange de l’un et de l’autre ; et
+              <pb n="39" xml:id="p39"/>les hommages que nous rendons quelquefois à la raison, ne
+            détruisent pas l’effet des passions que nous avons flattées. Nous instruisons un moment,
+            mais nous avons longtemps séduit ; et, quelque forte que soit la leçon de Morale qui
+            termine la pièce, le remède est trop faible et vient trop tard. »</quote></p>
+        <p><hi rend="i">Louis</hi><hi rend="sc">Riccoboni</hi>, célèbre acteur du Théâtre italien de
+          Paris, auquel il renonça par principe de religion, convient, dans l’un de ses ouvrages
+          imprimé en 1743 et 1767, que, dès la première année qu’il monta sur le Théâtre, il ne
+          cessa de l’envisager du mauvais côté. Il déclare, qu’après une épreuve de plus de
+          cinquante années, il ne pouvait s’empêcher d’avouer que rien ne serait plus utile, que la
+          suppression entière des Spectacles. <quote>« Je crois<seg type="exquote">, disait-il,</seg> que c’était précisément
+            à un homme tel que moi, qu’il convenait d’écrire sur cette matière. Et cela, par la même
+            raison que celui qui s’est trouvé au milieu de la contagion, et <pb n="40" xml:id="p40"
+            />qui a eu le bonheur de s’en sauver, est plus en état d’en faire une description
+            exacte… Je l’avoue donc avec sincérité, je sens, dans toute son étendue, le grand bien
+            que produirait la suppression entière du Théâtre, et je conviens sans peine de tout ce
+            que tant de personnes graves et d’un génie supérieur ont écrit sur cet
+          objet. »</quote></p>
+        <p>Le Théâtre, selon <hi rend="i">Riccoboni</hi>, était, dans son commencement, le triomphe
+          du libertinage et de l’impiété ; et il est, depuis sa correction, l’école des mauvaises
+          mœurs et de la corruption. L’Opéra lui paraît excessivement dangereux dans toutes ses
+          parties : il regarde la musique et la danse, qui en sont l’âme, comme des écueils où la
+          modestie et la pudeur échouent presque toujours<note place="bottom">« Il est impossible,
+            dit à ce sujet <hi rend="i">Madame de Maintenon</hi>, que de jeunes cœurs ne soient
+            sensibles à des paroles pleines d’une morale qui <hi rend="i">fait consister le bonheur
+              dans le plaisir</hi>. Or, mettez à l’alambic tous les Opéras, vous n’en retirerez
+            jamais que cette maxime retournée en mille façons différentes… On a beau dire que ce que
+            l’on entend à l’opéra, entre par une oreille et sort par l’autre. Oui, mais on oublie
+            que le cœur est entre deux. »</note>.</p>
+        <p><pb n="41" xml:id="p41"/>Cet homme si expert et si distingué dans son art, dit encore
+            <quote>« que les sentiments qui seraient les plus corrects sur le papier, changent de
+            nature en passant par la bouche des acteurs, et deviennent criminels par les idées
+            corrompues qu’ils font naître dans l’esprit du spectateur même le plus
+            indifférent. »</quote></p>
+        <p>La voie la plus sûre, selon lui, pour faire tomber le goût de nos Spectacles, c’est
+          d’élever les jeunes gens de manière qu’ils ne s’exposent jamais à y aller.
+              <quote>« Communément,<note place="bottom">Cela était assez vrai, dans le temps où
+              ecrivait <hi rend="i">Riccaboni</hi>.</note> jusqu’à l’âge de dix ans<seg type="exquote">, dit-il,</seg> les
+            enfants sont bien élevés : depuis dix ans jusqu’à quinze, l’éducation faiblit, et les
+            enfants commencent à être gâtés, souvent même par leurs pères et mères ; enfin, depuis
+            quinze ans jusqu’à vingt, les jeunes gens, maîtres de leurs actions, achèvent eux-mêmes
+            de se corrompre. »</quote></p>
+        <p><pb n="42" xml:id="p42"/>« Les parents, pour l’ordinaire, plus occupés de l’extérieur que
+          du fond de l’éducation de leurs enfants, ne s’attachent qu’à leur apprendre les manières
+          et l’usage du monde où ils ont grand soin de les produire. C’est là qu’ils entendent tout
+          ce qui peut exciter leur curiosité, développer les germes de leurs passions, et les
+          familiariser avec le vice. Ces principes de corruption reçoivent une nouvelle force des
+          Spectacles publics où les pères et les mères ont l’imprudence de conduire leurs enfants de
+          l’un et de l’autre sexe. Or, quelles atteintes mortelles ne doivent pas donner à leur
+          innocence le nombre infini de maximes empestées qui se débitent dans les Tragédies, dans
+          les Opéras, et les expressions, les images licencieuses que présentent les Comédies ? Ils
+          ne les effacent jamais de leur mémoire… Ils y voient des Grands, des vieillards, des
+          personnes élevées en dignité, <hi rend="i">ou réputées vertueuses</hi>, y applaudir. Ils
+          s’imaginent que tout ce qu’on leur expose est à retenir. Ils agissent en conséquence,
+          lorsqu’ils jouissent de <pb n="43" xml:id="p43"/>leur liberté ; et les voilà corrompus
+          dans le cœur et dans l’esprit pour le reste de leur vie. »</p>
+        <p><quote>« Mais, dit-on, quel inconvénient y a-t-il qu’ils entendent parler de la passion de
+          l’amour ? Il faut bien qu’ils la connaissent tôt ou tard… C’est ce que je suis
+          très-éloigné de croire : on doit toujours ignorer le libertinage. D’ailleurs, quand cette
+          passion serait traitée avec plus de réserve sur le Théâtre, il n’y aurait pas moins
+          d’inconvénient, et, si j’ose le dire, moins de cruauté, à leur donner, sur une matière si
+          délicate, des leçons prématurées et infiniment dangereuses, et à leur faire courir le
+          risque de perdre leur innocence, avant même qu’ils sachent quel en est le prix, et combien
+          cette perte est affreuse et irréparable. Mais les parents s’intéresseront-ils à leur
+          conserver cette vertu, s’ils n’en connaissent pas eux-mêmes l’excellence ? Néanmoins, ils
+          se livrent ensuite au désespoir, quand leurs enfants donnent dans des désordres
+          préjudiciables à leur fortune. »</quote></p>
+        <p>C’est ainsi qu’a pensé et écrit un <pb n="44" xml:id="p44"/>Comédien célèbre, d’après la
+          plus longue expérience. Quel témoignage et quelle leçon !</p>
+        <p><hi rend="sc">Gresset</hi>, ce Poète plein de grâces et de goût, a publiquement manifesté
+          son repentir, des succès qu’il a obtenus en parcourant la carrière du Théâtre. Il l’a
+          consigné dans une Lettre imprimée en 1759, dont voici l’extrait : <quote>« Je vous avouerai<seg type="exquote">,
+          dit-il,</seg> que, depuis plusieurs années, j’avais beaucoup à souffrir intérieurement d’avoir
+          travaillé pour le Théâtre, étant convaincu, comme je l’ai toujours été, des Vérités
+          lumineuses de notre Religion, la seule divine, la seule incontestable. Il s’élevait
+          souvent des nuages dans mon âme sur un art si peu conforme à l’esprit du Christianisme ;
+          et je me faisais, sans le vouloir, des reproches infructueux que j’évitais de démêler et
+          d’approfondir. Toujours combattu et toujours faible, je différais de me juger, par la
+          crainte de me rendre, et par le désir de me faire grâce. <pb n="45" xml:id="p45"/>Quelle
+          force pouvaient avoir des réflexions involontaires contre l’empire de l’imagination et
+          l’enivrement de la fausse gloire ? Encouragé par l’indulgence dont le public a honoré <hi
+            rend="i">Sidnei</hi> et <hi rend="i">le Méchant</hi>, ébloui par les sollicitations les
+          plus puissantes, séduit par mes amis, dupe d’autrui et de moi-même, rappelé en même temps
+          par cette voix intérieure, toujours sévère et toujours juste ; je souffrais, et je n’en
+          travaillais pas moins dans le même genre. Il n’est guère de situation plus pénible, quand
+          on pense, que de voir sa conduite en contradiction avec ses principes, et de se trouver
+          faux à soi-même, et mal avec soi. Je cherchais à étouffer cette voix des remords, à
+          laquelle on n’impose point silence, ou je croyais y répondre par de mauvaises autorités
+          que je me donnais pour bonnes. Au défaut de solides raisons, j’appelais à mon secours tous
+          les grands et frêles raisonnements des apologistes du Théâtre ; mais tous ces secours ne
+          pouvaient rien pour ma tranquillité. Les noms sacrés et vénérables dont <pb n="46"
+            xml:id="p46"/>on abuse pour justifier la composition des Ouvrages dramatiques et le
+          danger des Spectacles, les textes prétendus favorables, les anecdotes fabriquées, les
+          sophismes des autres et les miens, tout cela n’était que du bruit, et un bruit bien
+          faible, contre ce sentiment impérieux qui réclamait dans mon cœur. Au milieu de ces
+          contratriétés et de ces doutes de mauvaise foi ; poursuivi par l’évidence, j’aurais dû
+          reconnaître dès-lors, comme je le reconnais aujourd’hui, qu’on <hi rend="i">a toujours
+            tort avec sa Conscience quand on est réduit à disputer avec elle</hi>. Dieu a daigné
+          éclairer entièrement mes ténèbres, et dissiper à mes yeux tous les enchantements de l’art
+          et du génie. Guidé par la Foi, ce flambeau éternel devant qui toutes les lueurs du temps
+          disparaissent, devant qui s’évanouissent toutes les rêveries sublimes et profondes de nos
+          faibles esprits-forts, ainsi que toute l’importance et la gloire du bel esprit ; je vois,
+          sans nuage et sans enthousiasme, que les Lois sacrées de l’Evangile et les maximes de la
+            <pb n="47" xml:id="p47"/>morale profane, le Sanctuaire et le Théâtre, sont des objets
+          absolument inalliables. Tous les suffrages de l’opinion, de la bienséance et de la vertu
+          purement humaine, fussent ils réunis en faveur des Spectacles profanes, ils n’ont jamais
+          obtenu, ils n’obtiendront jamais l’approbation de l’Eglise. Ce motif, sans réponse, m’a
+          décidé invariablement… Tout fidèle, quel qu’il soit, quand ses égarements ont eu quelque
+          notoriété, doit en publier le désaveu, et laisser un monument de son repentir. Les gens du
+          bon air, les demi-raisonneurs, les pitoyables incrédules peuvent, à leur aise, se moquer
+          de ma démarche : je serai trop dédommagé de leur petite censure et de leurs froides
+          plaisanteries, si les gens sensés et vertueux, si les écrivains dignes de servir la
+          Religion, si les âmes honnêtes et pieuses que j’ai pu scandaliser, voient mon humble
+          désaveu, avec cette satisfaction pure que fait naître la Vérité, dès qu’elle se montre…
+          L’unique regret qui me reste, c’est de ne pouvoir assez effacer le scandale que <pb n="48"
+            xml:id="p48"/>j’ai pu donner à la Religion par mes Ouvrages, et de n’être point à portée
+          de réparer le mal que j’ai pu causer sans le vouloir. Le moyen le plus apparent de
+          réparation, autant qu’elle est possible, dépend de sa publicité de cette Lettre…. Si
+          quelqu’un est tenté de condamner le parti que j’ai pris ; qu’avant de me désapprouver, il
+          accorde un regard aux Principes qui m’ont déterminé. Après avoir apprécié, dans la raison,
+          ce phosphore qu’on nomme l’esprit, ce rien qu’on appelle la renommée, ce moment qu’on
+          nomme la vie ; qu’il interroge la Religion qui doit lui parler comme à moi ; qu’il
+          contemple fixément la Mort ; qu’il regarde au-delà, et qu’il me juge… Le temps vole, la
+          nuit s’avance, le rêve va finir : pourquoi perdre à douter ou à délibérer, le seul instant
+          qui nous est laissé pour croire et pour mériter ?…</quote></p>
+        <p><hi rend="sc">Bayle</hi>, cet auteur trop fameux, et si cher à tous les libertins dont le
+          cœur est comme dissous dans la <pb n="49" xml:id="p49"/>corruption, a avancé dans un de
+          ses écrits : <quote>« Qu’il ne croyait nullement que la Comédie fût propre à corriger les
+            crimes et les vices de la galanterie, de l’envie, de la fourberie, de l’avarice, de la
+            vanité, etc. Il ne croit pas que <hi rend="i">Molière</hi> ait fait beaucoup de mal à
+            ces désordres ; et l’on peut même assurer<seg type="exquote">, dit-il,</seg> qu’il n’y ait rien de plus propre à
+            inspirer la coquetterie, que les pièces de ce Comique ; parce qu’on y tourne
+            continuellement en ridicule les soins que les pères et mères prennent de s’opposer aux
+            engagements amoureux de leurs enfants. Il se moque, avec raison, de ces personnes qui
+            disent fort sérieusement que <hi rend="i">Molière</hi> a plus corrigé de défauts lui
+            seul, que tous les Prédicateurs ensemble. »</quote></p>
+        <p><hi rend="i">Jean-Jacques</hi><hi rend="sc">Rousseau</hi>, dans un de ces moments lucides
+          où il parlait le langage de la Vérité, a porté contre le Théâtre un jugement fondé sur sa
+          propre expérience. Il ne croit pas, comme bien des penseurs de nos jours, que des <hi
+            rend="i">Spectacles</hi> et des <hi rend="i">Mœurs</hi> puissent <pb n="50" xml:id="p50"
+          />jamais être choses compatibles. Il nie que les représentations théâtrales soient
+          nécessaires pour former le goût des Citoyens, leur donner la finesse du tact et la
+          délicatesse du sentiment, ou qu’elles puissent jamais seconder la Morale, quand même l’on
+          y verrait toujours le vice puni et la vertu récompensée. Mais écoutons-le parler lui-même
+          dans quelques fragments de sa Lettre à d’<hi rend="i">Alembert</hi>.</p>
+        <p><quote>« Qu’est-ce que le talent du Comédien ? L’art de se contrefaire, de revêtir un autre
+          caractère que le sien, de paraître différent de ce qu’on est, de se passionner de sang
+          froid, de dire autre chose que ce qu’on pense, aussi naturellement que si on le pensait
+          réellement, et d’oublier enfin sa propre place, à force de prendre celle d’autrui.
+          Qu’est-ce que la profession du Comédien ? Un métier par lequel il se donne en
+          représentation pour de l’argent, se soumet à l’ignominie et aux affronts qu’on achète le
+          droit de lui faire, et met publiquement sa personne en vente. J’adjure tout homme sincère
+          de dire s’il ne sent pas au fond <pb n="51" xml:id="p51"/>de son âme, qu’il n’y a dans ce
+          trafic de soi-même quelque chose de servile et de bas. Vous autres Philosophes, qui vous
+          prétendez si fort au-dessus des préjugés, ne mourriez-vous pas tous de honte, si,
+          lâchement travestis en rois, il vous fallait aller faire aux yeux du public un rôle
+          différent du vôtre, et exposer vos majestés aux huées de la populace ? Quel est donc, au
+          fond, l’esprit que le Comédien reçoit de son état ? Un mélange de bassesse, de fausseté,
+          de ridicule orgueil, et d’indigne avilissement, qui le rend propre à toutes sortes de
+          personnages, hors le plus noble de tous, celui d’Homme, qu’il abandonne.</quote></p>
+        <p><quote>« Ce qui établit la prétendue nécessité des Spectacles, n’est point la bonne conscience
+          qui éteint le goût des plaisirs frivoles : c’est le mécontentement de soi-même ; c’est le
+          poids de l’oisiveté ; c’est l’oubli des goûts simples et naturels..</quote></p>
+        <p><quote>« On pourrait dire de ceux qui les fréquentent : N’ont-ils donc ni femmes, ni enfants, ni
+          amis ?</quote></p>
+        <p><pb n="52" xml:id="p52"/><quote>« Le Théâtre purge les passions qu’on n’a pas, et fomente celles
+          qu’on a. »</quote></p>
+        <p><quote>« Que l’on consulte l’état de son cœur à la fin d’une Tragédie. L’émotion, le trouble et
+          l’attendrissement qu’on sent en soi-même et qui se prolongent après la pièce,
+          annoncent-ils une disposition bien prochaine à surmonter et à régler nos passions ? Les
+          impressions vives et touchantes dont nous prenons l’habitude, sont-elles bien propres à
+          modérer nos sentiments au besoin ? Pourquoi l’image des peines qui naissent des passions,
+          effacerait-elle celle des transports de joie et de plaisir qu’on en voit naître, et que
+          les auteurs ont soin d’embellir encore pour rendre leurs pièces plus agréables ? Ne
+          sait-on pas que toutes les passions sont sœurs, qu’une seule suffit pour en exciter mille,
+          et que les combattre l’une par l’autre, n’est qu’un moyen de rendre le cœur plus sensible
+          à toutes ? »</quote></p>
+        <p><quote>« Le mal qu’on reproche au Théâtre, n’est pas seulement d’inspirer des passions
+          criminelles ; mais de disposer <pb n="53" xml:id="p53"/>l’âme à des sentiments trop
+          tendres qu’on satisfait ensuite, aux dépens de la vertu. »</quote></p>
+        <p><quote>« Quand il serait vrai qu’on ne peint au Théâtre que des passions légitimes,<note
+            place="bottom">A proprement parler, il n’y a point de passions légitimes, mais bien des
+            sentiments légitimes.</note> s’ensuit-il de là que les impressions en sont plus faibles,
+          que les effets en sont moins dangereux ? Comme si les vives images d’une tendresse
+          innocente étaient moins douces, moins séduisantes, moins capables d’échauffer un cœur
+          sensible, que celles d’un amour criminel à qui l’horreur du vice sert au moins de
+          contre-poison. Mais, si l’idée de l’innocence embellit, quelques instants, le sentiment
+          qu’elle accompagne, bientôt les circonstances s’effacent de la mémoire, tandis que
+          l’impression d’une passion si douce reste gravée au fond du cœur. »</quote></p>
+        <p><quote>« On prétend nous guérir de l’amour par la peinture de ses faiblesses. Je ne sais
+          là-dessus comment les auteurs s’y prennent ; mais je vois que les <pb n="54" xml:id="p54"
+          />spectateurs sont toujours du parti de l’amant faible, et que souvent ils sont fâchés
+          qu’il ne le soit pas davantage. Je demande si c’est un grand moyen d’éviter de lui
+          ressembler ?</quote></p>
+        <p><quote>« L’art du Théâtre ne consiste plus qu’à donner une nouvelle énergie et un nouveau
+          coloris à cette passion. On ne voit plus réussir que des romans, sous le nom de pièces
+          dramatiques. On y présente l’amour comme le règne des femmes : c’est pourquoi l’effet
+          naturel de ces pièces est d’étendre l’empire du sexe, et de donner des femmes pour les
+          précepteurs du public… »</quote></p>
+        <p><quote>« La même cause qui donne sur le Théâtre, l’ascendant aux femmes sur les hommes, le donne
+          encore aux jeunes gens sur les vieillards ; et c’est un autre renversement des rapports
+          naturels, qui n’est pas moins répréhensible. Dans la Tragédie, les personnages avancés en
+          âge, sont des tyrans, des usurpateurs ; dans la Comédie, des jaloux, des usuriers, des
+          pédants, des pères insupportables, que tout le monde conspire à tromper. Voilà sous quel
+          honorable aspect on <pb n="55" xml:id="p55"/>montre la vieillesse au Théâtre ; voilà quel
+          respect on inspire aux jeunes gens pour l’âge de la sagesse, de l’expérience et de
+          l’autorité. »</quote></p>
+        <p><quote>« La Scène française n’est pas moins le triomphe des grands scélérats, que des plus
+          illustres Héros ; témoins <hi rend="i">Catilina, Mahomet, Atrée</hi>, et beaucoup
+          d’autres. Quel jugement porterons-nous d’une tragédie, où, quoique les criminels soient
+          punis, ils nous sont présentés sous un aspect si favorable, que tout l’intérêt est pour
+          eux ? A quoi aboutit la morale de pareilles pièces, si ce n’est à encourager les méchants
+          et à leur donner le prix de l’estime publique due aux gens de bien ? Mais tel est le goût
+          qu’il faut flatter sur la scène ; telles sont les mœurs d’un siècle instruit. Le savoir,
+          l’esprit, le courage ont seuls notre admiration ; et toi, douce et modeste Vertu, tu
+          restes toujours sans honneurs ! Aveugles que nous sommes, au milieu de tant de lumières !
+          n’apprendrons-nous jamais combien mérite de mépris tout homme qui, pour le malheur du
+          genre humain, abuse du génie et <pb n="56" xml:id="p56"/>des talents que lui donna la
+          nature ? »</quote></p>
+        <p><quote>« Suivez la plupart des pièces du Théâtre français, vous trouverez, presque dans toutes,
+          des monstres abominables et des actions atroces, utiles, si l’on veut, à donner de
+          l’intérêt aux pièces, mais dangereuses certainement, en ce qu’elles accoutument les yeux
+          du peuple à des horreurs qu’il ne devrait pas même connaître, et à des forfaits qu’il ne
+          devrait pas supposer possibles. Il n’est pas même vrai que le meurtre et le parricide y
+          soient toujours odieux. A la faveur de je ne sais quelles commodes suppositions, on les
+          rend permis ou pardonnables. L’un tue son père, et épouse sa mère ; un autre force son
+          fils d’égorger son père ; un troisième fait boire à son père le sang de son fils. On
+          frissonne, à la seule idée des horreurs dont on pare la scène française. Je le soutiens,
+          et j’en atteste l’effroi des lecteurs, les massacres des gladiateurs n’étaient pas si
+          barbares, que ces affreux spectacles. On voyait couler du sang, il est vrai ; mais on ne
+          souillait pas son <pb n="57" xml:id="p57"/>imagination de crimes qui font frémir la
+          nature. Ajoutez que le Poète, pour faire parler chacun selon son caractère, est forcé de
+          mettre dans la bouche des méchants, leurs maximes et leurs principes, revêtus de tout
+          l’éclat des beaux vers, et débités d’un ton imposant et sententieux, pour l’instruction du
+          parterre. »</quote></p>
+        <p><quote>« Si, dans la Comédie, on rapproche le ton de Théâtre à celui du monde, on ne corrige
+          point, pour cela les mœurs ; le plaisir même du comique étant fondé sur un vice du cœur
+          humain, c’est une suite de ce principe, que plus la Comédie est agréable et parfaite, plus
+          son effet est funeste aux mœurs. Prenons le plus parfait auteur comique, dont les ouvrages
+          nous soient connus. Qui peut disconvenir que le Théâtre de <hi rend="i">Molière</hi> ne
+          soit une école de vices et de mauvaises mœurs, plus dangereuse que les livres même où l’on
+          fait profession de les enseigner ? Son plus grand soin est de tourner la bonté et la
+          simplicité en ridicule, et de mettre la ruse et le mensonge du parti pour <pb n="58"
+            xml:id="p58"/>lequel on prend intérêt. Ses honnêtes gens ne sont que des gens qui
+          parlent ; ses vicieux sont des gens qui agissent, et que les plus brillants succès
+          favorisent le plus souvent : enfin, l’honneur des applaudissements, rarement pour le plus
+          estimable, est presque toujours pour le plus adroit. Il tourne en dérision les
+          respectables droits des pères sur leurs enfants, des maris sur leurs femmes, des maîtres
+          sur leurs serviteurs. Il fait rire, et n’en devient que plus coupable, en forçant les
+          Sages même de se prêter à des railleries qui devraient attirer leur indignation. J’entends
+          dire qu’il attaque les vices ; mais je voudrais bien que l’on comparât ceux qu’il attaque,
+          avec ceux qu’il favorise… Son intention étant de plaire à des esprits corrompus, ou sa
+          morale porte au mal ; ou le faux bien qu’elle prêche est plus dangereux que le mal même,
+          en ce qu’il fait préférer l’usage et les maximes du monde à l’exacte probité en ce qu’il
+          fait consister la sagesse dans un certain milieu entre le vice et la vertu, en ce qu’au
+          grand <pb n="59" xml:id="p59"/>soulagement des spectateurs. Il leur persuade que, pour
+          être honnête homme ; il suffit de n’être pas un franc scélérat. »</quote></p>
+        <p><quote>« J’aurais trop d’avantage, si je voulais passer de l’examen de <hi rend="i">Molière</hi>
+          à celui de ses successeurs, qui, pour mieux suivre ses vues intéressées, se sont attachés
+          dans leurs pièces à flatter une jeunesse débauchée et des femmes sans mœurs. »</quote></p>
+        <p><quote>« La belle école que le Théâtre ! La belle instruction surtout pour les jeunes gens que
+          l’on y envoie !.. Tous nos penchants y sont favorisés, et ceux qui nous dominent, y
+          reçoivent un nouvel ascendant. Les continuelles émotions qu’on y ressent, nous
+          affaiblissent, nous rendent plus incapables de résister à nos passions, et détruisent
+          l’amour du travail et de l’application. On y apprend à ne couvrir que d’un vernis la
+          laideur du vice, à tourner la Sagesse en ridicule, à substituer un jargon de Théâtre à la
+          pratique des Vertus, à travestir les citoyens en beaux esprits, les mères de familles en
+          petites-maîtresses, les filles <pb n="60" xml:id="p60"/>en amoureuses de Comédie.<note
+            place="bottom">Ce que <hi rend="i">Jean-Jacques Rousseau</hi> dit des Spectacles,
+            s’applique naturellement à ces Théâtres de Sociétés si multipliés de nos jours, et que
+            l’illusion voudrait en vain légitimer. Les inconvénients graves, qui font à juste titre
+            condamner la Comédie et les Comédiens, doivent également résulter de cette espèce d’<hi
+              rend="i">apprentissage</hi>. On pourrait citer ; à ce sujet de terribles
+            exemples.</note>. »</quote></p>
+        <p><quote>« Enfin, quelle idée peut-on se former des Spectacles, si l’on en juge par le caractère
+          des personnes qu’on se propose principalement d’y amuser, et qui abondent dans les grandes
+          villes ? Ce sont des gens intrigants, désœuvrés, sans religion, sans principes, dont
+          l’imagination, dépravée par l’oisiveté, la fainéantise et l’amour du plaisir, n’engendre
+          que des monstres, et n’inspire que des forfaits…. Or, sied-il bien à des personnes
+          vertueuses d’aller se confondre avec ces gens oisifs et corrompus ?…</quote><note place="bottom"
+              ><p>C’est d’après ces Principes, que les Spectacles ont été proscrits à Genève, à
+              Utrecht, et dans les États-Unis de l’Amérique.</p><p>Voici, entr’autres, l’Arrêté que
+              le Congrès a fait publier à Philadelphie, le 16 Octobre 1778, et qu’on lit dans le
+              Journal historique de Genève de la même année.</p><quote><p>« En Congrès le
+                16 Octobre 1778.</p><p>Comme la fréquentation des Spectacles et des lieux publics
+                d’amusement, tend malheureusement à détourner les Peuples de l’attention qu’il leur
+                est indispensable de donner aux moyens nécessaires pour la défense de leur pays et
+                le maintien de leurs libertés :</p><p>Arrêté que toutes personnes qui, exerçant un
+                emploi quelconque sous les Etats-Unis, représenteront sur un Théâtre, y feront
+                représenter, ou encourageront par leur présence ou autrement ces sortes de
+                Spectacles seront jugées indignes de conserver leur emploi, et en conséquence
+                destituée.</p><p>Ordonné, que cet Arrêté soit publié.</p><p>Signé, <hi
+                  rend="i">Moresyoung</hi>, Secrétaire de Congrès. »</p><p>M. <hi
+                  rend="i">Delafayette</hi>, alors dans ces contrées, se proposait un jour d’aller à
+                la Comédie. Mais instruit par le Président du Congrès de l’Arrêté ci-dessus, il le
+                remercia de ce qu’il lui apprenait, et ajouta : <hi rend="i">Puisque le Congrès a
+                  défendu les Spectacles, je n’irai sûrement peint</hi>.</p><p>Cette
+                réponse nous donne lieu d’observer qu’un Chrétien, s’il veut être conséquent, doit à
+                plus forte raison dire aussi : <hi rend="sc">Puisque la raison et la religion ne
+                  défendent les spectacles, je n’irai sûrement point</hi>.</p></quote></note>.</p>
+        <p><pb n="61" xml:id="p61"/><hi rend="sc">Quel</hi> cri contre les Spectacles ! Et quelle
+          force ne doit-il pas avoir, quand on en connaît l’auteur ! Ce cri part d’un homme, fort
+          connaisseur dans le genre dramatique, grand admirateur de <hi rend="i">Racine</hi>, de <hi
+            rend="i">Molière</hi>, et <pb n="62" xml:id="p62"/>des autres coryphées de la Scène,
+          d’un homme qui jamais ne passa, parmi les partisants du monde, ou de la prétendue
+          philosophie, pour <hi rend="i">l’émissaire des Prêtres</hi>, ou de ceux que nos incrédules
+          appellent, avec aussi peu d’esprit que de justesse, <hi rend="i">Enthousiastes,
+            Fanatiques, Etres superstitieux, Ésprits faibles. etc. etc. etc</hi>. C’est le Vrai,
+          armé de tous les traits de l’Eloquence, et triomphant par la plume de l’un de ses plus
+          véhéments adversaires.</p>
+        <p>FIN.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
