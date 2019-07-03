@@ -6,15 +6,24 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Epistre de sainct Cyprian contre les bastelevrs et iovevrs de farces</title>
+                <title>Epître de saint Cyprien contre les bateleurs et joueurs de farces</title>
                 <author key="Cyprien de Carthage (02??-258 ; saint)"
                     ref="https://data.bnf.fr/fr/11886041/cyprien/">Cyprien de Carthage</author>
                 <author key="Tigeou, Jacques (15..-16..). Traducteur"
                     ref="https://data.bnf.fr/fr/14550886/jacques_tigeou/">Jacques Tigeou.
                     Traducteur</author>
+                <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
             </titleStmt>
             <editionStmt>
                 <edition>OBVIL</edition>
+                <respStmt>
+                    <name>François Lecercle</name>
+                    <resp>Responsable d'édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Clotilde Thouret</name>
+                    <resp>Responsable d'édition</resp>
+                </respStmt>
                 <respStmt>
                     <name>Infoscribe</name>
                     <resp>saisie, XML-TEI</resp>
@@ -74,335 +83,338 @@
     </teiHeader>
     <text>
         <body>
-            <div1 type="letter">
+            <div><head rend="sc">[FRONTISPICE]</head>
+                <p rend="center"><hi rend="uppercase">LES<lb/> ŒVVRES<lb/>
+                    de<lb/> sainct Cecile<lb/> Cyprian, iadis evesque<lb/> de Carthage, tres-<lb/>victorievx martyr
+                    de</hi><lb/> <hi rend="sc">Iesus Christ</hi> : avec quelques Annota-<lb/>tions sur aucuns lieux obscurs<lb/> et
+                    difficiles.<lb/><lb/> <hi rend="i">Faictes Françoises, par</hi> <hi rend="sc">M. Iaqves Tigeov</hi> <hi rend="i">Angevin, Docteur en
+                        Theologie,<lb/> Chancelier et Chanoine en l’Eglise Cathedrale de Metz.</hi><lb/><lb/> <hi rend="uppercase">a paris</hi><lb/>Chez Nicolas Chesneau, rue Saint Jaques, au Chesne verd.<lb/>M. D. LXX. IIII.<lb/>Auec Privilege du Roy.</p>
+            </div>
+            <div type="letter">
                 <pb n="423" xml:id="p423"/>
-                <head>Epistre de sainct cyprian contre <hi rend="sc">Les bastelevrs et iovevrs de
+                <head>Epître de saint cyprien contre <hi rend="sc">Les bateleurs et joueurs de
                         farces</hi>.</head>
                 <argument>
-                    <label type="head"><hi rend="sc">L’argvment</hi>.</label>
-                    <p><hi rend="i">Saint Cyprian en la 10. Epistre du premier liure escriuant à
-                            Eucratius, monstre assez en quelle horreur &amp; detestation les
-                            Chrestiens auoient anciẽnement les Bastelleurs &amp; ioueurs de farces,
-                            Comedies &amp; Tragedies, &amp; autres choses semblables, iusqu’à priuer
-                            de la saincte Cõmunion ceux qui s’addonnoient à cest art : Il declare le
-                            semblable en ceste Epistre, que le Chrestien doit fuir tous Spectacles
-                            &amp; Ieux publics, de quelque sorte que ce soit : où de premier coup il
-                            s’attache à ceux qui abusoient des tesmoignages de la S. escriture pour
-                            approuuer telles folies : puis discourant par toutes les especes des
-                            Spectacles, en fait le diable autheur, &amp; l’Idolatrie mere :
-                            rappellant les Chrestiens à contempler plus tost les œuures de Dieu,
-                            &amp; les sainctes escritures, comme les vrais spectacles des vrau
-                            enfans de Dieu. Tertullian a escrit de ceste mesme matiere, beaucoup
-                            plus amplement, car il descrit l’origine, &amp; especes de ces Ieux
-                            &amp; Spectacles, les appareils, les pris &amp; ioyaux, &amp; tout ce
-                            qui en depend.</hi></p>
+                    <label type="head"><hi rend="sc">L’argument</hi>.</label>
+                    <p><hi rend="i">Saint Cyprien en la 10. Epître du premier livre écrivant à
+                            Eucratius, montre assez en quelle horreur et détestation les
+                            Chrétiens avaient anciennement les Bateleurs et joueurs de farces,
+                            Comédies et Tragédies, et autres choses semblables, jusqu’à priver
+                            de la sainte Communion ceux qui s’adonnaient à cet art : Il déclare le
+                            semblable en cette Epître, que le Chrétien doit fuir tous Spectacles
+                            et Jeux publics, de quelque sorte que ce soit : où de premier coup il
+                            s’attache à ceux qui abusaient des témoignages de la S. écriture pour
+                            approuver telles folies : puis discourant par toutes les espèces des
+                            Spectacles, en fait le diable auteur, et l’Idolatrie mère :
+                            rappelant les Chrétiens à contempler plustôt les œuures de Dieu,
+                            et les saintes écritures, comme les vrais spectacles des vrais
+                            enfants de Dieu. Tertullien a écrit de cette même matière, beaucoup
+                            plus amplement, car il décrit l’origine, et espèces de ces Jeux
+                            et Spectacles, les appareils, les prix et joyaux, et tout ce
+                            qui en dépend.</hi></p>
                 </argument>
-                <salute rend="center">Cyprian au Peuple persistant en l’Euangile, Salut.</salute>
-                <p><hi rend="big">C</hi><hi rend="sc">omme</hi> ie suis grandement marry &amp;
-                    dolent en mon cœur, lors qu’il ne se presente aucune occasion de vous escrire
-                    (car ce m’est grande perte &amp; dommage, de ne point parlementer auec vous)
-                    aussi n’y a il rien, qui me rende plus ioyeux &amp; alaigre, que quand de
-                    rechefil il se presente quelque occasiõ. Il m’est aduis que ie suis auec vous,
-                    quand par lettres ie parle à vous. Or combiẽ que ie sçache que vous estes
-                    asseurez, qu’il est ainsi que ie dis, &amp; que ne doutez aucunemẽt, que mon
-                    dire ne soit veritable : si est-ce qu’il est apparẽt &amp; manifeste, qu’il est
-                    ainsi. Car quand on ne laisse eschapper aucune occasion, adonc on mõstre
-                    l’affection qu’on a. Doncques combien que ie fois certain, que vous n’estes pas
-                    moins graues en saincte vie &amp; bonne conuersation, que fermes &amp; entiers
-                    en la foy : <note n="1" place="margin">Contre aucũs qui detournoiẽt la saincte
-                        escriture, pour approuuer les ieux publics.</note>toutesfois pource qu’il
-                    n’y a pas faulte de gens delicats, fauorisants &amp; soustenants les vices,
-                    &amp; leur donnants authorité, voire qui pis est, abusants de l’authorité des
-                    sainctes &amp; diuines escritures, pour soustenir les vices, cõme si ce ne fust
-                    point mal fait se trouuer aux Spectacles publics pour se recreer (car la vigueur
-                    de la discipline ecclesiastique est tellemẽt abatardie &amp; escoulee, &amp;
-                    decheoit si fort de mal en pis, qu’il n’est plus ia question d’excuser les
-                    pechez, ains de les approuuer &amp; auouer.) I’ay esté d’aduis en peu de
-                    paroles, non de vous instruire, mais admõnester, de peur q̃ si les playes ne
-                    sont biẽ liees, &amp; serrees, elles viennent à s’engreger, &amp; causer vne
-                    plus dangereuse maladie. Car il n’y a mal qui s’esteinde plus difficilemẽt, que
-                    celuy lequel retourne aysément, quand la multitude d’vn cõmun consentemẽt
-                    l’aduoue, &amp; encor se plaist à l’excuser. C’est qu’il y a des fidels, &amp;
-                    qui s’attribuent le nom de Chrestiẽs, lesquels n’ont point de honte de
-                    soustenir, &amp; deffendre par l’authorité des saintes escritures, les
-                    superstitions des Gẽtils, meslees auec leurs spectacles &amp; ieux publics,
-                    &amp; aduouent leur idolatrie. <note n="2" place="margin">Les tesmoignages de la
-                        saincte escriture, desquelz ilz abusoient.</note>Car quand vn Chrestien se
-                    trouue au spectacle, pour assister à ce que les Gentils font en l’honneur de
-                    quelcun de leurs idoles, c’est approuuer l’idolatrie Gentile, &amp; fouler au
-                    pied la vraye &amp; diuine religion en contumelie du vray Dieu. Ie suis honteux
-                    de declarer icy les lieux &amp; passages, desquels ils vsent pour soustenir leur
-                    dire. En quel lieu, disent ils, font ces choses escrites ? où sont elles
-                    defendues ? <note n="a" place="margin">4. <hi rend="i">Rois. 2.
-                    12.</hi></note>Elie est le chariot d’Israel : &amp; mesmes <note n="b"
-                        place="margin">2. <hi rend="i">Rois. 6. 14.</hi></note>Dauid a dansé deuant
-                    l’arche. Nous lisons les Psalterions, les Trompettes, les Tabours, les Fleuttes,
-                    les Harpes, les Fiffres. <note n="c" place="margin">c. <hi rend="i">Ephes 6.
-                            12</hi></note>L’Apostre aussi faisant mention de la <pb n="424"
-                        xml:id="p424"/>luitte, que nous auons contre les malices spirituelles,
-                    propose vn combat, <note n="d" place="margin"><hi rend="i">I. Corint. 9.
-                            24.</hi></note>en outre il prend exemple de la lice, &amp; propose vne
-                    couronne comme le pris &amp; ioyau : pourquoy donc ne sera il pas loysible à vn
-                    Chrestiẽ, de regarder ce qui est couché en la saincte escriture ? <note n="3"
-                        place="margin">Responce à Itelz interpretes aquelle se peut accõmoder aux
-                        nouueaux euãgelistes.</note>le diray en cest endroit qu’il vauldroit mieux à
-                    ceux-cy, n’auoir aucune cognoissance des lettres, que de les lire en ceste
-                    façon. Car c’est destourner les paroles &amp; exemples, qui nous sont proposez
-                    pour nous exhorter à la vertu Euangelique, à soustenir &amp; defendre les
-                    vices : pour ce que ces choses là ne sont pas escrites, afin de les aller veoir
-                    és spectacles, ains pour exciter de plus en plus noz esprits &amp; entendements,
-                    d’estre plus diligens és choses prouffitables, puis que les Ethniques le sont
-                    tant és choses qui ne leur apportent aucune vtilité. C’est donc vn argumẽt &amp;
-                    motif de nous exciter à vertu, &amp; non vne permission ou liberté d’aller
-                    regarder l’erreur des Gentils : afin que l’esprit fust plus induit à embrasser
-                    la vertu Euangelique, à cause des diuins loyers qui nous sont proposez, veu que
-                    par la calamité de tous trauaux &amp; douleurs, nous est permis d’accourcir
-                    &amp; abbreger ce chemin terrestre. Car qu’Elias soit le chariot d’Israel, cela
-                    ne fait rien pour preuue des ieux publics, nommez <note n="4" place="margin"
-                        >Circenses estoiẽt ieux publics de luit teurs, &amp; de cheuaux courans à
-                        qui mieux, qui se faisoiẽt à Rome en vne place grãde &amp; spacieuse, pour
-                        donner passe-temps au peuple. Voy le tiltre 8. du 2. liure de la rep. de
-                        Patricius de Siennes.</note>Circenses. Car il ne courut oncques en lieu
-                    public. Et quant à ce que Dauid dansa deuant Dieu, n’ayde en rien les Chrestiens
-                    fidels, qui sõt assis sur le Theatre. Car iamais il ne dansa vne fable lasciue
-                    des Grecs, auec mouuemens deshonnestes, branlant ses bras ça &amp; là. Les
-                    Psalterions, les Trompettes, les Fluttes, &amp; les Harpes ont chanté Dieu &amp;
-                    non point vne Idole. Parquoy cela n’est pas prescrire, qu’on regarde choses
-                    illicites, <note n="*" place="margin">Note.</note>C’est vne ruse &amp; finesse
-                    du diable, de changer les choses bonnes &amp; sainctes en mauuaises &amp;
-                    prophanes. Du moins que la honte leur dõne la loy, puis que les sainctes
-                    escritures ne le peuuent. Car l’escriture pourueoit d’auãtage à beaucoup de
-                    choses, quãt elle commãde : aussi quand elle se taist de quelque chose, pour
-                    garder modestie, c’est alors qu’elle la defend &amp; prohibe d’auantage. Si la
-                    verité s’estendoit iusque à parler de tout, elle eust eu mauuaise opinion de ses
-                    fidels : car mesme il est plus vtile bien souuent de taire quelques choses és
-                    commandemens, que les exprimer : &amp; souuentesfois ils admonestent, lors
-                    qu’ils sont retranchez de l’escriture : &amp; aussi encore qu’ils soient escris,
-                    on n’en sonne mot, pour ce qu’en lieu des preceptes, la seuerité parle ce que
-                    l’escriture a obmis. Qu’vn chacun seulement delibere en soymesme, &amp; parle
-                    auec la personne de sa profession : iamais il ne fera rien deshõneste : car la
-                    sentence laquelle ne se deura à autre qu’à soymesme, aura plus de poix &amp;
-                    d’authorité. <note n="5" place="margin">Quand l’escriture saincte defend
-                        l’idolatrie, elle defẽd quãt &amp; quãt tout ce qui en depend.</note>Que
-                    est-ce dõc que l’escriture a defendu ? Elle a prohibé de regarder ce qu’elle
-                    prohibe de faire. Elle a condamné, di-ie, toutes ces especes de spectacles,
-                    &amp; ieux publics, quand elle a osté l’Idolatrie mere de tous ieux, dont tous
-                    ces monstres de vanité &amp; legereté sont sortis. Car quel spectacle, y a il,
-                    sans Idole ? quel ieu sans sacrifice ? quel combat, qui ne soit consacré à vn
-                    homme mort ? qu’a à faire le Chrestien fidelle entre ces choses, s’il fuit
-                    Idolatrie ? que dit-il, luy qui est desia sainct ? Il prend recreation és choses
-                    detestables. Pourquoy approuue il les superstitions contre Dieu, lesquelles il
-                    ayme en les regardant ? Au reste qu’il entende, <note n="6" place="margin">Les
-                        spectacles &amp; ieux publics sont inuention du diable, &amp; l’Idolatrie en
-                        est la mere : où tu doibz noter l’exorcisme en l’Eglise, dequoy les
-                        heretiques se mocquent.</note>que toutes ces choses sont inuentions des
-                    diables &amp; non de Dieu. Le Chrestien exorcize impudemmẽt les diables en
-                    l’Eglise, puis qu’il loue leurs voluptez és Spectacles : &amp; veu qu’il a vne
-                    fois renoncé au diable, &amp; qu’au baptesme tout le droict qu’il y auoit, a
+                <salute rend="center">Cyprien au Peuple persistant en l’Evangile, Salut.</salute>
+                <p><hi rend="big">C</hi><hi rend="sc">omme</hi> je suis grandement marri et
+                    dolent en mon cœur, lorsqu’il ne se présente aucune occasion de vous écrire
+                    (car ce m’est grande perte et dommage, de ne point parlementer avec vous)
+                    aussi n’y a-t-il rien, qui me rende plus joyeux et allègre, que quand derechef il il se présente quelque occasion. Il m’est avis que je suis avec vous,
+                    quand par lettres je parle à vous. Or combien que je sache que vous êtes assurés, qu’il est ainsi que je dis, et que ne doutez aucunement, que mon
+                    dire ne soit véritable : si est-ce qu’il est apparent et manifeste, qu’il est
+                    ainsi. Car quand on ne laisse échapper aucune occasion, adonc on montre
+                    l’affection qu’on a. Donc combien que je sois certain, que vous n’êtes pas
+                    moins graevs en sainte vie et bonne conversation, que fermes et entiers
+                    en la foi : <note n="1" place="margin" resp="author">Contre aucuns qui détournaient la sainte
+                        écriture, pour approuver les jeux publics.</note>toutesfois pource qu’il
+                    n’y a pas faute de gens délicats, favorisant et soutenant les vices,
+                    et leur donnant autorité, voire qui pis est, abusant<note resp="editor" place="bottom"> [NDE] Dans le texte, les participes présents dans cette phrase sont traités comme des adjectifs.</note> de l’autorité des
+                    saintes et divines écritures, pour soutenir les vices, comme si ce ne fût
+                    point mal fait se trouver aux Spectacles publics pour se récréer (car la vigueur
+                    de la discipline ecclésiastique est tellement abâtardie et écoulee, et
+                    déchoit si fort de mal en pis, qu’il n’est plus jà question d’excuser les
+                    péchés, ains de les approuver et avouer.) J’ai été d’acis en peu de
+                    paroles, non de vous instruire, mais admonester, de peur que si les plaies ne
+                    sont bien liées, et serrées, elles viennent à s’engreger<note place="bottom" resp="editor"> [NDE] s'engreger = s'aggraver (Nicot).</note>, et causer une
+                    plus dangereuse maladie. Car il n’y a mal qui s’esteinde<note resp="editor" place="bottom"> [NDE] Esteindre, signifie aussi fig. Abolir, vouloir que le souvenir d'une chose se perde entièrement (Dictionnaire de l'Académie).</note> plus difficilement, que
+                    celui lequel retourne aisément, quand la multitude d’un commun consentement
+                    l’avoue, et encore se plaît à l’excuser. C’est qu’il y a des fidèles, et
+                    qui s’attribuent le nom de Chrétiens, lesquels n’ont point de honte de
+                    soutenir, et défendre par l’autorité des saintes écritures, les
+                    superstitions des Gentils, mêlées avec leurs spectacles et jeux publics,
+                    et avouent leur idolatrie. <note n="2" place="margin" resp="author">Les témoignages de la
+                        saine écriture, desquels ils abusaient.</note>Car quand un Chrétien se
+                    trouve au spectacle, pour assister à ce que les Gentils font en l’honneur de
+                    quelqu'un<note resp="editor" place="bottom"> [NDE] Le texte a "quelcun".</note> de leurs idoles, c’est approuver l’idolatrie Gentile, et fouler au
+                    pied la vraie et divine religion en contumélie du vrai Dieu. Je suis honteux
+                    de déclarer ici les lieux et passages, desquels ils usent pour soutenir leur
+                    dire. En quel lieu, disent-ils, sont ces choses écrites ? où sont-elles
+                    défendues ? <note n="a" place="margin">4. <hi rend="i">Rois. 2.
+                    12.</hi></note>Elie est le chariot d’Israël : et même <note n="b"
+                        place="margin">2. <hi rend="i">Rois. 6. 14.</hi></note>David a dansé devant
+                    l’arche. Nous lisons les Psaltérions, les Trompettes, les Tambours, les Flûtes,
+                    les Harpes, les Fifres. <note n="c" place="margin">c. <hi rend="i">Ephes. 6.
+                            12</hi></note>L’Apôtre aussi faisant mention de la <pb n="424"
+                        xml:id="p424"/>lutte, que nous avons contre les malices spirituelles,
+                    propose un combat, <note n="d" place="margin"><hi rend="i">I. Corint. 9.
+                            24.</hi></note>en outre il prend exemple de la lice, et propose une
+                    couronne comme le prix et joyau : pourquoi donc ne sera-t-il pas loisible à un
+                    Chrétien, de regarder ce qui est couché en la sainte écriture ? <note n="3"
+                        place="margin">Réponse à Itels interprètes aquelle se peut accommoder aux
+                        nouveaux evangélistes.</note>Je dirai en cet endroit qu’il vaudrait mieux à
+                    ceux-ci, n’avoir aucune connaissance des lettres, que de les lire en cette
+                    façon. Car c’est détourner les paroles et exemples, qui nous sont proposés
+                    pour nous exhorter à la vertu Evangélique, à soutenir et défendre les
+                    vices : pour ce que<note place="bottom" resp="editor"> [NDE]  pour ce que = parce que.</note> ces choses-là ne sont pas écrites, afin de les aller voir
+                    ès spectacles, ains pour exciter de plus en plus nos esprits et entendements,
+                    d’être plus diligents ès choses profitables, puisque les Ethniques le sont
+                    tant ès choses qui ne leur apportent aucune utilité. C’est donc un argument et
+                    motif de nous exciter à vertu, et non une permission ou liberté d’aller
+                    regarder l’erreur des Gentils : afin que l’esprit fût plus induit à embrasser
+                    la vertu Evangélique, à cause des divins loyers<note resp="editor" place="bottom"> [NDE] C'est-à-dire, récompense. Toutes les actions recevront leur loyer en l'autre monde (Dictionnaire de l'Académie).</note> qui nous sont proposés, vu que
+                    par la calamité de tous travaux et douleurs, nous est permis d’accourcir
+                   et abréger ce chemin terrestre. Car qu’Elias soit le chariot d’Israël, cela
+                    ne fait rien pour preuve des jeux publics, nommés <note n="4" place="margin" resp="author"
+                        >Circenses étaient jeux publics de lutteurs, et de chevaux courant à
+                        qui mieux, qui se faisaient à Rome en une place grande et spacieuse, pour
+                        donner passe-temps au peuple. Voy le titre 8. du 2. livre de la rep. de
+                        Patricius de Siennes.</note>Circenses. Car il ne courut oncques<note place="bottom" resp="editor"> [NDE]  oncques = jamais.</note> en lieu
+                    public. Et quant à ce que David dansa devant Dieu, n’aide en rien les Chrétiens
+                    fidèles, qui sont assis sur le Théâtre. Car jamais il ne dansa une fable lascive
+                    des Grecs, auec mouvements déshonnêtes, branlant ses bras ça et là. Les
+                    Psaltérions, les Trompettes, les Flûtes, et les Harpes ont chanté Dieu et
+                    non point une Idole. Parquoi cela n’est pas prescrire, qu’on regarde choses
+                    illicites, <note n="*" place="margin" resp="author">Note.</note>C’est une ruse et finesse
+                    du diable, de changer les choses bonnes et saintes en mauvaises et
+                    profanes. Du moins que la honte leur donne la loi, puisque les saintes
+                    écritures ne le peuvent. Car l’écriture pourvoit d’auantage à beaucoup de
+                    choses, quant elle commande : aussi quand elle se tait de quelque chose, pour
+                    garder modestie, c’est alors qu’elle la défend et prohibe davantage. Si la
+                    vérité s’étendait jusque à parler de tout, elle eût eu mauvaise opinion de ses
+                    fidèles : car même il est plus utile bien souvent de taire quelques choses ès
+                    commandements, que les exprimer : et souventesfois ils admonestent, lorsqu’ils sont retranchés de l’écriture : et aussi encore qu’ils soient écrits,
+                    on n’en sonne mot, pour ce qu’en lieu des préceptes, la sévérité parle ce que
+                    l’écriture a omis. Qu’un chacun seulement délibère en soi-même, et parle
+                    aevc la personne de sa profession : jamais il ne fera rien déshonnête : car la
+                    sentence laquelle ne se devra à autre qu’à soi-même, aura plus de poids et
+                    d’autorité. <note n="5" place="margin" resp="author">Quand l’écriture saine défend
+                        l’idolatrie, elle défend quant et quant tout ce qui en dépend.</note>Qu'est-ce donc que l’écriture a défendu ? Elle a prohibé de regarder ce qu’elle
+                    prohibe de faire. Elle a condamné, dis-je, toutes ces espèces de spectacles,
+                    et jeux publics, quand elle a ôté l’Idolatrie mère de tous jeux, dont tous
+                    ces monstres de vanité et légèreté sont sortis. Car quel spectacle, y a-t-il,
+                    sans Idole ? quel jeu sans sacrifice ? quel combat, qui ne soit consacré à un
+                    homme mort ? qu’a à faire le Chrétien fidèle entre ces choses, s’il fuit
+                    Idolatrie ? que dit-il, lui qui est déjà saint ? Il prend récréation ès choses
+                    détestables. Pourquoi approuve-t-il les superstitions contre Dieu, lesquelles il
+                    aime en les regardant ? Au reste qu’il entende, <note n="6" place="margin" resp="author">Les
+                        spectacles et jux publics sont invention du diable, et l’Idolatrie en
+                        est la mère : où tu dois noter l’exorcisme en l’Eglise, de quoi les
+                        hérétiques se moquent.</note>que toutes ces choses sont inventions des
+                    diables et non de Dieu. Le Chr**tien exorcize impudemmẽt les diables en
+                    l’Eglise, puis qu’il loue leurs voluptés és Spectacles : et veu qu’il a une
+                    fois renoncé au diable, et qu’au baptesme tout le droict qu’il y auoit, a
                     esté retranché : à la verité puis qu’apres Iesus Christ il va au diable au
                     Spectacle, il renonce à Iesus Christ, comme il auoitfait au diable. Idolatrie,
                     ainsi que i’ay dit, est la mere de tous les ieux, laquelle lafin que les
-                    Chrestiens fidelles aillent à elle, les amadoue &amp; flatte par le plaisir des
-                    yeux &amp; des oreilles. <note n="7" place="margin">Voy l’annotatiõ au 4.
+                    Chrestiens fidelles aillent à elle, les amadoue et flatte par le plaisir des
+                    yeux et des oreilles. <note n="7" place="margin">Voy l’annotatiõ au 4.
                         traitté qui est, que les Idoles, ne sont poĩt dieux.</note>Romulus fut le
                     premier qui consacra les Circenses à Consus, comme Dieu de conseil, pour rauir
-                    les Sabines. Les autres ieux ont esté instituez pour amasser le peuple, lors que
-                    la famine auoit saisi la ville, comme Comedies, &amp; Tragedies, &amp; ces ieux
-                    furent puis apres dediez à Ceres &amp; Bacchus, &amp; aux autres Idoles &amp;
+                    les Sabines. Les autres ieux ont esté institués pour amasser le peuple, lors que
+                    la famine auoit saisi la ville, comme Comedies, et Tragedies, et ces ieux
+                    furent puis apres dediés à Ceres et Bacchus, et aux autres Idoles et
                     morts. Ces ieux de pris Gregeois, ou en chants, ou en instrumens de musique, ou
-                    en voix, ou en forces, ont pour leurs chefs, diuers diables : &amp; toute autre
-                    chose qui esmeut &amp; attire les yeux des Spectateurs, ou attraict les
-                    oreilles, si on regarde son origine &amp; institution, on trouuera que la cause
-                    est ou vne Idole, ou vn diable, ou vn mort. Ainsi le diable cauteleux &amp; ruse
-                    pour ce qu’il sçauoit qu’on a en horreur la nue &amp; simple idolatrie, il l’a
-                    entremeslee de Spectacles, afin que souz ombre de passe-temps &amp; recreation,
+                    en voix, ou en forces, ont pour leurs chefs, diuers diables : et toute autre
+                    chose qui esmeut et attire les yeux des Spectateurs, ou attraict les
+                    oreilles, si on regarde son origine et institution, on trouuera que la cause
+                    est ou une Idole, ou un diable, ou un mort. Ainsi le diable cauteleux et ruse
+                    pour ce qu’il sçauoit qu’on a en horreur la nue et simple idolatrie, il l’a
+                    entremeslee de Spectacles, afin que souz ombre de passe-temps et recreation,
                     elle sust aymee. Qu’est il besoing d’en dire d’auantage ? ou deschiffrer les
                     especes monstrueuses des Sacrifices, qui se sont és ieux ? <note n="8"
                         place="margin">Grãde cruauté des anciens, en leurs spectacles, esquelz
-                        quelquefois les hommes ou estoient immolez, ou l’entretuoient l’vn l’autre,
-                        comme les gladiateurs.</note>entre lesquels quelque fois vn homme est
+                        quelquefois les hommes ou estaient immolés, ou l’entretuaient l’un l’autre,
+                        comme les gladiateurs.</note>entre lesquels quelque fois un homme est
                     l’hostie, par le larcin du sacrificateur, lors que le sang decoulant du gosier
-                    de ce pauure miserable, tout chauld &amp; tout bouillant receu dedans vne coupe,
-                    est iecté sur la face de l’Idole, &amp; cruellement beu, comme si elle auoit
-                    soif : &amp; entre les plaisirs &amp; passe-temps, que preignent les
-                    Spectateurs, ils voyent mourir quelques vngs, afin que par tel Spectacle
-                    sanglant, ils appreignent à exercer toute cruauté : comme si la rage &amp; furie
-                    de vn chacun particulier ne luy suffist point, s’il ne l’apprenoit mesmes en
+                    de ce pauure miserable, tout chauld et tout bouillant receu dedans une coupe,
+                    est iecté sur la face de l’Idole, et cruellement beu, comme si elle auoit
+                    soif : et entre les plaisirs et passe-temps, que preignent les
+                    Spectateurs, ils voyent mourir quelques ungs, afin que par tel Spectacle
+                    sanglant, ils appreignent à exercer toute cruauté : comme si la rage et furie
+                    de un chacun particulier ne luy suffist point, s’il ne l’apprenoit mesmes en
                     public.</p>
                 <p><note n="9" place="margin">Autre sorte de spectacle, au quel les hommes
-                        batailloiẽt contre les bestes cruelles, comme lions, taureaux, ours, &amp;
-                        autres, ly vne fort belle histoire d’vn lion &amp; d’vn seruiteur nommé
-                        Androdus Gellius lib. 5. ca. 4. noct. att.</note>On nourrit en delices vne
-                    beste cruelle, pour le supplice d’vn homme, affin qu’à la <pb n="425"
+                        batailloiẽt contre les bestes cruelles, comme lions, taureaux, ours, et
+                        autres, ly une fort belle histoire d’un lion et d’un seruiteur nommé
+                        Androdus Gellius lib. 5. ca. 4. noct. att.</note>On nourrit en delices une
+                    beste cruelle, pour le supplice d’un homme, affin qu’à la <pb n="425"
                         xml:id="p425"/>veue des Spectateurs, elle s’effarouche plus cruellement : on
-                    instruit vne beste, laquelle parauanture eut esté plus douce de sa nature, si on
+                    instruit une beste, laquelle parauanture eut esté plus douce de sa nature, si on
                     ne luy eust baillé quelque gouuerneur pour la rendre plus cruelle. Parquoy afin
                     que ie me taise, de tout ce que l’idolatrie approuue plus largement, combien
                     sont vains ces ieux de prix, comme les debats és couleurs, les cõtentions és
-                    chariots, s’esiouir de ce q̃ vn tel cheual a mieux courru, se lamẽter &amp;
+                    chariots, s’esiouir de ce q̃ un tel cheual a mieux courru, se lamẽter et
                     plaindre, de ce qu’il n’a pas assez bien fait son deuoir, regarder quants ans
                     peut auoir le cheual, cognoistre les Consulz, dire leur aage, raconter leur
-                    maison &amp; lignee, &amp; les peres grãds, &amp; les bisayeuls : tout cela
-                    n’est-ce pas chose oyseuse, voire à mieux dire, n’est ce pas vne chose vilaine
-                    &amp; des honneste, &amp; qui ne sert de rien ? qu’vn homme, di-ie, raconte par
-                    cœur toute la race d’vn tel &amp; tel cheual, &amp; sans mesprendre discourir
-                    legerement ce qui touche ce lieu &amp; Spectacle ? Et si tu l’interroges de ce
+                    maison et lignee, et les peres grãds, et les bisayeuls : tout cela
+                    n’est-ce pas chose oyseuse, voire à mieux dire, n’est ce pas une chose vilaine
+                    et des honneste, et qui ne sert de rien ? qu’un homme, di-ie, raconte par
+                    cœur toute la race d’un tel et tel cheual, et sans mesprendre discourir
+                    legerement ce qui touche ce lieu et Spectacle ? Et si tu l’interroges de ce
                     qui appartient à Iesus Christ, il n’en sçait rien : ou bien s’il le sçait, tant
                     plus est il malheureux. Et si de rechef ie l’interroge, par quel chemin il est
                     paruenu à ce Spectacle, il cõfessera, que ça esté par le bourdeau, par les corps
                     nuds des femmes abandonnees, par paillardise publique, par deshonneur public,
-                    par lassiueté accoustumee, &amp; par la commune cõtumelie, &amp; outrage de
+                    par lassiueté accoustumee, et par la commune cõtumelie, et outrage de
                     tous. Et ores que ie ne luy obiecte point ce que parauãture il a commis, si
-                    est-ce qu’il a veu, ce qui n’estoit pas loisible de faire, &amp; par appetit
-                    desordonné a conduict ses yeux, pour regarder vn Spectacle d’Idolatrie, ayãt
+                    est-ce qu’il a veu, ce qui n’estoit pas loisible de faire, et par appetit
+                    desordonné a conduict ses yeux, pour regarder un Spectacle d’Idolatrie, ayãt
                     esté si temeraire, que de mener auec soy le sainct Esprit au bourdeau s’il eust
-                    peu, pour ce que se hastant d’aller veoir ces ieux publics, &amp; suiuant sa
+                    peu, pour ce que se hastant d’aller veoir ces ieux publics, et suiuant sa
                     coustume, ayant encores auec soy l’Eucharistie, la porter entre les corps des
                     paillardes, meritant plus grieue dãnation d’auoir pris plaisir à cõtempler tels
-                    Spectacles. Mais afin que ie passe outre, &amp; que ie vienne à parler des
-                    impudentes farceries &amp; railleries de <note n="10" place="margin">Il entẽd
-                        ceux qui se iouẽt sur éschaffaulx, cõme farces sotties &amp;
+                    Spectacles. Mais afin que ie passe outre, et que ie vienne à parler des
+                    impudentes farceries et railleries de <note n="10" place="margin">Il entẽd
+                        ceux qui se iouẽt sur éschaffaulx, cõme farces sotties et
                     autres.</note>ces ieux publics, i’ay honte de raconter ce qui s’i dit, i’ay
-                    honte aussi d’accuser ce qui si fait : les ruses &amp; finesses des ioueurs, les
-                    trõperies des adulteres, les impudicitez des femmes, les sornettes &amp; brocars
+                    honte aussi d’accuser ce qui si fait : les ruses et finesses des ioueurs, les
+                    trõperies des adulteres, les impudicités des femmes, les sornettes et brocars
                     des plaisanteurs, les vilains flateurs, mesmes les peres de famille vestus de
-                    longues robes, ores tout hebetez, ores insensez en toutes choses, &amp;
-                    deshonnestes pour beaucoup de causes &amp; raisons. Et combien que ces meschãs
+                    longues robes, ores tout hebetés, ores insensés en toutes choses, et
+                    deshonnestes pour beaucoup de causes et raisons. Et combien que ces meschãs
                     en leurs farceries n’espargnent personne, de quelque sexe, estat, ou cõditiõ
                     qu’elle soit, si est-ce, que tous courent à la foule veoir tels Spectacles, Ils
-                    preignent passe-temps &amp; delectation à ceste vilenie, ou de cognoistre
+                    preignent passe-temps et delectation à ceste vilenie, ou de cognoistre
                     l’oysiueté, ou de l’apprendre : on vient en affluance en ce bourdeau de honte
                     publique, en ceste instruction de deshonnesteté, afin qu’on ne face moins en
-                    secret, ce qu’on apprend en public : &amp; mesmes entre les loix on enseigne
-                    tout ce que les loix defendẽt &amp; prohibẽt. Que fait vn fidel Chrestiẽ entre
+                    secret, ce qu’on apprend en public : et mesmes entre les loix on enseigne
+                    tout ce que les loix defendẽt et prohibẽt. Que fait un fidel Chrestiẽ entre
                     ces choses, auquel il n’est pas loysible mesmes de pẽser aux vices ? Pourquoy
-                    prẽd il plaisir és simulachres &amp; representatiõs de paillardise &amp;
+                    prẽd il plaisir és simulachres et representatiõs de paillardise et
                     souillure, afin qu’ayant mis bas toute modestie il soit pl<hi rend="sup">9</hi>
                     hardy à cõmettre tels crimes ? Car en s’accoustumant de veoir telles
-                    meschãcetez, il apprend aussi à les faire. <note n="11" place="margin">Il
-                        compare le faict des femmes &amp; filles debauchees, qui sont au bourdeau,
-                        auec la representatiõ des vilenies, qui se monstrẽt és spectacles &amp; ieux
+                    meschãcetés, il apprend aussi à les faire. <note n="11" place="margin">Il
+                        compare le faict des femmes et filles debauchees, qui sont au bourdeau,
+                        auec la representatiõ des vilenies, qui se monstrẽt és spectacles et ieux
                         publics.</note>Celles qui par leur malheur se sont abandõnees à impudicité,
-                    se cachẽt au bourdeau public, &amp; cõsolẽt leur vilenie par telles cachettes,
-                    &amp; ores q̃  lles aiẽt mis en vẽte leur pudicité elles ont neãtmois vergoigne
-                    de se mõstrer : Mais ce mõstre public se fait à la veue de tout le mõde, &amp;
+                    se cachẽt au bourdeau public, et cõsolẽt leur vilenie par telles cachettes,
+                    et ores q̃  lles aiẽt mis en vẽte leur pudicité elles ont neãtmois vergoigne
+                    de se mõstrer : Mais ce mõstre public se fait à la veue de tout le mõde, et
                     telle turpitude surpasse le fait des pauures fẽmes eshõtees. Car on cerche
                     occasion par le regard des Spectacles de cõmettre adultere. On adiouste à ceste
-                    infamie vne autre infamie cõdigne : <note n="12" place="margin">Telz sont les
-                        sauteurs, &amp; gẽs merueilleusement soupples, itẽ ces ioueurs de gobeletz,
-                        &amp; autres basteleurs.</note>assauoir vn hõme ayant tous les mẽbres rõpus
-                    pour faire des soubresaux, voire vn hõme plus dissolu &amp; effeminé q̃ n’est
-                    vne fẽme, sçachãt biẽ le mestier de passe-passe &amp; de la lãgue &amp; des
-                    mains, &amp; pour vn ie ne sçayquel, qui n’est ny masle ny femelle, toute vne
-                    Cité s’esmeut entieremẽt pour aller veoir danser, &amp; iouer des vilenies &amp;
+                    infamie une autre infamie cõdigne : <note n="12" place="margin">Telz sont les
+                        sauteurs, et gẽs merueilleusement soupples, itẽ ces ioueurs de gobeletz,
+                        et autres basteleurs.</note>assauoir un hõme ayant tous les mẽbres rõpus
+                    pour faire des soubresaux, voire un hõme plus dissolu et effeminé q̃ n’est
+                    une fẽme, sçachãt biẽ le mestier de passe-passe et de la lãgue et des
+                    mains, et pour un ie ne sçayquel, qui n’est ny masle ny femelle, toute une
+                    Cité s’esmeut entieremẽt pour aller veoir danser, et iouer des vilenies et
                     ordures anciennes. Voila cõme on ayme ce qui n’est pas licite, de maniere qu’on
                     propose ce que l’aage mesmes auoit caché, par ainsi tels impudiques sont tant
-                    desbordez, qu’ils ne se contentent pas d’vser de leurs maux presens, s’ils ne
+                    desbordés, qu’ils ne se contentent pas d’vser de leurs maux presens, s’ils ne
                     proposent aussi en public ce en quoy les anciens ont offensé long temps deuant.
                     Il n’est pas licite, di-ie aux Chrestiens fidels de se trouuer à tels
                     Spectacles : il ne leur est pas licite totalement : ny semblablemẽt escouter
-                    ceux, que la Grece enuoie de toutes parts, instruits de ses arts vaines &amp;
-                    friuoles, pour chatouiller les oreilles : l’vn sonnãt de la trompette bellique,
-                    l’autre de clairons, l’autre iouant de la fleute, chãs piteux &amp; lugubres,
-                    l’autre entre les danses auec vne armonieuse voix d’vn hõme, s’efforçant de
+                    ceux, que la Grece enuoie de toutes parts, instruits de ses arts vaines et
+                    friuoles, pour chatouiller les oreilles : l’un sonnãt de la trompette bellique,
+                    l’autre de clairons, l’autre iouant de la fleute, chãs piteux et lugubres,
+                    l’autre entre les danses auec une armonieuse voix d’un hõme, s’efforçant de
                     toute son aleine, qu’à grãd force il tire du profond de ses entrailles,
                     fredõnant des doigts sur les pertuis des fleutes, maintenant laschant son vent,
-                    maintenãt l’enfermãt dedans, &amp; le retirant, maintenãt le laschant par
-                    certains pertuis, &amp; l’espardant en l’air, deschiquettant le son distinctemẽt
-                    &amp; par articles, s’efforce parler des doigts, se monstrant ingrat enuers
+                    maintenãt l’enfermãt dedans, et le retirant, maintenãt le laschant par
+                    certains pertuis, et l’espardant en l’air, déchiquettant le son distinctemẽt
+                    et par articles, s’efforce parler des doigts, se monstrant ingrat enuers
                     l’ouurier, qui luy a donné la langue. <note n="13" place="margin">Des comedies,
-                        &amp; Tragedies.</note>Que diray-ie du soing &amp; fascherie inutile des
-                    personnes, que l’on introduit és Comedies ? des fureurs &amp; insanies
-                    merueilleuses de ceux, qu’on introduict és Tragedies ? &amp; autres cris &amp;
+                        et Tragedies.</note>Que diray-ie du soing et fascherie inutile des
+                    personnes, que l’on introduit és Comedies ? des fureurs et insanies
+                    merueilleuses de ceux, qu’on introduict és Tragedies ? et autres cris et
                     hurlements espouuentables ? Et combien que telles choses ne fussent point
-                    consacrees aux Simulachres &amp; Idoles, si est-ce que les fidels Chrestiẽs ne
+                    consacrees aux Simulachres et Idoles, si est-ce que les fidels Chrestiẽs ne
                     s’y doiuent pas trouuer : pource que combien qu’elles n’eussent en soy aucun
-                    crime, elles ont toutes fois en soy vne bien grande vanité &amp; fort mal seante
-                    à vn Chrestien. <note n="14" place="margin">Des autres manieres de passetemps,
-                        cõme de ceux qui se battoient à coups de poin, les autres à coup de baston
-                        les autres luittans homme à homme &amp; autres.</note>Car c’est vne autre
-                    folie manifeste marchander à des hommes oyseux d’estre battu : &amp; estimer
-                    aussi vne <pb n="426" xml:id="p426"/>grande &amp; premiere victoire, faire
-                    ieusner son ventre outre mesure, souz ombre d’vne couronne gourmande qu’on aura
-                    acceptee par vn marché vilain &amp; deshonneste : estre pareillement si
+                    crime, elles ont toutes fois en soy une bien grande vanité et fort mal seante
+                    à un Chrestien. <note n="14" place="margin">Des autres manieres de passetemps,
+                        cõme de ceux qui se battaient à coups de poin, les autres à coup de baston
+                        les autres luittans homme à homme et autres.</note>Car c’est une autre
+                    folie manifeste marchander à des hommes oyseux d’estre battu : et estimer
+                    aussi une <pb n="426" xml:id="p426"/>grande et premiere victoire, faire
+                    ieusner son ventre outre mesure, souz ombre d’une couronne gourmande qu’on aura
+                    acceptee par un marché vilain et deshonneste : estre pareillement si
                     malheureux, que presenter son visage aux coups, pour plus malheureusement
                     engraisser son ventre. Et quant aux luittes, ne sont ce pas choses vileines ?
-                    veoir deux hommes s’enserrer l’vn dedans l’autre, &amp; se tenir embrassez
+                    veoir deux hommes s’enserrer l’un dedans l’autre, et se tenir embrassés
                     deshonnestement ? Tien toy en tel combat, regarde bien qui sera victorieux, tant
-                    que tu voudras, si est-ce que la toute honte &amp; modestie est vaincue. En
-                    voicy vn autre qui saulte tout nud, vn autre à force de bras iette en haut vne
+                    que tu voudras, si est-ce que la toute honte et modestie est vaincue. En
+                    voicy un autre qui saulte tout nud, un autre à force de bras iette en haut une
                     boulle d’airain, toute telle gloire est folie, <note n="15" place="margin">Qu’il
-                        n’y ait nul spectateur, il n’y aura nul ioueur.</note>&amp; pour dire en vn
+                        n’y ait nul spectateur, il n’y aura nul ioueur.</note>et pour dire en un
                     mot, qu’il n’y ait point de Spectateur, tout ira en fumee. Les fidels Chrestiens
                     (comme nous auons dit par plusieurs fois) doiuent fuir tous tels Spectacles tant
-                    friuoles, tant dommageables &amp; sacrileges, &amp; garder diligemment noz yeux
-                    &amp; noz oreilles : car nous nous accoustumons bien aysément aux vices,
+                    friuoles, tant dommageables et sacrileges, et garder diligemment noz yeux
+                    et noz oreilles : car nous nous accoustumons bien aysément aux vices,
                     desquels nous oyons parler. <note n="16" place="margin">Nostre esprit est assez
                         facile de soymesme à pecher, sans qu’on luy en donne occasion.</note>Car veu
-                    que l’esprit de l’homme s’adonne de soymesme à vices &amp; pechez, que fera il
-                    s’il a des exemples d’vne nature corporelle glissante, &amp; facile à tõber ? Et
+                    que l’esprit de l’homme s’adonne de soymesme à vices et pechés, que fera il
+                    s’il a des exemples d’une nature corporelle glissante, et facile à tõber ? Et
                     si de soymesme il tresbuche, que fera il s’il est excité ? Parquoy il le faut
                     retirer de là. Le Chrestien a des meilleurs Spectacles s’il veut. Il a des vrais
-                    &amp; prouffitables passe-temps s’il se veut recreer. <note n="17"
+                    et prouffitables passe-temps s’il se veut recreer. <note n="17"
                         place="margin">Quelz spectacles sont propres aux Chrestiens.</note>Et afin
                     que i’obmette les choses qu’il ne peut encores cõtempler pour le present, il
-                    peut regarder &amp; admirer la beauté de ce monde : qu’il contemple comme le
-                    soleil va d’Orient en Occident, &amp; que par tel mouuement il rapelle les iours
-                    &amp; les nuits par reciproque succession : qu’il contemple comment la lune par
-                    ses accroissemens &amp; descroissemens, signe les cours des temps &amp;
-                    saisons : qu’il regarde ces beaux rangs des astres reluisants, &amp; esclairans
+                    peut regarder et admirer la beauté de ce monde : qu’il contemple comme le
+                    soleil va d’Orient en Occident, et que par tel mouuement il rapelle les iours
+                    et les nuits par reciproque succession : qu’il contemple comment la lune par
+                    ses accroissemens et décroissemens, signe les cours des temps et
+                    saisons : qu’il regarde ces beaux rangs des astres reluisants, et éclairans
                     d’en hault auec leur subit mouuement : qu’il regarde les parties de toute
-                    l’annee auec leurs alternations, &amp; semblablement les iours auec les nuits
-                    distinguez par les interuales &amp; espaces des heures : le contrepoix de la
+                    l’annee auec leurs alternations, et semblablement les iours auec les nuits
+                    distingués par les interuales et espaces des heures : le contrepoix de la
                     terre tant pesante, auec les montaignes : le cours des riuieres auec leurs
-                    fontaines &amp; sources : la grande estendue de la mer, auec ses flots &amp;
+                    fontaines et sources : la grande estendue de la mer, auec ses flots et
                     riues : qu’il contemple l’air estendu au milieu conioinct auec les autres
-                    Elemens, lequel de sa subtilité, donne force &amp; vigueur à toutes choses,
-                    maintenant estãt couuert de nuees, &amp; engendrãt les pluyes, maintenant se
-                    monstrant beau, cler, &amp; serain : il pourra voir aussi qu’en tous ces Elemens
+                    Elemens, lequel de sa subtilité, donne force et vigueur à toutes choses,
+                    maintenant estãt couuert de nuees, et engendrãt les pluyes, maintenant se
+                    monstrant beau, cler, et serain : il pourra voir aussi qu’en tous ces Elemens
                     il y a des habitans : comme en l’air, l’oyseau : en l’eau, le poisson : en la
-                    terre, l’homme. Que toutes ces choses, di-ie, &amp; autres œuures diuines soiẽt
+                    terre, l’homme. Que toutes ces choses, di-ie, et autres œuures diuines soiẽt
                     les Spectacles des fidelles Chrestiens. <note n="18" place="margin">Il n’y a
-                        theatre humain tant beau &amp; somptueux soit il, qui puisse estre esgalé
-                        aux œuures de Dieu.</note> Y a il Theatre fait &amp; basty de main d’homme,
+                        theatre humain tant beau et somptueux soit il, qui puisse estre esgalé
+                        aux œuures de Dieu.</note> Y a il Theatre fait et basty de main d’homme,
                     qui puisse estre comparé à ces œuures ? Quoy qu’il fust construict de pierres
-                    grosses &amp; merueilleuses, ce ne sont que morceaux &amp; pieces de
-                    montaignes : &amp; ores que les lambris fussent dorez, &amp; reluysants à
-                    merueilles, la lueur &amp; splẽdeur des astres les surpasse infiniment. Vne
+                    grosses et merueilleuses, ce ne sont que morceaux et pieces de
+                    montaignes : et ores que les lambris fussent dorés, et reluysants à
+                    merueilles, la lueur et splẽdeur des astres les surpasse infiniment. Vne
                     personne qui se cognoistra enfant de Dieu, iamais ne se donnera de merueilles
                     des œuures humaines : Et à la verité, celuy qui peut admirer autre chose que
-                    Dieu, se precipite du hault degré &amp; sommet de sa noblesse. <note n="19"
-                        place="margin">L’escriture saincte est vn beau spectacle pour le
-                        Chrestien.</note>Que le Chrestien fidelle s’adonne aux sainctes escritures,
+                    Dieu, se precipite du hault degré et sommet de sa noblesse. <note n="19"
+                        place="margin">L’écriture saincte est un beau spectacle pour le
+                        Chrestien.</note>Que le Chrestien fidelle s’adonne aux sainctes écritures,
                     car là trouuera des Spectacles dignes de sa foy. Il verra comme Dieu crée le
                     monde, comme il fait l’homme auec les autres animaux : comme il façonne sa
-                    machine, &amp; la rend meilleure &amp; plus belle : il cognoistra comme le monde
-                    se baigne en ses pechez, il verra les iustes naufrages, les loyers des gens de
-                    bien, &amp; les supplices des meschans : <note n="e" place="margin"><hi rend="i"
+                    machine, et la rend meilleure et plus belle : il cognoistra comme le monde
+                    se baigne en ses pechés, il verra les iustes naufrages, les loyers des gens de
+                    bien, et les supplices des meschans : <note n="e" place="margin"><hi rend="i"
                             >Exod. 14. 22</hi></note>il apprendra comme les mers ont esté sechees
                     pour passer le peuple de Dieu, <note n="f" place="margin"><hi rend="i">Exod. 17.
-                            6.</hi></note>&amp; comme l’eau est sortie du rocher pour le peuple
+                            6.</hi></note>et comme l’eau est sortie du rocher pour le peuple
                     d’Israel : <note n="g" place="margin"><hi rend="i">Ibidem 16.</hi></note>il
-                    contemplera les moissons venans du ciel, &amp; nõ point des greniers humains :
+                    contemplera les moissons venans du ciel, et nõ point des greniers humains :
                         <note n="h" place="margin"><hi rend="i">Iosue 3. 16.</hi></note>il regardera
-                    comme les fleuues ont donné passage, leurs eaux estans amassees à dextre &amp; à
+                    comme les fleuues ont donné passage, leurs eaux estans amassees à dextre et à
                     senestre : il verra és aucuns<note n="i" place="margin"><hi rend="i">Daniel
                             3.</hi></note>la foy combatant cõtre le feu : <note n="k" place="margin"
                             ><hi rend="i">Daniel 14 31.</hi></note>Les bestes cruelles surmontees
-                    &amp; appriuoisees par la pieté &amp; religion des autres : il verra
-                    pareillement plusieurs auoir esté resuscitez des morts, &amp; plusieurs corps ia
-                    consumez estre sortis de leurs sepulchres, pour se reunir à leurs ames : &amp;
-                    sur tout verra vn merueilleux &amp; admirable Spectacle, assauoir le diable,
+                    et appriuoisees par la pieté et religion des autres : il verra
+                    pareillement plusieurs auoir esté resuscités des morts, et plusieurs corps ia
+                    consumés estre sortis de leurs sepulchres, pour se reunir à leurs ames : et
+                    sur tout verra un merueilleux et admirable Spectacle, assauoir le diable,
                     lequel auoit triomphé de tout le monde, gesir tout estendu, souz les pieds de
-                    Iesus Christ. N’est-ce pas la vn beau Spectacle, freres ? n’est il pas
-                    plaisant ? n’est il pas necessaire ? tousiours contempler son esperance, &amp;
-                    ouurir les yeux pour son sauuement ? c’est là vn Spectacle, lequel on peut veoir
-                    mesme la veue estãt perdue : c’est là vn Spectacle, qui n’est point propose ny
-                    par vn Preteur, ny par quelque Cõsul : mais par celuy qui est seul, &amp; deuãt,
-                    &amp; sur toutes chose, voir duquel sont toutes choses, assauoir le Pere de
-                    nostre Seigneur Iesus Christ : auquel soit louange, &amp; honneur és siecles des
+                    Iesus Christ. N’est-ce pas la un beau Spectacle, freres ? n’est il pas
+                    plaisant ? n’est il pas necessaire ? tousiours contempler son esperance, et
+                    ouurir les yeux pour son sauuement ? c’est là un Spectacle, lequel on peut veoir
+                    mesme la veue estãt perdue : c’est là un Spectacle, qui n’est point propose ny
+                    par un Preteur, ny par quelque Cõsul : mais par celuy qui est seul, et deuãt,
+                    et sur toutes chose, voir duquel sont toutes choses, assauoir le Pere de
+                    nostre Seigneur Iesus Christ : auquel soit louange, et honneur és siecles des
                     siecles, Ainsi soit-il.</p>
-            </div1>
+            </div>
         </body>
     </text>
 </TEI>
