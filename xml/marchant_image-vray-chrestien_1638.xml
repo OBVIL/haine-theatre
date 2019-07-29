@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>L’Image du Vray Chrestien. Chapitre IV</title>
+                <author key="Marchant, Pierre (1585-1661)">Pierre Marchant</author>
+                <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>François Lecercle</name>
+                    <resp>Responsable d'édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Clotilde Thouret</name>
+                    <resp>Responsable d'édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/marchant_image-vray-chrestien_1638</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Pierre Marchant, « Que les personnes de
+                            ceste Ordre ne puissent aller aux banquets deshonnestes, ny aux
+                            Comedies, et qu’ils ne donnent rien au Farceurs et Comediens », in
+                        <hi rend="i">L'Image du Vray Chrestien sur le pourtrait de la regle du Tiers-Ordre
+                        de N. B. P. S. François. Dediee aux ames Devotes dudict Ordre, par le
+                        R. P. F. Piere Marchant, F. Mineur Recollect. Divisee en trois Partie pour
+                        la commoditè des Lecteurs</hi>, <pubPlace>Gand</pubPlace>,
+                        <publisher>Alexander Sersanders</publisher>, <date>1638</date>,
+                        chap. IV, p. 106-108. PDF : <ref
+                        target="http://books.google.fr/books?id=qnIzG_KREXQC">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1638"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="frontispiece">
+            <head rend="sc">[frontispice]</head>
+                <p rend="center"><hi rend="uc">L'Image<lb/> du Vray<lb/> Chrestien<lb/> sur le pourtrait<lb/> de la regle<lb/></hi> du Tiers-Ordre
+                    de N. B. P.<lb/> <hi rend="i">S. François.<lb/> Dediee aux ames Devotes dudict Ordre,</hi><lb/> par le
+                    R. P. F. <hi rend="sc">Piere Marchant,</hi><lb/> F. Mineur Recollect.<lb/> Divisee en trois Parties pour
+                    la commoditè<lb/> des Lecteurs<lb/>[...]<lb/><lb/>A Gand, chez <hi rend="i">Alexander Sersanders,</hi> demeu-<lb/>rant à la Salamandre, M. DC. XXXVIII.</p></div1>
+            <div1 type="chapter">
+                <pb n="106" xml:id="p106"/>
+                <head><hi rend="i">Chapitre</hi> 4.</head>
+                <argument><p><hi rend="big">Q</hi>ue les personnes de cette Ordre
+                        ne puissent aller aux banquets déshonnêtes, ni aux Comédies, et qu’ils
+                        ne donnent rien au Farceurs et Comédiens.</p></argument>
+                <p><pb n="107" xml:id="p107"/><hi rend="big">L</hi>E titre contient tout ce qui est du Chapitre
+                    lequel défend : d’assister aux banquets, festins, jeux, danses, et
+                    bals, ou spectacles déshonnêtes ; Et que ni par ceux de leur famille soit
+                    permis de donner ou contribuer quelque chose pour tels vanités.</p>
+                <div2 type="section">
+                    <head><hi rend="i">Question</hi> 1.</head>
+                    <p><hi rend="big">P</hi><hi rend="i">ourquoi le B.P.S. François a si étroitement
+                            défendu de se trouver aux Comédies, Festins etc.</hi></p>
+                </div2>
+                <div2 type="section">
+                    <head><hi rend="i">Résolution.</hi></head>
+                    <p><hi rend="big">C</hi>Ette prohibition est fondée sur les anciennes
+                        Ordonnances de l’Eglise, et sur les advertences<note place="bottom" resp="editor"> [NDE] Action de tourner l'esprit vers un objet.
+                            S'est dit, dans les débats des casuistes, de l'attention que le pécheur, en péchant, porte à son péché (Littré).</note> des saints Pères,
+                        lesquels parlant des spectacles, et festins mondains, disent que les
+                        Comédies qui se célèbrent par ces Comédiens et Farceurs ne sont que :
+                            <hi rend="i">Prostitutions des bonnes mœurs, et de toute honnêteté,
+                            Théâtres d’impudicités, foires des vices, Ecoles d’impertinences</hi>.
+                        Ou comme parle Tertullien au livre qu’il a écrit des spectacles : « <quote>Où <seg type="exquote">(dit-il)</seg> rien ne s’approuve, sinon ce qui
+                            est réprouvé ailleurs, et auquel<note place="bottom" resp="editor"> [NDE] On corrige "auquels".</note> la souveraine grâce est
+                            l’impiété.</quote> »</p>
+                </div2>
+                <div2 type="section">
+                    <pb n="108" xml:id="p108"/>
+                    <head><hi rend="i">Remarque.</hi></head>
+                    <p><hi rend="big">I</hi>L faut ici remarquer qu’en la Règle n’est défendu au
+                        Tertiaires d’assister à toutes sortes de Spectacles ou Comédies, comme aussi
+                        à toutes sortes de Banquets : Mais seulement à ceux qui sont
+                        ordinairement accompagné de quelque déshonnêteté,<note resp="editor" place="bottom"> [NDE] On corrige "deshonnestteé" et ajoutons une virgule.</note> insolence, vanité ou
+                        désordre : d’ou vient que quand quelque Comédie se représente par
+                        les Etudiants aux Ecoles bien morigenées<note resp="editor" place="bottom"> [NDE] On corrige morigerées. Former les moeurs, instruire aux bonnes moeurs (Dictionnaire de l'Académie). </note> sur quelque Histoire ou vie de
+                        quelque Saint, il est bien permis aux Tertiaires d’y assister, comme aussi
+                        aux Banquets honorables, et au noces de leurs plus proches parents,
+                        et ce avec toute modestie et honnêteté, fuyant ce qui pourrait
+                        ressentir quelque vanité indécente.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
