@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Avertissement (Les Leçons de Thalie)</title>
+                <author key="Alletz, Pons-Augustin (1703-1785)" ref="https://data.bnf.fr/fr/11993410/pons-augustin_alletz/">Pons-Augustin Alletz</author>
+                <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>François Lecercle</name>
+                    <resp>Responsable d'édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Clotilde Thouret</name>
+                    <resp>Responsable d'édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/alletz_avertissement-lecons-de-thalie_1751</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Pons-Augustin Alletz, « Avertissement », in <hi rend="i">Les Leçons de Thalie ou les
+                    Tableaux des divers ridicules que la Comédie présente : Portraits, Caractéres,
+                    Critique des mœurs, Maximes de conduite propres à la Société</hi>,
+                        <pubPlace>Paris</pubPlace>, <publisher>Nyon fils</publisher>,
+                        <date>1751</date>, tome I, p. <num>v-viii</num>. PDF : <ref
+                        target="https://archive.org/details/lesleonsdethal01alle">Internet
+                        Archive</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1751"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="frontispiece">
+                <head rend="sc">[frontispice]</head>
+                <p rend="center"><hi rend="uc">Les Leçons<lb/> de Thalie<lb/> ou<lb/> les
+                    Tableaux<lb/> des divers ridicules</hi><lb/> Que la Comédie présente :<lb/> <hi rend="i">Portraits, Caractéres,
+                        Critique des mœurs,<lb/> Maximes de conduite propres à la Société</hi><lb/>
+                    [...]<lb/><hi rend="sc">tome premier</hi><lb/><lb/>
+                    <hi rend="sc">a paris quai des augustins</hi><lb/>Chez <hi rend="sc">Nyons</hi> Fils, à l'Occasion<lb/><hi rend="sc">Guillyn</hi>, du côté du Pont<lb/> Saint Michel, au Lys d'Or<lb/>
+                    M.DCC.LI.<lb/><hi rend="i">Avec Approbation et Privilege du Roi</hi></p>
+            </div1>
+
+            <div1 type="preface">
+                <pb n="v" xml:id="pv"/>
+                <head><hi rend="i">Avertissement.</hi></head>
+                <p><hi rend="big">L</hi><hi rend="sc">es</hi> plus beaux traits d’une sérieuse
+                    morale sont souvent moins puissants pour instruire et corriger les hommes que
+                    des portraits ridicules de leurs défauts. Attaquer les vices par ce côté, est
+                    les prendre par leur endroit faible : on souffre aisément une réprimande, mais
+                    une raillerie fine et délicate est trop sensible à l’amour propre<note
+                        place="bottom" resp="author"> [NDA] Préface du
+                        Tartuffe.</note>, on veut bien être méchant, mais on craint d’être
+                    ridicule.</p>
+                <quote>
+                    <l>« Ridiculum acri,</l>
+                    <l>Fortius ac melius magnas plerumque secat
+                        res. »</l>
+                </quote>
+                <p>C’est ainsi que pensait Molière, le Père de la Comédie en France, le Maître et le
+                    vrai modèle de tous ceux qui se sont adonnés à ce genre d’écrire. <pb n="vj"
+                    />Quelle autorité sur cette matière plus grave que celle de ce grand homme ? Qui
+                    connut jamais mieux le cœur humain et qui porta plus loin l’art de tourner en
+                    ridicule les vices les plus accredités de son siècle ? Si nous cherchons parmi
+                    les Modernes de quoi appuyer encore ce sentiment, Rousseau nous dira :</p>
+                <quote><l>« Des fictions la vive liberté,</l>
+                    <l>Peint souvent mieux l’austère vérité,</l>
+                    <l>Que ne ferait la froideur monacale,</l>
+                    <l>D’une lugubre et pesante morale. »</l> </quote>
+                <p>Ce n’est pas qu’on prétende ici justifier la Comédie dans toutes ses parties : il
+                    est un juste milieu entre deux excès également opposés ; les uns sans aucun
+                    examen condamnent absolument ce genre d’écrire comme contraire aux bonnes mœurs.
+                    Les autres prennent hautement sa défense dans toutes ses parties : enfin des
+                    gens plus raisonnables prétendent <pb n="vij" xml:id="pvij"/>qu’il faut regarder
+                    la Comédie sous deux points de vue tout à fait différents.</p>
+                <p>Dans le premier, c’est une représentation où l’intrigue, le jeu de théâtre, les
+                    situations sont les parties qui forment l’ensemble d’une pièce, parties
+                    nécessaires à la vérité, mais qui n’en sont que l’accessoire, destinées à
+                    intéresser le Spectateur, mais qui renversent quelquefois le but principal de la
+                    Comédie, savoir, la réformation des mœurs. Que de rôles étrangers à ceux de la
+                    piece, se jouent entre les spectateurs !</p>
+                <p>Dans le second point de vue, la Comédie est un tableau où l’on voit des
+                    caractères, des portraits, une critique fine des mœurs, des exemples de vertu et
+                    des sentiments d’honneur, le vice démasqué, le sot orgueil confondu. C’est
+                    précisément par ce côté que nous nous sommes proposés de la faire envisager, ce
+                    sont là les matériaux que l’on <pb n="viij" xml:id="pviij"/>a tâché de mettre en
+                    œuvre pour en former un Tout de morale amusante, dépouillée de ce sérieux et de
+                    cette sécheresse qui ennuie fort souvent et qui corrige rarement.</p>
+                <p>L’attention que l’on a apportée au choix des matières, puisées dans les meilleurs
+                    sources ; les maximes appliquées aux différents morceaux choisis pour former ce
+                    Recueil, n’en seront pas le moindre ornement, et nous donnent lieu d’espérer
+                    qu’il sera reçu favorablement du Public et lu sans scrupule par les personnes
+                    des états les plus sérieux.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>
