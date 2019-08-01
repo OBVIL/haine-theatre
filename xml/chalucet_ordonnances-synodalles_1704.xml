@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Des Bals et Comedies </title>
+                <author key="Chalucet, Armand Louis Bonnin de (1641-1712)" ref="https://data.bnf.fr/14323134/armand-louis_bonnin_de_chalucet/">Armand Louis Bonnin de
+                    Chalucet, eveque de Toulon</author>
+                <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>François Lecercle</name>
+                    <resp>Responsable d'édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Clotilde Thouret</name>
+                    <resp>Responsable d'édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.fr/corpus/haine-theatre/chalucet_ordonnances-synodalles_1704</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Armand Louis Bonnin de Chalucet, évêque de Toulon, « Des Bals et Comedies », in <hi rend="i">Ordonnances synodalles du
+                        dioceze de Toulon, par Monseigneur Armand Louis Bonnin de Chalucet par la
+                        Patience Divine Evesque de Toulon. Publiées dans son Synode le
+                        vingt-neuviéme d'Octobre 1704</hi>, <pubPlace>Toulon</pubPlace>,
+                        <publisher>Veuve de Pierre-Loüis Maillard</publisher>, <date>1704</date>,
+                        p. 31-33. PDF : <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k96146426/f37"
+                    >Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1704"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1>
+                <head rend="sc">[frontispice]</head>
+                <p rend="center"><hi rend="uc">Ordonnances<lb/> synodalles<lb/> du
+                    dioceze<lb/> de Toulon,<lb/> par<lb/> Monseigneur<lb/> Armand Louis<lb/> Bonnin de Chalucet</hi><lb/> Par la
+                    Patience Divine<lb/> <hi rend="uc">Evesque de Toulon.</hi><lb/> <hi rend="i">Publiées dans son Synode le
+                        vingt-neuviéme<lb/> d'Octobre</hi> 1704.<lb/><lb/> <hi rend="uc">A Toulon</hi><lb/> Chez la Veuve de <hi rend="sc">Pierre-Loüis Maillard,</hi><lb/>Imprimeur du Roy, de Monseig. l'Evêque<lb/> et de la Ville. 1704.</p>
+            </div1>
+            <div1 type="chapter">
+                <pb n="31" xml:id="p31"/>
+                <head><hi rend="i">Des Bals et Comedies.</hi></head>
+                <p><hi rend="big">T</hi>Ous les Chrêtiens ensemble ne sont, qu'un corps dont
+                    Jésus-Christ est le chef, et le St. Esprit l'âme, vouloir donc que les
+                    Comédies et les Opéra puissent être l'occupation des Chrêtiens, c'est vouloir
+                    que <hi rend="sc">Jésus-Christ</hi> s'y plaise, et que le St. Esprit les y
+                    conduise, ce qui est un blasphème dont personne ne peut être capable, quelque
+                    passion que l'on puisse avoir pour la Comédie, et l'Opéra ? On ne sait
+                    que trop que ces lieux de spectacle sont les écoles du Démon, où il n'a pas
+                    moins de Sectateurs, que de <pb n="32" xml:id="p32"/>spectateurs. Rien n'étant donc plus
+                    contraire, non seulement à l'esprit du Christianisme, mais à la profession,
+                    et aux protestations solennelles que nous faisons au Baptême de renoncer au
+                    Démon, à ses pompes, et à ses œuvres. Nous exhortons tous les Fidèles que la
+                    Providence nous a confiés de s'abstenir de ces faux et malheureux plaisirs du
+                    Siècle, où quand on s'abuserait assez pour croire que l'on n'y fait aucun mal,
+                    on ne saurait se défendre de celui qu'y font les autres, et comme les
+                    complices du péché selon St. Paul, ceux qui y consentent, et à plus forte
+                    raison ceux qui y contribuent ne méritent pas moins d'être punis, que les
+                    auteurs. Nous enjoignons à tous Confesseurs de refuser l'absolution à ceux qui
+                    après en avoir été avertis, et repris, ne voudront pas cesser de fréquenter
+                    la Comédie et l'Opéra, <pb n="33" xml:id="p33"/>et Nous défendons à tous Prêtres,
+                    Bénéficiers, et ecclesiastiques de ce Diocèse, ou y résidents, d'assister aux
+                    bals, Opéra, ou Comédies à peine d'excommunication encourue <hi rend="i">ipso
+                        facto</hi>.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>
