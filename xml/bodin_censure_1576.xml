@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De la Censure.</title>
+                <author key="Bodin, Jean (1530-1596)"
+                    ref="https://data.bnf.fr/fr/11999951/jean_bodin/">Jean Bodin</author>
+                <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/bodin_censure_1576</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Jean Bodin, <hi rend="i">Les Six Livres de la République de I. Bodin Angevin.
+                        A Monseigneur du Faur, seigneur de Pibrac, Conseiller du Roy en son Conseil
+                        privé</hi>, <pubPlace>Paris</pubPlace>, <publisher>Jacques Du
+                        Puy</publisher>, <date>1576</date>, livre VI, « De la Censure », chapitre
+                    premier, (p. 602-616), p. 611-613. PDF : <ref
+                        target="http://gallica.bnf.fr/ark:/12148/btv1b86268103"
+                    >Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1576"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="frontispiece">
+                <head rend="sc">[frontispice]</head>
+                <p rend="center"><hi rend="uc">Les<lb/> Six Livres<lb/> de la Repvbli-<lb/>que de I. Bo-</hi><lb/>din Angeuin.<lb/>
+                    <hi rend="i"><hi rend="sc">A Monseigneur du Faur, sei-</hi><lb/>gneur de Pibrac, Conseiller du Roy en son Conseil
+                        privé</hi><lb/><lb/> A PARIS<lb/> Chez Jacques Du
+                    Puy, Libraire Iuré,<lb/>A la Samaritaine.<lb/>1576,<lb/>Auec Privilege du Roy.</p>
+                
+            </div>
+            <div>
+             <head>De la Censure<lb/>Chapitre I<lb/>[Extrait]</head>   
+            </div>
+            <div>
+                <pb n="611" xml:id="p611"/>
+                <head>Les comédies et farces pernicieuses à toute
+                    République.</head>
+                <p>Je tais aussi l'abus qui se commet en souffrant les Comiques, et Jongleurs,
+                    qui est une autre peste de la République des plus pernicieuses qu'on saurait
+                    imaginer : car il n'y a rien qui gâte plus les bonnes mœurs, et la
+                    simplicité, et bonté naturelle d'un peuple, ce qui a d'autant plus d'effet,
+                    et de puissance, que les paroles, les accents, les gestes, les mouvements,
+                    et actions conduites avec tous les artifices qu'on peut imaginer, et d'un
+                    sujet le plus ord, et le plus déshonnête qu'on peut choisir, laisse une
+                    impression vive en l'âme de ceux qui tendent là tous leurs sens. brief on peut
+                    dire, que le théâtre des joueurs, est un apprentissage de toute impudicité,
+                    lubricité, <pb n="612" xml:id="p612"/>paillardise, ruse, finesse, méchanceté. Et non sans
+                    cause disait Aristote<note n="8" place="margin" resp="author">lib. 7. ca. 15.
+                        polit.</note>, qu'il faut bien garder les sujets d'aller aux jeux des
+                    comiques : il eût encore mieux dit, qu'il faut raser les théâtres, et
+                    fermer les portes de la ville aux joueurs : « <quote>quia<seg type="exquote">, dit
+                        Sénèque,</seg> nihil tam moribus alienum, quam in spectaculo
+                        desidere.</quote> » Si on dit que les Grecs, et Romains permettaient les
+                    jeux : je réponds que c'était pour une superstition qu'ils avaient à
+                    leurs Dieux. mais les plus sages les ont toujours blâmés. car combien que la
+                    Tragédie a je ne sais quoi de plus Héroïque, et qui moins effémine les cœurs
+                    des hommes, si est-ce toutesfois que Solon ayant vu jouer une tragédie de
+                    Thespis, le trouva fort mauvais : de quoi s'excusant Thespis disait, que ce
+                    n'était que jeu, Non, dit Solon, mais le jeu tourne en chose sérieuse,
+                    beaucoup plus eût-il blâmé les comédies, qui étaient encore inconnues. et
+                    maintenant on met toujours à la fin des tragédies, (comme une poison ès
+                    viandes) la farce, ou comédie. Et quand ores<note place="bottom" resp="editor"> [NDE] ores = maintenant.</note> les jeux seraient tolérables aux
+                    peuples méridionaux, pour être d'un naturel plus pesant, et mélancolique,
+                    et pour sa constance naturelle moins sujet à se changer, si est-ce que cela
+                    doit être défendu aux peuples tirant plus vers le Septentrion, pour être de
+                    leur naturel sanguins, légers, et volages, et qui ont presque toute la
+                    force de leur âme en l'imagination du sens commun, et brutal. Mais il ne faut
+                    pas espérer, que les jeux soient défendus, ou empêchés par les
+                    magistrats : car ordinairement on voit, qu'ils sont les premiers aux jeux.
+                    C'est la propre charge des censeurs graves, et sévères, qui auront la
+                    discretion d'entretenir les honnêtes exercices de la gymnastique pour maintenir
+                    la santé du corps : et de la musique pour ranger les appétits sous
+                    l'obéissance de la raison. j'entends la musique<note n="9" place="margin" resp="author">« <quote>duabus
+                        potissimum rebus civitates conservantur</quote> » « <quote>γυμναστικῇ καὶ μουσικῇ</quote> », ut ait Plato
+                        in Timæo.</note>, qui signifie non seulement l'harmonie : ains<note resp="editor" place="bottom"> [NDE] ainsi = ais.</note> encore
+                    toutes sciences libérales, et honnêtes : et prendront garde
+                    principalement, que la musique naturelle ne soit altérée, et corrompue comme
+                    elle est à présent : puisqu'il n'y a rien qui coule plus doucement aux
+                    affections intérieures de l'âme. Et pour le moins si on ne peut gagner ce point-là, que les chansons Ioniques, et Lydiennes, c'est-à-dire, le cinq et
+                    septième ton, soient bannis de la République, et défendus à la jeunesse,
+                    comme Platon, et Aristote disaient qu'il est nécessaire, pour moins<note place="bottom" resp="editor"> [NDE] pour moins = pour le moins.</note> que la
+                    musique Diatonique, qui est la plus naturelle, que la chromatique, et
+                    Enharmonique, ne soit corrompue par la mélange<note resp="editor" place="bottom"> [NDE] Le mot est féminin à l'époque.</note> des autres : et que les
+                    chansons dorienes ou du premier ton, qui est propre à la douceur, et gravité
+                    bien séante, ne soient déguisées en plusieurs tons, et déchiquetées, en sorte,
+                    que la plupart des musiciens en deviennent fols<note place="bottom" resp="editor"> [NDE] fols = fous.</note>, et insensés : parce
+                    qu'ils ne sauraient goûter une musique naturelle, non plus qu'un estomac
+                    debifé<note resp="editor" place="bottom"> [NDE] débiffer :  Gâter, mettre en désordre (Dictionnaire de l'Académie).</note>, et corrompu de friandises, ne peut <pb n="613" xml:id="p613"/>goûter une bonne et
+                    solide viande. Or tout cela depend du devoir des Censeurs, attendu que les juges
+                    et autres officiers n'y prendront jamais garde.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
