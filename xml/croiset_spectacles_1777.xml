@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Des Spectacles </title>
+				<author key="Croiset, Jean (1656-1738)" ref="https://data.bnf.fr/fr/12927799/jean_croiset/">Jean Croiset</author>
+				<editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+			</titleStmt>
+			<editionStmt>
+				<edition>OBVIL</edition>
+				<respStmt>
+					<name>Infoscribe</name>
+					<resp>saisie, XML-TEI</resp>
+				</respStmt>
+				<respStmt>
+					<name>Eric Thiébaud</name>
+					<resp>contributeur</resp>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Sorbonne Université, LABEX OBVIL</publisher>
+				<date when="2019"/>
+				<idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/croiset_spectacles_1777/</idno>
+				<availability status="restricted">
+					<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+						<p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+							d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+							OBVIL).</p>
+						<p>Cette ressource électronique protégée par le code de la propriété
+							intellectuelle sur les bases de données (L341-1) est mise à disposition
+							de la communauté scientifique internationale par l’OBVIL, selon les
+							termes de la licence Creative Commons : « Attribution – Pas
+							d’Utilisation Commerciale – Pas de Modification 3.0 France (CCBY-NC-ND
+							3.0 FR) ».</p>
+						<p>Attribution : afin de référencer la source, toute utilisation ou
+							publication dérivée de cette ressource électroniques comportera le nom
+							de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+						<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+							scientifique, toute utilisation commerciale est interdite.</p>
+						<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+							ressource électronique, notamment en intégrant toutes les contributions
+							extérieures, la diffusion de versions modifiées de cette ressource n’est
+							pas souhaitable.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Jean Croiset, « Des Spectacles », in <hi rend="i">Réflexions chrétiennes sur
+						divers sujets de morale, utiles à toutes sortes de personnes, et
+						particuliérement à celles qui font la Retraite spirituelle un jour chaque
+						mois. Par le Père Jean Croiset, de la Compagnie de Jesus</hi>,
+						<pubPlace>Paris</pubPlace>, <publisher>Michel Sorin</publisher>,
+						<date>1777</date>, tome I, p. 75-92. PDF : <ref
+						target="http://books.google.fr/books?id=fMAsAAAAYAAJ">Google</ref>.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1777"/>
+			</creation>
+			<langUsage>
+				<language ident="fre"/>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 type="chapter">
+				<pb n="75" xml:id="p75"/>
+				<head><hi rend="i">Des Spectacles.</hi></head>
+				<div2 type="section">
+					<head>I.</head>
+					<p>Le Spectacle n’est plus un amusement vide, et oisif ; c’est un assemblage vif et séduisant
+						de tout ce qui peut plaire, qui ne tend qu’à enchanter l’esprit et les sens
+						par mille charmes, et à attendrir le cœur par tout ce que les passions ont
+						de plus fin et de plus insinuant.</p>
+					<p>Le théâtre perdrait son agrément sans ce délicieux artifice. On veut être ému et touché par
+						le spectacle ; la scène languit si elle n’irrite quelque passion : et quand
+						les acteurs nous laissent immobiles, on est indigné de ce qu’ils n’ont pas
+						su troubler notre repos, ni blesser notre innocence.</p>
+					<p>Tout y concourt à séduire l’âme et à l’amollir : le cœur conduit par les <pb n="76"
+							xml:id="p76"/>oreilles et par les yeux, s’attache à tout ce qui le
+						charme ; la raison, suspendue par tant d’enchantements, se tait. La Religion
+						n’est pas entendue dans un si grand fracas de plaisirs ; rien n’est du goût
+						que ce qui flatte les sens, et parmi tant d’objets si capables de plaire, et
+						qui plaisent en effet, l’âme sera-t-elle maîtresse de ses désirs ?</p>
+					<p>Les spectacles profanes ne sont, à proprement parler, qu’une savante école de toutes les
+						passions. On y fait avec éclat et avec succès des leçons publiques de
+						galanterie, de fourberie, de vengeance, d’ambition ; on y apprend à conduire
+						habilement une intrigue ; à éluder la scrupuleuse vigilance des parents ; à
+						surprendre par mille ruses la bonne foi ; à ne tendre jamais à faux des
+						pièges à l’innocence ; à se défaire en habile homme d’un concurrent ; à se
+						venger à coup sûr d’un ennemi ; à élever sa fortune sur les débris de celle
+						d’autrui, et tout cela en habile homme. Et comme ce sont des leçons
+						flatteuses, auxquelles les acteurs donnent un merveilleux relief, quel
+						progrès une passion vive et ardente, insinuée avec tant d’artifice, ne
+						fait-elle pas dans un cœur où elle trouve déjà de si grandes dispositions ?
+						Tout ce qu’on voit, tout ce <pb n="77" xml:id="p77"/>qu’on entend sur le
+						théâtre ne s’adresse qu’aux sens, à la cupidité ; parures, décorations,
+						chants, harmonies, assemblées, tout tente ; et à force de goûter ce qui
+						enchante, on trouve des charmes dans les pièges, et on se sait bon gré
+						d’être tenté.</p>
+					<p>On s’apprivoise aisément avec ce qui plaît, quelque danger qu’il s’y trouve. La douceur du
+						poison en fait oublier les funestes suites ; on ne voit plus rien de honteux
+						dans les passions, dès qu’elles ont été déguisées sur le théâtre, et
+						embellies par l’art ; et à force d’admirer et d’applaudir, on y apprend à ne
+						rougir de rien.</p>
+					<p>Mais ces éternels admirateurs du théâtre ne savent que trop combien ils y ont appris. En
+						sort-on avec une conscience plus délicate ? Y apprend-on à être plus réservé
+						et plus en garde ? En rapporte-t-on des idées plus pures, des façons de
+						parler moins libres, des manières d’agir plus chrétiennes ? Et au sortir des
+						spectacles, reste-t-il beaucoup de goût pour la dévotion ? Peut-on
+						disconvenir que cette licence effrénée du siècle, cette affreuse corruption
+						de mœurs dans tous les âges, ce dégoût de la piété si universel dans le
+						monde, cette différence, pour ne pas <pb n="78" xml:id="p78"/>dire, ce
+						mépris de la Religion, réduite presque aux seules bienséances parmi les
+						mondains, ne soient le fruit nécessaire de ces spectacles profanes ?</p>
+					<p>Et certes, à moins qu’on ne veuille étouffer jusques aux premiers principes
+						du bon sens et de la Religion, par quel artifice nouveau peut-on accorder
+						l’Evangile avec les spectacles ?</p>
+					<p>Le démon, dit Tertullien, ne conduit plus aux Temples des idoles, mais au théâtre et au bal,
+						où l’on voit des statues animées, des idoles vivantes, qui s’étudient par
+						tous les charmes à séduire le cœur, et à le faire apostasier. Aussi ne
+						trouve-t-on jamais de Chrétiens aux spectacles : et si on en trouve, dit-il,
+						c’est une marque qu’ils ne sont plus Chrétiens<note place="bottom" resp="editor"> [NDE] Tertullien, <hi rend="i">De Spectaculis</hi>, voir le corpus HDT.</note>.</p>
+					<p>La morale de notre Religion est aussi invariable que ses dogmes ; ce qui blessait la
+						conscience des premiers fidèles, peut-il n’être pas interdit à tous les
+						Chrétiens ? Mais ni l’Evangile, dit-on, ni l’Ecriture sainte, ne défend
+						nulle part la comédie, ni les autres spectacles profanes. Ainsi répondaient
+						autrefois à saint Cyprien, quelques libertins. L’Evangile et l’Ecriture
+						sainte, réplique ce grand Saint, a plus dit en se taisant sur ce point, que
+						si elle s’était <pb n="79" xml:id="p79"/>expliquée par des défenses
+						expresses. Et certes, quelle nécessité de faire un précepte pour des choses
+						qui étaient si visiblement indignes du nom chrétien, si contradictoirement
+						opposées à l’esprit, et aux maximes du christianisme.</p>
+					<p>Quels sentiments aurait eu Jésus-Christ des fidèles qu’il formait, s’il avait jugé
+						nécessaire de leur interdire par une loi expresse, des plaisirs païens ?
+						Quels sentimens auraient eu des fidèles, les Païensm êmes, s’ils avaient vu
+						qu’avec cette loi si pure, si sainte, si parfaite, qui condamne jusqu’à la
+						pensée du mal, qui oblige de tendre sans cesse à la perfection, ces fidèles
+						eussent eu besoin d’un commandement particulier, pour n’aller pas aux
+						spectacles ?</p>
+				</div2>
+				<div2 type="section">
+					<head>II.</head>
+					<p>Mais on se trompe de dire que l’Evangile, que l’Ecriture sainte ne défendent nulle part ces
+						divertissements profanes. Ils ne les défendent pas en particulier quelque
+						part, parce qu’ils les condamnent partout. Que signifie autre chose, tout ce
+						que l’Ecriture sainte dit de l’extrême pureté du cœur, qui est comme la base
+						de la vie chrétienne, tout ce qu’elle dit de la <pb n="80" xml:id="p80"
+						/>mortification des sens, de la légèreté de l’esprit, de la faiblesse de la
+						chair, de la force des passions, de la malice et des ruses du tentateur, du
+						danger de s’exposer aux moindres occasions d’être tenté ; enfin, tout ce
+						qu’elle dit de l’attention, et de la vigilance sur les désirs, de la
+						modération des plaisirs, des victoires sur son propre cœur, de la perversité
+						des maximes et des joies mondaines.</p>
+					<p>On demande où c’est que l’Evangile défend ces profanes divertissements ? On répond que tout
+						l’Evangile lui-même est une manifeste condamnation des spectacles.</p>
+					<p>Et certes, dût-on dépouiller le théâtre de ces charmes artificiels, qui en font un des
+						principaux agréments, et qui font tant d’impression sur l’âme ; on ne peut
+						dissimuler que tout ce qui est spectacle, n’excite la passion ; que tout ce
+						qui concourt à ce profane divertissement, tout ce qui flatte nos sens, est
+						un piège à la vertu.</p>
+					<p>Quelle si délicate pudeur, quelle innocence si austère, exposée sans préservatif à l’air du
+						monde le plus contagieux, au milieu d’une foule d’objets tous fort
+						tentants ; en butte et à découvert à une grêle de traits <pb n="81"
+							xml:id="p81"/>empoisonnés, peut sans miracle n’être point blessée ? Mais
+						quel droit d’attendre un miracle, à qui va s’exposer librement à un pareil
+						danger ?</p>
+					<p>Il est certain que les personnes les plus vertueuses, durcies, pour ainsi dire, dans les
+						plus longs travaux de la pénitence, aguerries après tant de combats, et
+						accoutumées à vaincre, n’oseraient s’exposer à un tel péril de crainte
+						d’être vaincues. Et l’on veut qu’une vertu naissante, ou, pour mieux dire,
+						que des gens sans vertu, la plupart même déjà vaincus par les ennemis qu’ils
+						vont chercher, soient dans ces assemblées sans danger.</p>
+					<p>Certainement tous les Saints qui ont parlé des spectacles n’en ont pas jugé ainsi.
+						Comptera-t-on pour rien le concours de tous les Saints à condamner ces
+						divertissements profanes ? Et les idées licencieuses d’une multitude de
+						libertins, à qui il plaît de n’approuver que ce qui flatte,
+						prévaudront-elles à la morale de l’Evangile, et à la doctrine des
+						Saints ?</p>
+					<p>On se récrie fort dans le monde contre cette morale : et l’on attribue à de faux préjugés le
+						zèle chagrin de ces docteurs qui croient qu’on ne peut assister à ces
+						spectacles profanes sans péché.</p>
+					<p><pb n="82" xml:id="p82"/>On convient que le théâtre païen doit être interdit aux Chrétiens,
+						mais on soutient que c’est le seul que les saints Pères condamnent, et que
+						le théâtre purgé, tel qu’il est aujourd’hui, de l’obscénité du spectacle,
+						n’a rien d’incompatible avec un cœur droit qui n’y cherche qu’un honnête
+						divertissement.</p>
+					<p>Ainsi raisonne-t-on pour tranquilliser une conscience qui s’alarme ; mais ceux qui
+						raisonnent ainsi ne penseront-ils jamais autrement ? Revenus de leurs
+						égarements par une grâce singulière, le théâtre ne sera pas autre qu’il est,
+						leur raison, leur religion sera la même. Auront-ils alors touchant les
+						spectacles les mêmes sentiments ? A la mort où l’on juge si sainement de
+						toutes choses, trouveront-ils les spectacles innocents ?</p>
+					<p>Mais, mon Dieu ! pour condamner de si profanes divertissements, pourquoi chercher ailleurs
+						d’autre raison que les spectacles mêmes.</p>
+					<p>Une salle, le rendez-vous de tous les libertins, et de tout ce qu’on appelle dans une ville
+						gens oisifs, gens de plaisirs : peu dont les mœurs ne soient corrompues,
+						moins encore qui soient de bonnes mœurs : une assemblée où règne un luxe
+						étudié, où tout éblouit, où tout <pb n="83" xml:id="p83"/>brille, et dans
+						laquelle il ne se trouve pas une jeune personne qui n’ait employé tout ce
+						que l’art a de plus séduisant pour plaire et pour tenter : Des loges pleines
+						d’écueils d’autant plus dangereux qu’ils sont plus à couvert, et d’où les
+						yeux peuvent rassembler plus d’objets à la fois, tous plus à craindre.</p>
+					<p>A ces périls muets et tranquilles, ajoutez le poison doux et insinuant des entretiens trop
+						libres. Nul autre langage n’est reçu dans ces lieux de plaisirs. Et quels
+						dangers, Seigneur, dans cette fatale nécessité de n’y avoir que des
+						conversations secrètes ?</p>
+					<p>N’est-ce pas vouloir prendre les gens de bien pour des stupides, et tout ce qu’il y a de
+						personnes sages, pour des idiots qui n’ont nulle connaissance du cœur
+						humain, que de vouloir nous faire accroire qu’il n’y a nul danger, que tout
+						est innocent dans ces spectacles ?</p>
+					<p>Ce ne sont là que des préludes des funestes conquêtes que font les passions dans ces sortes
+						de divertissements ; tout concourt à attendrir, à séduire ; on dirait que la
+						lumière du jour est trop pure pour n’être pas incommode : une médiocre
+						clarté est plus de l’art des spectacles. Les sens ne sont-ils pas <pb n="84"
+							xml:id="p84"/>d’abord pris par ce fracas de décorations, de voix,
+						d’instruments, de machines ; et les sens, d’intelligence avec les passions,
+						peuvent-ils laisser l’âme tranquille ?</p>
+					<p>Tout ce que l’harmonie a de charmes, tout ce que l’art peut donner de merveilleux à un
+						concert de voix et d’instruments, tout est employé pour attendrir, pour
+						toucher l’âme ; il n’en faudrait pas tant pour la rendre sensible.</p>
+					<p>Une décoration magnifique fixe les yeux, des machines de théâtre amusent l’esprit, le
+						dénouement des aventures l’enchante, et tout cela le met hors d’état de se
+						défier des surprises. Dans cette disposition de tous les sens, ou gagnés ou
+						captifs, et d’un cœur si près de l’être, on voit paraître sur la scène un
+						nombre choisi d’acteurs parés avec tout l’artifice que l’esprit du monde
+						peut imaginer pour séduire, et qui ajoute à l’artifice, tout ce que la
+						passion qu’ils expriment peut inspirer.</p>
+				</div2>
+				<div2 type="section">
+					<head>III.</head>
+					<p>Comme l’amour est la passion dominante du théâtre, il est aisé de comprendre à quelles fins
+						tendent toutes ces plaintes amoureuses, et tous ces recits <pb n="85"
+							xml:id="p85"/>tendres qui s’y font. De jeunes personnes qui se font un
+						point d’honneur de plaire, et qui sont gagées<note resp="editor"
+							place="bottom"> [NDE] gagées = engagées ou rétribuées.</note> pour
+						exprimer de la manière la plus vive une passion ; des gens qui n’ont d’autre
+						gloire que de se distinguer sur un théâtre, en inspirant la passion qu’ils
+						expriment ; des voix douces et insinuantes, accompagnées de mille manières
+						séduisantes, mêlées de paroles tendres, et de vers composés avec art, pour
+						inspirer l’amour ; tout cet assemblage prodigieux de dispositions, et de
+						choses, dont la moindre, prise séparément, est une tentation, ne sera tout
+						au plus, au sentiment des mondains, qu’un amusement indifférent, un
+						divertissement licite et innocent des gens du monde.</p>
+					<p>Eh quoi, Seigneur ! un objet trop mondain vu par hasard, un mot trop libre dit sans dessein,
+						une lecture peu modeste faite sans malice, mettent en danger la vertu la
+						plus affermie, et sont très souvent des sources de réprobation : et tout ce
+						que la passion a de plus vif et de plus empoisonné, tout ce que l’art de
+						tenter a de plus fin et de plus poli ; un assemblage de tout ce qui peut
+						séduire, ne sera ni une occasion prochaine de péché, ni un manifeste danger
+						à des gens nourris, la plupart dans <pb n="86" xml:id="p86"/>une criminelle
+						mollesse, nourris même dans le péché !</p>
+					<p>De bonne foi, ne serait-il pas plus aisé de croire qu’on peut se jeter dans un torrent
+						impétueux sans être emporté par le cours de l’eau, ou demeurer au milieu
+						d’un grand feu, sans ressentir les atteintes de la flamme !</p>
+					<p>Un nombre infini de Chrétiens se sont retirés dans le désert : plusieurs s’ensèvelissent,
+						encore tous les jours dans la solitude et dans le cloître pour éviter les
+						pièges et le péril, à quoi le commerce du monde les exposait. A peine la
+						solitude la plus retirée met-elle à l’abri de la passion ; l’iniquité naît,
+						pour ainsi dire, d’elle-même partout ; le tentateur attaque les héros
+						chrétiens jusques dans le lieu saint ; les longues austérités ne désarmant
+						pas l’ennemi, il faut être éternellement en garde contre son propre cœur, il
+						faut veiller, fuir, prier sans cesse, et encore l’assurance n’est pas
+						entière. Ainsi vivent ces âmes innocentes et vertueuses, tandis que ce qu’il
+						y a de plus faible parmi les Chrétiens, croit pouvoir assister tous les
+						jours sans périls, à ces spectacles profanes ; c’est-à-dire, s’exposer sans
+						défense à tous les traits empoisonnés des <pb n="87" xml:id="p87"/>ennemis
+						de notre salut, et se précipiter sans armes dans le plus redoutable de leurs
+						retranchements. Ce qui est un danger évident aux plus grands Saints,
+						cesse-t-il d’être un danger dès qu’on mène une vie peu chrétienne ? Et n’y
+						a-t-il qu’à n’être pas dévot, pour ne plus craindre la tentation ?</p>
+					<p>Mais on n’a nul motif criminel, dit-on ; c’est la curiosité, ce sont les voix, c’est la
+						symphonie qui nous attirent, comme si ces voix, ou cette symphonie pouvaient
+						être séparées des spectacles. Mais pour ne pas chercher la mort, est-on
+						moins en danger d’être percé de coups quand on s’expose à mille traits. Un
+						air contagieux épargne-t-il ceux qu’un motif innocent tire de la retraite ?
+						La curiosité met-elle en sûreté ceux qu’elle porte jusques dans les
+						retranchements des ennemis ? Et pour ne vouloir goûter que la douceur du
+						poison, expose-t-on moins sa vie ?</p>
+					<p>Si les spectacles profanes sont une occasion prochaine de péché, comme on n’en saurait
+						disconvenir, qui peut y assister en sûreté de conscience ?</p>
+					<p>On ne s’aperçoit pas, dit-on, que les spectacles aient fait nulle impression sur le cœur ;
+						on en sort innocent ; <pb n="88" xml:id="p88"/>peu s’en faut même qu’on ne
+						sache bon gré à ce profane amusement, de ce qu’il fixe pendant deux ou trois
+						heures un esprit si volage partout ailleurs, et qui ne se repaît, et ne
+						s’occupe que de la bagatelle.</p>
+					<p>Mais qu’il est à craindre, Seigneur, que cette prétendue insensibilité ne
+						soit l’effet d’une conscience apprivoisée avec le crime, et le fruit
+						d’une funeste captivité ; on laisse en paix un ennemi quand on le voit dans
+						les fers.</p>
+					<p>Rien n’étouffe tant la délicatesse de la conscience, que l’entière satisfaction des sens.
+						Les remords s’émoussent à force de piquer inutilement ; et cette voix
+						intérieure si propre pour avertir du danger, et pour éveiller le pécheur,
+						peut-elle se faire entendre dans le tumulte des spectacles ? Aussi elle ne
+						se tait jamais sitôt, que quand on s’expose librement, et de sang froid au
+						danger.</p>
+					<p>On ne sent, dit-on, nulle impression dans l’âme : les âmes les plus pures et les plus
+						mortifiées, les plus grands Saints même n’en diraient pas tant. Mais on vous
+						passe ce fait privilégié. Tous les poisons agissent-ils sur l’heure ? ne
+						s’en trouvent-ils pas qui sont d’autant plus pernicieux qu’ils agissent <pb
+							n="89" xml:id="p89"/>plus lentement ; parce qu’en cachant le péril, ils
+						mettent hors d’état d’apporter le remède ? Ceux qui arrêtent le mouvement
+						des esprits animaux, ne sont pas moins à craindre, que ceux qui leur en
+						donnent un violent et déréglé. L’ennemi du salut est trop malin et trop rusé
+						pour décrier les spectacles, en faisant trop de bruit. Il est de son intérêt
+						qu’on le regarde dans le monde comme un divertissement permis et honnête.
+						Mais, mon Dieu, à l’heure de la mort les regarde-t-on comme tels ?</p>
+					<p>Et ces Pasteurs lâches et complaisants qui laissent dévorer leurs brébis pour ne les pas
+						retirer du danger, qui ne pensent pas même qu’il y ait du péril ; ces
+						Pasteurs mols<note place="bottom" resp="editor"> [NDE] mols - mous.</note>
+						et indolents, qui, par une ignorance criminelle, ou par une complaisance
+						aussi coupable, les laissent paître dans des champs, à la vérité agréables
+						et fleuris, mais où l’air est contagieux, et où elles trouvent la mort dans
+						le pâturage. Ces Directeurs si peu dignes de l’être, qui de peur d’aigrir
+						ceux qu’ils croient avoir intérêt de ménager, les laissent marcher par la
+						voie de la perdition, sans leur dire mot, et les voient tranquillement venir
+						des spectacles au sacré Tribunal, et <pb n="90" xml:id="p90"/>passer de la
+						table de la Communion aux spectacles. Ces faux Prophètes, qui s’étudient à
+						ne dire jamais rien qui ne plaisent, et qui tâchent de se faire accroire à
+						eux-mêmes que c’est l’esprit de Dieu qui les guide, seront-ils bien reçus à
+						dire qu’ils ne pensaient pas qu’il y eût du mal d’assister quelquefois aux
+						spectacles, quand le Seigneur leur demandera compte de tant de gens qui s’y
+						seront perdus ?</p>
+					<p>Qu’on dise que les spectacles profanes sont un divertissement indifférent : quelle opinion
+						aurait-on cependant d’une mort soudaine, arrivée au milieu de la salle des
+						spectacles ? Pourrait-on s’empêcher de regarder comme un terrible châtiment
+						une telle mort, et ne regarderait-on pas comme une marque de réprobation, de
+						mourir sur un théâtre ? Eh mon Dieu ! pourquoi passer une partie de la vie
+						où l’on aurait horreur de mourir, et un sentiment si naturel n’est-il pas un
+						puissant préjugé contre la prétendue justification du théâtre profane ?</p>
+					<p>Vous nous exhortez, Seigneur, à veiller et à prier sans cesse, de peur d’être surpris par le
+						tentateur. On ne peut disconvenir que les spectacles ne soient pleins de
+						périls. Y est-on fort en <pb n="91" xml:id="p91"/>garde contre les amorces
+						de la passion ? Le cœur y est-il bien gardé ? Et qui s’est jamais avisé en
+						allant à ces profanes divertissements, de s’y préparer par la prière ?
+						Certainement l’esprit de Dieu porterait bien plutôt à éviter ces
+						divertissements dangereux, qu’à lui demander la grâce d’être préservé de la
+						corruption qui s’y rencontre.</p>
+					<p>Et certes, en quel part du monde les passions paraissent-elles dans un plus beau jour ? Où
+						est-ce que l’esprit du monde brille avec plus d’éclat ? Où est-ce que les
+						maximes sont enseignées avec plus de succès ? Où est-ce que le luxe et la
+						vanité sont inspirées avec plus de force et d’artifice ?</p>
+					<p>Qu’on se fasse un système de conscience, tel qu’on voudra ; que les libertins raisonnent
+						tant qu’ils voudront, il sera toujours faux que les spectacles profanes
+						soient licites ; il sera toujours vrai que les dangers qu’on y trouve, les
+						dispositions qu’on y apporte, la Religion qu’on professe, le sentiment et
+						l’exemple des Saints qu’on respecte, les obligations qu’on a, et
+						l’édification qu’on doit, que tout cela interdit aux Chrétiens la comédie,
+						les spectacles profanes, et toutes ces assemblées de plaisirs, d’où l’on ne
+						sort presque <pb n="92" xml:id="p92"/>jamais, que moins Chrétiens.</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>
