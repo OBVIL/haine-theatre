@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Comédies et les Tragédies corrompent les mœurs bien loin de les réformer.
+                    La représentation qu’on fait des Comédies et des Tragédies sur les Théâtres
+                    publics en augmente le danger. On ne peut assister au spectacle sans péril
+                    </title>
+                <author key="Lamy, Bernard (1640-1715)" ref="https://data.bnf.fr/fr/12094341/bernard_lamy/">Bernard Lamy</author>
+                <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/haine-theatre/lamy_comedies-et-tragedies_1668</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Bernard Lamy</author>, 
+                    <title>« Les Comedies et les Tragedies corrompent les mœurs bien loin
+                    de les reformer. La representation qu’on fait des Comedies et des Tragedies sur
+                    les Theatres publics en augmente le danger. On ne peut assister au spectacle
+                    sans peril », in <hi rend="i">Nouvelles Reflexions sur l’Art poëtique. Dans
+                        lesquelles en expliquant quelles sont les causes du plaisir que donne la
+                        Poësie, et quels sont les fondemens de toutes les Regles de cet Art, on fait
+                        connoître en même têms le danger qu’il y a dans la lecture des Poëtes</hi></title>,
+                        <pubPlace>Paris</pubPlace>, 
+                    <publisher>André Pralad</publisher>,
+                    <date>1668</date>, 
+                    <biblScope>Seconde Partie, chap. X et XI, p. 185-200.</biblScope> PDF : <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k78216">Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1668"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="frontispiece">
+                <head rend="sc">[frontispice]</head>
+                <p rend="center"><hi rend="uc">Nouvelles<lb/> Reflexions<lb/> sur<lb/> l’Art poëtique.</hi><lb/> Dans
+                    lesquelles en expliquant quelles sont<lb/> les causes du plaisir que donne la<lb/>
+                    Poësie, et quels sont les fondemens de<lb/> toutes les Regles de cet Art, on fait<lb/>
+                    connoître en même têms le danger<lb/> qu’il y a dans la lecture des Poëtes.<lb/><lb/> A PARIS<lb/>Chez <hi rend="sc">André Pralad</hi>, 
+                    ruë S. Jacques,<lb/>à l'Occasion.<lb/> M. DC. LXVIII.<lb/><hi rend="i"><hi rend="sc">avec privilege du roy.</hi></hi></p>
+            </div1>
+            <div1 type="chapter">
+                <pb n="185" xml:id="p185"/>
+                <head type="sur"><hi rend="sc">Chapitre</hi> X.</head>
+                <head type="main"><hi rend="i">Les Comédies et les Tragédies corrompent les
+                        mœurs, bien loin de les réformer.</hi></head>
+                <p><hi rend="big">L</hi>’<hi rend="sc">Expérience</hi> a toujours fait connaître que
+                    le Théâtre est une très méchante école de la vertu ; et que les moyens
+                    que les Poètes semblent employer pour corriger les hommes de leurs vices, sont
+                    plus propres à les y entretenir, qu’à les en délivrer<note n="a" place="bottom" resp="author"
+                            > [NDA] <hi rend="i">Boèce</hi>.</note>.
+                    « <quote>Assuefactio morbi, non liberatio.</quote> » Pour ce qui est de la
+                    Comédie, les Païens même ont reconnu combien elle était dangereuse, et que
+                    les jeunes gens ne devaient pas lire ces sortes d’Ouvrages, qu’après que leurs
+                    mœurs seraient tellement affermies, qu’elles ne pourraient plus en être
+                    blessées<note n="b" place="bottom" resp="author"> [NDA] <hi rend="i">Quintilien</hi>.</note>.
+                    <pb n="186" xml:id="p186"/>« <quote>Cum res fuerint in tuto.</quote> » Il est bien vrai que l’on
+                    y rend l’avarice ridicule, et que l’on y condamne les débauches des jeunes
+                    gens et leurs folles amours ; mais ce n’est point par des railleries que
+                    l’on détruit le vice, particulièrement celui de l’impureté ; ce mal est
+                    trop grand pour être gueri par un remède si faible, et même souvent on prend
+                    plaisir à s’en voir railler.</p>
+                <p>La raison et la Religion ne nous permettent pas de regarder simplement
+                    l’impureté comme une chose ridicule ; elles veulent que nous en ayons
+                    horreur, et elles demandent que nous en ayons tant d’éloignement, que nous
+                    n’y pensions jamais. Ce n’est que par la fuite que l’on défait ce monstre ;
+                    quelque mépris qu’on conçoive pour une action impure dont on voit la
+                    représentation, cette vue est seule capable de porter à la commettre. « <quote>Discitur adulterium, dum videtur.</quote> » La pente que nous avons vers
+                    les plaisirs est trop forte pour <pb n="187" xml:id="p187"/>être retenue par la seule honte,
+                    et on espère toujours la pouvoir éviter par le secret, dont on tâche de
+                    couvrir ses désordres aux yeux des hommes.</p>
+                <p>Outre cela, quoiqu’en disent les Poètes, leur dessein est plutôt de rendre le
+                    vice aimable que honteux. Ils ne condamnent effectivement et ne rendent
+                    ridicules que certains défauts moins considerables, comme l’humeur difficile des
+                    vieillards, leur avarice, leur sévérité envers la jeunesse, leur facilité à se
+                    laisser tromper. Mais l’impudicité règne dans leurs Ouvrages, quoi qu’elle y
+                    paraisse sous les habits de la vertu. Car enfin l’Idole de la Comédie est
+                    toujours un jeune homme qui est brûlé d’un feu criminel.</p>
+                <p>Par exemple, dans l’<hi rend="i">Andrienne</hi> de Terence, Pamphile entretient un très méchant
+                    commerce avec Glycérie, qui accouche avant le mariage. Cependant le Poète qui
+                    veut intéresser ses auditeurs dans la fortune de <pb n="188" xml:id="p188"/>Pamphile et de
+                    Glycérie, fait paraître ces deux jeunes gens aimables ; il en fait à la
+                    fois un monstre de vertu et de vice, ou plutôt un composé de vices effectifs
+                    sous des vertus apparentes, pour le rendre aimable ; de sorte que bien loin
+                    que des jeunes gens conçoivent de la honte de ces sortes d’amours, ils
+                    souhaiteraient ressembler à ces deux amants, dont les amours réussissent.</p>
+                <p>Pour en donner de l’horreur, le Poète auroit dû, non pas feindre ces succès
+                    imaginaires qui n’arrivent jamais ; mais rapporter simplement les malheurs
+                    où s’engage infailliblement un jeune homme, qui se marie à l’insu ou contre la
+                    volonté de ses parents. Ajoutons que l’on apprend dans les Comédies mille
+                    mauvaises intrigues pour faire réussir ces mariages qui sont contre les Lois,
+                    soit pour gagner, ou pour tromper un père ; et que l’on y tourne
+                    toujours en ridicules ceux qui veulent corriger la <pb n="189" xml:id="p189"/>jeunesse, et
+                    arrêter le cours de ses désordres.</p>
+                <p>La Tragédie n’est point si dangereuse que la Comédie ; mais elle l’est
+                    néanmoins beaucoup. Les vices dont elle donne de l’horreur, paraissent horribles
+                    d’eux-mêmes sans artifice. C’est un Œdipe qui tue son père, qui épouse sa mère.
+                    La seule crainte des supplices rigoureux ordonnés par les Lois retient assez de
+                    ce côté-là. Mais tous les autres vices, comme la haine, la vengeance,
+                    l’ambition, l’amour, y sont peints avec des couleurs qui les rendent aimables,
+                    comme nous avons remarqué.</p>
+                <p>Il est vrai que les Poètes ne louent pas ces vices, mais en louant les personnes
+                    en qui ils se trouvent, et les couvrant de tant d’excellentes qualités, ils
+                    font que non seulement on n’a pas de honte de leur ressembler, mais qu’on fait
+                    gloire d’avoir leurs defauts, C’est ainsi que faisaient les disciples de Platon,
+                    qui <pb n="190" xml:id="p190"/>contrefaisaient ses hautes épaules ; et ceux
+                    d’Aristote, qui affectaient de bégayer comme lui. Nous nous imaginons facilement
+                    que ceux qui remarqueront en nous ces mêmes défauts qui sont dans les grands
+                    hommes, jugeront que nous leur sommes semblables en tout le reste.</p>
+                <p>Cicéron reprend les Grecs de ce qu’ils avaient consacré les amours impudiques des
+                    Dieux, en faisant une divinité de Cupidon : et il dit qu’ils ne devaient
+                    rendre ce culte qu’à leurs vertus. Lactance remarque fort bien que ce n’est
+                    point assez, et qu’ils devaient entièrement quitter des Dieux vicieux qui
+                    nuisaient plus par l’exemple de leurs désordres, qu’ils ne pouvaient être utiles
+                    par l’exemple de leur vertu. Le mal a plus de force que le bien sur l’esprit de
+                    l’homme, et s’il se trouve une personne qui imite quelqu’une des vertus des
+                    Héros des Poètes, il y en a mille qui sont les imitateurs de leurs vices.</p>
+            </div1>
+            <div1 type="chapter">
+                <pb n="191" xml:id="p191"/>
+                <head type="sur"><hi rend="sc">Chapitre</hi> XI.</head>
+                <head type="main"><hi rend="i">La représentation qu’on fait des Comédies et des
+                        Tragédies sur les Théâtres publics, en augmente le danger. L’on ne peut
+                        assister aux spectacles sans péril.</hi></head>
+                <p><hi rend="big">L</hi>ES Poèmes Dramatiques sont plus dangereux que tous les
+                    autres Ouvrages de Poésie ; parce qu’on les représente sur les Théâtres
+                    publics. Ce que l’on voit faire touche bien d’avantage que ce que l’on ne fait
+                    qu’entendre. Un Comédien lascif émeut les passions des autres, en feignant d’en
+                    avoir lui-même. « <quote>Enervis<note n="a" place="bottom" resp="author"> [NDA] <hi rend="i"
+                        >Minucius Felix</hi>.</note>
+                    histrio, amorem dum fingit, infligit.</quote> » Lorsque ceux avec qui
+                    nous conversons, expriment vivement leurs affections, ils nous les
+                    communiquent ; <pb n="192" xml:id="p192"/>l’image de leurs actions, que nous voyons, le
+                    son des paroles qu’ils prononcent d’un ton élevé, excitent en notre âme des
+                    idées qui sont suivies des mêmes mouvements dont ils sont agités.</p>
+                <p>Comme la nature nous a faits les uns pour les autres, elle nous a liés par cette
+                    sympathie ou communication réciproque de nos passions ; de sorte qu’une
+                    personne vicieuse qui nous parle fortement, ne manque point de nous tourner
+                    l’esprit et le cœur comme le sien, et par consequent de nous infecter de
+                    son venin, à moins que nous nous tenions attachés à la vérité pour n’être pas
+                    ébranlés par ses paroles, et que nous n’excitions en nous-mêmes des passions
+                    opposées à celles qu’elle nous inspire. C’est pourquoi, comme Sénèque l’a fort
+                    bien remarqué dans l’une de ses <note n="a" place="bottom" resp="author"> [NDA] <hi rend="i"
+                            >Epist.</hi> 7.</note> Epîtres, il faut imiter ce que l’on voit
+                    faire sur le Théâtre, ou <pb n="193" xml:id="p193"/>en avoir de l’aversion. Il n’y a point de
+                    milieu, « <quote>necesse est aut imiteris, aut oderis</quote> ».</p>
+                <p>Or on ne va pas à la Comédie pour la censurer, et quand on y est, il est
+                    difficile que l’on ne s’y laisse surprendre par le plaisir que l’on y trouve,
+                    sous lequel les vices se glissent dans notre cœur. « <quote>Tunc enim per
+                        voluptatem facilius vitia surrepunt.</quote> » Ce qui fait dire à ce Philosophe,
+                    qu’il n’y a rien de plus dangereux pour les bonnes mœurs, que les Spectacles.
+                        « <quote>Nihil vero est tam damnosum bonis moribus, quam in aliquo
+                        spectaculo desidere.</quote> » Et quoiqu’il n’ait pas coutume de parler à son
+                    désavantage, il avoue que les Spectacles faisaient de si grands changements dans
+                    son cœur, qu’il en retournait non seulement plus avare, plus ambitieux, plus
+                    amateur des plaisirs et du luxe : mais encore plus cruel et moins
+                    homme ; parce, dit-il, que j’ai été avec des hommes ; « <quote>Avarior redeo, ambitiosior, <pb n="194" xml:id="p194"/>luxuriosior, imo vero crudelior
+                        et inhumanior, quia inter homines fui</quote>. »</p>
+                <p>Que l’on prouve si on le veut, que les Comédies qui se jouent aujourd’hui ne
+                    peuvent causer que des passions innocentes, et des sentiments raisonnables,
+                    qu’on en conclue qu’il n’y a aucun danger, que ceux qui les représentent, nous
+                    communiquent les mouvements qu’ils expriment ; cela ne s’accorde point du
+                    tout avec l’expérience ; et s’il était ainsi, les gens du siècle pour
+                    qui elles sont faites, ne s’y divertiraient nullement. Mais enfin, quand elles
+                    seraient bonnes en elles-mêmes, c’est-à-dire que sur le papier et dans la
+                    bouche des Acteurs elles n’auraient aucun venin ; on ne saurait dire que
+                    leur représentation avec toutes ses circonstances soit entièrement
+                    innocente.</p>
+                <p>Les Spectacles sont criminels par leur origine. Le vin, l’insolence, la violence,
+                    et le desir de médire les ont fait naître, ainsi que nous l’avons <pb n="195" xml:id="p195"
+                    />vu, et que l’a remarqué Tertullien<note n="a" place="bottom" resp="author"> [NDA] <hi rend="i"
+                            >Des Spectacles. ch.</hi> 5.</note>. « <quote>Facit enim hoc ad originis maculam, ne bonum existimes, quod
+                        initium a malo accepit, ab impudentia, a violentia, ab odio.</quote> » L’on sait
+                    quelle est la vie des Comédiens : on sait avec quelle sévérité les Lois
+                    civiles et Ecclésiastiques condamnent leur profession. Les unes ne les
+                    admettent point à la participation des Sacrements, et les autres les déclarent
+                    infâmes. On ne peut donc point sans pécher les entendre, et leur donner
+                    de quoi subsister, puisqu’on ne peut le faire sans les attacher à leur
+                    profession.</p>
+                <p>On ne va à la Comédie, dit-on ordinairement, que pour y prendre un plaisir
+                    honnête. Tertullien ne peut souffrir cette recherche des plaisirs. Il prouve
+                    invinciblement par ces belles paroles de <hi rend="sc">Jésus-Christ</hi> à ses
+                    Disciples, « <quote>Pendant que le monde se réjouira, vous serez dans la
+                        tristesse</quote> », que l’on ne peut être heureux ici sur la <pb n="196" xml:id="p196"/>terre
+                    et ensuite dans le Ciel, que chacun est heureux et malheureux à son tour.
+                        « <quote>Vicibus disposita res est.</quote> »</p>
+                <p>Pleurons-donc, dit ce Père, pendant que les gens du monde se réjouissent, afin
+                    que lorsqu’ils commenceront à tomber dans l’état épouventable des douleurs que
+                    la Justice de Dieu leur réserve, nous puissions entrer dans la joie que notre
+                    Seigneur prépare à ses Elus. Car si nous voulons être dans la joie avec eux dans
+                    ce monde, nous serons affligés avec eux éternellement. « <quote>Lugeamus
+                        ergo, dum ethnici gaudent, ut cum lugere cœperint, gaudeamus ; ne
+                        pariter nunc gaudentes, tunc quoque pariter lugeamus.</quote> » Cette Morale est
+                    un peu forte pour les Chrétiens de ce siècle. Accordons à la coutume qu’on peut
+                    aimer les divertissements et les rechercher ; mais aussi ne saurait-on
+                    dénier que les plaisirs criminels ou dangereux, tels qu’on a prouvé qu’est celui
+                    de la Comédie, ne soient <pb n="197" xml:id="p197"/>défendus. Outre les raisons que nous en
+                    avons apportées, l’on peut encore considérer que ce plaisir est contre la nature
+                    des divertissements licites, qui est de fortifier l’esprit en le relâchant, et
+                    de le rendre propre à exercer avec plus de vigueur ses fonctions ordinaires,
+                    et particulièrement celles où la Religion l’engage. Après la Comédie l’on
+                    n’est nullement disposé à la Prière, qui est la principale fonction des
+                    Chrétiens.</p>
+                <p>Il arrive la même chose à l’esprit qu’aux corps qui ont été mûs avec violence. Le
+                    branle de ce mouvement dure longtemps après l’action qui l’a causé. L’esprit se
+                    trouve encore à la Comédie après que l’on en est sorti, et comme il s’est
+                    accoutumé à des passions violentes, à voir des choses qui le remuent fortement,
+                    il devient insensible aux mouvements du S. Esprit qui sont modérés. Les douceurs
+                    que prennent les bonnes âmes dans la prière, lui semblent fades, ou <pb n="198" xml:id="p198"
+                    />plutôt il ne les goûte point. Cette raison ne paraîtra pas forte aux gens du
+                    monde ; cependant les Pères de l’Eglise qui connaissaient par la Foi la
+                    nécessité de la prière, l’ont fort pesée et s’en sont servis pour autoriser
+                    la défense qu’ils faisaient aux Chrétiens d’aller aux spectacles.</p>
+                <p>Il n’est pas possible de marquer ici tous les dangers que l’on court dans les
+                    spectacles. La cupidité y dresse partout des embûches. Non seulement les
+                    Comédiens et les Comédiennes, mais toutes les personnes qui vont à la
+                    Comédie, y paraissent avec tous leurs ornements : ce qui cause de plus
+                    dangereuses chutes, comme dit Tertullien ; « <quote>In omni spectaculo
+                        nullum magis scandalum occurrit, quam ille virorum et mulierum accuratior
+                        cultus.</quote> » La première pensée qu’on a en ces lieux, qui sont l’Eglise du
+                    Diable, comme le même Père les appelle ; <hi rend="i">Ecclesia
+                        Diaboli</hi>, c’est de voir et d’être vu. « <quote>Nemo in spectaculo
+                        incundo <pb n="199" xml:id="p199"/>prius cogitat, nisi videre et videri.</quote> » Ajoutons
+                    à ces raisons la défense que l’Eglise a toujours faite de se trouver aux
+                    spectacles.</p>
+                <p>C’était autrefois la marque, à laquelle les Païens connaissaient qu’un homme
+                    s’était fait Chrétien, lorsqu’il ne se trouvait point dans ces lieux, et
+                    qu’il en avait aversion. « <quote>De repudio spectaculorum intelligunt
+                        factum Christianum.</quote> » Et l’Eglise n’admettait personne au Baptème, comme
+                    elle fait encore aujourd’hui, qu’après avoir exigé cette promesse, que l’on
+                    renoncerait aux pompes du Diable, qui était le nom qu’on donnait aux spectacles,
+                    selon Tertullien.« <quote>Hæc est pompa diaboli, adversus quam in signaculo
+                        fidei juramus.</quote> » Cette seule défense, quand elle ne serait soutenue
+                    d’aucune raison, ne devrait-elle pas suffire à des Chrétiens pour les détourner
+                    de la Comédie, puisque nous devons une obeissance aveugle à l’autorité de
+                    l’Eglise, et que nous avons <pb n="200" xml:id="p200"/>renoncé à ces divertissements dans le
+                    Baptème ?</p>
+                <p>Des personnes de piété et d’érudition ont fait voir clairement en différents
+                    Traités qu’ils ont publiés sur cette matière, que la défense de l’Eglise, et
+                    ces promesses du Baptème regardent aussi bien les Comédies de ce temps, que les
+                    spectacles des anciens. Ce qui doit être évident à ceux qui auront lu avec
+                    quelque attention les Réflexions que nous avons faites jusqu’à présent, puisque
+                    les Pices de Théâtre étant composées aujourd’hui avec plus d’art, elles sont
+                    par conséquent plus dangereuses, selon les Réflexions du Chapitre troisième
+                    ci-dessus.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>
