@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mandement de Monseigneur l’Illustrissime et Révérendissime Evêque d’Arras
+                    contre la Comédie [4 décembre 1695]</title>
+                <author key="Rochechouart, Guy de Sève de (1640-1724)"
+                    ref="https://data.bnf.fr/fr/16743092/guy_de_seve_de_rochechouart/">Guy de Sève
+                    de Rochechouart, évêque d’Arras</author>
+                <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>François Lecercle</name>
+                    <resp>Responsable d'édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Clotilde Thouret</name>
+                    <resp>Responsable d'édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.fr/corpus/hainetheatre/rochechouart_mandement-comedie_1695</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Guy de Sève de Rochechouart, évêque d’Arras, « Mandement de Monseigneur l’Illustrissime et Reverendissime
+                            Evêque d’Arras contre la Comedie » [4 décembre 1695], in <hi rend="i">Recueil
+                        des Ordonnances, Mandemens et Censures de M. l’Evêque d’Arras, où l’on
+                        trouve d’excellentes regles pour la conduite des Ames, des Remedes éprouvez
+                        pour déraciner les Abus, des Instructions solides pour l’usage des
+                        Sacremens, des Moyens efficaces pour rétablir la Discipline
+                        Ecclesiastique</hi>, <pubPlace>Arras</pubPlace>, <publisher>César
+                        Duchamp</publisher>, <date>1710</date>, p. 34-37.
+                    PDF : <ref target="https://books.google.fr/books?id=LstsZ4cxFHEC"
+                    >Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1695"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="frontispiece">
+                <head rend="sc">[frontispice]</head>
+                <p rend="center"><hi rend="uc">Recueil des<lb/> Ordonnances, <lb/>Mandemens<lb/> et<lb/> Censures<lb/> de<lb/> M. l’Evêque d’Arras,<lb/> ou l’on
+                    trouve<lb/> d’excellentes regles</hi><lb/> Pour la conduite des <hi rend="sc">Ames</hi>, des <hi rend="sc">Remedes</hi> eprouvez<lb/>
+                    pour déraciner les Abus, des Instructions so-<lb/>lides pour l’usage des
+                    <hi rend="sc">Sacremens</hi>, des<lb/> Moyens efficaces pour rétablir la <hi rend="sc">Dis-<lb/>cipline
+                        Ecclesiastique</hi>.<lb/><lb/>A ARRAS<lb/>Chez <hi rend="sc">Cesar Duchamp</hi>, Immprimeur de Monseig-<lb/>neur l'Evêque d'Arras. 1710.<lb/><hi rend="i">Avec Approbation.</hi></p>
+            </div1>
+  
+            <div1 type="letter">
+                <pb n="34" xml:id="p34"/>
+                <head type="main">Mandement </head>
+                <head type="sub"><hi rend="i">De Monseigneur l’illustrissime et Révérendissime
+                        Evêque d’Arras contre la Comédie.</hi></head>
+                <p><hi rend="big">G</hi><hi rend="sc">Uy de Sève de Rochechouart</hi> par la grâce
+                    de Dieu et du S. Siège Apostolique Evêque d’Arras. A tous Fidèles de la Ville
+                    d’Arras Salut et Bénédiction. Il faut ignorer sa Religion pour ne pas connaître
+                    l’horreur qu’elle a marquée dans tous les temps des spectacles et de la Comédie
+                    en particulier. Les saints Pères la condamnent dans leurs écrits ; ils la
+                    regardent comme un reste du paganisme et comme une Ecole d’impureté. L’Eglise
+                    l’a toujours regardée avec abomination, et si elle n’a pas absolument rejeté de
+                    son sein ceux qui exercent ce métier infâme et scandaleux, elle les prive
+                    publiquement des Sacrements, et n’oublie rien pour marquer en toutes rencontres
+                    son aversion pour cet état et pour l’inspirer à ses Enfants. Des Rituels de
+                    Diocèses très réglés les mettent au nombre des personnes que les Curés sont
+                    obligés de traiter comme excommuniés ; celui de Paris les joint aux Sorciers et
+                    aux Magiciens, et les regarde comme manifestement infâmes : les Evêques les plus
+                    saints leur font refuser publiquement les Sacrements ; nous avons vu un des
+                    premiers Evêques de France ne vouloir pas par cette raison recevoir au mariage
+                    un homme de cet état ; <pb n="35" xml:id="p35"/>un autre ne vouloir pas leur
+                    accorder la Terre sainte ; et dans les Statuts d’un Prélat bien plus illustre
+                    par son mérite, par sa piété et par l’austérité de sa vie que par la pourpre
+                    dont il est revêtu, on les trouve avec les concubinaires, les Usuriers, les
+                    Blasphémateurs, les Femmes débauchées, les Excommuniés dénoncés, les Infâmes,
+                    les Simoniaques et autres personnes scandaleuses mis au nombre de ceux à qui on
+                    doit refuser publiquement la Communion.</p>
+                <p>Il est donc impossible de justifier la Comédie sans vouloir condamner l’Eglise,
+                    les saints Pères, les plus saints Prélats ; mais il ne l’est pas moins de
+                    justifier ceux qui par leur assistance à ces spectacles non seulement prennent
+                    part au mal qui s’y fait, mais contribuent en même temps à retenir ces
+                    malheureux ministres de Satan dans une profession, qui les séparant des
+                    Sacrements de l’Eglise, les met dans un état perpétuel de péché et hors de salut
+                    s’ils ne l’abandonnent.</p>
+                <p>Mais si la Comédie est criminelle dans tous les temps, combien le doit-elle être
+                    plus particulièrement dans ceux que l’Eglise consacre d’une manière particulière
+                    à la pieté et à la Pénitence tels que l’Avent et le Carême, et où par des
+                    Prières et dans des calamités publiques, elle implore, comme on le fait
+                    actuellement dans notre Diocèse, la miséricorde de Dieu et travaille à apaiser
+                    sa colère si manifestement irritée ; dans un temps en un mot où la nôtre est
+                    particulièrement occupé à attirer sa protection sur les Armes de notre
+                    invincible <pb n="36" xml:id="p36"/>Monarque, en n’oubliant rien pour sanctifier
+                    ceux qui les portent pour son service, et pour les rendre aussi bons serviteurs
+                    de Dieu que du Roi ?</p>
+                <p>Mais quelle doit être notre douleur de voir dans une Ville Chrétienne élever
+                    Autel contre Autel, la voix du Pasteur méprisée, une Mission établie en faveur
+                    du démon pour lui attirer des Esclaves, opposée à celle qui se fait pour
+                    augmenter le culte de Dieu et pour lui procurer des serviteurs fidèles ?</p>
+                <p>Nous nous reprocherions d’employer en cette occasion, pour arrêter ce mal,
+                    l’autorité que Dieu nous a mise en main, si nous n’avions pas auparavant
+                    inutilement employé nos remonstrances : mais l’ayant fait sans aucun fruit, Nous
+                    n’avons pas cru pouvoir nous taire, sans nous rendre coupables d’approuver le
+                    crime par notre silence, et responsables devant Dieu de tous les désordres, dont
+                    ces divertissements criminels sont la source.</p>
+                <p>A <hi rend="sc">ces causes</hi>, et attendu la circonstance particulière de
+                    l’Avent, de la Mission que nous faisons faire dans cette Ville, et des Prières
+                    publiques qui s’y font actuellement pour demander à Dieu la Paix, cette Paix que
+                    lui seul peut donner et que nous ne saurions lui demander avec trop d’ardeur ;
+                    quoique nous ne puissions ne pas condamner en tout temps la Comédie : Nous
+                    défendons particulièrement à tous les Fidèles de notre Diocese d’y aller pendant
+                    ce saint temps, consacré par lui-même et par tous les exercices publics de Piété
+                    que nous y faisons faire pour des sujets si <pb n="37" xml:id="p37"/>importants,
+                    et ce sous peine d’Excommunication : Nous ordonnons à nos Confesseurs de traiter
+                    dans le Tribunal conformément aux Règles marquées par l’Eglise ceux qui
+                    contreviendront à notre présente Ordonnance, et particulièrement les personnes
+                    de l’autre sexe que la pudeur devrait en détourner avec plus de soin. Et à
+                    l’égard des Comédiens et Comédiennes, Nous défendons très expressément à nos
+                    Pasteurs et à nos Confesseurs de les recevoir aux Sacrements si ce n’est qu’ils
+                    aient fait Pénitence de leur péché, donné des preuves d’amendement, renoncé à
+                    leur Etat, et réparé par une satisfaction publique, telle que nous jugerons à
+                    propos de leur ordonner, le scandale public qu’ils ont donné.</p>
+                <dateline>Fait et ordonné à Arras le quatrième jour de Décembre mil six cents
+                    quatre-vingt quinze.</dateline>
+                <signed><hi rend="i">Signé</hi> GUY Evêque
+                    d’Arras.</signed>
+                <p>Et plus bas. <hi rend="i">Par Monseigneur.</hi></p>
+                <signed><hi rend="sc">Caron</hi>.</signed>
+            </div1>
+        </body>
+    </text>
+</TEI>
