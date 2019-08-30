@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mandement de Monseigneur l’Illustrissime et Révérendissime Evêque d’Arras au
+                    sujet des Tragédies qui se représentent dans les Collèges de son Diocèse
+                    [25 septembre 1698]</title>
+                <author key="Rochechouart, Guy de Sève de (1640-1724)"
+                    ref="https://data.bnf.fr/fr/16743092/guy_de_seve_de_rochechouart/">Guy de Sève
+                    de Rochechouart, évêque d’Arras</author>
+                <editor key="Lecercle, Doranne">Doranne Lecercle</editor>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>François Lecercle</name>
+                    <resp>Responsable d'édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Clotilde Thouret</name>
+                    <resp>Responsable d'édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>contributeur</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://http://obvil.sorbonne-universite.fr/corpus/haine-theatre/rochechouart_mandement-tragedies_1698</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Guy de Sève de Rochechouart, évêque d’Arras, « Mandement de Monseigneur
+                    l’Illustrissime et Reverendissime Evêque d’Arras au sujet des Tragedies qui se
+                    representent dans les Colleges de son Diocese » [25 septembre 1698], in <hi
+                        rend="i">Recueil des Ordonnances, Mandemens et Censures de M. l’Evêque
+                        d’Arras, où l’on trouve d’excellentes regles pour la conduite des Ames, des
+                        Remedes éprouvez pour déraciner les Abus, des Instructions solides pour
+                        l’usage des Sacremens, des Moyens efficaces pour rétablir la Discipline
+                        Ecclesiastique</hi>, <pubPlace>Arras</pubPlace>, <publisher>César
+                        Duchamp</publisher>, <date>1710</date>, p. 37-42. PDF : <ref
+                        target="https://books.google.fr/books?id=LstsZ4cxFHEC">Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1698"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="frontispiece">
+                <head rend="sc">[frontispice]</head>
+                <p rend="center"><hi rend="uc">Recueil des<lb/> Ordonnances, <lb/>Mandemens<lb/> et<lb/> Censures<lb/> de<lb/> M. l’Evêque d’Arras,<lb/> ou l’on
+                    trouve<lb/> d’excellentes regles</hi><lb/> Pour la conduite des <hi rend="sc">Ames</hi>, des <hi rend="sc">Remedes</hi> eprouvez<lb/>
+                    pour déraciner les Abus, des Instructions so-<lb/>lides pour l’usage des
+                    <hi rend="sc">Sacremens</hi>, des<lb/> Moyens efficaces pour rétablir la <hi rend="sc">Dis-<lb/>cipline
+                        Ecclesiastique</hi>.<lb/><lb/>A ARRAS<lb/>Chez <hi rend="sc">Cesar Duchamp</hi>, Immprimeur de Monseig-<lb/>neur l'Evêque d'Arras. 1710.<lb/><hi rend="i">Avec Approbation.</hi></p>
+            </div1>
+            <div1 type="letter">
+                <pb n="37" xml:id="p37"/>
+                <head type="main">Mandement </head>
+                <head type="sub"><hi rend="i">De Monseigneur l’Illustrissime et Révérendissime
+                        <lb/>Evêque d’Arras au sujet des Tragédies qui <lb/>se représentent dans les
+                        Collèges de son Diocèse.</hi></head>
+                <p><hi rend="big">G</hi><hi rend="sc">Uy de Sève de Rochechouart</hi> par la Grâce
+                    de Dieu et du S. Siège Apostolique Evêque d’Arras. Il est de certains désordres,
+                    sur lesquels une longue habitude et une coutume invétérée ne permettent pas <pb
+                        n="38" xml:id="p38"/>quelquefois à des personnes d’une vie d’ailleurs
+                    exemplaire et irreprochable, de réfléchir. Les représentations qui se font dans
+                    les Collèges à la fin des Classes, qui d’elles-mêmes et réduites à de certaines
+                    bornes seraient innocentes, mais auxquelles on joint assez souvent des choses
+                    que l’on verrait bien qui ne le sont pas si on y faisait attention, sont de
+                    cette espèce. Il arrive cependant sur ce sujet, comme il est arrivé sur tant
+                    d’autres, des moments de lumière où la vérité se découvre, et où les excès
+                    deviennent si grands et si visibles, que l’on est obligé de parler et de donner
+                    des règles pour en arrêter la licence. Nous n’avons que trop de sujet de
+                    craindre dans notre Diocèse ces sortes d’excès, et nous nous trouvons par là
+                    dans l’obligation d’y donner des bornes. Nous nous ferons beaucoup de plaisir de
+                    profiter dans cette occasion des Règlements si sages et si chrétiens qui ont été
+                    faits depuis quelques années sur ce même sujet dans une des Universités du monde
+                    la plus fameuse et la plus célèbre, et d’en tirer une partie de ceux que nous
+                    croyons devoir faire pour notre Diocèse, et que nous ordonnons que l’on y
+                    observe.</p>
+                <div2 type="section">
+                    <head type="main">Règlements.</head>
+                    <p>I. Nous croyons pouvoir tolérer l’ancien usage de faire à la fin des Classes
+                        des Tragédies, pour apprendre aux Enfants à déclamer et leur inspirer une
+                        hardiesse honnête. Nous sommes persuadés néanmoins que l’on pourrait prendre
+                        pour y parvenir des voies <pb n="39" xml:id="p39"/>non seulement plus utiles
+                        aux Enfants à qui on fait perdre un temps infini, et aux Maîtres qui n’en
+                        perdent pas moins, occupés pendant plusieurs mois de la composition, du
+                        récit et du succès de leur ouvrage ; mais aussi plus conformes à la
+                        Religion, qui a toujours marqué beaucoup d’horreur pour les spectacles sans
+                        y mettre de distinction. La raison d’apprendre aux Enfants à déclamer, et de
+                        leur inspirer cette hardiesse honnête, nous paraît très faible, et il est
+                        fâcheux de dire et difficile de persuader, que l’on ne puisse apprendre
+                        l’un, ni se donner l’autre, que sur un Théâtre sur lequel on ne paraît
+                        qu’une ou deux fois au plus en sa vie, et sur lequel il serait très honteux
+                        de monter dans un âge plus avancé. Et peut-être trouverait-on, si on en
+                        voulait faire l’examen, que plusieurs de nos plus grands Prédicateurs et de
+                        nos plus célèbres Avocats n’y ont pas paru.</p>
+                    <p>II. Nous défendons de joindre à la représentation de ces Tragédies, des
+                        Comédies et des Opéra avec des danses qui ne peuvent être qu’une semence de
+                        corruption pour une jeunesse capable dans cet âge tendre de toute sorte
+                        d’impressions. On s’y servira beaucoup moins de certaines représentations
+                        bouffonnes très indignes du Christianisme, et que l’on ne voit et que l’on
+                        ne souffre qu’avec peine dans les Places publiques, telles que de Arlequins
+                        et semblables travestissements. Nous suivons avec plaisir sur le sujet de
+                        ces Tragédies l’esprit et les sentiments d’une savante Compagnie<note
+                            resp="editor" place="bottom"> [NDE] Cette citation se trouve dans les
+                            <hi rend="i">Maximes et Réflexions sur la Comédie</hi> de Bossuet.</note>, dont un des principaux emplois
+                        est l’instruction de la jeunesse. « <quote>Qu’elles ne soient faites <pb
+                                n="40" xml:id="p40"/>qu’en latin ; que l’usage en soit très rare ;
+                            qu’elles aient un sujet saint et pieux ; que les intermèdes des Actes
+                            soient tout latins et n’aient rien qui s’éloigne de la bienséance ; et
+                            que l’on n’y introduise aucun personnage de Femme, ni jamais l’habit de
+                            ce sexe.</quote> » Nous croyons devoir exhorter les Régents qui seront
+                        chargés de ces sortes d’ouvrages, de ne pas y donner si fort leur temps,
+                        qu’ils oublient le soin qu’ils doivent prendre de leurs Ecoliers ; et de se
+                        souvenir qu’ils doivent s’appliquer beaucoup plus à les rendre de bons
+                        Chrétiens, qu’à en faire de bons Acteurs.</p>
+                    <p>III. Nous défendons absolument et très étroitement de se servir de lieux
+                        saints ou consacrés par la célébration de nos saints mystères, pour la
+                        représentation de ces Tragédies à quelque point que l’on les réduise, mais
+                        beaucoup plus étroitement encore si on y joignait quelqu’une des choses que
+                        nous venons de défendre dans le précédent Règlement : et si ce scandale
+                        arrivait, comme cela nous paraîtrait une profanation publique de ces lieux,
+                        et une espèce d’abomination dans le lieu saint, Nous défendons très
+                        expressément à tous Prêtres du Clergé ou Réguliers d’y célébrer la S.
+                        Messe.</p>
+                    <p>IV. Nous exhortons tous les Recteurs et Supérieurs des Collèges de notre
+                        Diocèse qui y feront représenter des Tragédies, d’y mettre toute la
+                        différence qu’ils pourront d’avec celles qui se représentent par des
+                        Comédiens sur les Théâtres, et pour lesquelles l’Eglise a toujours témoigné
+                        tant d’horreur. Que l’on connaisse que c’est une instruction pour les <pb
+                            n="41" xml:id="p41"/>enfants, et non un divertissement qu’ils veulent
+                        donner au public. Que rien ne s’y passe dont ils ne soient instruits par
+                        avance, et dont dans la suite ils ne puissent nous être garants. Qu’ils y
+                        évitent avec soin toute immodestie, et tout excès dans la dépense qu’il y
+                        faudra faire. Qu’ils n’aient enfin en tout cela que le bien seul de la
+                        jeunesse qu’ils ont à conduire, et la plus grande gloire de Dieu en vue.</p>
+                    <p>V. Nous ne pretendons point par là condamner la dépense qui se fait pour
+                        donner aux enfants des prix qui leur donnent de l’émulation, et qui sont une
+                        récompense juste et glorieuse de leur travail. Comme elle n’est pas
+                        excessive, et qu’elle va d’ailleurs au bien de l’éducation de la Jeunesse
+                        qui est un bien solide, nous ne pouvons ne pas l’approuver.</p>
+                    <p>Nous n’empêchons pas non plus que l’on ne puisse mettre dans les entr’actes
+                        de ces Tragédies une Symphonie honnête et modeste : mais nous ne voulons pas
+                        que l’on y emploie des personnes consacrées à Dieu ou par l’Etat
+                        Ecclésiastique qu’ils ont embrassé, ou par les fonctions Ecclésiastiques
+                        qu’ils exercent dans des Eglises particulières où on les voit revêtus de
+                        Surplis. En effet n’est-ce pas un désordre manifeste et un scandale, que la
+                        même personne qui aura paru pendant les Offices Divins occupée à y chanter
+                        sous un habit Ecclésiastique les louanges de Dieu et à servir à l’Autel au
+                        plus redoutable de nos mystères, paraisse ensuite et quelquefois le même
+                        jour sur un Théâtre, ou fasse partie du spectacle ? N’est-ce pas là vouloir
+                        accorder contre la <pb n="42" xml:id="p42"/>défense de l’Apôtre, la lumière
+                        avec les ténèbres, et <hi rend="sc">Jésus-Christ</hi> avec Bélial ?</p>
+                    <p>VII. Nous défendons aussi de mêler des paroles profanes et qui sentent le
+                        libertinage du siècle, dans la Symphonie si on en emploie, et dans les
+                        Programmes qui restant dans les mains du public peuvent faire un mauvais
+                        effet s’ils ne sont exacts. Dans des lieux destinés pour apprendre aux
+                        enfants leur religion et la vertu plus que la science, que l’on se garde
+                        bien de leur inspirer des sentiments qui y soient contraires. Il n’est point
+                        de temps ni de spectacles qui puissent autoriser un langage séculier,
+                        voluptueux et mondain. C’est l’approuver que de s’en servir.</p>
+                    <p>VIII. Et que l’on ne nous allègue point la coutume pour autoriser ces
+                        désordres. Ce sont ces lâches condescendances sous le vain prétexte de
+                        s’accommoder à de mauvais usages et de conserver une fausse paix, qui sont
+                        la source féconde et malheureuse du relâchement que nous avons vu de la
+                        Morale Chrétienne dans notre temps, et de la réforme de tant de Compagnies
+                        qui ne se sont perdues que par là. Ce n’est point ce qui se fait ici ou là,
+                        comme parlait autrefois un grand Saint, ni ce qu’une mauvaise coutume, ou
+                        pour parler le langage d’un Saint Pape, une malheureuse corruption a
+                        insensiblement établi, qui doit être la règle de notre conduite. Ce sont les
+                        règles de l’Evangile et les Saints Canons que l’Eglise nous a donnés, qu’il
+                        faut écouter et qu’il faut suivre. Malheur à qui s’en écarte sous de vains
+                        prétextes, et qui se laisse conduire par des <pb n="43" xml:id="p43"/>guides
+                        des aveugles qui le mènent dans le précipice. Il n’y a point de prescription
+                        contre la vérité. Et il n’y a nul désordre qui ne pût passer, si la coutume
+                        qui est ordinairement pour le mal, suffisait pour l’autoriser.</p>
+                    <p>IX. Nous avons sujet de craindre que les règles que nous donnons ici à notre
+                        Diocèse, et que nous ordonnons d’y suivre, ne déplaisent peut-être à des
+                        particuliers plus esclaves de la coutume qu’instruits de leur Religion. Mais
+                        qu’importe qu’elles leur déplaisent, pourvu qu’elles vous plaisent ô mon
+                        Dieu. Trop heureux d’essuyer leur censure à ce prix. Et c’est en cette
+                        occasion que l’on peut dire ce qu’un de vos Apôtres<note place="bottom"
+                            resp="editor"> [NDE] Il s'agit de Saint Paul, dans sa lettre aux
+                            Galates.</note> disait autrefois, quoique prêt à se faire tout à tous
+                        pour les gagner tous, « <quote>Si hominibus placerem, Christi servus non
+                            essem.</quote> » </p>
+                    <p>Et sera notre présente Ordonnance signifiée à la diligence de notre Promoteur
+                        à tous Recteurs et Supérieurs de Collèges établis dans notre Diocèse, à ce
+                        que nul d’entre eux n’en ignore.</p>
+                    <dateline>Fait à Arras en notre Palais Episcopal le
+                        25. Septembre 1698.</dateline>
+                    <signed><hi rend="i">Signé</hi> GUY Evêque d’Arras.</signed>
+                    <p><hi rend="i">Par Monseigneur.</hi></p>
+                    <signed><hi rend="sc">Caron</hi>.</signed>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
